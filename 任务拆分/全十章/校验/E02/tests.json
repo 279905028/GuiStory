@@ -1,0 +1,813 @@
+{
+  "status": "passed",
+  "scope": "E02 in-memory compiler regression; isolated sample only",
+  "runAt": "2026-10-22T08:24:51.126Z",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "tests": 89,
+  "passed": 89,
+  "failed": 0,
+  "negativeTests": 83,
+  "inputFiles": [
+    {
+      "file": "任务拆分/全十章/samples/e02/manifest.json",
+      "sha256": "e351e5fc9a8e68d83461bc4d558e63209fad33e9c7e0b2211c22848ef8bdb0be"
+    },
+    {
+      "file": "任务拆分/全十章/contract.json",
+      "sha256": "4086571ab65e54271ec70e5a0a0712e00d0b2a1f6dae739b1df05a328ada1876"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/common/ch01.json",
+      "sha256": "a15ceac50cc84e0357333a8a3c15e1ac66ff26af5316b50ac571182070f68982"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/common/ch02.json",
+      "sha256": "7b1efc161f962743c69b3a501f79de7ad4c959f7aed86724fb181aabf3d9de67"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/common/ch03.json",
+      "sha256": "9e74695c37e8d6542bc089f19a01d2981be0d08f92dae4b7bec1f5eb83ed77cb"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/common/ch04.json",
+      "sha256": "f0f5a46373e566d1be383c3787d8e65d079cccaf0b7f4c3cc4c72367d8285149"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/routes/xiaoman.json",
+      "sha256": "a31ccf880009ff55935e4c0745bda9bf1b7163cb79ae80f3e76fe1f985fa4b25"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/routes/zhouzhi.json",
+      "sha256": "ec356a6d950b7e0239e124628046ad0490828a536c69d4dbf1118af106a31146"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/routes/mengyao.json",
+      "sha256": "ccad55340fe8f1865b1bab48bca3eab39542123238c22fc71e28fec6fd36d468"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/routes/yelan.json",
+      "sha256": "22ad8195ebdbfa18bd87fd89d442af653c5019336f5acb9c10338bed9f0d2bb1"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/routes/piao.json",
+      "sha256": "b6afe8a7393455da8aadb63f8adfaddd35cbf97b257f5777fb4c5de6a8c92ae5"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/routes/friends.json",
+      "sha256": "a77b79245b7a17735eefb31283cdbb66a21a2500e6c0f6c6be2d5deef6cbbb64"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/routes/huangqiuqiu.json",
+      "sha256": "15cb150485463802859bef6b5c54c27702d0521c72e6b6cf1b1762709c07c446"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/bindings.json",
+      "sha256": "3d52bf9294353946b24acd8c9e36d7051b3fdc4fcc3c5248fe396ebd0e00b8fe"
+    }
+  ],
+  "cases": [
+    {
+      "name": "基线样例编译与输入不可变",
+      "kind": "positive",
+      "status": "passed",
+      "statistics": {
+        "nodes": 31,
+        "edges": 41,
+        "choices": 3,
+        "options": 11,
+        "countsByType": {
+          "line": 22,
+          "end": 3,
+          "choice": 3,
+          "gate": 3
+        },
+        "exploredNodeStates": 115,
+        "distinctFlagStates": 33,
+        "mergedNodeStates": 0,
+        "transitions": 114,
+        "maximumFrontier": 8,
+        "terminalStates": 0,
+        "stoppedStates": 25
+      }
+    },
+    {
+      "name": "重复编译与重新加载输出确定一致",
+      "kind": "positive",
+      "status": "passed",
+      "outputSha256": "2169b016bdc712468b877847945bdb81c4cffd9584acb572971bd2110745744d"
+    },
+    {
+      "name": "E01 契约仅调用只读 validate",
+      "kind": "positive",
+      "status": "passed",
+      "sourceReferencesChecked": 296,
+      "routeSections": 56
+    },
+    {
+      "name": "严格 JSON 保留转义与合法标量",
+      "kind": "positive",
+      "status": "passed"
+    },
+    {
+      "name": "登记的第六章孟遥回叙场景合法",
+      "kind": "positive",
+      "status": "passed"
+    },
+    {
+      "name": "JSON 根对象重复键",
+      "kind": "negative-json",
+      "status": "passed",
+      "actualError": "JSON 根对象重复键: JSON 根对象重复键:19: 重复 JSON 键 nodes"
+    },
+    {
+      "name": "JSON 深层节点重复键",
+      "kind": "negative-json",
+      "status": "passed",
+      "actualError": "JSON 深层节点重复键: JSON 深层节点重复键:46: 重复 JSON 键 id"
+    },
+    {
+      "name": "JSON 转义后同名键",
+      "kind": "negative-json",
+      "status": "passed",
+      "actualError": "JSON 转义后同名键: JSON 转义后同名键:15: 重复 JSON 键 a"
+    },
+    {
+      "name": "JSON 原型污染键",
+      "kind": "negative-json",
+      "status": "passed",
+      "actualError": "JSON 原型污染键: JSON 原型污染键:12: 禁止原型键 __proto__"
+    },
+    {
+      "name": "JSON 缺逗号",
+      "kind": "negative-json",
+      "status": "passed",
+      "actualError": "JSON 缺逗号: JSON 缺逗号:8: 缺少逗号"
+    },
+    {
+      "name": "JSON 尾随内容",
+      "kind": "negative-json",
+      "status": "passed",
+      "actualError": "JSON 尾随内容: JSON 尾随内容:8: 多余内容"
+    },
+    {
+      "name": "JSON 对象尾随逗号",
+      "kind": "negative-json",
+      "status": "passed",
+      "actualError": "JSON 对象尾随逗号: JSON 对象尾随逗号:7: 对象键必须为字符串"
+    },
+    {
+      "name": "JSON 非法数值",
+      "kind": "negative-json",
+      "status": "passed",
+      "actualError": "JSON 非法数值: \"NaN\" is not valid JSON"
+    },
+    {
+      "name": "模块 schemaVersion 不一致",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "common/ch01 schemaVersion\n\n2 !== 1\n",
+      "details": null
+    },
+    {
+      "name": "模块 contractVersion 不一致",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "common/ch01 contractVersion\n\n'2.0.0' !== '1.0.0'\n",
+      "details": null
+    },
+    {
+      "name": "模块 contentRevision 不一致",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "common/ch01 contentRevision\n+ actual - expected\n\n+ 'other'\n- 'nightshift-20261022-r1'\n",
+      "details": null
+    },
+    {
+      "name": "空模块清单",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "模块清单不能为空",
+      "details": null
+    },
+    {
+      "name": "单个空模块",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "common/ch01禁止空模块",
+      "details": null
+    },
+    {
+      "name": "重复模块与节点",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "重复模块 common/ch01",
+      "details": null
+    },
+    {
+      "name": "伪造模块 owner",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "routes/xiaoman所有者\n\n'E05' !== 'E04'\n",
+      "details": null
+    },
+    {
+      "name": "未知 moduleId",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "未知 moduleId common/ch11",
+      "details": null
+    },
+    {
+      "name": "节点字典键与 id 不同",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c01_common_entry键与node.id不一致\n+ actual - expected\n\n+ 'tc_c01_common_other'\n- 'tc_c01_common_entry'\n                 ^\n",
+      "details": null
+    },
+    {
+      "name": "跨模块重复节点 ID",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "routes/zhouzhi非法或越权节点 tc_c03_xiaoman_entry",
+      "details": null
+    },
+    {
+      "name": "跨模块重复场景 ID",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "routes/zhouzhi非法或越权场景 ts_c03_xiaoman_sample",
+      "details": null
+    },
+    {
+      "name": "节点未知字段不能被静默忽略",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c01_common_entry未知字段 requires",
+      "details": null
+    },
+    {
+      "name": "节点使用其他模块场景",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c01_common_entry场景必须属于本模块同章",
+      "details": null
+    },
+    {
+      "name": "场景显示日序与 chronology 不一致",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "ts_c01_common_rhythm day\n\n2 !== 1\n",
+      "details": null
+    },
+    {
+      "name": "场景日序超出本章",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "ts_c01_common_rhythm日序越界",
+      "details": null
+    },
+    {
+      "name": "章末冒用路线时间地点",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "ts_c01_common_end章末显示\n+ actual - expected\n\n  [\n    null,\n    '第1—7天',\n    '章末',\n+   '网吧'\n-   ''\n  ]\n",
+      "details": null
+    },
+    {
+      "name": "未登记路线回叙",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "ts_c03_xiaoman_sample未经契约声明的回叙",
+      "details": null
+    },
+    {
+      "name": "同负责人跨路线读取状态",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c03_xiaoman_entry跨路线读取 zhouzhiOuting",
+      "details": null
+    },
+    {
+      "name": "共通负责人越权读取球球形态",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c02_common_reply_record_gate越权读取 qiuForm",
+      "details": null
+    },
+    {
+      "name": "未知状态字段",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c02_common_reply_record_gate状态或枚举值非法",
+      "details": null
+    },
+    {
+      "name": "错误状态枚举",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c02_common_reply_record_gate状态或枚举值非法",
+      "details": null
+    },
+    {
+      "name": "选择不能写形态",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c01_common_rhythm_record_choice不是契约选择",
+      "details": null
+    },
+    {
+      "name": "选择顺序不能互换",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c01_common_rhythm_record_choice选项顺序/文案/条件\n+ actual - expected\n\n  [\n+   '先回柜台，暂时不记',\n+   'ignore',\n-   '再听一遍，把三拍记下来',\n-   'record',\n    []\n  ]\n",
+      "details": null
+    },
+    {
+      "name": "选择标签不得编造",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c01_common_rhythm_record_choice选项顺序/文案/条件\n+ actual - expected\n\n  [\n+   '新文案',\n-   '再听一遍，把三拍记下来',\n    'record',\n    []\n  ]\n",
+      "details": null
+    },
+    {
+      "name": "隐藏选项不得删除资格",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c03_common_route_choice选项顺序/文案/条件\n+ actual - expected\n\n  [\n    '兑现与黄球球的约定。',\n    'huangqiuqiu',\n+   []\n-   [\n-     {\n-       flag: 'qiuSignal',\n-       value: 'record'\n-     },\n-     {\n-       flag: 'qiuReply',\n-       value: 'reply'\n-     },\n-     {\n-       flag: 'qiuMet',\n-       value: true\n-     }\n-   ]\n  ]\n",
+      "details": null
+    },
+    {
+      "name": "第八天回应不能添加隐藏前提",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c02_common_rhythm_reply_choice选项顺序/文案/条件\n+ actual - expected\n\n  [\n    '敲回刚才的节奏',\n    'reply',\n+   [\n+     {\n+       flag: 'qiuSignal',\n+       value: 'record'\n+     }\n+   ]\n-   []\n  ]\n",
+      "details": null
+    },
+    {
+      "name": "选择提示必须为字符串",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c01_common_rhythm_record_choice.text必须为字符串",
+      "details": null
+    },
+    {
+      "name": "非登记行自动赋值",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c01_common_entry未经登记的自动事件",
+      "details": null
+    },
+    {
+      "name": "自动事件前提缺一条",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c02_common_qiu_met自动事件必须原样匹配\n+ actual - expected\n\n  {\n    requires: [\n      {\n        flag: 'qiuSignal',\n        value: 'record'\n      },\n-     {\n-       flag: 'qiuReply',\n-       value: 'reply'\n-     }\n    ],\n    setFlags: {\n      qiuMet: true\n    }\n  }\n",
+      "details": null
+    },
+    {
+      "name": "自动事件前提误放行顶层",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c02_common_qiu_met未知字段 requires",
+      "details": null
+    },
+    {
+      "name": "自动事件不得增加关系写入",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c02_common_qiu_met自动事件必须原样匹配\n+ actual - expected\n... Skipped lines\n\n  {\n    requires: [\n      {\n        flag: 'qiuSignal',\n        value: 'record'\n...\n    setFlags: {\n+     piaoRelationship: 'dating',\n      qiuMet: true\n    }\n  }\n",
+      "details": null
+    },
+    {
+      "name": "自动事件不得提前日期",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c02_common_qiu_met自动事件日时\n+ actual - expected\n\n  [\n+   8,\n+   '19:40'\n-   14,\n-   '20:30'\n  ]\n",
+      "details": null
+    },
+    {
+      "name": "自动事件来源不得提前到另一行",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "重复正文来源 项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md:269；同一行拆分时在同一条nodeIds中登记",
+      "details": null
+    },
+    {
+      "name": "合法图不得绕过事件前提",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "[E02 graph] tc_c02_common_qiu_met 的 onEnter.requires 不成立，不能跳过事件或先赋值",
+      "details": {
+        "nodeId": "tc_c02_common_qiu_met",
+        "flagsBefore": {
+          "qiuMet": false,
+          "qiuForm": "sphere",
+          "qiuSignal": "record",
+          "qiuReply": "leave"
+        },
+        "flagsAfter": {
+          "qiuMet": false,
+          "qiuForm": "sphere",
+          "qiuSignal": "record",
+          "qiuReply": "leave"
+        },
+        "choices": [
+          {
+            "nodeId": "tc_c01_common_rhythm_record_choice",
+            "index": 0,
+            "flag": "qiuSignal",
+            "value": "record",
+            "label": "再听一遍，把三拍记下来"
+          },
+          {
+            "nodeId": "tc_c02_common_rhythm_reply_choice",
+            "index": 1,
+            "flag": "qiuReply",
+            "value": "leave",
+            "label": "不敲门，先离开"
+          }
+        ]
+      }
+    },
+    {
+      "name": "普通 gate 不得 default:null",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c02_common_reply_record_gate default:null仅用于exhaustive gate",
+      "details": null
+    },
+    {
+      "name": "穷尽 gate 未覆盖可达合法值",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "[E02 graph] 穷尽门禁 tc_c02_common_reply_record_gate 未命中任何 case",
+      "details": {
+        "nodeId": "tc_c02_common_reply_record_gate",
+        "flagsBefore": {
+          "qiuMet": false,
+          "qiuForm": "sphere",
+          "qiuSignal": "ignore",
+          "qiuReply": "reply"
+        },
+        "flagsAfter": {
+          "qiuMet": false,
+          "qiuForm": "sphere",
+          "qiuSignal": "ignore",
+          "qiuReply": "reply"
+        },
+        "choices": [
+          {
+            "nodeId": "tc_c01_common_rhythm_record_choice",
+            "index": 1,
+            "flag": "qiuSignal",
+            "value": "ignore",
+            "label": "先回柜台，暂时不记"
+          },
+          {
+            "nodeId": "tc_c02_common_rhythm_reply_choice",
+            "index": 0,
+            "flag": "qiuReply",
+            "value": "reply",
+            "label": "敲回刚才的节奏"
+          }
+        ]
+      }
+    },
+    {
+      "name": "gate 相同条件重复",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c02_common_reply_record_gate gate条件重复",
+      "details": null
+    },
+    {
+      "name": "line.next 悬空",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c01_common_entry悬空引用 tc_c01_common_missing",
+      "details": null
+    },
+    {
+      "name": "option.next 悬空",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c01_common_rhythm_record_choice悬空引用 tc_c01_common_missing",
+      "details": null
+    },
+    {
+      "name": "gate.case.next 悬空",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c02_common_reply_record_gate悬空引用 tc_c02_common_missing",
+      "details": null
+    },
+    {
+      "name": "gate.default 悬空",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c02_common_reply_record_gate悬空引用 tc_c02_common_missing",
+      "details": null
+    },
+    {
+      "name": "漏报 imports",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "common/ch01 imports必须精确列出外部引用\n+ actual - expected\n\n+ [\n+   'tc_c02_common_entry'\n+ ]\n- []\n",
+      "details": null
+    },
+    {
+      "name": "imports 额外列本地节点",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "common/ch01 imports必须精确列出外部引用\n+ actual - expected\n\n  [\n-   'tc_c01_common_entry',\n    'tc_c02_common_entry'\n  ]\n",
+      "details": null
+    },
+    {
+      "name": "imports 重复",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "common/ch01 imports重复",
+      "details": null
+    },
+    {
+      "name": "公开入口未导出",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c01_common_entry公开接口未导出",
+      "details": null
+    },
+    {
+      "name": "跨模块引用非导出节点",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c01_common_exit引用未导出的节点 tc_c02_common_entry",
+      "details": null
+    },
+    {
+      "name": "导出别名不是真实同名节点",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "common/ch01 exports必须指向同名真实本地节点",
+      "details": null
+    },
+    {
+      "name": "同章路线跨线跳转",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c03_xiaoman_entry路线越界跳转 tc_c03_zhouzhi_entry",
+      "details": null
+    },
+    {
+      "name": "路线直接越章",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c03_xiaoman_entry路线越界跳转 tc_c04_common_entry",
+      "details": null
+    },
+    {
+      "name": "共通非章末越章",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c01_common_entry非法跨章跳转",
+      "details": null
+    },
+    {
+      "name": "章末跳到错误章节",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c01_common_exit下一章入口\n+ actual - expected\n\n+ 'tc_c03_common_entry'\n- 'tc_c02_common_entry'\n        ^\n",
+      "details": null
+    },
+    {
+      "name": "章末保留旧预告标题",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c01_common_exit下一章标题\n+ actual - expected\n\n+ '旧三章预告'\n- '第二章 · 语音里的那个人'\n",
+      "details": null
+    },
+    {
+      "name": "静态自环",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "[E02 graph] 静态图存在环：tc_c01_common_entry -> tc_c01_common_entry",
+      "details": {
+        "cycle": [
+          "tc_c01_common_entry",
+          "tc_c01_common_entry"
+        ]
+      }
+    },
+    {
+      "name": "存在不可达正文节点",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "[E02 graph] 存在不可达节点或选项：节点 1，选项 0",
+      "details": {
+        "unreachableNodes": [
+          "tc_c01_common_unreachable"
+        ],
+        "unreachableOptions": []
+      }
+    },
+    {
+      "name": "路线分流值与真实路线入口不符",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "[E02 graph] 路线串线：tc_c03_xiaoman_entry 要求 route=xiaoman，实际为 zhouzhi",
+      "details": {
+        "nodeId": "tc_c03_xiaoman_entry",
+        "flagsBefore": {
+          "qiuMet": false,
+          "qiuForm": "sphere",
+          "qiuSignal": "ignore",
+          "qiuReply": "leave",
+          "route": "zhouzhi"
+        },
+        "flagsAfter": {
+          "qiuMet": false,
+          "qiuForm": "sphere",
+          "qiuSignal": "ignore",
+          "qiuReply": "leave",
+          "route": "zhouzhi"
+        },
+        "choices": [
+          {
+            "nodeId": "tc_c01_common_rhythm_record_choice",
+            "index": 1,
+            "flag": "qiuSignal",
+            "value": "ignore",
+            "label": "先回柜台，暂时不记"
+          },
+          {
+            "nodeId": "tc_c02_common_rhythm_reply_choice",
+            "index": 1,
+            "flag": "qiuReply",
+            "value": "leave",
+            "label": "不敲门，先离开"
+          },
+          {
+            "nodeId": "tc_c03_common_route_choice",
+            "index": 1,
+            "flag": "route",
+            "value": "zhouzhi",
+            "label": "约周栀吃一顿不赶着上班的饭，继续认识彼此的日常。"
+          }
+        ]
+      }
+    },
+    {
+      "name": "来源不在正文基线",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "common/ch01 sourceMap来源不在基线",
+      "details": null
+    },
+    {
+      "name": "来源行号越界",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "common/ch01 sourceMap来源范围非法",
+      "details": null
+    },
+    {
+      "name": "来源反向行范围",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "common/ch01 sourceMap来源范围非法",
+      "details": null
+    },
+    {
+      "name": "来源映射到不存在节点",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "common/ch01来源指向非本章节点",
+      "details": null
+    },
+    {
+      "name": "来源跨章认领",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "common/ch01 sourceMap来源章节越权",
+      "details": null
+    },
+    {
+      "name": "同负责人来源跨路线认领",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "routes/xiaoman sourceMap来源段越权",
+      "details": null
+    },
+    {
+      "name": "正文节点缺少来源",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c01_common_entry缺少来源映射",
+      "details": null
+    },
+    {
+      "name": "同段正文重复映射到不同播放节点",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "重复正文来源 项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md:55；同一行拆分时在同一条nodeIds中登记",
+      "details": null
+    },
+    {
+      "name": "排除项不允许任意理由",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "common/ch01 exclusion.reason",
+      "details": null
+    },
+    {
+      "name": "资产语义请求越章",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "common/ch01未知或越权资产语义 e01-art-ch10",
+      "details": null
+    },
+    {
+      "name": "正文缺齐不能伪装完整候选",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c04_common_entry line.next缺失",
+      "details": null
+    },
+    {
+      "name": "绑定不得覆盖正文 text",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "演出覆盖 tc_c01_common_entry未知字段 text",
+      "details": null
+    },
+    {
+      "name": "绑定不得改变 next",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "演出覆盖 tc_c01_common_entry未知字段 next",
+      "details": null
+    },
+    {
+      "name": "绑定节点不存在",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "绑定目标不存在 tc_c01_common_missing",
+      "details": null
+    },
+    {
+      "name": "同字段重复绑定",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "重复演出覆盖 nodes.tc_c01_common_entry.bg",
+      "details": null
+    },
+    {
+      "name": "背景绑定缺失",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "ts_c01_common_rhythm缺少背景绑定 sample-bg",
+      "details": null
+    },
+    {
+      "name": "绑定资源重名",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "重复资源绑定 backgrounds.sample-bg",
+      "details": null
+    },
+    {
+      "name": "角色演出引用缺失",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c01_common_entry角色绑定悬空",
+      "details": null
+    },
+    {
+      "name": "样例起点不存在",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "[E02 graph] 入口不存在：tc_c01_common_missing",
+      "details": null
+    },
+    {
+      "name": "样例停止边界不是空后继行",
+      "kind": "negative",
+      "status": "passed",
+      "actualError": "tc_c04_common_entry line.next缺失",
+      "details": null
+    },
+    {
+      "name": "全部测试后输入与 E01 历史报告指纹不变",
+      "kind": "protection",
+      "status": "passed",
+      "filesChecked": 15
+    }
+  ],
+  "notValidated": [
+    "正式十章正文",
+    "E08 播放器与存读档",
+    "浏览器与设备",
+    "资源采用",
+    "发布"
+  ]
+}

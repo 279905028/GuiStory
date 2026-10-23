@@ -1,0 +1,80 @@
+{
+  "character": "黄球球",
+  "form": "human",
+  "date": "2026-10-22",
+  "tool": "image_gen.imagegen built-in",
+  "purpose": "单张人形基础透明立绘，腰部截幅",
+  "status": "generated_qa_passed_pending_user_review",
+  "referencePhoto": "assets/references/huangqiuqiu-human-20261022/user-reference.jpg",
+  "styleReferences": [
+    "assets/char-piao.webp",
+    "assets/char-xiaoman.webp"
+  ],
+  "prompts": [
+    "prompt.txt",
+    "framing-prompt.txt"
+  ],
+  "originalGeneratedSource": "/Users/yipin/.codex/generated_images/01a16172-457f-7e63-a052-eef87b87fa60/exec-05f2c1af-b8ec-40df-bdbd-e927f86ef66b.png",
+  "original": "char-huangqiuqiu-human-base.png",
+  "preferred": "char-huangqiuqiu-human-base.webp",
+  "originalSha256": "5bb91eb4b58ac5eb630fa09cd4948d0a5a4b582bd2de46af57f8199e8ba93925",
+  "webpSha256": "4e458e5fe38514e3eb4a0ae61fc2023166f078b2370e4836cb1557a6c56cd3d2",
+  "byteIdenticalToGenerated": true,
+  "width": 1024,
+  "height": 1536,
+  "alpha": {
+    "min": 0,
+    "max": 254,
+    "fullyTransparentPixels": 575841,
+    "pixelsAtLeast240": 955730,
+    "bboxAbove127": [
+      40,
+      85,
+      999,
+      1527
+    ],
+    "opaquePixelsTouchingSides": 0
+  },
+  "conversion": {
+    "encoder": "sharp",
+    "lossless": true,
+    "effort": 6,
+    "visiblePixelsEqual": true,
+    "dimensionsUnchanged": true,
+    "alphaUnchanged": true,
+    "transparentRgbChannelDifferences": 1572090,
+    "note": "沿用项目转换规范，仅完全透明像素下的不可见 RGB 允许编码器归零；全部可见颜色及 alpha 逐值一致。"
+  },
+  "gameIntegrated": false,
+  "expressionsGenerated": false,
+  "qa": {
+    "lightDark": "qa/huangqiuqiu-human-art-20261022/light-dark.png",
+    "detail": "qa/huangqiuqiu-human-art-20261022/face-hand-detail.png",
+    "protectedFileCount": 17,
+    "protectedChanges": [],
+    "report": "qa/huangqiuqiu-human-art-20261022/report.md"
+  },
+  "visualReview": {
+    "singleImage": true,
+    "lightDarkComposite": true,
+    "faceAndHandDetail": true,
+    "independentReview": true,
+    "result": "reviewed_static_art_no_required_repair",
+    "gameVerified": false
+  },
+  "generationHistory": [
+    {
+      "stage": "initial",
+      "file": "generated-v1.png",
+      "source": "/Users/yipin/.codex/generated_images/01a16172-457f-7e63-a052-eef87b87fa60/exec-7aae4c49-27b4-4f35-bb61-c8364e2b03c4.png",
+      "selected": false,
+      "reason": "袖部距离画布边缘过近"
+    },
+    {
+      "stage": "framing_revision",
+      "file": "char-huangqiuqiu-human-base.png",
+      "source": "/Users/yipin/.codex/generated_images/01a16172-457f-7e63-a052-eef87b87fa60/exec-05f2c1af-b8ec-40df-bdbd-e927f86ef66b.png",
+      "selected": true
+    }
+  ]
+}

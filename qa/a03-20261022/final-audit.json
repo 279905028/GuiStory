@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-22",
+  "pass": true,
+  "webpFilesVerified": 24,
+  "assetIdsCovered": 12,
+  "brokenReferences": [],
+  "markdownLinksChecked": 62,
+  "badLinks": [],
+  "reusedPngComparisons": [
+    {
+      "id": "tc-char-huangqiuqiu-orb-base",
+      "sourcePng": "assets/char-huangqiuqiu.png",
+      "sourceSha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9",
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 740791
+    },
+    {
+      "id": "tc-char-huangqiuqiu-orb-expression-serious",
+      "sourcePng": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.png",
+      "sourceSha256": "40bba14a54428b8a6772793a46f45803877912465600c1f8096b95bc3e562a90",
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 481462
+    },
+    {
+      "id": "tc-char-huangqiuqiu-orb-expression-smile",
+      "sourcePng": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.png",
+      "sourceSha256": "d1303d347f0842ffe594d4b02d07490bc130a6073af872c54d9f7daf3a5fd063",
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 470778
+    },
+    {
+      "id": "tc-char-huangqiuqiu-orb-expression-hesitant",
+      "sourcePng": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.png",
+      "sourceSha256": "84e93a43e63e816d8b942991d0b02026492d2245d54de1d9de15e4dd8cabbb4f",
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 385314
+    }
+  ],
+  "baselineFiles": 631,
+  "taskChangedExisting": [
+    "TODO与多窗口提示词-v0.4.md"
+  ],
+  "observedConcurrentChanges": [
+    "任务拆分/全十章/交接/E02.md",
+    "任务拆分/全十章/校验/E02/integration-tests.json",
+    "任务拆分/全十章/校验/E02/tests.json",
+    "任务拆分/全十章开发计划.md"
+  ],
+  "protectedChanged": [],
+  "missing": [],
+  "gitStatus": "系统git被Xcode许可提示阻挡；使用文件SHA256比较，未声明Git检查通过",
+  "runtimeIntegrationTested": false
+}

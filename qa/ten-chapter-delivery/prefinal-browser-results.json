@@ -1,0 +1,675 @@
+{
+  "task": "E11",
+  "evidenceLayer": "独立解压包真实浏览器验收",
+  "packageRoot": "/private/tmp/cjb-e11-解压 空格-SMkj2q/bi-jie-ten-chapter-nightshift-20261022-r1-e11",
+  "gameRoot": "/private/tmp/cjb-e11-解压 空格-SMkj2q/bi-jie-ten-chapter-nightshift-20261022-r1-e11/game",
+  "scope": "仅本地交付；独立临时 profile；file 完全离线和包自带 localhost 服务；390px 为桌面模拟，不是实体手机",
+  "environment": {
+    "node": "v24.18.1",
+    "platform": "darwin",
+    "arch": "arm64",
+    "playwright": "1.62.1"
+  },
+  "runtimeHashes": {
+    "index.html": "0266a5c542894ef8eaa42f36acdbdb1079a6c1ca94236cfe0a4645813ea09191",
+    "styles.css": "8b7d93a3763959fe0a50188f1c0b6682354c2cde7c6bee439bd03851c4da870b",
+    "story.js": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60",
+    "engine.js": "363e4a9b1ddd9d6e012b6623af04c54f9fc077a065e9d1ee3b61981e9be5e39a",
+    "save-compat.js": "11cc52079a67a2ee32244206b79bb11e1cfe71874227aefdd1e768594a0e816f",
+    "player-runtime.js": "f0c36ff43ac205be2878d84a057b2760d37f755de9a218b916a7e57c620affd0",
+    "game.js": "7021053d5491f6140ce28b9d3bc921e8d65a62921de3f16886fceac0b42848ff"
+  },
+  "manifestSha256": "de3626a9f6691ee45b4eb76ceb60339bf4df1cde80d6367e7e8fcb73a74b8521",
+  "checks": [
+    {
+      "name": "封面、完整138图解码及外部访问拒绝",
+      "browserName": "chrome",
+      "transport": "file",
+      "passed": true,
+      "milliseconds": 2614,
+      "decodedAssets": 138,
+      "externalProbeBlocked": true,
+      "coverSizes": [
+        "1440x900",
+        "390x844"
+      ],
+      "mode": "Playwright context offline=true 且外部请求拦截"
+    },
+    {
+      "name": "真实新开局和首个选择",
+      "browserName": "chrome",
+      "transport": "file",
+      "passed": true,
+      "milliseconds": 652,
+      "start": "tc_c01_common_entry",
+      "choice": "tc_c01_common_rhythm_record_choice",
+      "chosenIndex": 0,
+      "reached": "tc_c01_common_rhythm_record_01"
+    },
+    {
+      "name": "中性章末继续",
+      "browserName": "chrome",
+      "transport": "file",
+      "passed": true,
+      "milliseconds": 208
+    },
+    {
+      "name": "真实球形到人形及手动存读档刷新",
+      "browserName": "chrome",
+      "transport": "file",
+      "passed": true,
+      "milliseconds": 1330,
+      "before": "tc_c08_huangqiuqiu_her_decision_020",
+      "reveal": "tc_c08_huangqiuqiu_human_reveal",
+      "sourceHistoryEntries": 542
+    },
+    {
+      "name": "四种CG在包内进入和退出",
+      "browserName": "chrome",
+      "transport": "file",
+      "passed": true,
+      "milliseconds": 7905,
+      "verified": [
+        {
+          "id": "tc-cg-piao-choice",
+          "entry": "tc_c03_piao_say_clearly_002",
+          "exit": "tc_c03_piao_relationship_choice",
+          "steps": 9
+        },
+        {
+          "id": "tc-cg-last-echo-dinner",
+          "entry": "tc_c06_common_last_night_meal_07",
+          "exit": "tc_c06_common_meal_goodbye_01",
+          "steps": 4
+        },
+        {
+          "id": "tc-cg-qiuqiu-transform",
+          "entry": "tc_c08_huangqiuqiu_her_decision_025",
+          "exit": "tc_c08_huangqiuqiu_her_decision_028",
+          "steps": 3
+        },
+        {
+          "id": "tc-cg-piao-wedding",
+          "entry": "tc_c10_common_piao_wedding_04",
+          "exit": "tc_c10_common_piao_wedding_05",
+          "steps": 1
+        }
+      ]
+    },
+    {
+      "name": "封面、完整138图解码及外部访问拒绝",
+      "browserName": "chrome",
+      "transport": "http",
+      "passed": true,
+      "milliseconds": 2657,
+      "decodedAssets": 138,
+      "externalProbeBlocked": true,
+      "coverSizes": [
+        "1440x900",
+        "390x844"
+      ],
+      "mode": "只允许包内 localhost，同源以外全拒绝"
+    },
+    {
+      "name": "真实新开局和首个选择",
+      "browserName": "chrome",
+      "transport": "http",
+      "passed": true,
+      "milliseconds": 650,
+      "start": "tc_c01_common_entry",
+      "choice": "tc_c01_common_rhythm_record_choice",
+      "chosenIndex": 0,
+      "reached": "tc_c01_common_rhythm_record_01"
+    },
+    {
+      "name": "中性章末继续",
+      "browserName": "chrome",
+      "transport": "http",
+      "passed": true,
+      "milliseconds": 208
+    },
+    {
+      "name": "真实球形到人形及手动存读档刷新",
+      "browserName": "chrome",
+      "transport": "http",
+      "passed": true,
+      "milliseconds": 1308,
+      "before": "tc_c08_huangqiuqiu_her_decision_020",
+      "reveal": "tc_c08_huangqiuqiu_human_reveal",
+      "sourceHistoryEntries": 542
+    },
+    {
+      "name": "四种CG在包内进入和退出",
+      "browserName": "chrome",
+      "transport": "http",
+      "passed": true,
+      "milliseconds": 7924,
+      "verified": [
+        {
+          "id": "tc-cg-piao-choice",
+          "entry": "tc_c03_piao_say_clearly_002",
+          "exit": "tc_c03_piao_relationship_choice",
+          "steps": 9
+        },
+        {
+          "id": "tc-cg-last-echo-dinner",
+          "entry": "tc_c06_common_last_night_meal_07",
+          "exit": "tc_c06_common_meal_goodbye_01",
+          "steps": 4
+        },
+        {
+          "id": "tc-cg-qiuqiu-transform",
+          "entry": "tc_c08_huangqiuqiu_her_decision_025",
+          "exit": "tc_c08_huangqiuqiu_her_decision_028",
+          "steps": 3
+        },
+        {
+          "id": "tc-cg-piao-wedding",
+          "entry": "tc_c10_common_piao_wedding_04",
+          "exit": "tc_c10_common_piao_wedding_05",
+          "steps": 1
+        }
+      ]
+    },
+    {
+      "name": "13种真实结局包内恢复",
+      "browserName": "chrome",
+      "transport": "http",
+      "passed": true,
+      "milliseconds": 1865,
+      "count": 13,
+      "nodes": [
+        "tc_c10_xiaoman_end_dating",
+        "tc_c10_xiaoman_end_friends",
+        "tc_c10_zhouzhi_end_dating",
+        "tc_c10_zhouzhi_end_friends",
+        "tc_c10_mengyao_end_dating",
+        "tc_c10_mengyao_end_friends",
+        "tc_c10_yelan_end_dating",
+        "tc_c10_yelan_end_friends",
+        "tc_c10_piao_end_dating",
+        "tc_c10_piao_end_friends",
+        "tc_c10_friends_end",
+        "tc_c10_huangqiuqiu_end_dating",
+        "tc_c10_huangqiuqiu_end_friends"
+      ]
+    },
+    {
+      "name": "固定本地地址服务和浏览器重启后恢复",
+      "browserName": "chrome",
+      "transport": "http",
+      "passed": true,
+      "milliseconds": 1745,
+      "addressBefore": "http://127.0.0.1:51886/",
+      "addressAfter": "http://127.0.0.1:51886/",
+      "restoredNode": "tc_c08_huangqiuqiu_her_decision_020",
+      "manualSlotBytesPreserved": true,
+      "browserAndServerRestarted": true
+    },
+    {
+      "name": "封面、完整138图解码及外部访问拒绝",
+      "browserName": "firefox",
+      "transport": "file",
+      "passed": true,
+      "milliseconds": 2388,
+      "decodedAssets": 138,
+      "externalProbeBlocked": true,
+      "coverSizes": [
+        "1440x900",
+        "390x844"
+      ],
+      "mode": "Playwright context offline=true 且外部请求拦截"
+    },
+    {
+      "name": "真实新开局和首个选择",
+      "browserName": "firefox",
+      "transport": "file",
+      "passed": true,
+      "milliseconds": 638,
+      "start": "tc_c01_common_entry",
+      "choice": "tc_c01_common_rhythm_record_choice",
+      "chosenIndex": 0,
+      "reached": "tc_c01_common_rhythm_record_01"
+    },
+    {
+      "name": "中性章末继续",
+      "browserName": "firefox",
+      "transport": "file",
+      "passed": true,
+      "milliseconds": 188
+    },
+    {
+      "name": "真实球形到人形及手动存读档刷新",
+      "browserName": "firefox",
+      "transport": "file",
+      "passed": true,
+      "milliseconds": 1471,
+      "before": "tc_c08_huangqiuqiu_her_decision_020",
+      "reveal": "tc_c08_huangqiuqiu_human_reveal",
+      "sourceHistoryEntries": 542
+    },
+    {
+      "name": "四种CG在包内进入和退出",
+      "browserName": "firefox",
+      "transport": "file",
+      "passed": true,
+      "milliseconds": 8648,
+      "verified": [
+        {
+          "id": "tc-cg-piao-choice",
+          "entry": "tc_c03_piao_say_clearly_002",
+          "exit": "tc_c03_piao_relationship_choice",
+          "steps": 9
+        },
+        {
+          "id": "tc-cg-last-echo-dinner",
+          "entry": "tc_c06_common_last_night_meal_07",
+          "exit": "tc_c06_common_meal_goodbye_01",
+          "steps": 4
+        },
+        {
+          "id": "tc-cg-qiuqiu-transform",
+          "entry": "tc_c08_huangqiuqiu_her_decision_025",
+          "exit": "tc_c08_huangqiuqiu_her_decision_028",
+          "steps": 3
+        },
+        {
+          "id": "tc-cg-piao-wedding",
+          "entry": "tc_c10_common_piao_wedding_04",
+          "exit": "tc_c10_common_piao_wedding_05",
+          "steps": 1
+        }
+      ]
+    },
+    {
+      "name": "封面、完整138图解码及外部访问拒绝",
+      "browserName": "firefox",
+      "transport": "http",
+      "passed": true,
+      "milliseconds": 2848,
+      "decodedAssets": 138,
+      "externalProbeBlocked": true,
+      "coverSizes": [
+        "1440x900",
+        "390x844"
+      ],
+      "mode": "只允许包内 localhost，同源以外全拒绝"
+    },
+    {
+      "name": "真实新开局和首个选择",
+      "browserName": "firefox",
+      "transport": "http",
+      "passed": true,
+      "milliseconds": 687,
+      "start": "tc_c01_common_entry",
+      "choice": "tc_c01_common_rhythm_record_choice",
+      "chosenIndex": 0,
+      "reached": "tc_c01_common_rhythm_record_01"
+    },
+    {
+      "name": "中性章末继续",
+      "browserName": "firefox",
+      "transport": "http",
+      "passed": true,
+      "milliseconds": 190
+    },
+    {
+      "name": "真实球形到人形及手动存读档刷新",
+      "browserName": "firefox",
+      "transport": "http",
+      "passed": true,
+      "milliseconds": 1553,
+      "before": "tc_c08_huangqiuqiu_her_decision_020",
+      "reveal": "tc_c08_huangqiuqiu_human_reveal",
+      "sourceHistoryEntries": 542
+    },
+    {
+      "name": "四种CG在包内进入和退出",
+      "browserName": "firefox",
+      "transport": "http",
+      "passed": true,
+      "milliseconds": 8601,
+      "verified": [
+        {
+          "id": "tc-cg-piao-choice",
+          "entry": "tc_c03_piao_say_clearly_002",
+          "exit": "tc_c03_piao_relationship_choice",
+          "steps": 9
+        },
+        {
+          "id": "tc-cg-last-echo-dinner",
+          "entry": "tc_c06_common_last_night_meal_07",
+          "exit": "tc_c06_common_meal_goodbye_01",
+          "steps": 4
+        },
+        {
+          "id": "tc-cg-qiuqiu-transform",
+          "entry": "tc_c08_huangqiuqiu_her_decision_025",
+          "exit": "tc_c08_huangqiuqiu_her_decision_028",
+          "steps": 3
+        },
+        {
+          "id": "tc-cg-piao-wedding",
+          "entry": "tc_c10_common_piao_wedding_04",
+          "exit": "tc_c10_common_piao_wedding_05",
+          "steps": 1
+        }
+      ]
+    },
+    {
+      "name": "13种真实结局包内恢复",
+      "browserName": "firefox",
+      "transport": "http",
+      "passed": true,
+      "milliseconds": 3179,
+      "count": 13,
+      "nodes": [
+        "tc_c10_xiaoman_end_dating",
+        "tc_c10_xiaoman_end_friends",
+        "tc_c10_zhouzhi_end_dating",
+        "tc_c10_zhouzhi_end_friends",
+        "tc_c10_mengyao_end_dating",
+        "tc_c10_mengyao_end_friends",
+        "tc_c10_yelan_end_dating",
+        "tc_c10_yelan_end_friends",
+        "tc_c10_piao_end_dating",
+        "tc_c10_piao_end_friends",
+        "tc_c10_friends_end",
+        "tc_c10_huangqiuqiu_end_dating",
+        "tc_c10_huangqiuqiu_end_friends"
+      ]
+    },
+    {
+      "name": "固定本地地址服务和浏览器重启后恢复",
+      "browserName": "firefox",
+      "transport": "http",
+      "passed": true,
+      "milliseconds": 3129,
+      "addressBefore": "http://127.0.0.1:51886/",
+      "addressAfter": "http://127.0.0.1:51886/",
+      "restoredNode": "tc_c08_huangqiuqiu_her_decision_020",
+      "manualSlotBytesPreserved": true,
+      "browserAndServerRestarted": true
+    }
+  ],
+  "screenshots": [
+    "screenshots/chrome-file-cover-desktop.png",
+    "screenshots/chrome-file-cover-390.png",
+    "screenshots/chrome-file-start-390.png",
+    "screenshots/chrome-file-chapter-end-390.png",
+    "screenshots/chrome-file-human-390.png",
+    "screenshots/chrome-file-tc-cg-piao-choice.png",
+    "screenshots/chrome-file-tc-cg-last-echo-dinner.png",
+    "screenshots/chrome-file-tc-cg-qiuqiu-transform.png",
+    "screenshots/chrome-file-tc-cg-piao-wedding.png",
+    "screenshots/chrome-http-cover-desktop.png",
+    "screenshots/chrome-http-cover-390.png",
+    "screenshots/chrome-http-start-390.png",
+    "screenshots/chrome-http-chapter-end-390.png",
+    "screenshots/chrome-http-human-390.png",
+    "screenshots/chrome-http-tc-cg-piao-choice.png",
+    "screenshots/chrome-http-tc-cg-last-echo-dinner.png",
+    "screenshots/chrome-http-tc-cg-qiuqiu-transform.png",
+    "screenshots/chrome-http-tc-cg-piao-wedding.png",
+    "screenshots/chrome-http-ending-desktop.png",
+    "screenshots/chrome-http-restart-restored.png",
+    "screenshots/firefox-file-cover-desktop.png",
+    "screenshots/firefox-file-cover-390.png",
+    "screenshots/firefox-file-start-390.png",
+    "screenshots/firefox-file-chapter-end-390.png",
+    "screenshots/firefox-file-human-390.png",
+    "screenshots/firefox-file-tc-cg-piao-choice.png",
+    "screenshots/firefox-file-tc-cg-last-echo-dinner.png",
+    "screenshots/firefox-file-tc-cg-qiuqiu-transform.png",
+    "screenshots/firefox-file-tc-cg-piao-wedding.png",
+    "screenshots/firefox-http-cover-desktop.png",
+    "screenshots/firefox-http-cover-390.png",
+    "screenshots/firefox-http-start-390.png",
+    "screenshots/firefox-http-chapter-end-390.png",
+    "screenshots/firefox-http-human-390.png",
+    "screenshots/firefox-http-tc-cg-piao-choice.png",
+    "screenshots/firefox-http-tc-cg-last-echo-dinner.png",
+    "screenshots/firefox-http-tc-cg-qiuqiu-transform.png",
+    "screenshots/firefox-http-tc-cg-piao-wedding.png",
+    "screenshots/firefox-http-ending-desktop.png",
+    "screenshots/firefox-http-restart-restored.png"
+  ],
+  "pageErrors": [],
+  "unexpectedExternalRequests": [],
+  "resourceFailures": [],
+  "browsers": [
+    {
+      "browserName": "chrome",
+      "transport": "file",
+      "version": "155.0.8059.85",
+      "profile": "/var/folders/m5/q0b_ssrn1zb_g7fzs17nsj1h0000gn/T/cjb-e11-chrome-file-eIMiJ3",
+      "profilePolicy": "全新临时 profile；只在固定地址重启检查中复用本脚本的 profile；完成后删除",
+      "url": "file:///private/tmp/cjb-e11-%E8%A7%A3%E5%8E%8B%20%E7%A9%BA%E6%A0%BC-SMkj2q/bi-jie-ten-chapter-nightshift-20261022-r1-e11/game/index.html",
+      "offline": true
+    },
+    {
+      "browserName": "chrome",
+      "transport": "http",
+      "version": "155.0.8059.85",
+      "profile": "/var/folders/m5/q0b_ssrn1zb_g7fzs17nsj1h0000gn/T/cjb-e11-chrome-http-uSbwmU",
+      "profilePolicy": "全新临时 profile；只在固定地址重启检查中复用本脚本的 profile；完成后删除",
+      "url": "http://127.0.0.1:51886/",
+      "offline": false
+    },
+    {
+      "browserName": "firefox",
+      "transport": "file",
+      "version": "153.0",
+      "profile": "/var/folders/m5/q0b_ssrn1zb_g7fzs17nsj1h0000gn/T/cjb-e11-firefox-file-BoAgzf",
+      "profilePolicy": "全新临时 profile；只在固定地址重启检查中复用本脚本的 profile；完成后删除",
+      "url": "file:///private/tmp/cjb-e11-%E8%A7%A3%E5%8E%8B%20%E7%A9%BA%E6%A0%BC-SMkj2q/bi-jie-ten-chapter-nightshift-20261022-r1-e11/game/index.html",
+      "offline": true
+    },
+    {
+      "browserName": "firefox",
+      "transport": "http",
+      "version": "153.0",
+      "profile": "/var/folders/m5/q0b_ssrn1zb_g7fzs17nsj1h0000gn/T/cjb-e11-firefox-http-6utgKB",
+      "profilePolicy": "全新临时 profile；只在固定地址重启检查中复用本脚本的 profile；完成后删除",
+      "url": "http://127.0.0.1:51886/",
+      "offline": false
+    }
+  ],
+  "notTested": [
+    "Safari",
+    "实体手机",
+    "公网发布和在线复验",
+    "真人完整阅读和人耳试听"
+  ],
+  "extractionPath": {
+    "containsChinese": true,
+    "containsSpaces": true
+  },
+  "witnessGeneration": {
+    "algorithm": "只用解压包 StoryEngine 从正式起点逐步 advance/choose，选择始终限于 availableChoices；未伪造 flags/history。",
+    "directedEndings": [
+      {
+        "nodeId": "tc_c10_xiaoman_end_dating",
+        "route": "xiaoman",
+        "relationship": "dating",
+        "selections": {
+          "qiuSignal": "record",
+          "qiuReply": "reply",
+          "route": "xiaoman",
+          "xiaomanRelationship": "dating"
+        },
+        "historyEntries": 677
+      },
+      {
+        "nodeId": "tc_c10_xiaoman_end_friends",
+        "route": "xiaoman",
+        "relationship": "friends",
+        "selections": {
+          "qiuSignal": "record",
+          "qiuReply": "reply",
+          "route": "xiaoman",
+          "xiaomanRelationship": "friends"
+        },
+        "historyEntries": 672
+      },
+      {
+        "nodeId": "tc_c10_zhouzhi_end_dating",
+        "route": "zhouzhi",
+        "relationship": "dating",
+        "selections": {
+          "qiuSignal": "record",
+          "qiuReply": "reply",
+          "route": "zhouzhi",
+          "zhouzhiRelationship": "dating"
+        },
+        "historyEntries": 610
+      },
+      {
+        "nodeId": "tc_c10_zhouzhi_end_friends",
+        "route": "zhouzhi",
+        "relationship": "friends",
+        "selections": {
+          "qiuSignal": "record",
+          "qiuReply": "reply",
+          "route": "zhouzhi",
+          "zhouzhiRelationship": "friends"
+        },
+        "historyEntries": 602
+      },
+      {
+        "nodeId": "tc_c10_mengyao_end_dating",
+        "route": "mengyao",
+        "relationship": "dating",
+        "selections": {
+          "qiuSignal": "record",
+          "qiuReply": "reply",
+          "route": "mengyao",
+          "mengyaoRelationship": "dating"
+        },
+        "historyEntries": 643
+      },
+      {
+        "nodeId": "tc_c10_mengyao_end_friends",
+        "route": "mengyao",
+        "relationship": "friends",
+        "selections": {
+          "qiuSignal": "record",
+          "qiuReply": "reply",
+          "route": "mengyao",
+          "mengyaoRelationship": "friends"
+        },
+        "historyEntries": 633
+      },
+      {
+        "nodeId": "tc_c10_yelan_end_dating",
+        "route": "yelan",
+        "relationship": "dating",
+        "selections": {
+          "qiuSignal": "record",
+          "qiuReply": "reply",
+          "route": "yelan",
+          "yelanRelationship": "dating"
+        },
+        "historyEntries": 606
+      },
+      {
+        "nodeId": "tc_c10_yelan_end_friends",
+        "route": "yelan",
+        "relationship": "friends",
+        "selections": {
+          "qiuSignal": "record",
+          "qiuReply": "reply",
+          "route": "yelan",
+          "yelanRelationship": "friends"
+        },
+        "historyEntries": 596
+      },
+      {
+        "nodeId": "tc_c10_piao_end_dating",
+        "route": "piao",
+        "relationship": "dating",
+        "selections": {
+          "qiuSignal": "record",
+          "qiuReply": "reply",
+          "route": "piao",
+          "piaoRelationship": "dating"
+        },
+        "historyEntries": 573
+      },
+      {
+        "nodeId": "tc_c10_piao_end_friends",
+        "route": "piao",
+        "relationship": "friends",
+        "selections": {
+          "qiuSignal": "record",
+          "qiuReply": "reply",
+          "route": "piao",
+          "piaoRelationship": "friends"
+        },
+        "historyEntries": 547
+      },
+      {
+        "nodeId": "tc_c10_friends_end",
+        "route": "friends",
+        "relationship": null,
+        "selections": {
+          "qiuSignal": "record",
+          "qiuReply": "reply",
+          "route": "friends",
+          "friendsRelationship": null
+        },
+        "historyEntries": 527
+      },
+      {
+        "nodeId": "tc_c10_huangqiuqiu_end_dating",
+        "route": "huangqiuqiu",
+        "relationship": "dating",
+        "selections": {
+          "qiuSignal": "record",
+          "qiuReply": "reply",
+          "route": "huangqiuqiu",
+          "huangqiuqiuRelationship": "dating"
+        },
+        "historyEntries": 614
+      },
+      {
+        "nodeId": "tc_c10_huangqiuqiu_end_friends",
+        "route": "huangqiuqiu",
+        "relationship": "friends",
+        "selections": {
+          "qiuSignal": "record",
+          "qiuReply": "reply",
+          "route": "huangqiuqiu",
+          "huangqiuqiuRelationship": "friends"
+        },
+        "historyEntries": 611
+      }
+    ],
+    "cgWitnesses": [
+      {
+        "id": "tc-cg-piao-choice",
+        "nodeId": "tc_c03_piao_say_clearly_002",
+        "historyEntries": 318
+      },
+      {
+        "id": "tc-cg-last-echo-dinner",
+        "nodeId": "tc_c06_common_last_night_meal_07",
+        "historyEntries": 460
+      },
+      {
+        "id": "tc-cg-qiuqiu-transform",
+        "nodeId": "tc_c08_huangqiuqiu_her_decision_025",
+        "historyEntries": 547
+      },
+      {
+        "id": "tc-cg-piao-wedding",
+        "nodeId": "tc_c10_common_piao_wedding_04",
+        "historyEntries": 651
+      }
+    ]
+  },
+  "temporaryProfilesRemoved": true,
+  "passed": 24,
+  "failed": 0,
+  "executedAt": "2026-10-23T06:02:33.286Z"
+}

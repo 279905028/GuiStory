@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "scope": "maolang-optionD-runtime-test 历史冻结基线中的已清理文档输入；只豁免名单中实际不存在的 Markdown，不豁免其他缺失文件。",
+  "sourceBaseline": "qa/maolang-optionD-20261020/before.json",
+  "files": [
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/review.md",
+      "sha256": "bb8b05f3e0724b1945c7ba07b237fd626df0571de5705c08f2a6c3512537cc45"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/review.md",
+      "sha256": "0ad3e8e17d515c71228086f3360e8e03a56c94519520dba613eebb591dcf446a"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/review.md",
+      "sha256": "d2755dba6523b7895c08ba4067e8edccd7424d73d174f3a962acd117642ebe12"
+    },
+    {
+      "path": "assets/character-variants/shijiang-photo-options-20261020/说明.md",
+      "sha256": "c260e09fa7f10212b3a738a74b0210fa12b0d09ed204b0f97d728c858d91e5af"
+    },
+    {
+      "path": "assets/character-variants/maolang-photo2-options-20261020/说明.md",
+      "sha256": "64bab65fb515a8527680a213e170b455d8928213041d413546ae94213b7e7f1d"
+    },
+    {
+      "path": "assets/character-variants/maolang-photo-options-20261020/说明.md",
+      "sha256": "9a553f2a92f4e76e41b1ce91b0a470989a060f616d256ccb3867d38aa08ed11f"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/review.md",
+      "sha256": "160add8f469ffce3fc7fda0adc783130601a0c0ae6b8cd642480f50ca906d30d"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/review.md",
+      "sha256": "657277ff7157d5f1fcca7608ec3ad48686e3d9dafd39a012cf039a6d739f4e5a"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/review.md",
+      "sha256": "9d6f24d78f48cc14bc6b870cf236466dc90a7ad2af74fd53eaa7289cec0caf34"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/review.md",
+      "sha256": "650f5408f20ae9755dce9aee7e199f05839850ede74223f9c704317e542e3674"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/review.md",
+      "sha256": "bf2ff0d964550205290570c8ff5c2a0f382883a80fffbbafc485d2c8c65b2e35"
+    },
+    {
+      "path": "assets/background-variants/style-options-20261019/说明.md",
+      "sha256": "e854bb4aa753e8d75ba0f95141124aaaf8eaf103a644bfd48eccc159bf04beb3"
+    },
+    {
+      "path": "任务拆分/共享契约.md",
+      "sha256": "1f04efc153fa9cd6516efec2122b627d78a198f7f2d18e035f3c1ae17e271a82"
+    }
+  ]
+}

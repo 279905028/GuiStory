@@ -1,0 +1,13 @@
+{
+  "key": "piao-wedding",
+  "character": "piao",
+  "file": "char-piao-wedding-base",
+  "ref": "assets/char-piao.webp",
+  "references": [
+    "/Users/yipin/Desktop/cjb/assets/char-piao.webp"
+  ],
+  "prompt": "Use case: identity-preserve\n单张视觉小说角色衣装/发型差分，输入图为编辑对象。修改：用户已确认婚宴穿简洁礼裙。保持Option B同一张脸、浅酒窝、黑色低马尾/刘海、自然笑容与双手轻叠姿态。白衬衫与黑裤换成简洁柔和豆沙粉礼裙，上身有短袖、端正领口、自然收腰、哑光轻柔布料，无繁复花纹或珠饰，不是蓬蓬婚纱；保留细红手绳与小耳饰，无头纱、冠冕、捧花或豪华配饰。\n严格锁定输入人物的脸型、五官、皮肤、成年身份、同一画风与光线，除上述服装/发型/必要手势外不改其他内容。保持1024×1536画布、原头顶落点、头身比例和大腿截幅，不扩画脚或完整全身。日系半写实细腻手绘立绘，背景为真实透明alpha，无底色、无地面、无光晕、无棋盘格、无文字、水印和边框。",
+  "generatedPath": "/Users/yipin/.codex/generated_images/01a162af-0842-7a61-a6ca-7846101abfe6/exec-8db9d9bc-e1fb-4eb2-9be7-2ba5167ebc1e.png",
+  "tool": "image_gen built-in",
+  "attempt": 1
+}

@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-20",
+  "generator": "built-in image_gen",
+  "mode": "reference-derived new scene",
+  "useCase": "illustration-story",
+  "scope": "仅生成并保存三张游戏背景；故事绑定与浏览器验收由主代理执行。",
+  "assets": [
+    {
+      "id": "echo",
+      "file": "assets/backgrounds/bijie-20261020/bg-echo-entrance-night.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "originalOutput": "/Users/yipin/.codex/generated_images/01a1589a-04f8-7db3-8821-d21ecf5651da/exec-8e93e033-7587-4cd1-b864-218e6bcfc6e6.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/bg-street.png",
+        "/Users/yipin/Desktop/cjb/毕节场景参考/微信图片_20261020154225_88_64.jpg",
+        "/Users/yipin/Desktop/cjb/毕节场景参考/微信图片_20261020154223_86_64.jpg"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: finished visual novel game background. Create one new environmental scene derived from these references, no collage.\nReference roles: first input bg-street.png is ONLY the exact cinematic semi-realistic game-art finish and cool gray-teal rainy night / restrained amber light palette reference; the second photo is the modern Bijie sloping residential street architecture reference; third photo is the ordinary gray and red brick local buildings reference, do not include its person.\nScene: contemporary Bijie, Guizhou, outside the modest side entrance of an aging neighborhood karaoke venue, rainy night. Camera at standing eye height under a wide practical shelter/eave, looking out over a sloping residential street. Left quarter: a half-closed simple metal-and-glass side door, concrete steps, one restrained warm wall lamp. Across the road in left-center distance a softly blurred small noodle shop glows warmly behind windows, with no sign or writing. Modern apartment facades, barred windows, subtle utility wires and wet sloped street, quiet intimate mood. No grand traditional or tourist architecture.\nComposition: single wide 16:9 frame, native output 1792x1008 or greater matching ratio, rich fine detail. Main narrative landmarks left and center; right third visually calm open pavement and plain dim residential facade allowing a character portrait overlay. Bottom third is simple wet pavement/steps, contains no required landmarks. Accurate perspective, natural scale.\nStyle: polished movie-still quality semi-realistic visual novel environmental illustration like input 1, refined painterly realism, physically coherent soft illumination, restrained amber on cool slate teal, no excessive blur. Completely empty of people, no silhouettes, no faces, no readable text, no lettering, no brand logos, no watermark, no UI, no border. Preserve local urban authenticity, NOT an ancient town or fantasy village.",
+      "qa": {
+        "status": "passed-asset-visual-review",
+        "method": [
+          "view_image on all actual reference inputs",
+          "sips pixel dimensions",
+          "view_image on each final workspace PNG"
+        ],
+        "notes": [
+          "逐张以 view_image 检查最终工作区 PNG。",
+          "无人、无水印、无可读店名或 UI；左侧门口与暖灯、对街暖光小店、雨夜坡街均可辨认。",
+          "灰青夜色与暖灯匹配现有 bg-street；右侧保留深色墙面与路面供立绘叠加；下三分之一以湿地面为主。"
+        ],
+        "notPerformed": [
+          "story binding verification",
+          "in-game browser rendering verification"
+        ]
+      }
+    },
+    {
+      "id": "eaves",
+      "file": "assets/backgrounds/bijie-20261020/bg-old-eaves-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "originalOutput": "/Users/yipin/.codex/generated_images/01a1589a-04f8-7db3-8821-d21ecf5651da/exec-11394b00-48d5-4796-9c99-65c91195a778.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/bg-street.png",
+        "/Users/yipin/Desktop/cjb/毕节场景参考/微信图片_20261020154220_82_64.jpg",
+        "/Users/yipin/Desktop/cjb/毕节场景参考/微信图片_20261020154223_86_64.jpg",
+        "/Users/yipin/Desktop/cjb/毕节场景参考/微信图片_20261020154225_88_64.jpg"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: finished visual novel game background. Create one new environmental scene derived from these references, no collage.\nReference roles: first input bg-street.png establishes cinematic semi-realistic visual novel art, detailed worn materials and subdued gray-teal with warm accents; second input wooden building photo supplies ONLY small weathered timber lattice window details and ordinary gray roof tiles, NEVER copy its grand ornate whole building; third input brick courtyard photo supplies modern Bijie gray/red brick, weathered concrete and short steps, do not include its person; fourth street photo gives contemporary residential context.\nScene: contemporary Bijie old neighborhood, rainy overcast afternoon. Human eye-level view from beneath a continuous broad but modest street-side eave, enough dry covered walkway for two people to stand side by side. Along left and middle: simple dark weathered wood lattice windows set in ordinary gray brick, a small unornamented gray tiled eave, a red brick repair patch and subtle concrete steps. Looking along the shelter reveals a quiet ordinary sloping urban street with modern boxy apartment buildings and utility wires in distance. The rain beyond the eave is gentle, diffuse soft afternoon light, muted slate teal and gray, slight warm brown wood. Ordinary lived-in city context; restrained modest architecture. No pagoda, no ornate temple, no tourism street, no grand classical Chinese building.\nComposition: one wide 16:9 landscape frame, native output 1792x1008 or greater matching ratio. Architecture and key features primarily left and center; right third calmer open sheltered walkway for game character overlay. Bottom third plain damp paving with no essential story objects. Sharp environmental detail yet composed and readable.\nStyle: polished cinematic semi-realistic visual novel environment painting consistent with first reference, careful credible perspective and textured masonry. Absolutely no people, silhouettes, animals, text, symbols, lettering, signage, logos, watermark, UI, borders.",
+      "qa": {
+        "status": "passed-asset-visual-review",
+        "method": [
+          "view_image on all actual reference inputs",
+          "sips pixel dimensions",
+          "view_image on each final workspace PNG"
+        ],
+        "notes": [
+          "逐张以 view_image 检查最终工作区 PNG。",
+          "无人、无水印、无文字或 UI；阴雨日光、连续宽檐、木格窗、灰红砖与现代住宅均可辨认。",
+          "普通住宅街道而非大型仿古景区；右侧檐下有可用立绘区；下三分之一为路面。"
+        ],
+        "notPerformed": [
+          "story binding verification",
+          "in-game browser rendering verification"
+        ]
+      }
+    },
+    {
+      "id": "slope",
+      "file": "assets/backgrounds/bijie-20261020/bg-residential-slope-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "originalOutput": "/Users/yipin/.codex/generated_images/01a1589a-04f8-7db3-8821-d21ecf5651da/exec-d7652bbb-eee7-4c2b-898b-d3e2643e5f90.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/毕节场景参考/微信图片_20261020154225_88_64.jpg",
+        "/Users/yipin/Desktop/cjb/毕节场景参考/微信图片_20261020154223_86_64.jpg",
+        "/Users/yipin/Desktop/cjb/assets/bg-street.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset type: finished visual novel game background. Create one new environmental scene derived from these references, no collage.\nReference roles: first input modern Bijie residential sloping street photo establishes contemporary real local architecture and slope shape, barred windows, many overhead utility wires and urban density; second gray and red brick courtyard supplies worn wall texture and greenery, exclude its person; third input bg-street.png supplies ONLY polished cinematic semi-realistic visual novel art finish, not its night weather.\nScene: a quiet residential sloping lane in contemporary Bijie, Guizhou on an overcast afternoon just after rain, suitable for a gentle walk/date dialogue. Pedestrian eye-level view up a modest concrete slope, a small turning junction in midground left-center. Everyday 3-to-5-floor concrete and small-tile apartment facades, barred windows, irregular old gray and red brick retaining walls, some green vines, overhead utility cables across the narrow street. Ground is only slightly damp with a few quiet shallow runnels along the roadside; no active rainfall, no flooding, no torrential rain, no golden evening sunset. Soft blue-gray daylight, muted teal-gray concrete and natural green vines, subdued warm brown brick. Urban Bijie authenticity, no ancient town, no fantasy, no tourist landmarks.\nComposition: single wide 16:9 landscape, native output 1792x1008 or greater matching ratio, high environmental detail. Main architecture and intersection left and middle; right third low visual complexity with plain residential wall / open path for portrait overlay. Bottom third understated smooth damp road without indispensable landmarks. No vehicles obscuring the scene.\nStyle: cinematic semi-realistic visual novel background painting consistent with third reference's rendering and careful realistic perspective. Absolutely empty: no people, silhouettes, human reflections, faces, animals, signage, words, text, numbers, logos, watermark, UI, border. Do not reproduce reference watermarks or readable advertisements.",
+      "qa": {
+        "status": "passed-asset-visual-review",
+        "method": [
+          "view_image on all actual reference inputs",
+          "sips pixel dimensions",
+          "view_image on each final workspace PNG"
+        ],
+        "notes": [
+          "逐张以 view_image 检查最终工作区 PNG。",
+          "无人、无水印、无可读文字或 UI；居民坡巷、小路口、防盗窗、电线、绿藤与湿润路面均可辨认。",
+          "呈雨后云间略亮的日光，无正在下的暴雨；主体在左中，右侧墙面供立绘叠加；下三分之一以道路为主。"
+        ],
+        "notPerformed": [
+          "story binding verification",
+          "in-game browser rendering verification"
+        ]
+      }
+    }
+  ]
+}

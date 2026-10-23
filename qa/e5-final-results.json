@@ -1,0 +1,469 @@
+{
+  "createdAt": "2026-10-20T02:41:18.613Z",
+  "pass": true,
+  "status": "PASS_SCOPED_LOCAL_CHROME",
+  "scope": "v0.1十图版Chrome技术验收；25图片；不代表用户审美终审、真机或跨浏览器验收",
+  "mode": "各通过阶段按相同30个运行文件指纹汇总，不重复运行未受影响通关项目",
+  "runtimeManifest": "qa/final-runtime-manifest.json",
+  "checks": [
+    {
+      "name": "http-no-external 从开始到常规收束、点击/空格/回车、刷新继续",
+      "pass": true,
+      "details": {
+        "label": "http-no-external",
+        "steps": 223,
+        "end": "end_yelan"
+      }
+    },
+    {
+      "name": "file-direct 从开始到常规收束、点击/空格/回车、刷新继续",
+      "pass": true,
+      "details": {
+        "label": "file-direct",
+        "steps": 223,
+        "end": "end_yelan"
+      }
+    },
+    {
+      "name": "四种隐藏条件组合的正式页面选项数与未解锁隐藏项不泄露",
+      "pass": true,
+      "details": {
+        "counts": [
+          5,
+          4,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "name": "五个收束正式页面完成并重选，七次前置选择保留",
+      "pass": true,
+      "details": {
+        "endings": 5
+      }
+    },
+    {
+      "name": "逐字补全与快速连点防误跳",
+      "pass": true,
+      "details": {
+        "partialLength": 1
+      }
+    },
+    {
+      "name": "真实雨声输出、菜单静音/恢复、音量、提示音、关闭",
+      "pass": true,
+      "details": {
+        "defaultAudio": {
+          "rms": 0,
+          "state": null,
+          "oscillators": 0
+        },
+        "on": {
+          "rms": 0.017864807491774264,
+          "state": "running",
+          "oscillators": 0
+        },
+        "menu": {
+          "rms": 0.0000032195629124230944,
+          "state": "running",
+          "oscillators": 0
+        },
+        "resumed": {
+          "rms": 0.015370315939384663,
+          "state": "running",
+          "oscillators": 0
+        },
+        "low": {
+          "rms": 0.004578218237250608,
+          "state": "running",
+          "oscillators": 0
+        },
+        "cue": {
+          "rms": 0.0041833486939331236,
+          "state": "running",
+          "oscillators": 1
+        },
+        "off": {
+          "rms": 0,
+          "state": "running",
+          "oscillators": 1
+        },
+        "method": "保留产品destination连接，旁路Analyser读取真实输出；非听感评价"
+      }
+    },
+    {
+      "name": "自动阅读遇选择停止，历史记录可回看",
+      "pass": true
+    },
+    {
+      "name": "真实浏览器切换标签后自动阅读暂停，返回后恢复",
+      "pass": true,
+      "details": {
+        "hiddenNode": "s1_arrive_01",
+        "hiddenWaitMs": 6500,
+        "events": [
+          {
+            "hidden": true,
+            "trusted": true
+          },
+          {
+            "hidden": false,
+            "trusted": true
+          }
+        ],
+        "method": "独立Chrome默认context，noDefaults；原生可信visibilitychange"
+      }
+    }
+  ],
+  "flows": [
+    {
+      "label": "http-no-external",
+      "steps": 223,
+      "end": "end_yelan"
+    },
+    {
+      "label": "file-direct",
+      "steps": 223,
+      "end": "end_yelan"
+    },
+    {
+      "label": "xiaoman",
+      "steps": 12,
+      "end": "end_xiaoman"
+    },
+    {
+      "label": "zhouzhi",
+      "steps": 11,
+      "end": "end_zhouzhi"
+    },
+    {
+      "label": "mengyao",
+      "steps": 9,
+      "end": "end_mengyao"
+    },
+    {
+      "label": "yelan",
+      "steps": 15,
+      "end": "end_yelan"
+    },
+    {
+      "label": "huangqiuqiu",
+      "steps": 28,
+      "end": "end_huangqiuqiu"
+    }
+  ],
+  "audio": {
+    "defaultAudio": {
+      "rms": 0,
+      "state": null,
+      "oscillators": 0
+    },
+    "on": {
+      "rms": 0.017864807491774264,
+      "state": "running",
+      "oscillators": 0
+    },
+    "menu": {
+      "rms": 0.0000032195629124230944,
+      "state": "running",
+      "oscillators": 0
+    },
+    "resumed": {
+      "rms": 0.015370315939384663,
+      "state": "running",
+      "oscillators": 0
+    },
+    "low": {
+      "rms": 0.004578218237250608,
+      "state": "running",
+      "oscillators": 0
+    },
+    "cue": {
+      "rms": 0.0041833486939331236,
+      "state": "running",
+      "oscillators": 1
+    },
+    "off": {
+      "rms": 0,
+      "state": "running",
+      "oscillators": 1
+    },
+    "method": "保留产品destination连接，旁路Analyser读取真实输出；非听感评价"
+  },
+  "network": [
+    {
+      "label": "http-no-external",
+      "allowed": [
+        "http://127.0.0.1:54490/index.html",
+        "http://127.0.0.1:54490/styles.css",
+        "http://127.0.0.1:54490/story.js",
+        "http://127.0.0.1:54490/assets/bg-street.png",
+        "http://127.0.0.1:54490/assets/char-wenwen.png",
+        "http://127.0.0.1:54490/engine.js",
+        "http://127.0.0.1:54490/game.js",
+        "http://127.0.0.1:54490/assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+        "http://127.0.0.1:54490/assets/cg/cg-01-rain-return.png",
+        "http://127.0.0.1:54490/assets/bg-repair.png",
+        "http://127.0.0.1:54490/assets/char-maolang.png",
+        "http://127.0.0.1:54490/assets/char-maolang.png",
+        "http://127.0.0.1:54490/assets/char-maolang.png",
+        "http://127.0.0.1:54490/assets/cg/cg-09-repair-handoff.png",
+        "http://127.0.0.1:54490/assets/char-maolang.png",
+        "http://127.0.0.1:54490/assets/char-shijiang.png",
+        "http://127.0.0.1:54490/assets/char-shijiang.png",
+        "http://127.0.0.1:54490/assets/bg-room.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/bg-noodles.png",
+        "http://127.0.0.1:54490/assets/char-xiaoman.png",
+        "http://127.0.0.1:54490/assets/cg/cg-13-xiaoman-night-stall.png",
+        "http://127.0.0.1:54490/assets/char-xiaoman.png",
+        "http://127.0.0.1:54490/assets/char-xiaoman.png",
+        "http://127.0.0.1:54490/assets/bg-street.png",
+        "http://127.0.0.1:54490/assets/char-xiaoman.png",
+        "http://127.0.0.1:54490/assets/char-xiaoman.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/bg-noodles.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/bg-salon.png",
+        "http://127.0.0.1:54490/assets/char-xiaoman.png",
+        "http://127.0.0.1:54490/assets/cg/cg-02-xiaoman-mirror.png",
+        "http://127.0.0.1:54490/assets/char-xiaoman.png",
+        "http://127.0.0.1:54490/assets/char-xiaoman.png",
+        "http://127.0.0.1:54490/assets/char-xiaoman.png",
+        "http://127.0.0.1:54490/assets/char-xiaoman.png",
+        "http://127.0.0.1:54490/assets/char-xiaoman.png",
+        "http://127.0.0.1:54490/assets/bg-noodles.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/cg/cg-03-zhouzhi-noodles.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+        "http://127.0.0.1:54490/assets/cg/cg-04-mengyao-camera.png",
+        "http://127.0.0.1:54490/assets/char-mengyao.png",
+        "http://127.0.0.1:54490/assets/char-mengyao.png",
+        "http://127.0.0.1:54490/assets/char-mengyao.png",
+        "http://127.0.0.1:54490/assets/char-mengyao.png",
+        "http://127.0.0.1:54490/assets/bg-room.png",
+        "http://127.0.0.1:54490/assets/cg/cg-05-yelan-inventory.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/char-shijiang.png",
+        "http://127.0.0.1:54490/assets/char-shijiang.png",
+        "http://127.0.0.1:54490/assets/bg-lobby.png",
+        "http://127.0.0.1:54490/assets/char-mengyao.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/char-shijiang.png",
+        "http://127.0.0.1:54490/assets/char-shijiang.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/char-mengyao.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/char-maolang.png",
+        "http://127.0.0.1:54490/assets/char-maolang.png",
+        "http://127.0.0.1:54490/assets/char-maolang.png",
+        "http://127.0.0.1:54490/assets/cg/cg-06-maolang-confession.png",
+        "http://127.0.0.1:54490/assets/char-mengyao.png",
+        "http://127.0.0.1:54490/assets/char-maolang.png",
+        "http://127.0.0.1:54490/assets/bg-street.png",
+        "http://127.0.0.1:54490/assets/char-xiaoman.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/char-mengyao.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/cg/cg-07-yelan-off-duty.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/index.html",
+        "http://127.0.0.1:54490/styles.css",
+        "http://127.0.0.1:54490/story.js",
+        "http://127.0.0.1:54490/assets/bg-street.png",
+        "http://127.0.0.1:54490/assets/char-wenwen.png",
+        "http://127.0.0.1:54490/engine.js",
+        "http://127.0.0.1:54490/game.js",
+        "http://127.0.0.1:54490/assets/char-yelan.png"
+      ],
+      "unexpected": [],
+      "failed": [],
+      "responsesWithErrors": []
+    },
+    {
+      "label": "file-direct",
+      "allowed": [
+        "file:///Users/yipin/Desktop/cjb/index.html",
+        "file:///Users/yipin/Desktop/cjb/styles.css",
+        "file:///Users/yipin/Desktop/cjb/story.js",
+        "file:///Users/yipin/Desktop/cjb/engine.js",
+        "file:///Users/yipin/Desktop/cjb/game.js",
+        "file:///Users/yipin/Desktop/cjb/assets/bg-street.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-wenwen.png",
+        "file:///Users/yipin/Desktop/cjb/assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+        "file:///Users/yipin/Desktop/cjb/assets/cg/cg-01-rain-return.png",
+        "file:///Users/yipin/Desktop/cjb/assets/bg-repair.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-maolang.png",
+        "file:///Users/yipin/Desktop/cjb/assets/cg/cg-09-repair-handoff.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-maolang.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-shijiang.png",
+        "file:///Users/yipin/Desktop/cjb/assets/bg-room.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-yelan.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-zhouzhi.png",
+        "file:///Users/yipin/Desktop/cjb/assets/bg-noodles.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-xiaoman.png",
+        "file:///Users/yipin/Desktop/cjb/assets/cg/cg-13-xiaoman-night-stall.png",
+        "file:///Users/yipin/Desktop/cjb/assets/bg-street.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-xiaoman.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-zhouzhi.png",
+        "file:///Users/yipin/Desktop/cjb/assets/bg-noodles.png",
+        "file:///Users/yipin/Desktop/cjb/assets/bg-salon.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-xiaoman.png",
+        "file:///Users/yipin/Desktop/cjb/assets/cg/cg-02-xiaoman-mirror.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-xiaoman.png",
+        "file:///Users/yipin/Desktop/cjb/assets/bg-noodles.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-zhouzhi.png",
+        "file:///Users/yipin/Desktop/cjb/assets/cg/cg-03-zhouzhi-noodles.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-zhouzhi.png",
+        "file:///Users/yipin/Desktop/cjb/assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+        "file:///Users/yipin/Desktop/cjb/assets/cg/cg-04-mengyao-camera.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-mengyao.png",
+        "file:///Users/yipin/Desktop/cjb/assets/bg-room.png",
+        "file:///Users/yipin/Desktop/cjb/assets/cg/cg-05-yelan-inventory.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-yelan.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-shijiang.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-shijiang.png",
+        "file:///Users/yipin/Desktop/cjb/assets/bg-lobby.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-mengyao.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-yelan.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-shijiang.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-zhouzhi.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-mengyao.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-yelan.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-maolang.png",
+        "file:///Users/yipin/Desktop/cjb/assets/cg/cg-06-maolang-confession.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-mengyao.png",
+        "file:///Users/yipin/Desktop/cjb/assets/bg-street.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-xiaoman.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-zhouzhi.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-mengyao.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-yelan.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-yelan.png",
+        "file:///Users/yipin/Desktop/cjb/assets/cg/cg-07-yelan-off-duty.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-yelan.png",
+        "file:///Users/yipin/Desktop/cjb/index.html",
+        "file:///Users/yipin/Desktop/cjb/styles.css",
+        "file:///Users/yipin/Desktop/cjb/story.js",
+        "file:///Users/yipin/Desktop/cjb/engine.js",
+        "file:///Users/yipin/Desktop/cjb/game.js",
+        "file:///Users/yipin/Desktop/cjb/assets/bg-street.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-wenwen.png",
+        "file:///Users/yipin/Desktop/cjb/assets/char-yelan.png"
+      ],
+      "unexpected": [],
+      "failed": [],
+      "responsesWithErrors": []
+    },
+    {
+      "label": "five-endings-hidden",
+      "allowed": [
+        "http://127.0.0.1:54490/index.html",
+        "http://127.0.0.1:54490/styles.css",
+        "http://127.0.0.1:54490/story.js",
+        "http://127.0.0.1:54490/assets/bg-street.png",
+        "http://127.0.0.1:54490/assets/char-wenwen.png",
+        "http://127.0.0.1:54490/engine.js",
+        "http://127.0.0.1:54490/game.js",
+        "http://127.0.0.1:54490/assets/char-xiaoman.png",
+        "http://127.0.0.1:54490/assets/char-xiaoman.png",
+        "http://127.0.0.1:54490/assets/char-xiaoman.png",
+        "http://127.0.0.1:54490/assets/char-xiaoman.png",
+        "http://127.0.0.1:54490/assets/char-xiaoman.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/char-zhouzhi.png",
+        "http://127.0.0.1:54490/assets/char-mengyao.png",
+        "http://127.0.0.1:54490/assets/char-mengyao.png",
+        "http://127.0.0.1:54490/assets/char-mengyao.png",
+        "http://127.0.0.1:54490/assets/char-mengyao.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/cg/cg-07-yelan-off-duty.png",
+        "http://127.0.0.1:54490/assets/char-yelan.png",
+        "http://127.0.0.1:54490/assets/bg-room.png",
+        "http://127.0.0.1:54490/assets/char-huangqiuqiu.png",
+        "http://127.0.0.1:54490/assets/char-huangqiuqiu.png",
+        "http://127.0.0.1:54490/assets/cg/cg-08-huangqiuqiu-listening.png",
+        "http://127.0.0.1:54490/assets/char-huangqiuqiu.png",
+        "http://127.0.0.1:54490/assets/char-huangqiuqiu.png",
+        "http://127.0.0.1:54490/assets/char-huangqiuqiu.png",
+        "http://127.0.0.1:54490/assets/bg-street.png"
+      ],
+      "unexpected": [],
+      "failed": [],
+      "responsesWithErrors": []
+    },
+    {
+      "label": "audio-reading",
+      "allowed": [
+        "http://127.0.0.1:55968/index.html",
+        "http://127.0.0.1:55968/styles.css",
+        "http://127.0.0.1:55968/story.js",
+        "http://127.0.0.1:55968/assets/bg-street.png",
+        "http://127.0.0.1:55968/assets/char-wenwen.png",
+        "http://127.0.0.1:55968/engine.js",
+        "http://127.0.0.1:55968/game.js",
+        "http://127.0.0.1:55968/assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+        "http://127.0.0.1:55968/assets/bg-repair.png",
+        "http://127.0.0.1:55968/assets/char-shijiang.png"
+      ],
+      "unexpected": [],
+      "failed": [],
+      "responsesWithErrors": []
+    }
+  ],
+  "pageErrors": [],
+  "suites": {
+    "core": "qa/e5-core-tests.txt",
+    "player": "qa/e3-final-results.json",
+    "storage": "qa/cg-player-storage-results.json",
+    "ui": "qa/ui-results.json",
+    "cg": "qa/cg-integration-results.json",
+    "visual": "qa/final-visual-review.md",
+    "visibility": "qa/e5-visibility-results.json"
+  },
+  "diagnostics": [
+    {
+      "path": "qa/e5-diagnostic-first-run.json",
+      "issue": "提示音断言错误使用对白点击；此前5项通过，后改用产品实际的选项点击并仅补验音频交互"
+    },
+    {
+      "path": "qa/e5-diagnostic-focus-emulation.json",
+      "issue": "自动化默认强制前台导致隐藏条件不成立；此前3项声音/阅读检查通过，改用独立Chrome默认context与noDefaults补验原生可信事件"
+    }
+  ],
+  "testVersions": {
+    "fullFlow": "4c32c28477d82db7828229e2608fdf7858d0a8bbc221ba03780b3111b5930b8a",
+    "audio": "2bb1996e91db6087250eaad07ac525ce70fb16435bc271e7bad5aae7a0f2bf31",
+    "visibility": "706c4c3ad473d3aed002f0401657c6a294ad6dd9a9193e8f236174d5c10edf75",
+    "current": "706c4c3ad473d3aed002f0401657c6a294ad6dd9a9193e8f236174d5c10edf75"
+  },
+  "limitations": [
+    "直接打开HTML使用隔离Chrome的file://地址；未操作Finder双击，未检查其他系统默认浏览器。",
+    "音频通过真实Web Audio输出采样验证，未代替真人对音色和设备扬声器的听感审阅。",
+    "手机为浏览器视口模拟，不是实体手机；未检查Safari/Firefox。"
+  ],
+  "preview": "http://127.0.0.1:41735/",
+  "previewVerified": "内置浏览器显示标题、角色、开始故事/读档/设置；未操作玩家存档"
+}

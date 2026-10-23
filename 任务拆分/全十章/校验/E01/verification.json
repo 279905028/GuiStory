@@ -1,0 +1,600 @@
+{
+  "status": "passed",
+  "scope": "E01 contract/source/abstract-state only",
+  "runAt": "2026-10-22T03:48:52.668Z",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "contractSha256": "4086571ab65e54271ec70e5a0a0712e00d0b2a1f6dae739b1df05a328ada1876",
+  "sourceDigest": "8e5b38f487e0f64bfefdae3a3bf0ea59afb236c26efea8893f1b1971ec099379",
+  "sourceReferencesChecked": 296,
+  "routeSections": 56,
+  "modelScenarios": 736,
+  "coveredOptions": 43,
+  "coveredEndings": 13,
+  "hiddenMatrix": {
+    "record/reply": {
+      "met": true,
+      "visible": true
+    },
+    "record/leave": {
+      "met": false,
+      "visible": false
+    },
+    "ignore/reply": {
+      "met": false,
+      "visible": false
+    },
+    "ignore/leave": {
+      "met": false,
+      "visible": false
+    }
+  },
+  "endingScenarios": {
+    "tc_c10_xiaoman_end_dating": 64,
+    "tc_c10_xiaoman_end_friends": 64,
+    "tc_c10_zhouzhi_end_dating": 64,
+    "tc_c10_zhouzhi_end_friends": 64,
+    "tc_c10_mengyao_end_dating": 64,
+    "tc_c10_mengyao_end_friends": 64,
+    "tc_c10_yelan_end_dating": 64,
+    "tc_c10_yelan_end_friends": 64,
+    "tc_c10_piao_end_dating": 64,
+    "tc_c10_piao_end_friends": 64,
+    "tc_c10_friends_end": 64,
+    "tc_c10_huangqiuqiu_end_dating": 16,
+    "tc_c10_huangqiuqiu_end_friends": 16
+  },
+  "witnesses": {
+    "tc_c10_xiaoman_end_dating": {
+      "choices": [
+        {
+          "choiceId": "tc_c01_common_rhythm_record_choice",
+          "value": "record"
+        },
+        {
+          "choiceId": "tc_c01_common_reunion_choice",
+          "value": "nervous"
+        },
+        {
+          "choiceId": "tc_c02_common_rhythm_reply_choice",
+          "value": "reply"
+        },
+        {
+          "choiceId": "tc_c02_common_missed_game_choice",
+          "value": "voice"
+        },
+        {
+          "choiceId": "tc_c02_common_yelan_first_choice",
+          "value": "game"
+        },
+        {
+          "choiceId": "tc_c03_common_route_choice",
+          "value": "xiaoman"
+        },
+        {
+          "choiceId": "tc_c04_xiaoman_outing_choice",
+          "value": "basketball"
+        },
+        {
+          "choiceId": "tc_c09_xiaoman_relationship_choice",
+          "value": "dating"
+        }
+      ],
+      "epilogue": "tc_c10_common_piao_wedding",
+      "finalForm": "sphere"
+    },
+    "tc_c10_xiaoman_end_friends": {
+      "choices": [
+        {
+          "choiceId": "tc_c01_common_rhythm_record_choice",
+          "value": "record"
+        },
+        {
+          "choiceId": "tc_c01_common_reunion_choice",
+          "value": "nervous"
+        },
+        {
+          "choiceId": "tc_c02_common_rhythm_reply_choice",
+          "value": "reply"
+        },
+        {
+          "choiceId": "tc_c02_common_missed_game_choice",
+          "value": "voice"
+        },
+        {
+          "choiceId": "tc_c02_common_yelan_first_choice",
+          "value": "game"
+        },
+        {
+          "choiceId": "tc_c03_common_route_choice",
+          "value": "xiaoman"
+        },
+        {
+          "choiceId": "tc_c04_xiaoman_outing_choice",
+          "value": "basketball"
+        },
+        {
+          "choiceId": "tc_c09_xiaoman_relationship_choice",
+          "value": "friends"
+        }
+      ],
+      "epilogue": "tc_c10_common_piao_wedding",
+      "finalForm": "sphere"
+    },
+    "tc_c10_zhouzhi_end_dating": {
+      "choices": [
+        {
+          "choiceId": "tc_c01_common_rhythm_record_choice",
+          "value": "record"
+        },
+        {
+          "choiceId": "tc_c01_common_reunion_choice",
+          "value": "nervous"
+        },
+        {
+          "choiceId": "tc_c02_common_rhythm_reply_choice",
+          "value": "reply"
+        },
+        {
+          "choiceId": "tc_c02_common_missed_game_choice",
+          "value": "voice"
+        },
+        {
+          "choiceId": "tc_c02_common_yelan_first_choice",
+          "value": "game"
+        },
+        {
+          "choiceId": "tc_c03_common_route_choice",
+          "value": "zhouzhi"
+        },
+        {
+          "choiceId": "tc_c04_zhouzhi_outing_choice",
+          "value": "river"
+        },
+        {
+          "choiceId": "tc_c09_zhouzhi_relationship_choice",
+          "value": "dating"
+        }
+      ],
+      "epilogue": "tc_c10_common_piao_wedding",
+      "finalForm": "sphere"
+    },
+    "tc_c10_zhouzhi_end_friends": {
+      "choices": [
+        {
+          "choiceId": "tc_c01_common_rhythm_record_choice",
+          "value": "record"
+        },
+        {
+          "choiceId": "tc_c01_common_reunion_choice",
+          "value": "nervous"
+        },
+        {
+          "choiceId": "tc_c02_common_rhythm_reply_choice",
+          "value": "reply"
+        },
+        {
+          "choiceId": "tc_c02_common_missed_game_choice",
+          "value": "voice"
+        },
+        {
+          "choiceId": "tc_c02_common_yelan_first_choice",
+          "value": "game"
+        },
+        {
+          "choiceId": "tc_c03_common_route_choice",
+          "value": "zhouzhi"
+        },
+        {
+          "choiceId": "tc_c04_zhouzhi_outing_choice",
+          "value": "river"
+        },
+        {
+          "choiceId": "tc_c09_zhouzhi_relationship_choice",
+          "value": "friends"
+        }
+      ],
+      "epilogue": "tc_c10_common_piao_wedding",
+      "finalForm": "sphere"
+    },
+    "tc_c10_mengyao_end_dating": {
+      "choices": [
+        {
+          "choiceId": "tc_c01_common_rhythm_record_choice",
+          "value": "record"
+        },
+        {
+          "choiceId": "tc_c01_common_reunion_choice",
+          "value": "nervous"
+        },
+        {
+          "choiceId": "tc_c02_common_rhythm_reply_choice",
+          "value": "reply"
+        },
+        {
+          "choiceId": "tc_c02_common_missed_game_choice",
+          "value": "voice"
+        },
+        {
+          "choiceId": "tc_c02_common_yelan_first_choice",
+          "value": "game"
+        },
+        {
+          "choiceId": "tc_c03_common_route_choice",
+          "value": "mengyao"
+        },
+        {
+          "choiceId": "tc_c04_mengyao_outing_choice",
+          "value": "books"
+        },
+        {
+          "choiceId": "tc_c09_mengyao_relationship_choice",
+          "value": "dating"
+        }
+      ],
+      "epilogue": "tc_c10_common_piao_wedding",
+      "finalForm": "sphere"
+    },
+    "tc_c10_mengyao_end_friends": {
+      "choices": [
+        {
+          "choiceId": "tc_c01_common_rhythm_record_choice",
+          "value": "record"
+        },
+        {
+          "choiceId": "tc_c01_common_reunion_choice",
+          "value": "nervous"
+        },
+        {
+          "choiceId": "tc_c02_common_rhythm_reply_choice",
+          "value": "reply"
+        },
+        {
+          "choiceId": "tc_c02_common_missed_game_choice",
+          "value": "voice"
+        },
+        {
+          "choiceId": "tc_c02_common_yelan_first_choice",
+          "value": "game"
+        },
+        {
+          "choiceId": "tc_c03_common_route_choice",
+          "value": "mengyao"
+        },
+        {
+          "choiceId": "tc_c04_mengyao_outing_choice",
+          "value": "books"
+        },
+        {
+          "choiceId": "tc_c09_mengyao_relationship_choice",
+          "value": "friends"
+        }
+      ],
+      "epilogue": "tc_c10_common_piao_wedding",
+      "finalForm": "sphere"
+    },
+    "tc_c10_yelan_end_dating": {
+      "choices": [
+        {
+          "choiceId": "tc_c01_common_rhythm_record_choice",
+          "value": "record"
+        },
+        {
+          "choiceId": "tc_c01_common_reunion_choice",
+          "value": "nervous"
+        },
+        {
+          "choiceId": "tc_c02_common_rhythm_reply_choice",
+          "value": "reply"
+        },
+        {
+          "choiceId": "tc_c02_common_missed_game_choice",
+          "value": "voice"
+        },
+        {
+          "choiceId": "tc_c02_common_yelan_first_choice",
+          "value": "game"
+        },
+        {
+          "choiceId": "tc_c03_common_route_choice",
+          "value": "yelan"
+        },
+        {
+          "choiceId": "tc_c04_yelan_outing_choice",
+          "value": "kite"
+        },
+        {
+          "choiceId": "tc_c09_yelan_relationship_choice",
+          "value": "dating"
+        }
+      ],
+      "epilogue": "tc_c10_common_piao_wedding",
+      "finalForm": "sphere"
+    },
+    "tc_c10_yelan_end_friends": {
+      "choices": [
+        {
+          "choiceId": "tc_c01_common_rhythm_record_choice",
+          "value": "record"
+        },
+        {
+          "choiceId": "tc_c01_common_reunion_choice",
+          "value": "nervous"
+        },
+        {
+          "choiceId": "tc_c02_common_rhythm_reply_choice",
+          "value": "reply"
+        },
+        {
+          "choiceId": "tc_c02_common_missed_game_choice",
+          "value": "voice"
+        },
+        {
+          "choiceId": "tc_c02_common_yelan_first_choice",
+          "value": "game"
+        },
+        {
+          "choiceId": "tc_c03_common_route_choice",
+          "value": "yelan"
+        },
+        {
+          "choiceId": "tc_c04_yelan_outing_choice",
+          "value": "kite"
+        },
+        {
+          "choiceId": "tc_c09_yelan_relationship_choice",
+          "value": "friends"
+        }
+      ],
+      "epilogue": "tc_c10_common_piao_wedding",
+      "finalForm": "sphere"
+    },
+    "tc_c10_piao_end_dating": {
+      "choices": [
+        {
+          "choiceId": "tc_c01_common_rhythm_record_choice",
+          "value": "record"
+        },
+        {
+          "choiceId": "tc_c01_common_reunion_choice",
+          "value": "nervous"
+        },
+        {
+          "choiceId": "tc_c02_common_rhythm_reply_choice",
+          "value": "reply"
+        },
+        {
+          "choiceId": "tc_c02_common_missed_game_choice",
+          "value": "voice"
+        },
+        {
+          "choiceId": "tc_c02_common_yelan_first_choice",
+          "value": "game"
+        },
+        {
+          "choiceId": "tc_c03_common_route_choice",
+          "value": "piao"
+        },
+        {
+          "choiceId": "tc_c03_piao_relationship_choice",
+          "value": "dating"
+        },
+        {
+          "choiceId": "tc_c04_piao_outing_choice",
+          "value": "paperboat"
+        }
+      ],
+      "epilogue": "tc_c10_common_piao_dating",
+      "finalForm": "sphere"
+    },
+    "tc_c10_piao_end_friends": {
+      "choices": [
+        {
+          "choiceId": "tc_c01_common_rhythm_record_choice",
+          "value": "record"
+        },
+        {
+          "choiceId": "tc_c01_common_reunion_choice",
+          "value": "nervous"
+        },
+        {
+          "choiceId": "tc_c02_common_rhythm_reply_choice",
+          "value": "reply"
+        },
+        {
+          "choiceId": "tc_c02_common_missed_game_choice",
+          "value": "voice"
+        },
+        {
+          "choiceId": "tc_c02_common_yelan_first_choice",
+          "value": "game"
+        },
+        {
+          "choiceId": "tc_c03_common_route_choice",
+          "value": "piao"
+        },
+        {
+          "choiceId": "tc_c03_piao_relationship_choice",
+          "value": "friends"
+        },
+        {
+          "choiceId": "tc_c04_piao_outing_choice",
+          "value": "paperboat"
+        }
+      ],
+      "epilogue": "tc_c10_common_piao_wedding",
+      "finalForm": "sphere"
+    },
+    "tc_c10_friends_end": {
+      "choices": [
+        {
+          "choiceId": "tc_c01_common_rhythm_record_choice",
+          "value": "record"
+        },
+        {
+          "choiceId": "tc_c01_common_reunion_choice",
+          "value": "nervous"
+        },
+        {
+          "choiceId": "tc_c02_common_rhythm_reply_choice",
+          "value": "reply"
+        },
+        {
+          "choiceId": "tc_c02_common_missed_game_choice",
+          "value": "voice"
+        },
+        {
+          "choiceId": "tc_c02_common_yelan_first_choice",
+          "value": "game"
+        },
+        {
+          "choiceId": "tc_c03_common_route_choice",
+          "value": "friends"
+        },
+        {
+          "choiceId": "tc_c04_friends_outing_choice",
+          "value": "show"
+        }
+      ],
+      "epilogue": "tc_c10_common_piao_wedding",
+      "finalForm": "sphere"
+    },
+    "tc_c10_huangqiuqiu_end_dating": {
+      "choices": [
+        {
+          "choiceId": "tc_c01_common_rhythm_record_choice",
+          "value": "record"
+        },
+        {
+          "choiceId": "tc_c01_common_reunion_choice",
+          "value": "nervous"
+        },
+        {
+          "choiceId": "tc_c02_common_rhythm_reply_choice",
+          "value": "reply"
+        },
+        {
+          "choiceId": "tc_c02_common_missed_game_choice",
+          "value": "voice"
+        },
+        {
+          "choiceId": "tc_c02_common_yelan_first_choice",
+          "value": "game"
+        },
+        {
+          "choiceId": "tc_c03_common_route_choice",
+          "value": "huangqiuqiu"
+        },
+        {
+          "choiceId": "tc_c04_huangqiuqiu_outing_choice",
+          "value": "portrait"
+        },
+        {
+          "choiceId": "tc_c09_huangqiuqiu_relationship_choice",
+          "value": "dating"
+        }
+      ],
+      "epilogue": "tc_c10_common_piao_wedding",
+      "finalForm": "human"
+    },
+    "tc_c10_huangqiuqiu_end_friends": {
+      "choices": [
+        {
+          "choiceId": "tc_c01_common_rhythm_record_choice",
+          "value": "record"
+        },
+        {
+          "choiceId": "tc_c01_common_reunion_choice",
+          "value": "nervous"
+        },
+        {
+          "choiceId": "tc_c02_common_rhythm_reply_choice",
+          "value": "reply"
+        },
+        {
+          "choiceId": "tc_c02_common_missed_game_choice",
+          "value": "voice"
+        },
+        {
+          "choiceId": "tc_c02_common_yelan_first_choice",
+          "value": "game"
+        },
+        {
+          "choiceId": "tc_c03_common_route_choice",
+          "value": "huangqiuqiu"
+        },
+        {
+          "choiceId": "tc_c04_huangqiuqiu_outing_choice",
+          "value": "portrait"
+        },
+        {
+          "choiceId": "tc_c09_huangqiuqiu_relationship_choice",
+          "value": "friends"
+        }
+      ],
+      "epilogue": "tc_c10_common_piao_wedding",
+      "finalForm": "human"
+    }
+  },
+  "negativeChecks": [
+    {
+      "name": "重复选择ID",
+      "rejected": true
+    },
+    {
+      "name": "隐藏条件被删",
+      "rejected": true
+    },
+    {
+      "name": "飘第九章重选",
+      "rejected": true
+    },
+    {
+      "name": "球球恋爱门槛",
+      "rejected": true
+    },
+    {
+      "name": "按钮伪造",
+      "rejected": true
+    },
+    {
+      "name": "正文指纹漂移",
+      "rejected": true
+    },
+    {
+      "name": "回收非法枚举",
+      "rejected": true
+    },
+    {
+      "name": "路线缺章",
+      "rejected": true
+    },
+    {
+      "name": "变身提前到场景入口",
+      "rejected": true
+    },
+    {
+      "name": "结局交叠",
+      "rejected": true
+    },
+    {
+      "name": "婚宴出现球球",
+      "rejected": true
+    },
+    {
+      "name": "存档空间复用",
+      "rejected": true
+    }
+  ],
+  "localLinksChecked": 64,
+  "protectedFilesChecked": 23,
+  "protectedFilesChanged": [],
+  "notExecuted": [
+    "正式故事构建",
+    "正式图与全文节点映射验收",
+    "真实引擎自动事件/恢复测试",
+    "浏览器/实体手机/声音/真人阅读",
+    "资源制作与采用",
+    "发布"
+  ]
+}

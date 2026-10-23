@@ -1,0 +1,44 @@
+[
+  {
+    "version": "original",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "transparent_pixels": 642001,
+    "opaque_pixels": 0,
+    "partial_alpha_pixels": 930863,
+    "alpha_bbox": [
+      0,
+      0,
+      991,
+      1536
+    ]
+  },
+  {
+    "version": "candidate",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "transparent_pixels": 641481,
+    "opaque_pixels": 0,
+    "partial_alpha_pixels": 931383,
+    "alpha_bbox": [
+      0,
+      0,
+      1006,
+      1536
+    ]
+  }
+]

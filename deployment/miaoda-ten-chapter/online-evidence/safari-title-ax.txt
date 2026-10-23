@@ -1,0 +1,146 @@
+Window: "279905028/GuiStory", App: Safari浏览器.
+0 标准窗口 279905028/GuiStory, ID: SafariWindow?IsSecure=true&UUID=73D7E4F6-A9A1-42D9-9480-CCEE90410D24, Secondary Actions: Raise
+	1 分离组
+		2 标签组
+			3 滚动区
+				4 HTML内容 Description: 279905028/GuiStory, URL: github.com/279905028/GuiStory
+					5 container Global navigation menu
+						6 弹出式按钮 Open menu
+						7 link Homepage (g then d), Value: github.com/
+						8 container Breadcrumbs
+							9 内容列表
+								10 link 279905028, Value: github.com/279905028
+								11 container
+									12 link GuiStory, Value: github.com/279905028/GuiStory
+									13 弹出式按钮 Switch repository (option shift r)
+						14 按钮 Open quick search dialog, type / to search
+						15 link Chat with Copilot, Value: github.com/copilot
+						16 弹出式按钮 Open Copilot…
+						17 弹出式按钮 Create new...
+						18 link All issues, Value: github.com/issues
+						19 link All pull requests, Value: github.com/pulls
+						20 link All repositories, Value: github.com/repos
+						21 弹出式按钮 Open user navigation menu
+						22 标题 Repository navigation, Value: 2
+							23 文本 Repository navigation
+						24 container Repository
+							25 内容列表
+								26 link Code, Value: github.com/279905028/GuiStory
+								27 link Issues, Value: github.com/279905028/GuiStory/issues
+								28 link Pull requests, Value: github.com/279905028/GuiStory/pulls
+								29 link Agents, Value: github.com/279905028/GuiStory/agents?author=279905028
+								30 link Actions, Value: github.com/279905028/GuiStory/actions
+								31 link Projects, Value: github.com/279905028/GuiStory/projects
+								32 link Security and quality, Value: github.com/279905028/GuiStory/security
+								33 link Insights, Value: github.com/279905028/GuiStory/network/dependencies
+								34 link Settings, Value: github.com/279905028/GuiStory/settings
+					35 container
+						36 图像 279905028
+						37 link GuiStory, Value: github.com/279905028/GuiStory
+						38 文本 Private
+						39 container
+							40 弹出式按钮 Watch: Participating in 279905028/GuiStory. 0 users are watching this repository. Click to change subscription settings.
+							41 按钮 You own 279905028/GuiStory and are not a member of any organizations
+							42 按钮 Star 279905028/GuiStory
+							43 弹出式按钮 Star lists
+						44 标题 Start coding with Codespaces, Value: 3
+							45 文本 Start coding with Codespaces
+						46 文本 Add a README file and start coding in a secure, configurable, and dedicated development environment.
+						47 link Create a codespace, Value: github.com/codespaces/new/279905028/GuiStory?auto_init=1&resume=1
+						48 标题 Add collaborators to this repository, Value: 3
+							49 文本 Add collaborators to this repository
+						50 文本 Search for people using their GitHub username or email address.
+						51 link Invite collaborators, Value: github.com/279905028/GuiStory/settings/access
+						52 标题 Quick setup — if you’ve done this kind of thing before, Value: 3
+							53 text Quick setup  — if you’ve done this kind of thing before
+						54 link Set up in GitHub Desktop, Value: desktop.github.com/
+						55 文本 or
+						56 container Clone protocol
+							57 开关按钮 HTTPS, Value: on
+							58 开关按钮 SSH, Value: off
+						59 container
+							60 文本栏 Clone URL, Value: https://github.com/279905028/GuiStory.git
+							61 按钮 Copy URL to clipboard
+						62 文本 Get started by
+						63 link creating a new file, Value: github.com/279905028/GuiStory/new/main
+						64 文本 or
+						65 link uploading an existing file, Value: github.com/279905028/GuiStory/upload
+						66 文本 . We recommend every repository include a
+						67 link README, Value: github.com/279905028/GuiStory/new/main?readme=1
+						68 文本 ,
+						69 link LICENSE, Value: github.com/279905028/GuiStory/new/main?filename=LICENSE.md
+						70 文本 , and
+						71 link .gitignore, Value: github.com/279905028/GuiStory/new/main?filename=.gitignore
+						72 文本 .
+						73 标题 …or create a new repository on the command line, Value: 3
+							74 文本 …or create a new repository on the command line
+						75 文本 echo "# GuiStory" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/279905028/GuiStory.git
+git push -u origin main
+						76 按钮 Copy create commands to clipboard
+						77 标题 …or push an existing repository from the command line, Value: 3
+							78 文本 …or push an existing repository from the command line
+						79 文本 git remote add origin https://github.com/279905028/GuiStory.git
+git branch -M main
+git push -u origin main
+						80 按钮 Copy push commands to clipboard
+						81 文本 ProTip!
+						82 文本  Use the URL for this page when adding GitHub as a remote.
+					83 文本 12 repositories found. List is sorted by Relevance in descending order.
+					84 文本 Copied!
+				85 滚动条 (settable, float) 0
+	86 图像 WindowControlShadowView._shadowImageView
+	87 标签组 Description: 标签页栏，5个标签页，2个固定的标签页, ID: TabBar?isSeparate=false
+		88 标签 Codex Reset — 上次重置追踪与实时预测, Value: off, ID: TabBarTab?isPinned=true&isNarrow=true&isActive=false
+			89 图像 FaviconImageView
+		90 标签 DeepSeek - 探索未至之境, Value: off, ID: TabBarTab?isPinned=true&isNarrow=true&isActive=false
+			91 图像 FaviconImageView
+		92 标签 Search results - Google Drive, Value: off, ID: TabBarTab?isPinned=false&isNarrow=false&isActive=false, Secondary Actions: 关闭标签页
+			93 图像 FaviconImageView
+			94 文本 Value: Search results - Google Drive, ID: UnifiedTabBarButton._titleTextField
+		95 标签 腾讯云_百度搜索, Value: off, ID: TabBarTab?isPinned=false&isNarrow=false&isActive=false, Secondary Actions: 关闭标签页
+			96 图像 FaviconImageView
+			97 文本 Value: 腾讯云_百度搜索, ID: UnifiedTabBarButton._titleTextField
+		98 标签 对象存储→文件存储 - 数据迁移服务 - 文件存储 - 控制台, Value: off, ID: TabBarTab?isPinned=false&isNarrow=false&isActive=false, Secondary Actions: 关闭标签页
+			99 图像 FaviconImageView
+			100 文本 Value: 对象存储→文件存储 - 数据迁移服务 - 文件存储 - 控制台, ID: UnifiedTabBarButton._titleTextField
+		101 标签 毕节，雨停之前·全十章, Value: off, ID: TabBarTab?isPinned=false&isNarrow=false&isActive=false, Secondary Actions: 关闭标签页
+			102 图像 FaviconImageView
+			103 文本 Value: 毕节，雨停之前·全十章, ID: UnifiedTabBarButton._titleTextField
+		104 标签 279905028/GuiStory, Help: 若要与此按钮中的项目交互，请按下Control-Option-Shift-下箭头键。, Value: on, ID: TabBarTab?isPinned=false&isNarrow=false&isActive=true, Secondary Actions: 关闭标签页
+			105 图像 FaviconImageView
+			106 文本 Value: 279905028/GuiStory, ID: UnifiedTabBarButton._titleTextField
+	107 工具栏
+		108 container Secondary Actions: 移到下一项, 从工具栏移除
+			109 按钮 Description: 显示边栏, ID: SidebarButton
+			110 菜单按钮 Description: 标签页组选择器, ID: TabGroupPickerButton?TabGroup=
+		111 container BackForwardSegmentedControl
+			112 按钮 Description: 返回, Help: 显示上一页, ID: BackButton
+			113 按钮 (disabled) Description: 前进, Help: 显示下一页, ID: ForwardButton
+		114 container Secondary Actions: 移到上一项, 移到下一项, 从工具栏移除
+			115 按钮 页面菜单, ID: AssistantButton
+			116 按钮 (disabled) 将页面添加到阅读列表, ID: OneStepBookmarkingButton
+			117 文本栏 (settable) Description: 智能搜索栏, Value: https://github.com/279905028/GuiStory, ID: WEB_BROWSER_ADDRESS_AND_SEARCH_FIELD
+			118 按钮 翻译可用, ID: TranslationButton
+			119 按钮 重新加载此页面, ID: ReloadButton
+		120 按钮 Description: 下载, ID: DownloadsButton, Secondary Actions: 移到上一项, 移到下一项, 从工具栏移除
+		121 按钮 Description: 共享, ID: ShareButton, Secondary Actions: 移到上一项, 移到下一项, 从工具栏移除
+		122 按钮 Description: 新建标签页, ID: NewTabButton, Secondary Actions: 移到上一项, 移到下一项, 从工具栏移除
+		123 按钮 Description: 标签页概览, ID: TabOverviewButton, Secondary Actions: 移到上一项, 从工具栏移除
+	124 关闭按钮
+	125 全屏幕按钮 Help: 此按钮也可以执行缩放窗口的操作, Secondary Actions: 缩放窗口
+	126 最小化按钮
+127 menu bar
+	128 Safari浏览器
+	129 文件
+	130 编辑
+	131 显示, ID: SafariViewMenu
+	132 历史记录
+	133 书签, ID: SafariBookmarksMenu
+	134 开发
+	135 窗口, ID: SafariWindowMenu
+	136 帮助, ID: SafariHelpMenu

@@ -1,0 +1,61 @@
+{
+  "task": "E10",
+  "runAt": "2026-10-23T05:40:43.250Z",
+  "documents": 14,
+  "links": 193,
+  "broken": [],
+  "syntax": [
+    {
+      "file": "qa/ten-chapter/browser/browser-test.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "qa/ten-chapter/browser/firefox-network-probe.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "qa/ten-chapter/browser/write-report.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "qa/ten-chapter/content/audit.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "qa/ten-chapter/engine/regression.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "qa/ten-chapter/integrity/check.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "qa/ten-chapter/integrity/guards.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "qa/ten-chapter/run.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "qa/ten-chapter/safari/probe.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "qa/ten-chapter/summarize.cjs",
+      "passed": true,
+      "error": null
+    }
+  ],
+  "passed": true,
+  "documentRecheckedAt": "2026-10-23T05:41:52.888Z"
+}

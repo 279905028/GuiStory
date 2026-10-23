@@ -1,0 +1,778 @@
+{
+  "revision": "M2-v01-daynight-20261020",
+  "checked_at": "2026-10-20T01:43:45.672Z",
+  "timezone": "Asia/Shanghai",
+  "result": "PASS_ASSET_AND_PROPOSED_MAPPING_ONLY",
+  "story_sha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+  "image_count": 13,
+  "images": [
+    {
+      "path": "assets/bg-street.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 3010764,
+      "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "png_crc_chunks": 4,
+      "scanlines_valid": true
+    },
+    {
+      "path": "assets/bg-repair.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2370266,
+      "sha256": "14b00ead5390e93803ef16f82b38949dd464e901a9cf5b208bc1140cda0c3675",
+      "png_crc_chunks": 4,
+      "scanlines_valid": true
+    },
+    {
+      "path": "assets/bg-lobby.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2158979,
+      "sha256": "2bc2954dd90394bdd0261f87b5372bdcf61b7cc41fdb7939d490dcf49f08a39f",
+      "png_crc_chunks": 4,
+      "scanlines_valid": true
+    },
+    {
+      "path": "assets/bg-room.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 1968927,
+      "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+      "png_crc_chunks": 4,
+      "scanlines_valid": true
+    },
+    {
+      "path": "assets/bg-noodles.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2528115,
+      "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+      "png_crc_chunks": 4,
+      "scanlines_valid": true
+    },
+    {
+      "path": "assets/bg-salon.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2571679,
+      "sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+      "png_crc_chunks": 4,
+      "scanlines_valid": true
+    },
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-lobby-day.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2158979,
+      "sha256": "2bc2954dd90394bdd0261f87b5372bdcf61b7cc41fdb7939d490dcf49f08a39f",
+      "png_crc_chunks": 4,
+      "scanlines_valid": true
+    },
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-lobby-original.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2260911,
+      "sha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871",
+      "png_crc_chunks": 4,
+      "scanlines_valid": true
+    },
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-repair-night-v2.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2370266,
+      "sha256": "14b00ead5390e93803ef16f82b38949dd464e901a9cf5b208bc1140cda0c3675",
+      "png_crc_chunks": 4,
+      "scanlines_valid": true
+    },
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-repair-night.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2467991,
+      "sha256": "8b4afc043e48148094c0b17db060d9a3792f2735a71a0fb651e5ded6980bff73",
+      "png_crc_chunks": 4,
+      "scanlines_valid": true
+    },
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-repair-original.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2576047,
+      "sha256": "3b918a88c0d486575fa18d09afb70a37f9e1743257dd49ce1a44f72416e098aa",
+      "png_crc_chunks": 4,
+      "scanlines_valid": true
+    },
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+      "width": 1671,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 3220000,
+      "sha256": "3cd546cd5eb5addd38e14b0d36c4176134b819cd2fb7503710ea1f87f29443ab",
+      "png_crc_chunks": 4,
+      "scanlines_valid": true
+    },
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-street-original.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 3010764,
+      "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "png_crc_chunks": 4,
+      "scanlines_valid": true
+    }
+  ],
+  "unchanged_checked": [
+    "assets/bg-street.png",
+    "assets/bg-room.png",
+    "assets/bg-noodles.png",
+    "assets/bg-salon.png",
+    "assets/background-prompts.json",
+    "story.js"
+  ],
+  "original_backups_match": true,
+  "default_images_match_manifest": true,
+  "display_nodes_checked": 375,
+  "counts_by_effective_background_time": {
+    "street": {
+      "下午": 40,
+      "夜间": 90,
+      "凌晨": 13
+    },
+    "repair": {
+      "晚上": 25
+    },
+    "room": {
+      "晚上": 47,
+      "夜间": 28
+    },
+    "noodles": {
+      "夜间": 42,
+      "凌晨": 4
+    },
+    "salon": {
+      "下午": 29
+    },
+    "lobby": {
+      "下午": 57
+    }
+  },
+  "proposed_resolution_checked": 375,
+  "runtime_pending_E3_nodes": [
+    "s1_arrive_01",
+    "s1_arrive_02",
+    "s1_arrive_03",
+    "s1_arrive_04",
+    "s1_arrive_05",
+    "s1_arrive_06",
+    "s1_arrive_07",
+    "s1_arrive_08",
+    "s1_arrive_09",
+    "s1_arrive_10",
+    "s1_arrive_11",
+    "s1_arrive_12",
+    "s7_camera_01",
+    "s7_camera_02",
+    "s7_camera_03",
+    "s7_camera_04",
+    "s7_camera_05",
+    "s7_camera_06",
+    "s7_camera_07",
+    "s7_camera_08",
+    "s7_camera_09",
+    "s7_camera_10",
+    "c4",
+    "s7_apologize_01",
+    "s7_apologize_02",
+    "s7_apologize_03",
+    "s7_apologize_04",
+    "s7_appointment_01",
+    "s7_appointment_02",
+    "s7_appointment_03",
+    "s7_joke_01",
+    "s7_joke_02",
+    "s7_joke_03",
+    "s7_joke_04",
+    "s7_terms_01",
+    "s7_terms_02",
+    "s7_terms_03",
+    "s7_appointment_04",
+    "s7_appointment_05",
+    "s7_joke_05"
+  ],
+  "runtime_pending_note": "拟议映射在内存逐节点核对通过，不表示game.js已经使用变体；street下午40节点仍待接入。",
+  "crop_geometry": [
+    {
+      "key": "street",
+      "path": "assets/bg-street.png",
+      "viewports": [
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "source_rect_xywh": [
+            83.2,
+            0,
+            1505.6,
+            941
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            1280,
+            720
+          ],
+          "source_rect_xywh": [
+            0,
+            0.25,
+            1672,
+            940.5
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "source_rect_xywh": [
+            445.384,
+            0,
+            434.822,
+            941
+          ],
+          "object_position": "36% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            375,
+            667
+          ],
+          "source_rect_xywh": [
+            411.463,
+            0,
+            529.048,
+            941
+          ],
+          "object_position": "36% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            844,
+            390
+          ],
+          "source_rect_xywh": [
+            0,
+            84.197,
+            1672,
+            772.607
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        }
+      ]
+    },
+    {
+      "key": "street",
+      "path": "assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+      "viewports": [
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "source_rect_xywh": [
+            82.7,
+            0,
+            1505.6,
+            941
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            1280,
+            720
+          ],
+          "source_rect_xywh": [
+            0,
+            0.531,
+            1671,
+            939.938
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "source_rect_xywh": [
+            445.024,
+            0,
+            434.822,
+            941
+          ],
+          "object_position": "36% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            375,
+            667
+          ],
+          "source_rect_xywh": [
+            411.103,
+            0,
+            529.048,
+            941
+          ],
+          "object_position": "36% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            844,
+            390
+          ],
+          "source_rect_xywh": [
+            0,
+            84.428,
+            1671,
+            772.145
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        }
+      ]
+    },
+    {
+      "key": "repair",
+      "path": "assets/bg-repair.png",
+      "viewports": [
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "source_rect_xywh": [
+            83.2,
+            0,
+            1505.6,
+            941
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            1280,
+            720
+          ],
+          "source_rect_xywh": [
+            0,
+            0.25,
+            1672,
+            940.5
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "source_rect_xywh": [
+            222.692,
+            0,
+            434.822,
+            941
+          ],
+          "object_position": "18% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            375,
+            667
+          ],
+          "source_rect_xywh": [
+            205.731,
+            0,
+            529.048,
+            941
+          ],
+          "object_position": "18% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            844,
+            390
+          ],
+          "source_rect_xywh": [
+            0,
+            84.197,
+            1672,
+            772.607
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        }
+      ]
+    },
+    {
+      "key": "lobby",
+      "path": "assets/bg-lobby.png",
+      "viewports": [
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "source_rect_xywh": [
+            83.2,
+            0,
+            1505.6,
+            941
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            1280,
+            720
+          ],
+          "source_rect_xywh": [
+            0,
+            0.25,
+            1672,
+            940.5
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "source_rect_xywh": [
+            433.012,
+            0,
+            434.822,
+            941
+          ],
+          "object_position": "35% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            375,
+            667
+          ],
+          "source_rect_xywh": [
+            400.033,
+            0,
+            529.048,
+            941
+          ],
+          "object_position": "35% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            844,
+            390
+          ],
+          "source_rect_xywh": [
+            0,
+            84.197,
+            1672,
+            772.607
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        }
+      ]
+    },
+    {
+      "key": "room",
+      "path": "assets/bg-room.png",
+      "viewports": [
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "source_rect_xywh": [
+            83.2,
+            0,
+            1505.6,
+            941
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            1280,
+            720
+          ],
+          "source_rect_xywh": [
+            0,
+            0.25,
+            1672,
+            940.5
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "source_rect_xywh": [
+            470.128,
+            0,
+            434.822,
+            941
+          ],
+          "object_position": "38% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            375,
+            667
+          ],
+          "source_rect_xywh": [
+            434.322,
+            0,
+            529.048,
+            941
+          ],
+          "object_position": "38% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            844,
+            390
+          ],
+          "source_rect_xywh": [
+            0,
+            84.197,
+            1672,
+            772.607
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        }
+      ]
+    },
+    {
+      "key": "noodles",
+      "path": "assets/bg-noodles.png",
+      "viewports": [
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "source_rect_xywh": [
+            83.2,
+            0,
+            1505.6,
+            941
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            1280,
+            720
+          ],
+          "source_rect_xywh": [
+            0,
+            0.25,
+            1672,
+            940.5
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "source_rect_xywh": [
+            222.692,
+            0,
+            434.822,
+            941
+          ],
+          "object_position": "18% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            375,
+            667
+          ],
+          "source_rect_xywh": [
+            205.731,
+            0,
+            529.048,
+            941
+          ],
+          "object_position": "18% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            844,
+            390
+          ],
+          "source_rect_xywh": [
+            0,
+            84.197,
+            1672,
+            772.607
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        }
+      ]
+    },
+    {
+      "key": "salon",
+      "path": "assets/bg-salon.png",
+      "viewports": [
+        {
+          "viewport": [
+            1440,
+            900
+          ],
+          "source_rect_xywh": [
+            83.2,
+            0,
+            1505.6,
+            941
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            1280,
+            720
+          ],
+          "source_rect_xywh": [
+            0,
+            0.25,
+            1672,
+            940.5
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "source_rect_xywh": [
+            346.41,
+            0,
+            434.822,
+            941
+          ],
+          "object_position": "28% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            375,
+            667
+          ],
+          "source_rect_xywh": [
+            320.027,
+            0,
+            529.048,
+            941
+          ],
+          "object_position": "28% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        },
+        {
+          "viewport": [
+            844,
+            390
+          ],
+          "source_rect_xywh": [
+            0,
+            84.197,
+            1672,
+            772.607
+          ],
+          "object_position": "50% 50%",
+          "method": "纯几何计算，非浏览器截图或UI验证"
+        }
+      ]
+    }
+  ],
+  "visual_review": {
+    "method": "根代理及独立只读代理实际view_image",
+    "repair_v1": "reject: indoor wet floor",
+    "repair_v2": "accept: dry indoor floor; outdoor rainy night retained",
+    "street_day": "accept",
+    "lobby_day": "accept"
+  },
+  "not_tested": [
+    "播放器实际切换",
+    "浏览器大小屏截图",
+    "人物与UI叠置",
+    "存读档/重选",
+    "真实手机",
+    "完整剧情路径回归（本任务未改剧情）"
+  ],
+  "preview_attempts": [
+    {
+      "type": "local HTTP",
+      "result": "EPERM listening on 127.0.0.1:8766; server not started"
+    },
+    {
+      "type": "in-app file preview",
+      "result": "file protocol blocked by browser URL policy; no screenshot; no workaround attempted"
+    }
+  ]
+}

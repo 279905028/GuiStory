@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-20",
+  "character": "shijiang",
+  "version": "photo-optionA-20261020",
+  "source": "assets/character-variants/shijiang-photo-options-20261020/option-A-photo-faithful.png",
+  "count": 11,
+  "candidateOnly": false,
+  "gameIntegrated": true,
+  "entries": [
+    {
+      "file": "../../char-shijiang.png",
+      "label": "基础立绘",
+      "source": "assets/character-variants/shijiang-photo-options-20261020/option-A-photo-faithful.png",
+      "path": "assets/char-shijiang.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "transparentPixels": 697507
+      },
+      "sha256": "391b5acd4b59bd93fcefc8c22c367d60be3faec8eb946a3635db38ee821eeed0",
+      "byteIdenticalToGenerated": true
+    },
+    {
+      "type": "expression",
+      "slug": "smile",
+      "label": "微笑",
+      "file": "char-shijiang-expression-smile.png",
+      "prompt": "Use case: identity-preserve. Asset type: ONE complete transparent visual-novel sprite, Shi Jiang 师匠, selected Option A.\nInput image 1 is the approved final identity/outfit master. Preserve this EXACT adult man's likeness: full cheeks, softly rounded broad jaw/chin, natural small eyes behind thick black rectangular eyeglasses, short black hair, black bucket hat with white all-over hand-drawn motifs and small red tag. Keep his ordinary natural build, skin tone and light facial stubble. Preserve the same white T-shirt with its specific colorful anime child graphic above the red rectangular chest print, black athletic shorts with double white stripe edging and the turquoise/yellow smile patch. Do not change his face into a generic handsome male, narrow his jaw, enlarge eyes, add hair, thin his glasses, remove his hat, or dress him in workwear.\nMatch the reference's detailed semi-realistic painted game style, light, shading, fabric texture and proportions. Maintain the same 1024×1536 portrait framing, complete hat with headroom, same head size and position, upper-thigh crop, safe margins around arms. Single person only. True alpha transparency outside the figure, opaque face and clothes. Preserve clean anti-aliased edges. No scenery, gradient, matte, shadow outside the silhouette, checkerboard, caption, labels or watermark.\nTask for this single image: Change ONLY facial expression: a small warm closed-mouth smile; cheeks and eyes soften. Keep the body, arms and original stance visually identical.",
+      "status": "generated",
+      "source": "/Users/yipin/.codex/generated_images/01a157db-ff60-7102-8994-2ef08f96801c/exec-811374e8-8f98-46ee-9218-42b74cebdc36.png",
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "transparentPixels": 698890
+      },
+      "sha256": "e43b52d5a2ed63ed4c2afb31bff13f006c809922329f7c353a09c5511aa074b4",
+      "byteIdenticalToGenerated": true
+    },
+    {
+      "type": "expression",
+      "slug": "serious",
+      "label": "认真",
+      "file": "char-shijiang-expression-serious.png",
+      "prompt": "Use case: identity-preserve. Asset type: ONE complete transparent visual-novel sprite, Shi Jiang 师匠, selected Option A.\nInput image 1 is the approved final identity/outfit master. Preserve this EXACT adult man's likeness: full cheeks, softly rounded broad jaw/chin, natural small eyes behind thick black rectangular eyeglasses, short black hair, black bucket hat with white all-over hand-drawn motifs and small red tag. Keep his ordinary natural build, skin tone and light facial stubble. Preserve the same white T-shirt with its specific colorful anime child graphic above the red rectangular chest print, black athletic shorts with double white stripe edging and the turquoise/yellow smile patch. Do not change his face into a generic handsome male, narrow his jaw, enlarge eyes, add hair, thin his glasses, remove his hat, or dress him in workwear.\nMatch the reference's detailed semi-realistic painted game style, light, shading, fabric texture and proportions. Maintain the same 1024×1536 portrait framing, complete hat with headroom, same head size and position, upper-thigh crop, safe margins around arms. Single person only. True alpha transparency outside the figure, opaque face and clothes. Preserve clean anti-aliased edges. No scenery, gradient, matte, shadow outside the silhouette, checkerboard, caption, labels or watermark.\nTask for this single image: Change ONLY facial expression: focused attentive eyes, slightly drawn brows, relaxed but straight closed lips. Composed concentration, not angry. Keep the body, arms and original stance visually identical.",
+      "status": "generated",
+      "source": "/Users/yipin/.codex/generated_images/01a157db-ff60-7102-8994-2ef08f96801c/exec-042fed3a-dc19-4e60-a0d2-79babe5cf6f9.png",
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "transparentPixels": 700852
+      },
+      "sha256": "8888ac0dd387444cded362eea27a3ef22a361f6327e48eb47b3f8168201c26af",
+      "byteIdenticalToGenerated": true
+    },
+    {
+      "type": "expression",
+      "slug": "hesitant",
+      "label": "犹豫",
+      "file": "char-shijiang-expression-hesitant.png",
+      "prompt": "Use case: identity-preserve. Asset type: ONE complete transparent visual-novel sprite, Shi Jiang 师匠, selected Option A.\nInput image 1 is the approved final identity/outfit master. Preserve this EXACT adult man's likeness: full cheeks, softly rounded broad jaw/chin, natural small eyes behind thick black rectangular eyeglasses, short black hair, black bucket hat with white all-over hand-drawn motifs and small red tag. Keep his ordinary natural build, skin tone and light facial stubble. Preserve the same white T-shirt with its specific colorful anime child graphic above the red rectangular chest print, black athletic shorts with double white stripe edging and the turquoise/yellow smile patch. Do not change his face into a generic handsome male, narrow his jaw, enlarge eyes, add hair, thin his glasses, remove his hat, or dress him in workwear.\nMatch the reference's detailed semi-realistic painted game style, light, shading, fabric texture and proportions. Maintain the same 1024×1536 portrait framing, complete hat with headroom, same head size and position, upper-thigh crop, safe margins around arms. Single person only. True alpha transparency outside the figure, opaque face and clothes. Preserve clean anti-aliased edges. No scenery, gradient, matte, shadow outside the silhouette, checkerboard, caption, labels or watermark.\nTask for this single image: Change ONLY facial expression: inner eyebrows subtly raised and drawn together, eyes uncertain, lips gently pressed with slight asymmetry. Clearly hesitant yet restrained. Keep the body, arms and original stance visually identical.",
+      "status": "generated",
+      "source": "/Users/yipin/.codex/generated_images/01a157db-ff60-7102-8994-2ef08f96801c/exec-f92b88ac-9422-4141-9909-281081aee611.png",
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-hesitant.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "transparentPixels": 700034
+      },
+      "sha256": "586b7fca8dff496d7bd5811cccf3c4e3e1ce8a0e17106369234c05a1040e0d0a",
+      "byteIdenticalToGenerated": true
+    },
+    {
+      "type": "expression",
+      "slug": "surprised",
+      "label": "惊讶",
+      "file": "char-shijiang-expression-surprised.png",
+      "prompt": "Use case: identity-preserve. Asset type: ONE complete transparent visual-novel sprite, Shi Jiang 师匠, selected Option A.\nInput image 1 is the approved final identity/outfit master. Preserve this EXACT adult man's likeness: full cheeks, softly rounded broad jaw/chin, natural small eyes behind thick black rectangular eyeglasses, short black hair, black bucket hat with white all-over hand-drawn motifs and small red tag. Keep his ordinary natural build, skin tone and light facial stubble. Preserve the same white T-shirt with its specific colorful anime child graphic above the red rectangular chest print, black athletic shorts with double white stripe edging and the turquoise/yellow smile patch. Do not change his face into a generic handsome male, narrow his jaw, enlarge eyes, add hair, thin his glasses, remove his hat, or dress him in workwear.\nMatch the reference's detailed semi-realistic painted game style, light, shading, fabric texture and proportions. Maintain the same 1024×1536 portrait framing, complete hat with headroom, same head size and position, upper-thigh crop, safe margins around arms. Single person only. True alpha transparency outside the figure, opaque face and clothes. Preserve clean anti-aliased edges. No scenery, gradient, matte, shadow outside the silhouette, checkerboard, caption, labels or watermark.\nTask for this single image: Change ONLY facial expression: eyebrows lift, eyes widen modestly, mouth opens just a little in a natural surprised reaction. Not exaggerated. Keep the body, arms and original stance visually identical.",
+      "status": "generated",
+      "source": "/Users/yipin/.codex/generated_images/01a157db-ff60-7102-8994-2ef08f96801c/exec-2459fbbb-8109-4a37-b246-6a59ca8f2d03.png",
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-surprised.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "transparentPixels": 694619
+      },
+      "sha256": "11d44a959fd94dfe57ec327b6079d692820e85586b2c13b3c1ffc79321c6810f",
+      "byteIdenticalToGenerated": true
+    },
+    {
+      "type": "expression",
+      "slug": "displeased",
+      "label": "不悦",
+      "file": "char-shijiang-expression-displeased.png",
+      "prompt": "Use case: identity-preserve. Asset type: ONE complete transparent visual-novel sprite, Shi Jiang 师匠, selected Option A.\nInput image 1 is the approved final identity/outfit master. Preserve this EXACT adult man's likeness: full cheeks, softly rounded broad jaw/chin, natural small eyes behind thick black rectangular eyeglasses, short black hair, black bucket hat with white all-over hand-drawn motifs and small red tag. Keep his ordinary natural build, skin tone and light facial stubble. Preserve the same white T-shirt with its specific colorful anime child graphic above the red rectangular chest print, black athletic shorts with double white stripe edging and the turquoise/yellow smile patch. Do not change his face into a generic handsome male, narrow his jaw, enlarge eyes, add hair, thin his glasses, remove his hat, or dress him in workwear.\nMatch the reference's detailed semi-realistic painted game style, light, shading, fabric texture and proportions. Maintain the same 1024×1536 portrait framing, complete hat with headroom, same head size and position, upper-thigh crop, safe margins around arms. Single person only. True alpha transparency outside the figure, opaque face and clothes. Preserve clean anti-aliased edges. No scenery, gradient, matte, shadow outside the silhouette, checkerboard, caption, labels or watermark.\nTask for this single image: Change ONLY facial expression: brows slightly lowered and drawn in, eyes mildly displeased, lips lightly compressed. Not rage, no new wrinkles. Keep the body, arms and original stance visually identical.",
+      "status": "generated",
+      "source": "/Users/yipin/.codex/generated_images/01a157db-ff60-7102-8994-2ef08f96801c/exec-883032d1-5dd4-4b12-9f90-e2f10598e274.png",
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-displeased.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "transparentPixels": 700832
+      },
+      "sha256": "928b0e76a6ab93c03c1c28db3700cc8662465a6a43cdccc31f4558fb2ee3ccb2",
+      "byteIdenticalToGenerated": true
+    },
+    {
+      "type": "expression",
+      "slug": "downcast",
+      "label": "低落",
+      "file": "char-shijiang-expression-downcast.png",
+      "prompt": "Use case: identity-preserve. Asset type: ONE complete transparent visual-novel sprite, Shi Jiang 师匠, selected Option A.\nInput image 1 is the approved final identity/outfit master. Preserve this EXACT adult man's likeness: full cheeks, softly rounded broad jaw/chin, natural small eyes behind thick black rectangular eyeglasses, short black hair, black bucket hat with white all-over hand-drawn motifs and small red tag. Keep his ordinary natural build, skin tone and light facial stubble. Preserve the same white T-shirt with its specific colorful anime child graphic above the red rectangular chest print, black athletic shorts with double white stripe edging and the turquoise/yellow smile patch. Do not change his face into a generic handsome male, narrow his jaw, enlarge eyes, add hair, thin his glasses, remove his hat, or dress him in workwear.\nMatch the reference's detailed semi-realistic painted game style, light, shading, fabric texture and proportions. Maintain the same 1024×1536 portrait framing, complete hat with headroom, same head size and position, upper-thigh crop, safe margins around arms. Single person only. True alpha transparency outside the figure, opaque face and clothes. Preserve clean anti-aliased edges. No scenery, gradient, matte, shadow outside the silhouette, checkerboard, caption, labels or watermark.\nTask for this single image: Change ONLY facial expression and a very slight downward gaze: inner brows lift subtly, eyelids lower, mouth corners gently fall. Restrained disappointment, not tears or melodrama. Keep body, arms and original stance visually identical.",
+      "status": "generated",
+      "source": "/Users/yipin/.codex/generated_images/01a157db-ff60-7102-8994-2ef08f96801c/exec-4561ba8f-06f9-419c-9b8b-fb2de7edab10.png",
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-downcast.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "transparentPixels": 702472
+      },
+      "sha256": "de8295898974c495558a7bbad8e845776b404307baee289334bae07619382bac",
+      "byteIdenticalToGenerated": true
+    },
+    {
+      "type": "action",
+      "slug": "wave",
+      "label": "招手",
+      "file": "char-shijiang-action-wave.png",
+      "prompt": "Use case: identity-preserve. Asset type: ONE complete transparent visual-novel sprite, Shi Jiang 师匠, selected Option A.\nInput image 1 is the approved final identity/outfit master. Preserve this EXACT adult man's likeness: full cheeks, softly rounded broad jaw/chin, natural small eyes behind thick black rectangular eyeglasses, short black hair, black bucket hat with white all-over hand-drawn motifs and small red tag. Keep his ordinary natural build, skin tone and light facial stubble. Preserve the same white T-shirt with its specific colorful anime child graphic above the red rectangular chest print, black athletic shorts with double white stripe edging and the turquoise/yellow smile patch. Do not change his face into a generic handsome male, narrow his jaw, enlarge eyes, add hair, thin his glasses, remove his hat, or dress him in workwear.\nMatch the reference's detailed semi-realistic painted game style, light, shading, fabric texture and proportions. Maintain the same 1024×1536 portrait framing, complete hat with headroom, same head size and position, upper-thigh crop, safe margins around arms. Single person only. True alpha transparency outside the figure, opaque face and clothes. Preserve clean anti-aliased edges. No scenery, gradient, matte, shadow outside the silhouette, checkerboard, caption, labels or watermark.\nTask for this single image: Change ONLY the originally hanging arm into a friendly greeting: elbow bent, open palm near shoulder height facing the viewer, five natural fingers separated gently; hand and brim never overlap. Other hand remains in shorts pocket. A small relaxed smile. Keep the same standing body and outfit.",
+      "status": "generated",
+      "source": "/Users/yipin/.codex/generated_images/01a157db-ff60-7102-8994-2ef08f96801c/exec-46877329-9017-4f75-991f-ed6f3492b60c.png",
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-wave.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "transparentPixels": 711059
+      },
+      "sha256": "c4935048b8102a677c6f37ecd2a48cbb28abd3607d973a63d94352e66d88ab67",
+      "byteIdenticalToGenerated": true
+    },
+    {
+      "type": "action",
+      "slug": "thinking",
+      "label": "思考",
+      "file": "char-shijiang-action-thinking.png",
+      "prompt": "Use case: identity-preserve. Asset type: ONE complete transparent visual-novel sprite, Shi Jiang 师匠, selected Option A.\nInput image 1 is the approved final identity/outfit master. Preserve this EXACT adult man's likeness: full cheeks, softly rounded broad jaw/chin, natural small eyes behind thick black rectangular eyeglasses, short black hair, black bucket hat with white all-over hand-drawn motifs and small red tag. Keep his ordinary natural build, skin tone and light facial stubble. Preserve the same white T-shirt with its specific colorful anime child graphic above the red rectangular chest print, black athletic shorts with double white stripe edging and the turquoise/yellow smile patch. Do not change his face into a generic handsome male, narrow his jaw, enlarge eyes, add hair, thin his glasses, remove his hat, or dress him in workwear.\nMatch the reference's detailed semi-realistic painted game style, light, shading, fabric texture and proportions. Maintain the same 1024×1536 portrait framing, complete hat with headroom, same head size and position, upper-thigh crop, safe margins around arms. Single person only. True alpha transparency outside the figure, opaque face and clothes. Preserve clean anti-aliased edges. No scenery, gradient, matte, shadow outside the silhouette, checkerboard, caption, labels or watermark.\nTask for this single image: Change ONLY the originally hanging arm: lift that hand to the chin, thumb below chin, curled index finger lightly resting beside chin, natural five-finger anatomy. Other hand remains in shorts pocket. Eyes attentive, mouth closed, mild thoughtful brows. Keep the same standing body and outfit.",
+      "status": "generated",
+      "source": "/Users/yipin/.codex/generated_images/01a157db-ff60-7102-8994-2ef08f96801c/exec-78245b05-1321-490e-8273-a437d92b92e1.png",
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "transparentPixels": 751414
+      },
+      "sha256": "f9372732973ae4d755bff0503462ea4e394d211002918cf73017b51e6cb05a34",
+      "byteIdenticalToGenerated": true
+    },
+    {
+      "type": "action",
+      "slug": "explaining",
+      "label": "解释",
+      "file": "char-shijiang-action-explaining.png",
+      "prompt": "Use case: identity-preserve. Asset type: ONE complete transparent visual-novel sprite, Shi Jiang 师匠, selected Option A.\nInput image 1 is the approved final identity/outfit master. Preserve this EXACT adult man's likeness: full cheeks, softly rounded broad jaw/chin, natural small eyes behind thick black rectangular eyeglasses, short black hair, black bucket hat with white all-over hand-drawn motifs and small red tag. Keep his ordinary natural build, skin tone and light facial stubble. Preserve the same white T-shirt with its specific colorful anime child graphic above the red rectangular chest print, black athletic shorts with double white stripe edging and the turquoise/yellow smile patch. Do not change his face into a generic handsome male, narrow his jaw, enlarge eyes, add hair, thin his glasses, remove his hat, or dress him in workwear.\nMatch the reference's detailed semi-realistic painted game style, light, shading, fabric texture and proportions. Maintain the same 1024×1536 portrait framing, complete hat with headroom, same head size and position, upper-thigh crop, safe margins around arms. Single person only. True alpha transparency outside the figure, opaque face and clothes. Preserve clean anti-aliased edges. No scenery, gradient, matte, shadow outside the silhouette, checkerboard, caption, labels or watermark.\nTask for this single image: Change ONLY the originally hanging arm: forearm lifted forward with open palm up at lower chest level, five natural relaxed fingers. Other hand remains in shorts pocket. Mouth slightly parted as if explaining something calmly, attentive eyes. Keep the same standing body and outfit.",
+      "status": "generated",
+      "source": "/Users/yipin/.codex/generated_images/01a157db-ff60-7102-8994-2ef08f96801c/exec-ffe10d0d-f6cd-40cc-bb73-180a5c9cb6b0.png",
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "transparentPixels": 736509
+      },
+      "sha256": "5eb68e45445e161189ab5bf1e74afc63e9104ef986da89c3bc89526e2d854177",
+      "byteIdenticalToGenerated": true
+    },
+    {
+      "type": "action",
+      "slug": "phone",
+      "label": "接电话",
+      "file": "char-shijiang-action-phone.png",
+      "prompt": "Use case: identity-preserve. Asset type: ONE complete transparent visual-novel sprite, Shi Jiang 师匠, selected Option A.\nInput image 1 is the approved final identity/outfit master. Preserve this EXACT adult man's likeness: full cheeks, softly rounded broad jaw/chin, natural small eyes behind thick black rectangular eyeglasses, short black hair, black bucket hat with white all-over hand-drawn motifs and small red tag. Keep his ordinary natural build, skin tone and light facial stubble. Preserve the same white T-shirt with its specific colorful anime child graphic above the red rectangular chest print, black athletic shorts with double white stripe edging and the turquoise/yellow smile patch. Do not change his face into a generic handsome male, narrow his jaw, enlarge eyes, add hair, thin his glasses, remove his hat, or dress him in workwear.\nMatch the reference's detailed semi-realistic painted game style, light, shading, fabric texture and proportions. Maintain the same 1024×1536 portrait framing, complete hat with headroom, same head size and position, upper-thigh crop, safe margins around arms. Single person only. True alpha transparency outside the figure, opaque face and clothes. Preserve clean anti-aliased edges. No scenery, gradient, matte, shadow outside the silhouette, checkerboard, caption, labels or watermark.\nTask for this single image: Change ONLY the originally hanging arm: naturally hold one ordinary dark smartphone to the ear on that arm's side, elbow bent, anatomically correct grip, fingers do not fuse into glasses or ear. Other hand remains in shorts pocket. Calm focused expression as he speaks on a work call. Keep the hat, glasses, face and original body build/outfit.",
+      "status": "generated",
+      "source": "/Users/yipin/.codex/generated_images/01a157db-ff60-7102-8994-2ef08f96801c/exec-3c17a2a8-127b-499e-b218-fa763adf1ee3.png",
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-phone.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "transparentPixels": 711866
+      },
+      "sha256": "aa878ad187fefaacd4e6d3181fde8916f93f80948580a795b723daecf5a6b292",
+      "byteIdenticalToGenerated": true
+    }
+  ],
+  "validation": {
+    "lightDarkImage": "qa-light-dark.png",
+    "visualReview": "已逐张实看，已查看修正比例后的浅深底检查图",
+    "browserEvidence": "qa/shijiang-optionA-20261020/browser-results.json",
+    "browserStatus": "PASS",
+    "viewports": [
+      [
+        1440,
+        900
+      ],
+      [
+        1280,
+        720
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        375,
+        667
+      ],
+      [
+        844,
+        390
+      ]
+    ],
+    "browserCases": 26
+  },
+  "cg": {
+    "version": "shijiang-optionA-20261020",
+    "path": "assets/cg/cg-09-repair-handoff.png",
+    "postprocessing": "无；保留内置imagegen原生PNG字节",
+    "selectionAuthority": "用户选择A并授权生成和替换全部师匠美术资源",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2273328,
+    "sha256": "a0984f00a9fa9f74923c95afbf1fb165fdc5435d08d568fc7b30dcaab04ef92a",
+    "source": "/Users/yipin/.codex/generated_images/01a157db-ff60-7102-8994-2ef08f96801c/exec-6745c271-cc1f-415f-9423-bc5dbfb75f3c.png"
+  }
+}

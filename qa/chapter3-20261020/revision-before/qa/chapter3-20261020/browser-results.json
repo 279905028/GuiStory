@@ -1,0 +1,31 @@
+{
+  "startedAt": "2026-10-20T06:39:42.551Z",
+  "pass": false,
+  "checks": [],
+  "screenshots": [],
+  "flows": [],
+  "pageErrors": [],
+  "network": [],
+  "initialHashes": {
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "c8509d30c1d23f13eec3b6a89998c651cc79427ecc5ac2703f67fd64773eeb7d",
+    "story.js": "e7307b1a37c02edfa7d1bdc3b9a8b9c14aff26ae8773791ab96f63aac8cb4baa",
+    "index.html": "58f490182e816e2f059775672ded3dcc88e8e3f9b11e45dc200742bed971a862",
+    "styles.css": "6ec050b339efac44a46a607766714a3d7677bcc82abe3181ed4d90a2dbb441a0"
+  },
+  "scope": "真实三章版页面；定点合法存档与一条从新开局至第三章末的自然 UI 流程；HTTP及file章节续读",
+  "limitations": [
+    "浏览器为隔离 Google Chrome，手机仅为视口模拟；未测试实体手机、Safari或Firefox。",
+    "自然全程只走一条常规路线；其他路线以正式引擎合法快照检查界面与重选。",
+    "本轮不重复旧版音频、标签生命周期和所有坏档矩阵专项。"
+  ],
+  "error": "Error: listen EPERM: operation not permitted 127.0.0.1\n    at Server.setupListenHandle [as _listen2] (node:net:1987:21)\n    at listenInCluster (node:net:2066:12)\n    at node:net:2275:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)",
+  "finishedAt": "2026-10-20T06:39:42.555Z",
+  "finalHashes": {
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "c8509d30c1d23f13eec3b6a89998c651cc79427ecc5ac2703f67fd64773eeb7d",
+    "story.js": "e7307b1a37c02edfa7d1bdc3b9a8b9c14aff26ae8773791ab96f63aac8cb4baa",
+    "index.html": "58f490182e816e2f059775672ded3dcc88e8e3f9b11e45dc200742bed971a862",
+    "styles.css": "6ec050b339efac44a46a607766714a3d7677bcc82abe3181ed4d90a2dbb441a0"
+  }
+}

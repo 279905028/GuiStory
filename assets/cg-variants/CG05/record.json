@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "CG05",
+  "date": "2026-10-20",
+  "status": "美术自审采用；待用户审阅、工程接入及正式游戏验收",
+  "tool": "内置image_gen",
+  "storySha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+  "references": [
+    {
+      "path": "assets/char-yelan.png",
+      "sha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+      "role": "正式角色身份参考"
+    },
+    {
+      "path": "assets/char-wenwen.png",
+      "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "role": "正式角色身份参考"
+    },
+    {
+      "path": "assets/bg-room.png",
+      "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+      "role": "正式空间材质参考"
+    },
+    {
+      "path": "assets/cg/cg-02-xiaoman-mirror.png",
+      "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e",
+      "role": "已采用CG的统一画法参考"
+    },
+    {
+      "path": "assets/cg/cg-08-huangqiuqiu-listening.png",
+      "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1",
+      "role": "已采用CG的统一画法参考"
+    }
+  ],
+  "attempts": [
+    {
+      "version": "candidate-v1",
+      "prompt": "用途：illustration-story；《毕节，雨停之前》第1—10天序章的完整剧情CG，不是立绘拼贴。统一画法：日系半写实视觉小说插画，成年中国人物，面部严格匹配正式角色参考，自然真实比例，细腻克制的绘画质感，旧物与衣料有生活纹理，灰青环境与实用暖光相融，不改成夸张动漫脸、3D玩偶或照片风格。横向16:9，目标1920×1080不透明PNG。所有重要脸、手和道具放在画面上方15%至62%范围，底部35%以非关键衣物、地面等自然场景延伸容纳将来的对白；不画任何文字、标注、对白框、界面、标题、边框、水印。人物与环境统一重绘，自然遮挡、透视和接触影，禁止把参考立绘直接贴入背景。\n本张CG05：第8天晚上，回声空包厢，清单最后一格，选择工作量之前。输入图1为叶岚27岁成年面孔、低髻、深灰西装和灰衬衫正式参考；图2作文文袖口参考；图3为空包厢的关闭电视、旧设备柜、灰青沙发、工作灯空间材质参考，不要照抄原图桌面。文文眼高略俯看，一个坚固空纸箱已经倒扣，箱底平面朝上，清单平铺其上。叶岚在右中部，脸约66%宽30%高，低髻清晰，疲惫但专注，手持笔在清单边暂时悬停，另一只手轻按纸角；文文只露画面左前景一只指向清单的自然手和夹克袖，两人不碰手。纸箱的平顶、纸张、笔手在35%至60%高度内，不把关键手放到底部。设备柜两侧有两组旧音响设备，一组正常机，一组故障待查，靠空间分开、低对比无字标签区分；旧监听在待查一组，不能画成已修好。暖工作灯照亮脸与纸，余下环境灰青、安静的现实工作现场。清单上只许抽象灰线与未完成空格，无可读名字、勾满、签名、完成章、三拍图案。此刻不抱夹板，夹板不是额外长在胸前的道具。只有叶岚和文文前景手，没有师匠、同事或黄色球体，也不在反光里藏隐藏角色，不预设接了整单或两小时已完成。\n最后两张额外参考仅用于统一本批已采用CG02与CG08的绘画细腻程度、真实比例、旧环境质感和暖冷光融合。不能把这两张参考的小满、黄球球、理发店或包厢场景额外带入本张。以本张各自规定的人物和场景为准。镜头尽量用有环境纵深的中景，不要裁掉关键的手、道具或伞，所有比例自然，不用加黑条制作底部空间。",
+      "source": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a15384-7737-7423-837c-ceee66e56f7e/exec-975203b5-243a-411d-ac84-1dd5651941d0.png",
+      "archive": "assets/cg-variants/CG05/candidate-v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2001240,
+      "sha256": "463b708fbf32f7e95636167e4998f4e547d45a02e34612d2eaeaf4ad1e46055b",
+      "review": "清单平铺纸箱、笔悬停、空格未勾满、设备分开、无隐藏球体与第三人物；成立。清单手势偏下，须独立完整显示。",
+      "inputReferences": [
+        {
+          "path": "assets/char-yelan.png",
+          "sha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496"
+        },
+        {
+          "path": "assets/char-wenwen.png",
+          "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44"
+        },
+        {
+          "path": "assets/bg-room.png",
+          "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac"
+        },
+        {
+          "path": "assets/cg/cg-02-xiaoman-mirror.png",
+          "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e"
+        },
+        {
+          "path": "assets/cg/cg-08-huangqiuqiu-listening.png",
+          "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1"
+        }
+      ],
+      "toolArguments": {
+        "prompt": "用途：illustration-story；《毕节，雨停之前》第1—10天序章的完整剧情CG，不是立绘拼贴。统一画法：日系半写实视觉小说插画，成年中国人物，面部严格匹配正式角色参考，自然真实比例，细腻克制的绘画质感，旧物与衣料有生活纹理，灰青环境与实用暖光相融，不改成夸张动漫脸、3D玩偶或照片风格。横向16:9，目标1920×1080不透明PNG。所有重要脸、手和道具放在画面上方15%至62%范围，底部35%以非关键衣物、地面等自然场景延伸容纳将来的对白；不画任何文字、标注、对白框、界面、标题、边框、水印。人物与环境统一重绘，自然遮挡、透视和接触影，禁止把参考立绘直接贴入背景。\n本张CG05：第8天晚上，回声空包厢，清单最后一格，选择工作量之前。输入图1为叶岚27岁成年面孔、低髻、深灰西装和灰衬衫正式参考；图2作文文袖口参考；图3为空包厢的关闭电视、旧设备柜、灰青沙发、工作灯空间材质参考，不要照抄原图桌面。文文眼高略俯看，一个坚固空纸箱已经倒扣，箱底平面朝上，清单平铺其上。叶岚在右中部，脸约66%宽30%高，低髻清晰，疲惫但专注，手持笔在清单边暂时悬停，另一只手轻按纸角；文文只露画面左前景一只指向清单的自然手和夹克袖，两人不碰手。纸箱的平顶、纸张、笔手在35%至60%高度内，不把关键手放到底部。设备柜两侧有两组旧音响设备，一组正常机，一组故障待查，靠空间分开、低对比无字标签区分；旧监听在待查一组，不能画成已修好。暖工作灯照亮脸与纸，余下环境灰青、安静的现实工作现场。清单上只许抽象灰线与未完成空格，无可读名字、勾满、签名、完成章、三拍图案。此刻不抱夹板，夹板不是额外长在胸前的道具。只有叶岚和文文前景手，没有师匠、同事或黄色球体，也不在反光里藏隐藏角色，不预设接了整单或两小时已完成。\n最后两张额外参考仅用于统一本批已采用CG02与CG08的绘画细腻程度、真实比例、旧环境质感和暖冷光融合。不能把这两张参考的小满、黄球球、理发店或包厢场景额外带入本张。以本张各自规定的人物和场景为准。镜头尽量用有环境纵深的中景，不要裁掉关键的手、道具或伞，所有比例自然，不用加黑条制作底部空间。",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-yelan.png",
+          "/Users/yipin/Desktop/cjb/assets/char-wenwen.png",
+          "/Users/yipin/Desktop/cjb/assets/bg-room.png",
+          "/Users/yipin/Desktop/cjb/assets/cg/cg-02-xiaoman-mirror.png",
+          "/Users/yipin/Desktop/cjb/assets/cg/cg-08-huangqiuqiu-listening.png"
+        ],
+        "transparent_background": false
+      }
+    }
+  ],
+  "adopted": {
+    "version": "candidate-v1",
+    "path": "assets/cg/cg-05-yelan-inventory.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2001240,
+    "sha256": "463b708fbf32f7e95636167e4998f4e547d45a02e34612d2eaeaf4ad1e46055b",
+    "postprocessing": "无；原生PNG逐字节复制，未放大、裁切或拉伸",
+    "selectionAuthority": "本窗口依据已确认分镜与正式参考作美术自审采用；非用户逐图终审",
+    "dimensionNote": "保留原生输出，非1920×1080；不拉伸、不放大或伪称高分辨率母版"
+  },
+  "gameAcceptance": "未接入、未验收",
+  "criticalRegions": {
+    "coordinateSystem": "整张原图百分比[x,y,w,h]，左上原点",
+    "method": "人工观察估计，非像素级分割；只作布局避让说明，不能直接当裁切参数",
+    "items": [
+      {
+        "label": "叶岚脸",
+        "rect": [
+          57,
+          13,
+          17,
+          30
+        ]
+      },
+      {
+        "label": "清单、笔与双手",
+        "rect": [
+          27,
+          49,
+          46,
+          35
+        ]
+      },
+      {
+        "label": "倒扣纸箱",
+        "rect": [
+          16,
+          62,
+          56,
+          38
+        ]
+      },
+      {
+        "label": "左侧设备",
+        "rect": [
+          0,
+          22,
+          21,
+          31
+        ]
+      },
+      {
+        "label": "右侧设备",
+        "rect": [
+          90,
+          25,
+          10,
+          35
+        ]
+      }
+    ]
+  },
+  "display": {
+    "approvedCrop": null,
+    "fit": "contain",
+    "desktop": "独立完整画面区，与对白区分开；不可直接沿用底部35%覆盖式对白",
+    "mobile": "完整横图、留边、独立对白；无竖版、无拉伸",
+    "reason": "实际多张图的关键道具或手位于原图下部，已按分镜约定的超出目标时改布局方案交接",
+    "staticChecks": [
+      {
+        "viewport": [
+          1440,
+          900
+        ],
+        "screenshot": "qa/cg-m2-CG05-static-1440x900.png"
+      },
+      {
+        "viewport": [
+          1280,
+          720
+        ],
+        "screenshot": "qa/cg-m2-CG05-static-1280x720.png"
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "screenshot": "qa/cg-m2-CG05-static-390x844.png"
+      },
+      {
+        "viewport": [
+          375,
+          667
+        ],
+        "screenshot": "qa/cg-m2-CG05-static-375x667.png"
+      },
+      {
+        "viewport": [
+          844,
+          390
+        ],
+        "screenshot": "qa/cg-m2-CG05-static-844x390.png"
+      }
+    ],
+    "rawChecks": "qa/cg-m2-static-checks.json",
+    "staticReviewPage": "qa/cg-m2-art-review.html",
+    "manualSmallScreenReview": "已逐张查看375×667截图；脸、动作及主要道具可辨；纸张细字不作识别要求",
+    "gameAcceptance": "未执行"
+  },
+  "integration": {
+    "cgKey": "cg05",
+    "nodeIds": [
+      "s8_count_01",
+      "s8_count_02",
+      "s8_count_03",
+      "s8_count_04",
+      "s8_count_05",
+      "s8_count_06",
+      "s8_count_07",
+      "s8_count_08"
+    ],
+    "restoreAt": "s8_count_09",
+    "status": "待CG-D统一接入，story.js未修改",
+    "hidden": false,
+    "hiddenLoadBoundary": null
+  }
+}

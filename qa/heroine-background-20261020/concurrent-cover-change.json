@@ -1,0 +1,20 @@
+{
+  "noticedAt": "2026-10-20T09:15:55.376Z",
+  "expected": {
+    "story.js": "1e88bf4fa7b0ff742166c5786a308dd3b4d740e6f939ab2b00c54c3db43e85b2",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "9fca5600452731df2351a353b001f38b702ccd4ad89f1fc7e8e5781e775ec655",
+    "index.html": "2e0682faf21a1ce91881e267c9ac741b1a2975b66927dca3e4ed2d25bb6efaa9",
+    "styles.css": "6ec050b339efac44a46a607766714a3d7677bcc82abe3181ed4d90a2dbb441a0",
+    "assets/runtime-v0.4-manifest.json": "3f13e1bb7136bac4c877fa536757cd357c29c777a54695aca8f85a33e3bfbd5f"
+  },
+  "actual": {
+    "story.js": "1e88bf4fa7b0ff742166c5786a308dd3b4d740e6f939ab2b00c54c3db43e85b2",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "9fca5600452731df2351a353b001f38b702ccd4ad89f1fc7e8e5781e775ec655",
+    "index.html": "a073cf71f8232831f9f260a074b475dd82d750cbddf0bad32dbbde71c331695e",
+    "styles.css": "c498a9a63d759d231f63dca36fcccdabb85c5263ec9ff7dde4e9431a73342bf8",
+    "assets/runtime-v0.4-manifest.json": "3f13e1bb7136bac4c877fa536757cd357c29c777a54695aca8f85a33e3bfbd5f"
+  },
+  "status": "等待主任务确认共同冻结；未修改首页或样式"
+}

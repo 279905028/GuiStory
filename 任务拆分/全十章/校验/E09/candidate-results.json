@@ -1,0 +1,487 @@
+{
+  "scope": "E09 根目录正式候选：源一致性、真实引擎完整路径、实际采用资源与精确绑定验证",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T03:48:51.330Z",
+  "target": "story.js",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "formalIntegration": true,
+  "finalAcceptance": false,
+  "evidenceLayer": "formal-story-static-and-real-engine",
+  "playerStorageAccessed": false,
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0
+  },
+  "inputFiles": [
+    {
+      "file": "任务拆分/全十章/contract.json",
+      "sha256": "4086571ab65e54271ec70e5a0a0712e00d0b2a1f6dae739b1df05a328ada1876"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch01.json",
+      "sha256": "e67fd830b2a90b5b1ebc581dd0453a1d8feee5c3be0b91ce894cae6f1776b48f"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch02.json",
+      "sha256": "f9e89a31e445bd52655334f124c1e0f9c8bc9368bce0220742eed9f3561032b2"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch03.json",
+      "sha256": "88bb55edd4315f4a6c06500687a99134bdebaba1233b21ef03fd2660c75fba5b"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch04.json",
+      "sha256": "645ddb96d804533a226a8c14e5cb0fff18e557bfb9a2c994ee9eea915b24ac04"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch05.json",
+      "sha256": "2e19cd57cfafa07edd7c1880dc727f6aae386a62bad806f86c1d5a9f2d2fbfb8"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch06.json",
+      "sha256": "f95eabdfd886fdc72f1856872d21919b9adba833b501a303cc7219fe4c04e62f"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch07.json",
+      "sha256": "5b45f35bd675c3db4060f9e7ae8bf4d076cae60c9dd438cb8bead49e6fbd31c7"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch08.json",
+      "sha256": "4b98abcf1ef72c6ac5985cd70e1640bebfdf390fd2b67f6cfe9497ec80278ec9"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch09.json",
+      "sha256": "e437f863161b79661513d53c55e27529270918766114434eed3646b6bb710002"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch10.json",
+      "sha256": "5c179e95f3b1fc6ce28a47ffa70df2b41aa36dbd11ad440878c4fc23809d9b3c"
+    },
+    {
+      "file": "任务拆分/全十章/routes/xiaoman.json",
+      "sha256": "b982784014d95fe44cb620e6b0ccd2252b3b86ccea5e519c09501277abec0fb0"
+    },
+    {
+      "file": "任务拆分/全十章/routes/zhouzhi.json",
+      "sha256": "7da9e066d79aaa299ad2ab5fff911be7060f5db4e4ef11bda3e4a901880a8eff"
+    },
+    {
+      "file": "任务拆分/全十章/routes/mengyao.json",
+      "sha256": "8c7c8082bcc216107886bafc33e516aa349e596435a926b7adc9a17eaac90d0d"
+    },
+    {
+      "file": "任务拆分/全十章/routes/yelan.json",
+      "sha256": "7dcaae511ed9e7bfeb644816ef5821ad66e032783e62ef107e9e775af1472aee"
+    },
+    {
+      "file": "任务拆分/全十章/routes/piao.json",
+      "sha256": "b1ab806155124a8b2cf0e11e9c2947e33fe9a77a622ecdff69f314e50255202d"
+    },
+    {
+      "file": "任务拆分/全十章/routes/friends.json",
+      "sha256": "22c82f1aa56c6873f83df8eedd47309693ab56ef03b081095b93fce95bce4ed7"
+    },
+    {
+      "file": "任务拆分/全十章/routes/huangqiuqiu.json",
+      "sha256": "c785e3d2dda7d967f4bec0ba73382d03f297796e1dcf532f52592e564fb78e19"
+    },
+    {
+      "file": "assets/ten-chapter/a06-adoption.json",
+      "sha256": "8dd547dc110af7c8a36d8d0b6fe71a294594f59fb95dfa2816c797b8280c5292"
+    },
+    {
+      "file": "assets/ten-chapter/a06-scene-node-map.json",
+      "sha256": "32ec9e1c9db2d9bb69ac5ae13ec3ba472239156eaa9bcca73c3a4502a58d9544"
+    },
+    {
+      "file": "assets/runtime-ten-chapter-manifest.json",
+      "sha256": "de3626a9f6691ee45b4eb76ceb60339bf4df1cde80d6367e7e8fcb73a74b8521"
+    },
+    {
+      "file": "任务拆分/全十章/presentation/bindings.json",
+      "sha256": "45aebc84575fa86e3d15526ea1f2a1b3ba81d54507d8e4729c64be711aa16356"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E09/build-report.json",
+      "sha256": "c509214c38350608531138f427ea2eca14c34ca95b193d6155ab34b6482f44e6"
+    }
+  ],
+  "testedRuntime": [
+    {
+      "file": "story.js",
+      "sha256": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60"
+    },
+    {
+      "file": "engine.js",
+      "sha256": "363e4a9b1ddd9d6e012b6623af04c54f9fc077a065e9d1ee3b61981e9be5e39a"
+    },
+    {
+      "file": "save-compat.js",
+      "sha256": "11cc52079a67a2ee32244206b79bb11e1cfe71874227aefdd1e768594a0e816f"
+    },
+    {
+      "file": "player-runtime.js",
+      "sha256": "f0c36ff43ac205be2878d84a057b2760d37f755de9a218b916a7e57c620affd0"
+    },
+    {
+      "file": "game.js",
+      "sha256": "7021053d5491f6140ce28b9d3bc921e8d65a62921de3f16886fceac0b42848ff"
+    },
+    {
+      "file": "index.html",
+      "sha256": "0266a5c542894ef8eaa42f36acdbdb1079a6c1ca94236cfe0a4645813ea09191"
+    },
+    {
+      "file": "styles.css",
+      "sha256": "8b7d93a3763959fe0a50188f1c0b6682354c2cde7c6bee439bd03851c4da870b"
+    },
+    {
+      "file": "任务拆分/三章扩展/build-story.cjs",
+      "sha256": "49a2c6cfb82fe4cdff5f8ad2f6687e239ce71ac6581a225ba92b4357b8173afe"
+    },
+    {
+      "file": "任务拆分/全十章/build/formal.cjs",
+      "sha256": "deca75c509cf09cd62b956213ee3038020e0577bc04e26eaf71b07fb21a4e834"
+    },
+    {
+      "file": "任务拆分/全十章/build/compiler.cjs",
+      "sha256": "fac93168157fe54f7723f589163caee2a9f9f1a4d0ee52ec19bd5c8f45eaccf1"
+    },
+    {
+      "file": "任务拆分/全十章/build/graph.cjs",
+      "sha256": "9217ff94f9825c575614b138adf6b27c1d3e1237e73a4874964030ebee7637b5"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E08/fixture.cjs",
+      "sha256": "fbc4086a8a7726f9be8a421f5767b5f7e190699f982139c6a602428b4a53633c"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E09/verify-candidate.cjs",
+      "sha256": "e778faacf44e7e561a2b9e734acf47613f22c6de983bcd2f01e7aaac57287cf5"
+    }
+  ],
+  "routeCoverage": {
+    "paths": 736,
+    "displayedVisits": 437776,
+    "displayedNodes": 2577,
+    "resolvedNodeFormPairs": 2602,
+    "choices": 19,
+    "options": 43,
+    "endings": {
+      "tc_c10_xiaoman_end_dating": 64,
+      "tc_c10_xiaoman_end_friends": 64,
+      "tc_c10_zhouzhi_end_dating": 64,
+      "tc_c10_zhouzhi_end_friends": 64,
+      "tc_c10_mengyao_end_dating": 64,
+      "tc_c10_mengyao_end_friends": 64,
+      "tc_c10_yelan_end_dating": 64,
+      "tc_c10_yelan_end_friends": 64,
+      "tc_c10_piao_end_dating": 64,
+      "tc_c10_piao_end_friends": 64,
+      "tc_c10_friends_end": 64,
+      "tc_c10_huangqiuqiu_end_dating": 16,
+      "tc_c10_huangqiuqiu_end_friends": 16
+    },
+    "epilogues": {
+      "tc_c10_common_piao_wedding": 672,
+      "tc_c10_common_piao_dating": 64
+    },
+    "routeCounts": {
+      "xiaoman": 128,
+      "zhouzhi": 128,
+      "mengyao": 128,
+      "yelan": 128,
+      "piao": 128,
+      "friends": 64,
+      "huangqiuqiu": 32
+    },
+    "restoredEndings": 736,
+    "flashbacks": [
+      "ts_c06_mengyao_after_dinner",
+      "ts_c06_yelan_after_dinner"
+    ],
+    "chapterEnds": 9,
+    "resolvedForms": {
+      "sphere-portrait": 232,
+      "sphere-avatar": 53,
+      "human-portrait": 67,
+      "human-avatar": 11
+    },
+    "cgVisits": {
+      "tc-cg-last-echo-dinner": 2944,
+      "tc-cg-piao-wedding": 672,
+      "tc-cg-piao-choice": 1152,
+      "tc-cg-qiuqiu-transform": 96
+    },
+    "actuallyResolvedAssets": 99
+  },
+  "results": [
+    {
+      "name": "根正式故事和17份真实源的正文、场景语义、跳转与状态写入逐字段一致",
+      "status": "passed",
+      "detail": {
+        "modules": 17,
+        "nodes": 2612,
+        "scenes": 360,
+        "allowedPresentationFields": [
+          "character",
+          "expression",
+          "avatarExpression",
+          "bg",
+          "cg"
+        ],
+        "sourceFingerprints": 28
+      }
+    },
+    {
+      "name": "正式十章协议、静态图、19处选择/43选项/13结局完整闭合",
+      "status": "passed",
+      "detail": {
+        "chapters": 10,
+        "nodes": 2612,
+        "scenes": 360,
+        "edges": 2698,
+        "choices": 19,
+        "options": 43,
+        "countsByType": {
+          "line": 2536,
+          "end": 22,
+          "choice": 19,
+          "gate": 35
+        },
+        "exploredNodeStates": 156415,
+        "distinctFlagStates": 1359,
+        "mergedNodeStates": 0,
+        "transitions": 156414,
+        "maximumFrontier": 12,
+        "terminalStates": 736,
+        "stoppedStates": 0,
+        "reachedEndings": 13,
+        "unreachableNodes": []
+      }
+    },
+    {
+      "name": "正式运行清单绑定当前story、六个配套运行文件、构建输入与138张采用资源",
+      "status": "passed",
+      "detail": {
+        "story": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60",
+        "runtimeFiles": 6,
+        "assets": 138,
+        "verifiedManifestEntries": 205,
+        "finalAcceptance": false
+      }
+    },
+    {
+      "name": "138张采用图的文件、WebP编码与SHA256一致；正式注册无sample和未采用图片",
+      "status": "passed",
+      "detail": {
+        "adoptedAssets": 138,
+        "registeredAssets": 138,
+        "verifiedWebPHashes": 138,
+        "placeholderResources": 0
+      }
+    },
+    {
+      "name": "双形态立绘与独立头像精确采用，每种差分均可解析且无跨形态回退",
+      "status": "passed",
+      "detail": {
+        "forms": [
+          "sphere",
+          "human"
+        ],
+        "resolvedVariants": 24,
+        "missingVariantRejections": 4
+      }
+    },
+    {
+      "name": "25条精确背景修正正确，其他已定场景不受扩大覆盖；9个章末使用程序底色",
+      "status": "passed",
+      "detail": {
+        "preciseOverrides": 25,
+        "displayOverrides": 24,
+        "gateContextOnly": 1,
+        "checkedDisplayNodes": 2568,
+        "neutralChapterEnds": 9,
+        "userConfirmedCandidateScenes": 18,
+        "contextualFoodBackgrounds": [
+          "tc_c07_piao_friends_005",
+          "tc_c07_piao_friends_006"
+        ],
+        "followingStreetNode": "tc_c07_piao_friends_007"
+      }
+    },
+    {
+      "name": "4张CG精确绑定A06允许节点，退出节点清空且无范围外CG",
+      "status": "passed",
+      "detail": {
+        "cgs": 4,
+        "boundNodes": 17,
+        "allowedNodeIds": {
+          "tc-cg-piao-choice": [
+            "tc_c03_piao_say_clearly_002",
+            "tc_c03_piao_say_clearly_003",
+            "tc_c03_piao_say_clearly_004",
+            "tc_c03_piao_say_clearly_005",
+            "tc_c03_piao_say_clearly_006",
+            "tc_c03_piao_say_clearly_007",
+            "tc_c03_piao_say_clearly_008",
+            "tc_c03_piao_say_clearly_009",
+            "tc_c03_piao_say_clearly_010"
+          ],
+          "tc-cg-last-echo-dinner": [
+            "tc_c06_common_last_night_meal_07",
+            "tc_c06_common_last_night_meal_08",
+            "tc_c06_common_last_night_meal_09",
+            "tc_c06_common_last_night_meal_10"
+          ],
+          "tc-cg-qiuqiu-transform": [
+            "tc_c08_huangqiuqiu_her_decision_025",
+            "tc_c08_huangqiuqiu_her_decision_026",
+            "tc_c08_huangqiuqiu_her_decision_027"
+          ],
+          "tc-cg-piao-wedding": [
+            "tc_c10_common_piao_wedding_04"
+          ]
+        },
+        "exactExits": [
+          "tc_c03_piao_relationship_choice",
+          "tc_c06_common_meal_goodbye_01",
+          "tc_c08_huangqiuqiu_her_decision_028",
+          "tc_c10_common_piao_wedding_05"
+        ]
+      }
+    },
+    {
+      "name": "正式canShowCG接受合法四组CG，拒绝伪造人形/缺变身历史/错误婚宴状态/范围外节点",
+      "status": "passed",
+      "detail": {
+        "legalCgGroups": [
+          "tc-cg-piao-choice",
+          "tc-cg-last-echo-dinner",
+          "tc-cg-qiuqiu-transform",
+          "tc-cg-piao-wedding"
+        ],
+        "legalPiaoFriendsWedding": true,
+        "rejectedCount": 14,
+        "rejected": [
+          "仅伪造人形标记、无真实路线资格",
+          "条件标记齐全但缺少变身事件历史",
+          "球形状态提前显示变身后CG",
+          "飘交往路径误用公共婚宴",
+          "婚宴未选择路线",
+          "婚宴路线不在契约范围",
+          "tc-cg-piao-choice范围外节点伪造cg字段",
+          "tc-cg-piao-choice精确退出节点",
+          "tc-cg-last-echo-dinner范围外节点伪造cg字段",
+          "tc-cg-last-echo-dinner精确退出节点",
+          "tc-cg-qiuqiu-transform范围外节点伪造cg字段",
+          "tc-cg-qiuqiu-transform精确退出节点",
+          "tc-cg-piao-wedding范围外节点伪造cg字段",
+          "tc-cg-piao-wedding精确退出节点"
+        ]
+      }
+    },
+    {
+      "name": "正式StoryEngine穷举736条真实路径、全部显示资源与CG合法状态，终态逐条恢复",
+      "status": "passed",
+      "detail": {
+        "paths": 736,
+        "displayedVisits": 437776,
+        "displayedNodes": 2577,
+        "resolvedNodeFormPairs": 2602,
+        "choices": 19,
+        "options": 43,
+        "endings": {
+          "tc_c10_xiaoman_end_dating": 64,
+          "tc_c10_xiaoman_end_friends": 64,
+          "tc_c10_zhouzhi_end_dating": 64,
+          "tc_c10_zhouzhi_end_friends": 64,
+          "tc_c10_mengyao_end_dating": 64,
+          "tc_c10_mengyao_end_friends": 64,
+          "tc_c10_yelan_end_dating": 64,
+          "tc_c10_yelan_end_friends": 64,
+          "tc_c10_piao_end_dating": 64,
+          "tc_c10_piao_end_friends": 64,
+          "tc_c10_friends_end": 64,
+          "tc_c10_huangqiuqiu_end_dating": 16,
+          "tc_c10_huangqiuqiu_end_friends": 16
+        },
+        "epilogues": {
+          "tc_c10_common_piao_wedding": 672,
+          "tc_c10_common_piao_dating": 64
+        },
+        "routeCounts": {
+          "xiaoman": 128,
+          "zhouzhi": 128,
+          "mengyao": 128,
+          "yelan": 128,
+          "piao": 128,
+          "friends": 64,
+          "huangqiuqiu": 32
+        },
+        "restoredEndings": 736,
+        "flashbacks": [
+          "ts_c06_mengyao_after_dinner",
+          "ts_c06_yelan_after_dinner"
+        ],
+        "chapterEnds": 9,
+        "resolvedForms": {
+          "sphere-portrait": 232,
+          "sphere-avatar": 53,
+          "human-portrait": 67,
+          "human-avatar": 11
+        },
+        "cgVisits": {
+          "tc-cg-last-echo-dinner": 2944,
+          "tc-cg-piao-wedding": 672,
+          "tc-cg-piao-choice": 1152,
+          "tc-cg-qiuqiu-transform": 96
+        },
+        "actuallyResolvedAssets": 99
+      }
+    },
+    {
+      "name": "正式故事重选和自动事件恢复保留正确历史形态",
+      "status": "passed",
+      "detail": {
+        "routeReselect": true,
+        "relationshipReselect": true,
+        "automaticEvents": [
+          {
+            "nodeId": "tc_c02_common_qiu_met",
+            "flags": {
+              "qiuMet": true,
+              "qiuForm": "sphere",
+              "qiuSignal": "record",
+              "reunion": "nervous",
+              "qiuReply": "reply",
+              "missedGame": "voice",
+              "yelanFirst": "game"
+            }
+          },
+          {
+            "nodeId": "tc_c08_huangqiuqiu_human_reveal",
+            "flags": {
+              "qiuMet": true,
+              "qiuForm": "human",
+              "qiuSignal": "record",
+              "reunion": "nervous",
+              "qiuReply": "reply",
+              "missedGame": "voice",
+              "yelanFirst": "game",
+              "route": "huangqiuqiu",
+              "huangqiuqiuOuting": "portrait"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "notValidated": [
+    "E10最终逐句阅读与剧情体验验收",
+    "本脚本不执行浏览器视觉/实体手机/声音验收",
+    "发布与线上版本"
+  ]
+}

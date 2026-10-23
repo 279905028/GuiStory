@@ -1,0 +1,272 @@
+{
+  "schemaVersion": "1.0.0",
+  "task": "A06",
+  "date": "2026-10-23",
+  "scope": "static-art-adoption; recommendations for E09, not runtime bindings",
+  "sourceFingerprints": [
+    {
+      "path": "任务拆分/全十章/routes/piao.json",
+      "sha256": "b1ab806155124a8b2cf0e11e9c2947e33fe9a77a622ecdff69f314e50255202d"
+    },
+    {
+      "path": "任务拆分/全十章/routes/huangqiuqiu.json",
+      "sha256": "c785e3d2dda7d967f4bec0ba73382d03f297796e1dcf532f52592e564fb78e19"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch06.json",
+      "sha256": "f95eabdfd886fdc72f1856872d21919b9adba833b501a303cc7219fe4c04e62f"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch10.json",
+      "sha256": "5c179e95f3b1fc6ce28a47ffa70df2b41aa36dbd11ad440878c4fc23809d9b3c"
+    }
+  ],
+  "global": {
+    "fit": "contain",
+    "cropAllowed": false,
+    "clearCgOnNodeOutsideAllowedSpan": true,
+    "clearCgOnBranchChange": true,
+    "clearCgOnSceneChange": true,
+    "restoreVisibilityFromCurrentNodeAndStateOnLoad": true,
+    "noPersistentCgCarryover": true,
+    "hideRegularSpritesWhileCgVisible": true,
+    "restoreSpritesAndBackgroundOnExit": true,
+    "dialogue": "下缘手部/玩偶棒/册子不得被永久遮挡；文本置图外或提供可隐藏对白。",
+    "unlock": "只有在合法状态实际到达并显示相应节点后才解锁；静态文件存在和加入清单不等于已解锁。",
+    "acceptancePending": [
+      "E09 正式绑定/重建",
+      "E10 引擎与回顾/存读档/分支回退",
+      "E10 真实浏览器与实体手机画面"
+    ]
+  },
+  "items": [
+    {
+      "id": "tc-ui-cover-desktop",
+      "file": "assets/ten-chapter/ui/cover-desktop.webp",
+      "kind": "cover",
+      "orientation": "landscape",
+      "storyNodeBinding": null,
+      "conditions": [],
+      "publicHumanQiuqiuAllowed": false
+    },
+    {
+      "id": "tc-ui-cover-mobile",
+      "file": "assets/ten-chapter/ui/cover-mobile.webp",
+      "kind": "cover",
+      "orientation": "portrait",
+      "storyNodeBinding": null,
+      "conditions": [],
+      "publicHumanQiuqiuAllowed": false
+    },
+    {
+      "id": "tc-cg-piao-choice",
+      "file": "assets/ten-chapter/cg/cg-piao-choice.webp",
+      "enterAt": "tc_c03_piao_say_clearly_002",
+      "allowedNodeIds": [
+        "tc_c03_piao_say_clearly_002",
+        "tc_c03_piao_say_clearly_003",
+        "tc_c03_piao_say_clearly_004",
+        "tc_c03_piao_say_clearly_005",
+        "tc_c03_piao_say_clearly_006",
+        "tc_c03_piao_say_clearly_007",
+        "tc_c03_piao_say_clearly_008",
+        "tc_c03_piao_say_clearly_009",
+        "tc_c03_piao_say_clearly_010"
+      ],
+      "exitBefore": "tc_c03_piao_relationship_choice",
+      "exitExplicitlyClearsCg": true,
+      "conditions": [
+        {
+          "flag": "route",
+          "value": "piao"
+        }
+      ],
+      "notes": [
+        "仅飘路线、选择前的共同谈话。选择后退出CG，交往／朋友分别使用差分和文本；朋友版不得牵手。",
+        "A01候选锚点列表偏重选择后段，本图实际建议是选择前河边共同段，以E06节点原文为准。"
+      ],
+      "relationshipCondition": "none; choice has not been answered",
+      "clearBeforeChoice": "tc_c03_piao_relationship_choice",
+      "forbiddenNodePrefixes": [
+        "tc_c03_piao_dating_",
+        "tc_c03_piao_friends_"
+      ],
+      "conflictResolution": "A05实际中性成图与A01允许中性方案优先；E06旧“牵手CG只适合交往正文”描述的是未采用候选，不可据此把本图移到交往段或给朋友段加牵手。"
+    },
+    {
+      "id": "tc-cg-last-echo-dinner",
+      "file": "assets/ten-chapter/cg/cg-last-echo-dinner.webp",
+      "enterAt": "tc_c06_common_last_night_meal_07",
+      "allowedNodeIds": [
+        "tc_c06_common_last_night_meal_07",
+        "tc_c06_common_last_night_meal_08",
+        "tc_c06_common_last_night_meal_09",
+        "tc_c06_common_last_night_meal_10"
+      ],
+      "exitBefore": "tc_c06_common_meal_goodbye_01",
+      "exitExplicitlyClearsCg": true,
+      "conditions": [],
+      "notes": [
+        "第30天18:00共通饭局局部镜头；其他在场角色位于画外，先用背景＋立绘交代全员。",
+        "只用于菜端上来后的谈话，不替代周栀离席、回声关门或文文网吧到岗。"
+      ],
+      "context": "第30天18:00共通饭局；先交代多人在场，局部镜头仅见周栀/毛狼，不增加约会关系。",
+      "forbiddenAfter": "tc_c06_common_meal_goodbye_01"
+    },
+    {
+      "id": "tc-cg-qiuqiu-transform",
+      "file": "assets/ten-chapter/cg/cg-qiuqiu-transform.webp",
+      "enterAt": "tc_c08_huangqiuqiu_her_decision_025",
+      "allowedNodeIds": [
+        "tc_c08_huangqiuqiu_her_decision_025",
+        "tc_c08_huangqiuqiu_her_decision_026",
+        "tc_c08_huangqiuqiu_her_decision_027"
+      ],
+      "exitBefore": "tc_c08_huangqiuqiu_her_decision_028",
+      "exitExplicitlyClearsCg": true,
+      "conditions": [
+        {
+          "flag": "route",
+          "value": "huangqiuqiu"
+        },
+        {
+          "flag": "qiuSignal",
+          "value": "record"
+        },
+        {
+          "flag": "qiuReply",
+          "value": "reply"
+        },
+        {
+          "flag": "qiuMet",
+          "value": true
+        },
+        {
+          "flag": "qiuForm",
+          "value": "human"
+        }
+      ],
+      "notes": [
+        "仅已相识且当前路线huangqiuqiu；必须已执行human_reveal的onEnter并且qiuForm=human。",
+        "只表现变身后扶正玩偶棒，不得在轻搭手、松手、退凳或球形变化时提前显示。恋爱选择不参与触发。",
+        "不用于第42天、不放公开封面／未解锁回顾，婚宴不得出现。"
+      ],
+      "requiresEventPreviouslyExecuted": "tc_c08_huangqiuqiu_human_reveal",
+      "relationshipCondition": "none; never gate transformation by romance",
+      "publicGallery": "locked until legitimately seen; do not expose human form in public covers or locked memories",
+      "forbiddenScenes": [
+        "chapter7-day42",
+        "wedding"
+      ],
+      "doNotShowBeforeNode": "tc_c08_huangqiuqiu_human_reveal",
+      "sequence": [
+        {
+          "beat": "轻搭手",
+          "node": "tc_c08_huangqiuqiu_her_decision_001",
+          "form": "sphere",
+          "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+          "note": "A03姿态＋正文表达接触；不新增紧握或告白。"
+        },
+        {
+          "beat": "她自主松开",
+          "node": "tc_c08_huangqiuqiu_her_decision_010",
+          "form": "sphere",
+          "file": "assets/char-huangqiuqiu.webp"
+        },
+        {
+          "beat": "文文收手、退凳",
+          "node": "tc_c08_huangqiuqiu_her_decision_019",
+          "form": "sphere",
+          "file": "assets/char-huangqiuqiu.webp"
+        },
+        {
+          "beat": "轮廓变化",
+          "node": "tc_c08_huangqiuqiu_her_decision_020",
+          "form": "sphere",
+          "file": "assets/char-huangqiuqiu.webp",
+          "note": "由E08／E09淡出球形；不提前切人形，不加恋爱条件。"
+        },
+        {
+          "beat": "揭示人形并执行形态事件",
+          "node": "tc_c08_huangqiuqiu_human_reveal",
+          "form": "human",
+          "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+          "note": "先执行原有onEnter，再解析人形立绘和头像。"
+        },
+        {
+          "beat": "扶正玩偶棒的近景",
+          "node": "tc_c08_huangqiuqiu_her_decision_025",
+          "form": "human",
+          "file": "assets/ten-chapter/cg/cg-qiuqiu-transform.webp"
+        },
+        {
+          "beat": "退出CG继续聊天",
+          "node": "tc_c08_huangqiuqiu_her_decision_028",
+          "form": "human",
+          "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp"
+        }
+      ]
+    },
+    {
+      "id": "tc-cg-piao-wedding",
+      "file": "assets/ten-chapter/cg/cg-piao-wedding.webp",
+      "enterAt": "tc_c10_common_piao_wedding_04",
+      "allowedNodeIds": [
+        "tc_c10_common_piao_wedding_04"
+      ],
+      "exitBefore": "tc_c10_common_piao_wedding_05",
+      "exitExplicitlyClearsCg": true,
+      "conditions": {
+        "any": [
+          {
+            "flag": "route",
+            "in": [
+              "xiaoman",
+              "zhouzhi",
+              "mengyao",
+              "yelan",
+              "friends",
+              "huangqiuqiu"
+            ]
+          },
+          {
+            "all": [
+              {
+                "flag": "route",
+                "value": "piao"
+              },
+              {
+                "flag": "piaoRelationship",
+                "value": "friends"
+              }
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "仅E03公共婚宴分支：排除route=piao且piaoRelationship=dating；绝不放到文文与飘交往的朋友饭局。",
+        "E03 ch10场景已指定普通小店婚宴，沿A04空间制作。毛狼便西装、飘简洁礼裙沿A02用户确认。",
+        "第二版册子身份由原文交代，封面不生成文字；球球及未确认宾客不入镜。"
+      ],
+      "rejectInvalidOrMissingRoute": true,
+      "explicitlyExcluded": {
+        "all": [
+          {
+            "flag": "route",
+            "value": "piao"
+          },
+          {
+            "flag": "piaoRelationship",
+            "value": "dating"
+          }
+        ]
+      },
+      "cast": [
+        "piao",
+        "maolang"
+      ],
+      "neverAddCharacter": "huangqiuqiu",
+      "note": "球球路线可以经过文文参加的公共婚宴；球球本人不得在婚宴画面出现。"
+    }
+  ]
+}

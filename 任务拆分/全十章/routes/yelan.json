@@ -1,0 +1,6996 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "routes/yelan",
+  "owner": "E05",
+  "scenes": {
+    "ts_c03_yelan_second_meeting": {
+      "chapter": 3,
+      "title": "面已经吃过了",
+      "bg": "tc-bg-rental-day",
+      "time": "18:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "18:20"
+      },
+      "location": "文文出租屋／手机消息",
+      "day": 15,
+      "dayLabel": "第15天"
+    },
+    "ts_c03_yelan_second_meeting_meeting": {
+      "chapter": 3,
+      "title": "面已经吃过了",
+      "bg": "tc-bg-street-dusk",
+      "time": "18:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "18:20"
+      },
+      "location": "街道路口",
+      "day": 15,
+      "dayLabel": "第15天"
+    },
+    "ts_c03_yelan_second_meeting_fruit": {
+      "chapter": 3,
+      "title": "面已经吃过了",
+      "bg": "tc-bg-stall-day",
+      "time": "18:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "18:20"
+      },
+      "location": "街边水果摊及长椅",
+      "day": 15,
+      "dayLabel": "第15天"
+    },
+    "ts_c03_yelan_second_meeting_crossroad": {
+      "chapter": 3,
+      "title": "面已经吃过了",
+      "bg": "tc-bg-street-dusk",
+      "time": "18:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "18:20"
+      },
+      "location": "街道岔路",
+      "day": 15,
+      "dayLabel": "第15天"
+    },
+    "ts_c03_yelan_voice_game": {
+      "chapter": 3,
+      "title": "她也会把门走反",
+      "bg": "tc-bg-netcafe-pc-night",
+      "time": "19:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 18,
+        "clock": "19:10"
+      },
+      "location": "网吧单机位",
+      "day": 18,
+      "dayLabel": "第18天"
+    },
+    "ts_c03_yelan_voice_game_logoff": {
+      "chapter": 3,
+      "title": "她也会把门走反",
+      "bg": "tc-bg-netcafe-pc-night",
+      "time": "21:00前",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 18,
+        "clock": "21:00前"
+      },
+      "location": "网吧机位",
+      "day": 18,
+      "dayLabel": "第18天"
+    },
+    "ts_c03_yelan_quiet_park": {
+      "chapter": 3,
+      "title": "不用一直有声音",
+      "bg": "tc-bg-park-day",
+      "time": "17:50",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 21,
+        "clock": "17:50"
+      },
+      "location": "公园入口及树荫小路",
+      "day": 21,
+      "dayLabel": "第21天"
+    },
+    "ts_c03_yelan_quiet_park_bench": {
+      "chapter": 3,
+      "title": "不用一直有声音",
+      "bg": "tc-bg-park-day",
+      "time": "17:50",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 21,
+        "clock": "17:50"
+      },
+      "location": "公园长椅",
+      "day": 21,
+      "dayLabel": "第21天"
+    },
+    "ts_c03_yelan_quiet_park_park_exit": {
+      "chapter": 3,
+      "title": "不用一直有声音",
+      "bg": "tc-bg-park-day",
+      "time": "17:50",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 21,
+        "clock": "17:50"
+      },
+      "location": "公园积水路段至门口",
+      "day": 21,
+      "dayLabel": "第21天"
+    },
+    "ts_c04_yelan_outing": {
+      "chapter": 4,
+      "title": "屏幕外的操作方式",
+      "bg": "tc-bg-park-day",
+      "time": "15:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 24,
+        "clock": "15:40"
+      },
+      "location": "公园外入口",
+      "day": 24,
+      "dayLabel": "第24天"
+    },
+    "ts_c04_yelan_kite": {
+      "chapter": 4,
+      "title": "去河边空地放风筝",
+      "bg": "tc-bg-riverside-lawn-day",
+      "time": "15:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 24,
+        "clock": "15:40"
+      },
+      "location": "河边空地草坪",
+      "day": 24,
+      "dayLabel": "第24天"
+    },
+    "ts_c04_yelan_market": {
+      "chapter": 4,
+      "title": "去旧货市场找一样无用的小东西",
+      "bg": "tc-bg-secondhand-day",
+      "time": "15:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 24,
+        "clock": "15:40"
+      },
+      "location": "旧货市场玩具摊及通道",
+      "day": 24,
+      "dayLabel": "第24天"
+    },
+    "ts_c04_yelan_outing_end": {
+      "chapter": 4,
+      "title": "本章汇合",
+      "bg": "tc-bg-street-day",
+      "time": "下午结束时",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 24,
+        "clock": "下午结束时"
+      },
+      "location": "所选出行地点出口",
+      "day": 24,
+      "dayLabel": "第24天"
+    },
+    "ts_c05_yelan_hurt_comparison": {
+      "chapter": 5,
+      "title": "我没有说请你介绍",
+      "bg": "tc-bg-netcafe-pc-night",
+      "time": "20:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 27,
+        "clock": "20:10"
+      },
+      "location": "网吧机位",
+      "day": 27,
+      "dayLabel": "第27天"
+    },
+    "ts_c05_yelan_both_real": {
+      "chapter": 5,
+      "title": "她不是另一个账号",
+      "bg": "tc-bg-food-dusk",
+      "time": "18:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 29,
+        "clock": "18:00"
+      },
+      "location": "饺子店",
+      "day": 29,
+      "dayLabel": "第29天"
+    },
+    "ts_c05_yelan_both_real_icecream": {
+      "chapter": 5,
+      "title": "她不是另一个账号",
+      "bg": "tc-bg-convenience-day",
+      "time": "饭后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 29,
+        "clock": "饭后"
+      },
+      "location": "相邻冰棒冰柜与店门口",
+      "day": 29,
+      "dayLabel": "第29天"
+    },
+    "ts_c05_yelan_both_real_street": {
+      "chapter": 5,
+      "title": "她不是另一个账号",
+      "bg": "tc-bg-street-dusk",
+      "time": "饭后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 29,
+        "clock": "饭后"
+      },
+      "location": "街道路口",
+      "day": 29,
+      "dayLabel": "第29天"
+    },
+    "ts_c06_yelan_after_dinner": {
+      "chapter": 6,
+      "title": "散席以后（第30天饭后补叙）",
+      "bg": "tc-bg-street-dusk",
+      "time": "19:15",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "flashback",
+        "day": 30,
+        "clock": "19:15"
+      },
+      "location": "同顿饭散席后的街口",
+      "day": 30,
+      "dayLabel": "第30天"
+    },
+    "ts_c06_yelan_tabletennis": {
+      "chapter": 6,
+      "title": "她打飞的那一球",
+      "bg": "tc-bg-tabletennis-day",
+      "time": "16:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 32,
+        "clock": "16:30"
+      },
+      "location": "乒乓球馆/场边座椅·日",
+      "day": 32,
+      "dayLabel": "第32天"
+    },
+    "ts_c06_yelan_tabletennis_water": {
+      "chapter": 6,
+      "title": "她打飞的那一球",
+      "bg": "tc-bg-convenience-day",
+      "time": "离馆后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 32,
+        "clock": "离馆后"
+      },
+      "location": "球馆外买水柜台",
+      "day": 32,
+      "dayLabel": "第32天"
+    },
+    "ts_c06_yelan_tabletennis_busstop": {
+      "chapter": 6,
+      "title": "她打飞的那一球",
+      "bg": "tc-bg-busstop-day",
+      "time": "离馆后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 32,
+        "clock": "离馆后"
+      },
+      "location": "公交站",
+      "day": 32,
+      "dayLabel": "第32天"
+    },
+    "ts_c07_yelan_her_friends": {
+      "chapter": 7,
+      "title": "她并不只在那个队伍里",
+      "bg": "tc-bg-rental-day",
+      "time": "18:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 39,
+        "clock": "18:10"
+      },
+      "location": "文文出租屋床/桌/生活角·日",
+      "day": 39,
+      "dayLabel": "第39天"
+    },
+    "ts_c07_yelan_her_friends_day40": {
+      "chapter": 7,
+      "title": "她并不只在那个队伍里",
+      "bg": "tc-bg-rental-day",
+      "time": "睡醒后的下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 40,
+        "clock": "睡醒后的下午"
+      },
+      "location": "文文出租屋",
+      "day": 40,
+      "dayLabel": "第40天"
+    },
+    "ts_c07_yelan_kite_return": {
+      "chapter": 7,
+      "title": "河边风筝",
+      "bg": "tc-bg-riverside-lawn-day",
+      "time": "17:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 43,
+        "clock": "17:00"
+      },
+      "location": "河边放风筝空地·日",
+      "day": 43,
+      "dayLabel": "第43天"
+    },
+    "ts_c07_yelan_market_return": {
+      "chapter": 7,
+      "title": "旧货市场",
+      "bg": "tc-bg-secondhand-day",
+      "time": "17:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 43,
+        "clock": "17:00"
+      },
+      "location": "旧货市场玩具摊·日",
+      "day": 43,
+      "dayLabel": "第43天"
+    },
+    "ts_c07_yelan_market_return_market_meeting": {
+      "chapter": 7,
+      "title": "旧货市场",
+      "bg": "tc-bg-secondhand-day",
+      "time": "17:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 43,
+        "clock": "17:00"
+      },
+      "location": "旧货市场碰面处",
+      "day": 43,
+      "dayLabel": "第43天"
+    },
+    "ts_c07_yelan_market_return_market_walk": {
+      "chapter": 7,
+      "title": "旧货市场",
+      "bg": "tc-bg-secondhand-day",
+      "time": "17:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 43,
+        "clock": "17:00"
+      },
+      "location": "旧杯子摊",
+      "day": 43,
+      "dayLabel": "第43天"
+    },
+    "ts_c07_yelan_dinner": {
+      "chapter": 7,
+      "title": "本章汇合",
+      "bg": "tc-bg-food-dusk",
+      "time": "晚饭时",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 43,
+        "clock": "晚饭时"
+      },
+      "location": "普通小食店/面馆·暮色",
+      "day": 43,
+      "dayLabel": "第43天"
+    },
+    "ts_c08_yelan_meet_without_game": {
+      "chapter": 8,
+      "title": "不想赢的时候，也想见你",
+      "bg": "tc-bg-food-day",
+      "time": "17:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 54,
+        "clock": "17:20"
+      },
+      "location": "普通小食店/面馆中性桌位·日",
+      "day": 54,
+      "dayLabel": "第54天"
+    },
+    "ts_c08_yelan_meet_without_game_dinner": {
+      "chapter": 8,
+      "title": "不想赢的时候，也想见你",
+      "bg": "tc-bg-food-day",
+      "time": "17:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 54,
+        "clock": "17:20"
+      },
+      "location": "小饭店",
+      "day": 54,
+      "dayLabel": "第54天"
+    },
+    "ts_c08_yelan_meet_without_game_supermarket": {
+      "chapter": 8,
+      "title": "不想赢的时候，也想见你",
+      "bg": "tc-bg-supermarket-day",
+      "time": "饭后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 54,
+        "clock": "饭后"
+      },
+      "location": "附近小超市",
+      "day": 54,
+      "dayLabel": "第54天"
+    },
+    "ts_c08_yelan_meet_without_game_outside": {
+      "chapter": 8,
+      "title": "不想赢的时候，也想见你",
+      "bg": "tc-bg-street-day",
+      "time": "饭后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 54,
+        "clock": "饭后"
+      },
+      "location": "小超市门口",
+      "day": 54,
+      "dayLabel": "第54天"
+    },
+    "ts_c08_yelan_meet_without_game_bench": {
+      "chapter": 8,
+      "title": "不想赢的时候，也想见你",
+      "bg": "tc-bg-street-day",
+      "time": "饭后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 54,
+        "clock": "饭后"
+      },
+      "location": "街边长椅",
+      "day": 54,
+      "dayLabel": "第54天"
+    },
+    "ts_c08_yelan_meet_without_game_parting": {
+      "chapter": 8,
+      "title": "不想赢的时候，也想见你",
+      "bg": "tc-bg-street-dusk",
+      "time": "天还没黑",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 54,
+        "clock": "天还没黑"
+      },
+      "location": "各自回去的路口",
+      "day": 54,
+      "dayLabel": "第54天"
+    },
+    "ts_c09_yelan_relationship": {
+      "chapter": 9,
+      "title": "这次没有自动匹配",
+      "bg": "tc-bg-street-day",
+      "time": "17:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 72,
+        "clock": "17:40"
+      },
+      "location": "约定街道",
+      "day": 72,
+      "dayLabel": "第72天"
+    },
+    "ts_c09_yelan_relationship_meeting": {
+      "chapter": 9,
+      "title": "这次没有自动匹配",
+      "bg": "tc-bg-street-day",
+      "time": "17:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 72,
+        "clock": "17:40"
+      },
+      "location": "约定街道",
+      "day": 72,
+      "dayLabel": "第72天"
+    },
+    "ts_c09_yelan_relationship_eaves": {
+      "chapter": 9,
+      "title": "这次没有自动匹配",
+      "bg": "tc-bg-eaves-day",
+      "time": "17:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 72,
+        "clock": "17:40"
+      },
+      "location": "新开小店外屋檐",
+      "day": 72,
+      "dayLabel": "第72天"
+    },
+    "ts_c09_yelan_dating": {
+      "chapter": 9,
+      "title": "一起走出语音房间",
+      "bg": "tc-bg-eaves-day",
+      "time": "17:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 72,
+        "clock": "17:40"
+      },
+      "location": "连续旧街屋檐·日",
+      "day": 72,
+      "dayLabel": "第72天"
+    },
+    "ts_c09_yelan_dating_street": {
+      "chapter": 9,
+      "title": "一起走出语音房间",
+      "bg": "tc-bg-street-day",
+      "time": "雨小后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 72,
+        "clock": "雨小后"
+      },
+      "location": "雨小后的街道",
+      "day": 72,
+      "dayLabel": "第72天"
+    },
+    "ts_c09_yelan_dating_busstop": {
+      "chapter": 9,
+      "title": "一起走出语音房间",
+      "bg": "tc-bg-busstop-day",
+      "time": "雨小后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 72,
+        "clock": "雨小后"
+      },
+      "location": "公交站",
+      "day": 72,
+      "dayLabel": "第72天"
+    },
+    "ts_c09_yelan_dating_leaving": {
+      "chapter": 9,
+      "title": "一起走出语音房间",
+      "bg": "tc-bg-busstop-day",
+      "time": "上车后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 72,
+        "clock": "上车后"
+      },
+      "location": "公交站",
+      "day": 72,
+      "dayLabel": "第72天"
+    },
+    "ts_c09_yelan_friends": {
+      "chapter": 9,
+      "title": "留在队伍里的人",
+      "bg": "tc-bg-eaves-day",
+      "time": "17:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 72,
+        "clock": "17:40"
+      },
+      "location": "连续旧街屋檐·日",
+      "day": 72,
+      "dayLabel": "第72天"
+    },
+    "ts_c09_yelan_friends_parting": {
+      "chapter": 9,
+      "title": "留在队伍里的人",
+      "bg": "tc-bg-eaves-day",
+      "time": "分别时",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 72,
+        "clock": "分别时"
+      },
+      "location": "小店外屋檐",
+      "day": 72,
+      "dayLabel": "第72天"
+    },
+    "ts_c09_yelan_friends_day86": {
+      "chapter": 9,
+      "title": "留在队伍里的人",
+      "bg": "tc-bg-rental-night",
+      "time": "未注明",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 86,
+        "clock": "未注明"
+      },
+      "location": "文文休息处的游戏与消息",
+      "day": 86,
+      "dayLabel": "第86天"
+    },
+    "ts_c10_yelan_dating": {
+      "chapter": 10,
+      "title": "一起买完这袋米",
+      "bg": "tc-bg-supermarket-day",
+      "time": "15:30",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "15:30"
+      },
+      "location": "赴约前的手机消息",
+      "day": null,
+      "dayLabel": "两年后"
+    },
+    "ts_c10_yelan_dating_meeting": {
+      "chapter": 10,
+      "title": "一起买完这袋米",
+      "bg": "tc-bg-supermarket-day",
+      "time": "15:30",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "15:30"
+      },
+      "location": "超市门口",
+      "day": null,
+      "dayLabel": "两年后"
+    },
+    "ts_c10_yelan_dating_shopping": {
+      "chapter": 10,
+      "title": "一起买完这袋米",
+      "bg": "tc-bg-supermarket-day",
+      "time": "15:30",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "15:30"
+      },
+      "location": "超市货架与米袋区",
+      "day": null,
+      "dayLabel": "两年后"
+    },
+    "ts_c10_yelan_dating_bench": {
+      "chapter": 10,
+      "title": "一起买完这袋米",
+      "bg": "tc-bg-street-day",
+      "time": "购物后",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "购物后"
+      },
+      "location": "购物后的长椅",
+      "day": null,
+      "dayLabel": "两年后"
+    },
+    "ts_c10_yelan_dating_lights": {
+      "chapter": 10,
+      "title": "一起买完这袋米",
+      "bg": "tc-bg-street-dusk",
+      "time": "路灯刚亮",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "路灯刚亮"
+      },
+      "location": "长椅与回程路",
+      "day": null,
+      "dayLabel": "两年后"
+    },
+    "ts_c10_yelan_friends": {
+      "chapter": 10,
+      "title": "今晚少一个位置",
+      "bg": "tc-bg-netcafe-counter-night",
+      "time": "19:20",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "19:20"
+      },
+      "location": "网吧入口/柜台·夜",
+      "day": null,
+      "dayLabel": "两年后"
+    },
+    "ts_c10_yelan_friends_rest_day": {
+      "chapter": 10,
+      "title": "今晚少一个位置",
+      "bg": "tc-bg-tabletennis-day",
+      "time": "首个休息日的下午",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "首个休息日的下午",
+        "label": "两年后另一天的休息日下午；不沿用当班19:20"
+      },
+      "location": "乒乓球馆与场边座椅",
+      "day": null,
+      "dayLabel": "两年后"
+    }
+  },
+  "nodes": {
+    "tc_c03_yelan_entry": {
+      "id": "tc_c03_yelan_entry",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting",
+      "speaker": "narrator",
+      "character": null,
+      "text": "第12天一起吃过面以后，我和叶岚在群里照常讲话。她还是会抢着说“这局我来”，也还是会在出了错以后迅速问毛狼为什么不提醒。",
+      "next": "tc_c03_yelan_second_meeting_002"
+    },
+    "tc_c03_yelan_second_meeting_002": {
+      "id": "tc_c03_yelan_second_meeting_002",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting",
+      "speaker": "narrator",
+      "character": null,
+      "text": "到了第15天，我睡醒后看见她发来消息。",
+      "next": "tc_c03_yelan_second_meeting_003"
+    },
+    "tc_c03_yelan_second_meeting_003": {
+      "id": "tc_c03_yelan_second_meeting_003",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting",
+      "speaker": "yelan",
+      "character": null,
+      "text": "“今天下班早。上次那家面，要不要再去？”",
+      "next": "tc_c03_yelan_second_meeting_004"
+    },
+    "tc_c03_yelan_second_meeting_004": {
+      "id": "tc_c03_yelan_second_meeting_004",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我想了想，问她是不是特别喜欢那家店。她过了半分钟才回：“主要知道门在哪里。”",
+      "next": "tc_c03_yelan_second_meeting_005"
+    },
+    "tc_c03_yelan_second_meeting_005": {
+      "id": "tc_c03_yelan_second_meeting_005",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting",
+      "speaker": "narrator",
+      "character": null,
+      "text": "于是我说，面也可以吃别的，今天要不要往另一边走走。",
+      "next": "tc_c03_yelan_second_meeting_006"
+    },
+    "tc_c03_yelan_second_meeting_006": {
+      "id": "tc_c03_yelan_second_meeting_006",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_meeting",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "见面时，她站在路口，身上还穿着上班的衣服。低髻被风吹松一点，她伸手重新拢好，看见我过来，先说了一声你好。",
+      "next": "tc_c03_yelan_second_meeting_007"
+    },
+    "tc_c03_yelan_second_meeting_007": {
+      "id": "tc_c03_yelan_second_meeting_007",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_meeting",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“上回已经说过了。”我笑。",
+      "next": "tc_c03_yelan_second_meeting_008"
+    },
+    "tc_c03_yelan_second_meeting_008": {
+      "id": "tc_c03_yelan_second_meeting_008",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_meeting",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“那说什么？欢迎再次匹配？”",
+      "next": "tc_c03_yelan_second_meeting_009"
+    },
+    "tc_c03_yelan_second_meeting_009": {
+      "id": "tc_c03_yelan_second_meeting_009",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_meeting",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "这句话说出口，她自己先低头笑了。那一点笑跟耳机里的声音接上，我紧张了半天的肩膀也落下来。",
+      "next": "tc_c03_yelan_early_callback_gate"
+    },
+    "tc_c03_yelan_second_meeting_010": {
+      "id": "tc_c03_yelan_second_meeting_010",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_meeting",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我问今天还要不要拿毛狼那局当开场。叶岚说他要是知道自己这么有用，可能会收费。我说那今天让他歇着，她点头，问我有没有吃晚饭。这一句在耳机里听过很多次，走在路上听见，又有一点不一样。",
+      "next": "tc_c03_yelan_second_meeting_012"
+    },
+    "tc_c03_yelan_second_meeting_011": {
+      "id": "tc_c03_yelan_second_meeting_011",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_meeting",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "叶岚问我有没有研究今天这条路上的菜单。我说没有，上次研究半天，能点的还不到一半。她笑了，说这次先看看，饿了再挑。“那也不用急着研究话题。”我说。她看了我一眼，嗯了一声。",
+      "next": "tc_c03_yelan_second_meeting_012"
+    },
+    "tc_c03_yelan_second_meeting_012": {
+      "id": "tc_c03_yelan_second_meeting_012",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_fruit",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "街边有个卖水果的小摊。叶岚停下，问那袋青李子酸不酸。老板说不酸，她很慎重地买了一小袋，转身先递给我一颗。",
+      "next": "tc_c03_yelan_second_meeting_013"
+    },
+    "tc_c03_yelan_second_meeting_013": {
+      "id": "tc_c03_yelan_second_meeting_013",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_fruit",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“你先？”",
+      "next": "tc_c03_yelan_second_meeting_014"
+    },
+    "tc_c03_yelan_second_meeting_014": {
+      "id": "tc_c03_yelan_second_meeting_014",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_fruit",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“为什么？”",
+      "next": "tc_c03_yelan_second_meeting_015"
+    },
+    "tc_c03_yelan_second_meeting_015": {
+      "id": "tc_c03_yelan_second_meeting_015",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_fruit",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“团队需要有人探路。”",
+      "next": "tc_c03_yelan_second_meeting_016"
+    },
+    "tc_c03_yelan_second_meeting_016": {
+      "id": "tc_c03_yelan_second_meeting_016",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_fruit",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我咬下去，一瞬间没说出话。她看着我的表情，像看见队友角色掉进深坑，眼睛慢慢亮了起来。",
+      "next": "tc_c03_yelan_second_meeting_017"
+    },
+    "tc_c03_yelan_second_meeting_017": {
+      "id": "tc_c03_yelan_second_meeting_017",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_fruit",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“情况怎么样？”",
+      "next": "tc_c03_yelan_second_meeting_018"
+    },
+    "tc_c03_yelan_second_meeting_018": {
+      "id": "tc_c03_yelan_second_meeting_018",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_fruit",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“路况很差。”",
+      "next": "tc_c03_yelan_second_meeting_019"
+    },
+    "tc_c03_yelan_second_meeting_019": {
+      "id": "tc_c03_yelan_second_meeting_019",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_fruit",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她不信，自己也咬了一颗，嘴抿得很紧，过了好一会儿才把那一口咽下去。",
+      "next": "tc_c03_yelan_second_meeting_020"
+    },
+    "tc_c03_yelan_second_meeting_020": {
+      "id": "tc_c03_yelan_second_meeting_020",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_fruit",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“老板对酸的理解，比较宽容。”",
+      "next": "tc_c03_yelan_second_meeting_021"
+    },
+    "tc_c03_yelan_second_meeting_021": {
+      "id": "tc_c03_yelan_second_meeting_021",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_fruit",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我们坐到路边长椅上，研究剩下的李子怎么办。她没有假装自己喜欢吃酸，也没让我替她全部解决，只把袋子系好，说回去拌点糖试试，不行就认输。",
+      "next": "tc_c03_yelan_second_meeting_022"
+    },
+    "tc_c03_yelan_second_meeting_022": {
+      "id": "tc_c03_yelan_second_meeting_022",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_fruit",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我问她工作日下班后经常做什么。她数了三件：吃饭，洗衣服，把想做的事拖到明天。",
+      "next": "tc_c03_yelan_second_meeting_023"
+    },
+    "tc_c03_yelan_second_meeting_023": {
+      "id": "tc_c03_yelan_second_meeting_023",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_fruit",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“游戏呢？”",
+      "next": "tc_c03_yelan_second_meeting_024"
+    },
+    "tc_c03_yelan_second_meeting_024": {
+      "id": "tc_c03_yelan_second_meeting_024",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_fruit",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“游戏算想做的事。不是每天都开。有时候刚坐下就不想动。”",
+      "next": "tc_c03_yelan_second_meeting_025"
+    },
+    "tc_c03_yelan_second_meeting_025": {
+      "id": "tc_c03_yelan_second_meeting_025",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_fruit",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“我以为你每次上线都在等队友。”",
+      "next": "tc_c03_yelan_second_meeting_026"
+    },
+    "tc_c03_yelan_second_meeting_026": {
+      "id": "tc_c03_yelan_second_meeting_026",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_fruit",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“有时候我在等外卖。”",
+      "next": "tc_c03_yelan_second_meeting_027"
+    },
+    "tc_c03_yelan_second_meeting_027": {
+      "id": "tc_c03_yelan_second_meeting_027",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_fruit",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "说到这里她侧过头，十分认真地补充：“你不要告诉毛狼。他会说他输给了米线。”",
+      "next": "tc_c03_yelan_second_meeting_028"
+    },
+    "tc_c03_yelan_second_meeting_028": {
+      "id": "tc_c03_yelan_second_meeting_028",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_crossroad",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我们走到岔路，叶岚看了眼时间。她准备回去吃晚饭，我九点多也要到网吧交接。分开前，我问她第18天有没有时间，我那天休班。",
+      "next": "tc_c03_yelan_second_meeting_029"
+    },
+    "tc_c03_yelan_second_meeting_029": {
+      "id": "tc_c03_yelan_second_meeting_029",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_crossroad",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“见面还是上线？”她问。",
+      "next": "tc_c03_yelan_second_meeting_030"
+    },
+    "tc_c03_yelan_second_meeting_030": {
+      "id": "tc_c03_yelan_second_meeting_030",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_crossroad",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“你想哪种？”",
+      "next": "tc_c03_yelan_second_meeting_031"
+    },
+    "tc_c03_yelan_second_meeting_031": {
+      "id": "tc_c03_yelan_second_meeting_031",
+      "type": "line",
+      "scene": "ts_c03_yelan_second_meeting_crossroad",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她把手里的李子袋提高一点：“上线吧。这袋失败品，我需要有个人听我点评。”",
+      "next": "tc_c03_yelan_voice_game_001"
+    },
+    "tc_c03_yelan_voice_game_001": {
+      "id": "tc_c03_yelan_voice_game_001",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我下午睡足，晚上以顾客身份在网吧开了一台机器。师匠路过时看了我一眼，提醒别把空饮料瓶留给同事收。我把刚打开的水举起来，说自己文明消费。",
+      "next": "tc_c03_yelan_voice_game_002"
+    },
+    "tc_c03_yelan_voice_game_002": {
+      "id": "tc_c03_yelan_voice_game_002",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "叶岚进语音时先咳了一声。毛狼问她怎么了，她说吃李子酸的。毛狼还没来得及追问，我就笑了。",
+      "next": "tc_c03_yelan_voice_game_003"
+    },
+    "tc_c03_yelan_voice_game_003": {
+      "id": "tc_c03_yelan_voice_game_003",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“你们有秘密。”他说。",
+      "next": "tc_c03_yelan_voice_game_004"
+    },
+    "tc_c03_yelan_voice_game_004": {
+      "id": "tc_c03_yelan_voice_game_004",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“有。”叶岚接得飞快，“一袋李子六块钱，建议你不要跟投。”",
+      "next": "tc_c03_yelan_voice_game_005"
+    },
+    "tc_c03_yelan_voice_game_005": {
+      "id": "tc_c03_yelan_voice_game_005",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "那晚我们玩了个需要分头寻找出口的合作模式。我走到一个岔口，她很笃定地指挥我往左。我在左边撞见死路，折回来，看见她的角色也站在那里。",
+      "next": "tc_c03_yelan_voice_game_006"
+    },
+    "tc_c03_yelan_voice_game_006": {
+      "id": "tc_c03_yelan_voice_game_006",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“你怎么也来了？”",
+      "next": "tc_c03_yelan_voice_game_007"
+    },
+    "tc_c03_yelan_voice_game_007": {
+      "id": "tc_c03_yelan_voice_game_007",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game",
+      "speaker": "yelan",
+      "character": null,
+      "text": "“我来核查你的说法。”",
+      "next": "tc_c03_yelan_voice_game_008"
+    },
+    "tc_c03_yelan_voice_game_008": {
+      "id": "tc_c03_yelan_voice_game_008",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "毛狼在另一头笑得直喘，紧接着他自己掉下了台阶。整个队伍都安静了两秒，然后一起笑起来。",
+      "next": "tc_c03_yelan_voice_game_009"
+    },
+    "tc_c03_yelan_voice_game_009": {
+      "id": "tc_c03_yelan_voice_game_009",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "下一轮，叶岚比平时更想赢，连续两次抢着决定走哪条路。我提醒她先看看地上的标记。她嗯了一声，走出去两步，又回头。",
+      "next": "tc_c03_yelan_voice_game_010"
+    },
+    "tc_c03_yelan_voice_game_010": {
+      "id": "tc_c03_yelan_voice_game_010",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game",
+      "speaker": "yelan",
+      "character": null,
+      "text": "“我刚才是不是有点吵？”",
+      "next": "tc_c03_yelan_voice_game_011"
+    },
+    "tc_c03_yelan_voice_game_011": {
+      "id": "tc_c03_yelan_voice_game_011",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“不吵。方向可能不对。”",
+      "next": "tc_c03_yelan_voice_game_012"
+    },
+    "tc_c03_yelan_voice_game_012": {
+      "id": "tc_c03_yelan_voice_game_012",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game",
+      "speaker": "yelan",
+      "character": null,
+      "text": "“这两句放在一起，也没有好多少。”",
+      "next": "tc_c03_yelan_voice_game_013"
+    },
+    "tc_c03_yelan_voice_game_013": {
+      "id": "tc_c03_yelan_voice_game_013",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game_logoff",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我们打到九点前就结束。她第二天上班，我也准备回去做点吃的。毛狼还想再来一局，叶岚一边说不打了，一边又停在准备界面不走。",
+      "next": "tc_c03_yelan_voice_game_014"
+    },
+    "tc_c03_yelan_voice_game_014": {
+      "id": "tc_c03_yelan_voice_game_014",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game_logoff",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“你是不是也想？”我问。",
+      "next": "tc_c03_yelan_voice_game_015"
+    },
+    "tc_c03_yelan_voice_game_015": {
+      "id": "tc_c03_yelan_voice_game_015",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game_logoff",
+      "speaker": "yelan",
+      "character": null,
+      "text": "“想。”",
+      "next": "tc_c03_yelan_voice_game_016"
+    },
+    "tc_c03_yelan_voice_game_016": {
+      "id": "tc_c03_yelan_voice_game_016",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game_logoff",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“那为什么不打？”",
+      "next": "tc_c03_yelan_voice_game_017"
+    },
+    "tc_c03_yelan_voice_game_017": {
+      "id": "tc_c03_yelan_voice_game_017",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game_logoff",
+      "speaker": "yelan",
+      "character": null,
+      "text": "“因为想归想。明天早上我起床，也得自己负责。”",
+      "next": "tc_c03_yelan_voice_game_018"
+    },
+    "tc_c03_yelan_voice_game_018": {
+      "id": "tc_c03_yelan_voice_game_018",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game_logoff",
+      "speaker": "narrator",
+      "character": null,
+      "text": "她退出得很快，像怕再等一秒就改主意。我也跟着关了游戏。几分钟后，她发来一张撒着糖的李子照片，只拍了碗，没有拍房间别处。",
+      "next": "tc_c03_yelan_voice_game_019"
+    },
+    "tc_c03_yelan_voice_game_019": {
+      "id": "tc_c03_yelan_voice_game_019",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game_logoff",
+      "speaker": "yelan",
+      "character": null,
+      "text": "“变成甜的酸李子了。”",
+      "next": "tc_c03_yelan_voice_game_020"
+    },
+    "tc_c03_yelan_voice_game_020": {
+      "id": "tc_c03_yelan_voice_game_020",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game_logoff",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我回她一个大笑的表情。她说再笑下次见面就带一颗给我。我打了“好”，又补了一句：“下次见面这个部分，可以保留。”",
+      "next": "tc_c03_yelan_voice_game_021"
+    },
+    "tc_c03_yelan_voice_game_021": {
+      "id": "tc_c03_yelan_voice_game_021",
+      "type": "line",
+      "scene": "ts_c03_yelan_voice_game_logoff",
+      "speaker": "narrator",
+      "character": null,
+      "text": "对面很久没显示输入中，直到我准备把手机放进口袋，才收到短短一行字：“那第21天？”",
+      "next": "tc_c03_yelan_quiet_park_001"
+    },
+    "tc_c03_yelan_quiet_park_001": {
+      "id": "tc_c03_yelan_quiet_park_001",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我们这次去了公园。叶岚下班后来得比我晚几分钟，看见我站在入口，先从包里拿出一个小盒子。",
+      "next": "tc_c03_yelan_quiet_park_002"
+    },
+    "tc_c03_yelan_quiet_park_002": {
+      "id": "tc_c03_yelan_quiet_park_002",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“真带了？”我问。",
+      "next": "tc_c03_yelan_quiet_park_003"
+    },
+    "tc_c03_yelan_quiet_park_003": {
+      "id": "tc_c03_yelan_quiet_park_003",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“没有，糖拌李子已经吃完了。这是薄荷糖。”",
+      "next": "tc_c03_yelan_quiet_park_004"
+    },
+    "tc_c03_yelan_quiet_park_004": {
+      "id": "tc_c03_yelan_quiet_park_004",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我接过去，她把盒盖盖回，动作比第一次见面时自然。我们沿着有树荫的小路往里走，聊完了天气，聊完了毛狼最近那个演出，突然都没了话。",
+      "next": "tc_c03_yelan_quiet_park_005"
+    },
+    "tc_c03_yelan_quiet_park_005": {
+      "id": "tc_c03_yelan_quiet_park_005",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我开始讲白天梦见自己把顾客的座位号记成菜名，讲到一半发现这个梦其实没什么好笑。叶岚礼貌地笑了一下，我又急着问她小时候有没有来过这里。",
+      "next": "tc_c03_yelan_quiet_park_006"
+    },
+    "tc_c03_yelan_quiet_park_006": {
+      "id": "tc_c03_yelan_quiet_park_006",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她停下脚步。",
+      "next": "tc_c03_yelan_quiet_park_007"
+    },
+    "tc_c03_yelan_quiet_park_007": {
+      "id": "tc_c03_yelan_quiet_park_007",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“文文。”",
+      "next": "tc_c03_yelan_quiet_park_008"
+    },
+    "tc_c03_yelan_quiet_park_008": {
+      "id": "tc_c03_yelan_quiet_park_008",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“嗯？”",
+      "next": "tc_c03_yelan_quiet_park_009"
+    },
+    "tc_c03_yelan_quiet_park_009": {
+      "id": "tc_c03_yelan_quiet_park_009",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“你是不是怕我没意思？”",
+      "next": "tc_c03_yelan_quiet_park_010"
+    },
+    "tc_c03_yelan_quiet_park_010": {
+      "id": "tc_c03_yelan_quiet_park_010",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我老实点头：“有一点。语音里，你好像总有话接。”",
+      "next": "tc_c03_yelan_quiet_park_011"
+    },
+    "tc_c03_yelan_quiet_park_011": {
+      "id": "tc_c03_yelan_quiet_park_011",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“语音里有游戏。没话就骂那个怪，挺方便的。”",
+      "next": "tc_c03_yelan_quiet_park_012"
+    },
+    "tc_c03_yelan_quiet_park_012": {
+      "id": "tc_c03_yelan_quiet_park_012",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她说完笑了，指向前面一条长椅：“坐一会儿行吗？我今天穿的鞋走久了累。”",
+      "next": "tc_c03_yelan_quiet_park_013"
+    },
+    "tc_c03_yelan_quiet_park_013": {
+      "id": "tc_c03_yelan_quiet_park_013",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park_bench",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我们坐下来。她把包放在腿上，看着一个小孩努力把风筝从地上拉起来。孩子往前跑，风筝却拖在后面，旁边的大人也不太会，越指挥越乱。叶岚看得很认真，后来终于说：“跟我们那天走迷宫一样。”",
+      "next": "tc_c03_yelan_quiet_park_014"
+    },
+    "tc_c03_yelan_quiet_park_014": {
+      "id": "tc_c03_yelan_quiet_park_014",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park_bench",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我笑出来。我们又安静了一阵，听见树叶被风吹得挤在一起。她从薄荷糖盒里倒了两颗，递给我一颗。",
+      "next": "tc_c03_yelan_quiet_park_015"
+    },
+    "tc_c03_yelan_quiet_park_015": {
+      "id": "tc_c03_yelan_quiet_park_015",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park_bench",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“我不是不想见你。”她说，“就是现实里，有时候话没想到那么快。”",
+      "next": "tc_c03_yelan_quiet_park_016"
+    },
+    "tc_c03_yelan_quiet_park_016": {
+      "id": "tc_c03_yelan_quiet_park_016",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park_bench",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“我也没你听起来那么会讲。耳机里看不见我卡住时的脸。”",
+      "next": "tc_c03_yelan_quiet_park_017"
+    },
+    "tc_c03_yelan_quiet_park_017": {
+      "id": "tc_c03_yelan_quiet_park_017",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park_bench",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她转过头，真的仔细看了看我的脸。",
+      "next": "tc_c03_yelan_quiet_park_018"
+    },
+    "tc_c03_yelan_quiet_park_018": {
+      "id": "tc_c03_yelan_quiet_park_018",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park_bench",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“现在看见了。”",
+      "next": "tc_c03_yelan_quiet_park_019"
+    },
+    "tc_c03_yelan_quiet_park_019": {
+      "id": "tc_c03_yelan_quiet_park_019",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park_bench",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“观感如何？”",
+      "next": "tc_c03_yelan_quiet_park_020"
+    },
+    "tc_c03_yelan_quiet_park_020": {
+      "id": "tc_c03_yelan_quiet_park_020",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park_bench",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“比游戏输的时候好一点。”",
+      "next": "tc_c03_yelan_quiet_park_021"
+    },
+    "tc_c03_yelan_quiet_park_021": {
+      "id": "tc_c03_yelan_quiet_park_021",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park_park_exit",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "回去时我们走得很慢。经过一处积水，我先迈过去，转身想提醒她，她已经自己选了另一条干路。她站在前面，回头看我还伸着的手，笑了一下。",
+      "next": "tc_c03_yelan_quiet_park_022"
+    },
+    "tc_c03_yelan_quiet_park_022": {
+      "id": "tc_c03_yelan_quiet_park_022",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park_park_exit",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“这次不用救。”",
+      "next": "tc_c03_yelan_quiet_park_023"
+    },
+    "tc_c03_yelan_quiet_park_023": {
+      "id": "tc_c03_yelan_quiet_park_023",
+      "type": "line",
+      "scene": "ts_c03_yelan_quiet_park_park_exit",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我把手放下，跟上去。到公园门口，她主动说起下次休息想做什么。她说得不算流畅，中间想了很久，我也没有急着替她把句子接完。",
+      "next": "tc_c03_common_exit"
+    },
+    "tc_c03_yelan_early_callback_gate": {
+      "id": "tc_c03_yelan_early_callback_gate",
+      "type": "gate",
+      "scene": "ts_c03_yelan_second_meeting_meeting",
+      "cases": [
+        {
+          "flag": "yelanFirst",
+          "value": "game",
+          "next": "tc_c03_yelan_second_meeting_010"
+        },
+        {
+          "flag": "yelanFirst",
+          "value": "food",
+          "next": "tc_c03_yelan_second_meeting_011"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    },
+    "tc_c04_yelan_entry": {
+      "id": "tc_c04_yelan_entry",
+      "type": "line",
+      "scene": "ts_c04_yelan_outing",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "这天我休班，叶岚也有半天自己的时间。我们在公园外碰面，她穿着平底鞋，手里拿着一杯温水。那身上班时的深灰衣服换下来后，她看上去没有突然变成另一个人，只是走到台阶时终于不用挑每一块砖。",
+      "next": "tc_c04_yelan_outing_002"
+    },
+    "tc_c04_yelan_outing_002": {
+      "id": "tc_c04_yelan_outing_002",
+      "type": "line",
+      "scene": "ts_c04_yelan_outing",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她在手机备忘录里写了两个地方：河边空地，旧货市场。",
+      "next": "tc_c04_yelan_outing_003"
+    },
+    "tc_c04_yelan_outing_003": {
+      "id": "tc_c04_yelan_outing_003",
+      "type": "line",
+      "scene": "ts_c04_yelan_outing",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“第一个，可以买个风筝试试。”她说，“第二个，我路过过，没认真逛。”",
+      "next": "tc_c04_yelan_outing_004"
+    },
+    "tc_c04_yelan_outing_004": {
+      "id": "tc_c04_yelan_outing_004",
+      "type": "line",
+      "scene": "ts_c04_yelan_outing",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“你会放风筝吗？”",
+      "next": "tc_c04_yelan_outing_005"
+    },
+    "tc_c04_yelan_outing_005": {
+      "id": "tc_c04_yelan_outing_005",
+      "type": "line",
+      "scene": "ts_c04_yelan_outing",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“不会。你呢？”",
+      "next": "tc_c04_yelan_outing_006"
+    },
+    "tc_c04_yelan_outing_006": {
+      "id": "tc_c04_yelan_outing_006",
+      "type": "line",
+      "scene": "ts_c04_yelan_outing",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“也不会。”",
+      "next": "tc_c04_yelan_outing_007"
+    },
+    "tc_c04_yelan_outing_007": {
+      "id": "tc_c04_yelan_outing_007",
+      "type": "line",
+      "scene": "ts_c04_yelan_outing",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她点点头：“很公平。选一个吧，下午不能全跑完。”",
+      "next": "tc_c04_yelan_outing_choice"
+    },
+    "tc_c04_yelan_kite_001": {
+      "id": "tc_c04_yelan_kite_001",
+      "type": "line",
+      "scene": "ts_c04_yelan_kite",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我们买了最普通的一只风筝，颜色亮得像怕被云吞掉。卖风筝的人示范了怎么放线，我们两个听得很认真，走到空地上，第一件事却是互相问刚才他说了什么。",
+      "next": "tc_c04_yelan_kite_002"
+    },
+    "tc_c04_yelan_kite_002": {
+      "id": "tc_c04_yelan_kite_002",
+      "type": "line",
+      "scene": "ts_c04_yelan_kite",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“迎风。”我说。",
+      "next": "tc_c04_yelan_kite_003"
+    },
+    "tc_c04_yelan_kite_003": {
+      "id": "tc_c04_yelan_kite_003",
+      "type": "line",
+      "scene": "ts_c04_yelan_kite",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“这个记住了。风在哪边？”",
+      "next": "tc_c04_yelan_kite_004"
+    },
+    "tc_c04_yelan_kite_004": {
+      "id": "tc_c04_yelan_kite_004",
+      "type": "line",
+      "scene": "ts_c04_yelan_kite",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "叶岚抬手拨开被吹到脸上的头发，自己也笑了。",
+      "next": "tc_c04_yelan_kite_005"
+    },
+    "tc_c04_yelan_kite_005": {
+      "id": "tc_c04_yelan_kite_005",
+      "type": "line",
+      "scene": "ts_c04_yelan_kite",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我拿线，她拿风筝。第一次没飞起来，第二次飞了几步就栽到草里。她把风筝捡起来，指着旁边已经在天上的那只：“我们可能买到了喜欢走路的。”",
+      "next": "tc_c04_yelan_kite_006"
+    },
+    "tc_c04_yelan_kite_006": {
+      "id": "tc_c04_yelan_kite_006",
+      "type": "line",
+      "scene": "ts_c04_yelan_kite",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "后来换她拿线，我往后跑着放手，终于让风筝稳稳升起来。叶岚一下站直，眼睛跟着它往上，嘴上连续说了三次“起来了”。",
+      "next": "tc_c04_yelan_kite_007"
+    },
+    "tc_c04_yelan_kite_007": {
+      "id": "tc_c04_yelan_kite_007",
+      "type": "line",
+      "scene": "ts_c04_yelan_kite",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "风筝飞稳后，她把线轴分给我握一半。我手指碰到她的手背，她没立刻松开，只低声提醒：“别都放手。”",
+      "next": "tc_c04_yelan_kite_008"
+    },
+    "tc_c04_yelan_kite_008": {
+      "id": "tc_c04_yelan_kite_008",
+      "type": "line",
+      "scene": "ts_c04_yelan_kite",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我们站在一起，看那点颜色离开地面。没有分数，也没人知道谁更厉害。临走时，她坚持把风筝收好，说下次还用这只，不能买会飞的就淘汰走路的。",
+      "next": "tc_c04_yelan_outing_end_001"
+    },
+    "tc_c04_yelan_market_001": {
+      "id": "tc_c04_yelan_market_001",
+      "type": "line",
+      "scene": "ts_c04_yelan_market",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我们给自己定了一个很小的预算，只买看了会笑的东西。叶岚在一个旧玩具摊前蹲下来，看着一只会摇头的塑料小鸭。",
+      "next": "tc_c04_yelan_market_002"
+    },
+    "tc_c04_yelan_market_002": {
+      "id": "tc_c04_yelan_market_002",
+      "type": "line",
+      "scene": "ts_c04_yelan_market",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“这个做什么用？”她问。",
+      "next": "tc_c04_yelan_market_003"
+    },
+    "tc_c04_yelan_market_003": {
+      "id": "tc_c04_yelan_market_003",
+      "type": "line",
+      "scene": "ts_c04_yelan_market",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "摊主碰了碰鸭子脑袋：“点头。”",
+      "next": "tc_c04_yelan_market_004"
+    },
+    "tc_c04_yelan_market_004": {
+      "id": "tc_c04_yelan_market_004",
+      "type": "line",
+      "scene": "ts_c04_yelan_market",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她忍了两秒，笑出了声。",
+      "next": "tc_c04_yelan_market_005"
+    },
+    "tc_c04_yelan_market_005": {
+      "id": "tc_c04_yelan_market_005",
+      "type": "line",
+      "scene": "ts_c04_yelan_market",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我问她是不是准备放公司桌上，谁来找她就让它回答。她马上摇头：“不行。人家问资料放哪儿，它只会同意。”",
+      "next": "tc_c04_yelan_market_006"
+    },
+    "tc_c04_yelan_market_006": {
+      "id": "tc_c04_yelan_market_006",
+      "type": "line",
+      "scene": "ts_c04_yelan_market",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "最后她还是买了。小鸭底座有一道旧划痕，脑袋晃起来有点歪。我担心它没走出市场就散架，她却把它捧到眼前，轻轻点一下。",
+      "next": "tc_c04_yelan_market_007"
+    },
+    "tc_c04_yelan_market_007": {
+      "id": "tc_c04_yelan_market_007",
+      "type": "line",
+      "scene": "ts_c04_yelan_market",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“已经很努力了。”",
+      "next": "tc_c04_yelan_market_008"
+    },
+    "tc_c04_yelan_market_008": {
+      "id": "tc_c04_yelan_market_008",
+      "type": "line",
+      "scene": "ts_c04_yelan_market",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我们沿摊位往前走，她给我挑中一个印着笑脸的小铁盒。我说没什么东西可装，她想了一会儿：“那先装今天找回来的零钱。”",
+      "next": "tc_c04_yelan_market_009"
+    },
+    "tc_c04_yelan_market_009": {
+      "id": "tc_c04_yelan_market_009",
+      "type": "line",
+      "scene": "ts_c04_yelan_market",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我把硬币放进去，走路时叮当响。她听见，忽然说这是很便宜的游戏音效。等我们离开市场，两个人手里都提着原本不需要的东西，却走得比来时慢了很多。",
+      "next": "tc_c04_yelan_outing_end_001"
+    },
+    "tc_c04_yelan_outing_end_001": {
+      "id": "tc_c04_yelan_outing_end_001",
+      "type": "line",
+      "scene": "ts_c04_yelan_outing_end",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "下午结束时，叶岚要给这次出行起个名字，方便记在备忘录里。我建议叫“练习线下操作”。她皱着眉看我，像听见队友报了一个非常不可靠的位置。",
+      "next": "tc_c04_yelan_outing_end_002"
+    },
+    "tc_c04_yelan_outing_end_002": {
+      "id": "tc_c04_yelan_outing_end_002",
+      "type": "line",
+      "scene": "ts_c04_yelan_outing_end",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“太像上课。”",
+      "next": "tc_c04_yelan_outing_end_003"
+    },
+    "tc_c04_yelan_outing_end_003": {
+      "id": "tc_c04_yelan_outing_end_003",
+      "type": "line",
+      "scene": "ts_c04_yelan_outing_end",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“那你起。”",
+      "next": "tc_c04_yelan_outing_end_004"
+    },
+    "tc_c04_yelan_outing_end_004": {
+      "id": "tc_c04_yelan_outing_end_004",
+      "type": "line",
+      "scene": "ts_c04_yelan_outing_end",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她想了一阵，把手机转给我。屏幕上只有一句：“今天没有只吃面。”",
+      "next": "tc_c04_yelan_outing_end_005"
+    },
+    "tc_c04_yelan_outing_end_005": {
+      "id": "tc_c04_yelan_outing_end_005",
+      "type": "line",
+      "scene": "ts_c04_yelan_outing_end",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我笑着说这个不错。她把手机收回包里，又认真补了一句：“下次只吃面，也不是不可以。”",
+      "next": "tc_c04_common_exit"
+    },
+    "tc_c04_yelan_outing_choice": {
+      "id": "tc_c04_yelan_outing_choice",
+      "type": "choice",
+      "scene": "ts_c04_yelan_outing",
+      "character": "yelan",
+      "text": "今天去哪里？",
+      "flag": "yelanOuting",
+      "choices": [
+        {
+          "label": "去河边空地放风筝",
+          "value": "kite",
+          "next": "tc_c04_yelan_kite_001"
+        },
+        {
+          "label": "去旧货市场找一样无用的小东西",
+          "value": "market",
+          "next": "tc_c04_yelan_market_001"
+        }
+      ]
+    },
+    "tc_c05_yelan_entry": {
+      "id": "tc_c05_yelan_entry",
+      "type": "line",
+      "scene": "ts_c05_yelan_hurt_comparison",
+      "speaker": "narrator",
+      "character": null,
+      "text": "第25天，朋友群里提到回声第30天停业。叶岚问我们那天几点吃饭，说下班赶得上就过来。她仍在保险公司做内勤，回声的收尾跟她的工作没有关系；她问周栀后面有什么打算，也只是朋友之间的关心。",
+      "next": "tc_c05_yelan_hurt_comparison_002"
+    },
+    "tc_c05_yelan_hurt_comparison_002": {
+      "id": "tc_c05_yelan_hurt_comparison_002",
+      "type": "line",
+      "scene": "ts_c05_yelan_hurt_comparison",
+      "speaker": "narrator",
+      "character": null,
+      "text": "第27天我休班，白天补足了觉，晚上和大家开了两局。叶岚那天特别想赢。一次团战，她提前冲进去，把自己送得很干脆，随后立刻在语音里说：“这个位置刚才明明没人。”",
+      "next": "tc_c05_yelan_hurt_comparison_003"
+    },
+    "tc_c05_yelan_hurt_comparison_003": {
+      "id": "tc_c05_yelan_hurt_comparison_003",
+      "type": "line",
+      "scene": "ts_c05_yelan_hurt_comparison",
+      "speaker": "narrator",
+      "character": null,
+      "text": "毛狼笑她是不是嘴上太忙，没看见人。我跟着接了一句：“你们没见过她现实里多安静，线上这股劲儿，应该录下来给她自己看。”",
+      "next": "tc_c05_yelan_hurt_comparison_004"
+    },
+    "tc_c05_yelan_hurt_comparison_004": {
+      "id": "tc_c05_yelan_hurt_comparison_004",
+      "type": "line",
+      "scene": "ts_c05_yelan_hurt_comparison",
+      "speaker": "narrator",
+      "character": null,
+      "text": "耳机里忽然少了一点声音。",
+      "next": "tc_c05_yelan_hurt_comparison_005"
+    },
+    "tc_c05_yelan_hurt_comparison_005": {
+      "id": "tc_c05_yelan_hurt_comparison_005",
+      "type": "line",
+      "scene": "ts_c05_yelan_hurt_comparison",
+      "speaker": "narrator",
+      "character": null,
+      "text": "叶岚没骂我，也没跟着笑。她报了后面两个位置，打完这一局，说有点累，先下了。",
+      "next": "tc_c05_yelan_hurt_comparison_006"
+    },
+    "tc_c05_yelan_hurt_comparison_006": {
+      "id": "tc_c05_yelan_hurt_comparison_006",
+      "type": "line",
+      "scene": "ts_c05_yelan_hurt_comparison",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我最初以为她只是输得不高兴，还给她发了个输游戏的表情包。过了十分钟，她回我：“刚才那句，我不太喜欢。”",
+      "next": "tc_c05_yelan_hurt_comparison_007"
+    },
+    "tc_c05_yelan_hurt_comparison_007": {
+      "id": "tc_c05_yelan_hurt_comparison_007",
+      "type": "line",
+      "scene": "ts_c05_yelan_hurt_comparison",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我看着消息，把原本打出的“开个玩笑”删掉。",
+      "next": "tc_c05_yelan_hurt_comparison_008"
+    },
+    "tc_c05_yelan_hurt_comparison_008": {
+      "id": "tc_c05_yelan_hurt_comparison_008",
+      "type": "line",
+      "scene": "ts_c05_yelan_hurt_comparison",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“说你现实里安静那句？”",
+      "next": "tc_c05_yelan_hurt_comparison_009"
+    },
+    "tc_c05_yelan_hurt_comparison_009": {
+      "id": "tc_c05_yelan_hurt_comparison_009",
+      "type": "line",
+      "scene": "ts_c05_yelan_hurt_comparison",
+      "speaker": "yelan",
+      "character": null,
+      "text": "“嗯。我自己知道。我不想变成大家拿来比哪个版本更好笑的题目。”",
+      "next": "tc_c05_yelan_hurt_comparison_010"
+    },
+    "tc_c05_yelan_hurt_comparison_010": {
+      "id": "tc_c05_yelan_hurt_comparison_010",
+      "type": "line",
+      "scene": "ts_c05_yelan_hurt_comparison",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我把耳机摘下来。隔壁座位有人大声叫队友，我第一次发现，隔着屏幕说一句话那么容易，接住它的人却不一定还在同一个热闹里。",
+      "next": "tc_c05_yelan_both_real_001"
+    },
+    "tc_c05_yelan_both_real_001": {
+      "id": "tc_c05_yelan_both_real_001",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我们约在一家饺子店。叶岚先到，看到我进来，没有像语音里那样立刻接梗，只把菜单往我这边推了推。",
+      "next": "tc_c05_yelan_both_real_002"
+    },
+    "tc_c05_yelan_both_real_002": {
+      "id": "tc_c05_yelan_both_real_002",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我坐下就说：“前天那句，是我得意了。觉得自己见过你，就能替你介绍。”",
+      "next": "tc_c05_yelan_both_real_003"
+    },
+    "tc_c05_yelan_both_real_003": {
+      "id": "tc_c05_yelan_both_real_003",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她用指尖压着菜单边缘，想了一会儿：“我也不想让你从此说话像写检讨。我只是下线以后，突然觉得下次见面是不是还得表现得特别有趣，才不会让你失望。”",
+      "next": "tc_c05_yelan_both_real_004"
+    },
+    "tc_c05_yelan_both_real_004": {
+      "id": "tc_c05_yelan_both_real_004",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“你不用。”",
+      "next": "tc_c05_yelan_both_real_005"
+    },
+    "tc_c05_yelan_both_real_005": {
+      "id": "tc_c05_yelan_both_real_005",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“我知道应该不用。可当时会这样想。”",
+      "next": "tc_c05_yelan_both_real_006"
+    },
+    "tc_c05_yelan_both_real_006": {
+      "id": "tc_c05_yelan_both_real_006",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "饺子上来，她咬了一口，发现太烫，又赶紧放回勺子上。我也正准备咬，见状跟着停住。她瞥了我一眼，终于笑了一点。",
+      "next": "tc_c05_yelan_both_real_007"
+    },
+    "tc_c05_yelan_both_real_007": {
+      "id": "tc_c05_yelan_both_real_007",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“这次探路有用了。”",
+      "next": "tc_c05_yelan_both_real_008"
+    },
+    "tc_c05_yelan_both_real_008": {
+      "id": "tc_c05_yelan_both_real_008",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我没有再说“这才像你”。我把自己的饺子晾在盘子边，问她前天后来做了什么。",
+      "next": "tc_c05_yelan_both_real_009"
+    },
+    "tc_c05_yelan_both_real_009": {
+      "id": "tc_c05_yelan_both_real_009",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“洗头。洗完还在想那局为什么输。”",
+      "next": "tc_c05_yelan_both_real_010"
+    },
+    "tc_c05_yelan_both_real_010": {
+      "id": "tc_c05_yelan_both_real_010",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“所以不是完全不在乎输赢。”",
+      "next": "tc_c05_yelan_both_real_011"
+    },
+    "tc_c05_yelan_both_real_011": {
+      "id": "tc_c05_yelan_both_real_011",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“当然在乎。我也没有那么大度。”",
+      "next": "tc_c05_yelan_both_real_012"
+    },
+    "tc_c05_yelan_both_real_012": {
+      "id": "tc_c05_yelan_both_real_012",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她说自己后来发现，提前进去那一下确实是判断错了，跟队友不提醒无关。承认完又小声补了一句，下次最好还是能赢。",
+      "next": "tc_c05_yelan_both_real_013"
+    },
+    "tc_c05_yelan_both_real_013": {
+      "id": "tc_c05_yelan_both_real_013",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我笑着说可以，但今天先把饺子吃完。她点头，慢慢吃着，没有因为我们谈开了就突然变成全桌最热闹的人。",
+      "next": "tc_c05_yelan_both_real_014"
+    },
+    "tc_c05_yelan_both_real_014": {
+      "id": "tc_c05_yelan_both_real_014",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real_icecream",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "走出店门，她主动问我想不想去旁边买支冰棒。我还没答，她先说：“刚才吃太烫了。”",
+      "next": "tc_c05_yelan_both_real_015"
+    },
+    "tc_c05_yelan_both_real_015": {
+      "id": "tc_c05_yelan_both_real_015",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real_icecream",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我们站在冰柜前挑了很久，最后拿了同一种。付完钱，她撕开包装，看着我把袋子扔进垃圾桶，忽然叫了我的名字。",
+      "next": "tc_c05_yelan_both_real_016"
+    },
+    "tc_c05_yelan_both_real_016": {
+      "id": "tc_c05_yelan_both_real_016",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real_icecream",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“我线上也是真的。现实里也是真的。不是哪个上线，哪个下线。”",
+      "next": "tc_c05_yelan_both_real_017"
+    },
+    "tc_c05_yelan_both_real_017": {
+      "id": "tc_c05_yelan_both_real_017",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real_icecream",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“我记住了。”",
+      "next": "tc_c05_yelan_both_real_018"
+    },
+    "tc_c05_yelan_both_real_018": {
+      "id": "tc_c05_yelan_both_real_018",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real_icecream",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她舔了一口冰棒，冷得缩了下脖子：“那你也别把记住这件事说得太郑重。下次还可以笑我，但让我先知道你在笑哪一段。”",
+      "next": "tc_c05_yelan_both_real_019"
+    },
+    "tc_c05_yelan_both_real_019": {
+      "id": "tc_c05_yelan_both_real_019",
+      "type": "line",
+      "scene": "ts_c05_yelan_both_real_street",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我们往前走。过了一个路口，她讲起同事误把空饭盒当成资料盒拿走的事，讲到中间自己先笑停了。我站在旁边等她喘完，没有抢着替她补上包袱。",
+      "next": "tc_c05_common_exit"
+    },
+    "tc_c06_yelan_entry": {
+      "id": "tc_c06_yelan_entry",
+      "type": "line",
+      "scene": "ts_c06_yelan_after_dinner",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "回声附近的饭局快结束时，叶岚把自己那份饭钱转过去，顺手给周栀递了张纸巾。周栀还要去上最后一个班，我们没有拉着她多坐。叶岚也没留下做什么交接，她跟我一起走到街口，就要乘车回家。",
+      "next": "tc_c06_yelan_after_dinner_002"
+    },
+    "tc_c06_yelan_after_dinner_002": {
+      "id": "tc_c06_yelan_after_dinner_002",
+      "type": "line",
+      "scene": "ts_c06_yelan_after_dinner",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“你今天上班？”她问。",
+      "next": "tc_c06_yelan_after_dinner_003"
+    },
+    "tc_c06_yelan_after_dinner_003": {
+      "id": "tc_c06_yelan_after_dinner_003",
+      "type": "line",
+      "scene": "ts_c06_yelan_after_dinner",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“十点。还够回去换件衣服。”",
+      "next": "tc_c06_yelan_after_dinner_004"
+    },
+    "tc_c06_yelan_after_dinner_004": {
+      "id": "tc_c06_yelan_after_dinner_004",
+      "type": "line",
+      "scene": "ts_c06_yelan_after_dinner",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“那不叫你上线了。”",
+      "next": "tc_c06_yelan_after_dinner_005"
+    },
+    "tc_c06_yelan_after_dinner_005": {
+      "id": "tc_c06_yelan_after_dinner_005",
+      "type": "line",
+      "scene": "ts_c06_yelan_after_dinner",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我说第32天休班，醒来后可以见。叶岚想了想，问可不可以换个不需要屏幕的地方。",
+      "next": "tc_c06_yelan_after_dinner_006"
+    },
+    "tc_c06_yelan_after_dinner_006": {
+      "id": "tc_c06_yelan_after_dinner_006",
+      "type": "line",
+      "scene": "ts_c06_yelan_after_dinner",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“可以。你有想去的？”",
+      "next": "tc_c06_yelan_after_dinner_007"
+    },
+    "tc_c06_yelan_after_dinner_007": {
+      "id": "tc_c06_yelan_after_dinner_007",
+      "type": "line",
+      "scene": "ts_c06_yelan_after_dinner",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“有一个。但是我说出来，你先别觉得我很会。”",
+      "next": "tc_c06_yelan_tabletennis_001"
+    },
+    "tc_c06_yelan_tabletennis_001": {
+      "id": "tc_c06_yelan_tabletennis_001",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "叶岚挑了一家可以按时租桌的乒乓球馆。她说上学时打过，最近朋友来玩，自己才想起来还有这件事。我上午睡足，下午在门口碰见她时，她正把头发重新扎紧。",
+      "next": "tc_c06_yelan_tabletennis_002"
+    },
+    "tc_c06_yelan_tabletennis_002": {
+      "id": "tc_c06_yelan_tabletennis_002",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“我就记得怎么发球。”她说。",
+      "next": "tc_c06_yelan_tabletennis_003"
+    },
+    "tc_c06_yelan_tabletennis_003": {
+      "id": "tc_c06_yelan_tabletennis_003",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“那你已经领先了。我记得球是圆的。”",
+      "next": "tc_c06_yelan_tabletennis_004"
+    },
+    "tc_c06_yelan_tabletennis_004": {
+      "id": "tc_c06_yelan_tabletennis_004",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "第一局我们连着捡球。球从我这边弹到桌沿，飞进旁边的隔网，她刚走到半路，又有一颗滚到她脚边。她两只手各拿一颗，看着我，表情逐渐接近在语音里看见我连续送错方向时的样子。",
+      "next": "tc_c06_yelan_tabletennis_005"
+    },
+    "tc_c06_yelan_tabletennis_005": {
+      "id": "tc_c06_yelan_tabletennis_005",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“你的地图意识，需要改善。”",
+      "next": "tc_c06_yelan_tabletennis_006"
+    },
+    "tc_c06_yelan_tabletennis_006": {
+      "id": "tc_c06_yelan_tabletennis_006",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我忍不住笑，下一次终于把球打回去。她兴奋得加了力，球直接越过我的肩膀，撞在后面墙上。",
+      "next": "tc_c06_yelan_tabletennis_007"
+    },
+    "tc_c06_yelan_tabletennis_007": {
+      "id": "tc_c06_yelan_tabletennis_007",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“这算远程支援吗？”我问。",
+      "next": "tc_c06_yelan_tabletennis_008"
+    },
+    "tc_c06_yelan_tabletennis_008": {
+      "id": "tc_c06_yelan_tabletennis_008",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她把球拍挡在脸前，声音闷在后面：“算我失误。”",
+      "next": "tc_c06_yelan_tabletennis_009"
+    },
+    "tc_c06_yelan_tabletennis_009": {
+      "id": "tc_c06_yelan_tabletennis_009",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "后来我们不记比分，先试着能不能连续打满十次。打到第七次，她慢了一点，球落在她鞋边。她咬了下嘴唇，很快又说重来。我发现她不是没有脾气，只是还不习惯把每一点懊恼都放在我面前。",
+      "next": "tc_c06_yelan_tabletennis_010"
+    },
+    "tc_c06_yelan_tabletennis_010": {
+      "id": "tc_c06_yelan_tabletennis_010",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "再一次打到第九下，我为了够一颗歪球，整个人伸得像晾衣架。球碰到了拍边，竟然晃晃悠悠回了桌上。她愣了一下，没接住，两个人看着它落地，忽然都笑得直不起腰。",
+      "next": "tc_c06_yelan_tabletennis_011"
+    },
+    "tc_c06_yelan_tabletennis_011": {
+      "id": "tc_c06_yelan_tabletennis_011",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“十次，算吗？”我问。",
+      "next": "tc_c06_yelan_tabletennis_012"
+    },
+    "tc_c06_yelan_tabletennis_012": {
+      "id": "tc_c06_yelan_tabletennis_012",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她扶着桌沿想了一会儿：“算。质量另议。”",
+      "next": "tc_c06_yelan_tabletennis_013"
+    },
+    "tc_c06_yelan_tabletennis_013": {
+      "id": "tc_c06_yelan_tabletennis_013",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我们坐到旁边休息。我额头上都是汗，她递来纸巾，自己也拿了一张，没有像以前那样一递完就赶快找别的话讲。",
+      "next": "tc_c06_yelan_tabletennis_014"
+    },
+    "tc_c06_yelan_tabletennis_014": {
+      "id": "tc_c06_yelan_tabletennis_014",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我问她跟朋友玩时会不会更厉害。她摇头，说自己通常负责在群里说“我以前很能打”，来一次以后安静两周。",
+      "next": "tc_c06_yelan_tabletennis_015"
+    },
+    "tc_c06_yelan_tabletennis_015": {
+      "id": "tc_c06_yelan_tabletennis_015",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“那今天过去以后呢？”",
+      "next": "tc_c06_yelan_tabletennis_016"
+    },
+    "tc_c06_yelan_tabletennis_016": {
+      "id": "tc_c06_yelan_tabletennis_016",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“今天不能安静。得有人证，证明最后十次算数。”",
+      "next": "tc_c06_yelan_tabletennis_017"
+    },
+    "tc_c06_yelan_tabletennis_017": {
+      "id": "tc_c06_yelan_tabletennis_017",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我举手表示愿意。她看着我，嘴角慢慢弯起来。",
+      "next": "tc_c06_yelan_tabletennis_018"
+    },
+    "tc_c06_yelan_tabletennis_018": {
+      "id": "tc_c06_yelan_tabletennis_018",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis_water",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "离开球馆，我们去买水。柜台前只有一瓶她喜欢的口味，我顺手拿起来，她以为我要喝，手停了一下。我看见了，把瓶子递给她。",
+      "next": "tc_c06_yelan_tabletennis_019"
+    },
+    "tc_c06_yelan_tabletennis_019": {
+      "id": "tc_c06_yelan_tabletennis_019",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis_water",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“我想喝另一种。”",
+      "next": "tc_c06_yelan_tabletennis_020"
+    },
+    "tc_c06_yelan_tabletennis_020": {
+      "id": "tc_c06_yelan_tabletennis_020",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis_water",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“真想，还是让给我？”",
+      "next": "tc_c06_yelan_tabletennis_021"
+    },
+    "tc_c06_yelan_tabletennis_021": {
+      "id": "tc_c06_yelan_tabletennis_021",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis_water",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“真想。你可以问，别替我猜。”",
+      "next": "tc_c06_yelan_tabletennis_022"
+    },
+    "tc_c06_yelan_tabletennis_022": {
+      "id": "tc_c06_yelan_tabletennis_022",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis_water",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她点头，又拿起另一瓶水翻过来看，认真告诉我那瓶不含我讨厌的那种香味。我忽然有点高兴：她记住的不是我在游戏里擅长什么，而是前几次吃饭时很不起眼的一句话。",
+      "next": "tc_c06_yelan_tabletennis_023"
+    },
+    "tc_c06_yelan_tabletennis_023": {
+      "id": "tc_c06_yelan_tabletennis_023",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis_busstop",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "公交来了，她上车前回头问：“下次打球，还是打游戏？”",
+      "next": "tc_c06_yelan_tabletennis_024"
+    },
+    "tc_c06_yelan_tabletennis_024": {
+      "id": "tc_c06_yelan_tabletennis_024",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis_busstop",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我说都可以，她立刻皱了皱鼻子。",
+      "next": "tc_c06_yelan_tabletennis_025"
+    },
+    "tc_c06_yelan_tabletennis_025": {
+      "id": "tc_c06_yelan_tabletennis_025",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis_busstop",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“不能每次都给开放地图。”",
+      "next": "tc_c06_yelan_tabletennis_026"
+    },
+    "tc_c06_yelan_tabletennis_026": {
+      "id": "tc_c06_yelan_tabletennis_026",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis_busstop",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“打球吧。我想再试试那个十次。”",
+      "next": "tc_c06_yelan_tabletennis_027"
+    },
+    "tc_c06_yelan_tabletennis_027": {
+      "id": "tc_c06_yelan_tabletennis_027",
+      "type": "line",
+      "scene": "ts_c06_yelan_tabletennis_busstop",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“行。这次会算得严格一点。”",
+      "next": "tc_c06_common_exit"
+    },
+    "tc_c07_yelan_entry": {
+      "id": "tc_c07_yelan_entry",
+      "type": "line",
+      "scene": "ts_c07_yelan_her_friends",
+      "speaker": "narrator",
+      "character": null,
+      "text": "叶岚和两个朋友去逛了一天。傍晚她发来一张照片，照片里没有人脸，只有三碗颜色不同的甜汤。",
+      "next": "tc_c07_yelan_her_friends_002"
+    },
+    "tc_c07_yelan_her_friends_002": {
+      "id": "tc_c07_yelan_her_friends_002",
+      "type": "line",
+      "scene": "ts_c07_yelan_her_friends",
+      "speaker": "yelan",
+      "character": null,
+      "text": "“猜我点的哪碗。”",
+      "next": "tc_c07_yelan_her_friends_003"
+    },
+    "tc_c07_yelan_her_friends_003": {
+      "id": "tc_c07_yelan_her_friends_003",
+      "type": "line",
+      "scene": "ts_c07_yelan_her_friends",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我自信选了最不甜的那一种。她回了个摇头的表情，告诉我，她点的是加了两份配料的。",
+      "next": "tc_c07_yelan_her_friends_004"
+    },
+    "tc_c07_yelan_her_friends_004": {
+      "id": "tc_c07_yelan_her_friends_004",
+      "type": "line",
+      "scene": "ts_c07_yelan_her_friends",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“我以为你不爱甜。”",
+      "next": "tc_c07_yelan_her_friends_005"
+    },
+    "tc_c07_yelan_her_friends_005": {
+      "id": "tc_c07_yelan_her_friends_005",
+      "type": "line",
+      "scene": "ts_c07_yelan_her_friends",
+      "speaker": "yelan",
+      "character": null,
+      "text": "“我也以为。今天试了，觉得挺好。”",
+      "next": "tc_c07_yelan_her_friends_006"
+    },
+    "tc_c07_yelan_her_friends_006": {
+      "id": "tc_c07_yelan_her_friends_006",
+      "type": "line",
+      "scene": "ts_c07_yelan_her_friends",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我看着那张照片，心里有一点说不清的小别扭。最近见面顺利，我便偷偷以为自己已经很懂她，连那点不爱甜，都像可以拿出来证明的事。",
+      "next": "tc_c07_yelan_her_friends_007"
+    },
+    "tc_c07_yelan_her_friends_007": {
+      "id": "tc_c07_yelan_her_friends_007",
+      "type": "line",
+      "scene": "ts_c07_yelan_her_friends",
+      "speaker": "narrator",
+      "character": null,
+      "text": "她跟朋友在一起时没有不停回消息。我等了一会儿，才意识到她不是忽然变得冷淡，只是正在吃她的甜汤。我把手机放下，去吃自己的晚饭，饭后走到网吧，照常开始夜里的工作。",
+      "next": "tc_c07_yelan_her_friends_008"
+    },
+    "tc_c07_yelan_her_friends_008": {
+      "id": "tc_c07_yelan_her_friends_008",
+      "type": "line",
+      "scene": "ts_c07_yelan_her_friends_day40",
+      "speaker": "narrator",
+      "character": null,
+      "text": "第二天下午睡醒，看见她昨晚发来的语音。她说那两份配料吃到最后有点腻，朋友替她解决了一小半，三个人交换着尝，反而每一碗都好吃一点。",
+      "next": "tc_c07_yelan_her_friends_009"
+    },
+    "tc_c07_yelan_her_friends_009": {
+      "id": "tc_c07_yelan_her_friends_009",
+      "type": "line",
+      "scene": "ts_c07_yelan_her_friends_day40",
+      "speaker": "narrator",
+      "character": null,
+      "text": "声音里有一段没忍住的笑，像讲到哪里又想起现场。我听完，也笑了，给她回：“下次请推荐一份不用三个人善后的。”",
+      "next": "tc_c07_yelan_her_friends_010"
+    },
+    "tc_c07_yelan_her_friends_010": {
+      "id": "tc_c07_yelan_her_friends_010",
+      "type": "line",
+      "scene": "ts_c07_yelan_her_friends_day40",
+      "speaker": "yelan",
+      "character": null,
+      "text": "“我试过才推荐。你先别急着信。”",
+      "next": "tc_c07_yelan_outing_gate"
+    },
+    "tc_c07_yelan_kite_return_001": {
+      "id": "tc_c07_yelan_kite_return_001",
+      "type": "line",
+      "scene": "ts_c07_yelan_kite_return",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "叶岚带着上次那只风筝到了河边。边缘多了一小块透明胶，她说前几天跟朋友来时勾到了草枝，回去自己贴了一下。",
+      "next": "tc_c07_yelan_kite_return_002"
+    },
+    "tc_c07_yelan_kite_return_002": {
+      "id": "tc_c07_yelan_kite_return_002",
+      "type": "line",
+      "scene": "ts_c07_yelan_kite_return",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“它已经背着我练过了。”我说。",
+      "next": "tc_c07_yelan_kite_return_003"
+    },
+    "tc_c07_yelan_kite_return_003": {
+      "id": "tc_c07_yelan_kite_return_003",
+      "type": "line",
+      "scene": "ts_c07_yelan_kite_return",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“没有。练习成绩也一般。”",
+      "next": "tc_c07_yelan_kite_return_004"
+    },
+    "tc_c07_yelan_kite_return_004": {
+      "id": "tc_c07_yelan_kite_return_004",
+      "type": "line",
+      "scene": "ts_c07_yelan_kite_return",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "这次她先拿线，我举着风筝往后走。风比上次小，我们等了很久，没急着跑。我站在她对面，她站在一片还没长齐的草上，远远地问我，是不是有点无聊。",
+      "next": "tc_c07_yelan_kite_return_005"
+    },
+    "tc_c07_yelan_kite_return_005": {
+      "id": "tc_c07_yelan_kite_return_005",
+      "type": "line",
+      "scene": "ts_c07_yelan_kite_return",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“有一点，但我还想等。”",
+      "next": "tc_c07_yelan_kite_return_006"
+    },
+    "tc_c07_yelan_kite_return_006": {
+      "id": "tc_c07_yelan_kite_return_006",
+      "type": "line",
+      "scene": "ts_c07_yelan_kite_return",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她没有把我的前半句当作催促，只点了点头。后来风来了，她看着我放手，把线稳稳往外送，风筝终于升起来。",
+      "next": "tc_c07_yelan_kite_return_007"
+    },
+    "tc_c07_yelan_kite_return_007": {
+      "id": "tc_c07_yelan_kite_return_007",
+      "type": "line",
+      "scene": "ts_c07_yelan_kite_return",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她没急着把线轴交给我。我也没伸手抢自己的参与感，先去捡了草地上的包装纸。她叫我回来时，手里留着刚刚好的一段线。",
+      "next": "tc_c07_yelan_kite_return_008"
+    },
+    "tc_c07_yelan_kite_return_008": {
+      "id": "tc_c07_yelan_kite_return_008",
+      "type": "line",
+      "scene": "ts_c07_yelan_kite_return",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“现在换你。别怕，它贴过胶，没那么金贵。”",
+      "next": "tc_c07_yelan_kite_return_009"
+    },
+    "tc_c07_yelan_kite_return_009": {
+      "id": "tc_c07_yelan_kite_return_009",
+      "type": "line",
+      "scene": "ts_c07_yelan_kite_return",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "收线时，她说跟朋友出门，自己有时候也很少说话，大家已经习惯。她望着我：“你现在还会一直找话吗？”",
+      "next": "tc_c07_yelan_kite_return_010"
+    },
+    "tc_c07_yelan_kite_return_010": {
+      "id": "tc_c07_yelan_kite_return_010",
+      "type": "line",
+      "scene": "ts_c07_yelan_kite_return",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我想了想：“会。但不是怕你走了。有些真想讲。”",
+      "next": "tc_c07_yelan_kite_return_011"
+    },
+    "tc_c07_yelan_kite_return_011": {
+      "id": "tc_c07_yelan_kite_return_011",
+      "type": "line",
+      "scene": "ts_c07_yelan_kite_return",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“那你讲。”",
+      "next": "tc_c07_yelan_kite_return_012"
+    },
+    "tc_c07_yelan_kite_return_012": {
+      "id": "tc_c07_yelan_kite_return_012",
+      "type": "line",
+      "scene": "ts_c07_yelan_kite_return",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我讲起师匠试图向顾客解释一款自己完全不懂的游戏，解释到最后主动认输的样子。她笑得手一松，风筝差点又往上跑，我们一齐伸手，终于抓住线轴。",
+      "next": "tc_c07_yelan_dinner_001"
+    },
+    "tc_c07_yelan_market_return_001": {
+      "id": "tc_c07_yelan_market_return_001",
+      "type": "line",
+      "scene": "ts_c07_yelan_market_return",
+      "speaker": "narrator",
+      "character": null,
+      "text": "叶岚发来一张小鸭子的照片。它被放在公司桌角，旁边没有文件和屏幕，只有一只普通水杯。她说同事问了它两天的用途，得到的答案都是“它会点头”。",
+      "next": "tc_c07_yelan_market_return_002"
+    },
+    "tc_c07_yelan_market_return_002": {
+      "id": "tc_c07_yelan_market_return_002",
+      "type": "line",
+      "scene": "ts_c07_yelan_market_return_market_meeting",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "见面时，她从包里拿出同款的另一只，不是旧摊那只，底座颜色稍有不同。",
+      "next": "tc_c07_yelan_market_return_003"
+    },
+    "tc_c07_yelan_market_return_003": {
+      "id": "tc_c07_yelan_market_return_003",
+      "type": "line",
+      "scene": "ts_c07_yelan_market_return_market_meeting",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“后来路过又看见一个。”她说，“给你。你柜台不能摆的话，带回家也行。”",
+      "next": "tc_c07_yelan_market_return_004"
+    },
+    "tc_c07_yelan_market_return_004": {
+      "id": "tc_c07_yelan_market_return_004",
+      "type": "line",
+      "scene": "ts_c07_yelan_market_return_market_meeting",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我轻轻碰它的头，它点得比她那只快。",
+      "next": "tc_c07_yelan_market_return_005"
+    },
+    "tc_c07_yelan_market_return_005": {
+      "id": "tc_c07_yelan_market_return_005",
+      "type": "line",
+      "scene": "ts_c07_yelan_market_return_market_meeting",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“这个比较容易被说服。”",
+      "next": "tc_c07_yelan_market_return_006"
+    },
+    "tc_c07_yelan_market_return_006": {
+      "id": "tc_c07_yelan_market_return_006",
+      "type": "line",
+      "scene": "ts_c07_yelan_market_return_market_meeting",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“那你要小心，别问它该不该多买一杯饮料。”",
+      "next": "tc_c07_yelan_market_return_007"
+    },
+    "tc_c07_yelan_market_return_007": {
+      "id": "tc_c07_yelan_market_return_007",
+      "type": "line",
+      "scene": "ts_c07_yelan_market_return_market_meeting",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我把之前买的小铁盒拿给她看，里面装了耳塞和几枚硬币。她看着，表情有点惊讶，像没想到自己随口挑的东西还在用。",
+      "next": "tc_c07_yelan_market_return_008"
+    },
+    "tc_c07_yelan_market_return_008": {
+      "id": "tc_c07_yelan_market_return_008",
+      "type": "line",
+      "scene": "ts_c07_yelan_market_return_market_meeting",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“有用。”我说，“白天睡觉，耳塞不用到处找了。”",
+      "next": "tc_c07_yelan_market_return_009"
+    },
+    "tc_c07_yelan_market_return_009": {
+      "id": "tc_c07_yelan_market_return_009",
+      "type": "line",
+      "scene": "ts_c07_yelan_market_return_market_walk",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我们一起走了一小段市场。她停在一个卖旧杯子的摊前，看中了一个不太好看的绿色杯子。我第一反应是说她应该喜欢白色，话到嘴边改成了：“为什么是它？”",
+      "next": "tc_c07_yelan_market_return_010"
+    },
+    "tc_c07_yelan_market_return_010": {
+      "id": "tc_c07_yelan_market_return_010",
+      "type": "line",
+      "scene": "ts_c07_yelan_market_return_market_walk",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“看着很像一棵蔬菜。”",
+      "next": "tc_c07_yelan_market_return_011"
+    },
+    "tc_c07_yelan_market_return_011": {
+      "id": "tc_c07_yelan_market_return_011",
+      "type": "line",
+      "scene": "ts_c07_yelan_market_return_market_walk",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我没忍住笑。她也笑，最后没有买，只给那个杯子起了一个名字，叫“上班的青菜”。从市场出来时，身边多了一只不断点头的小鸭，我也多知道了一件完全猜不到的她。",
+      "next": "tc_c07_yelan_dinner_001"
+    },
+    "tc_c07_yelan_dinner_001": {
+      "id": "tc_c07_yelan_dinner_001",
+      "type": "line",
+      "scene": "ts_c07_yelan_dinner",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "吃晚饭时，她说最近想留几个周末给自己的朋友，未必每次固定队都到。我说自己轮到夜班时也不会在线，毛狼得学会四个人缺两个人照样过。",
+      "next": "tc_c07_yelan_dinner_002"
+    },
+    "tc_c07_yelan_dinner_002": {
+      "id": "tc_c07_yelan_dinner_002",
+      "type": "line",
+      "scene": "ts_c07_yelan_dinner",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“那叫两个人。”叶岚说。",
+      "next": "tc_c07_yelan_dinner_003"
+    },
+    "tc_c07_yelan_dinner_003": {
+      "id": "tc_c07_yelan_dinner_003",
+      "type": "line",
+      "scene": "ts_c07_yelan_dinner",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“所以他很有发挥空间。”",
+      "next": "tc_c07_yelan_dinner_004"
+    },
+    "tc_c07_yelan_dinner_004": {
+      "id": "tc_c07_yelan_dinner_004",
+      "type": "line",
+      "scene": "ts_c07_yelan_dinner",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她笑了一会儿，又问我下次什么时候休息。我把能见面的那天下午说给她，她记下，没把没空的那些日子也追问一遍。",
+      "next": "tc_c07_common_exit"
+    },
+    "tc_c07_yelan_outing_gate": {
+      "id": "tc_c07_yelan_outing_gate",
+      "type": "gate",
+      "scene": "ts_c07_yelan_kite_return",
+      "cases": [
+        {
+          "flag": "yelanOuting",
+          "value": "kite",
+          "next": "tc_c07_yelan_kite_return_001"
+        },
+        {
+          "flag": "yelanOuting",
+          "value": "market",
+          "next": "tc_c07_yelan_market_return_001"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    },
+    "tc_c08_yelan_entry": {
+      "id": "tc_c08_yelan_entry",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "第52天，我向师匠提了试排轮班。和同事商量好以后，先试上一段时间，再看能否长期这样安排。我发消息告诉叶岚，她说挺好，接着问我眼下是不是还有夜班。",
+      "next": "tc_c08_yelan_meet_without_game_002"
+    },
+    "tc_c08_yelan_meet_without_game_002": {
+      "id": "tc_c08_yelan_meet_without_game_002",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“有。今晚也有，不过下午睡够了。”",
+      "next": "tc_c08_yelan_meet_without_game_003"
+    },
+    "tc_c08_yelan_meet_without_game_003": {
+      "id": "tc_c08_yelan_meet_without_game_003",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game",
+      "speaker": "yelan",
+      "character": null,
+      "text": "“那只吃饭，不拖到太晚。”",
+      "next": "tc_c08_yelan_meet_without_game_004"
+    },
+    "tc_c08_yelan_meet_without_game_004": {
+      "id": "tc_c08_yelan_meet_without_game_004",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_dinner",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "第54天，我们在小饭店见面。她把手机倒扣在桌上，发了会儿呆，忽然问我有没有过一种情况：以前很想玩的游戏，最近打开，反而像又接了一件事。",
+      "next": "tc_c08_yelan_meet_without_game_005"
+    },
+    "tc_c08_yelan_meet_without_game_005": {
+      "id": "tc_c08_yelan_meet_without_game_005",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_dinner",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我说有，最近队伍一说新打法，我有时连名字都懒得记。叶岚肩膀松了一点。",
+      "next": "tc_c08_yelan_meet_without_game_006"
+    },
+    "tc_c08_yelan_meet_without_game_006": {
+      "id": "tc_c08_yelan_meet_without_game_006",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_dinner",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“我还以为只有我这样。”",
+      "next": "tc_c08_yelan_meet_without_game_007"
+    },
+    "tc_c08_yelan_meet_without_game_007": {
+      "id": "tc_c08_yelan_meet_without_game_007",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_dinner",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "毛狼最近想约一场朋友之间的小比赛，叶岚先答应了，后来却越来越不想参加。不是跟谁生气，也不是工作忙到没有空，她只是暂时不想花几个晚上练那几种固定的东西。",
+      "next": "tc_c08_yelan_meet_without_game_008"
+    },
+    "tc_c08_yelan_meet_without_game_008": {
+      "id": "tc_c08_yelan_meet_without_game_008",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_dinner",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“那跟他说。”我说。",
+      "next": "tc_c08_yelan_meet_without_game_009"
+    },
+    "tc_c08_yelan_meet_without_game_009": {
+      "id": "tc_c08_yelan_meet_without_game_009",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_dinner",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“我知道。但是上次我还说一定能赢。”",
+      "next": "tc_c08_yelan_meet_without_game_010"
+    },
+    "tc_c08_yelan_meet_without_game_010": {
+      "id": "tc_c08_yelan_meet_without_game_010",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_dinner",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“这个我们都说过。你不是第一个退款的。”",
+      "next": "tc_c08_yelan_meet_without_game_011"
+    },
+    "tc_c08_yelan_meet_without_game_011": {
+      "id": "tc_c08_yelan_meet_without_game_011",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_dinner",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她笑了，却还是攥着手机没动。我没有拿过来替她写。菜上来以后，我们先吃饭，吃到半碗，她才自己把那句退出的话发出去。",
+      "next": "tc_c08_yelan_meet_without_game_012"
+    },
+    "tc_c08_yelan_meet_without_game_012": {
+      "id": "tc_c08_yelan_meet_without_game_012",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_dinner",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "毛狼回得很快：“行。下回想玩再来。”随后又补：“但你上次说我水平不行，这句不能一并撤回。”",
+      "next": "tc_c08_yelan_meet_without_game_013"
+    },
+    "tc_c08_yelan_meet_without_game_013": {
+      "id": "tc_c08_yelan_meet_without_game_013",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_dinner",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "叶岚对着手机笑出声，认真回复：“那句保留。”",
+      "next": "tc_c08_yelan_meet_without_game_014"
+    },
+    "tc_c08_yelan_meet_without_game_014": {
+      "id": "tc_c08_yelan_meet_without_game_014",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_dinner",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我问她是不是还担心别的。她沉默了一会儿，承认自己有点怕，跟队伍少玩以后，跟我也会没话说。",
+      "next": "tc_c08_yelan_meet_without_game_015"
+    },
+    "tc_c08_yelan_meet_without_game_015": {
+      "id": "tc_c08_yelan_meet_without_game_015",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_dinner",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“我们最开始，就是从那个游戏认识的。”",
+      "next": "tc_c08_yelan_meet_without_game_016"
+    },
+    "tc_c08_yelan_meet_without_game_016": {
+      "id": "tc_c08_yelan_meet_without_game_016",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_dinner",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我看了看桌上两道菜：“现在这两盘，也不是游戏送的。”",
+      "next": "tc_c08_yelan_meet_without_game_017"
+    },
+    "tc_c08_yelan_meet_without_game_017": {
+      "id": "tc_c08_yelan_meet_without_game_017",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_dinner",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她低头看了看，嘴角扬了一点：“你这句论据有点奇怪。”",
+      "next": "tc_c08_yelan_meet_without_game_018"
+    },
+    "tc_c08_yelan_meet_without_game_018": {
+      "id": "tc_c08_yelan_meet_without_game_018",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_dinner",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“但有效。”",
+      "next": "tc_c08_yelan_meet_without_game_019"
+    },
+    "tc_c08_yelan_meet_without_game_019": {
+      "id": "tc_c08_yelan_meet_without_game_019",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_supermarket",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "饭后还早，我们去附近的小超市。我想买洗衣液，叶岚想补一点零食，最后两个人站在货架前，为哪一包饼干吃到最后不会腻讨论了半天。她觉得我选的口味很稳妥，我说那是有过失败的经验；她伸手拿了个没吃过的，结账后就在门口拆开。",
+      "next": "tc_c08_yelan_meet_without_game_020"
+    },
+    "tc_c08_yelan_meet_without_game_020": {
+      "id": "tc_c08_yelan_meet_without_game_020",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_outside",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "第一口下去，她嚼得特别慢。我忍着笑问：“又需要探路报告？”",
+      "next": "tc_c08_yelan_meet_without_game_021"
+    },
+    "tc_c08_yelan_meet_without_game_021": {
+      "id": "tc_c08_yelan_meet_without_game_021",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_outside",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她把袋子递过来：“你自己判断。这次我不负责指挥。”",
+      "next": "tc_c08_yelan_meet_without_game_022"
+    },
+    "tc_c08_yelan_meet_without_game_022": {
+      "id": "tc_c08_yelan_meet_without_game_022",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_bench",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我尝了一块，发现并不难吃，只是跟包装让人想象的味道完全不同。叶岚点头，说自己就是卡在这里。我们把它带到街边长椅上，吃几块，喝点水，没有人提起装备、分数和下一局。",
+      "next": "tc_c08_yelan_meet_without_game_023"
+    },
+    "tc_c08_yelan_meet_without_game_023": {
+      "id": "tc_c08_yelan_meet_without_game_023",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_bench",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她靠着椅背，先看看路，又看看我。",
+      "next": "tc_c08_yelan_meet_without_game_024"
+    },
+    "tc_c08_yelan_meet_without_game_024": {
+      "id": "tc_c08_yelan_meet_without_game_024",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_bench",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“文文，我今天其实挺想见你的。”",
+      "next": "tc_c08_yelan_meet_without_game_025"
+    },
+    "tc_c08_yelan_meet_without_game_025": {
+      "id": "tc_c08_yelan_meet_without_game_025",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_bench",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“我也是。”",
+      "next": "tc_c08_yelan_meet_without_game_026"
+    },
+    "tc_c08_yelan_meet_without_game_026": {
+      "id": "tc_c08_yelan_meet_without_game_026",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_bench",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她的手指在饼干袋边捏了一下，小声补充：“不是想见一个能陪我练习的人。”",
+      "next": "tc_c08_yelan_meet_without_game_027"
+    },
+    "tc_c08_yelan_meet_without_game_027": {
+      "id": "tc_c08_yelan_meet_without_game_027",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_bench",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我把水瓶拧好，放到椅子另一边。想说的话一下太多，反而不知道先说哪句。她看见我的样子，笑了，没催我。",
+      "next": "tc_c08_yelan_meet_without_game_028"
+    },
+    "tc_c08_yelan_meet_without_game_028": {
+      "id": "tc_c08_yelan_meet_without_game_028",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_bench",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "最后我只说：“那下次再挑一种奇怪的饼干。”",
+      "next": "tc_c08_yelan_meet_without_game_029"
+    },
+    "tc_c08_yelan_meet_without_game_029": {
+      "id": "tc_c08_yelan_meet_without_game_029",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_bench",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“不能每次都这么冒险。”",
+      "next": "tc_c08_yelan_meet_without_game_030"
+    },
+    "tc_c08_yelan_meet_without_game_030": {
+      "id": "tc_c08_yelan_meet_without_game_030",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_bench",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“也可以买正常的。”",
+      "next": "tc_c08_yelan_meet_without_game_031"
+    },
+    "tc_c08_yelan_meet_without_game_031": {
+      "id": "tc_c08_yelan_meet_without_game_031",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_parting",
+      "speaker": "narrator",
+      "character": null,
+      "text": "她点点头，把剩下半袋饼干分给我。我们离开时天还没黑，我有足够的时间回去换衣服、吃点东西再接班。她也往自己的方向走，走出几步，回头跟我挥了一下手。",
+      "next": "tc_c08_yelan_meet_without_game_032"
+    },
+    "tc_c08_yelan_meet_without_game_032": {
+      "id": "tc_c08_yelan_meet_without_game_032",
+      "type": "line",
+      "scene": "ts_c08_yelan_meet_without_game_parting",
+      "speaker": "narrator",
+      "character": null,
+      "text": "这回没有耳机，我还是听清了她叫我的名字。",
+      "next": "tc_c08_common_exit"
+    },
+    "tc_c09_yelan_entry": {
+      "id": "tc_c09_yelan_entry",
+      "type": "line",
+      "scene": "ts_c09_yelan_relationship",
+      "speaker": "narrator",
+      "character": null,
+      "text": "第61天以后，我正式开始轮班。夜班没有消失，但休息日终于能提前空出来。叶岚也把自己的安排告诉我，我们挑了一天，去之前没认真逛完的街道走走。",
+      "next": "tc_c09_yelan_relationship_002"
+    },
+    "tc_c09_yelan_relationship_002": {
+      "id": "tc_c09_yelan_relationship_002",
+      "type": "line",
+      "scene": "ts_c09_yelan_relationship_meeting",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她到的时候带了两瓶水，先让我选。我问她是不是故意考我记不记得她喜欢什么，她摇头。",
+      "next": "tc_c09_yelan_relationship_003"
+    },
+    "tc_c09_yelan_relationship_003": {
+      "id": "tc_c09_yelan_relationship_003",
+      "type": "line",
+      "scene": "ts_c09_yelan_relationship_meeting",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“都能喝。今天没有隐藏题。”",
+      "next": "tc_c09_yelan_relationship_004"
+    },
+    "tc_c09_yelan_relationship_004": {
+      "id": "tc_c09_yelan_relationship_004",
+      "type": "line",
+      "scene": "ts_c09_yelan_relationship_eaves",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "街边新开了一家小店，门口摆着几把颜色不同的伞。我们站在那里看雨，谁也没急着进去买。叶岚望着屋檐落下的水珠，忽然说：“我想问一件不在游戏里的事。”",
+      "next": "tc_c09_yelan_relationship_005"
+    },
+    "tc_c09_yelan_relationship_005": {
+      "id": "tc_c09_yelan_relationship_005",
+      "type": "line",
+      "scene": "ts_c09_yelan_relationship_eaves",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我看向她。",
+      "next": "tc_c09_yelan_relationship_006"
+    },
+    "tc_c09_yelan_relationship_006": {
+      "id": "tc_c09_yelan_relationship_006",
+      "type": "line",
+      "scene": "ts_c09_yelan_relationship_eaves",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她手里那瓶水已经拧开了，又被拧紧。她很轻地笑了一下：“你现在约我，是朋友一起出来，还是也有别的意思？”",
+      "next": "tc_c09_yelan_relationship_007"
+    },
+    "tc_c09_yelan_relationship_007": {
+      "id": "tc_c09_yelan_relationship_007",
+      "type": "line",
+      "scene": "ts_c09_yelan_relationship_eaves",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她问完没有立刻替我铺台阶。不是我说什么都行，她是在等一个真实的答案。",
+      "next": "tc_c09_yelan_relationship_choice"
+    },
+    "tc_c09_yelan_dating_001": {
+      "id": "tc_c09_yelan_dating_001",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“有别的意思。”我说，“我喜欢你。想跟你交往。”",
+      "next": "tc_c09_yelan_dating_002"
+    },
+    "tc_c09_yelan_dating_002": {
+      "id": "tc_c09_yelan_dating_002",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她的手停下来，像没有料到我会这么直接。过了一会儿，才问：“包括有时候一句话也想不出来的我？”",
+      "next": "tc_c09_yelan_dating_003"
+    },
+    "tc_c09_yelan_dating_003": {
+      "id": "tc_c09_yelan_dating_003",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“包括会把饼干递给我判断、打球打到墙上、输游戏也会不服气的你。”",
+      "next": "tc_c09_yelan_dating_004"
+    },
+    "tc_c09_yelan_dating_004": {
+      "id": "tc_c09_yelan_dating_004",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“你这份表白，材料不怎么体面。”",
+      "next": "tc_c09_yelan_dating_005"
+    },
+    "tc_c09_yelan_dating_005": {
+      "id": "tc_c09_yelan_dating_005",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“还有很多。我怕列出来像投诉。”",
+      "next": "tc_c09_yelan_dating_006"
+    },
+    "tc_c09_yelan_dating_006": {
+      "id": "tc_c09_yelan_dating_006",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "叶岚终于笑了，笑完看着我，声音有点轻，却没有含混过去。",
+      "next": "tc_c09_yelan_dating_007"
+    },
+    "tc_c09_yelan_dating_007": {
+      "id": "tc_c09_yelan_dating_007",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“我也喜欢你。不是只喜欢你在语音里接得上话。我想跟你见面，想知道你睡醒了会先吃什么，也想让你知道我有时候就是在发呆，没有生谁的气。”",
+      "next": "tc_c09_yelan_dating_008"
+    },
+    "tc_c09_yelan_dating_008": {
+      "id": "tc_c09_yelan_dating_008",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我问她现在能不能牵手。她把水瓶换到另一只手里，朝我伸过来。掌心贴上时，她的手指先僵了一下，随后慢慢收紧。",
+      "next": "tc_c09_yelan_dating_009"
+    },
+    "tc_c09_yelan_dating_009": {
+      "id": "tc_c09_yelan_dating_009",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“有点紧张。”她说。",
+      "next": "tc_c09_yelan_dating_010"
+    },
+    "tc_c09_yelan_dating_010": {
+      "id": "tc_c09_yelan_dating_010",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“我也是。”",
+      "next": "tc_c09_yelan_dating_011"
+    },
+    "tc_c09_yelan_dating_011": {
+      "id": "tc_c09_yelan_dating_011",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她望着我们牵在一起的手，忽然小声问：“现在是不是终于不用装成在研究下一个吃饭地点？”",
+      "next": "tc_c09_yelan_dating_012"
+    },
+    "tc_c09_yelan_dating_012": {
+      "id": "tc_c09_yelan_dating_012",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating_street",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我笑着说是。雨小下来，我们走出屋檐，绕过路边的水坑。她依旧走得不快，遇到人多的地方也不会突然变得能言善辩。我牵着她，没有替她解释为什么安静。",
+      "next": "tc_c09_yelan_dating_013"
+    },
+    "tc_c09_yelan_dating_013": {
+      "id": "tc_c09_yelan_dating_013",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating_busstop",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "到车站，她说下次想约我打球，但不保证能凑够一整下午。我说自己也得看轮班表，等有空的那天就定下来。",
+      "next": "tc_c09_yelan_dating_014"
+    },
+    "tc_c09_yelan_dating_014": {
+      "id": "tc_c09_yelan_dating_014",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating_busstop",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“如果没有呢？”她问。",
+      "next": "tc_c09_yelan_dating_015"
+    },
+    "tc_c09_yelan_dating_015": {
+      "id": "tc_c09_yelan_dating_015",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating_busstop",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“就先吃个饭。还不够的话，再约。”",
+      "next": "tc_c09_yelan_dating_016"
+    },
+    "tc_c09_yelan_dating_016": {
+      "id": "tc_c09_yelan_dating_016",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating_busstop",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她点点头，上车前松开手，过了两秒又转回来，轻轻捏了一下我的手指。",
+      "next": "tc_c09_yelan_dating_017"
+    },
+    "tc_c09_yelan_dating_017": {
+      "id": "tc_c09_yelan_dating_017",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating_busstop",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“这次只是想牵你。”",
+      "next": "tc_c09_yelan_dating_018"
+    },
+    "tc_c09_yelan_dating_018": {
+      "id": "tc_c09_yelan_dating_018",
+      "type": "line",
+      "scene": "ts_c09_yelan_dating_leaving",
+      "speaker": "narrator",
+      "character": null,
+      "text": "说完她自己先红了耳朵，赶紧转身上车。我站在车站，过了好一会儿，才把握空了的手慢慢放回口袋。",
+      "next": "tc_c09_common_exit"
+    },
+    "tc_c09_yelan_friends_001": {
+      "id": "tc_c09_yelan_friends_001",
+      "type": "line",
+      "scene": "ts_c09_yelan_friends",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“我很喜欢现在这样相处，”我说，“但想到交往，我还没有那种确定的心情。不能因为你问了，就顺着答应。”",
+      "next": "tc_c09_yelan_friends_002"
+    },
+    "tc_c09_yelan_friends_002": {
+      "id": "tc_c09_yelan_friends_002",
+      "type": "line",
+      "scene": "ts_c09_yelan_friends",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "叶岚低头看着水瓶，指尖在瓶身的纹路上滑了一下。",
+      "next": "tc_c09_yelan_friends_003"
+    },
+    "tc_c09_yelan_friends_003": {
+      "id": "tc_c09_yelan_friends_003",
+      "type": "line",
+      "scene": "ts_c09_yelan_friends",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“我知道了。”",
+      "next": "tc_c09_yelan_friends_004"
+    },
+    "tc_c09_yelan_friends_004": {
+      "id": "tc_c09_yelan_friends_004",
+      "type": "line",
+      "scene": "ts_c09_yelan_friends",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她的声音很平静，平静得我想立刻补很多解释。她却先抬起头：“让我缓一会儿。不是要你再说一遍原因。”",
+      "next": "tc_c09_yelan_friends_005"
+    },
+    "tc_c09_yelan_friends_005": {
+      "id": "tc_c09_yelan_friends_005",
+      "type": "line",
+      "scene": "ts_c09_yelan_friends",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我陪她站了一阵。雨里的车慢慢开过，溅起一排很浅的水。后来她问我，刚才那句“喜欢相处”是不是真的。我说是真的，跟她打球、散步或者安静坐着，都是真的。",
+      "next": "tc_c09_yelan_friends_006"
+    },
+    "tc_c09_yelan_friends_006": {
+      "id": "tc_c09_yelan_friends_006",
+      "type": "line",
+      "scene": "ts_c09_yelan_friends",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "她点头：“那就先保留这些。只是我最近可能不单独约你。”",
+      "next": "tc_c09_yelan_friends_007"
+    },
+    "tc_c09_yelan_friends_007": {
+      "id": "tc_c09_yelan_friends_007",
+      "type": "line",
+      "scene": "ts_c09_yelan_friends",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“好。”",
+      "next": "tc_c09_yelan_friends_008"
+    },
+    "tc_c09_yelan_friends_008": {
+      "id": "tc_c09_yelan_friends_008",
+      "type": "line",
+      "scene": "ts_c09_yelan_friends_parting",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我们没有为了让拒绝看上去不难过，立刻开一场游戏把它冲掉。那天她自己回去，我也没有一直追着发消息确认她是否已经开心。",
+      "next": "tc_c09_yelan_friends_009"
+    },
+    "tc_c09_yelan_friends_009": {
+      "id": "tc_c09_yelan_friends_009",
+      "type": "line",
+      "scene": "ts_c09_yelan_friends_day86",
+      "speaker": "narrator",
+      "character": null,
+      "text": "到第86天，毛狼在群里约一场轻松的合作局。叶岚回了“我来”，又问还有谁。我说自己那天休息，可以参加。她没有退出，也没有特意多说一句。",
+      "next": "tc_c09_yelan_friends_010"
+    },
+    "tc_c09_yelan_friends_010": {
+      "id": "tc_c09_yelan_friends_010",
+      "type": "line",
+      "scene": "ts_c09_yelan_friends_day86",
+      "speaker": "narrator",
+      "character": null,
+      "text": "游戏里我走错方向，她照常提醒，随后想了想，补了一句：“这次是提示，不是指挥。”",
+      "next": "tc_c09_yelan_friends_011"
+    },
+    "tc_c09_yelan_friends_011": {
+      "id": "tc_c09_yelan_friends_011",
+      "type": "line",
+      "scene": "ts_c09_yelan_friends_day86",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我说收到。毛狼问我俩是不是最近看了什么客服培训，叶岚立刻让他先管好自己脚下。下一秒，他果然掉了下去，我们都笑起来。",
+      "next": "tc_c09_yelan_friends_012"
+    },
+    "tc_c09_yelan_friends_012": {
+      "id": "tc_c09_yelan_friends_012",
+      "type": "line",
+      "scene": "ts_c09_yelan_friends_day86",
+      "speaker": "narrator",
+      "character": null,
+      "text": "散场时，叶岚跟大家一起说再见。过了会儿，她给我发了一条私信：“以后朋友出来吃饭，可以叫我。不用每次先担心会不会尴尬。”",
+      "next": "tc_c09_yelan_friends_013"
+    },
+    "tc_c09_yelan_friends_013": {
+      "id": "tc_c09_yelan_friends_013",
+      "type": "line",
+      "scene": "ts_c09_yelan_friends_day86",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我回好，没有把这句话读成新的暗示。",
+      "next": "tc_c09_yelan_friends_014"
+    },
+    "tc_c09_yelan_friends_014": {
+      "id": "tc_c09_yelan_friends_014",
+      "type": "line",
+      "scene": "ts_c09_yelan_friends_day86",
+      "speaker": "narrator",
+      "character": null,
+      "text": "窗外还在下雨。我关上游戏，把椅子推回去，心里有一点遗憾，也有一份不用变成恋爱才算成立的珍惜。",
+      "next": "tc_c09_common_exit"
+    },
+    "tc_c09_yelan_relationship_choice": {
+      "id": "tc_c09_yelan_relationship_choice",
+      "type": "choice",
+      "scene": "ts_c09_yelan_relationship_eaves",
+      "character": "yelan",
+      "text": "我怎样回应这份靠近？",
+      "flag": "yelanRelationship",
+      "choices": [
+        {
+          "label": "我喜欢你。想跟你交往。",
+          "value": "dating",
+          "next": "tc_c09_yelan_dating_001"
+        },
+        {
+          "label": "但想到交往，我还没有那种确定的心情。不能因为你问了，就顺着答应。",
+          "value": "friends",
+          "next": "tc_c09_yelan_friends_001"
+        }
+      ]
+    },
+    "tc_c10_yelan_dating_001": {
+      "id": "tc_c10_yelan_dating_001",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating",
+      "speaker": "narrator",
+      "character": null,
+      "text": "叶岚把购物清单发给我时，我刚结束在网吧的一段班。轮班表里仍有夜班，今天正好下午能见。我问她要不要先吃点东西，她说可以，清单不急，买米也没有限时奖励。",
+      "next": "tc_c10_yelan_dating_002"
+    },
+    "tc_c10_yelan_dating_002": {
+      "id": "tc_c10_yelan_dating_002",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_meeting",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我们在超市门口碰面。她手里拿着两张小票，刚才买东西时忘记用优惠，又回去问了一次，没能补上。她把这件小失误讲给我听，最后总结：“今天大概损失了一瓶水。”",
+      "next": "tc_c10_yelan_dating_003"
+    },
+    "tc_c10_yelan_dating_003": {
+      "id": "tc_c10_yelan_dating_003",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_meeting",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“很严重。”",
+      "next": "tc_c10_yelan_dating_004"
+    },
+    "tc_c10_yelan_dating_004": {
+      "id": "tc_c10_yelan_dating_004",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_meeting",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“所以你等会儿别挑最贵的水。”",
+      "next": "tc_c10_yelan_dating_005"
+    },
+    "tc_c10_yelan_dating_005": {
+      "id": "tc_c10_yelan_dating_005",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_shopping",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我笑着接过购物篮。她没有把所有东西都交给我拿，自己提了另一个，走到零食区时，很自然地拉住我的衣袖。",
+      "next": "tc_c10_yelan_dating_006"
+    },
+    "tc_c10_yelan_dating_006": {
+      "id": "tc_c10_yelan_dating_006",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_shopping",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“这个我们上回买过，别再被包装骗一次。”",
+      "next": "tc_c10_yelan_dating_007"
+    },
+    "tc_c10_yelan_dating_007": {
+      "id": "tc_c10_yelan_dating_007",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_shopping",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "两年里，我们没有每晚都一起玩游戏。固定队有时人齐，有时各忙各的，毛狼办演出忙的时候，群里几天没人发战绩。叶岚继续做她的内勤工作，喜欢的事有一点变化：有段时间只想看剧，有段时间又想练乒乓球。她在陌生人面前依旧安静，回到熟悉的人身边，会为了一个很小的胜负认真反驳。",
+      "next": "tc_c10_yelan_dating_008"
+    },
+    "tc_c10_yelan_dating_008": {
+      "id": "tc_c10_yelan_dating_008",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_shopping",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我也还在网吧。有人问起以后，我仍没有一份漂亮到所有人都赞成的答案，但已经能把下个月要留的钱和休息时间安排好。我们聊这些，有时意见不同，谁也不能把“我是为你好”当成自动获胜的一张牌。",
+      "next": "tc_c10_yelan_dating_009"
+    },
+    "tc_c10_yelan_dating_009": {
+      "id": "tc_c10_yelan_dating_009",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_shopping",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "走到米袋前，我准备抱最小的一袋。叶岚看了看价格，指向另一袋，说这袋更合适。我抱起来，手臂立刻往下一沉。她憋着笑，伸手托住另一侧。",
+      "next": "tc_c10_yelan_dating_010"
+    },
+    "tc_c10_yelan_dating_010": {
+      "id": "tc_c10_yelan_dating_010",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_shopping",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“要帮忙就说。”",
+      "next": "tc_c10_yelan_dating_011"
+    },
+    "tc_c10_yelan_dating_011": {
+      "id": "tc_c10_yelan_dating_011",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_shopping",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“刚好准备说。”",
+      "next": "tc_c10_yelan_dating_012"
+    },
+    "tc_c10_yelan_dating_012": {
+      "id": "tc_c10_yelan_dating_012",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_shopping",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“嘴还是比身体慢。”",
+      "next": "tc_c10_yelan_dating_013"
+    },
+    "tc_c10_yelan_dating_013": {
+      "id": "tc_c10_yelan_dating_013",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_shopping",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我们一起把米放进推车，放完同时松手，笑了一阵。去结账的路上，她把一包没吃过的饼干丢进车里。我看她，她也看我。",
+      "next": "tc_c10_yelan_dating_014"
+    },
+    "tc_c10_yelan_dating_014": {
+      "id": "tc_c10_yelan_dating_014",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_shopping",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“今天又想冒险？”",
+      "next": "tc_c10_yelan_dating_015"
+    },
+    "tc_c10_yelan_dating_015": {
+      "id": "tc_c10_yelan_dating_015",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_shopping",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“今天两个人，可以分担。”",
+      "next": "tc_c10_yelan_dating_016"
+    },
+    "tc_c10_yelan_dating_016": {
+      "id": "tc_c10_yelan_dating_016",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_bench",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "后来我们在长椅上拆开那包饼干。味道很普通，甚至有点失望。叶岚嚼完一块，把头轻轻靠到我肩上，没急着评价。我坐着，让肩膀往她那边低了一点。",
+      "next": "tc_c10_yelan_dating_017"
+    },
+    "tc_c10_yelan_dating_017": {
+      "id": "tc_c10_yelan_dating_017",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_bench",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "过了一会儿，她忽然说：“文文。”",
+      "next": "tc_c10_yelan_dating_018"
+    },
+    "tc_c10_yelan_dating_018": {
+      "id": "tc_c10_yelan_dating_018",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_bench",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“嗯？”",
+      "next": "tc_c10_yelan_dating_019"
+    },
+    "tc_c10_yelan_dating_019": {
+      "id": "tc_c10_yelan_dating_019",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_bench",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“没事，叫一下。”",
+      "next": "tc_c10_yelan_dating_020"
+    },
+    "tc_c10_yelan_dating_020": {
+      "id": "tc_c10_yelan_dating_020",
+      "type": "line",
+      "scene": "ts_c10_yelan_dating_lights",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我把手伸过去，她把手放进来，指间还沾着一点饼干屑。我们没有马上起身，坐到路灯刚亮，再一起把那袋米提起来。",
+      "next": "tc_c10_yelan_end_dating"
+    },
+    "tc_c10_yelan_friends_001": {
+      "id": "tc_c10_yelan_friends_001",
+      "type": "line",
+      "scene": "ts_c10_yelan_friends",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我在网吧柜台补货时，毛狼发来组队邀请。我回他正在上班，今晚不参加。叶岚跟着在群里发了一句：“那我们先开，你别远程指挥。”",
+      "next": "tc_c10_yelan_friends_002"
+    },
+    "tc_c10_yelan_friends_002": {
+      "id": "tc_c10_yelan_friends_002",
+      "type": "line",
+      "scene": "ts_c10_yelan_friends",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“我指挥过吗？”",
+      "next": "tc_c10_yelan_friends_003"
+    },
+    "tc_c10_yelan_friends_003": {
+      "id": "tc_c10_yelan_friends_003",
+      "type": "line",
+      "scene": "ts_c10_yelan_friends",
+      "speaker": "narrator",
+      "character": null,
+      "text": "她很快发来一张以前的聊天截图，只截了我连续三条建议，没有带出别的私人消息。我看完，无从反驳，发了个举手投降的表情。",
+      "next": "tc_c10_yelan_friends_004"
+    },
+    "tc_c10_yelan_friends_004": {
+      "id": "tc_c10_yelan_friends_004",
+      "type": "line",
+      "scene": "ts_c10_yelan_friends",
+      "speaker": "narrator",
+      "character": null,
+      "text": "有客人来问座位，我把手机扣下，先处理眼前的事。等空下来再看，群里已经多了几张失败画面。叶岚在其中一张下面写：“今天的版本，大家水平比较平均。”",
+      "next": "tc_c10_yelan_friends_005"
+    },
+    "tc_c10_yelan_friends_005": {
+      "id": "tc_c10_yelan_friends_005",
+      "type": "line",
+      "scene": "ts_c10_yelan_friends",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我笑了一声。师匠从旁边走过，问是不是又输了。我说我没参加，他点点头，说那更应该保持谦虚。",
+      "next": "tc_c10_yelan_friends_006"
+    },
+    "tc_c10_yelan_friends_006": {
+      "id": "tc_c10_yelan_friends_006",
+      "type": "line",
+      "scene": "ts_c10_yelan_friends",
+      "speaker": "narrator",
+      "character": null,
+      "text": "这两年，我和叶岚做了熟悉的朋友。我们没有把那次没能开始的恋爱挂在每一句话上。她仍在保险公司做内勤，偶尔跟朋友出去玩，偶尔来参加大家的饭局；我轮班以后作息好安排了一些，也不是每次她在线，我就必须出现。",
+      "next": "tc_c10_yelan_friends_007"
+    },
+    "tc_c10_yelan_friends_007": {
+      "id": "tc_c10_yelan_friends_007",
+      "type": "line",
+      "scene": "ts_c10_yelan_friends",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我们有过一阵说话小心的时候。后来她在饭局上跟我争一家店究竟好不好吃，争到毛狼让我们下次自己去验证，气氛才又彻底松下来。我问她要不要去，她说那周没空，过一周再看。我说好，心里也没有因为这句拒绝多编一段故事。",
+      "next": "tc_c10_yelan_friends_008"
+    },
+    "tc_c10_yelan_friends_008": {
+      "id": "tc_c10_yelan_friends_008",
+      "type": "line",
+      "scene": "ts_c10_yelan_friends_rest_day",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "第一个休息日的下午，我们跟朋友一起打球。叶岚站在桌子另一边，发球前十分认真地提醒我，她最近练过两次。我说自己只练过捡球。她没信，第一局打得很谨慎，等发现我确实没有进步，才终于笑出声音。",
+      "next": "tc_c10_yelan_friends_009"
+    },
+    "tc_c10_yelan_friends_009": {
+      "id": "tc_c10_yelan_friends_009",
+      "type": "line",
+      "scene": "ts_c10_yelan_friends_rest_day",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "中途换人，她坐到一边喝水。我把球拍递给下一位朋友，坐在离她一个椅子的地方。她问我轮班以后感觉怎么样，我说有好有坏，至少今天能来。",
+      "next": "tc_c10_yelan_friends_010"
+    },
+    "tc_c10_yelan_friends_010": {
+      "id": "tc_c10_yelan_friends_010",
+      "type": "line",
+      "scene": "ts_c10_yelan_friends_rest_day",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "“那就行。”她说，“下次不来也说一声，别让大家猜你是不是睡过头。”",
+      "next": "tc_c10_yelan_friends_011"
+    },
+    "tc_c10_yelan_friends_011": {
+      "id": "tc_c10_yelan_friends_011",
+      "type": "line",
+      "scene": "ts_c10_yelan_friends_rest_day",
+      "speaker": "wenwen",
+      "character": "yelan",
+      "text": "“你可以直接猜。”",
+      "next": "tc_c10_yelan_friends_012"
+    },
+    "tc_c10_yelan_friends_012": {
+      "id": "tc_c10_yelan_friends_012",
+      "type": "line",
+      "scene": "ts_c10_yelan_friends_rest_day",
+      "speaker": "yelan",
+      "character": "yelan",
+      "text": "“我现在不靠猜了。”",
+      "next": "tc_c10_yelan_friends_013"
+    },
+    "tc_c10_yelan_friends_013": {
+      "id": "tc_c10_yelan_friends_013",
+      "type": "line",
+      "scene": "ts_c10_yelan_friends_rest_day",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "轮到她上场，她把水放下，拎起球拍。有人在旁边起哄，说她今天认真得像比赛。叶岚回头笑了一下，发出一个漂亮的球，又立刻因为第二个球打歪而懊恼地抬起头。",
+      "next": "tc_c10_yelan_friends_014"
+    },
+    "tc_c10_yelan_friends_014": {
+      "id": "tc_c10_yelan_friends_014",
+      "type": "line",
+      "scene": "ts_c10_yelan_friends_rest_day",
+      "speaker": "narrator",
+      "character": "yelan",
+      "text": "我坐在椅子上看着，知道那两个瞬间都是她。她也不必因为我曾经认真靠近过，就把每一个未来的位置都留给我。",
+      "next": "tc_c10_yelan_end_friends"
+    },
+    "tc_c10_yelan_entry": {
+      "id": "tc_c10_yelan_entry",
+      "type": "gate",
+      "scene": "ts_c10_yelan_dating",
+      "cases": [
+        {
+          "flag": "yelanRelationship",
+          "value": "dating",
+          "next": "tc_c10_yelan_dating_001"
+        },
+        {
+          "flag": "yelanRelationship",
+          "value": "friends",
+          "next": "tc_c10_yelan_friends_001"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    },
+    "tc_c10_yelan_end_dating": {
+      "id": "tc_c10_yelan_end_dating",
+      "type": "end",
+      "scene": "ts_c10_yelan_dating_lights",
+      "character": "yelan",
+      "title": "一起买完这袋米",
+      "text": "",
+      "endingId": "tc_c10_yelan_end_dating"
+    },
+    "tc_c10_yelan_end_friends": {
+      "id": "tc_c10_yelan_end_friends",
+      "type": "end",
+      "scene": "ts_c10_yelan_friends_rest_day",
+      "character": "yelan",
+      "title": "今晚少一个位置",
+      "text": "",
+      "endingId": "tc_c10_yelan_end_friends"
+    }
+  },
+  "imports": [
+    "tc_c03_common_exit",
+    "tc_c04_common_exit",
+    "tc_c05_common_exit",
+    "tc_c06_common_exit",
+    "tc_c07_common_exit",
+    "tc_c08_common_exit",
+    "tc_c09_common_exit"
+  ],
+  "exports": {
+    "tc_c03_yelan_entry": "tc_c03_yelan_entry",
+    "tc_c04_yelan_entry": "tc_c04_yelan_entry",
+    "tc_c05_yelan_entry": "tc_c05_yelan_entry",
+    "tc_c06_yelan_entry": "tc_c06_yelan_entry",
+    "tc_c07_yelan_entry": "tc_c07_yelan_entry",
+    "tc_c08_yelan_entry": "tc_c08_yelan_entry",
+    "tc_c09_yelan_entry": "tc_c09_yelan_entry",
+    "tc_c10_yelan_end_dating": "tc_c10_yelan_end_dating",
+    "tc_c10_yelan_end_friends": "tc_c10_yelan_end_friends",
+    "tc_c10_yelan_entry": "tc_c10_yelan_entry"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 537,
+      "endLine": 537,
+      "nodeIds": [
+        "tc_c03_yelan_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 539,
+      "endLine": 539,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 541,
+      "endLine": 541,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 543,
+      "endLine": 543,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 545,
+      "endLine": 545,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 547,
+      "endLine": 547,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 549,
+      "endLine": 549,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 551,
+      "endLine": 551,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_008"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 553,
+      "endLine": 553,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 557,
+      "endLine": 557,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 559,
+      "endLine": 559,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_011"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 561,
+      "endLine": 561,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_012"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 563,
+      "endLine": 563,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_013"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 565,
+      "endLine": 565,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_014"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 567,
+      "endLine": 567,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_015"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 569,
+      "endLine": 569,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_016"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 571,
+      "endLine": 571,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_017"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 573,
+      "endLine": 573,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_018"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 575,
+      "endLine": 575,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_019"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 577,
+      "endLine": 577,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_020"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 579,
+      "endLine": 579,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_021"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 581,
+      "endLine": 581,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_022"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 583,
+      "endLine": 583,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_023"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 585,
+      "endLine": 585,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_024"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 587,
+      "endLine": 587,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_025"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 589,
+      "endLine": 589,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_026"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 591,
+      "endLine": 591,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_027"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 593,
+      "endLine": 593,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_028"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 595,
+      "endLine": 595,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_029"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 597,
+      "endLine": 597,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_030"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 599,
+      "endLine": 599,
+      "nodeIds": [
+        "tc_c03_yelan_second_meeting_031"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 535,
+      "endLine": 535,
+      "nodeIds": [
+        "tc_c03_yelan_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 603,
+      "endLine": 603,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 605,
+      "endLine": 605,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 607,
+      "endLine": 607,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 609,
+      "endLine": 609,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 611,
+      "endLine": 611,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 613,
+      "endLine": 613,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_006"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 615,
+      "endLine": 615,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_007"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 617,
+      "endLine": 617,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 619,
+      "endLine": 619,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 621,
+      "endLine": 621,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_010"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 623,
+      "endLine": 623,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_011"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 625,
+      "endLine": 625,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_012"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 627,
+      "endLine": 627,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 629,
+      "endLine": 629,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_014"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 631,
+      "endLine": 631,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_015"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 633,
+      "endLine": 633,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_016"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 635,
+      "endLine": 635,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_017"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 637,
+      "endLine": 637,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_018"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 639,
+      "endLine": 639,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_019"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 641,
+      "endLine": 641,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_020"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 643,
+      "endLine": 643,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_021"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 601,
+      "endLine": 601,
+      "nodeIds": [
+        "tc_c03_yelan_voice_game_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 647,
+      "endLine": 647,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 649,
+      "endLine": 649,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 651,
+      "endLine": 651,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 653,
+      "endLine": 653,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 655,
+      "endLine": 655,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 657,
+      "endLine": 657,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 659,
+      "endLine": 659,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_007"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 661,
+      "endLine": 661,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_008"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 663,
+      "endLine": 663,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_009"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 665,
+      "endLine": 665,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 667,
+      "endLine": 667,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_011"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 669,
+      "endLine": 669,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_012"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 671,
+      "endLine": 671,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 673,
+      "endLine": 673,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_014"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 675,
+      "endLine": 675,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_015"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 677,
+      "endLine": 677,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_016"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 679,
+      "endLine": 679,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_017"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 681,
+      "endLine": 681,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_018"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 683,
+      "endLine": 683,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_019"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 685,
+      "endLine": 685,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_020"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 687,
+      "endLine": 687,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_021"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 689,
+      "endLine": 689,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_022"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 691,
+      "endLine": 691,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_023"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 645,
+      "endLine": 645,
+      "nodeIds": [
+        "tc_c03_yelan_quiet_park_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 557,
+      "endLine": 557,
+      "nodeIds": [
+        "tc_c03_yelan_early_callback_gate"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 559,
+      "endLine": 559,
+      "nodeIds": [
+        "tc_c03_yelan_early_callback_gate"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 305,
+      "endLine": 305,
+      "nodeIds": [
+        "tc_c04_yelan_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 307,
+      "endLine": 307,
+      "nodeIds": [
+        "tc_c04_yelan_outing_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 309,
+      "endLine": 309,
+      "nodeIds": [
+        "tc_c04_yelan_outing_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 311,
+      "endLine": 311,
+      "nodeIds": [
+        "tc_c04_yelan_outing_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 313,
+      "endLine": 313,
+      "nodeIds": [
+        "tc_c04_yelan_outing_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 315,
+      "endLine": 315,
+      "nodeIds": [
+        "tc_c04_yelan_outing_006"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 317,
+      "endLine": 317,
+      "nodeIds": [
+        "tc_c04_yelan_outing_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 303,
+      "endLine": 303,
+      "nodeIds": [
+        "tc_c04_yelan_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 323,
+      "endLine": 323,
+      "nodeIds": [
+        "tc_c04_yelan_kite_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 325,
+      "endLine": 325,
+      "nodeIds": [
+        "tc_c04_yelan_kite_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 327,
+      "endLine": 327,
+      "nodeIds": [
+        "tc_c04_yelan_kite_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 329,
+      "endLine": 329,
+      "nodeIds": [
+        "tc_c04_yelan_kite_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 331,
+      "endLine": 331,
+      "nodeIds": [
+        "tc_c04_yelan_kite_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 333,
+      "endLine": 333,
+      "nodeIds": [
+        "tc_c04_yelan_kite_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 335,
+      "endLine": 335,
+      "nodeIds": [
+        "tc_c04_yelan_kite_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 337,
+      "endLine": 337,
+      "nodeIds": [
+        "tc_c04_yelan_kite_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 321,
+      "endLine": 321,
+      "nodeIds": [
+        "tc_c04_yelan_kite_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 341,
+      "endLine": 341,
+      "nodeIds": [
+        "tc_c04_yelan_market_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 343,
+      "endLine": 343,
+      "nodeIds": [
+        "tc_c04_yelan_market_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 345,
+      "endLine": 345,
+      "nodeIds": [
+        "tc_c04_yelan_market_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 347,
+      "endLine": 347,
+      "nodeIds": [
+        "tc_c04_yelan_market_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 349,
+      "endLine": 349,
+      "nodeIds": [
+        "tc_c04_yelan_market_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 351,
+      "endLine": 351,
+      "nodeIds": [
+        "tc_c04_yelan_market_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 353,
+      "endLine": 353,
+      "nodeIds": [
+        "tc_c04_yelan_market_007"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 355,
+      "endLine": 355,
+      "nodeIds": [
+        "tc_c04_yelan_market_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 357,
+      "endLine": 357,
+      "nodeIds": [
+        "tc_c04_yelan_market_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 339,
+      "endLine": 339,
+      "nodeIds": [
+        "tc_c04_yelan_market_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 361,
+      "endLine": 361,
+      "nodeIds": [
+        "tc_c04_yelan_outing_end_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 363,
+      "endLine": 363,
+      "nodeIds": [
+        "tc_c04_yelan_outing_end_002"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 365,
+      "endLine": 365,
+      "nodeIds": [
+        "tc_c04_yelan_outing_end_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 367,
+      "endLine": 367,
+      "nodeIds": [
+        "tc_c04_yelan_outing_end_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 369,
+      "endLine": 369,
+      "nodeIds": [
+        "tc_c04_yelan_outing_end_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 359,
+      "endLine": 359,
+      "nodeIds": [
+        "tc_c04_yelan_outing_end_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 319,
+      "endLine": 319,
+      "nodeIds": [
+        "tc_c04_yelan_outing_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 321,
+      "endLine": 321,
+      "nodeIds": [
+        "tc_c04_yelan_outing_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 339,
+      "endLine": 339,
+      "nodeIds": [
+        "tc_c04_yelan_outing_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 303,
+      "endLine": 303,
+      "nodeIds": [
+        "tc_c05_yelan_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 305,
+      "endLine": 305,
+      "nodeIds": [
+        "tc_c05_yelan_hurt_comparison_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 307,
+      "endLine": 307,
+      "nodeIds": [
+        "tc_c05_yelan_hurt_comparison_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 309,
+      "endLine": 309,
+      "nodeIds": [
+        "tc_c05_yelan_hurt_comparison_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 311,
+      "endLine": 311,
+      "nodeIds": [
+        "tc_c05_yelan_hurt_comparison_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 313,
+      "endLine": 313,
+      "nodeIds": [
+        "tc_c05_yelan_hurt_comparison_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 315,
+      "endLine": 315,
+      "nodeIds": [
+        "tc_c05_yelan_hurt_comparison_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 317,
+      "endLine": 317,
+      "nodeIds": [
+        "tc_c05_yelan_hurt_comparison_008"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 319,
+      "endLine": 319,
+      "nodeIds": [
+        "tc_c05_yelan_hurt_comparison_009"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 321,
+      "endLine": 321,
+      "nodeIds": [
+        "tc_c05_yelan_hurt_comparison_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 301,
+      "endLine": 301,
+      "nodeIds": [
+        "tc_c05_yelan_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 325,
+      "endLine": 325,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 327,
+      "endLine": 327,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 329,
+      "endLine": 329,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 331,
+      "endLine": 331,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 333,
+      "endLine": 333,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 335,
+      "endLine": 335,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 337,
+      "endLine": 337,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_007"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 339,
+      "endLine": 339,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 341,
+      "endLine": 341,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_009"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 343,
+      "endLine": 343,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_010"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 345,
+      "endLine": 345,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_011"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 347,
+      "endLine": 347,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_012"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 349,
+      "endLine": 349,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 351,
+      "endLine": 351,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_014"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 353,
+      "endLine": 353,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_015"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 355,
+      "endLine": 355,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_016"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 357,
+      "endLine": 357,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_017"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 359,
+      "endLine": 359,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_018"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 361,
+      "endLine": 361,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_019"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 323,
+      "endLine": 323,
+      "nodeIds": [
+        "tc_c05_yelan_both_real_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 269,
+      "endLine": 269,
+      "nodeIds": [
+        "tc_c06_yelan_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 271,
+      "endLine": 271,
+      "nodeIds": [
+        "tc_c06_yelan_after_dinner_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 273,
+      "endLine": 273,
+      "nodeIds": [
+        "tc_c06_yelan_after_dinner_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 275,
+      "endLine": 275,
+      "nodeIds": [
+        "tc_c06_yelan_after_dinner_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 277,
+      "endLine": 277,
+      "nodeIds": [
+        "tc_c06_yelan_after_dinner_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 279,
+      "endLine": 279,
+      "nodeIds": [
+        "tc_c06_yelan_after_dinner_006"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 281,
+      "endLine": 281,
+      "nodeIds": [
+        "tc_c06_yelan_after_dinner_007"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 267,
+      "endLine": 267,
+      "nodeIds": [
+        "tc_c06_yelan_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 285,
+      "endLine": 285,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 287,
+      "endLine": 287,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 289,
+      "endLine": 289,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 291,
+      "endLine": 291,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 293,
+      "endLine": 293,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 295,
+      "endLine": 295,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 297,
+      "endLine": 297,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 299,
+      "endLine": 299,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 301,
+      "endLine": 301,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 303,
+      "endLine": 303,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 305,
+      "endLine": 305,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_011"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 307,
+      "endLine": 307,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_012"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 309,
+      "endLine": 309,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 311,
+      "endLine": 311,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_014"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 313,
+      "endLine": 313,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_015"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 315,
+      "endLine": 315,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_016"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 317,
+      "endLine": 317,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_017"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 319,
+      "endLine": 319,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_018"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 321,
+      "endLine": 321,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_019"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 323,
+      "endLine": 323,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_020"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 325,
+      "endLine": 325,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_021"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 327,
+      "endLine": 327,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_022"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 329,
+      "endLine": 329,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_023"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 331,
+      "endLine": 331,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_024"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 333,
+      "endLine": 333,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_025"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 335,
+      "endLine": 335,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_026"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 337,
+      "endLine": 337,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_027"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 283,
+      "endLine": 283,
+      "nodeIds": [
+        "tc_c06_yelan_tabletennis_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 295,
+      "endLine": 295,
+      "nodeIds": [
+        "tc_c07_yelan_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 297,
+      "endLine": 297,
+      "nodeIds": [
+        "tc_c07_yelan_her_friends_002"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 299,
+      "endLine": 299,
+      "nodeIds": [
+        "tc_c07_yelan_her_friends_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 301,
+      "endLine": 301,
+      "nodeIds": [
+        "tc_c07_yelan_her_friends_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 303,
+      "endLine": 303,
+      "nodeIds": [
+        "tc_c07_yelan_her_friends_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 305,
+      "endLine": 305,
+      "nodeIds": [
+        "tc_c07_yelan_her_friends_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 307,
+      "endLine": 307,
+      "nodeIds": [
+        "tc_c07_yelan_her_friends_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 309,
+      "endLine": 309,
+      "nodeIds": [
+        "tc_c07_yelan_her_friends_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 311,
+      "endLine": 311,
+      "nodeIds": [
+        "tc_c07_yelan_her_friends_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 313,
+      "endLine": 313,
+      "nodeIds": [
+        "tc_c07_yelan_her_friends_010"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 293,
+      "endLine": 293,
+      "nodeIds": [
+        "tc_c07_yelan_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 319,
+      "endLine": 319,
+      "nodeIds": [
+        "tc_c07_yelan_kite_return_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 321,
+      "endLine": 321,
+      "nodeIds": [
+        "tc_c07_yelan_kite_return_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 323,
+      "endLine": 323,
+      "nodeIds": [
+        "tc_c07_yelan_kite_return_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 325,
+      "endLine": 325,
+      "nodeIds": [
+        "tc_c07_yelan_kite_return_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 327,
+      "endLine": 327,
+      "nodeIds": [
+        "tc_c07_yelan_kite_return_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 329,
+      "endLine": 329,
+      "nodeIds": [
+        "tc_c07_yelan_kite_return_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 331,
+      "endLine": 331,
+      "nodeIds": [
+        "tc_c07_yelan_kite_return_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 333,
+      "endLine": 333,
+      "nodeIds": [
+        "tc_c07_yelan_kite_return_008"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 335,
+      "endLine": 335,
+      "nodeIds": [
+        "tc_c07_yelan_kite_return_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 337,
+      "endLine": 337,
+      "nodeIds": [
+        "tc_c07_yelan_kite_return_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 339,
+      "endLine": 339,
+      "nodeIds": [
+        "tc_c07_yelan_kite_return_011"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 341,
+      "endLine": 341,
+      "nodeIds": [
+        "tc_c07_yelan_kite_return_012"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 317,
+      "endLine": 317,
+      "nodeIds": [
+        "tc_c07_yelan_kite_return_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 345,
+      "endLine": 345,
+      "nodeIds": [
+        "tc_c07_yelan_market_return_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 347,
+      "endLine": 347,
+      "nodeIds": [
+        "tc_c07_yelan_market_return_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 349,
+      "endLine": 349,
+      "nodeIds": [
+        "tc_c07_yelan_market_return_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 351,
+      "endLine": 351,
+      "nodeIds": [
+        "tc_c07_yelan_market_return_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 353,
+      "endLine": 353,
+      "nodeIds": [
+        "tc_c07_yelan_market_return_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 355,
+      "endLine": 355,
+      "nodeIds": [
+        "tc_c07_yelan_market_return_006"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 357,
+      "endLine": 357,
+      "nodeIds": [
+        "tc_c07_yelan_market_return_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 359,
+      "endLine": 359,
+      "nodeIds": [
+        "tc_c07_yelan_market_return_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 361,
+      "endLine": 361,
+      "nodeIds": [
+        "tc_c07_yelan_market_return_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 363,
+      "endLine": 363,
+      "nodeIds": [
+        "tc_c07_yelan_market_return_010"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 365,
+      "endLine": 365,
+      "nodeIds": [
+        "tc_c07_yelan_market_return_011"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 343,
+      "endLine": 343,
+      "nodeIds": [
+        "tc_c07_yelan_market_return_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 369,
+      "endLine": 369,
+      "nodeIds": [
+        "tc_c07_yelan_dinner_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 371,
+      "endLine": 371,
+      "nodeIds": [
+        "tc_c07_yelan_dinner_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 373,
+      "endLine": 373,
+      "nodeIds": [
+        "tc_c07_yelan_dinner_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 375,
+      "endLine": 375,
+      "nodeIds": [
+        "tc_c07_yelan_dinner_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 367,
+      "endLine": 367,
+      "nodeIds": [
+        "tc_c07_yelan_dinner_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 317,
+      "endLine": 317,
+      "nodeIds": [
+        "tc_c07_yelan_outing_gate"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 343,
+      "endLine": 343,
+      "nodeIds": [
+        "tc_c07_yelan_outing_gate"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 271,
+      "endLine": 271,
+      "nodeIds": [
+        "tc_c08_yelan_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 273,
+      "endLine": 273,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_002"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 275,
+      "endLine": 275,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 277,
+      "endLine": 277,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 279,
+      "endLine": 279,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 281,
+      "endLine": 281,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_006"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 283,
+      "endLine": 283,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 285,
+      "endLine": 285,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 287,
+      "endLine": 287,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_009"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 289,
+      "endLine": 289,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_010"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 291,
+      "endLine": 291,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_011"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 293,
+      "endLine": 293,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_012"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 295,
+      "endLine": 295,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 297,
+      "endLine": 297,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_014"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 299,
+      "endLine": 299,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_015"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 301,
+      "endLine": 301,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_016"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 303,
+      "endLine": 303,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_017"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 305,
+      "endLine": 305,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_018"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 307,
+      "endLine": 307,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_019"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 309,
+      "endLine": 309,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_020"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 311,
+      "endLine": 311,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_021"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 313,
+      "endLine": 313,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_022"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 315,
+      "endLine": 315,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_023"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 317,
+      "endLine": 317,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_024"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 319,
+      "endLine": 319,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_025"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 321,
+      "endLine": 321,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_026"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 323,
+      "endLine": 323,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_027"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 325,
+      "endLine": 325,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_028"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 327,
+      "endLine": 327,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_029"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 329,
+      "endLine": 329,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_030"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 331,
+      "endLine": 331,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_031"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 333,
+      "endLine": 333,
+      "nodeIds": [
+        "tc_c08_yelan_meet_without_game_032"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 269,
+      "endLine": 269,
+      "nodeIds": [
+        "tc_c08_yelan_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 337,
+      "endLine": 337,
+      "nodeIds": [
+        "tc_c09_yelan_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 339,
+      "endLine": 339,
+      "nodeIds": [
+        "tc_c09_yelan_relationship_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 341,
+      "endLine": 341,
+      "nodeIds": [
+        "tc_c09_yelan_relationship_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 343,
+      "endLine": 343,
+      "nodeIds": [
+        "tc_c09_yelan_relationship_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 345,
+      "endLine": 345,
+      "nodeIds": [
+        "tc_c09_yelan_relationship_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 347,
+      "endLine": 347,
+      "nodeIds": [
+        "tc_c09_yelan_relationship_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 349,
+      "endLine": 349,
+      "nodeIds": [
+        "tc_c09_yelan_relationship_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 335,
+      "endLine": 335,
+      "nodeIds": [
+        "tc_c09_yelan_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 355,
+      "endLine": 355,
+      "nodeIds": [
+        "tc_c09_yelan_dating_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 357,
+      "endLine": 357,
+      "nodeIds": [
+        "tc_c09_yelan_dating_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 359,
+      "endLine": 359,
+      "nodeIds": [
+        "tc_c09_yelan_dating_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 361,
+      "endLine": 361,
+      "nodeIds": [
+        "tc_c09_yelan_dating_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 363,
+      "endLine": 363,
+      "nodeIds": [
+        "tc_c09_yelan_dating_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 365,
+      "endLine": 365,
+      "nodeIds": [
+        "tc_c09_yelan_dating_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 367,
+      "endLine": 367,
+      "nodeIds": [
+        "tc_c09_yelan_dating_007"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 369,
+      "endLine": 369,
+      "nodeIds": [
+        "tc_c09_yelan_dating_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 371,
+      "endLine": 371,
+      "nodeIds": [
+        "tc_c09_yelan_dating_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 373,
+      "endLine": 373,
+      "nodeIds": [
+        "tc_c09_yelan_dating_010"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 375,
+      "endLine": 375,
+      "nodeIds": [
+        "tc_c09_yelan_dating_011"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 377,
+      "endLine": 377,
+      "nodeIds": [
+        "tc_c09_yelan_dating_012"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 379,
+      "endLine": 379,
+      "nodeIds": [
+        "tc_c09_yelan_dating_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 381,
+      "endLine": 381,
+      "nodeIds": [
+        "tc_c09_yelan_dating_014"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 383,
+      "endLine": 383,
+      "nodeIds": [
+        "tc_c09_yelan_dating_015"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 385,
+      "endLine": 385,
+      "nodeIds": [
+        "tc_c09_yelan_dating_016"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 387,
+      "endLine": 387,
+      "nodeIds": [
+        "tc_c09_yelan_dating_017"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 389,
+      "endLine": 389,
+      "nodeIds": [
+        "tc_c09_yelan_dating_018"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 353,
+      "endLine": 353,
+      "nodeIds": [
+        "tc_c09_yelan_dating_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 393,
+      "endLine": 393,
+      "nodeIds": [
+        "tc_c09_yelan_friends_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 395,
+      "endLine": 395,
+      "nodeIds": [
+        "tc_c09_yelan_friends_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 397,
+      "endLine": 397,
+      "nodeIds": [
+        "tc_c09_yelan_friends_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 399,
+      "endLine": 399,
+      "nodeIds": [
+        "tc_c09_yelan_friends_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 401,
+      "endLine": 401,
+      "nodeIds": [
+        "tc_c09_yelan_friends_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 403,
+      "endLine": 403,
+      "nodeIds": [
+        "tc_c09_yelan_friends_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 405,
+      "endLine": 405,
+      "nodeIds": [
+        "tc_c09_yelan_friends_007"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 407,
+      "endLine": 407,
+      "nodeIds": [
+        "tc_c09_yelan_friends_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 409,
+      "endLine": 409,
+      "nodeIds": [
+        "tc_c09_yelan_friends_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 411,
+      "endLine": 411,
+      "nodeIds": [
+        "tc_c09_yelan_friends_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 413,
+      "endLine": 413,
+      "nodeIds": [
+        "tc_c09_yelan_friends_011"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 415,
+      "endLine": 415,
+      "nodeIds": [
+        "tc_c09_yelan_friends_012"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 417,
+      "endLine": 417,
+      "nodeIds": [
+        "tc_c09_yelan_friends_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 419,
+      "endLine": 419,
+      "nodeIds": [
+        "tc_c09_yelan_friends_014"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 391,
+      "endLine": 391,
+      "nodeIds": [
+        "tc_c09_yelan_friends_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 351,
+      "endLine": 351,
+      "nodeIds": [
+        "tc_c09_yelan_relationship_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 355,
+      "endLine": 355,
+      "nodeIds": [
+        "tc_c09_yelan_relationship_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 393,
+      "endLine": 393,
+      "nodeIds": [
+        "tc_c09_yelan_relationship_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 327,
+      "endLine": 327,
+      "nodeIds": [
+        "tc_c10_yelan_dating_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 329,
+      "endLine": 329,
+      "nodeIds": [
+        "tc_c10_yelan_dating_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 331,
+      "endLine": 331,
+      "nodeIds": [
+        "tc_c10_yelan_dating_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 333,
+      "endLine": 333,
+      "nodeIds": [
+        "tc_c10_yelan_dating_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 335,
+      "endLine": 335,
+      "nodeIds": [
+        "tc_c10_yelan_dating_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 337,
+      "endLine": 337,
+      "nodeIds": [
+        "tc_c10_yelan_dating_006"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 339,
+      "endLine": 339,
+      "nodeIds": [
+        "tc_c10_yelan_dating_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 341,
+      "endLine": 341,
+      "nodeIds": [
+        "tc_c10_yelan_dating_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 343,
+      "endLine": 343,
+      "nodeIds": [
+        "tc_c10_yelan_dating_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 345,
+      "endLine": 345,
+      "nodeIds": [
+        "tc_c10_yelan_dating_010"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 347,
+      "endLine": 347,
+      "nodeIds": [
+        "tc_c10_yelan_dating_011"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 349,
+      "endLine": 349,
+      "nodeIds": [
+        "tc_c10_yelan_dating_012"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 351,
+      "endLine": 351,
+      "nodeIds": [
+        "tc_c10_yelan_dating_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 353,
+      "endLine": 353,
+      "nodeIds": [
+        "tc_c10_yelan_dating_014"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 355,
+      "endLine": 355,
+      "nodeIds": [
+        "tc_c10_yelan_dating_015"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 357,
+      "endLine": 357,
+      "nodeIds": [
+        "tc_c10_yelan_dating_016"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 359,
+      "endLine": 359,
+      "nodeIds": [
+        "tc_c10_yelan_dating_017"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 361,
+      "endLine": 361,
+      "nodeIds": [
+        "tc_c10_yelan_dating_018"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 363,
+      "endLine": 363,
+      "nodeIds": [
+        "tc_c10_yelan_dating_019"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 365,
+      "endLine": 365,
+      "nodeIds": [
+        "tc_c10_yelan_dating_020"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 325,
+      "endLine": 325,
+      "nodeIds": [
+        "tc_c10_yelan_dating_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 369,
+      "endLine": 369,
+      "nodeIds": [
+        "tc_c10_yelan_friends_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 371,
+      "endLine": 371,
+      "nodeIds": [
+        "tc_c10_yelan_friends_002"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 373,
+      "endLine": 373,
+      "nodeIds": [
+        "tc_c10_yelan_friends_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 375,
+      "endLine": 375,
+      "nodeIds": [
+        "tc_c10_yelan_friends_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 377,
+      "endLine": 377,
+      "nodeIds": [
+        "tc_c10_yelan_friends_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 379,
+      "endLine": 379,
+      "nodeIds": [
+        "tc_c10_yelan_friends_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 381,
+      "endLine": 381,
+      "nodeIds": [
+        "tc_c10_yelan_friends_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 383,
+      "endLine": 383,
+      "nodeIds": [
+        "tc_c10_yelan_friends_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 385,
+      "endLine": 385,
+      "nodeIds": [
+        "tc_c10_yelan_friends_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 387,
+      "endLine": 387,
+      "nodeIds": [
+        "tc_c10_yelan_friends_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 389,
+      "endLine": 389,
+      "nodeIds": [
+        "tc_c10_yelan_friends_011"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 391,
+      "endLine": 391,
+      "nodeIds": [
+        "tc_c10_yelan_friends_012"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 393,
+      "endLine": 393,
+      "nodeIds": [
+        "tc_c10_yelan_friends_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 395,
+      "endLine": 395,
+      "nodeIds": [
+        "tc_c10_yelan_friends_014"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 367,
+      "endLine": 367,
+      "nodeIds": [
+        "tc_c10_yelan_friends_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 325,
+      "endLine": 325,
+      "nodeIds": [
+        "tc_c10_yelan_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 367,
+      "endLine": 367,
+      "nodeIds": [
+        "tc_c10_yelan_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 325,
+      "endLine": 325,
+      "nodeIds": [
+        "tc_c10_yelan_end_dating"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 367,
+      "endLine": 367,
+      "nodeIds": [
+        "tc_c10_yelan_end_friends"
+      ],
+      "kind": "control"
+    }
+  ],
+  "exclusions": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 533,
+      "endLine": 533,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 555,
+      "endLine": 555,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 301,
+      "endLine": 301,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 299,
+      "endLine": 299,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 265,
+      "endLine": 265,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 291,
+      "endLine": 291,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 315,
+      "endLine": 315,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 267,
+      "endLine": 267,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 355,
+      "endLine": 355,
+      "reason": "choice-label-excerpt"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 393,
+      "endLine": 393,
+      "reason": "choice-label-excerpt"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 333,
+      "endLine": 333,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 323,
+      "endLine": 323,
+      "reason": "heading-only"
+    }
+  ],
+  "assetRequests": [
+    {
+      "id": "e01-art-ch03",
+      "a01Ids": [
+        "tc-bg-netcafe-pc-night",
+        "tc-bg-park-day",
+        "tc-bg-rental-day",
+        "tc-bg-stall-day",
+        "tc-bg-street-dusk",
+        "tc-char-maolang-human-base",
+        "tc-char-shijiang-human-base",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-hesitant",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-yelan-human-base",
+        "tc-char-yelan-human-expression-hesitant",
+        "tc-char-yelan-human-expression-smile"
+      ]
+    },
+    {
+      "id": "e01-art-ch04",
+      "a01Ids": [
+        "tc-bg-park-day",
+        "tc-bg-riverside-lawn-day",
+        "tc-bg-secondhand-day",
+        "tc-bg-street-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-yelan-human-base",
+        "tc-char-yelan-human-expression-hesitant",
+        "tc-char-yelan-human-expression-smile",
+        "tc-look-yelan-casual"
+      ]
+    },
+    {
+      "id": "e01-art-ch05",
+      "a01Ids": [
+        "tc-bg-convenience-day",
+        "tc-bg-food-dusk",
+        "tc-bg-netcafe-pc-night",
+        "tc-bg-street-dusk",
+        "tc-char-maolang-human-base",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-downcast",
+        "tc-char-wenwen-human-expression-hesitant",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-yelan-human-base",
+        "tc-char-yelan-human-expression-hesitant",
+        "tc-char-yelan-human-expression-serious",
+        "tc-char-yelan-human-expression-smile"
+      ]
+    },
+    {
+      "id": "e01-art-ch06",
+      "a01Ids": [
+        "tc-bg-busstop-day",
+        "tc-bg-convenience-day",
+        "tc-bg-food-dusk",
+        "tc-bg-street-dusk",
+        "tc-bg-tabletennis-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-yelan-human-base",
+        "tc-char-yelan-human-expression-hesitant",
+        "tc-char-yelan-human-expression-smile",
+        "tc-look-yelan-casual"
+      ]
+    },
+    {
+      "id": "e01-art-ch07",
+      "a01Ids": [
+        "tc-bg-food-dusk",
+        "tc-bg-netcafe-counter-night",
+        "tc-bg-rental-day",
+        "tc-bg-riverside-lawn-day",
+        "tc-bg-secondhand-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-yelan-human-base",
+        "tc-char-yelan-human-expression-hesitant",
+        "tc-char-yelan-human-expression-smile"
+      ]
+    },
+    {
+      "id": "e01-art-ch08",
+      "a01Ids": [
+        "tc-bg-food-day",
+        "tc-bg-park-day",
+        "tc-bg-street-day",
+        "tc-bg-street-dusk",
+        "tc-bg-supermarket-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-yelan-human-base",
+        "tc-char-yelan-human-expression-hesitant",
+        "tc-char-yelan-human-expression-smile",
+        "tc-char-yelan-human-expression-tired"
+      ]
+    },
+    {
+      "id": "e01-art-ch09",
+      "a01Ids": [
+        "tc-bg-busstop-day",
+        "tc-bg-eaves-day",
+        "tc-bg-rental-night",
+        "tc-bg-street-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-yelan-human-base",
+        "tc-char-yelan-human-expression-downcast",
+        "tc-char-yelan-human-expression-hesitant",
+        "tc-char-yelan-human-expression-smile"
+      ]
+    },
+    {
+      "id": "e01-art-ch10",
+      "a01Ids": [
+        "tc-bg-netcafe-counter-night",
+        "tc-bg-street-day",
+        "tc-bg-street-dusk",
+        "tc-bg-supermarket-day",
+        "tc-bg-tabletennis-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-yelan-human-base",
+        "tc-char-yelan-human-expression-hesitant",
+        "tc-char-yelan-human-expression-smile",
+        "tc-look-yelan-casual"
+      ]
+    }
+  ]
+}

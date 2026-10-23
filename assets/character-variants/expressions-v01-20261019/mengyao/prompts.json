@@ -1,0 +1,144 @@
+{
+  "task": "expressions-v01-20261019",
+  "status": "candidate_not_integrated",
+  "tool": "image_gen.imagegen",
+  "skill": "game-character-gen + imagegen",
+  "character": "mengyao",
+  "records": [
+    {
+      "key": "mengyao",
+      "slug": "smile",
+      "zh": "微笑",
+      "kind": "expression",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. Edit the supplied image as the sole identity and appearance reference. Preserve the exact adult character identity, facial bone structure, hair, body proportions, clothes, accessories and softly lit adult semi-realistic Japanese illustration finish. Single character, head through mid-thigh framing, matching the input stance and framing, vertical portrait. True transparent background: remove all existing dark/grey background and diffuse glows; clean hair and clothing edges, no scenery, no shadow rectangle, no checkerboard painted in. Do not add text, captions, borders, symbols or objects. High quality natural anatomy. Mengyao, adult woman age 23. Preserve chestnut low ponytail and loose strands, ivory open shirt over charcoal T-shirt, dark jeans, brown wrist strap, the exact black camera and brown camera neck strap. Change only facial expression to a gentle genuine closed-mouth smile: relaxed brows, softly raised mouth corners, slight warmth in her eyes. Keep both hands in pockets and the original pose unchanged.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/mengyao-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-14f085fd-8582-40db-8cb3-8ea45f313ebf.png",
+      "output_filename": "char-mengyao-expression-smile.png"
+    },
+    {
+      "key": "mengyao",
+      "slug": "serious",
+      "zh": "认真",
+      "kind": "expression",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. Edit the supplied image as the sole identity and appearance reference. Preserve the exact adult character identity, facial bone structure, hair, body proportions, clothes, accessories and softly lit adult semi-realistic Japanese illustration finish. Single character, head through mid-thigh framing, matching the input stance and framing, vertical portrait. True transparent background: remove all existing dark/grey background and diffuse glows; clean hair and clothing edges, no scenery, no shadow rectangle, no checkerboard painted in. Do not add text, captions, borders, symbols or objects. High quality natural anatomy. Mengyao, adult woman age 23. Preserve chestnut low ponytail and loose strands, ivory open shirt over charcoal T-shirt, dark jeans, brown wrist strap, the exact black camera and brown camera neck strap. Change only facial expression to serious focused attentiveness: neutral flat closed lips without a smile, slightly concentrated brow, direct purposeful eyes. Keep both hands in pockets and the original pose unchanged.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/mengyao-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-e4f9bad3-df02-4dbe-9531-1b8a9ba3e9f2.png",
+      "output_filename": "char-mengyao-expression-serious.png"
+    },
+    {
+      "key": "mengyao",
+      "slug": "hesitant",
+      "zh": "犹豫",
+      "kind": "expression",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. Edit the supplied image as the sole identity and appearance reference. Preserve the exact adult character identity, facial bone structure, hair, body proportions, clothes, accessories and softly lit adult semi-realistic Japanese illustration finish. Single character, head through mid-thigh framing, matching the input stance and framing, vertical portrait. True transparent background: remove all existing dark/grey background and diffuse glows; clean hair and clothing edges, no scenery, no shadow rectangle, no checkerboard painted in. Do not add text, captions, borders, symbols or objects. High quality natural anatomy. Mengyao, adult woman age 23. Preserve chestnut low ponytail and loose strands, ivory open shirt over charcoal T-shirt, dark jeans, brown wrist strap, the exact black camera and brown camera neck strap. Change only facial expression to hesitation and uncertainty: inner brows slightly raised, eyes glance subtly aside, lips gently pressed with no smile; understated adult restraint. Keep both hands in pockets and the original pose unchanged.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/mengyao-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-527862f5-abe9-476b-8e51-0f446db488e0.png",
+      "output_filename": "char-mengyao-expression-hesitant.png"
+    },
+    {
+      "key": "mengyao",
+      "slug": "surprised",
+      "zh": "惊讶",
+      "kind": "expression",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. Edit the supplied image as the sole identity and appearance reference. Preserve exact adult face identity and facial proportions, chestnut low ponytail with loose strands, ivory open shirt over charcoal T-shirt, dark jeans, brown wrist strap, the exact black camera and brown camera neck strap. Adult woman age 23, softly lit semi-realistic Japanese illustration. Change only the facial expression as specified; keep both hands in pockets, entire body stance, camera position and head-through-mid-thigh vertical framing unchanged. True transparent background, clean hair and clothing edges, remove existing haze or glow outside silhouette. No scenery, text, captions, borders, symbols or added objects. Expression: clearly surprised, eyebrows raised, eyes noticeably widened yet anatomically natural, lips parted in a small rounded opening; no smile, no exaggerated cartoon symbols.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/mengyao-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-db43bf6f-e3d2-4f31-a709-dd6b13d9c885.png",
+      "output_filename": "char-mengyao-expression-surprised.png"
+    },
+    {
+      "key": "mengyao",
+      "slug": "displeased",
+      "zh": "不悦",
+      "kind": "expression",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. Edit the supplied image as the sole identity and appearance reference. Preserve exact adult face identity and facial proportions, chestnut low ponytail with loose strands, ivory open shirt over charcoal T-shirt, dark jeans, brown wrist strap, the exact black camera and brown camera neck strap. Adult woman age 23, softly lit semi-realistic Japanese illustration. Change only the facial expression as specified; keep both hands in pockets, entire body stance, camera position and head-through-mid-thigh vertical framing unchanged. True transparent background, clean hair and clothing edges, remove existing haze or glow outside silhouette. No scenery, text, captions, borders, symbols or added objects. Expression: restrained displeasure; eyebrows lowered and drawn slightly together, eyes firm and a little narrowed, mouth corners subtly downturned, closed pressed lips. Clearly not a smile. Adult controlled annoyance, not rage.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/mengyao-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-40239e60-f31a-4fa0-a759-cf698017b8da.png",
+      "output_filename": "char-mengyao-expression-displeased.png"
+    },
+    {
+      "key": "mengyao",
+      "slug": "downcast",
+      "zh": "低落",
+      "kind": "expression",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. Edit the supplied image as the sole identity and appearance reference. Preserve exact adult face identity and facial proportions, chestnut low ponytail with loose strands, ivory open shirt over charcoal T-shirt, dark jeans, brown wrist strap, the exact black camera and brown camera neck strap. Adult woman age 23, softly lit semi-realistic Japanese illustration. Change only the facial expression as specified; keep both hands in pockets, entire body stance, camera position and head-through-mid-thigh vertical framing unchanged. True transparent background, clean hair and clothing edges, remove existing haze or glow outside silhouette. No scenery, text, captions, borders, symbols or added objects. Expression: visibly downcast and disappointed; gaze lowered slightly, upper eyelids droop, inner eyebrows rise with quiet sadness, mouth corners lowered and lips relaxed closed. No smile, no crying tears, keep body and head pose unchanged.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/mengyao-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-80b7da56-51a9-4a48-a15a-960b66928d5a.png",
+      "output_filename": "char-mengyao-expression-downcast.png"
+    },
+    {
+      "key": "mengyao",
+      "slug": "wave",
+      "zh": "招手",
+      "kind": "action",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. The supplied image is the edit target and sole face/appearance reference. Preserve Mengyao's exact adult 23-year-old identity, facial bone structure, chestnut low ponytail and loose strands, ivory open shirt over charcoal T-shirt, dark jeans, brown wrist strap, black camera hanging from its brown neck strap. Preserve original lighting and adult semi-realistic Japanese illustration finish. One character, head-through-mid-thigh vertical composition, full head/hair and gesture visible. True transparent background, clean edges, no background glow or scenery. No text, symbols, extra objects or duplicate limbs. Change the pose only as specified, no change of clothing, identity or camera design. Action: friendly small wave. Take her right hand (viewer left, no wrist strap) out of the jeans pocket and raise it beside shoulder, palm open toward viewer with five naturally separated fingers. Keep left hand with brown wrist strap in pocket. Keep camera hanging from neck, body angle same, subtle welcoming smile. Human wrist and elbow natural, no finger overlap.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/mengyao-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-75dffa81-6d30-4cd9-93b4-a687d160d5fa.png",
+      "output_filename": "char-mengyao-action-wave.png"
+    },
+    {
+      "key": "mengyao",
+      "slug": "thinking",
+      "zh": "思考",
+      "kind": "action",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. The supplied image is the edit target and sole face/appearance reference. Preserve Mengyao's exact adult 23-year-old identity, facial bone structure, chestnut low ponytail and loose strands, ivory open shirt over charcoal T-shirt, dark jeans, brown wrist strap, black camera hanging from its brown neck strap. Preserve original lighting and adult semi-realistic Japanese illustration finish. One character, head-through-mid-thigh vertical composition, full head/hair and gesture visible. True transparent background, clean edges, no background glow or scenery. No text, symbols, extra objects or duplicate limbs. Change the pose only as specified, no change of clothing, identity or camera design. Action: reflective thinking. Take her right hand (viewer left, no wrist strap) out of pocket and bring index finger lightly to side of chin, other fingers naturally curled. Left hand with brown wrist strap stays in pocket. Camera and strap stay in original hanging position. Brows gently concentrated, mouth closed neutral without a smile, eyes subtly focused to one side. Hand must not cover face or fuse with chin.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/mengyao-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-c0d1ad5e-2188-41b0-838e-770345ba8137.png",
+      "output_filename": "char-mengyao-action-thinking.png"
+    },
+    {
+      "key": "mengyao",
+      "slug": "explaining",
+      "zh": "解释",
+      "kind": "action",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. The supplied image is the edit target and sole face/appearance reference. Preserve Mengyao's exact adult 23-year-old identity, facial bone structure, chestnut low ponytail and loose strands, ivory open shirt over charcoal T-shirt, dark jeans, brown wrist strap, black camera hanging from its brown neck strap. Preserve original lighting and adult semi-realistic Japanese illustration finish. One character, head-through-mid-thigh vertical composition, full head/hair and gesture visible. True transparent background, clean edges, no background glow or scenery. No text, symbols, extra objects or duplicate limbs. Change the pose only as specified, no change of clothing, identity or camera design. Action: calmly explaining something in conversation. Take right hand (viewer left, no wrist strap) out of pocket and hold it palm up at lower chest level slightly to the side, five fingers naturally grouped in an open explanatory gesture. Left hand with brown wrist strap stays in pocket, camera hangs freely without being obscured. Face attentive and serious with lips slightly parted as speaking, no broad smile. Natural elbow and wrist, exact same identity.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/mengyao-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-73173697-3c9b-4072-b893-c88c31b9cf79.png",
+      "output_filename": "char-mengyao-action-explaining.png"
+    }
+  ]
+}

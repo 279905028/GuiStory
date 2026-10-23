@@ -1,0 +1,50 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-20",
+  "generation": [
+    {
+      "id": "A",
+      "name": "老街雨夜",
+      "file": "option-A-rainy-market.png",
+      "environmentReference": "毕节场景参考/微信图片_20261020154221_84_64.jpg",
+      "initialGenerationSource": "/Users/yipin/.codex/generated_images/01a15867-efd3-7503-a7e0-b625b32c7ca6/exec-2d36e227-c89d-4359-915b-4096b35bd32a.png",
+      "finalGenerationSource": "/Users/yipin/.codex/generated_images/01a15867-efd3-7503-a7e0-b625b32c7ca6/exec-d6e67d86-46a3-49b4-ab45-3889b55b2a33.png"
+    },
+    {
+      "id": "B",
+      "name": "河桥暮色",
+      "file": "option-B-river-dusk.png",
+      "environmentReference": "毕节场景参考/微信图片_20261020154224_87_64.jpg",
+      "initialGenerationSource": "/Users/yipin/.codex/generated_images/01a15867-efd3-7503-a7e0-b625b32c7ca6/exec-13444f72-0f20-45f3-91c0-4ce53ce9ab1b.png",
+      "finalGenerationSource": "/Users/yipin/.codex/generated_images/01a15867-efd3-7503-a7e0-b625b32c7ca6/exec-89eb9b7d-b6f8-4b14-9fdd-de066cc4e59a.png"
+    },
+    {
+      "id": "C",
+      "name": "树荫旧院",
+      "file": "option-C-green-courtyard.png",
+      "environmentReference": "毕节场景参考/微信图片_20261020154222_85_64.jpg",
+      "initialGenerationSource": "/Users/yipin/.codex/generated_images/01a15867-efd3-7503-a7e0-b625b32c7ca6/exec-f09373ef-f5e3-4123-8005-a14a0dd06bce.png",
+      "finalGenerationSource": "/Users/yipin/.codex/generated_images/01a15867-efd3-7503-a7e0-b625b32c7ca6/exec-0f9a4660-d6e4-4dfb-a5f0-ea0d13f610de.png"
+    },
+    {
+      "id": "D",
+      "name": "木楼听雨",
+      "file": "option-D-timber-rain.png",
+      "environmentReference": "毕节场景参考/微信图片_20261020154220_82_64.jpg",
+      "initialGenerationSource": "/Users/yipin/.codex/generated_images/01a15867-efd3-7503-a7e0-b625b32c7ca6/exec-0677c858-19d6-4c6e-8962-fd47516f8c8b.png",
+      "finalGenerationSource": "/Users/yipin/.codex/generated_images/01a15867-efd3-7503-a7e0-b625b32c7ca6/exec-1ac454b8-fef3-449b-b9d1-a5e728fc7cd1.png"
+    },
+    {
+      "id": "E",
+      "name": "坡巷归途",
+      "file": "option-E-sloping-lane.png",
+      "environmentReference": "毕节场景参考/微信图片_20261020154225_88_64.jpg",
+      "initialGenerationSource": "/Users/yipin/.codex/generated_images/01a15867-efd3-7503-a7e0-b625b32c7ca6/exec-5ce91527-70f9-465f-ba54-7d301d1d9a25.png",
+      "finalGenerationSource": "/Users/yipin/.codex/generated_images/01a15867-efd3-7503-a7e0-b625b32c7ca6/exec-bdf3b0f3-1ae6-4817-87ac-7bd31381aee5.png"
+    }
+  ],
+  "silhouetteCorrectionPrompt": "Use case: precise-object-edit. Edit this existing landscape game cover with one tightly limited correction.\nCHANGE ONLY the FIVE background adult women and the ONE small round orb character to TRUE SOLID SILHOUETTES. Keep each original outer contour, hairstyle, body pose, position, scale and held-prop outline exactly as in this source cover. Fill the ENTIRE interior of each of those six figures with a single nearly black ink-blue (#10191f) uniformly opaque solid tone. The women must have absolutely NO skin, face details, eyes, facial modeling, shirt folds, collars drawn inside the contour, garment highlights or interior texture. A fine subtle light line may trace the outside perimeter only. The small round orb must likewise be entirely solid dark: no yellow, face, eyes, mouth or expression, just its round outline and little supporting-hand outer contour. If women are already dark, still remove the visible interior clothes/face detail. Exactly five human female silhouettes plus one orb silhouette.\nPRESERVE EVERYTHING ELSE: the three fully rendered MEN and their faces, outfits, hands and expressions remain fully rendered and unchanged; Wenwen is the dominant foreground buzz-cut man in gray work jacket, with smaller Maolang and Shijiang behind him. Do NOT darken or replace any man. Keep the exact architectural background, lighting, vegetation, weather, colors, all Chinese title typography and punctuation, line breaks, spacing, placement, canvas dimensions and composition unchanged. The title must still read \"毕节，雨停之前\" with small \"贵州 · 毕节\". Do not add people, props, text, borders or watermarks. This is an ordinary romance game cover, not a horror image. Output ONE corrected cover.",
+  "state": "5 corrected candidates ready for selection",
+  "runtimeIntegrated": false,
+  "deployed": false
+}

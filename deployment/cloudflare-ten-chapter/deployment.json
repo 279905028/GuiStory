@@ -1,0 +1,61 @@
+{
+  "recordedAt": "2026-10-23T06:28:08.156Z",
+  "status": "deployed_and_verified",
+  "provider": "Cloudflare Workers Static Assets",
+  "accountId": "461ba8ee70c50e430a62dfaf8d9f887e",
+  "authProfile": "ambd",
+  "workerName": "cjb-rain",
+  "url": "https://galagame.ambd.site/",
+  "workersDevUrl": "https://cjb-rain.279905028.workers.dev",
+  "versionId": "ad4b0799-2f0b-4d5b-8215-04ef58cad5a0",
+  "deploymentId": "3dd9449e-1d85-4951-962f-8eda9f1ac631",
+  "previousVersionId": "16a2cfe8-bd29-4d4e-932f-a4e7560d2b34",
+  "release": "ten-chapter",
+  "contentRevision": "nightshift-20261022-r1",
+  "fileCount": 146,
+  "imageCount": 138,
+  "totalBytes": 180066046,
+  "storySha256": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60",
+  "runtimeManifestSha256": "768d33da446582ad785156fe4a2797b97f0b1fe96cc023b581a0d841df35aade",
+  "checks": {
+    "formalRebuildByteIdentical": true,
+    "inputFingerprints": 205,
+    "graphTerminalStates": 736,
+    "dryRun": "PASS",
+    "http": "PASS",
+    "httpPassed": 146,
+    "httpFailed": 0,
+    "remoteTrafficPercent": 100,
+    "browser": {
+      "pass": true,
+      "checks": 6,
+      "pageErrors": 0,
+      "httpErrors": 0,
+      "requestFailures": 0,
+      "screenshots": 8,
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ]
+    },
+    "historicalDeploymentFilesUnchanged": 6022
+  },
+  "limitations": [
+    "本次公网检查不代替E10全路线浏览器验收；Safari与实体手机仍待验。",
+    "使用独立测试浏览器存储，未访问玩家存档；本地包与线上域名的存档不会自动同步。"
+  ],
+  "evidence": {
+    "preflight": "preflight.json",
+    "buildAssets": "build-assets-check.json",
+    "http": "http-verification.json",
+    "browser": "browser-verification.json",
+    "remote": "remote-deployment.json",
+    "previousDeployment": "deployment-before.json"
+  }
+}

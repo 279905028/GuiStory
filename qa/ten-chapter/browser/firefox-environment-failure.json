@@ -1,0 +1,706 @@
+{
+  "task": "E10",
+  "date": "2026-10-23",
+  "scope": "E10 当前根目录正式十章独立浏览器自动验收；不访问玩家存储；模拟视口不等于实体设备，技术音频检查不等于人耳试听",
+  "formalIntegration": true,
+  "checks": [
+    {
+      "name": "启动与新空间元信息",
+      "passed": false,
+      "milliseconds": 697,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:72:2"
+    },
+    {
+      "name": "变身前一行→精确变身→说话头像→刷新恢复",
+      "passed": false,
+      "milliseconds": 241,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:73:2"
+    },
+    {
+      "name": "章末继续与立绘清理",
+      "passed": false,
+      "milliseconds": 223,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:74:2"
+    },
+    {
+      "name": "结局人形与第九章重选",
+      "passed": false,
+      "milliseconds": 258,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:75:2"
+    },
+    {
+      "name": "第三章重选保留相识清除人形与后续选择",
+      "passed": false,
+      "milliseconds": 223,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:76:2"
+    },
+    {
+      "name": "相对日期与回顾无历史形象回填",
+      "passed": false,
+      "milliseconds": 212,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:77:2"
+    },
+    {
+      "name": "手动保存与读取元信息",
+      "passed": false,
+      "milliseconds": 211,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:78:2"
+    },
+    {
+      "name": "坏自动档保持字节且自动保存暂停",
+      "passed": false,
+      "milliseconds": 280,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:79:2"
+    },
+    {
+      "name": "拒绝启动：未知能力",
+      "passed": false,
+      "milliseconds": 207,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:80:215"
+    },
+    {
+      "name": "拒绝启动：不匹配契约",
+      "passed": false,
+      "milliseconds": 183,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:80:215"
+    },
+    {
+      "name": "拒绝启动：缺失人形",
+      "passed": false,
+      "milliseconds": 189,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:80:215"
+    },
+    {
+      "name": "缺显示组件拒绝启动且零存储访问",
+      "passed": false,
+      "milliseconds": 177,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:81:2"
+    },
+    {
+      "name": "人形文件缺失不回退球形",
+      "passed": false,
+      "milliseconds": 171,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:83:2"
+    },
+    {
+      "name": "视口与人形独立头像：desktop",
+      "passed": false,
+      "milliseconds": 172,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:84:212"
+    },
+    {
+      "name": "视口与人形独立头像：laptop",
+      "passed": false,
+      "milliseconds": 200,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:84:212"
+    },
+    {
+      "name": "视口与人形独立头像：phone",
+      "passed": false,
+      "milliseconds": 172,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:84:212"
+    },
+    {
+      "name": "视口与人形独立头像：small-phone",
+      "passed": false,
+      "milliseconds": 181,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:84:212"
+    },
+    {
+      "name": "视口与人形独立头像：landscape",
+      "passed": false,
+      "milliseconds": 259,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:84:212"
+    },
+    {
+      "name": "球形独立头像与等比显示",
+      "passed": false,
+      "milliseconds": 179,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:87:2"
+    },
+    {
+      "name": "小屏相对日序和七项选择可滚动触达",
+      "passed": false,
+      "milliseconds": 172,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:88:2"
+    },
+    {
+      "name": "138张正式采用图可解码，尺寸与清单一致",
+      "passed": false,
+      "milliseconds": 318,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async artScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:101:2)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:89:2"
+    },
+    {
+      "name": "CG合法进入/刷新/退出：tc-cg-piao-choice",
+      "passed": false,
+      "milliseconds": 191,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async artScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:107:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:89:2"
+    },
+    {
+      "name": "CG合法进入/刷新/退出：tc-cg-last-echo-dinner",
+      "passed": false,
+      "milliseconds": 163,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async artScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:107:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:89:2"
+    },
+    {
+      "name": "CG合法进入/刷新/退出：tc-cg-qiuqiu-transform",
+      "passed": false,
+      "milliseconds": 215,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async artScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:107:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:89:2"
+    },
+    {
+      "name": "CG合法进入/刷新/退出：tc-cg-piao-wedding",
+      "passed": false,
+      "milliseconds": 171,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async artScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:107:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:89:2"
+    },
+    {
+      "name": "正式封面与全景区域：desktop",
+      "passed": false,
+      "milliseconds": 172,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async artScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:119:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:89:2"
+    },
+    {
+      "name": "CG完整构图五视口：desktop",
+      "passed": false,
+      "milliseconds": 247,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async artScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:126:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:89:2"
+    },
+    {
+      "name": "正式封面与全景区域：laptop",
+      "passed": false,
+      "milliseconds": 185,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async artScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:119:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:89:2"
+    },
+    {
+      "name": "CG完整构图五视口：laptop",
+      "passed": false,
+      "milliseconds": 261,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async artScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:126:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:89:2"
+    },
+    {
+      "name": "正式封面与全景区域：phone",
+      "passed": false,
+      "milliseconds": 179,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async artScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:119:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:89:2"
+    },
+    {
+      "name": "CG完整构图五视口：phone",
+      "passed": false,
+      "milliseconds": 178,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async artScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:126:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:89:2"
+    },
+    {
+      "name": "正式封面与全景区域：small-phone",
+      "passed": false,
+      "milliseconds": 199,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async artScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:119:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:89:2"
+    },
+    {
+      "name": "CG完整构图五视口：small-phone",
+      "passed": false,
+      "milliseconds": 261,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async artScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:126:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:89:2"
+    },
+    {
+      "name": "正式封面与全景区域：landscape",
+      "passed": false,
+      "milliseconds": 179,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async artScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:119:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:89:2"
+    },
+    {
+      "name": "CG完整构图五视口：landscape",
+      "passed": false,
+      "milliseconds": 188,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async artScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:126:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:89:2"
+    },
+    {
+      "name": "章末程序底色且不请求占位图片",
+      "passed": false,
+      "milliseconds": 216,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async artScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:128:2)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:89:2"
+    },
+    {
+      "name": "飘交往后日谈不显示婚宴CG",
+      "passed": false,
+      "milliseconds": 173,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async artScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:129:2)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:89:2"
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_xiaoman_end_dating",
+      "passed": false,
+      "milliseconds": 391,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:195:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_xiaoman_end_friends",
+      "passed": false,
+      "milliseconds": 466,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:195:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_zhouzhi_end_dating",
+      "passed": false,
+      "milliseconds": 271,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:195:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_zhouzhi_end_friends",
+      "passed": false,
+      "milliseconds": 254,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:195:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_mengyao_end_dating",
+      "passed": false,
+      "milliseconds": 214,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:195:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_mengyao_end_friends",
+      "passed": false,
+      "milliseconds": 254,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:195:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_yelan_end_dating",
+      "passed": false,
+      "milliseconds": 188,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:195:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_yelan_end_friends",
+      "passed": false,
+      "milliseconds": 190,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:195:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_piao_end_dating",
+      "passed": false,
+      "milliseconds": 233,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:195:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_piao_end_friends",
+      "passed": false,
+      "milliseconds": 352,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:195:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_friends_end",
+      "passed": false,
+      "milliseconds": 196,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:195:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_huangqiuqiu_end_dating",
+      "passed": false,
+      "milliseconds": 211,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:195:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_huangqiuqiu_end_friends",
+      "passed": false,
+      "milliseconds": 273,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:195:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c01_common_exit",
+      "passed": false,
+      "milliseconds": 192,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:203:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c02_common_exit",
+      "passed": false,
+      "milliseconds": 251,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:203:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c03_common_exit",
+      "passed": false,
+      "milliseconds": 192,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:203:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c04_common_exit",
+      "passed": false,
+      "milliseconds": 169,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:203:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c05_common_exit",
+      "passed": false,
+      "milliseconds": 199,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:203:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c06_common_exit",
+      "passed": false,
+      "milliseconds": 195,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:203:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c07_common_exit",
+      "passed": false,
+      "milliseconds": 204,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:203:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c08_common_exit",
+      "passed": false,
+      "milliseconds": 179,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:203:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c09_common_exit",
+      "passed": false,
+      "milliseconds": 233,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:203:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "隐藏路线四种真实前情：record/reply",
+      "passed": false,
+      "milliseconds": 307,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:210:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "隐藏路线四种真实前情：record/leave",
+      "passed": false,
+      "milliseconds": 210,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:210:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "隐藏路线四种真实前情：ignore/reply",
+      "passed": false,
+      "milliseconds": 214,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:210:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "隐藏路线四种真实前情：ignore/leave",
+      "passed": false,
+      "milliseconds": 186,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:210:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "最长正式选项可滚动点击：small-phone",
+      "passed": false,
+      "milliseconds": 181,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:221:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "最长正式选项可滚动点击：landscape",
+      "passed": false,
+      "milliseconds": 221,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:221:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "CG手动保存读取并回顾：tc-cg-piao-choice",
+      "passed": false,
+      "milliseconds": 184,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:234:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "CG手动保存读取并回顾：tc-cg-last-echo-dinner",
+      "passed": false,
+      "milliseconds": 174,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:234:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "CG手动保存读取并回顾：tc-cg-qiuqiu-transform",
+      "passed": false,
+      "milliseconds": 205,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:234:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "CG手动保存读取并回顾：tc-cg-piao-wedding",
+      "passed": false,
+      "milliseconds": 270,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:234:3)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "最长真实历史加载回顾保存读取性能",
+      "passed": false,
+      "milliseconds": 190,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:243:2)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "音频真实AudioContext与可信点击技术核查",
+      "passed": false,
+      "milliseconds": 177,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async audioScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:262:2)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:259:2)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "预存声音开启未可信交互不自动播放",
+      "passed": false,
+      "milliseconds": 170,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async audioScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:275:2)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:259:2)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "存储写入失败保留原自动手动档：writeAll",
+      "passed": false,
+      "milliseconds": 239,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async storageScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:285:50)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:259:25)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "存储写入失败保留原自动手动档：writeSecurity",
+      "passed": false,
+      "milliseconds": 176,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async storageScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:285:50)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:259:25)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "存储读取SecurityError不写入或覆盖原档",
+      "passed": false,
+      "milliseconds": 174,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async storageScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:290:2)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:259:25)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "损坏自动档备份失败原档保持：writeBackup",
+      "passed": false,
+      "milliseconds": 222,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async storageScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:296:67)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:259:25)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "损坏自动档备份失败原档保持：readBackup",
+      "passed": false,
+      "milliseconds": 178,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async storageScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:296:67)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:259:25)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "损坏自动档备份失败原档保持：mismatchBackup",
+      "passed": false,
+      "milliseconds": 196,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async storageScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:296:67)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:259:25)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "坏自动档确认备份后原字节可恢复且手动档保留",
+      "passed": false,
+      "milliseconds": 224,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async storageScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:301:2)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:259:25)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "确认期间原自动档变化重新确认且不覆盖",
+      "passed": false,
+      "milliseconds": 183,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async storageScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:307:2)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:259:25)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    },
+    {
+      "name": "坏手动档读取不改变当前进度或原档",
+      "passed": false,
+      "milliseconds": 246,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:62718/\", waiting until \"load\"\u001b[22m\n\n    at scenario (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:55:18)\n    at async storageScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:312:2)\n    at async extendedScenarios (/Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:259:25)\n    at async /Users/yipin/Desktop/cjb/qa/ten-chapter/browser/browser-test.cjs:91:2"
+    }
+  ],
+  "screenshots": [
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-1.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-2.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-3.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-4.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-5.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-6.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-7.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-8.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-9.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-10.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-11.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-12.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-13.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-14.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-15.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-16.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-17.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-18.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-19.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-20.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-21.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-22.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-23.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-24.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-25.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-26.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-27.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-28.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-29.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-30.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-31.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-32.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-33.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-34.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-35.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-36.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-37.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-38.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-39.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-40.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-41.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-42.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-43.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-44.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-45.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-46.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-47.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-48.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-49.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-50.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-51.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-52.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-53.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-54.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-55.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-56.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-57.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-58.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-59.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-60.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-61.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-62.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-63.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-64.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-65.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-66.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-67.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-68.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-69.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-70.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-71.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-72.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-73.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-74.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-75.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-76.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-77.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-78.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-79.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-80.png",
+    "qa/ten-chapter/browser/firefox-initial-environment-screenshots/FAILED-81.png"
+  ],
+  "defects": [],
+  "environment": {
+    "platform": "darwin",
+    "arch": "arm64",
+    "node": "v24.18.1",
+    "playwright": "1.62.1",
+    "browserAvailability": {
+      "googleChrome": {
+        "path": "/Applications/Google Chrome.app",
+        "installed": true
+      },
+      "firefox": {
+        "applicationInstalled": false,
+        "automationExecutable": "/private/tmp/cjb-e10-browsers/firefox-1538/firefox/Nightly.app/Contents/MacOS/firefox",
+        "automationInstalled": true
+      },
+      "webkit": {
+        "automationExecutable": "/private/tmp/cjb-e10-browsers/webkit-2336/pw_run.sh",
+        "automationInstalled": false,
+        "notSafari": true
+      },
+      "safari": {
+        "applicationInstalled": true,
+        "driverInstalled": true,
+        "launched": false,
+        "reason": "Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.",
+        "separateProbe": {
+          "path": "qa/ten-chapter/safari/probe-results.json",
+          "generatedAt": "2026-10-23T05:28:32.841Z",
+          "status": "blocked",
+          "httpStatus": 500,
+          "message": "Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver."
+        }
+      }
+    },
+    "browserVersion": "153.0",
+    "localhostOrigin": "http://127.0.0.1:62718",
+    "profile": "Playwright自动创建且销毁的独立临时firefox profile；每场景独立隔离context"
+  },
+  "notTested": [
+    "Safari：根任务独立WebDriver探测因Allow remote automation关闭被拒绝；见../safari/probe-results.json，本浏览器脚本未启动Safari",
+    "Playwright WebKit：运行文件不存在；即便存在也不能称为Safari",
+    "实体手机：五视口仅Chrome桌面模拟尺寸"
+  ],
+  "pageErrors": [],
+  "storySha256": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60",
+  "runtimeHashes": {
+    "story.js": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60",
+    "index.html": "0266a5c542894ef8eaa42f36acdbdb1079a6c1ca94236cfe0a4645813ea09191",
+    "styles.css": "8b7d93a3763959fe0a50188f1c0b6682354c2cde7c6bee439bd03851c4da870b",
+    "game.js": "7021053d5491f6140ce28b9d3bc921e8d65a62921de3f16886fceac0b42848ff",
+    "engine.js": "363e4a9b1ddd9d6e012b6623af04c54f9fc077a065e9d1ee3b61981e9be5e39a",
+    "save-compat.js": "11cc52079a67a2ee32244206b79bb11e1cfe71874227aefdd1e768594a0e816f",
+    "player-runtime.js": "f0c36ff43ac205be2878d84a057b2760d37f755de9a218b916a7e57c620affd0"
+  },
+  "browserName": "firefox",
+  "waivedByUser": [
+    "真人连续阅读全文与阅读时长",
+    "人耳环境音试听、实际扬声器/耳机及听感"
+  ],
+  "witnessGeneration": {
+    "algorithm": "从正式StoryEngine逐个可见choice分叉，逐步advance到terminal；不指定旧路径数、不伪造history。仅复用E08的reach/finish纯行走助手，未调用其sample故事构建。",
+    "paths": 736,
+    "choiceForks": 1334,
+    "endings": 13,
+    "longestHistoryEntries": 678,
+    "longestEnding": "tc_c10_xiaoman_end_dating",
+    "longestSelections": [
+      {
+        "nodeId": "tc_c01_common_rhythm_record_choice",
+        "value": "record",
+        "label": "再听一遍，把三拍记下来"
+      },
+      {
+        "nodeId": "tc_c01_common_reunion_choice",
+        "value": "nervous",
+        "label": "直接承认自己紧张"
+      },
+      {
+        "nodeId": "tc_c02_common_rhythm_reply_choice",
+        "value": "reply",
+        "label": "敲回刚才的节奏"
+      },
+      {
+        "nodeId": "tc_c02_common_missed_game_choice",
+        "value": "voice",
+        "label": "发一条语音说明"
+      },
+      {
+        "nodeId": "tc_c02_common_yelan_first_choice",
+        "value": "game",
+        "label": "先聊一局两个人都记得的游戏"
+      },
+      {
+        "nodeId": "tc_c03_common_route_choice",
+        "value": "xiaoman",
+        "label": "去找小满，听她讲最近的事，也让她看看如今的我。"
+      },
+      {
+        "nodeId": "tc_c04_xiaoman_outing_choice",
+        "value": "books",
+        "label": "去旧书摊，给对方挑一本怪书"
+      },
+      {
+        "nodeId": "tc_c09_xiaoman_relationship_choice",
+        "value": "dating",
+        "label": "我想和你交往，不只是约着出去玩"
+      }
+    ]
+  },
+  "longestOption": {
+    "nodeId": "tc_c09_yelan_relationship_choice",
+    "maxCharacters": 32,
+    "labels": [
+      "我喜欢你。想跟你交往。",
+      "但想到交往，我还没有那种确定的心情。不能因为你问了，就顺着答应。"
+    ]
+  },
+  "passed": 0,
+  "failed": 81,
+  "executedAt": "2026-10-23T05:32:39.885Z",
+  "scopeFilter": {
+    "onlyExtended": false,
+    "filteredCase": ""
+  },
+  "classification": "environment-blocked-before-game-load",
+  "productDefects": [],
+  "explanation": "所有页面在入口加载即被默认代理拒绝，尚未执行游戏断言；81项是测试受阻，不是81个游戏缺陷。最小页面直连对照成功，见firefox-network-probe.json。",
+  "blockedChecks": 81
+}

@@ -1,0 +1,1190 @@
+{
+  "status": "passed",
+  "scope": "E03真实共通+E04真实双路线；其余五线和美术仍为接口桩；未执行真实引擎",
+  "formalIntegration": false,
+  "inputFiles": [
+    {
+      "file": "任务拆分/全十章/routes/xiaoman.json",
+      "sha256": "b982784014d95fe44cb620e6b0ccd2252b3b86ccea5e519c09501277abec0fb0"
+    },
+    {
+      "file": "任务拆分/全十章/routes/zhouzhi.json",
+      "sha256": "7da9e066d79aaa299ad2ab5fff911be7060f5db4e4ef11bda3e4a901880a8eff"
+    }
+  ],
+  "commonNodes": 389,
+  "routeNodes": 717,
+  "graph": {
+    "mode": "sample",
+    "evidence": "isolated-static-graph-and-reachable-state-enumeration",
+    "statistics": {
+      "nodes": 1148,
+      "edges": 1212,
+      "choices": 11,
+      "options": 27,
+      "countsByType": {
+        "line": 1107,
+        "end": 13,
+        "choice": 11,
+        "gate": 17
+      },
+      "exploredNodeStates": 70271,
+      "distinctFlagStates": 727,
+      "mergedNodeStates": 0,
+      "transitions": 70270,
+      "maximumFrontier": 11,
+      "terminalStates": 256,
+      "stoppedStates": 168
+    },
+    "coverage": {
+      "reachableNodes": 1148,
+      "reachableOptions": 27,
+      "unreachableNodes": [],
+      "unreachableOptions": [],
+      "reachedEvents": [
+        "tc_c02_common_qiu_met",
+        "tc_c08_huangqiuqiu_human_reveal"
+      ],
+      "reachedEndings": [
+        "tc_c10_xiaoman_end_dating",
+        "tc_c10_xiaoman_end_friends",
+        "tc_c10_zhouzhi_end_dating",
+        "tc_c10_zhouzhi_end_friends"
+      ],
+      "reachedStops": [
+        "tc_c10_friends_entry",
+        "tc_c10_huangqiuqiu_entry",
+        "tc_c10_mengyao_entry",
+        "tc_c10_piao_entry",
+        "tc_c10_yelan_entry"
+      ],
+      "gateBranches": {
+        "tc_c02_common_qiu_reply_gate:0": 8,
+        "tc_c02_common_qiu_reply_gate:1": 8,
+        "tc_c02_common_qiu_signal_gate:0": 16,
+        "tc_c02_common_qiu_signal_gate:1": 16,
+        "tc_c02_common_rhythm_reply_gate:0": 2,
+        "tc_c02_common_rhythm_reply_gate:1": 2,
+        "tc_c04_common_route_gate:0": 32,
+        "tc_c04_common_route_gate:1": 32,
+        "tc_c04_common_route_gate:2": 32,
+        "tc_c04_common_route_gate:3": 32,
+        "tc_c04_common_route_gate:4": 64,
+        "tc_c04_common_route_gate:5": 32,
+        "tc_c04_common_route_gate:6": 8,
+        "tc_c05_common_missed_game_gate:0": 148,
+        "tc_c05_common_missed_game_gate:1": 148,
+        "tc_c05_common_route_gate:0": 64,
+        "tc_c05_common_route_gate:1": 64,
+        "tc_c05_common_route_gate:2": 32,
+        "tc_c05_common_route_gate:3": 32,
+        "tc_c05_common_route_gate:4": 64,
+        "tc_c05_common_route_gate:5": 32,
+        "tc_c05_common_route_gate:6": 8,
+        "tc_c06_common_route_gate:0": 64,
+        "tc_c06_common_route_gate:1": 64,
+        "tc_c06_common_route_gate:2": 32,
+        "tc_c06_common_route_gate:3": 32,
+        "tc_c06_common_route_gate:4": 64,
+        "tc_c06_common_route_gate:5": 32,
+        "tc_c06_common_route_gate:6": 8,
+        "tc_c07_common_route_gate:0": 64,
+        "tc_c07_common_route_gate:1": 64,
+        "tc_c07_common_route_gate:2": 32,
+        "tc_c07_common_route_gate:3": 32,
+        "tc_c07_common_route_gate:4": 64,
+        "tc_c07_common_route_gate:5": 32,
+        "tc_c07_common_route_gate:6": 8,
+        "tc_c07_xiaoman_outing_gate:0": 32,
+        "tc_c07_xiaoman_outing_gate:1": 32,
+        "tc_c07_zhouzhi_outing_gate:0": 32,
+        "tc_c07_zhouzhi_outing_gate:1": 32,
+        "tc_c08_common_route_gate:0": 64,
+        "tc_c08_common_route_gate:1": 64,
+        "tc_c08_common_route_gate:2": 32,
+        "tc_c08_common_route_gate:3": 32,
+        "tc_c08_common_route_gate:4": 64,
+        "tc_c08_common_route_gate:5": 32,
+        "tc_c08_common_route_gate:6": 8,
+        "tc_c09_common_route_gate:0": 64,
+        "tc_c09_common_route_gate:1": 64,
+        "tc_c09_common_route_gate:2": 32,
+        "tc_c09_common_route_gate:3": 32,
+        "tc_c09_common_route_gate:4": 64,
+        "tc_c09_common_route_gate:5": 32,
+        "tc_c09_common_route_gate:6": 8,
+        "tc_c10_common_epilogue_route_gate:0": 128,
+        "tc_c10_common_epilogue_route_gate:1": 128,
+        "tc_c10_common_epilogue_route_gate:2": 32,
+        "tc_c10_common_epilogue_route_gate:3": 32,
+        "tc_c10_common_epilogue_route_gate:4": 64,
+        "tc_c10_common_epilogue_route_gate:5": 32,
+        "tc_c10_common_epilogue_route_gate:6": 8,
+        "tc_c10_common_piao_relationship_gate:0": 32,
+        "tc_c10_common_piao_relationship_gate:1": 32,
+        "tc_c10_common_route_gate:0": 128,
+        "tc_c10_common_route_gate:1": 128,
+        "tc_c10_common_route_gate:2": 32,
+        "tc_c10_common_route_gate:3": 32,
+        "tc_c10_common_route_gate:4": 64,
+        "tc_c10_common_route_gate:5": 32,
+        "tc_c10_common_route_gate:6": 8,
+        "tc_c10_xiaoman_entry:0": 64,
+        "tc_c10_xiaoman_entry:1": 64,
+        "tc_c10_zhouzhi_entry:0": 64,
+        "tc_c10_zhouzhi_entry:1": 64
+      }
+    },
+    "witnesses": {
+      "events": {
+        "tc_c02_common_qiu_met": {
+          "nodeId": "tc_c02_common_qiu_met",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "availability",
+            "qiuReply": "reply",
+            "missedGame": "reschedule",
+            "yelanFirst": "food"
+          },
+          "flagsAfter": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "availability",
+            "qiuReply": "reply",
+            "missedGame": "reschedule",
+            "yelanFirst": "food"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 0,
+              "flag": "qiuSignal",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "index": 1,
+              "flag": "reunion",
+              "value": "availability",
+              "label": "先问她哪天有空"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 0,
+              "flag": "qiuReply",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "index": 1,
+              "flag": "missedGame",
+              "value": "reschedule",
+              "label": "发文字，并把下次时间改具体"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "index": 1,
+              "flag": "yelanFirst",
+              "value": "food",
+              "label": "先问她想吃什么"
+            }
+          ]
+        },
+        "tc_c08_huangqiuqiu_human_reveal": {
+          "nodeId": "tc_c08_huangqiuqiu_human_reveal",
+          "flagsBefore": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "availability",
+            "qiuReply": "reply",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "huangqiuqiu"
+          },
+          "flagsAfter": {
+            "qiuMet": true,
+            "qiuForm": "human",
+            "qiuSignal": "record",
+            "reunion": "availability",
+            "qiuReply": "reply",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "huangqiuqiu"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 0,
+              "flag": "qiuSignal",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "index": 1,
+              "flag": "reunion",
+              "value": "availability",
+              "label": "先问她哪天有空"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 0,
+              "flag": "qiuReply",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "index": 1,
+              "flag": "missedGame",
+              "value": "reschedule",
+              "label": "发文字，并把下次时间改具体"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "index": 1,
+              "flag": "yelanFirst",
+              "value": "food",
+              "label": "先问她想吃什么"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "index": 6,
+              "flag": "route",
+              "value": "huangqiuqiu",
+              "label": "兑现与黄球球的约定。"
+            }
+          ]
+        }
+      },
+      "endings": {
+        "tc_c10_zhouzhi_end_friends": {
+          "nodeId": "tc_c10_zhouzhi_end_friends",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "zhouzhi",
+            "zhouzhiOuting": "cinema",
+            "zhouzhiRelationship": "friends"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "zhouzhi",
+            "zhouzhiOuting": "cinema",
+            "zhouzhiRelationship": "friends"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 1,
+              "flag": "qiuSignal",
+              "value": "ignore",
+              "label": "先回柜台，暂时不记"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "index": 1,
+              "flag": "reunion",
+              "value": "availability",
+              "label": "先问她哪天有空"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 1,
+              "flag": "qiuReply",
+              "value": "leave",
+              "label": "不敲门，先离开"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "index": 1,
+              "flag": "missedGame",
+              "value": "reschedule",
+              "label": "发文字，并把下次时间改具体"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "index": 1,
+              "flag": "yelanFirst",
+              "value": "food",
+              "label": "先问她想吃什么"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "index": 1,
+              "flag": "route",
+              "value": "zhouzhi",
+              "label": "约周栀吃一顿不赶着上班的饭，继续认识彼此的日常。"
+            },
+            {
+              "nodeId": "tc_c04_zhouzhi_outing_choice",
+              "index": 1,
+              "flag": "zhouzhiOuting",
+              "value": "cinema",
+              "label": "去影院，允许我们喜欢不同的东西"
+            },
+            {
+              "nodeId": "tc_c09_zhouzhi_relationship_choice",
+              "index": 1,
+              "flag": "zhouzhiRelationship",
+              "value": "friends",
+              "label": "谢谢你告诉我，但我想继续做朋友"
+            }
+          ]
+        },
+        "tc_c10_zhouzhi_end_dating": {
+          "nodeId": "tc_c10_zhouzhi_end_dating",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "zhouzhi",
+            "zhouzhiOuting": "cinema",
+            "zhouzhiRelationship": "dating"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "zhouzhi",
+            "zhouzhiOuting": "cinema",
+            "zhouzhiRelationship": "dating"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 1,
+              "flag": "qiuSignal",
+              "value": "ignore",
+              "label": "先回柜台，暂时不记"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "index": 1,
+              "flag": "reunion",
+              "value": "availability",
+              "label": "先问她哪天有空"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 1,
+              "flag": "qiuReply",
+              "value": "leave",
+              "label": "不敲门，先离开"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "index": 1,
+              "flag": "missedGame",
+              "value": "reschedule",
+              "label": "发文字，并把下次时间改具体"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "index": 1,
+              "flag": "yelanFirst",
+              "value": "food",
+              "label": "先问她想吃什么"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "index": 1,
+              "flag": "route",
+              "value": "zhouzhi",
+              "label": "约周栀吃一顿不赶着上班的饭，继续认识彼此的日常。"
+            },
+            {
+              "nodeId": "tc_c04_zhouzhi_outing_choice",
+              "index": 1,
+              "flag": "zhouzhiOuting",
+              "value": "cinema",
+              "label": "去影院，允许我们喜欢不同的东西"
+            },
+            {
+              "nodeId": "tc_c09_zhouzhi_relationship_choice",
+              "index": 0,
+              "flag": "zhouzhiRelationship",
+              "value": "dating",
+              "label": "愿意。我也想把你放进以后的安排里"
+            }
+          ]
+        },
+        "tc_c10_xiaoman_end_friends": {
+          "nodeId": "tc_c10_xiaoman_end_friends",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "xiaoman",
+            "xiaomanOuting": "books",
+            "xiaomanRelationship": "friends"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "xiaoman",
+            "xiaomanOuting": "books",
+            "xiaomanRelationship": "friends"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 1,
+              "flag": "qiuSignal",
+              "value": "ignore",
+              "label": "先回柜台，暂时不记"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "index": 1,
+              "flag": "reunion",
+              "value": "availability",
+              "label": "先问她哪天有空"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 1,
+              "flag": "qiuReply",
+              "value": "leave",
+              "label": "不敲门，先离开"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "index": 1,
+              "flag": "missedGame",
+              "value": "reschedule",
+              "label": "发文字，并把下次时间改具体"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "index": 1,
+              "flag": "yelanFirst",
+              "value": "food",
+              "label": "先问她想吃什么"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "index": 0,
+              "flag": "route",
+              "value": "xiaoman",
+              "label": "去找小满，听她讲最近的事，也让她看看如今的我。"
+            },
+            {
+              "nodeId": "tc_c04_xiaoman_outing_choice",
+              "index": 1,
+              "flag": "xiaomanOuting",
+              "value": "books",
+              "label": "去旧书摊，给对方挑一本怪书"
+            },
+            {
+              "nodeId": "tc_c09_xiaoman_relationship_choice",
+              "index": 1,
+              "flag": "xiaomanRelationship",
+              "value": "friends",
+              "label": "我很珍惜你，但现在想把我们放在朋友的位置"
+            }
+          ]
+        },
+        "tc_c10_xiaoman_end_dating": {
+          "nodeId": "tc_c10_xiaoman_end_dating",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "xiaoman",
+            "xiaomanOuting": "books",
+            "xiaomanRelationship": "dating"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "xiaoman",
+            "xiaomanOuting": "books",
+            "xiaomanRelationship": "dating"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 1,
+              "flag": "qiuSignal",
+              "value": "ignore",
+              "label": "先回柜台，暂时不记"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "index": 1,
+              "flag": "reunion",
+              "value": "availability",
+              "label": "先问她哪天有空"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 1,
+              "flag": "qiuReply",
+              "value": "leave",
+              "label": "不敲门，先离开"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "index": 1,
+              "flag": "missedGame",
+              "value": "reschedule",
+              "label": "发文字，并把下次时间改具体"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "index": 1,
+              "flag": "yelanFirst",
+              "value": "food",
+              "label": "先问她想吃什么"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "index": 0,
+              "flag": "route",
+              "value": "xiaoman",
+              "label": "去找小满，听她讲最近的事，也让她看看如今的我。"
+            },
+            {
+              "nodeId": "tc_c04_xiaoman_outing_choice",
+              "index": 1,
+              "flag": "xiaomanOuting",
+              "value": "books",
+              "label": "去旧书摊，给对方挑一本怪书"
+            },
+            {
+              "nodeId": "tc_c09_xiaoman_relationship_choice",
+              "index": 0,
+              "flag": "xiaomanRelationship",
+              "value": "dating",
+              "label": "我想和你交往，不只是约着出去玩"
+            }
+          ]
+        }
+      },
+      "stops": {
+        "tc_c10_friends_entry": {
+          "nodeId": "tc_c10_friends_entry",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "friends"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "friends"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 1,
+              "flag": "qiuSignal",
+              "value": "ignore",
+              "label": "先回柜台，暂时不记"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "index": 1,
+              "flag": "reunion",
+              "value": "availability",
+              "label": "先问她哪天有空"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 1,
+              "flag": "qiuReply",
+              "value": "leave",
+              "label": "不敲门，先离开"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "index": 1,
+              "flag": "missedGame",
+              "value": "reschedule",
+              "label": "发文字，并把下次时间改具体"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "index": 1,
+              "flag": "yelanFirst",
+              "value": "food",
+              "label": "先问她想吃什么"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "index": 5,
+              "flag": "route",
+              "value": "friends",
+              "label": "先安排自己的生活，和毛狼、师匠继续做会见面的朋友。"
+            }
+          ]
+        },
+        "tc_c10_piao_entry": {
+          "nodeId": "tc_c10_piao_entry",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "piao",
+            "piaoRelationship": "friends"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "piao",
+            "piaoRelationship": "friends"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 1,
+              "flag": "qiuSignal",
+              "value": "ignore",
+              "label": "先回柜台，暂时不记"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "index": 1,
+              "flag": "reunion",
+              "value": "availability",
+              "label": "先问她哪天有空"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 1,
+              "flag": "qiuReply",
+              "value": "leave",
+              "label": "不敲门，先离开"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "index": 1,
+              "flag": "missedGame",
+              "value": "reschedule",
+              "label": "发文字，并把下次时间改具体"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "index": 1,
+              "flag": "yelanFirst",
+              "value": "food",
+              "label": "先问她想吃什么"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "index": 4,
+              "flag": "route",
+              "value": "piao",
+              "label": "认真回应飘的邀约，也说清自己的心意。"
+            },
+            {
+              "nodeId": "tc_c03_piao_relationship_choice",
+              "index": 1,
+              "flag": "piaoRelationship",
+              "value": "friends",
+              "label": "我很喜欢跟你待着，但现在想要的是朋友关系。我不拿含糊的话留住你。"
+            }
+          ]
+        },
+        "tc_c10_yelan_entry": {
+          "nodeId": "tc_c10_yelan_entry",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "yelan"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "yelan"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 1,
+              "flag": "qiuSignal",
+              "value": "ignore",
+              "label": "先回柜台，暂时不记"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "index": 1,
+              "flag": "reunion",
+              "value": "availability",
+              "label": "先问她哪天有空"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 1,
+              "flag": "qiuReply",
+              "value": "leave",
+              "label": "不敲门，先离开"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "index": 1,
+              "flag": "missedGame",
+              "value": "reschedule",
+              "label": "发文字，并把下次时间改具体"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "index": 1,
+              "flag": "yelanFirst",
+              "value": "food",
+              "label": "先问她想吃什么"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "index": 3,
+              "flag": "route",
+              "value": "yelan",
+              "label": "再约叶岚一次，让见面不只是游戏队的线下活动。"
+            }
+          ]
+        },
+        "tc_c10_mengyao_entry": {
+          "nodeId": "tc_c10_mengyao_entry",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "mengyao"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "mengyao"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 1,
+              "flag": "qiuSignal",
+              "value": "ignore",
+              "label": "先回柜台，暂时不记"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "index": 1,
+              "flag": "reunion",
+              "value": "availability",
+              "label": "先问她哪天有空"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 1,
+              "flag": "qiuReply",
+              "value": "leave",
+              "label": "不敲门，先离开"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "index": 1,
+              "flag": "missedGame",
+              "value": "reschedule",
+              "label": "发文字，并把下次时间改具体"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "index": 1,
+              "flag": "yelanFirst",
+              "value": "food",
+              "label": "先问她想吃什么"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "index": 2,
+              "flag": "route",
+              "value": "mengyao",
+              "label": "把和孟遥没说完的话接下去，看看我们现在还能怎样相处。"
+            }
+          ]
+        },
+        "tc_c10_huangqiuqiu_entry": {
+          "nodeId": "tc_c10_huangqiuqiu_entry",
+          "flagsBefore": {
+            "qiuMet": true,
+            "qiuForm": "human",
+            "qiuSignal": "record",
+            "reunion": "availability",
+            "qiuReply": "reply",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "huangqiuqiu"
+          },
+          "flagsAfter": {
+            "qiuMet": true,
+            "qiuForm": "human",
+            "qiuSignal": "record",
+            "reunion": "availability",
+            "qiuReply": "reply",
+            "missedGame": "reschedule",
+            "yelanFirst": "food",
+            "route": "huangqiuqiu"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 0,
+              "flag": "qiuSignal",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "index": 1,
+              "flag": "reunion",
+              "value": "availability",
+              "label": "先问她哪天有空"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 0,
+              "flag": "qiuReply",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "index": 1,
+              "flag": "missedGame",
+              "value": "reschedule",
+              "label": "发文字，并把下次时间改具体"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "index": 1,
+              "flag": "yelanFirst",
+              "value": "food",
+              "label": "先问她想吃什么"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "index": 6,
+              "flag": "route",
+              "value": "huangqiuqiu",
+              "label": "兑现与黄球球的约定。"
+            }
+          ]
+        }
+      },
+      "hiddenQualification": {
+        "ignore/leave": {
+          "nodeId": "tc_c03_common_route_choice",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 1,
+              "flag": "qiuSignal",
+              "value": "ignore",
+              "label": "先回柜台，暂时不记"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "index": 1,
+              "flag": "reunion",
+              "value": "availability",
+              "label": "先问她哪天有空"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 1,
+              "flag": "qiuReply",
+              "value": "leave",
+              "label": "不敲门，先离开"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "index": 1,
+              "flag": "missedGame",
+              "value": "reschedule",
+              "label": "发文字，并把下次时间改具体"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "index": 1,
+              "flag": "yelanFirst",
+              "value": "food",
+              "label": "先问她想吃什么"
+            }
+          ]
+        },
+        "ignore/reply": {
+          "nodeId": "tc_c03_common_route_choice",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "reply",
+            "missedGame": "reschedule",
+            "yelanFirst": "food"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "availability",
+            "qiuReply": "reply",
+            "missedGame": "reschedule",
+            "yelanFirst": "food"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 1,
+              "flag": "qiuSignal",
+              "value": "ignore",
+              "label": "先回柜台，暂时不记"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "index": 1,
+              "flag": "reunion",
+              "value": "availability",
+              "label": "先问她哪天有空"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 0,
+              "flag": "qiuReply",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "index": 1,
+              "flag": "missedGame",
+              "value": "reschedule",
+              "label": "发文字，并把下次时间改具体"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "index": 1,
+              "flag": "yelanFirst",
+              "value": "food",
+              "label": "先问她想吃什么"
+            }
+          ]
+        },
+        "record/leave": {
+          "nodeId": "tc_c03_common_route_choice",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "availability",
+            "qiuReply": "leave",
+            "missedGame": "reschedule",
+            "yelanFirst": "food"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 0,
+              "flag": "qiuSignal",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "index": 1,
+              "flag": "reunion",
+              "value": "availability",
+              "label": "先问她哪天有空"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 1,
+              "flag": "qiuReply",
+              "value": "leave",
+              "label": "不敲门，先离开"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "index": 1,
+              "flag": "missedGame",
+              "value": "reschedule",
+              "label": "发文字，并把下次时间改具体"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "index": 1,
+              "flag": "yelanFirst",
+              "value": "food",
+              "label": "先问她想吃什么"
+            }
+          ]
+        },
+        "record/reply": {
+          "nodeId": "tc_c03_common_route_choice",
+          "flagsBefore": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "availability",
+            "qiuReply": "reply",
+            "missedGame": "reschedule",
+            "yelanFirst": "food"
+          },
+          "flagsAfter": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "availability",
+            "qiuReply": "reply",
+            "missedGame": "reschedule",
+            "yelanFirst": "food"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 0,
+              "flag": "qiuSignal",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "index": 1,
+              "flag": "reunion",
+              "value": "availability",
+              "label": "先问她哪天有空"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 0,
+              "flag": "qiuReply",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "index": 1,
+              "flag": "missedGame",
+              "value": "reschedule",
+              "label": "发文字，并把下次时间改具体"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "index": 1,
+              "flag": "yelanFirst",
+              "value": "food",
+              "label": "先问她想吃什么"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

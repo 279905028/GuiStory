@@ -1,0 +1,13 @@
+{
+  "key": "xiaoman-new-coat-v2",
+  "character": "xiaoman",
+  "file": "char-xiaoman-new-coat-base",
+  "ref": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+  "references": [
+    "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/xiaoman/originals/char-xiaoman-new-coat-base-v1.png"
+  ],
+  "prompt": "Use case: precise-object-edit\n编辑这张罗小满立绘，修正右侧灰蓝外套和右手姿势：她没有穿外套，任何手臂都不能进入外套袖筒。将画面右侧的裸露前臂弯曲抬起到腰间，近乎水平、自然托住一件整齐折叠的浅灰蓝色包边外套。外套只是搭在横向前臂上，两个空的袖筒一起垂在前臂外侧；她的手腕及手掌清晰在衣服外，不能有袖口套在她手腕上。两肩及两上臂均只穿白色短袖T恤。不要衣袖与手臂连接。其他全部保持不变：米金短发、face-v2五官、笑容、头部落点、成年身份、皮肤、另一手插牛仔裤袋、裤子、比例、1024×1536原裁切和半写实手绘风格。不画环境，保持真实透明alpha背景，无文字，无地面。",
+  "attempt": 2,
+  "generatedPath": "/Users/yipin/.codex/generated_images/01a162af-0842-7a61-a6ca-7846101abfe6/exec-62562133-0206-4501-b921-3385dab5af08.png",
+  "tool": "image_gen built-in"
+}

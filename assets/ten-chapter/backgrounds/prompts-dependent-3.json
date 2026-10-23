@@ -1,0 +1,44 @@
+{
+  "specs": [
+    {
+      "id": "echo-closed-dawn",
+      "mode": "edit",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Only change lighting to 06:00 cool early dawn, sky already becoming pale blue-white, ambient street quiet and cool. The nearest LEFT double doors stay firmly shut and business interior remains UNLIT, porch light OFF. No open entrance, no return to business, no signs or people. Preserve all geometry.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/backgrounds/sources/bg-echo-closed-day.png"
+      ]
+    },
+    {
+      "id": "xiaoman-home-day-v2",
+      "mode": "edit",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Precise single-object correction: on the center table the RIGHT transparent shopping bag currently contains green leafy vegetables. Replace ONLY its contents with red TOMATOES, so there are TWO separate transparent bags BOTH filled with red tomatoes. Keep bags, all furniture, mirror, small hair scissors, light and composition unchanged. No cabbage or leafy vegetables.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/backgrounds/sources/bg-xiaoman-home-day.png"
+      ]
+    },
+    {
+      "id": "bookstore-day-v2",
+      "mode": "edit",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Precise furniture correction: add ONE second matching simple slate-blue upholstered wooden reading chair to the RIGHT of the round reading table, facing the existing chair. Exactly TWO visible chairs around the same table. Keep entire bookstore, shelves, mall window, plants, lighting and camera unchanged. No people.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/backgrounds/sources/bg-bookstore-day.png"
+      ]
+    },
+    {
+      "id": "netcafe-pc-day-v2",
+      "mode": "edit",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Precise removal only: remove the tiny background CUSTOMER HEAD at the far left edge above rear computer screens, replacing with continuous background wall/empty chair. Keep every other pixel detail, two foreground PCs, water bottles, geometry, daytime lighting and camera unchanged. No people anywhere.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/backgrounds/sources/bg-netcafe-pc-day.png"
+      ]
+    },
+    {
+      "id": "practice-room-blue",
+      "mode": "edit",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Convert this modest small karaoke room to the casual afternoon hourly singing scene: same compact room and sofa, cool BLUE karaoke lighting on sofa and wall, softly glowing abstract screen with NO lyrics or text. Two handheld microphones rest on table; replace disposable cups with TWO clear drinking glasses containing half-melted ICE. Remove work clipboard/paperwork, desk task lamp and loose tabletop mixer/cables to avoid workplace meeting cues; simple audio cabinet stays. No people, no new luxury decor, no stage, no business identity or sign.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/bg-room.webp"
+      ]
+    }
+  ]
+}

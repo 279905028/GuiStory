@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "common/ch09",
+  "owner": "E03",
+  "scenes": {
+    "ts_c09_common_confirmed_roster": {
+      "chapter": 9,
+      "title": "第61天·下午｜留下来的空格",
+      "bg": "tc-bg-netcafe-counter-day",
+      "time": "下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "下午",
+        "day": 61
+      },
+      "location": "网吧柜台",
+      "day": 61,
+      "dayLabel": "第61天"
+    },
+    "ts_c09_common_chapter_end": {
+      "chapter": 9,
+      "title": "第九章 · 把明天说具体",
+      "bg": "tc-bg-chapter-end",
+      "time": "章末",
+      "chronology": {
+        "domain": "chapter-range",
+        "mode": "present",
+        "label": "第61—90天"
+      },
+      "location": "",
+      "day": null,
+      "dayLabel": "第61—90天"
+    }
+  },
+  "nodes": {
+    "tc_c09_common_entry": {
+      "id": "tc_c09_common_entry",
+      "type": "line",
+      "scene": "ts_c09_common_confirmed_roster",
+      "speaker": "narrator",
+      "text": "试排结束，师匠和我们坐下来，把能继续的部分定了。",
+      "character": null,
+      "next": "tc_c09_common_confirmed_roster_02"
+    },
+    "tc_c09_common_confirmed_roster_02": {
+      "id": "tc_c09_common_confirmed_roster_02",
+      "type": "line",
+      "scene": "ts_c09_common_confirmed_roster",
+      "speaker": "narrator",
+      "text": "我以后轮班，仍有夜班，也能提前知道哪几天完整休息。收入没有突然翻一倍，店里的事也不会因为排得整齐就再不出错。但大家把能做和不能做的说清楚，日子比我刚回来时更可预计一点。",
+      "character": null,
+      "next": "tc_c09_common_confirmed_roster_03"
+    },
+    "tc_c09_common_confirmed_roster_03": {
+      "id": "tc_c09_common_confirmed_roster_03",
+      "type": "line",
+      "scene": "ts_c09_common_confirmed_roster",
+      "speaker": "narrator",
+      "text": "我把自己的那几天记进手机。空白留着，没有一口气全部填上。",
+      "character": null,
+      "next": "tc_c09_common_confirmed_roster_04"
+    },
+    "tc_c09_common_confirmed_roster_04": {
+      "id": "tc_c09_common_confirmed_roster_04",
+      "type": "line",
+      "scene": "ts_c09_common_confirmed_roster",
+      "speaker": "narrator",
+      "text": "毛狼问我空下来做什么，我说有些要见人，有些还不知道。",
+      "character": null,
+      "next": "tc_c09_common_confirmed_roster_05"
+    },
+    "tc_c09_common_confirmed_roster_05": {
+      "id": "tc_c09_common_confirmed_roster_05",
+      "type": "line",
+      "scene": "ts_c09_common_confirmed_roster",
+      "speaker": "maolang",
+      "text": "“终于允许不知道了？”",
+      "character": null,
+      "next": "tc_c09_common_confirmed_roster_06"
+    },
+    "tc_c09_common_confirmed_roster_06": {
+      "id": "tc_c09_common_confirmed_roster_06",
+      "type": "line",
+      "scene": "ts_c09_common_confirmed_roster",
+      "speaker": "wenwen",
+      "text": "“我一直允许。”",
+      "character": null,
+      "next": "tc_c09_common_confirmed_roster_07"
+    },
+    "tc_c09_common_confirmed_roster_07": {
+      "id": "tc_c09_common_confirmed_roster_07",
+      "type": "line",
+      "scene": "ts_c09_common_confirmed_roster",
+      "speaker": "maolang",
+      "text": "“允许自己不知道，还是允许别人知道你不知道？”",
+      "character": null,
+      "next": "tc_c09_common_confirmed_roster_08"
+    },
+    "tc_c09_common_confirmed_roster_08": {
+      "id": "tc_c09_common_confirmed_roster_08",
+      "type": "line",
+      "scene": "ts_c09_common_confirmed_roster",
+      "speaker": "narrator",
+      "text": "我抬脚轻轻踢了一下他的椅腿。他笑着往后躲，没有乘胜给我上第二课。",
+      "character": null,
+      "next": "tc_c09_common_confirmed_roster_09"
+    },
+    "tc_c09_common_confirmed_roster_09": {
+      "id": "tc_c09_common_confirmed_roster_09",
+      "type": "line",
+      "scene": "ts_c09_common_confirmed_roster",
+      "speaker": "narrator",
+      "text": "窗外又落雨。路边卖伞的人把伞撑起来，遮住自己卖的伞，我看了很久，觉得这画面有点好笑，拍下来留在手机里，想下次见面时给约好的人看。",
+      "character": null,
+      "next": "tc_c09_common_confirmed_roster_10"
+    },
+    "tc_c09_common_confirmed_roster_10": {
+      "id": "tc_c09_common_confirmed_roster_10",
+      "type": "line",
+      "scene": "ts_c09_common_confirmed_roster",
+      "speaker": "narrator",
+      "text": "这次没有工作结果可以汇报，也没有需要对方帮忙解决的事。我只是想让那个人看见。",
+      "character": null,
+      "next": "tc_c09_common_route_gate"
+    },
+    "tc_c09_common_exit": {
+      "id": "tc_c09_common_exit",
+      "type": "end",
+      "scene": "ts_c09_common_chapter_end",
+      "title": "第九章 · 把明天说具体",
+      "text": "",
+      "character": null,
+      "next": "tc_c10_common_entry",
+      "nextChapter": "第十章 · 雨停之前也往前走"
+    },
+    "tc_c09_common_route_gate": {
+      "id": "tc_c09_common_route_gate",
+      "type": "gate",
+      "scene": "ts_c09_common_confirmed_roster",
+      "cases": [
+        {
+          "flag": "route",
+          "value": "xiaoman",
+          "next": "tc_c09_xiaoman_entry"
+        },
+        {
+          "flag": "route",
+          "value": "zhouzhi",
+          "next": "tc_c09_zhouzhi_entry"
+        },
+        {
+          "flag": "route",
+          "value": "mengyao",
+          "next": "tc_c09_mengyao_entry"
+        },
+        {
+          "flag": "route",
+          "value": "yelan",
+          "next": "tc_c09_yelan_entry"
+        },
+        {
+          "flag": "route",
+          "value": "piao",
+          "next": "tc_c09_piao_entry"
+        },
+        {
+          "flag": "route",
+          "value": "friends",
+          "next": "tc_c09_friends_entry"
+        },
+        {
+          "flag": "route",
+          "value": "huangqiuqiu",
+          "next": "tc_c09_huangqiuqiu_entry"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    }
+  },
+  "imports": [
+    "tc_c09_friends_entry",
+    "tc_c09_huangqiuqiu_entry",
+    "tc_c09_mengyao_entry",
+    "tc_c09_piao_entry",
+    "tc_c09_xiaoman_entry",
+    "tc_c09_yelan_entry",
+    "tc_c09_zhouzhi_entry",
+    "tc_c10_common_entry"
+  ],
+  "exports": {
+    "tc_c09_common_entry": "tc_c09_common_entry",
+    "tc_c09_common_exit": "tc_c09_common_exit",
+    "tc_c09_common_route_gate": "tc_c09_common_route_gate"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c09_common_exit"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c09_common_route_gate"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 11,
+      "endLine": 11,
+      "nodeIds": [
+        "tc_c09_common_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 13,
+      "endLine": 13,
+      "nodeIds": [
+        "tc_c09_common_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 15,
+      "endLine": 15,
+      "nodeIds": [
+        "tc_c09_common_confirmed_roster_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 17,
+      "endLine": 17,
+      "nodeIds": [
+        "tc_c09_common_confirmed_roster_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 19,
+      "endLine": 19,
+      "nodeIds": [
+        "tc_c09_common_confirmed_roster_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 21,
+      "endLine": 21,
+      "nodeIds": [
+        "tc_c09_common_confirmed_roster_05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 23,
+      "endLine": 23,
+      "nodeIds": [
+        "tc_c09_common_confirmed_roster_06"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 25,
+      "endLine": 25,
+      "nodeIds": [
+        "tc_c09_common_confirmed_roster_07"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 27,
+      "endLine": 27,
+      "nodeIds": [
+        "tc_c09_common_confirmed_roster_08"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 29,
+      "endLine": 29,
+      "nodeIds": [
+        "tc_c09_common_confirmed_roster_09"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 31,
+      "endLine": 31,
+      "nodeIds": [
+        "tc_c09_common_confirmed_roster_10"
+      ],
+      "kind": "narration"
+    }
+  ],
+  "exclusions": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 1,
+      "endLine": 1,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 3,
+      "endLine": 3,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 5,
+      "endLine": 5,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 7,
+      "endLine": 7,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 618,
+      "endLine": 618,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 620,
+      "endLine": 620,
+      "reason": "navigation"
+    }
+  ],
+  "assetRequests": [
+    {
+      "id": "e01-art-ch09",
+      "a01Ids": [
+        "tc-bg-netcafe-counter-day",
+        "tc-char-shijiang-human-base",
+        "tc-char-shijiang-human-expression-hesitant",
+        "tc-char-shijiang-human-expression-smile",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile"
+      ]
+    }
+  ]
+}

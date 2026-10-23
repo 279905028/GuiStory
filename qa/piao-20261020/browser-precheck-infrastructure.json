@@ -1,0 +1,30 @@
+{
+  "startedAt": "2026-10-20T07:36:13.021Z",
+  "pass": false,
+  "checks": [],
+  "screenshots": [],
+  "pageErrors": [],
+  "network": [],
+  "initialHashes": {
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "9558af3b9b11d7716667ef1d7762f84b16b3acf185e44925b556d371292d83ee",
+    "story.js": "9d3d6762fc68c0061ceccec11781e69bda5d7d503dfb303cce29d0e5db22cb87",
+    "index.html": "2e0682faf21a1ce91881e267c9ac741b1a2975b66927dca3e4ed2d25bb6efaa9",
+    "styles.css": "6ec050b339efac44a46a607766714a3d7677bcc82abe3181ed4d90a2dbb441a0"
+  },
+  "scope": "正式 v0.4 页面；新开局至飘首次出场自然 UI；合法快照覆盖七选项、飘双结局与非飘婚礼、重选和存档。",
+  "limitations": [
+    "浏览器为隔离 Google Chrome；手机仅为视口模拟，未覆盖实体手机、Safari 或 Firefox。",
+    "自然 UI 全程从开局走至飘首次出场；后续使用正式引擎自然重放生成的合法快照与真实 UI 续读。",
+    "本轮针对飘接入；不重复原有音频和全部损坏存档专项。"
+  ],
+  "error": "Error: listen EPERM: operation not permitted 127.0.0.1\n    at Server.setupListenHandle [as _listen2] (node:net:1987:21)\n    at listenInCluster (node:net:2066:12)\n    at node:net:2275:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)",
+  "finishedAt": "2026-10-20T07:36:13.025Z",
+  "finalHashes": {
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "9558af3b9b11d7716667ef1d7762f84b16b3acf185e44925b556d371292d83ee",
+    "story.js": "9d3d6762fc68c0061ceccec11781e69bda5d7d503dfb303cce29d0e5db22cb87",
+    "index.html": "2e0682faf21a1ce91881e267c9ac741b1a2975b66927dca3e4ed2d25bb6efaa9",
+    "styles.css": "6ec050b339efac44a46a607766714a3d7677bcc82abe3181ed4d90a2dbb441a0"
+  }
+}

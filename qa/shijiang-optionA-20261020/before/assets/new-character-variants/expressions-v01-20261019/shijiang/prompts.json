@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-19",
+  "skill": "game-character-gen + imagegen",
+  "mode": "built-in",
+  "character": "shijiang",
+  "candidateOnly": true,
+  "entries": [
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "age": 32,
+      "type": "expression",
+      "slug": "smile",
+      "label": "微笑",
+      "file": "char-shijiang-expression-smile.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-smile.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-shijiang.png",
+      "referenceVersion": "v3",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: one standalone transparent visual-novel character sprite for 《毕节，雨停之前》. This is a local variation of an existing approved character, NOT a redesign.\nInput image 1 is the exact edit target and identity reference. Character 师匠. Original fictional adult Chinese man age 32. Preserve this broader squarish face, blunt broad chin, broad natural nose, level calm brows/eyes, short low-volume black hair, thin dark rectangular eyeglasses, navy blue rolled-sleeve work shirt over dark T-shirt, dark trousers, the red-tipped precision screwdriver and other existing chest-pocket items. He is a reliable ordinary electronics repair professional, not elderly, a martial-arts master, or a model.\nRequested variant: 微笑 / smile. A clearly warmer natural closed-mouth smile: mouth corners gently raised, slight smile in the eyes, cheeks lift naturally. Friendly adult warmth, not a broad toothy grin.\nChange ONLY facial expression (brows, eyelids, eye gaze, lips and minimal natural cheek movement). Preserve the exact original body posture, hand positions, head placement, head tilt, silhouette and clothing.\nKeep the original face bone structure and recognizability, adult body proportions, costume colors and fabric, source half-body-to-upper-thigh framing and source Japanese semi-realistic painted look, lighting and colors. Entire hair/top of head and all visible hands remain inside canvas. Target portrait 1024x1536, same scale and placement as source as closely as possible; no zoom-in and no face-only crop.\nReturn exactly one character, one variant, one panel. Genuine transparent RGBA background with clean antialiased hair and clothing boundaries; no black/white backdrop, no scene, no gradient, no haze, no glow, no baked checkerboard, no ground shadow. No text, labels, watermark, collage, duplicate person or extra limbs.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-shijiang.png"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-4fc18e18-faab-4efe-b6bf-d96e427be9ea.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-4fc18e18-faab-4efe-b6bf-d96e427be9ea.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "age": 32,
+      "type": "expression",
+      "slug": "serious",
+      "label": "认真",
+      "file": "char-shijiang-expression-serious.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-serious.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-shijiang.png",
+      "referenceVersion": "v3",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: one standalone transparent visual-novel character sprite for 《毕节，雨停之前》. This is a local variation of an existing approved character, NOT a redesign.\nInput image 1 is the exact edit target and identity reference. Character 师匠. Original fictional adult Chinese man age 32. Preserve this broader squarish face, blunt broad chin, broad natural nose, level calm brows/eyes, short low-volume black hair, thin dark rectangular eyeglasses, navy blue rolled-sleeve work shirt over dark T-shirt, dark trousers, the red-tipped precision screwdriver and other existing chest-pocket items. He is a reliable ordinary electronics repair professional, not elderly, a martial-arts master, or a model.\nRequested variant: 认真 / serious. A clearly serious attentive expression: mouth closed and level, smile fully removed, brows lightly focused, steady direct attentive eyes. Calm concentration, no anger or scowl.\nChange ONLY facial expression (brows, eyelids, eye gaze, lips and minimal natural cheek movement). Preserve the exact original body posture, hand positions, head placement, head tilt, silhouette and clothing.\nKeep the original face bone structure and recognizability, adult body proportions, costume colors and fabric, source half-body-to-upper-thigh framing and source Japanese semi-realistic painted look, lighting and colors. Entire hair/top of head and all visible hands remain inside canvas. Target portrait 1024x1536, same scale and placement as source as closely as possible; no zoom-in and no face-only crop.\nReturn exactly one character, one variant, one panel. Genuine transparent RGBA background with clean antialiased hair and clothing boundaries; no black/white backdrop, no scene, no gradient, no haze, no glow, no baked checkerboard, no ground shadow. No text, labels, watermark, collage, duplicate person or extra limbs.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-shijiang.png"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-1219095e-8e1c-422f-abdb-f8b44e616f2e.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-1219095e-8e1c-422f-abdb-f8b44e616f2e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "age": 32,
+      "type": "expression",
+      "slug": "hesitant",
+      "label": "犹豫",
+      "file": "char-shijiang-expression-hesitant.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-hesitant.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-shijiang.png",
+      "referenceVersion": "v3",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: one standalone transparent visual-novel character sprite for 《毕节，雨停之前》. This is a local variation of an existing approved character, NOT a redesign.\nInput image 1 is the exact edit target and identity reference. Character 师匠. Original fictional adult Chinese man age 32. Preserve this broader squarish face, blunt broad chin, broad natural nose, level calm brows/eyes, short low-volume black hair, thin dark rectangular eyeglasses, navy blue rolled-sleeve work shirt over dark T-shirt, dark trousers, the red-tipped precision screwdriver and other existing chest-pocket items. He is a reliable ordinary electronics repair professional, not elderly, a martial-arts master, or a model.\nRequested variant: 犹豫 / hesitant. A clearly hesitant, uncertain expression: slight inward lift of inner eyebrows, tiny uneven brow tension, lips softly pressed without smile, eyes subtly avert a little while head angle remains fixed. A pause before saying something difficult, natural adult restraint.\nChange ONLY facial expression (brows, eyelids, eye gaze, lips and minimal natural cheek movement). Preserve the exact original body posture, hand positions, head placement, head tilt, silhouette and clothing.\nKeep the original face bone structure and recognizability, adult body proportions, costume colors and fabric, source half-body-to-upper-thigh framing and source Japanese semi-realistic painted look, lighting and colors. Entire hair/top of head and all visible hands remain inside canvas. Target portrait 1024x1536, same scale and placement as source as closely as possible; no zoom-in and no face-only crop.\nReturn exactly one character, one variant, one panel. Genuine transparent RGBA background with clean antialiased hair and clothing boundaries; no black/white backdrop, no scene, no gradient, no haze, no glow, no baked checkerboard, no ground shadow. No text, labels, watermark, collage, duplicate person or extra limbs.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-shijiang.png"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-e579571c-93f1-47bf-8456-1e9735a3c4eb.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-e579571c-93f1-47bf-8456-1e9735a3c4eb.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "age": 32,
+      "type": "expression",
+      "slug": "surprised",
+      "label": "惊讶",
+      "file": "char-shijiang-expression-surprised.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-surprised.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-shijiang.png",
+      "referenceVersion": "v3",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: one standalone transparent visual-novel character sprite for 《毕节，雨停之前》. This is a local variation of an existing approved character, NOT a redesign.\nInput image 1 is the exact edit target and identity reference. Character 师匠. Original fictional adult Chinese man age 32. Preserve this broader squarish face, blunt broad chin, broad natural nose, level calm brows/eyes, short low-volume black hair, thin dark rectangular eyeglasses, navy blue rolled-sleeve work shirt over dark T-shirt, dark trousers, the red-tipped precision screwdriver and other existing chest-pocket items. He is a reliable ordinary electronics repair professional, not elderly, a martial-arts master, or a model.\nRequested variant: 惊讶 / surprised. A clearly surprised natural expression: both eyebrows visibly raised, eyes moderately widened, lips gently parted in a small surprised opening. No smile, no cartoon shock, no exaggerated bulging eyes.\nChange ONLY facial expression (brows, eyelids, eye gaze, lips and minimal natural cheek movement). Preserve the exact original body posture, hand positions, head placement, head tilt, silhouette and clothing.\nKeep the original face bone structure and recognizability, adult body proportions, costume colors and fabric, source half-body-to-upper-thigh framing and source Japanese semi-realistic painted look, lighting and colors. Entire hair/top of head and all visible hands remain inside canvas. Target portrait 1024x1536, same scale and placement as source as closely as possible; no zoom-in and no face-only crop.\nReturn exactly one character, one variant, one panel. Genuine transparent RGBA background with clean antialiased hair and clothing boundaries; no black/white backdrop, no scene, no gradient, no haze, no glow, no baked checkerboard, no ground shadow. No text, labels, watermark, collage, duplicate person or extra limbs.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-shijiang.png"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-c44feaa7-452b-47bb-8c3b-cf85851fb686.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-c44feaa7-452b-47bb-8c3b-cf85851fb686.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "age": 32,
+      "type": "expression",
+      "slug": "displeased",
+      "label": "不悦",
+      "file": "char-shijiang-expression-displeased.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-displeased.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-shijiang.png",
+      "referenceVersion": "v3",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: one standalone transparent visual-novel character sprite for 《毕节，雨停之前》. This is a local variation of an existing approved character, NOT a redesign.\nInput image 1 is the exact edit target and identity reference. Character 师匠. Original fictional adult Chinese man age 32. Preserve this broader squarish face, blunt broad chin, broad natural nose, level calm brows/eyes, short low-volume black hair, thin dark rectangular eyeglasses, navy blue rolled-sleeve work shirt over dark T-shirt, dark trousers, the red-tipped precision screwdriver and other existing chest-pocket items. He is a reliable ordinary electronics repair professional, not elderly, a martial-arts master, or a model.\nRequested variant: 不悦 / displeased. A clearly displeased restrained expression: brows slightly knitted and lowered, eyes firmly focused, closed mouth corners subtly down, jaw set. No smile, no shouting, no exaggerated villain rage.\nChange ONLY facial expression (brows, eyelids, eye gaze, lips and minimal natural cheek movement). Preserve the exact original body posture, hand positions, head placement, head tilt, silhouette and clothing.\nKeep the original face bone structure and recognizability, adult body proportions, costume colors and fabric, source half-body-to-upper-thigh framing and source Japanese semi-realistic painted look, lighting and colors. Entire hair/top of head and all visible hands remain inside canvas. Target portrait 1024x1536, same scale and placement as source as closely as possible; no zoom-in and no face-only crop.\nReturn exactly one character, one variant, one panel. Genuine transparent RGBA background with clean antialiased hair and clothing boundaries; no black/white backdrop, no scene, no gradient, no haze, no glow, no baked checkerboard, no ground shadow. No text, labels, watermark, collage, duplicate person or extra limbs.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-shijiang.png"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-6c107e46-8682-4e63-ae5c-421f48aa45f6.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-6c107e46-8682-4e63-ae5c-421f48aa45f6.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "age": 32,
+      "type": "expression",
+      "slug": "downcast",
+      "label": "低落",
+      "file": "char-shijiang-expression-downcast.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-downcast.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-shijiang.png",
+      "referenceVersion": "v3",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: one standalone transparent visual-novel character sprite for 《毕节，雨停之前》. This is a local variation of an existing approved character, NOT a redesign.\nInput image 1 is the exact edit target and identity reference. Character 师匠. Original fictional adult Chinese man age 32. Preserve this broader squarish face, blunt broad chin, broad natural nose, level calm brows/eyes, short low-volume black hair, thin dark rectangular eyeglasses, navy blue rolled-sleeve work shirt over dark T-shirt, dark trousers, the red-tipped precision screwdriver and other existing chest-pocket items. He is a reliable ordinary electronics repair professional, not elderly, a martial-arts master, or a model.\nRequested variant: 低落 / downcast. A clearly downcast quiet expression: gaze lowered modestly, inner brows slightly raised with sadness, eyelids slightly heavier, closed relaxed mouth subtly downturned. No smile, no tears, no melodramatic despair.\nChange ONLY facial expression (brows, eyelids, eye gaze, lips and minimal natural cheek movement). Preserve the exact original body posture, hand positions, head placement, head tilt, silhouette and clothing.\nKeep the original face bone structure and recognizability, adult body proportions, costume colors and fabric, source half-body-to-upper-thigh framing and source Japanese semi-realistic painted look, lighting and colors. Entire hair/top of head and all visible hands remain inside canvas. Target portrait 1024x1536, same scale and placement as source as closely as possible; no zoom-in and no face-only crop.\nReturn exactly one character, one variant, one panel. Genuine transparent RGBA background with clean antialiased hair and clothing boundaries; no black/white backdrop, no scene, no gradient, no haze, no glow, no baked checkerboard, no ground shadow. No text, labels, watermark, collage, duplicate person or extra limbs.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-shijiang.png"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-9cbebe99-e399-4d28-8d42-85906fea3c52.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-9cbebe99-e399-4d28-8d42-85906fea3c52.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "age": 32,
+      "type": "action",
+      "slug": "wave",
+      "label": "招手",
+      "file": "char-shijiang-action-wave.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-wave.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-shijiang.png",
+      "referenceVersion": "v3",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: one standalone transparent visual-novel character sprite for 《毕节，雨停之前》. This is a local variation of an existing approved character, NOT a redesign.\nInput image 1 is the exact edit target and identity reference. Character 师匠. Original fictional adult Chinese man age 32. Preserve this broader squarish face, blunt broad chin, broad natural nose, level calm brows/eyes, short low-volume black hair, thin dark rectangular eyeglasses, navy blue rolled-sleeve work shirt over dark T-shirt, dark trousers, the red-tipped precision screwdriver and other existing chest-pocket items. He is a reliable ordinary electronics repair professional, not elderly, a martial-arts master, or a model.\nRequested variant: 招手 / wave. Change the body pose only as necessary to raise the normally lowered hand to shoulder height in a clear natural greeting wave, palm visible, five anatomical fingers slightly separated; keep the other hand in its trouser pocket. A friendly restrained smile. Hand stays fully inside the frame, not covering face.\nPreserve facial identity, original hairstyle, age and outfit exactly. The action changes one arm/hand naturally; preserve the other hand, outfit details and torso proportions. No new prop or accessory.\nKeep the original face bone structure and recognizability, adult body proportions, costume colors and fabric, source half-body-to-upper-thigh framing and source Japanese semi-realistic painted look, lighting and colors. Entire hair/top of head and all visible hands remain inside canvas. Target portrait 1024x1536, same scale and placement as source as closely as possible; no zoom-in and no face-only crop.\nReturn exactly one character, one variant, one panel. Genuine transparent RGBA background with clean antialiased hair and clothing boundaries; no black/white backdrop, no scene, no gradient, no haze, no glow, no baked checkerboard, no ground shadow. No text, labels, watermark, collage, duplicate person or extra limbs.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-shijiang.png"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-1eb88ac5-ada1-47e0-91e1-bc351ad6a8de.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-1eb88ac5-ada1-47e0-91e1-bc351ad6a8de.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "age": 32,
+      "type": "action",
+      "slug": "thinking",
+      "label": "思考",
+      "file": "char-shijiang-action-thinking.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-thinking.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-shijiang.png",
+      "referenceVersion": "v3",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: one standalone transparent visual-novel character sprite for 《毕节，雨停之前》. This is a local variation of an existing approved character, NOT a redesign.\nInput image 1 is the exact edit target and identity reference. Character 师匠. Original fictional adult Chinese man age 32. Preserve this broader squarish face, blunt broad chin, broad natural nose, level calm brows/eyes, short low-volume black hair, thin dark rectangular eyeglasses, navy blue rolled-sleeve work shirt over dark T-shirt, dark trousers, the red-tipped precision screwdriver and other existing chest-pocket items. He is a reliable ordinary electronics repair professional, not elderly, a martial-arts master, or a model.\nRequested variant: 思考 / thinking. Change the body pose only as necessary to lift the normally lowered hand to lightly touch the chin in a natural adult thinking gesture, bent elbow. Keep the other hand in its trouser pocket. Thoughtful focused eyes, closed neutral mouth, no smile. Preserve complete face readability; no hand covering mouth or eyes.\nPreserve facial identity, original hairstyle, age and outfit exactly. The action changes one arm/hand naturally; preserve the other hand, outfit details and torso proportions. No new prop or accessory.\nKeep the original face bone structure and recognizability, adult body proportions, costume colors and fabric, source half-body-to-upper-thigh framing and source Japanese semi-realistic painted look, lighting and colors. Entire hair/top of head and all visible hands remain inside canvas. Target portrait 1024x1536, same scale and placement as source as closely as possible; no zoom-in and no face-only crop.\nReturn exactly one character, one variant, one panel. Genuine transparent RGBA background with clean antialiased hair and clothing boundaries; no black/white backdrop, no scene, no gradient, no haze, no glow, no baked checkerboard, no ground shadow. No text, labels, watermark, collage, duplicate person or extra limbs.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-shijiang.png"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-2de3f81a-e3a8-4925-b26d-ba488894e80f.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-2de3f81a-e3a8-4925-b26d-ba488894e80f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "age": 32,
+      "type": "action",
+      "slug": "explaining",
+      "label": "解释",
+      "file": "char-shijiang-action-explaining.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-explaining.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-shijiang.png",
+      "referenceVersion": "v3",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: one standalone transparent visual-novel character sprite for 《毕节，雨停之前》. This is a local variation of an existing approved character, NOT a redesign.\nInput image 1 is the exact edit target and identity reference. Character 师匠. Original fictional adult Chinese man age 32. Preserve this broader squarish face, blunt broad chin, broad natural nose, level calm brows/eyes, short low-volume black hair, thin dark rectangular eyeglasses, navy blue rolled-sleeve work shirt over dark T-shirt, dark trousers, the red-tipped precision screwdriver and other existing chest-pocket items. He is a reliable ordinary electronics repair professional, not elderly, a martial-arts master, or a model.\nRequested variant: 解释 / explaining. Change the body pose only as necessary to bend the normally lowered arm and extend its hand slightly forward at waist/chest level, open palm upward in a clear calm explaining gesture; keep the other hand in its trouser pocket. Mouth slightly parted as if explaining, earnest attentive expression, not a smile. Five anatomical fingers, fully inside frame, no pointing at viewer.\nPreserve facial identity, original hairstyle, age and outfit exactly. The action changes one arm/hand naturally; preserve the other hand, outfit details and torso proportions. No new prop or accessory.\nKeep the original face bone structure and recognizability, adult body proportions, costume colors and fabric, source half-body-to-upper-thigh framing and source Japanese semi-realistic painted look, lighting and colors. Entire hair/top of head and all visible hands remain inside canvas. Target portrait 1024x1536, same scale and placement as source as closely as possible; no zoom-in and no face-only crop.\nReturn exactly one character, one variant, one panel. Genuine transparent RGBA background with clean antialiased hair and clothing boundaries; no black/white backdrop, no scene, no gradient, no haze, no glow, no baked checkerboard, no ground shadow. No text, labels, watermark, collage, duplicate person or extra limbs.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-shijiang.png"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-c644b506-8aa4-4703-b290-ea095a85aea4.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-c644b506-8aa4-4703-b290-ea095a85aea4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  ]
+}

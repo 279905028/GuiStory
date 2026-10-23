@@ -1,0 +1,33 @@
+PASS 标题与读取列表只读；旧档两句可识别，未知版本不误收
+PASS oldOne自动档继续：新文本、原样备份、版本标记、刷新恢复
+PASS oldBoth自动档继续：新文本、原样备份、版本标记、刷新恢复
+PASS 未受影响无标记auto首次保存也原样备份；当前版本无需备份
+PASS 手动旧档读取保留源；覆盖取消不备份；确认覆盖前原样备份
+PASS 旧auto首次保存失败保护：writeBackup
+PASS 旧auto首次保存失败保护：readBackup
+PASS 旧auto首次保存失败保护：mismatchBackup
+PASS 旧auto首次保存失败保护：writeSlot
+PASS 手动旧档覆盖失败保护：writeBackup
+PASS 手动旧档覆盖失败保护：readBackup
+PASS 手动旧档覆盖失败保护：mismatchBackup
+PASS 手动旧档覆盖失败保护：writeSlot
+PASS 旧档备份后竞态：auto
+PASS 旧档备份后竞态：slot1
+PASS 手动确认期间换档应重新确认
+PASS badJson损坏auto保护：读取其他槽、推进、设置、pagehide、取消恢复和确认备份
+PASS unknown损坏auto保护：读取其他槽、推进、设置、pagehide、取消恢复和确认备份
+PASS unknownText损坏auto保护：读取其他槽、推进、设置、pagehide、取消恢复和确认备份
+PASS 损坏auto开始新故事备份失败：writeBackup
+PASS 损坏auto开始新故事备份失败：readBackup
+PASS 损坏auto开始新故事备份失败：mismatchBackup
+PASS 损坏auto备份后竞态及写入失败
+PASS 旧命名空间不读写；缺兼容组件安全关闭入口
+PASS 隐藏选项门槛和章末重选保留，清理后续历史
+{
+  "status": "PASS",
+  "cases": 25,
+  "assertions": 179,
+  "failed": [],
+  "results": "任务拆分/全十章/校验/E08/legacy/browser-results.json",
+  "error": null
+}

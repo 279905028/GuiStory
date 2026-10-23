@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-19",
+  "skill": "game-character-gen + imagegen",
+  "mode": "built-in",
+  "character": "huangqiuqiu",
+  "candidateOnly": true,
+  "entries": [
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "ageLabel": "自称24岁，成年女性",
+      "presentation": "orb",
+      "type": "expression",
+      "slug": "smile",
+      "label": "微笑",
+      "file": "char-huangqiuqiu-expression-smile.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+      "referenceVersion": "v1",
+      "originalReference": "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: ONE transparent square character sprite for 《毕节，雨停之前》, not an icon sheet.\nInput image 1 is the exact EDIT TARGET: the current approved Huangqiuqiu / 黄球球 sphere sprite. Image 2 is the original user's identity reference, for the orb's unusual facial shapes and single fingerless hand only. Do not copy its white background or cropping.\nIdentity invariants: adult female character who self-identifies as 24, with a NONHUMAN yellow round orb body; gender/age are conveyed in story, never by adding human anatomy. Keep the original soft volumetric yellow sphere, two solid dark-brown circular disc eyes with NO pupils/whites/lashes, heavy curved worried dark-brown eyebrows, short red mouth, and exactly ONE small smooth yellow rounded fingerless mitten/paddle hand. Preserve source material, lighting, color, facial positions and scale as closely as the requested variation allows.\nRequested variant 微笑 / smile: Change only eyebrows and short red mouth subtly but clearly: soften the heavy worried eyebrows a little and gently curve the short red mouth upward into a small restrained smile. Keep both solid dark-brown disc eyes, no closed smiling eyes. Warm adult dry humor, not cute childlike joy.\nKeep the exact sphere posture and the original ONE hand resting at the lower cheek, unchanged. Only the expression changes.\nComposition: square canvas, whole circular sphere and the small hand fully visible with a safe empty border, same size and source gentle 3D look. Sphere must remain round, never a human bust or tall stretched shape. Target 1024x1024 square, measure actual output afterward. Genuine transparent RGBA background, clean natural edges. One character, one variant, one panel.\nStrict avoid: any human body, neck, shoulders, hair, clothes, eyelashes, makeup, blush, breasts, fingers, extra hands, legs, pet features, baby/child/cute chibi traits, big anime eyes, teeth, tongue, props, text, label, watermark, collage, baked checkerboard, black/white/gradient background, ground shadow. Do not transform her into a woman; the yellow orb IS the entire character.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+          "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-eb5d4433-e190-441a-8096-2292b143f7bb.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-eb5d4433-e190-441a-8096-2292b143f7bb.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "ageLabel": "自称24岁，成年女性",
+      "presentation": "orb",
+      "type": "expression",
+      "slug": "serious",
+      "label": "认真",
+      "file": "char-huangqiuqiu-expression-serious.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+      "referenceVersion": "v1",
+      "originalReference": "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: ONE transparent square character sprite for 《毕节，雨停之前》, not an icon sheet.\nInput image 1 is the exact EDIT TARGET: the current approved Huangqiuqiu / 黄球球 sphere sprite. Image 2 is the original user's identity reference, for the orb's unusual facial shapes and single fingerless hand only. Do not copy its white background or cropping.\nIdentity invariants: adult female character who self-identifies as 24, with a NONHUMAN yellow round orb body; gender/age are conveyed in story, never by adding human anatomy. Keep the original soft volumetric yellow sphere, two solid dark-brown circular disc eyes with NO pupils/whites/lashes, heavy curved worried dark-brown eyebrows, short red mouth, and exactly ONE small smooth yellow rounded fingerless mitten/paddle hand. Preserve source material, lighting, color, facial positions and scale as closely as the requested variation allows.\nRequested variant 认真 / serious: Change only the eyebrows and short red mouth subtly but clearly: heavy eyebrows settle to a more level attentive position, the short red mouth is horizontal and firm. Focused and serious, no smile, not angry. Preserve solid round dark-brown disc eyes.\nKeep the exact sphere posture and the original ONE hand resting at the lower cheek, unchanged. Only the expression changes.\nComposition: square canvas, whole circular sphere and the small hand fully visible with a safe empty border, same size and source gentle 3D look. Sphere must remain round, never a human bust or tall stretched shape. Target 1024x1024 square, measure actual output afterward. Genuine transparent RGBA background, clean natural edges. One character, one variant, one panel.\nStrict avoid: any human body, neck, shoulders, hair, clothes, eyelashes, makeup, blush, breasts, fingers, extra hands, legs, pet features, baby/child/cute chibi traits, big anime eyes, teeth, tongue, props, text, label, watermark, collage, baked checkerboard, black/white/gradient background, ground shadow. Do not transform her into a woman; the yellow orb IS the entire character.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+          "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-c4e327cf-c108-42da-ad12-7d92818c5a66.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-c4e327cf-c108-42da-ad12-7d92818c5a66.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "ageLabel": "自称24岁，成年女性",
+      "presentation": "orb",
+      "type": "expression",
+      "slug": "hesitant",
+      "label": "犹豫",
+      "file": "char-huangqiuqiu-expression-hesitant.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+      "referenceVersion": "v1",
+      "originalReference": "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: ONE transparent square character sprite for 《毕节，雨停之前》, not an icon sheet.\nInput image 1 is the exact EDIT TARGET: the current approved Huangqiuqiu / 黄球球 sphere sprite. Image 2 is the original user's identity reference, for the orb's unusual facial shapes and single fingerless hand only. Do not copy its white background or cropping.\nIdentity invariants: adult female character who self-identifies as 24, with a NONHUMAN yellow round orb body; gender/age are conveyed in story, never by adding human anatomy. Keep the original soft volumetric yellow sphere, two solid dark-brown circular disc eyes with NO pupils/whites/lashes, heavy curved worried dark-brown eyebrows, short red mouth, and exactly ONE small smooth yellow rounded fingerless mitten/paddle hand. Preserve source material, lighting, color, facial positions and scale as closely as the requested variation allows.\nRequested variant 犹豫 / hesitant: Change only eyebrows and short red mouth subtly but clearly: one thick brow is a little higher and inner brow ends raise with uncertainty, short red mouth slightly uneven with a tiny downturned angle. Keep the original solid round dark-brown eyes. Clearly hesitant but restrained, no smile.\nKeep the exact sphere posture and the original ONE hand resting at the lower cheek, unchanged. Only the expression changes.\nComposition: square canvas, whole circular sphere and the small hand fully visible with a safe empty border, same size and source gentle 3D look. Sphere must remain round, never a human bust or tall stretched shape. Target 1024x1024 square, measure actual output afterward. Genuine transparent RGBA background, clean natural edges. One character, one variant, one panel.\nStrict avoid: any human body, neck, shoulders, hair, clothes, eyelashes, makeup, blush, breasts, fingers, extra hands, legs, pet features, baby/child/cute chibi traits, big anime eyes, teeth, tongue, props, text, label, watermark, collage, baked checkerboard, black/white/gradient background, ground shadow. Do not transform her into a woman; the yellow orb IS the entire character.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+          "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-691eab0a-90aa-497b-bb5a-87fc5225b1e1.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-691eab0a-90aa-497b-bb5a-87fc5225b1e1.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "ageLabel": "自称24岁，成年女性",
+      "presentation": "orb",
+      "type": "expression",
+      "slug": "surprised",
+      "label": "惊讶",
+      "file": "char-huangqiuqiu-expression-surprised.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-surprised.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+      "referenceVersion": "v1",
+      "originalReference": "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: ONE transparent square character sprite for 《毕节，雨停之前》, not an icon sheet.\nInput image 1 is the exact EDIT TARGET: the current approved Huangqiuqiu / 黄球球 sphere sprite. Image 2 is the original user's identity reference, for the orb's unusual facial shapes and single fingerless hand only. Do not copy its white background or cropping.\nIdentity invariants: adult female character who self-identifies as 24, with a NONHUMAN yellow round orb body; gender/age are conveyed in story, never by adding human anatomy. Keep the original soft volumetric yellow sphere, two solid dark-brown circular disc eyes with NO pupils/whites/lashes, heavy curved worried dark-brown eyebrows, short red mouth, and exactly ONE small smooth yellow rounded fingerless mitten/paddle hand. Preserve source material, lighting, color, facial positions and scale as closely as the requested variation allows.\nRequested variant 惊讶 / surprised: Change only the brows and mouth subtly but clearly: raise the two thick dark-brown brows and separate them a little from the solid circular eyes; short red mouth becomes a small softly open oval, still short and red, with no teeth or tongue. Natural surprise without cartoon shock.\nKeep the exact sphere posture and the original ONE hand resting at the lower cheek, unchanged. Only the expression changes.\nComposition: square canvas, whole circular sphere and the small hand fully visible with a safe empty border, same size and source gentle 3D look. Sphere must remain round, never a human bust or tall stretched shape. Target 1024x1024 square, measure actual output afterward. Genuine transparent RGBA background, clean natural edges. One character, one variant, one panel.\nStrict avoid: any human body, neck, shoulders, hair, clothes, eyelashes, makeup, blush, breasts, fingers, extra hands, legs, pet features, baby/child/cute chibi traits, big anime eyes, teeth, tongue, props, text, label, watermark, collage, baked checkerboard, black/white/gradient background, ground shadow. Do not transform her into a woman; the yellow orb IS the entire character.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+          "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-035e0857-984e-4af0-9097-16cebaad43b1.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-035e0857-984e-4af0-9097-16cebaad43b1.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "ageLabel": "自称24岁，成年女性",
+      "presentation": "orb",
+      "type": "expression",
+      "slug": "displeased",
+      "label": "不悦",
+      "file": "char-huangqiuqiu-expression-displeased.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-displeased.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+      "referenceVersion": "v1",
+      "originalReference": "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: ONE transparent square character sprite for 《毕节，雨停之前》, not an icon sheet.\nInput image 1 is the exact EDIT TARGET: the current approved Huangqiuqiu / 黄球球 sphere sprite. Image 2 is the original user's identity reference, for the orb's unusual facial shapes and single fingerless hand only. Do not copy its white background or cropping.\nIdentity invariants: adult female character who self-identifies as 24, with a NONHUMAN yellow round orb body; gender/age are conveyed in story, never by adding human anatomy. Keep the original soft volumetric yellow sphere, two solid dark-brown circular disc eyes with NO pupils/whites/lashes, heavy curved worried dark-brown eyebrows, short red mouth, and exactly ONE small smooth yellow rounded fingerless mitten/paddle hand. Preserve source material, lighting, color, facial positions and scale as closely as the requested variation allows.\nRequested variant 不悦 / displeased: Change only brows and mouth subtly but clearly: move the thick eyebrow inner ends slightly down toward the center in restrained displeasure, keep their rounded ends; short red mouth subtly turns down, no smile. Preserve both solid dark-brown circular eyes. Do not create aggressive rage or an evil face.\nKeep the exact sphere posture and the original ONE hand resting at the lower cheek, unchanged. Only the expression changes.\nComposition: square canvas, whole circular sphere and the small hand fully visible with a safe empty border, same size and source gentle 3D look. Sphere must remain round, never a human bust or tall stretched shape. Target 1024x1024 square, measure actual output afterward. Genuine transparent RGBA background, clean natural edges. One character, one variant, one panel.\nStrict avoid: any human body, neck, shoulders, hair, clothes, eyelashes, makeup, blush, breasts, fingers, extra hands, legs, pet features, baby/child/cute chibi traits, big anime eyes, teeth, tongue, props, text, label, watermark, collage, baked checkerboard, black/white/gradient background, ground shadow. Do not transform her into a woman; the yellow orb IS the entire character.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+          "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-9b627eef-5434-4b7b-995e-8a16065a7331.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-9b627eef-5434-4b7b-995e-8a16065a7331.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "ageLabel": "自称24岁，成年女性",
+      "presentation": "orb",
+      "type": "expression",
+      "slug": "downcast",
+      "label": "低落",
+      "file": "char-huangqiuqiu-expression-downcast.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-downcast.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+      "referenceVersion": "v1",
+      "originalReference": "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: ONE transparent square character sprite for 《毕节，雨停之前》, not an icon sheet.\nInput image 1 is the exact EDIT TARGET: the current approved Huangqiuqiu / 黄球球 sphere sprite. Image 2 is the original user's identity reference, for the orb's unusual facial shapes and single fingerless hand only. Do not copy its white background or cropping.\nIdentity invariants: adult female character who self-identifies as 24, with a NONHUMAN yellow round orb body; gender/age are conveyed in story, never by adding human anatomy. Keep the original soft volumetric yellow sphere, two solid dark-brown circular disc eyes with NO pupils/whites/lashes, heavy curved worried dark-brown eyebrows, short red mouth, and exactly ONE small smooth yellow rounded fingerless mitten/paddle hand. Preserve source material, lighting, color, facial positions and scale as closely as the requested variation allows.\nRequested variant 低落 / downcast: Change only brows, subtle position of the round eyes and mouth: inner brow ends slightly lifted with heavier downward outer curves, dark circular eyes subtly lower on the same face, the short red mouth gently downturned. Quiet low mood, no smile, no tears or exaggerated crying.\nKeep the exact sphere posture and the original ONE hand resting at the lower cheek, unchanged. Only the expression changes.\nComposition: square canvas, whole circular sphere and the small hand fully visible with a safe empty border, same size and source gentle 3D look. Sphere must remain round, never a human bust or tall stretched shape. Target 1024x1024 square, measure actual output afterward. Genuine transparent RGBA background, clean natural edges. One character, one variant, one panel.\nStrict avoid: any human body, neck, shoulders, hair, clothes, eyelashes, makeup, blush, breasts, fingers, extra hands, legs, pet features, baby/child/cute chibi traits, big anime eyes, teeth, tongue, props, text, label, watermark, collage, baked checkerboard, black/white/gradient background, ground shadow. Do not transform her into a woman; the yellow orb IS the entire character.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+          "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-89f414eb-c736-4347-947d-cf75edb93855.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-89f414eb-c736-4347-947d-cf75edb93855.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "ageLabel": "自称24岁，成年女性",
+      "presentation": "orb",
+      "type": "action",
+      "slug": "wave",
+      "label": "招手",
+      "file": "char-huangqiuqiu-action-wave.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-wave.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+      "referenceVersion": "v1",
+      "originalReference": "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: ONE transparent square character sprite for 《毕节，雨停之前》, not an icon sheet.\nInput image 1 is the exact EDIT TARGET: the current approved Huangqiuqiu / 黄球球 sphere sprite. Image 2 is the original user's identity reference, for the orb's unusual facial shapes and single fingerless hand only. Do not copy its white background or cropping.\nIdentity invariants: adult female character who self-identifies as 24, with a NONHUMAN yellow round orb body; gender/age are conveyed in story, never by adding human anatomy. Keep the original soft volumetric yellow sphere, two solid dark-brown circular disc eyes with NO pupils/whites/lashes, heavy curved worried dark-brown eyebrows, short red mouth, and exactly ONE small smooth yellow rounded fingerless mitten/paddle hand. Preserve source material, lighting, color, facial positions and scale as closely as the requested variation allows.\nRequested variant 招手 / wave: Move the ONE existing yellow rounded mitten/paddle-like hand away from its cheek to beside the orb at about eye level, tipped upright in a small greeting wave. The hand remains one short simple smooth oval mitten shape with NO individual fingers and NO human arm, and stays visually connected or immediately adjacent to the orb. Remove it from its old cheek position, do not duplicate it. Short red mouth has a tiny friendly curve; preserve concerned thick brows and round eyes.\nAllow only the specifically requested movement of the original ONE hand or orb tilt. No second hand or extra arm.\nComposition: square canvas, whole circular sphere and the small hand fully visible with a safe empty border, same size and source gentle 3D look. Sphere must remain round, never a human bust or tall stretched shape. Target 1024x1024 square, measure actual output afterward. Genuine transparent RGBA background, clean natural edges. One character, one variant, one panel.\nStrict avoid: any human body, neck, shoulders, hair, clothes, eyelashes, makeup, blush, breasts, fingers, extra hands, legs, pet features, baby/child/cute chibi traits, big anime eyes, teeth, tongue, props, text, label, watermark, collage, baked checkerboard, black/white/gradient background, ground shadow. Do not transform her into a woman; the yellow orb IS the entire character.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+          "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-d31346aa-575a-4e18-a3f9-808cd1314a0c.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-d31346aa-575a-4e18-a3f9-808cd1314a0c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "ageLabel": "自称24岁，成年女性",
+      "presentation": "orb",
+      "type": "action",
+      "slug": "thinking",
+      "label": "思考",
+      "file": "char-huangqiuqiu-action-thinking.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-thinking.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+      "referenceVersion": "v1",
+      "originalReference": "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: ONE transparent square character sprite for 《毕节，雨停之前》, not an icon sheet.\nInput image 1 is the exact EDIT TARGET: the current approved Huangqiuqiu / 黄球球 sphere sprite. Image 2 is the original user's identity reference, for the orb's unusual facial shapes and single fingerless hand only. Do not copy its white background or cropping.\nIdentity invariants: adult female character who self-identifies as 24, with a NONHUMAN yellow round orb body; gender/age are conveyed in story, never by adding human anatomy. Keep the original soft volumetric yellow sphere, two solid dark-brown circular disc eyes with NO pupils/whites/lashes, heavy curved worried dark-brown eyebrows, short red mouth, and exactly ONE small smooth yellow rounded fingerless mitten/paddle hand. Preserve source material, lighting, color, facial positions and scale as closely as the requested variation allows.\nRequested variant 思考 / thinking: Keep the ONE original rounded yellow fingerless hand supporting the cheek, and tilt the entire sphere slightly (about 8 degrees) to convey thinking; sphere stays perfectly round, not stretched. Eyebrows settle into a mildly thoughtful asymmetry; short red mouth stays almost horizontal, no smile. Do not add another hand, fingers, arms, limbs or props.\nAllow only the specifically requested movement of the original ONE hand or orb tilt. No second hand or extra arm.\nComposition: square canvas, whole circular sphere and the small hand fully visible with a safe empty border, same size and source gentle 3D look. Sphere must remain round, never a human bust or tall stretched shape. Target 1024x1024 square, measure actual output afterward. Genuine transparent RGBA background, clean natural edges. One character, one variant, one panel.\nStrict avoid: any human body, neck, shoulders, hair, clothes, eyelashes, makeup, blush, breasts, fingers, extra hands, legs, pet features, baby/child/cute chibi traits, big anime eyes, teeth, tongue, props, text, label, watermark, collage, baked checkerboard, black/white/gradient background, ground shadow. Do not transform her into a woman; the yellow orb IS the entire character.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+          "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-30314dfb-3d55-45b6-bb2c-42de748dcafe.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-30314dfb-3d55-45b6-bb2c-42de748dcafe.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "ageLabel": "自称24岁，成年女性",
+      "presentation": "orb",
+      "type": "action",
+      "slug": "explaining",
+      "label": "解释",
+      "file": "char-huangqiuqiu-action-explaining.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-explaining.png",
+      "status": "generated_candidate",
+      "reference": "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+      "referenceVersion": "v1",
+      "originalReference": "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg",
+      "tool": "image_gen__imagegen",
+      "parameters": {
+        "prompt": "Use case: identity-preserve.\nAsset type: ONE transparent square character sprite for 《毕节，雨停之前》, not an icon sheet.\nInput image 1 is the exact EDIT TARGET: the current approved Huangqiuqiu / 黄球球 sphere sprite. Image 2 is the original user's identity reference, for the orb's unusual facial shapes and single fingerless hand only. Do not copy its white background or cropping.\nIdentity invariants: adult female character who self-identifies as 24, with a NONHUMAN yellow round orb body; gender/age are conveyed in story, never by adding human anatomy. Keep the original soft volumetric yellow sphere, two solid dark-brown circular disc eyes with NO pupils/whites/lashes, heavy curved worried dark-brown eyebrows, short red mouth, and exactly ONE small smooth yellow rounded fingerless mitten/paddle hand. Preserve source material, lighting, color, facial positions and scale as closely as the requested variation allows.\nRequested variant 解释 / explaining: Move the ONE existing rounded yellow mitten/paddle-like fingerless hand away from the cheek and a little outward to the side at lower-face level, rotate it to a gentle horizontal palm-up presenting gesture as if calmly explaining. It remains ONE simple small smooth fingerless yellow mitten, no fingers, no human arm. Remove it from the old cheek location; never duplicate. Keep thick worried eyebrows and solid dark circular eyes; short red mouth slightly open but not smiling, no teeth.\nAllow only the specifically requested movement of the original ONE hand or orb tilt. No second hand or extra arm.\nComposition: square canvas, whole circular sphere and the small hand fully visible with a safe empty border, same size and source gentle 3D look. Sphere must remain round, never a human bust or tall stretched shape. Target 1024x1024 square, measure actual output afterward. Genuine transparent RGBA background, clean natural edges. One character, one variant, one panel.\nStrict avoid: any human body, neck, shoulders, hair, clothes, eyelashes, makeup, blush, breasts, fingers, extra hands, legs, pet features, baby/child/cute chibi traits, big anime eyes, teeth, tongue, props, text, label, watermark, collage, baked checkerboard, black/white/gradient background, ground shadow. Do not transform her into a woman; the yellow orb IS the entire character.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+          "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg"
+        ],
+        "transparent_background": true
+      },
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-32275f43-8b3f-4c49-90ca-69427f1e6e52.png",
+      "toolOutputHint": "Generated images are saved to /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1 as /Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-32275f43-8b3f-4c49-90ca-69427f1e6e52.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "script": "deployment/cloudflare-ambd/prepare.cjs",
+      "scriptSha256": "ff16e489a1166bf1890d50da50f8c5e9780ef63444c3d7adca29843370cf9b6a",
+      "output": "/private/tmp/cjb-webp-pack-2la8bX/cloudflare-ambd",
+      "manifest": "/private/tmp/cjb-webp-pack-2la8bX/cloudflare-ambd-manifest.json",
+      "fileCount": 106,
+      "imageCount": 100,
+      "totalBytes": 117851593,
+      "allRuntimeImagesWebp": true,
+      "allCopyHashesMatch": true,
+      "scope": "运行原打包脚本逻辑，仅将输出目录与清单路径重定向至临时目录；未改动历史发布快照。"
+    },
+    {
+      "script": "deployment/edgeone/prepare.cjs",
+      "scriptSha256": "9be5f54594b6c71021e79f4246b7aca15ea25cc692b336eafc9196b69122db3d",
+      "output": "/private/tmp/cjb-webp-pack-2la8bX/edgeone",
+      "manifest": "/private/tmp/cjb-webp-pack-2la8bX/edgeone-manifest.json",
+      "fileCount": 106,
+      "imageCount": 100,
+      "totalBytes": 117851593,
+      "allRuntimeImagesWebp": true,
+      "allCopyHashesMatch": true,
+      "scope": "运行原打包脚本逻辑，仅将输出目录与清单路径重定向至临时目录；未改动历史发布快照。"
+    }
+  ]
+}

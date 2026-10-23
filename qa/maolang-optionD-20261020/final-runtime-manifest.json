@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-20",
+  "scope": "毛狼Option D与同期师匠合并后的当前运行文件",
+  "runtimeImageCount": 37,
+  "files": {
+    "index.html": {
+      "sha256": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+      "bytes": 7049
+    },
+    "styles.css": {
+      "sha256": "ec83d0f6ef633f15707ca8e8e0426fb39b899dbf5ff7511a5bd1cf05f99cd78a",
+      "bytes": 38881
+    },
+    "story.js": {
+      "sha256": "e0b48374db5e9204829062113dd500519ca56e42d767ef829519fba6ba7167ca",
+      "bytes": 129462
+    },
+    "engine.js": {
+      "sha256": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+      "bytes": 9734
+    },
+    "game.js": {
+      "sha256": "6468bd72dc5ccd9470e487cf71cd524439cb0dd91802126639050943b18853ec",
+      "bytes": 50564
+    },
+    "assets/char-wenwen.png": {
+      "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "bytes": 2267104
+    },
+    "assets/char-xiaoman.png": {
+      "sha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+      "bytes": 2323438
+    },
+    "assets/char-zhouzhi.png": {
+      "sha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+      "bytes": 1902928
+    },
+    "assets/char-mengyao.png": {
+      "sha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+      "bytes": 2209681
+    },
+    "assets/char-yelan.png": {
+      "sha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+      "bytes": 1835417
+    },
+    "assets/char-maolang.png": {
+      "sha256": "1b6302e8c1fb95eb104cd645ab7fdc638ff0c30ed83b43779acdb61b1cc3006c",
+      "bytes": 1700282
+    },
+    "assets/char-shijiang.png": {
+      "sha256": "391b5acd4b59bd93fcefc8c22c367d60be3faec8eb946a3635db38ee821eeed0",
+      "bytes": 2033251
+    },
+    "assets/char-huangqiuqiu.png": {
+      "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9",
+      "bytes": 1305412
+    },
+    "assets/bg-street.png": {
+      "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "bytes": 3010764
+    },
+    "assets/bg-repair.png": {
+      "sha256": "14b00ead5390e93803ef16f82b38949dd464e901a9cf5b208bc1140cda0c3675",
+      "bytes": 2370266
+    },
+    "assets/bg-lobby.png": {
+      "sha256": "2bc2954dd90394bdd0261f87b5372bdcf61b7cc41fdb7939d490dcf49f08a39f",
+      "bytes": 2158979
+    },
+    "assets/bg-room.png": {
+      "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+      "bytes": 1968927
+    },
+    "assets/bg-noodles.png": {
+      "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+      "bytes": 2528115
+    },
+    "assets/bg-salon.png": {
+      "sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+      "bytes": 2571679
+    },
+    "assets/background-variants/m2-daynight-20261020/bg-street-day.png": {
+      "sha256": "3cd546cd5eb5addd38e14b0d36c4176134b819cd2fb7503710ea1f87f29443ab",
+      "bytes": 3220000
+    },
+    "assets/cg/cg-01-rain-return.png": {
+      "sha256": "12309c94b8fa313074621f59e7b8d076d2f2277a8f0164cba4ff011aea192a33",
+      "bytes": 2640053
+    },
+    "assets/cg/cg-02-xiaoman-mirror.png": {
+      "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e",
+      "bytes": 2483983
+    },
+    "assets/cg/cg-03-zhouzhi-noodles.png": {
+      "sha256": "e50499d21beaaf3002c477771fe8b8be02065c992c85428b12234cdd835916ed",
+      "bytes": 2322046
+    },
+    "assets/cg/cg-04-mengyao-camera.png": {
+      "sha256": "d29f637064098205d9c6e0f1e38729bb8231940738a31beb652bac60cfb18067",
+      "bytes": 2500027
+    },
+    "assets/cg/cg-05-yelan-inventory.png": {
+      "sha256": "463b708fbf32f7e95636167e4998f4e547d45a02e34612d2eaeaf4ad1e46055b",
+      "bytes": 2001240
+    },
+    "assets/cg/cg-06-maolang-confession.png": {
+      "sha256": "466975350fb8a6ed64786087d3162d46ef2b0a1ed4ad23bd945ed59989aa8568",
+      "bytes": 2085757
+    },
+    "assets/cg/cg-07-yelan-off-duty.png": {
+      "sha256": "0eaa0c4a418e20926dcbfc11fbc0c782a38b17651151b341c9a45438ce8b61e8",
+      "bytes": 2735921
+    },
+    "assets/cg/cg-08-huangqiuqiu-listening.png": {
+      "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1",
+      "bytes": 1854736
+    },
+    "assets/cg/cg-09-repair-handoff.png": {
+      "sha256": "a0984f00a9fa9f74923c95afbf1fb165fdc5435d08d568fc7b30dcaab04ef92a",
+      "bytes": 2273328
+    },
+    "assets/cg/cg-13-xiaoman-night-stall.png": {
+      "sha256": "155cd137c4e1c0355944e4bbf89bf806909d18efe43dc0fddda3f175a68f8249",
+      "bytes": 2233982
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.png": {
+      "sha256": "cf2643dd3affe296beff6289d3a2f824d9ace8ac5c8b8faf824aad5e6dd0c6e5",
+      "bytes": 1720094
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.png": {
+      "sha256": "a0e342fc91735cb4fa1b3caf36932b3147dcc0aa884869de9d64f11763238d65",
+      "bytes": 1694695
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.png": {
+      "sha256": "b6b6d04604afec6f5f648008969bc8880a91ecf5817daf14aa461c18c1841876",
+      "bytes": 1746601
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.png": {
+      "sha256": "19a7d81992b831b9d63199271cf7e3438be0c2e1c802d4fdc5a46fa426ab8a6c",
+      "bytes": 1689258
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png": {
+      "sha256": "ac71699d27dc76d7c0a2bcfeed61bd56d30c033043150e7081b6562d56f50aa5",
+      "bytes": 1729742
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.png": {
+      "sha256": "1e3ff8b41dca7b48b059c4530aee2b57c3e6ea5124e5036a9b9769e346f69859",
+      "bytes": 1770943
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.png": {
+      "sha256": "69f0292995c00bc675ecd5875dc44106dfa26db27045dcf1ff0cec9ff58cf7c9",
+      "bytes": 1727276
+    },
+    "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.png": {
+      "sha256": "5eb68e45445e161189ab5bf1e74afc63e9104ef986da89c3bc89526e2d854177",
+      "bytes": 1974302
+    },
+    "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.png": {
+      "sha256": "8888ac0dd387444cded362eea27a3ef22a361f6327e48eb47b3f8168201c26af",
+      "bytes": 1996202
+    },
+    "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.png": {
+      "sha256": "e43b52d5a2ed63ed4c2afb31bff13f006c809922329f7c353a09c5511aa074b4",
+      "bytes": 1982798
+    },
+    "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.png": {
+      "sha256": "f9372732973ae4d755bff0503462ea4e394d211002918cf73017b51e6cb05a34",
+      "bytes": 1979683
+    },
+    "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-phone.png": {
+      "sha256": "aa878ad187fefaacd4e6d3181fde8916f93f80948580a795b723daecf5a6b292",
+      "bytes": 2001907
+    }
+  },
+  "verification": [
+    "runtime-results.json",
+    "cg-integration-results.json",
+    "legacy-save-results.json"
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "task": "E09",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "inputFingerprints": [
+    {
+      "path": "任务拆分/全十章/contract.json",
+      "sha256": "4086571ab65e54271ec70e5a0a0712e00d0b2a1f6dae739b1df05a328ada1876"
+    },
+    {
+      "path": "任务拆分/全十章/美术清单.json",
+      "sha256": "10cd396bf8de6e26e54ee60bc494fb512bb697ecc46a7f23b631b4e214a351b2"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch01.json",
+      "sha256": "e67fd830b2a90b5b1ebc581dd0453a1d8feee5c3be0b91ce894cae6f1776b48f"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch02.json",
+      "sha256": "f9e89a31e445bd52655334f124c1e0f9c8bc9368bce0220742eed9f3561032b2"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch03.json",
+      "sha256": "88bb55edd4315f4a6c06500687a99134bdebaba1233b21ef03fd2660c75fba5b"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch04.json",
+      "sha256": "645ddb96d804533a226a8c14e5cb0fff18e557bfb9a2c994ee9eea915b24ac04"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch05.json",
+      "sha256": "2e19cd57cfafa07edd7c1880dc727f6aae386a62bad806f86c1d5a9f2d2fbfb8"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch06.json",
+      "sha256": "f95eabdfd886fdc72f1856872d21919b9adba833b501a303cc7219fe4c04e62f"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch07.json",
+      "sha256": "5b45f35bd675c3db4060f9e7ae8bf4d076cae60c9dd438cb8bead49e6fbd31c7"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch08.json",
+      "sha256": "4b98abcf1ef72c6ac5985cd70e1640bebfdf390fd2b67f6cfe9497ec80278ec9"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch09.json",
+      "sha256": "e437f863161b79661513d53c55e27529270918766114434eed3646b6bb710002"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch10.json",
+      "sha256": "5c179e95f3b1fc6ce28a47ffa70df2b41aa36dbd11ad440878c4fc23809d9b3c"
+    },
+    {
+      "path": "任务拆分/全十章/routes/xiaoman.json",
+      "sha256": "b982784014d95fe44cb620e6b0ccd2252b3b86ccea5e519c09501277abec0fb0"
+    },
+    {
+      "path": "任务拆分/全十章/routes/zhouzhi.json",
+      "sha256": "7da9e066d79aaa299ad2ab5fff911be7060f5db4e4ef11bda3e4a901880a8eff"
+    },
+    {
+      "path": "任务拆分/全十章/routes/mengyao.json",
+      "sha256": "8c7c8082bcc216107886bafc33e516aa349e596435a926b7adc9a17eaac90d0d"
+    },
+    {
+      "path": "任务拆分/全十章/routes/yelan.json",
+      "sha256": "7dcaae511ed9e7bfeb644816ef5821ad66e032783e62ef107e9e775af1472aee"
+    },
+    {
+      "path": "任务拆分/全十章/routes/piao.json",
+      "sha256": "b1ab806155124a8b2cf0e11e9c2947e33fe9a77a622ecdff69f314e50255202d"
+    },
+    {
+      "path": "任务拆分/全十章/routes/friends.json",
+      "sha256": "22c82f1aa56c6873f83df8eedd47309693ab56ef03b081095b93fce95bce4ed7"
+    },
+    {
+      "path": "任务拆分/全十章/routes/huangqiuqiu.json",
+      "sha256": "c785e3d2dda7d967f4bec0ba73382d03f297796e1dcf532f52592e564fb78e19"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "sha256": "766f2462d3695244aeb5d40a416c7610b05eeea15b397b8a0c232d351399e0c6"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "sha256": "dac8ac7db39fb2d16732629cb694cb34816bfdb7cc8de0064d52e1e16fc0bf06"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sha256": "21ed8a4949d383f982625bcf473d75ced20aa02eeca5fb4fe4a099283749dc60"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sha256": "456533e8485bffdaafc31a13d6c8c77e9f8266480707887e792a5ceaddaec0c2"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sha256": "237c81a388bc42db960729d600a88d2705ef6106ade18f4414e919a33acab082"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sha256": "8238a41e2b8e4102e7509e711662fa28bbdd83c7ef89e03f9af1e7798ff7c9e4"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sha256": "112623a8a21f59991e3a5717838c0558244293dc709b906815c8c83497ebc8f0"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sha256": "2903d54c7d22f9e7fcfe3a4d4ead3c16dc103a67b675c12a636eb7bfb463279b"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sha256": "d2aeb09d621edb3522b2dc63dcc5b49fa6949891e2c7d17520ffe14d39996549"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sha256": "94b9a7c273d7a6ba9d0c2f9572ec54a3874f57a8ea0663d4db455ec868d903b2"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/delivery.json",
+      "sha256": "31254b828d1e02956bd4a8d73574e578eb8f1c7dcb9fe930f8efcce3f5ce3ccb"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E05/delivery.json",
+      "sha256": "4f324f9527a7a6551645e813299237c5ec8c04b117ca1884c17828a7b7f2a108"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E06/delivery.json",
+      "sha256": "14aeeb954e10e9a639b2d1950f5fcbe90df103de68889f3c11f2c780b85f729b"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/delivery.json",
+      "sha256": "e406212897dfbea71bca96a21a03343d5388525e738dab8f7d510df8705ab0c6"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/source-index.json",
+      "sha256": "d7f113e836d82c3648c5ba76efb698049ac467950797a1d9050fe62a55fc5f1a"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/presentation.json",
+      "sha256": "018e66333fabae7be1442084cb1be74dd01ef4dbe46df766729d4f9920e45e21"
+    },
+    {
+      "path": "assets/ten-chapter/a06-adoption.json",
+      "sha256": "8dd547dc110af7c8a36d8d0b6fe71a294594f59fb95dfa2816c797b8280c5292"
+    },
+    {
+      "path": "assets/ten-chapter/a06-scene-node-map.json",
+      "sha256": "32ec9e1c9db2d9bb69ac5ae13ec3ba472239156eaa9bcca73c3a4502a58d9544"
+    },
+    {
+      "path": "任务拆分/全十章/presentation/decisions.json",
+      "sha256": "977d24c6102300f94aa02b540cc0d02f2578707fc1f86873df3b42d2edd0ec10"
+    },
+    {
+      "path": "任务拆分/全十章/presentation/prepare-bindings.cjs",
+      "sha256": "83cd09fd93c8396e390bc243aaa2430f4e6a8d6de5c252d3f49f4e8e8b47da1c"
+    }
+  ],
+  "counts": {
+    "characters": 9,
+    "regularCharacterImages": 53,
+    "qiuqiuMainAndAvatarImages": 24,
+    "backgroundImages": 55,
+    "programmaticBackgrounds": 1,
+    "cgs": 4,
+    "covers": 2,
+    "registeredStoryImages": 136,
+    "scenes": 360,
+    "nodeBindings": 2577,
+    "sourceFingerprintChecks": 35,
+    "assetFingerprintChecks": 138
+  },
+  "covers": [
+    {
+      "id": "tc-ui-cover-desktop",
+      "file": "assets/ten-chapter/ui/cover-desktop.webp",
+      "orientation": "landscape"
+    },
+    {
+      "id": "tc-ui-cover-mobile",
+      "file": "assets/ten-chapter/ui/cover-mobile.webp",
+      "orientation": "portrait"
+    }
+  ],
+  "unspecifiedLocations": [
+    {
+      "sceneId": "ts_c07_piao_dating_message",
+      "bg": "tc-bg-rental-night",
+      "location": ""
+    },
+    {
+      "sceneId": "ts_c07_piao_dating_day41",
+      "bg": "tc-bg-food-day",
+      "location": ""
+    },
+    {
+      "sceneId": "ts_c07_piao_friends_later_summary",
+      "bg": "tc-bg-street-day",
+      "location": ""
+    },
+    {
+      "sceneId": "ts_c09_piao_booklet",
+      "bg": "tc-bg-tea-day",
+      "location": ""
+    },
+    {
+      "sceneId": "ts_c09_piao_dating",
+      "bg": "tc-bg-tea-day",
+      "location": ""
+    },
+    {
+      "sceneId": "ts_c09_piao_friends",
+      "bg": "tc-bg-tea-day",
+      "location": ""
+    },
+    {
+      "sceneId": "ts_c10_piao_dating",
+      "bg": "tc-bg-tea-day",
+      "location": ""
+    },
+    {
+      "sceneId": "ts_c03_friends_tailoring",
+      "bg": "tc-bg-rental-day",
+      "location": ""
+    },
+    {
+      "sceneId": "ts_c04_friends_own_plan",
+      "bg": "tc-bg-rental-day",
+      "location": ""
+    },
+    {
+      "sceneId": "ts_c06_friends_own_invitation",
+      "bg": "tc-bg-rental-day",
+      "location": ""
+    },
+    {
+      "sceneId": "ts_c07_friends_online_game",
+      "bg": "tc-bg-rental-night",
+      "location": ""
+    },
+    {
+      "sceneId": "ts_c07_friends_own_dinner",
+      "bg": "tc-bg-rental-day",
+      "location": ""
+    },
+    {
+      "sceneId": "ts_c07_friends_own_dinner_dinner",
+      "bg": "tc-bg-food-dusk",
+      "location": ""
+    },
+    {
+      "sceneId": "ts_c08_friends_boundaries",
+      "bg": "tc-bg-rental-day",
+      "location": ""
+    },
+    {
+      "sceneId": "ts_c08_friends_boundaries_glasses",
+      "bg": "tc-bg-netcafe-counter-night",
+      "location": ""
+    },
+    {
+      "sceneId": "ts_c09_friends_birthday",
+      "bg": "tc-bg-food-night",
+      "location": ""
+    },
+    {
+      "sceneId": "ts_c09_friends_own_book_evening",
+      "bg": "tc-bg-rental-night",
+      "location": ""
+    },
+    {
+      "sceneId": "ts_c09_friends_call_home",
+      "bg": "tc-bg-rental-day",
+      "location": ""
+    }
+  ],
+  "conditionalCgRules": [
+    {
+      "id": "tc-cg-piao-choice",
+      "file": "assets/ten-chapter/cg/cg-piao-choice.webp",
+      "enterAt": "tc_c03_piao_say_clearly_002",
+      "allowedNodeIds": [
+        "tc_c03_piao_say_clearly_002",
+        "tc_c03_piao_say_clearly_003",
+        "tc_c03_piao_say_clearly_004",
+        "tc_c03_piao_say_clearly_005",
+        "tc_c03_piao_say_clearly_006",
+        "tc_c03_piao_say_clearly_007",
+        "tc_c03_piao_say_clearly_008",
+        "tc_c03_piao_say_clearly_009",
+        "tc_c03_piao_say_clearly_010"
+      ],
+      "exitBefore": "tc_c03_piao_relationship_choice",
+      "exitExplicitlyClearsCg": true,
+      "conditions": [
+        {
+          "flag": "route",
+          "value": "piao"
+        }
+      ],
+      "notes": [
+        "仅飘路线、选择前的共同谈话。选择后退出CG，交往／朋友分别使用差分和文本；朋友版不得牵手。",
+        "A01候选锚点列表偏重选择后段，本图实际建议是选择前河边共同段，以E06节点原文为准。"
+      ],
+      "relationshipCondition": "none; choice has not been answered",
+      "clearBeforeChoice": "tc_c03_piao_relationship_choice",
+      "forbiddenNodePrefixes": [
+        "tc_c03_piao_dating_",
+        "tc_c03_piao_friends_"
+      ],
+      "conflictResolution": "A05实际中性成图与A01允许中性方案优先；E06旧“牵手CG只适合交往正文”描述的是未采用候选，不可据此把本图移到交往段或给朋友段加牵手。"
+    },
+    {
+      "id": "tc-cg-last-echo-dinner",
+      "file": "assets/ten-chapter/cg/cg-last-echo-dinner.webp",
+      "enterAt": "tc_c06_common_last_night_meal_07",
+      "allowedNodeIds": [
+        "tc_c06_common_last_night_meal_07",
+        "tc_c06_common_last_night_meal_08",
+        "tc_c06_common_last_night_meal_09",
+        "tc_c06_common_last_night_meal_10"
+      ],
+      "exitBefore": "tc_c06_common_meal_goodbye_01",
+      "exitExplicitlyClearsCg": true,
+      "conditions": [],
+      "notes": [
+        "第30天18:00共通饭局局部镜头；其他在场角色位于画外，先用背景＋立绘交代全员。",
+        "只用于菜端上来后的谈话，不替代周栀离席、回声关门或文文网吧到岗。"
+      ],
+      "context": "第30天18:00共通饭局；先交代多人在场，局部镜头仅见周栀/毛狼，不增加约会关系。",
+      "forbiddenAfter": "tc_c06_common_meal_goodbye_01"
+    },
+    {
+      "id": "tc-cg-qiuqiu-transform",
+      "file": "assets/ten-chapter/cg/cg-qiuqiu-transform.webp",
+      "enterAt": "tc_c08_huangqiuqiu_her_decision_025",
+      "allowedNodeIds": [
+        "tc_c08_huangqiuqiu_her_decision_025",
+        "tc_c08_huangqiuqiu_her_decision_026",
+        "tc_c08_huangqiuqiu_her_decision_027"
+      ],
+      "exitBefore": "tc_c08_huangqiuqiu_her_decision_028",
+      "exitExplicitlyClearsCg": true,
+      "conditions": [
+        {
+          "flag": "route",
+          "value": "huangqiuqiu"
+        },
+        {
+          "flag": "qiuSignal",
+          "value": "record"
+        },
+        {
+          "flag": "qiuReply",
+          "value": "reply"
+        },
+        {
+          "flag": "qiuMet",
+          "value": true
+        },
+        {
+          "flag": "qiuForm",
+          "value": "human"
+        }
+      ],
+      "notes": [
+        "仅已相识且当前路线huangqiuqiu；必须已执行human_reveal的onEnter并且qiuForm=human。",
+        "只表现变身后扶正玩偶棒，不得在轻搭手、松手、退凳或球形变化时提前显示。恋爱选择不参与触发。",
+        "不用于第42天、不放公开封面／未解锁回顾，婚宴不得出现。"
+      ],
+      "requiresEventPreviouslyExecuted": "tc_c08_huangqiuqiu_human_reveal",
+      "relationshipCondition": "none; never gate transformation by romance",
+      "publicGallery": "locked until legitimately seen; do not expose human form in public covers or locked memories",
+      "forbiddenScenes": [
+        "chapter7-day42",
+        "wedding"
+      ],
+      "doNotShowBeforeNode": "tc_c08_huangqiuqiu_human_reveal",
+      "sequence": [
+        {
+          "beat": "轻搭手",
+          "node": "tc_c08_huangqiuqiu_her_decision_001",
+          "form": "sphere",
+          "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+          "note": "A03姿态＋正文表达接触；不新增紧握或告白。"
+        },
+        {
+          "beat": "她自主松开",
+          "node": "tc_c08_huangqiuqiu_her_decision_010",
+          "form": "sphere",
+          "file": "assets/char-huangqiuqiu.webp"
+        },
+        {
+          "beat": "文文收手、退凳",
+          "node": "tc_c08_huangqiuqiu_her_decision_019",
+          "form": "sphere",
+          "file": "assets/char-huangqiuqiu.webp"
+        },
+        {
+          "beat": "轮廓变化",
+          "node": "tc_c08_huangqiuqiu_her_decision_020",
+          "form": "sphere",
+          "file": "assets/char-huangqiuqiu.webp",
+          "note": "由E08／E09淡出球形；不提前切人形，不加恋爱条件。"
+        },
+        {
+          "beat": "揭示人形并执行形态事件",
+          "node": "tc_c08_huangqiuqiu_human_reveal",
+          "form": "human",
+          "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+          "note": "先执行原有onEnter，再解析人形立绘和头像。"
+        },
+        {
+          "beat": "扶正玩偶棒的近景",
+          "node": "tc_c08_huangqiuqiu_her_decision_025",
+          "form": "human",
+          "file": "assets/ten-chapter/cg/cg-qiuqiu-transform.webp"
+        },
+        {
+          "beat": "退出CG继续聊天",
+          "node": "tc_c08_huangqiuqiu_her_decision_028",
+          "form": "human",
+          "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp"
+        }
+      ]
+    },
+    {
+      "id": "tc-cg-piao-wedding",
+      "file": "assets/ten-chapter/cg/cg-piao-wedding.webp",
+      "enterAt": "tc_c10_common_piao_wedding_04",
+      "allowedNodeIds": [
+        "tc_c10_common_piao_wedding_04"
+      ],
+      "exitBefore": "tc_c10_common_piao_wedding_05",
+      "exitExplicitlyClearsCg": true,
+      "conditions": {
+        "any": [
+          {
+            "flag": "route",
+            "in": [
+              "xiaoman",
+              "zhouzhi",
+              "mengyao",
+              "yelan",
+              "friends",
+              "huangqiuqiu"
+            ]
+          },
+          {
+            "all": [
+              {
+                "flag": "route",
+                "value": "piao"
+              },
+              {
+                "flag": "piaoRelationship",
+                "value": "friends"
+              }
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "仅E03公共婚宴分支：排除route=piao且piaoRelationship=dating；绝不放到文文与飘交往的朋友饭局。",
+        "E03 ch10场景已指定普通小店婚宴，沿A04空间制作。毛狼便西装、飘简洁礼裙沿A02用户确认。",
+        "第二版册子身份由原文交代，封面不生成文字；球球及未确认宾客不入镜。"
+      ],
+      "rejectInvalidOrMissingRoute": true,
+      "explicitlyExcluded": {
+        "all": [
+          {
+            "flag": "route",
+            "value": "piao"
+          },
+          {
+            "flag": "piaoRelationship",
+            "value": "dating"
+          }
+        ]
+      },
+      "cast": [
+        "piao",
+        "maolang"
+      ],
+      "neverAddCharacter": "huangqiuqiu",
+      "note": "球球路线可以经过文文参加的公共婚宴；球球本人不得在婚宴画面出现。"
+    }
+  ],
+  "transitions": [
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_020",
+      "request": "fade-sphere-before-human-reveal",
+      "form": "sphere",
+      "nextHumanEvent": "tc_c08_huangqiuqiu_human_reveal"
+    }
+  ],
+  "boundaries": [
+    "不更改正文、日序、地点或故事状态",
+    "A06静态采用与运行绑定分开保留",
+    "程序底色不是第56张已采用背景",
+    "浏览器与E10验收另行执行"
+  ]
+}

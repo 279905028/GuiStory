@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-22",
+  "pass": true,
+  "scope": "file-format-alpha-visible-pixels-A01-coverage-contract-shape",
+  "assetCount": 12,
+  "newGenerated": 7,
+  "avatarCount": 12,
+  "requiredA01Assets": 12,
+  "missingA01Assets": [],
+  "forms": [
+    "sphere",
+    "human"
+  ],
+  "dimensions": [
+    {
+      "id": "tc-char-huangqiuqiu-orb-base",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "tc-char-huangqiuqiu-orb-expression-serious",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "tc-char-huangqiuqiu-orb-expression-smile",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "tc-char-huangqiuqiu-orb-expression-hesitant",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "tc-look-huangqiuqiu-orb-hand",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "tc-char-huangqiuqiu-human-base",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-huangqiuqiu-human-expression-smile",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-huangqiuqiu-human-expression-hesitant",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-huangqiuqiu-human-expression-serious",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-huangqiuqiu-human-expression-downcast",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-huangqiuqiu-human-action-wave",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-look-huangqiuqiu-human-chin",
+      "width": 1024,
+      "height": 1536
+    }
+  ],
+  "sourceChecks": true,
+  "alphaAndVisiblePixelsEqual": true,
+  "browserChecked": true,
+  "gameChecked": false,
+  "visualReview": "passed-at-reviewed-scales",
+  "errors": [],
+  "visualEvidence": [
+    "human-light-dark.png",
+    "sphere-light-dark.png",
+    "human-face-details.png",
+    "hand-details.png",
+    "avatar-scales.png"
+  ],
+  "browser": {
+    "scope": "independent-art-gallery",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "imageElements": 36,
+    "brokenImages": [],
+    "horizontalOverflow": false,
+    "visibleCards": {
+      "all": 12,
+      "human": 7,
+      "sphere": 5
+    },
+    "backgroundControls": [
+      "light",
+      "dark",
+      "checker"
+    ],
+    "errorLogs": [],
+    "screenshots": [
+      "gallery-human-dark.jpg",
+      "gallery-sphere-checker.jpg"
+    ],
+    "gameIntegrated": false
+  }
+}

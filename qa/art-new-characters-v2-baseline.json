@@ -1,0 +1,695 @@
+{
+  "date": "2026-10-19",
+  "files": [
+    {
+      "path": "assets/background-prompts.json",
+      "sha256": "939314fc9e3c2bade1686b924d5f86afd3164893bf9f7fdb18e467d043f0d6d1",
+      "size": 9955
+    },
+    {
+      "path": "assets/background-variants/m2-20261019/bg-noodles-no-person.png",
+      "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+      "size": 2528115
+    },
+    {
+      "path": "assets/background-variants/m2-20261019/bg-noodles-original.png",
+      "sha256": "b3b2bd4aa1421b504417a1d37900add3ed69202f7d0f680c2da1be698a3dc984",
+      "size": 2714889
+    },
+    {
+      "path": "assets/background-variants/style-options-20261019/A-cinematic-realism.png",
+      "sha256": "73f5dc2e0d5f24acfc920ab95ecaa94bd9821f7863a796723ed98e914eed7fb0",
+      "size": 3081181
+    },
+    {
+      "path": "assets/background-variants/style-options-20261019/B-anime-background.png",
+      "sha256": "d89f2b88967cc9098ab7a198ecb6675a61c62155aef1a0373774d5e5b704a300",
+      "size": 2956030
+    },
+    {
+      "path": "assets/background-variants/style-options-20261019/C-watercolor-paper.png",
+      "sha256": "331a95eae7300156d929018eb679220b860c864c0b0a9528a467f3abd44bf8d3",
+      "size": 3582775
+    },
+    {
+      "path": "assets/background-variants/style-options-20261019/D-retro-film.png",
+      "sha256": "24cf648fe77dc7f99752fd2241ce40b1c0365894b90131f0b15b10a6c75fa432",
+      "size": 2961748
+    },
+    {
+      "path": "assets/background-variants/style-options-20261019/E-painterly-concept.png",
+      "sha256": "4cdc901a7f33af3b41cce98fd9d7167422393d1e52fbd893c1b48da1db8149f7",
+      "size": 3194590
+    },
+    {
+      "path": "assets/background-variants/style-options-20261019/index.html",
+      "sha256": "d72ab205147e33a37e98fb3d8bbfcb88288a2f0771d1622875662224ca432d9a",
+      "size": 16566
+    },
+    {
+      "path": "assets/background-variants/style-options-20261019/prompts.json",
+      "sha256": "0319f60a6f4c69d3c07b444501028b9afb2b7dc0364ab020cfa088face282224",
+      "size": 12873
+    },
+    {
+      "path": "assets/background-variants/style-options-20261019/sources.json",
+      "sha256": "dd4fae68af68a6a3a644dc8f7982ba5b5408f0634179c3dc0b54d848ef506d1b",
+      "size": 1364
+    },
+    {
+      "path": "assets/background-variants/style-options-20261019/说明.md",
+      "sha256": "e854bb4aa753e8d75ba0f95141124aaaf8eaf103a644bfd48eccc159bf04beb3",
+      "size": 1077
+    },
+    {
+      "path": "assets/bg-lobby.png",
+      "sha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871",
+      "size": 2260911
+    },
+    {
+      "path": "assets/bg-noodles.png",
+      "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+      "size": 2528115
+    },
+    {
+      "path": "assets/bg-repair.png",
+      "sha256": "3b918a88c0d486575fa18d09afb70a37f9e1743257dd49ce1a44f72416e098aa",
+      "size": 2576047
+    },
+    {
+      "path": "assets/bg-room.png",
+      "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+      "size": 1968927
+    },
+    {
+      "path": "assets/bg-salon.png",
+      "sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+      "size": 2571679
+    },
+    {
+      "path": "assets/bg-street.png",
+      "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "size": 3010764
+    },
+    {
+      "path": "assets/char-huangqiuqiu.png",
+      "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9",
+      "size": 1305412
+    },
+    {
+      "path": "assets/char-maolang.png",
+      "sha256": "52ddf5092e88a768a7103eb0e4b2527efaf4ce5c8dfd6b086aa17540278b8ce6",
+      "size": 2091587
+    },
+    {
+      "path": "assets/char-mengyao.png",
+      "sha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+      "size": 2209681
+    },
+    {
+      "path": "assets/char-shijiang.png",
+      "sha256": "e7129efb6a41002a32a5092c51ef11f6d2357ff37b5e0641ea6327b143c399bc",
+      "size": 1958472
+    },
+    {
+      "path": "assets/char-wenwen.png",
+      "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "size": 2267104
+    },
+    {
+      "path": "assets/char-xiaoman.png",
+      "sha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+      "size": 2323438
+    },
+    {
+      "path": "assets/char-yelan.png",
+      "sha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+      "size": 1835417
+    },
+    {
+      "path": "assets/char-zhouzhi.png",
+      "sha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+      "size": 1902928
+    },
+    {
+      "path": "assets/character-prompts.json",
+      "sha256": "d71117b5e482656e4ecefe2192a45f8b3cfa9756b086843f02d032fb894eff30",
+      "size": 734
+    },
+    {
+      "path": "assets/character-variants/mengyao-face-v2-candidate.png",
+      "sha256": "2dd0f78048ed0a8f67438838c27174df94c5d275ed54a4a050ae5c4fdfc98ee9",
+      "size": 2140620
+    },
+    {
+      "path": "assets/character-variants/mengyao-face-v2-edit.json",
+      "sha256": "4cd1db08d99c42f867bb7fd117901038f1a015392b1fd8b0fc7d138ca9027d28",
+      "size": 3650
+    },
+    {
+      "path": "assets/character-variants/mengyao-v1-original.png",
+      "sha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+      "size": 2209681
+    },
+    {
+      "path": "assets/character-variants/pre-face-v2-character-prompts.json",
+      "sha256": "d71117b5e482656e4ecefe2192a45f8b3cfa9756b086843f02d032fb894eff30",
+      "size": 734
+    },
+    {
+      "path": "assets/character-variants/pre-face-v2-characters-manifest.json",
+      "sha256": "40078c78ae9e49199d8a4d46e3f84f7ba115fe0389481d6c89769be44c841271",
+      "size": 19622
+    },
+    {
+      "path": "assets/character-variants/xiaoman-face-v2-candidate.png",
+      "sha256": "a576591f1b2a93c0c20eae946085ff3b1f404f143055a49dee6871f995d76a70",
+      "size": 2317566
+    },
+    {
+      "path": "assets/character-variants/xiaoman-face-v2-edit.json",
+      "sha256": "7fc521cb43dc76ca6cf0fdb91cca6d349adbd0aeeb29bb4b8237bef86fbf5e2a",
+      "size": 2810
+    },
+    {
+      "path": "assets/character-variants/xiaoman-v1-original.png",
+      "sha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+      "size": 2323438
+    },
+    {
+      "path": "assets/character-variants/yelan-face-v2-candidate.png",
+      "sha256": "d7ffa93d04c7bf990d93c3e5f04b8e8bb30ff006b4afe6207e2c21205827e209",
+      "size": 1834827
+    },
+    {
+      "path": "assets/character-variants/yelan-face-v2-edit.json",
+      "sha256": "f9c313a31e9c6f28a0b187eef3c990229c191447b51890d9fbf9fa5e31bf8320",
+      "size": 3731
+    },
+    {
+      "path": "assets/character-variants/yelan-v1-original.png",
+      "sha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+      "size": 1835417
+    },
+    {
+      "path": "assets/character-variants/zhouzhi-face-v2-candidate.png",
+      "sha256": "788536cfc207f37002818a3dcd973bbbb2d57a0b8dec701931dea237c8a790d8",
+      "size": 1853389
+    },
+    {
+      "path": "assets/character-variants/zhouzhi-face-v2-edit.json",
+      "sha256": "c04e66e898d6bfb6cb77f82164e5410168588f45b418874fd641a0c275f0977b",
+      "size": 3556
+    },
+    {
+      "path": "assets/character-variants/zhouzhi-v1-original.png",
+      "sha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+      "size": 1902928
+    },
+    {
+      "path": "assets/characters-manifest.json",
+      "sha256": "40078c78ae9e49199d8a4d46e3f84f7ba115fe0389481d6c89769be44c841271",
+      "size": 19622
+    },
+    {
+      "path": "assets/new-character-prompts.json",
+      "sha256": "501173addc8c58decc56f76dc9f810bdb8b190913234b5ee3ce710d3cc4b4fab",
+      "size": 11645
+    },
+    {
+      "path": "assets/new-character-variants/huangqiuqiu-v1.png",
+      "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9",
+      "size": 1305412
+    },
+    {
+      "path": "assets/new-character-variants/maolang-v1.png",
+      "sha256": "52ddf5092e88a768a7103eb0e4b2527efaf4ce5c8dfd6b086aa17540278b8ce6",
+      "size": 2091587
+    },
+    {
+      "path": "assets/new-character-variants/shijiang-v1.png",
+      "sha256": "e7129efb6a41002a32a5092c51ef11f6d2357ff37b5e0641ea6327b143c399bc",
+      "size": 1958472
+    },
+    {
+      "path": "assets/new-characters-manifest.json",
+      "sha256": "030f95e6bd32a80108c633a6bd51f6ae64a80380e950627c0180909a1d3a0133",
+      "size": 8474
+    },
+    {
+      "path": "assets/references/huangqiuqiu-reference.jpg",
+      "sha256": "3762f93aadaac1244c0d403471e96b1ff5f4a42e1688746a4c756d6c4cb6c574",
+      "size": 51048
+    },
+    {
+      "path": "engine.js",
+      "sha256": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+      "size": 9734
+    },
+    {
+      "path": "game.js",
+      "sha256": "1f6357867d93ae1e420bb0eeee3e330814f6123fb676e63f97771e911e74e91c",
+      "size": 36095
+    },
+    {
+      "path": "index.html",
+      "sha256": "376290050b9b95f64c7c55f3e8fa0180a78bb7368887132855d47e49ac132488",
+      "size": 6888
+    },
+    {
+      "path": "qa/art-backgrounds-baseline.json",
+      "sha256": "8d1a65aeee2dd68e24a10f55992e42a333520ef3e0e9505f5a08f71c25530a15",
+      "size": 1653
+    },
+    {
+      "path": "qa/art-backgrounds-details-original.png",
+      "sha256": "50b22465e186ed460b241090cfca1fa0c08ba503c5b58fe2c2bb4214ee9d5279",
+      "size": 415833
+    },
+    {
+      "path": "qa/art-backgrounds-layout-snapshot.json",
+      "sha256": "32d7d24d4479e678140df28889f24d4b1d3732d2ad866160b58e6c4e14c7c386",
+      "size": 385
+    },
+    {
+      "path": "qa/art-backgrounds-preview.html",
+      "sha256": "8731855273efba2279ac7906854aa73c5ac1be710756170ae6d8072ecc32047d",
+      "size": 36891
+    },
+    {
+      "path": "qa/art-characters-avatar-crops.png",
+      "sha256": "e0a54d11c28c530f9454a4a9ff645c557ad3ddc5b2f60e07f01486655d7b8320",
+      "size": 566915
+    },
+    {
+      "path": "qa/art-characters-avatar-recommendations.json",
+      "sha256": "46cb7fc14f7a2984e7921d62639e4edce147179b59d755bba99b394e47b93629",
+      "size": 1249
+    },
+    {
+      "path": "qa/art-characters-background-reference.png",
+      "sha256": "0738a93a3b141aa4ee8e36f57ae370dbe82392f1d5058f1659bf72701c7991c8",
+      "size": 2101846
+    },
+    {
+      "path": "qa/art-characters-baseline-audit.json",
+      "sha256": "dffff375a6a44107e1ae7293f29cc089a0a4c72c4a7dcc893390772357f75713",
+      "size": 5178
+    },
+    {
+      "path": "qa/art-characters-composite-mengyao.png",
+      "sha256": "1009a83101bf7d856c601e3006a3cbd30d165a3172486e6b6066d278e8768cde",
+      "size": 2758437
+    },
+    {
+      "path": "qa/art-characters-composite-wenwen.png",
+      "sha256": "bf6b378dfdd045a89830d19b58217ea27b77fc3af25b07c8476fb2f09d32a6ee",
+      "size": 2732642
+    },
+    {
+      "path": "qa/art-characters-composite-xiaoman.png",
+      "sha256": "edb758c9627ae419569afb89ee8b0e3f37c6a03726d23f92c6476ba227d89982",
+      "size": 2752957
+    },
+    {
+      "path": "qa/art-characters-composite-yelan.png",
+      "sha256": "9556f06dfff461d6f7a58ebccbd7fd7a0edcd5863778fdd1636e1462b99ec9df",
+      "size": 2646037
+    },
+    {
+      "path": "qa/art-characters-composite-zhouzhi.png",
+      "sha256": "fd9c2eb9088987c7344bc286e1ac33e5fa4fb62ebc9ce06538e9a48c632f5e05",
+      "size": 2677672
+    },
+    {
+      "path": "qa/art-characters-details-mengyao.png",
+      "sha256": "2f375f7486a8b9031dd1af86946f88cd38a94a0fb73fb7baef2f2d70c83be863",
+      "size": 1524713
+    },
+    {
+      "path": "qa/art-characters-details-wenwen.png",
+      "sha256": "bcf610c1aec586c4c0e2537910ce20a7ece4d9054cd9cc8492fb2ea3611b0201",
+      "size": 1392911
+    },
+    {
+      "path": "qa/art-characters-details-xiaoman.png",
+      "sha256": "ab6cf6cf2b99226527a0d8d989333797f395fe7cb6654f2337f0f56d3845cdd3",
+      "size": 952946
+    },
+    {
+      "path": "qa/art-characters-details-yelan.png",
+      "sha256": "88ffd61c901b5b3b080ab7c246b6bcaacb1f24aab2eeaf15783e62dcc39ae343",
+      "size": 815178
+    },
+    {
+      "path": "qa/art-characters-details-zhouzhi.png",
+      "sha256": "4b95ee2e4a86fd986306c082c94d628af36af1025d913ed4bc421b911b2cce6a",
+      "size": 1161907
+    },
+    {
+      "path": "qa/art-characters-mobile-composite.png",
+      "sha256": "863aa9e6febdd8a561454a46e6cd8023b7dc43efd448aad85ff96089073ba1c6",
+      "size": 1885918
+    },
+    {
+      "path": "qa/art-characters-mobile-position-comparison.png",
+      "sha256": "14315a072edbc6b3c84387225cd9dfcf69d7f352fe3355d4ee0fc6065a186bbf",
+      "size": 2274890
+    },
+    {
+      "path": "qa/art-characters-original-light-dark.png",
+      "sha256": "413c9e87eebadaedb2d7136232136042bf0788b0e783bb7653d3f16b6386f871",
+      "size": 1766883
+    },
+    {
+      "path": "qa/art-characters-report.md",
+      "sha256": "d272298aa444093292dc89e4f7b4ef639187ee552d9b593386b304f3fa94e30f",
+      "size": 6667
+    },
+    {
+      "path": "qa/art-characters-six-backgrounds.png",
+      "sha256": "322ad6e03c944b583d2314930b32df36d8b8044066a249de087e2d3001d4ed5b",
+      "size": 2618829
+    },
+    {
+      "path": "qa/art-characters-v2-mengyao-alpha.json",
+      "sha256": "772da3c6dbb05f5f57c27d34257125a068c7cd5fe51881763c703f9a051e8782",
+      "size": 287
+    },
+    {
+      "path": "qa/art-characters-v2-mengyao-comparison.png",
+      "sha256": "7ec78de8b0ec6464f1f853a5a09594f94b14497b93533cd0f4c23f701871a512",
+      "size": 992039
+    },
+    {
+      "path": "qa/art-characters-v2-yelan-alpha.json",
+      "sha256": "9e3631a53a07f0acfd2bc3098edeb285375bf67f447a37b5e7542a7ff1d48663",
+      "size": 622
+    },
+    {
+      "path": "qa/art-characters-v2-yelan-face-compare.png",
+      "sha256": "5adcbde88471f726878615e4632c4576aab4c6d27a89d0d203899a71c5f2097f",
+      "size": 1320579
+    },
+    {
+      "path": "qa/art-characters-v2-zhouzhi-face-comparison.png",
+      "sha256": "3fb76b8657fee1256e2dcba105d81df7f0aa3cd110e785dbd2b349cc4be074d4",
+      "size": 1430561
+    },
+    {
+      "path": "qa/art-characters-v2-zhouzhi-light-dark.png",
+      "sha256": "789202e0f99b8bc6559dc80872966e4122476cbb7355cc50be4cab118b9d8df5",
+      "size": 476431
+    },
+    {
+      "path": "qa/art-new-characters-avatars.png",
+      "sha256": "e37254a54b43d283936c9d4ab8eb048e813782c0b8788f04cf475d142ea06ba4",
+      "size": 48088
+    },
+    {
+      "path": "qa/art-new-characters-baseline.json",
+      "sha256": "a18260e947ae72b127eab9afe6c0fbe36f3c601650171afec3d84eca5072dbff",
+      "size": 9994
+    },
+    {
+      "path": "qa/art-new-characters-completion.json",
+      "sha256": "afef042bccfb6203163e1ea6832449a4684adf73e2afadea8d0d4f2c2c75a3e9",
+      "size": 698
+    },
+    {
+      "path": "qa/art-new-characters-composite-huangqiuqiu.png",
+      "sha256": "5ba971998c2994d0b29942872622efa19e154c310dadd2ead23caa7085202b1c",
+      "size": 894154
+    },
+    {
+      "path": "qa/art-new-characters-composite-maolang.png",
+      "sha256": "edf28e02bc36052ede653582afe0db24eca91e165c47a86af1efa31d3da31d22",
+      "size": 972962
+    },
+    {
+      "path": "qa/art-new-characters-composite-shijiang.png",
+      "sha256": "d7d7ae0989ee8f0ffb49d692560041af3df6cb02838d0da7bac7aca0d2d02784",
+      "size": 967510
+    },
+    {
+      "path": "qa/art-new-characters-details-huangqiuqiu.png",
+      "sha256": "531a7e3d15f93c3195d5854caabbd49473c3c499833d484b3b0b0389f41ee0ca",
+      "size": 444087
+    },
+    {
+      "path": "qa/art-new-characters-details-maolang.png",
+      "sha256": "cfa75eed32ececf83df6d3e47950892e58513f9d63143a9cedef9a492d99fb5e",
+      "size": 659279
+    },
+    {
+      "path": "qa/art-new-characters-details-shijiang.png",
+      "sha256": "66df7a11953591ae895f7a9d1d34065d67184ee3c57411360c037bc5bf16a462",
+      "size": 626569
+    },
+    {
+      "path": "qa/art-new-characters-edges-huangqiuqiu.png",
+      "sha256": "5cbd8488c64a2d45611935bd579b77c13642edac89389d0295acdf554f092c0b",
+      "size": 299603
+    },
+    {
+      "path": "qa/art-new-characters-edges-maolang.png",
+      "sha256": "347ee929dc64cc7e478ed73827c1ec0dddf62d10ae37303eaa03d2b022cb26ec",
+      "size": 283004
+    },
+    {
+      "path": "qa/art-new-characters-edges-shijiang.png",
+      "sha256": "53971c81ebf5676c59250844313bbfaa28e4d3fad15a72747656082bfb239ccd",
+      "size": 269250
+    },
+    {
+      "path": "qa/art-new-characters-preservation.json",
+      "sha256": "67bb398af91351f274b4246f71a9a94c7f5397795f5a7d93c327f8b5c391c74e",
+      "size": 5600
+    },
+    {
+      "path": "qa/art-new-characters-preview.html",
+      "sha256": "25786c5c6c221d09457f003e560572750aab6300b77f6eca1548ac7b0cacac12",
+      "size": 6168
+    },
+    {
+      "path": "qa/art-new-characters-preview.png",
+      "sha256": "0bb06d5966bfd37d89c4f1a480c678055142fee969713b6a55d3d0816a433aa4",
+      "size": 490437
+    },
+    {
+      "path": "qa/art-new-characters-report.md",
+      "sha256": "b1cd643067eefaaa882ce61ec17f2a049abfbb8ef160a38b02c868320dbaae12",
+      "size": 6850
+    },
+    {
+      "path": "qa/art-new-characters-v1-avatars.png",
+      "sha256": "e37254a54b43d283936c9d4ab8eb048e813782c0b8788f04cf475d142ea06ba4",
+      "size": 48088
+    },
+    {
+      "path": "qa/art-new-characters-v1-composite-huangqiuqiu.png",
+      "sha256": "5ba971998c2994d0b29942872622efa19e154c310dadd2ead23caa7085202b1c",
+      "size": 894154
+    },
+    {
+      "path": "qa/art-new-characters-v1-composite-maolang.png",
+      "sha256": "edf28e02bc36052ede653582afe0db24eca91e165c47a86af1efa31d3da31d22",
+      "size": 972962
+    },
+    {
+      "path": "qa/art-new-characters-v1-composite-shijiang.png",
+      "sha256": "d7d7ae0989ee8f0ffb49d692560041af3df6cb02838d0da7bac7aca0d2d02784",
+      "size": 967510
+    },
+    {
+      "path": "qa/art-new-characters-v1-details-huangqiuqiu.png",
+      "sha256": "531a7e3d15f93c3195d5854caabbd49473c3c499833d484b3b0b0389f41ee0ca",
+      "size": 444087
+    },
+    {
+      "path": "qa/art-new-characters-v1-details-maolang.png",
+      "sha256": "cfa75eed32ececf83df6d3e47950892e58513f9d63143a9cedef9a492d99fb5e",
+      "size": 659279
+    },
+    {
+      "path": "qa/art-new-characters-v1-details-shijiang.png",
+      "sha256": "66df7a11953591ae895f7a9d1d34065d67184ee3c57411360c037bc5bf16a462",
+      "size": 626569
+    },
+    {
+      "path": "qa/art-new-characters-v1-edges-huangqiuqiu.png",
+      "sha256": "5cbd8488c64a2d45611935bd579b77c13642edac89389d0295acdf554f092c0b",
+      "size": 299603
+    },
+    {
+      "path": "qa/art-new-characters-v1-edges-maolang.png",
+      "sha256": "347ee929dc64cc7e478ed73827c1ec0dddf62d10ae37303eaa03d2b022cb26ec",
+      "size": 283004
+    },
+    {
+      "path": "qa/art-new-characters-v1-edges-shijiang.png",
+      "sha256": "53971c81ebf5676c59250844313bbfaa28e4d3fad15a72747656082bfb239ccd",
+      "size": 269250
+    },
+    {
+      "path": "qa/art-new-characters-v1-measurements.json",
+      "sha256": "2c7244b65aa7f30276a702ada178756ee5b1195278c38e9c5e26b0b7dce2ec12",
+      "size": 2670
+    },
+    {
+      "path": "qa/art-new-characters-v1-preview.png",
+      "sha256": "0bb06d5966bfd37d89c4f1a480c678055142fee969713b6a55d3d0816a433aa4",
+      "size": 490437
+    },
+    {
+      "path": "story.js",
+      "sha256": "2e1ec1d6bcd544fc863ee452cc1bbcc40cd0b20b144c4d47f7d4ea0fe68a83e8",
+      "size": 99128
+    },
+    {
+      "path": "styles.css",
+      "sha256": "805fc2525186292f469c816cebcb95da09dfb876feecb0e45623cd3aaeed552e",
+      "size": 25983
+    },
+    {
+      "path": "任务拆分/交接/E1.md",
+      "sha256": "dd5734ad0b7a56946b0e9731df61ca801187cc852edb8b5a25f1a2d446a7f876",
+      "size": 22572
+    },
+    {
+      "path": "任务拆分/交接/E2.md",
+      "sha256": "4ffff3eaa0fda7c09266b564036f1730c6faaa8caea2f166464d136d10b6ad79",
+      "size": 7131
+    },
+    {
+      "path": "任务拆分/交接/E3.md",
+      "sha256": "0838786dfe2f43bb7d2dbc21fdc91d02f8eadf72c23b1fb327057973f26bcd64",
+      "size": 11117
+    },
+    {
+      "path": "任务拆分/交接/M1.md",
+      "sha256": "18902237a419915fa14c9ca5025126d4341d167cc571a23f2c5e1656d40bc7e0",
+      "size": 3418
+    },
+    {
+      "path": "任务拆分/交接/M3.md",
+      "sha256": "64bc8e7fc72e74f23f8c34c63d5cada876a5b90bdd87c4de0ff8355a37793dff",
+      "size": 4347
+    },
+    {
+      "path": "任务拆分/共享契约.md",
+      "sha256": "1f04efc153fa9cd6516efec2122b627d78a198f7f2d18e035f3c1ae17e271a82",
+      "size": 12688
+    },
+    {
+      "path": "任务拆分/工程/E1-剧情与分支.md",
+      "sha256": "8f1b8e3abc95c2aa57d3901df1433d1afaa174ec655f4fb893e597e495a81738",
+      "size": 3015
+    },
+    {
+      "path": "任务拆分/工程/E2-核心引擎与可靠性.md",
+      "sha256": "d2c75538211330a6930da5d8a2994e2aee94f4200f839aae19e6d3fd52e522e8",
+      "size": 2792
+    },
+    {
+      "path": "任务拆分/工程/E3-播放器与存读档.md",
+      "sha256": "8ffefa6c53fabda236b4d67180016cd77954ea1cf5c7618c97e793c398460f72",
+      "size": 3356
+    },
+    {
+      "path": "任务拆分/工程/E4-界面与多屏适配.md",
+      "sha256": "7c84cdd1e80fd4fa79da37abe480d5260d2c3436f82ede012739d0a2021a0138",
+      "size": 2647
+    },
+    {
+      "path": "任务拆分/工程/E5-总验收与交付.md",
+      "sha256": "ea03b1ccbf3f0b8d123837734b3b44ec60eaa5a6766fa4ccb9cf4bb27eea62cd",
+      "size": 3604
+    },
+    {
+      "path": "任务拆分/总览.md",
+      "sha256": "2848ca76170dd91139528d64757e39981c6e1a13e390bdf427e32563dc227140",
+      "size": 6489
+    },
+    {
+      "path": "任务拆分/美术/M1-角色归档与立绘审校.md",
+      "sha256": "3d3ec5e585823139d640c3fd91949de225da7f5a3f8a837539ea676f16b94772",
+      "size": 4002
+    },
+    {
+      "path": "任务拆分/美术/M2-场景审校与使用清单.md",
+      "sha256": "753525b5fb8b63f3802c8981c1ed417658d2b70e47c1d14df2edae4c3dcd1e10",
+      "size": 2804
+    },
+    {
+      "path": "任务拆分/美术/M3-新增三角色美术.md",
+      "sha256": "ba2703bca81cafba6f8e8651e9c0b0699c696dca478c94f7a128d952dfae566d",
+      "size": 3697
+    },
+    {
+      "path": "任务拆分/角色与隐藏线-R2.md",
+      "sha256": "f3f17d121ee18b63eef80df1a4699f308ecd12f95f9109c439cdf0f5d971b1b4",
+      "size": 4937
+    },
+    {
+      "path": "多窗口任务提示词-R2/assets/references/huangqiuqiu-reference.jpg",
+      "sha256": "3762f93aadaac1244c0d403471e96b1ff5f4a42e1688746a4c756d6c4cb6c574",
+      "size": 51048
+    },
+    {
+      "path": "多窗口任务提示词-R2/任务拆分/共享契约.md",
+      "sha256": "1f04efc153fa9cd6516efec2122b627d78a198f7f2d18e035f3c1ae17e271a82",
+      "size": 12688
+    },
+    {
+      "path": "多窗口任务提示词-R2/任务拆分/工程/E1-剧情与分支.md",
+      "sha256": "8f1b8e3abc95c2aa57d3901df1433d1afaa174ec655f4fb893e597e495a81738",
+      "size": 3015
+    },
+    {
+      "path": "多窗口任务提示词-R2/任务拆分/工程/E2-核心引擎与可靠性.md",
+      "sha256": "d2c75538211330a6930da5d8a2994e2aee94f4200f839aae19e6d3fd52e522e8",
+      "size": 2792
+    },
+    {
+      "path": "多窗口任务提示词-R2/任务拆分/工程/E3-播放器与存读档.md",
+      "sha256": "8ffefa6c53fabda236b4d67180016cd77954ea1cf5c7618c97e793c398460f72",
+      "size": 3356
+    },
+    {
+      "path": "多窗口任务提示词-R2/任务拆分/工程/E4-界面与多屏适配.md",
+      "sha256": "7c84cdd1e80fd4fa79da37abe480d5260d2c3436f82ede012739d0a2021a0138",
+      "size": 2647
+    },
+    {
+      "path": "多窗口任务提示词-R2/任务拆分/工程/E5-总验收与交付.md",
+      "sha256": "ea03b1ccbf3f0b8d123837734b3b44ec60eaa5a6766fa4ccb9cf4bb27eea62cd",
+      "size": 3604
+    },
+    {
+      "path": "多窗口任务提示词-R2/任务拆分/美术/M1-角色归档与立绘审校.md",
+      "sha256": "3d3ec5e585823139d640c3fd91949de225da7f5a3f8a837539ea676f16b94772",
+      "size": 4002
+    },
+    {
+      "path": "多窗口任务提示词-R2/任务拆分/美术/M2-场景审校与使用清单.md",
+      "sha256": "753525b5fb8b63f3802c8981c1ed417658d2b70e47c1d14df2edae4c3dcd1e10",
+      "size": 2804
+    },
+    {
+      "path": "多窗口任务提示词-R2/任务拆分/美术/M3-新增三角色美术.md",
+      "sha256": "ba2703bca81cafba6f8e8651e9c0b0699c696dca478c94f7a128d952dfae566d",
+      "size": 3697
+    },
+    {
+      "path": "多窗口任务提示词-R2/任务拆分/角色与隐藏线-R2.md",
+      "sha256": "f3f17d121ee18b63eef80df1a4699f308ecd12f95f9109c439cdf0f5d971b1b4",
+      "size": 4937
+    },
+    {
+      "path": "总览.md",
+      "sha256": "2848ca76170dd91139528d64757e39981c6e1a13e390bdf427e32563dc227140",
+      "size": 6489
+    }
+  ]
+}

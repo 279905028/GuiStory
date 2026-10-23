@@ -1,0 +1,275 @@
+{
+  "version": "R2-M3-OptionD-20261020",
+  "date": "2026-10-20",
+  "contract": "任务拆分/共享契约.md + 角色与隐藏线-R2.md",
+  "scope": "仅新增三角色美术",
+  "styleReferences": [
+    "assets/char-wenwen.png",
+    "assets/char-xiaoman.png",
+    "assets/char-zhouzhi.png",
+    "assets/bg-repair.png",
+    "assets/bg-room.png"
+  ],
+  "characters": {
+    "maolang": {
+      "key": "maolang",
+      "name": "毛狼",
+      "age": 24,
+      "ageLabel": "24岁",
+      "adult": true,
+      "genderIdentity": "成年男性",
+      "presentation": "human",
+      "source": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "operation": "user-approved Option D adoption",
+        "reference": "assets/character-variants/maolang-photo2-options-20261020/option-D-dialogue-stance.png",
+        "photoReference": "assets/character-variants/maolang-photo2-options-20261020/reference-photo.jpg",
+        "realPersonReference": true,
+        "approval": "用户明确选择Option D并授权更新全部毛狼资源"
+      },
+      "path": "assets/char-maolang.webp",
+      "absolutePath": "/Users/yipin/Desktop/cjb/assets/char-maolang.webp",
+      "width": 1024,
+      "height": 1536,
+      "format": "WebP",
+      "colorMode": "RGBA",
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 51.4302,
+        "partiallyTransparentPixelPercent": 48.5698,
+        "fullyOpaquePixelPercent": 0,
+        "visibleBBoxAlpha128": [
+          129,
+          54,
+          907,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      },
+      "version": "OptionD-20261020",
+      "selectedVariant": "assets/character-variants/maolang-photo2-options-20261020/option-D-dialogue-stance.png",
+      "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf",
+      "qa": {
+        "status": "passed_current_local_chrome",
+        "date": "2026-10-20",
+        "sourceDimensionsMeasured": true,
+        "face": "Option D identity visually checked across all variants and two CGs",
+        "handsOrProps": "checked at full image and detail scales",
+        "transparentEdges": "light and dark composites viewed",
+        "evidence": [
+          "assets/character-variants/maolang-optionD-production-20261020/qa-expressions-1.jpg",
+          "assets/character-variants/maolang-optionD-production-20261020/qa-expressions-2.jpg"
+        ],
+        "limitations": "本机Chrome与五种模拟视口通过；未计实体手机、Safari/Firefox或用户逐图审美终审。生成编辑保持视觉一致，非像素锁定。",
+        "runtimeEvidence": "qa/maolang-optionD-20261020/runtime-results.json",
+        "legacySaveEvidence": "qa/maolang-optionD-20261020/legacy-save-results.json"
+      },
+      "faceDesign": "用户选定Option D：黑色蓬松微卷短发、自然偏窄椭圆脸与灵活眉眼；黑色下摆多彩花形印花T恤、黑色护腕、黑裤。无帽、无口罩、无橄榄外套。",
+      "variants": {
+        "expression-smile": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+        "expression-serious": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.webp",
+        "expression-hesitant": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+        "expression-surprised": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.webp",
+        "expression-displeased": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.webp",
+        "expression-downcast": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.webp",
+        "action-wave": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.webp",
+        "action-thinking": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.webp",
+        "action-explaining": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.webp"
+      },
+      "runtimeNodeMap": {
+        "s2_counter_02": "action-wave",
+        "s2_counter_04": "action-explaining",
+        "s2_counter_13": "expression-surprised",
+        "s2_recruit_02": "action-thinking",
+        "s9_compete_02": "expression-serious",
+        "s9_compete_04": "expression-hesitant",
+        "s9_compete_07": "expression-smile",
+        "s9_measure_02": "expression-serious"
+      },
+      "originalEncoding": {
+        "path": "assets/char-maolang.png",
+        "bytes": 1700282,
+        "sha256": "1b6302e8c1fb95eb104cd645ab7fdc638ff0c30ed83b43779acdb61b1cc3006c",
+        "format": "PNG"
+      },
+      "bytes": 730662
+    },
+    "shijiang": {
+      "key": "shijiang",
+      "name": "师匠",
+      "age": 32,
+      "ageLabel": "32岁",
+      "adult": true,
+      "genderIdentity": "成年男性",
+      "presentation": "human",
+      "source": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "operation": "user-selected photo Option A",
+        "reference": "assets/character-variants/shijiang-photo-options-20261020/option-A-photo-faithful.png",
+        "realPersonReference": true,
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a157db-ff60-7102-8994-2ef08f96801c/exec-8bb7fb7c-f7d4-44d5-8a41-20999daec7a5.png"
+      },
+      "path": "assets/char-shijiang.webp",
+      "absolutePath": "/Users/yipin/Desktop/cjb/assets/char-shijiang.webp",
+      "width": 1024,
+      "height": 1536,
+      "format": "WebP",
+      "colorMode": "RGBA",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "transparentPixels": 697507,
+        "present": true,
+        "note": "保留生成原始alpha，范围0-254；已查看浅深底"
+      },
+      "version": "photo-optionA-20261020",
+      "selectedVariant": "assets/character-variants/shijiang-photo-options-20261020/option-A-photo-faithful.png",
+      "sha256": "286042deb9ae765c377f69285824c8ca4e2a7a23ba8af960cbaf413747fc207c",
+      "qa": {
+        "status": "passed_local_runtime_and_asset_review",
+        "date": "2026-10-20",
+        "evidence": [
+          "assets/character-variants/shijiang-optionA-20261020/qa-light-dark.png",
+          "qa/shijiang-optionA-20261020/browser-results.json"
+        ],
+        "limitations": "仅本轮本地Chrome桌面及模拟手机尺寸；未发布线上，未验证Safari/Firefox、真机或所有后续剧情。"
+      },
+      "faceDesign": "用户照片外貌参考：自然丰满脸颊、柔和宽下颌、黑色粗框眼镜与黑白花纹渔夫帽，白色图案T恤、黑色运动短裤。32岁为虚构角色既有设定。",
+      "expressionManifest": "assets/character-variants/shijiang-optionA-20261020/manifest.json",
+      "integrationStatus": "integrated_verified_local",
+      "originalEncoding": {
+        "path": "assets/char-shijiang.png",
+        "bytes": 2033251,
+        "sha256": "391b5acd4b59bd93fcefc8c22c367d60be3faec8eb946a3635db38ee821eeed0",
+        "format": "PNG"
+      },
+      "bytes": 932076
+    },
+    "huangqiuqiu": {
+      "key": "huangqiuqiu",
+      "name": "黄球球",
+      "age": 24,
+      "ageLabel": "自称24岁",
+      "adult": true,
+      "genderIdentity": "成年女性",
+      "presentation": "orb",
+      "source": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "operation": "reference edit / background-extraction",
+        "reference": "assets/references/huangqiuqiu-reference.jpg",
+        "realPersonReference": false,
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a1520b-39c5-7621-a516-c276a358dd29/exec-bf2e1e51-59fc-431c-ae7d-40dc13aaa638.png"
+      },
+      "path": "assets/char-huangqiuqiu.webp",
+      "absolutePath": "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.webp",
+      "width": 1254,
+      "height": 1254,
+      "format": "WebP",
+      "colorMode": "RGBA",
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 255,
+        "fullyTransparentPixelPercent": 38.5591,
+        "partiallyTransparentPixelPercent": 61.3684,
+        "fullyOpaquePixelPercent": 0.0725,
+        "visibleBBoxAlpha128": [
+          72,
+          87,
+          1177,
+          1192
+        ],
+        "note": "保留 imagegen 原始 alpha，未手工抠图或阈值化。部分主体 alpha 约为 252–254；验收以明暗背景的真实合成为准。"
+      },
+      "version": "R2-M3-v1",
+      "selectedVariant": "assets/new-character-variants/huangqiuqiu-v1.png",
+      "sha256": "ce01862d4078b2b091980575bbf728f30d3ce2044ac9b6f41643fb11a843b2de",
+      "qa": {
+        "status": "passed_for_reviewed_display_scales",
+        "date": "2026-10-19",
+        "sourceDimensionsMeasured": true,
+        "face": "pass",
+        "handsOrProps": "pass",
+        "transparentEdges": "pass_in_light_dark_composites",
+        "shape": "complete_near_circular_orb",
+        "lightBackground": "assets/bg-repair.png",
+        "darkBackground": "assets/bg-room.png",
+        "evidence": [
+          "qa/art-new-characters-composite-huangqiuqiu.png",
+          "qa/art-new-characters-edges-huangqiuqiu.png",
+          "qa/art-new-characters-details-huangqiuqiu.png"
+        ],
+        "reviewers": 2,
+        "limitations": "仅素材及给定合成尺度验收；未验证游戏接入、隐藏剧情、所有浏览器或任意放大倍率。"
+      },
+      "originalEncoding": {
+        "path": "assets/char-huangqiuqiu.png",
+        "bytes": 1305412,
+        "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9",
+        "format": "PNG"
+      },
+      "bytes": 768286
+    }
+  },
+  "displayRecommendations": {
+    "huangqiuqiu": {
+      "presentation": "orb",
+      "targets": [
+        "#character",
+        "#speaker-avatar",
+        "#end-character"
+      ],
+      "containerAspectRatio": "1 / 1",
+      "objectFit": "contain",
+      "objectPosition": "center",
+      "preserveSourceAspectRatio": true,
+      "avoid": [
+        "拉伸为人类长立绘",
+        "胸像裁切",
+        "object-fit:cover",
+        "放大上移人脸裁切",
+        "以外形改变表达女性身份"
+      ],
+      "avatar": {
+        "preferredPixels": 64,
+        "reviewedPixels": [
+          48,
+          64,
+          96,
+          160
+        ],
+        "containerPaddingRatio": 0.08,
+        "useWholeSprite": true
+      },
+      "stage": "独立正方形容器；建议球直径约为对白框上方可用舞台高度的45%–55%，再按实际设备调整，嘴和托腮手不得被对白框遮挡。此为接入建议，不是游戏实测。",
+      "spoilerBoundary": "H1/H2不显示完整立绘或姓名；解锁前不出现角色图鉴；匿名黄色头像仅按R2合法条件展示。"
+    }
+  },
+  "integrationStatus": "毛狼Option D基础图与7张差分已接入8处现有对白；其他角色条目保持",
+  "prompts": "assets/new-character-prompts.json",
+  "report": "qa/art-new-characters-report.md",
+  "handoff": "任务拆分/交接/M3.md",
+  "revision": {
+    "request": "根据特征修改雷同的脸部造型",
+    "designSkill": "game-character-gen",
+    "generationTool": "image_gen.imagegen (built-in)",
+    "selectedVersions": {
+      "maolang": "OptionD-20261020",
+      "shijiang": "photo-optionA-20261020",
+      "huangqiuqiu": "v1 unchanged"
+    },
+    "faceComparison": "qa/art-new-characters-v3-face-comparison.png",
+    "huangqiuqiuUnchanged": true
+  },
+  "webpMigration": {
+    "date": "2026-10-21",
+    "manifest": "assets/webp-manifest.json",
+    "report": "qa/webp-20261021/report.md",
+    "note": "本次仅更新交付图片路径与编码指纹；来源、选型及旧QA字段仍属历史制作记录。"
+  }
+}

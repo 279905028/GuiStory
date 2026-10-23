@@ -1,0 +1,276 @@
+{
+  "scope": "E08 真实十章正文与 StoryEngine 的隔离运行验收",
+  "date": "2026-10-23",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "formalIntegration": false,
+  "artAdoption": false,
+  "binding": "sample://e08-runtime-logic；无正文桩；不写正式 story.js 或运行清单，不接触玩家存储",
+  "inputFiles": [
+    {
+      "file": "任务拆分/全十章/contract.json",
+      "sha256": "4086571ab65e54271ec70e5a0a0712e00d0b2a1f6dae739b1df05a328ada1876"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch01.json",
+      "sha256": "e67fd830b2a90b5b1ebc581dd0453a1d8feee5c3be0b91ce894cae6f1776b48f"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch02.json",
+      "sha256": "f9e89a31e445bd52655334f124c1e0f9c8bc9368bce0220742eed9f3561032b2"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch03.json",
+      "sha256": "88bb55edd4315f4a6c06500687a99134bdebaba1233b21ef03fd2660c75fba5b"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch04.json",
+      "sha256": "645ddb96d804533a226a8c14e5cb0fff18e557bfb9a2c994ee9eea915b24ac04"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch05.json",
+      "sha256": "2e19cd57cfafa07edd7c1880dc727f6aae386a62bad806f86c1d5a9f2d2fbfb8"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch06.json",
+      "sha256": "f95eabdfd886fdc72f1856872d21919b9adba833b501a303cc7219fe4c04e62f"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch07.json",
+      "sha256": "5b45f35bd675c3db4060f9e7ae8bf4d076cae60c9dd438cb8bead49e6fbd31c7"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch08.json",
+      "sha256": "4b98abcf1ef72c6ac5985cd70e1640bebfdf390fd2b67f6cfe9497ec80278ec9"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch09.json",
+      "sha256": "e437f863161b79661513d53c55e27529270918766114434eed3646b6bb710002"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch10.json",
+      "sha256": "5c179e95f3b1fc6ce28a47ffa70df2b41aa36dbd11ad440878c4fc23809d9b3c"
+    },
+    {
+      "file": "任务拆分/全十章/routes/xiaoman.json",
+      "sha256": "b982784014d95fe44cb620e6b0ccd2252b3b86ccea5e519c09501277abec0fb0"
+    },
+    {
+      "file": "任务拆分/全十章/routes/zhouzhi.json",
+      "sha256": "7da9e066d79aaa299ad2ab5fff911be7060f5db4e4ef11bda3e4a901880a8eff"
+    },
+    {
+      "file": "任务拆分/全十章/routes/mengyao.json",
+      "sha256": "8c7c8082bcc216107886bafc33e516aa349e596435a926b7adc9a17eaac90d0d"
+    },
+    {
+      "file": "任务拆分/全十章/routes/yelan.json",
+      "sha256": "7dcaae511ed9e7bfeb644816ef5821ad66e032783e62ef107e9e775af1472aee"
+    },
+    {
+      "file": "任务拆分/全十章/routes/piao.json",
+      "sha256": "b1ab806155124a8b2cf0e11e9c2947e33fe9a77a622ecdff69f314e50255202d"
+    },
+    {
+      "file": "任务拆分/全十章/routes/friends.json",
+      "sha256": "22c82f1aa56c6873f83df8eedd47309693ab56ef03b081095b93fce95bce4ed7"
+    },
+    {
+      "file": "任务拆分/全十章/routes/huangqiuqiu.json",
+      "sha256": "c785e3d2dda7d967f4bec0ba73382d03f297796e1dcf532f52592e564fb78e19"
+    }
+  ],
+  "testedRuntime": [
+    {
+      "file": "engine.js",
+      "sha256": "363e4a9b1ddd9d6e012b6623af04c54f9fc077a065e9d1ee3b61981e9be5e39a"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E08/fixture.cjs",
+      "sha256": "fbc4086a8a7726f9be8a421f5767b5f7e190699f982139c6a602428b4a53633c"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E08/integration-test.cjs",
+      "sha256": "d63aa28c3fcbc993d7a4d8c9a7ed4727ce0db123dbd181376209bc45c9fc49a4"
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "failed": 0
+  },
+  "results": [
+    {
+      "name": "全部 17 份真实源通过冻结构建接口，19 选择／43 选项／13 结局闭合",
+      "status": "passed",
+      "detail": {
+        "modules": 17,
+        "nodes": 2612,
+        "scenes": 360,
+        "choices": 19,
+        "options": 43,
+        "endings": 13,
+        "formalIntegration": false
+      }
+    },
+    {
+      "name": "四种节奏组合；第八天回应始终可选，第三章只向真实相识路径展示隐藏线",
+      "status": "passed",
+      "detail": [
+        {
+          "qiuSignal": "record",
+          "qiuReply": "reply",
+          "qiuMet": true,
+          "visibleRoutes": 7
+        },
+        {
+          "qiuSignal": "record",
+          "qiuReply": "leave",
+          "qiuMet": false,
+          "visibleRoutes": 6
+        },
+        {
+          "qiuSignal": "ignore",
+          "qiuReply": "reply",
+          "qiuMet": false,
+          "visibleRoutes": 6
+        },
+        {
+          "qiuSignal": "ignore",
+          "qiuReply": "leave",
+          "qiuMet": false,
+          "visibleRoutes": 6
+        }
+      ]
+    },
+    {
+      "name": "第十四天精确末行才写入相识，不新增玩家选择，重入幂等",
+      "status": "passed",
+      "detail": {
+        "before": "tc_c02_common_qiu_leave_01",
+        "event": "tc_c02_common_qiu_met",
+        "sourceLine": 271
+      }
+    },
+    {
+      "name": "第 55 天 17:00 场景前段与变化过程仍为球形，第 527 行进入时变身",
+      "status": "passed",
+      "detail": {
+        "sceneFirst": "tc_c08_huangqiuqiu_her_decision_001",
+        "transition": "tc_c08_huangqiuqiu_her_decision_020",
+        "reveal": "tc_c08_huangqiuqiu_human_reveal"
+      }
+    },
+    {
+      "name": "真实引擎穷举全部 736 条完整选择路径，13 结局／19 选择／43 选项全部到达",
+      "status": "passed",
+      "detail": {
+        "paths": 736,
+        "displayedVisits": 437776,
+        "displayedNodes": 2577,
+        "choices": 19,
+        "options": 43,
+        "endings": {
+          "tc_c10_xiaoman_end_dating": 64,
+          "tc_c10_xiaoman_end_friends": 64,
+          "tc_c10_zhouzhi_end_dating": 64,
+          "tc_c10_zhouzhi_end_friends": 64,
+          "tc_c10_mengyao_end_dating": 64,
+          "tc_c10_mengyao_end_friends": 64,
+          "tc_c10_yelan_end_dating": 64,
+          "tc_c10_yelan_end_friends": 64,
+          "tc_c10_piao_end_dating": 64,
+          "tc_c10_piao_end_friends": 64,
+          "tc_c10_friends_end": 64,
+          "tc_c10_huangqiuqiu_end_dating": 16,
+          "tc_c10_huangqiuqiu_end_friends": 16
+        },
+        "epilogues": {
+          "tc_c10_common_piao_wedding": 672,
+          "tc_c10_common_piao_dating": 64
+        },
+        "routeCounts": {
+          "xiaoman": 128,
+          "zhouzhi": 128,
+          "mengyao": 128,
+          "yelan": 128,
+          "piao": 128,
+          "friends": 64,
+          "huangqiuqiu": 32
+        },
+        "restoreAtEveryEnding": 736,
+        "flashbacks": [
+          "ts_c06_mengyao_after_dinner",
+          "ts_c06_yelan_after_dinner"
+        ],
+        "chapterEnds": 9
+      }
+    },
+    {
+      "name": "第三章重选保留真实相识、恢复球形，并删除路线／后续选择／人形历史",
+      "status": "passed",
+      "detail": {
+        "target": "tc_c03_common_route_choice",
+        "subsequentEnding": "tc_c10_xiaoman_end_friends"
+      }
+    },
+    {
+      "name": "第九章重选保留人形与此前经历，恋人／朋友两种结局均延续人形",
+      "status": "passed",
+      "detail": {
+        "target": "tc_c09_huangqiuqiu_relationship_choice",
+        "subsequentEnding": "tc_c10_huangqiuqiu_end_friends"
+      }
+    },
+    {
+      "name": "十章真实存档拒绝标记、路径、文本、场景、选择、检查点和日序字段篡改；失败不改当前进度",
+      "status": "passed",
+      "detail": {
+        "rejected": [
+          "注入相识",
+          "提前人形",
+          "删除已发生变身",
+          "变更所属路线",
+          "注入未发生关系",
+          "跳过关系选择到结局",
+          "删除自动事件历史",
+          "改写历史文本",
+          "改写历史场景日序",
+          "调换历史顺序",
+          "删去前置选择",
+          "改写选择值",
+          "伪造检查点",
+          "添加未约定日序字段"
+        ],
+        "total": 14
+      }
+    },
+    {
+      "name": "真实自动事件前置检查和非法穷尽路由均原子拒绝",
+      "status": "passed",
+      "detail": {
+        "rejectedTransitions": 3
+      }
+    },
+    {
+      "name": "第九章数日后、分线日序、第六章回叙和中性章末保留源语义",
+      "status": "passed",
+      "detail": {
+        "relativeDate": "第76天后的数日（具体日序未注明）",
+        "friendDays": {
+          "xiaoman": 82,
+          "zhouzhi": 88,
+          "mengyao": 81,
+          "yelan": 86
+        },
+        "scope": "源场景与真实运行路径；可见 UI 由浏览器测试另验"
+      }
+    }
+  ],
+  "notValidated": [
+    "A06 正式美术采用与真实演出",
+    "E09 正式 story.js／运行清单接入",
+    "E10 完整逐句阅读、实体手机、声音与最终验收",
+    "发布"
+  ]
+}

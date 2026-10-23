@@ -1,0 +1,33 @@
+{
+  "version": "R2-M3-v3",
+  "key": "shijiang",
+  "tool": "image_gen.imagegen",
+  "mode": "built-in",
+  "operation": "head_identity_redesign",
+  "prompt": "Use case: precise-object-edit. This is a decisive FACE REDESIGN, not identity preservation.\nEdit the supplied transparent Shi Jiang 师匠 character sprite. The previous face is too similar to Mao Lang. REPLACE the current head's facial identity with a clearly different original Chinese man age 32, while keeping the head position, angle, body pose, navy rolled-sleeve repair work shirt, glasses, chest-pocket screwdriver, hands, trousers, crop, lighting and semi-realistic Japanese visual-novel finish consistent with the input.\n把现有的窄长偶像脸替换成另一位原创32岁中国维修前辈的脸。必须真正改骨相，不能只微调表情：\n1. 下半脸明显宽方，左右下颌角清楚，宽度从颧骨到下颌保留，不向V字收尖；下巴较宽、平钝。整体是结实的长方脸，不是文文的短圆脸。当前下颌和下巴需要显著加宽，约20%，脸颊保持自然健康的丰满程度，不做削瘦模特脸。\n2. 鼻形明显改为中等偏低的自然鼻梁、较宽鼻翼和饱满钝鼻尖；不要保留细窄高挺直鼻。\n3. 两条眉毛平直且自然，眉峰很低，不上挑；眼睛比当前略窄，上眼睑略重，目光平静专注；不要浓眉大杏眼，不画怒目。\n4. 嘴唇自然偏薄、嘴线较平，嘴角中性；不要俏皮笑容或抿唇模特表情。面部有轻微自然成人皮肤纹理，但没有深皱纹、白发、胡须或老人特征。\n发型为低蓬松的利落短侧分，两侧短、额头较多露出，保留黑发和细框矩形眼镜。眼镜后的双眼清晰。看上去是普通可靠、有自己生意要忙的维修前辈。\nThe head alone must look noticeably different from Mao Lang's narrower youthful face, lively raised brow, wavy bangs and lopsided smile. Do NOT retain the input face as the same identity; use it only to preserve pose, scale, glasses and visual rendering.\nPreserve source 1024×1536 portrait proportions, true transparent background, clean alpha edges, no added background or shadow outside figure. No new clothing, body changes, tools, accessories, text, logos or extra people. Keep all neck-down elements visually consistent. Only redraw the head/face and necessary transition at the neck.",
+  "transparent_background": true,
+  "referenced_image_paths": [
+    "/Users/yipin/Desktop/cjb/assets/new-character-variants/shijiang-v2.png"
+  ],
+  "reason": "v2面部骨相区分仍不足，强化方颌、平眉和宽鼻",
+  "output": {
+    "path": "assets/new-character-variants/shijiang-v3.png",
+    "generatedPath": "/Users/yipin/.codex/generated_images/01a1520b-39c5-7621-a516-c276a358dd29/exec-1539cb26-3385-4a78-8461-a72fc7d48d69.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 254,
+    "fullyTransparentPixelPercent": 44.12943522135417,
+    "partiallyTransparentPixelPercent": 55.870564778645836,
+    "fullyOpaquePixelPercent": 0.0,
+    "visibleBBoxAlpha128": [
+      101,
+      38,
+      984,
+      1536
+    ],
+    "sha256": "a8e1bceb9dad767e2ec11c94f3977a9b8337a2abcbd6b47c4f6996e72e004b1c"
+  },
+  "status": "reviewed_selected"
+}

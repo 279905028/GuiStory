@@ -1,0 +1,619 @@
+{
+  "checkedAt": "2026-10-20T09:47:02.007Z",
+  "pass": true,
+  "scope": "隔离 Chrome，1280×720，本地正式页面；逐种差分代表节点和18处旧映射，不是全部路径逐次UI点击",
+  "inputHashes": {
+    "story.js": "43d0f9f6823ef583c27b386a2627025361d389a0b76af46f7e84a1bf736ccfc4",
+    "game.js": "9fca5600452731df2351a353b001f38b702ccd4ad89f1fc7e8e5781e775ec655",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "styles.css": "27dbb0d73b125114935617966a316ecffa10f70bb51ee55c5e2a71ab18071cfb",
+    "index.html": "a073cf71f8232831f9f260a074b475dd82d750cbddf0bad32dbbde71c331695e",
+    "assets/runtime-v0.4-manifest.json": "9c8cd7bb1646684b1e8135ce5ba24a178527ae06fb66cb078182447535965be6"
+  },
+  "cases": [
+    {
+      "id": "s6_plan_09",
+      "character": "wenwen",
+      "variant": "expression-hesitant",
+      "source": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s9_title_06",
+      "character": "wenwen",
+      "variant": "expression-smile",
+      "source": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_open_10",
+      "character": "wenwen",
+      "variant": "expression-wry",
+      "source": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_open_16",
+      "character": "wenwen",
+      "variant": "expression-serious",
+      "source": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_alarm_06",
+      "character": "wenwen",
+      "variant": "expression-surprised",
+      "source": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_alarm_10",
+      "character": "wenwen",
+      "variant": "expression-guilty",
+      "source": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_after_02",
+      "character": "wenwen",
+      "variant": "expression-tired",
+      "source": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_night_03",
+      "character": "wenwen",
+      "variant": "expression-determined",
+      "source": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_qiu_known_03",
+      "character": "wenwen",
+      "variant": "expression-embarrassed",
+      "source": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s3_stall_01",
+      "character": "xiaoman",
+      "variant": "expression-smile",
+      "source": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s3_stall_12",
+      "character": "xiaoman",
+      "variant": "expression-hesitant",
+      "source": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s5_portfolio_04",
+      "character": "xiaoman",
+      "variant": "expression-surprised",
+      "source": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-surprised.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch3_xiaoman_b_02",
+      "character": "xiaoman",
+      "variant": "expression-serious",
+      "source": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch3_xiaoman_d_02",
+      "character": "xiaoman",
+      "variant": "expression-downcast",
+      "source": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s4_shift_08",
+      "character": "zhouzhi",
+      "variant": "expression-downcast",
+      "source": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s6_bg_zhouzhi_02",
+      "character": "zhouzhi",
+      "variant": "expression-smile",
+      "source": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_record_02",
+      "character": "zhouzhi",
+      "variant": "expression-serious",
+      "source": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_record_03",
+      "character": "zhouzhi",
+      "variant": "action-explaining",
+      "source": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-explaining.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch3_zhouzhi_c_05",
+      "character": "zhouzhi",
+      "variant": "expression-hesitant",
+      "source": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s7_camera_08",
+      "character": "mengyao",
+      "variant": "expression-serious",
+      "source": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-serious.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s7_camera_10",
+      "character": "mengyao",
+      "variant": "expression-hesitant",
+      "source": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-hesitant.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s7_apologize_02",
+      "character": "mengyao",
+      "variant": "expression-downcast",
+      "source": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-downcast.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s7_joke_02",
+      "character": "mengyao",
+      "variant": "expression-displeased",
+      "source": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-displeased.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s7_bg_mengyao_02",
+      "character": "mengyao",
+      "variant": "expression-smile",
+      "source": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-smile.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_open_13",
+      "character": "mengyao",
+      "variant": "action-explaining",
+      "source": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-explaining.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_edit_08",
+      "character": "mengyao",
+      "variant": "expression-surprised",
+      "source": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-surprised.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s8_count_09",
+      "character": "yelan",
+      "variant": "expression-hesitant",
+      "source": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-hesitant.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s8_limited_03",
+      "character": "yelan",
+      "variant": "expression-surprised",
+      "source": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-surprised.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s8_bg_yelan_03",
+      "character": "yelan",
+      "variant": "expression-smile",
+      "source": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-smile.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_open_12",
+      "character": "yelan",
+      "variant": "expression-serious",
+      "source": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-serious.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s2_counter_02",
+      "character": "maolang",
+      "variant": "action-wave",
+      "source": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s2_counter_04",
+      "character": "maolang",
+      "variant": "action-explaining",
+      "source": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s2_counter_13",
+      "character": "maolang",
+      "variant": "expression-surprised",
+      "source": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s2_recruit_02",
+      "character": "maolang",
+      "variant": "action-thinking",
+      "source": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s9_compete_02",
+      "character": "maolang",
+      "variant": "expression-serious",
+      "source": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s9_compete_04",
+      "character": "maolang",
+      "variant": "expression-hesitant",
+      "source": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s9_compete_07",
+      "character": "maolang",
+      "variant": "expression-smile",
+      "source": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_alarm_05",
+      "character": "maolang",
+      "variant": "expression-downcast",
+      "source": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch3_open_03",
+      "character": "maolang",
+      "variant": "expression-displeased",
+      "source": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s2_counter_14",
+      "character": "shijiang",
+      "variant": "action-thinking",
+      "source": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s2_record_03",
+      "character": "shijiang",
+      "variant": "expression-smile",
+      "source": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s2_work_03",
+      "character": "shijiang",
+      "variant": "action-explaining",
+      "source": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s8_handoff_02",
+      "character": "shijiang",
+      "variant": "action-phone",
+      "source": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-phone.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s9_review_01",
+      "character": "shijiang",
+      "variant": "expression-serious",
+      "source": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "preview_qiu_20",
+      "character": "huangqiuqiu",
+      "variant": "expression-hesitant",
+      "source": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "preview_qiu_24",
+      "character": "huangqiuqiu",
+      "variant": "expression-serious",
+      "source": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_qiu_known_02",
+      "character": "huangqiuqiu",
+      "variant": "expression-displeased",
+      "source": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-displeased.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_qiu_known_04",
+      "character": "huangqiuqiu",
+      "variant": "expression-smile",
+      "source": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch3_qiu_d_02",
+      "character": "huangqiuqiu",
+      "variant": "expression-downcast",
+      "source": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-downcast.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_piao_meet_02",
+      "character": "piao",
+      "variant": "action-wave",
+      "source": "assets/character-variants/piao-optionB-20261020/char-piao-action-wave.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_piao_meet_04",
+      "character": "piao",
+      "variant": "expression-smile",
+      "source": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_piao_meet_10",
+      "character": "piao",
+      "variant": "action-explaining",
+      "source": "assets/character-variants/piao-optionB-20261020/char-piao-action-explaining.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_piao_meet_12",
+      "character": "piao",
+      "variant": "expression-serious",
+      "source": "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch2_piao_invite_09",
+      "character": "piao",
+      "variant": "expression-hesitant",
+      "source": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch3_piao_a_03",
+      "character": "piao",
+      "variant": "expression-surprised",
+      "source": "assets/character-variants/piao-optionB-20261020/char-piao-expression-surprised.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch3_piao_bg_past_03",
+      "character": "piao",
+      "variant": "action-thinking",
+      "source": "assets/character-variants/piao-optionB-20261020/char-piao-action-thinking.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "ch3_piao_c_17",
+      "character": "piao",
+      "variant": "expression-downcast",
+      "source": "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s9_measure_02",
+      "character": "maolang",
+      "variant": "expression-serious",
+      "source": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s2_counter_07",
+      "character": "shijiang",
+      "variant": "action-explaining",
+      "source": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.png",
+      "cg": "cg09",
+      "displayed": false,
+      "pass": true
+    },
+    {
+      "id": "s2_counter_09",
+      "character": "shijiang",
+      "variant": "expression-serious",
+      "source": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.png",
+      "cg": "cg09",
+      "displayed": false,
+      "pass": true
+    },
+    {
+      "id": "s2_counter_10",
+      "character": "shijiang",
+      "variant": "expression-smile",
+      "source": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.png",
+      "cg": "cg09",
+      "displayed": false,
+      "pass": true
+    },
+    {
+      "id": "s8_handoff_04",
+      "character": "shijiang",
+      "variant": "action-phone",
+      "source": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-phone.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    },
+    {
+      "id": "s9_review_04",
+      "character": "shijiang",
+      "variant": "action-explaining",
+      "source": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.png",
+      "cg": null,
+      "displayed": true,
+      "pass": true
+    }
+  ],
+  "transitions": [
+    {
+      "from": "s3_stall_01",
+      "to": "s3_stall_02",
+      "result": "回到基础图",
+      "pass": true
+    },
+    {
+      "from": "ch3_mengyao_f_03",
+      "to": "ch3_mengyao_f_04",
+      "result": "回到基础图",
+      "pass": true
+    }
+  ],
+  "screenshots": [
+    "wenwen.png",
+    "xiaoman.png",
+    "zhouzhi.png",
+    "mengyao.png",
+    "yelan.png",
+    "maolang.png",
+    "shijiang.png",
+    "huangqiuqiu.png",
+    "piao.png",
+    "shijiang-cg-covered.png"
+  ],
+  "pageErrors": [],
+  "httpErrors": [],
+  "uniqueVariants": 57,
+  "finalHashes": {
+    "story.js": "43d0f9f6823ef583c27b386a2627025361d389a0b76af46f7e84a1bf736ccfc4",
+    "game.js": "9fca5600452731df2351a353b001f38b702ccd4ad89f1fc7e8e5781e775ec655",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "styles.css": "27dbb0d73b125114935617966a316ecffa10f70bb51ee55c5e2a71ab18071cfb",
+    "index.html": "a073cf71f8232831f9f260a074b475dd82d750cbddf0bad32dbbde71c331695e",
+    "assets/runtime-v0.4-manifest.json": "9c8cd7bb1646684b1e8135ce5ba24a178527ae06fb66cb078182447535965be6"
+  }
+}

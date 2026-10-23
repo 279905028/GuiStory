@@ -1,0 +1,31 @@
+# 本机文件与依赖（无末尾斜线，以同时忽略依赖软链接）
+.DS_Store
+._*
+Thumbs.db
+node_modules
+__pycache__/
+*.pyc
+.cache/
+
+# 本机凭证；可公开的配置模板可以入库
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+!.env.example
+!.env.sample
+!.dev.vars.example
+
+# 部署工具缓存与由源码复制的运行产物
+.cloudflare/
+.wrangler/
+.edgeone/
+.tef_dist/
+/deployment/cloudflare/public/
+/deployment/cloudflare-ambd/public/
+/deployment/cloudflare-ten-chapter/public/
+/deployment/miaoda-ten-chapter/app/.spark/local/
+/deployment/miaoda-ten-chapter/app/.claude/
+
+# E11 交付包可由同目录 build-package.cjs 重新生成；本地原件保留
+/交付/全十章-E11/dist/

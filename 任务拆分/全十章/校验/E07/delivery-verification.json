@@ -1,0 +1,81 @@
+{
+  "task": "E07",
+  "date": "2026-10-23",
+  "formalIntegration": false,
+  "scope": "演出请求、来源、资源引用、保护文件；未做正式播放器、存档、浏览器或A06图面验收",
+  "passed": 12,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "301段来源与演出请求一一对应，A03同形态立绘／头像存在",
+      "status": "passed",
+      "details": {
+        "nodes": 301,
+        "referencedWebpFiles": 24,
+        "scope": "存在与文件头检查；非像素或图面验收"
+      }
+    },
+    {
+      "name": "21个A01场段映射与8章资产请求完整",
+      "status": "passed"
+    },
+    {
+      "name": "第42天铺垫到55天变身的演出顺序及唯一写入点",
+      "status": "passed"
+    },
+    {
+      "name": "两种结局卡使用门内场景与人形，且有演出交接",
+      "status": "passed"
+    },
+    {
+      "name": "第九章数日后保留相对日期，不编造实际日序",
+      "status": "passed"
+    },
+    {
+      "name": "隐藏门与E03原有契约一致，E07不写qiuMet",
+      "status": "passed"
+    },
+    {
+      "name": "交付均标注待采用，保护美术索引版本",
+      "status": "passed"
+    },
+    {
+      "name": "确定性转录复现三份交付，未覆盖文件",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝反例：提前把第42天显示为人形",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝反例：把人形结局正文的图片换回球形",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝反例：门外提前摆放实体立绘",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝反例：漏掉首次人形节点演出请求",
+      "status": "passed"
+    }
+  ],
+  "inputs": [
+    {
+      "file": "任务拆分/全十章/routes/huangqiuqiu.json",
+      "sha256": "c785e3d2dda7d967f4bec0ba73382d03f297796e1dcf532f52592e564fb78e19"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/delivery.json",
+      "sha256": "e406212897dfbea71bca96a21a03343d5388525e738dab8f7d510df8705ab0c6"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/presentation.json",
+      "sha256": "018e66333fabae7be1442084cb1be74dd01ef4dbe46df766729d4f9920e45e21"
+    },
+    {
+      "file": "assets/ten-chapter/huangqiuqiu/forms-index.json",
+      "sha256": "b9685a8c6bcc062b43c16f22276cbd822d772e4f6cbba587eaa5e45a51dd7cf6"
+    }
+  ]
+}

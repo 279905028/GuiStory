@@ -1,0 +1,25 @@
+{
+  "selectedOption": "B",
+  "name": "河桥暮色",
+  "date": "2026-10-20",
+  "images": [
+    {
+      "path": "assets/cover-b-desktop.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2627244,
+      "sha256": "2041710ae3b577e40e8664c5a9b452240d7ce0d095279155ac1875c5b6ab33d2"
+    },
+    {
+      "path": "assets/cover-b-mobile.png",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2757780,
+      "sha256": "bfb2d5786fd9c074601ccfb7a1ee617eea51493317aaf7bc59c3c04f22830c81"
+    }
+  ],
+  "mobileMedia": "(max-width: 760px) and (orientation: portrait)",
+  "integration": "local title screen",
+  "deployed": false,
+  "generationRecord": "qa/cover-b-20261020/generation-record.json"
+}

@@ -1,0 +1,957 @@
+{
+  "task": "E10",
+  "date": "2026-10-23",
+  "scope": "E10 当前根目录正式十章独立浏览器自动验收；不访问玩家存储；模拟视口不等于实体设备，技术音频检查不等于人耳试听",
+  "formalIntegration": true,
+  "checks": [
+    {
+      "name": "启动与新空间元信息",
+      "passed": true,
+      "milliseconds": 366,
+      "reads": 4,
+      "writes": 1
+    },
+    {
+      "name": "变身前一行→精确变身→说话头像→刷新恢复",
+      "passed": true,
+      "milliseconds": 2038,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "章末继续与立绘清理",
+      "passed": true,
+      "milliseconds": 239,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "结局人形与第九章重选",
+      "passed": true,
+      "milliseconds": 521,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "第三章重选保留相识清除人形与后续选择",
+      "passed": true,
+      "milliseconds": 249,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "相对日期与回顾无历史形象回填",
+      "passed": true,
+      "milliseconds": 221,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "手动保存与读取元信息",
+      "passed": true,
+      "milliseconds": 819,
+      "reads": 27,
+      "writes": 6
+    },
+    {
+      "name": "坏自动档保持字节且自动保存暂停",
+      "passed": true,
+      "milliseconds": 147,
+      "reads": 2,
+      "writes": 0
+    },
+    {
+      "name": "拒绝启动：未知能力",
+      "passed": true,
+      "milliseconds": 150,
+      "reads": 0,
+      "writes": 0
+    },
+    {
+      "name": "拒绝启动：不匹配契约",
+      "passed": true,
+      "milliseconds": 144,
+      "reads": 0,
+      "writes": 0
+    },
+    {
+      "name": "拒绝启动：缺失人形",
+      "passed": true,
+      "milliseconds": 140,
+      "reads": 0,
+      "writes": 0
+    },
+    {
+      "name": "缺显示组件拒绝启动且零存储访问",
+      "passed": true,
+      "milliseconds": 144,
+      "reads": 0,
+      "writes": 0
+    },
+    {
+      "name": "人形文件缺失不回退球形",
+      "passed": true,
+      "milliseconds": 309,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "视口与人形独立头像：desktop",
+      "passed": true,
+      "milliseconds": 425,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "视口与人形独立头像：laptop",
+      "passed": true,
+      "milliseconds": 387,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "视口与人形独立头像：phone",
+      "passed": true,
+      "milliseconds": 358,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "视口与人形独立头像：small-phone",
+      "passed": true,
+      "milliseconds": 376,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "视口与人形独立头像：landscape",
+      "passed": true,
+      "milliseconds": 375,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "球形独立头像与等比显示",
+      "passed": true,
+      "milliseconds": 250,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "小屏相对日序和七项选择可滚动触达",
+      "passed": true,
+      "milliseconds": 939,
+      "reads": 7,
+      "writes": 4
+    },
+    {
+      "name": "138张正式采用图可解码，尺寸与清单一致",
+      "passed": true,
+      "milliseconds": 2625,
+      "reads": 2,
+      "writes": 0
+    },
+    {
+      "name": "CG合法进入/刷新/退出：tc-cg-piao-choice",
+      "passed": true,
+      "milliseconds": 3968,
+      "reads": 14,
+      "writes": 11
+    },
+    {
+      "name": "CG合法进入/刷新/退出：tc-cg-last-echo-dinner",
+      "passed": true,
+      "milliseconds": 2056,
+      "reads": 9,
+      "writes": 6
+    },
+    {
+      "name": "CG合法进入/刷新/退出：tc-cg-qiuqiu-transform",
+      "passed": true,
+      "milliseconds": 1582,
+      "reads": 8,
+      "writes": 5
+    },
+    {
+      "name": "CG合法进入/刷新/退出：tc-cg-piao-wedding",
+      "passed": true,
+      "milliseconds": 806,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "正式封面与全景区域：desktop",
+      "passed": true,
+      "milliseconds": 551,
+      "reads": 4,
+      "writes": 1
+    },
+    {
+      "name": "CG完整构图五视口：desktop",
+      "passed": true,
+      "milliseconds": 307,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "正式封面与全景区域：laptop",
+      "passed": true,
+      "milliseconds": 482,
+      "reads": 4,
+      "writes": 1
+    },
+    {
+      "name": "CG完整构图五视口：laptop",
+      "passed": true,
+      "milliseconds": 271,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "正式封面与全景区域：phone",
+      "passed": true,
+      "milliseconds": 334,
+      "reads": 4,
+      "writes": 1
+    },
+    {
+      "name": "CG完整构图五视口：phone",
+      "passed": true,
+      "milliseconds": 317,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "正式封面与全景区域：small-phone",
+      "passed": true,
+      "milliseconds": 347,
+      "reads": 4,
+      "writes": 1
+    },
+    {
+      "name": "CG完整构图五视口：small-phone",
+      "passed": true,
+      "milliseconds": 261,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "正式封面与全景区域：landscape",
+      "passed": true,
+      "milliseconds": 378,
+      "reads": 4,
+      "writes": 1
+    },
+    {
+      "name": "CG完整构图五视口：landscape",
+      "passed": true,
+      "milliseconds": 241,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "章末程序底色且不请求占位图片",
+      "passed": true,
+      "milliseconds": 286,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "飘交往后日谈不显示婚宴CG",
+      "passed": true,
+      "milliseconds": 196,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_xiaoman_end_dating",
+      "passed": true,
+      "milliseconds": 472,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_xiaoman_end_friends",
+      "passed": true,
+      "milliseconds": 441,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_zhouzhi_end_dating",
+      "passed": true,
+      "milliseconds": 499,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_zhouzhi_end_friends",
+      "passed": true,
+      "milliseconds": 451,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_mengyao_end_dating",
+      "passed": true,
+      "milliseconds": 459,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_mengyao_end_friends",
+      "passed": true,
+      "milliseconds": 435,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_yelan_end_dating",
+      "passed": true,
+      "milliseconds": 434,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_yelan_end_friends",
+      "passed": true,
+      "milliseconds": 437,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_piao_end_dating",
+      "passed": true,
+      "milliseconds": 441,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_piao_end_friends",
+      "passed": true,
+      "milliseconds": 448,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_friends_end",
+      "passed": true,
+      "milliseconds": 446,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_huangqiuqiu_end_dating",
+      "passed": true,
+      "milliseconds": 450,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "13结局浏览器逐一恢复：tc_c10_huangqiuqiu_end_friends",
+      "passed": true,
+      "milliseconds": 439,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c01_common_exit",
+      "passed": true,
+      "milliseconds": 217,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c02_common_exit",
+      "passed": true,
+      "milliseconds": 216,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c03_common_exit",
+      "passed": true,
+      "milliseconds": 229,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c04_common_exit",
+      "passed": true,
+      "milliseconds": 220,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c05_common_exit",
+      "passed": true,
+      "milliseconds": 236,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c06_common_exit",
+      "passed": true,
+      "milliseconds": 248,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c07_common_exit",
+      "passed": true,
+      "milliseconds": 240,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c08_common_exit",
+      "passed": true,
+      "milliseconds": 241,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "九章末中性底色与继续：tc_c09_common_exit",
+      "passed": true,
+      "milliseconds": 223,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "隐藏路线四种真实前情：record/reply",
+      "passed": true,
+      "milliseconds": 183,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "隐藏路线四种真实前情：record/leave",
+      "passed": true,
+      "milliseconds": 194,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "隐藏路线四种真实前情：ignore/reply",
+      "passed": true,
+      "milliseconds": 196,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "隐藏路线四种真实前情：ignore/leave",
+      "passed": true,
+      "milliseconds": 199,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "最长正式选项可滚动点击：small-phone",
+      "passed": true,
+      "milliseconds": 696,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "最长正式选项可滚动点击：landscape",
+      "passed": true,
+      "milliseconds": 716,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "CG手动保存读取并回顾：tc-cg-piao-choice",
+      "passed": true,
+      "milliseconds": 873,
+      "reads": 27,
+      "writes": 6
+    },
+    {
+      "name": "CG手动保存读取并回顾：tc-cg-last-echo-dinner",
+      "passed": true,
+      "milliseconds": 852,
+      "reads": 27,
+      "writes": 6
+    },
+    {
+      "name": "CG手动保存读取并回顾：tc-cg-qiuqiu-transform",
+      "passed": true,
+      "milliseconds": 1011,
+      "reads": 27,
+      "writes": 6
+    },
+    {
+      "name": "CG手动保存读取并回顾：tc-cg-piao-wedding",
+      "passed": true,
+      "milliseconds": 855,
+      "reads": 27,
+      "writes": 6
+    },
+    {
+      "name": "最长真实历史加载回顾保存读取性能",
+      "passed": true,
+      "milliseconds": 1099,
+      "reads": 27,
+      "writes": 6
+    },
+    {
+      "name": "音频真实AudioContext与可信点击技术核查",
+      "passed": true,
+      "milliseconds": 1854,
+      "reads": 21,
+      "writes": 33
+    },
+    {
+      "name": "预存声音开启未可信交互不自动播放",
+      "passed": true,
+      "milliseconds": 206,
+      "reads": 4,
+      "writes": 1
+    },
+    {
+      "name": "存储写入失败保留原自动手动档：writeAll",
+      "passed": true,
+      "milliseconds": 697,
+      "reads": 14,
+      "writes": 4
+    },
+    {
+      "name": "存储写入失败保留原自动手动档：writeSecurity",
+      "passed": true,
+      "milliseconds": 723,
+      "reads": 14,
+      "writes": 4
+    },
+    {
+      "name": "存储读取SecurityError不写入或覆盖原档",
+      "passed": true,
+      "milliseconds": 214,
+      "reads": 4,
+      "writes": 0
+    },
+    {
+      "name": "损坏自动档备份失败原档保持：writeBackup",
+      "passed": true,
+      "milliseconds": 191,
+      "reads": 5,
+      "writes": 1
+    },
+    {
+      "name": "损坏自动档备份失败原档保持：readBackup",
+      "passed": true,
+      "milliseconds": 189,
+      "reads": 5,
+      "writes": 0
+    },
+    {
+      "name": "损坏自动档备份失败原档保持：mismatchBackup",
+      "passed": true,
+      "milliseconds": 200,
+      "reads": 6,
+      "writes": 1
+    },
+    {
+      "name": "坏自动档确认备份后原字节可恢复且手动档保留",
+      "passed": true,
+      "milliseconds": 209,
+      "reads": 7,
+      "writes": 2
+    },
+    {
+      "name": "确认期间原自动档变化重新确认且不覆盖",
+      "passed": true,
+      "milliseconds": 206,
+      "reads": 5,
+      "writes": 0
+    },
+    {
+      "name": "坏手动档读取不改变当前进度或原档",
+      "passed": true,
+      "milliseconds": 288,
+      "reads": 11,
+      "writes": 2
+    }
+  ],
+  "screenshots": [
+    "qa/ten-chapter/browser/screenshots/human-transition-desktop.png",
+    "qa/ten-chapter/browser/screenshots/ending-desktop.png",
+    "qa/ten-chapter/browser/screenshots/human-desktop.png",
+    "qa/ten-chapter/browser/screenshots/human-laptop.png",
+    "qa/ten-chapter/browser/screenshots/human-phone.png",
+    "qa/ten-chapter/browser/screenshots/human-small-phone.png",
+    "qa/ten-chapter/browser/screenshots/human-landscape.png",
+    "qa/ten-chapter/browser/screenshots/sphere-phone.png",
+    "qa/ten-chapter/browser/screenshots/relative-small-phone.png",
+    "qa/ten-chapter/browser/screenshots/route-choice-small-phone.png",
+    "qa/ten-chapter/browser/screenshots/tc-cg-piao-choice-desktop.png",
+    "qa/ten-chapter/browser/screenshots/tc-cg-last-echo-dinner-desktop.png",
+    "qa/ten-chapter/browser/screenshots/tc-cg-qiuqiu-transform-desktop.png",
+    "qa/ten-chapter/browser/screenshots/tc-cg-piao-wedding-desktop.png",
+    "qa/ten-chapter/browser/screenshots/cover-desktop.png",
+    "qa/ten-chapter/browser/screenshots/first-scene-desktop.png",
+    "qa/ten-chapter/browser/screenshots/cg-transform-desktop.png",
+    "qa/ten-chapter/browser/screenshots/cover-laptop.png",
+    "qa/ten-chapter/browser/screenshots/first-scene-laptop.png",
+    "qa/ten-chapter/browser/screenshots/cg-transform-laptop.png",
+    "qa/ten-chapter/browser/screenshots/cover-phone.png",
+    "qa/ten-chapter/browser/screenshots/first-scene-phone.png",
+    "qa/ten-chapter/browser/screenshots/cg-transform-phone.png",
+    "qa/ten-chapter/browser/screenshots/cover-small-phone.png",
+    "qa/ten-chapter/browser/screenshots/first-scene-small-phone.png",
+    "qa/ten-chapter/browser/screenshots/cg-transform-small-phone.png",
+    "qa/ten-chapter/browser/screenshots/cover-landscape.png",
+    "qa/ten-chapter/browser/screenshots/first-scene-landscape.png",
+    "qa/ten-chapter/browser/screenshots/cg-transform-landscape.png",
+    "qa/ten-chapter/browser/screenshots/chapter-end-neutral.png",
+    "qa/ten-chapter/browser/screenshots/ending-tc_c10_xiaoman_end_dating.png",
+    "qa/ten-chapter/browser/screenshots/ending-tc_c10_xiaoman_end_friends.png",
+    "qa/ten-chapter/browser/screenshots/ending-tc_c10_zhouzhi_end_dating.png",
+    "qa/ten-chapter/browser/screenshots/ending-tc_c10_zhouzhi_end_friends.png",
+    "qa/ten-chapter/browser/screenshots/ending-tc_c10_mengyao_end_dating.png",
+    "qa/ten-chapter/browser/screenshots/ending-tc_c10_mengyao_end_friends.png",
+    "qa/ten-chapter/browser/screenshots/ending-tc_c10_yelan_end_dating.png",
+    "qa/ten-chapter/browser/screenshots/ending-tc_c10_yelan_end_friends.png",
+    "qa/ten-chapter/browser/screenshots/ending-tc_c10_piao_end_dating.png",
+    "qa/ten-chapter/browser/screenshots/ending-tc_c10_piao_end_friends.png",
+    "qa/ten-chapter/browser/screenshots/ending-tc_c10_friends_end.png",
+    "qa/ten-chapter/browser/screenshots/ending-tc_c10_huangqiuqiu_end_dating.png",
+    "qa/ten-chapter/browser/screenshots/ending-tc_c10_huangqiuqiu_end_friends.png",
+    "qa/ten-chapter/browser/screenshots/longest-choice-small-phone.png",
+    "qa/ten-chapter/browser/screenshots/longest-choice-landscape.png",
+    "qa/ten-chapter/browser/screenshots/longest-history.png"
+  ],
+  "defects": [],
+  "environment": {
+    "platform": "darwin",
+    "arch": "arm64",
+    "node": "v24.18.1",
+    "playwright": "1.62.1",
+    "browserAvailability": {
+      "googleChrome": {
+        "path": "/Applications/Google Chrome.app",
+        "installed": true
+      },
+      "firefox": {
+        "applicationInstalled": false,
+        "automationExecutable": "/Users/yipin/Library/Caches/ms-playwright/firefox-1538/firefox/Nightly.app/Contents/MacOS/firefox",
+        "automationInstalled": false
+      },
+      "webkit": {
+        "automationExecutable": "/Users/yipin/Library/Caches/ms-playwright/webkit-2336/pw_run.sh",
+        "automationInstalled": false,
+        "notSafari": true
+      },
+      "safari": {
+        "applicationInstalled": true,
+        "driverInstalled": true,
+        "launched": false,
+        "reason": "Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.",
+        "separateProbe": {
+          "path": "qa/ten-chapter/safari/probe-results.json",
+          "generatedAt": "2026-10-23T05:28:32.841Z",
+          "status": "blocked",
+          "httpStatus": 500,
+          "message": "Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver."
+        }
+      }
+    },
+    "browserVersion": "155.0.8059.85",
+    "localhostOrigin": "http://127.0.0.1:61252",
+    "profile": "Playwright自动创建且销毁的独立临时chrome profile；每场景独立隔离context"
+  },
+  "notTested": [
+    "Safari：独立WebDriver探测被HTTP500拒绝，Allow remote automation未开启；见../safari/probe-results.json",
+    "Playwright WebKit：运行文件不存在；即便存在也不能称为Safari",
+    "实体手机：五视口仅Chrome桌面模拟尺寸",
+    "Firefox：本报告仅涵盖Chrome；另见Firefox独立报告"
+  ],
+  "pageErrors": [],
+  "storySha256": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60",
+  "runtimeHashes": {
+    "story.js": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60",
+    "index.html": "0266a5c542894ef8eaa42f36acdbdb1079a6c1ca94236cfe0a4645813ea09191",
+    "styles.css": "8b7d93a3763959fe0a50188f1c0b6682354c2cde7c6bee439bd03851c4da870b",
+    "game.js": "7021053d5491f6140ce28b9d3bc921e8d65a62921de3f16886fceac0b42848ff",
+    "engine.js": "363e4a9b1ddd9d6e012b6623af04c54f9fc077a065e9d1ee3b61981e9be5e39a",
+    "save-compat.js": "11cc52079a67a2ee32244206b79bb11e1cfe71874227aefdd1e768594a0e816f",
+    "player-runtime.js": "f0c36ff43ac205be2878d84a057b2760d37f755de9a218b916a7e57c620affd0"
+  },
+  "browserName": "chrome",
+  "waivedByUser": [
+    "真人连续阅读全文与阅读时长",
+    "人耳环境音试听、实际扬声器/耳机及听感"
+  ],
+  "loadedAdoptedImages": 138,
+  "witnessGeneration": {
+    "algorithm": "从正式StoryEngine逐个可见choice分叉，逐步advance到terminal；不指定旧路径数、不伪造history。仅复用E08的reach/finish纯行走助手，未调用其sample故事构建。",
+    "paths": 736,
+    "choiceForks": 1334,
+    "endings": 13,
+    "longestHistoryEntries": 678,
+    "longestEnding": "tc_c10_xiaoman_end_dating",
+    "longestSelections": [
+      {
+        "nodeId": "tc_c01_common_rhythm_record_choice",
+        "value": "record",
+        "label": "再听一遍，把三拍记下来"
+      },
+      {
+        "nodeId": "tc_c01_common_reunion_choice",
+        "value": "nervous",
+        "label": "直接承认自己紧张"
+      },
+      {
+        "nodeId": "tc_c02_common_rhythm_reply_choice",
+        "value": "reply",
+        "label": "敲回刚才的节奏"
+      },
+      {
+        "nodeId": "tc_c02_common_missed_game_choice",
+        "value": "voice",
+        "label": "发一条语音说明"
+      },
+      {
+        "nodeId": "tc_c02_common_yelan_first_choice",
+        "value": "game",
+        "label": "先聊一局两个人都记得的游戏"
+      },
+      {
+        "nodeId": "tc_c03_common_route_choice",
+        "value": "xiaoman",
+        "label": "去找小满，听她讲最近的事，也让她看看如今的我。"
+      },
+      {
+        "nodeId": "tc_c04_xiaoman_outing_choice",
+        "value": "books",
+        "label": "去旧书摊，给对方挑一本怪书"
+      },
+      {
+        "nodeId": "tc_c09_xiaoman_relationship_choice",
+        "value": "dating",
+        "label": "我想和你交往，不只是约着出去玩"
+      }
+    ]
+  },
+  "longestOption": {
+    "nodeId": "tc_c09_yelan_relationship_choice",
+    "maxCharacters": 32,
+    "labels": [
+      "我喜欢你。想跟你交往。",
+      "但想到交往，我还没有那种确定的心情。不能因为你问了，就顺着答应。"
+    ]
+  },
+  "longHistoryPerformance": {
+    "historyEntries": 678,
+    "saveBytes": 143380,
+    "timings": {
+      "load": 34.09999999962747,
+      "history": 31.700000001117587,
+      "saveMenu": 30.40000000037253,
+      "manualSave": 31.59999999962747,
+      "manualLoad": 30.800000000745058
+    },
+    "scroll": {
+      "atEnd": true,
+      "atStart": true,
+      "returnedToEnd": true,
+      "scrollHeight": 72973,
+      "clientHeight": 688
+    },
+    "measurement": "Trusted click捕获至第二个requestAnimationFrame，含真实同步恢复/DOM构建；单次本机观测，非性能基准分位数"
+  },
+  "audioTechnical": {
+    "supported": true,
+    "created": 1,
+    "resumes": 21,
+    "bufferStarts": 1,
+    "oscillatorStarts": 1,
+    "trustedClicks": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "targets": [
+      {
+        "index": 0,
+        "value": 0.35
+      },
+      {
+        "index": 0,
+        "value": 0.35
+      },
+      {
+        "index": 0,
+        "value": 0.35
+      },
+      {
+        "index": 0,
+        "value": 0.35
+      },
+      {
+        "index": 0,
+        "value": 0.35
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0
+      },
+      {
+        "index": 0,
+        "value": 0.6
+      },
+      {
+        "index": 0,
+        "value": 0.6
+      },
+      {
+        "index": 0,
+        "value": 0.6
+      },
+      {
+        "index": 0,
+        "value": 0
+      }
+    ],
+    "buffers": [
+      {
+        "samples": 132300,
+        "seconds": 3,
+        "loop": true,
+        "min": -0.7842221260070801,
+        "max": 0.8117420077323914,
+        "rms": 0.19857896133583575
+      }
+    ],
+    "states": [
+      "running"
+    ],
+    "gainValues": [
+      0,
+      0.23999999463558197,
+      0.00009999999747378752
+    ]
+  },
+  "passed": 81,
+  "failed": 0,
+  "executedAt": "2026-10-23T05:28:39.999Z",
+  "scopeFilter": {
+    "onlyExtended": false,
+    "filteredCase": ""
+  },
+  "supplementalMetadataUpdatedAt": "2026-10-23T05:31:15.813Z"
+}

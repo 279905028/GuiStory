@@ -1,0 +1,875 @@
+{
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "chapters": [
+    {
+      "chapter": 1,
+      "module": "common/ch01",
+      "exports": [
+        "tc_c01_common_entry",
+        "tc_c01_common_exit"
+      ],
+      "imports": [
+        "tc_c02_common_entry"
+      ],
+      "reads": [],
+      "writes": [
+        {
+          "nodeId": "tc_c01_common_rhythm_record_choice",
+          "flags": [
+            "qiuSignal"
+          ]
+        },
+        {
+          "nodeId": "tc_c01_common_reunion_choice",
+          "flags": [
+            "reunion"
+          ]
+        }
+      ],
+      "assetRequests": [
+        {
+          "id": "e01-art-ch01",
+          "a01Ids": [
+            "tc-bg-backdoor-night",
+            "tc-bg-breakfast-dawn",
+            "tc-bg-busstop-day",
+            "tc-bg-convenience-day",
+            "tc-bg-eaves-day",
+            "tc-bg-food-dusk",
+            "tc-bg-netcafe-counter-day",
+            "tc-bg-netcafe-counter-night",
+            "tc-bg-rental-day",
+            "tc-bg-rental-night",
+            "tc-bg-salon-day",
+            "tc-bg-slope-day",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile",
+            "tc-char-mengyao-human-base",
+            "tc-char-mengyao-human-expression-hesitant",
+            "tc-char-mengyao-human-expression-smile",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-shijiang-human-base",
+            "tc-char-shijiang-human-expression-serious",
+            "tc-char-shijiang-human-expression-smile",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-tired",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-hesitant",
+            "tc-char-xiaoman-human-expression-smile",
+            "tc-char-yelan-human-base",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile",
+            "tc-look-xiaoman-work-apron"
+          ]
+        }
+      ],
+      "scenes": [
+        {
+          "id": "ts_c01_common_arrival_bus",
+          "bg": "tc-bg-busstop-day",
+          "day": 1,
+          "time": "下午",
+          "location": "公交站牌"
+        },
+        {
+          "id": "ts_c01_common_arrival_slope",
+          "bg": "tc-bg-slope-day",
+          "day": 1,
+          "time": "下午",
+          "location": "坡路"
+        },
+        {
+          "id": "ts_c01_common_first_shift_talk",
+          "bg": "tc-bg-netcafe-counter-day",
+          "day": 1,
+          "time": "下午",
+          "location": "网吧柜台"
+        },
+        {
+          "id": "ts_c01_common_three_taps",
+          "bg": "tc-bg-backdoor-night",
+          "day": 1,
+          "time": "21:40",
+          "location": "网吧后院侧门外"
+        },
+        {
+          "id": "ts_c01_common_back_to_counter",
+          "bg": "tc-bg-netcafe-counter-night",
+          "day": 1,
+          "time": "21:40",
+          "location": "网吧门厅与柜台"
+        },
+        {
+          "id": "ts_c01_common_first_shift",
+          "bg": "tc-bg-netcafe-counter-night",
+          "day": 1,
+          "time": "22:00",
+          "location": "网吧柜台"
+        },
+        {
+          "id": "ts_c01_common_night_greeting",
+          "bg": "tc-bg-netcafe-counter-night",
+          "day": 2,
+          "time": "02:00",
+          "location": "网吧柜台"
+        },
+        {
+          "id": "ts_c01_common_dawn_handover",
+          "bg": "tc-bg-netcafe-counter-day",
+          "day": 2,
+          "time": "06:00",
+          "location": "网吧门口"
+        },
+        {
+          "id": "ts_c01_common_breakfast",
+          "bg": "tc-bg-breakfast-dawn",
+          "day": 2,
+          "time": "06:20",
+          "location": "早餐店"
+        },
+        {
+          "id": "ts_c01_common_morning_messages",
+          "bg": "tc-bg-rental-day",
+          "day": 2,
+          "time": "清晨",
+          "location": "文文出租屋"
+        },
+        {
+          "id": "ts_c01_common_salon",
+          "bg": "tc-bg-salon-day",
+          "day": 3,
+          "time": "16:10",
+          "location": "理发店"
+        },
+        {
+          "id": "ts_c01_common_reunion",
+          "bg": "tc-bg-convenience-day",
+          "day": 4,
+          "time": "17:20",
+          "location": "便利店"
+        },
+        {
+          "id": "ts_c01_common_reunion_fork",
+          "bg": "tc-bg-slope-day",
+          "day": 4,
+          "time": "17:20",
+          "location": "街道岔路口与坡口"
+        },
+        {
+          "id": "ts_c01_common_home_game",
+          "bg": "tc-bg-rental-night",
+          "day": 5,
+          "time": "20:30",
+          "location": "文文出租屋"
+        },
+        {
+          "id": "ts_c01_common_noodles",
+          "bg": "tc-bg-food-dusk",
+          "day": 6,
+          "time": "17:30",
+          "location": "街口面馆"
+        },
+        {
+          "id": "ts_c01_common_piao_meal",
+          "bg": "tc-bg-food-dusk",
+          "day": 7,
+          "time": "17:30",
+          "location": "约饭小店"
+        },
+        {
+          "id": "ts_c01_common_two_umbrellas",
+          "bg": "tc-bg-eaves-day",
+          "day": 7,
+          "time": "饭后",
+          "location": "雨中街道及路口"
+        },
+        {
+          "id": "ts_c01_common_chapter_end",
+          "bg": "tc-bg-chapter-end",
+          "day": null,
+          "time": "章末",
+          "location": ""
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "module": "common/ch02",
+      "exports": [
+        "tc_c02_common_entry",
+        "tc_c02_common_exit"
+      ],
+      "imports": [
+        "tc_c03_common_entry"
+      ],
+      "reads": [
+        "qiuReply",
+        "qiuSignal"
+      ],
+      "writes": [
+        {
+          "nodeId": "tc_c02_common_rhythm_reply_choice",
+          "flags": [
+            "qiuReply"
+          ]
+        },
+        {
+          "nodeId": "tc_c02_common_missed_game_choice",
+          "flags": [
+            "missedGame"
+          ]
+        },
+        {
+          "nodeId": "tc_c02_common_yelan_first_choice",
+          "flags": [
+            "yelanFirst"
+          ]
+        },
+        {
+          "nodeId": "tc_c02_common_qiu_met",
+          "flags": [
+            "qiuMet"
+          ]
+        }
+      ],
+      "assetRequests": [
+        {
+          "id": "e01-art-ch02",
+          "a01Ids": [
+            "tc-bg-backdoor-night",
+            "tc-bg-courtyard-night",
+            "tc-bg-food-day",
+            "tc-bg-food-dusk",
+            "tc-bg-food-front-dusk",
+            "tc-bg-netcafe-counter-night",
+            "tc-bg-rental-night",
+            "tc-char-huangqiuqiu-orb-base",
+            "tc-char-huangqiuqiu-orb-expression-serious",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile",
+            "tc-char-mengyao-human-base",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-shijiang-human-base",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-downcast",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-surprised",
+            "tc-char-wenwen-human-expression-tired",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile",
+            "tc-char-yelan-human-base",
+            "tc-char-yelan-human-expression-hesitant",
+            "tc-char-yelan-human-expression-smile",
+            "tc-char-zhouzhi-human-base"
+          ]
+        }
+      ],
+      "scenes": [
+        {
+          "id": "ts_c02_common_charger",
+          "bg": "tc-bg-netcafe-counter-night",
+          "day": 8,
+          "time": "19:40",
+          "location": "网吧柜台"
+        },
+        {
+          "id": "ts_c02_common_reply_at_door",
+          "bg": "tc-bg-backdoor-night",
+          "day": 8,
+          "time": "19:40",
+          "location": "网吧后院侧门外"
+        },
+        {
+          "id": "ts_c02_common_same_sign",
+          "bg": "tc-bg-food-front-dusk",
+          "day": 8,
+          "time": "19:40",
+          "location": "坡口面馆外街道"
+        },
+        {
+          "id": "ts_c02_common_missed_game",
+          "bg": "tc-bg-rental-night",
+          "day": 10,
+          "time": "20:50",
+          "location": "文文出租屋"
+        },
+        {
+          "id": "ts_c02_common_next_meeting",
+          "bg": "tc-bg-rental-night",
+          "day": 10,
+          "time": "21:00后",
+          "location": "文文出租屋"
+        },
+        {
+          "id": "ts_c02_common_yelan_first",
+          "bg": "tc-bg-food-day",
+          "day": 12,
+          "time": "16:30",
+          "location": "坡口面馆"
+        },
+        {
+          "id": "ts_c02_common_yelan_walk",
+          "bg": "tc-bg-food-day",
+          "day": 12,
+          "time": "饭后",
+          "location": "面馆外沿街和岔路口"
+        },
+        {
+          "id": "ts_c02_common_friends_meal",
+          "bg": "tc-bg-food-dusk",
+          "day": 14,
+          "time": "18:00",
+          "location": "朋友约饭小店"
+        },
+        {
+          "id": "ts_c02_common_qiu_arrival",
+          "bg": "tc-bg-netcafe-counter-night",
+          "day": 14,
+          "time": "20:30",
+          "location": "网吧柜台过道"
+        },
+        {
+          "id": "ts_c02_common_qiu_door",
+          "bg": "tc-bg-backdoor-night",
+          "day": 14,
+          "time": "20:30",
+          "location": "网吧后院侧门外"
+        },
+        {
+          "id": "ts_c02_common_qiu_meeting",
+          "bg": "tc-bg-courtyard-night",
+          "day": 14,
+          "time": "20:30",
+          "location": "网吧后院"
+        },
+        {
+          "id": "ts_c02_common_qiu_name_note",
+          "bg": "tc-bg-rental-night",
+          "day": 14,
+          "time": "20:30",
+          "location": "文文出租屋"
+        },
+        {
+          "id": "ts_c02_common_chapter_end",
+          "bg": "tc-bg-chapter-end",
+          "day": null,
+          "time": "章末",
+          "location": ""
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "module": "common/ch03",
+      "exports": [
+        "tc_c03_common_entry",
+        "tc_c03_common_exit",
+        "tc_c03_common_route_choice"
+      ],
+      "imports": [
+        "tc_c03_friends_entry",
+        "tc_c03_huangqiuqiu_entry",
+        "tc_c03_mengyao_entry",
+        "tc_c03_piao_entry",
+        "tc_c03_xiaoman_entry",
+        "tc_c03_yelan_entry",
+        "tc_c03_zhouzhi_entry",
+        "tc_c04_common_entry"
+      ],
+      "reads": [
+        "qiuMet",
+        "qiuReply",
+        "qiuSignal"
+      ],
+      "writes": [
+        {
+          "nodeId": "tc_c03_common_route_choice",
+          "flags": [
+            "route"
+          ]
+        }
+      ],
+      "assetRequests": [
+        {
+          "id": "e01-art-ch03",
+          "a01Ids": [
+            "tc-bg-rental-day",
+            "tc-char-wenwen-human-base"
+          ]
+        }
+      ],
+      "scenes": [
+        {
+          "id": "ts_c03_common_invitation",
+          "bg": "tc-bg-rental-day",
+          "day": 15,
+          "time": "下午",
+          "location": "文文出租屋"
+        },
+        {
+          "id": "ts_c03_common_chapter_end",
+          "bg": "tc-bg-chapter-end",
+          "day": null,
+          "time": "章末",
+          "location": ""
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "module": "common/ch04",
+      "exports": [
+        "tc_c04_common_entry",
+        "tc_c04_common_exit",
+        "tc_c04_common_route_gate"
+      ],
+      "imports": [
+        "tc_c04_friends_entry",
+        "tc_c04_huangqiuqiu_entry",
+        "tc_c04_mengyao_entry",
+        "tc_c04_piao_entry",
+        "tc_c04_xiaoman_entry",
+        "tc_c04_yelan_entry",
+        "tc_c04_zhouzhi_entry",
+        "tc_c05_common_entry"
+      ],
+      "reads": [
+        "route"
+      ],
+      "writes": [],
+      "assetRequests": [
+        {
+          "id": "e01-art-ch04",
+          "a01Ids": [
+            "tc-bg-rental-day",
+            "tc-char-maolang-human-base",
+            "tc-char-wenwen-human-base"
+          ]
+        }
+      ],
+      "scenes": [
+        {
+          "id": "ts_c04_common_payday",
+          "bg": "tc-bg-rental-day",
+          "day": 22,
+          "time": "15:40",
+          "location": "文文出租屋"
+        },
+        {
+          "id": "ts_c04_common_chapter_end",
+          "bg": "tc-bg-chapter-end",
+          "day": null,
+          "time": "章末",
+          "location": ""
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "module": "common/ch05",
+      "exports": [
+        "tc_c05_common_entry",
+        "tc_c05_common_exit",
+        "tc_c05_common_route_gate"
+      ],
+      "imports": [
+        "tc_c05_friends_entry",
+        "tc_c05_huangqiuqiu_entry",
+        "tc_c05_mengyao_entry",
+        "tc_c05_piao_entry",
+        "tc_c05_xiaoman_entry",
+        "tc_c05_yelan_entry",
+        "tc_c05_zhouzhi_entry",
+        "tc_c06_common_entry"
+      ],
+      "reads": [
+        "missedGame",
+        "route"
+      ],
+      "writes": [],
+      "assetRequests": [
+        {
+          "id": "e01-art-ch05",
+          "a01Ids": [
+            "tc-bg-rental-night",
+            "tc-char-maolang-human-base",
+            "tc-char-piao-human-base",
+            "tc-char-wenwen-human-base",
+            "tc-char-xiaoman-human-base",
+            "tc-char-yelan-human-base",
+            "tc-char-zhouzhi-human-base"
+          ]
+        }
+      ],
+      "scenes": [
+        {
+          "id": "ts_c05_common_echo_message",
+          "bg": "tc-bg-rental-night",
+          "day": 25,
+          "time": "18:10",
+          "location": "文文出租屋"
+        },
+        {
+          "id": "ts_c05_common_chapter_end",
+          "bg": "tc-bg-chapter-end",
+          "day": null,
+          "time": "章末",
+          "location": ""
+        },
+        {
+          "id": "ts_c05_common_missed_game_callback",
+          "bg": "tc-bg-rental-night",
+          "day": 25,
+          "time": "晚些时候",
+          "location": "文文出租屋"
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "module": "common/ch06",
+      "exports": [
+        "tc_c06_common_entry",
+        "tc_c06_common_exit",
+        "tc_c06_common_route_gate"
+      ],
+      "imports": [
+        "tc_c06_friends_entry",
+        "tc_c06_huangqiuqiu_entry",
+        "tc_c06_mengyao_entry",
+        "tc_c06_piao_entry",
+        "tc_c06_xiaoman_entry",
+        "tc_c06_yelan_entry",
+        "tc_c06_zhouzhi_entry",
+        "tc_c07_common_entry"
+      ],
+      "reads": [
+        "route"
+      ],
+      "writes": [],
+      "assetRequests": [
+        {
+          "id": "e01-art-ch06",
+          "a01Ids": [
+            "tc-bg-echo-closed-day",
+            "tc-bg-food-dusk",
+            "tc-bg-netcafe-counter-night",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-hesitant",
+            "tc-char-maolang-human-expression-smile",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-hesitant",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-hesitant",
+            "tc-char-zhouzhi-human-expression-smile"
+          ]
+        }
+      ],
+      "scenes": [
+        {
+          "id": "ts_c06_common_last_night_meal",
+          "bg": "tc-bg-food-dusk",
+          "day": 30,
+          "time": "18:00",
+          "location": "回声旁小店"
+        },
+        {
+          "id": "ts_c06_common_chapter_end",
+          "bg": "tc-bg-chapter-end",
+          "day": null,
+          "time": "章末",
+          "location": ""
+        },
+        {
+          "id": "ts_c06_common_meal_goodbye",
+          "bg": "tc-bg-food-dusk",
+          "day": 30,
+          "time": "七点多",
+          "location": "回声旁小店"
+        },
+        {
+          "id": "ts_c06_common_night_shift",
+          "bg": "tc-bg-netcafe-counter-night",
+          "day": 30,
+          "time": "22:00",
+          "location": "网吧柜台"
+        },
+        {
+          "id": "ts_c06_common_after_midnight",
+          "bg": "tc-bg-netcafe-counter-night",
+          "day": 31,
+          "time": "凌晨",
+          "location": "网吧柜台"
+        },
+        {
+          "id": "ts_c06_common_closed_echo",
+          "bg": "tc-bg-echo-closed-day",
+          "day": 31,
+          "time": "06:00",
+          "location": "回声门外与早餐摊"
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "module": "common/ch07",
+      "exports": [
+        "tc_c07_common_entry",
+        "tc_c07_common_exit",
+        "tc_c07_common_route_gate"
+      ],
+      "imports": [
+        "tc_c07_friends_entry",
+        "tc_c07_huangqiuqiu_entry",
+        "tc_c07_mengyao_entry",
+        "tc_c07_piao_entry",
+        "tc_c07_xiaoman_entry",
+        "tc_c07_yelan_entry",
+        "tc_c07_zhouzhi_entry",
+        "tc_c08_common_entry"
+      ],
+      "reads": [
+        "route"
+      ],
+      "writes": [],
+      "assetRequests": [
+        {
+          "id": "e01-art-ch07",
+          "a01Ids": [
+            "tc-bg-rental-day",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-wenwen-human-expression-smile"
+          ]
+        }
+      ],
+      "scenes": [
+        {
+          "id": "ts_c07_common_short_game",
+          "bg": "tc-bg-rental-day",
+          "day": 35,
+          "time": "下午",
+          "location": "文文出租屋"
+        },
+        {
+          "id": "ts_c07_common_chapter_end",
+          "bg": "tc-bg-chapter-end",
+          "day": null,
+          "time": "章末",
+          "location": ""
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "module": "common/ch08",
+      "exports": [
+        "tc_c08_common_entry",
+        "tc_c08_common_exit",
+        "tc_c08_common_route_gate"
+      ],
+      "imports": [
+        "tc_c08_friends_entry",
+        "tc_c08_huangqiuqiu_entry",
+        "tc_c08_mengyao_entry",
+        "tc_c08_piao_entry",
+        "tc_c08_xiaoman_entry",
+        "tc_c08_yelan_entry",
+        "tc_c08_zhouzhi_entry",
+        "tc_c09_common_entry"
+      ],
+      "reads": [
+        "route"
+      ],
+      "writes": [],
+      "assetRequests": [
+        {
+          "id": "e01-art-ch08",
+          "a01Ids": [
+            "tc-bg-netcafe-counter-day",
+            "tc-char-shijiang-human-base",
+            "tc-char-shijiang-human-expression-hesitant",
+            "tc-char-shijiang-human-expression-smile",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-wenwen-human-expression-smile"
+          ]
+        }
+      ],
+      "scenes": [
+        {
+          "id": "ts_c08_common_trial_roster",
+          "bg": "tc-bg-netcafe-counter-day",
+          "day": 52,
+          "time": "17:00",
+          "location": "网吧柜台"
+        },
+        {
+          "id": "ts_c08_common_chapter_end",
+          "bg": "tc-bg-chapter-end",
+          "day": null,
+          "time": "章末",
+          "location": ""
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "module": "common/ch09",
+      "exports": [
+        "tc_c09_common_entry",
+        "tc_c09_common_exit",
+        "tc_c09_common_route_gate"
+      ],
+      "imports": [
+        "tc_c09_friends_entry",
+        "tc_c09_huangqiuqiu_entry",
+        "tc_c09_mengyao_entry",
+        "tc_c09_piao_entry",
+        "tc_c09_xiaoman_entry",
+        "tc_c09_yelan_entry",
+        "tc_c09_zhouzhi_entry",
+        "tc_c10_common_entry"
+      ],
+      "reads": [
+        "route"
+      ],
+      "writes": [],
+      "assetRequests": [
+        {
+          "id": "e01-art-ch09",
+          "a01Ids": [
+            "tc-bg-netcafe-counter-day",
+            "tc-char-shijiang-human-base",
+            "tc-char-shijiang-human-expression-hesitant",
+            "tc-char-shijiang-human-expression-smile",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-wenwen-human-expression-smile"
+          ]
+        }
+      ],
+      "scenes": [
+        {
+          "id": "ts_c09_common_confirmed_roster",
+          "bg": "tc-bg-netcafe-counter-day",
+          "day": 61,
+          "time": "下午",
+          "location": "网吧柜台"
+        },
+        {
+          "id": "ts_c09_common_chapter_end",
+          "bg": "tc-bg-chapter-end",
+          "day": null,
+          "time": "章末",
+          "location": ""
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "module": "common/ch10",
+      "exports": [
+        "tc_c10_common_entry",
+        "tc_c10_common_route_gate",
+        "tc_c10_common_piao_dating",
+        "tc_c10_common_piao_wedding"
+      ],
+      "imports": [
+        "tc_c10_friends_entry",
+        "tc_c10_huangqiuqiu_entry",
+        "tc_c10_mengyao_entry",
+        "tc_c10_piao_entry",
+        "tc_c10_xiaoman_entry",
+        "tc_c10_yelan_entry",
+        "tc_c10_zhouzhi_entry"
+      ],
+      "reads": [
+        "piaoRelationship",
+        "route"
+      ],
+      "writes": [],
+      "assetRequests": [
+        {
+          "id": "e01-art-ch10",
+          "a01Ids": [
+            "tc-bg-banquet-day",
+            "tc-bg-food-day",
+            "tc-bg-netcafe-counter-day",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-hesitant",
+            "tc-char-maolang-human-expression-smile",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-hesitant",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-shijiang-human-base",
+            "tc-char-shijiang-human-expression-hesitant",
+            "tc-char-shijiang-human-expression-smile",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-look-maolang-wedding",
+            "tc-look-piao-wedding"
+          ]
+        }
+      ],
+      "scenes": [
+        {
+          "id": "ts_c10_common_daily_life",
+          "bg": "tc-bg-netcafe-counter-day",
+          "day": null,
+          "time": "两年后",
+          "location": "网吧柜台"
+        },
+        {
+          "id": "ts_c10_common_piao_dating_meal",
+          "bg": "tc-bg-food-day",
+          "day": null,
+          "time": "休班日",
+          "location": "朋友约饭小店"
+        },
+        {
+          "id": "ts_c10_common_piao_wedding",
+          "bg": "tc-bg-banquet-day",
+          "day": null,
+          "time": "婚宴当天",
+          "location": "普通小店婚宴"
+        }
+      ]
+    }
+  ],
+  "presentationStatus": "语义背景与人物说话者；真实立绘/头像/差分/CG待A06/E09绑定。character:null显式清除前一段人物。",
+  "chapterEndBackground": "tc-bg-chapter-end是待E09选择已采用图的中性章末语义；不是已采用图片。",
+  "deferredReview": [
+    {
+      "owner": "E06",
+      "items": [
+        "飘第三章关系读取与第十章两段公共后日谈核对；不得在路线重复播放"
+      ]
+    },
+    {
+      "owner": "E07",
+      "items": [
+        "隐藏线入口采用三项requires；第14天相识事件来自共通"
+      ]
+    },
+    {
+      "owner": "E09",
+      "items": [
+        "共通JSON已交付，需与真实路线/引擎/美术统一集成"
+      ]
+    }
+  ]
+}

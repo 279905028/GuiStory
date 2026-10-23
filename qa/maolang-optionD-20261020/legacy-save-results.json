@@ -1,0 +1,18 @@
+{
+  "target": "s9_compete_04",
+  "cases": [
+    {
+      "kind": "auto",
+      "pass": true
+    },
+    {
+      "kind": "manual",
+      "pass": true
+    },
+    {
+      "kind": "corrupt",
+      "pass": true
+    }
+  ],
+  "pass": true
+}

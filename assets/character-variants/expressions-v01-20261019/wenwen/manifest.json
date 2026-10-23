@@ -1,0 +1,498 @@
+{
+  "character": "wenwen",
+  "name": "文文",
+  "date": "2026-10-19",
+  "reference": "assets/char-wenwen.png",
+  "reference_sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+  "selected_count": 18,
+  "generated_count": 19,
+  "status": "candidate_not_integrated",
+  "assets": [
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "smile",
+      "label": "微笑",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 624228,
+      "alpha128_bbox": [
+        106,
+        22,
+        1005,
+        1536
+      ],
+      "sha256": "e6b925e52feded4b555a13dc32041abd261fdd0830816f1e510c3e89c7c567c0",
+      "bytes": 2219084,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-2bea4da8-33a2-44ee-990b-9ebf0f12ab3d.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "serious",
+      "label": "认真",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 626467,
+      "alpha128_bbox": [
+        105,
+        21,
+        1005,
+        1536
+      ],
+      "sha256": "3e60054129fd00bdb0a048b70f8aa6f5c3d840128f464dde1926feb41d0f0c91",
+      "bytes": 2205624,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-93e0f921-b113-4449-b44a-2d0ddc05827f.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "hesitant",
+      "label": "犹豫",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 628919,
+      "alpha128_bbox": [
+        106,
+        22,
+        1004,
+        1536
+      ],
+      "sha256": "2e74049a392cf793f6072b45a39cb4c8cd24d12f0c52b2023ba1e101fce6d213",
+      "bytes": 2145513,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-25789be0-acd0-430f-a7c0-8e149bb5c7f9.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "surprised",
+      "label": "惊讶",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 627546,
+      "alpha128_bbox": [
+        106,
+        22,
+        1005,
+        1536
+      ],
+      "sha256": "521d889a40b086d6784c7ad852c733a737a62f04d591200eb080f5ad7006c98b",
+      "bytes": 2234688,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-0855a2e4-4a98-424e-af06-959323eaa67a.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "displeased",
+      "label": "不悦",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-displeased.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 628700,
+      "alpha128_bbox": [
+        106,
+        22,
+        1005,
+        1536
+      ],
+      "sha256": "1c500c5e6468fcb5cee6bf1c2e581cfec102166502cc33afa7f55a9e95ad55e6",
+      "bytes": 2151006,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-e5bb1f19-76bb-413f-9b15-8c298dbfb444.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "downcast",
+      "label": "低落",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-downcast.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 626592,
+      "alpha128_bbox": [
+        106,
+        22,
+        1005,
+        1536
+      ],
+      "sha256": "49c42013ef1e35307dbd3a3cd1e5ffd3a34de011793832dea1b1f870439bffe4",
+      "bytes": 2210292,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-c5092027-b17a-4cb0-87a1-2d997e20d48a.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "embarrassed",
+      "label": "尴尬",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 627906,
+      "alpha128_bbox": [
+        107,
+        22,
+        1004,
+        1536
+      ],
+      "sha256": "b76af0b747f88e0b7e4750f5eae60e2b1de1d72eb237fc60dd43f258934f1744",
+      "bytes": 2186411,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-b45b4055-bb52-40a2-b4fd-7ddf81319541.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "relieved",
+      "label": "释然",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-relieved.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 629698,
+      "alpha128_bbox": [
+        107,
+        22,
+        1004,
+        1536
+      ],
+      "sha256": "7223c94dfa91c8a6611591f8d7ac528371513525b6ad2a45dd5f26e334a6ab7b",
+      "bytes": 2196367,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-b09b6dfb-54fd-4620-a191-e2731f2073bf.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "guilty",
+      "label": "愧疚",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 620123,
+      "alpha128_bbox": [
+        105,
+        22,
+        1007,
+        1536
+      ],
+      "sha256": "a3169d9e2391ef67ac577a5ebc7543e28e5d042ff61620bbfa755ce720bf3951",
+      "bytes": 2206129,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-bba725bf-e722-4125-9bc2-9c46bb46df83.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "determined",
+      "label": "坚定",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 628790,
+      "alpha128_bbox": [
+        105,
+        23,
+        1005,
+        1536
+      ],
+      "sha256": "ce4e43b188589e1a199e972dd4fab1ea632d25d44fefb63a417a70b40522cdcc",
+      "bytes": 2182419,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-22ec2947-77fa-4d61-a50b-ceb6b8a7c942.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "tired",
+      "label": "疲惫",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 628149,
+      "alpha128_bbox": [
+        106,
+        22,
+        1005,
+        1536
+      ],
+      "sha256": "a9a4dc44999ba3559e8d4ac7f9114e6b832919d7fc1a9427205eabad93c564cf",
+      "bytes": 2168938,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-bc19e831-18ba-4390-ac30-210fea04fa75.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "wry",
+      "label": "苦笑",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 624002,
+      "alpha128_bbox": [
+        105,
+        22,
+        1006,
+        1536
+      ],
+      "sha256": "9fd01f9690d7d56702ae78116955fd8d4b2cede26271c545503b376eb5e16b01",
+      "bytes": 2231700,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-b39daae4-518a-421a-a651-02812b25c4fa.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "action",
+      "slug": "wave",
+      "label": "招手",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-wave.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 560521,
+      "alpha128_bbox": [
+        18,
+        22,
+        1020,
+        1536
+      ],
+      "sha256": "e2c74044d140dca6c0b05103d69b787eb268bc91cd682e1717c75912a10650b7",
+      "bytes": 2373437,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-ce49aab2-777c-409e-8a49-a4129417dcb4.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "action",
+      "slug": "thinking",
+      "label": "思考",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-thinking.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 627146,
+      "alpha128_bbox": [
+        69,
+        21,
+        1004,
+        1536
+      ],
+      "sha256": "7e9a5b3d9eaeb87f92a31710dbe56654183f9c531112cade99f56ac8a67234a0",
+      "bytes": 2218651,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-94659f19-60bb-4847-8720-db97aeb806dd.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "action",
+      "slug": "explaining",
+      "label": "解释",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-explaining.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 625323,
+      "alpha128_bbox": [
+        19,
+        23,
+        1016,
+        1536
+      ],
+      "sha256": "025f83220e2a7ad0f983f797aed621039e68f009448f34402f278063d30e1bb3",
+      "bytes": 2154226,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-5a6e66d5-bdb8-42dd-a5a4-1b77f92542f5.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "action",
+      "slug": "repairing",
+      "label": "低头检修",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-repairing.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 600873,
+      "alpha128_bbox": [
+        4,
+        21,
+        1019,
+        1536
+      ],
+      "sha256": "1616b7d46d06d86cda6cc19f79df3e19bc7aa1f13e4d8daa5b03e558402dee84",
+      "bytes": 2290714,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-c8376e11-6e95-495f-8085-0b88659dfea4.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "action",
+      "slug": "phone",
+      "label": "查看手机",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-phone.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 617793,
+      "alpha128_bbox": [
+        60,
+        30,
+        1002,
+        1536
+      ],
+      "sha256": "3983ece863503833459257807a519cf61a1fb9c815a90943c55679c44995d43d",
+      "bytes": 2211999,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-6325104b-2995-4532-9c96-81c9268b6fca.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "action",
+      "slug": "listening",
+      "label": "抱臂倾听",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-listening.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 705438,
+      "alpha128_bbox": [
+        89,
+        24,
+        927,
+        1536
+      ],
+      "sha256": "598a3a55f21d7a71d8bca712193adf8f35b2e7509ae4cbcf2b51d5da7fa8c432",
+      "bytes": 2192732,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-622f758c-6786-4599-be98-a0a78af0902d.png",
+      "source_copy_sha256_equal": true
+    }
+  ]
+}

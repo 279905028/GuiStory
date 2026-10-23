@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "scope": "E02 CLI, isolated output safety, legacy build reproducibility",
+  "runAt": "2026-10-22T08:24:48.919Z",
+  "passed": 21,
+  "results": [
+    {
+      "name": "隔离样例从现有入口构建",
+      "status": "passed"
+    },
+    {
+      "name": "重复构建字节完全一致并安全复用",
+      "status": "passed"
+    },
+    {
+      "name": "--check只校验不输出",
+      "status": "passed"
+    },
+    {
+      "name": "十章路径不读取旧快照",
+      "status": "passed"
+    },
+    {
+      "name": "缺正式模块清单不退回旧故事",
+      "status": "passed"
+    },
+    {
+      "name": "未知参数不启动旧构建",
+      "status": "passed"
+    },
+    {
+      "name": "缺少显式十章开关",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝参数冲突",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝缺少参数值",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝重复参数",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝check带输出目录",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝输出到正式根目录",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝输出到正式story.js",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝输入旧三章JSON",
+      "status": "passed"
+    },
+    {
+      "name": "可写入显式新隔离目录",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝软链接输出目录及其子目录",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝既有不同内容且保持原样",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝既有输出中的文件软链接",
+      "status": "passed"
+    },
+    {
+      "name": "无参数构建保持原三章行为",
+      "status": "passed"
+    },
+    {
+      "name": "全部保护文件与E02开始前一致",
+      "status": "passed"
+    },
+    {
+      "name": "旧构建正文只增加入口分流",
+      "status": "passed"
+    }
+  ],
+  "output": {
+    "directory": "/Users/yipin/Desktop/cjb/任务拆分/全十章/构建/sample-3d0fadf921f23ee7",
+    "contentHash": "3d0fadf921f23ee71b0472f4d7ee93245424127dc96f52705b6b2be168f8b3a6",
+    "reused": false
+  },
+  "protectedFilesChecked": 25,
+  "protectedFilesChanged": [],
+  "builderSha256": "068ca2f80fa29dd0b2405de726daae2568d1971878f48979e9be89ecf3b2ebd3",
+  "notExecuted": [
+    "正式十章接入",
+    "真实引擎/玩家存档",
+    "浏览器/设备/发布"
+  ]
+}

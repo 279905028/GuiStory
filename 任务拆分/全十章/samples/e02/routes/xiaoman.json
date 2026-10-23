@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "routes/xiaoman",
+  "owner": "E04",
+  "scenes": {
+    "ts_c03_xiaoman_sample": {
+      "chapter": 3,
+      "title": "你是来剪头发的吗",
+      "bg": "sample-bg",
+      "time": "16:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "16:10"
+      },
+      "location": "理发店门口",
+      "day": 15,
+      "dayLabel": "第15天"
+    }
+  },
+  "nodes": {
+    "tc_c03_xiaoman_entry": {
+      "id": "tc_c03_xiaoman_entry",
+      "type": "line",
+      "scene": "ts_c03_xiaoman_sample",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我在理发店门口站了半分钟，玻璃上的营业时间看了两遍。",
+      "next": "tc_c03_common_exit"
+    }
+  },
+  "imports": [
+    "tc_c03_common_exit"
+  ],
+  "exports": {
+    "tc_c03_xiaoman_entry": "tc_c03_xiaoman_entry"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 37,
+      "endLine": 37,
+      "nodeIds": [
+        "tc_c03_xiaoman_entry"
+      ],
+      "kind": "narration"
+    }
+  ],
+  "exclusions": [],
+  "assetRequests": [
+    "e01-art-ch03"
+  ]
+}

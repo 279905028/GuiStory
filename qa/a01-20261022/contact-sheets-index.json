@@ -1,0 +1,567 @@
+[
+  {
+    "path": "qa/a01-20261022/bases.webp",
+    "items": [
+      {
+        "label": "wenwen",
+        "path": "assets/char-wenwen.webp",
+        "cell": 1
+      },
+      {
+        "label": "xiaoman",
+        "path": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+        "cell": 2
+      },
+      {
+        "label": "zhouzhi",
+        "path": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+        "cell": 3
+      },
+      {
+        "label": "mengyao",
+        "path": "assets/character-variants/mengyao-face-v2-candidate.webp",
+        "cell": 4
+      },
+      {
+        "label": "yelan",
+        "path": "assets/character-variants/yelan-face-v2-candidate.webp",
+        "cell": 5
+      },
+      {
+        "label": "maolang",
+        "path": "assets/char-maolang.webp",
+        "cell": 6
+      },
+      {
+        "label": "shijiang",
+        "path": "assets/char-shijiang.webp",
+        "cell": 7
+      },
+      {
+        "label": "huangqiuqiu",
+        "path": "assets/char-huangqiuqiu.webp",
+        "cell": 8
+      },
+      {
+        "label": "piao",
+        "path": "assets/char-piao.webp",
+        "cell": 9
+      },
+      {
+        "label": "huangqiuqiu-human (unregistered)",
+        "path": "assets/character-variants/huangqiuqiu-human-20261022/char-huangqiuqiu-human-base.webp",
+        "cell": 10
+      }
+    ]
+  },
+  {
+    "path": "qa/a01-20261022/expressions-wenwen.webp",
+    "items": [
+      {
+        "label": "wenwen:expression-determined",
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.webp",
+        "cell": 1
+      },
+      {
+        "label": "wenwen:expression-embarrassed",
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.webp",
+        "cell": 2
+      },
+      {
+        "label": "wenwen:expression-guilty",
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.webp",
+        "cell": 3
+      },
+      {
+        "label": "wenwen:expression-hesitant",
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.webp",
+        "cell": 4
+      },
+      {
+        "label": "wenwen:expression-serious",
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.webp",
+        "cell": 5
+      },
+      {
+        "label": "wenwen:expression-smile",
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.webp",
+        "cell": 6
+      },
+      {
+        "label": "wenwen:expression-surprised",
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.webp",
+        "cell": 7
+      },
+      {
+        "label": "wenwen:expression-tired",
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.webp",
+        "cell": 8
+      },
+      {
+        "label": "wenwen:expression-wry",
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.webp",
+        "cell": 9
+      }
+    ]
+  },
+  {
+    "path": "qa/a01-20261022/expressions-xiaoman.webp",
+    "items": [
+      {
+        "label": "xiaoman:expression-downcast",
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.webp",
+        "cell": 1
+      },
+      {
+        "label": "xiaoman:expression-hesitant",
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.webp",
+        "cell": 2
+      },
+      {
+        "label": "xiaoman:expression-serious",
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.webp",
+        "cell": 3
+      },
+      {
+        "label": "xiaoman:expression-smile",
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+        "cell": 4
+      },
+      {
+        "label": "xiaoman:expression-surprised",
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-surprised.webp",
+        "cell": 5
+      }
+    ]
+  },
+  {
+    "path": "qa/a01-20261022/expressions-zhouzhi.webp",
+    "items": [
+      {
+        "label": "zhouzhi:action-explaining",
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-explaining.webp",
+        "cell": 1
+      },
+      {
+        "label": "zhouzhi:expression-downcast",
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.webp",
+        "cell": 2
+      },
+      {
+        "label": "zhouzhi:expression-hesitant",
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.webp",
+        "cell": 3
+      },
+      {
+        "label": "zhouzhi:expression-serious",
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.webp",
+        "cell": 4
+      },
+      {
+        "label": "zhouzhi:expression-smile",
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.webp",
+        "cell": 5
+      }
+    ]
+  },
+  {
+    "path": "qa/a01-20261022/expressions-mengyao.webp",
+    "items": [
+      {
+        "label": "mengyao:action-explaining",
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-explaining.webp",
+        "cell": 1
+      },
+      {
+        "label": "mengyao:expression-displeased",
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-displeased.webp",
+        "cell": 2
+      },
+      {
+        "label": "mengyao:expression-downcast",
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-downcast.webp",
+        "cell": 3
+      },
+      {
+        "label": "mengyao:expression-hesitant",
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-hesitant.webp",
+        "cell": 4
+      },
+      {
+        "label": "mengyao:expression-serious",
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-serious.webp",
+        "cell": 5
+      },
+      {
+        "label": "mengyao:expression-smile",
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-smile.webp",
+        "cell": 6
+      },
+      {
+        "label": "mengyao:expression-surprised",
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-surprised.webp",
+        "cell": 7
+      }
+    ]
+  },
+  {
+    "path": "qa/a01-20261022/expressions-yelan.webp",
+    "items": [
+      {
+        "label": "yelan:expression-hesitant",
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-hesitant.webp",
+        "cell": 1
+      },
+      {
+        "label": "yelan:expression-serious",
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-serious.webp",
+        "cell": 2
+      },
+      {
+        "label": "yelan:expression-smile",
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-smile.webp",
+        "cell": 3
+      },
+      {
+        "label": "yelan:expression-surprised",
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-surprised.webp",
+        "cell": 4
+      }
+    ]
+  },
+  {
+    "path": "qa/a01-20261022/expressions-maolang.webp",
+    "items": [
+      {
+        "label": "maolang:action-explaining",
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.webp",
+        "cell": 1
+      },
+      {
+        "label": "maolang:action-thinking",
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.webp",
+        "cell": 2
+      },
+      {
+        "label": "maolang:action-wave",
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.webp",
+        "cell": 3
+      },
+      {
+        "label": "maolang:expression-displeased",
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.webp",
+        "cell": 4
+      },
+      {
+        "label": "maolang:expression-downcast",
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.webp",
+        "cell": 5
+      },
+      {
+        "label": "maolang:expression-hesitant",
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+        "cell": 6
+      },
+      {
+        "label": "maolang:expression-serious",
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.webp",
+        "cell": 7
+      },
+      {
+        "label": "maolang:expression-smile",
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+        "cell": 8
+      },
+      {
+        "label": "maolang:expression-surprised",
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.webp",
+        "cell": 9
+      }
+    ]
+  },
+  {
+    "path": "qa/a01-20261022/expressions-shijiang.webp",
+    "items": [
+      {
+        "label": "shijiang:action-explaining",
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.webp",
+        "cell": 1
+      },
+      {
+        "label": "shijiang:action-phone",
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-phone.webp",
+        "cell": 2
+      },
+      {
+        "label": "shijiang:action-thinking",
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.webp",
+        "cell": 3
+      },
+      {
+        "label": "shijiang:expression-serious",
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.webp",
+        "cell": 4
+      },
+      {
+        "label": "shijiang:expression-smile",
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp",
+        "cell": 5
+      }
+    ]
+  },
+  {
+    "path": "qa/a01-20261022/expressions-huangqiuqiu.webp",
+    "items": [
+      {
+        "label": "huangqiuqiu:expression-displeased",
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-displeased.webp",
+        "cell": 1
+      },
+      {
+        "label": "huangqiuqiu:expression-downcast",
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-downcast.webp",
+        "cell": 2
+      },
+      {
+        "label": "huangqiuqiu:expression-hesitant",
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+        "cell": 3
+      },
+      {
+        "label": "huangqiuqiu:expression-serious",
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+        "cell": 4
+      },
+      {
+        "label": "huangqiuqiu:expression-smile",
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+        "cell": 5
+      }
+    ]
+  },
+  {
+    "path": "qa/a01-20261022/expressions-piao.webp",
+    "items": [
+      {
+        "label": "piao:action-explaining",
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-explaining.webp",
+        "cell": 1
+      },
+      {
+        "label": "piao:action-thinking",
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-thinking.webp",
+        "cell": 2
+      },
+      {
+        "label": "piao:action-wave",
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-wave.webp",
+        "cell": 3
+      },
+      {
+        "label": "piao:expression-displeased",
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-displeased.webp",
+        "cell": 4
+      },
+      {
+        "label": "piao:expression-downcast",
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.webp",
+        "cell": 5
+      },
+      {
+        "label": "piao:expression-hesitant",
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+        "cell": 6
+      },
+      {
+        "label": "piao:expression-serious",
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.webp",
+        "cell": 7
+      },
+      {
+        "label": "piao:expression-smile",
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+        "cell": 8
+      },
+      {
+        "label": "piao:expression-surprised",
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-surprised.webp",
+        "cell": 9
+      }
+    ]
+  },
+  {
+    "path": "qa/a01-20261022/backgrounds-1.webp",
+    "items": [
+      {
+        "label": "street",
+        "path": "assets/bg-street.webp",
+        "cell": 1
+      },
+      {
+        "label": "repair",
+        "path": "assets/bg-repair.webp",
+        "cell": 2
+      },
+      {
+        "label": "lobby",
+        "path": "assets/bg-lobby.webp",
+        "cell": 3
+      },
+      {
+        "label": "room",
+        "path": "assets/bg-room.webp",
+        "cell": 4
+      },
+      {
+        "label": "noodles",
+        "path": "assets/bg-noodles.webp",
+        "cell": 5
+      },
+      {
+        "label": "salon",
+        "path": "assets/bg-salon.webp",
+        "cell": 6
+      }
+    ]
+  },
+  {
+    "path": "qa/a01-20261022/backgrounds-2.webp",
+    "items": [
+      {
+        "label": "busstop_day",
+        "path": "assets/backgrounds/bijie-20261020/bg-busstop-day.webp",
+        "cell": 1
+      },
+      {
+        "label": "market_stall_night",
+        "path": "assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+        "cell": 2
+      },
+      {
+        "label": "echo_entrance_night",
+        "path": "assets/backgrounds/bijie-20261020/bg-echo-entrance-night.webp",
+        "cell": 3
+      },
+      {
+        "label": "old_eaves_day",
+        "path": "assets/backgrounds/bijie-20261020/bg-old-eaves-day.webp",
+        "cell": 4
+      },
+      {
+        "label": "slope_junction_night",
+        "path": "assets/backgrounds/bijie-20261020/bg-slope-junction-night.webp",
+        "cell": 5
+      },
+      {
+        "label": "residential_slope_day",
+        "path": "assets/backgrounds/bijie-20261020/bg-residential-slope-day.webp",
+        "cell": 6
+      }
+    ]
+  },
+  {
+    "path": "qa/a01-20261022/backgrounds-3.webp",
+    "items": [
+      {
+        "label": "noodle_front_dusk",
+        "path": "assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.webp",
+        "cell": 1
+      },
+      {
+        "label": "noodles_dusk",
+        "path": "assets/backgrounds/bijie-20261020/bg-noodles-dusk.webp",
+        "cell": 2
+      },
+      {
+        "label": "noodle_banquet_day",
+        "path": "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.webp",
+        "cell": 3
+      },
+      {
+        "label": "street:day override",
+        "path": "assets/background-variants/m2-daynight-20261020/bg-street-day.webp",
+        "cell": 4
+      }
+    ]
+  },
+  {
+    "path": "qa/a01-20261022/cg-1.webp",
+    "items": [
+      {
+        "label": "cg01",
+        "path": "assets/cg/cg-01-rain-return.webp",
+        "cell": 1
+      },
+      {
+        "label": "cg02",
+        "path": "assets/cg/cg-02-xiaoman-mirror.webp",
+        "cell": 2
+      },
+      {
+        "label": "cg03",
+        "path": "assets/cg/cg-03-zhouzhi-noodles.webp",
+        "cell": 3
+      },
+      {
+        "label": "cg04",
+        "path": "assets/cg/cg-04-mengyao-camera.webp",
+        "cell": 4
+      }
+    ]
+  },
+  {
+    "path": "qa/a01-20261022/cg-2.webp",
+    "items": [
+      {
+        "label": "cg05",
+        "path": "assets/cg/cg-05-yelan-inventory.webp",
+        "cell": 1
+      },
+      {
+        "label": "cg06",
+        "path": "assets/cg/cg-06-maolang-confession.webp",
+        "cell": 2
+      },
+      {
+        "label": "cg07",
+        "path": "assets/cg/cg-07-yelan-off-duty.webp",
+        "cell": 3
+      },
+      {
+        "label": "cg08",
+        "path": "assets/cg/cg-08-huangqiuqiu-listening.webp",
+        "cell": 4
+      }
+    ]
+  },
+  {
+    "path": "qa/a01-20261022/cg-3.webp",
+    "items": [
+      {
+        "label": "cg09",
+        "path": "assets/cg/cg-09-repair-handoff.webp",
+        "cell": 1
+      },
+      {
+        "label": "cg13",
+        "path": "assets/cg/cg-13-xiaoman-night-stall.webp",
+        "cell": 2
+      }
+    ]
+  },
+  {
+    "path": "qa/a01-20261022/covers.webp",
+    "items": [
+      {
+        "label": "desktop",
+        "path": "assets/cover-b-desktop.webp",
+        "cell": 1
+      },
+      {
+        "label": "mobile",
+        "path": "assets/cover-b-mobile.webp",
+        "cell": 2
+      }
+    ]
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-20T07:18:52.728Z",
+  "timezone": "Asia/Shanghai",
+  "release": "0.3",
+  "scope": "本轮正式运行文件、章节源和资源清单；与已通过的浏览器快照一致",
+  "browserPass": true,
+  "files": [
+    {
+      "path": "story.js",
+      "bytes": 370866,
+      "sha256": "85793d0b032eb44ef68864b87b775b0972e529369c608e252b0ec7c8afe67fa0"
+    },
+    {
+      "path": "engine.js",
+      "bytes": 11009,
+      "sha256": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072"
+    },
+    {
+      "path": "game.js",
+      "bytes": 52817,
+      "sha256": "c8509d30c1d23f13eec3b6a89998c651cc79427ecc5ac2703f67fd64773eeb7d"
+    },
+    {
+      "path": "index.html",
+      "bytes": 7654,
+      "sha256": "58f490182e816e2f059775672ded3dcc88e8e3f9b11e45dc200742bed971a862"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 39467,
+      "sha256": "6ec050b339efac44a46a607766714a3d7677bcc82abe3181ed4d90a2dbb441a0"
+    },
+    {
+      "path": "任务拆分/三章扩展/build-story.cjs",
+      "bytes": 12790,
+      "sha256": "145ac3b16bebe29e935364614b2ece0d7f867123ed6a0e9e201814d73e456ad3"
+    },
+    {
+      "path": "任务拆分/三章扩展/ch2_build.py",
+      "bytes": 30334,
+      "sha256": "83d184fd428585f3dd16ea61bc89d7906cc122e6cbb6bf77ac3952f879ed9f90"
+    },
+    {
+      "path": "任务拆分/三章扩展/ch3_build.py",
+      "bytes": 64687,
+      "sha256": "8a441d66d4f36484e604d3d1f5e5221577df5356386c19d62c468815d223a4f8"
+    },
+    {
+      "path": "任务拆分/三章扩展/chapter2.json",
+      "bytes": 63897,
+      "sha256": "03fd3f7a07836f2d96627a3f83d035d8025f55713bb0c5320208fddf06f7cbba"
+    },
+    {
+      "path": "任务拆分/三章扩展/chapter3.json",
+      "bytes": 167533,
+      "sha256": "270886b7378a44aaf344f391aa01b8a6f8126d07c74e82a118ae5c1c3678c8f6"
+    },
+    {
+      "path": "assets/runtime-v0.3-manifest.json",
+      "bytes": 15994,
+      "sha256": "eff0c573eb2c09d6ad91f50c4f336518436fb0d9c0ee06be94799005f1523a67"
+    }
+  ],
+  "preview": {
+    "url": "http://127.0.0.1:41735/",
+    "servedStoryVerified": true,
+    "storySha256": "85793d0b032eb44ef68864b87b775b0972e529369c608e252b0ec7c8afe67fa0"
+  }
+}

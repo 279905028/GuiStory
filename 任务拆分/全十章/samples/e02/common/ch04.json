@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "common/ch04",
+  "owner": "E03",
+  "scenes": {
+    "ts_c04_common_sample_stop": {
+      "chapter": 4,
+      "title": "发薪以后",
+      "bg": "sample-bg",
+      "time": "15:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 22,
+        "clock": "15:40"
+      },
+      "location": "住处",
+      "day": 22,
+      "dayLabel": "第22天"
+    }
+  },
+  "nodes": {
+    "tc_c04_common_entry": {
+      "id": "tc_c04_common_entry",
+      "type": "line",
+      "scene": "ts_c04_common_sample_stop",
+      "speaker": "narrator",
+      "character": null,
+      "text": "这天下午，我醒来看到到账消息，在床上坐了一会儿。",
+      "next": null
+    }
+  },
+  "imports": [],
+  "exports": {
+    "tc_c04_common_entry": "tc_c04_common_entry"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 13,
+      "endLine": 13,
+      "nodeIds": [
+        "tc_c04_common_entry"
+      ],
+      "kind": "narration"
+    }
+  ],
+  "exclusions": [],
+  "assetRequests": [
+    "e01-art-ch04"
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "id": "CG08",
+  "date": "2026-10-20",
+  "status": "美术自审采用；待用户审阅、工程接入及正式游戏验收",
+  "tool": "内置image_gen",
+  "storySha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+  "references": [
+    {
+      "path": "assets/char-huangqiuqiu.png",
+      "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9",
+      "role": "正式角色身份参考"
+    },
+    {
+      "path": "assets/references/huangqiuqiu-reference.jpg",
+      "sha256": "3762f93aadaac1244c0d403471e96b1ff5f4a42e1688746a4c756d6c4cb6c574",
+      "role": "用户原始外观参考"
+    },
+    {
+      "path": "assets/char-wenwen.png",
+      "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "role": "正式角色身份参考"
+    },
+    {
+      "path": "assets/bg-room.png",
+      "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+      "role": "正式空间材质参考"
+    },
+    {
+      "path": "assets/cg-variants/CG08/sample-v1.png",
+      "sha256": "3959b3ead3dd3e7b276fc9d004d226ae531840a5ee22288279e481ff7f312d08",
+      "role": "本图之前版本的编辑目标"
+    },
+    {
+      "path": "assets/cg-variants/CG08/candidate-v2.png",
+      "sha256": "acab189176970ac5a4713bb4a5d26cada061b7ea2c586745787653cd63ce5131",
+      "role": "本图之前版本的编辑目标"
+    },
+    {
+      "path": "assets/cg/cg-02-xiaoman-mirror.png",
+      "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e",
+      "role": "已采用CG的统一画法参考"
+    }
+  ],
+  "attempts": [
+    {
+      "version": "sample-v1",
+      "prompt": "用途：illustration-story；《毕节，雨停之前》第1—10天序章的完整剧情CG，不是立绘拼贴。统一画法：日系半写实视觉小说插画，成年中国人物，面部严格匹配正式角色参考，自然真实比例，细腻克制的绘画质感，旧物与衣料有生活纹理，灰青环境与实用暖光相融，不改成夸张动漫脸、3D玩偶或照片风格。横向16:9，目标1920×1080不透明PNG。所有重要脸、手和道具放在画面上方15%至62%范围，底部35%以非关键衣物、地面等自然场景延伸容纳将来的对白；不画任何文字、标注、对白框、界面、标题、边框、水印。人物与环境统一重绘，自然遮挡、透视和接触影，禁止把参考立绘直接贴入背景。\n本张CG08：第10天夜，回声KTV已经结束接待的空包厢，先听你说完。输入图1为黄球球正式球形与材质参考，图2为用户原始面部和托腮小手参考，图3为文文正式面部、短寸与深灰维修夹克参考，图4为空包厢的旧电视、灰青沙发和小调音台的空间参考；所有输入都是参考，不是要原样粘贴的图层。紧邻文文肩侧、以文文坐稳后的眼高看向黄球球，镜头平视，侧肩视角仍能看到文文局部侧脸。他在画面左侧刚拉开普通椅子坐稳，一只放松的手扶椅边，叠好的灰布在椅背清楚可见，螺丝刀留在胸袋里，没有拿工具指向对方。画面右侧调音台旁是黄球球：黄色圆润球体、深色下垂忧虑眉、大圆眼、短红嘴，只有自然短小的托腮小手，没有人类身体或长胳膊，没有双腿和衣服。球体脸中心约65%宽、33%高，球体与手完整落在上方18%至60%高，文文侧脸和椅背叠布在左侧20%至40%宽、20%至60%高。两者有正常说话距离，平等地彼此看着，表现她作为成年女性自称24岁、认真等待被听完又有一点干巴巴吐槽的气息，不用睫毛或人体来编码女性身份。低亮度实用暖工作灯使人脸和黄色球体可读，普通KTV暗电视关闭、旧设备和灰青沙发在环境里。球体可处于调音台旁合适的高度实现平视，但不坐在宠物窝、不被文文抱着或托着，不从机器长出来，不加插头接口、魔法、爱心或文字。只有文文与黄球球在场，无旁观者。",
+      "source": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a15384-7737-7423-837c-ceee66e56f7e/exec-77a54519-b39f-437e-b80c-33fb570f9377.png",
+      "archive": "assets/cg-variants/CG08/sample-v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2002511,
+      "sha256": "3959b3ead3dd3e7b276fc9d004d226ae531840a5ee22288279e481ff7f312d08",
+      "review": "球形与成年角色关系成立；球体须升到坐姿眼高，手和叠布需上移。",
+      "inputReferences": [
+        {
+          "path": "assets/char-huangqiuqiu.png",
+          "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9"
+        },
+        {
+          "path": "assets/references/huangqiuqiu-reference.jpg",
+          "sha256": "3762f93aadaac1244c0d403471e96b1ff5f4a42e1688746a4c756d6c4cb6c574"
+        },
+        {
+          "path": "assets/char-wenwen.png",
+          "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44"
+        },
+        {
+          "path": "assets/bg-room.png",
+          "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac"
+        }
+      ],
+      "toolArguments": {
+        "prompt": "用途：illustration-story；《毕节，雨停之前》第1—10天序章的完整剧情CG，不是立绘拼贴。统一画法：日系半写实视觉小说插画，成年中国人物，面部严格匹配正式角色参考，自然真实比例，细腻克制的绘画质感，旧物与衣料有生活纹理，灰青环境与实用暖光相融，不改成夸张动漫脸、3D玩偶或照片风格。横向16:9，目标1920×1080不透明PNG。所有重要脸、手和道具放在画面上方15%至62%范围，底部35%以非关键衣物、地面等自然场景延伸容纳将来的对白；不画任何文字、标注、对白框、界面、标题、边框、水印。人物与环境统一重绘，自然遮挡、透视和接触影，禁止把参考立绘直接贴入背景。\n本张CG08：第10天夜，回声KTV已经结束接待的空包厢，先听你说完。输入图1为黄球球正式球形与材质参考，图2为用户原始面部和托腮小手参考，图3为文文正式面部、短寸与深灰维修夹克参考，图4为空包厢的旧电视、灰青沙发和小调音台的空间参考；所有输入都是参考，不是要原样粘贴的图层。紧邻文文肩侧、以文文坐稳后的眼高看向黄球球，镜头平视，侧肩视角仍能看到文文局部侧脸。他在画面左侧刚拉开普通椅子坐稳，一只放松的手扶椅边，叠好的灰布在椅背清楚可见，螺丝刀留在胸袋里，没有拿工具指向对方。画面右侧调音台旁是黄球球：黄色圆润球体、深色下垂忧虑眉、大圆眼、短红嘴，只有自然短小的托腮小手，没有人类身体或长胳膊，没有双腿和衣服。球体脸中心约65%宽、33%高，球体与手完整落在上方18%至60%高，文文侧脸和椅背叠布在左侧20%至40%宽、20%至60%高。两者有正常说话距离，平等地彼此看着，表现她作为成年女性自称24岁、认真等待被听完又有一点干巴巴吐槽的气息，不用睫毛或人体来编码女性身份。低亮度实用暖工作灯使人脸和黄色球体可读，普通KTV暗电视关闭、旧设备和灰青沙发在环境里。球体可处于调音台旁合适的高度实现平视，但不坐在宠物窝、不被文文抱着或托着，不从机器长出来，不加插头接口、魔法、爱心或文字。只有文文与黄球球在场，无旁观者。",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+          "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg",
+          "/Users/yipin/Desktop/cjb/assets/char-wenwen.png",
+          "/Users/yipin/Desktop/cjb/assets/bg-room.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "version": "candidate-v2",
+      "prompt": "用途：illustration-story。只修订这张既有空包厢剧情CG的平视关系与画面构图。保持文文正式短寸、圆脸、深灰维修夹克，黄球球黄色圆球、深色下垂眉、大圆眼、短红嘴和托腮小手；保持夜间实用暖工作灯、关闭电视、灰青沙发、旧调音台与整体日系半写实画法。镜头后退，改为更贴近坐姿文文肩侧的中景；文文只在左侧露自然局部侧脸、肩和椅边放松的一只手，不要整个人占半幅。将球体连同所依靠的调音设备台面安排到与坐姿文文双眼相同高度，让两者平等地互相看着；文文不俯视黄球球，镜头不俯拍球体，球体不悬浮、不添加人体或支架机关。两张脸集中在画面纵向18%至43%，完整球体与托腮小手在纵向20%至59%；文文的椅边手和椅背叠好的灰布必须在纵向40%至61%清楚可见；底部36%只自然延伸桌腿、非关键家具和地面，不用黑条或空白遮罩。保留两者间说话距离，螺丝刀留口袋，不拿工具，不拥抱托球，不增加人体胳膊或宠物细节。只有这两人，横向16:9不透明完整PNG，目标1920×1080，无任何字、界面、边框、水印。",
+      "references": [
+        "assets/cg-variants/CG08/sample-v1.png"
+      ],
+      "source": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a15384-7737-7423-837c-ceee66e56f7e/exec-c1ff7c2e-0bf3-40c4-aac0-443359b0abc3.png",
+      "archive": "assets/cg-variants/CG08/candidate-v2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1988696,
+      "sha256": "acab189176970ac5a4713bb4a5d26cada061b7ea2c586745787653cd63ce5131",
+      "review": "球体已上移，但文文视线仍偏下；继续调整肩侧平视构图。",
+      "inputReferences": [
+        {
+          "path": "assets/cg-variants/CG08/sample-v1.png",
+          "sha256": "3959b3ead3dd3e7b276fc9d004d226ae531840a5ee22288279e481ff7f312d08"
+        }
+      ],
+      "toolArguments": {
+        "prompt": "用途：illustration-story。只修订这张既有空包厢剧情CG的平视关系与画面构图。保持文文正式短寸、圆脸、深灰维修夹克，黄球球黄色圆球、深色下垂眉、大圆眼、短红嘴和托腮小手；保持夜间实用暖工作灯、关闭电视、灰青沙发、旧调音台与整体日系半写实画法。镜头后退，改为更贴近坐姿文文肩侧的中景；文文只在左侧露自然局部侧脸、肩和椅边放松的一只手，不要整个人占半幅。将球体连同所依靠的调音设备台面安排到与坐姿文文双眼相同高度，让两者平等地互相看着；文文不俯视黄球球，镜头不俯拍球体，球体不悬浮、不添加人体或支架机关。两张脸集中在画面纵向18%至43%，完整球体与托腮小手在纵向20%至59%；文文的椅边手和椅背叠好的灰布必须在纵向40%至61%清楚可见；底部36%只自然延伸桌腿、非关键家具和地面，不用黑条或空白遮罩。保留两者间说话距离，螺丝刀留口袋，不拿工具，不拥抱托球，不增加人体胳膊或宠物细节。只有这两人，横向16:9不透明完整PNG，目标1920×1080，无任何字、界面、边框、水印。",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/cg-variants/CG08/sample-v1.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "version": "candidate-v3",
+      "prompt": "用途：illustration-story。本次编辑目标是图1，图2仅作文文的正式脸、短寸、圆脸、深灰维修夹克参考，图3仅作黄球球形状和表情参考，图4仅作旧包厢材质与光线参考。为《毕节，雨停之前》CG08重新安排同一场景的机位。保持日系半写实细腻绘画、夜间暖工作灯、灰青沙发、关闭电视、黄色球体原样。关键且唯一修正：必须成为文文坐姿肩侧的平视对谈，不是从侧面看一个人俯身逗桌上小球。画面左边只留文文的侧后脑、局部侧脸和肩，他已经在椅子上坐稳；他的眼睛在画面纵向约32%。右侧黄球球放在旧设备柜的平顶旁合适位置，双眼也在纵向32%，两人视线在同一条水平线上，镜头位于同一高度。球体完整轮廓从纵向18%到53%，短小托腮手在48%至57%，不拉长变形，不加人体，不浮在空中。文文的一只自然放松的手在左侧椅边、纵向约55%，叠好的灰布挂在左侧椅背、纵向45%至60%，不要把手放膝盖低处。用更远的中景机位容纳这些关系，底部35%只留家具下部和地面，普通旧调音台在中部偏右。两者间保留正常说话距离；文文不会俯视、伸手托球或拿工具。黄球球仍是成年女性身份的非人体圆球，深色下垂眉、大圆眼、短红嘴与托腮小手严格匹配图3。没有其他人物、宠物、魔法、文字、界面或边框。横向16:9不透明PNG，尽量1920×1080；保持自然完整构图。",
+      "references": [
+        "assets/cg-variants/CG08/candidate-v2.png",
+        "assets/char-wenwen.png",
+        "assets/char-huangqiuqiu.png",
+        "assets/bg-room.png"
+      ],
+      "source": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a15384-7737-7423-837c-ceee66e56f7e/exec-976aaf81-bbb0-40c8-a220-bff3c7a6f2bf.png",
+      "archive": "assets/cg-variants/CG08/candidate-v3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1956379,
+      "sha256": "cc48368235dfd71e2ade56e990a519f848ad137ae6cbeb464dda5d3c1bdb2daf",
+      "review": "肩侧视点改善；视线仍偏向较低球体，不采用。改用严格第一人称眼高机位。",
+      "inputReferences": [
+        {
+          "path": "assets/cg-variants/CG08/candidate-v2.png",
+          "sha256": "acab189176970ac5a4713bb4a5d26cada061b7ea2c586745787653cd63ce5131"
+        },
+        {
+          "path": "assets/char-wenwen.png",
+          "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44"
+        },
+        {
+          "path": "assets/char-huangqiuqiu.png",
+          "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9"
+        },
+        {
+          "path": "assets/bg-room.png",
+          "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac"
+        }
+      ],
+      "toolArguments": {
+        "prompt": "用途：illustration-story。本次编辑目标是图1，图2仅作文文的正式脸、短寸、圆脸、深灰维修夹克参考，图3仅作黄球球形状和表情参考，图4仅作旧包厢材质与光线参考。为《毕节，雨停之前》CG08重新安排同一场景的机位。保持日系半写实细腻绘画、夜间暖工作灯、灰青沙发、关闭电视、黄色球体原样。关键且唯一修正：必须成为文文坐姿肩侧的平视对谈，不是从侧面看一个人俯身逗桌上小球。画面左边只留文文的侧后脑、局部侧脸和肩，他已经在椅子上坐稳；他的眼睛在画面纵向约32%。右侧黄球球放在旧设备柜的平顶旁合适位置，双眼也在纵向32%，两人视线在同一条水平线上，镜头位于同一高度。球体完整轮廓从纵向18%到53%，短小托腮手在48%至57%，不拉长变形，不加人体，不浮在空中。文文的一只自然放松的手在左侧椅边、纵向约55%，叠好的灰布挂在左侧椅背、纵向45%至60%，不要把手放膝盖低处。用更远的中景机位容纳这些关系，底部35%只留家具下部和地面，普通旧调音台在中部偏右。两者间保留正常说话距离；文文不会俯视、伸手托球或拿工具。黄球球仍是成年女性身份的非人体圆球，深色下垂眉、大圆眼、短红嘴与托腮小手严格匹配图3。没有其他人物、宠物、魔法、文字、界面或边框。横向16:9不透明PNG，尽量1920×1080；保持自然完整构图。",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/cg-variants/CG08/candidate-v2.png",
+          "/Users/yipin/Desktop/cjb/assets/char-wenwen.png",
+          "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+          "/Users/yipin/Desktop/cjb/assets/bg-room.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "version": "candidate-v4",
+      "prompt": "用途：illustration-story。生成一幅全新的《毕节，雨停之前》CG08剧情插画，横向16:9，不透明PNG，目标1920×1080。全部输入图是参考：图1、图2锁定黄球球的黄色球体、深色下垂眉、大圆眼、短红嘴、短小托腮手，不能改外观；图3只参考文文深灰维修夹克袖口；图4只参考旧包厢的灰青沙发、关闭电视、老调音设备和夜间暖工作灯；图5只参考已经确定的日系半写实细腻绘画与光影融合，不带入小满或理发店。必须采用严格的文文第一人称坐姿眼高视角：镜头就是文文坐稳后双眼的位置，平视面前黄球球的双眼，两者正视相同水平高度；画面不出现文文的人头、后脑或完整人身。右中部普通旧设备柜的平顶上是黄球球，球体脸正对镜头，略带忧虑地托腮认真看着我，保持成年女性角色被平等倾听的气息，不像宠物。球体完整轮廓位于画面横向56%至77%、纵向20%至57%，双眼在纵向35%，一只小手自然托腮，不加人体、长手臂、双腿或衣服。左前景只见文文自己一小段夹克袖口与一只自然搭在椅子扶手上的手，手位于纵向52%，与球体不接触；画面最左边可见椅背边缘叠好的灰布，布在纵向40%至58%。重要物件只在上方六成，底部四成自然延伸柜体、桌腿和地面。黄球球在旧调音台旁但不是机器的一部分，不浮空、不用宠物窝、不被任何人抱着托着；螺丝刀不拿出来，环境没有其他人。故事时刻是文文刚坐下来愿意听她把话说完，安静、稍微荒诞、温暖克制，没有恋爱关系已确定，没有魔法效果。采用和图5一致的日系半写实画法，禁止写实摄影质感与插画角色混搭。无任何文字、编号、对话框、UI、边框和水印。",
+      "references": [
+        "assets/char-huangqiuqiu.png",
+        "assets/references/huangqiuqiu-reference.jpg",
+        "assets/char-wenwen.png",
+        "assets/bg-room.png",
+        "assets/cg/cg-02-xiaoman-mirror.png"
+      ],
+      "source": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a15384-7737-7423-837c-ceee66e56f7e/exec-4c8438cc-5ad0-4ee4-8e32-f8554781d49a.png",
+      "archive": "assets/cg-variants/CG08/candidate-v4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1854736,
+      "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1",
+      "review": "采用严格第一人称坐姿眼高构图：球体正视、托腮、设备台、椅背叠布和文文椅边手均可辨；无人体化或宠物化。文文手位于下方，桌面须独立画面区完整显示，不可直接覆盖下35%。",
+      "inputReferences": [
+        {
+          "path": "assets/char-huangqiuqiu.png",
+          "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9"
+        },
+        {
+          "path": "assets/references/huangqiuqiu-reference.jpg",
+          "sha256": "3762f93aadaac1244c0d403471e96b1ff5f4a42e1688746a4c756d6c4cb6c574"
+        },
+        {
+          "path": "assets/char-wenwen.png",
+          "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44"
+        },
+        {
+          "path": "assets/bg-room.png",
+          "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac"
+        },
+        {
+          "path": "assets/cg/cg-02-xiaoman-mirror.png",
+          "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e"
+        }
+      ],
+      "toolArguments": {
+        "prompt": "用途：illustration-story。生成一幅全新的《毕节，雨停之前》CG08剧情插画，横向16:9，不透明PNG，目标1920×1080。全部输入图是参考：图1、图2锁定黄球球的黄色球体、深色下垂眉、大圆眼、短红嘴、短小托腮手，不能改外观；图3只参考文文深灰维修夹克袖口；图4只参考旧包厢的灰青沙发、关闭电视、老调音设备和夜间暖工作灯；图5只参考已经确定的日系半写实细腻绘画与光影融合，不带入小满或理发店。必须采用严格的文文第一人称坐姿眼高视角：镜头就是文文坐稳后双眼的位置，平视面前黄球球的双眼，两者正视相同水平高度；画面不出现文文的人头、后脑或完整人身。右中部普通旧设备柜的平顶上是黄球球，球体脸正对镜头，略带忧虑地托腮认真看着我，保持成年女性角色被平等倾听的气息，不像宠物。球体完整轮廓位于画面横向56%至77%、纵向20%至57%，双眼在纵向35%，一只小手自然托腮，不加人体、长手臂、双腿或衣服。左前景只见文文自己一小段夹克袖口与一只自然搭在椅子扶手上的手，手位于纵向52%，与球体不接触；画面最左边可见椅背边缘叠好的灰布，布在纵向40%至58%。重要物件只在上方六成，底部四成自然延伸柜体、桌腿和地面。黄球球在旧调音台旁但不是机器的一部分，不浮空、不用宠物窝、不被任何人抱着托着；螺丝刀不拿出来，环境没有其他人。故事时刻是文文刚坐下来愿意听她把话说完，安静、稍微荒诞、温暖克制，没有恋爱关系已确定，没有魔法效果。采用和图5一致的日系半写实画法，禁止写实摄影质感与插画角色混搭。无任何文字、编号、对话框、UI、边框和水印。",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+          "/Users/yipin/Desktop/cjb/assets/references/huangqiuqiu-reference.jpg",
+          "/Users/yipin/Desktop/cjb/assets/char-wenwen.png",
+          "/Users/yipin/Desktop/cjb/assets/bg-room.png",
+          "/Users/yipin/Desktop/cjb/assets/cg/cg-02-xiaoman-mirror.png"
+        ],
+        "transparent_background": false
+      }
+    }
+  ],
+  "adopted": {
+    "version": "candidate-v4",
+    "path": "assets/cg/cg-08-huangqiuqiu-listening.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 1854736,
+    "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1",
+    "postprocessing": "无；原生PNG逐字节复制，未放大、裁切或拉伸",
+    "selectionAuthority": "本窗口依据已确认分镜与正式参考作美术自审采用；非用户逐图终审",
+    "dimensionNote": "保留原生输出，非1920×1080；不拉伸、不放大或伪称高分辨率母版"
+  },
+  "gameAcceptance": "未接入、未验收",
+  "criticalRegions": {
+    "coordinateSystem": "整张原图百分比[x,y,w,h]，左上原点",
+    "method": "人工观察估计，非像素级分割；只作布局避让说明，不能直接当裁切参数",
+    "items": [
+      {
+        "label": "球体与托腮小手",
+        "rect": [
+          50,
+          13,
+          26,
+          40
+        ]
+      },
+      {
+        "label": "文文椅边手",
+        "rect": [
+          17,
+          60,
+          23,
+          24
+        ]
+      },
+      {
+        "label": "椅背叠布",
+        "rect": [
+          0,
+          31,
+          10,
+          33
+        ]
+      },
+      {
+        "label": "调音设备",
+        "rect": [
+          76,
+          12,
+          24,
+          49
+        ]
+      }
+    ]
+  },
+  "display": {
+    "approvedCrop": null,
+    "fit": "contain",
+    "desktop": "独立完整画面区，与对白区分开；不可直接沿用底部35%覆盖式对白",
+    "mobile": "完整横图、留边、独立对白；无竖版、无拉伸",
+    "reason": "实际多张图的关键道具或手位于原图下部，已按分镜约定的超出目标时改布局方案交接",
+    "staticChecks": [
+      {
+        "viewport": [
+          1440,
+          900
+        ],
+        "screenshot": "qa/cg-m3-CG08-static-1440x900.png"
+      },
+      {
+        "viewport": [
+          1280,
+          720
+        ],
+        "screenshot": "qa/cg-m3-CG08-static-1280x720.png"
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "screenshot": "qa/cg-m3-CG08-static-390x844.png"
+      },
+      {
+        "viewport": [
+          375,
+          667
+        ],
+        "screenshot": "qa/cg-m3-CG08-static-375x667.png"
+      },
+      {
+        "viewport": [
+          844,
+          390
+        ],
+        "screenshot": "qa/cg-m3-CG08-static-844x390.png"
+      }
+    ],
+    "rawChecks": "qa/cg-m3-static-checks.json",
+    "staticReviewPage": "qa/cg-m3-art-review.html",
+    "manualSmallScreenReview": "已逐张查看375×667截图；脸、动作及主要道具可辨；纸张细字不作识别要求",
+    "gameAcceptance": "未执行"
+  },
+  "integration": {
+    "cgKey": "cg08",
+    "nodeIds": [
+      "preview_qiu_12",
+      "preview_qiu_13",
+      "preview_qiu_14",
+      "preview_qiu_15",
+      "preview_qiu_16",
+      "preview_qiu_17",
+      "preview_qiu_18",
+      "preview_qiu_19"
+    ],
+    "restoreAt": "preview_qiu_20",
+    "status": "待CG-D统一接入，story.js未修改",
+    "hidden": true,
+    "hiddenLoadBoundary": "仅合法到达preview_qiu_12—19时加载；此前节点与C6不得预取"
+  }
+}

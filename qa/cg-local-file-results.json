@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-20T02:35:08.771Z",
+  "scope": "Chrome file URL打开index.html、实际CG13、网络请求阻断；非Finder实体双击或全流程离线验收",
+  "checks": [
+    "本地file协议加载正式脚本、存档与CG13原生PNG",
+    "四段CG对白后按正式节点退出并恢复普通场景"
+  ],
+  "pageErrors": [],
+  "blockedRequests": [],
+  "fingerprints": {
+    "story.js": "a832d87e54e2334bae9648c6d412104b6d1ca9f266ec10c0c2b912360235a455",
+    "game.js": "4499419098a69d7cae26e6b2b2efd509c497c9536d9208cc6046fd2fc471fad0",
+    "index.html": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+    "styles.css": "ec83d0f6ef633f15707ca8e8e0426fb39b899dbf5ff7511a5bd1cf05f99cd78a",
+    "assets/cg/cg-13-xiaoman-night-stall.png": "155cd137c4e1c0355944e4bbf89bf806909d18efe43dc0fddda3f175a68f8249"
+  },
+  "pass": true
+}

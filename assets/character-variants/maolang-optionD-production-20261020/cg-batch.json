@@ -1,0 +1,141 @@
+{
+  "version": "maolang-optionD-production-cg-v1",
+  "date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "scope": "Two Mao Lang CG edit candidates. Formal assets and game code are not replaced by this subtask.",
+  "tool": {
+    "name": "image_gen.imagegen",
+    "mode": "built-in",
+    "callCount": 2,
+    "retries": 0,
+    "parallel": true,
+    "transparent_background": false
+  },
+  "identityMaster": {
+    "path": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-photo2-options-20261020/option-D-dialogue-stance.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "format": "PNG",
+    "sha256": "1b6302e8c1fb95eb104cd645ab7fdc638ff0c30ed83b43779acdb61b1cc3006c",
+    "bytes": 1700282,
+    "alphaExtrema": [
+      0,
+      254
+    ]
+  },
+  "formalCgScan": {
+    "method": "All 10 formal PNGs in assets/cg reviewed as a labeled contact sheet; CG06 and CG09 also viewed full-size before editing.",
+    "filesScanned": [
+      "cg-01-rain-return.png",
+      "cg-02-xiaoman-mirror.png",
+      "cg-03-zhouzhi-noodles.png",
+      "cg-04-mengyao-camera.png",
+      "cg-05-yelan-inventory.png",
+      "cg-06-maolang-confession.png",
+      "cg-07-yelan-off-duty.png",
+      "cg-08-huangqiuqiu-listening.png",
+      "cg-09-repair-handoff.png",
+      "cg-13-xiaoman-night-stall.png"
+    ],
+    "maolangPresent": [
+      "CG06",
+      "CG09"
+    ],
+    "additionalMaolangAppearancesFound": false
+  },
+  "items": [
+    {
+      "key": "CG06",
+      "editTarget": {
+        "path": "/Users/yipin/Desktop/cjb/assets/cg/cg-06-maolang-confession.png",
+        "width": 1672,
+        "height": 940,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "aed4b987445c443ccb20f911d56866259425f342d4fffea9ac52fe7fd15ea389",
+        "bytes": 2153691,
+        "alphaExtrema": null
+      },
+      "identityReference": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-photo2-options-20261020/option-D-dialogue-stance.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: existing visual-novel narrative CG for 《毕节，雨停之前》, CG06 Mao Lang's honest confession, tenth day afternoon.\nInput image 1 is the EDIT TARGET and the exact composition, environment, every pose and object reference. Input image 2 is ONLY the approved Mao Lang OPTION D IDENTITY / HAIR / CLOTHING reference, not a pose, expression, lighting, or background reference.\nPrimary request: replace ONLY the man sitting at the RIGHT of input image 1 (Mao Lang, currently olive jacket and gray shirt) with the exact same adult man identity shown in input image 2. Make his face recognizably that of Option D: narrow oval youthful natural face, softly tapered jaw without a sharp idol V chin, straight natural eyebrows, slender attentive eyes, moderate nose with rounded tip, natural lips; short black hair with cropped sides and fluffy irregular slightly wavy top/fringe. Copy the black crew-neck short-sleeve T-shirt, lower-hem multicolor outlined flower print, black trousers, and black wrist wrap from Option D; the flower print appears only on whatever lower shirt area is actually visible above/behind the desk. Remove the old olive outer jacket and gray undershirt from this man only. No hat, no mask, no extra jacket.\nEmotion: Mao Lang has just admitted competing for the same job. Keep him quietly serious and slightly awkward, closed mouth, no smile and no teeth; maintain his original gaze toward the man in the left foreground. Do NOT copy the open-mouth smile from the identity reference.\nStrict invariants: preserve the exact seated lean, torso placement, head position and head angle, forearm positions, visible hand anatomy and hand pose on the desk of image 1. Keep the man in the LEFT foreground completely unchanged: buzz-cut hairstyle, face profile, dark repair jacket, body, hands and scale. Exactly TWO men. Keep the original camera, crop, lens/perspective, subject sizes, counter, room, rain-streaked window, corridor, warm lamps, wet reflective floor, plants, keys, telephone, cup, ALL blank work papers/floorplan linework, pen and black cable/tool case exactly in their original positions and preserve their shapes. Keep the existing rainy afternoon interior lighting, gray-cyan exterior and warm amber practical lights; do not change it to a stage or another time of day. Preserve the existing grounded Japanese semi-realistic painted style and material detail.\nOutput: ONE opaque full landscape PNG at the original target aspect ratio about 16:9 (target native 1672×940); preserve composition and avoid zooming or expanding.\nAvoid: changing any other person or prop, extra people, microphone or microphone stand, singing pose, camera prop, tape measure, new objects, readable text, labels, subtitles, logos, watermark, added lettering, collage, transparent background, extra fingers.",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157d4-7a19-7bd0-b3e8-728369206e9f/exec-79eb057d-7afa-4441-b3b2-bc9d00e62193.png",
+      "savedOutput": {
+        "path": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-optionD-production-20261020/cg06-optionD.png",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "466975350fb8a6ed64786087d3162d46ef2b0a1ed4ad23bd945ed59989aa8568",
+        "bytes": 2085757,
+        "alphaExtrema": null
+      },
+      "savedByteIdenticalToGenerated": true,
+      "resampled": false,
+      "sizeNote": "Target 1672x940, generated native output 1672x941. Preserved unaltered; no crop, stretch, or upscaling.",
+      "qa": {
+        "status": "passed_visual_material_review",
+        "identity": "Option D fluffy short black hair, natural narrow oval face, black lower-hem flower T-shirt, black wrist wrap; no hat, mask, olive jacket, or gray undershirt.",
+        "expression": "Closed mouth, serious and slightly awkward, gaze at left foreground Wenwen; no smiling/teeth.",
+        "poseAndHands": "Original seated lean and tabletop forearm/hand positions visually retained. Close crop reviewed; no obvious extra or malformed fingers.",
+        "otherCharacters": "Buzz-cut Wenwen in left foreground visually retained with original dark jacket and pose.",
+        "sceneAndProps": "Rainy lobby, camera composition, windows, corridor lamps, floor, plants, reception keys/telephone/cup, work paper, desk pen, black cable case visually retained. Exactly two men.",
+        "limitations": "Generative edit preserves composition visually, not a pixel-locked edit. Clothing removal naturally reveals forearms; lower print extent adapts to the seated crop. No browser/game acceptance or narrative integration performed."
+      }
+    },
+    {
+      "key": "CG09",
+      "editTarget": {
+        "path": "/Users/yipin/Desktop/cjb/assets/cg/cg-09-repair-handoff.png",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "0477213b4388c8b90665bbb5790d142af2712d817a169a5759f8373cc86403ee",
+        "bytes": 2403639,
+        "alphaExtrema": null
+      },
+      "identityReference": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-photo2-options-20261020/option-D-dialogue-stance.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: existing visual-novel narrative CG for 《毕节，雨停之前》, CG09 repair-counter handoff, first day rainy night.\nInput image 1 is the EDIT TARGET and the exact composition, environment, every pose and object reference. Input image 2 is ONLY the approved Mao Lang OPTION D IDENTITY / HAIR / CLOTHING reference, not a pose, expression, lighting, or background reference.\nPrimary request: replace ONLY the man at MIDDLE-RIGHT of input image 1 (Mao Lang, currently olive jacket and gray shirt, resting his cheek against his fist) with the exact same adult man identity shown in input image 2. Make his face recognizably Option D: narrow oval youthful natural face, softly tapered jaw without a sharp idol V chin, straight natural eyebrows, slender attentive eyes, moderate nose with rounded tip, natural lips; short black hair with cropped sides and fluffy irregular slightly wavy top/fringe. Copy Option D's black crew-neck short-sleeve T-shirt, lower-hem multicolor outlined flower print, black trousers and single black wrist wrap. The lower shirt and trousers may naturally be hidden by the counter: do not reveal or relocate him just to display the print. Remove the old olive outer jacket and gray undershirt from this man only. No hat, no mask, no extra jacket.\nEmotion: he is listening to a serious equipment handoff, closed mouth, attentive and mildly awkward, neutral lips with no grin or teeth; keep his original eye-line toward the man in the right foreground. Do NOT copy the open-mouth smile from the identity reference.\nStrict invariants: preserve his exact leaning torso, head placement and tilt, fist supporting cheek, elbow support and other forearm/hand placement, and all visible hand anatomy. Keep the man at the LEFT completely unchanged: rectangular glasses, face, short neat hair, navy work shirt, pen in pocket, writing hand and posture; this is Shi Jiang and must not become the Option D identity. Keep the buzz-cut man in the RIGHT foreground completely unchanged: head/back profile, dark repair jacket, hand and shoulder position; this is Wenwen. Exactly THREE men. Keep the exact camera, crop, lens/perspective, subject sizes, workshop and window, shelves, all electronics, desk lamp and lighting, rain outside at NIGHT, soldering iron, boards, cables, speakers, clipboard, work sheets, writing pen, screwdriver, towel and the entire cluster of black/silver microphones on the counter, unchanged in position, count and form. Keep the existing gray-cyan rainy-night window light and amber desk lamp. Preserve the existing grounded Japanese semi-realistic painted style and material detail.\nOutput: ONE opaque full landscape PNG at the original target aspect ratio about 16:9 (target native 1672×940); preserve composition and avoid zooming or expanding.\nAvoid: changing any other person or prop, extra people, transferring D's standing pose, adding a yellow microphone or singing stage, removing or adding counter microphones, camera prop, tape measure, readable text, labels, subtitles, logos, watermark, new lettering, collage, transparent background, extra fingers.",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157d4-7a19-7bd0-b3e8-728369206e9f/exec-26a8dc47-54c0-4332-8ae9-715c13e4444f.png",
+      "savedOutput": {
+        "path": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-optionD-production-20261020/cg09-optionD.png",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "format": "PNG",
+        "sha256": "ca7babc0fa68ce95ec8a74fc59d55d44e480551295cfdcf6713c7ffaa2aee054",
+        "bytes": 2274524,
+        "alphaExtrema": null
+      },
+      "savedByteIdenticalToGenerated": true,
+      "resampled": false,
+      "sizeNote": "Target and generated native output both 1672x941. Preserved unaltered; no crop, stretch, or upscaling.",
+      "qa": {
+        "status": "passed_visual_material_review",
+        "identity": "Option D fluffy short black hair, natural narrow oval face, black lower-hem flower T-shirt, black wrist wrap; no hat, mask, olive jacket, or gray undershirt.",
+        "expression": "Closed mouth, neutral attentive expression, gaze at right foreground Wenwen; no grin or teeth.",
+        "poseAndHands": "Original cheek-supported-by-fist pose, elbow, other forearm and hand placement visually retained. Supporting hand and Shi Jiang's writing hand examined in before/after crops; no obvious extra or malformed fingers.",
+        "otherCharacters": "Shi Jiang face, rectangular glasses, hairstyle, navy work shirt, pocket pen, writing posture and Wenwen right-foreground buzz cut/dark jacket visually retained.",
+        "sceneAndProps": "Rainy night workshop, amber lamp, cool window, shelves, electronics, paper clipboard and pen, tool layout, microphone cluster, towel and cable coils visually retained. Exactly three men; no added yellow stage microphone.",
+        "limitations": "Generative edit preserves composition visually, not a pixel-locked edit. Shirt lower hem/trousers are largely counter-occluded. No browser/game acceptance or narrative integration performed."
+      }
+    }
+  ],
+  "validation": {
+    "fullOutputImagesViewed": true,
+    "beforeAfterCropsViewed": [
+      "CG06 Mao Lang face",
+      "CG06 forearms / hand",
+      "CG09 Shi Jiang protected face",
+      "CG09 Mao Lang face and supporting fist",
+      "CG09 pen / writing hand"
+    ],
+    "measuredWith": "Bundled Python 3 + Pillow",
+    "opaqueRgbConfirmed": true,
+    "outputsAreNativeGeneratedPixels": true,
+    "originalCgFilesOverwritten": false,
+    "gameCodeModified": false,
+    "gameIntegrationVerified": false
+  }
+}

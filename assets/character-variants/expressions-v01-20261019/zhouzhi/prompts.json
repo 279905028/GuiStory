@@ -1,0 +1,190 @@
+[
+  {
+    "character": "zhouzhi",
+    "name": "周栀",
+    "variant": "smile",
+    "label": "微笑",
+    "type": "expression",
+    "file": "char-zhouzhi-expression-smile.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 周栀。25岁成年女性，深棕色长波浪发、棕色眼睛，金色小耳环，青色衬衫、深色高腰长裤，黑色表带金色小表盘手表，双手插兜，以参考图为准。\nPrimary request: 仅改面部表情为温暖自然的微笑：嘴角明确上扬，眼神柔和，轻微眯眼；不要大笑。身体、手臂、双手、头部位置、服装姿态保留参考图。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。必须仅改脸部表情与视线；原身体姿态、手的位置不变。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/zhouzhi-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-ec939fed-8b0e-4455-92de-210cf975b1a2.png"
+  },
+  {
+    "character": "zhouzhi",
+    "name": "周栀",
+    "variant": "serious",
+    "label": "认真",
+    "type": "expression",
+    "file": "char-zhouzhi-expression-serious.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 周栀。25岁成年女性，深棕色长波浪发、棕色眼睛，金色小耳环，青色衬衫、深色高腰长裤，黑色表带金色小表盘手表，双手插兜，以参考图为准。\nPrimary request: 仅改面部表情为认真专注：双眉自然收紧，目光坚定看向交流对象，双唇闭合近水平，去掉原来的微笑，不能显凶。身体、手臂、双手、头部位置、服装姿态保留参考图。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。必须仅改脸部表情与视线；原身体姿态、手的位置不变。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/zhouzhi-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-ad50d69e-08ea-4f7c-9e52-71cf222e1671.png"
+  },
+  {
+    "character": "zhouzhi",
+    "name": "周栀",
+    "variant": "hesitant",
+    "label": "犹豫",
+    "type": "expression",
+    "file": "char-zhouzhi-expression-hesitant.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 周栀。25岁成年女性，深棕色长波浪发、棕色眼睛，金色小耳环，青色衬衫、深色高腰长裤，黑色表带金色小表盘手表，双手插兜，以参考图为准。\nPrimary request: 仅改面部表情为犹豫不确定：眉头内侧略抬并轻蹙，视线略移向侧下方，嘴唇微微抿住且无微笑，欲言又止；不流泪、不夸张。身体、手臂、双手、头部位置、服装姿态保留参考图。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。必须仅改脸部表情与视线；原身体姿态、手的位置不变。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/zhouzhi-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-0fd1e43f-7dae-48a8-a0a7-aba8b52f7baf.png",
+    "revision": {
+      "reason": "初版嘴角仍接近基准微笑，定向收平嘴角。",
+      "original_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-7d3dcdf1-e243-4322-91be-d0e432697544.png",
+      "tool": "image_gen.imagegen",
+      "arguments": {
+        "prompt": "Use case: identity-preserve\n对唯一输入的周栀候选立绘做非常精确的小范围修正。她是25岁成年女性，长深棕波浪发、金色耳环、青色衬衫、深色高腰裤、黑金腕表。输入图的脸部身份、头脸骨相、所有五官比例、发型、光线、服装、姿势、手臂、身形、构图完全保留。\n只改嘴部：原图嘴角仍然微微上挑，必须完全取消笑意。将双唇轻轻抿合，嘴唇闭合线接近水平，两边嘴角略向下，不要加皱纹，不要张嘴，不要改变嘴唇本身的厚度。维持眼睛望向侧方、眉心犹豫不确定的表情，使她像正在犹豫是否开口。\n透明PNG背景，保留真实alpha，不加入背景、棋盘格、环境外发光、文字水印。仅一人，竖版2:3，完整头顶到大腿，保留所有画面边界。",
+        "referenced_image_paths": [
+          "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-7d3dcdf1-e243-4322-91be-d0e432697544.png"
+        ],
+        "transparent_background": true
+      },
+      "selected_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-0fd1e43f-7dae-48a8-a0a7-aba8b52f7baf.png"
+    }
+  },
+  {
+    "character": "zhouzhi",
+    "name": "周栀",
+    "variant": "surprised",
+    "label": "惊讶",
+    "type": "expression",
+    "file": "char-zhouzhi-expression-surprised.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 周栀。25岁成年女性，深棕色长波浪发、棕色眼睛，金色小耳环，青色衬衫、深色高腰长裤，黑色表带金色小表盘手表，双手插兜，以参考图为准。\nPrimary request: 仅改面部表情为自然惊讶：双眉明显上扬，双眼略睁大，嘴唇轻微张开呈小圆形；不能做恐惧惨叫、不能露出夸张漫画眼。身体、手臂、双手、头部位置、服装姿态保留参考图。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。必须仅改脸部表情与视线；原身体姿态、手的位置不变。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/zhouzhi-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-e01f14cf-e9ce-4b04-9e75-a6b50adaad9f.png"
+  },
+  {
+    "character": "zhouzhi",
+    "name": "周栀",
+    "variant": "displeased",
+    "label": "不悦",
+    "type": "expression",
+    "file": "char-zhouzhi-expression-displeased.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 周栀。25岁成年女性，深棕色长波浪发、棕色眼睛，金色小耳环，青色衬衫、深色高腰长裤，黑色表带金色小表盘手表，双手插兜，以参考图为准。\nPrimary request: 仅改面部表情为克制的不悦：眉头向下内收，目光略带质问，嘴角轻微下压，双唇闭合，明确没有微笑；不是愤怒咆哮。身体、手臂、双手、头部位置、服装姿态保留参考图。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。必须仅改脸部表情与视线；原身体姿态、手的位置不变。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/zhouzhi-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-d58b5b9f-12de-4f72-8056-823e59c93491.png"
+  },
+  {
+    "character": "zhouzhi",
+    "name": "周栀",
+    "variant": "downcast",
+    "label": "低落",
+    "type": "expression",
+    "file": "char-zhouzhi-expression-downcast.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 周栀。25岁成年女性，深棕色长波浪发、棕色眼睛，金色小耳环，青色衬衫、深色高腰长裤，黑色表带金色小表盘手表，双手插兜，以参考图为准。\nPrimary request: 仅改面部表情为安静低落：眉内侧上提、眼帘低垂、目光向下、嘴角小幅下落，无微笑、无泪滴；情绪克制。身体、手臂、双手、头部位置、服装姿态保留参考图。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。必须仅改脸部表情与视线；原身体姿态、手的位置不变。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/zhouzhi-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-bff1f02b-4c4e-4635-87d7-56aacdbcb9c3.png",
+    "revision": {
+      "reason": "初版嘴角仍接近基准微笑，定向收平嘴角。",
+      "original_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-bc84d499-952d-4573-9ad5-805ff5b8106b.png",
+      "tool": "image_gen.imagegen",
+      "arguments": {
+        "prompt": "Use case: identity-preserve\n对唯一输入的周栀候选立绘做非常精确的小范围修正。她是25岁成年女性，长深棕波浪发、金色耳环、青色衬衫、深色高腰裤、黑金腕表。输入图的脸部身份、头脸骨相、所有五官比例、发型、光线、服装、姿势、手臂、身形、构图完全保留。\n只改嘴部：原图嘴角仍然微微上挑，必须完全取消笑意。将双唇轻轻抿合，嘴唇闭合线接近水平，两边嘴角略向下，不要加皱纹，不要张嘴，不要改变嘴唇本身的厚度。维持低垂眼帘、向下望的眼神、内侧上提的低落眉毛，使她安静失落。\n透明PNG背景，保留真实alpha，不加入背景、棋盘格、环境外发光、文字水印。仅一人，竖版2:3，完整头顶到大腿，保留所有画面边界。",
+        "referenced_image_paths": [
+          "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-bc84d499-952d-4573-9ad5-805ff5b8106b.png"
+        ],
+        "transparent_background": true
+      },
+      "selected_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-bff1f02b-4c4e-4635-87d7-56aacdbcb9c3.png"
+    }
+  },
+  {
+    "character": "zhouzhi",
+    "name": "周栀",
+    "variant": "wave",
+    "label": "招手",
+    "type": "action",
+    "file": "char-zhouzhi-action-wave.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 周栀。25岁成年女性，深棕色长波浪发、棕色眼睛，金色小耳环，青色衬衫、深色高腰长裤，黑色表带金色小表盘手表，双手插兜，以参考图为准。\nPrimary request: 保持身份衣服，改为自然招手动作：右手从兜中抬至肩旁，掌心朝前，五指自然张开、拇指结构正确，手腕自然；左手维持原参考姿态。轻微友好微笑，直立姿态。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。只调整所需手臂和手势，不改变人物体型。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/zhouzhi-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-66a3f7f5-da50-4bf0-bfcb-f2a6104732a3.png"
+  },
+  {
+    "character": "zhouzhi",
+    "name": "周栀",
+    "variant": "thinking",
+    "label": "思考",
+    "type": "action",
+    "file": "char-zhouzhi-action-thinking.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 周栀。25岁成年女性，深棕色长波浪发、棕色眼睛，金色小耳环，青色衬衫、深色高腰长裤，黑色表带金色小表盘手表，双手插兜，以参考图为准。\nPrimary request: 保持身份衣服，改为思考动作：右手从兜中抬起，食指轻抵下巴侧面，其余手指自然弯曲；左手维持原参考姿态。眉头轻蹙，目光略向侧方，嘴唇闭合无微笑，认真思量。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。只调整所需手臂和手势，不改变人物体型。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/zhouzhi-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-c7feac51-8146-4dc5-9827-11644dd4bf61.png"
+  },
+  {
+    "character": "zhouzhi",
+    "name": "周栀",
+    "variant": "explaining",
+    "label": "解释",
+    "type": "action",
+    "file": "char-zhouzhi-action-explaining.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 周栀。25岁成年女性，深棕色长波浪发、棕色眼睛，金色小耳环，青色衬衫、深色高腰长裤，黑色表带金色小表盘手表，双手插兜，以参考图为准。\nPrimary request: 保持身份衣服，改为自然解释动作：右手从兜中抬到腰胸之间向前摊开，掌心朝上，手指自然放松并可辨五指，左手维持原参考姿态。神情认真但温和，嘴微张像正在说话，身体朝向保持不变。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。只调整所需手臂和手势，不改变人物体型。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/zhouzhi-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-1d4d809e-e585-496e-9adb-bc9e7873f20c.png"
+  }
+]

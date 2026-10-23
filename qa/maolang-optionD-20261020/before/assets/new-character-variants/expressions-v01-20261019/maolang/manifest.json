@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-19",
+  "owner": "M3",
+  "character": "maolang",
+  "version": "expressions-v01-20261019-candidate",
+  "source": "/Users/yipin/Desktop/cjb/assets/char-maolang.png",
+  "sourceSha256": "d554134d8bf022572c0c26b9d0db80bbf59ec227c3b5aab4ce61089ba2133a1c",
+  "count": 9,
+  "candidateOnly": true,
+  "gameIntegrated": false,
+  "entries": [
+    {
+      "file": "char-maolang-expression-smile.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.png",
+      "type": "expression",
+      "slug": "smile",
+      "label": "微笑",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "135bfdac8d39f9f2d4fdbc37ff94e4ab3477d4c12c5d64d8be71254c82debba7",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-dd853c52-5ca0-498c-949b-48282a30df5e.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 686580,
+        "partiallyTransparentPixels": 886284,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          109,
+          32,
+          950,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "闭口微笑、嘴角轻扬和眼周柔和可辨；原插袋/垂手站姿保持，橄榄外套、灰内搭和短卷发延续。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-maolang-expression-serious.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+      "type": "expression",
+      "slug": "serious",
+      "label": "认真",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "562f15c66f55afa5902d77d13a919e15ff26bcadc9cf630f130e339acf8a4978",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-a61f6b5d-5256-479d-9858-90ab8e1126c5.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 691522,
+        "partiallyTransparentPixels": 881342,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          109,
+          31,
+          949,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "嘴角收平，眉眼专注；和微笑/不悦区分明确。原站姿、服装与脸骨相延续。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-maolang-expression-hesitant.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.png",
+      "type": "expression",
+      "slug": "hesitant",
+      "label": "犹豫",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "1771193665e8dd6a35eb8d8e8bce1be8802e79c145600714c69f200097f98b12",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-8edd46d3-da53-460b-ae6e-62f34b015659.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 691729,
+        "partiallyTransparentPixels": 881135,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          108,
+          34,
+          949,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "目光向侧方游移、内眉轻提、唇部压紧，可读为犹豫；身体仍为原姿势。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-maolang-expression-surprised.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.png",
+      "type": "expression",
+      "slug": "surprised",
+      "label": "惊讶",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "1dfa7b2a0c69deb211b03d1b5fa73bb05ef3b48ebb6e513e7744d37f9d53cd64",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-b970ff18-31ad-45f1-b64a-9b4b7c4e0262.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 690514,
+        "partiallyTransparentPixels": 882350,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          109,
+          34,
+          950,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "眉眼抬起、眼睛睁大、嘴微张，惊讶清楚；未见夸张变形。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-maolang-expression-displeased.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.png",
+      "type": "expression",
+      "slug": "displeased",
+      "label": "不悦",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "469f1e4a6091cd2d98f6ba833c3c4b39540ebad6e12ba9b1796f78c942097994",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-41e70cfb-f09c-4894-a4a0-bb4815b62177.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 698041,
+        "partiallyTransparentPixels": 874823,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          109,
+          30,
+          950,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "眉头收紧、眼睑略窄、闭唇嘴角下压，不悦克制，未变成微笑或反派夸张。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-maolang-expression-downcast.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.png",
+      "type": "expression",
+      "slug": "downcast",
+      "label": "低落",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "201bea0edda79bb4e1c21585ecffa41b756db585c79a712310405e9b9ab2842f",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-0a8fd9f7-d6c8-4318-912a-b23e2fda4e6c.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 691452,
+        "partiallyTransparentPixels": 881412,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          108,
+          42,
+          951,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "垂眼、眉内侧提起、嘴角下垂，低落可辨；头部有轻微自然下俯，身体站姿保持。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-maolang-action-wave.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.png",
+      "type": "action",
+      "slug": "wave",
+      "label": "招手",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "152eeeb3a3d469e3222e95ee82dc56bc8a39c89d8b65c700f7d06f31fb89cbcf",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-110fa8f5-862f-4211-ab3c-8ff725c73739.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 694806,
+        "partiallyTransparentPixels": 878058,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          16,
+          37,
+          962,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "垂手抬至头侧招手，五指可辨，另一手仍插袋；手不挡脸，外套保持。抬臂使左侧外轮廓变宽，后续界面须复核。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-maolang-action-thinking.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.png",
+      "type": "action",
+      "slug": "thinking",
+      "label": "思考",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "cefec309dd4cb2e2c716685bf4c79577dccc6bca82a49473a55e2b950ba0ae2a",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-845a18bd-1c53-4c29-8bc9-ae73fee3edfc.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 758205,
+        "partiallyTransparentPixels": 814659,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          139,
+          32,
+          951,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "手指轻触下巴，手腕与前臂衔接自然，脸和眼睛仍可见；另一手仍插袋。思考姿势清晰。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-maolang-action-explaining.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.png",
+      "type": "action",
+      "slug": "explaining",
+      "label": "解释",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "d496b0de4503049b67255acdff0b630400f19e079d1d5bbd41da289fc5397654",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-86a7d84e-71af-493e-b4a7-0d6e6796e2a9.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 733332,
+        "partiallyTransparentPixels": 839532,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          97,
+          31,
+          950,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "手掌向上摊示、嘴微张，五指可辨；另一手插袋，服装和人物身份保持。解释动作清晰。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    }
+  ],
+  "evidence": [
+    "qa-light-dark.jpg",
+    "qa-expressions-faces.jpg"
+  ],
+  "validationLimitations": [
+    "Only raw image view, 240x360 full sprite light/dark composite and 350x365 face-scale preview inspected.",
+    "No game/browser/real mobile/actual avatar size or game-background verification.",
+    "Generated rerendering is visual consistency, not pixel identity.",
+    "Original RGBA kept; alpha max254, not normalized."
+  ]
+}

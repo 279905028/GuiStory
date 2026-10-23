@@ -1,0 +1,248 @@
+{
+  "date": "2026-10-20T02:27:38.054Z",
+  "scope": "正式剧情/PNG + 单列标明的元数据和滚动压力夹具；隔离存储",
+  "versions": {
+    "game.js": "4499419098a69d7cae26e6b2b2efd509c497c9536d9208cc6046fd2fc471fad0",
+    "story.js": "a832d87e54e2334bae9648c6d412104b6d1ca9f266ec10c0c2b912360235a455",
+    "engine.js": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+    "index.html": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+    "styles.css": "ec83d0f6ef633f15707ca8e8e0426fb39b899dbf5ff7511a5bd1cf05f99cd78a",
+    "assets/background-variants/m2-daynight-20261020/bg-street-day.png": "3cd546cd5eb5addd38e14b0d36c4176134b819cd2fb7503710ea1f87f29443ab",
+    "assets/bg-street.png": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e"
+  },
+  "checks": [
+    {
+      "name": "标题固定夜景，新游戏切下午街景",
+      "pass": true,
+      "details": {
+        "title": "assets/bg-street.png",
+        "game": "assets/background-variants/m2-daynight-20261020/bg-street-day.png"
+      }
+    },
+    {
+      "name": "全部40个正式下午街景节点逐个合法读档并真实加载PNG",
+      "pass": true,
+      "details": {
+        "nodes": [
+          "s1_arrive_01",
+          "s1_arrive_02",
+          "s1_arrive_03",
+          "s1_arrive_04",
+          "s1_arrive_05",
+          "s1_arrive_06",
+          "s1_arrive_07",
+          "s1_arrive_08",
+          "s1_arrive_09",
+          "s1_arrive_10",
+          "s1_arrive_11",
+          "s1_arrive_12",
+          "s7_camera_01",
+          "s7_camera_02",
+          "s7_camera_03",
+          "s7_camera_04",
+          "s7_camera_05",
+          "s7_camera_06",
+          "s7_camera_07",
+          "s7_camera_08",
+          "s7_camera_09",
+          "s7_camera_10",
+          "c4",
+          "s7_apologize_01",
+          "s7_apologize_02",
+          "s7_apologize_03",
+          "s7_apologize_04",
+          "s7_terms_01",
+          "s7_terms_02",
+          "s7_terms_03",
+          "s7_appointment_01",
+          "s7_appointment_02",
+          "s7_appointment_03",
+          "s7_appointment_04",
+          "s7_appointment_05",
+          "s7_joke_01",
+          "s7_joke_02",
+          "s7_joke_03",
+          "s7_joke_04",
+          "s7_joke_05"
+        ]
+      }
+    },
+    {
+      "name": "全部显式背景覆盖与夜间/凌晨街景保持原图",
+      "pass": true,
+      "details": {
+        "overrides": [
+          "s2_trial_01",
+          "s2_trial_02",
+          "s2_trial_03",
+          "s2_trial_04",
+          "s2_trial_05",
+          "s2_trial_06",
+          "s2_trial_07",
+          "s2_trial_08",
+          "s2_trial_09",
+          "s2_trial_10",
+          "s2_trial_11",
+          "s2_trial_12",
+          "s3_walk_01",
+          "s3_walk_02",
+          "s3_walk_03",
+          "s3_walk_04",
+          "s3_walk_05",
+          "s4_invite_01",
+          "s4_invite_02",
+          "s4_invite_03",
+          "s4_invite_04",
+          "preview_qiu_01",
+          "preview_qiu_02",
+          "preview_qiu_03",
+          "preview_qiu_04",
+          "preview_qiu_05",
+          "preview_qiu_06",
+          "preview_qiu_07",
+          "preview_qiu_08",
+          "preview_qiu_09",
+          "preview_qiu_10",
+          "preview_qiu_11",
+          "preview_qiu_12",
+          "preview_qiu_13",
+          "preview_qiu_14",
+          "preview_qiu_15",
+          "preview_qiu_16",
+          "preview_qiu_17",
+          "preview_qiu_18",
+          "preview_qiu_19",
+          "preview_qiu_20",
+          "preview_qiu_21",
+          "preview_qiu_22",
+          "preview_qiu_23",
+          "preview_qiu_24",
+          "preview_qiu_25",
+          "preview_qiu_26",
+          "preview_qiu_27",
+          "end_huangqiuqiu"
+        ],
+        "darkRepresentative": [
+          "s3_walk_01",
+          "s4_shift_01",
+          "s10_messages_01"
+        ]
+      }
+    },
+    {
+      "name": "自然推进跨场及节点背景覆盖不向后继承",
+      "pass": true,
+      "details": {
+        "afternoonToNight": "s1_arrive_12",
+        "overrideExits": [
+          "s3_walk_05",
+          "s4_invite_04"
+        ]
+      }
+    },
+    {
+      "name": "白天手动保存→夜间→读回、刷新继续、返回标题与缓存恢复",
+      "pass": true,
+      "details": {
+        "node": "s1_arrive_04"
+      }
+    },
+    {
+      "name": "隔离元数据夹具：节点time/bg优先及null回退规则",
+      "pass": true,
+      "details": {
+        "cases": [
+          {
+            "bg": "street",
+            "time": "夜间",
+            "expected": "assets/bg-street.png"
+          },
+          {
+            "bg": "street",
+            "time": "凌晨",
+            "expected": "assets/bg-street.png"
+          },
+          {
+            "bg": "room",
+            "time": "下午",
+            "expected": "assets/bg-room.png"
+          },
+          {
+            "bg": "street",
+            "time": "下午",
+            "expected": "assets/background-variants/m2-daynight-20261020/bg-street-day.png"
+          },
+          {
+            "bg": null,
+            "time": null,
+            "expected": "assets/background-variants/m2-daynight-20261020/bg-street-day.png"
+          }
+        ]
+      }
+    },
+    {
+      "name": "375×667真实结束页：换收束读档及同节点重读均回到顶部",
+      "pass": true,
+      "details": {
+        "previousScroll": 56,
+        "sameNodeScroll": 54,
+        "after": 0
+      }
+    },
+    {
+      "name": "结束页重选清理阅读位置并恢复C6夜间背景",
+      "pass": true,
+      "details": {
+        "node": "c6"
+      }
+    },
+    {
+      "name": "滚动压力夹具：选择/对白同节点读档与推进归零，菜单保持位置",
+      "pass": true,
+      "details": {
+        "choiceBefore": 322,
+        "lineBefore": 211,
+        "longLine": "preview_qiu_03"
+      }
+    },
+    {
+      "name": "滚动压力夹具：逐字增长保持正在阅读的位置",
+      "pass": true,
+      "details": {
+        "node": "preview_qiu_03",
+        "before": 89
+      }
+    },
+    {
+      "name": "滚动压力夹具：真实CG延迟加载完成不重置对白滚动",
+      "pass": true,
+      "details": {
+        "node": "preview_qiu_12",
+        "before": 150,
+        "after": {
+          "top": 106,
+          "max": 106
+        }
+      }
+    },
+    {
+      "name": "新游戏清理三个阅读区位置并使用下午背景",
+      "pass": true,
+      "details": {
+        "node": "s1_arrive_01"
+      }
+    }
+  ],
+  "pageErrors": [],
+  "missingRequests": [],
+  "endVersions": {
+    "game.js": "4499419098a69d7cae26e6b2b2efd509c497c9536d9208cc6046fd2fc471fad0",
+    "story.js": "a832d87e54e2334bae9648c6d412104b6d1ca9f266ec10c0c2b912360235a455",
+    "engine.js": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+    "index.html": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+    "styles.css": "ec83d0f6ef633f15707ca8e8e0426fb39b899dbf5ff7511a5bd1cf05f99cd78a",
+    "assets/background-variants/m2-daynight-20261020/bg-street-day.png": "3cd546cd5eb5addd38e14b0d36c4176134b819cd2fb7503710ea1f87f29443ab",
+    "assets/bg-street.png": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e"
+  },
+  "pass": true
+}

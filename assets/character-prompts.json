@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "R2",
+  "owner": "M1",
+  "auditedOn": "2026-10-19",
+  "scope": [
+    "wenwen",
+    "xiaoman",
+    "zhouzhi",
+    "mengyao",
+    "yelan"
+  ],
+  "skillReviewed": "imagegen",
+  "toolMode": "not_invoked",
+  "newGenerationCount": 0,
+  "newEditCount": 0,
+  "newEditPrompts": [],
+  "existingGenerationPrompts": null,
+  "provenanceNote": "既有图片由用户给出准确缓存映射，旧提示词与原生成调用元数据未提供，本文件不推测或重建它们。",
+  "reasonNoNewEdit": "逐张查看原图，再检查真实alpha、亮暗纯底、六场景30组合、发丝/手部细节及头像。未发现需要生成式修图的合成缺陷，因此直接复用五张原素材。"
+}

@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "task": "A03",
+  "version": "a03-20261022-r1",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "status": "art-delivered-awaiting-A06",
+  "baselineApproval": "assets/ten-chapter/huangqiuqiu/baseline-approval.json",
+  "characters": {
+    "huangqiuqiu": {
+      "forms": {
+        "sphere": {
+          "image": "assets/char-huangqiuqiu.webp",
+          "expressions": {
+            "expression-serious": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+            "expression-smile": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+            "expression-hesitant": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+            "action-hand": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp"
+          },
+          "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+          "avatarExpressions": {
+            "expression-serious": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-serious.webp",
+            "expression-smile": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-smile.webp",
+            "expression-hesitant": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-hesitant.webp",
+            "action-hand": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-action-hand.webp"
+          },
+          "presentation": "orb"
+        },
+        "human": {
+          "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+          "expressions": {
+            "expression-smile": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-smile.webp",
+            "expression-hesitant": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-hesitant.webp",
+            "expression-serious": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-serious.webp",
+            "expression-downcast": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-downcast.webp",
+            "action-wave": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-action-wave.webp",
+            "action-thinking": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-chin-base.webp"
+          },
+          "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+          "avatarExpressions": {
+            "expression-smile": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-smile.webp",
+            "expression-hesitant": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-hesitant.webp",
+            "expression-serious": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-serious.webp",
+            "expression-downcast": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-downcast.webp",
+            "action-wave": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-wave.webp",
+            "action-thinking": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-thinking.webp"
+          },
+          "presentation": "human"
+        }
+      }
+    }
+  },
+  "assetBindings": {
+    "tc-char-huangqiuqiu-orb-base": {
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "form": "sphere",
+      "expression": null,
+      "cueIds": [
+        "a01-ch02-common-05",
+        "a01-ch03-huangqiuqiu-01",
+        "a01-ch03-huangqiuqiu-02",
+        "a01-ch03-huangqiuqiu-03",
+        "a01-ch04-huangqiuqiu-01",
+        "a01-ch04-huangqiuqiu-02",
+        "a01-ch04-huangqiuqiu-03",
+        "a01-ch04-huangqiuqiu-04",
+        "a01-ch05-huangqiuqiu-01",
+        "a01-ch05-huangqiuqiu-02",
+        "a01-ch06-huangqiuqiu-01",
+        "a01-ch06-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-01",
+        "a01-ch07-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-03",
+        "a01-ch08-huangqiuqiu-01",
+        "a01-ch08-huangqiuqiu-02"
+      ]
+    },
+    "tc-char-huangqiuqiu-orb-expression-serious": {
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-serious.webp",
+      "form": "sphere",
+      "expression": "expression-serious",
+      "cueIds": [
+        "a01-ch02-common-05",
+        "a01-ch03-huangqiuqiu-02",
+        "a01-ch05-huangqiuqiu-01",
+        "a01-ch05-huangqiuqiu-02",
+        "a01-ch06-huangqiuqiu-01",
+        "a01-ch06-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-01",
+        "a01-ch07-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-03",
+        "a01-ch08-huangqiuqiu-01",
+        "a01-ch08-huangqiuqiu-02"
+      ]
+    },
+    "tc-char-huangqiuqiu-orb-expression-smile": {
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-smile.webp",
+      "form": "sphere",
+      "expression": "expression-smile",
+      "cueIds": [
+        "a01-ch03-huangqiuqiu-01",
+        "a01-ch03-huangqiuqiu-02",
+        "a01-ch03-huangqiuqiu-03",
+        "a01-ch04-huangqiuqiu-01",
+        "a01-ch04-huangqiuqiu-02",
+        "a01-ch04-huangqiuqiu-03",
+        "a01-ch04-huangqiuqiu-04",
+        "a01-ch05-huangqiuqiu-01",
+        "a01-ch05-huangqiuqiu-02",
+        "a01-ch06-huangqiuqiu-01",
+        "a01-ch06-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-01",
+        "a01-ch07-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-03",
+        "a01-ch08-huangqiuqiu-01",
+        "a01-ch08-huangqiuqiu-02"
+      ]
+    },
+    "tc-char-huangqiuqiu-orb-expression-hesitant": {
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-hesitant.webp",
+      "form": "sphere",
+      "expression": "expression-hesitant",
+      "cueIds": [
+        "a01-ch06-huangqiuqiu-01",
+        "a01-ch06-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-01",
+        "a01-ch07-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-03",
+        "a01-ch08-huangqiuqiu-01",
+        "a01-ch08-huangqiuqiu-02"
+      ]
+    },
+    "tc-look-huangqiuqiu-orb-hand": {
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-action-hand.webp",
+      "form": "sphere",
+      "expression": "action-hand",
+      "cueIds": [
+        "a01-ch04-huangqiuqiu-01",
+        "a01-ch04-huangqiuqiu-02",
+        "a01-ch04-huangqiuqiu-03",
+        "a01-ch04-huangqiuqiu-04",
+        "a01-ch08-huangqiuqiu-01",
+        "a01-ch08-huangqiuqiu-02"
+      ]
+    },
+    "tc-char-huangqiuqiu-human-base": {
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "form": "human",
+      "expression": null,
+      "cueIds": [
+        "a01-ch08-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-01",
+        "a01-ch09-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-03",
+        "a01-ch10-huangqiuqiu-01",
+        "a01-ch10-huangqiuqiu-02"
+      ]
+    },
+    "tc-char-huangqiuqiu-human-expression-smile": {
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-smile.webp",
+      "form": "human",
+      "expression": "expression-smile",
+      "cueIds": [
+        "a01-ch08-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-01",
+        "a01-ch09-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-03",
+        "a01-ch10-huangqiuqiu-01",
+        "a01-ch10-huangqiuqiu-02"
+      ]
+    },
+    "tc-char-huangqiuqiu-human-expression-hesitant": {
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-hesitant.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-hesitant.webp",
+      "form": "human",
+      "expression": "expression-hesitant",
+      "cueIds": [
+        "a01-ch08-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-01",
+        "a01-ch09-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-03",
+        "a01-ch10-huangqiuqiu-01",
+        "a01-ch10-huangqiuqiu-02"
+      ]
+    },
+    "tc-char-huangqiuqiu-human-expression-serious": {
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-serious.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-serious.webp",
+      "form": "human",
+      "expression": "expression-serious",
+      "cueIds": [
+        "a01-ch08-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-01",
+        "a01-ch09-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-03",
+        "a01-ch10-huangqiuqiu-01",
+        "a01-ch10-huangqiuqiu-02"
+      ]
+    },
+    "tc-char-huangqiuqiu-human-expression-downcast": {
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-downcast.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-downcast.webp",
+      "form": "human",
+      "expression": "expression-downcast",
+      "cueIds": [
+        "a01-ch09-huangqiuqiu-03"
+      ]
+    },
+    "tc-char-huangqiuqiu-human-action-wave": {
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-action-wave.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-wave.webp",
+      "form": "human",
+      "expression": "action-wave",
+      "cueIds": [
+        "a01-ch08-huangqiuqiu-02"
+      ]
+    },
+    "tc-look-huangqiuqiu-human-chin": {
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-chin-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-thinking.webp",
+      "form": "human",
+      "expression": "action-thinking",
+      "cueIds": [
+        "a01-ch08-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-01",
+        "a01-ch09-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-03",
+        "a01-ch10-huangqiuqiu-01",
+        "a01-ch10-huangqiuqiu-02"
+      ]
+    }
+  },
+  "integration": {
+    "gameIntegrated": false,
+    "owner": "E09",
+    "adoptionOwner": "A06",
+    "runtimeNodeIds": [],
+    "formFlag": "qiuForm",
+    "spherePresentation": "orb",
+    "switchAnchor": "tc_c08_huangqiuqiu_human_reveal",
+    "switchCondition": "after release of hands and space is cleared; not a romance reward",
+    "history": "resolve from historical prefix state; never replace old sphere globally",
+    "missingResource": "error; never fall back across forms"
+  },
+  "evidence": "qa/a03-20261022/report.md"
+}

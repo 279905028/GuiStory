@@ -1,0 +1,490 @@
+{
+  "createdAt": "2026-10-23T02:00:41.435Z",
+  "scope": "E06开始前的正文、其他任务交付、契约、构建器和现行运行文件",
+  "files": [
+    {
+      "file": "AGENTS.md",
+      "sha256": "9888d310d6f27d9d417b2912bb5ea140df31d0f8407bbefe90f4f7843c1b608a"
+    },
+    {
+      "file": "assets/runtime-v0.4-manifest.json",
+      "sha256": "64f1313a791f48aa0a879eca8d77ee70a0933c167063e3e2ebaac51465bd06d5"
+    },
+    {
+      "file": "engine.js",
+      "sha256": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072"
+    },
+    {
+      "file": "game.js",
+      "sha256": "87a8d773c3f51ae930663d8edec927c19a7a0f61076e79d6c6a915848fdc9c6c"
+    },
+    {
+      "file": "index.html",
+      "sha256": "2ae59b07bff371230049395148dc83bde549443889775d9679a405dc932f4ffa"
+    },
+    {
+      "file": "story.js",
+      "sha256": "5d9b3dad53fa7de88269f7e605db4cf2e7b80a92587dedffda0e425bb1878e7a"
+    },
+    {
+      "file": "styles.css",
+      "sha256": "71a08eb8e30a8f3a8186ec6bd6fb897a9fdf837d46045558cf5cfd337b3f8dd5"
+    },
+    {
+      "file": "任务拆分/三章扩展/build-story.cjs",
+      "sha256": "068ca2f80fa29dd0b2405de726daae2568d1971878f48979e9be89ecf3b2ebd3"
+    },
+    {
+      "file": "任务拆分/全十章/build-manifest.example.json",
+      "sha256": "2a71e3a12eefb165d3cf1d8c46315e3c2887de4f8ac63c60468b50721678caf0"
+    },
+    {
+      "file": "任务拆分/全十章/build/cli.cjs",
+      "sha256": "deeb03969de594f1296000c79d6e626bc7b3eeb02f5a67d901fa6037bb6bd47e"
+    },
+    {
+      "file": "任务拆分/全十章/build/compiler.cjs",
+      "sha256": "fac93168157fe54f7723f589163caee2a9f9f1a4d0ee52ec19bd5c8f45eaccf1"
+    },
+    {
+      "file": "任务拆分/全十章/build/graph-test.cjs",
+      "sha256": "22555e142e2ec4f81c54e26fbacff203a41726c2eeef39f17b53cd42d06fc7dc"
+    },
+    {
+      "file": "任务拆分/全十章/build/graph.cjs",
+      "sha256": "9217ff94f9825c575614b138adf6b27c1d3e1237e73a4874964030ebee7637b5"
+    },
+    {
+      "file": "任务拆分/全十章/build/integration-test.cjs",
+      "sha256": "bb102eb1e4d654793139a95c9a5186fdcf5c0b38a4c9ac86173c4da0b90ca5f0"
+    },
+    {
+      "file": "任务拆分/全十章/build/json.cjs",
+      "sha256": "f3ee337407c67c66138d681759e00950af02a8bd141c5556cfc7941338d6a970"
+    },
+    {
+      "file": "任务拆分/全十章/build/test.cjs",
+      "sha256": "1b91261c6cfb22ab64e120a24947d17936b996beb05b3f467524adae770133a1"
+    },
+    {
+      "file": "任务拆分/全十章/common/README.md",
+      "sha256": "874d6390189c1c98e218f2ba515d530413bacabf1514295637bb4b9177b251a1"
+    },
+    {
+      "file": "任务拆分/全十章/common/assemble.cjs",
+      "sha256": "a3017b9f5027a2d1a77249eed28bca8c2669c99632fc0b2a052aba1f9ce3ed09"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch01.json",
+      "sha256": "e67fd830b2a90b5b1ebc581dd0453a1d8feee5c3be0b91ce894cae6f1776b48f"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch02.json",
+      "sha256": "f9e89a31e445bd52655334f124c1e0f9c8bc9368bce0220742eed9f3561032b2"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch03.json",
+      "sha256": "88bb55edd4315f4a6c06500687a99134bdebaba1233b21ef03fd2660c75fba5b"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch04.json",
+      "sha256": "645ddb96d804533a226a8c14e5cb0fff18e557bfb9a2c994ee9eea915b24ac04"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch05.json",
+      "sha256": "2e19cd57cfafa07edd7c1880dc727f6aae386a62bad806f86c1d5a9f2d2fbfb8"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch06.json",
+      "sha256": "f95eabdfd886fdc72f1856872d21919b9adba833b501a303cc7219fe4c04e62f"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch07.json",
+      "sha256": "5b45f35bd675c3db4060f9e7ae8bf4d076cae60c9dd438cb8bead49e6fbd31c7"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch08.json",
+      "sha256": "4b98abcf1ef72c6ac5985cd70e1640bebfdf390fd2b67f6cfe9497ec80278ec9"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch09.json",
+      "sha256": "e437f863161b79661513d53c55e27529270918766114434eed3646b6bb710002"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch10.json",
+      "sha256": "5c179e95f3b1fc6ce28a47ffa70df2b41aa36dbd11ad440878c4fc23809d9b3c"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/cli-check.json",
+      "sha256": "2a9a9bd9c6723bcfd4f53e769c0179f438a4b33136cb874276fd2fbe7c4934bd"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/e04-common-integration.json",
+      "sha256": "f34a811cb6c1ef7072072f11ff6370323bcea53b686d840fabd126c843e9ef5e"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/fixtures/bindings.json",
+      "sha256": "ca5ecffc6e5f268403d05a0e846204d20f64a59f8f331d8b2701950198af968f"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/fixtures/manifest.json",
+      "sha256": "3f6eef0d5f8c10f2ba787e34f8b0a95e901480f105a8883f4b20e081d5d88afb"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/fixtures/route-friends.json",
+      "sha256": "3287480bce332727d58e78005c8700f9c0fc80d5b2eac5d5c649cbc79a96fa22"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/fixtures/route-huangqiuqiu.json",
+      "sha256": "60fe12c20a65ea872d9ec5b17d01f5ddc8526345a386c2e1ccccdd97de72e034"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/fixtures/route-mengyao.json",
+      "sha256": "3c75e4633f090a98043da2a7d914d4895d3ff6d6e3d1261ab17a3186759e3cf9"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/fixtures/route-piao.json",
+      "sha256": "c7690b331236e69db97e915665af5232019e3d1652622d1a0a4e1a95f64408c1"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/fixtures/route-xiaoman.json",
+      "sha256": "17fbc15dfdcb825177de3d5221a6825f50f1756c4a6dad1b1116996d78f6597b"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/fixtures/route-yelan.json",
+      "sha256": "6970dc1da5321baa366e879d2f9c43bfbae9fc3ce9d6ed2a3f686a8f6908990b"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/fixtures/route-zhouzhi.json",
+      "sha256": "6d79cd2c3e9bba1d860aef1a59f3ff3a0338463fe504e0462b2ee4704a152f22"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/handoff-check.json",
+      "sha256": "d725ca5ddb5b3c989705c04be68bb95d29def22197ad09c9effd171c9f31423b"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/integration-map.json",
+      "sha256": "091ab477264ac126744ede186c8dd6d955e3fcf37f50f5b39e23ff8fe8f33758"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/interface-build-report.json",
+      "sha256": "8baf2f8d88840a4206313bea5e42023357e65c7993c5339040445be9fc7f7084"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/interface-fixture.cjs",
+      "sha256": "6257a2dceab110397c2c7c8f21b7d7c7edd43397947ddff1d905c9f4a532fa5d"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/path-witnesses.json",
+      "sha256": "29ea3745856c0a0431f862bfd86b1a0560d5ab084ed5ffa2d3dc8116c92d76ee"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/protected-before.json",
+      "sha256": "7c7f2a41edb029d6ae6b94d46177a1758e699cd2f4a1ee5f55589b4f5d971e4f"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/source-index.json",
+      "sha256": "d7f113e836d82c3648c5ba76efb698049ac467950797a1d9050fe62a55fc5f1a"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/verification.json",
+      "sha256": "cf45b2e94bab07c47000d1b4886e8b50bd58770246fcb3fd41c7a978fcb1d83c"
+    },
+    {
+      "file": "任务拆分/全十章/common/verify.cjs",
+      "sha256": "5e4cbaa964caf543adb4e01e9c9ab741b675ea81e3d244915975b78da0958e90"
+    },
+    {
+      "file": "任务拆分/全十章/contract.json",
+      "sha256": "4086571ab65e54271ec70e5a0a0712e00d0b2a1f6dae739b1df05a328ada1876"
+    },
+    {
+      "file": "任务拆分/全十章/routes/xiaoman.json",
+      "sha256": "b982784014d95fe44cb620e6b0ccd2252b3b86ccea5e519c09501277abec0fb0"
+    },
+    {
+      "file": "任务拆分/全十章/routes/zhouzhi.json",
+      "sha256": "7da9e066d79aaa299ad2ab5fff911be7060f5db4e4ef11bda3e4a901880a8eff"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/bindings.json",
+      "sha256": "3d52bf9294353946b24acd8c9e36d7051b3fdc4fcc3c5248fe396ebd0e00b8fe"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/common/ch01.json",
+      "sha256": "a15ceac50cc84e0357333a8a3c15e1ac66ff26af5316b50ac571182070f68982"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/common/ch02.json",
+      "sha256": "7b1efc161f962743c69b3a501f79de7ad4c959f7aed86724fb181aabf3d9de67"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/common/ch03.json",
+      "sha256": "9e74695c37e8d6542bc089f19a01d2981be0d08f92dae4b7bec1f5eb83ed77cb"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/common/ch04.json",
+      "sha256": "f0f5a46373e566d1be383c3787d8e65d079cccaf0b7f4c3cc4c72367d8285149"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/manifest.json",
+      "sha256": "e351e5fc9a8e68d83461bc4d558e63209fad33e9c7e0b2211c22848ef8bdb0be"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/routes/friends.json",
+      "sha256": "a77b79245b7a17735eefb31283cdbb66a21a2500e6c0f6c6be2d5deef6cbbb64"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/routes/huangqiuqiu.json",
+      "sha256": "15cb150485463802859bef6b5c54c27702d0521c72e6b6cf1b1762709c07c446"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/routes/mengyao.json",
+      "sha256": "ccad55340fe8f1865b1bab48bca3eab39542123238c22fc71e28fec6fd36d468"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/routes/piao.json",
+      "sha256": "b6afe8a7393455da8aadb63f8adfaddd35cbf97b257f5777fb4c5de6a8c92ae5"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/routes/xiaoman.json",
+      "sha256": "a31ccf880009ff55935e4c0745bda9bf1b7163cb79ae80f3e76fe1f985fa4b25"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/routes/yelan.json",
+      "sha256": "22ad8195ebdbfa18bd87fd89d442af653c5019336f5acb9c10338bed9f0d2bb1"
+    },
+    {
+      "file": "任务拆分/全十章/samples/e02/routes/zhouzhi.json",
+      "sha256": "ec356a6d950b7e0239e124628046ad0490828a536c69d4dbf1118af106a31146"
+    },
+    {
+      "file": "任务拆分/全十章/verify-contract.cjs",
+      "sha256": "60e4a6b5295b174211da011bcb7c4478c987a83c1cb24889fb32c4b8b8a9800a"
+    },
+    {
+      "file": "任务拆分/全十章/交接/A01.md",
+      "sha256": "195a1a14e0f6173b29cda21c4b107a1f972e017b115bbf2b548a41c33aaf43b2"
+    },
+    {
+      "file": "任务拆分/全十章/交接/A02.md",
+      "sha256": "39b5b66d8845ffe65893a07c6e52ff89b095c3ebb965e81fbcab6ec0c2017f55"
+    },
+    {
+      "file": "任务拆分/全十章/交接/A03.md",
+      "sha256": "6de30bb13ac402c3e1de31d1c45ae9d2545a77f7ca394b658cbdf1e7ae36c924"
+    },
+    {
+      "file": "任务拆分/全十章/交接/A04.md",
+      "sha256": "641187210d3d19054f2bbcf601e5100661841ebb43f50506063b008d9965df4b"
+    },
+    {
+      "file": "任务拆分/全十章/交接/E01.md",
+      "sha256": "e098bbfd20962958d7324d3c35e1cab8a75343f5582d52914f6033d00f72e7ce"
+    },
+    {
+      "file": "任务拆分/全十章/交接/E02.md",
+      "sha256": "e427a18cd02a17cd0d1c0880122c25cde27ae2cb1cbee45e3a59f5de691262fa"
+    },
+    {
+      "file": "任务拆分/全十章/交接/E03.md",
+      "sha256": "0eea1d23745c9b2f8b44696fc5703e7509c9e606235cf49184a8230e98a99b52"
+    },
+    {
+      "file": "任务拆分/全十章/交接/E04.md",
+      "sha256": "ae050755e6f004741d3e0cc92f85dd0ce34e96aa66e8d96a0cabc7c904169dc3"
+    },
+    {
+      "file": "任务拆分/全十章/契约.md",
+      "sha256": "ecc03aad47821bed6c4978caa3730aa59495e9543d5493c4ec6b8e27bfe61244"
+    },
+    {
+      "file": "任务拆分/全十章/构建接口.md",
+      "sha256": "87edc390111a3924e5f0231fea26b9e1593c2967625d8385b274763721b491a9"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E01/protected-before.json",
+      "sha256": "53de469297b6b7e6e930c5f979b65aed1657c9b2d55e2a6e56d5820493f744f4"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E01/verification.json",
+      "sha256": "511c163f10d3d071c4b5568f48136cc0e8455be904d3344c689a58a5c0f90f80"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E02/graph-tests.json",
+      "sha256": "9017806aaa490a7b8502bd91b5238bfbcc03e5cf11003e96e7e5c70f537a3d09"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E02/integration-tests.json",
+      "sha256": "683b855b4a2544efdf51abb7b04cf602b92fee958473dd3dcacf052d307286d4"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E02/legacy-build-before.cjs",
+      "sha256": "8f7471139e982ba3b985dbd9325398593dc5a41600b98983f7eb6d8533e7b06d"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E02/protected-before.json",
+      "sha256": "e23b0a9ab2c23e7ae1c73ec455bd8a95eb9aa495d7d1ee8a0d0873932ed10dab"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E02/tests.json",
+      "sha256": "f1b040eccdc56c2a8bd9916e7bdbac8c8c870b0f3b470e96f014f63a454126d3"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E02/verification.json",
+      "sha256": "d31dfea6796b4b8c3fbd560d09f16470625d49479eafb64c06f5a011b0933fc4"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/build-result.json",
+      "sha256": "9ebb123bb0f9e79d934ed8c334f5a19fef222a7d17cc0a08daf3b4b3bf81ccaa"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/build-routes.cjs",
+      "sha256": "30537a09a72bf63a0baa70f0bda9e2eceb79cad7806c9c33706c3e867ad7cb9c"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/delivery.json",
+      "sha256": "31254b828d1e02956bd4a8d73574e578eb8f1c7dcb9fe930f8efcce3f5ce3ccb"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/final-audit.json",
+      "sha256": "7f79084d99ef6488df911727ff4da98d8179761b42f1a6b12316ee566144ed7b"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/README.md",
+      "sha256": "eb5ab4d52d658a53cd07b1e0c5e255d8935e218339de980900df0607d126e6ac"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/bindings.json",
+      "sha256": "d8a10426d65cb401baaa3e79543ca15d49fb44d69ee4e183c86fc8da55ed79cd"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/common/ch01.json",
+      "sha256": "a15ceac50cc84e0357333a8a3c15e1ac66ff26af5316b50ac571182070f68982"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/common/ch02.json",
+      "sha256": "7b1efc161f962743c69b3a501f79de7ad4c959f7aed86724fb181aabf3d9de67"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/common/ch03.json",
+      "sha256": "9e74695c37e8d6542bc089f19a01d2981be0d08f92dae4b7bec1f5eb83ed77cb"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/common/ch04.json",
+      "sha256": "c443fe49c53a247ef1644c0c2a7031db5b35c0b5648e225b7d40c8d79e109b55"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/common/ch05.json",
+      "sha256": "6eda19f3814ddd57573df88e2c4f23398a02da32bde92f9ab269dcd381a786ae"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/common/ch06.json",
+      "sha256": "fd9cf3de3950a62897a7f0c717fb0fc59066a5a0b0852efd6a36126b0b26fa35"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/common/ch07.json",
+      "sha256": "101f4158de70e96095228454b4b0e07d64abe0c5d90a408f8f5921ca5f8664ed"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/common/ch08.json",
+      "sha256": "f028d27960a94fbfc1d5f31528f579f615ed66493317daf768ec2f7ea32ee0a5"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/common/ch09.json",
+      "sha256": "12934ca76f85a7b93b258490aeb52ff84ec06101ea67cab484d340c332d1ec13"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/common/ch10.json",
+      "sha256": "1c4f93d694d87f59333bf498c3ed12e9c43e3f6bdc512afa59006167a26fef8f"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/manifest.json",
+      "sha256": "7757283545884fc9ec57666c21baad9cf99cba5f5a846b92e83dd42be5a1c366"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/routes/friends.json",
+      "sha256": "25f66748b870446052cc80c27ebbc0cb4607f4af398bfa83258c7059f16c52b8"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/routes/huangqiuqiu.json",
+      "sha256": "cb140797e8862b449fbf1b886c9122a2c8840d36a998a8750988dbf98a56959c"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/routes/mengyao.json",
+      "sha256": "f938025d9a3453b62408d9ea6426f8587b3770a1bfa64647b487fe4a69e32b94"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/routes/piao.json",
+      "sha256": "553a4c8237fb3e0508c0e9ca37e442c6c24fd81c11bda5239620148684041baf"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/fixture/routes/yelan.json",
+      "sha256": "64a511424e9e432929b7102784a5f5fb04b548864e99da739c71fc43633b9fe0"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/protected-before.json",
+      "sha256": "542ef5bf681b8a942c0241de0dc7bb1d279a5f24dbf21901a89514529039423a"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/verification.json",
+      "sha256": "867a221d678a77202389faa41be0e763d89bd1fd0505bfa107d8896d0f21b08f"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/verify.cjs",
+      "sha256": "1824eb0da138501cfbb057cb60d26eba1a7aaf96c17ddd5592d9ef2a738d95b4"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/protected-before.json",
+      "sha256": "f53d1939b3b361f6d909ec5545ffac5ef7f4e29192ece75b9ebe36b19046d78b"
+    },
+    {
+      "file": "任务拆分/全十章/美术清单.json",
+      "sha256": "10cd396bf8de6e26e54ee60bc494fb512bb697ecc46a7f23b631b4e214a351b2"
+    },
+    {
+      "file": "任务拆分/全十章/美术清单.md",
+      "sha256": "1d1c991a9e75f239dcc50468ecb14911d9966ff021906cd47a0da7843bbac5c7"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "sha256": "766f2462d3695244aeb5d40a416c7610b05eeea15b397b8a0c232d351399e0c6"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sha256": "112623a8a21f59991e3a5717838c0558244293dc709b906815c8c83497ebc8f0"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sha256": "21ed8a4949d383f982625bcf473d75ced20aa02eeca5fb4fe4a099283749dc60"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sha256": "d2aeb09d621edb3522b2dc63dcc5b49fa6949891e2c7d17520ffe14d39996549"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "sha256": "dac8ac7db39fb2d16732629cb694cb34816bfdb7cc8de0064d52e1e16fc0bf06"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sha256": "237c81a388bc42db960729d600a88d2705ef6106ade18f4414e919a33acab082"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sha256": "2903d54c7d22f9e7fcfe3a4d4ead3c16dc103a67b675c12a636eb7bfb463279b"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sha256": "8238a41e2b8e4102e7509e711662fa28bbdd83c7ef89e03f9af1e7798ff7c9e4"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sha256": "94b9a7c273d7a6ba9d0c2f9572ec54a3874f57a8ea0663d4db455ec868d903b2"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sha256": "456533e8485bffdaafc31a13d6c8c77e9f8266480707887e792a5ceaddaec0c2"
+    }
+  ]
+}

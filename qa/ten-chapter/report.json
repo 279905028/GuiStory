@@ -1,0 +1,188 @@
+{
+  "task": "E10",
+  "generatedAt": "2026-10-23T05:41:52.860Z",
+  "date": "2026-10-23",
+  "status": "local-engineering-passed-device-acceptance-pending",
+  "finalAcceptance": false,
+  "storySha256": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "checks": [
+    {
+      "name": "构建复现",
+      "passed": true
+    },
+    {
+      "name": "错误拒绝",
+      "passed": true
+    },
+    {
+      "name": "正文与语义",
+      "passed": true
+    },
+    {
+      "name": "图与全状态恢复",
+      "passed": true
+    },
+    {
+      "name": "Chrome",
+      "passed": true
+    },
+    {
+      "name": "Firefox",
+      "passed": true
+    },
+    {
+      "name": "文件保护",
+      "passed": true
+    },
+    {
+      "name": "两浏览器完整场景名称一致",
+      "passed": true
+    },
+    {
+      "name": "各套结果均对应当前正式剧情",
+      "passed": true
+    }
+  ],
+  "summary": {
+    "sourceParagraphs": 2534,
+    "sourceNonblankLines": 2909,
+    "paths": 736,
+    "endings": 13,
+    "visibleRestoredStates": 149715,
+    "chromeChecks": 81,
+    "firefoxChecks": 81,
+    "chromeScreenshots": 46,
+    "firefoxScreenshots": 46,
+    "protectedFiles": 6480
+  },
+  "performance": {
+    "chrome": {
+      "historyEntries": 678,
+      "saveBytes": 143380,
+      "timings": {
+        "load": 34.09999999962747,
+        "history": 31.700000001117587,
+        "saveMenu": 30.40000000037253,
+        "manualSave": 31.59999999962747,
+        "manualLoad": 30.800000000745058
+      },
+      "scroll": {
+        "atEnd": true,
+        "atStart": true,
+        "returnedToEnd": true,
+        "scrollHeight": 72973,
+        "clientHeight": 688
+      },
+      "measurement": "Trusted click捕获至第二个requestAnimationFrame，含真实同步恢复/DOM构建；单次本机观测，非性能基准分位数"
+    },
+    "firefox": {
+      "historyEntries": 678,
+      "saveBytes": 143380,
+      "timings": {
+        "load": 33,
+        "history": 31,
+        "saveMenu": 31,
+        "manualSave": 47,
+        "manualLoad": 44
+      },
+      "scroll": {
+        "atEnd": true,
+        "atStart": true,
+        "returnedToEnd": true,
+        "scrollHeight": 73049,
+        "clientHeight": 686
+      },
+      "measurement": "Trusted click捕获至第二个requestAnimationFrame，含真实同步恢复/DOM构建；单次本机观测，非性能基准分位数"
+    }
+  },
+  "waivedByUser": [
+    "声音试听",
+    "真人完整阅读及阅读时长"
+  ],
+  "pending": [
+    {
+      "id": "safari",
+      "reason": "Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.",
+      "evidence": "safari/probe-results.json"
+    },
+    {
+      "id": "physical-phone",
+      "reason": "未提供可操作的实体手机；桌面浏览器五视口模拟不等于实机验收",
+      "evidence": "manual-acceptance.md"
+    }
+  ],
+  "evidenceFingerprints": [
+    {
+      "file": "qa/ten-chapter/integrity/results.json",
+      "sha256": "cdb774a42bd08fb662d8825e01ed71f7b89d5f80e3178bd2a6bdff88d4b4e2fa"
+    },
+    {
+      "file": "qa/ten-chapter/integrity/guards-results.json",
+      "sha256": "eee16d7a9c86ba1e9f6237c0f0ee922aad8a730df578f7e1f01d229d2c0f3847"
+    },
+    {
+      "file": "qa/ten-chapter/content/results.json",
+      "sha256": "dd5dc61681160d3966473e90da5eaf860f36a48d8b1e565adcc03b550ccffac9"
+    },
+    {
+      "file": "qa/ten-chapter/engine/results.json",
+      "sha256": "1ad497b7a6014a2bdc97e398d185c043b4dd901683393db045c60f23fb0e8bd5"
+    },
+    {
+      "file": "qa/ten-chapter/browser/browser-results.json",
+      "sha256": "10b75a14709dcf2cc69879b83dd209e393fae7f6c2cd3cd526943e73a21ba0cf"
+    },
+    {
+      "file": "qa/ten-chapter/browser/firefox-results.json",
+      "sha256": "7a126b142f84e46367aa605b471c02c8fb283ec52dd864190caadfaec39c5c24"
+    },
+    {
+      "file": "qa/ten-chapter/safari/probe-results.json",
+      "sha256": "573b4d98f8ffdb15a2fc556cb49016db6762c7f162d8a59b1bb97337ede3cfad"
+    },
+    {
+      "file": "qa/ten-chapter/integrity/protected-after.json",
+      "sha256": "b2da35090c9064486b710c011ad4088237f02e53a75610294d6f9063468dcb98"
+    }
+  ],
+  "scriptFingerprints": [
+    {
+      "file": "qa/ten-chapter/run.cjs",
+      "sha256": "87eea35965ff5805fd0e78039d6b9effd67714d7de4d581b71e909029e41d023"
+    },
+    {
+      "file": "qa/ten-chapter/summarize.cjs",
+      "sha256": "a832235c16558e56d5e79c0e77abd27a5e7c22b7184950ddc655a270042371c4"
+    },
+    {
+      "file": "qa/ten-chapter/integrity/check.cjs",
+      "sha256": "811fc555f6d8b88a503f22b14192dda95f87254f116d803b0956b46e28c4844d"
+    },
+    {
+      "file": "qa/ten-chapter/integrity/guards.cjs",
+      "sha256": "dab8d219cd91ef0275f4241c534e2900d97a04360d389302f7a89eab0f453731"
+    },
+    {
+      "file": "qa/ten-chapter/content/audit.cjs",
+      "sha256": "fbcca7eef6086c87ab367bc80221a22287196d638dd1400bfaa8c0c177c5af55"
+    },
+    {
+      "file": "qa/ten-chapter/engine/regression.cjs",
+      "sha256": "151b9c137f3fd76e7ae0c9a4b09db33b7e7f8d4adc672485081e274a38b68bda"
+    },
+    {
+      "file": "qa/ten-chapter/browser/browser-test.cjs",
+      "sha256": "922c4df9b59e5ab9e0fd85ced020a8149b6a1a75af3c40ea00af44e7a7cf0929"
+    },
+    {
+      "file": "qa/ten-chapter/safari/probe.cjs",
+      "sha256": "baf3a6d7d2750c3ffcdd7402d577acc883e1d10fd71d79fa4866592501235c87"
+    }
+  ],
+  "formalCodeModified": false,
+  "formalBuildWritten": false,
+  "playerStorageAccessed": false,
+  "deployed": false
+}

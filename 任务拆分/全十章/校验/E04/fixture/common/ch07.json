@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "common/ch07",
+  "owner": "E03",
+  "scenes": {
+    "ts_c07_common_e04_boundary": {
+      "chapter": 7,
+      "title": "第七章 · 各自要过的日子",
+      "bg": "sample-bg",
+      "time": "边界测试",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 35
+      },
+      "location": "",
+      "day": 35,
+      "dayLabel": "第35天"
+    },
+    "ts_c07_common_e04_end": {
+      "chapter": 7,
+      "title": "第七章 · 各自要过的日子",
+      "bg": "sample-bg",
+      "time": "章末",
+      "chronology": {
+        "domain": "chapter-range",
+        "mode": "present",
+        "label": "第35—45天"
+      },
+      "location": "",
+      "day": null,
+      "dayLabel": "第35—45天"
+    }
+  },
+  "nodes": {
+    "tc_c07_common_entry": {
+      "id": "tc_c07_common_entry",
+      "type": "gate",
+      "scene": "ts_c07_common_e04_boundary",
+      "cases": [
+        {
+          "flag": "route",
+          "value": "xiaoman",
+          "next": "tc_c07_xiaoman_entry"
+        },
+        {
+          "flag": "route",
+          "value": "zhouzhi",
+          "next": "tc_c07_zhouzhi_entry"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    },
+    "tc_c07_common_exit": {
+      "id": "tc_c07_common_exit",
+      "type": "end",
+      "scene": "ts_c07_common_e04_end",
+      "title": "第七章 · 各自要过的日子",
+      "text": "",
+      "next": "tc_c08_common_entry",
+      "nextChapter": "第八章 · 不用每次都逞强"
+    }
+  },
+  "imports": [
+    "tc_c07_xiaoman_entry",
+    "tc_c07_zhouzhi_entry",
+    "tc_c08_common_entry"
+  ],
+  "exports": {
+    "tc_c07_common_entry": "tc_c07_common_entry",
+    "tc_c07_common_exit": "tc_c07_common_exit"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c07_common_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c07_common_exit"
+      ],
+      "kind": "control"
+    }
+  ],
+  "exclusions": [],
+  "assetRequests": []
+}

@@ -1,0 +1,33 @@
+{
+  "command": "node 任务拆分/三章扩展/build-story.cjs --ten-chapter --manifest 任务拆分/全十章/校验/E07/fixture/manifest.json",
+  "status": "passed",
+  "mode": "sample",
+  "formalIntegration": false,
+  "moduleCount": 17,
+  "nodeCount": 1446,
+  "sceneCount": 196,
+  "output": {
+    "directory": "/Users/yipin/Desktop/cjb/任务拆分/全十章/构建/sample-bbf363525828da2e",
+    "contentHash": "bbf363525828da2e9fbfef778fa6ff9ef0eff76d98f959f0b58f7e10b0f3d5b8",
+    "reused": false
+  },
+  "graph": {
+    "nodes": 1446,
+    "edges": 1513,
+    "choices": 13,
+    "options": 31,
+    "countsByType": {
+      "line": 1399,
+      "end": 15,
+      "choice": 13,
+      "gate": 19
+    },
+    "exploredNodeStates": 75295,
+    "distinctFlagStates": 783,
+    "mergedNodeStates": 0,
+    "transitions": 75294,
+    "maximumFrontier": 12,
+    "terminalStates": 288,
+    "stoppedStates": 160
+  }
+}

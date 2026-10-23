@@ -1,0 +1,482 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-20",
+  "title": "毕节实拍参考 · 新增场景背景",
+  "generator": "built-in image_gen",
+  "new_background_count": 9,
+  "registered_background_keys": 15,
+  "default_scene_bindings": 16,
+  "explicit_node_bindings": 56,
+  "effective_display_nodes": 417,
+  "story_unchanged_except_background_and_node_location": true,
+  "bindings": "assets/backgrounds/bijie-20261020/bindings.json",
+  "backgrounds": [
+    {
+      "key": "busstop_day",
+      "path": "assets/backgrounds/bijie-20261020/bg-busstop-day.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2301340,
+      "sha256": "335b2bf31c5ec8828589bcd5551c708ec8a7f914408d8635ca7f53d38a700b16",
+      "label": "老街坡口站牌·下午",
+      "transparent_background": false,
+      "source": {
+        "tool": "built-in image_gen",
+        "prompt_and_reference_record": "assets/backgrounds/bijie-20261020/art-streets.json"
+      },
+      "default_scenes": [
+        "s1"
+      ],
+      "explicit_nodes": [],
+      "effective_scenes": [
+        "s1"
+      ],
+      "effective_times": [
+        "下午"
+      ],
+      "display_node_count": 12,
+      "crop": {
+        "object_fit": "cover",
+        "desktop_object_position": "50% 50%",
+        "mobile_object_position": "8% 50%"
+      },
+      "qa": {
+        "asset_visual_review": true,
+        "browser_desktop": "1280x720 Chrome",
+        "browser_mobile": "390x844 Chrome模拟视口",
+        "report": "qa/scene-backgrounds-20261020/report.md"
+      },
+      "originalEncoding": {
+        "path": "assets/backgrounds/bijie-20261020/bg-busstop-day.png",
+        "bytes": 3338135,
+        "sha256": "35192db09b8229a75d540131b4a5ca674c52127e6e04b28665eae21b824d2448"
+      },
+      "format": "WebP"
+    },
+    {
+      "key": "market_stall_night",
+      "path": "assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2180932,
+      "sha256": "ff721898479c352bdac7969a7b301b29fd196215d04cdd24290c77de8c94caa0",
+      "label": "老街夜宵摊·夜间",
+      "transparent_background": false,
+      "source": {
+        "tool": "built-in image_gen",
+        "prompt_and_reference_record": "assets/backgrounds/bijie-20261020/art-streets.json"
+      },
+      "default_scenes": [
+        "s3"
+      ],
+      "explicit_nodes": [],
+      "effective_scenes": [
+        "s3"
+      ],
+      "effective_times": [
+        "夜间"
+      ],
+      "display_node_count": 19,
+      "crop": {
+        "object_fit": "cover",
+        "desktop_object_position": "50% 50%",
+        "mobile_object_position": "15% 50%"
+      },
+      "qa": {
+        "asset_visual_review": true,
+        "browser_desktop": "1280x720 Chrome",
+        "browser_mobile": "390x844 Chrome模拟视口",
+        "report": "qa/scene-backgrounds-20261020/report.md"
+      },
+      "originalEncoding": {
+        "path": "assets/backgrounds/bijie-20261020/bg-market-stall-night.png",
+        "bytes": 2929670,
+        "sha256": "dc4c42075dcbe686eeece9fb9579a0097f3283ed2036441881318d0e3c0d205c"
+      },
+      "format": "WebP"
+    },
+    {
+      "key": "echo_entrance_night",
+      "path": "assets/backgrounds/bijie-20261020/bg-echo-entrance-night.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2154918,
+      "sha256": "f93d6425e7869ed919b4d71511ac8d80f576c915fcb440669ab839f37f053c20",
+      "label": "回声侧门屋檐·夜间",
+      "transparent_background": false,
+      "source": {
+        "tool": "built-in image_gen",
+        "prompt_and_reference_record": "assets/backgrounds/bijie-20261020/art-places.json"
+      },
+      "default_scenes": [
+        "s4",
+        "s10",
+        "ch2_account",
+        "ch2_night"
+      ],
+      "explicit_nodes": [],
+      "effective_scenes": [
+        "s4",
+        "s10",
+        "ch2_account",
+        "ch2_night"
+      ],
+      "effective_times": [
+        "凌晨",
+        "夜间"
+      ],
+      "display_node_count": 109,
+      "crop": {
+        "object_fit": "cover",
+        "desktop_object_position": "50% 50%",
+        "mobile_object_position": "8% 50%"
+      },
+      "qa": {
+        "asset_visual_review": true,
+        "browser_desktop": "1280x720 Chrome",
+        "browser_mobile": "390x844 Chrome模拟视口",
+        "report": "qa/scene-backgrounds-20261020/report.md"
+      },
+      "originalEncoding": {
+        "path": "assets/backgrounds/bijie-20261020/bg-echo-entrance-night.png",
+        "bytes": 2960387,
+        "sha256": "c421717c9a4e6616edb5321b1f5cf550f70df537508664426c3af488cda5719f"
+      },
+      "format": "WebP"
+    },
+    {
+      "key": "old_eaves_day",
+      "path": "assets/backgrounds/bijie-20261020/bg-old-eaves-day.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2290852,
+      "sha256": "18861e49214b039d1507ea98a7073ddc8876062b4ad8684bdad91ea3deee7445",
+      "label": "老街旧屋檐·下午",
+      "transparent_background": false,
+      "source": {
+        "tool": "built-in image_gen",
+        "prompt_and_reference_record": "assets/backgrounds/bijie-20261020/art-places.json"
+      },
+      "default_scenes": [
+        "s7",
+        "ch3_mengyao15",
+        "ch3_mengyao21",
+        "ch3_piao15",
+        "ch3_piao21",
+        "epilogue_piao_wenwen"
+      ],
+      "explicit_nodes": [
+        "ch3_yelan_f_08",
+        "ch3_yelan_f_09",
+        "ch3_yelan_f_10",
+        "ch3_yelan_f_11",
+        "ch3_bg_yelan_21_01",
+        "ch3_bg_yelan_21_02",
+        "ch3_bg_yelan_21_03",
+        "end_ch3_yelan"
+      ],
+      "effective_scenes": [
+        "s7",
+        "ch3_mengyao15",
+        "ch3_mengyao21",
+        "ch3_yelan21",
+        "ch3_piao15",
+        "ch3_piao21",
+        "epilogue_piao_wenwen"
+      ],
+      "effective_times": [
+        "下午"
+      ],
+      "display_node_count": 159,
+      "crop": {
+        "object_fit": "cover",
+        "desktop_object_position": "50% 50%",
+        "mobile_object_position": "30% 50%"
+      },
+      "qa": {
+        "asset_visual_review": true,
+        "browser_desktop": "1280x720 Chrome",
+        "browser_mobile": "390x844 Chrome模拟视口",
+        "report": "qa/scene-backgrounds-20261020/report.md"
+      },
+      "originalEncoding": {
+        "path": "assets/backgrounds/bijie-20261020/bg-old-eaves-day.png",
+        "bytes": 3269368,
+        "sha256": "2236e61707ab498fded0114f578349425918bdca924982f99ab8e061d4e6b2b4"
+      },
+      "format": "WebP"
+    },
+    {
+      "key": "slope_junction_night",
+      "path": "assets/backgrounds/bijie-20261020/bg-slope-junction-night.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2314944,
+      "sha256": "f81e14760a5950f40fbc223e6bc5fe8fde5ed261014c02dd1b0181b7f97cffa1",
+      "label": "住宅坡口岔路·夜间",
+      "transparent_background": false,
+      "source": {
+        "tool": "built-in image_gen",
+        "prompt_and_reference_record": "assets/backgrounds/bijie-20261020/art-streets.json"
+      },
+      "default_scenes": [],
+      "explicit_nodes": [
+        "s3_walk_01",
+        "s3_walk_02",
+        "s3_walk_03",
+        "s3_walk_04",
+        "s3_walk_05",
+        "s3_taxi_01",
+        "s3_taxi_02",
+        "s3_taxi_03",
+        "s3_taxi_04",
+        "s3_taxi_05",
+        "preview_yelan_10",
+        "preview_yelan_11",
+        "preview_yelan_private_01",
+        "preview_yelan_private_02",
+        "preview_yelan_private_03",
+        "end_yelan",
+        "ch2_leave_01",
+        "ch3_solo_f_10",
+        "end_ch3_solo",
+        "end_ch2"
+      ],
+      "effective_scenes": [
+        "s3",
+        "s10",
+        "ch2_night",
+        "ch3_solo21"
+      ],
+      "effective_times": [
+        "夜间"
+      ],
+      "display_node_count": 20,
+      "crop": {
+        "object_fit": "cover",
+        "desktop_object_position": "50% 50%",
+        "mobile_object_position": "36% 50%"
+      },
+      "qa": {
+        "asset_visual_review": true,
+        "browser_desktop": "1280x720 Chrome",
+        "browser_mobile": "390x844 Chrome模拟视口",
+        "report": "qa/scene-backgrounds-20261020/report.md"
+      },
+      "originalEncoding": {
+        "path": "assets/backgrounds/bijie-20261020/bg-slope-junction-night.png",
+        "bytes": 3196144,
+        "sha256": "88fef397279f14d58e63ae3babd630b9497291e58c0ca318e56570a5060d6cb1"
+      },
+      "format": "WebP"
+    },
+    {
+      "key": "residential_slope_day",
+      "path": "assets/backgrounds/bijie-20261020/bg-residential-slope-day.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2340464,
+      "sha256": "d5920c93d6841fd26f71766ca7ea52d368464f680da573e0114f3913c0bb95f5",
+      "label": "住宅坡巷·下午",
+      "transparent_background": false,
+      "source": {
+        "tool": "built-in image_gen",
+        "prompt_and_reference_record": "assets/backgrounds/bijie-20261020/art-places.json"
+      },
+      "default_scenes": [
+        "ch3_yelan21"
+      ],
+      "explicit_nodes": [
+        "ch3_piao_b_06",
+        "ch3_piao_b_07",
+        "ch3_piao_b_08",
+        "ch3_piao_b_09",
+        "ch3_piao_b_10",
+        "ch3_piao_b_11",
+        "ch3_piao_b_12",
+        "ch3_piao_b_13",
+        "ch3_piao_b_14",
+        "ch3_piao_b_15",
+        "ch3_piao_b_16",
+        "epilogue_piao_w_13",
+        "end_piao_wenwen"
+      ],
+      "effective_scenes": [
+        "ch3_yelan21",
+        "ch3_piao15",
+        "epilogue_piao_wenwen"
+      ],
+      "effective_times": [
+        "下午"
+      ],
+      "display_node_count": 32,
+      "crop": {
+        "object_fit": "cover",
+        "desktop_object_position": "50% 50%",
+        "mobile_object_position": "35% 50%"
+      },
+      "qa": {
+        "asset_visual_review": true,
+        "browser_desktop": "1280x720 Chrome",
+        "browser_mobile": "390x844 Chrome模拟视口",
+        "report": "qa/scene-backgrounds-20261020/report.md"
+      },
+      "originalEncoding": {
+        "path": "assets/backgrounds/bijie-20261020/bg-residential-slope-day.png",
+        "bytes": 3400316,
+        "sha256": "5d6bcc1d8d3e49879f9662f313498bba3a4cbcd04bcceb8f61cd5845c451e9de"
+      },
+      "format": "WebP"
+    },
+    {
+      "key": "noodle_front_dusk",
+      "path": "assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2119482,
+      "sha256": "188326b2cdb65dcb0a65f117ffd7c05d5cd9b60df5bf9536786fc7da84bde6f7",
+      "label": "坡口面馆门外·傍晚",
+      "transparent_background": false,
+      "source": {
+        "tool": "built-in image_gen",
+        "prompt_and_reference_record": "assets/backgrounds/bijie-20261020/art-noodles.json"
+      },
+      "default_scenes": [],
+      "explicit_nodes": [
+        "ch3_piao_c_01",
+        "ch3_piao_c_02",
+        "ch3_piao_c_03",
+        "ch3_piao_c_04",
+        "ch3_piao_c_05",
+        "ch3_piao_c_06",
+        "ch3_piao_c_07",
+        "ch3_piao_c_08",
+        "ch3_piao_c_09",
+        "ch3_piao_c_10",
+        "ch3_piao_c_11",
+        "ch3_piao_c_12",
+        "ch3_piao_c_13",
+        "ch3_piao_c_14",
+        "ch3_piao_c_15"
+      ],
+      "effective_scenes": [
+        "ch3_piao18"
+      ],
+      "effective_times": [
+        "傍晚"
+      ],
+      "display_node_count": 15,
+      "crop": {
+        "object_fit": "cover",
+        "desktop_object_position": "50% 50%",
+        "mobile_object_position": "55% 50%"
+      },
+      "qa": {
+        "asset_visual_review": true,
+        "browser_desktop": "1280x720 Chrome",
+        "browser_mobile": "390x844 Chrome模拟视口",
+        "report": "qa/scene-backgrounds-20261020/report.md"
+      },
+      "originalEncoding": {
+        "path": "assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.png",
+        "bytes": 2800492,
+        "sha256": "604c5c3251ee32c47008a5028968035f1f0cc2f84620ba6bc923b9b06e226232"
+      },
+      "format": "WebP"
+    },
+    {
+      "key": "noodles_dusk",
+      "path": "assets/backgrounds/bijie-20261020/bg-noodles-dusk.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2035924,
+      "sha256": "e4a0e4aa5baaf996064f949b382b1dbec9e7c53b01bff708e3b2b9dd335e582f",
+      "label": "坡口面馆·傍晚",
+      "transparent_background": false,
+      "source": {
+        "tool": "built-in image_gen",
+        "prompt_and_reference_record": "assets/backgrounds/bijie-20261020/art-noodles.json"
+      },
+      "default_scenes": [
+        "ch3_zhouzhi18",
+        "ch3_piao18"
+      ],
+      "explicit_nodes": [],
+      "effective_scenes": [
+        "ch3_zhouzhi18",
+        "ch3_piao18"
+      ],
+      "effective_times": [
+        "傍晚"
+      ],
+      "display_node_count": 36,
+      "crop": {
+        "object_fit": "cover",
+        "desktop_object_position": "50% 50%",
+        "mobile_object_position": "18% 50%"
+      },
+      "qa": {
+        "asset_visual_review": true,
+        "browser_desktop": "1280x720 Chrome",
+        "browser_mobile": "390x844 Chrome模拟视口",
+        "report": "qa/scene-backgrounds-20261020/report.md"
+      },
+      "originalEncoding": {
+        "path": "assets/backgrounds/bijie-20261020/bg-noodles-dusk.png",
+        "bytes": 2723269,
+        "sha256": "788d11bce8fe478df0c4e2b52d6ab9f6f066aa475c32d35986829e198d61b1ee"
+      },
+      "format": "WebP"
+    },
+    {
+      "key": "noodle_banquet_day",
+      "path": "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2285578,
+      "sha256": "b0b100f1e82cdcfeb58aa02c782480399ca2787582a00368a9a2a3dc01c68809",
+      "label": "坡口面馆家常席·下午",
+      "transparent_background": false,
+      "source": {
+        "tool": "built-in image_gen",
+        "prompt_and_reference_record": "assets/backgrounds/bijie-20261020/art-noodles.json"
+      },
+      "default_scenes": [
+        "epilogue_piao_maolang"
+      ],
+      "explicit_nodes": [],
+      "effective_scenes": [
+        "epilogue_piao_maolang"
+      ],
+      "effective_times": [
+        "下午"
+      ],
+      "display_node_count": 15,
+      "crop": {
+        "object_fit": "cover",
+        "desktop_object_position": "50% 50%",
+        "mobile_object_position": "18% 50%"
+      },
+      "qa": {
+        "asset_visual_review": true,
+        "browser_desktop": "1280x720 Chrome",
+        "browser_mobile": "390x844 Chrome模拟视口",
+        "report": "qa/scene-backgrounds-20261020/report.md"
+      },
+      "originalEncoding": {
+        "path": "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.png",
+        "bytes": 3121572,
+        "sha256": "e11e0d3b869faf362df516bf02a2101d522f7865500b6cb484360699db46f195"
+      },
+      "format": "WebP"
+    }
+  ],
+  "validation": "qa/scene-backgrounds-20261020/verification.json",
+  "browser_validation": "qa/scene-backgrounds-20261020/browser-results.json",
+  "webpMigration": {
+    "date": "2026-10-21",
+    "manifest": "assets/webp-manifest.json",
+    "report": "qa/webp-20261021/report.md",
+    "note": "本次仅更新交付图片路径与编码指纹；来源、选型及旧QA字段仍属历史制作记录。"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "task": "E08",
+  "date": "2026-10-23",
+  "scope": "全十章真实正文的隔离浏览器fixture，E07请求/A03图只供验证；背景与常规人物使用既有测试图；不代表正式演出接入",
+  "formalIntegration": false,
+  "checks": [
+    {
+      "name": "启动与新空间元信息",
+      "passed": true,
+      "reads": 4,
+      "writes": 1
+    },
+    {
+      "name": "变身前一行→精确变身→说话头像→刷新恢复",
+      "passed": true,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "章末继续与立绘清理",
+      "passed": true,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "结局人形与第九章重选",
+      "passed": true,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "第三章重选保留相识清除人形与后续选择",
+      "passed": true,
+      "reads": 6,
+      "writes": 3
+    },
+    {
+      "name": "相对日期与回顾无历史形象回填",
+      "passed": true,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "手动保存与读取元信息",
+      "passed": true,
+      "reads": 27,
+      "writes": 6
+    },
+    {
+      "name": "坏自动档保持字节且自动保存暂停",
+      "passed": true,
+      "reads": 2,
+      "writes": 0
+    },
+    {
+      "name": "拒绝启动：未知能力",
+      "passed": true,
+      "reads": 0,
+      "writes": 0
+    },
+    {
+      "name": "拒绝启动：不匹配契约",
+      "passed": true,
+      "reads": 0,
+      "writes": 0
+    },
+    {
+      "name": "拒绝启动：缺失人形",
+      "passed": true,
+      "reads": 0,
+      "writes": 0
+    },
+    {
+      "name": "缺显示组件拒绝启动且零存储访问",
+      "passed": true,
+      "reads": 0,
+      "writes": 0
+    },
+    {
+      "name": "人形文件缺失不回退球形",
+      "passed": true,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "视口与人形独立头像：desktop",
+      "passed": true,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "视口与人形独立头像：laptop",
+      "passed": true,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "视口与人形独立头像：phone",
+      "passed": true,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "视口与人形独立头像：small-phone",
+      "passed": true,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "视口与人形独立头像：landscape",
+      "passed": true,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "球形独立头像与等比显示",
+      "passed": true,
+      "reads": 5,
+      "writes": 2
+    },
+    {
+      "name": "小屏相对日序和七项选择可滚动触达",
+      "passed": true,
+      "reads": 7,
+      "writes": 4
+    }
+  ],
+  "screenshots": [
+    "任务拆分/全十章/校验/E08/human-transition-desktop.png",
+    "任务拆分/全十章/校验/E08/ending-desktop.png",
+    "任务拆分/全十章/校验/E08/human-desktop.png",
+    "任务拆分/全十章/校验/E08/human-laptop.png",
+    "任务拆分/全十章/校验/E08/human-phone.png",
+    "任务拆分/全十章/校验/E08/human-small-phone.png",
+    "任务拆分/全十章/校验/E08/human-landscape.png",
+    "任务拆分/全十章/校验/E08/sphere-phone.png",
+    "任务拆分/全十章/校验/E08/relative-small-phone.png",
+    "任务拆分/全十章/校验/E08/route-choice-small-phone.png"
+  ],
+  "pageErrors": [],
+  "runtimeHashes": {
+    "index.html": "d69ad01b4181d77ac990162c2e5a38d65839fe5208680ef2cd9972af3f2db197",
+    "styles.css": "1aa6e6c501f2d1198d812e849cf07f90d3f21024f0ad5c79602bebdde773374c",
+    "game.js": "a3cfb8a51d89e2bce23c7f3b2254818c80f43646f785b4e5bced089ce4c9f50b",
+    "engine.js": "363e4a9b1ddd9d6e012b6623af04c54f9fc077a065e9d1ee3b61981e9be5e39a",
+    "save-compat.js": "11cc52079a67a2ee32244206b79bb11e1cfe71874227aefdd1e768594a0e816f",
+    "player-runtime.js": "911385f9e9d3e608b859648c48b8ca832abd22de677e5d65d0b1fd83c8d39772"
+  },
+  "passed": 20,
+  "failed": 0
+}

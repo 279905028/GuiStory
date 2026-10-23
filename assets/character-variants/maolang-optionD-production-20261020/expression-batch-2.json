@@ -1,0 +1,138 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "reference": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-photo2-options-20261020/option-D-dialogue-stance.png",
+  "assets": [
+    {
+      "slug": "expression-downcast",
+      "name": "char-maolang-expression-downcast.png",
+      "change": "Change ONLY the facial expression: eyes slightly lowered and gaze quietly downcast, mouth gently closed with a restrained disappointed/sad mood. No crying, no tears, no dramatic grimace. Keep head position and tilt, both shoulders, torso, arms and hands exactly as master; the wrist-supported right hand remains relaxed down by his side. Do not move or rotate the head, no change to costume or flower pattern.",
+      "prompt": "Use case: identity-preserve. Asset type: production visual-novel character sprite of 毛狼 (Maolang), a fictional adult male. Input image 1 is the ONLY identity, costume, pose-scale, and art-style master: option D. Preserve the exact same ordinary friendly clever young Chinese man's face, facial geometry and skin, tousled fluffy short black hair, natural slightly asymmetrical features, restrained semi-realistic painterly rendering, black oversized T-shirt with the same multicolor outlined flower shapes clustered along the lower hem, black trousers, and black wrist support on his RIGHT hand (viewer-left side). No hat, no mask, no jacket, no jewelry, no prop. Maintain same head location, camera angle, body size, crop and character proportions as master; three-quarter/upper-thigh portrait on a 1024 x 1536 canvas. Preserve the warm soft lighting ON THE PERSON only, remove all source brown glow and dark backdrop: output a genuinely transparent PNG with clean antialiased alpha, no ground shadow, no vignette or colored haze. No labels/text/watermark; ONE single person. The LEFT hand (viewer-right side) MUST remain inside trouser pocket. Change ONLY the facial expression: eyes slightly lowered and gaze quietly downcast, mouth gently closed with a restrained disappointed/sad mood. No crying, no tears, no dramatic grimace. Keep head position and tilt, both shoulders, torso, arms and hands exactly as master; the wrist-supported right hand remains relaxed down by his side. Do not move or rotate the head, no change to costume or flower pattern.",
+      "source": "/Users/yipin/.codex/generated_images/01a157e2-9c18-7701-8823-365392da77f8/exec-403108a5-679f-4393-beba-fa1e3732905b.png",
+      "output": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-downcast.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "1e791d5a7b566633b97fe7c87be86105f11774bde8b7160c97ca5eec4d1c5274",
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        43,
+        1000,
+        1536
+      ],
+      "alpha_zero": 802775,
+      "alpha_255": 0,
+      "alpha_partial": 770089,
+      "alpha_max": 254,
+      "alpha_at_least_250": 723935,
+      "qa_status": "passed",
+      "source_sha256": "1e791d5a7b566633b97fe7c87be86105f11774bde8b7160c97ca5eec4d1c5274",
+      "original_bytes_preserved": true
+    },
+    {
+      "slug": "action-wave",
+      "name": "char-maolang-action-wave.png",
+      "change": "Change ONLY the wrist-supported RIGHT arm (viewer-left) into a casual friendly greeting: bend elbow and raise open hand near shoulder height to naturally wave, palm facing camera at slight angle. The hand must be anatomically correct, exactly five readable natural fingers (four fingers plus thumb), clean wrist connection to the black wrist support, no merging or extra digits. Keep face, friendly slight smile, hair, head location, torso, costume and left hand inside pocket exactly as master.",
+      "prompt": "Use case: identity-preserve. Asset type: production visual-novel character sprite of 毛狼 (Maolang), a fictional adult male. Input image 1 is the ONLY identity, costume, pose-scale, and art-style master: option D. Preserve the exact same ordinary friendly clever young Chinese man's face, facial geometry and skin, tousled fluffy short black hair, natural slightly asymmetrical features, restrained semi-realistic painterly rendering, black oversized T-shirt with the same multicolor outlined flower shapes clustered along the lower hem, black trousers, and black wrist support on his RIGHT hand (viewer-left side). No hat, no mask, no jacket, no jewelry, no prop. Maintain same head location, camera angle, body size, crop and character proportions as master; three-quarter/upper-thigh portrait on a 1024 x 1536 canvas. Preserve the warm soft lighting ON THE PERSON only, remove all source brown glow and dark backdrop: output a genuinely transparent PNG with clean antialiased alpha, no ground shadow, no vignette or colored haze. No labels/text/watermark; ONE single person. The LEFT hand (viewer-right side) MUST remain inside trouser pocket. Change ONLY the wrist-supported RIGHT arm (viewer-left) into a casual friendly greeting: bend elbow and raise open hand near shoulder height to naturally wave, palm facing camera at slight angle. The hand must be anatomically correct, exactly five readable natural fingers (four fingers plus thumb), clean wrist connection to the black wrist support, no merging or extra digits. Keep face, friendly slight smile, hair, head location, torso, costume and left hand inside pocket exactly as master.",
+      "source": "/Users/yipin/.codex/generated_images/01a157e2-9c18-7701-8823-365392da77f8/exec-56b0ba99-94de-4719-9e74-e01a9240c9a7.png",
+      "output": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-optionD-production-20261020/char-maolang-action-wave.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "cf2643dd3affe296beff6289d3a2f824d9ace8ac5c8b8faf824aad5e6dd0c6e5",
+      "mode": "RGBA",
+      "alpha_bbox": [
+        49,
+        45,
+        964,
+        1536
+      ],
+      "alpha_zero": 833897,
+      "alpha_255": 0,
+      "alpha_partial": 738967,
+      "alpha_max": 254,
+      "alpha_at_least_250": 697342,
+      "qa_status": "passed",
+      "source_sha256": "cf2643dd3affe296beff6289d3a2f824d9ace8ac5c8b8faf824aad5e6dd0c6e5",
+      "original_bytes_preserved": true
+    },
+    {
+      "slug": "action-thinking",
+      "name": "char-maolang-action-thinking.png",
+      "change": "Change ONLY the wrist-supported RIGHT arm (viewer-left): bend elbow and gently rest the right index finger along the underside/side of the chin with other fingers naturally curved, a light natural thinking gesture, not a fist covering the mouth. Keep all facial features fully visible, no hand blocking face. Keep the exact same face, slight thoughtful closed-mouth smile, hair, head location, torso and costume as master; LEFT hand remains in trouser pocket. Anatomically correct hand with five digits total, proper thumb direction and believable wrist connection.",
+      "prompt": "Use case: identity-preserve. Asset type: production visual-novel character sprite of 毛狼 (Maolang), a fictional adult male. Input image 1 is the ONLY identity, costume, pose-scale, and art-style master: option D. Preserve the exact same ordinary friendly clever young Chinese man's face, facial geometry and skin, tousled fluffy short black hair, natural slightly asymmetrical features, restrained semi-realistic painterly rendering, black oversized T-shirt with the same multicolor outlined flower shapes clustered along the lower hem, black trousers, and black wrist support on his RIGHT hand (viewer-left side). No hat, no mask, no jacket, no jewelry, no prop. Maintain same head location, camera angle, body size, crop and character proportions as master; three-quarter/upper-thigh portrait on a 1024 x 1536 canvas. Preserve the warm soft lighting ON THE PERSON only, remove all source brown glow and dark backdrop: output a genuinely transparent PNG with clean antialiased alpha, no ground shadow, no vignette or colored haze. No labels/text/watermark; ONE single person. The LEFT hand (viewer-right side) MUST remain inside trouser pocket. Change ONLY the wrist-supported RIGHT arm (viewer-left): bend elbow and gently rest the right index finger along the underside/side of the chin with other fingers naturally curved, a light natural thinking gesture, not a fist covering the mouth. Keep all facial features fully visible, no hand blocking face. Keep the exact same face, slight thoughtful closed-mouth smile, hair, head location, torso and costume as master; LEFT hand remains in trouser pocket. Anatomically correct hand with five digits total, proper thumb direction and believable wrist connection.",
+      "source": "/Users/yipin/.codex/generated_images/01a157e2-9c18-7701-8823-365392da77f8/exec-bdeb4895-3586-4592-85af-a83520340f48.png",
+      "output": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-optionD-production-20261020/char-maolang-action-thinking.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "19a7d81992b831b9d63199271cf7e3438be0c2e1c802d4fdc5a46fa426ab8a6c",
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        31,
+        1010,
+        1536
+      ],
+      "alpha_zero": 866179,
+      "alpha_255": 0,
+      "alpha_partial": 706685,
+      "alpha_max": 254,
+      "alpha_at_least_250": 665652,
+      "qa_status": "passed",
+      "source_sha256": "19a7d81992b831b9d63199271cf7e3438be0c2e1c802d4fdc5a46fa426ab8a6c",
+      "original_bytes_preserved": true
+    },
+    {
+      "slug": "action-explaining",
+      "name": "char-maolang-action-explaining.png",
+      "change": "Change ONLY the wrist-supported RIGHT arm (viewer-left): bend elbow to a relaxed natural conversational gesture, hand extended a little outward around lower-chest/stomach level, palm gently facing upward, as if explaining something. Exactly five anatomically correct natural digits, fingers separated slightly, believable thumb and wrist connection. Keep the same friendly face and slight conversational smile, hair, head location, torso, costume, and LEFT hand inside trouser pocket as master.",
+      "prompt": "Use case: identity-preserve. Asset type: production visual-novel character sprite of 毛狼 (Maolang), a fictional adult male. Input image 1 is the ONLY identity, costume, pose-scale, and art-style master: option D. Preserve the exact same ordinary friendly clever young Chinese man's face, facial geometry and skin, tousled fluffy short black hair, natural slightly asymmetrical features, restrained semi-realistic painterly rendering, black oversized T-shirt with the same multicolor outlined flower shapes clustered along the lower hem, black trousers, and black wrist support on his RIGHT hand (viewer-left side). No hat, no mask, no jacket, no jewelry, no prop. Maintain same head location, camera angle, body size, crop and character proportions as master; three-quarter/upper-thigh portrait on a 1024 x 1536 canvas. Preserve the warm soft lighting ON THE PERSON only, remove all source brown glow and dark backdrop: output a genuinely transparent PNG with clean antialiased alpha, no ground shadow, no vignette or colored haze. No labels/text/watermark; ONE single person. The LEFT hand (viewer-right side) MUST remain inside trouser pocket. Change ONLY the wrist-supported RIGHT arm (viewer-left): bend elbow to a relaxed natural conversational gesture, hand extended a little outward around lower-chest/stomach level, palm gently facing upward, as if explaining something. Exactly five anatomically correct natural digits, fingers separated slightly, believable thumb and wrist connection. Keep the same friendly face and slight conversational smile, hair, head location, torso, costume, and LEFT hand inside trouser pocket as master.",
+      "source": "/Users/yipin/.codex/generated_images/01a157e2-9c18-7701-8823-365392da77f8/exec-84be287a-000c-4e30-aa7d-1415453deb07.png",
+      "output": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-optionD-production-20261020/char-maolang-action-explaining.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "a0e342fc91735cb4fa1b3caf36932b3147dcc0aa884869de9d64f11763238d65",
+      "mode": "RGBA",
+      "alpha_bbox": [
+        0,
+        23,
+        988,
+        1536
+      ],
+      "alpha_zero": 851365,
+      "alpha_255": 0,
+      "alpha_partial": 721499,
+      "alpha_max": 254,
+      "alpha_at_least_250": 686212,
+      "qa_status": "passed",
+      "source_sha256": "a0e342fc91735cb4fa1b3caf36932b3147dcc0aa884869de9d64f11763238d65",
+      "original_bytes_preserved": true
+    }
+  ],
+  "qa": {
+    "status": "passed visual and alpha inspection",
+    "contact_sheet": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-optionD-production-20261020/qa-expressions-2.jpg",
+    "actual_checks": [
+      "Viewed complete light and dark background composites for all four sprites.",
+      "Viewed enlarged faces and visible hand gestures for all four sprites.",
+      "Wave has four fingers plus thumb, clean wrist-support connection; thinking finger touches underside of chin without blocking face; explaining uses an anatomically plausible relaxed upward palm.",
+      "Same short tousled hair, face, black lower-flower-print T-shirt, black right-wrist support and black trousers remain visually consistent with option D.",
+      "Left hand remains inside trouser pocket; no hat, mask, jacket or prop.",
+      "Downcast has lowered eyes and closed mouth, no tears; relaxed arm retained.",
+      "PNG dimensions checked 1024x1536 RGBA, genuinely empty alpha around figures; generated original alpha preserved byte-for-byte.",
+      "Bright and dark composites show no rectangular backdrop or obvious brown glow; fine hair edges remain soft."
+    ],
+    "limitations": [
+      "Generated variants have small natural rendering differences in head/hair/cloth details; sprite body scale and framing remain close to master.",
+      "Built-in output alpha tops at 254 (not 255); original alpha deliberately preserved, no thresholding or matte removal.",
+      "No game integration or browser acceptance performed by this subtask."
+    ]
+  },
+  "reference_sha256": "1b6302e8c1fb95eb104cd645ab7fdc638ff0c30ed83b43779acdb61b1cc3006c"
+}

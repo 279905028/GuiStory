@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "id": "CG04",
+  "date": "2026-10-20",
+  "status": "美术自审采用；待用户审阅、工程接入及正式游戏验收",
+  "tool": "内置image_gen",
+  "storySha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+  "references": [
+    {
+      "path": "assets/char-mengyao.png",
+      "sha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+      "role": "正式角色身份参考"
+    },
+    {
+      "path": "assets/char-wenwen.png",
+      "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "role": "正式角色身份参考"
+    },
+    {
+      "path": "assets/bg-street.png",
+      "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "role": "正式空间材质参考"
+    },
+    {
+      "path": "assets/cg/cg-02-xiaoman-mirror.png",
+      "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e",
+      "role": "已采用CG的统一画法参考"
+    },
+    {
+      "path": "assets/cg/cg-08-huangqiuqiu-listening.png",
+      "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1",
+      "role": "已采用CG的统一画法参考"
+    }
+  ],
+  "attempts": [
+    {
+      "version": "candidate-v1",
+      "prompt": "用途：illustration-story；《毕节，雨停之前》第1—10天序章的完整剧情CG，不是立绘拼贴。统一画法：日系半写实视觉小说插画，成年中国人物，面部严格匹配正式角色参考，自然真实比例，细腻克制的绘画质感，旧物与衣料有生活纹理，灰青环境与实用暖光相融，不改成夸张动漫脸、3D玩偶或照片风格。横向16:9，目标1920×1080不透明PNG。所有重要脸、手和道具放在画面上方15%至62%范围，底部35%以非关键衣物、地面等自然场景延伸容纳将来的对白；不画任何文字、标注、对白框、界面、标题、边框、水印。人物与环境统一重绘，自然遮挡、透视和接触影，禁止把参考立绘直接贴入背景。\n本张CG04：第7天下午，屋檐下重逢，放低的镜头。输入图1是孟遥23岁成年面孔、栗色头发、米白衬衫、棕色相机背带与相机正式参考；图2作文文肩侧深灰维修夹克参考；图3借坡街屋檐与湿地空间，必须从雨夜改成阴雨下午漫射天光。从文文眼高的轻肩侧视点看孟遥，前景左边只露一小块文文肩，不露脸大特写，不将文文另画在对面。孟遥位于画面右中部，脸中心约65%宽30%高，刚认出文文，神情有停顿和一点戒备，嘴略张，没有微笑、原谅或委屈哭泣。她的栗发在肩边湿了一小块，双手把黑色相机放低到胸口以下，相机和手自然连在背带上，处在画面45%至60%高度。镜头盖在她左口袋里，镜头前不装盖；相机还没有收到包里也没有举起拍摄。两人之间保留明显空气距离，中间可见檐外细雨和湿坡道；屋檐滴水清楚，面部有自然柔光。只有孟遥与文文局部肩，没有叶岚或额外人物，不画拥抱、牵手、拍摄开始、和解或约谈已经完成。\n最后两张额外参考仅用于统一本批已采用CG02与CG08的绘画细腻程度、真实比例、旧环境质感和暖冷光融合。不能把这两张参考的小满、黄球球、理发店或包厢场景额外带入本张。以本张各自规定的人物和场景为准。镜头尽量用有环境纵深的中景，不要裁掉关键的手、道具或伞，所有比例自然，不用加黑条制作底部空间。",
+      "source": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a15384-7737-7423-837c-ceee66e56f7e/exec-f20b38e6-81af-4397-980c-b4badb92e84b.png",
+      "archive": "assets/cg-variants/CG04/candidate-v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2500027,
+      "sha256": "d29f637064098205d9c6e0f1e38729bb8231940738a31beb652bac60cfb18067",
+      "review": "阴雨下午、相机放低、湿发、戒备停顿与双方距离成立；无和解、拥抱或正式拍摄。相机偏下，须独立完整显示。",
+      "inputReferences": [
+        {
+          "path": "assets/char-mengyao.png",
+          "sha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6"
+        },
+        {
+          "path": "assets/char-wenwen.png",
+          "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44"
+        },
+        {
+          "path": "assets/bg-street.png",
+          "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e"
+        },
+        {
+          "path": "assets/cg/cg-02-xiaoman-mirror.png",
+          "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e"
+        },
+        {
+          "path": "assets/cg/cg-08-huangqiuqiu-listening.png",
+          "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1"
+        }
+      ],
+      "toolArguments": {
+        "prompt": "用途：illustration-story；《毕节，雨停之前》第1—10天序章的完整剧情CG，不是立绘拼贴。统一画法：日系半写实视觉小说插画，成年中国人物，面部严格匹配正式角色参考，自然真实比例，细腻克制的绘画质感，旧物与衣料有生活纹理，灰青环境与实用暖光相融，不改成夸张动漫脸、3D玩偶或照片风格。横向16:9，目标1920×1080不透明PNG。所有重要脸、手和道具放在画面上方15%至62%范围，底部35%以非关键衣物、地面等自然场景延伸容纳将来的对白；不画任何文字、标注、对白框、界面、标题、边框、水印。人物与环境统一重绘，自然遮挡、透视和接触影，禁止把参考立绘直接贴入背景。\n本张CG04：第7天下午，屋檐下重逢，放低的镜头。输入图1是孟遥23岁成年面孔、栗色头发、米白衬衫、棕色相机背带与相机正式参考；图2作文文肩侧深灰维修夹克参考；图3借坡街屋檐与湿地空间，必须从雨夜改成阴雨下午漫射天光。从文文眼高的轻肩侧视点看孟遥，前景左边只露一小块文文肩，不露脸大特写，不将文文另画在对面。孟遥位于画面右中部，脸中心约65%宽30%高，刚认出文文，神情有停顿和一点戒备，嘴略张，没有微笑、原谅或委屈哭泣。她的栗发在肩边湿了一小块，双手把黑色相机放低到胸口以下，相机和手自然连在背带上，处在画面45%至60%高度。镜头盖在她左口袋里，镜头前不装盖；相机还没有收到包里也没有举起拍摄。两人之间保留明显空气距离，中间可见檐外细雨和湿坡道；屋檐滴水清楚，面部有自然柔光。只有孟遥与文文局部肩，没有叶岚或额外人物，不画拥抱、牵手、拍摄开始、和解或约谈已经完成。\n最后两张额外参考仅用于统一本批已采用CG02与CG08的绘画细腻程度、真实比例、旧环境质感和暖冷光融合。不能把这两张参考的小满、黄球球、理发店或包厢场景额外带入本张。以本张各自规定的人物和场景为准。镜头尽量用有环境纵深的中景，不要裁掉关键的手、道具或伞，所有比例自然，不用加黑条制作底部空间。",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-mengyao.png",
+          "/Users/yipin/Desktop/cjb/assets/char-wenwen.png",
+          "/Users/yipin/Desktop/cjb/assets/bg-street.png",
+          "/Users/yipin/Desktop/cjb/assets/cg/cg-02-xiaoman-mirror.png",
+          "/Users/yipin/Desktop/cjb/assets/cg/cg-08-huangqiuqiu-listening.png"
+        ],
+        "transparent_background": false
+      }
+    }
+  ],
+  "adopted": {
+    "version": "candidate-v1",
+    "path": "assets/cg/cg-04-mengyao-camera.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2500027,
+    "sha256": "d29f637064098205d9c6e0f1e38729bb8231940738a31beb652bac60cfb18067",
+    "postprocessing": "无；原生PNG逐字节复制，未放大、裁切或拉伸",
+    "selectionAuthority": "本窗口依据已确认分镜与正式参考作美术自审采用；非用户逐图终审",
+    "dimensionNote": "保留原生输出，非1920×1080；不拉伸、不放大或伪称高分辨率母版"
+  },
+  "gameAcceptance": "未接入、未验收",
+  "criticalRegions": {
+    "coordinateSystem": "整张原图百分比[x,y,w,h]，左上原点",
+    "method": "人工观察估计，非像素级分割；只作布局避让说明，不能直接当裁切参数",
+    "items": [
+      {
+        "label": "孟遥脸与湿发",
+        "rect": [
+          55,
+          8,
+          17,
+          40
+        ]
+      },
+      {
+        "label": "放低的相机与双手",
+        "rect": [
+          54,
+          70,
+          19,
+          23
+        ]
+      },
+      {
+        "label": "双方距离",
+        "rect": [
+          30,
+          20,
+          14,
+          60
+        ]
+      }
+    ]
+  },
+  "display": {
+    "approvedCrop": null,
+    "fit": "contain",
+    "desktop": "独立完整画面区，与对白区分开；不可直接沿用底部35%覆盖式对白",
+    "mobile": "完整横图、留边、独立对白；无竖版、无拉伸",
+    "reason": "实际多张图的关键道具或手位于原图下部，已按分镜约定的超出目标时改布局方案交接",
+    "staticChecks": [
+      {
+        "viewport": [
+          1440,
+          900
+        ],
+        "screenshot": "qa/cg-m2-CG04-static-1440x900.png"
+      },
+      {
+        "viewport": [
+          1280,
+          720
+        ],
+        "screenshot": "qa/cg-m2-CG04-static-1280x720.png"
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "screenshot": "qa/cg-m2-CG04-static-390x844.png"
+      },
+      {
+        "viewport": [
+          375,
+          667
+        ],
+        "screenshot": "qa/cg-m2-CG04-static-375x667.png"
+      },
+      {
+        "viewport": [
+          844,
+          390
+        ],
+        "screenshot": "qa/cg-m2-CG04-static-844x390.png"
+      }
+    ],
+    "rawChecks": "qa/cg-m2-static-checks.json",
+    "staticReviewPage": "qa/cg-m2-art-review.html",
+    "manualSmallScreenReview": "已逐张查看375×667截图；脸、动作及主要道具可辨；纸张细字不作识别要求",
+    "gameAcceptance": "未执行"
+  },
+  "integration": {
+    "cgKey": "cg04",
+    "nodeIds": [
+      "s7_camera_01",
+      "s7_camera_02",
+      "s7_camera_03",
+      "s7_camera_04",
+      "s7_camera_05",
+      "s7_camera_06"
+    ],
+    "restoreAt": "s7_camera_07",
+    "status": "待CG-D统一接入，story.js未修改",
+    "hidden": false,
+    "hiddenLoadBoundary": null
+  }
+}

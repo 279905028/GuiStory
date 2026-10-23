@@ -1,0 +1,88 @@
+{
+  "contract": "R2",
+  "status": "recommendation_not_applied_to_css",
+  "sourceSize": [
+    1024,
+    1536
+  ],
+  "coordinateConvention": "[left,top,right,bottom], right/bottom exclusive",
+  "avatarCrops": {
+    "wenwen": [
+      180,
+      0,
+      780,
+      720
+    ],
+    "xiaoman": [
+      220,
+      0,
+      820,
+      720
+    ],
+    "zhouzhi": [
+      190,
+      0,
+      790,
+      720
+    ],
+    "mengyao": [
+      180,
+      0,
+      780,
+      720
+    ],
+    "yelan": [
+      190,
+      0,
+      790,
+      720
+    ]
+  },
+  "nativePreviewSizes": [
+    [
+      97,
+      119
+    ],
+    [
+      60,
+      70
+    ]
+  ],
+  "desktop": {
+    "stage": [
+      1280,
+      720
+    ],
+    "scale": 1.0,
+    "renderedImage": [
+      398.4,
+      597.6
+    ],
+    "imageLeftTop": [
+      703.2,
+      50.4
+    ]
+  },
+  "mobile": {
+    "stage": [
+      390,
+      844
+    ],
+    "scale": 1.0,
+    "renderedImage": [
+      374.4,
+      561.6
+    ],
+    "imageLeftTop": [
+      54.6,
+      71.4
+    ],
+    "suggestedRightPercent": 0,
+    "suggestedImageLeftTop": [
+      15.6,
+      71.4
+    ],
+    "currentRightPercent": -10,
+    "note": "Existing imageLeftTop is current CSS. Suggested right 0 shifts image left 39 px at 390 px stage width."
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "CG01",
+  "date": "2026-10-20",
+  "status": "美术自审采用；待用户审阅、工程接入及正式游戏验收",
+  "tool": "内置image_gen",
+  "storySha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+  "references": [
+    {
+      "path": "assets/char-wenwen.png",
+      "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "role": "正式角色身份参考"
+    },
+    {
+      "path": "assets/bg-street.png",
+      "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "role": "正式空间材质参考"
+    },
+    {
+      "path": "assets/cg/cg-02-xiaoman-mirror.png",
+      "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e",
+      "role": "已采用CG的统一画法参考"
+    },
+    {
+      "path": "assets/cg/cg-08-huangqiuqiu-listening.png",
+      "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1",
+      "role": "已采用CG的统一画法参考"
+    }
+  ],
+  "attempts": [
+    {
+      "version": "candidate-v1",
+      "prompt": "用途：illustration-story；《毕节，雨停之前》第1—10天序章的完整剧情CG，不是立绘拼贴。统一画法：日系半写实视觉小说插画，成年中国人物，面部严格匹配正式角色参考，自然真实比例，细腻克制的绘画质感，旧物与衣料有生活纹理，灰青环境与实用暖光相融，不改成夸张动漫脸、3D玩偶或照片风格。横向16:9，目标1920×1080不透明PNG。所有重要脸、手和道具放在画面上方15%至62%范围，底部35%以非关键衣物、地面等自然场景延伸容纳将来的对白；不画任何文字、标注、对白框、界面、标题、边框、水印。人物与环境统一重绘，自然遮挡、透视和接触影，禁止把参考立绘直接贴入背景。\n本张CG01：第1天下午雨中返乡，站牌玻璃里的归人。输入图1仅作文文脸、短寸、圆润脸型、旧深灰维修夹克与灰内搭的正式身份参考；图2仅作毕节老街坡道、石墙、雨棚和湿路材质参考，必须将雨夜改为明确阴雨下午、天空与环境均有漫射天光。文文第一人称眼高斜看站牌玻璃，玻璃上有薄薄雨痕，其倒影显示压湿的短寸、疲倦的圆脸和一点自嘲，倒影脸在画面40%宽30%高。实体只露画面边缘少许夹克衣袖，不再画第二个完整文文。一个旧硬壳旅行箱放在左中层25%宽50%高，另一个独立深色工具包放在中右60%宽50%高；箱子和工具包都在玻璃前，玻璃反射的方向和位置必须一致。重要道具上半部落在画面60%高度以内，底部自然延伸湿地。背后湿坡道和普通旧楼向上延伸，无接站人、无其他具名人物；大巴已驶走，不画大巴挡住镜面。不出现手机屏幕、车票、录用、黄球球、夜色或一片霓虹。站牌无可读文字。完整的克制返乡叙事插画。\n最后两张额外参考仅用于统一本批已采用CG02与CG08的绘画细腻程度、真实比例、旧环境质感和暖冷光融合。不能把这两张参考的小满、黄球球、理发店或包厢场景额外带入本张。以本张各自规定的人物和场景为准。镜头尽量用有环境纵深的中景，不要裁掉关键的手、道具或伞，所有比例自然，不用加黑条制作底部空间。",
+      "source": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a15384-7737-7423-837c-ceee66e56f7e/exec-db33627d-30de-4da8-ba95-230c6b983c82.png",
+      "archive": "assets/cg-variants/CG01/candidate-v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2640053,
+      "sha256": "12309c94b8fa313074621f59e7b8d076d2f2277a8f0164cba4ff011aea192a33",
+      "review": "阴雨下午、站牌倒影、独立箱子与工具包成立；脸与实体反射一致。道具偏下，须独立完整显示。",
+      "inputReferences": [
+        {
+          "path": "assets/char-wenwen.png",
+          "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44"
+        },
+        {
+          "path": "assets/bg-street.png",
+          "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e"
+        },
+        {
+          "path": "assets/cg/cg-02-xiaoman-mirror.png",
+          "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e"
+        },
+        {
+          "path": "assets/cg/cg-08-huangqiuqiu-listening.png",
+          "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1"
+        }
+      ],
+      "toolArguments": {
+        "prompt": "用途：illustration-story；《毕节，雨停之前》第1—10天序章的完整剧情CG，不是立绘拼贴。统一画法：日系半写实视觉小说插画，成年中国人物，面部严格匹配正式角色参考，自然真实比例，细腻克制的绘画质感，旧物与衣料有生活纹理，灰青环境与实用暖光相融，不改成夸张动漫脸、3D玩偶或照片风格。横向16:9，目标1920×1080不透明PNG。所有重要脸、手和道具放在画面上方15%至62%范围，底部35%以非关键衣物、地面等自然场景延伸容纳将来的对白；不画任何文字、标注、对白框、界面、标题、边框、水印。人物与环境统一重绘，自然遮挡、透视和接触影，禁止把参考立绘直接贴入背景。\n本张CG01：第1天下午雨中返乡，站牌玻璃里的归人。输入图1仅作文文脸、短寸、圆润脸型、旧深灰维修夹克与灰内搭的正式身份参考；图2仅作毕节老街坡道、石墙、雨棚和湿路材质参考，必须将雨夜改为明确阴雨下午、天空与环境均有漫射天光。文文第一人称眼高斜看站牌玻璃，玻璃上有薄薄雨痕，其倒影显示压湿的短寸、疲倦的圆脸和一点自嘲，倒影脸在画面40%宽30%高。实体只露画面边缘少许夹克衣袖，不再画第二个完整文文。一个旧硬壳旅行箱放在左中层25%宽50%高，另一个独立深色工具包放在中右60%宽50%高；箱子和工具包都在玻璃前，玻璃反射的方向和位置必须一致。重要道具上半部落在画面60%高度以内，底部自然延伸湿地。背后湿坡道和普通旧楼向上延伸，无接站人、无其他具名人物；大巴已驶走，不画大巴挡住镜面。不出现手机屏幕、车票、录用、黄球球、夜色或一片霓虹。站牌无可读文字。完整的克制返乡叙事插画。\n最后两张额外参考仅用于统一本批已采用CG02与CG08的绘画细腻程度、真实比例、旧环境质感和暖冷光融合。不能把这两张参考的小满、黄球球、理发店或包厢场景额外带入本张。以本张各自规定的人物和场景为准。镜头尽量用有环境纵深的中景，不要裁掉关键的手、道具或伞，所有比例自然，不用加黑条制作底部空间。",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-wenwen.png",
+          "/Users/yipin/Desktop/cjb/assets/bg-street.png",
+          "/Users/yipin/Desktop/cjb/assets/cg/cg-02-xiaoman-mirror.png",
+          "/Users/yipin/Desktop/cjb/assets/cg/cg-08-huangqiuqiu-listening.png"
+        ],
+        "transparent_background": false
+      }
+    }
+  ],
+  "adopted": {
+    "version": "candidate-v1",
+    "path": "assets/cg/cg-01-rain-return.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2640053,
+    "sha256": "12309c94b8fa313074621f59e7b8d076d2f2277a8f0164cba4ff011aea192a33",
+    "postprocessing": "无；原生PNG逐字节复制，未放大、裁切或拉伸",
+    "selectionAuthority": "本窗口依据已确认分镜与正式参考作美术自审采用；非用户逐图终审",
+    "dimensionNote": "保留原生输出，非1920×1080；不拉伸、不放大或伪称高分辨率母版"
+  },
+  "gameAcceptance": "未接入、未验收",
+  "criticalRegions": {
+    "coordinateSystem": "整张原图百分比[x,y,w,h]，左上原点",
+    "method": "人工观察估计，非像素级分割；只作布局避让说明，不能直接当裁切参数",
+    "items": [
+      {
+        "label": "玻璃倒影脸",
+        "rect": [
+          33,
+          7,
+          18,
+          33
+        ]
+      },
+      {
+        "label": "箱子辨识区",
+        "rect": [
+          15,
+          42,
+          29,
+          58
+        ]
+      },
+      {
+        "label": "工具包辨识区",
+        "rect": [
+          44,
+          62,
+          29,
+          38
+        ]
+      }
+    ]
+  },
+  "display": {
+    "approvedCrop": null,
+    "fit": "contain",
+    "desktop": "独立完整画面区，与对白区分开；不可直接沿用底部35%覆盖式对白",
+    "mobile": "完整横图、留边、独立对白；无竖版、无拉伸",
+    "reason": "实际多张图的关键道具或手位于原图下部，已按分镜约定的超出目标时改布局方案交接",
+    "staticChecks": [
+      {
+        "viewport": [
+          1440,
+          900
+        ],
+        "screenshot": "qa/cg-m1-CG01-static-1440x900.png"
+      },
+      {
+        "viewport": [
+          1280,
+          720
+        ],
+        "screenshot": "qa/cg-m1-CG01-static-1280x720.png"
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "screenshot": "qa/cg-m1-CG01-static-390x844.png"
+      },
+      {
+        "viewport": [
+          375,
+          667
+        ],
+        "screenshot": "qa/cg-m1-CG01-static-375x667.png"
+      },
+      {
+        "viewport": [
+          844,
+          390
+        ],
+        "screenshot": "qa/cg-m1-CG01-static-844x390.png"
+      }
+    ],
+    "rawChecks": "qa/cg-m1-static-checks.json",
+    "staticReviewPage": "qa/cg-m1-art-review.html",
+    "manualSmallScreenReview": "已逐张查看375×667截图；脸、动作及主要道具可辨；纸张细字不作识别要求",
+    "gameAcceptance": "未执行"
+  },
+  "integration": {
+    "cgKey": "cg01",
+    "nodeIds": [
+      "s1_arrive_02",
+      "s1_arrive_03"
+    ],
+    "restoreAt": "s1_arrive_04",
+    "status": "待CG-D统一接入，story.js未修改",
+    "hidden": false,
+    "hiddenLoadBoundary": null
+  }
+}

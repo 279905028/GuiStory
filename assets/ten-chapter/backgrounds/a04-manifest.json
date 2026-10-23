@@ -1,0 +1,2144 @@
+{
+  "schemaVersion": "1.0.0",
+  "version": "a04-20261023-v1",
+  "owner": "A04",
+  "status": "art-delivered-pending-A06",
+  "date": "2026-10-23",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "a01Version": "a01-20261022-v1-contract1",
+  "a01Sha256": "10cd396bf8de6e26e54ee60bc494fb512bb697ecc46a7f23b631b4e214a351b2",
+  "counts": {
+    "a01BackgroundIds": 53,
+    "generatedSelected": 45,
+    "reused": 10,
+    "extraTimeVariants": 2,
+    "selectedFiles": 55,
+    "generatedSourceFiles": 48,
+    "supersededSources": 3,
+    "sourceSections": 180
+  },
+  "actualIntegration": false,
+  "pathsRelativeTo": "project-root",
+  "items": [
+    {
+      "id": "tc-bg-street-day",
+      "label": "毕节街道/坡口·日间",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "reuse",
+      "deliveredAction": "reuse",
+      "file": "assets/background-variants/m2-daynight-20261020/bg-street-day.webp",
+      "sourcePath": null,
+      "width": 1671,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2137550,
+      "sha256": "3841f1ae27040c2416b73466f22fbf7664145b9aa2617bce1fbf4b1d17b2a7d7",
+      "generationId": null,
+      "cueIds": [
+        "a01-ch03-xiaoman-02",
+        "a01-ch03-piao-01",
+        "a01-ch03-piao-02",
+        "a01-ch04-xiaoman-01",
+        "a01-ch04-xiaoman-02",
+        "a01-ch04-mengyao-01",
+        "a01-ch04-mengyao-02",
+        "a01-ch04-mengyao-03",
+        "a01-ch04-yelan-04",
+        "a01-ch06-xiaoman-01",
+        "a01-ch06-zhouzhi-01",
+        "a01-ch06-mengyao-02",
+        "a01-ch07-zhouzhi-01",
+        "a01-ch07-mengyao-04",
+        "a01-ch07-piao-01",
+        "a01-ch07-piao-02",
+        "a01-ch07-piao-03",
+        "a01-ch07-piao-04",
+        "a01-ch07-friends-02",
+        "a01-ch08-piao-02",
+        "a01-ch08-friends-03",
+        "a01-ch09-piao-03",
+        "a01-ch10-xiaoman-02",
+        "a01-ch10-piao-02",
+        "a01-ch10-friends-03"
+      ],
+      "notes": "不同街段可用中性街景；不能凭背景认定同一地址。",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "中央街道可辨；左右店面与坡口不应作为裁后必读线索。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-street-dusk",
+      "label": "毕节街道/坡口·尚亮傍晚",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "revise",
+      "deliveredAction": "revise",
+      "file": "assets/ten-chapter/backgrounds/bg-street-dusk.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-street-dusk.png",
+      "width": 1670,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2213484,
+      "sha256": "061fa2e8b432f55dfdfdacdae98be6f1b13e2b34d72b181c230c440daa9e6eed",
+      "generationId": "street-dusk",
+      "cueIds": [
+        "a01-ch03-zhouzhi-01",
+        "a01-ch03-yelan-01",
+        "a01-ch04-zhouzhi-04",
+        "a01-ch05-mengyao-01",
+        "a01-ch06-yelan-01",
+        "a01-ch07-xiaoman-01",
+        "a01-ch07-xiaoman-04",
+        "a01-ch07-zhouzhi-04",
+        "a01-ch08-zhouzhi-01",
+        "a01-ch09-zhouzhi-03"
+      ],
+      "notes": "不能因17—18点直接套黑夜；按原文天色制作。",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "保持与日景同一街道结构，左右门面需全景建立。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-slope-day",
+      "label": "居民坡道与矮墙·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "reuse",
+      "deliveredAction": "reuse",
+      "file": "assets/backgrounds/bijie-20261020/bg-residential-slope-day.webp",
+      "sourcePath": null,
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2340464,
+      "sha256": "d5920c93d6841fd26f71766ca7ea52d368464f680da573e0114f3913c0bb95f5",
+      "generationId": null,
+      "cueIds": [
+        "a01-ch01-common-01",
+        "a01-ch01-common-05",
+        "a01-ch04-friends-03",
+        "a01-ch09-xiaoman-01",
+        "a01-ch09-xiaoman-02",
+        "a01-ch09-xiaoman-03"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "坡道、栏墙能作中性街景；需要完整转弯关系时保留全幅。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-busstop-day",
+      "label": "公交站·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "reuse",
+      "deliveredAction": "reuse",
+      "file": "assets/backgrounds/bijie-20261020/bg-busstop-day.webp",
+      "sourcePath": null,
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2301340,
+      "sha256": "335b2bf31c5ec8828589bcd5551c708ec8a7f914408d8635ca7f53d38a700b16",
+      "generationId": null,
+      "cueIds": [
+        "a01-ch01-common-01",
+        "a01-ch03-xiaoman-02",
+        "a01-ch03-piao-05",
+        "a01-ch04-mengyao-04",
+        "a01-ch09-xiaoman-03",
+        "a01-ch09-yelan-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "站棚和长凳横向展开；居中竖裁会丢失部分设施。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-busstop-dusk",
+      "label": "公交站·傍晚",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "revise",
+      "deliveredAction": "revise",
+      "file": "assets/ten-chapter/backgrounds/bg-busstop-dusk.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-busstop-dusk.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2218152,
+      "sha256": "79cdc400602dd639725f3ca6f9629438f407fe086dd4688868a82a9b40a07a3f",
+      "generationId": "busstop-dusk",
+      "cueIds": [
+        "a01-ch03-xiaoman-02",
+        "a01-ch04-xiaoman-04",
+        "a01-ch05-zhouzhi-01",
+        "a01-ch06-mengyao-01"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "同站棚傍晚；保持站棚与道路整体关系。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-netcafe-counter-day",
+      "label": "网吧入口/柜台·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-netcafe-counter-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-netcafe-counter-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1744932,
+      "sha256": "ad4441bd82897f63a57766890badb01a9ea981052b701906f62cc8f4ac97ba09",
+      "generationId": "netcafe-counter-day",
+      "cueIds": [
+        "a01-ch01-common-01",
+        "a01-ch01-common-03",
+        "a01-ch03-mengyao-02",
+        "a01-ch03-huangqiuqiu-01",
+        "a01-ch04-piao-04",
+        "a01-ch05-friends-02",
+        "a01-ch06-friends-01",
+        "a01-ch08-common-01",
+        "a01-ch09-common-01",
+        "a01-ch10-common-01",
+        "a01-ch10-friends-03"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "收银台、玻璃入口及邻近机位跨越横幅；先以全景建立网吧。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-netcafe-pc-day",
+      "label": "网吧机位·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-netcafe-pc-day-v2.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-netcafe-pc-day-v2.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1557002,
+      "sha256": "51ff1a9e3c17996078d2c3c01553e2145da54f26c1b39547ac0b740a57525446",
+      "generationId": "netcafe-pc-day-v2",
+      "cueIds": [
+        "a01-ch03-mengyao-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "双机位偏左、柜台偏右；居中竖裁只剩部分屏幕。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-courtyard-day",
+      "label": "后院门内干处/凳子/门框天空·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-courtyard-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-courtyard-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1947068,
+      "sha256": "d20a905d8da1113440fa0f0a48811223e5e1505ad9bff5703e033746b59b9eee",
+      "generationId": "courtyard-day",
+      "cueIds": [
+        "a01-ch03-huangqiuqiu-01",
+        "a01-ch03-huangqiuqiu-02",
+        "a01-ch03-huangqiuqiu-03",
+        "a01-ch04-huangqiuqiu-01",
+        "a01-ch04-huangqiuqiu-02",
+        "a01-ch04-huangqiuqiu-03",
+        "a01-ch04-huangqiuqiu-04",
+        "a01-ch05-huangqiuqiu-01",
+        "a01-ch05-huangqiuqiu-02",
+        "a01-ch06-huangqiuqiu-01",
+        "a01-ch06-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-01",
+        "a01-ch07-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-03",
+        "a01-ch08-huangqiuqiu-01",
+        "a01-ch08-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-01",
+        "a01-ch09-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-03",
+        "a01-ch10-huangqiuqiu-01",
+        "a01-ch10-huangqiuqiu-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "两只蓝凳位于下部；对话框勿盖住两凳与门槛；无球球预置。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-rental-day",
+      "label": "文文出租屋床/桌/生活角·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-rental-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-rental-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1499346,
+      "sha256": "c999c0db4168e7133bc0bf5d9ae0c94fcc6acae88f4fb386389ac18fad7db626",
+      "generationId": "rental-day",
+      "cueIds": [
+        "a01-ch01-common-03",
+        "a01-ch03-common-01",
+        "a01-ch03-mengyao-01",
+        "a01-ch03-piao-01",
+        "a01-ch03-friends-03",
+        "a01-ch03-huangqiuqiu-01",
+        "a01-ch04-common-01",
+        "a01-ch04-xiaoman-01",
+        "a01-ch04-friends-01",
+        "a01-ch04-friends-04",
+        "a01-ch05-friends-01",
+        "a01-ch06-friends-03",
+        "a01-ch07-common-01",
+        "a01-ch07-xiaoman-01",
+        "a01-ch07-yelan-01",
+        "a01-ch07-friends-04",
+        "a01-ch08-xiaoman-01",
+        "a01-ch08-friends-01",
+        "a01-ch08-friends-03",
+        "a01-ch09-mengyao-03",
+        "a01-ch09-friends-03"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "床偏左、桌与椅居中；全幅可同时交代单人床、书桌与生活角。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-netcafe-counter-night",
+      "label": "网吧入口/柜台·夜",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-netcafe-counter-night.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-netcafe-counter-night.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1676142,
+      "sha256": "60e72e85116772bdcdc958580e702e8f393384a77dafd560b166f0c56dd59354",
+      "generationId": "netcafe-counter-night",
+      "cueIds": [
+        "a01-ch01-common-02",
+        "a01-ch02-common-01",
+        "a01-ch02-common-05",
+        "a01-ch03-mengyao-02",
+        "a01-ch06-common-01",
+        "a01-ch06-mengyao-01",
+        "a01-ch07-yelan-01",
+        "a01-ch08-friends-01",
+        "a01-ch10-yelan-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "与日景同构；人物避免覆盖柜台与门口。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-netcafe-pc-night",
+      "label": "网吧机位·夜",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-netcafe-pc-night.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-netcafe-pc-night.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1593316,
+      "sha256": "312a7180bb2cbc8278f2066484ca8c441912fe6364eaf6ff80af150da915b170",
+      "generationId": "netcafe-pc-night",
+      "cueIds": [
+        "a01-ch03-yelan-02",
+        "a01-ch05-yelan-01"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "双机位位置沿用日景；空场背景不固定顾客身份。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-backdoor-night",
+      "label": "网吧侧路/后院门外·夜",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-backdoor-night.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-backdoor-night.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1827712,
+      "sha256": "a474cf147f2c40281f8a030e2eb714fd5611469481f5f426567ba2d4b608448f",
+      "generationId": "backdoor-night",
+      "cueIds": [
+        "a01-ch01-common-02",
+        "a01-ch02-common-01"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "门外视角；门缝不显球形／人形，隐藏线身份由节点控制。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-courtyard-night",
+      "label": "后院门内干处/凳子/门框天空·夜",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-courtyard-night.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-courtyard-night.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1813800,
+      "sha256": "89e6e29d4a6c2a0feae26f80a520e1e7d883c1c1049106d841b76b25771c7c29",
+      "generationId": "courtyard-night",
+      "cueIds": [
+        "a01-ch02-common-05"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "与日景同构；门框天空、两凳和侧门需全景或分镜保留。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-rental-night",
+      "label": "文文出租屋床/桌/生活角·夜",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-rental-night.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-rental-night.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1344462,
+      "sha256": "6ac0a4e1ac9ef3b9a828fdb3eb13339853286e61f695c30897c5463c74fe107b",
+      "generationId": "rental-night",
+      "cueIds": [
+        "a01-ch01-common-06",
+        "a01-ch02-common-02",
+        "a01-ch02-common-05",
+        "a01-ch03-piao-05",
+        "a01-ch03-friends-02",
+        "a01-ch05-common-01",
+        "a01-ch06-piao-03",
+        "a01-ch06-friends-02",
+        "a01-ch07-friends-03",
+        "a01-ch08-friends-02",
+        "a01-ch09-yelan-03",
+        "a01-ch09-friends-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "沿用同一出租屋几何；夜景桌灯不代表额外剧情事件。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-breakfast-dawn",
+      "label": "早餐店·清晨",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-breakfast-dawn.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-breakfast-dawn.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1943600,
+      "sha256": "35b4ed25926a9ade51ceca446f22b72caf8a257a38211bfdb066eb0b1823b523",
+      "generationId": "breakfast-dawn",
+      "cueIds": [
+        "a01-ch01-common-03"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "门外清晨天光、桌位和蒸笼横向分布；不要裁成纯夜宵室内。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-salon-day",
+      "label": "理发店门/镜前等候椅·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "reuse",
+      "deliveredAction": "reuse",
+      "file": "assets/bg-salon.webp",
+      "sourcePath": null,
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1833416,
+      "sha256": "ce234b655ad068db55435d251f11796b946e7b3a97cb2b20143f5717833ca4f9",
+      "generationId": null,
+      "cueIds": [
+        "a01-ch01-common-04",
+        "a01-ch03-xiaoman-01",
+        "a01-ch03-xiaoman-03"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "镜台与椅子建立理发店；旧图的边缘设施不作为新剧情事实。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-convenience-day",
+      "label": "便利店柜台/门外座椅·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-convenience-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-convenience-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1777486,
+      "sha256": "aef1557845a9bc72edf4deb073df9a001f015ad3af77bce6bcab543ce3267c76",
+      "generationId": "convenience-day",
+      "cueIds": [
+        "a01-ch01-common-05",
+        "a01-ch03-xiaoman-03",
+        "a01-ch03-zhouzhi-01",
+        "a01-ch05-xiaoman-02",
+        "a01-ch05-yelan-02",
+        "a01-ch06-yelan-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "柜台、货架及门外椅需全景；仅裁货架会弱化会面位置。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-food-day",
+      "label": "普通小食店/面馆中性桌位·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "revise",
+      "deliveredAction": "revise",
+      "file": "assets/ten-chapter/backgrounds/bg-food-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-food-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2163404,
+      "sha256": "5436c4770b21d57274d84e7345823b8b145561a4632845f97ea2acb1dbf67480",
+      "generationId": "food-day",
+      "cueIds": [
+        "a01-ch02-common-03",
+        "a01-ch03-zhouzhi-03",
+        "a01-ch03-mengyao-03",
+        "a01-ch03-piao-01",
+        "a01-ch03-piao-02",
+        "a01-ch04-zhouzhi-01",
+        "a01-ch05-zhouzhi-01",
+        "a01-ch05-zhouzhi-02",
+        "a01-ch05-mengyao-01",
+        "a01-ch05-mengyao-02",
+        "a01-ch05-piao-01",
+        "a01-ch05-piao-02",
+        "a01-ch05-piao-03",
+        "a01-ch05-friends-02",
+        "a01-ch07-mengyao-01",
+        "a01-ch08-zhouzhi-01",
+        "a01-ch08-yelan-01",
+        "a01-ch08-piao-01",
+        "a01-ch08-piao-03",
+        "a01-ch10-common-02",
+        "a01-ch10-xiaoman-02",
+        "a01-ch10-piao-02"
+      ],
+      "notes": "不同面馆、粥店、饺子/豆花/凉糕店可共享中性桌景，食品按文本或道具差分区分；不能把不同店设定成同一地址。",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "中性桌位；不同店可复用质感，但需转场文字区分地址。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-food-dusk",
+      "label": "普通小食店/面馆·暮色",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "reuse",
+      "deliveredAction": "reuse",
+      "file": "assets/backgrounds/bijie-20261020/bg-noodles-dusk.webp",
+      "sourcePath": null,
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2035924,
+      "sha256": "e4a0e4aa5baaf996064f949b382b1dbec9e7c53b01bff708e3b2b9dd335e582f",
+      "generationId": null,
+      "cueIds": [
+        "a01-ch01-common-07",
+        "a01-ch01-common-08",
+        "a01-ch02-common-04",
+        "a01-ch04-zhouzhi-04",
+        "a01-ch05-yelan-02",
+        "a01-ch05-piao-01",
+        "a01-ch06-common-01",
+        "a01-ch06-xiaoman-01",
+        "a01-ch06-yelan-01",
+        "a01-ch06-piao-02",
+        "a01-ch07-yelan-04",
+        "a01-ch07-piao-04",
+        "a01-ch08-zhouzhi-01",
+        "a01-ch09-zhouzhi-01",
+        "a01-ch09-zhouzhi-02",
+        "a01-ch09-zhouzhi-03",
+        "a01-ch10-zhouzhi-01",
+        "a01-ch10-mengyao-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "同店日暮衔接；食物按文本或独立道具层表达。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-food-night",
+      "label": "普通小食店·夜",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "reuse",
+      "deliveredAction": "reuse",
+      "file": "assets/bg-noodles.webp",
+      "sourcePath": null,
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1890104,
+      "sha256": "83c5a1069d2d081997a9961988cbb71255df64c50a60d0f53ae1ab62bb566999",
+      "generationId": null,
+      "cueIds": [
+        "a01-ch09-friends-01"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "保留旧版无人夜景；不能替代早餐清晨。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-food-front-dusk",
+      "label": "小食店门口·暮色",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "reuse",
+      "deliveredAction": "reuse",
+      "file": "assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.webp",
+      "sourcePath": null,
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2119482,
+      "sha256": "188326b2cdb65dcb0a65f117ffd7c05d5cd9b60df5bf9536786fc7da84bde6f7",
+      "generationId": null,
+      "cueIds": [
+        "a01-ch02-common-01",
+        "a01-ch04-friends-04"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "门外与店内为不同机位；入口需全景建立。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-stall-day",
+      "label": "烤土豆/豆腐等街边摊·日/尚亮傍晚",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "revise",
+      "deliveredAction": "revise",
+      "file": "assets/ten-chapter/backgrounds/bg-stall-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-stall-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2273034,
+      "sha256": "fab8eb243e62bc953b02774ae985421ebbce1e66831b1959257768470f76e264",
+      "generationId": "stall-day",
+      "cueIds": [
+        "a01-ch03-zhouzhi-01",
+        "a01-ch03-yelan-01",
+        "a01-ch04-xiaoman-04",
+        "a01-ch04-piao-05",
+        "a01-ch04-friends-03",
+        "a01-ch06-friends-01"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "食品摊及雨棚横向展开，前景食物可能被对白遮住。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-stall-night",
+      "label": "夜宵摊·夜",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "reuse",
+      "deliveredAction": "reuse",
+      "file": "assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+      "sourcePath": null,
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2180932,
+      "sha256": "ff721898479c352bdac7969a7b301b29fd196215d04cdd24290c77de8c94caa0",
+      "generationId": null,
+      "cueIds": [
+        "a01-ch10-zhouzhi-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "沿用同摊夜景；不把日间原文直接套入夜色。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-eaves-day",
+      "label": "连续旧街屋檐·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "reuse",
+      "deliveredAction": "reuse",
+      "file": "assets/backgrounds/bijie-20261020/bg-old-eaves-day.webp",
+      "sourcePath": null,
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2290852,
+      "sha256": "18861e49214b039d1507ea98a7073ddc8876062b4ad8684bdad91ea3deee7445",
+      "generationId": null,
+      "cueIds": [
+        "a01-ch01-common-08",
+        "a01-ch06-friends-01",
+        "a01-ch09-zhouzhi-02",
+        "a01-ch09-yelan-01",
+        "a01-ch09-yelan-02",
+        "a01-ch09-yelan-03",
+        "a01-ch10-zhouzhi-01"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "连续屋檐及湿街关系需保留横幅。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-echo-day",
+      "label": "回声门外·营业期日间",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "revise",
+      "deliveredAction": "revise",
+      "file": "assets/ten-chapter/backgrounds/bg-echo-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-echo-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2286462,
+      "sha256": "44c567c3ba7d3619b634c569808fa381ad77065f212632f1f5ebd9cb4ccfadb3",
+      "generationId": "echo-day",
+      "cueIds": [
+        "a01-ch03-zhouzhi-01"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "目标双门位于画面最左侧；居中竖裁会完全丢门，必须保留全景或左侧构图。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-echo-closed-day",
+      "label": "回声门外·停业日间/清晨",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "revise",
+      "deliveredAction": "revise",
+      "file": "assets/ten-chapter/backgrounds/bg-echo-closed-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-echo-closed-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2221730,
+      "sha256": "81e547ddeb1b062048b13ca6bdc57bee1396dd8dd57cb5333118c8927d272231",
+      "generationId": "echo-closed-day",
+      "cueIds": [
+        "a01-ch06-common-01",
+        "a01-ch06-zhouzhi-01",
+        "a01-ch06-piao-01"
+      ],
+      "notes": "第31天清晨与第32天日间分别校色；禁止仍显正在营业。",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "左侧目标双门关闭、内部熄灯；不能只裁中间街道。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-bookstore-day",
+      "label": "商场书店/阅读座位·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-bookstore-day-v2.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-bookstore-day-v2.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1655318,
+      "sha256": "2f96483e947f099b93a9d96df5d5a194081c3fb2aa9c2630b95e08c47ed967fd",
+      "generationId": "bookstore-day-v2",
+      "cueIds": [
+        "a01-ch03-zhouzhi-02",
+        "a01-ch09-friends-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "双阅读椅在桌子两侧；居中竖裁不能完整保留双座位。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-mall-day",
+      "label": "商场休息区/电梯·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-mall-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-mall-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1691018,
+      "sha256": "47e6e044a2ce92c2060d943510142442558d8f19aebb1082d7d5992564ca3984",
+      "generationId": "mall-day",
+      "cueIds": [
+        "a01-ch03-zhouzhi-02",
+        "a01-ch04-zhouzhi-03"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "休息区与电梯需全景关系；中央裁切仅用于中性商场过场。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-bridge-day",
+      "label": "桥头烧饼店/桥边台阶·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-bridge-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-bridge-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2339670,
+      "sha256": "a2032d17921040040867e0eef835cac5fa3b07de3653d4d668fd11fc287dfaac",
+      "generationId": "bridge-day",
+      "cueIds": [
+        "a01-ch03-mengyao-01",
+        "a01-ch09-mengyao-01",
+        "a01-ch09-mengyao-02",
+        "a01-ch09-mengyao-03",
+        "a01-ch10-mengyao-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "烧饼店、桥栏与台阶分处横幅；对话和人物勿遮住台阶。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-park-day",
+      "label": "公园入口/树荫/长椅·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-park-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-park-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2584168,
+      "sha256": "84113b7128b0d5835f8dccefafaca7b41cdeb3a897ea5e619024332500f1e9cf",
+      "generationId": "park-day",
+      "cueIds": [
+        "a01-ch03-yelan-03",
+        "a01-ch04-yelan-01",
+        "a01-ch06-piao-01",
+        "a01-ch06-piao-02",
+        "a01-ch06-piao-03",
+        "a01-ch08-yelan-01"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "树荫、步道与长椅同时出现需全幅；不固定鸭／纸船等分支道具。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-river-day",
+      "label": "河边步道/长椅/避雨台阶·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-river-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-river-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2290078,
+      "sha256": "d5f4f1db52e385ec96b6b77f2820158e8fe83164abc265101a7c320a05512bd5",
+      "generationId": "river-day",
+      "cueIds": [
+        "a01-ch03-piao-03",
+        "a01-ch03-piao-04",
+        "a01-ch04-zhouzhi-02",
+        "a01-ch06-xiaoman-01",
+        "a01-ch07-zhouzhi-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "步道、长椅、可避雨台阶需完整关系；下部台阶可能被对白遮挡。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-riverside-lawn-day",
+      "label": "河边放风筝空地·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-riverside-lawn-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-riverside-lawn-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2162696,
+      "sha256": "64c797b7b2f7fb944c4de2082398ac4ac3e07f246b8cd10c80203e771227b608",
+      "generationId": "riverside-lawn-day",
+      "cueIds": [
+        "a01-ch04-yelan-02",
+        "a01-ch07-yelan-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "保留空地与河边关系；风筝由道具或CG承载，不预置分支结果。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-alteration-day",
+      "label": "改衣店·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-alteration-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-alteration-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1786218,
+      "sha256": "102956f33219a009cbc2c8d5bd1b549ab7a8b1524ca9e4de38d318f0d18d3901",
+      "generationId": "alteration-day",
+      "cueIds": [
+        "a01-ch03-friends-01"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "工作台与衣物可辨；重点线轴／袖口动作另用道具或CG。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-arcade-basketball",
+      "label": "游戏厅投篮机·室内",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-arcade-basketball.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-arcade-basketball.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1792152,
+      "sha256": "c5292c5f20ce1226e64eb5469ce34161254cd238e41f5e73da79c8d008e609ea",
+      "generationId": "arcade-basketball",
+      "cueIds": [
+        "a01-ch04-xiaoman-02",
+        "a01-ch07-xiaoman-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "双篮机横向并列；勿竖裁成单人设备。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-arcade-airhockey",
+      "label": "游戏厅气垫球·室内",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-arcade-airhockey.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-arcade-airhockey.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1644276,
+      "sha256": "79039a3f569bcd7c8e2eedf6e2c8adf6e429ff8d6b6a44171a253404f2587170",
+      "generationId": "arcade-airhockey",
+      "cueIds": [
+        "a01-ch04-mengyao-03"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "完整球台与两端站位需要全幅，人物避免压住两端。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-arcade-rowing",
+      "label": "游戏厅双人划船·室内",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-arcade-rowing.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-arcade-rowing.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1642626,
+      "sha256": "b78dc0d77053e4c7f8d9bbac816269d7b5198b0e1d05cc3a7bf721c4561b12a3",
+      "generationId": "arcade-rowing",
+      "cueIds": [
+        "a01-ch07-mengyao-03"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "双座与双手柄需同时显示；不要仅裁出一个座位。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-used-books-day",
+      "label": "旧书摊/棚下石阶·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-used-books-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-used-books-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2328050,
+      "sha256": "7085d1455496f53933fe0fcdb7953118690376921e7d1a5e2d0d0cd1b2241c57",
+      "generationId": "used-books-day",
+      "cueIds": [
+        "a01-ch04-xiaoman-03",
+        "a01-ch04-mengyao-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "书摊、棚下石阶和可坐位置要同时保留。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-used-books-closed-dusk",
+      "label": "旧书摊收摊石阶·傍晚",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-used-books-closed-dusk.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-used-books-closed-dusk.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2174434,
+      "sha256": "b0d0d6cd4dc0cd5dff47b2b6733486ed17e24fefa30cebd8f4477e3bd943b1f8",
+      "generationId": "used-books-closed-dusk",
+      "cueIds": [
+        "a01-ch07-xiaoman-03"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "同一棚与台阶，书已收起；不能回用开摊图。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-cinema-interior",
+      "label": "电影院观众席过道/散场",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-cinema-interior.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-cinema-interior.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1280022,
+      "sha256": "c07c3df7619d68be3fb5ba9710eaca75e8ba60e6215c9da05db79ec7acd8421c",
+      "generationId": "cinema-interior",
+      "cueIds": [
+        "a01-ch04-zhouzhi-03",
+        "a01-ch07-zhouzhi-03"
+      ],
+      "notes": "屏幕不用真实影片画面，剧情以对白表现。",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "影院过道可辨；屏幕保持抽象，不含真实电影。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-tea-day",
+      "label": "茶店桌游/看书桌位·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-tea-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-tea-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1711962,
+      "sha256": "77cc794b731d4141d11004095b19c1ba3682aafa803fc162dfaba850d9dd9748",
+      "generationId": "tea-day",
+      "cueIds": [
+        "a01-ch04-mengyao-02",
+        "a01-ch07-mengyao-02",
+        "a01-ch08-mengyao-01",
+        "a01-ch09-piao-01",
+        "a01-ch09-piao-02",
+        "a01-ch09-piao-03",
+        "a01-ch10-mengyao-01",
+        "a01-ch10-piao-01"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "双人桌位保持全幅；桌游／书页文字另层，复用不等于同一店。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-secondhand-day",
+      "label": "旧货市场玩具摊·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-secondhand-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-secondhand-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2016364,
+      "sha256": "28ddc2085a0bb3172645efb1c3de362b8d5bdafb64d4a7945d0ee9dd79aa92e1",
+      "generationId": "secondhand-day",
+      "cueIds": [
+        "a01-ch04-yelan-03",
+        "a01-ch07-yelan-03"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "玩具与杂货摊是环境；具体小鸭等选购道具需节点演出。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-kiosk-eaves-day",
+      "label": "小卖部门口雨棚/旧招牌·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "revise",
+      "deliveredAction": "revise",
+      "file": "assets/ten-chapter/backgrounds/bg-kiosk-eaves-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-kiosk-eaves-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2152038,
+      "sha256": "4c3436e229439dd7f537d64a68c72a640ecf09fd6e326171fb3f77d34c44c64a",
+      "generationId": "kiosk-eaves-day",
+      "cueIds": [
+        "a01-ch04-piao-01",
+        "a01-ch04-piao-02",
+        "a01-ch04-piao-03"
+      ],
+      "notes": "纸船/收据和招牌半个“发”字由独立文字或道具表现。",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "雨棚和旧牌分布在横幅边侧；半个“发”字、纸船与收据另层。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-performance-shop-day",
+      "label": "有小舞台的街边店·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-performance-shop-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-performance-shop-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1892270,
+      "sha256": "31ab98dccfcef41490e33debf67bd418eb5724f6e88613988690320c2cd042a7",
+      "generationId": "performance-shop-day",
+      "cueIds": [
+        "a01-ch04-friends-02",
+        "a01-ch07-friends-01"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "店内小舞台与普通桌椅须共存，不能裁成独立大型舞台。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-game-store-day",
+      "label": "旧游戏店/门外矮凳·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-game-store-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-game-store-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2031922,
+      "sha256": "b38f4de12b3501063345085744f04d130e9ce751c4ffe0649d0e5216636597ed",
+      "generationId": "game-store-day",
+      "cueIds": [
+        "a01-ch04-friends-03",
+        "a01-ch07-friends-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "旧游戏设备与门口矮凳需全景交代，矮凳容易被对白遮挡。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-parcel-day",
+      "label": "快递点货架/门口·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-parcel-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-parcel-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2047214,
+      "sha256": "b3cd0770db6fb59e840bb22d810294bae29165046188bf2388679ff4e1d372c8",
+      "generationId": "parcel-day",
+      "cueIds": [
+        "a01-ch05-xiaoman-01"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "货架与门口分列；不把裁切后货架当作人物住宅。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-supermarket-day",
+      "label": "超市日用品/米袋/零食货架·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-supermarket-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-supermarket-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1848512,
+      "sha256": "5e1ac856f3e4a7c9d19a151845767df75a3e0facb04c9604a8622e01900f13e0",
+      "generationId": "supermarket-day",
+      "cueIds": [
+        "a01-ch05-friends-01",
+        "a01-ch06-zhouzhi-01",
+        "a01-ch08-yelan-01",
+        "a01-ch08-friends-03",
+        "a01-ch10-yelan-01"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "日用品、米袋及货架作为中性购物环境；包装无必读文字。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-clothing-day",
+      "label": "普通服装/饰品店·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-clothing-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-clothing-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1677794,
+      "sha256": "0c931272b2083bab9c68f0aba9f15728f1703ccd6f10469454e2437828556a43",
+      "generationId": "clothing-day",
+      "cueIds": [
+        "a01-ch06-zhouzhi-01",
+        "a01-ch08-piao-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "普通服装与饰品环境；不补人物试穿结果。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-practice-room",
+      "label": "按时计费小练歌房·室内",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "reuse",
+      "deliveredAction": "revise",
+      "file": "assets/ten-chapter/backgrounds/bg-practice-room-blue.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-practice-room-blue.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1475174,
+      "sha256": "9d1c689552224764531d25478421e5fc043918d348fd9f0ab718250a893185f5",
+      "generationId": "practice-room-blue",
+      "cueIds": [
+        "a01-ch06-mengyao-02"
+      ],
+      "notes": "仅第六章孟遥休闲唱歌；非停业后的回声营业，也非出租屋。蓝光/冰杯可交付轻量灯光道具变体。",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "蓝灯、双话筒与两杯冰水在桌面；保留全幅及下部桌面，非回声营业。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-tabletennis-day",
+      "label": "乒乓球馆/场边座椅·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-tabletennis-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-tabletennis-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1629638,
+      "sha256": "db550887a12be177cdb6d3d29841a4bcaf7a2a76361ef947d79014c026c046a5",
+      "generationId": "tabletennis-day",
+      "cueIds": [
+        "a01-ch06-yelan-02",
+        "a01-ch10-yelan-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "球桌、球网与场边座椅需同时保留。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-badminton-day",
+      "label": "羽毛球馆/场边座椅·日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-badminton-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-badminton-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1663654,
+      "sha256": "4fca48aac4f30269d86257d1facc85f0ab3be2721fd9829d96d5a33730b5dd9d",
+      "generationId": "badminton-day",
+      "cueIds": [
+        "a01-ch08-xiaoman-02",
+        "a01-ch09-xiaoman-03"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "球网与完整场地几何及座椅需全景，不宜中央竖裁。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-xiaoman-home-day",
+      "label": "小满租住房间·两年后日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-xiaoman-home-day-v2.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-xiaoman-home-day-v2.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1610250,
+      "sha256": "112d225515fdeb4bd74a372a42474e8d5322059cfe98904be46a3f0c04c15094",
+      "generationId": "xiaoman-home-day-v2",
+      "cueIds": [
+        "a01-ch10-xiaoman-01"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "桌上两袋均为番茄，靠下；对白不应把两袋全部盖住。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-maolang-home-day",
+      "label": "毛狼与飘家中餐桌·两年后日",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "new",
+      "deliveredAction": "new",
+      "file": "assets/ten-chapter/backgrounds/bg-maolang-home-day.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-maolang-home-day.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 1656254,
+      "sha256": "f1493fdc6610c29c8d9ae8c73e1e22f20b6cb853022d7207f175dc75d516990f",
+      "generationId": "maolang-home-day",
+      "cueIds": [
+        "a01-ch10-friends-01",
+        "a01-ch10-friends-02"
+      ],
+      "notes": "",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "普通家中餐桌；餐具数量不推定正文未列的来客。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-banquet-day",
+      "label": "普通小店婚宴·两年后",
+      "parentAssetId": null,
+      "scope": "a01-requirement",
+      "plannedAction": "reuse",
+      "deliveredAction": "reuse",
+      "file": "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.webp",
+      "sourcePath": null,
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2285578,
+      "sha256": "b0b100f1e82cdcfeb58aa02c782480399ca2787582a00368a9a2a3dc01c68809",
+      "generationId": null,
+      "cueIds": [
+        "a01-ch10-common-03"
+      ],
+      "notes": "原文未指定面馆；复用为演出建议，E03确认演出空间后采用，不能据图新增婚宴人物。",
+      "selectionRule": null,
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "仅普通婚宴空间候选；不增加正文未列宾客，不出现球球。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-echo-closed-dawn",
+      "label": "回声门外·关门清晨",
+      "parentAssetId": "tc-bg-echo-closed-day",
+      "scope": "time-variant",
+      "plannedAction": "variant",
+      "deliveredAction": "variant",
+      "file": "assets/ten-chapter/backgrounds/bg-echo-closed-dawn.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-echo-closed-dawn.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2059814,
+      "sha256": "ad32df3c006abc309a0ce82596dc7e3ab7b1c4a4bf460c74df71496d7fbe8518",
+      "generationId": "echo-closed-dawn",
+      "cueIds": [
+        "a01-ch06-common-01"
+      ],
+      "notes": "",
+      "selectionRule": "第31天06:00关门段使用；第32天下午仍用 closed-day。不可整场替换第30天饭局。",
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "左侧双门保持关闭、门灯关闭；清晨天空已亮。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    },
+    {
+      "id": "tc-bg-bridge-dusk",
+      "label": "桥头烧饼店／台阶·尚亮傍晚",
+      "parentAssetId": "tc-bg-bridge-day",
+      "scope": "time-variant",
+      "plannedAction": "variant",
+      "deliveredAction": "variant",
+      "file": "assets/ten-chapter/backgrounds/bg-bridge-dusk.webp",
+      "sourcePath": "assets/ten-chapter/backgrounds/sources/bg-bridge-dusk.png",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "bytes": 2178900,
+      "sha256": "01b07197887162f6fb66d2887253473c74ce1cf04efad982db4b2f3d5d3dc9bb",
+      "generationId": "bridge-dusk",
+      "cueIds": [
+        "a01-ch10-mengyao-02"
+      ],
+      "notes": "",
+      "selectionRule": "两年后孟遥朋友结局17:40桥头段；天仍亮，不改成深夜。",
+      "adoptionStatus": "pending-A06",
+      "runtimeBindingStatus": "not-integrated",
+      "mobile": {
+        "reviewViewport": {
+          "width": 390,
+          "height": 844
+        },
+        "preferredPresentation": "contain-in-scene-region",
+        "centerCoverSafety": "restricted-context",
+        "note": "日景同构暖光；仍须保留桥与烧饼店的关系。",
+        "integrationAction": "窄屏先保留完整横图；若采用cover，按本项线索另定焦点与分镜，E10在真实立绘／对白叠层下复验。"
+      }
+    }
+  ],
+  "superseded": [
+    {
+      "generationId": "netcafe-pc-day",
+      "file": "assets/ten-chapter/backgrounds/bg-netcafe-pc-day.webp",
+      "reason": "背景边缘残留顾客头部，使用v2空场"
+    },
+    {
+      "generationId": "bookstore-day",
+      "file": "assets/ten-chapter/backgrounds/bg-bookstore-day.webp",
+      "reason": "单椅，使用v2双椅"
+    },
+    {
+      "generationId": "xiaoman-home-day",
+      "file": "assets/ten-chapter/backgrounds/bg-xiaoman-home-day.webp",
+      "reason": "第二袋为青菜，使用v2两袋番茄"
+    }
+  ],
+  "bindingNotes": [
+    {
+      "id": "D05",
+      "owner": "E03—E07/A06/E09",
+      "note": "复用背景不新增地点事实；E03现有普通小店婚宴语义已给出，图面采用仍由A06确认。飘第九章／恋人后日谈桌边地点未点名，茶店图仅作候选。"
+    },
+    {
+      "id": "tc-bg-echo-closed-dawn",
+      "owner": "A06/E09",
+      "note": "第31天06:00关门段使用；第32天下午仍用 closed-day。不可整场替换第30天饭局。"
+    },
+    {
+      "id": "tc-bg-bridge-dusk",
+      "owner": "A06/E09",
+      "note": "两年后孟遥朋友结局17:40桥头段；天仍亮，不改成深夜。"
+    }
+  ]
+}

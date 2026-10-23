@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-19",
+  "owner": "M3",
+  "character": "shijiang",
+  "version": "expressions-v01-20261019-candidate",
+  "source": "/Users/yipin/Desktop/cjb/assets/char-shijiang.png",
+  "sourceSha256": "a8e1bceb9dad767e2ec11c94f3977a9b8337a2abcbd6b47c4f6996e72e004b1c",
+  "count": 9,
+  "candidateOnly": true,
+  "gameIntegrated": false,
+  "entries": [
+    {
+      "file": "char-shijiang-expression-smile.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-smile.png",
+      "type": "expression",
+      "slug": "smile",
+      "label": "微笑",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "4ddea918a33cf38cfe87957e2796480031a34fc8c0e4df48907b5b977517c515",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-4fc18e18-faab-4efe-b6bf-d96e427be9ea.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 692285,
+        "partiallyTransparentPixels": 880579,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          101,
+          38,
+          985,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "嘴角温和上扬，眼周放松；方颌、短发、薄框眼镜及胸袋红柄工具保持，原站姿延续。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-shijiang-expression-serious.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-serious.png",
+      "type": "expression",
+      "slug": "serious",
+      "label": "认真",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "233cb173e5bfef7a5f07b069c93f13382ec77db91a30be7ee67aa743b106d15f",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-1219095e-8e1c-422f-abdb-f8b44e616f2e.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 694622,
+        "partiallyTransparentPixels": 878242,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          101,
+          40,
+          984,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "闭口平唇、目光集中，认真克制；眼镜与胸袋工具完整，原站姿和衣服保持。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-shijiang-expression-hesitant.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-hesitant.png",
+      "type": "expression",
+      "slug": "hesitant",
+      "label": "犹豫",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "c3f810d0d25d1537cf2852119b705e1e69cad60ccb218f91a86b2772b7192f2d",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-e579571c-93f1-47bf-8456-1e9735a3c4eb.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 691594,
+        "partiallyTransparentPixels": 881270,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          101,
+          40,
+          986,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "内眉上提、眉间迟疑，嘴唇轻压；区别于认真和不悦，细微情绪仍需实际头像尺寸复核。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-shijiang-expression-surprised.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-surprised.png",
+      "type": "expression",
+      "slug": "surprised",
+      "label": "惊讶",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "9bcbb5ca2a38ddb5e4d0cf47f4f932c6273c78bc43c4302401e060c34193d57e",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-c44feaa7-452b-47bb-8c3b-cf85851fb686.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 686623,
+        "partiallyTransparentPixels": 886241,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          101,
+          39,
+          986,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "眉毛抬起、眼睛稍睁大、嘴小幅张开；眼镜未遮住关键眼神，五官身份保持。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-shijiang-expression-displeased.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-displeased.png",
+      "type": "expression",
+      "slug": "displeased",
+      "label": "不悦",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "f3da5a95403a25691bbc61a8ede10094b3525cf39e17d41000827942c280c216",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-6c107e46-8682-4e63-ae5c-421f48aa45f6.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 688971,
+        "partiallyTransparentPixels": 883893,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          101,
+          40,
+          986,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "眉头下压聚拢、闭唇紧绷，不悦可读；未增加皱纹老人化，眼镜和工具保留。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-shijiang-expression-downcast.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-downcast.png",
+      "type": "expression",
+      "slug": "downcast",
+      "label": "低落",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "1a2b5e5561154715da837a9c268441ade8c46f067fd57584ef61f00f84b96bcd",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-9cbebe99-e399-4d28-8d42-85906fea3c52.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 692269,
+        "partiallyTransparentPixels": 880595,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          100,
+          40,
+          985,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "垂眼、眉心上挑、唇角微降，低落可辨；头有轻微自然下俯，原身体站姿保持。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-shijiang-action-wave.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-wave.png",
+      "type": "action",
+      "slug": "wave",
+      "label": "招手",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "e8810dbf02f69141fee91f6029b44e708c317bb7100c3b22b94e8b1055fb8875",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-1eb88ac5-ada1-47e0-91e1-bc351ad6a8de.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 682534,
+        "partiallyTransparentPixels": 890330,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          32,
+          40,
+          989,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "抬手招呼、掌面朝前，五指可辨；另一手插袋，工具和眼镜完整，手不挡脸。动作扩大轮廓需工程安全区复核。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-shijiang-action-thinking.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-thinking.png",
+      "type": "action",
+      "slug": "thinking",
+      "label": "思考",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "c2a4c19a2a1223b60c57ff13f901e890338a2bfdd67c7e3c54f62e5efaa4f8fd",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-2de3f81a-e3a8-4925-b26d-ba488894e80f.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 735866,
+        "partiallyTransparentPixels": 836998,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          103,
+          41,
+          985,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "手自然托在下巴下，目光专注；下巴局部由手覆盖但嘴/眼保持可读，原眼镜和胸袋工具在位。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-shijiang-action-explaining.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-explaining.png",
+      "type": "action",
+      "slug": "explaining",
+      "label": "解释",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "f1b8bef2da64f421447fb5a3c5702f94ef481e77b6cc333328829b8951775108",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a15378-0d66-7562-b9dd-21c1e22097f1/exec-c644b506-8aa4-4703-b290-ea095a85aea4.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 718009,
+        "partiallyTransparentPixels": 854855,
+        "fullyOpaquePixels": 0,
+        "bboxAbove127": [
+          53,
+          40,
+          991,
+          1536
+        ]
+      },
+      "candidateStatus": "generated_not_integrated",
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "掌心向上摊示、嘴微张，手部结构在当前尺度正常；另一手仍插袋，服装、眼镜和工具保留。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    }
+  ],
+  "evidence": [
+    "qa-light-dark.jpg",
+    "qa-expressions-faces.jpg"
+  ],
+  "validationLimitations": [
+    "Only raw image view, 240x360 full sprite light/dark composite and 350x365 face-scale preview inspected.",
+    "No game/browser/real mobile/actual avatar size or game-background verification.",
+    "Generated rerendering is visual consistency, not pixel identity.",
+    "Original RGBA kept; alpha max254, not normalized."
+  ]
+}

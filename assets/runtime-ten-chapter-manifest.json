@@ -1,0 +1,1757 @@
+{
+  "schemaVersion": 1,
+  "release": "ten-chapter",
+  "scope": "E09 正式十章正文、配套播放器及A06资源注册",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "formalIntegration": true,
+  "finalAcceptance": false,
+  "chapterCount": 10,
+  "moduleCount": 17,
+  "characterCount": 9,
+  "backgroundCount": 56,
+  "sceneCount": 360,
+  "nodeCount": 2612,
+  "choiceCount": 19,
+  "terminalCount": 13,
+  "chapterStopCount": 9,
+  "registeredAssetCount": 138,
+  "assets": [
+    {
+      "id": "tc-char-wenwen-human-base",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+      "bytes": 1027910,
+      "sha256": "94e76a03d5b7437cf986b459c1e02df56f3912259a2f32ad4a99d573673fbbb7",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-wenwen-human-expression-hesitant",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-hesitant.webp",
+      "bytes": 985144,
+      "sha256": "69999fd5cbde8ae0a96652a5ed99f935755a610c25b6401f25f1c4807913d131",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-wenwen-human-expression-smile",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-smile.webp",
+      "bytes": 1004290,
+      "sha256": "d9273a8309bba3e8bd8d4a63d649625af3dd8a952ba8b0024430b433a3fa8e82",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-maolang-human-base",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/char-maolang.webp",
+      "bytes": 730662,
+      "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-maolang-human-expression-smile",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+      "bytes": 737200,
+      "sha256": "5704ec0c670226e7c4ae80aa952994c3d100c088c7648c221156f08515923a92",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-shijiang-human-base",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/char-shijiang.webp",
+      "bytes": 932076,
+      "sha256": "286042deb9ae765c377f69285824c8ca4e2a7a23ba8af960cbaf413747fc207c",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-shijiang-human-expression-serious",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.webp",
+      "bytes": 900014,
+      "sha256": "e4399ca942e6bc20bf5e2c6391de95a115bcb59c4320d0c10eea99d953c1352f",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-wenwen-human-expression-tired",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-tired.webp",
+      "bytes": 964224,
+      "sha256": "d598410f758d93a0af059cc90acf4fb61ea932aaa077722356d0d2c6ea64f919",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-shijiang-human-expression-smile",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp",
+      "bytes": 885086,
+      "sha256": "46d040efebffd1f356fed0773e317e9eb6654e9356c2e4800a42a388e9d6259f",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-yelan-human-base",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-base.webp",
+      "bytes": 795132,
+      "sha256": "802c5fe292b422fba7d4187fd063be9595eb390cded3b34ed69abf6feff8428f",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-xiaoman-human-base",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+      "bytes": 1186548,
+      "sha256": "1be5cc691cd5948cebc281714b4b94ab2f9ba5b44794f6039e488c67fe5c491c",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-xiaoman-human-expression-smile",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+      "bytes": 1186586,
+      "sha256": "f7a76782c6cd6a8a3739d68d2e664afe0da3be2810241e8802c6e1bec7dae990",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-xiaoman-human-expression-hesitant",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.webp",
+      "bytes": 1159176,
+      "sha256": "20300c95bf649054fb93e4fad1d1ccc7aa0fc34172bd0b88eef10a72bd1a9531",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-mengyao-human-base",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-base.webp",
+      "bytes": 942716,
+      "sha256": "76ba11802c19739383fbd116aa82fa15856990ddd3ce9e83365ae8ec45c1b095",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-hesitant",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-hesitant.webp",
+      "bytes": 928786,
+      "sha256": "042b7dcb5345be5bd3b572eac062df4af9646d269aabb6bb2b44408bb4731cde",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-smile",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-smile.webp",
+      "bytes": 947536,
+      "sha256": "35d98d99559cf3d30af1bd6934dec43f13585ec7d0de8ee271543a25f0a33bea",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-zhouzhi-human-base",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+      "bytes": 839198,
+      "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-zhouzhi-human-expression-smile",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.webp",
+      "bytes": 857994,
+      "sha256": "21d6bef6495b7fcdca9a9369f59842bcf4e20743426b51a5493c117c2b50cf5a",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-piao-human-base",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/char-piao.webp",
+      "bytes": 716636,
+      "sha256": "b28422dabd0a4d3eb2ad7a34f832104bae4884ecb93bd45eb0d80e9c17a70331",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-piao-human-expression-smile",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+      "bytes": 705920,
+      "sha256": "6d2661f9fd7c8551cb1dace16519ffcc220c23e5c69693103538cfe57ba612b0",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-wenwen-human-expression-downcast",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-downcast.webp",
+      "bytes": 961124,
+      "sha256": "d84ce73e2324721e0fe5905767a4afc6095d03365a7fe1aa01bb224ff7bd6e99",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-yelan-human-expression-hesitant",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-hesitant.webp",
+      "bytes": 794426,
+      "sha256": "a606f94cee4f3520c5056bf52370bb04d3d291c0078a129a3205ab97dcfc7c33",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-yelan-human-expression-smile",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-smile.webp",
+      "bytes": 801394,
+      "sha256": "ad24c46a6da89de7450d382a70ca7081d361d22f4fd1c527fab70c8287d8e332",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-wenwen-human-expression-surprised",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-surprised.webp",
+      "bytes": 977738,
+      "sha256": "b066f633e51a7a52f292901d147b81cc6120a3135a62396c149c88fe93bf8aa3",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-xiaoman-human-expression-serious",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.webp",
+      "bytes": 1174552,
+      "sha256": "8fdaf41013fe8f7dc313a7cea6699cb37a54ed88e9dd8c6c41af92cbe03334dc",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-zhouzhi-human-expression-serious",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.webp",
+      "bytes": 865546,
+      "sha256": "47133aa81d4be43234874bb5e072195fa6c53040fab0456580806802e6a82e0e",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-serious",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-serious.webp",
+      "bytes": 940614,
+      "sha256": "a66dac9b95d95684eb313bb74ca754614915374e43d7bf542c30e8608f949831",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-wenwen-human-expression-serious",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-serious.webp",
+      "bytes": 984766,
+      "sha256": "113469964e1834afc282da344de0c84530238670c6765e22ceddd583462c9862",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-downcast",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-downcast.webp",
+      "bytes": 942286,
+      "sha256": "f90724da92be0e9f462f57d380aa43b89fbd3e84a3315bbb2dc10af7559f9ab3",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-piao-human-expression-serious",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.webp",
+      "bytes": 700748,
+      "sha256": "ea955ceb6b2301825e391ca636d343145753b7451e20d6229d5935b90139486f",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-piao-human-expression-hesitant",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+      "bytes": 701286,
+      "sha256": "9bb08999a38861d259fa6fd29458fb1b58e03425a2fa50533634280e9e90e831",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-piao-human-expression-downcast",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.webp",
+      "bytes": 704186,
+      "sha256": "4ba3d09a6f0d46c156b7ba278388b9228a8e2c00ba30e398de3f8b46872965e5",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-maolang-human-expression-hesitant",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+      "bytes": 764064,
+      "sha256": "e6b1d49e1a239ea99f95022cba84bd1ba44a452c838b18579d207fbccaffe54f",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-xiaoman-human-expression-downcast",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.webp",
+      "bytes": 1174138,
+      "sha256": "17431ee18497db77547c67bba1b294873d3c02fa0260075d16354b82bf510c39",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-zhouzhi-human-expression-tired",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/zhouzhi/char-zhouzhi-human-expression-tired.webp",
+      "bytes": 809684,
+      "sha256": "061227c7b9526195f47307a3e429090deb2cd8627e665ee197cc659cb6ea5712",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-yelan-human-expression-serious",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-serious.webp",
+      "bytes": 773818,
+      "sha256": "df8c9e4af8ff0655c7787f4b84bfda83ac79fac793860e6fab8a35eccc63f038",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-maolang-human-expression-serious",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.webp",
+      "bytes": 739990,
+      "sha256": "1bed64f2586cc3633098aeef862046dc6d7b970d71f872adb71c8060008cef44",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-zhouzhi-human-expression-hesitant",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.webp",
+      "bytes": 852512,
+      "sha256": "c77e074b064afe4f9250f0e827b6ecfb742c1486d9aa9ba68e22700927f55a20",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-shijiang-human-expression-hesitant",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-hesitant.webp",
+      "bytes": 871542,
+      "sha256": "86140f606a2c669fa62f4b62cf956e166c4b046e94502c8b425d3c9757f983ee",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-xiaoman-human-expression-tired",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/xiaoman/char-xiaoman-human-expression-tired.webp",
+      "bytes": 1129696,
+      "sha256": "29a50ca754c518c047c5c73cd9e373d80a49afa27a385b604b189baf20b7217c",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-tired",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-tired.webp",
+      "bytes": 939628,
+      "sha256": "6dd6f02794767807804dc5d93894bf9176aa0a1aedc3afae86a70d51494bf137",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-yelan-human-expression-tired",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-tired.webp",
+      "bytes": 773370,
+      "sha256": "2a8eb5b2feacc530733cf2e3e894b537256a78fe8ab2338e1f133d432835804b",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-zhouzhi-human-expression-downcast",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.webp",
+      "bytes": 841286,
+      "sha256": "f33bd7d32161fd13d8597b88779fc2233921a1db3f60c10c63d5be296dd4e713",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-yelan-human-expression-downcast",
+      "kind": "character",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-downcast.webp",
+      "bytes": 782456,
+      "sha256": "1f67ec4250e4ca753471c5c138f0bbc2ab5e57b1db33a313e3c3050b0a6b81f4",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-look-xiaoman-work-apron",
+      "kind": "look",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/xiaoman/char-xiaoman-work-apron-base.webp",
+      "bytes": 1049844,
+      "sha256": "ce56195e2dd817d5ada6421ead65b6030d14ca0a1492e70e0d9f551271bb81fd",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-look-xiaoman-new-coat",
+      "kind": "look",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/xiaoman/char-xiaoman-new-coat-base-v2.webp",
+      "bytes": 1020276,
+      "sha256": "d334b8d736328d91ab4e3aeb3c78248c797487849287bc89239273f15f809b1b",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-look-mengyao-teacher-bag",
+      "kind": "look",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-teacher-bag-base.webp",
+      "bytes": 1005040,
+      "sha256": "d59a9b2f7cdc6b2e621640c696c37e921eb9f1476ddc6bce5de81852641d9b52",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-look-mengyao-casual-jacket",
+      "kind": "look",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-casual-jacket-base.webp",
+      "bytes": 1039224,
+      "sha256": "e6383d2bf8bfde9c55365639be412935651ad724a5a40e11fe8d75b93e7844c1",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-look-yelan-casual",
+      "kind": "look",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-casual-base.webp",
+      "bytes": 829548,
+      "sha256": "2de61b8d8df57375802bd25924a377432b03baf89aa0656f9a77b7f0926399b7",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-look-zhouzhi-light-blue-shirt",
+      "kind": "look",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/zhouzhi/char-zhouzhi-light-blue-shirt-base.webp",
+      "bytes": 846344,
+      "sha256": "b77a71b1ec296d6067a150a47bcafe92ba2489e688eed36acdf1aa1c09332ea5",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-look-zhouzhi-tied-hair",
+      "kind": "look",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/zhouzhi/char-zhouzhi-tied-hair-base.webp",
+      "bytes": 753766,
+      "sha256": "c8f25f8ff8dd3492d418e6396269661023b9389fa66d463b48e38bb507bb6630",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-look-maolang-wedding",
+      "kind": "look",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/maolang/char-maolang-wedding-base.webp",
+      "bytes": 737494,
+      "sha256": "ce6c4c4ea25e7e9ed48a6b4c5355d6de452a8cf7292d2823e46ed7cd5c1fc93b",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-look-piao-wedding",
+      "kind": "look",
+      "batch": "A02",
+      "path": "assets/ten-chapter/characters/piao/char-piao-wedding-base.webp",
+      "bytes": 733474,
+      "sha256": "49aaecd963e03ccf94ad9bfe0c03c2c1f2435acde305f1bbe8c0fd9c7afb6ad3",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-char-huangqiuqiu-orb-base",
+      "kind": "character",
+      "batch": "A03",
+      "path": "assets/char-huangqiuqiu.webp",
+      "bytes": 768286,
+      "sha256": "ce01862d4078b2b091980575bbf728f30d3ce2044ac9b6f41643fb11a843b2de",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "tc-avatar-huangqiuqiu-sphere-base",
+      "kind": "avatar",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "bytes": 140258,
+      "sha256": "6d3caefa7fd09ba5ea926a915fc1737689d796d2cad5ad40eef61893e5a39d5a",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "tc-char-huangqiuqiu-orb-expression-serious",
+      "kind": "character",
+      "batch": "A03",
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+      "bytes": 744520,
+      "sha256": "08846f26ea6ee59dc8291f90497197c0bc8907386652c8903d9158b1a1bcac57",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "tc-avatar-huangqiuqiu-sphere-expression-serious",
+      "kind": "avatar",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-serious.webp",
+      "bytes": 137860,
+      "sha256": "5ef42616a862ee3e537936449226d72012e5233897403549dc4b5e187a1eb76e",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "tc-char-huangqiuqiu-orb-expression-smile",
+      "kind": "character",
+      "batch": "A03",
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "bytes": 758926,
+      "sha256": "03c4cb0d38b786ba29d67ecf5a7940c14c7a06ed9596420c57980e3de4e8bf12",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "tc-avatar-huangqiuqiu-sphere-expression-smile",
+      "kind": "avatar",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-smile.webp",
+      "bytes": 140388,
+      "sha256": "a90b6f459453940ca296af8214bfc29ea7f4447710734435a3d3ba740eeca723",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "tc-char-huangqiuqiu-orb-expression-hesitant",
+      "kind": "character",
+      "batch": "A03",
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+      "bytes": 808730,
+      "sha256": "9664e4a971c4a8a08b7b47c49bc669a3d25632c3d5bb0c2ed324307e74fc7c9f",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "tc-avatar-huangqiuqiu-sphere-expression-hesitant",
+      "kind": "avatar",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-hesitant.webp",
+      "bytes": 147816,
+      "sha256": "9de0ac5f7a79885621986cd89407b9186365953859636d28b652691e86bd9042",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "tc-look-huangqiuqiu-orb-hand",
+      "kind": "look",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+      "bytes": 739174,
+      "sha256": "1a5e3269fd31f9e869edd6a4c14e72bd91fe0e1e7e85fa2d8bbd36244198a24c",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "tc-avatar-huangqiuqiu-sphere-action-hand",
+      "kind": "avatar",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-action-hand.webp",
+      "bytes": 132016,
+      "sha256": "4ac7b6f622c51783f05b2c3fd1c83138b1d7f717a420ea2a46e0ed97df236b51",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "tc-char-huangqiuqiu-human-base",
+      "kind": "character",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "bytes": 1126134,
+      "sha256": "4e458e5fe38514e3eb4a0ae61fc2023166f078b2370e4836cb1557a6c56cd3d2",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-avatar-huangqiuqiu-human-base",
+      "kind": "avatar",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "bytes": 233888,
+      "sha256": "881d3f443f78e18ec595e221312757913b968d5f8e1cb68fb4f2616c8f6f2a1d",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "tc-char-huangqiuqiu-human-expression-smile",
+      "kind": "character",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-smile.webp",
+      "bytes": 1023166,
+      "sha256": "bebfac9007c567c546a01c0d4739591866b8faeb5f02b67ef2755281780230cb",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-avatar-huangqiuqiu-human-expression-smile",
+      "kind": "avatar",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-smile.webp",
+      "bytes": 233976,
+      "sha256": "d01a049cdf15e39e240d0595e235ae94517b9b8ffaa2c77e1ff1978cbcf3766c",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "tc-char-huangqiuqiu-human-expression-hesitant",
+      "kind": "character",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-hesitant.webp",
+      "bytes": 1089200,
+      "sha256": "0cfd679043a6ab6701aa32770a0ee87bbce4325b9df6fa17d93b44cd837a04ba",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-avatar-huangqiuqiu-human-expression-hesitant",
+      "kind": "avatar",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-hesitant.webp",
+      "bytes": 237646,
+      "sha256": "9c9b7701bcbcac5f2be4d7c5452c263f3fb33fa01f7abdd3a4e0a42bafda3328",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "tc-char-huangqiuqiu-human-expression-serious",
+      "kind": "character",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-serious.webp",
+      "bytes": 1148984,
+      "sha256": "19ef244a325bfb04b03133d5bf0bf194cd9d70417dcc97ebc8e757c8058d071e",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-avatar-huangqiuqiu-human-expression-serious",
+      "kind": "avatar",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-serious.webp",
+      "bytes": 243324,
+      "sha256": "92da2ea71812a85e084c6a5b349d13b3ad6fc406c8996237e4c08a3ae0eb2497",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "tc-char-huangqiuqiu-human-expression-downcast",
+      "kind": "character",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-downcast.webp",
+      "bytes": 1066248,
+      "sha256": "546a9b5c83ab694633cb7e323a3367136c04ed54bba8ae2351fd3866bdc73595",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-avatar-huangqiuqiu-human-expression-downcast",
+      "kind": "avatar",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-downcast.webp",
+      "bytes": 225912,
+      "sha256": "ed7d25534f242db1d288083499ed9e281dc64bdf19ed5a7236c1fc809cd87da3",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "tc-char-huangqiuqiu-human-action-wave",
+      "kind": "character",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-action-wave.webp",
+      "bytes": 1001188,
+      "sha256": "27cd16f1233463f800b7651e97ace261416436c5fd020ce5b547694ddc7639da",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-avatar-huangqiuqiu-human-action-wave",
+      "kind": "avatar",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-wave.webp",
+      "bytes": 213288,
+      "sha256": "ea311f9cdc6e91989618f2ee0153bca9f7b663b632d42487e9ef7a720b034a74",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "tc-look-huangqiuqiu-human-chin",
+      "kind": "look",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-chin-base.webp",
+      "bytes": 1123108,
+      "sha256": "68682fd771ad2cea823f7beb5e0a57ceec64678a9686d24a316817c16b45e466",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "id": "tc-avatar-huangqiuqiu-human-action-thinking",
+      "kind": "avatar",
+      "batch": "A03",
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-thinking.webp",
+      "bytes": 254246,
+      "sha256": "fe712afe64036b8e75952dca74b1cc2ab8771f66998c6821ba1ff92eaf7a75ee",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "id": "tc-bg-street-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/background-variants/m2-daynight-20261020/bg-street-day.webp",
+      "bytes": 2137550,
+      "sha256": "3841f1ae27040c2416b73466f22fbf7664145b9aa2617bce1fbf4b1d17b2a7d7",
+      "width": 1671,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-street-dusk",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-street-dusk.webp",
+      "bytes": 2213484,
+      "sha256": "061fa2e8b432f55dfdfdacdae98be6f1b13e2b34d72b181c230c440daa9e6eed",
+      "width": 1670,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-slope-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/backgrounds/bijie-20261020/bg-residential-slope-day.webp",
+      "bytes": 2340464,
+      "sha256": "d5920c93d6841fd26f71766ca7ea52d368464f680da573e0114f3913c0bb95f5",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-busstop-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/backgrounds/bijie-20261020/bg-busstop-day.webp",
+      "bytes": 2301340,
+      "sha256": "335b2bf31c5ec8828589bcd5551c708ec8a7f914408d8635ca7f53d38a700b16",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-busstop-dusk",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-busstop-dusk.webp",
+      "bytes": 2218152,
+      "sha256": "79cdc400602dd639725f3ca6f9629438f407fe086dd4688868a82a9b40a07a3f",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-netcafe-counter-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-netcafe-counter-day.webp",
+      "bytes": 1744932,
+      "sha256": "ad4441bd82897f63a57766890badb01a9ea981052b701906f62cc8f4ac97ba09",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-netcafe-pc-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-netcafe-pc-day-v2.webp",
+      "bytes": 1557002,
+      "sha256": "51ff1a9e3c17996078d2c3c01553e2145da54f26c1b39547ac0b740a57525446",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-courtyard-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-courtyard-day.webp",
+      "bytes": 1947068,
+      "sha256": "d20a905d8da1113440fa0f0a48811223e5e1505ad9bff5703e033746b59b9eee",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-rental-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-rental-day.webp",
+      "bytes": 1499346,
+      "sha256": "c999c0db4168e7133bc0bf5d9ae0c94fcc6acae88f4fb386389ac18fad7db626",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-netcafe-counter-night",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-netcafe-counter-night.webp",
+      "bytes": 1676142,
+      "sha256": "60e72e85116772bdcdc958580e702e8f393384a77dafd560b166f0c56dd59354",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-netcafe-pc-night",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-netcafe-pc-night.webp",
+      "bytes": 1593316,
+      "sha256": "312a7180bb2cbc8278f2066484ca8c441912fe6364eaf6ff80af150da915b170",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-backdoor-night",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-backdoor-night.webp",
+      "bytes": 1827712,
+      "sha256": "a474cf147f2c40281f8a030e2eb714fd5611469481f5f426567ba2d4b608448f",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-courtyard-night",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-courtyard-night.webp",
+      "bytes": 1813800,
+      "sha256": "89e6e29d4a6c2a0feae26f80a520e1e7d883c1c1049106d841b76b25771c7c29",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-rental-night",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-rental-night.webp",
+      "bytes": 1344462,
+      "sha256": "6ac0a4e1ac9ef3b9a828fdb3eb13339853286e61f695c30897c5463c74fe107b",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-breakfast-dawn",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-breakfast-dawn.webp",
+      "bytes": 1943600,
+      "sha256": "35b4ed25926a9ade51ceca446f22b72caf8a257a38211bfdb066eb0b1823b523",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-salon-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/bg-salon.webp",
+      "bytes": 1833416,
+      "sha256": "ce234b655ad068db55435d251f11796b946e7b3a97cb2b20143f5717833ca4f9",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-convenience-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-convenience-day.webp",
+      "bytes": 1777486,
+      "sha256": "aef1557845a9bc72edf4deb073df9a001f015ad3af77bce6bcab543ce3267c76",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-food-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-food-day.webp",
+      "bytes": 2163404,
+      "sha256": "5436c4770b21d57274d84e7345823b8b145561a4632845f97ea2acb1dbf67480",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-food-dusk",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/backgrounds/bijie-20261020/bg-noodles-dusk.webp",
+      "bytes": 2035924,
+      "sha256": "e4a0e4aa5baaf996064f949b382b1dbec9e7c53b01bff708e3b2b9dd335e582f",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-food-night",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/bg-noodles.webp",
+      "bytes": 1890104,
+      "sha256": "83c5a1069d2d081997a9961988cbb71255df64c50a60d0f53ae1ab62bb566999",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-food-front-dusk",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.webp",
+      "bytes": 2119482,
+      "sha256": "188326b2cdb65dcb0a65f117ffd7c05d5cd9b60df5bf9536786fc7da84bde6f7",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-stall-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-stall-day.webp",
+      "bytes": 2273034,
+      "sha256": "fab8eb243e62bc953b02774ae985421ebbce1e66831b1959257768470f76e264",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-stall-night",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+      "bytes": 2180932,
+      "sha256": "ff721898479c352bdac7969a7b301b29fd196215d04cdd24290c77de8c94caa0",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-eaves-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/backgrounds/bijie-20261020/bg-old-eaves-day.webp",
+      "bytes": 2290852,
+      "sha256": "18861e49214b039d1507ea98a7073ddc8876062b4ad8684bdad91ea3deee7445",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-echo-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-echo-day.webp",
+      "bytes": 2286462,
+      "sha256": "44c567c3ba7d3619b634c569808fa381ad77065f212632f1f5ebd9cb4ccfadb3",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-echo-closed-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-echo-closed-day.webp",
+      "bytes": 2221730,
+      "sha256": "81e547ddeb1b062048b13ca6bdc57bee1396dd8dd57cb5333118c8927d272231",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-bookstore-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-bookstore-day-v2.webp",
+      "bytes": 1655318,
+      "sha256": "2f96483e947f099b93a9d96df5d5a194081c3fb2aa9c2630b95e08c47ed967fd",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-mall-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-mall-day.webp",
+      "bytes": 1691018,
+      "sha256": "47e6e044a2ce92c2060d943510142442558d8f19aebb1082d7d5992564ca3984",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-bridge-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-bridge-day.webp",
+      "bytes": 2339670,
+      "sha256": "a2032d17921040040867e0eef835cac5fa3b07de3653d4d668fd11fc287dfaac",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-park-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-park-day.webp",
+      "bytes": 2584168,
+      "sha256": "84113b7128b0d5835f8dccefafaca7b41cdeb3a897ea5e619024332500f1e9cf",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-river-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-river-day.webp",
+      "bytes": 2290078,
+      "sha256": "d5f4f1db52e385ec96b6b77f2820158e8fe83164abc265101a7c320a05512bd5",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-riverside-lawn-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-riverside-lawn-day.webp",
+      "bytes": 2162696,
+      "sha256": "64c797b7b2f7fb944c4de2082398ac4ac3e07f246b8cd10c80203e771227b608",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-alteration-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-alteration-day.webp",
+      "bytes": 1786218,
+      "sha256": "102956f33219a009cbc2c8d5bd1b549ab7a8b1524ca9e4de38d318f0d18d3901",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-arcade-basketball",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-arcade-basketball.webp",
+      "bytes": 1792152,
+      "sha256": "c5292c5f20ce1226e64eb5469ce34161254cd238e41f5e73da79c8d008e609ea",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-arcade-airhockey",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-arcade-airhockey.webp",
+      "bytes": 1644276,
+      "sha256": "79039a3f569bcd7c8e2eedf6e2c8adf6e429ff8d6b6a44171a253404f2587170",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-arcade-rowing",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-arcade-rowing.webp",
+      "bytes": 1642626,
+      "sha256": "b78dc0d77053e4c7f8d9bbac816269d7b5198b0e1d05cc3a7bf721c4561b12a3",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-used-books-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-used-books-day.webp",
+      "bytes": 2328050,
+      "sha256": "7085d1455496f53933fe0fcdb7953118690376921e7d1a5e2d0d0cd1b2241c57",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-used-books-closed-dusk",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-used-books-closed-dusk.webp",
+      "bytes": 2174434,
+      "sha256": "b0d0d6cd4dc0cd5dff47b2b6733486ed17e24fefa30cebd8f4477e3bd943b1f8",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-cinema-interior",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-cinema-interior.webp",
+      "bytes": 1280022,
+      "sha256": "c07c3df7619d68be3fb5ba9710eaca75e8ba60e6215c9da05db79ec7acd8421c",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-tea-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-tea-day.webp",
+      "bytes": 1711962,
+      "sha256": "77cc794b731d4141d11004095b19c1ba3682aafa803fc162dfaba850d9dd9748",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-secondhand-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-secondhand-day.webp",
+      "bytes": 2016364,
+      "sha256": "28ddc2085a0bb3172645efb1c3de362b8d5bdafb64d4a7945d0ee9dd79aa92e1",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-kiosk-eaves-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-kiosk-eaves-day.webp",
+      "bytes": 2152038,
+      "sha256": "4c3436e229439dd7f537d64a68c72a640ecf09fd6e326171fb3f77d34c44c64a",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-performance-shop-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-performance-shop-day.webp",
+      "bytes": 1892270,
+      "sha256": "31ab98dccfcef41490e33debf67bd418eb5724f6e88613988690320c2cd042a7",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-game-store-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-game-store-day.webp",
+      "bytes": 2031922,
+      "sha256": "b38f4de12b3501063345085744f04d130e9ce751c4ffe0649d0e5216636597ed",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-parcel-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-parcel-day.webp",
+      "bytes": 2047214,
+      "sha256": "b3cd0770db6fb59e840bb22d810294bae29165046188bf2388679ff4e1d372c8",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-supermarket-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-supermarket-day.webp",
+      "bytes": 1848512,
+      "sha256": "5e1ac856f3e4a7c9d19a151845767df75a3e0facb04c9604a8622e01900f13e0",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-clothing-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-clothing-day.webp",
+      "bytes": 1677794,
+      "sha256": "0c931272b2083bab9c68f0aba9f15728f1703ccd6f10469454e2437828556a43",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-practice-room",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-practice-room-blue.webp",
+      "bytes": 1475174,
+      "sha256": "9d1c689552224764531d25478421e5fc043918d348fd9f0ab718250a893185f5",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-tabletennis-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-tabletennis-day.webp",
+      "bytes": 1629638,
+      "sha256": "db550887a12be177cdb6d3d29841a4bcaf7a2a76361ef947d79014c026c046a5",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-badminton-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-badminton-day.webp",
+      "bytes": 1663654,
+      "sha256": "4fca48aac4f30269d86257d1facc85f0ab3be2721fd9829d96d5a33730b5dd9d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-xiaoman-home-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-xiaoman-home-day-v2.webp",
+      "bytes": 1610250,
+      "sha256": "112d225515fdeb4bd74a372a42474e8d5322059cfe98904be46a3f0c04c15094",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-maolang-home-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-maolang-home-day.webp",
+      "bytes": 1656254,
+      "sha256": "f1493fdc6610c29c8d9ae8c73e1e22f20b6cb853022d7207f175dc75d516990f",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-banquet-day",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.webp",
+      "bytes": 2285578,
+      "sha256": "b0b100f1e82cdcfeb58aa02c782480399ca2787582a00368a9a2a3dc01c68809",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-echo-closed-dawn",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-echo-closed-dawn.webp",
+      "bytes": 2059814,
+      "sha256": "ad32df3c006abc309a0ce82596dc7e3ab7b1c4a4bf460c74df71496d7fbe8518",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-bg-bridge-dusk",
+      "kind": "background",
+      "batch": "A04",
+      "path": "assets/ten-chapter/backgrounds/bg-bridge-dusk.webp",
+      "bytes": 2178900,
+      "sha256": "01b07197887162f6fb66d2887253473c74ce1cf04efad982db4b2f3d5d3dc9bb",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-ui-cover-desktop",
+      "kind": "ui",
+      "batch": "A05",
+      "path": "assets/ten-chapter/ui/cover-desktop.webp",
+      "bytes": 1874752,
+      "sha256": "a2754760ac8863b57fb1820f2d7769332effd1c06eb9a224d13da06ad5ffd665",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-ui-cover-mobile",
+      "kind": "ui",
+      "batch": "A05",
+      "path": "assets/ten-chapter/ui/cover-mobile.webp",
+      "bytes": 1943458,
+      "sha256": "66f3af124050fa455001108bf2369a9db22b028c96f1774858402d1fafebfe40",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "id": "tc-cg-piao-choice",
+      "kind": "cg",
+      "batch": "A05",
+      "path": "assets/ten-chapter/cg/cg-piao-choice.webp",
+      "bytes": 2040426,
+      "sha256": "8fb73d0507f30d661f291cd500ffa12839f4c54d493c7b4ead4e4d12448cc6d5",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-cg-last-echo-dinner",
+      "kind": "cg",
+      "batch": "A05",
+      "path": "assets/ten-chapter/cg/cg-last-echo-dinner.webp",
+      "bytes": 1682214,
+      "sha256": "33d8c4d7905776bc0146f3c84c4bda953027b34e7ab0d8446ef56fc810079840",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-cg-qiuqiu-transform",
+      "kind": "cg",
+      "batch": "A05",
+      "path": "assets/ten-chapter/cg/cg-qiuqiu-transform.webp",
+      "bytes": 1657930,
+      "sha256": "43fd7979c5f9bcd29f639d5525430310f63f9ae07fe87c09767a11f80dd63598",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "id": "tc-cg-piao-wedding",
+      "kind": "cg",
+      "batch": "A05",
+      "path": "assets/ten-chapter/cg/cg-piao-wedding.webp",
+      "bytes": 1761642,
+      "sha256": "d0f9cf5f68c62ee9e217cfc56937bc874af4217bfa3fe4d048271b70bf7840bc",
+      "width": 1672,
+      "height": 941
+    }
+  ],
+  "proceduralBackgrounds": [
+    {
+      "id": "tc-bg-chapter-end",
+      "value": "none",
+      "rendering": "neutral-color-no-image",
+      "bitmap": false
+    }
+  ],
+  "story": {
+    "path": "story.js",
+    "bytes": 1178698,
+    "sha256": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60"
+  },
+  "runtimeFiles": [
+    {
+      "path": "engine.js",
+      "bytes": 15662,
+      "sha256": "363e4a9b1ddd9d6e012b6623af04c54f9fc077a065e9d1ee3b61981e9be5e39a"
+    },
+    {
+      "path": "save-compat.js",
+      "bytes": 5586,
+      "sha256": "11cc52079a67a2ee32244206b79bb11e1cfe71874227aefdd1e768594a0e816f"
+    },
+    {
+      "path": "player-runtime.js",
+      "bytes": 4046,
+      "sha256": "f0c36ff43ac205be2878d84a057b2760d37f755de9a218b916a7e57c620affd0"
+    },
+    {
+      "path": "game.js",
+      "bytes": 61683,
+      "sha256": "7021053d5491f6140ce28b9d3bc921e8d65a62921de3f16886fceac0b42848ff"
+    },
+    {
+      "path": "index.html",
+      "bytes": 7700,
+      "sha256": "0266a5c542894ef8eaa42f36acdbdb1079a6c1ca94236cfe0a4645813ea09191"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 46395,
+      "sha256": "8b7d93a3763959fe0a50188f1c0b6682354c2cde7c6bee439bd03851c4da870b"
+    }
+  ],
+  "inputFiles": [
+    {
+      "path": "assets/ten-chapter/a06-adoption.json",
+      "bytes": 288155,
+      "sha256": "8dd547dc110af7c8a36d8d0b6fe71a294594f59fb95dfa2816c797b8280c5292"
+    },
+    {
+      "path": "assets/ten-chapter/a06-scene-node-map.json",
+      "bytes": 2130300,
+      "sha256": "32ec9e1c9db2d9bb69ac5ae13ec3ba472239156eaa9bcca73c3a4502a58d9544"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/a04-manifest.json",
+      "bytes": 79379,
+      "sha256": "fb915c78aaa54a51825e1fc032c62e7ee45904b307e5b5067398d209bfba5426"
+    },
+    {
+      "path": "assets/ten-chapter/cg/a05-manifest.json",
+      "bytes": 26152,
+      "sha256": "e6c988b2b17d068fced867da2977dc3ab20a03497f3c3a036991d50a5996c614"
+    },
+    {
+      "path": "assets/ten-chapter/characters/a02-delivery.json",
+      "bytes": 119112,
+      "sha256": "8168eee3e4fefb8cf8c779d0b0e80c06fa52245ee7d38f8989a3a944de561024"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/forms-index.json",
+      "bytes": 10912,
+      "sha256": "b9685a8c6bcc062b43c16f22276cbd822d772e4f6cbba587eaa5e45a51dd7cf6"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/manifest.json",
+      "bytes": 33388,
+      "sha256": "4826058faa132066c70c985bc9bcc0e77f4b270099bca477d776a7e8f3e21700"
+    },
+    {
+      "path": "assets/webp-manifest.json",
+      "bytes": 179008,
+      "sha256": "cede257dd2a2d4d57fc89b6f783bdd93ff57e154fea22f9c2ba1e57812715996"
+    },
+    {
+      "path": "qa/a06-20261023/backgrounds/audit.json",
+      "bytes": 145933,
+      "sha256": "a30df886c858a259be555423fc830519e73bcc64f99233976d060c0572c7ae2d"
+    },
+    {
+      "path": "qa/a06-20261023/backgrounds/node-overrides.json",
+      "bytes": 34911,
+      "sha256": "fb20624a2d15e2d5c1a782b0b230b75bb71ee9c56280395a63189e8048100fc2"
+    },
+    {
+      "path": "qa/a06-20261023/cg/audit.json",
+      "bytes": 50218,
+      "sha256": "43bfedcb414a42ead79b7a9cf47b222876e18a9beabbdb23188f02e4867f73ac"
+    },
+    {
+      "path": "qa/a06-20261023/cg/integration-rules.json",
+      "bytes": 9760,
+      "sha256": "98f876a13e7664883a4edccb517cf627a9eb8347516ec3680b1083b221967dd6"
+    },
+    {
+      "path": "qa/a06-20261023/characters/audit.json",
+      "bytes": 235349,
+      "sha256": "5e024650bb642672daf39bfb0b7578443fbf83e10522a4dddcc96908147f924e"
+    },
+    {
+      "path": "任务拆分/全十章/build-manifest.json",
+      "bytes": 618,
+      "sha256": "2a71e3a12eefb165d3cf1d8c46315e3c2887de4f8ac63c60468b50721678caf0"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch01.json",
+      "bytes": 110930,
+      "sha256": "e67fd830b2a90b5b1ebc581dd0453a1d8feee5c3be0b91ce894cae6f1776b48f"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch02.json",
+      "bytes": 86427,
+      "sha256": "f9e89a31e445bd52655334f124c1e0f9c8bc9368bce0220742eed9f3561032b2"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch03.json",
+      "bytes": 9843,
+      "sha256": "88bb55edd4315f4a6c06500687a99134bdebaba1233b21ef03fd2660c75fba5b"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch04.json",
+      "bytes": 9425,
+      "sha256": "645ddb96d804533a226a8c14e5cb0fff18e557bfb9a2c994ee9eea915b24ac04"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch05.json",
+      "bytes": 13731,
+      "sha256": "2e19cd57cfafa07edd7c1880dc727f6aae386a62bad806f86c1d5a9f2d2fbfb8"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch06.json",
+      "bytes": 17430,
+      "sha256": "f95eabdfd886fdc72f1856872d21919b9adba833b501a303cc7219fe4c04e62f"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch07.json",
+      "bytes": 8780,
+      "sha256": "5b45f35bd675c3db4060f9e7ae8bf4d076cae60c9dd438cb8bead49e6fbd31c7"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch08.json",
+      "bytes": 13747,
+      "sha256": "4b98abcf1ef72c6ac5985cd70e1640bebfdf390fd2b67f6cfe9497ec80278ec9"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch09.json",
+      "bytes": 11242,
+      "sha256": "e437f863161b79661513d53c55e27529270918766114434eed3646b6bb710002"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch10.json",
+      "bytes": 21025,
+      "sha256": "5c179e95f3b1fc6ce28a47ffa70df2b41aa36dbd11ad440878c4fc23809d9b3c"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/source-index.json",
+      "bytes": 267801,
+      "sha256": "d7f113e836d82c3648c5ba76efb698049ac467950797a1d9050fe62a55fc5f1a"
+    },
+    {
+      "path": "任务拆分/全十章/contract.json",
+      "bytes": 172958,
+      "sha256": "4086571ab65e54271ec70e5a0a0712e00d0b2a1f6dae739b1df05a328ada1876"
+    },
+    {
+      "path": "任务拆分/全十章/presentation/bindings.json",
+      "bytes": 255825,
+      "sha256": "45aebc84575fa86e3d15526ea1f2a1b3ba81d54507d8e4729c64be711aa16356"
+    },
+    {
+      "path": "任务拆分/全十章/presentation/decisions.json",
+      "bytes": 1027,
+      "sha256": "977d24c6102300f94aa02b540cc0d02f2578707fc1f86873df3b42d2edd0ec10"
+    },
+    {
+      "path": "任务拆分/全十章/presentation/integration-metadata.json",
+      "bytes": 17358,
+      "sha256": "7c5c825a6a2072744834ec9a95f82c13fdab0ae8507dcbcde3db7c684ec01bdf"
+    },
+    {
+      "path": "任务拆分/全十章/routes/friends.json",
+      "bytes": 155027,
+      "sha256": "22c82f1aa56c6873f83df8eedd47309693ab56ef03b081095b93fce95bce4ed7"
+    },
+    {
+      "path": "任务拆分/全十章/routes/huangqiuqiu.json",
+      "bytes": 231354,
+      "sha256": "c785e3d2dda7d967f4bec0ba73382d03f297796e1dcf532f52592e564fb78e19"
+    },
+    {
+      "path": "任务拆分/全十章/routes/mengyao.json",
+      "bytes": 256135,
+      "sha256": "8c7c8082bcc216107886bafc33e516aa349e596435a926b7adc9a17eaac90d0d"
+    },
+    {
+      "path": "任务拆分/全十章/routes/piao.json",
+      "bytes": 233010,
+      "sha256": "b1ab806155124a8b2cf0e11e9c2947e33fe9a77a622ecdff69f314e50255202d"
+    },
+    {
+      "path": "任务拆分/全十章/routes/xiaoman.json",
+      "bytes": 266813,
+      "sha256": "b982784014d95fe44cb620e6b0ccd2252b3b86ccea5e519c09501277abec0fb0"
+    },
+    {
+      "path": "任务拆分/全十章/routes/yelan.json",
+      "bytes": 230624,
+      "sha256": "7dcaae511ed9e7bfeb644816ef5821ad66e032783e62ef107e9e775af1472aee"
+    },
+    {
+      "path": "任务拆分/全十章/routes/zhouzhi.json",
+      "bytes": 229346,
+      "sha256": "7da9e066d79aaa299ad2ab5fff911be7060f5db4e4ef11bda3e4a901880a8eff"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/delivery.json",
+      "bytes": 132756,
+      "sha256": "31254b828d1e02956bd4a8d73574e578eb8f1c7dcb9fe930f8efcce3f5ce3ccb"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E05/delivery.json",
+      "bytes": 401481,
+      "sha256": "4f324f9527a7a6551645e813299237c5ec8c04b117ca1884c17828a7b7f2a108"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E06/delivery.json",
+      "bytes": 130950,
+      "sha256": "14aeeb954e10e9a639b2d1950f5fcbe90df103de68889f3c11f2c780b85f729b"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/delivery.json",
+      "bytes": 162294,
+      "sha256": "e406212897dfbea71bca96a21a03343d5388525e738dab8f7d510df8705ab0c6"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/presentation.json",
+      "bytes": 203096,
+      "sha256": "018e66333fabae7be1442084cb1be74dd01ef4dbe46df766729d4f9920e45e21"
+    },
+    {
+      "path": "任务拆分/全十章/美术清单.json",
+      "bytes": 678260,
+      "sha256": "10cd396bf8de6e26e54ee60bc494fb512bb697ecc46a7f23b631b4e214a351b2"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "bytes": 15138,
+      "sha256": "766f2462d3695244aeb5d40a416c7610b05eeea15b397b8a0c232d351399e0c6"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "bytes": 29458,
+      "sha256": "112623a8a21f59991e3a5717838c0558244293dc709b906815c8c83497ebc8f0"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "bytes": 47796,
+      "sha256": "21ed8a4949d383f982625bcf473d75ced20aa02eeca5fb4fe4a099283749dc60"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "bytes": 30764,
+      "sha256": "d2aeb09d621edb3522b2dc63dcc5b49fa6949891e2c7d17520ffe14d39996549"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "bytes": 11561,
+      "sha256": "dac8ac7db39fb2d16732629cb694cb34816bfdb7cc8de0064d52e1e16fc0bf06"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "bytes": 27427,
+      "sha256": "237c81a388bc42db960729d600a88d2705ef6106ade18f4414e919a33acab082"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "bytes": 27170,
+      "sha256": "2903d54c7d22f9e7fcfe3a4d4ead3c16dc103a67b675c12a636eb7bfb463279b"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "bytes": 25651,
+      "sha256": "8238a41e2b8e4102e7509e711662fa28bbdd83c7ef89e03f9af1e7798ff7c9e4"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "bytes": 34986,
+      "sha256": "94b9a7c273d7a6ba9d0c2f9572ec54a3874f57a8ea0663d4db455ec868d903b2"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "bytes": 27094,
+      "sha256": "456533e8485bffdaafc31a13d6c8c77e9f8266480707887e792a5ceaddaec0c2"
+    }
+  ],
+  "builderFiles": [
+    {
+      "path": "任务拆分/三章扩展/build-story.cjs",
+      "bytes": 17605,
+      "sha256": "49a2c6cfb82fe4cdff5f8ad2f6687e239ce71ac6581a225ba92b4357b8173afe"
+    },
+    {
+      "path": "任务拆分/全十章/build/cli.cjs",
+      "bytes": 5366,
+      "sha256": "deeb03969de594f1296000c79d6e626bc7b3eeb02f5a67d901fa6037bb6bd47e"
+    },
+    {
+      "path": "任务拆分/全十章/build/compiler.cjs",
+      "bytes": 25143,
+      "sha256": "fac93168157fe54f7723f589163caee2a9f9f1a4d0ee52ec19bd5c8f45eaccf1"
+    },
+    {
+      "path": "任务拆分/全十章/build/formal.cjs",
+      "bytes": 19180,
+      "sha256": "deca75c509cf09cd62b956213ee3038020e0577bc04e26eaf71b07fb21a4e834"
+    },
+    {
+      "path": "任务拆分/全十章/build/graph.cjs",
+      "bytes": 15324,
+      "sha256": "9217ff94f9825c575614b138adf6b27c1d3e1237e73a4874964030ebee7637b5"
+    },
+    {
+      "path": "任务拆分/全十章/build/json.cjs",
+      "bytes": 2166,
+      "sha256": "f3ee337407c67c66138d681759e00950af02a8bd141c5556cfc7941338d6a970"
+    },
+    {
+      "path": "任务拆分/全十章/presentation/prepare-bindings.cjs",
+      "bytes": 16706,
+      "sha256": "83cd09fd93c8396e390bc243aaa2430f4e6a8d6de5c252d3f49f4e8e8b47da1c"
+    },
+    {
+      "path": "任务拆分/全十章/verify-contract.cjs",
+      "bytes": 13630,
+      "sha256": "60e4a6b5295b174211da011bcb7c4478c987a83c1cb24889fb32c4b8b8a9800a"
+    }
+  ],
+  "requiredCapabilities": [
+    "initial-flags-v1",
+    "line-on-enter-set-flags-v1",
+    "character-forms-v1",
+    "exhaustive-gates-v1",
+    "isolated-content-saves-v1"
+  ]
+}

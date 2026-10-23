@@ -1,0 +1,45 @@
+{
+  "hashes": {
+    "index.html": "a073cf71f8232831f9f260a074b475dd82d750cbddf0bad32dbbde71c331695e",
+    "styles.css": "27dbb0d73b125114935617966a316ecffa10f70bb51ee55c5e2a71ab18071cfb",
+    "game.js": "9fca5600452731df2351a353b001f38b702ccd4ad89f1fc7e8e5781e775ec655",
+    "story.js": "43d0f9f6823ef583c27b386a2627025361d389a0b76af46f7e84a1bf736ccfc4",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "assets/cover-b-desktop.png": "2041710ae3b577e40e8664c5a9b452240d7ce0d095279155ac1875c5b6ab33d2",
+    "assets/cover-b-mobile.png": "bfb2d5786fd9c074601ccfb7a1ee617eea51493317aaf7bc59c3c04f22830c81"
+  },
+  "protectedChecks": [
+    {
+      "file": "story.js",
+      "unchanged": false,
+      "originOfChange": "concurrent external task; retained"
+    },
+    {
+      "file": "engine.js",
+      "unchanged": true,
+      "originOfChange": "unchanged"
+    },
+    {
+      "file": "game.js",
+      "unchanged": true,
+      "originOfChange": "unchanged"
+    },
+    {
+      "file": "assets/char-wenwen.png",
+      "unchanged": true,
+      "originOfChange": "unchanged"
+    },
+    {
+      "file": "assets/char-maolang.png",
+      "unchanged": true,
+      "originOfChange": "unchanged"
+    },
+    {
+      "file": "assets/char-shijiang.png",
+      "unchanged": true,
+      "originOfChange": "unchanged"
+    }
+  ],
+  "desktopMatchesSelectedCandidate": true,
+  "note": "Completion snapshot only. story.js and styles.css received concurrent external changes; this task did not modify story.js/game.js/engine.js. Browser final 390x844 title check reloaded current saved files."
+}

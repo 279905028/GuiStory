@@ -1,0 +1,1214 @@
+{
+  "schema_version": 2,
+  "title": "毕节，雨停之前",
+  "contract": "v0.1 / R2六键保留",
+  "date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "scope": "M2：六默认背景、昼夜变体与交接；repair/lobby固定图定向替换，street新增下午变体待E3接入。",
+  "background_count": 6,
+  "actual_dimensions_note": "六张固定图均1672×941 RGB；street下午变体1671×941 RGB。无缩放重存、无拉伸，未标称1920×1080。",
+  "usage_policy": {
+    "no_baked_ui_text_or_characters": true,
+    "no_hidden_story_spoilers": true,
+    "first_huangqiuqiu_background": "room",
+    "preserve_original_prompt_log": true,
+    "prior_style_options": "assets/background-variants/style-options-20261019 下既有五种风格未选择、未修改、未引入运行素材。",
+    "background_time_is_intrinsic": "昼夜由素材本身呈现；street按用户确认新增下午变体，保留夜图，待E3按有效时段选择；不改日序，不用裁切/遮罩/CG代替。",
+    "daynight_user_confirmation": "采用昼夜变体，后交E3接入；保留六背景键、场景时段和映射，不改剧情或工程。"
+  },
+  "qa_method": {
+    "single_image": "本轮实际查看六固定原图、三个首轮候选及repair修订版；根代理与独立只读复核。",
+    "current_report": "qa/art-backgrounds-report.md",
+    "current_verification": "qa/art-backgrounds-v01-daynight-verification.json",
+    "current_preview": "qa/art-backgrounds-v01-daynight-preview.html",
+    "browser": "未完成；本地监听EPERM，file URL被浏览器协议策略阻止；无新版截图。",
+    "real_game": "未运行；待E3/E4/E5",
+    "historical_evidence": "historical_qa_method和各图qa.historical_r2，仅历史参考"
+  },
+  "backgrounds": [
+    {
+      "key": "street",
+      "path": "assets/bg-street.png",
+      "label": "毕节老街：默认雨夜＋下午变体",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "aspect_ratio": 1.7768331562167907,
+      "bytes": 3010764,
+      "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "transparent_background": false,
+      "source": {
+        "kind": "existing-project-image",
+        "original_prompt_record": "assets/background-prompts.json",
+        "original_prompt_name": "bg-street",
+        "original_generation_tool_recorded": "built-in image_gen",
+        "original_generated_path_recorded": "/Users/yipin/.codex/generated_images/01a14422-9884-78a3-a1bd-45b6bc824ee1/exec-257ef13c-0330-49e0-898d-42d75ac06b7f.png",
+        "original_sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+        "original_prompt_desired_size_is_not_actual": "1920x1080 desired was historical prompting; actual adopted asset is 1672x941"
+      },
+      "day_night": "rainy-night",
+      "day_night_zh": "雨夜／深夜",
+      "suitable_scenes": [
+        "默认：标题、s3步行夜间、s4凌晨、s10夜间；各节点有效背景须先解析",
+        "下午变体：s1、s7，待E3接入"
+      ],
+      "visual_focus": "上坡道路消失点、层叠山城、雨棚和湿路暖光。",
+      "crop": {
+        "object_fit": "cover",
+        "desktop_object_position": "50% 50%",
+        "mobile_portrait_object_position": "36% 50%",
+        "current_audited_css_mobile_position": "58% center（2026-10-19历史值；当前工程另行复核）",
+        "implementation_status": "旧建议保留；本轮仅单图构图复核和源矩形计算，未验证最新游戏CSS",
+        "no_stretch": true,
+        "examples": [
+          {
+            "viewport": [
+              1280,
+              720
+            ],
+            "source_visible_rect_xywh": [
+              0,
+              0.25,
+              1672,
+              940.5
+            ]
+          },
+          {
+            "viewport": [
+              390,
+              844
+            ],
+            "source_visible_rect_xywh": [
+              717.56,
+              0,
+              434.82,
+              941
+            ],
+            "mode": "current"
+          },
+          {
+            "viewport": [
+              390,
+              844
+            ],
+            "source_visible_rect_xywh": [
+              445.38,
+              0,
+              434.82,
+              941
+            ],
+            "mode": "recommended"
+          },
+          {
+            "viewport": [
+              375,
+              667
+            ],
+            "source_visible_rect_xywh": [
+              411.46,
+              0,
+              529.05,
+              941
+            ],
+            "mode": "recommended"
+          }
+        ],
+        "notes": "36%保留左中坡道和山城，58%偏向右墙与石阶；手机不能同时保留两侧店面。"
+      },
+      "usable_regions": {
+        "coordinate_system": "stage_percent_xywh; source_anchor_rects are source_pixels_xywh; origin top-left. Regions are diagnostic reservations, not literal free floor for placing a full body.",
+        "desktop_human_upper_body_preferred": [
+          58,
+          12,
+          32,
+          48
+        ],
+        "desktop_current_character_element": [
+          48,
+          7,
+          45,
+          83
+        ],
+        "mobile_context_priority": [
+          0,
+          14,
+          40,
+          44
+        ],
+        "mobile_current_character_element": [
+          14,
+          6,
+          96,
+          69
+        ],
+        "dialogue_avoidance": "本轮未验证人物/UI叠置；原2026-10-19对白几何仅见历史报告，不作为新版安全区结论。",
+        "source_anchor_rects": [
+          {
+            "label": "坡道消失点",
+            "rect": [
+              460,
+              320,
+              310,
+              240
+            ]
+          },
+          {
+            "label": "山城层叠建筑",
+            "rect": [
+              350,
+              145,
+              490,
+              220
+            ]
+          }
+        ]
+      },
+      "qa": {
+        "single_image": "2026-10-20 reviewed",
+        "view_image_reviewed": true,
+        "lived_in_details": "混凝土低楼、电线、石阶、门边收伞、排水沟与井盖可信；没有霓虹赛博朋克改写。",
+        "perspective": "路沿与楼体随坡道汇聚，山体雨雾和近远尺度自然。",
+        "people_faces": "未见空间中的人物或明确人脸。",
+        "watermark": "未观察到可见水印",
+        "signage": "未见显眼乱码招牌或可辨品牌；远店橱窗小纹理保留。",
+        "day_night_reviewed": true,
+        "palette": "灰青／板岩青＋实用暖琥珀灯光；非赛博朋克",
+        "static_composites": "新版未合成；旧截图仅历史参考",
+        "static_evidence": null,
+        "real_game_acceptance": "not_tested_pending_E3_E4_E5",
+        "real_phone_playtest": "not_performed",
+        "script_time_conflicts": [
+          "当前播放器尚未接入下午变体；s1/s7共40显示节点仍会读取夜图，不能标为运行冲突已解决。"
+        ],
+        "historical_r2": {
+          "single_image": "reviewed_acceptable",
+          "view_image_reviewed": true,
+          "lived_in_details": "混凝土低楼、电线、石阶、门边收伞、排水沟与井盖可信；没有霓虹赛博朋克改写。",
+          "perspective": "路沿与楼体随坡道汇聚，山体雨雾和近远尺度自然。",
+          "people_faces": "未见空间中的人物或明确人脸。",
+          "watermark": "未观察到可见水印",
+          "signage": "未见显眼乱码招牌或可辨品牌；远店橱窗小纹理保留。",
+          "day_night_reviewed": true,
+          "palette": "灰青／板岩青＋实用暖琥珀灯光；非赛博朋克",
+          "static_composites": "reviewed_with_limits",
+          "static_evidence": "qa/art-backgrounds-street-review.png",
+          "real_game_acceptance": "not_tested_pending_E4_E5",
+          "real_phone_playtest": "not_performed",
+          "script_time_conflicts": [
+            "s1 为下午而图为雨夜",
+            "s7 为下午而图为雨夜"
+          ]
+        },
+        "review_date": "2026-10-20",
+        "variant_review": "day：阴雨下午明确，山城、坡道、雨棚、伞架、电线及阶梯保留；未见新增显著人物/水印。"
+      },
+      "current_usage_times": [
+        "下午（仅day变体）",
+        "夜间",
+        "凌晨"
+      ],
+      "current_display_node_count": 143,
+      "current_usage_scenes": [
+        "s1",
+        "s3",
+        "s4",
+        "s7",
+        "s10"
+      ],
+      "variants": {
+        "night": {
+          "path": "assets/bg-street.png",
+          "width": 1672,
+          "height": 941,
+          "mode": "RGB",
+          "bytes": 3010764,
+          "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+          "transparent_background": false,
+          "status": "existing_default",
+          "effective_times": [
+            "夜间",
+            "凌晨"
+          ],
+          "title_default": true
+        },
+        "day": {
+          "path": "assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+          "width": 1671,
+          "height": 941,
+          "mode": "RGB",
+          "bytes": 3220000,
+          "sha256": "3cd546cd5eb5addd38e14b0d36c4176134b819cd2fb7503710ea1f87f29443ab",
+          "transparent_background": false,
+          "status": "asset_ready_runtime_pending_E3",
+          "effective_times": [
+            "下午"
+          ],
+          "mobile_object_position": "36% 50%",
+          "desktop_object_position": "50% 50%",
+          "geometry_note": "输出较原图少1像素宽；未拉伸；关键构图保留。"
+        }
+      }
+    },
+    {
+      "key": "repair",
+      "path": "assets/bg-repair.png",
+      "label": "夜间手机／音响维修柜台",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "aspect_ratio": 1.7768331562167907,
+      "bytes": 2370266,
+      "sha256": "14b00ead5390e93803ef16f82b38949dd464e901a9cf5b208bc1140cda0c3675",
+      "transparent_background": false,
+      "source": {
+        "kind": "existing-project-image-lighting-edit",
+        "original_prompt_record": "assets/background-prompts.json",
+        "original_prompt_name": "bg-repair",
+        "original_generation_tool_recorded": "built-in image_gen",
+        "original_generated_path_recorded": "/Users/yipin/.codex/generated_images/01a14422-9884-78a3-a1bd-45b6bc824ee1/exec-468d5155-aa2e-480f-90df-51c3253cfaa6.png",
+        "original_sha256": "3b918a88c0d486575fa18d09afb70a37f9e1743257dd49ce1a44f72416e098aa",
+        "original_prompt_desired_size_is_not_actual": "1920x1080 desired was historical prompting; actual adopted asset is 1672x941",
+        "adopted_candidate": "assets/background-variants/m2-daynight-20261020/bg-repair-night-v2.png",
+        "original_backup": "assets/background-variants/m2-daynight-20261020/bg-repair-original.png",
+        "edit_record": "assets/background-edits.json",
+        "revision": "M2-v01-daynight-20261020"
+      },
+      "day_night": "rainy-night-interior",
+      "day_night_zh": "晚上，门外雨夜，室内台灯",
+      "suitable_scenes": [
+        "s2晚上维修柜台；进入回声后的trial节点按原映射用room"
+      ],
+      "visual_focus": "左侧维修工作台与后架旧音响；右侧门口留立绘。",
+      "crop": {
+        "object_fit": "cover",
+        "desktop_object_position": "50% 50%",
+        "mobile_portrait_object_position": "18% 50%",
+        "current_audited_css_mobile_position": "58% center（2026-10-19历史值；当前工程另行复核）",
+        "implementation_status": "旧建议保留；本轮仅单图构图复核和源矩形计算，未验证最新游戏CSS",
+        "no_stretch": true,
+        "examples": [
+          {
+            "viewport": [
+              1280,
+              720
+            ],
+            "source_visible_rect_xywh": [
+              0,
+              0.25,
+              1672,
+              940.5
+            ]
+          },
+          {
+            "viewport": [
+              390,
+              844
+            ],
+            "source_visible_rect_xywh": [
+              717.56,
+              0,
+              434.82,
+              941
+            ],
+            "mode": "current"
+          },
+          {
+            "viewport": [
+              390,
+              844
+            ],
+            "source_visible_rect_xywh": [
+              222.69,
+              0,
+              434.82,
+              941
+            ],
+            "mode": "recommended"
+          },
+          {
+            "viewport": [
+              375,
+              667
+            ],
+            "source_visible_rect_xywh": [
+              205.73,
+              0,
+              529.05,
+              941
+            ],
+            "mode": "recommended"
+          }
+        ],
+        "notes": "18%保留台灯、零件和工作面，58%主要显示门口。人类大立绘仍遮部分焊铁，叙事设备展示时用character:null与短对白。"
+      },
+      "usable_regions": {
+        "coordinate_system": "stage_percent_xywh; source_anchor_rects are source_pixels_xywh; origin top-left. Regions are diagnostic reservations, not literal free floor for placing a full body.",
+        "desktop_human_upper_body_preferred": [
+          66,
+          12,
+          25,
+          47
+        ],
+        "desktop_current_character_element": [
+          48,
+          7,
+          45,
+          83
+        ],
+        "mobile_context_priority": [
+          0,
+          14,
+          40,
+          44
+        ],
+        "mobile_current_character_element": [
+          14,
+          6,
+          96,
+          69
+        ],
+        "dialogue_avoidance": "本轮未验证人物/UI叠置；原2026-10-19对白几何仅见历史报告，不作为新版安全区结论。",
+        "source_anchor_rects": [
+          {
+            "label": "焊铁和工具工作面",
+            "rect": [
+              100,
+              340,
+              550,
+              300
+            ]
+          },
+          {
+            "label": "后架旧音响",
+            "rect": [
+              430,
+              0,
+              260,
+              185
+            ]
+          }
+        ]
+      },
+      "qa": {
+        "single_image": "2026-10-20 reviewed",
+        "view_image_reviewed": true,
+        "lived_in_details": "焊铁架、万用表、电路板、拆机扬声器、螺丝刀、零件盒、旧手机与绕线齐全，属于普通维修铺。",
+        "perspective": "柜台、工具架、门框与地砖构图保留；v2去除室内水膜感，门外湿路和夜景保留。",
+        "people_faces": "未见空间中的人物或明确人脸。",
+        "watermark": "未观察到可见水印",
+        "signage": "玻璃贴和远街店牌有模糊不可读笔画；不作为可读剧情文字，未见显眼品牌或水印。",
+        "day_night_reviewed": true,
+        "palette": "灰青／板岩青＋实用暖琥珀灯光；非赛博朋克",
+        "static_composites": "新版未合成；旧截图仅历史参考",
+        "static_evidence": null,
+        "real_game_acceptance": "not_tested_pending_E3_E4_E5",
+        "real_phone_playtest": "not_performed",
+        "script_time_conflicts": [],
+        "historical_r2": {
+          "single_image": "reviewed_acceptable",
+          "view_image_reviewed": true,
+          "lived_in_details": "焊铁架、万用表、电路板、拆机扬声器、螺丝刀、零件盒、旧手机与绕线齐全，属于普通维修铺。",
+          "perspective": "货架、柜台和地砖方向一致；玻璃反射与门口日光可信。",
+          "people_faces": "未见空间中的人物或明确人脸。",
+          "watermark": "未观察到可见水印",
+          "signage": "玻璃贴和远街店牌有模糊不可读笔画；不作为可读剧情文字，未见显眼品牌或水印。",
+          "day_night_reviewed": true,
+          "palette": "灰青／板岩青＋实用暖琥珀灯光；非赛博朋克",
+          "static_composites": "reviewed_with_limits",
+          "static_evidence": "qa/art-backgrounds-repair-review.png",
+          "real_game_acceptance": "not_tested_pending_E4_E5",
+          "real_phone_playtest": "not_performed",
+          "script_time_conflicts": [
+            "s2 为晚上而门外明确为白天；不能仅加暗遮罩声称夜景适配"
+          ],
+          "r2_actual_sprite_static_review": "正式黄球球在1280×720及390×844等比方框下轮廓、眉眼、短红嘴、小手可读；毛狼、师匠在1280×720明暗底可辨；未作运行时或头像/收束验收。"
+        },
+        "review_date": "2026-10-20",
+        "runtime_limit": "固定文件已更新；浏览器刷新/缓存后的实际呈现未验证。"
+      },
+      "current_usage_times": [
+        "晚上"
+      ],
+      "current_display_node_count": 25,
+      "current_usage_scenes": [
+        "s2"
+      ]
+    },
+    {
+      "key": "lobby",
+      "path": "assets/bg-lobby.png",
+      "label": "阴雨下午旧KTV前厅",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "aspect_ratio": 1.7768331562167907,
+      "bytes": 2158979,
+      "sha256": "2bc2954dd90394bdd0261f87b5372bdcf61b7cc41fdb7939d490dcf49f08a39f",
+      "transparent_background": false,
+      "source": {
+        "kind": "existing-project-image-lighting-edit",
+        "original_prompt_record": "assets/background-prompts.json",
+        "original_prompt_name": "bg-lobby",
+        "original_generation_tool_recorded": "built-in image_gen",
+        "original_generated_path_recorded": "/Users/yipin/.codex/generated_images/01a14422-9884-78a3-a1bd-45b6bc824ee1/exec-9d2f7b38-ca5f-4f56-bd8f-5167430842ef.png",
+        "original_sha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871",
+        "original_prompt_desired_size_is_not_actual": "1920x1080 desired was historical prompting; actual adopted asset is 1672x941",
+        "adopted_candidate": "assets/background-variants/m2-daynight-20261020/bg-lobby-day.png",
+        "original_backup": "assets/background-variants/m2-daynight-20261020/bg-lobby-original.png",
+        "edit_record": "assets/background-edits.json",
+        "revision": "M2-v01-daynight-20261020"
+      },
+      "day_night": "overcast-afternoon-interior",
+      "day_night_zh": "下午，窗外阴雨白天，走廊暖灯",
+      "suitable_scenes": [
+        "s9第10天下午筹备；当前没有lobby夜间节点，s2试音使用room"
+      ],
+      "visual_focus": "左侧接待柜台与钥匙、右侧走廊纵深。",
+      "crop": {
+        "object_fit": "cover",
+        "desktop_object_position": "50% 50%",
+        "mobile_portrait_object_position": "35% 50%",
+        "current_audited_css_mobile_position": "58% center（2026-10-19历史值；当前工程另行复核）",
+        "implementation_status": "旧建议保留；本轮仅单图构图复核和源矩形计算，未验证最新游戏CSS",
+        "no_stretch": true,
+        "examples": [
+          {
+            "viewport": [
+              1280,
+              720
+            ],
+            "source_visible_rect_xywh": [
+              0,
+              0.25,
+              1672,
+              940.5
+            ]
+          },
+          {
+            "viewport": [
+              390,
+              844
+            ],
+            "source_visible_rect_xywh": [
+              717.56,
+              0,
+              434.82,
+              941
+            ],
+            "mode": "current"
+          },
+          {
+            "viewport": [
+              390,
+              844
+            ],
+            "source_visible_rect_xywh": [
+              433.01,
+              0,
+              434.82,
+              941
+            ],
+            "mode": "recommended"
+          },
+          {
+            "viewport": [
+              375,
+              667
+            ],
+            "source_visible_rect_xywh": [
+              400.03,
+              0,
+              529.05,
+              941
+            ],
+            "mode": "recommended"
+          }
+        ],
+        "notes": "35%让钥匙架、台账与雨窗留在左侧；58%以软椅和墙面为主。窄屏需在接待台与走廊之间取舍。"
+      },
+      "usable_regions": {
+        "coordinate_system": "stage_percent_xywh; source_anchor_rects are source_pixels_xywh; origin top-left. Regions are diagnostic reservations, not literal free floor for placing a full body.",
+        "desktop_human_upper_body_preferred": [
+          66,
+          12,
+          25,
+          47
+        ],
+        "desktop_current_character_element": [
+          48,
+          7,
+          45,
+          83
+        ],
+        "mobile_context_priority": [
+          0,
+          14,
+          40,
+          44
+        ],
+        "mobile_current_character_element": [
+          14,
+          6,
+          96,
+          69
+        ],
+        "dialogue_avoidance": "本轮未验证人物/UI叠置；原2026-10-19对白几何仅见历史报告，不作为新版安全区结论。",
+        "source_anchor_rects": [
+          {
+            "label": "接待台和钥匙牌",
+            "rect": [
+              40,
+              280,
+              640,
+              230
+            ]
+          },
+          {
+            "label": "廊道纵深",
+            "rect": [
+              1100,
+              140,
+              430,
+              430
+            ]
+          }
+        ]
+      },
+      "qa": {
+        "single_image": "2026-10-20 reviewed",
+        "view_image_reviewed": true,
+        "lived_in_details": "电话、钥匙牌、纸杯、台账、旧软椅、地毯与旧几何墙面可信；不是豪华会所。",
+        "perspective": "柜台、廊道、门框与地砖汇聚自然，暖灯反射适度。",
+        "people_faces": "未见空间中的人物或明确人脸；墙面装饰为麦克风图案和山景。",
+        "watermark": "未观察到可见水印",
+        "signage": "未见显眼乱码招牌、商标或水印；台账细字不可读。",
+        "day_night_reviewed": true,
+        "palette": "灰青／板岩青＋实用暖琥珀灯光；非赛博朋克",
+        "static_composites": "新版未合成；旧截图仅历史参考",
+        "static_evidence": null,
+        "real_game_acceptance": "not_tested_pending_E3_E4_E5",
+        "real_phone_playtest": "not_performed",
+        "script_time_conflicts": [],
+        "historical_r2": {
+          "single_image": "reviewed_acceptable",
+          "view_image_reviewed": true,
+          "lived_in_details": "电话、钥匙牌、纸杯、台账、旧软椅、地毯与旧几何墙面可信；不是豪华会所。",
+          "perspective": "柜台、廊道、门框与地砖汇聚自然，暖灯反射适度。",
+          "people_faces": "未见空间中的人物或明确人脸；墙面装饰为麦克风图案和山景。",
+          "watermark": "未观察到可见水印",
+          "signage": "未见显眼乱码招牌、商标或水印；台账细字不可读。",
+          "day_night_reviewed": true,
+          "palette": "灰青／板岩青＋实用暖琥珀灯光；非赛博朋克",
+          "static_composites": "reviewed_with_limits",
+          "static_evidence": "qa/art-backgrounds-lobby-review.png",
+          "real_game_acceptance": "not_tested_pending_E4_E5",
+          "real_phone_playtest": "not_performed",
+          "script_time_conflicts": [
+            "s9 为下午；本图窗外为雨夜，作为白天大厅使用需协调"
+          ]
+        },
+        "review_date": "2026-10-20",
+        "runtime_limit": "固定文件已更新；浏览器刷新/缓存后的实际呈现未验证。"
+      },
+      "current_usage_times": [
+        "下午"
+      ],
+      "current_display_node_count": 57,
+      "current_usage_scenes": [
+        "s9"
+      ],
+      "archived_variants": {
+        "night": {
+          "path": "assets/background-variants/m2-daynight-20261020/bg-lobby-original.png",
+          "width": 1672,
+          "height": 941,
+          "mode": "RGB",
+          "bytes": 2260911,
+          "sha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871",
+          "transparent_background": false,
+          "status": "archive_only_not_current_runtime",
+          "note": "当前无夜间lobby节点；如后续新增需求再交工程明确接入，不自行改剧情。"
+        }
+      }
+    },
+    {
+      "key": "room",
+      "path": "assets/bg-room.png",
+      "label": "深夜空包厢",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "aspect_ratio": 1.7768331562167907,
+      "bytes": 1968927,
+      "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+      "transparent_background": false,
+      "source": {
+        "kind": "existing-project-image",
+        "original_prompt_record": "assets/background-prompts.json",
+        "original_prompt_name": "bg-room",
+        "original_generation_tool_recorded": "built-in image_gen",
+        "original_generated_path_recorded": "/Users/yipin/.codex/generated_images/01a14422-9884-78a3-a1bd-45b6bc824ee1/exec-88087bc5-0227-4a02-9e00-3675de1436e3.png",
+        "original_sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+        "original_prompt_desired_size_is_not_actual": "1920x1080 desired was historical prompting; actual adopted asset is 1672x941"
+      },
+      "day_night": "late-night-interior",
+      "day_night_zh": "深夜、结束接待后的工作灯",
+      "suitable_scenes": [
+        "s2晚上试音包厢",
+        "s8晚上清点与H2",
+        "s10夜间隐藏预告与收束"
+      ],
+      "visual_focus": "关闭的电视、左侧旧设备、桌面调音器和右侧青色沙发。",
+      "crop": {
+        "object_fit": "cover",
+        "desktop_object_position": "50% 50%",
+        "mobile_portrait_object_position": "38% 50%",
+        "current_audited_css_mobile_position": "58% center（2026-10-19历史值；当前工程另行复核）",
+        "implementation_status": "旧建议保留；本轮仅单图构图复核和源矩形计算，未验证最新游戏CSS",
+        "no_stretch": true,
+        "examples": [
+          {
+            "viewport": [
+              1280,
+              720
+            ],
+            "source_visible_rect_xywh": [
+              0,
+              0.25,
+              1672,
+              940.5
+            ]
+          },
+          {
+            "viewport": [
+              390,
+              844
+            ],
+            "source_visible_rect_xywh": [
+              717.56,
+              0,
+              434.82,
+              941
+            ],
+            "mode": "current"
+          },
+          {
+            "viewport": [
+              390,
+              844
+            ],
+            "source_visible_rect_xywh": [
+              470.13,
+              0,
+              434.82,
+              941
+            ],
+            "mode": "recommended"
+          },
+          {
+            "viewport": [
+              375,
+              667
+            ],
+            "source_visible_rect_xywh": [
+              434.32,
+              0,
+              529.05,
+              941
+            ],
+            "mode": "recommended"
+          }
+        ],
+        "notes": "38%保留门、部分沙发、调音器和话筒；不会同时保留最左电视。纯黄色探针时设备可见；人类立绘或长对白会遮挡，关键揭示应先无立绘短对白建立空间。"
+      },
+      "usable_regions": {
+        "coordinate_system": "stage_percent_xywh; source_anchor_rects are source_pixels_xywh; origin top-left. Regions are diagnostic reservations, not literal free floor for placing a full body.",
+        "desktop_human_upper_body_preferred": [
+          68,
+          12,
+          23,
+          42
+        ],
+        "desktop_current_character_element": [
+          48,
+          7,
+          45,
+          83
+        ],
+        "mobile_context_priority": [
+          0,
+          14,
+          40,
+          44
+        ],
+        "mobile_current_character_element": [
+          14,
+          6,
+          96,
+          69
+        ],
+        "dialogue_avoidance": "本轮未验证人物/UI叠置；原2026-10-19对白几何仅见历史报告，不作为新版安全区结论。",
+        "source_anchor_rects": [
+          {
+            "label": "关闭电视和设备柜",
+            "rect": [
+              0,
+              30,
+              410,
+              650
+            ]
+          },
+          {
+            "label": "桌上小调音器及话筒",
+            "rect": [
+              600,
+              525,
+              235,
+              170
+            ]
+          }
+        ],
+        "orb_recommended_desktop_square": [
+          63,
+          22,
+          20,
+          35.56
+        ],
+        "orb_recommended_mobile_square_390x844": [
+          44,
+          25,
+          48,
+          22.18
+        ],
+        "orb_note": "保持正方形contain；已补正式黄球球PNG的独立alpha合成，另有早期纯黄色探针；均非游戏验收。H1/H2阶段不得显示球形立绘。"
+      },
+      "qa": {
+        "single_image": "2026-10-20 reviewed",
+        "view_image_reviewed": true,
+        "lived_in_details": "电视关闭，调音器、两支话筒、卷线、纸杯、夹板和清洁布可信；无迪斯科灯或隐藏线索图形。",
+        "perspective": "沙发转角、桌面、门框、音响柜关系自然；桌上物件由任务灯统一照亮。",
+        "people_faces": "未见空间中的人物或明确人脸；无黄球球或男配烘焙。",
+        "watermark": "未观察到可见水印",
+        "signage": "未见显眼文字、商标、水印；夹板只作环境细节，不能充当可读线索。",
+        "day_night_reviewed": true,
+        "palette": "灰青／板岩青＋实用暖琥珀灯光；非赛博朋克",
+        "static_composites": "新版未合成；旧截图仅历史参考",
+        "static_evidence": null,
+        "real_game_acceptance": "not_tested_pending_E3_E4_E5",
+        "real_phone_playtest": "not_performed",
+        "script_time_conflicts": [],
+        "historical_r2": {
+          "single_image": "reviewed_acceptable",
+          "view_image_reviewed": true,
+          "lived_in_details": "电视关闭，调音器、两支话筒、卷线、纸杯、夹板和清洁布可信；无迪斯科灯或隐藏线索图形。",
+          "perspective": "沙发转角、桌面、门框、音响柜关系自然；桌上物件由任务灯统一照亮。",
+          "people_faces": "未见空间中的人物或明确人脸；无黄球球或男配烘焙。",
+          "watermark": "未观察到可见水印",
+          "signage": "未见显眼文字、商标、水印；夹板只作环境细节，不能充当可读线索。",
+          "day_night_reviewed": true,
+          "palette": "灰青／板岩青＋实用暖琥珀灯光；非赛博朋克",
+          "static_composites": "reviewed_with_limits",
+          "static_evidence": "qa/art-backgrounds-room-review.png",
+          "real_game_acceptance": "not_tested_pending_E4_E5",
+          "real_phone_playtest": "not_performed",
+          "script_time_conflicts": [],
+          "r2_actual_sprite_static_review": "正式黄球球在1280×720及390×844等比方框下轮廓、眉眼、短红嘴、小手可读；毛狼、师匠在1280×720明暗底可辨；未作运行时或头像/收束验收。"
+        },
+        "review_date": "2026-10-20"
+      },
+      "current_usage_times": [
+        "晚上",
+        "夜间"
+      ],
+      "current_display_node_count": 75,
+      "current_usage_scenes": [
+        "s2",
+        "s8",
+        "s10"
+      ]
+    },
+    {
+      "key": "noodles",
+      "path": "assets/bg-noodles.png",
+      "label": "雨夜面摊",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "aspect_ratio": 1.7768331562167907,
+      "bytes": 2528115,
+      "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+      "transparent_background": false,
+      "source": {
+        "kind": "existing-project-image-with-directed-edit",
+        "original_prompt_record": "assets/background-prompts.json",
+        "original_prompt_name": "bg-noodles",
+        "original_generation_tool_recorded": "built-in image_gen",
+        "original_generated_path_recorded": "/Users/yipin/.codex/generated_images/01a14422-9884-78a3-a1bd-45b6bc824ee1/exec-3b059be5-d437-4ec2-94b9-28e643c8b372.png",
+        "original_sha256": "b3b2bd4aa1421b504417a1d37900add3ed69202f7d0f680c2da1be698a3dc984",
+        "original_prompt_desired_size_is_not_actual": "1920x1080 desired was historical prompting; actual adopted asset is 1672x941",
+        "edit_id": "M2-noodles-remove-distant-person-20261019",
+        "original_backup": "assets/background-variants/m2-20261019/bg-noodles-original.png",
+        "adopted_candidate": "assets/background-variants/m2-20261019/bg-noodles-no-person.png"
+      },
+      "day_night": "rainy-night",
+      "day_night_zh": "雨夜／深夜",
+      "suitable_scenes": [
+        "小满夜宵摊道别",
+        "周栀下班吃面",
+        "雨棚下的日常谈话"
+      ],
+      "visual_focus": "左侧热汤锅、蒸汽和碗筷，右侧湿坡道。",
+      "crop": {
+        "object_fit": "cover",
+        "desktop_object_position": "50% 50%",
+        "mobile_portrait_object_position": "18% 50%",
+        "current_audited_css_mobile_position": "58% center（2026-10-19历史值；当前工程另行复核）",
+        "implementation_status": "旧建议保留；本轮仅单图构图复核和源矩形计算，未验证最新游戏CSS",
+        "no_stretch": true,
+        "examples": [
+          {
+            "viewport": [
+              1280,
+              720
+            ],
+            "source_visible_rect_xywh": [
+              0,
+              0.25,
+              1672,
+              940.5
+            ]
+          },
+          {
+            "viewport": [
+              390,
+              844
+            ],
+            "source_visible_rect_xywh": [
+              717.56,
+              0,
+              434.82,
+              941
+            ],
+            "mode": "current"
+          },
+          {
+            "viewport": [
+              390,
+              844
+            ],
+            "source_visible_rect_xywh": [
+              222.69,
+              0,
+              434.82,
+              941
+            ],
+            "mode": "recommended"
+          },
+          {
+            "viewport": [
+              375,
+              667
+            ],
+            "source_visible_rect_xywh": [
+              205.73,
+              0,
+              529.05,
+              941
+            ],
+            "mode": "recommended"
+          }
+        ],
+        "notes": "18%优先保留锅与蒸汽，58%会丢掉整口锅。右侧人物能与左锅共存；长对白会遮锅下半部，勿依赖下部锅身传达剧情。"
+      },
+      "usable_regions": {
+        "coordinate_system": "stage_percent_xywh; source_anchor_rects are source_pixels_xywh; origin top-left. Regions are diagnostic reservations, not literal free floor for placing a full body.",
+        "desktop_human_upper_body_preferred": [
+          65,
+          12,
+          27,
+          48
+        ],
+        "desktop_current_character_element": [
+          48,
+          7,
+          45,
+          83
+        ],
+        "mobile_context_priority": [
+          0,
+          14,
+          40,
+          44
+        ],
+        "mobile_current_character_element": [
+          14,
+          6,
+          96,
+          69
+        ],
+        "dialogue_avoidance": "本轮未验证人物/UI叠置；原2026-10-19对白几何仅见历史报告，不作为新版安全区结论。",
+        "source_anchor_rects": [
+          {
+            "label": "热汤锅和蒸汽",
+            "rect": [
+              55,
+              140,
+              400,
+              420
+            ]
+          },
+          {
+            "label": "雨夜坡道",
+            "rect": [
+              970,
+              245,
+              535,
+              430
+            ]
+          }
+        ]
+      },
+      "qa": {
+        "single_image": "2026-10-20 reviewed",
+        "view_image_reviewed": true,
+        "lived_in_details": "不锈钢灶台、大汤锅、叠碗、调料、塑料凳、普通桌面和遮雨棚可信，保持中国小城面摊。",
+        "perspective": "坡道、台阶、桌面和雨棚支撑方向合理；编辑位置门板、栏杆连续。",
+        "people_faces": "原图右上远人／边缘残影已通过内置工具去除；采用版未见空间人物或明确人脸。",
+        "watermark": "未观察到可见水印",
+        "signage": "未见显眼乱码招牌、品牌或水印；墙上小纸片不可读。",
+        "day_night_reviewed": true,
+        "palette": "灰青／板岩青＋实用暖琥珀灯光；非赛博朋克",
+        "static_composites": "新版未合成；旧截图仅历史参考",
+        "static_evidence": null,
+        "real_game_acceptance": "not_tested_pending_E3_E4_E5",
+        "real_phone_playtest": "not_performed",
+        "script_time_conflicts": [],
+        "historical_r2": {
+          "single_image": "reviewed_acceptable_after_edit",
+          "view_image_reviewed": true,
+          "lived_in_details": "不锈钢灶台、大汤锅、叠碗、调料、塑料凳、普通桌面和遮雨棚可信，保持中国小城面摊。",
+          "perspective": "坡道、台阶、桌面和雨棚支撑方向合理；编辑位置门板、栏杆连续。",
+          "people_faces": "原图右上远人／边缘残影已通过内置工具去除；采用版未见空间人物或明确人脸。",
+          "watermark": "未观察到可见水印",
+          "signage": "未见显眼乱码招牌、品牌或水印；墙上小纸片不可读。",
+          "day_night_reviewed": true,
+          "palette": "灰青／板岩青＋实用暖琥珀灯光；非赛博朋克",
+          "static_composites": "reviewed_with_limits",
+          "static_evidence": "qa/art-backgrounds-noodles-review.png",
+          "real_game_acceptance": "not_tested_pending_E4_E5",
+          "real_phone_playtest": "not_performed",
+          "script_time_conflicts": []
+        },
+        "review_date": "2026-10-20"
+      },
+      "current_usage_times": [
+        "夜间",
+        "凌晨"
+      ],
+      "current_display_node_count": 46,
+      "current_usage_scenes": [
+        "s3",
+        "s4",
+        "s6"
+      ]
+    },
+    {
+      "key": "salon",
+      "path": "assets/bg-salon.png",
+      "label": "白天理发店",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "aspect_ratio": 1.7768331562167907,
+      "bytes": 2571679,
+      "sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+      "transparent_background": false,
+      "source": {
+        "kind": "existing-project-image",
+        "original_prompt_record": "assets/background-prompts.json",
+        "original_prompt_name": "bg-salon",
+        "original_generation_tool_recorded": "built-in image_gen",
+        "original_generated_path_recorded": "/Users/yipin/.codex/generated_images/01a14422-9884-78a3-a1bd-45b6bc824ee1/exec-a65fe53c-90b8-4318-b143-17d2a5d47f63.png",
+        "original_sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+        "original_prompt_desired_size_is_not_actual": "1920x1080 desired was historical prompting; actual adopted asset is 1672x941"
+      },
+      "day_night": "day",
+      "day_night_zh": "白天／下午",
+      "suitable_scenes": [
+        "第5天理发店",
+        "作品讨论与剪发模特日常"
+      ],
+      "visual_focus": "左侧镜台、理发椅、剪刀和笔记，右侧日光门口。",
+      "crop": {
+        "object_fit": "cover",
+        "desktop_object_position": "50% 50%",
+        "mobile_portrait_object_position": "28% 50%",
+        "current_audited_css_mobile_position": "58% center（2026-10-19历史值；当前工程另行复核）",
+        "implementation_status": "旧建议保留；本轮仅单图构图复核和源矩形计算，未验证最新游戏CSS",
+        "no_stretch": true,
+        "examples": [
+          {
+            "viewport": [
+              1280,
+              720
+            ],
+            "source_visible_rect_xywh": [
+              0,
+              0.25,
+              1672,
+              940.5
+            ]
+          },
+          {
+            "viewport": [
+              390,
+              844
+            ],
+            "source_visible_rect_xywh": [
+              717.56,
+              0,
+              434.82,
+              941
+            ],
+            "mode": "current"
+          },
+          {
+            "viewport": [
+              390,
+              844
+            ],
+            "source_visible_rect_xywh": [
+              346.41,
+              0,
+              434.82,
+              941
+            ],
+            "mode": "recommended"
+          },
+          {
+            "viewport": [
+              375,
+              667
+            ],
+            "source_visible_rect_xywh": [
+              320.03,
+              0,
+              529.05,
+              941
+            ],
+            "mode": "recommended"
+          }
+        ],
+        "notes": "28%优先保留镜台与黑椅上部，58%偏向玻璃门和街景。椅脚本就位于对白覆盖区，不作为手机辨识必要元素。"
+      },
+      "usable_regions": {
+        "coordinate_system": "stage_percent_xywh; source_anchor_rects are source_pixels_xywh; origin top-left. Regions are diagnostic reservations, not literal free floor for placing a full body.",
+        "desktop_human_upper_body_preferred": [
+          65,
+          12,
+          26,
+          47
+        ],
+        "desktop_current_character_element": [
+          48,
+          7,
+          45,
+          83
+        ],
+        "mobile_context_priority": [
+          0,
+          14,
+          40,
+          44
+        ],
+        "mobile_current_character_element": [
+          14,
+          6,
+          96,
+          69
+        ],
+        "dialogue_avoidance": "本轮未验证人物/UI叠置；原2026-10-19对白几何仅见历史报告，不作为新版安全区结论。",
+        "source_anchor_rects": [
+          {
+            "label": "镜台与工具",
+            "rect": [
+              40,
+              80,
+              630,
+              420
+            ]
+          },
+          {
+            "label": "前景理发椅",
+            "rect": [
+              220,
+              390,
+              480,
+              510
+            ]
+          }
+        ]
+      },
+      "qa": {
+        "single_image": "2026-10-20 reviewed",
+        "view_image_reviewed": true,
+        "lived_in_details": "梳剪、吹风机、喷瓶、毛巾、围布、便宜挂钩、植物和簸箕边碎发可信，属于普通街坊店。",
+        "perspective": "理发椅、地砖、镜框与窗框关系自然；未见明显错误镜中人物倒影。",
+        "people_faces": "无站在店内的人物及清晰人脸；墙上小幅怀旧照片可能含模糊人影／群像，不笼统宣称所有人物图像为零，保留原图。",
+        "watermark": "未观察到可见水印",
+        "signage": "未见显眼乱码招牌、商标或水印；本子线条不应作为可读作品内容。",
+        "day_night_reviewed": true,
+        "palette": "灰青／板岩青＋实用暖琥珀灯光；非赛博朋克",
+        "static_composites": "新版未合成；旧截图仅历史参考",
+        "static_evidence": null,
+        "real_game_acceptance": "not_tested_pending_E3_E4_E5",
+        "real_phone_playtest": "not_performed",
+        "script_time_conflicts": [],
+        "historical_r2": {
+          "single_image": "reviewed_acceptable",
+          "view_image_reviewed": true,
+          "lived_in_details": "梳剪、吹风机、喷瓶、毛巾、围布、便宜挂钩、植物和簸箕边碎发可信，属于普通街坊店。",
+          "perspective": "理发椅、地砖、镜框与窗框关系自然；未见明显错误镜中人物倒影。",
+          "people_faces": "无站在店内的人物及清晰人脸；墙上小幅怀旧照片可能含模糊人影／群像，不笼统宣称所有人物图像为零，保留原图。",
+          "watermark": "未观察到可见水印",
+          "signage": "未见显眼乱码招牌、商标或水印；本子线条不应作为可读作品内容。",
+          "day_night_reviewed": true,
+          "palette": "灰青／板岩青＋实用暖琥珀灯光；非赛博朋克",
+          "static_composites": "reviewed_with_limits",
+          "static_evidence": "qa/art-backgrounds-salon-review.png",
+          "real_game_acceptance": "not_tested_pending_E4_E5",
+          "real_phone_playtest": "not_performed",
+          "script_time_conflicts": []
+        },
+        "review_date": "2026-10-20"
+      },
+      "current_usage_times": [
+        "下午"
+      ],
+      "current_display_node_count": 29,
+      "current_usage_scenes": [
+        "s5"
+      ]
+    }
+  ],
+  "pending_for_E4_E5": [
+    "E3按usage-map接入street下午变体；40个下午显示节点目前仍有运行昼夜冲突",
+    "E4/E5验证固定repair夜图、lobby下午图实际显示和缓存刷新",
+    "E4验证分背景裁切、人物/对白/选项安全区；新版未有实际游戏截图",
+    "E3/E4/E5检查跨场、节点覆盖、读档/重选/标题返回及隐藏room，不更改剧情映射"
+  ],
+  "revision": "M2-v01-daynight-20261020",
+  "runtime_image_count_current": 6,
+  "runtime_image_count_after_E3": 7,
+  "historical_qa_method": {
+    "originals": "逐张view_image，真实尺寸／模式／SHA-256",
+    "static": "32张独立HTML静态渲染，内嵌审计CSS快照，无剧情／引擎／游戏运行；浏览器视口模拟，不是实体手机试玩。",
+    "layout_snapshot": "qa/art-backgrounds-layout-snapshot.json",
+    "measurements": "qa/art-backgrounds-layout-measurements.json",
+    "report": "qa/art-backgrounds-report-r2-20261019.md",
+    "r2_actual_sprite_alpha_composites": "8张正式R2角色与维修亮底/包厢暗底的独立alpha合成；等比contain与简化对白遮挡，非CSS精确复现；见qa/art-backgrounds-r2-composite-record.json。",
+    "date": "2026-10-19",
+    "status": "历史证据，不作为2026-10-20新图或当前工程验收"
+  },
+  "daynight_usage_map": "assets/background-variants/m2-daynight-20261020/usage-map.json"
+}

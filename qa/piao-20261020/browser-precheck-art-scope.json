@@ -1,0 +1,150 @@
+{
+  "startedAt": "2026-10-20T07:39:54.515Z",
+  "pass": false,
+  "checks": [
+    {
+      "name": "新开局通过真实点击、空格与回车自然到达飘首次出场并加载立绘",
+      "pass": true,
+      "details": {
+        "steps": 262,
+        "nodeId": "ch2_piao_meet_02"
+      }
+    },
+    {
+      "name": "1280×720：标题、七选项滚动点击、第三章续读与重选、婚礼页与第一章回溯",
+      "pass": true,
+      "details": {
+        "clientHeight": 552,
+        "scrollHeight": 560,
+        "overflowY": "auto"
+      }
+    },
+    {
+      "name": "390×844：标题、七选项滚动点击、第三章续读与重选、婚礼页与第一章回溯",
+      "pass": true,
+      "details": {
+        "clientHeight": 695,
+        "scrollHeight": 695,
+        "overflowY": "auto"
+      }
+    },
+    {
+      "name": "375×667：标题、七选项滚动点击、第三章续读与重选、婚礼页与第一章回溯",
+      "pass": true,
+      "details": {
+        "clientHeight": 518,
+        "scrollHeight": 600,
+        "overflowY": "auto"
+      }
+    },
+    {
+      "name": "飘确认关系选项 together：真实 UI 至两年后结局、自动续读与手动读档",
+      "pass": true,
+      "details": {
+        "steps": 21,
+        "end": "end_piao_wenwen"
+      }
+    },
+    {
+      "name": "飘确认关系选项 friends：真实 UI 至两年后结局、自动续读与手动读档",
+      "pass": true,
+      "details": {
+        "steps": 22,
+        "end": "end_piao_maolang"
+      }
+    },
+    {
+      "name": "非飘路线婚礼后回溯，清除后日谈记录并重新选择文文结局，旧 v0.3/v1 原字节保留",
+      "pass": true,
+      "details": {
+        "soloSteps": 15
+      }
+    }
+  ],
+  "screenshots": [
+    "browser-natural-first-piao.png",
+    "browser-1280x720-title.png",
+    "browser-1280x720-seven-choices.png",
+    "browser-1280x720-seven-choices-bottom.png",
+    "browser-1280x720-piao-stage-end.png",
+    "browser-1280x720-wedding-two-years-later.png",
+    "browser-1280x720-wedding-end.png",
+    "browser-390x844-title.png",
+    "browser-390x844-seven-choices.png",
+    "browser-390x844-seven-choices-bottom.png",
+    "browser-390x844-piao-stage-end.png",
+    "browser-390x844-wedding-two-years-later.png",
+    "browser-390x844-wedding-end.png",
+    "browser-375x667-title.png",
+    "browser-375x667-seven-choices.png",
+    "browser-375x667-seven-choices-bottom.png",
+    "browser-375x667-piao-stage-end.png",
+    "browser-375x667-wedding-two-years-later.png",
+    "browser-375x667-wedding-end.png",
+    "browser-piao-together-end.png",
+    "browser-piao-friends-end.png",
+    "browser-replayed-wenwen-end.png"
+  ],
+  "pageErrors": [],
+  "network": [
+    {
+      "label": "natural-first-piao",
+      "blocked": [],
+      "failed": [],
+      "responseErrors": []
+    },
+    {
+      "label": "viewport-1280x720",
+      "blocked": [],
+      "failed": [],
+      "responseErrors": []
+    },
+    {
+      "label": "viewport-390x844",
+      "blocked": [],
+      "failed": [],
+      "responseErrors": []
+    },
+    {
+      "label": "viewport-375x667",
+      "blocked": [],
+      "failed": [],
+      "responseErrors": []
+    },
+    {
+      "label": "piao-branches-and-replay",
+      "blocked": [],
+      "failed": [],
+      "responseErrors": []
+    },
+    {
+      "label": "piao-nine-expression-assets",
+      "blocked": [],
+      "failed": [],
+      "responseErrors": []
+    }
+  ],
+  "initialHashes": {
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "79242f278784a9a056be5a782ff7e4ddb4b4ec9917684ab4c82b417fc3fa916a",
+    "story.js": "78c20e18cdcb1d1c16853653d9969e7f34aa2aeb9a58142cdb2f6e3ea78e4e76",
+    "index.html": "2e0682faf21a1ce91881e267c9ac741b1a2975b66927dca3e4ed2d25bb6efaa9",
+    "styles.css": "6ec050b339efac44a46a607766714a3d7677bcc82abe3181ed4d90a2dbb441a0"
+  },
+  "scope": "正式 v0.4 页面；新开局至飘首次出场自然 UI；合法快照覆盖七选项、飘双结局与非飘婚礼、重选和存档。",
+  "limitations": [
+    "浏览器为隔离 Google Chrome；手机仅为视口模拟，未覆盖实体手机、Safari 或 Firefox。",
+    "自然 UI 全程从开局走至飘首次出场；后续使用正式引擎自然重放生成的合法快照与真实 UI 续读。",
+    "本轮针对飘接入；不重复原有音频和全部损坏存档专项。"
+  ],
+  "browser": "155.0.8059.85",
+  "error": "AssertionError [ERR_ASSERTION]: 差分未在正式剧情中使用：expression-displeased\n    at piaoArtChecks (/Users/yipin/Desktop/cjb/qa/piao-20261020/browser-test.cjs:265:7)\n    at async /Users/yipin/Desktop/cjb/qa/piao-20261020/browser-test.cjs:312:5",
+  "finishedAt": "2026-10-20T07:42:34.339Z",
+  "finalHashes": {
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "79242f278784a9a056be5a782ff7e4ddb4b4ec9917684ab4c82b417fc3fa916a",
+    "story.js": "78c20e18cdcb1d1c16853653d9969e7f34aa2aeb9a58142cdb2f6e3ea78e4e76",
+    "index.html": "2e0682faf21a1ce91881e267c9ac741b1a2975b66927dca3e4ed2d25bb6efaa9",
+    "styles.css": "6ec050b339efac44a46a607766714a3d7677bcc82abe3181ed4d90a2dbb441a0"
+  }
+}

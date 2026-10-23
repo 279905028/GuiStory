@@ -1,0 +1,13 @@
+{
+  "key": "wenwen-smile",
+  "character": "wenwen",
+  "file": "char-wenwen-human-expression-smile",
+  "ref": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-base-v1.png",
+  "references": [
+    "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-base-v1.png"
+  ],
+  "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为微笑：嘴角比基础图明显上扬，眼神柔和，克制自然的开心，不咧嘴大笑。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。",
+  "generatedPath": "/Users/yipin/.codex/generated_images/01a162af-0842-7a61-a6ca-7846101abfe6/exec-51b0aeba-aa3b-404a-afd9-5cc61af97229.png",
+  "tool": "image_gen built-in",
+  "attempt": 1
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "routes/huangqiuqiu",
+  "owner": "E07",
+  "scenes": {
+    "ts_c03_huangqiuqiu_sample": {
+      "chapter": 3,
+      "title": "第二次也要打招呼",
+      "bg": "sample-bg",
+      "time": "17:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "17:00"
+      },
+      "location": "网吧后院侧门",
+      "day": 15,
+      "dayLabel": "第15天"
+    }
+  },
+  "nodes": {
+    "tc_c03_huangqiuqiu_entry": {
+      "id": "tc_c03_huangqiuqiu_entry",
+      "type": "line",
+      "scene": "ts_c03_huangqiuqiu_sample",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我到网吧时还没上班，只借前门穿过去。后院侧门附近没有别人，我在门外敲了三下，等到里面说进来，才推开门。",
+      "next": null
+    }
+  },
+  "imports": [],
+  "exports": {
+    "tc_c03_huangqiuqiu_entry": "tc_c03_huangqiuqiu_entry"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 978,
+      "endLine": 978,
+      "nodeIds": [
+        "tc_c03_huangqiuqiu_entry"
+      ],
+      "kind": "narration"
+    }
+  ],
+  "exclusions": [],
+  "assetRequests": [
+    "e01-art-ch03"
+  ]
+}

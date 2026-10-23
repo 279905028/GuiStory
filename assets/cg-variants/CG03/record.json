@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "id": "CG03",
+  "date": "2026-10-20",
+  "status": "美术自审采用；待用户审阅、工程接入及正式游戏验收",
+  "tool": "内置image_gen",
+  "storySha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+  "references": [
+    {
+      "path": "assets/char-zhouzhi.png",
+      "sha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+      "role": "正式角色身份参考"
+    },
+    {
+      "path": "assets/char-wenwen.png",
+      "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "role": "正式角色身份参考"
+    },
+    {
+      "path": "assets/bg-noodles.png",
+      "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+      "role": "正式空间材质参考"
+    },
+    {
+      "path": "assets/cg/cg-02-xiaoman-mirror.png",
+      "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e",
+      "role": "已采用CG的统一画法参考"
+    },
+    {
+      "path": "assets/cg/cg-08-huangqiuqiu-listening.png",
+      "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1",
+      "role": "已采用CG的统一画法参考"
+    },
+    {
+      "path": "assets/cg-variants/CG03/candidate-v1.png",
+      "sha256": "50ef608a207469cfbf492bf7b66d1f84bcb791576262ba1e35cb6b80c9e69997",
+      "role": "本图之前版本的编辑目标"
+    }
+  ],
+  "attempts": [
+    {
+      "version": "candidate-v1",
+      "prompt": "用途：illustration-story；《毕节，雨停之前》第1—10天序章的完整剧情CG，不是立绘拼贴。统一画法：日系半写实视觉小说插画，成年中国人物，面部严格匹配正式角色参考，自然真实比例，细腻克制的绘画质感，旧物与衣料有生活纹理，灰青环境与实用暖光相融，不改成夸张动漫脸、3D玩偶或照片风格。横向16:9，目标1920×1080不透明PNG。所有重要脸、手和道具放在画面上方15%至62%范围，底部35%以非关键衣物、地面等自然场景延伸容纳将来的对白；不画任何文字、标注、对白框、界面、标题、边框、水印。人物与环境统一重绘，自然遮挡、透视和接触影，禁止把参考立绘直接贴入背景。\n本张CG03：第6天雨夜，坡口面馆热汤之间，对应s6_plan_04。输入图1仅作周栀25岁成年面貌、深色长发青色衬衫正式参考；图2作文文深灰夹克袖口及手的参考；图3借鉴普通小面馆雨夜湿路、桌椅、暖灯与蒸汽材质，重新构图到面馆靠水汽窗的双人桌，不能只画外部摊台。文文第一人称坐姿眼高望向对面的周栀，她脸在55%宽30%高，疲惫而松弛地认真谈自己的摆摊计划，轻轻低头看报价单，不做恋爱凝视。一只清汤面碗稳稳压住一张报价单的纸角，周栀一只手自然指向单据其中一个格；文文只露前景夹克袖口和持笔的手，在同张单的另一处圈记，两只手不要接触。桌上另一只面碗与少量热气，两只碗、单据和双手放在画面40%至62%高度内。周栀布袋挂在膝旁，后面窗有雨滴与水汽，暖灯照清脸，环境灰青，纸上只有低对比抽象表格线而没有可辨读文字、价格和品牌。只画周栀和文文的前景手，没有店友围观。没有喂食、牵手、浪漫花束、冰柜买卖、签约或手机号；不画第一次或第二次吃面文字。\n最后两张额外参考仅用于统一本批已采用CG02与CG08的绘画细腻程度、真实比例、旧环境质感和暖冷光融合。不能把这两张参考的小满、黄球球、理发店或包厢场景额外带入本张。以本张各自规定的人物和场景为准。镜头尽量用有环境纵深的中景，不要裁掉关键的手、道具或伞，所有比例自然，不用加黑条制作底部空间。",
+      "source": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a15384-7737-7423-837c-ceee66e56f7e/exec-f3bbbfcb-9e5e-4504-9b8e-f3aef97e29c1.png",
+      "archive": "assets/cg-variants/CG03/candidate-v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2415216,
+      "sha256": "50ef608a207469cfbf492bf7b66d1f84bcb791576262ba1e35cb6b80c9e69997",
+      "review": "暂不采用：周栀面碗尚未明确压住报价单，汤面有绿色碎料与不加葱前情不一致；修订这两个道具关系并去掉背景人物。",
+      "inputReferences": [
+        {
+          "path": "assets/char-zhouzhi.png",
+          "sha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f"
+        },
+        {
+          "path": "assets/char-wenwen.png",
+          "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44"
+        },
+        {
+          "path": "assets/bg-noodles.png",
+          "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500"
+        },
+        {
+          "path": "assets/cg/cg-02-xiaoman-mirror.png",
+          "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e"
+        },
+        {
+          "path": "assets/cg/cg-08-huangqiuqiu-listening.png",
+          "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1"
+        }
+      ],
+      "toolArguments": {
+        "prompt": "用途：illustration-story；《毕节，雨停之前》第1—10天序章的完整剧情CG，不是立绘拼贴。统一画法：日系半写实视觉小说插画，成年中国人物，面部严格匹配正式角色参考，自然真实比例，细腻克制的绘画质感，旧物与衣料有生活纹理，灰青环境与实用暖光相融，不改成夸张动漫脸、3D玩偶或照片风格。横向16:9，目标1920×1080不透明PNG。所有重要脸、手和道具放在画面上方15%至62%范围，底部35%以非关键衣物、地面等自然场景延伸容纳将来的对白；不画任何文字、标注、对白框、界面、标题、边框、水印。人物与环境统一重绘，自然遮挡、透视和接触影，禁止把参考立绘直接贴入背景。\n本张CG03：第6天雨夜，坡口面馆热汤之间，对应s6_plan_04。输入图1仅作周栀25岁成年面貌、深色长发青色衬衫正式参考；图2作文文深灰夹克袖口及手的参考；图3借鉴普通小面馆雨夜湿路、桌椅、暖灯与蒸汽材质，重新构图到面馆靠水汽窗的双人桌，不能只画外部摊台。文文第一人称坐姿眼高望向对面的周栀，她脸在55%宽30%高，疲惫而松弛地认真谈自己的摆摊计划，轻轻低头看报价单，不做恋爱凝视。一只清汤面碗稳稳压住一张报价单的纸角，周栀一只手自然指向单据其中一个格；文文只露前景夹克袖口和持笔的手，在同张单的另一处圈记，两只手不要接触。桌上另一只面碗与少量热气，两只碗、单据和双手放在画面40%至62%高度内。周栀布袋挂在膝旁，后面窗有雨滴与水汽，暖灯照清脸，环境灰青，纸上只有低对比抽象表格线而没有可辨读文字、价格和品牌。只画周栀和文文的前景手，没有店友围观。没有喂食、牵手、浪漫花束、冰柜买卖、签约或手机号；不画第一次或第二次吃面文字。\n最后两张额外参考仅用于统一本批已采用CG02与CG08的绘画细腻程度、真实比例、旧环境质感和暖冷光融合。不能把这两张参考的小满、黄球球、理发店或包厢场景额外带入本张。以本张各自规定的人物和场景为准。镜头尽量用有环境纵深的中景，不要裁掉关键的手、道具或伞，所有比例自然，不用加黑条制作底部空间。",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-zhouzhi.png",
+          "/Users/yipin/Desktop/cjb/assets/char-wenwen.png",
+          "/Users/yipin/Desktop/cjb/assets/bg-noodles.png",
+          "/Users/yipin/Desktop/cjb/assets/cg/cg-02-xiaoman-mirror.png",
+          "/Users/yipin/Desktop/cjb/assets/cg/cg-08-huangqiuqiu-listening.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "version": "candidate-v2",
+      "prompt": "用途：precise-object-edit。编辑这张已有剧情CG，严格保持周栀成年面孔、深色长发、青色衬衫、左手指向纸上格子、右手支脸、文文前景持笔的手、两只碗、面馆空间、雨窗、夜间灯光、绘画风格和画幅不变。只修正三处：一，将周栀面前偏右的清汤面碗向左轻移，使碗底确实压住报价单的右上纸角，纸的一小角明确被碗底压住，而不是碗放在纸旁；确保碗不压手、不穿透纸，维持两人正在指纸圈记。二，周栀碗内改为清澈浅色汤与素面条，完全没有葱花、香菜、青菜或绿色碎料，她已明确点了不加葱；文文前景红汤面保持不变。三，去掉右后方灶台后的模糊厨师身影，保留灶台和蒸汽，让图里没有其他人。不要修改任何人的脸、手指或衣服，不添加可读的文字、符号、水印、对话框。保持横向16:9不透明PNG、原有画质和完整画幅。",
+      "references": [
+        "assets/cg-variants/CG03/candidate-v1.png"
+      ],
+      "source": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a15384-7737-7423-837c-ceee66e56f7e/exec-80502335-9b8f-4f2d-b845-b8943c01c012.png",
+      "archive": "assets/cg-variants/CG03/candidate-v2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2322046,
+      "sha256": "e50499d21beaaf3002c477771fe8b8be02065c992c85428b12234cdd835916ed",
+      "review": "采用：清汤无绿色碎料，碗底压住单据右上纸角，指纸与圈记保留；背景无额外人物。",
+      "inputReferences": [
+        {
+          "path": "assets/cg-variants/CG03/candidate-v1.png",
+          "sha256": "50ef608a207469cfbf492bf7b66d1f84bcb791576262ba1e35cb6b80c9e69997"
+        }
+      ],
+      "toolArguments": {
+        "prompt": "用途：precise-object-edit。编辑这张已有剧情CG，严格保持周栀成年面孔、深色长发、青色衬衫、左手指向纸上格子、右手支脸、文文前景持笔的手、两只碗、面馆空间、雨窗、夜间灯光、绘画风格和画幅不变。只修正三处：一，将周栀面前偏右的清汤面碗向左轻移，使碗底确实压住报价单的右上纸角，纸的一小角明确被碗底压住，而不是碗放在纸旁；确保碗不压手、不穿透纸，维持两人正在指纸圈记。二，周栀碗内改为清澈浅色汤与素面条，完全没有葱花、香菜、青菜或绿色碎料，她已明确点了不加葱；文文前景红汤面保持不变。三，去掉右后方灶台后的模糊厨师身影，保留灶台和蒸汽，让图里没有其他人。不要修改任何人的脸、手指或衣服，不添加可读的文字、符号、水印、对话框。保持横向16:9不透明PNG、原有画质和完整画幅。",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/cg-variants/CG03/candidate-v1.png"
+        ],
+        "transparent_background": false
+      }
+    }
+  ],
+  "adopted": {
+    "version": "candidate-v2",
+    "path": "assets/cg/cg-03-zhouzhi-noodles.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2322046,
+    "sha256": "e50499d21beaaf3002c477771fe8b8be02065c992c85428b12234cdd835916ed",
+    "postprocessing": "无；原生PNG逐字节复制，未放大、裁切或拉伸",
+    "selectionAuthority": "本窗口依据已确认分镜与正式参考作美术自审采用；非用户逐图终审",
+    "dimensionNote": "保留原生输出，非1920×1080；不拉伸、不放大或伪称高分辨率母版"
+  },
+  "gameAcceptance": "未接入、未验收",
+  "criticalRegions": {
+    "coordinateSystem": "整张原图百分比[x,y,w,h]，左上原点",
+    "method": "人工观察估计，非像素级分割；只作布局避让说明，不能直接当裁切参数",
+    "items": [
+      {
+        "label": "周栀脸",
+        "rect": [
+          49,
+          11,
+          18,
+          31
+        ]
+      },
+      {
+        "label": "指纸与圈记手",
+        "rect": [
+          31,
+          62,
+          36,
+          29
+        ]
+      },
+      {
+        "label": "清汤碗压纸角",
+        "rect": [
+          63,
+          65,
+          20,
+          16
+        ]
+      },
+      {
+        "label": "前景面碗",
+        "rect": [
+          62,
+          79,
+          34,
+          21
+        ]
+      }
+    ]
+  },
+  "display": {
+    "approvedCrop": null,
+    "fit": "contain",
+    "desktop": "独立完整画面区，与对白区分开；不可直接沿用底部35%覆盖式对白",
+    "mobile": "完整横图、留边、独立对白；无竖版、无拉伸",
+    "reason": "实际多张图的关键道具或手位于原图下部，已按分镜约定的超出目标时改布局方案交接",
+    "staticChecks": [
+      {
+        "viewport": [
+          1440,
+          900
+        ],
+        "screenshot": "qa/cg-m2-CG03-static-1440x900.png"
+      },
+      {
+        "viewport": [
+          1280,
+          720
+        ],
+        "screenshot": "qa/cg-m2-CG03-static-1280x720.png"
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "screenshot": "qa/cg-m2-CG03-static-390x844.png"
+      },
+      {
+        "viewport": [
+          375,
+          667
+        ],
+        "screenshot": "qa/cg-m2-CG03-static-375x667.png"
+      },
+      {
+        "viewport": [
+          844,
+          390
+        ],
+        "screenshot": "qa/cg-m2-CG03-static-844x390.png"
+      }
+    ],
+    "rawChecks": "qa/cg-m2-static-checks.json",
+    "staticReviewPage": "qa/cg-m2-art-review.html",
+    "manualSmallScreenReview": "已逐张查看375×667截图；脸、动作及主要道具可辨；纸张细字不作识别要求",
+    "gameAcceptance": "未执行"
+  },
+  "integration": {
+    "cgKey": "cg03",
+    "nodeIds": [
+      "s6_plan_04",
+      "s6_plan_05",
+      "s6_plan_06",
+      "s6_plan_07",
+      "s6_plan_08"
+    ],
+    "restoreAt": "s6_plan_09",
+    "status": "待CG-D统一接入，story.js未修改",
+    "hidden": false,
+    "hiddenLoadBoundary": null
+  }
+}

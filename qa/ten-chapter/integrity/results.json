@@ -1,0 +1,72 @@
+{
+  "task": "E10",
+  "runAt": "2026-10-23T05:16:16.552Z",
+  "formalStorySha256": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60",
+  "expectedBuild": "db01e296857b57e787323644aeefdb30bfdbea53cb854d5812cf1935fb815139",
+  "checks": [
+    {
+      "name": "当前正式剧情与E09冻结版本一致",
+      "status": "passed"
+    },
+    {
+      "name": "只读重新构建与正式四份产物逐字一致",
+      "status": "passed",
+      "details": {
+        "outputs": [
+          "story.js",
+          "assets/runtime-ten-chapter-manifest.json",
+          "任务拆分/全十章/校验/E09/source-map.json",
+          "任务拆分/全十章/校验/E09/build-report.json"
+        ],
+        "contentHash": "db01e296857b57e787323644aeefdb30bfdbea53cb854d5812cf1935fb815139",
+        "graph": {
+          "nodes": 2612,
+          "edges": 2698,
+          "choices": 19,
+          "options": 43,
+          "countsByType": {
+            "line": 2536,
+            "end": 22,
+            "choice": 19,
+            "gate": 35
+          },
+          "exploredNodeStates": 156415,
+          "distinctFlagStates": 1359,
+          "mergedNodeStates": 0,
+          "transitions": 156414,
+          "maximumFrontier": 12,
+          "terminalStates": 736,
+          "stoppedStates": 0
+        }
+      }
+    },
+    {
+      "name": "两次只读构建完全一致",
+      "status": "passed",
+      "details": {
+        "contentHash": "db01e296857b57e787323644aeefdb30bfdbea53cb854d5812cf1935fb815139"
+      }
+    },
+    {
+      "name": "正式输入和资源指纹全部一致",
+      "status": "passed",
+      "details": {
+        "checked": 204
+      }
+    },
+    {
+      "name": "保护文件与E10开工基线逐字一致",
+      "status": "passed",
+      "details": {
+        "checked": 6480,
+        "changed": []
+      }
+    }
+  ],
+  "passed": 5,
+  "failed": 0,
+  "durationMs": 2424,
+  "formalWriteExecuted": false,
+  "playerStorageAccessed": false,
+  "deployed": false
+}

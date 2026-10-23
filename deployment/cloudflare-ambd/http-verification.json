@@ -1,0 +1,527 @@
+{
+  "status": "PASS",
+  "rootUrl": "https://galagame.ambd.site/",
+  "startedAt": "2026-10-20T05:05:15.209Z",
+  "finishedAt": "2026-10-20T05:05:26.592Z",
+  "manifest": "runtime-manifest.json",
+  "concurrency": 3,
+  "timeoutMs": 30000,
+  "maxAttempts": 3,
+  "redirectsFollowed": false,
+  "fileCount": 30,
+  "passed": 30,
+  "failed": 0,
+  "requestCount": 30,
+  "results": [
+    {
+      "path": "index.html",
+      "url": "https://galagame.ambd.site/",
+      "expectedBytes": 7049,
+      "expectedSha256": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 7049,
+          "sha256": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+          "pass": true,
+          "elapsedMs": 619
+        }
+      ]
+    },
+    {
+      "path": "styles.css",
+      "url": "https://galagame.ambd.site/styles.css",
+      "expectedBytes": 38881,
+      "expectedSha256": "ec83d0f6ef633f15707ca8e8e0426fb39b899dbf5ff7511a5bd1cf05f99cd78a",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 38881,
+          "sha256": "ec83d0f6ef633f15707ca8e8e0426fb39b899dbf5ff7511a5bd1cf05f99cd78a",
+          "pass": true,
+          "elapsedMs": 689
+        }
+      ]
+    },
+    {
+      "path": "story.js",
+      "url": "https://galagame.ambd.site/story.js",
+      "expectedBytes": 129462,
+      "expectedSha256": "a832d87e54e2334bae9648c6d412104b6d1ca9f266ec10c0c2b912360235a455",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 129462,
+          "sha256": "a832d87e54e2334bae9648c6d412104b6d1ca9f266ec10c0c2b912360235a455",
+          "pass": true,
+          "elapsedMs": 743
+        }
+      ]
+    },
+    {
+      "path": "engine.js",
+      "url": "https://galagame.ambd.site/engine.js",
+      "expectedBytes": 9734,
+      "expectedSha256": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 9734,
+          "sha256": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+          "pass": true,
+          "elapsedMs": 615
+        }
+      ]
+    },
+    {
+      "path": "game.js",
+      "url": "https://galagame.ambd.site/game.js",
+      "expectedBytes": 45947,
+      "expectedSha256": "4499419098a69d7cae26e6b2b2efd509c497c9536d9208cc6046fd2fc471fad0",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 45947,
+          "sha256": "4499419098a69d7cae26e6b2b2efd509c497c9536d9208cc6046fd2fc471fad0",
+          "pass": true,
+          "elapsedMs": 524
+        }
+      ]
+    },
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+      "url": "https://galagame.ambd.site/assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+      "expectedBytes": 3220000,
+      "expectedSha256": "3cd546cd5eb5addd38e14b0d36c4176134b819cd2fb7503710ea1f87f29443ab",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 3220000,
+          "sha256": "3cd546cd5eb5addd38e14b0d36c4176134b819cd2fb7503710ea1f87f29443ab",
+          "pass": true,
+          "elapsedMs": 1232
+        }
+      ]
+    },
+    {
+      "path": "assets/bg-lobby.png",
+      "url": "https://galagame.ambd.site/assets/bg-lobby.png",
+      "expectedBytes": 2158979,
+      "expectedSha256": "2bc2954dd90394bdd0261f87b5372bdcf61b7cc41fdb7939d490dcf49f08a39f",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2158979,
+          "sha256": "2bc2954dd90394bdd0261f87b5372bdcf61b7cc41fdb7939d490dcf49f08a39f",
+          "pass": true,
+          "elapsedMs": 950
+        }
+      ]
+    },
+    {
+      "path": "assets/bg-noodles.png",
+      "url": "https://galagame.ambd.site/assets/bg-noodles.png",
+      "expectedBytes": 2528115,
+      "expectedSha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2528115,
+          "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+          "pass": true,
+          "elapsedMs": 1283
+        }
+      ]
+    },
+    {
+      "path": "assets/bg-repair.png",
+      "url": "https://galagame.ambd.site/assets/bg-repair.png",
+      "expectedBytes": 2370266,
+      "expectedSha256": "14b00ead5390e93803ef16f82b38949dd464e901a9cf5b208bc1140cda0c3675",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2370266,
+          "sha256": "14b00ead5390e93803ef16f82b38949dd464e901a9cf5b208bc1140cda0c3675",
+          "pass": true,
+          "elapsedMs": 2527
+        }
+      ]
+    },
+    {
+      "path": "assets/bg-room.png",
+      "url": "https://galagame.ambd.site/assets/bg-room.png",
+      "expectedBytes": 1968927,
+      "expectedSha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1968927,
+          "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+          "pass": true,
+          "elapsedMs": 788
+        }
+      ]
+    },
+    {
+      "path": "assets/bg-salon.png",
+      "url": "https://galagame.ambd.site/assets/bg-salon.png",
+      "expectedBytes": 2571679,
+      "expectedSha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2571679,
+          "sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+          "pass": true,
+          "elapsedMs": 937
+        }
+      ]
+    },
+    {
+      "path": "assets/bg-street.png",
+      "url": "https://galagame.ambd.site/assets/bg-street.png",
+      "expectedBytes": 3010764,
+      "expectedSha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 3010764,
+          "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+          "pass": true,
+          "elapsedMs": 1464
+        }
+      ]
+    },
+    {
+      "path": "assets/cg/cg-01-rain-return.png",
+      "url": "https://galagame.ambd.site/assets/cg/cg-01-rain-return.png",
+      "expectedBytes": 2640053,
+      "expectedSha256": "12309c94b8fa313074621f59e7b8d076d2f2277a8f0164cba4ff011aea192a33",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2640053,
+          "sha256": "12309c94b8fa313074621f59e7b8d076d2f2277a8f0164cba4ff011aea192a33",
+          "pass": true,
+          "elapsedMs": 1240
+        }
+      ]
+    },
+    {
+      "path": "assets/cg/cg-02-xiaoman-mirror.png",
+      "url": "https://galagame.ambd.site/assets/cg/cg-02-xiaoman-mirror.png",
+      "expectedBytes": 2483983,
+      "expectedSha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2483983,
+          "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e",
+          "pass": true,
+          "elapsedMs": 1833
+        }
+      ]
+    },
+    {
+      "path": "assets/cg/cg-03-zhouzhi-noodles.png",
+      "url": "https://galagame.ambd.site/assets/cg/cg-03-zhouzhi-noodles.png",
+      "expectedBytes": 2322046,
+      "expectedSha256": "e50499d21beaaf3002c477771fe8b8be02065c992c85428b12234cdd835916ed",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2322046,
+          "sha256": "e50499d21beaaf3002c477771fe8b8be02065c992c85428b12234cdd835916ed",
+          "pass": true,
+          "elapsedMs": 719
+        }
+      ]
+    },
+    {
+      "path": "assets/cg/cg-04-mengyao-camera.png",
+      "url": "https://galagame.ambd.site/assets/cg/cg-04-mengyao-camera.png",
+      "expectedBytes": 2500027,
+      "expectedSha256": "d29f637064098205d9c6e0f1e38729bb8231940738a31beb652bac60cfb18067",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2500027,
+          "sha256": "d29f637064098205d9c6e0f1e38729bb8231940738a31beb652bac60cfb18067",
+          "pass": true,
+          "elapsedMs": 1541
+        }
+      ]
+    },
+    {
+      "path": "assets/cg/cg-05-yelan-inventory.png",
+      "url": "https://galagame.ambd.site/assets/cg/cg-05-yelan-inventory.png",
+      "expectedBytes": 2001240,
+      "expectedSha256": "463b708fbf32f7e95636167e4998f4e547d45a02e34612d2eaeaf4ad1e46055b",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2001240,
+          "sha256": "463b708fbf32f7e95636167e4998f4e547d45a02e34612d2eaeaf4ad1e46055b",
+          "pass": true,
+          "elapsedMs": 914
+        }
+      ]
+    },
+    {
+      "path": "assets/cg/cg-06-maolang-confession.png",
+      "url": "https://galagame.ambd.site/assets/cg/cg-06-maolang-confession.png",
+      "expectedBytes": 2153691,
+      "expectedSha256": "aed4b987445c443ccb20f911d56866259425f342d4fffea9ac52fe7fd15ea389",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2153691,
+          "sha256": "aed4b987445c443ccb20f911d56866259425f342d4fffea9ac52fe7fd15ea389",
+          "pass": true,
+          "elapsedMs": 1448
+        }
+      ]
+    },
+    {
+      "path": "assets/cg/cg-07-yelan-off-duty.png",
+      "url": "https://galagame.ambd.site/assets/cg/cg-07-yelan-off-duty.png",
+      "expectedBytes": 2735921,
+      "expectedSha256": "0eaa0c4a418e20926dcbfc11fbc0c782a38b17651151b341c9a45438ce8b61e8",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2735921,
+          "sha256": "0eaa0c4a418e20926dcbfc11fbc0c782a38b17651151b341c9a45438ce8b61e8",
+          "pass": true,
+          "elapsedMs": 914
+        }
+      ]
+    },
+    {
+      "path": "assets/cg/cg-08-huangqiuqiu-listening.png",
+      "url": "https://galagame.ambd.site/assets/cg/cg-08-huangqiuqiu-listening.png",
+      "expectedBytes": 1854736,
+      "expectedSha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1854736,
+          "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1",
+          "pass": true,
+          "elapsedMs": 1167
+        }
+      ]
+    },
+    {
+      "path": "assets/cg/cg-09-repair-handoff.png",
+      "url": "https://galagame.ambd.site/assets/cg/cg-09-repair-handoff.png",
+      "expectedBytes": 2403639,
+      "expectedSha256": "0477213b4388c8b90665bbb5790d142af2712d817a169a5759f8373cc86403ee",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2403639,
+          "sha256": "0477213b4388c8b90665bbb5790d142af2712d817a169a5759f8373cc86403ee",
+          "pass": true,
+          "elapsedMs": 710
+        }
+      ]
+    },
+    {
+      "path": "assets/cg/cg-13-xiaoman-night-stall.png",
+      "url": "https://galagame.ambd.site/assets/cg/cg-13-xiaoman-night-stall.png",
+      "expectedBytes": 2233982,
+      "expectedSha256": "155cd137c4e1c0355944e4bbf89bf806909d18efe43dc0fddda3f175a68f8249",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2233982,
+          "sha256": "155cd137c4e1c0355944e4bbf89bf806909d18efe43dc0fddda3f175a68f8249",
+          "pass": true,
+          "elapsedMs": 1477
+        }
+      ]
+    },
+    {
+      "path": "assets/char-huangqiuqiu.png",
+      "url": "https://galagame.ambd.site/assets/char-huangqiuqiu.png",
+      "expectedBytes": 1305412,
+      "expectedSha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1305412,
+          "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9",
+          "pass": true,
+          "elapsedMs": 1502
+        }
+      ]
+    },
+    {
+      "path": "assets/char-maolang.png",
+      "url": "https://galagame.ambd.site/assets/char-maolang.png",
+      "expectedBytes": 2038141,
+      "expectedSha256": "d554134d8bf022572c0c26b9d0db80bbf59ec227c3b5aab4ce61089ba2133a1c",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2038141,
+          "sha256": "d554134d8bf022572c0c26b9d0db80bbf59ec227c3b5aab4ce61089ba2133a1c",
+          "pass": true,
+          "elapsedMs": 915
+        }
+      ]
+    },
+    {
+      "path": "assets/char-mengyao.png",
+      "url": "https://galagame.ambd.site/assets/char-mengyao.png",
+      "expectedBytes": 2209681,
+      "expectedSha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2209681,
+          "sha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+          "pass": true,
+          "elapsedMs": 1445
+        }
+      ]
+    },
+    {
+      "path": "assets/char-shijiang.png",
+      "url": "https://galagame.ambd.site/assets/char-shijiang.png",
+      "expectedBytes": 1825205,
+      "expectedSha256": "a8e1bceb9dad767e2ec11c94f3977a9b8337a2abcbd6b47c4f6996e72e004b1c",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1825205,
+          "sha256": "a8e1bceb9dad767e2ec11c94f3977a9b8337a2abcbd6b47c4f6996e72e004b1c",
+          "pass": true,
+          "elapsedMs": 988
+        }
+      ]
+    },
+    {
+      "path": "assets/char-wenwen.png",
+      "url": "https://galagame.ambd.site/assets/char-wenwen.png",
+      "expectedBytes": 2267104,
+      "expectedSha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2267104,
+          "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+          "pass": true,
+          "elapsedMs": 1201
+        }
+      ]
+    },
+    {
+      "path": "assets/char-xiaoman.png",
+      "url": "https://galagame.ambd.site/assets/char-xiaoman.png",
+      "expectedBytes": 2323438,
+      "expectedSha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2323438,
+          "sha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+          "pass": true,
+          "elapsedMs": 1392
+        }
+      ]
+    },
+    {
+      "path": "assets/char-yelan.png",
+      "url": "https://galagame.ambd.site/assets/char-yelan.png",
+      "expectedBytes": 1835417,
+      "expectedSha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1835417,
+          "sha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+          "pass": true,
+          "elapsedMs": 814
+        }
+      ]
+    },
+    {
+      "path": "assets/char-zhouzhi.png",
+      "url": "https://galagame.ambd.site/assets/char-zhouzhi.png",
+      "expectedBytes": 1902928,
+      "expectedSha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1902928,
+          "sha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+          "pass": true,
+          "elapsedMs": 1076
+        }
+      ]
+    }
+  ]
+}

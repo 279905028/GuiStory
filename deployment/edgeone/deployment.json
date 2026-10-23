@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "site": "china",
+  "environment": "production",
+  "projectName": "cjb-rain-20261020",
+  "projectId": "makers-v8uboym0h951",
+  "deploymentId": "dp85x1z4sm6g",
+  "url": "https://cjb-rain-20261020-6bea6rue.edgeone.cool?eo_token=72f260ee0edee0c7481ee7e9eaec108b&eo_time=1792465368",
+  "consoleUrl": "https://console.cloud.tencent.com/edgeone/pages/project/makers-v8uboym0h951/deployment/dp85x1z4sm6g",
+  "cliVersion": "1.6.42",
+  "fileCount": 30,
+  "totalBytes": 57096447,
+  "verification": {
+    "remoteFilesMatched": 30,
+    "homepageImages": "passed",
+    "startStory": "passed",
+    "manualSaveAndLoadAfterRefresh": "passed",
+    "additionalRefreshAndContinueChecks": 2,
+    "initialRefreshEngineNotReady": "observed once; subsequent checks passed; cause not confirmed"
+  }
+}

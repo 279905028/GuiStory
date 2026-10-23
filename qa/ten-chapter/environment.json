@@ -1,0 +1,28 @@
+{
+  "task": "E10",
+  "date": "2026-10-23",
+  "node": "v24.18.1",
+  "platform": "darwin",
+  "arch": "arm64",
+  "firefox": {
+    "version": "153.0",
+    "playwrightBuild": 1538,
+    "directory": "/private/tmp/cjb-e10-browsers/firefox-1538",
+    "download": "Playwright bundled CLI official distribution",
+    "systemApplicationInstalled": false,
+    "playerProfileUsed": false
+  },
+  "supportingRuntime": {
+    "ffmpegBuild": 1011,
+    "directory": "/private/tmp/cjb-e10-browsers/ffmpeg-1011"
+  },
+  "safari": {
+    "version": "27.0 (21625.1.29.18.28)",
+    "probe": "safari/probe-results.json",
+    "settingsChanged": false
+  },
+  "notes": [
+    "系统git和python3触发Xcode协议未接受提示；本轮用Node与SHA256核对文件，没有接受系统协议或修改工具链。",
+    "Firefox下载目录是可清理的临时测试依赖，不属于正式游戏或E11交付包。"
+  ]
+}

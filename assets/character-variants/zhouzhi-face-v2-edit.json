@@ -1,0 +1,50 @@
+{
+  "character": "zhouzhi",
+  "name": "周栀",
+  "version": "face-v2-candidate",
+  "tool": "image_gen__imagegen",
+  "transparent_background": true,
+  "input": "/Users/yipin/Desktop/cjb/assets/char-zhouzhi.png",
+  "prompt": "Use case: precise-object-edit. Asset type: transparent full-length visual novel character sprite, portrait 1024×1536. Input image 1 is the existing character EDIT TARGET, not merely style reference. Edit only this woman's face and natural expression; retain the rest of the original full image with extremely high fidelity. Character: 周栀 (Zhou Zhi), a 25-year-old adult Chinese woman, a reserved, warm, experienced KTV singing host who plans a late-night food stall with friends. The user says the female characters' faces look too similar. Give Zhou Zhi a clearly distinctive, long oval face with a longer midface, softly rounded narrow chin (NOT a tiny pointed V-shaped chin), narrow elongated eyes with subtly downturned outer corners (NOT large almond eyes), softly arched natural eyebrows, a natural nose with slightly wider alar base, and modestly fuller natural lips. Her expression is gentle, composed and thoughtful, a very slight restrained smile rather than a glamorous beauty-model smile. Readable adult 25-year-old appearance, no aging, no heavy makeup, no sexualization. Match the original adult Japanese semi-realistic painted rendering and existing lighting. STRICT INVARIANTS: keep the original head angle and gaze direction, hairline and exact deep dark long wavy hair silhouette, gold earring, teal blouse and every button/fold, dark trousers, watch, both arms, hands in pockets, adult body proportions, pose, framing, scale, crop and full 1024×1536 canvas. Only facial shape, eyes, brows, nose, lips and restrained expression may change. Do not make a face close-up or portrait crop; return the complete existing character sprite. Background must be truly transparent RGBA with clean fine hair alpha edges; no painted backdrop, no checkerboard, no flat color, no glow, no added objects, no text or watermark. Distinguish this face structurally from a round-face bright-eyed young woman, a diamond-face high-cheekbone sharp-eyed woman, and a rectangular-oval-face straight-brow mature woman. Preserve the user's exact existing costume and character identity cues.",
+  "generated_source": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1520c-2b19-74a0-8dd4-afa44f4a1d7f/exec-61e1cc15-2816-409d-8ee7-62a1513b4f19.png",
+  "candidate": "assets/character-variants/zhouzhi-face-v2-candidate.png",
+  "date": "2026-10-19",
+  "status": "candidate-awaiting-visual-review",
+  "alpha_checks": [
+    {
+      "path": "assets/char-zhouzhi.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent": 697080,
+      "partial": 875784,
+      "opaque": 0
+    },
+    {
+      "path": "assets/character-variants/zhouzhi-face-v2-candidate.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent": 690058,
+      "partial": 882806,
+      "opaque": 0
+    }
+  ],
+  "review": {
+    "status": "not_recommended_face_change_too_subtle",
+    "visual": "Hair, teal blouse, watch and pose remain recognizable; changes to facial silhouette and features are too subtle to fulfill differentiation request.",
+    "game_integration": "not_tested"
+  }
+}

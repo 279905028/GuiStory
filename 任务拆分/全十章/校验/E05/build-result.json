@@ -1,0 +1,67 @@
+{
+  "command": [
+    "/usr/local/bin/node",
+    "任务拆分/三章扩展/build-story.cjs",
+    "--ten-chapter",
+    "--manifest",
+    "任务拆分/全十章/校验/E05/fixture/manifest.json"
+  ],
+  "startedAt": "2026-10-23T02:12:42.068Z",
+  "finishedAt": "2026-10-23T02:12:42.239Z",
+  "exitCode": 0,
+  "stderr": "",
+  "result": {
+    "status": "passed",
+    "mode": "sample",
+    "formalIntegration": false,
+    "moduleCount": 17,
+    "nodeCount": 1810,
+    "sceneCount": 253,
+    "output": {
+      "directory": "/Users/yipin/Desktop/cjb/任务拆分/全十章/构建/sample-120fb09bd720ab4e",
+      "contentHash": "120fb09bd720ab4ec5d84e96027a6744eafa4cc8dc13d32b732d8d10dc3d25e7",
+      "reused": true
+    },
+    "graph": {
+      "nodes": 1810,
+      "edges": 1883,
+      "choices": 15,
+      "options": 35,
+      "countsByType": {
+        "line": 1754,
+        "end": 17,
+        "choice": 15,
+        "gate": 24
+      },
+      "exploredNodeStates": 111999,
+      "distinctFlagStates": 1111,
+      "mergedNodeStates": 0,
+      "transitions": 111998,
+      "maximumFrontier": 11,
+      "terminalStates": 512,
+      "stoppedStates": 104
+    }
+  },
+  "outputs": [
+    {
+      "file": "任务拆分/全十章/构建/sample-120fb09bd720ab4e/build-report.json",
+      "bytes": 51706,
+      "sha256": "c5859c3cc5428f43093a433815e7d79bd6519e1b6031750809abcc208c6a538c"
+    },
+    {
+      "file": "任务拆分/全十章/构建/sample-120fb09bd720ab4e/source-map.json",
+      "bytes": 596398,
+      "sha256": "7f4a3fab450459286b0078ae2b8ab87addb6d338b8bf289e744c18a0c2c0b749"
+    },
+    {
+      "file": "任务拆分/全十章/构建/sample-120fb09bd720ab4e/story.js",
+      "bytes": 784571,
+      "sha256": "a40c88665f1fd6a4e5d08456115112b63e055e2f303bc862e49a4db96eaea8f3"
+    },
+    {
+      "file": "任务拆分/全十章/构建/sample-120fb09bd720ab4e/story.json",
+      "bytes": 784470,
+      "sha256": "a24995686db2bea5af617f5e9ee6c051980331789865c07bab8ec9dea21d0c3a"
+    }
+  ]
+}

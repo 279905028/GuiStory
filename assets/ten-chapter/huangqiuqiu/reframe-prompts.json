@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "purpose": "修正四项袖口/衣摆留白；首版PNG保留",
+  "jobs": [
+    {
+      "slug": "expression-smile",
+      "reference": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-aa232b91-368e-4690-b0f5-136afca6778a.png",
+      "prompt": "Precise framing correction of the provided completed transparent game sprite. Keep the EXACT same adult character identity, exact facial expression, hair, white eye patch on IMAGE RIGHT, printed white T shirt, beige hoodie, black choker, pose, number of fingers, hands, toy stick and paint style. Do not change the expression or pose. Output ONE portrait on exactly 1024 x 1536 TRANSPARENT canvas. The current figure is too close to the side edges. Reframe the entire existing figure approximately 8 percent smaller, centered horizontally with its bottom waist hem ending around y=1490, with at least 50 pixels transparent clearance between every sleeve/hand/toy and left/right canvas edges. Keep top of head inside and the ENTIRE waist hem visible. No anatomy below waist, no legs, no clothing inventions, no scene, no gradient, no glow, no opaque background or checkerboard pixels. Actual transparent alpha. This is the same sprite with more breathing space ONLY, not a new pose or character.",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-7aeb300f-2170-4a15-a546-aef05ba1ca64.png"
+    },
+    {
+      "slug": "expression-downcast",
+      "reference": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-e9f23d11-7113-42db-8389-c74e32d4aed1.png",
+      "prompt": "Precise framing correction of the provided completed transparent game sprite. Keep the EXACT same adult character identity, exact facial expression, hair, white eye patch on IMAGE RIGHT, printed white T shirt, beige hoodie, black choker, pose, number of fingers, hands, toy stick and paint style. Do not change the expression or pose. Output ONE portrait on exactly 1024 x 1536 TRANSPARENT canvas. The current figure is too close to the side edges. Reframe the entire existing figure approximately 8 percent smaller, centered horizontally with its bottom waist hem ending around y=1490, with at least 50 pixels transparent clearance between every sleeve/hand/toy and left/right canvas edges. Keep top of head inside and the ENTIRE waist hem visible. No anatomy below waist, no legs, no clothing inventions, no scene, no gradient, no glow, no opaque background or checkerboard pixels. Actual transparent alpha. This is the same sprite with more breathing space ONLY, not a new pose or character.",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-588ab5d1-d967-478c-bcd8-3b5df7a91cc0.png"
+    },
+    {
+      "slug": "action-wave",
+      "reference": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-ce89e9af-ec26-48d1-9b1e-13f370abb47e.png",
+      "prompt": "Precise framing correction of the provided completed transparent game sprite. Keep the EXACT same adult character identity, exact facial expression, hair, white eye patch on IMAGE RIGHT, printed white T shirt, beige hoodie, black choker, pose, number of fingers, hands, toy stick and paint style. Do not change the expression or pose. Output ONE portrait on exactly 1024 x 1536 TRANSPARENT canvas. The current figure is too close to the side edges. Reframe the entire existing figure approximately 8 percent smaller, centered horizontally with its bottom waist hem ending around y=1490, with at least 50 pixels transparent clearance between every sleeve/hand/toy and left/right canvas edges. Keep top of head inside and the ENTIRE waist hem visible. No anatomy below waist, no legs, no clothing inventions, no scene, no gradient, no glow, no opaque background or checkerboard pixels. Actual transparent alpha. This is the same sprite with more breathing space ONLY, not a new pose or character.",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-c77a8d14-417e-495d-ae45-eaa0cc9e7b0c.png"
+    },
+    {
+      "slug": "chin-base",
+      "reference": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-76584694-c046-4d58-a289-ebd099706795.png",
+      "prompt": "Precise framing correction of the provided completed transparent game sprite. Keep the EXACT same adult character identity, exact facial expression, hair, white eye patch on IMAGE RIGHT, printed white T shirt, beige hoodie, black choker, pose, number of fingers, hands, toy stick and paint style. Do not change the expression or pose. Output ONE portrait on exactly 1024 x 1536 TRANSPARENT canvas. The current figure is too close to the side edges. Reframe the entire existing figure approximately 8 percent smaller, centered horizontally with its bottom waist hem ending around y=1490, with at least 50 pixels transparent clearance between every sleeve/hand/toy and left/right canvas edges. Keep top of head inside and the ENTIRE waist hem visible. No anatomy below waist, no legs, no clothing inventions, no scene, no gradient, no glow, no opaque background or checkerboard pixels. Actual transparent alpha. This is the same sprite with more breathing space ONLY, not a new pose or character.",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-a1b15772-d000-4e64-91f1-19c925a20da3.png"
+    }
+  ]
+}

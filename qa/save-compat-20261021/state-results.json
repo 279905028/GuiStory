@@ -1,0 +1,180 @@
+{
+  "startedAt": "2026-10-21T06:05:33.940Z",
+  "pass": true,
+  "checks": [
+    {
+      "name": "旧版基线恰好只差两句，剧情结构及严格引擎保持",
+      "pass": true,
+      "detail": {
+        "changedNodeIds": [
+          "preview_xiaoman_visit_01",
+          "ch2_cut_join_04"
+        ],
+        "reachableNodes": 1310,
+        "paths": 246528,
+        "strictEngineUnchanged": true
+      }
+    },
+    {
+      "name": "1265个自然见证旧档迁移与当前版往返；输入保持不变",
+      "pass": true,
+      "detail": {
+        "visible": 1265,
+        "migrated": 864,
+        "unchanged": 401,
+        "currentUnmarked": 1265,
+        "currentVersion2": 1265,
+        "migratedVersion2": 864,
+        "version2RejectsLegacy": 864
+      }
+    },
+    {
+      "name": "白名单逐句精确匹配；两版拼接、未知对白及版本标记均拒绝",
+      "pass": true,
+      "detail": {
+        "rejectedTextCases": [
+          "旧轨迹只更新其中一句：preview_xiaoman_visit_01",
+          "新轨迹只回退其中一句：preview_xiaoman_visit_01",
+          "白名单节点未知文本：preview_xiaoman_visit_01",
+          "旧轨迹只更新其中一句：ch2_cut_join_04",
+          "新轨迹只回退其中一句：ch2_cut_join_04",
+          "白名单节点未知文本：ch2_cut_join_04",
+          "非白名单对白改写",
+          "旧句放到其他节点"
+        ],
+        "rejectedContentVersions": [
+          "null",
+          "0",
+          "1",
+          "3",
+          "string 2",
+          "false",
+          "object",
+          "array",
+          "NaN"
+        ]
+      }
+    },
+    {
+      "name": "状态损坏、历史与选择伪造、检查点异常均拒绝且不改变进度",
+      "pass": true,
+      "detail": {
+        "rejectedCases": 52,
+        "invalidStateCases": 14,
+        "cases": [
+          "状态多字段",
+          "状态版本错误",
+          "当前节点不存在",
+          "当前节点改为其他路径",
+          "flags注入",
+          "flags缺失",
+          "history缺首句",
+          "history重复",
+          "history顺序错误",
+          "history场景错误",
+          "history说话人错误",
+          "history多字段",
+          "history kind错误",
+          "choices缺失",
+          "choices标签伪造",
+          "choices值伪造",
+          "choices重复",
+          "检查点非对象",
+          "检查点节点错误",
+          "检查点history缺首句",
+          "检查点未知文本",
+          "检查点flags注入",
+          "检查点choices缺失",
+          "检查点伪造旧句",
+          "检查点递归嵌套",
+          "检查点循环引用"
+        ],
+        "strictRestoreAtomic": true
+      }
+    },
+    {
+      "name": "补丁只适用指定当前正文；原v0.4差异路径与未来版本拒绝",
+      "pass": true,
+      "detail": {
+        "guarded": [
+          "内容修订标记已变",
+          "目标现文已改",
+          "目标场景已改",
+          "目标说话人已改",
+          "目标类型已改"
+        ],
+        "originalV04RejectedAt": "end_ch3_xiaoman"
+      }
+    },
+    {
+      "name": "缺省检查点可重建；迁移输出无共享引用，回顾保持当前正文",
+      "pass": true,
+      "detail": {
+        "reconstructedCheckpointForms": [
+          "missing",
+          "null"
+        ],
+        "inputAndSnapshotReferencesIsolated": true,
+        "currentHistoryText": true
+      }
+    },
+    {
+      "name": "隐藏资格、预告与路线重选、七条路线后日谈保持",
+      "pass": true,
+      "detail": {
+        "hiddenCases": [
+          {
+            "signal": "record",
+            "reply": "reply",
+            "eligible": true,
+            "optionCount": 5
+          },
+          {
+            "signal": "record",
+            "reply": "finish",
+            "eligible": false,
+            "optionCount": 4
+          },
+          {
+            "signal": "work",
+            "reply": "reply",
+            "eligible": false,
+            "optionCount": 4
+          },
+          {
+            "signal": "work",
+            "reply": "finish",
+            "eligible": false,
+            "optionCount": 4
+          }
+        ],
+        "routes": [
+          "xiaoman",
+          "zhouzhi",
+          "mengyao",
+          "yelan",
+          "solo",
+          "piao",
+          "huangqiuqiu"
+        ],
+        "routeAndRelationshipFlagsClearedOnReplay": true
+      }
+    }
+  ],
+  "initialFingerprints": {
+    "story.js": "c3304aa3fcad0710c17f2ee2c4d17877e0043d49fbf956dbd0e650dcb9c3a8de",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "save-compat.js": "4ab32d0447c98650719bd61e29615f07d9ebfdc67596e3774a94953c4f98e742"
+  },
+  "finalFingerprints": {
+    "story.js": "c3304aa3fcad0710c17f2ee2c4d17877e0043d49fbf956dbd0e650dcb9c3a8de",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "save-compat.js": "4ab32d0447c98650719bd61e29615f07d9ebfdc67596e3774a94953c4f98e742"
+  },
+  "limitations": [
+    "1265个自然生成见证存档覆盖全部可见节点，不代表全部玩家存档或逐条合法路径的迁移比例。",
+    "本脚本只验收剧情状态兼容；浏览器存储保护、用户界面与版本封装由独立浏览器检查覆盖。",
+    "旧v0.4拒绝验证使用已含背景版路径差异的自然样本；尚未经过变化节点且字面相同的状态无法据此识别来源。"
+  ],
+  "finishedAt": "2026-10-21T06:06:02.066Z"
+}

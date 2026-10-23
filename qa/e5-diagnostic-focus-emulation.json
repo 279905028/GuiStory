@@ -1,0 +1,194 @@
+{
+  "startedAt": "2026-10-20T02:34:09.256Z",
+  "scope": "音频、阅读交互和真实标签生命周期补验；正式产品未变",
+  "fingerprints": {
+    "index.html": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+    "styles.css": "ec83d0f6ef633f15707ca8e8e0426fb39b899dbf5ff7511a5bd1cf05f99cd78a",
+    "story.js": "a832d87e54e2334bae9648c6d412104b6d1ca9f266ec10c0c2b912360235a455",
+    "engine.js": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+    "game.js": "4499419098a69d7cae26e6b2b2efd509c497c9536d9208cc6046fd2fc471fad0",
+    "assets/bg-street.png": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+    "assets/bg-repair.png": "14b00ead5390e93803ef16f82b38949dd464e901a9cf5b208bc1140cda0c3675",
+    "assets/bg-lobby.png": "2bc2954dd90394bdd0261f87b5372bdcf61b7cc41fdb7939d490dcf49f08a39f",
+    "assets/bg-room.png": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+    "assets/bg-noodles.png": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+    "assets/bg-salon.png": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+    "assets/char-wenwen.png": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+    "assets/char-xiaoman.png": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+    "assets/char-zhouzhi.png": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+    "assets/char-mengyao.png": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+    "assets/char-yelan.png": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+    "assets/char-maolang.png": "d554134d8bf022572c0c26b9d0db80bbf59ec227c3b5aab4ce61089ba2133a1c",
+    "assets/char-shijiang.png": "a8e1bceb9dad767e2ec11c94f3977a9b8337a2abcbd6b47c4f6996e72e004b1c",
+    "assets/char-huangqiuqiu.png": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9",
+    "assets/cg/cg-01-rain-return.png": "12309c94b8fa313074621f59e7b8d076d2f2277a8f0164cba4ff011aea192a33",
+    "assets/cg/cg-02-xiaoman-mirror.png": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e",
+    "assets/cg/cg-03-zhouzhi-noodles.png": "e50499d21beaaf3002c477771fe8b8be02065c992c85428b12234cdd835916ed",
+    "assets/cg/cg-04-mengyao-camera.png": "d29f637064098205d9c6e0f1e38729bb8231940738a31beb652bac60cfb18067",
+    "assets/cg/cg-05-yelan-inventory.png": "463b708fbf32f7e95636167e4998f4e547d45a02e34612d2eaeaf4ad1e46055b",
+    "assets/cg/cg-06-maolang-confession.png": "aed4b987445c443ccb20f911d56866259425f342d4fffea9ac52fe7fd15ea389",
+    "assets/cg/cg-07-yelan-off-duty.png": "0eaa0c4a418e20926dcbfc11fbc0c782a38b17651151b341c9a45438ce8b61e8",
+    "assets/cg/cg-08-huangqiuqiu-listening.png": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1",
+    "assets/cg/cg-09-repair-handoff.png": "0477213b4388c8b90665bbb5790d142af2712d817a169a5759f8373cc86403ee",
+    "assets/cg/cg-13-xiaoman-night-stall.png": "155cd137c4e1c0355944e4bbf89bf806909d18efe43dc0fddda3f175a68f8249",
+    "assets/background-variants/m2-daynight-20261020/bg-street-day.png": "3cd546cd5eb5addd38e14b0d36c4176134b819cd2fb7503710ea1f87f29443ab",
+    "qa/e5-final-test.cjs": "2bb1996e91db6087250eaad07ac525ce70fb16435bc271e7bad5aae7a0f2bf31"
+  },
+  "checks": [
+    {
+      "name": "逐字补全与快速连点防误跳",
+      "pass": true,
+      "details": {
+        "partialLength": 1
+      }
+    },
+    {
+      "name": "真实雨声输出、菜单静音/恢复、音量、提示音、关闭",
+      "pass": true,
+      "details": {
+        "defaultAudio": {
+          "rms": 0,
+          "state": null,
+          "oscillators": 0
+        },
+        "on": {
+          "rms": 0.017864807491774264,
+          "state": "running",
+          "oscillators": 0
+        },
+        "menu": {
+          "rms": 0.0000032195629124230944,
+          "state": "running",
+          "oscillators": 0
+        },
+        "resumed": {
+          "rms": 0.015370315939384663,
+          "state": "running",
+          "oscillators": 0
+        },
+        "low": {
+          "rms": 0.004578218237250608,
+          "state": "running",
+          "oscillators": 0
+        },
+        "cue": {
+          "rms": 0.0041833486939331236,
+          "state": "running",
+          "oscillators": 1
+        },
+        "off": {
+          "rms": 0,
+          "state": "running",
+          "oscillators": 1
+        },
+        "method": "保留产品destination连接，旁路Analyser读取真实输出；非听感评价"
+      }
+    },
+    {
+      "name": "自动阅读遇选择停止，历史记录可回看",
+      "pass": true
+    }
+  ],
+  "flows": [],
+  "network": [
+    {
+      "label": "audio-reading",
+      "allowed": [
+        "http://127.0.0.1:55968/index.html",
+        "http://127.0.0.1:55968/styles.css",
+        "http://127.0.0.1:55968/story.js",
+        "http://127.0.0.1:55968/assets/bg-street.png",
+        "http://127.0.0.1:55968/assets/char-wenwen.png",
+        "http://127.0.0.1:55968/engine.js",
+        "http://127.0.0.1:55968/game.js",
+        "http://127.0.0.1:55968/assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+        "http://127.0.0.1:55968/assets/bg-repair.png",
+        "http://127.0.0.1:55968/assets/char-shijiang.png"
+      ],
+      "unexpected": [],
+      "failed": [],
+      "responsesWithErrors": []
+    }
+  ],
+  "audio": {
+    "defaultAudio": {
+      "rms": 0,
+      "state": null,
+      "oscillators": 0
+    },
+    "on": {
+      "rms": 0.017864807491774264,
+      "state": "running",
+      "oscillators": 0
+    },
+    "menu": {
+      "rms": 0.0000032195629124230944,
+      "state": "running",
+      "oscillators": 0
+    },
+    "resumed": {
+      "rms": 0.015370315939384663,
+      "state": "running",
+      "oscillators": 0
+    },
+    "low": {
+      "rms": 0.004578218237250608,
+      "state": "running",
+      "oscillators": 0
+    },
+    "cue": {
+      "rms": 0.0041833486939331236,
+      "state": "running",
+      "oscillators": 1
+    },
+    "off": {
+      "rms": 0,
+      "state": "running",
+      "oscillators": 1
+    },
+    "method": "保留产品destination连接，旁路Analyser读取真实输出；非听感评价"
+  },
+  "pageErrors": [],
+  "limitations": [
+    "直接打开HTML使用隔离Chrome的file://地址；未操作Finder双击，未检查其他系统默认浏览器。",
+    "音频通过真实Web Audio输出采样验证，未代替真人对音色和设备扬声器的听感审阅。",
+    "手机为浏览器视口模拟，不是实体手机；未检查Safari/Firefox。"
+  ],
+  "browser": "155.0.8059.85",
+  "pass": false,
+  "error": "page.waitForFunction: Timeout 10000ms exceeded.\n    at visibility (/Users/yipin/Desktop/cjb/qa/e5-final-test.cjs:188:16)\n    at async /Users/yipin/Desktop/cjb/qa/e5-final-test.cjs:213:30",
+  "finishedAt": "2026-10-20T02:34:29.116Z",
+  "finalFingerprints": {
+    "index.html": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+    "styles.css": "ec83d0f6ef633f15707ca8e8e0426fb39b899dbf5ff7511a5bd1cf05f99cd78a",
+    "story.js": "a832d87e54e2334bae9648c6d412104b6d1ca9f266ec10c0c2b912360235a455",
+    "engine.js": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+    "game.js": "4499419098a69d7cae26e6b2b2efd509c497c9536d9208cc6046fd2fc471fad0",
+    "assets/bg-street.png": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+    "assets/bg-repair.png": "14b00ead5390e93803ef16f82b38949dd464e901a9cf5b208bc1140cda0c3675",
+    "assets/bg-lobby.png": "2bc2954dd90394bdd0261f87b5372bdcf61b7cc41fdb7939d490dcf49f08a39f",
+    "assets/bg-room.png": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+    "assets/bg-noodles.png": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+    "assets/bg-salon.png": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+    "assets/char-wenwen.png": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+    "assets/char-xiaoman.png": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+    "assets/char-zhouzhi.png": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+    "assets/char-mengyao.png": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+    "assets/char-yelan.png": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+    "assets/char-maolang.png": "d554134d8bf022572c0c26b9d0db80bbf59ec227c3b5aab4ce61089ba2133a1c",
+    "assets/char-shijiang.png": "a8e1bceb9dad767e2ec11c94f3977a9b8337a2abcbd6b47c4f6996e72e004b1c",
+    "assets/char-huangqiuqiu.png": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9",
+    "assets/cg/cg-01-rain-return.png": "12309c94b8fa313074621f59e7b8d076d2f2277a8f0164cba4ff011aea192a33",
+    "assets/cg/cg-02-xiaoman-mirror.png": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e",
+    "assets/cg/cg-03-zhouzhi-noodles.png": "e50499d21beaaf3002c477771fe8b8be02065c992c85428b12234cdd835916ed",
+    "assets/cg/cg-04-mengyao-camera.png": "d29f637064098205d9c6e0f1e38729bb8231940738a31beb652bac60cfb18067",
+    "assets/cg/cg-05-yelan-inventory.png": "463b708fbf32f7e95636167e4998f4e547d45a02e34612d2eaeaf4ad1e46055b",
+    "assets/cg/cg-06-maolang-confession.png": "aed4b987445c443ccb20f911d56866259425f342d4fffea9ac52fe7fd15ea389",
+    "assets/cg/cg-07-yelan-off-duty.png": "0eaa0c4a418e20926dcbfc11fbc0c782a38b17651151b341c9a45438ce8b61e8",
+    "assets/cg/cg-08-huangqiuqiu-listening.png": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1",
+    "assets/cg/cg-09-repair-handoff.png": "0477213b4388c8b90665bbb5790d142af2712d817a169a5759f8373cc86403ee",
+    "assets/cg/cg-13-xiaoman-night-stall.png": "155cd137c4e1c0355944e4bbf89bf806909d18efe43dc0fddda3f175a68f8249",
+    "assets/background-variants/m2-daynight-20261020/bg-street-day.png": "3cd546cd5eb5addd38e14b0d36c4176134b819cd2fb7503710ea1f87f29443ab",
+    "qa/e5-final-test.cjs": "2bb1996e91db6087250eaad07ac525ce70fb16435bc271e7bad5aae7a0f2bf31"
+  }
+}

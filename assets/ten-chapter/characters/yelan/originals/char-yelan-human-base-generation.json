@@ -1,0 +1,14 @@
+{
+  "key": "yelan-base",
+  "character": "yelan",
+  "file": "char-yelan-human-base",
+  "ref": "assets/character-variants/yelan-face-v2-candidate.webp",
+  "change": "仅移除右侧手持的整个黑色夹板文件夹及金属夹。让原来握夹板的手在相同位置自然放松垂下，补齐被夹板遮住的外套布料。禁止夹板、文件、职业道具。其他一切保持：face-v2五官、黑色低发髻、微笑、深灰西装、灰衬衫、裤装、另一手插袋、头部落点。",
+  "prompt": "Use case: precise-object-edit\n这是本地视觉小说已采用立绘的局部编辑。输入图片是唯一编辑对象。\n修改要求：仅移除右侧手持的整个黑色夹板文件夹及金属夹。让原来握夹板的手在相同位置自然放松垂下，补齐被夹板遮住的外套布料。禁止夹板、文件、职业道具。其他一切保持：face-v2五官、黑色低发髻、微笑、深灰西装、灰衬衫、裤装、另一手插袋、头部落点。\n保持原画1024×1536的画布与人物比例/裁切，保持角色成年、同一个人、同样半写实手绘风格与照明，不全身重画、不改成另一张脸。背景是真实全透明alpha，无底色、无阴影地面、无棋盘格、无文字水印。输出一张独立立绘。",
+  "references": [
+    "/Users/yipin/Desktop/cjb/assets/character-variants/yelan-face-v2-candidate.webp"
+  ],
+  "generatedPath": "/Users/yipin/.codex/generated_images/01a162af-0842-7a61-a6ca-7846101abfe6/exec-406ba9f7-98f9-4271-aa9f-b25f8091bb65.png",
+  "tool": "image_gen built-in",
+  "attempt": 1
+}

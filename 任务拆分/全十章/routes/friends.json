@@ -1,0 +1,4713 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "routes/friends",
+  "owner": "E06",
+  "scenes": {
+    "ts_c03_friends_tailoring": {
+      "chapter": 3,
+      "title": "不用找个正事",
+      "bg": "tc-bg-rental-day",
+      "time": "16:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "16:00"
+      },
+      "location": "",
+      "day": 15,
+      "dayLabel": "第15天"
+    },
+    "ts_c03_friends_tailoring_shop": {
+      "chapter": 3,
+      "title": "不用找个正事",
+      "bg": "tc-bg-alteration-day",
+      "time": "16:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "16:00"
+      },
+      "location": "改衣店",
+      "day": 15,
+      "dayLabel": "第15天"
+    },
+    "ts_c03_friends_online_game": {
+      "chapter": 3,
+      "title": "老板也会掉下去",
+      "bg": "tc-bg-rental-night",
+      "time": "20:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 18,
+        "clock": "20:00"
+      },
+      "location": "文文住处",
+      "day": 18,
+      "dayLabel": "第18天"
+    },
+    "ts_c03_friends_settling_in": {
+      "chapter": 3,
+      "title": "可以过一阵子的地方",
+      "bg": "tc-bg-rental-day",
+      "time": "15:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 21,
+        "clock": "15:30"
+      },
+      "location": "文文出租屋",
+      "day": 21,
+      "dayLabel": "第21天"
+    },
+    "ts_c04_friends_own_plan": {
+      "chapter": 4,
+      "title": "谁都不用当陪客",
+      "bg": "tc-bg-rental-day",
+      "time": "下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 24,
+        "clock": "下午"
+      },
+      "location": "",
+      "day": 24,
+      "dayLabel": "第24天"
+    },
+    "ts_c04_friends_show": {
+      "chapter": 4,
+      "title": "谁都不用当陪客",
+      "bg": "tc-bg-performance-shop-day",
+      "time": "下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 24,
+        "clock": "下午"
+      },
+      "location": "街边有小台子的店",
+      "day": 24,
+      "dayLabel": "第24天"
+    },
+    "ts_c04_friends_walk": {
+      "chapter": 4,
+      "title": "谁都不用当陪客",
+      "bg": "tc-bg-street-day",
+      "time": "下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 24,
+        "clock": "下午"
+      },
+      "location": "老街",
+      "day": 24,
+      "dayLabel": "第24天"
+    },
+    "ts_c04_friends_walk_game_store": {
+      "chapter": 4,
+      "title": "谁都不用当陪客",
+      "bg": "tc-bg-game-store-day",
+      "time": "下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 24,
+        "clock": "下午"
+      },
+      "location": "旧游戏小店",
+      "day": 24,
+      "dayLabel": "第24天"
+    },
+    "ts_c04_friends_walk_stool": {
+      "chapter": 4,
+      "title": "谁都不用当陪客",
+      "bg": "tc-bg-game-store-day",
+      "time": "下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 24,
+        "clock": "下午"
+      },
+      "location": "旧游戏店门外矮凳",
+      "day": 24,
+      "dayLabel": "第24天"
+    },
+    "ts_c04_friends_walk_wall": {
+      "chapter": 4,
+      "title": "谁都不用当陪客",
+      "bg": "tc-bg-slope-day",
+      "time": "下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 24,
+        "clock": "下午"
+      },
+      "location": "街道亮墙旁",
+      "day": 24,
+      "dayLabel": "第24天"
+    },
+    "ts_c04_friends_crossroad": {
+      "chapter": 4,
+      "title": "谁都不用当陪客",
+      "bg": "tc-bg-food-front-dusk",
+      "time": "傍晚",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 24,
+        "clock": "傍晚"
+      },
+      "location": "路口面馆门外",
+      "day": 24,
+      "dayLabel": "第24天"
+    },
+    "ts_c04_friends_crossroad_home": {
+      "chapter": 4,
+      "title": "谁都不用当陪客",
+      "bg": "tc-bg-rental-day",
+      "time": "回家后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 24,
+        "clock": "回家后"
+      },
+      "location": "文文住处",
+      "day": 24,
+      "dayLabel": "第24天"
+    },
+    "ts_c05_friends_job_name": {
+      "chapter": 5,
+      "title": "那个没说清的工作",
+      "bg": "tc-bg-supermarket-day",
+      "time": "17:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 27,
+        "clock": "17:10"
+      },
+      "location": "日用品商店",
+      "day": 27,
+      "dayLabel": "第27天"
+    },
+    "ts_c05_friends_job_name_door": {
+      "chapter": 5,
+      "title": "那个没说清的工作",
+      "bg": "tc-bg-supermarket-day",
+      "time": "17:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 27,
+        "clock": "17:10"
+      },
+      "location": "日用品商店门外",
+      "day": 27,
+      "dayLabel": "第27天"
+    },
+    "ts_c05_friends_job_name_home": {
+      "chapter": 5,
+      "title": "那个没说清的工作",
+      "bg": "tc-bg-rental-day",
+      "time": "17:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 27,
+        "clock": "17:10"
+      },
+      "location": "文文住处",
+      "day": 27,
+      "dayLabel": "第27天"
+    },
+    "ts_c05_friends_job_name_call": {
+      "chapter": 5,
+      "title": "那个没说清的工作",
+      "bg": "tc-bg-rental-day",
+      "time": "晚些时候",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 27,
+        "clock": "晚些时候"
+      },
+      "location": "文文住处",
+      "day": 27,
+      "dayLabel": "第27天"
+    },
+    "ts_c05_friends_say_it": {
+      "chapter": 5,
+      "title": "照样讲出来",
+      "bg": "tc-bg-food-day",
+      "time": "17:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 29,
+        "clock": "17:30"
+      },
+      "location": "面馆",
+      "day": 29,
+      "dayLabel": "第29天"
+    },
+    "ts_c05_friends_say_it_counter": {
+      "chapter": 5,
+      "title": "照样讲出来",
+      "bg": "tc-bg-netcafe-counter-day",
+      "time": "吃完饭后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 29,
+        "clock": "吃完饭后"
+      },
+      "location": "网吧柜台",
+      "day": 29,
+      "dayLabel": "第29天"
+    },
+    "ts_c06_friends_quiet_company": {
+      "chapter": 6,
+      "title": "不开麦也能坐着",
+      "bg": "tc-bg-netcafe-counter-day",
+      "time": "16:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 32,
+        "clock": "16:30"
+      },
+      "location": "网吧外",
+      "day": 32,
+      "dayLabel": "第32天"
+    },
+    "ts_c06_friends_quiet_company_eaves": {
+      "chapter": 6,
+      "title": "不开麦也能坐着",
+      "bg": "tc-bg-eaves-day",
+      "time": "16:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 32,
+        "clock": "16:30"
+      },
+      "location": "路边屋檐",
+      "day": 32,
+      "dayLabel": "第32天"
+    },
+    "ts_c06_friends_own_invitation": {
+      "chapter": 6,
+      "title": "不替别人做主",
+      "bg": "tc-bg-rental-day",
+      "time": "18:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 33,
+        "clock": "18:20"
+      },
+      "location": "",
+      "day": 33,
+      "dayLabel": "第33天"
+    },
+    "ts_c06_friends_sleep": {
+      "chapter": 6,
+      "title": "不赶着醒",
+      "bg": "tc-bg-rental-day",
+      "time": "上午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 34,
+        "clock": "上午"
+      },
+      "location": "文文住处",
+      "day": 34,
+      "dayLabel": "第34天"
+    },
+    "ts_c06_friends_sleep_awake": {
+      "chapter": 6,
+      "title": "不赶着醒",
+      "bg": "tc-bg-rental-day",
+      "time": "下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 34,
+        "clock": "下午"
+      },
+      "location": "文文住处",
+      "day": 34,
+      "dayLabel": "第34天"
+    },
+    "ts_c07_friends_show_return": {
+      "chapter": 7,
+      "title": "再来一次，不必一模一样",
+      "bg": "tc-bg-performance-shop-day",
+      "time": "休班下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 40,
+        "clock": "休班下午"
+      },
+      "location": "有小舞台的店",
+      "day": 40,
+      "dayLabel": "第40天"
+    },
+    "ts_c07_friends_show_return_after_show": {
+      "chapter": 7,
+      "title": "再来一次，不必一模一样",
+      "bg": "tc-bg-street-day",
+      "time": "散场后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 40,
+        "clock": "散场后"
+      },
+      "location": "店外",
+      "day": 40,
+      "dayLabel": "第40天"
+    },
+    "ts_c07_friends_walk_return": {
+      "chapter": 7,
+      "title": "再来一次，不必一模一样",
+      "bg": "tc-bg-game-store-day",
+      "time": "休班下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 40,
+        "clock": "休班下午"
+      },
+      "location": "旧游戏店",
+      "day": 40,
+      "dayLabel": "第40天"
+    },
+    "ts_c07_friends_walk_return_message": {
+      "chapter": 7,
+      "title": "再来一次，不必一模一样",
+      "bg": "tc-bg-street-day",
+      "time": "休班下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 40,
+        "clock": "休班下午"
+      },
+      "location": "街角",
+      "day": 40,
+      "dayLabel": "第40天"
+    },
+    "ts_c07_friends_online_game": {
+      "chapter": 7,
+      "title": "再来一次，不必一模一样",
+      "bg": "tc-bg-rental-night",
+      "time": "20:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 40,
+        "clock": "20:00"
+      },
+      "location": "",
+      "day": 40,
+      "dayLabel": "第40天"
+    },
+    "ts_c07_friends_own_dinner": {
+      "chapter": 7,
+      "title": "他也有自己的事",
+      "bg": "tc-bg-rental-day",
+      "time": "16:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 43,
+        "clock": "16:00"
+      },
+      "location": "",
+      "day": 43,
+      "dayLabel": "第43天"
+    },
+    "ts_c07_friends_own_dinner_dinner": {
+      "chapter": 7,
+      "title": "他也有自己的事",
+      "bg": "tc-bg-food-dusk",
+      "time": "晚饭时",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 43,
+        "clock": "晚饭时"
+      },
+      "location": "",
+      "day": 43,
+      "dayLabel": "第43天"
+    },
+    "ts_c08_friends_boundaries": {
+      "chapter": 8,
+      "title": "别把空出来的时间又填满",
+      "bg": "tc-bg-rental-day",
+      "time": "17:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 54,
+        "clock": "17:30"
+      },
+      "location": "",
+      "day": 54,
+      "dayLabel": "第54天"
+    },
+    "ts_c08_friends_boundaries_glasses": {
+      "chapter": 8,
+      "title": "别把空出来的时间又填满",
+      "bg": "tc-bg-netcafe-counter-night",
+      "time": "晚上",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 54,
+        "clock": "晚上"
+      },
+      "location": "",
+      "day": 54,
+      "dayLabel": "第54天"
+    },
+    "ts_c08_friends_online_game": {
+      "chapter": 8,
+      "title": "一次不太成功的组局",
+      "bg": "tc-bg-rental-night",
+      "time": "20:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 56,
+        "clock": "20:00"
+      },
+      "location": "文文住处",
+      "day": 56,
+      "dayLabel": "第56天"
+    },
+    "ts_c08_friends_free_afternoon": {
+      "chapter": 8,
+      "title": "剩下的半天",
+      "bg": "tc-bg-rental-day",
+      "time": "下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 59,
+        "clock": "下午"
+      },
+      "location": "文文住处",
+      "day": 59,
+      "dayLabel": "第59天"
+    },
+    "ts_c08_friends_free_afternoon_home": {
+      "chapter": 8,
+      "title": "剩下的半天",
+      "bg": "tc-bg-rental-day",
+      "time": "下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 59,
+        "clock": "下午"
+      },
+      "location": "文文住处",
+      "day": 59,
+      "dayLabel": "第59天"
+    },
+    "ts_c09_friends_birthday": {
+      "chapter": 9,
+      "title": "谁都不是替补",
+      "bg": "tc-bg-food-night",
+      "time": "休班晚上",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 72,
+        "clock": "休班晚上"
+      },
+      "location": "",
+      "day": 72,
+      "dayLabel": "第72天"
+    },
+    "ts_c09_friends_own_book": {
+      "chapter": 9,
+      "title": "我自己的下一步",
+      "bg": "tc-bg-bookstore-day",
+      "time": "15:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 80,
+        "clock": "15:30"
+      },
+      "location": "书店",
+      "day": 80,
+      "dayLabel": "第80天"
+    },
+    "ts_c09_friends_own_book_evening": {
+      "chapter": 9,
+      "title": "我自己的下一步",
+      "bg": "tc-bg-rental-night",
+      "time": "晚上",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 80,
+        "clock": "晚上"
+      },
+      "location": "",
+      "day": 80,
+      "dayLabel": "第80天"
+    },
+    "ts_c09_friends_call_home": {
+      "chapter": 9,
+      "title": "回消息的人",
+      "bg": "tc-bg-rental-day",
+      "time": "傍晚",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 90,
+        "clock": "傍晚"
+      },
+      "location": "",
+      "day": 90,
+      "dayLabel": "第90天"
+    },
+    "ts_c10_friends_late_host": {
+      "chapter": 10,
+      "title": "迟到十分钟的人",
+      "bg": "tc-bg-maolang-home-day",
+      "time": "休班下午",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "休班下午"
+      },
+      "location": "毛狼与飘家中",
+      "day": null,
+      "dayLabel": "两年后"
+    },
+    "ts_c10_friends_friends_table": {
+      "chapter": 10,
+      "title": "迟到十分钟的人",
+      "bg": "tc-bg-maolang-home-day",
+      "time": "休班下午",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "休班下午"
+      },
+      "location": "毛狼与飘家中",
+      "day": null,
+      "dayLabel": "两年后"
+    },
+    "ts_c10_friends_rain_walk": {
+      "chapter": 10,
+      "title": "迟到十分钟的人",
+      "bg": "tc-bg-street-day",
+      "time": "休班下午",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "休班下午"
+      },
+      "location": "回家路上",
+      "day": null,
+      "dayLabel": "两年后"
+    },
+    "ts_c10_friends_rain_walk_netcafe": {
+      "chapter": 10,
+      "title": "迟到十分钟的人",
+      "bg": "tc-bg-netcafe-counter-day",
+      "time": "休班下午",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "休班下午"
+      },
+      "location": "网吧门口",
+      "day": null,
+      "dayLabel": "两年后"
+    },
+    "ts_c10_friends_rain_walk_homeward": {
+      "chapter": 10,
+      "title": "迟到十分钟的人",
+      "bg": "tc-bg-street-day",
+      "time": "休班下午",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "休班下午"
+      },
+      "location": "回家路上",
+      "day": null,
+      "dayLabel": "两年后"
+    }
+  },
+  "nodes": {
+    "tc_c03_friends_entry": {
+      "id": "tc_c03_friends_entry",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我给毛狼打电话，问他下午出不出来。",
+      "next": "tc_c03_friends_tailoring_002"
+    },
+    "tc_c03_friends_tailoring_002": {
+      "id": "tc_c03_friends_tailoring_002",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring",
+      "speaker": "maolang",
+      "character": null,
+      "text": "“干什么？”",
+      "next": "tc_c03_friends_tailoring_003"
+    },
+    "tc_c03_friends_tailoring_003": {
+      "id": "tc_c03_friends_tailoring_003",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“没什么。坐坐。”",
+      "next": "tc_c03_friends_tailoring_004"
+    },
+    "tc_c03_friends_tailoring_004": {
+      "id": "tc_c03_friends_tailoring_004",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring",
+      "speaker": "narrator",
+      "character": null,
+      "text": "电话那边静了两秒：“你借钱？”",
+      "next": "tc_c03_friends_tailoring_005"
+    },
+    "tc_c03_friends_tailoring_005": {
+      "id": "tc_c03_friends_tailoring_005",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“我现在挂还来得及吗？”",
+      "next": "tc_c03_friends_tailoring_006"
+    },
+    "tc_c03_friends_tailoring_006": {
+      "id": "tc_c03_friends_tailoring_006",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他笑起来，说自己刚拿到一份临时演出的衣服，在店里等改裤脚。我要是不嫌没意思，可以过来。我睡过觉，晚上十点才上班，确实有这段时间。",
+      "next": "tc_c03_friends_tailoring_007"
+    },
+    "tc_c03_friends_tailoring_007": {
+      "id": "tc_c03_friends_tailoring_007",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring_shop",
+      "speaker": "narrator",
+      "character": null,
+      "text": "店里摆着一面很长的镜子。毛狼站在镜子前，裤脚被折上去一截，两条腿显得不太一样长。",
+      "next": "tc_c03_friends_tailoring_008"
+    },
+    "tc_c03_friends_tailoring_008": {
+      "id": "tc_c03_friends_tailoring_008",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring_shop",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“别拍。”他先说。",
+      "next": "tc_c03_friends_tailoring_009"
+    },
+    "tc_c03_friends_tailoring_009": {
+      "id": "tc_c03_friends_tailoring_009",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring_shop",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“我还没掏手机。”",
+      "next": "tc_c03_friends_tailoring_010"
+    },
+    "tc_c03_friends_tailoring_010": {
+      "id": "tc_c03_friends_tailoring_010",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring_shop",
+      "speaker": "maolang",
+      "character": null,
+      "text": "“你那个笑就已经掏了。”",
+      "next": "tc_c03_friends_tailoring_011"
+    },
+    "tc_c03_friends_tailoring_011": {
+      "id": "tc_c03_friends_tailoring_011",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring_shop",
+      "speaker": "narrator",
+      "character": null,
+      "text": "师傅让他转一圈。他一边转，一边跟我讲这回的主持本来定了别人，对方临时来不了，才找他补。他接得高兴，又不太想显得自己只是捡了空。",
+      "next": "tc_c03_friends_tailoring_012"
+    },
+    "tc_c03_friends_tailoring_012": {
+      "id": "tc_c03_friends_tailoring_012",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring_shop",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“替补也要钱。”我说。",
+      "next": "tc_c03_friends_tailoring_013"
+    },
+    "tc_c03_friends_tailoring_013": {
+      "id": "tc_c03_friends_tailoring_013",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring_shop",
+      "speaker": "maolang",
+      "character": null,
+      "text": "“这句话倒对。”",
+      "next": "tc_c03_friends_tailoring_014"
+    },
+    "tc_c03_friends_tailoring_014": {
+      "id": "tc_c03_friends_tailoring_014",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring_shop",
+      "speaker": "narrator",
+      "character": null,
+      "text": "裤脚还要等。他坐到我旁边，把手机里的串词给我看。我看了两行，承认里面有几个词不认识。他说他也不认识，刚刚特意问过，免得现场乱念。",
+      "next": "tc_c03_friends_tailoring_015"
+    },
+    "tc_c03_friends_tailoring_015": {
+      "id": "tc_c03_friends_tailoring_015",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring_shop",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我们没把那份串词改成两个人的共同作品。我只是陪他坐着，偶尔听他把一句话念顺。后来他不想念了，就问我出租屋收拾完没有。",
+      "next": "tc_c03_friends_tailoring_016"
+    },
+    "tc_c03_friends_tailoring_016": {
+      "id": "tc_c03_friends_tailoring_016",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring_shop",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“箱子没收。”",
+      "next": "tc_c03_friends_tailoring_017"
+    },
+    "tc_c03_friends_tailoring_017": {
+      "id": "tc_c03_friends_tailoring_017",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring_shop",
+      "speaker": "maolang",
+      "character": null,
+      "text": "“你那个拖拉机还在？”",
+      "next": "tc_c03_friends_tailoring_018"
+    },
+    "tc_c03_friends_tailoring_018": {
+      "id": "tc_c03_friends_tailoring_018",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring_shop",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“在。比较能代表我目前状态。”",
+      "next": "tc_c03_friends_tailoring_019"
+    },
+    "tc_c03_friends_tailoring_019": {
+      "id": "tc_c03_friends_tailoring_019",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring_shop",
+      "speaker": "maolang",
+      "character": null,
+      "text": "“目前状态怎么还带噪声。”",
+      "next": "tc_c03_friends_tailoring_020"
+    },
+    "tc_c03_friends_tailoring_020": {
+      "id": "tc_c03_friends_tailoring_020",
+      "type": "line",
+      "scene": "ts_c03_friends_tailoring_shop",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我没忍住笑。这样的下午没有成果可以拍照发群，却也不觉得白过。",
+      "next": "tc_c03_friends_online_game_001"
+    },
+    "tc_c03_friends_online_game_001": {
+      "id": "tc_c03_friends_online_game_001",
+      "type": "line",
+      "scene": "ts_c03_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "今天休班。毛狼约了个简单的合作游戏，师匠也说想玩。他早早把店务交给当值同事，回家上线，第一句先强调：“我只玩一小时。”",
+      "next": "tc_c03_friends_online_game_002"
+    },
+    "tc_c03_friends_online_game_002": {
+      "id": "tc_c03_friends_online_game_002",
+      "type": "line",
+      "scene": "ts_c03_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“你别走不出来就说网络问题。”毛狼说。",
+      "next": "tc_c03_friends_online_game_003"
+    },
+    "tc_c03_friends_online_game_003": {
+      "id": "tc_c03_friends_online_game_003",
+      "type": "line",
+      "scene": "ts_c03_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我在住处戴好耳机。叶岚当天有事没参加，毛狼没有到处催，又找了另一个朋友补位。",
+      "next": "tc_c03_friends_online_game_004"
+    },
+    "tc_c03_friends_online_game_004": {
+      "id": "tc_c03_friends_online_game_004",
+      "type": "line",
+      "scene": "ts_c03_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "刚开始我还想教师匠，告诉他每一步怎么走。他照做了两次，第三次故意往另一边去，掉下去的时候声音很平静。",
+      "next": "tc_c03_friends_online_game_005"
+    },
+    "tc_c03_friends_online_game_005": {
+      "id": "tc_c03_friends_online_game_005",
+      "type": "line",
+      "scene": "ts_c03_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“我想看看。”他说。",
+      "next": "tc_c03_friends_online_game_006"
+    },
+    "tc_c03_friends_online_game_006": {
+      "id": "tc_c03_friends_online_game_006",
+      "type": "line",
+      "scene": "ts_c03_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "毛狼笑得说不出话。",
+      "next": "tc_c03_friends_online_game_007"
+    },
+    "tc_c03_friends_online_game_007": {
+      "id": "tc_c03_friends_online_game_007",
+      "type": "line",
+      "scene": "ts_c03_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我先觉得可惜，过了一会儿也跟着笑。下一次换我想试一条没走过的路，师匠没提醒，等我失败才说：“看来那边景色确实值得参观。”",
+      "next": "tc_c03_friends_online_game_008"
+    },
+    "tc_c03_friends_online_game_008": {
+      "id": "tc_c03_friends_online_game_008",
+      "type": "line",
+      "scene": "ts_c03_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "一小时快到，毛狼喊再试一次。我习惯性跟着说好，师匠却直接退出。",
+      "next": "tc_c03_friends_online_game_009"
+    },
+    "tc_c03_friends_online_game_009": {
+      "id": "tc_c03_friends_online_game_009",
+      "type": "line",
+      "scene": "ts_c03_friends_online_game",
+      "speaker": "shijiang",
+      "character": null,
+      "text": "“我明早还要出门。你们玩。”",
+      "next": "tc_c03_friends_online_game_010"
+    },
+    "tc_c03_friends_online_game_010": {
+      "id": "tc_c03_friends_online_game_010",
+      "type": "line",
+      "scene": "ts_c03_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "没有领导讲话，也没有用老板身份给这件事做总结。他就是到点走了。我们余下几个人又玩了一小会儿，自己也散场。",
+      "next": "tc_c03_friends_online_game_011"
+    },
+    "tc_c03_friends_online_game_011": {
+      "id": "tc_c03_friends_online_game_011",
+      "type": "line",
+      "scene": "ts_c03_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "耳机摘下以后，我发现这种相处挺轻松：不需要替师匠保住面子，也不必因为毛狼热闹，就答应所有“再来一次”。",
+      "next": "tc_c03_friends_settling_in_001"
+    },
+    "tc_c03_friends_settling_in_001": {
+      "id": "tc_c03_friends_settling_in_001",
+      "type": "line",
+      "scene": "ts_c03_friends_settling_in",
+      "speaker": "narrator",
+      "character": null,
+      "text": "出租屋那只箱子终于打开了。我把衣服放进柜子，拿出底下一小包没舍得扔的旧东西。有一张以前攒积分换来的游戏卡，卡面已经磨花，拿出来也没什么用。",
+      "next": "tc_c03_friends_settling_in_002"
+    },
+    "tc_c03_friends_settling_in_002": {
+      "id": "tc_c03_friends_settling_in_002",
+      "type": "line",
+      "scene": "ts_c03_friends_settling_in",
+      "speaker": "narrator",
+      "character": null,
+      "text": "毛狼过来还我一把伞，看见地上的东西，说像搬家搬到一半遇上考古。",
+      "next": "tc_c03_friends_settling_in_003"
+    },
+    "tc_c03_friends_settling_in_003": {
+      "id": "tc_c03_friends_settling_in_003",
+      "type": "line",
+      "scene": "ts_c03_friends_settling_in",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“你说这是摆出来，还是收着？”我问他。",
+      "next": "tc_c03_friends_settling_in_004"
+    },
+    "tc_c03_friends_settling_in_004": {
+      "id": "tc_c03_friends_settling_in_004",
+      "type": "line",
+      "scene": "ts_c03_friends_settling_in",
+      "speaker": "maolang",
+      "character": null,
+      "text": "“问我没用，我都摆。摆满了再怪房子小。”",
+      "next": "tc_c03_friends_settling_in_005"
+    },
+    "tc_c03_friends_settling_in_005": {
+      "id": "tc_c03_friends_settling_in_005",
+      "type": "line",
+      "scene": "ts_c03_friends_settling_in",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我把卡搁在桌角，把箱子推到床底。毛狼坐在唯一的椅子上，低头刷了一会儿手机。我也没急着找节目招待他，只把水杯拿过来。",
+      "next": "tc_c03_friends_settling_in_006"
+    },
+    "tc_c03_friends_settling_in_006": {
+      "id": "tc_c03_friends_settling_in_006",
+      "type": "line",
+      "scene": "ts_c03_friends_settling_in",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他问我要不要以后找个离店更近的地方，我说暂时不用，这里能住。说完，自己愣了一下。",
+      "next": "tc_c03_friends_settling_in_007"
+    },
+    "tc_c03_friends_settling_in_007": {
+      "id": "tc_c03_friends_settling_in_007",
+      "type": "line",
+      "scene": "ts_c03_friends_settling_in",
+      "speaker": "narrator",
+      "character": null,
+      "text": "刚回来时，我什么都喜欢加“先”。先做着，先住着，先看看。仿佛承认可以住一阵子，就等于签了永远不能离开的合同。",
+      "next": "tc_c03_friends_settling_in_008"
+    },
+    "tc_c03_friends_settling_in_008": {
+      "id": "tc_c03_friends_settling_in_008",
+      "type": "line",
+      "scene": "ts_c03_friends_settling_in",
+      "speaker": "narrator",
+      "character": null,
+      "text": "毛狼没留意我的这点走神。他在挑拖鞋，问我黑的还是灰的。我说灰的，他立刻买了黑的。",
+      "next": "tc_c03_friends_settling_in_009"
+    },
+    "tc_c03_friends_settling_in_009": {
+      "id": "tc_c03_friends_settling_in_009",
+      "type": "line",
+      "scene": "ts_c03_friends_settling_in",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“那你问我干什么？”",
+      "next": "tc_c03_friends_settling_in_010"
+    },
+    "tc_c03_friends_settling_in_010": {
+      "id": "tc_c03_friends_settling_in_010",
+      "type": "line",
+      "scene": "ts_c03_friends_settling_in",
+      "speaker": "maolang",
+      "character": null,
+      "text": "“确认我自己想要黑的。”",
+      "next": "tc_c03_friends_settling_in_011"
+    },
+    "tc_c03_friends_settling_in_011": {
+      "id": "tc_c03_friends_settling_in_011",
+      "type": "line",
+      "scene": "ts_c03_friends_settling_in",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我拿纸团丢他。他躲开，笑得很欠。",
+      "next": "tc_c03_friends_settling_in_012"
+    },
+    "tc_c03_friends_settling_in_012": {
+      "id": "tc_c03_friends_settling_in_012",
+      "type": "line",
+      "scene": "ts_c03_friends_settling_in",
+      "speaker": "narrator",
+      "character": null,
+      "text": "临走前，他问我过两天休息想做什么。我说这次我来选，别每次都是进游戏等他拉人。他答应得很快，仿佛这事根本不需要我在心里准备很久。",
+      "next": "tc_c03_friends_settling_in_013"
+    },
+    "tc_c03_friends_settling_in_013": {
+      "id": "tc_c03_friends_settling_in_013",
+      "type": "line",
+      "scene": "ts_c03_friends_settling_in",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我把桌角那张旧卡摆正。今天的生活没有比前天体面多少，但我开始往里面放自己的东西了。",
+      "next": "tc_c03_common_exit"
+    },
+    "tc_c04_friends_entry": {
+      "id": "tc_c04_friends_entry",
+      "type": "line",
+      "scene": "ts_c04_friends_own_plan",
+      "speaker": "narrator",
+      "character": null,
+      "text": "这天是我休班。我睡醒以后在群里说，下午想出门走走，不想整天坐在电脑前。毛狼回了一个大拇指，问我来定还是他来定。",
+      "next": "tc_c04_friends_own_plan_002"
+    },
+    "tc_c04_friends_own_plan_002": {
+      "id": "tc_c04_friends_own_plan_002",
+      "type": "line",
+      "scene": "ts_c04_friends_own_plan",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我说我定，又在输入框里停了半天。以前嫌他安排得太满，轮到我，才发现自己连想去哪儿都常常要先看别人高不高兴。",
+      "next": "tc_c04_friends_own_plan_003"
+    },
+    "tc_c04_friends_own_plan_003": {
+      "id": "tc_c04_friends_own_plan_003",
+      "type": "line",
+      "scene": "ts_c04_friends_own_plan",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他没催，发来一句：“两种都行，别选你自己最不想去的。”",
+      "next": "tc_c04_friends_outing_choice"
+    },
+    "tc_c04_friends_show_001": {
+      "id": "tc_c04_friends_show_001",
+      "type": "line",
+      "scene": "ts_c04_friends_show",
+      "speaker": "narrator",
+      "character": null,
+      "text": "演出在街边一家有小台子的店里，不是毛狼今天的工作。他说认识其中一个唱歌的人，我们买自己的东西坐在后排，不必帮忙撑场。",
+      "next": "tc_c04_friends_show_002"
+    },
+    "tc_c04_friends_show_002": {
+      "id": "tc_c04_friends_show_002",
+      "type": "line",
+      "scene": "ts_c04_friends_show",
+      "speaker": "narrator",
+      "character": null,
+      "text": "前面有人忘词，停下来问大家有没有听过这首歌。毛狼张口想接，被对方笑着叫停：“你这个调也不对。”",
+      "next": "tc_c04_friends_show_003"
+    },
+    "tc_c04_friends_show_003": {
+      "id": "tc_c04_friends_show_003",
+      "type": "line",
+      "scene": "ts_c04_friends_show",
+      "speaker": "narrator",
+      "character": null,
+      "text": "全场哄笑。他自己笑得最大声。",
+      "next": "tc_c04_friends_show_004"
+    },
+    "tc_c04_friends_show_004": {
+      "id": "tc_c04_friends_show_004",
+      "type": "line",
+      "scene": "ts_c04_friends_show",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我原本以为看熟人表演得从头捧到尾，坐久一点才发现，喜欢某一段、另一段走神，也都很正常。中间休息，毛狼问我要不要往前挪。我说后面听着舒服，他便留在原位。",
+      "next": "tc_c04_friends_show_005"
+    },
+    "tc_c04_friends_show_005": {
+      "id": "tc_c04_friends_show_005",
+      "type": "line",
+      "scene": "ts_c04_friends_show",
+      "speaker": "narrator",
+      "character": null,
+      "text": "有一首歌唱完，我抬手鼓掌。他转头看了看，说下次有类似的再叫我。",
+      "next": "tc_c04_friends_show_006"
+    },
+    "tc_c04_friends_show_006": {
+      "id": "tc_c04_friends_show_006",
+      "type": "line",
+      "scene": "ts_c04_friends_show",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“有空再叫。你不去也没关系。”我说。",
+      "next": "tc_c04_friends_show_007"
+    },
+    "tc_c04_friends_show_007": {
+      "id": "tc_c04_friends_show_007",
+      "type": "line",
+      "scene": "ts_c04_friends_show",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他愣了一下：“你终于打算自己出门了？”",
+      "next": "tc_c04_friends_show_008"
+    },
+    "tc_c04_friends_show_008": {
+      "id": "tc_c04_friends_show_008",
+      "type": "line",
+      "scene": "ts_c04_friends_show",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我说我以前也会。他没拆穿，只把店名发给我。",
+      "next": "tc_c04_friends_crossroad_001"
+    },
+    "tc_c04_friends_walk_001": {
+      "id": "tc_c04_friends_walk_001",
+      "type": "line",
+      "scene": "ts_c04_friends_walk",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我们往老街另一头走，没定终点。毛狼看见卖烤豆腐的，走不动；我看见一家旧游戏小店，停了很久。他给我留了两块豆腐，自己去旁边买水。",
+      "next": "tc_c04_friends_walk_002"
+    },
+    "tc_c04_friends_walk_002": {
+      "id": "tc_c04_friends_walk_002",
+      "type": "line",
+      "scene": "ts_c04_friends_walk_game_store",
+      "speaker": "narrator",
+      "character": null,
+      "text": "店里东西不多。有些我叫得出名字，有些没见过。我和店主聊了一会儿，最后只买了一张便宜的明信片，没为了显得懂行把钱都花掉。",
+      "next": "tc_c04_friends_walk_003"
+    },
+    "tc_c04_friends_walk_003": {
+      "id": "tc_c04_friends_walk_003",
+      "type": "line",
+      "scene": "ts_c04_friends_walk_stool",
+      "speaker": "narrator",
+      "character": null,
+      "text": "出来时，毛狼坐在路边矮凳上，嘴里还在嚼。",
+      "next": "tc_c04_friends_walk_004"
+    },
+    "tc_c04_friends_walk_004": {
+      "id": "tc_c04_friends_walk_004",
+      "type": "line",
+      "scene": "ts_c04_friends_walk_stool",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“你怎么不进去？”",
+      "next": "tc_c04_friends_walk_005"
+    },
+    "tc_c04_friends_walk_005": {
+      "id": "tc_c04_friends_walk_005",
+      "type": "line",
+      "scene": "ts_c04_friends_walk_stool",
+      "speaker": "maolang",
+      "character": null,
+      "text": "“我没那么想看。你看够了没？”",
+      "next": "tc_c04_friends_walk_006"
+    },
+    "tc_c04_friends_walk_006": {
+      "id": "tc_c04_friends_walk_006",
+      "type": "line",
+      "scene": "ts_c04_friends_walk_wall",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我点头。他把水给我，我们继续走，走到一面被雨刷得发亮的墙，又原路折回来。",
+      "next": "tc_c04_friends_walk_007"
+    },
+    "tc_c04_friends_walk_007": {
+      "id": "tc_c04_friends_walk_007",
+      "type": "line",
+      "scene": "ts_c04_friends_walk_wall",
+      "speaker": "narrator",
+      "character": null,
+      "text": "这趟出门没有一个值得发朋友圈的终点。我却记住了那家店旁边有个遮雨的檐，记住毛狼不爱看的东西，也可以让我自己慢慢看。",
+      "next": "tc_c04_friends_crossroad_001"
+    },
+    "tc_c04_friends_crossroad_001": {
+      "id": "tc_c04_friends_crossroad_001",
+      "type": "line",
+      "scene": "ts_c04_friends_crossroad",
+      "speaker": "narrator",
+      "character": null,
+      "text": "路口那家面馆亮灯时，我们才发现饿了。毛狼说这回选地方辛苦，想给我颁发一个领队证。我说免了，下次不保证组织。",
+      "next": "tc_c04_friends_crossroad_002"
+    },
+    "tc_c04_friends_crossroad_002": {
+      "id": "tc_c04_friends_crossroad_002",
+      "type": "line",
+      "scene": "ts_c04_friends_crossroad",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他问晚上还玩不玩，我想了一下，说今天先不玩。他没有把这句话听成我不高兴，掏手机去问别人。",
+      "next": "tc_c04_friends_crossroad_003"
+    },
+    "tc_c04_friends_crossroad_003": {
+      "id": "tc_c04_friends_crossroad_003",
+      "type": "line",
+      "scene": "ts_c04_friends_crossroad_home",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我回去洗了澡，把今天的零钱支出记下来。钱没多多少，休息日也没变长，可我至少知道，有一段是自己选来过的。",
+      "next": "tc_c04_common_exit"
+    },
+    "tc_c04_friends_outing_choice": {
+      "id": "tc_c04_friends_outing_choice",
+      "type": "choice",
+      "scene": "ts_c04_friends_own_plan",
+      "character": null,
+      "text": "",
+      "flag": "friendsOuting",
+      "choices": [
+        {
+          "label": "去看毛狼说过的小演出",
+          "value": "show",
+          "next": "tc_c04_friends_show_001"
+        },
+        {
+          "label": "沿着没怎么走过的街慢慢逛",
+          "value": "walk",
+          "next": "tc_c04_friends_walk_001"
+        }
+      ]
+    },
+    "tc_c05_friends_entry": {
+      "id": "tc_c05_friends_entry",
+      "type": "line",
+      "scene": "ts_c05_friends_job_name",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我在买日用品时碰见以前认识的人。对方问我现在做什么，我嘴比脑子快，说：“做网络这一块。”",
+      "next": "tc_c05_friends_job_name_002"
+    },
+    "tc_c05_friends_job_name_002": {
+      "id": "tc_c05_friends_job_name_002",
+      "type": "line",
+      "scene": "ts_c05_friends_job_name",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他说听起来不错，又问是不是坐办公室。我正要把话往回改，毛狼从后面拎着卫生纸过来，叫我网吧的会员活动别忘了看。",
+      "next": "tc_c05_friends_job_name_003"
+    },
+    "tc_c05_friends_job_name_003": {
+      "id": "tc_c05_friends_job_name_003",
+      "type": "line",
+      "scene": "ts_c05_friends_job_name",
+      "speaker": "narrator",
+      "character": null,
+      "text": "对方哦了一声，表情没什么变化。我却突然很热，像毛狼故意把我辛苦搭的台子拆掉了。",
+      "next": "tc_c05_friends_job_name_004"
+    },
+    "tc_c05_friends_job_name_004": {
+      "id": "tc_c05_friends_job_name_004",
+      "type": "line",
+      "scene": "ts_c05_friends_job_name",
+      "speaker": "narrator",
+      "character": null,
+      "text": "人走以后，我闷着没说话。毛狼问我还买什么，我说不买了。他看了我一眼，也把玩笑收起来。",
+      "next": "tc_c05_friends_job_name_005"
+    },
+    "tc_c05_friends_job_name_005": {
+      "id": "tc_c05_friends_job_name_005",
+      "type": "line",
+      "scene": "ts_c05_friends_job_name_door",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我们在门口站了一会儿。我知道刚才那点不舒服不全是他的错，却还是想找个容易出口的对象。",
+      "next": "tc_c05_friends_job_name_006"
+    },
+    "tc_c05_friends_job_name_006": {
+      "id": "tc_c05_friends_job_name_006",
+      "type": "line",
+      "scene": "ts_c05_friends_job_name_door",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“你能不能别见谁都讲我在哪上班？”我说。",
+      "next": "tc_c05_friends_job_name_007"
+    },
+    "tc_c05_friends_job_name_007": {
+      "id": "tc_c05_friends_job_name_007",
+      "type": "line",
+      "scene": "ts_c05_friends_job_name_door",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他皱眉：“我以为都知道。你要是不想说，我以后不说。”",
+      "next": "tc_c05_friends_job_name_008"
+    },
+    "tc_c05_friends_job_name_008": {
+      "id": "tc_c05_friends_job_name_008",
+      "type": "line",
+      "scene": "ts_c05_friends_job_name_door",
+      "speaker": "narrator",
+      "character": null,
+      "text": "这句话没让我舒服多少。因为我也知道，自己并不是认真想保密，只是希望他帮我维持一个听起来更光鲜的模糊说法。",
+      "next": "tc_c05_friends_job_name_009"
+    },
+    "tc_c05_friends_job_name_009": {
+      "id": "tc_c05_friends_job_name_009",
+      "type": "line",
+      "scene": "ts_c05_friends_job_name_home",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我回去，坐到床边，把袋子放下。卫生纸、洗衣液、电池，全是普通东西。我需要用它们，却刚刚像这些钱不是靠普通工作挣来的一样。",
+      "next": "tc_c05_friends_job_name_010"
+    },
+    "tc_c05_friends_job_name_010": {
+      "id": "tc_c05_friends_job_name_010",
+      "type": "line",
+      "scene": "ts_c05_friends_job_name_call",
+      "speaker": "narrator",
+      "character": null,
+      "text": "晚点我给毛狼打电话，承认自己刚才是在生闷气。做网络不是骗人，但我是故意让人往别的地方想。",
+      "next": "tc_c05_friends_job_name_011"
+    },
+    "tc_c05_friends_job_name_011": {
+      "id": "tc_c05_friends_job_name_011",
+      "type": "line",
+      "scene": "ts_c05_friends_job_name_call",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“你又不是得每天开着喇叭介绍自己。”他说，“不想细聊就不细聊。我刚才也没看出你那个意思。”",
+      "next": "tc_c05_friends_job_name_012"
+    },
+    "tc_c05_friends_job_name_012": {
+      "id": "tc_c05_friends_job_name_012",
+      "type": "line",
+      "scene": "ts_c05_friends_job_name_call",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“我知道。我不该把脾气撒你身上。”",
+      "next": "tc_c05_friends_job_name_013"
+    },
+    "tc_c05_friends_job_name_013": {
+      "id": "tc_c05_friends_job_name_013",
+      "type": "line",
+      "scene": "ts_c05_friends_job_name_call",
+      "speaker": "narrator",
+      "character": null,
+      "text": "电话那边响起包装袋声。他说刚拆开那包纸，发现自己买错规格，家里的架子根本放不下。我们聊了一会儿这个毫无意义的问题，终于都笑了。",
+      "next": "tc_c05_friends_say_it_001"
+    },
+    "tc_c05_friends_say_it_001": {
+      "id": "tc_c05_friends_say_it_001",
+      "type": "line",
+      "scene": "ts_c05_friends_say_it",
+      "speaker": "narrator",
+      "character": null,
+      "text": "两天后，我在面馆又碰到那个人。他问店里夜班累不累。我这回没绕，说凌晨四点多最困，其他时候有人找，倒还好。",
+      "next": "tc_c05_friends_say_it_002"
+    },
+    "tc_c05_friends_say_it_002": {
+      "id": "tc_c05_friends_say_it_002",
+      "type": "line",
+      "scene": "ts_c05_friends_say_it",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他说自己也上过晚班，最烦早上有人还没到就开始装修。聊到这里，话题很自然地换成最近哪条路在修。",
+      "next": "tc_c05_friends_say_it_003"
+    },
+    "tc_c05_friends_say_it_003": {
+      "id": "tc_c05_friends_say_it_003",
+      "type": "line",
+      "scene": "ts_c05_friends_say_it",
+      "speaker": "narrator",
+      "character": null,
+      "text": "没有想象中的审判，也没有因为我讲清楚就获得一个特别尊重的眼神。",
+      "next": "tc_c05_friends_say_it_004"
+    },
+    "tc_c05_friends_say_it_004": {
+      "id": "tc_c05_friends_say_it_004",
+      "type": "line",
+      "scene": "ts_c05_friends_say_it",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我端着面坐下，心里有点轻，也有点可笑。原来那天最想瞧不起我的人，可能就是我自己先替别人安排出来的那个。",
+      "next": "tc_c05_friends_say_it_005"
+    },
+    "tc_c05_friends_say_it_005": {
+      "id": "tc_c05_friends_say_it_005",
+      "type": "line",
+      "scene": "ts_c05_friends_say_it_counter",
+      "speaker": "narrator",
+      "character": null,
+      "text": "吃完，我把买错尺寸的纸带给师匠，说毛狼托我问店里用不用得上。师匠看了一眼，让我放柜台下面，按实际价钱转给毛狼。",
+      "next": "tc_c05_friends_say_it_006"
+    },
+    "tc_c05_friends_say_it_006": {
+      "id": "tc_c05_friends_say_it_006",
+      "type": "line",
+      "scene": "ts_c05_friends_say_it_counter",
+      "speaker": "shijiang",
+      "character": null,
+      "text": "“这也算你俩出来逛街的成果？”",
+      "next": "tc_c05_friends_say_it_007"
+    },
+    "tc_c05_friends_say_it_007": {
+      "id": "tc_c05_friends_say_it_007",
+      "type": "line",
+      "scene": "ts_c05_friends_say_it_counter",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“成果比较柔软。”",
+      "next": "tc_c05_friends_say_it_008"
+    },
+    "tc_c05_friends_say_it_008": {
+      "id": "tc_c05_friends_say_it_008",
+      "type": "line",
+      "scene": "ts_c05_friends_say_it_counter",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他摇头笑，把最后一口饭吃完。我换上值班时穿的外套，准备十点回来。网管这两个字还和前几天一样，没有因此少一个笔画，也不需要加上别的词才让我开口。",
+      "next": "tc_c05_common_exit"
+    },
+    "tc_c06_friends_entry": {
+      "id": "tc_c06_friends_entry",
+      "type": "line",
+      "scene": "ts_c06_friends_quiet_company",
+      "speaker": "narrator",
+      "character": null,
+      "text": "回声最后营业的前后，毛狼连着两天在外面跑临时演出。这天他没事，我也休班，白天补足了觉，下午在网吧外面碰头。",
+      "next": "tc_c06_friends_quiet_company_002"
+    },
+    "tc_c06_friends_quiet_company_002": {
+      "id": "tc_c06_friends_quiet_company_002",
+      "type": "line",
+      "scene": "ts_c06_friends_quiet_company",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他先问要不要进来玩。我说今天想吃点东西，不想盯屏幕。",
+      "next": "tc_c06_friends_quiet_company_003"
+    },
+    "tc_c06_friends_quiet_company_003": {
+      "id": "tc_c06_friends_quiet_company_003",
+      "type": "line",
+      "scene": "ts_c06_friends_quiet_company",
+      "speaker": "maolang",
+      "character": null,
+      "text": "“你工作已经盯够了？”",
+      "next": "tc_c06_friends_quiet_company_004"
+    },
+    "tc_c06_friends_quiet_company_004": {
+      "id": "tc_c06_friends_quiet_company_004",
+      "type": "line",
+      "scene": "ts_c06_friends_quiet_company",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“也不全是。有时候就是不想。”",
+      "next": "tc_c06_friends_quiet_company_005"
+    },
+    "tc_c06_friends_quiet_company_005": {
+      "id": "tc_c06_friends_quiet_company_005",
+      "type": "line",
+      "scene": "ts_c06_friends_quiet_company_eaves",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我们买了烤土豆，坐在路边屋檐下。他那份要辣，我这份少一点，老板装袋时分开做了记号。没过多久，他拿错了我的，两个人只好对着咬了一口的土豆笑。",
+      "next": "tc_c06_friends_quiet_company_006"
+    },
+    "tc_c06_friends_quiet_company_006": {
+      "id": "tc_c06_friends_quiet_company_006",
+      "type": "line",
+      "scene": "ts_c06_friends_quiet_company_eaves",
+      "speaker": "narrator",
+      "character": null,
+      "text": "毛狼说这两天活多，钱会晚一点结。他已经问过什么时候，暂时只能等，不想一下午再讲这件事。我说那不讲。",
+      "next": "tc_c06_friends_quiet_company_007"
+    },
+    "tc_c06_friends_quiet_company_007": {
+      "id": "tc_c06_friends_quiet_company_007",
+      "type": "line",
+      "scene": "ts_c06_friends_quiet_company_eaves",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我们真就没讲。他刷手机，我看路人从水洼两边绕开。有个小孩非要踩中间，被家长拉住，鞋底还是甩出一小串水。",
+      "next": "tc_c06_friends_quiet_company_008"
+    },
+    "tc_c06_friends_quiet_company_008": {
+      "id": "tc_c06_friends_quiet_company_008",
+      "type": "line",
+      "scene": "ts_c06_friends_quiet_company_eaves",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“我小时候也这样。”我说。",
+      "next": "tc_c06_friends_quiet_company_009"
+    },
+    "tc_c06_friends_quiet_company_009": {
+      "id": "tc_c06_friends_quiet_company_009",
+      "type": "line",
+      "scene": "ts_c06_friends_quiet_company_eaves",
+      "speaker": "maolang",
+      "character": null,
+      "text": "“你现在有时也这样。”",
+      "next": "tc_c06_friends_quiet_company_010"
+    },
+    "tc_c06_friends_quiet_company_010": {
+      "id": "tc_c06_friends_quiet_company_010",
+      "type": "line",
+      "scene": "ts_c06_friends_quiet_company_eaves",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“哪样？”",
+      "next": "tc_c06_friends_quiet_company_011"
+    },
+    "tc_c06_friends_quiet_company_011": {
+      "id": "tc_c06_friends_quiet_company_011",
+      "type": "line",
+      "scene": "ts_c06_friends_quiet_company_eaves",
+      "speaker": "maolang",
+      "character": null,
+      "text": "“明知道会湿，还觉得自己这次能跨过去。”",
+      "next": "tc_c06_friends_quiet_company_012"
+    },
+    "tc_c06_friends_quiet_company_012": {
+      "id": "tc_c06_friends_quiet_company_012",
+      "type": "line",
+      "scene": "ts_c06_friends_quiet_company_eaves",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他是随口说的，话题很快转到鞋。我没有把每一个比喻都收进人生心得，低头看自己的鞋边，确实有点脏。",
+      "next": "tc_c06_friends_own_invitation_001"
+    },
+    "tc_c06_friends_own_invitation_001": {
+      "id": "tc_c06_friends_own_invitation_001",
+      "type": "line",
+      "scene": "ts_c06_friends_own_invitation",
+      "speaker": "narrator",
+      "character": null,
+      "text": "飘在群里问有没有人知道附近哪里能少量打印。毛狼回复了一家，说自己也要去那边办事，可以顺路带路。",
+      "next": "tc_c06_friends_own_invitation_002"
+    },
+    "tc_c06_friends_own_invitation_002": {
+      "id": "tc_c06_friends_own_invitation_002",
+      "type": "line",
+      "scene": "ts_c06_friends_own_invitation",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我看见消息，打了个“我也可以”，又删掉。不是要退让什么，而是我那天本来就没打算出门，也没有非要抢先回一句的必要。",
+      "next": "tc_c06_friends_own_invitation_003"
+    },
+    "tc_c06_friends_own_invitation_003": {
+      "id": "tc_c06_friends_own_invitation_003",
+      "type": "line",
+      "scene": "ts_c06_friends_own_invitation",
+      "speaker": "narrator",
+      "character": null,
+      "text": "毛狼后来私聊我，说他想约飘多见几次，但不确定她是不是同样意思。",
+      "next": "tc_c06_friends_own_invitation_004"
+    },
+    "tc_c06_friends_own_invitation_004": {
+      "id": "tc_c06_friends_own_invitation_004",
+      "type": "line",
+      "scene": "ts_c06_friends_own_invitation",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“那你问她。”我说。",
+      "next": "tc_c06_friends_own_invitation_005"
+    },
+    "tc_c06_friends_own_invitation_005": {
+      "id": "tc_c06_friends_own_invitation_005",
+      "type": "line",
+      "scene": "ts_c06_friends_own_invitation",
+      "speaker": "maolang",
+      "character": null,
+      "text": "“你这建议真便宜。”",
+      "next": "tc_c06_friends_own_invitation_006"
+    },
+    "tc_c06_friends_own_invitation_006": {
+      "id": "tc_c06_friends_own_invitation_006",
+      "type": "line",
+      "scene": "ts_c06_friends_own_invitation",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“你也没付钱。”",
+      "next": "tc_c06_friends_own_invitation_007"
+    },
+    "tc_c06_friends_own_invitation_007": {
+      "id": "tc_c06_friends_own_invitation_007",
+      "type": "line",
+      "scene": "ts_c06_friends_own_invitation",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我们互相损了两句。我没替飘说她肯定喜欢，也没替毛狼把邀约写成一段必胜台词。最后他自己发了消息，约好时间再来告诉我，说她答应吃饭，后面的事仍慢慢看。",
+      "next": "tc_c06_friends_own_invitation_008"
+    },
+    "tc_c06_friends_own_invitation_008": {
+      "id": "tc_c06_friends_own_invitation_008",
+      "type": "line",
+      "scene": "ts_c06_friends_own_invitation",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他没再向我讨一句保证，最后发来一句去吃饭了。我回了个好。原来他并不是非要我替他猜出结果，只是很想找个人讲讲。",
+      "next": "tc_c06_friends_sleep_001"
+    },
+    "tc_c06_friends_sleep_001": {
+      "id": "tc_c06_friends_sleep_001",
+      "type": "line",
+      "scene": "ts_c06_friends_sleep",
+      "speaker": "narrator",
+      "character": null,
+      "text": "今天早上睡前，我把手机调到勿扰，允许闹钟照常响。群里有人约临时活动，毛狼直接回我还在睡，别打电话。",
+      "next": "tc_c06_friends_sleep_002"
+    },
+    "tc_c06_friends_sleep_002": {
+      "id": "tc_c06_friends_sleep_002",
+      "type": "line",
+      "scene": "ts_c06_friends_sleep_awake",
+      "speaker": "narrator",
+      "character": null,
+      "text": "下午醒来看到，我给他发了个谢。他回我一张烤土豆的图，说这回自己的那份没拿错。",
+      "next": "tc_c06_friends_sleep_003"
+    },
+    "tc_c06_friends_sleep_003": {
+      "id": "tc_c06_friends_sleep_003",
+      "type": "line",
+      "scene": "ts_c06_friends_sleep_awake",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我把手机放下，慢慢起床。没有因为错过一次热闹，就赶紧找另一件事补回去。",
+      "next": "tc_c06_common_exit"
+    },
+    "tc_c07_friends_show_return_001": {
+      "id": "tc_c07_friends_show_return_001",
+      "type": "line",
+      "scene": "ts_c07_friends_show_return",
+      "speaker": "narrator",
+      "character": null,
+      "text": "那家店又有演出，我自己看到消息，先买了要喝的东西，才问毛狼去不去。他说这天有活，到不了，嘱咐我别因为没人陪就不去了。",
+      "next": "tc_c07_friends_show_return_002"
+    },
+    "tc_c07_friends_show_return_002": {
+      "id": "tc_c07_friends_show_return_002",
+      "type": "line",
+      "scene": "ts_c07_friends_show_return",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我到得不早，后排原来的位置被坐了，只好在旁边找张椅子。有人问这里有没有人，我说没有，对方就坐下。我们随口聊两句，等台上开始，又各自安静。",
+      "next": "tc_c07_friends_show_return_003"
+    },
+    "tc_c07_friends_show_return_003": {
+      "id": "tc_c07_friends_show_return_003",
+      "type": "line",
+      "scene": "ts_c07_friends_show_return",
+      "speaker": "narrator",
+      "character": null,
+      "text": "唱到上回那首歌时，我认出来，发现节奏改了一点。中间休息，歌手下来喝水，我说我听过上次的版本。他问更喜欢哪个，我想了想，认真说了自己的感觉。",
+      "next": "tc_c07_friends_show_return_004"
+    },
+    "tc_c07_friends_show_return_004": {
+      "id": "tc_c07_friends_show_return_004",
+      "type": "line",
+      "scene": "ts_c07_friends_show_return",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我没有因为是陌生人就一味夸，也没有非要显得懂。对方听了，说下回还会再试。",
+      "next": "tc_c07_friends_show_return_005"
+    },
+    "tc_c07_friends_show_return_005": {
+      "id": "tc_c07_friends_show_return_005",
+      "type": "line",
+      "scene": "ts_c07_friends_show_return_after_show",
+      "speaker": "narrator",
+      "character": null,
+      "text": "出来以后，我给毛狼发消息：“这回坐的地方不一样，听着也不一样。”",
+      "next": "tc_c07_friends_show_return_006"
+    },
+    "tc_c07_friends_show_return_006": {
+      "id": "tc_c07_friends_show_return_006",
+      "type": "line",
+      "scene": "ts_c07_friends_show_return_after_show",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他过了一个多小时才回，说他那边刚收工。我告诉他哪首唱得最好，他发了个表情，说明天有空再听我说。",
+      "next": "tc_c07_friends_online_game_001"
+    },
+    "tc_c07_friends_walk_return_001": {
+      "id": "tc_c07_friends_walk_return_001",
+      "type": "line",
+      "scene": "ts_c07_friends_walk_return",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我第二次去那家旧游戏店，是一个人。",
+      "next": "tc_c07_friends_walk_return_002"
+    },
+    "tc_c07_friends_walk_return_002": {
+      "id": "tc_c07_friends_walk_return_002",
+      "type": "line",
+      "scene": "ts_c07_friends_walk_return",
+      "speaker": "narrator",
+      "character": null,
+      "text": "店主记不清我了，我提起上回那张明信片，他才说有点印象。我把架子上的东西慢慢看完，问了一款以前玩过的游戏，又老实承认自己不是全都懂。",
+      "next": "tc_c07_friends_walk_return_003"
+    },
+    "tc_c07_friends_walk_return_003": {
+      "id": "tc_c07_friends_walk_return_003",
+      "type": "line",
+      "scene": "ts_c07_friends_walk_return",
+      "speaker": "narrator",
+      "character": null,
+      "text": "有些东西比我想的贵。我看看钱包，没买，店主也没不高兴。出门前，他告诉我附近有一面墙刚重刷，可以顺路看看。我走过去，发现颜色比照片上淡，雨水却把墙角冲得很亮。",
+      "next": "tc_c07_friends_walk_return_004"
+    },
+    "tc_c07_friends_walk_return_004": {
+      "id": "tc_c07_friends_walk_return_004",
+      "type": "line",
+      "scene": "ts_c07_friends_walk_return",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我坐在上回等毛狼的矮凳上，吃一份烤豆腐。这回没有人替我拿水，我自己去买，回来时凳子还空着。",
+      "next": "tc_c07_friends_walk_return_005"
+    },
+    "tc_c07_friends_walk_return_005": {
+      "id": "tc_c07_friends_walk_return_005",
+      "type": "line",
+      "scene": "ts_c07_friends_walk_return_message",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我拍了张没有人的街角发给毛狼。他当时在忙，晚上才回，说他以为我会等他。我说以后也可以一起，但今天刚好想去。",
+      "next": "tc_c07_friends_online_game_001"
+    },
+    "tc_c07_friends_online_game_001": {
+      "id": "tc_c07_friends_online_game_001",
+      "type": "line",
+      "scene": "ts_c07_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "晚上八点，我们约了一小局。师匠没来，叶岚也没来，毛狼找齐了愿意玩的人，没有把空位当成谁不够义气。",
+      "next": "tc_c07_friends_online_game_002"
+    },
+    "tc_c07_friends_online_game_002": {
+      "id": "tc_c07_friends_online_game_002",
+      "type": "line",
+      "scene": "ts_c07_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我操作失误，毛狼说“这个角度你白天没参观过”。我先笑，接着说下一局他去那个位置试试。他真去了，也没做好。",
+      "next": "tc_c07_friends_online_game_003"
+    },
+    "tc_c07_friends_online_game_003": {
+      "id": "tc_c07_friends_online_game_003",
+      "type": "line",
+      "scene": "ts_c07_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "散场时，我们约好有机会再出门，具体等排班。不需要再把今天完整复制一遍，才算友谊没变。",
+      "next": "tc_c07_friends_own_dinner_001"
+    },
+    "tc_c07_friends_own_dinner_001": {
+      "id": "tc_c07_friends_own_dinner_001",
+      "type": "line",
+      "scene": "ts_c07_friends_own_dinner",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我想约毛狼吃饭，他说晚上和飘已经约好了。话说得有点小心，好像怕我嫌他重色轻友。",
+      "next": "tc_c07_friends_own_dinner_002"
+    },
+    "tc_c07_friends_own_dinner_002": {
+      "id": "tc_c07_friends_own_dinner_002",
+      "type": "line",
+      "scene": "ts_c07_friends_own_dinner",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“那你先去。”我说，“我自己能吃。”",
+      "next": "tc_c07_friends_own_dinner_003"
+    },
+    "tc_c07_friends_own_dinner_003": {
+      "id": "tc_c07_friends_own_dinner_003",
+      "type": "line",
+      "scene": "ts_c07_friends_own_dinner",
+      "speaker": "maolang",
+      "character": null,
+      "text": "“你这个语气怎么像我抛妻弃子。”",
+      "next": "tc_c07_friends_own_dinner_004"
+    },
+    "tc_c07_friends_own_dinner_004": {
+      "id": "tc_c07_friends_own_dinner_004",
+      "type": "line",
+      "scene": "ts_c07_friends_own_dinner",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“少给自己加角色。”",
+      "next": "tc_c07_friends_own_dinner_005"
+    },
+    "tc_c07_friends_own_dinner_005": {
+      "id": "tc_c07_friends_own_dinner_005",
+      "type": "line",
+      "scene": "ts_c07_friends_own_dinner",
+      "speaker": "narrator",
+      "character": null,
+      "text": "挂电话以后，我确实有一点空落。想找的人没空，总不会因为懂道理就立刻不失望。我出门买饭，选了自己平时不好意思让一桌人陪着吃的清淡口味。",
+      "next": "tc_c07_friends_own_dinner_006"
+    },
+    "tc_c07_friends_own_dinner_006": {
+      "id": "tc_c07_friends_own_dinner_006",
+      "type": "line",
+      "scene": "ts_c07_friends_own_dinner_dinner",
+      "speaker": "narrator",
+      "character": null,
+      "text": "吃到一半，毛狼发消息问我吃了没。我拍过去，他说看着像恢复出厂设置的饭。我说挺好吃，懒得解释。",
+      "next": "tc_c07_friends_own_dinner_007"
+    },
+    "tc_c07_friends_own_dinner_007": {
+      "id": "tc_c07_friends_own_dinner_007",
+      "type": "line",
+      "scene": "ts_c07_friends_own_dinner_dinner",
+      "speaker": "narrator",
+      "character": null,
+      "text": "晚饭没有坏掉，朋友也没有少一个。只不过我们不是随时都能坐在同一张桌子边。",
+      "next": "tc_c07_common_exit"
+    },
+    "tc_c07_friends_entry": {
+      "id": "tc_c07_friends_entry",
+      "type": "gate",
+      "scene": "ts_c07_friends_show_return",
+      "cases": [
+        {
+          "flag": "friendsOuting",
+          "value": "show",
+          "next": "tc_c07_friends_show_return_001"
+        },
+        {
+          "flag": "friendsOuting",
+          "value": "walk",
+          "next": "tc_c07_friends_walk_return_001"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    },
+    "tc_c08_friends_entry": {
+      "id": "tc_c08_friends_entry",
+      "type": "line",
+      "scene": "ts_c08_friends_boundaries",
+      "speaker": "narrator",
+      "character": null,
+      "text": "开始试轮班以后，我第一个想法，是终于可以把之前错过的活动全补一遍。",
+      "next": "tc_c08_friends_boundaries_002"
+    },
+    "tc_c08_friends_boundaries_002": {
+      "id": "tc_c08_friends_boundaries_002",
+      "type": "line",
+      "scene": "ts_c08_friends_boundaries",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我在手机上记了四件事，越记越像以前那张漂亮得不太真实的计划。直到写下连续两天都要早起，才停住。",
+      "next": "tc_c08_friends_boundaries_003"
+    },
+    "tc_c08_friends_boundaries_003": {
+      "id": "tc_c08_friends_boundaries_003",
+      "type": "line",
+      "scene": "ts_c08_friends_boundaries",
+      "speaker": "narrator",
+      "character": null,
+      "text": "毛狼发消息来，问下周能不能帮他在活动现场跑半天。我先问了具体做什么、多久。他把情况说完，我想了想，拒绝了。",
+      "next": "tc_c08_friends_boundaries_004"
+    },
+    "tc_c08_friends_boundaries_004": {
+      "id": "tc_c08_friends_boundaries_004",
+      "type": "line",
+      "scene": "ts_c08_friends_boundaries",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“那天刚换完班，我想休息。”",
+      "next": "tc_c08_friends_boundaries_005"
+    },
+    "tc_c08_friends_boundaries_005": {
+      "id": "tc_c08_friends_boundaries_005",
+      "type": "line",
+      "scene": "ts_c08_friends_boundaries",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他说知道了，再去问别人，没有立刻消失，也没有给我扣个不够朋友的帽子。我却盯着对话框，还是有点不舒服。",
+      "next": "tc_c08_friends_boundaries_006"
+    },
+    "tc_c08_friends_boundaries_006": {
+      "id": "tc_c08_friends_boundaries_006",
+      "type": "line",
+      "scene": "ts_c08_friends_boundaries_glasses",
+      "speaker": "narrator",
+      "character": null,
+      "text": "晚上见到师匠，我随口问他，自己明明有空却不去帮忙，是不是挺懒。",
+      "next": "tc_c08_friends_boundaries_007"
+    },
+    "tc_c08_friends_boundaries_007": {
+      "id": "tc_c08_friends_boundaries_007",
+      "type": "line",
+      "scene": "ts_c08_friends_boundaries_glasses",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他正找眼镜盒，头也没抬：“你怎么知道别人没有空？”",
+      "next": "tc_c08_friends_boundaries_008"
+    },
+    "tc_c08_friends_boundaries_008": {
+      "id": "tc_c08_friends_boundaries_008",
+      "type": "line",
+      "scene": "ts_c08_friends_boundaries_glasses",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“什么意思？”",
+      "next": "tc_c08_friends_boundaries_009"
+    },
+    "tc_c08_friends_boundaries_009": {
+      "id": "tc_c08_friends_boundaries_009",
+      "type": "line",
+      "scene": "ts_c08_friends_boundaries_glasses",
+      "speaker": "shijiang",
+      "character": null,
+      "text": "“你拒绝了，他找别人。也许正好有人愿意挣那半天钱。”",
+      "next": "tc_c08_friends_boundaries_010"
+    },
+    "tc_c08_friends_boundaries_010": {
+      "id": "tc_c08_friends_boundaries_010",
+      "type": "line",
+      "scene": "ts_c08_friends_boundaries_glasses",
+      "speaker": "narrator",
+      "character": null,
+      "text": "眼镜盒在他外套口袋里。他找到后就走了，没再等着我顿悟。我坐了片刻，给毛狼发消息问有没有找到人。他说找到了，是之前一起干过活的朋友。",
+      "next": "tc_c08_friends_boundaries_011"
+    },
+    "tc_c08_friends_boundaries_011": {
+      "id": "tc_c08_friends_boundaries_011",
+      "type": "line",
+      "scene": "ts_c08_friends_boundaries_glasses",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我打了一个好。那个一直等着我撑住的位置，其实也可以由别人坐。",
+      "next": "tc_c08_friends_online_game_001"
+    },
+    "tc_c08_friends_online_game_001": {
+      "id": "tc_c08_friends_online_game_001",
+      "type": "line",
+      "scene": "ts_c08_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "这天休班，我睡够以后在住处上线。轮到我组织游戏，我选了一个自己喜欢、其他人未必熟悉的。开局以前我讲了一大段规则，毛狼说听得像要考试。",
+      "next": "tc_c08_friends_online_game_002"
+    },
+    "tc_c08_friends_online_game_002": {
+      "id": "tc_c08_friends_online_game_002",
+      "type": "line",
+      "scene": "ts_c08_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我有点失望，还是让大家先玩。玩了二十分钟，有人确实不喜欢，问能不能换。我差点说再坚持一下，转念想到自己前两天才拒绝过不想做的事。",
+      "next": "tc_c08_friends_online_game_003"
+    },
+    "tc_c08_friends_online_game_003": {
+      "id": "tc_c08_friends_online_game_003",
+      "type": "line",
+      "scene": "ts_c08_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“换吧。”我说，“下次我找愿意玩这个的人。”",
+      "next": "tc_c08_friends_online_game_004"
+    },
+    "tc_c08_friends_online_game_004": {
+      "id": "tc_c08_friends_online_game_004",
+      "type": "line",
+      "scene": "ts_c08_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "毛狼听出我语气不太爽，私聊问要不要最后陪我玩一局。我说今天不用，已经累了。他没坚持，好像我可以又失望又结束，不必装得特别大方。",
+      "next": "tc_c08_friends_online_game_005"
+    },
+    "tc_c08_friends_online_game_005": {
+      "id": "tc_c08_friends_online_game_005",
+      "type": "line",
+      "scene": "ts_c08_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "后来我们只聊了一会儿，讲各自买过最没用的东西。师匠提名一把自己嫌占地方的小椅子，毛狼立刻问卖不卖。我说听起来这件东西可能只是跟错了主人。",
+      "next": "tc_c08_friends_online_game_006"
+    },
+    "tc_c08_friends_online_game_006": {
+      "id": "tc_c08_friends_online_game_006",
+      "type": "line",
+      "scene": "ts_c08_friends_online_game",
+      "speaker": "narrator",
+      "character": null,
+      "text": "那晚没留下漂亮战绩，也没有所有人都满意的节目。我关掉语音时仍觉得有一点可惜，却没像从前一样，把可惜算成一整晚失败。",
+      "next": "tc_c08_friends_free_afternoon_001"
+    },
+    "tc_c08_friends_free_afternoon_001": {
+      "id": "tc_c08_friends_free_afternoon_001",
+      "type": "line",
+      "scene": "ts_c08_friends_free_afternoon",
+      "speaker": "narrator",
+      "character": null,
+      "text": "又一个空出来的下午，我没有发起任何活动。",
+      "next": "tc_c08_friends_free_afternoon_002"
+    },
+    "tc_c08_friends_free_afternoon_002": {
+      "id": "tc_c08_friends_free_afternoon_002",
+      "type": "line",
+      "scene": "ts_c08_friends_free_afternoon",
+      "speaker": "narrator",
+      "character": null,
+      "text": "把床单洗了，去买菜，在路边站着看人下了一会儿棋，谁赢了也没看完。回家时，太阳从云里出来一小阵，湿衣服边上亮得透明。",
+      "next": "tc_c08_friends_free_afternoon_003"
+    },
+    "tc_c08_friends_free_afternoon_003": {
+      "id": "tc_c08_friends_free_afternoon_003",
+      "type": "line",
+      "scene": "ts_c08_friends_free_afternoon_home",
+      "speaker": "narrator",
+      "character": null,
+      "text": "毛狼问今天干了什么。我把那几件事写出来。他回：“听着挺忙。”",
+      "next": "tc_c08_friends_free_afternoon_004"
+    },
+    "tc_c08_friends_free_afternoon_004": {
+      "id": "tc_c08_friends_free_afternoon_004",
+      "type": "line",
+      "scene": "ts_c08_friends_free_afternoon_home",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我回：“也挺闲。”",
+      "next": "tc_c08_friends_free_afternoon_005"
+    },
+    "tc_c08_friends_free_afternoon_005": {
+      "id": "tc_c08_friends_free_afternoon_005",
+      "type": "line",
+      "scene": "ts_c08_friends_free_afternoon_home",
+      "speaker": "narrator",
+      "character": null,
+      "text": "两个说法都没错。我把手机扣下，接着择菜。",
+      "next": "tc_c08_common_exit"
+    },
+    "tc_c09_friends_entry": {
+      "id": "tc_c09_friends_entry",
+      "type": "line",
+      "scene": "ts_c09_friends_birthday",
+      "speaker": "narrator",
+      "character": null,
+      "text": "毛狼生日那天，几个人的时间凑不齐。他干脆分开约，没有非要等到一个所有人都空的晚上。",
+      "next": "tc_c09_friends_birthday_002"
+    },
+    "tc_c09_friends_birthday_002": {
+      "id": "tc_c09_friends_birthday_002",
+      "type": "line",
+      "scene": "ts_c09_friends_birthday",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我去的是第二顿，买了个不大的蛋糕。他说自己前一顿已经吃过，我问那要不要拿回去，他立刻把盒子按住。",
+      "next": "tc_c09_friends_birthday_003"
+    },
+    "tc_c09_friends_birthday_003": {
+      "id": "tc_c09_friends_birthday_003",
+      "type": "line",
+      "scene": "ts_c09_friends_birthday",
+      "speaker": "narrator",
+      "character": null,
+      "text": "师匠也来了，带着一袋水果，认真解释自己没有忘，只是觉得蛋糕一定有人买。毛狼让我们各自摆好，不准把这顿饭说成营养搭配讨论。",
+      "next": "tc_c09_friends_birthday_004"
+    },
+    "tc_c09_friends_birthday_004": {
+      "id": "tc_c09_friends_birthday_004",
+      "type": "line",
+      "scene": "ts_c09_friends_birthday",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他讲起最近和飘相处，有时候明明想多见一会儿，却因为不好意思问，故意说自己随便。师匠看他一眼，笑着去倒水，我也没插话教他。",
+      "next": "tc_c09_friends_birthday_005"
+    },
+    "tc_c09_friends_birthday_005": {
+      "id": "tc_c09_friends_birthday_005",
+      "type": "line",
+      "scene": "ts_c09_friends_birthday",
+      "speaker": "maolang",
+      "character": null,
+      "text": "“你们怎么都不说话？”",
+      "next": "tc_c09_friends_birthday_006"
+    },
+    "tc_c09_friends_birthday_006": {
+      "id": "tc_c09_friends_birthday_006",
+      "type": "line",
+      "scene": "ts_c09_friends_birthday",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“听你讲。”我说。",
+      "next": "tc_c09_friends_birthday_007"
+    },
+    "tc_c09_friends_birthday_007": {
+      "id": "tc_c09_friends_birthday_007",
+      "type": "line",
+      "scene": "ts_c09_friends_birthday",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他反而安静了一下，后来又接着说，自己已经问过下一次，她说到时先看各自安排。普通的消息，在他嘴里也有不少值得回味的地方。",
+      "next": "tc_c09_friends_birthday_008"
+    },
+    "tc_c09_friends_birthday_008": {
+      "id": "tc_c09_friends_birthday_008",
+      "type": "line",
+      "scene": "ts_c09_friends_birthday",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我想起以前自己总把没有恋爱当作一种等候状态：等某个人出现，日子才真正开始。眼前这两个人一个讲得起劲，一个在挑水果里烂掉的小块，我也能很认真地听，很认真地觉得这顿饭值得来。",
+      "next": "tc_c09_friends_own_book_001"
+    },
+    "tc_c09_friends_own_book_001": {
+      "id": "tc_c09_friends_own_book_001",
+      "type": "line",
+      "scene": "ts_c09_friends_own_book",
+      "speaker": "narrator",
+      "character": null,
+      "text": "新的轮班安排用了些日子。我依旧会困，也会嫌客人丢的纸杯太多，但下班以后能把工作的那点不爽留在门外，不再每次见人都先解释自己只是暂时做着。",
+      "next": "tc_c09_friends_own_book_002"
+    },
+    "tc_c09_friends_own_book_002": {
+      "id": "tc_c09_friends_own_book_002",
+      "type": "line",
+      "scene": "ts_c09_friends_own_book",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我去书店买了本以前想看的书，不是考试资料，也不能提升什么技能。拿到收银台前犹豫了一会儿，最后还是付了钱。",
+      "next": "tc_c09_friends_own_book_003"
+    },
+    "tc_c09_friends_own_book_003": {
+      "id": "tc_c09_friends_own_book_003",
+      "type": "line",
+      "scene": "ts_c09_friends_own_book_evening",
+      "speaker": "narrator",
+      "character": null,
+      "text": "晚上我告诉毛狼，下个月想找一天去城里没走过的地方逛逛。他问是不是又想好新的人生规划了。我说只是逛。",
+      "next": "tc_c09_friends_own_book_004"
+    },
+    "tc_c09_friends_own_book_004": {
+      "id": "tc_c09_friends_own_book_004",
+      "type": "line",
+      "scene": "ts_c09_friends_own_book_evening",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“可以。”他说，“到时我有空就来。”",
+      "next": "tc_c09_friends_own_book_005"
+    },
+    "tc_c09_friends_own_book_005": {
+      "id": "tc_c09_friends_own_book_005",
+      "type": "line",
+      "scene": "ts_c09_friends_own_book_evening",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我没有因为他没承诺就把计划取消。一个人也能去，两个人会有另一种热闹。",
+      "next": "tc_c09_friends_call_home_001"
+    },
+    "tc_c09_friends_call_home_001": {
+      "id": "tc_c09_friends_call_home_001",
+      "type": "line",
+      "scene": "ts_c09_friends_call_home",
+      "speaker": "narrator",
+      "character": null,
+      "text": "母亲问我最近忙不忙。我没有只回一个还行，讲了网吧换班，讲毛狼生日，讲那本读得很慢的书。",
+      "next": "tc_c09_friends_call_home_002"
+    },
+    "tc_c09_friends_call_home_002": {
+      "id": "tc_c09_friends_call_home_002",
+      "type": "line",
+      "scene": "ts_c09_friends_call_home",
+      "speaker": "narrator",
+      "character": null,
+      "text": "她说听不懂我玩的游戏，我说没关系，生日蛋糕总听得懂。她问是不是巧克力，我说有一半是，被毛狼先挑走了。",
+      "next": "tc_c09_friends_call_home_003"
+    },
+    "tc_c09_friends_call_home_003": {
+      "id": "tc_c09_friends_call_home_003",
+      "type": "line",
+      "scene": "ts_c09_friends_call_home",
+      "speaker": "narrator",
+      "character": null,
+      "text": "电话挂断后，我坐了一会儿。夜班快到了，晚饭还得吃，明天睡醒也不一定有精彩事情。",
+      "next": "tc_c09_friends_call_home_004"
+    },
+    "tc_c09_friends_call_home_004": {
+      "id": "tc_c09_friends_call_home_004",
+      "type": "line",
+      "scene": "ts_c09_friends_call_home",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我给毛狼发了下一次能出门的日子，也给自己留了一天谁都不约。",
+      "next": "tc_c09_friends_call_home_005"
+    },
+    "tc_c09_friends_call_home_005": {
+      "id": "tc_c09_friends_call_home_005",
+      "type": "line",
+      "scene": "ts_c09_friends_call_home",
+      "speaker": "narrator",
+      "character": null,
+      "text": "这条路走到这里，没有一个人等着我去告白。我也没有什么必须补上的空白。能主动联系、能拒绝、能接受朋友有别的安排，我的生活已经往前走了不少。",
+      "next": "tc_c09_common_exit"
+    },
+    "tc_c10_friends_entry": {
+      "id": "tc_c10_friends_entry",
+      "type": "line",
+      "scene": "ts_c10_friends_late_host",
+      "speaker": "narrator",
+      "character": null,
+      "text": "那次去毛狼家吃饭，他比我晚到。",
+      "next": "tc_c10_friends_late_host_002"
+    },
+    "tc_c10_friends_late_host_002": {
+      "id": "tc_c10_friends_late_host_002",
+      "type": "line",
+      "scene": "ts_c10_friends_late_host",
+      "speaker": "narrator",
+      "character": null,
+      "text": "飘给我开门，解释他下楼买酱油，结果在路边碰见熟人，聊了十分钟还没回来。她说这话的时候不恼，只在手机上发了句“菜比你先熟”。",
+      "next": "tc_c10_friends_late_host_003"
+    },
+    "tc_c10_friends_late_host_003": {
+      "id": "tc_c10_friends_late_host_003",
+      "type": "line",
+      "scene": "ts_c10_friends_late_host",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他们结婚后，家里没有突然变成一间样板房。餐桌边放着还没整理的东西，小册子第二版压在纸袋下面，有一本折了角。飘发现以后拿出来，慢慢把那一页捋平。",
+      "next": "tc_c10_friends_late_host_004"
+    },
+    "tc_c10_friends_late_host_004": {
+      "id": "tc_c10_friends_late_host_004",
+      "type": "line",
+      "scene": "ts_c10_friends_late_host",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我问需不需要帮忙，她说帮她把碗拿出去就行，其他自己来。",
+      "next": "tc_c10_friends_late_host_005"
+    },
+    "tc_c10_friends_late_host_005": {
+      "id": "tc_c10_friends_late_host_005",
+      "type": "line",
+      "scene": "ts_c10_friends_late_host",
+      "speaker": "narrator",
+      "character": null,
+      "text": "毛狼回来，举着酱油像举一件决定全局的战利品，被她一句“先洗手”拦住。他没再解释自己为什么迟到，老老实实去洗，出来以后又和我说最近演出里的笑话。",
+      "next": "tc_c10_friends_late_host_006"
+    },
+    "tc_c10_friends_late_host_006": {
+      "id": "tc_c10_friends_late_host_006",
+      "type": "line",
+      "scene": "ts_c10_friends_late_host",
+      "speaker": "narrator",
+      "character": null,
+      "text": "“你这段我听过。”我说。",
+      "next": "tc_c10_friends_late_host_007"
+    },
+    "tc_c10_friends_late_host_007": {
+      "id": "tc_c10_friends_late_host_007",
+      "type": "line",
+      "scene": "ts_c10_friends_late_host",
+      "speaker": "narrator",
+      "character": null,
+      "text": "飘抬头：“我也听过。”",
+      "next": "tc_c10_friends_late_host_008"
+    },
+    "tc_c10_friends_late_host_008": {
+      "id": "tc_c10_friends_late_host_008",
+      "type": "line",
+      "scene": "ts_c10_friends_late_host",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他坐下来，很认真地想了一下：“那我得更新了。”",
+      "next": "tc_c10_friends_friends_table_001"
+    },
+    "tc_c10_friends_friends_table_001": {
+      "id": "tc_c10_friends_friends_table_001",
+      "type": "line",
+      "scene": "ts_c10_friends_friends_table",
+      "speaker": "narrator",
+      "character": null,
+      "text": "师匠稍晚过来，店里已安排好当值的人。他带了一袋水果，毛狼立刻说今年不能再拿水果当生日礼物。",
+      "next": "tc_c10_friends_friends_table_002"
+    },
+    "tc_c10_friends_friends_table_002": {
+      "id": "tc_c10_friends_friends_table_002",
+      "type": "line",
+      "scene": "ts_c10_friends_friends_table",
+      "speaker": "shijiang",
+      "character": null,
+      "text": "“今天你生日？”",
+      "next": "tc_c10_friends_friends_table_003"
+    },
+    "tc_c10_friends_friends_table_003": {
+      "id": "tc_c10_friends_friends_table_003",
+      "type": "line",
+      "scene": "ts_c10_friends_friends_table",
+      "speaker": "maolang",
+      "character": null,
+      "text": "“提前堵住。”",
+      "next": "tc_c10_friends_friends_table_004"
+    },
+    "tc_c10_friends_friends_table_004": {
+      "id": "tc_c10_friends_friends_table_004",
+      "type": "line",
+      "scene": "ts_c10_friends_friends_table",
+      "speaker": "shijiang",
+      "character": null,
+      "text": "“那提前祝你吃得开心。”",
+      "next": "tc_c10_friends_friends_table_005"
+    },
+    "tc_c10_friends_friends_table_005": {
+      "id": "tc_c10_friends_friends_table_005",
+      "type": "line",
+      "scene": "ts_c10_friends_friends_table",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我们四个人吃饭，聊的事情一会儿很小，一会儿又有点难：钱什么时候结，哪天能休息，一件以前喜欢的事现在怎么没那么爱了。谁也没急着把别人那句话纠正成积极说法。",
+      "next": "tc_c10_friends_friends_table_006"
+    },
+    "tc_c10_friends_friends_table_006": {
+      "id": "tc_c10_friends_friends_table_006",
+      "type": "line",
+      "scene": "ts_c10_friends_friends_table",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我还在网吧轮班，不是因为所有别的路都关了，也不是已经确定一辈子这样。我知道眼前这份工作给我什么，又拿走什么；如果以后要换，可以先准备，再和别人把话讲清。",
+      "next": "tc_c10_friends_friends_table_007"
+    },
+    "tc_c10_friends_friends_table_007": {
+      "id": "tc_c10_friends_friends_table_007",
+      "type": "line",
+      "scene": "ts_c10_friends_friends_table",
+      "speaker": "narrator",
+      "character": null,
+      "text": "小满给群里发来一张好笑的照片，周栀问有空谁去吃东西，孟遥在说自己最近终于把一本书读完，叶岚隔了一会儿才上线，问今晚有没有人玩。大家仍有彼此碰不到的部分，也仍能把一句话接起来。",
+      "next": "tc_c10_friends_friends_table_008"
+    },
+    "tc_c10_friends_friends_table_008": {
+      "id": "tc_c10_friends_friends_table_008",
+      "type": "line",
+      "scene": "ts_c10_friends_friends_table",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我回了今晚想早些回去看书，明天再约。叶岚说那就明天再看，没给我留一个必须赶上的位置。",
+      "next": "tc_c10_friends_rain_walk_001"
+    },
+    "tc_c10_friends_rain_walk_001": {
+      "id": "tc_c10_friends_rain_walk_001",
+      "type": "line",
+      "scene": "ts_c10_friends_rain_walk",
+      "speaker": "narrator",
+      "character": null,
+      "text": "吃完饭，我沿街往回走。毛狼追出来，把我落下的伞递过来。",
+      "next": "tc_c10_friends_rain_walk_002"
+    },
+    "tc_c10_friends_rain_walk_002": {
+      "id": "tc_c10_friends_rain_walk_002",
+      "type": "line",
+      "scene": "ts_c10_friends_rain_walk",
+      "speaker": "maolang",
+      "character": null,
+      "text": "“这毛病两年还没改。”",
+      "next": "tc_c10_friends_rain_walk_003"
+    },
+    "tc_c10_friends_rain_walk_003": {
+      "id": "tc_c10_friends_rain_walk_003",
+      "type": "line",
+      "scene": "ts_c10_friends_rain_walk",
+      "speaker": "wenwen",
+      "character": null,
+      "text": "“你买酱油的速度也没改。”",
+      "next": "tc_c10_friends_rain_walk_004"
+    },
+    "tc_c10_friends_rain_walk_004": {
+      "id": "tc_c10_friends_rain_walk_004",
+      "type": "line",
+      "scene": "ts_c10_friends_rain_walk",
+      "speaker": "narrator",
+      "character": null,
+      "text": "他笑，转身回去，飘在楼上喊他带一袋垃圾下来。他应了一声，步子加快了一点。",
+      "next": "tc_c10_friends_rain_walk_005"
+    },
+    "tc_c10_friends_rain_walk_005": {
+      "id": "tc_c10_friends_rain_walk_005",
+      "type": "line",
+      "scene": "ts_c10_friends_rain_walk",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我撑开伞，走过街口。箱子早已经收在床底，那个歪轮子后来拆下来换过，不值得拿去纪念什么。",
+      "next": "tc_c10_friends_rain_walk_006"
+    },
+    "tc_c10_friends_rain_walk_006": {
+      "id": "tc_c10_friends_rain_walk_006",
+      "type": "line",
+      "scene": "ts_c10_friends_rain_walk_netcafe",
+      "speaker": "narrator",
+      "character": null,
+      "text": "网吧门口有人出来透气，我点头打过招呼。今晚不是我的班，我继续往前走，想去买一份自己喜欢的饭，再回家把剩下的半章书读完。",
+      "next": "tc_c10_friends_rain_walk_007"
+    },
+    "tc_c10_friends_rain_walk_007": {
+      "id": "tc_c10_friends_rain_walk_007",
+      "type": "line",
+      "scene": "ts_c10_friends_rain_walk_homeward",
+      "speaker": "narrator",
+      "character": null,
+      "text": "明天也许会和朋友见面，也许临时各自有事。无论是哪一种，我都知道自己可以先开口。",
+      "next": "tc_c10_friends_rain_walk_008"
+    },
+    "tc_c10_friends_rain_walk_008": {
+      "id": "tc_c10_friends_rain_walk_008",
+      "type": "line",
+      "scene": "ts_c10_friends_rain_walk_homeward",
+      "speaker": "narrator",
+      "character": null,
+      "text": "这一天还没过完，雨也没有停。我走得不急。",
+      "next": "tc_c10_friends_end"
+    },
+    "tc_c10_friends_end": {
+      "id": "tc_c10_friends_end",
+      "type": "end",
+      "scene": "ts_c10_friends_rain_walk_homeward",
+      "character": null,
+      "title": "迟到十分钟的人",
+      "text": "",
+      "endingId": "tc_c10_friends_end"
+    }
+  },
+  "imports": [
+    "tc_c03_common_exit",
+    "tc_c04_common_exit",
+    "tc_c05_common_exit",
+    "tc_c06_common_exit",
+    "tc_c07_common_exit",
+    "tc_c08_common_exit",
+    "tc_c09_common_exit"
+  ],
+  "exports": {
+    "tc_c03_friends_entry": "tc_c03_friends_entry",
+    "tc_c04_friends_entry": "tc_c04_friends_entry",
+    "tc_c05_friends_entry": "tc_c05_friends_entry",
+    "tc_c06_friends_entry": "tc_c06_friends_entry",
+    "tc_c07_friends_entry": "tc_c07_friends_entry",
+    "tc_c08_friends_entry": "tc_c08_friends_entry",
+    "tc_c09_friends_entry": "tc_c09_friends_entry",
+    "tc_c10_friends_end": "tc_c10_friends_end",
+    "tc_c10_friends_entry": "tc_c10_friends_entry"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 876,
+      "endLine": 876,
+      "nodeIds": [
+        "tc_c03_friends_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 878,
+      "endLine": 878,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_002"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 880,
+      "endLine": 880,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 882,
+      "endLine": 882,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 884,
+      "endLine": 884,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 886,
+      "endLine": 886,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 888,
+      "endLine": 888,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 890,
+      "endLine": 890,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 892,
+      "endLine": 892,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_009"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 894,
+      "endLine": 894,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_010"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 896,
+      "endLine": 896,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_011"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 898,
+      "endLine": 898,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_012"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 900,
+      "endLine": 900,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_013"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 902,
+      "endLine": 902,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_014"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 904,
+      "endLine": 904,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_015"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 906,
+      "endLine": 906,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_016"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 908,
+      "endLine": 908,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_017"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 910,
+      "endLine": 910,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_018"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 912,
+      "endLine": 912,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_019"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 914,
+      "endLine": 914,
+      "nodeIds": [
+        "tc_c03_friends_tailoring_020"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 874,
+      "endLine": 874,
+      "nodeIds": [
+        "tc_c03_friends_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 918,
+      "endLine": 918,
+      "nodeIds": [
+        "tc_c03_friends_online_game_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 920,
+      "endLine": 920,
+      "nodeIds": [
+        "tc_c03_friends_online_game_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 922,
+      "endLine": 922,
+      "nodeIds": [
+        "tc_c03_friends_online_game_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 924,
+      "endLine": 924,
+      "nodeIds": [
+        "tc_c03_friends_online_game_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 926,
+      "endLine": 926,
+      "nodeIds": [
+        "tc_c03_friends_online_game_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 928,
+      "endLine": 928,
+      "nodeIds": [
+        "tc_c03_friends_online_game_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 930,
+      "endLine": 930,
+      "nodeIds": [
+        "tc_c03_friends_online_game_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 932,
+      "endLine": 932,
+      "nodeIds": [
+        "tc_c03_friends_online_game_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 934,
+      "endLine": 934,
+      "nodeIds": [
+        "tc_c03_friends_online_game_009"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 936,
+      "endLine": 936,
+      "nodeIds": [
+        "tc_c03_friends_online_game_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 938,
+      "endLine": 938,
+      "nodeIds": [
+        "tc_c03_friends_online_game_011"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 916,
+      "endLine": 916,
+      "nodeIds": [
+        "tc_c03_friends_online_game_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 942,
+      "endLine": 942,
+      "nodeIds": [
+        "tc_c03_friends_settling_in_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 944,
+      "endLine": 944,
+      "nodeIds": [
+        "tc_c03_friends_settling_in_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 946,
+      "endLine": 946,
+      "nodeIds": [
+        "tc_c03_friends_settling_in_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 948,
+      "endLine": 948,
+      "nodeIds": [
+        "tc_c03_friends_settling_in_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 950,
+      "endLine": 950,
+      "nodeIds": [
+        "tc_c03_friends_settling_in_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 952,
+      "endLine": 952,
+      "nodeIds": [
+        "tc_c03_friends_settling_in_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 954,
+      "endLine": 954,
+      "nodeIds": [
+        "tc_c03_friends_settling_in_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 956,
+      "endLine": 956,
+      "nodeIds": [
+        "tc_c03_friends_settling_in_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 958,
+      "endLine": 958,
+      "nodeIds": [
+        "tc_c03_friends_settling_in_009"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 960,
+      "endLine": 960,
+      "nodeIds": [
+        "tc_c03_friends_settling_in_010"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 962,
+      "endLine": 962,
+      "nodeIds": [
+        "tc_c03_friends_settling_in_011"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 964,
+      "endLine": 964,
+      "nodeIds": [
+        "tc_c03_friends_settling_in_012"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 966,
+      "endLine": 966,
+      "nodeIds": [
+        "tc_c03_friends_settling_in_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 940,
+      "endLine": 940,
+      "nodeIds": [
+        "tc_c03_friends_settling_in_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 456,
+      "endLine": 456,
+      "nodeIds": [
+        "tc_c04_friends_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 458,
+      "endLine": 458,
+      "nodeIds": [
+        "tc_c04_friends_own_plan_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 460,
+      "endLine": 460,
+      "nodeIds": [
+        "tc_c04_friends_own_plan_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 454,
+      "endLine": 454,
+      "nodeIds": [
+        "tc_c04_friends_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 466,
+      "endLine": 466,
+      "nodeIds": [
+        "tc_c04_friends_show_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 468,
+      "endLine": 468,
+      "nodeIds": [
+        "tc_c04_friends_show_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 470,
+      "endLine": 470,
+      "nodeIds": [
+        "tc_c04_friends_show_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 472,
+      "endLine": 472,
+      "nodeIds": [
+        "tc_c04_friends_show_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 474,
+      "endLine": 474,
+      "nodeIds": [
+        "tc_c04_friends_show_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 476,
+      "endLine": 476,
+      "nodeIds": [
+        "tc_c04_friends_show_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 478,
+      "endLine": 478,
+      "nodeIds": [
+        "tc_c04_friends_show_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 480,
+      "endLine": 480,
+      "nodeIds": [
+        "tc_c04_friends_show_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 464,
+      "endLine": 464,
+      "nodeIds": [
+        "tc_c04_friends_show_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 484,
+      "endLine": 484,
+      "nodeIds": [
+        "tc_c04_friends_walk_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 486,
+      "endLine": 486,
+      "nodeIds": [
+        "tc_c04_friends_walk_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 488,
+      "endLine": 488,
+      "nodeIds": [
+        "tc_c04_friends_walk_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 490,
+      "endLine": 490,
+      "nodeIds": [
+        "tc_c04_friends_walk_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 492,
+      "endLine": 492,
+      "nodeIds": [
+        "tc_c04_friends_walk_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 494,
+      "endLine": 494,
+      "nodeIds": [
+        "tc_c04_friends_walk_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 496,
+      "endLine": 496,
+      "nodeIds": [
+        "tc_c04_friends_walk_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 482,
+      "endLine": 482,
+      "nodeIds": [
+        "tc_c04_friends_walk_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 500,
+      "endLine": 500,
+      "nodeIds": [
+        "tc_c04_friends_crossroad_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 502,
+      "endLine": 502,
+      "nodeIds": [
+        "tc_c04_friends_crossroad_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 504,
+      "endLine": 504,
+      "nodeIds": [
+        "tc_c04_friends_crossroad_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 498,
+      "endLine": 498,
+      "nodeIds": [
+        "tc_c04_friends_crossroad_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 462,
+      "endLine": 462,
+      "nodeIds": [
+        "tc_c04_friends_outing_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 464,
+      "endLine": 464,
+      "nodeIds": [
+        "tc_c04_friends_outing_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 482,
+      "endLine": 482,
+      "nodeIds": [
+        "tc_c04_friends_outing_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 459,
+      "endLine": 459,
+      "nodeIds": [
+        "tc_c05_friends_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 461,
+      "endLine": 461,
+      "nodeIds": [
+        "tc_c05_friends_job_name_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 463,
+      "endLine": 463,
+      "nodeIds": [
+        "tc_c05_friends_job_name_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 465,
+      "endLine": 465,
+      "nodeIds": [
+        "tc_c05_friends_job_name_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 467,
+      "endLine": 467,
+      "nodeIds": [
+        "tc_c05_friends_job_name_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 469,
+      "endLine": 469,
+      "nodeIds": [
+        "tc_c05_friends_job_name_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 471,
+      "endLine": 471,
+      "nodeIds": [
+        "tc_c05_friends_job_name_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 473,
+      "endLine": 473,
+      "nodeIds": [
+        "tc_c05_friends_job_name_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 475,
+      "endLine": 475,
+      "nodeIds": [
+        "tc_c05_friends_job_name_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 477,
+      "endLine": 477,
+      "nodeIds": [
+        "tc_c05_friends_job_name_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 479,
+      "endLine": 479,
+      "nodeIds": [
+        "tc_c05_friends_job_name_011"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 481,
+      "endLine": 481,
+      "nodeIds": [
+        "tc_c05_friends_job_name_012"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 483,
+      "endLine": 483,
+      "nodeIds": [
+        "tc_c05_friends_job_name_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 457,
+      "endLine": 457,
+      "nodeIds": [
+        "tc_c05_friends_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 487,
+      "endLine": 487,
+      "nodeIds": [
+        "tc_c05_friends_say_it_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 489,
+      "endLine": 489,
+      "nodeIds": [
+        "tc_c05_friends_say_it_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 491,
+      "endLine": 491,
+      "nodeIds": [
+        "tc_c05_friends_say_it_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 493,
+      "endLine": 493,
+      "nodeIds": [
+        "tc_c05_friends_say_it_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 495,
+      "endLine": 495,
+      "nodeIds": [
+        "tc_c05_friends_say_it_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 497,
+      "endLine": 497,
+      "nodeIds": [
+        "tc_c05_friends_say_it_006"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 499,
+      "endLine": 499,
+      "nodeIds": [
+        "tc_c05_friends_say_it_007"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 501,
+      "endLine": 501,
+      "nodeIds": [
+        "tc_c05_friends_say_it_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 485,
+      "endLine": 485,
+      "nodeIds": [
+        "tc_c05_friends_say_it_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 425,
+      "endLine": 425,
+      "nodeIds": [
+        "tc_c06_friends_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 427,
+      "endLine": 427,
+      "nodeIds": [
+        "tc_c06_friends_quiet_company_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 429,
+      "endLine": 429,
+      "nodeIds": [
+        "tc_c06_friends_quiet_company_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 431,
+      "endLine": 431,
+      "nodeIds": [
+        "tc_c06_friends_quiet_company_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 433,
+      "endLine": 433,
+      "nodeIds": [
+        "tc_c06_friends_quiet_company_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 435,
+      "endLine": 435,
+      "nodeIds": [
+        "tc_c06_friends_quiet_company_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 437,
+      "endLine": 437,
+      "nodeIds": [
+        "tc_c06_friends_quiet_company_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 439,
+      "endLine": 439,
+      "nodeIds": [
+        "tc_c06_friends_quiet_company_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 441,
+      "endLine": 441,
+      "nodeIds": [
+        "tc_c06_friends_quiet_company_009"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 443,
+      "endLine": 443,
+      "nodeIds": [
+        "tc_c06_friends_quiet_company_010"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 445,
+      "endLine": 445,
+      "nodeIds": [
+        "tc_c06_friends_quiet_company_011"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 447,
+      "endLine": 447,
+      "nodeIds": [
+        "tc_c06_friends_quiet_company_012"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 423,
+      "endLine": 423,
+      "nodeIds": [
+        "tc_c06_friends_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 451,
+      "endLine": 451,
+      "nodeIds": [
+        "tc_c06_friends_own_invitation_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 453,
+      "endLine": 453,
+      "nodeIds": [
+        "tc_c06_friends_own_invitation_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 455,
+      "endLine": 455,
+      "nodeIds": [
+        "tc_c06_friends_own_invitation_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 457,
+      "endLine": 457,
+      "nodeIds": [
+        "tc_c06_friends_own_invitation_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 459,
+      "endLine": 459,
+      "nodeIds": [
+        "tc_c06_friends_own_invitation_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 461,
+      "endLine": 461,
+      "nodeIds": [
+        "tc_c06_friends_own_invitation_006"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 463,
+      "endLine": 463,
+      "nodeIds": [
+        "tc_c06_friends_own_invitation_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 465,
+      "endLine": 465,
+      "nodeIds": [
+        "tc_c06_friends_own_invitation_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 449,
+      "endLine": 449,
+      "nodeIds": [
+        "tc_c06_friends_own_invitation_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 469,
+      "endLine": 469,
+      "nodeIds": [
+        "tc_c06_friends_sleep_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 471,
+      "endLine": 471,
+      "nodeIds": [
+        "tc_c06_friends_sleep_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 473,
+      "endLine": 473,
+      "nodeIds": [
+        "tc_c06_friends_sleep_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 467,
+      "endLine": 467,
+      "nodeIds": [
+        "tc_c06_friends_sleep_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 449,
+      "endLine": 449,
+      "nodeIds": [
+        "tc_c07_friends_show_return_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 451,
+      "endLine": 451,
+      "nodeIds": [
+        "tc_c07_friends_show_return_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 453,
+      "endLine": 453,
+      "nodeIds": [
+        "tc_c07_friends_show_return_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 455,
+      "endLine": 455,
+      "nodeIds": [
+        "tc_c07_friends_show_return_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 457,
+      "endLine": 457,
+      "nodeIds": [
+        "tc_c07_friends_show_return_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 459,
+      "endLine": 459,
+      "nodeIds": [
+        "tc_c07_friends_show_return_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 447,
+      "endLine": 447,
+      "nodeIds": [
+        "tc_c07_friends_show_return_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 463,
+      "endLine": 463,
+      "nodeIds": [
+        "tc_c07_friends_walk_return_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 465,
+      "endLine": 465,
+      "nodeIds": [
+        "tc_c07_friends_walk_return_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 467,
+      "endLine": 467,
+      "nodeIds": [
+        "tc_c07_friends_walk_return_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 469,
+      "endLine": 469,
+      "nodeIds": [
+        "tc_c07_friends_walk_return_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 471,
+      "endLine": 471,
+      "nodeIds": [
+        "tc_c07_friends_walk_return_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 461,
+      "endLine": 461,
+      "nodeIds": [
+        "tc_c07_friends_walk_return_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 475,
+      "endLine": 475,
+      "nodeIds": [
+        "tc_c07_friends_online_game_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 477,
+      "endLine": 477,
+      "nodeIds": [
+        "tc_c07_friends_online_game_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 479,
+      "endLine": 479,
+      "nodeIds": [
+        "tc_c07_friends_online_game_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 473,
+      "endLine": 473,
+      "nodeIds": [
+        "tc_c07_friends_online_game_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 483,
+      "endLine": 483,
+      "nodeIds": [
+        "tc_c07_friends_own_dinner_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 485,
+      "endLine": 485,
+      "nodeIds": [
+        "tc_c07_friends_own_dinner_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 487,
+      "endLine": 487,
+      "nodeIds": [
+        "tc_c07_friends_own_dinner_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 489,
+      "endLine": 489,
+      "nodeIds": [
+        "tc_c07_friends_own_dinner_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 491,
+      "endLine": 491,
+      "nodeIds": [
+        "tc_c07_friends_own_dinner_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 493,
+      "endLine": 493,
+      "nodeIds": [
+        "tc_c07_friends_own_dinner_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 495,
+      "endLine": 495,
+      "nodeIds": [
+        "tc_c07_friends_own_dinner_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 481,
+      "endLine": 481,
+      "nodeIds": [
+        "tc_c07_friends_own_dinner_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 443,
+      "endLine": 443,
+      "nodeIds": [
+        "tc_c07_friends_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 447,
+      "endLine": 447,
+      "nodeIds": [
+        "tc_c07_friends_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 461,
+      "endLine": 461,
+      "nodeIds": [
+        "tc_c07_friends_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 407,
+      "endLine": 407,
+      "nodeIds": [
+        "tc_c08_friends_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 409,
+      "endLine": 409,
+      "nodeIds": [
+        "tc_c08_friends_boundaries_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 411,
+      "endLine": 411,
+      "nodeIds": [
+        "tc_c08_friends_boundaries_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 413,
+      "endLine": 413,
+      "nodeIds": [
+        "tc_c08_friends_boundaries_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 415,
+      "endLine": 415,
+      "nodeIds": [
+        "tc_c08_friends_boundaries_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 417,
+      "endLine": 417,
+      "nodeIds": [
+        "tc_c08_friends_boundaries_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 419,
+      "endLine": 419,
+      "nodeIds": [
+        "tc_c08_friends_boundaries_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 421,
+      "endLine": 421,
+      "nodeIds": [
+        "tc_c08_friends_boundaries_008"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 423,
+      "endLine": 423,
+      "nodeIds": [
+        "tc_c08_friends_boundaries_009"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 425,
+      "endLine": 425,
+      "nodeIds": [
+        "tc_c08_friends_boundaries_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 427,
+      "endLine": 427,
+      "nodeIds": [
+        "tc_c08_friends_boundaries_011"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 405,
+      "endLine": 405,
+      "nodeIds": [
+        "tc_c08_friends_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 431,
+      "endLine": 431,
+      "nodeIds": [
+        "tc_c08_friends_online_game_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 433,
+      "endLine": 433,
+      "nodeIds": [
+        "tc_c08_friends_online_game_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 435,
+      "endLine": 435,
+      "nodeIds": [
+        "tc_c08_friends_online_game_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 437,
+      "endLine": 437,
+      "nodeIds": [
+        "tc_c08_friends_online_game_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 439,
+      "endLine": 439,
+      "nodeIds": [
+        "tc_c08_friends_online_game_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 441,
+      "endLine": 441,
+      "nodeIds": [
+        "tc_c08_friends_online_game_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 429,
+      "endLine": 429,
+      "nodeIds": [
+        "tc_c08_friends_online_game_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 445,
+      "endLine": 445,
+      "nodeIds": [
+        "tc_c08_friends_free_afternoon_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 447,
+      "endLine": 447,
+      "nodeIds": [
+        "tc_c08_friends_free_afternoon_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 449,
+      "endLine": 449,
+      "nodeIds": [
+        "tc_c08_friends_free_afternoon_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 451,
+      "endLine": 451,
+      "nodeIds": [
+        "tc_c08_friends_free_afternoon_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 453,
+      "endLine": 453,
+      "nodeIds": [
+        "tc_c08_friends_free_afternoon_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 443,
+      "endLine": 443,
+      "nodeIds": [
+        "tc_c08_friends_free_afternoon_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 503,
+      "endLine": 503,
+      "nodeIds": [
+        "tc_c09_friends_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 505,
+      "endLine": 505,
+      "nodeIds": [
+        "tc_c09_friends_birthday_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 507,
+      "endLine": 507,
+      "nodeIds": [
+        "tc_c09_friends_birthday_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 509,
+      "endLine": 509,
+      "nodeIds": [
+        "tc_c09_friends_birthday_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 511,
+      "endLine": 511,
+      "nodeIds": [
+        "tc_c09_friends_birthday_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 513,
+      "endLine": 513,
+      "nodeIds": [
+        "tc_c09_friends_birthday_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 515,
+      "endLine": 515,
+      "nodeIds": [
+        "tc_c09_friends_birthday_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 517,
+      "endLine": 517,
+      "nodeIds": [
+        "tc_c09_friends_birthday_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 501,
+      "endLine": 501,
+      "nodeIds": [
+        "tc_c09_friends_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 521,
+      "endLine": 521,
+      "nodeIds": [
+        "tc_c09_friends_own_book_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 523,
+      "endLine": 523,
+      "nodeIds": [
+        "tc_c09_friends_own_book_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 525,
+      "endLine": 525,
+      "nodeIds": [
+        "tc_c09_friends_own_book_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 527,
+      "endLine": 527,
+      "nodeIds": [
+        "tc_c09_friends_own_book_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 529,
+      "endLine": 529,
+      "nodeIds": [
+        "tc_c09_friends_own_book_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 519,
+      "endLine": 519,
+      "nodeIds": [
+        "tc_c09_friends_own_book_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 533,
+      "endLine": 533,
+      "nodeIds": [
+        "tc_c09_friends_call_home_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 535,
+      "endLine": 535,
+      "nodeIds": [
+        "tc_c09_friends_call_home_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 537,
+      "endLine": 537,
+      "nodeIds": [
+        "tc_c09_friends_call_home_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 539,
+      "endLine": 539,
+      "nodeIds": [
+        "tc_c09_friends_call_home_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 541,
+      "endLine": 541,
+      "nodeIds": [
+        "tc_c09_friends_call_home_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 531,
+      "endLine": 531,
+      "nodeIds": [
+        "tc_c09_friends_call_home_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 475,
+      "endLine": 475,
+      "nodeIds": [
+        "tc_c10_friends_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 477,
+      "endLine": 477,
+      "nodeIds": [
+        "tc_c10_friends_late_host_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 479,
+      "endLine": 479,
+      "nodeIds": [
+        "tc_c10_friends_late_host_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 481,
+      "endLine": 481,
+      "nodeIds": [
+        "tc_c10_friends_late_host_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 483,
+      "endLine": 483,
+      "nodeIds": [
+        "tc_c10_friends_late_host_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 485,
+      "endLine": 485,
+      "nodeIds": [
+        "tc_c10_friends_late_host_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 487,
+      "endLine": 487,
+      "nodeIds": [
+        "tc_c10_friends_late_host_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 489,
+      "endLine": 489,
+      "nodeIds": [
+        "tc_c10_friends_late_host_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 473,
+      "endLine": 473,
+      "nodeIds": [
+        "tc_c10_friends_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 493,
+      "endLine": 493,
+      "nodeIds": [
+        "tc_c10_friends_friends_table_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 495,
+      "endLine": 495,
+      "nodeIds": [
+        "tc_c10_friends_friends_table_002"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 497,
+      "endLine": 497,
+      "nodeIds": [
+        "tc_c10_friends_friends_table_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 499,
+      "endLine": 499,
+      "nodeIds": [
+        "tc_c10_friends_friends_table_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 501,
+      "endLine": 501,
+      "nodeIds": [
+        "tc_c10_friends_friends_table_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 503,
+      "endLine": 503,
+      "nodeIds": [
+        "tc_c10_friends_friends_table_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 505,
+      "endLine": 505,
+      "nodeIds": [
+        "tc_c10_friends_friends_table_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 507,
+      "endLine": 507,
+      "nodeIds": [
+        "tc_c10_friends_friends_table_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 491,
+      "endLine": 491,
+      "nodeIds": [
+        "tc_c10_friends_friends_table_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 511,
+      "endLine": 511,
+      "nodeIds": [
+        "tc_c10_friends_rain_walk_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 513,
+      "endLine": 513,
+      "nodeIds": [
+        "tc_c10_friends_rain_walk_002"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 515,
+      "endLine": 515,
+      "nodeIds": [
+        "tc_c10_friends_rain_walk_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 517,
+      "endLine": 517,
+      "nodeIds": [
+        "tc_c10_friends_rain_walk_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 519,
+      "endLine": 519,
+      "nodeIds": [
+        "tc_c10_friends_rain_walk_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 521,
+      "endLine": 521,
+      "nodeIds": [
+        "tc_c10_friends_rain_walk_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 523,
+      "endLine": 523,
+      "nodeIds": [
+        "tc_c10_friends_rain_walk_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 525,
+      "endLine": 525,
+      "nodeIds": [
+        "tc_c10_friends_rain_walk_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 509,
+      "endLine": 509,
+      "nodeIds": [
+        "tc_c10_friends_rain_walk_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 473,
+      "endLine": 473,
+      "nodeIds": [
+        "tc_c10_friends_end"
+      ],
+      "kind": "control"
+    }
+  ],
+  "exclusions": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 872,
+      "endLine": 872,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 452,
+      "endLine": 452,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 455,
+      "endLine": 455,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 421,
+      "endLine": 421,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 441,
+      "endLine": 441,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 445,
+      "endLine": 445,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 403,
+      "endLine": 403,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 499,
+      "endLine": 499,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 471,
+      "endLine": 471,
+      "reason": "heading-only"
+    }
+  ],
+  "assetRequests": [
+    {
+      "id": "e01-art-ch03",
+      "a01Ids": [
+        "tc-bg-alteration-day",
+        "tc-bg-rental-day",
+        "tc-bg-rental-night",
+        "tc-char-maolang-human-base",
+        "tc-char-maolang-human-expression-hesitant",
+        "tc-char-maolang-human-expression-smile",
+        "tc-char-shijiang-human-base",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-smile"
+      ]
+    },
+    {
+      "id": "e01-art-ch04",
+      "a01Ids": [
+        "tc-bg-food-front-dusk",
+        "tc-bg-game-store-day",
+        "tc-bg-performance-shop-day",
+        "tc-bg-rental-day",
+        "tc-bg-slope-day",
+        "tc-bg-stall-day",
+        "tc-bg-street-day",
+        "tc-char-maolang-human-base",
+        "tc-char-maolang-human-expression-smile",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-hesitant",
+        "tc-char-wenwen-human-expression-smile"
+      ]
+    },
+    {
+      "id": "e01-art-ch05",
+      "a01Ids": [
+        "tc-bg-food-day",
+        "tc-bg-netcafe-counter-day",
+        "tc-bg-rental-day",
+        "tc-bg-supermarket-day",
+        "tc-char-maolang-human-base",
+        "tc-char-maolang-human-expression-serious",
+        "tc-char-shijiang-human-base",
+        "tc-char-shijiang-human-expression-smile",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-downcast",
+        "tc-char-wenwen-human-expression-hesitant",
+        "tc-char-wenwen-human-expression-smile"
+      ]
+    },
+    {
+      "id": "e01-art-ch06",
+      "a01Ids": [
+        "tc-bg-eaves-day",
+        "tc-bg-netcafe-counter-day",
+        "tc-bg-rental-day",
+        "tc-bg-rental-night",
+        "tc-bg-stall-day",
+        "tc-char-maolang-human-base",
+        "tc-char-maolang-human-expression-hesitant",
+        "tc-char-maolang-human-expression-smile",
+        "tc-char-piao-human-base",
+        "tc-char-piao-human-expression-smile",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile"
+      ]
+    },
+    {
+      "id": "e01-art-ch07",
+      "a01Ids": [
+        "tc-bg-food-dusk",
+        "tc-bg-game-store-day",
+        "tc-bg-performance-shop-day",
+        "tc-bg-rental-day",
+        "tc-bg-rental-night",
+        "tc-bg-street-day",
+        "tc-char-maolang-human-base",
+        "tc-char-maolang-human-expression-smile",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile"
+      ]
+    },
+    {
+      "id": "e01-art-ch08",
+      "a01Ids": [
+        "tc-bg-netcafe-counter-night",
+        "tc-bg-rental-day",
+        "tc-bg-rental-night",
+        "tc-bg-street-day",
+        "tc-bg-supermarket-day",
+        "tc-char-maolang-human-base",
+        "tc-char-maolang-human-expression-smile",
+        "tc-char-shijiang-human-base",
+        "tc-char-shijiang-human-expression-hesitant",
+        "tc-char-shijiang-human-expression-smile",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile"
+      ]
+    },
+    {
+      "id": "e01-art-ch09",
+      "a01Ids": [
+        "tc-bg-bookstore-day",
+        "tc-bg-food-night",
+        "tc-bg-rental-day",
+        "tc-bg-rental-night",
+        "tc-char-maolang-human-base",
+        "tc-char-maolang-human-expression-hesitant",
+        "tc-char-maolang-human-expression-smile",
+        "tc-char-shijiang-human-base",
+        "tc-char-shijiang-human-expression-hesitant",
+        "tc-char-shijiang-human-expression-smile",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile"
+      ]
+    },
+    {
+      "id": "e01-art-ch10",
+      "a01Ids": [
+        "tc-bg-maolang-home-day",
+        "tc-bg-netcafe-counter-day",
+        "tc-bg-street-day",
+        "tc-cg-small-everyday",
+        "tc-char-maolang-human-base",
+        "tc-char-maolang-human-expression-hesitant",
+        "tc-char-maolang-human-expression-smile",
+        "tc-char-piao-human-base",
+        "tc-char-piao-human-expression-hesitant",
+        "tc-char-piao-human-expression-smile",
+        "tc-char-shijiang-human-base",
+        "tc-char-shijiang-human-expression-hesitant",
+        "tc-char-shijiang-human-expression-smile",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile"
+      ]
+    }
+  ]
+}

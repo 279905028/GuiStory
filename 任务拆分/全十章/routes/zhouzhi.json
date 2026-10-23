@@ -1,0 +1,6849 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "routes/zhouzhi",
+  "owner": "E04",
+  "scenes": {
+    "ts_c03_zhouzhi_umbrella": {
+      "chapter": 3,
+      "title": "还没到上班时间",
+      "bg": "tc-bg-rental-day",
+      "time": "17:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "17:20"
+      },
+      "location": "文文出租屋",
+      "day": 15,
+      "dayLabel": "第15天"
+    },
+    "ts_c03_zhouzhi_umbrella_meeting": {
+      "chapter": 3,
+      "title": "还没到上班时间",
+      "bg": "tc-bg-echo-day",
+      "time": "17:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "17:20"
+      },
+      "location": "回声门外街边",
+      "day": 15,
+      "dayLabel": "第15天"
+    },
+    "ts_c03_zhouzhi_umbrella_umbrella_shop": {
+      "chapter": 3,
+      "title": "还没到上班时间",
+      "bg": "tc-bg-convenience-day",
+      "time": "17:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "17:20"
+      },
+      "location": "卖伞小店门口",
+      "day": 15,
+      "dayLabel": "第15天"
+    },
+    "ts_c03_zhouzhi_umbrella_potstickers": {
+      "chapter": 3,
+      "title": "还没到上班时间",
+      "bg": "tc-bg-stall-day",
+      "time": "17:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "17:20"
+      },
+      "location": "锅贴摊外",
+      "day": 15,
+      "dayLabel": "第15天"
+    },
+    "ts_c03_zhouzhi_umbrella_street": {
+      "chapter": 3,
+      "title": "还没到上班时间",
+      "bg": "tc-bg-street-dusk",
+      "time": "傍晚前",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "傍晚前"
+      },
+      "location": "街口",
+      "day": 15,
+      "dayLabel": "第15天"
+    },
+    "ts_c03_zhouzhi_bookstore": {
+      "chapter": 3,
+      "title": "不好笑就不笑",
+      "bg": "tc-bg-bookstore-day",
+      "time": "16:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 18,
+        "clock": "16:30"
+      },
+      "location": "商场书店靠窗阅读座",
+      "day": 18,
+      "dayLabel": "第18天"
+    },
+    "ts_c03_zhouzhi_bookstore_drinks": {
+      "chapter": 3,
+      "title": "不好笑就不笑",
+      "bg": "tc-bg-mall-day",
+      "time": "傍晚",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 18,
+        "clock": "傍晚"
+      },
+      "location": "商场热饮座位",
+      "day": 18,
+      "dayLabel": "第18天"
+    },
+    "ts_c03_zhouzhi_invitation": {
+      "chapter": 3,
+      "title": "是我想约你",
+      "bg": "tc-bg-food-day",
+      "time": "17:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 21,
+        "clock": "17:00"
+      },
+      "location": "街口小面馆",
+      "day": 21,
+      "dayLabel": "第21天"
+    },
+    "ts_c04_zhouzhi_outing": {
+      "chapter": 4,
+      "title": "轮到你选",
+      "bg": "tc-bg-food-day",
+      "time": "16:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 23,
+        "clock": "16:10"
+      },
+      "location": "约定小店门口",
+      "day": 23,
+      "dayLabel": "第23天"
+    },
+    "ts_c04_zhouzhi_river": {
+      "chapter": 4,
+      "title": "沿河走走，轮流放一首想听的歌",
+      "bg": "tc-bg-river-day",
+      "time": "16:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 23,
+        "clock": "16:10"
+      },
+      "location": "河边步道与空长椅",
+      "day": 23,
+      "dayLabel": "第23天"
+    },
+    "ts_c04_zhouzhi_cinema": {
+      "chapter": 4,
+      "title": "去影院，允许我们喜欢不同的东西",
+      "bg": "tc-bg-cinema-interior",
+      "time": "16:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 23,
+        "clock": "16:10"
+      },
+      "location": "电影院观众席靠过道",
+      "day": 23,
+      "dayLabel": "第23天"
+    },
+    "ts_c04_zhouzhi_cinema_mall": {
+      "chapter": 4,
+      "title": "去影院，允许我们喜欢不同的东西",
+      "bg": "tc-bg-mall-day",
+      "time": "散场后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 23,
+        "clock": "散场后"
+      },
+      "location": "商场电梯与一楼",
+      "day": 23,
+      "dayLabel": "第23天"
+    },
+    "ts_c04_zhouzhi_before_work": {
+      "chapter": 4,
+      "title": "不必把一天用满",
+      "bg": "tc-bg-food-dusk",
+      "time": "傍晚",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 23,
+        "clock": "傍晚"
+      },
+      "location": "街角馄饨小店",
+      "day": 23,
+      "dayLabel": "第23天"
+    },
+    "ts_c04_zhouzhi_before_work_crossroad": {
+      "chapter": 4,
+      "title": "不必把一天用满",
+      "bg": "tc-bg-street-dusk",
+      "time": "傍晚",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 23,
+        "clock": "傍晚"
+      },
+      "location": "人行路口",
+      "day": 23,
+      "dayLabel": "第23天"
+    },
+    "ts_c05_zhouzhi_unexpected_company": {
+      "chapter": 5,
+      "title": "你今天也在上班吗",
+      "bg": "tc-bg-food-day",
+      "time": "17:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 26,
+        "clock": "17:30"
+      },
+      "location": "约饭门口与附近饭店",
+      "day": 26,
+      "dayLabel": "第26天"
+    },
+    "ts_c05_zhouzhi_unexpected_company_busstop": {
+      "chapter": 5,
+      "title": "你今天也在上班吗",
+      "bg": "tc-bg-busstop-dusk",
+      "time": "傍晚",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 26,
+        "clock": "傍晚"
+      },
+      "location": "车站",
+      "day": 26,
+      "dayLabel": "第26天"
+    },
+    "ts_c05_zhouzhi_two_seats": {
+      "chapter": 5,
+      "title": "先留两个人的位置",
+      "bg": "tc-bg-food-day",
+      "time": "16:50",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 29,
+        "clock": "16:50"
+      },
+      "location": "普通面馆双人桌",
+      "day": 29,
+      "dayLabel": "第29天"
+    },
+    "ts_c06_zhouzhi_after_closing": {
+      "chapter": 6,
+      "title": "绕过那个门口",
+      "bg": "tc-bg-street-day",
+      "time": "17:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 32,
+        "clock": "17:10"
+      },
+      "location": "毕节街道/坡口·日间",
+      "day": 32,
+      "dayLabel": "第32天"
+    },
+    "ts_c06_zhouzhi_after_closing_closed_echo": {
+      "chapter": 6,
+      "title": "绕过那个门口",
+      "bg": "tc-bg-echo-closed-day",
+      "time": "17:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 32,
+        "clock": "17:10"
+      },
+      "location": "通向回声的路口",
+      "day": 32,
+      "dayLabel": "第32天"
+    },
+    "ts_c06_zhouzhi_after_closing_supermarket": {
+      "chapter": 6,
+      "title": "绕过那个门口",
+      "bg": "tc-bg-supermarket-day",
+      "time": "17:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 32,
+        "clock": "17:10"
+      },
+      "location": "超市日用品区",
+      "day": 32,
+      "dayLabel": "第32天"
+    },
+    "ts_c06_zhouzhi_after_closing_soymilk": {
+      "chapter": 6,
+      "title": "绕过那个门口",
+      "bg": "tc-bg-street-day",
+      "time": "17:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 32,
+        "clock": "17:10"
+      },
+      "location": "超市外座位",
+      "day": 32,
+      "dayLabel": "第32天"
+    },
+    "ts_c06_zhouzhi_after_closing_accessories": {
+      "chapter": 6,
+      "title": "绕过那个门口",
+      "bg": "tc-bg-clothing-day",
+      "time": "17:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 32,
+        "clock": "17:10"
+      },
+      "location": "饰品店门口",
+      "day": 32,
+      "dayLabel": "第32天"
+    },
+    "ts_c07_zhouzhi_her_plans": {
+      "chapter": 7,
+      "title": "她也有别的约",
+      "bg": "tc-bg-street-day",
+      "time": "16:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 43,
+        "clock": "16:40"
+      },
+      "location": "毕节街道/坡口·日间",
+      "day": 43,
+      "dayLabel": "第43天"
+    },
+    "ts_c07_zhouzhi_river_return": {
+      "chapter": 7,
+      "title": "今天的歌很吵",
+      "bg": "tc-bg-river-day",
+      "time": "16:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 43,
+        "clock": "16:40"
+      },
+      "location": "河边步道/长椅/避雨台阶·日",
+      "day": 43,
+      "dayLabel": "第43天"
+    },
+    "ts_c07_zhouzhi_cinema_return": {
+      "chapter": 7,
+      "title": "这回我挑片",
+      "bg": "tc-bg-cinema-interior",
+      "time": "16:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 43,
+        "clock": "16:40"
+      },
+      "location": "电影院观众席过道/散场",
+      "day": 43,
+      "dayLabel": "第43天"
+    },
+    "ts_c07_zhouzhi_crossroad": {
+      "chapter": 7,
+      "title": "不是接送任务",
+      "bg": "tc-bg-street-dusk",
+      "time": "傍晚",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 43,
+        "clock": "傍晚"
+      },
+      "location": "毕节街道/坡口·尚亮傍晚",
+      "day": 43,
+      "dayLabel": "第43天"
+    },
+    "ts_c08_zhouzhi_dinner_budget": {
+      "chapter": 8,
+      "title": "够不够，不用藏着算",
+      "bg": "tc-bg-food-day",
+      "time": "17:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 57,
+        "clock": "17:20"
+      },
+      "location": "漂亮饭店门口",
+      "day": 57,
+      "dayLabel": "第57天"
+    },
+    "ts_c08_zhouzhi_dinner_budget_simple_dinner": {
+      "chapter": 8,
+      "title": "够不够，不用藏着算",
+      "bg": "tc-bg-food-dusk",
+      "time": "傍晚",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 57,
+        "clock": "傍晚"
+      },
+      "location": "小锅饭店",
+      "day": 57,
+      "dayLabel": "第57天"
+    },
+    "ts_c08_zhouzhi_dinner_budget_soymilk": {
+      "chapter": 8,
+      "title": "够不够，不用藏着算",
+      "bg": "tc-bg-street-dusk",
+      "time": "傍晚",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 57,
+        "clock": "傍晚"
+      },
+      "location": "小锅饭店外街边",
+      "day": 57,
+      "dayLabel": "第57天"
+    },
+    "ts_c09_zhouzhi_relationship": {
+      "chapter": 9,
+      "title": "吃完饭，话还没说完",
+      "bg": "tc-bg-food-dusk",
+      "time": "18:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 75,
+        "clock": "18:10"
+      },
+      "location": "普通小食店/面馆·暮色",
+      "day": 75,
+      "dayLabel": "第75天"
+    },
+    "ts_c09_zhouzhi_dating": {
+      "chapter": 9,
+      "title": "愿意。我也想把你放进以后的安排里",
+      "bg": "tc-bg-food-dusk",
+      "time": "18:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 75,
+        "clock": "18:10"
+      },
+      "location": "普通小食店/面馆·暮色",
+      "day": 75,
+      "dayLabel": "第75天"
+    },
+    "ts_c09_zhouzhi_dating_eaves": {
+      "chapter": 9,
+      "title": "愿意。我也想把你放进以后的安排里",
+      "bg": "tc-bg-eaves-day",
+      "time": "饭后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 75,
+        "clock": "饭后"
+      },
+      "location": "河边小馆外屋檐",
+      "day": 75,
+      "dayLabel": "第75天"
+    },
+    "ts_c09_zhouzhi_friends": {
+      "chapter": 9,
+      "title": "谢谢你告诉我，但我想继续做朋友",
+      "bg": "tc-bg-food-dusk",
+      "time": "18:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 75,
+        "clock": "18:10"
+      },
+      "location": "普通小食店/面馆·暮色",
+      "day": 75,
+      "dayLabel": "第75天"
+    },
+    "ts_c09_zhouzhi_friends_day88": {
+      "chapter": 9,
+      "title": "谢谢你告诉我，但我想继续做朋友",
+      "bg": "tc-bg-food-dusk",
+      "time": "未注明",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 88,
+        "clock": "未注明"
+      },
+      "location": "朋友聚餐的小店",
+      "day": 88,
+      "dayLabel": "第88天"
+    },
+    "ts_c09_zhouzhi_friends_day88_crossroad": {
+      "chapter": 9,
+      "title": "谢谢你告诉我，但我想继续做朋友",
+      "bg": "tc-bg-street-dusk",
+      "time": "散场后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 88,
+        "clock": "散场后"
+      },
+      "location": "聚餐后的路口",
+      "day": 88,
+      "dayLabel": "第88天"
+    },
+    "ts_c10_zhouzhi_dating": {
+      "chapter": 10,
+      "title": "恋人结局：你先吃，我一会儿到",
+      "bg": "tc-bg-food-dusk",
+      "time": "傍晚",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "傍晚"
+      },
+      "location": "普通小食店/面馆·暮色",
+      "day": null,
+      "dayLabel": "两年后"
+    },
+    "ts_c10_zhouzhi_dating_homeward": {
+      "chapter": 10,
+      "title": "恋人结局：你先吃，我一会儿到",
+      "bg": "tc-bg-street-dusk",
+      "time": "饭后",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "饭后"
+      },
+      "location": "去周栀住处的路上",
+      "day": null,
+      "dayLabel": "两年后"
+    },
+    "ts_c10_zhouzhi_dating_eaves": {
+      "chapter": 10,
+      "title": "恋人结局：你先吃，我一会儿到",
+      "bg": "tc-bg-eaves-day",
+      "time": "饭后",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "饭后"
+      },
+      "location": "周栀住处外屋檐",
+      "day": null,
+      "dayLabel": "两年后"
+    },
+    "ts_c10_zhouzhi_friends": {
+      "chapter": 10,
+      "title": "朋友结局：还有一张椅子",
+      "bg": "tc-bg-stall-night",
+      "time": "夜间",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "夜间"
+      },
+      "location": "夜宵摊·夜",
+      "day": null,
+      "dayLabel": "两年后"
+    },
+    "ts_c10_zhouzhi_friends_street": {
+      "chapter": 10,
+      "title": "朋友结局：还有一张椅子",
+      "bg": "tc-bg-street-dusk",
+      "time": "夜间",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "夜间"
+      },
+      "location": "夜宵摊外街口",
+      "day": null,
+      "dayLabel": "两年后"
+    },
+    "ts_c10_zhouzhi_friends_back_to_stall": {
+      "chapter": 10,
+      "title": "朋友结局：还有一张椅子",
+      "bg": "tc-bg-stall-night",
+      "time": "夜间",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "夜间"
+      },
+      "location": "夜宵摊",
+      "day": null,
+      "dayLabel": "两年后"
+    }
+  },
+  "nodes": {
+    "tc_c03_zhouzhi_entry": {
+      "id": "tc_c03_zhouzhi_entry",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella",
+      "speaker": "narrator",
+      "character": null,
+      "text": "周栀发消息的时候，我正把睡歪的领口翻回来。",
+      "next": "tc_c03_zhouzhi_umbrella_002"
+    },
+    "tc_c03_zhouzhi_umbrella_002": {
+      "id": "tc_c03_zhouzhi_umbrella_002",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella",
+      "speaker": "zhouzhi",
+      "character": null,
+      "text": "“醒了没？我在回声前面，要去买把伞。有空走一段？”",
+      "next": "tc_c03_zhouzhi_umbrella_003"
+    },
+    "tc_c03_zhouzhi_umbrella_003": {
+      "id": "tc_c03_zhouzhi_umbrella_003",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_meeting",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我回了有空，出门才发现雨已经停了。她站在街边，把一把折断一根伞骨的伞举给我看，像举着某种失败的战利品。",
+      "next": "tc_c03_zhouzhi_umbrella_004"
+    },
+    "tc_c03_zhouzhi_umbrella_004": {
+      "id": "tc_c03_zhouzhi_umbrella_004",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_meeting",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“撑开像有一只翅膀，要不要？”",
+      "next": "tc_c03_zhouzhi_umbrella_005"
+    },
+    "tc_c03_zhouzhi_umbrella_005": {
+      "id": "tc_c03_zhouzhi_umbrella_005",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_meeting",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“能飞吗？”",
+      "next": "tc_c03_zhouzhi_umbrella_006"
+    },
+    "tc_c03_zhouzhi_umbrella_006": {
+      "id": "tc_c03_zhouzhi_umbrella_006",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_meeting",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“看风够不够大。飞走了不给你退。”",
+      "next": "tc_c03_zhouzhi_umbrella_007"
+    },
+    "tc_c03_zhouzhi_umbrella_007": {
+      "id": "tc_c03_zhouzhi_umbrella_007",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_meeting",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我们从回声门口走过，没有进去。周栀的青色衬衫袖口松松挽着，手里只拿手机和旧伞。我问她几点上班，她告诉我时间，又问我是不是九点多要去网吧。",
+      "next": "tc_c03_zhouzhi_umbrella_008"
+    },
+    "tc_c03_zhouzhi_umbrella_008": {
+      "id": "tc_c03_zhouzhi_umbrella_008",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_umbrella_shop",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我说是，但现在不赶。她便慢下来，先在小店门口挑伞。",
+      "next": "tc_c03_zhouzhi_umbrella_009"
+    },
+    "tc_c03_zhouzhi_umbrella_009": {
+      "id": "tc_c03_zhouzhi_umbrella_009",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_umbrella_shop",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我看中一把很大的，说两个人也不怕淋。她却挑了把短柄的，撑开试了两次，合上放在手心里掂。",
+      "next": "tc_c03_zhouzhi_umbrella_010"
+    },
+    "tc_c03_zhouzhi_umbrella_010": {
+      "id": "tc_c03_zhouzhi_umbrella_010",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_umbrella_shop",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“我的包得装得下。”",
+      "next": "tc_c03_zhouzhi_umbrella_011"
+    },
+    "tc_c03_zhouzhi_umbrella_011": {
+      "id": "tc_c03_zhouzhi_umbrella_011",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_umbrella_shop",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我这才发现，刚才那句话说得仿佛她买伞的主要用途是给我遮雨。她付钱时回头看了我一眼，嘴角有一点笑，没有接着逗。",
+      "next": "tc_c03_zhouzhi_umbrella_012"
+    },
+    "tc_c03_zhouzhi_umbrella_012": {
+      "id": "tc_c03_zhouzhi_umbrella_012",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_potstickers",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "路边的锅贴刚出锅。她问我要不要吃，我说晚饭还早，她说自己就是饿了，不用等一个特别正式的时间。",
+      "next": "tc_c03_zhouzhi_umbrella_013"
+    },
+    "tc_c03_zhouzhi_umbrella_013": {
+      "id": "tc_c03_zhouzhi_umbrella_013",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_potstickers",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我们在小店外站着吃。她咬了一口，烫得把纸盒端远，眯着眼睛慢慢吹。我赶紧问怎么了，她抬手让我等，咽下去以后才说：“我在吃东西，没生气。”",
+      "next": "tc_c03_zhouzhi_umbrella_014"
+    },
+    "tc_c03_zhouzhi_umbrella_014": {
+      "id": "tc_c03_zhouzhi_umbrella_014",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_potstickers",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“我哪说你生气了？”",
+      "next": "tc_c03_zhouzhi_umbrella_015"
+    },
+    "tc_c03_zhouzhi_umbrella_015": {
+      "id": "tc_c03_zhouzhi_umbrella_015",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_potstickers",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“你那个表情像在想，刚才哪句话又说错了。”",
+      "next": "tc_c03_zhouzhi_umbrella_016"
+    },
+    "tc_c03_zhouzhi_umbrella_016": {
+      "id": "tc_c03_zhouzhi_umbrella_016",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_potstickers",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我笑了。她把纸盒转过来，让我挑旁边没那么烫的。",
+      "next": "tc_c03_zhouzhi_umbrella_017"
+    },
+    "tc_c03_zhouzhi_umbrella_017": {
+      "id": "tc_c03_zhouzhi_umbrella_017",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_potstickers",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“我工作的时候话不少。下班偶尔不接话，你别急着给我找话题。我可能只是饿，也可能没想到。”",
+      "next": "tc_c03_zhouzhi_umbrella_018"
+    },
+    "tc_c03_zhouzhi_umbrella_018": {
+      "id": "tc_c03_zhouzhi_umbrella_018",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_potstickers",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“那我也可以不找？”",
+      "next": "tc_c03_zhouzhi_umbrella_019"
+    },
+    "tc_c03_zhouzhi_umbrella_019": {
+      "id": "tc_c03_zhouzhi_umbrella_019",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_potstickers",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“可以啊。现在你不就挺安静，锅贴又没少吃。”",
+      "next": "tc_c03_zhouzhi_umbrella_020"
+    },
+    "tc_c03_zhouzhi_umbrella_020": {
+      "id": "tc_c03_zhouzhi_umbrella_020",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_street",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她吃完最后一个，认真把盒子扣好，找到了垃圾桶才扔。走回街口的时候，她先打开新伞，挡住突然落下来的几滴雨。我从自己的包里拿出伞，两把伞边轻轻碰了一下。",
+      "next": "tc_c03_zhouzhi_umbrella_021"
+    },
+    "tc_c03_zhouzhi_umbrella_021": {
+      "id": "tc_c03_zhouzhi_umbrella_021",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_street",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "周栀把自己的往旁边让，让出够我们并排走的距离。",
+      "next": "tc_c03_zhouzhi_umbrella_022"
+    },
+    "tc_c03_zhouzhi_umbrella_022": {
+      "id": "tc_c03_zhouzhi_umbrella_022",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_umbrella_street",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“这样也挺好。”她说，“谁也不用歪着肩膀。”",
+      "next": "tc_c03_zhouzhi_bookstore_001"
+    },
+    "tc_c03_zhouzhi_bookstore_001": {
+      "id": "tc_c03_zhouzhi_bookstore_001",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "第18天我休班，上午睡够，下午和周栀在商场碰面。她今天也不用上班，说想找个有椅子的地方闲着，不想总在吃饭的路上见我。",
+      "next": "tc_c03_zhouzhi_bookstore_002"
+    },
+    "tc_c03_zhouzhi_bookstore_002": {
+      "id": "tc_c03_zhouzhi_bookstore_002",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我们在书店靠窗的位置坐下，各拿了一本书。她选的是一本轻薄的旅行随笔，翻了十几页，忽然合上。",
+      "next": "tc_c03_zhouzhi_bookstore_003"
+    },
+    "tc_c03_zhouzhi_bookstore_003": {
+      "id": "tc_c03_zhouzhi_bookstore_003",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“这人怎么每到一个地方都能遇见人生导师？”",
+      "next": "tc_c03_zhouzhi_bookstore_004"
+    },
+    "tc_c03_zhouzhi_bookstore_004": {
+      "id": "tc_c03_zhouzhi_bookstore_004",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我把书凑过去看。页边写着一个很长的感悟，她指着前面那碗面，说自己若遇见同样的情况，只想问能不能少加一点香菜。",
+      "next": "tc_c03_zhouzhi_bookstore_005"
+    },
+    "tc_c03_zhouzhi_bookstore_005": {
+      "id": "tc_c03_zhouzhi_bookstore_005",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“可能下一页就问了。”",
+      "next": "tc_c03_zhouzhi_bookstore_006"
+    },
+    "tc_c03_zhouzhi_bookstore_006": {
+      "id": "tc_c03_zhouzhi_bookstore_006",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她翻过去，发现又是满满一页抒情，抬眼看我。我们都不敢笑出声，只好各自端水喝。",
+      "next": "tc_c03_zhouzhi_bookstore_007"
+    },
+    "tc_c03_zhouzhi_bookstore_007": {
+      "id": "tc_c03_zhouzhi_bookstore_007",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "后来我讲起游戏队的一件糗事。平时毛狼一讲，谁都会笑，轮到我讲，前因后果绕得太远，自己都忘了最开始想讲什么。周栀安静听完，问了一句：“所以，你们最后进错房间了？”",
+      "next": "tc_c03_zhouzhi_bookstore_008"
+    },
+    "tc_c03_zhouzhi_bookstore_008": {
+      "id": "tc_c03_zhouzhi_bookstore_008",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“对。”",
+      "next": "tc_c03_zhouzhi_bookstore_009"
+    },
+    "tc_c03_zhouzhi_bookstore_009": {
+      "id": "tc_c03_zhouzhi_bookstore_009",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“你可以从这句开始。”",
+      "next": "tc_c03_zhouzhi_bookstore_010"
+    },
+    "tc_c03_zhouzhi_bookstore_010": {
+      "id": "tc_c03_zhouzhi_bookstore_010",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我捂住脸。她笑起来，笑的是我捂脸的样子，不是那件已经被我讲坏的事。",
+      "next": "tc_c03_zhouzhi_bookstore_011"
+    },
+    "tc_c03_zhouzhi_bookstore_011": {
+      "id": "tc_c03_zhouzhi_bookstore_011",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“我还以为你会假装好笑。”我说。",
+      "next": "tc_c03_zhouzhi_bookstore_012"
+    },
+    "tc_c03_zhouzhi_bookstore_012": {
+      "id": "tc_c03_zhouzhi_bookstore_012",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“工作上有时要接一句。现在又没人在旁边看我们热不热闹。”",
+      "next": "tc_c03_zhouzhi_bookstore_013"
+    },
+    "tc_c03_zhouzhi_bookstore_013": {
+      "id": "tc_c03_zhouzhi_bookstore_013",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她把书放回去，回来时站在我身旁，指着窗外一块颜色很亮的招牌。",
+      "next": "tc_c03_zhouzhi_bookstore_014"
+    },
+    "tc_c03_zhouzhi_bookstore_014": {
+      "id": "tc_c03_zhouzhi_bookstore_014",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“那个倒好笑。上次掉了一个字，意思完全变了。”",
+      "next": "tc_c03_zhouzhi_bookstore_015"
+    },
+    "tc_c03_zhouzhi_bookstore_015": {
+      "id": "tc_c03_zhouzhi_bookstore_015",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "这次她讲得很短，我一下就笑了。她看着我，像确认我不是在礼貌配合，接着才坐下。",
+      "next": "tc_c03_zhouzhi_bookstore_016"
+    },
+    "tc_c03_zhouzhi_bookstore_016": {
+      "id": "tc_c03_zhouzhi_bookstore_016",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore_drinks",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "傍晚我们各点了一杯热饮。我的那杯甜得发腻，她问我怎么不换，我说已经喝了，凑合。她把自己杯子推过一点，问我想不想尝一口，又很明确地说：“只是尝，不用换。我的我也想喝。”",
+      "next": "tc_c03_zhouzhi_bookstore_017"
+    },
+    "tc_c03_zhouzhi_bookstore_017": {
+      "id": "tc_c03_zhouzhi_bookstore_017",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore_drinks",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我尝了一口，比我的清淡。她看我皱眉，立刻把杯子拿回去。",
+      "next": "tc_c03_zhouzhi_bookstore_018"
+    },
+    "tc_c03_zhouzhi_bookstore_018": {
+      "id": "tc_c03_zhouzhi_bookstore_018",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore_drinks",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“你不喜欢。”",
+      "next": "tc_c03_zhouzhi_bookstore_019"
+    },
+    "tc_c03_zhouzhi_bookstore_019": {
+      "id": "tc_c03_zhouzhi_bookstore_019",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore_drinks",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“也不是难喝。”",
+      "next": "tc_c03_zhouzhi_bookstore_020"
+    },
+    "tc_c03_zhouzhi_bookstore_020": {
+      "id": "tc_c03_zhouzhi_bookstore_020",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore_drinks",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“行了，给你留点余地。”",
+      "next": "tc_c03_zhouzhi_bookstore_021"
+    },
+    "tc_c03_zhouzhi_bookstore_021": {
+      "id": "tc_c03_zhouzhi_bookstore_021",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_bookstore_drinks",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我们坐到窗外的亮光渐渐暗下来。起身时，她看了眼时间，说今天真好，没赶场，没有哪桌突然要多一个人。",
+      "next": "tc_c03_zhouzhi_invitation_001"
+    },
+    "tc_c03_zhouzhi_invitation_001": {
+      "id": "tc_c03_zhouzhi_invitation_001",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我们在街口的小面馆碰面。周栀没带朋友，我也没喊毛狼。面馆里人少，她把菜单推给我，自己熟门熟路地点了碗汤面，辣椒单放。",
+      "next": "tc_c03_zhouzhi_invitation_002"
+    },
+    "tc_c03_zhouzhi_invitation_002": {
+      "id": "tc_c03_zhouzhi_invitation_002",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我问她夜宵摊的事，她说还在和朋友商量，许多事情光在嘴上想都很顺，真要腾出时间就没那么容易。",
+      "next": "tc_c03_zhouzhi_invitation_003"
+    },
+    "tc_c03_zhouzhi_invitation_003": {
+      "id": "tc_c03_zhouzhi_invitation_003",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“她炒，我备料。上回我把后用的先切了，放着放着就蔫了。她打开盒子看了我半天，问这是给谁准备的盆栽。”",
+      "next": "tc_c03_zhouzhi_invitation_004"
+    },
+    "tc_c03_zhouzhi_invitation_004": {
+      "id": "tc_c03_zhouzhi_invitation_004",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我没忍住笑，她也笑，却没趁机把手机里的计划拿出来让我看。",
+      "next": "tc_c03_zhouzhi_invitation_005"
+    },
+    "tc_c03_zhouzhi_invitation_005": {
+      "id": "tc_c03_zhouzhi_invitation_005",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“现在还不叫摊，叫我们俩很想吃热饭。”",
+      "next": "tc_c03_zhouzhi_invitation_006"
+    },
+    "tc_c03_zhouzhi_invitation_006": {
+      "id": "tc_c03_zhouzhi_invitation_006",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“需要我帮什么吗？”",
+      "next": "tc_c03_zhouzhi_invitation_007"
+    },
+    "tc_c03_zhouzhi_invitation_007": {
+      "id": "tc_c03_zhouzhi_invitation_007",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她放下筷子，抬头看我。",
+      "next": "tc_c03_zhouzhi_invitation_008"
+    },
+    "tc_c03_zhouzhi_invitation_008": {
+      "id": "tc_c03_zhouzhi_invitation_008",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“今天不用。”",
+      "next": "tc_c03_zhouzhi_invitation_009"
+    },
+    "tc_c03_zhouzhi_invitation_009": {
+      "id": "tc_c03_zhouzhi_invitation_009",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我刚想说有事随时叫，她又接了一句：“以后真有需要，我会问。但我叫你出来，也不一定是缺人帮忙。”",
+      "next": "tc_c03_zhouzhi_invitation_010"
+    },
+    "tc_c03_zhouzhi_invitation_010": {
+      "id": "tc_c03_zhouzhi_invitation_010",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我摸了摸鼻子，开始认真看自己的面。她给自己加了辣椒，尝一口，又加一点，没有把勺子递到我这边。",
+      "next": "tc_c03_zhouzhi_invitation_011"
+    },
+    "tc_c03_zhouzhi_invitation_011": {
+      "id": "tc_c03_zhouzhi_invitation_011",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“你今天是不是想叫我出来？”我问。",
+      "next": "tc_c03_zhouzhi_invitation_012"
+    },
+    "tc_c03_zhouzhi_invitation_012": {
+      "id": "tc_c03_zhouzhi_invitation_012",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“是啊。”",
+      "next": "tc_c03_zhouzhi_invitation_013"
+    },
+    "tc_c03_zhouzhi_invitation_013": {
+      "id": "tc_c03_zhouzhi_invitation_013",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她答得毫不费力，倒让我没法继续装作随便一问。",
+      "next": "tc_c03_zhouzhi_invitation_014"
+    },
+    "tc_c03_zhouzhi_invitation_014": {
+      "id": "tc_c03_zhouzhi_invitation_014",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“你呢？”",
+      "next": "tc_c03_zhouzhi_invitation_015"
+    },
+    "tc_c03_zhouzhi_invitation_015": {
+      "id": "tc_c03_zhouzhi_invitation_015",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“也想。”",
+      "next": "tc_c03_zhouzhi_invitation_016"
+    },
+    "tc_c03_zhouzhi_invitation_016": {
+      "id": "tc_c03_zhouzhi_invitation_016",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "周栀低头夹面，耳边一缕头发滑下来，她把它拨到后面，动作比刚才慢了一点。",
+      "next": "tc_c03_zhouzhi_invitation_017"
+    },
+    "tc_c03_zhouzhi_invitation_017": {
+      "id": "tc_c03_zhouzhi_invitation_017",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“那下回别一直说都行。”",
+      "next": "tc_c03_zhouzhi_invitation_018"
+    },
+    "tc_c03_zhouzhi_invitation_018": {
+      "id": "tc_c03_zhouzhi_invitation_018",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“什么？”",
+      "next": "tc_c03_zhouzhi_invitation_019"
+    },
+    "tc_c03_zhouzhi_invitation_019": {
+      "id": "tc_c03_zhouzhi_invitation_019",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“我问你去哪儿，你说都行。问想吃什么，也都行。你至少挑一件你想做的，我也想知道。”",
+      "next": "tc_c03_zhouzhi_invitation_020"
+    },
+    "tc_c03_zhouzhi_invitation_020": {
+      "id": "tc_c03_zhouzhi_invitation_020",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "结账后，我说第23天下午能不能一起出去，她查过自己的安排，答应了。",
+      "next": "tc_c03_zhouzhi_invitation_021"
+    },
+    "tc_c03_zhouzhi_invitation_021": {
+      "id": "tc_c03_zhouzhi_invitation_021",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“这次去哪儿？”她问。",
+      "next": "tc_c03_zhouzhi_invitation_022"
+    },
+    "tc_c03_zhouzhi_invitation_022": {
+      "id": "tc_c03_zhouzhi_invitation_022",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我说想过两个地方，一个能安静坐着听歌，另一个有我们都没看过的片子。她撑开伞，看了看天，把伞举在肩上。",
+      "next": "tc_c03_zhouzhi_invitation_023"
+    },
+    "tc_c03_zhouzhi_invitation_023": {
+      "id": "tc_c03_zhouzhi_invitation_023",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_invitation",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“好。到时候你选，我再决定要不要跟。”",
+      "next": "tc_c03_common_exit"
+    },
+    "tc_c04_zhouzhi_entry": {
+      "id": "tc_c04_zhouzhi_entry",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_outing",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我下夜班后睡到了下午两点半，吃过东西才出门。周栀已经在约定的店门口，没化工作时那么完整的妆，唇上只有很淡的一层颜色。",
+      "next": "tc_c04_zhouzhi_outing_002"
+    },
+    "tc_c04_zhouzhi_outing_002": {
+      "id": "tc_c04_zhouzhi_outing_002",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_outing",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她先问我睡了多久，听见答案，点头说：“那今天应该不会走着走着关机。”",
+      "next": "tc_c04_zhouzhi_outing_003"
+    },
+    "tc_c04_zhouzhi_outing_003": {
+      "id": "tc_c04_zhouzhi_outing_003",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_outing",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“你试试叫醒我。”",
+      "next": "tc_c04_zhouzhi_outing_004"
+    },
+    "tc_c04_zhouzhi_outing_004": {
+      "id": "tc_c04_zhouzhi_outing_004",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_outing",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“我不试。困了就各自回家，又不是买一送一，非得一起耗完。”",
+      "next": "tc_c04_zhouzhi_outing_005"
+    },
+    "tc_c04_zhouzhi_outing_005": {
+      "id": "tc_c04_zhouzhi_outing_005",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_outing",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我把那两个选择重新说了一遍。她问我真喜欢哪个，我说都想去，只是今天时间够一个。",
+      "next": "tc_c04_zhouzhi_outing_006"
+    },
+    "tc_c04_zhouzhi_outing_006": {
+      "id": "tc_c04_zhouzhi_outing_006",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_outing",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“这次的都想，和上次的都行不一样吧？”",
+      "next": "tc_c04_zhouzhi_outing_007"
+    },
+    "tc_c04_zhouzhi_outing_007": {
+      "id": "tc_c04_zhouzhi_outing_007",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_outing",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“我现在已经开始检查自己的用词了。”",
+      "next": "tc_c04_zhouzhi_outing_008"
+    },
+    "tc_c04_zhouzhi_outing_008": {
+      "id": "tc_c04_zhouzhi_outing_008",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_outing",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她笑着用伞柄点了点我的鞋尖，叫我别紧张，选错地方也不会记档。",
+      "next": "tc_c04_zhouzhi_outing_choice"
+    },
+    "tc_c04_zhouzhi_river_001": {
+      "id": "tc_c04_zhouzhi_river_001",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_river",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "河边有一段人少的步道。我们各戴一只耳机，周栀先选了一首节奏很慢的歌。她没有跟着唱，只在一个转音的地方轻轻动了动手指。",
+      "next": "tc_c04_zhouzhi_river_002"
+    },
+    "tc_c04_zhouzhi_river_002": {
+      "id": "tc_c04_zhouzhi_river_002",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_river",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我等了一会儿，才问她是不是平时也听这样的。",
+      "next": "tc_c04_zhouzhi_river_003"
+    },
+    "tc_c04_zhouzhi_river_003": {
+      "id": "tc_c04_zhouzhi_river_003",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_river",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“有时。上班唱得热闹，下班不一定还想听人敲锣。”",
+      "next": "tc_c04_zhouzhi_river_004"
+    },
+    "tc_c04_zhouzhi_river_004": {
+      "id": "tc_c04_zhouzhi_river_004",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_river",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "轮到我，我点开一首游戏里常听见的纯音乐。周栀听着听着，问里面那个声音是不是每次失败都会响，我说不是，是进菜单。",
+      "next": "tc_c04_zhouzhi_river_005"
+    },
+    "tc_c04_zhouzhi_river_005": {
+      "id": "tc_c04_zhouzhi_river_005",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_river",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“难怪听起来像人在门口犹豫。”",
+      "next": "tc_c04_zhouzhi_river_006"
+    },
+    "tc_c04_zhouzhi_river_006": {
+      "id": "tc_c04_zhouzhi_river_006",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_river",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我想了想，发现她说得很像。",
+      "next": "tc_c04_zhouzhi_river_007"
+    },
+    "tc_c04_zhouzhi_river_007": {
+      "id": "tc_c04_zhouzhi_river_007",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_river",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "走到一张空椅子旁，我们坐下。耳机线短，我一转头就扯到她，她抬手拉住线，让我把手机放在两人中间。这样一来，我们都得向中间靠一点，却不用找理由。",
+      "next": "tc_c04_zhouzhi_river_008"
+    },
+    "tc_c04_zhouzhi_river_008": {
+      "id": "tc_c04_zhouzhi_river_008",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_river",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她把歌听完，才摘下耳机。",
+      "next": "tc_c04_zhouzhi_river_009"
+    },
+    "tc_c04_zhouzhi_river_009": {
+      "id": "tc_c04_zhouzhi_river_009",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_river",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“下次轮到我挑一首吵的。你别以为我一直这么安静。”",
+      "next": "tc_c04_zhouzhi_before_work_001"
+    },
+    "tc_c04_zhouzhi_cinema_001": {
+      "id": "tc_c04_zhouzhi_cinema_001",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_cinema",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我们赶上一场还有座位的片子。周栀选靠过道的位置，说自己不喜欢进出都让一排人起身。我买饮料前问她想不想喝，她说白水，我就只拿了自己的汽水。",
+      "next": "tc_c04_zhouzhi_cinema_002"
+    },
+    "tc_c04_zhouzhi_cinema_002": {
+      "id": "tc_c04_zhouzhi_cinema_002",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_cinema",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "片子里的笑点来得很密，我在一个很幼稚的地方笑出声，她转头看我，没跟着笑，却把纸巾递过来，示意汽水快从嘴角流下去了。",
+      "next": "tc_c04_zhouzhi_cinema_003"
+    },
+    "tc_c04_zhouzhi_cinema_003": {
+      "id": "tc_c04_zhouzhi_cinema_003",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_cinema",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "散场后，她说自己最喜欢的是中间一段没什么台词的路上戏。我说那段我差点犯困，她瞪了我一眼，紧接着笑起来。",
+      "next": "tc_c04_zhouzhi_cinema_004"
+    },
+    "tc_c04_zhouzhi_cinema_004": {
+      "id": "tc_c04_zhouzhi_cinema_004",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_cinema",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“很好，我们应该不能一起写影评。”",
+      "next": "tc_c04_zhouzhi_cinema_005"
+    },
+    "tc_c04_zhouzhi_cinema_005": {
+      "id": "tc_c04_zhouzhi_cinema_005",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_cinema",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“但能一起买票。”",
+      "next": "tc_c04_zhouzhi_cinema_006"
+    },
+    "tc_c04_zhouzhi_cinema_006": {
+      "id": "tc_c04_zhouzhi_cinema_006",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_cinema",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“倒也行。下次我挑片。”",
+      "next": "tc_c04_zhouzhi_cinema_007"
+    },
+    "tc_c04_zhouzhi_cinema_007": {
+      "id": "tc_c04_zhouzhi_cinema_007",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_cinema_mall",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "电梯里人多，我侧身让出一点空间，她站到我旁边，衣袖碰着我的手背。到一楼，她没急着往外走，先把看完的票根折成一小块，塞进自己的手机壳里。",
+      "next": "tc_c04_zhouzhi_cinema_008"
+    },
+    "tc_c04_zhouzhi_cinema_008": {
+      "id": "tc_c04_zhouzhi_cinema_008",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_cinema_mall",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我看见了，她扬了扬眉：“看什么？这是我买的座位，留个凭证。”",
+      "next": "tc_c04_zhouzhi_before_work_001"
+    },
+    "tc_c04_zhouzhi_before_work_001": {
+      "id": "tc_c04_zhouzhi_before_work_001",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_before_work",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "到了傍晚，天色还亮，我们在街角吃了一碗小馄饨。周栀不想吃太多，直接要了小份，没有为了和我一样换成大碗。",
+      "next": "tc_c04_zhouzhi_before_work_002"
+    },
+    "tc_c04_zhouzhi_before_work_002": {
+      "id": "tc_c04_zhouzhi_before_work_002",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_before_work",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我正想再提议走一段，她看了一眼时间，说自己得回去准备上班。",
+      "next": "tc_c04_zhouzhi_before_work_003"
+    },
+    "tc_c04_zhouzhi_before_work_003": {
+      "id": "tc_c04_zhouzhi_before_work_003",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_before_work",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“这么快？”我问完，才意识到有点像在责怪她。",
+      "next": "tc_c04_zhouzhi_before_work_004"
+    },
+    "tc_c04_zhouzhi_before_work_004": {
+      "id": "tc_c04_zhouzhi_before_work_004",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_before_work",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她抬头看我，笑意很淡，眼睛却亮着。",
+      "next": "tc_c04_zhouzhi_before_work_005"
+    },
+    "tc_c04_zhouzhi_before_work_005": {
+      "id": "tc_c04_zhouzhi_before_work_005",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_before_work",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“快，说明今天没白来。不是说明还得把晚上也给你。”",
+      "next": "tc_c04_zhouzhi_before_work_006"
+    },
+    "tc_c04_zhouzhi_before_work_006": {
+      "id": "tc_c04_zhouzhi_before_work_006",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_before_work_crossroad",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我说好，自己也该回去歇一会儿，晚间还要值班。走到路口，她忽然把伞换到另一只手，用空着的手指碰了碰我的袖口。",
+      "next": "tc_c04_zhouzhi_before_work_007"
+    },
+    "tc_c04_zhouzhi_before_work_007": {
+      "id": "tc_c04_zhouzhi_before_work_007",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_before_work_crossroad",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“下次可以长一点。等我们都休息的时候。”",
+      "next": "tc_c04_zhouzhi_before_work_008"
+    },
+    "tc_c04_zhouzhi_before_work_008": {
+      "id": "tc_c04_zhouzhi_before_work_008",
+      "type": "line",
+      "scene": "ts_c04_zhouzhi_before_work_crossroad",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她碰完就走了。我站着等人行灯，想起自己还没回她，连忙发了句好。她很快回了一个笑脸，后面跟着三个字：“这句行。”",
+      "next": "tc_c04_common_exit"
+    },
+    "tc_c04_zhouzhi_outing_choice": {
+      "id": "tc_c04_zhouzhi_outing_choice",
+      "type": "choice",
+      "scene": "ts_c04_zhouzhi_outing",
+      "character": "zhouzhi",
+      "text": "",
+      "flag": "zhouzhiOuting",
+      "choices": [
+        {
+          "label": "沿河走走，轮流放一首想听的歌",
+          "value": "river",
+          "next": "tc_c04_zhouzhi_river_001"
+        },
+        {
+          "label": "去影院，允许我们喜欢不同的东西",
+          "value": "cinema",
+          "next": "tc_c04_zhouzhi_cinema_001"
+        }
+      ]
+    },
+    "tc_c05_zhouzhi_entry": {
+      "id": "tc_c05_zhouzhi_entry",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "第25天群里说了回声将在第30天停业。周栀自己也回了消息，说约饭可以，别替她买花，她还要上完最后一班，抱着花干活很奇怪。",
+      "next": "tc_c05_zhouzhi_unexpected_company_002"
+    },
+    "tc_c05_zhouzhi_unexpected_company_002": {
+      "id": "tc_c05_zhouzhi_unexpected_company_002",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "第二天下午，我睡醒后按约去见她。本来只是我们两个吃饭，路上遇见毛狼和他的一个同行，我顺口提了句正在找饭吃，毛狼便问能否一起。",
+      "next": "tc_c05_zhouzhi_unexpected_company_003"
+    },
+    "tc_c05_zhouzhi_unexpected_company_003": {
+      "id": "tc_c05_zhouzhi_unexpected_company_003",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我说了好，才想起还没问周栀。",
+      "next": "tc_c05_zhouzhi_unexpected_company_004"
+    },
+    "tc_c05_zhouzhi_unexpected_company_004": {
+      "id": "tc_c05_zhouzhi_unexpected_company_004",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她看见我们三个人站在门口，微微顿了一下，很快挪开旁边的椅子。毛狼忙着讲下午临时改过的演出安排，同行不太熟这条街，我便转头问她哪家店合适。",
+      "next": "tc_c05_zhouzhi_unexpected_company_005"
+    },
+    "tc_c05_zhouzhi_unexpected_company_005": {
+      "id": "tc_c05_zhouzhi_unexpected_company_005",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她提了两家，大家选定以后，又有人把菜单递给她。她问忌口，叫老板，接住毛狼讲到一半忘掉的笑话。一顿饭吃得热闹，我当时甚至觉得她应该也高兴。",
+      "next": "tc_c05_zhouzhi_unexpected_company_006"
+    },
+    "tc_c05_zhouzhi_unexpected_company_006": {
+      "id": "tc_c05_zhouzhi_unexpected_company_006",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "直到我看见她那碗汤已经不冒热气，筷子还整齐搁在碗边。",
+      "next": "tc_c05_zhouzhi_unexpected_company_007"
+    },
+    "tc_c05_zhouzhi_unexpected_company_007": {
+      "id": "tc_c05_zhouzhi_unexpected_company_007",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“你怎么不吃？”我问。",
+      "next": "tc_c05_zhouzhi_unexpected_company_008"
+    },
+    "tc_c05_zhouzhi_unexpected_company_008": {
+      "id": "tc_c05_zhouzhi_unexpected_company_008",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“在听。”",
+      "next": "tc_c05_zhouzhi_unexpected_company_009"
+    },
+    "tc_c05_zhouzhi_unexpected_company_009": {
+      "id": "tc_c05_zhouzhi_unexpected_company_009",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她把筷子拿起来，吃了几口。毛狼和同行先走之后，她没有跟我算谁付了钱，只坐着把剩下的饭慢慢吃完。",
+      "next": "tc_c05_zhouzhi_unexpected_company_010"
+    },
+    "tc_c05_zhouzhi_unexpected_company_010": {
+      "id": "tc_c05_zhouzhi_unexpected_company_010",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我问她是不是累了。",
+      "next": "tc_c05_zhouzhi_unexpected_company_011"
+    },
+    "tc_c05_zhouzhi_unexpected_company_011": {
+      "id": "tc_c05_zhouzhi_unexpected_company_011",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“有点。但我不想说累了，就把这顿饭糊弄过去。”",
+      "next": "tc_c05_zhouzhi_unexpected_company_012"
+    },
+    "tc_c05_zhouzhi_unexpected_company_012": {
+      "id": "tc_c05_zhouzhi_unexpected_company_012",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她放下勺子，看着我。",
+      "next": "tc_c05_zhouzhi_unexpected_company_013"
+    },
+    "tc_c05_zhouzhi_unexpected_company_013": {
+      "id": "tc_c05_zhouzhi_unexpected_company_013",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“文文，你今天是想跟我吃饭，还是觉得有我在，跟谁吃饭都有人接话？”",
+      "next": "tc_c05_zhouzhi_unexpected_company_014"
+    },
+    "tc_c05_zhouzhi_unexpected_company_014": {
+      "id": "tc_c05_zhouzhi_unexpected_company_014",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我怔了一下，说原本当然想跟她吃。",
+      "next": "tc_c05_zhouzhi_unexpected_company_015"
+    },
+    "tc_c05_zhouzhi_unexpected_company_015": {
+      "id": "tc_c05_zhouzhi_unexpected_company_015",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“原本。”她重复了一遍，声音不大。",
+      "next": "tc_c05_zhouzhi_unexpected_company_016"
+    },
+    "tc_c05_zhouzhi_unexpected_company_016": {
+      "id": "tc_c05_zhouzhi_unexpected_company_016",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我终于把路上那句顺口的“好”想起来。她不讨厌毛狼，也没有要求我见面只能看她一个人，可她根本没得到选择这顿饭的机会。",
+      "next": "tc_c05_zhouzhi_unexpected_company_017"
+    },
+    "tc_c05_zhouzhi_unexpected_company_017": {
+      "id": "tc_c05_zhouzhi_unexpected_company_017",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“我该先问你。”我说。",
+      "next": "tc_c05_zhouzhi_unexpected_company_018"
+    },
+    "tc_c05_zhouzhi_unexpected_company_018": {
+      "id": "tc_c05_zhouzhi_unexpected_company_018",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“嗯。而且我今天有点不想照顾场面。坐着不说话，别人会觉得是不是我不欢迎他们，我又忍不住接了。”",
+      "next": "tc_c05_zhouzhi_unexpected_company_019"
+    },
+    "tc_c05_zhouzhi_unexpected_company_019": {
+      "id": "tc_c05_zhouzhi_unexpected_company_019",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她用勺子把最后一点汤舀起来，已经凉了，喝下去的时候皱了皱眉。",
+      "next": "tc_c05_zhouzhi_unexpected_company_020"
+    },
+    "tc_c05_zhouzhi_unexpected_company_020": {
+      "id": "tc_c05_zhouzhi_unexpected_company_020",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我说要不要再点碗热的，她摇头。",
+      "next": "tc_c05_zhouzhi_unexpected_company_021"
+    },
+    "tc_c05_zhouzhi_unexpected_company_021": {
+      "id": "tc_c05_zhouzhi_unexpected_company_021",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“不是再点一碗就行。你先听我说完。”",
+      "next": "tc_c05_zhouzhi_unexpected_company_022"
+    },
+    "tc_c05_zhouzhi_unexpected_company_022": {
+      "id": "tc_c05_zhouzhi_unexpected_company_022",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我把手从菜单上收回来。",
+      "next": "tc_c05_zhouzhi_unexpected_company_023"
+    },
+    "tc_c05_zhouzhi_unexpected_company_023": {
+      "id": "tc_c05_zhouzhi_unexpected_company_023",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company_busstop",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她说完以后问我，现在能不能陪她走到车站，不继续讲有多抱歉，也不把这顿饭说成误会。我答应了。",
+      "next": "tc_c05_zhouzhi_unexpected_company_024"
+    },
+    "tc_c05_zhouzhi_unexpected_company_024": {
+      "id": "tc_c05_zhouzhi_unexpected_company_024",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_unexpected_company_busstop",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "到车站时，她先上了车，隔着玻璃朝我抬了一下手。没有冷脸，也没有像前几次那样很快发来消息。我沿着原路回去，才发现自己竟然想不起来她今天一开始想吃什么。",
+      "next": "tc_c05_zhouzhi_two_seats_001"
+    },
+    "tc_c05_zhouzhi_two_seats_001": {
+      "id": "tc_c05_zhouzhi_two_seats_001",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_two_seats",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我再约周栀时，先告诉她只约了她，又说她如果不想来，可以过几天。",
+      "next": "tc_c05_zhouzhi_two_seats_002"
+    },
+    "tc_c05_zhouzhi_two_seats_002": {
+      "id": "tc_c05_zhouzhi_two_seats_002",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_two_seats",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她回：“想来。不用把我当成碰一下就会碎的杯子。”",
+      "next": "tc_c05_zhouzhi_two_seats_003"
+    },
+    "tc_c05_zhouzhi_two_seats_003": {
+      "id": "tc_c05_zhouzhi_two_seats_003",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_two_seats",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我们坐进一家很普通的面馆。我自己点了菜，问过她口味后再下单。菜上来，我没急着找话题，她也安静吃了几口，终于把肩膀放松下来。",
+      "next": "tc_c05_zhouzhi_two_seats_004"
+    },
+    "tc_c05_zhouzhi_two_seats_004": {
+      "id": "tc_c05_zhouzhi_two_seats_004",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_two_seats",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“那天我也该早一点说。”她说，“有时候话都滑到嘴边了，就接下去，等发现自己不想这样，已经演完半顿饭。”",
+      "next": "tc_c05_zhouzhi_two_seats_005"
+    },
+    "tc_c05_zhouzhi_two_seats_005": {
+      "id": "tc_c05_zhouzhi_two_seats_005",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_two_seats",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“下次你能直接打断我。”",
+      "next": "tc_c05_zhouzhi_two_seats_006"
+    },
+    "tc_c05_zhouzhi_two_seats_006": {
+      "id": "tc_c05_zhouzhi_two_seats_006",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_two_seats",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“我会。但你也不能等着我每次打断。”",
+      "next": "tc_c05_zhouzhi_two_seats_007"
+    },
+    "tc_c05_zhouzhi_two_seats_007": {
+      "id": "tc_c05_zhouzhi_two_seats_007",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_two_seats",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“知道。”",
+      "next": "tc_c05_zhouzhi_two_seats_008"
+    },
+    "tc_c05_zhouzhi_two_seats_008": {
+      "id": "tc_c05_zhouzhi_two_seats_008",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_two_seats",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我们吃完，各自付了自己那份。走到门口，她忽然说，第30天的饭还是照常，不因为这件事就不去见大家。我说我明白，一起吃饭和临时改掉两人的约定，是两件事。",
+      "next": "tc_c05_zhouzhi_two_seats_009"
+    },
+    "tc_c05_zhouzhi_two_seats_009": {
+      "id": "tc_c05_zhouzhi_two_seats_009",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_two_seats",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她点头，伸手把我外套后面翻起来的领子压平。",
+      "next": "tc_c05_zhouzhi_two_seats_010"
+    },
+    "tc_c05_zhouzhi_two_seats_010": {
+      "id": "tc_c05_zhouzhi_two_seats_010",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_two_seats",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“今天你说的话比上回少，饭倒吃得舒服。”",
+      "next": "tc_c05_zhouzhi_two_seats_011"
+    },
+    "tc_c05_zhouzhi_two_seats_011": {
+      "id": "tc_c05_zhouzhi_two_seats_011",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_two_seats",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我笑着问是不是又讲了不好笑的故事。她想了想，说今天还没讲，可以试一个。",
+      "next": "tc_c05_zhouzhi_two_seats_012"
+    },
+    "tc_c05_zhouzhi_two_seats_012": {
+      "id": "tc_c05_zhouzhi_two_seats_012",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_two_seats",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我刚开口，她已经笑了。",
+      "next": "tc_c05_zhouzhi_two_seats_013"
+    },
+    "tc_c05_zhouzhi_two_seats_013": {
+      "id": "tc_c05_zhouzhi_two_seats_013",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_two_seats",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“你这次不用笑这么早。”",
+      "next": "tc_c05_zhouzhi_two_seats_014"
+    },
+    "tc_c05_zhouzhi_two_seats_014": {
+      "id": "tc_c05_zhouzhi_two_seats_014",
+      "type": "line",
+      "scene": "ts_c05_zhouzhi_two_seats",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“不是给你捧场。你准备开讲那个表情，真的很像要宣读通知。”",
+      "next": "tc_c05_common_exit"
+    },
+    "tc_c06_zhouzhi_entry": {
+      "id": "tc_c06_zhouzhi_entry",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "第30天傍晚那顿饭散后，周栀去上她最后一班，我回网吧准备十点接班。凌晨她发来一张空饭盒的照片，说终于吃上东西了。我当时正接待客人，等手头空下来才回了句早点休息。她没要求我赶过去，我也没把自己的夜班变成一场必须缺席的仪式。",
+      "next": "tc_c06_zhouzhi_after_closing_002"
+    },
+    "tc_c06_zhouzhi_after_closing_002": {
+      "id": "tc_c06_zhouzhi_after_closing_002",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "第31天我们都补了觉。到第32天下午，我休班，她约我去买点日用品，说家里一只杯子的把手松了，早该换，拖到现在。",
+      "next": "tc_c06_zhouzhi_after_closing_003"
+    },
+    "tc_c06_zhouzhi_after_closing_003": {
+      "id": "tc_c06_zhouzhi_after_closing_003",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我们在路口见面，往前走了一段，她忽然停住。",
+      "next": "tc_c06_zhouzhi_after_closing_004"
+    },
+    "tc_c06_zhouzhi_after_closing_004": {
+      "id": "tc_c06_zhouzhi_after_closing_004",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“走错了。”",
+      "next": "tc_c06_zhouzhi_after_closing_005"
+    },
+    "tc_c06_zhouzhi_after_closing_005": {
+      "id": "tc_c06_zhouzhi_after_closing_005",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_closed_echo",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我看了看路，这条路通向回声。她也看着那个方向，没站很久，转身绕到另一边。",
+      "next": "tc_c06_zhouzhi_after_closing_006"
+    },
+    "tc_c06_zhouzhi_after_closing_006": {
+      "id": "tc_c06_zhouzhi_after_closing_006",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_closed_echo",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“脚比脑子熟。”她说。",
+      "next": "tc_c06_zhouzhi_after_closing_007"
+    },
+    "tc_c06_zhouzhi_after_closing_007": {
+      "id": "tc_c06_zhouzhi_after_closing_007",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_closed_echo",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我没有问她是不是舍不得。她过了马路，反而自己说，昨天醒来第一件事是看手机，以为错过了上班时间，愣了一会儿才反应过来不用去了。",
+      "next": "tc_c06_zhouzhi_after_closing_008"
+    },
+    "tc_c06_zhouzhi_after_closing_008": {
+      "id": "tc_c06_zhouzhi_after_closing_008",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_closed_echo",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“然后呢？”",
+      "next": "tc_c06_zhouzhi_after_closing_009"
+    },
+    "tc_c06_zhouzhi_after_closing_009": {
+      "id": "tc_c06_zhouzhi_after_closing_009",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_closed_echo",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“把闹钟关了。躺着又睡了半小时。”",
+      "next": "tc_c06_zhouzhi_after_closing_010"
+    },
+    "tc_c06_zhouzhi_after_closing_010": {
+      "id": "tc_c06_zhouzhi_after_closing_010",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_closed_echo",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“听起来不错。”",
+      "next": "tc_c06_zhouzhi_after_closing_011"
+    },
+    "tc_c06_zhouzhi_after_closing_011": {
+      "id": "tc_c06_zhouzhi_after_closing_011",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_closed_echo",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“是不错。我就是还没习惯。”",
+      "next": "tc_c06_zhouzhi_after_closing_012"
+    },
+    "tc_c06_zhouzhi_after_closing_012": {
+      "id": "tc_c06_zhouzhi_after_closing_012",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_supermarket",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "超市里放着很欢快的音乐。我们从清洁用品一排走到杯子一排，周栀拿起一只漂亮却很重的杯子，掂了掂又放下。最后选了一只普通白杯，杯沿有一圈浅蓝。",
+      "next": "tc_c06_zhouzhi_after_closing_013"
+    },
+    "tc_c06_zhouzhi_after_closing_013": {
+      "id": "tc_c06_zhouzhi_after_closing_013",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_supermarket",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我说很像她那件衬衫，她看看自己，再看杯子：“那它挺会穿。”",
+      "next": "tc_c06_zhouzhi_after_closing_014"
+    },
+    "tc_c06_zhouzhi_after_closing_014": {
+      "id": "tc_c06_zhouzhi_after_closing_014",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_supermarket",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "旁边有情侣款，我刚看到就移开眼。周栀却很坦然地把白杯放进篮子，说自己只需要一个，我若想买，就选我喜欢的。",
+      "next": "tc_c06_zhouzhi_after_closing_015"
+    },
+    "tc_c06_zhouzhi_after_closing_015": {
+      "id": "tc_c06_zhouzhi_after_closing_015",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_supermarket",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我最后拿了个结实的水杯，准备以后带到网吧。她没有替我付钱，也没要求我们买成一对。结账以后，两只杯子在各自的袋子里碰着包装纸，走路时发出很轻的声响。",
+      "next": "tc_c06_zhouzhi_after_closing_016"
+    },
+    "tc_c06_zhouzhi_after_closing_016": {
+      "id": "tc_c06_zhouzhi_after_closing_016",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_soymilk",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我们在外面找地方坐。她喝着刚买的热豆浆，说这几天要和朋友把能试的几样夜宵先做起来，但不想把所有空出来的时间一下塞满。",
+      "next": "tc_c06_zhouzhi_after_closing_017"
+    },
+    "tc_c06_zhouzhi_after_closing_017": {
+      "id": "tc_c06_zhouzhi_after_closing_017",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_soymilk",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“别人一听我不上那个班了，就问下一步。问得多，我自己也慌，像中间空一天都不行。”",
+      "next": "tc_c06_zhouzhi_after_closing_018"
+    },
+    "tc_c06_zhouzhi_after_closing_018": {
+      "id": "tc_c06_zhouzhi_after_closing_018",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_soymilk",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“你想空几天？”",
+      "next": "tc_c06_zhouzhi_after_closing_019"
+    },
+    "tc_c06_zhouzhi_after_closing_019": {
+      "id": "tc_c06_zhouzhi_after_closing_019",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_soymilk",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“先把这杯喝完再说。”",
+      "next": "tc_c06_zhouzhi_after_closing_020"
+    },
+    "tc_c06_zhouzhi_after_closing_020": {
+      "id": "tc_c06_zhouzhi_after_closing_020",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_soymilk",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她说完自己笑了。我把袋子放稳，坐在她旁边，没继续追问计划，也没打开地图替她找摊位。",
+      "next": "tc_c06_zhouzhi_after_closing_021"
+    },
+    "tc_c06_zhouzhi_after_closing_021": {
+      "id": "tc_c06_zhouzhi_after_closing_021",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_soymilk",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "一对学生模样的年轻人从旁边走过，争论谁上次忘记带伞。周栀看了一眼自己放在脚边的新伞，用鞋尖轻轻勾回一点，怕挡住过道。",
+      "next": "tc_c06_zhouzhi_after_closing_022"
+    },
+    "tc_c06_zhouzhi_after_closing_022": {
+      "id": "tc_c06_zhouzhi_after_closing_022",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_soymilk",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“这把还不错。”她说。",
+      "next": "tc_c06_zhouzhi_after_closing_023"
+    },
+    "tc_c06_zhouzhi_after_closing_023": {
+      "id": "tc_c06_zhouzhi_after_closing_023",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_soymilk",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“买的那天就知道了？”",
+      "next": "tc_c06_zhouzhi_after_closing_024"
+    },
+    "tc_c06_zhouzhi_after_closing_024": {
+      "id": "tc_c06_zhouzhi_after_closing_024",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_soymilk",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“用了才知道。那天只知道放得进包。”",
+      "next": "tc_c06_zhouzhi_after_closing_025"
+    },
+    "tc_c06_zhouzhi_after_closing_025": {
+      "id": "tc_c06_zhouzhi_after_closing_025",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_accessories",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她说得很平常，我却忽然想起第一次陪她买伞时，我挑了把能遮两个人的，根本没问她需要什么。",
+      "next": "tc_c06_zhouzhi_after_closing_026"
+    },
+    "tc_c06_zhouzhi_after_closing_026": {
+      "id": "tc_c06_zhouzhi_after_closing_026",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_accessories",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "喝完豆浆，她提议走回去一段。我们经过一排刚开门的小店，她停在一家门口看耳钉，说自己很久没慢慢选这种东西。",
+      "next": "tc_c06_zhouzhi_after_closing_027"
+    },
+    "tc_c06_zhouzhi_after_closing_027": {
+      "id": "tc_c06_zhouzhi_after_closing_027",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_accessories",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我问要不要进去，她反问我有没有耐心。我看了眼时间，今天不用上班，回去也没有别的安排。",
+      "next": "tc_c06_zhouzhi_after_closing_028"
+    },
+    "tc_c06_zhouzhi_after_closing_028": {
+      "id": "tc_c06_zhouzhi_after_closing_028",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_accessories",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“有。”",
+      "next": "tc_c06_zhouzhi_after_closing_029"
+    },
+    "tc_c06_zhouzhi_after_closing_029": {
+      "id": "tc_c06_zhouzhi_after_closing_029",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_accessories",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她进去后挑了很久，最后什么也没买。出来时看看我，像等我说一句白逛了。我只是把她刚才交给我的伞还过去，问接下来走哪边。",
+      "next": "tc_c06_zhouzhi_after_closing_030"
+    },
+    "tc_c06_zhouzhi_after_closing_030": {
+      "id": "tc_c06_zhouzhi_after_closing_030",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_accessories",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "周栀把伞握好，笑着站到我身旁。",
+      "next": "tc_c06_zhouzhi_after_closing_031"
+    },
+    "tc_c06_zhouzhi_after_closing_031": {
+      "id": "tc_c06_zhouzhi_after_closing_031",
+      "type": "line",
+      "scene": "ts_c06_zhouzhi_after_closing_accessories",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“这边。还不想回去。”",
+      "next": "tc_c06_common_exit"
+    },
+    "tc_c07_zhouzhi_entry": {
+      "id": "tc_c07_zhouzhi_entry",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_her_plans",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "周栀和朋友已经试着卖过几个晚上的夜宵。有一晚东西没卖完，两个人分着带回去；另一晚提前收摊，回家反而饿了，又各煮了一碗面。她在消息里讲这些，没有附上一句很快就会顺利。",
+      "next": "tc_c07_zhouzhi_her_plans_002"
+    },
+    "tc_c07_zhouzhi_her_plans_002": {
+      "id": "tc_c07_zhouzhi_her_plans_002",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_her_plans",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我问过能不能去看看。她说来买吃的当然可以，但别为了等她收摊一直坐到很晚，我还有自己的觉要睡，摊上也不是缺了我就不能动。",
+      "next": "tc_c07_zhouzhi_her_plans_003"
+    },
+    "tc_c07_zhouzhi_her_plans_003": {
+      "id": "tc_c07_zhouzhi_her_plans_003",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_her_plans",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "于是我去过一次，买了一份自己想吃的，坐在另一边吃完便走。她在忙，抬头看见我，只晃了晃手里的夹子。我没有等到她专门抽空来陪，回去后她发消息，说看见我把不喜欢的那样菜挑到旁边了，下回直接讲，别躲着研究。",
+      "next": "tc_c07_zhouzhi_her_plans_004"
+    },
+    "tc_c07_zhouzhi_her_plans_004": {
+      "id": "tc_c07_zhouzhi_her_plans_004",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_her_plans",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "第43天她没安排试卖。我补觉后和她碰面，她却先告诉我，下个休息日要和朋友出去，不是谈摊位，单纯去逛街。",
+      "next": "tc_c07_zhouzhi_her_plans_005"
+    },
+    "tc_c07_zhouzhi_her_plans_005": {
+      "id": "tc_c07_zhouzhi_her_plans_005",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_her_plans",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“是不是我最近总说我和朋友，你会觉得一直插不上？”她问。",
+      "next": "tc_c07_zhouzhi_her_plans_006"
+    },
+    "tc_c07_zhouzhi_her_plans_006": {
+      "id": "tc_c07_zhouzhi_her_plans_006",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_her_plans",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“有时会。但你也不能只跟我见面。”",
+      "next": "tc_c07_zhouzhi_her_plans_007"
+    },
+    "tc_c07_zhouzhi_her_plans_007": {
+      "id": "tc_c07_zhouzhi_her_plans_007",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_her_plans",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她看着我，点了点头。",
+      "next": "tc_c07_zhouzhi_her_plans_008"
+    },
+    "tc_c07_zhouzhi_her_plans_008": {
+      "id": "tc_c07_zhouzhi_her_plans_008",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_her_plans",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“嗯。我想跟你约，也想跟她出去。这两件事得各留时间。”",
+      "next": "tc_c07_zhouzhi_her_plans_009"
+    },
+    "tc_c07_zhouzhi_her_plans_009": {
+      "id": "tc_c07_zhouzhi_her_plans_009",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_her_plans",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我问她今天想去哪儿，她从包里摸出手机，说还记得第23天有个“下次”。",
+      "next": "tc_c07_zhouzhi_outing_gate"
+    },
+    "tc_c07_zhouzhi_river_return_001": {
+      "id": "tc_c07_zhouzhi_river_return_001",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_river_return",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "周栀真选了一首很吵的歌。刚听了几秒，我就把音量调低，她笑得靠向椅背，说她自己平时也不会开那么大。",
+      "next": "tc_c07_zhouzhi_river_return_002"
+    },
+    "tc_c07_zhouzhi_river_return_002": {
+      "id": "tc_c07_zhouzhi_river_return_002",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_river_return",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我们仍各戴一只耳机，手机放在中间。走到副歌，她没有唱，只跟着点了两下头。我没问她为什么不唱，她反而问我会不会觉得只听有点无聊。",
+      "next": "tc_c07_zhouzhi_river_return_003"
+    },
+    "tc_c07_zhouzhi_river_return_003": {
+      "id": "tc_c07_zhouzhi_river_return_003",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_river_return",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“你上次也没唱。”",
+      "next": "tc_c07_zhouzhi_river_return_004"
+    },
+    "tc_c07_zhouzhi_river_return_004": {
+      "id": "tc_c07_zhouzhi_river_return_004",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_river_return",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“嗯。以前总有人听见歌就叫我来两句。”",
+      "next": "tc_c07_zhouzhi_river_return_005"
+    },
+    "tc_c07_zhouzhi_river_return_005": {
+      "id": "tc_c07_zhouzhi_river_return_005",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_river_return",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“我今天主要想知道，这首哪里最好听。”",
+      "next": "tc_c07_zhouzhi_river_return_006"
+    },
+    "tc_c07_zhouzhi_river_return_006": {
+      "id": "tc_c07_zhouzhi_river_return_006",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_river_return",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她把进度拖回去一点，指着很短的一段伴奏，让我仔细听。我听了两遍才找见，她满意地把手机放下，说这下能跟我讨论了。",
+      "next": "tc_c07_zhouzhi_river_return_007"
+    },
+    "tc_c07_zhouzhi_river_return_007": {
+      "id": "tc_c07_zhouzhi_river_return_007",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_river_return",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "换到我的曲子时，她挪过来一点，伸手把耳机线从我衣扣上解开。手背碰到我胸前的布料，她也没大惊小怪，只说我这件衣服专门挂东西。",
+      "next": "tc_c07_zhouzhi_river_return_008"
+    },
+    "tc_c07_zhouzhi_river_return_008": {
+      "id": "tc_c07_zhouzhi_river_return_008",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_river_return",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我们听完了两首才走，没有给谁唱一场，也没有把安静的一小时变成欠着的表演。",
+      "next": "tc_c07_zhouzhi_crossroad_001"
+    },
+    "tc_c07_zhouzhi_cinema_return_001": {
+      "id": "tc_c07_zhouzhi_cinema_return_001",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_cinema_return",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她挑了一部节奏慢些的片子。我有点担心自己看不进去，提前问她如果真觉得闷，能不能散场后说实话。",
+      "next": "tc_c07_zhouzhi_cinema_return_002"
+    },
+    "tc_c07_zhouzhi_cinema_return_002": {
+      "id": "tc_c07_zhouzhi_cinema_return_002",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_cinema_return",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“能。只要别在里面每五分钟问还有多久。”",
+      "next": "tc_c07_zhouzhi_cinema_return_003"
+    },
+    "tc_c07_zhouzhi_cinema_return_003": {
+      "id": "tc_c07_zhouzhi_cinema_return_003",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_cinema_return",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "这次仍坐靠过道的位置。我看了一半，竟然真的跟着故事安静下来。电影结束后，我们没有立刻起身，在字幕滚动的时候聊了两句。我说喜欢最后两个人各走一边，周栀说她更喜欢他们之前那场说得不漂亮的道歉。",
+      "next": "tc_c07_zhouzhi_cinema_return_004"
+    },
+    "tc_c07_zhouzhi_cinema_return_004": {
+      "id": "tc_c07_zhouzhi_cinema_return_004",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_cinema_return",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“你看，还不一样。”她说。",
+      "next": "tc_c07_zhouzhi_cinema_return_005"
+    },
+    "tc_c07_zhouzhi_cinema_return_005": {
+      "id": "tc_c07_zhouzhi_cinema_return_005",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_cinema_return",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“但这次都没睡着。”",
+      "next": "tc_c07_zhouzhi_cinema_return_006"
+    },
+    "tc_c07_zhouzhi_cinema_return_006": {
+      "id": "tc_c07_zhouzhi_cinema_return_006",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_cinema_return",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她把票根收好，没有要求我也留下。我自己折起来放进口袋，走到门口才发现纸被攥得有点皱。",
+      "next": "tc_c07_zhouzhi_cinema_return_007"
+    },
+    "tc_c07_zhouzhi_cinema_return_007": {
+      "id": "tc_c07_zhouzhi_cinema_return_007",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_cinema_return",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“以后别拿它当书签，会把书硌出坑。”她说。",
+      "next": "tc_c07_zhouzhi_cinema_return_008"
+    },
+    "tc_c07_zhouzhi_cinema_return_008": {
+      "id": "tc_c07_zhouzhi_cinema_return_008",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_cinema_return",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“你为什么管我怎么用票？”",
+      "next": "tc_c07_zhouzhi_cinema_return_009"
+    },
+    "tc_c07_zhouzhi_cinema_return_009": {
+      "id": "tc_c07_zhouzhi_cinema_return_009",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_cinema_return",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“因为我看见了。你不听也行。”",
+      "next": "tc_c07_zhouzhi_cinema_return_010"
+    },
+    "tc_c07_zhouzhi_cinema_return_010": {
+      "id": "tc_c07_zhouzhi_cinema_return_010",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_cinema_return",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她说完伸手，把我手里折得很糟的票根按平了一点，再还给我。",
+      "next": "tc_c07_zhouzhi_crossroad_001"
+    },
+    "tc_c07_zhouzhi_crossroad_001": {
+      "id": "tc_c07_zhouzhi_crossroad_001",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_crossroad",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "傍晚走到路口，她说自己要去另一条街买点东西，问我怎么回去。我说先回住处吃晚饭，九点多照常出门上班。",
+      "next": "tc_c07_zhouzhi_crossroad_002"
+    },
+    "tc_c07_zhouzhi_crossroad_002": {
+      "id": "tc_c07_zhouzhi_crossroad_002",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_crossroad",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她便没让我陪着绕路。我也没有把“我都已经来了”挂在嘴上。分别前她忽然问：“头一回跟毛狼一起吃面，你记得我点了什么吗？”",
+      "next": "tc_c07_zhouzhi_crossroad_003"
+    },
+    "tc_c07_zhouzhi_crossroad_003": {
+      "id": "tc_c07_zhouzhi_crossroad_003",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_crossroad",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我努力想了想，承认记不清。",
+      "next": "tc_c07_zhouzhi_crossroad_004"
+    },
+    "tc_c07_zhouzhi_crossroad_004": {
+      "id": "tc_c07_zhouzhi_crossroad_004",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_crossroad",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“我也记不清你点了什么。”她笑，“不用考。只是刚想起，那会儿还觉得你特别客气。”",
+      "next": "tc_c07_zhouzhi_crossroad_005"
+    },
+    "tc_c07_zhouzhi_crossroad_005": {
+      "id": "tc_c07_zhouzhi_crossroad_005",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_crossroad",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“现在呢？”",
+      "next": "tc_c07_zhouzhi_crossroad_006"
+    },
+    "tc_c07_zhouzhi_crossroad_006": {
+      "id": "tc_c07_zhouzhi_crossroad_006",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_crossroad",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她看了眼我手里的袋子，又抬眼看我。",
+      "next": "tc_c07_zhouzhi_crossroad_007"
+    },
+    "tc_c07_zhouzhi_crossroad_007": {
+      "id": "tc_c07_zhouzhi_crossroad_007",
+      "type": "line",
+      "scene": "ts_c07_zhouzhi_crossroad",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“现在有时候欠两句，但还愿意见。”",
+      "next": "tc_c07_common_exit"
+    },
+    "tc_c07_zhouzhi_outing_gate": {
+      "id": "tc_c07_zhouzhi_outing_gate",
+      "type": "gate",
+      "scene": "ts_c07_zhouzhi_her_plans",
+      "cases": [
+        {
+          "flag": "zhouzhiOuting",
+          "value": "river",
+          "next": "tc_c07_zhouzhi_river_return_001"
+        },
+        {
+          "flag": "zhouzhiOuting",
+          "value": "cinema",
+          "next": "tc_c07_zhouzhi_cinema_return_001"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    },
+    "tc_c08_zhouzhi_entry": {
+      "id": "tc_c08_zhouzhi_entry",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "第52天，我跟师匠商量过轮班，眼下仍在试排。我把新的安排告诉周栀，她看完就问第57天下午我能不能睡够。我说能，夜里还要值班，但晚饭有空。",
+      "next": "tc_c08_zhouzhi_dinner_budget_002"
+    },
+    "tc_c08_zhouzhi_dinner_budget_002": {
+      "id": "tc_c08_zhouzhi_dinner_budget_002",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我挑了一家门面很漂亮的店，想请她吃顿好的。走到门口，瞥见菜单，才发现自己事先看的是另一份便宜许多的套餐。",
+      "next": "tc_c08_zhouzhi_dinner_budget_003"
+    },
+    "tc_c08_zhouzhi_dinner_budget_003": {
+      "id": "tc_c08_zhouzhi_dinner_budget_003",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我站在那里没出声。周栀已经往前走了两步，见我没跟上，又退回来。",
+      "next": "tc_c08_zhouzhi_dinner_budget_004"
+    },
+    "tc_c08_zhouzhi_dinner_budget_004": {
+      "id": "tc_c08_zhouzhi_dinner_budget_004",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“怎么了？”",
+      "next": "tc_c08_zhouzhi_dinner_budget_005"
+    },
+    "tc_c08_zhouzhi_dinner_budget_005": {
+      "id": "tc_c08_zhouzhi_dinner_budget_005",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“没事，进去吧。”",
+      "next": "tc_c08_zhouzhi_dinner_budget_006"
+    },
+    "tc_c08_zhouzhi_dinner_budget_006": {
+      "id": "tc_c08_zhouzhi_dinner_budget_006",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她看看我的脸，再看看菜单，没有替我说贵，只问我是不是真的想吃这家。",
+      "next": "tc_c08_zhouzhi_dinner_budget_007"
+    },
+    "tc_c08_zhouzhi_dinner_budget_007": {
+      "id": "tc_c08_zhouzhi_dinner_budget_007",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我原想说难得一次，后面又接了一句自己都听腻的自嘲：“我这个网管，选个地方都选不明白。”",
+      "next": "tc_c08_zhouzhi_dinner_budget_008"
+    },
+    "tc_c08_zhouzhi_dinner_budget_008": {
+      "id": "tc_c08_zhouzhi_dinner_budget_008",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "周栀没有笑。",
+      "next": "tc_c08_zhouzhi_dinner_budget_009"
+    },
+    "tc_c08_zhouzhi_dinner_budget_009": {
+      "id": "tc_c08_zhouzhi_dinner_budget_009",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“选错菜单跟你做什么工作有什么关系？”",
+      "next": "tc_c08_zhouzhi_dinner_budget_010"
+    },
+    "tc_c08_zhouzhi_dinner_budget_010": {
+      "id": "tc_c08_zhouzhi_dinner_budget_010",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我握着手机，屏幕上那个套餐小得几乎看不清。她靠到旁边，不挡住店门，等我把话说完。",
+      "next": "tc_c08_zhouzhi_dinner_budget_011"
+    },
+    "tc_c08_zhouzhi_dinner_budget_011": {
+      "id": "tc_c08_zhouzhi_dinner_budget_011",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“我想请你吃点好一点的。刚才才发现，比我打算的多不少。”",
+      "next": "tc_c08_zhouzhi_dinner_budget_012"
+    },
+    "tc_c08_zhouzhi_dinner_budget_012": {
+      "id": "tc_c08_zhouzhi_dinner_budget_012",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“那你说这句就行。我今天没带打分表。”",
+      "next": "tc_c08_zhouzhi_dinner_budget_013"
+    },
+    "tc_c08_zhouzhi_dinner_budget_013": {
+      "id": "tc_c08_zhouzhi_dinner_budget_013",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她语气很平，我却因为她没有立刻替我解围，反而慢慢不紧张了。我说自己确实舍不得一次花那么多，房租刚交，想留一点钱。说完以后，面前的路还是那条路，没有谁忽然觉得我矮了一截。",
+      "next": "tc_c08_zhouzhi_dinner_budget_014"
+    },
+    "tc_c08_zhouzhi_dinner_budget_014": {
+      "id": "tc_c08_zhouzhi_dinner_budget_014",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "周栀从手机里翻出另一家店，问我上回吃的小锅饭怎么样。我说喜欢，她便决定往那边走。",
+      "next": "tc_c08_zhouzhi_dinner_budget_015"
+    },
+    "tc_c08_zhouzhi_dinner_budget_015": {
+      "id": "tc_c08_zhouzhi_dinner_budget_015",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“今天我自己的那份自己付。你若还想请，我可以接受一杯热豆浆。”",
+      "next": "tc_c08_zhouzhi_dinner_budget_016"
+    },
+    "tc_c08_zhouzhi_dinner_budget_016": {
+      "id": "tc_c08_zhouzhi_dinner_budget_016",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“你确定没在给我找台阶？”",
+      "next": "tc_c08_zhouzhi_dinner_budget_017"
+    },
+    "tc_c08_zhouzhi_dinner_budget_017": {
+      "id": "tc_c08_zhouzhi_dinner_budget_017",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“在给我自己找晚饭。再站下去，便宜的也要排队了。”",
+      "next": "tc_c08_zhouzhi_dinner_budget_018"
+    },
+    "tc_c08_zhouzhi_dinner_budget_018": {
+      "id": "tc_c08_zhouzhi_dinner_budget_018",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget_simple_dinner",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "到了店里，我们分别点了喜欢的菜，没有凑成一个看起来很体面的套餐。她说最近试卖还在摸索，有几天回去特别困，连想吃什么都懒得想，最后吃得很随便。",
+      "next": "tc_c08_zhouzhi_dinner_budget_019"
+    },
+    "tc_c08_zhouzhi_dinner_budget_019": {
+      "id": "tc_c08_zhouzhi_dinner_budget_019",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget_simple_dinner",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“你不是最在意热饭？”",
+      "next": "tc_c08_zhouzhi_dinner_budget_020"
+    },
+    "tc_c08_zhouzhi_dinner_budget_020": {
+      "id": "tc_c08_zhouzhi_dinner_budget_020",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget_simple_dinner",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“在意也会偷懒啊。以为换个事情做，我就突然能把自己照顾得很好，想得太美。”",
+      "next": "tc_c08_zhouzhi_dinner_budget_021"
+    },
+    "tc_c08_zhouzhi_dinner_budget_021": {
+      "id": "tc_c08_zhouzhi_dinner_budget_021",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget_simple_dinner",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她说完笑了一下，接着认真把碗里剩下的饭吃完。我发现她也会算钱，会嫌麻烦，会因为怕朋友辛苦而多揽一点，然后第二天又累得不想说话。",
+      "next": "tc_c08_zhouzhi_dinner_budget_022"
+    },
+    "tc_c08_zhouzhi_dinner_budget_022": {
+      "id": "tc_c08_zhouzhi_dinner_budget_022",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget_soymilk",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "饭后我去买了两杯热豆浆，一杯给她，一杯留给自己。她接过去，隔着纸杯暖手，沿着街慢慢走。",
+      "next": "tc_c08_zhouzhi_dinner_budget_023"
+    },
+    "tc_c08_zhouzhi_dinner_budget_023": {
+      "id": "tc_c08_zhouzhi_dinner_budget_023",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget_soymilk",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“这顿挺好。”她说。",
+      "next": "tc_c08_zhouzhi_dinner_budget_024"
+    },
+    "tc_c08_zhouzhi_dinner_budget_024": {
+      "id": "tc_c08_zhouzhi_dinner_budget_024",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget_soymilk",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我没有再确认她是不是在安慰我，只说我也吃饱了。",
+      "next": "tc_c08_zhouzhi_dinner_budget_025"
+    },
+    "tc_c08_zhouzhi_dinner_budget_025": {
+      "id": "tc_c08_zhouzhi_dinner_budget_025",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget_soymilk",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她沿着杯沿吹了一圈，说豆浆还是烫。我举起自己的，想换给她，刚碰一下杯壁便缩了手。两杯都一样。她看着我那个已经摆出帮忙姿势的胳膊，笑得赶紧把豆浆拿远。我们就在街边多站了一会儿，看老板把门前翻倒的塑料凳一张张扶好。她不急着喝，我也不急着走。",
+      "next": "tc_c08_zhouzhi_dinner_budget_026"
+    },
+    "tc_c08_zhouzhi_dinner_budget_026": {
+      "id": "tc_c08_zhouzhi_dinner_budget_026",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget_soymilk",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "走到要分别的地方，她问轮班试过以后会不会少一点夜班。我说还在商量，得等大家的安排都合适，不是已经确定以后都能空出晚上。",
+      "next": "tc_c08_zhouzhi_dinner_budget_027"
+    },
+    "tc_c08_zhouzhi_dinner_budget_027": {
+      "id": "tc_c08_zhouzhi_dinner_budget_027",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget_soymilk",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她点点头，把下一次想见的几个时间念给我听。我们先定了一个双方都能保证的下午，其他的等排班明确再说。",
+      "next": "tc_c08_zhouzhi_dinner_budget_028"
+    },
+    "tc_c08_zhouzhi_dinner_budget_028": {
+      "id": "tc_c08_zhouzhi_dinner_budget_028",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget_soymilk",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她收起手机，忽然用肩膀轻碰我一下。",
+      "next": "tc_c08_zhouzhi_dinner_budget_029"
+    },
+    "tc_c08_zhouzhi_dinner_budget_029": {
+      "id": "tc_c08_zhouzhi_dinner_budget_029",
+      "type": "line",
+      "scene": "ts_c08_zhouzhi_dinner_budget_soymilk",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“下次选错店也告诉我。说不定我也选错过，轮到我笑自己。”",
+      "next": "tc_c08_common_exit"
+    },
+    "tc_c09_zhouzhi_entry": {
+      "id": "tc_c09_zhouzhi_entry",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_relationship",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "第61天之后，轮班的安排定下来。我还会值夜班，但能提前给出几个不需要临时挤出来的休息日。周栀把自己和朋友试卖的时间错开，在第75天约我吃晚饭。",
+      "next": "tc_c09_zhouzhi_relationship_002"
+    },
+    "tc_c09_zhouzhi_relationship_002": {
+      "id": "tc_c09_zhouzhi_relationship_002",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_relationship",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "这次她没有急着报店名，先问我想不想去河边那家小馆。我说想，问她是不是也想吃，她回了句：“是，已经想两天了。”",
+      "next": "tc_c09_zhouzhi_relationship_003"
+    },
+    "tc_c09_zhouzhi_relationship_003": {
+      "id": "tc_c09_zhouzhi_relationship_003",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_relationship",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她来得比我早，给自己倒了水，却没替我点菜。我坐下后自己选了一份，老板问辣椒怎么放，她指指两个碟子，说各放各的。",
+      "next": "tc_c09_zhouzhi_relationship_004"
+    },
+    "tc_c09_zhouzhi_relationship_004": {
+      "id": "tc_c09_zhouzhi_relationship_004",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_relationship",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "饭快吃完时，她从包里取出纸巾，擦干净手，又把手机翻过来扣在桌上。",
+      "next": "tc_c09_zhouzhi_relationship_005"
+    },
+    "tc_c09_zhouzhi_relationship_005": {
+      "id": "tc_c09_zhouzhi_relationship_005",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_relationship",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“我有句话想说。”",
+      "next": "tc_c09_zhouzhi_relationship_006"
+    },
+    "tc_c09_zhouzhi_relationship_006": {
+      "id": "tc_c09_zhouzhi_relationship_006",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_relationship",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我以为是夜宵的事，正要问，她看见我张口，先抬手挡住。",
+      "next": "tc_c09_zhouzhi_relationship_007"
+    },
+    "tc_c09_zhouzhi_relationship_007": {
+      "id": "tc_c09_zhouzhi_relationship_007",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_relationship",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“不是请你帮忙。也不是问你有没有别的好工作。”",
+      "next": "tc_c09_zhouzhi_relationship_008"
+    },
+    "tc_c09_zhouzhi_relationship_008": {
+      "id": "tc_c09_zhouzhi_relationship_008",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_relationship",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她说完，自己笑了一声，像是把那一点紧张先笑出去。",
+      "next": "tc_c09_zhouzhi_relationship_009"
+    },
+    "tc_c09_zhouzhi_relationship_009": {
+      "id": "tc_c09_zhouzhi_relationship_009",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_relationship",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“我喜欢跟你单独待着。现在想再往前一点，不只是想吃饭了就找你。”",
+      "next": "tc_c09_zhouzhi_relationship_010"
+    },
+    "tc_c09_zhouzhi_relationship_010": {
+      "id": "tc_c09_zhouzhi_relationship_010",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_relationship",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我看着她。她平时讲话那么直，这会儿却低头把纸巾折了两次，边角没对齐，又停下来，不折了。",
+      "next": "tc_c09_zhouzhi_relationship_011"
+    },
+    "tc_c09_zhouzhi_relationship_011": {
+      "id": "tc_c09_zhouzhi_relationship_011",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_relationship",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“你愿不愿意跟我交往？”",
+      "next": "tc_c09_zhouzhi_relationship_choice"
+    },
+    "tc_c09_zhouzhi_dating_001": {
+      "id": "tc_c09_zhouzhi_dating_001",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我答得有些快，周栀抬起头，眼睛里的紧绷一下散开了。",
+      "next": "tc_c09_zhouzhi_dating_002"
+    },
+    "tc_c09_zhouzhi_dating_002": {
+      "id": "tc_c09_zhouzhi_dating_002",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“你至少想半秒吧。”",
+      "next": "tc_c09_zhouzhi_dating_003"
+    },
+    "tc_c09_zhouzhi_dating_003": {
+      "id": "tc_c09_zhouzhi_dating_003",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“已经想过了。”",
+      "next": "tc_c09_zhouzhi_dating_004"
+    },
+    "tc_c09_zhouzhi_dating_004": {
+      "id": "tc_c09_zhouzhi_dating_004",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“什么时候？”",
+      "next": "tc_c09_zhouzhi_dating_005"
+    },
+    "tc_c09_zhouzhi_dating_005": {
+      "id": "tc_c09_zhouzhi_dating_005",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我告诉她，有时睡醒看见她的消息，会故意慢一点回复，好像这样就显得没等；后来又忍不住点开看她有没有说下一句。还有买杯子那天，我其实看见了成对的款式，却不敢问。",
+      "next": "tc_c09_zhouzhi_dating_006"
+    },
+    "tc_c09_zhouzhi_dating_006": {
+      "id": "tc_c09_zhouzhi_dating_006",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她听到后面笑起来，笑得拿纸巾挡住嘴。",
+      "next": "tc_c09_zhouzhi_dating_007"
+    },
+    "tc_c09_zhouzhi_dating_007": {
+      "id": "tc_c09_zhouzhi_dating_007",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“幸好你没问，那对真的很难洗。”",
+      "next": "tc_c09_zhouzhi_dating_008"
+    },
+    "tc_c09_zhouzhi_dating_008": {
+      "id": "tc_c09_zhouzhi_dating_008",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我也笑，手在桌边伸出去一点。她看见了，把自己的手放过来，指尖先碰到我，再慢慢握住。",
+      "next": "tc_c09_zhouzhi_dating_009"
+    },
+    "tc_c09_zhouzhi_dating_009": {
+      "id": "tc_c09_zhouzhi_dating_009",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“交往也不代表你能替我答应饭局。”她说。",
+      "next": "tc_c09_zhouzhi_dating_010"
+    },
+    "tc_c09_zhouzhi_dating_010": {
+      "id": "tc_c09_zhouzhi_dating_010",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“记着了。”",
+      "next": "tc_c09_zhouzhi_dating_011"
+    },
+    "tc_c09_zhouzhi_dating_011": {
+      "id": "tc_c09_zhouzhi_dating_011",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“我也不能因为你脾气还行，就把不高兴都留给你。”",
+      "next": "tc_c09_zhouzhi_dating_012"
+    },
+    "tc_c09_zhouzhi_dating_012": {
+      "id": "tc_c09_zhouzhi_dating_012",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“有不高兴可以说，不用先接完所有人的话。”",
+      "next": "tc_c09_zhouzhi_dating_013"
+    },
+    "tc_c09_zhouzhi_dating_013": {
+      "id": "tc_c09_zhouzhi_dating_013",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她看我一会儿，轻轻点头。我们没在桌上把未来几年列成一张表，只约好下一个双方都休息的晚上。她主动补了一句，有时会累得不想说话，但会告诉我，不让我一直猜。",
+      "next": "tc_c09_zhouzhi_dating_014"
+    },
+    "tc_c09_zhouzhi_dating_014": {
+      "id": "tc_c09_zhouzhi_dating_014",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating_eaves",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "结账时依旧各付自己的那份。走出小馆，我问能不能牵手，她把手举起来，笑我刚才不是已经握过。",
+      "next": "tc_c09_zhouzhi_dating_015"
+    },
+    "tc_c09_zhouzhi_dating_015": {
+      "id": "tc_c09_zhouzhi_dating_015",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating_eaves",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“刚才隔着桌子，不一样。”",
+      "next": "tc_c09_zhouzhi_dating_016"
+    },
+    "tc_c09_zhouzhi_dating_016": {
+      "id": "tc_c09_zhouzhi_dating_016",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating_eaves",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“讲究还挺多。”",
+      "next": "tc_c09_zhouzhi_dating_017"
+    },
+    "tc_c09_zhouzhi_dating_017": {
+      "id": "tc_c09_zhouzhi_dating_017",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating_eaves",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她挽住我的手臂，走了一段，自己换成十指相握。雨从屋檐边落下来，风有点凉，她站近一点，让我把伞撑开。",
+      "next": "tc_c09_zhouzhi_dating_018"
+    },
+    "tc_c09_zhouzhi_dating_018": {
+      "id": "tc_c09_zhouzhi_dating_018",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating_eaves",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "这次我们都带了伞，却只撑开了一把。走到她要转弯的地方，她没立刻抽回手，问我下一班是什么时候。",
+      "next": "tc_c09_zhouzhi_dating_019"
+    },
+    "tc_c09_zhouzhi_dating_019": {
+      "id": "tc_c09_zhouzhi_dating_019",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating_eaves",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我告诉她。她低声说好，伸手把我额前沾的一点雨擦掉，亲了亲我的嘴角。",
+      "next": "tc_c09_zhouzhi_dating_020"
+    },
+    "tc_c09_zhouzhi_dating_020": {
+      "id": "tc_c09_zhouzhi_dating_020",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_dating_eaves",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“回去告诉我一声。”",
+      "next": "tc_c09_common_exit"
+    },
+    "tc_c09_zhouzhi_friends_001": {
+      "id": "tc_c09_zhouzhi_friends_001",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_friends",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我把手从桌边收回，认真看着她。",
+      "next": "tc_c09_zhouzhi_friends_002"
+    },
+    "tc_c09_zhouzhi_friends_002": {
+      "id": "tc_c09_zhouzhi_friends_002",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_friends",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“我很喜欢跟你相处，也希望以后还能一起吃饭。但我现在想的是朋友，不能因为怕你失望，就答应交往。”",
+      "next": "tc_c09_zhouzhi_friends_003"
+    },
+    "tc_c09_zhouzhi_friends_003": {
+      "id": "tc_c09_zhouzhi_friends_003",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_friends",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "周栀没有马上说话。她把折得不齐的纸巾压在杯子下面，嘴角轻轻抿了一下。",
+      "next": "tc_c09_zhouzhi_friends_004"
+    },
+    "tc_c09_zhouzhi_friends_004": {
+      "id": "tc_c09_zhouzhi_friends_004",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_friends",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“嗯。”",
+      "next": "tc_c09_zhouzhi_friends_005"
+    },
+    "tc_c09_zhouzhi_friends_005": {
+      "id": "tc_c09_zhouzhi_friends_005",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_friends",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "过了一会儿，她问我是不是考虑清楚。我说是。她点头，没有替我总结成我们本来就不合适，也没说自己刚才只是开玩笑。",
+      "next": "tc_c09_zhouzhi_friends_006"
+    },
+    "tc_c09_zhouzhi_friends_006": {
+      "id": "tc_c09_zhouzhi_friends_006",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_friends",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“我会有点失落。”她说，“今晚先不陪你走了，我想自己待会儿。”",
+      "next": "tc_c09_zhouzhi_friends_007"
+    },
+    "tc_c09_zhouzhi_friends_007": {
+      "id": "tc_c09_zhouzhi_friends_007",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_friends",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我答应，说我先走还是她先走都行。她看着我，终于很轻地笑了一下。",
+      "next": "tc_c09_zhouzhi_friends_008"
+    },
+    "tc_c09_zhouzhi_friends_008": {
+      "id": "tc_c09_zhouzhi_friends_008",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_friends",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“这次可以都行。不是考试。”",
+      "next": "tc_c09_zhouzhi_friends_009"
+    },
+    "tc_c09_zhouzhi_friends_009": {
+      "id": "tc_c09_zhouzhi_friends_009",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_friends",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我先去付自己的饭钱，回桌边时，她已经把东西收进包里。我们在门口道别，没有拥抱，也没有约一个用来证明什么的明天。",
+      "next": "tc_c09_zhouzhi_friends_010"
+    },
+    "tc_c09_zhouzhi_friends_010": {
+      "id": "tc_c09_zhouzhi_friends_010",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_friends_day88",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "接下来一阵子，我们没有密集地单独见面。我没每天问她好一点没有，她也没让整个朋友群替她避开我。第88天，毛狼在群里约大家吃东西，她先问时间，我确认轮班以后说能来。",
+      "next": "tc_c09_zhouzhi_friends_011"
+    },
+    "tc_c09_zhouzhi_friends_011": {
+      "id": "tc_c09_zhouzhi_friends_011",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_friends_day88",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "那顿饭上，她照常接了一个笑话，随后低头吃自己的饭。我把别人递到她面前的菜单拿过来，提议各点想吃的，她抬眼看了我一下，点点头。",
+      "next": "tc_c09_zhouzhi_friends_012"
+    },
+    "tc_c09_zhouzhi_friends_012": {
+      "id": "tc_c09_zhouzhi_friends_012",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_friends_day88_crossroad",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "散场后，我们走到同一个路口。她问起网吧的排班，我问她最近睡得怎样，两个人都没有故意把话题绕到感情上。",
+      "next": "tc_c09_zhouzhi_friends_013"
+    },
+    "tc_c09_zhouzhi_friends_013": {
+      "id": "tc_c09_zhouzhi_friends_013",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_friends_day88_crossroad",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“朋友还是能吃饭。”她说，“就是频率和以前不一样了。”",
+      "next": "tc_c09_zhouzhi_friends_014"
+    },
+    "tc_c09_zhouzhi_friends_014": {
+      "id": "tc_c09_zhouzhi_friends_014",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_friends_day88_crossroad",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“我知道。”",
+      "next": "tc_c09_zhouzhi_friends_015"
+    },
+    "tc_c09_zhouzhi_friends_015": {
+      "id": "tc_c09_zhouzhi_friends_015",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_friends_day88_crossroad",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她把伞打开，朝另一边抬了抬下巴。",
+      "next": "tc_c09_zhouzhi_friends_016"
+    },
+    "tc_c09_zhouzhi_friends_016": {
+      "id": "tc_c09_zhouzhi_friends_016",
+      "type": "line",
+      "scene": "ts_c09_zhouzhi_friends_day88_crossroad",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“走吧。哪天想吃什么，群里叫一声。别只剩节日问候。”",
+      "next": "tc_c09_common_exit"
+    },
+    "tc_c09_zhouzhi_relationship_choice": {
+      "id": "tc_c09_zhouzhi_relationship_choice",
+      "type": "choice",
+      "scene": "ts_c09_zhouzhi_relationship",
+      "character": "zhouzhi",
+      "text": "",
+      "flag": "zhouzhiRelationship",
+      "choices": [
+        {
+          "label": "愿意。我也想把你放进以后的安排里",
+          "value": "dating",
+          "next": "tc_c09_zhouzhi_dating_001"
+        },
+        {
+          "label": "谢谢你告诉我，但我想继续做朋友",
+          "value": "friends",
+          "next": "tc_c09_zhouzhi_friends_001"
+        }
+      ]
+    },
+    "tc_c10_zhouzhi_dating_001": {
+      "id": "tc_c10_zhouzhi_dating_001",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "两年后，周栀和朋友仍在做夜宵，只卖她们两个人照看得过来的几样。有些晚上忙，有些晚上很早就收了。她没有突然开成一排门店，也仍会为哪天休息和朋友商量，意见不一样的时候会皱眉，会吵两句，第二天再把话讲完。",
+      "next": "tc_c10_zhouzhi_dating_002"
+    },
+    "tc_c10_zhouzhi_dating_002": {
+      "id": "tc_c10_zhouzhi_dating_002",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我仍在网吧轮班。夜班轮到我，她不用陪我熬；她忙的时候，我也不必站在摊边守着，证明自己是男朋友。",
+      "next": "tc_c10_zhouzhi_dating_003"
+    },
+    "tc_c10_zhouzhi_dating_003": {
+      "id": "tc_c10_zhouzhi_dating_003",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "那天她比约定晚了十来分钟，提前发消息说收拾东西耽误了一会儿，叫我先吃。我们约的是外面一家小店，我已经坐下，便按她的意思先点了自己的饭，又问她到时想点什么。",
+      "next": "tc_c10_zhouzhi_dating_004"
+    },
+    "tc_c10_zhouzhi_dating_004": {
+      "id": "tc_c10_zhouzhi_dating_004",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她回：“到了再看。别怕我饿死，路上吃了半块饼。”",
+      "next": "tc_c10_zhouzhi_dating_005"
+    },
+    "tc_c10_zhouzhi_dating_005": {
+      "id": "tc_c10_zhouzhi_dating_005",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我笑着把手机放下。她来时，头发随手扎着，进门先喝水，再把外套搭在椅背上。",
+      "next": "tc_c10_zhouzhi_dating_006"
+    },
+    "tc_c10_zhouzhi_dating_006": {
+      "id": "tc_c10_zhouzhi_dating_006",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“你真吃了？”",
+      "next": "tc_c10_zhouzhi_dating_007"
+    },
+    "tc_c10_zhouzhi_dating_007": {
+      "id": "tc_c10_zhouzhi_dating_007",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我指着半空的碗：“你叫的。”",
+      "next": "tc_c10_zhouzhi_dating_008"
+    },
+    "tc_c10_zhouzhi_dating_008": {
+      "id": "tc_c10_zhouzhi_dating_008",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她满意地点头，自己点了一碗热汤，伸手从我盘里夹走一小块豆腐。我问她半块饼不够吗，她说够垫肚子，不够让她看着好吃的不动筷子。",
+      "next": "tc_c10_zhouzhi_dating_009"
+    },
+    "tc_c10_zhouzhi_dating_009": {
+      "id": "tc_c10_zhouzhi_dating_009",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我们谈了今天的事。她讲一位熟客把辣椒要求说反，最后自己笑得不行；我讲师匠又在休班时想跟毛狼开一局，被吐槽走到哪儿都像在巡店。她听得乐，叫我别只讲他们，自己输了几局也算上。",
+      "next": "tc_c10_zhouzhi_dating_010"
+    },
+    "tc_c10_zhouzhi_dating_010": {
+      "id": "tc_c10_zhouzhi_dating_010",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她吃到一半，我已经吃完，便坐着陪她。没有催，没有怕冷场拿手机一直刷。她夹起最后一口，见我看着她，问是不是脸上沾了东西。",
+      "next": "tc_c10_zhouzhi_dating_011"
+    },
+    "tc_c10_zhouzhi_dating_011": {
+      "id": "tc_c10_zhouzhi_dating_011",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“没有。就是想看看。”",
+      "next": "tc_c10_zhouzhi_dating_012"
+    },
+    "tc_c10_zhouzhi_dating_012": {
+      "id": "tc_c10_zhouzhi_dating_012",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“看两年，还没看够？”",
+      "next": "tc_c10_zhouzhi_dating_013"
+    },
+    "tc_c10_zhouzhi_dating_013": {
+      "id": "tc_c10_zhouzhi_dating_013",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“换个角度。”",
+      "next": "tc_c10_zhouzhi_dating_014"
+    },
+    "tc_c10_zhouzhi_dating_014": {
+      "id": "tc_c10_zhouzhi_dating_014",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她把脸微微转过来，摆了一个明显敷衍的姿势，自己先笑了。我隔着桌子握了握她伸过来的手，等她喝完汤才松开。",
+      "next": "tc_c10_zhouzhi_dating_015"
+    },
+    "tc_c10_zhouzhi_dating_015": {
+      "id": "tc_c10_zhouzhi_dating_015",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating_homeward",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "回去的路上，她问下个月有没有一天能一起去看电影。我打开排班，先找出能休息的日子，再让她看。她挑了一个，说到时自己选片，我可以看完发表不同意见。",
+      "next": "tc_c10_zhouzhi_dating_016"
+    },
+    "tc_c10_zhouzhi_dating_016": {
+      "id": "tc_c10_zhouzhi_dating_016",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating_eaves",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "快到她住处时，雨下密了。我们站在屋檐下收伞，她用手拍掉我肩上的水，抬头亲了我一下。",
+      "next": "tc_c10_zhouzhi_dating_017"
+    },
+    "tc_c10_zhouzhi_dating_017": {
+      "id": "tc_c10_zhouzhi_dating_017",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating_eaves",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“明天你早班，今晚早点回。”",
+      "next": "tc_c10_zhouzhi_dating_018"
+    },
+    "tc_c10_zhouzhi_dating_018": {
+      "id": "tc_c10_zhouzhi_dating_018",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating_eaves",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我点头。她进门前又探出头，叫我别忘了带走放在门边的水杯。",
+      "next": "tc_c10_zhouzhi_dating_019"
+    },
+    "tc_c10_zhouzhi_dating_019": {
+      "id": "tc_c10_zhouzhi_dating_019",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating_eaves",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "杯身已经有几道细划痕，还是那年一起买的。她把它递给我，手指在杯盖上敲了两下。",
+      "next": "tc_c10_zhouzhi_dating_020"
+    },
+    "tc_c10_zhouzhi_dating_020": {
+      "id": "tc_c10_zhouzhi_dating_020",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_dating_eaves",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“水换过了。到家说一声。”",
+      "next": "tc_c10_zhouzhi_end_dating"
+    },
+    "tc_c10_zhouzhi_friends_001": {
+      "id": "tc_c10_zhouzhi_friends_001",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_friends",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "两年后，我下了白天的班，从周栀和朋友试着经营的夜宵摊前经过。她正把一张折叠椅拉开，见我站在路边，朝空位扬了扬下巴。",
+      "next": "tc_c10_zhouzhi_friends_002"
+    },
+    "tc_c10_zhouzhi_friends_002": {
+      "id": "tc_c10_zhouzhi_friends_002",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_friends",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“饿不饿？饿就坐。”",
+      "next": "tc_c10_zhouzhi_friends_003"
+    },
+    "tc_c10_zhouzhi_friends_003": {
+      "id": "tc_c10_zhouzhi_friends_003",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_friends",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我说想吃点东西，点了自己喜欢的那份，照价付钱。她没有拿朋友当借口塞给我一大堆，也没有把我固定成来帮忙的人。东西端上来时，我问她吃过没有，她说等朋友忙完一起吃，让我先吃自己的。",
+      "next": "tc_c10_zhouzhi_friends_004"
+    },
+    "tc_c10_zhouzhi_friends_004": {
+      "id": "tc_c10_zhouzhi_friends_004",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_friends",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "摊不大，能做的东西也不多。做过这段时间，她们知道有些事情不适合自己，不合适的就停，仍在试的就慢慢来。周栀提起这些时，语气和两年前差不多，明快里带一点不耐烦，但不再急着给别人一个一定会成功的答案。",
+      "next": "tc_c10_zhouzhi_friends_005"
+    },
+    "tc_c10_zhouzhi_friends_005": {
+      "id": "tc_c10_zhouzhi_friends_005",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_friends",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "过了一会儿，她朋友去买东西，摊前正好没人，周栀坐到对面歇了五分钟。她手里拿着自己的杯子，杯沿一圈浅蓝，我认出是我们一起逛超市时买的那只。",
+      "next": "tc_c10_zhouzhi_friends_006"
+    },
+    "tc_c10_zhouzhi_friends_006": {
+      "id": "tc_c10_zhouzhi_friends_006",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_friends",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "“还没摔？”我说。",
+      "next": "tc_c10_zhouzhi_friends_007"
+    },
+    "tc_c10_zhouzhi_friends_007": {
+      "id": "tc_c10_zhouzhi_friends_007",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_friends",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“你就不能盼它一点好？”",
+      "next": "tc_c10_zhouzhi_friends_008"
+    },
+    "tc_c10_zhouzhi_friends_008": {
+      "id": "tc_c10_zhouzhi_friends_008",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_friends",
+      "speaker": "wenwen",
+      "character": "zhouzhi",
+      "text": "“我那只也还在。”",
+      "next": "tc_c10_zhouzhi_friends_009"
+    },
+    "tc_c10_zhouzhi_friends_009": {
+      "id": "tc_c10_zhouzhi_friends_009",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_friends",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她点点头，没有把这件事解释成什么暗示。我们一起买过东西，一起看过路边的雨，也认真谈过交不交往；这些事情都发生过，不需要抹掉，才能做现在的朋友。",
+      "next": "tc_c10_zhouzhi_friends_010"
+    },
+    "tc_c10_zhouzhi_friends_010": {
+      "id": "tc_c10_zhouzhi_friends_010",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_friends",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "我说最近换了几天排班，难得能晚上走出来。她说那就多看看街上，别一休息就以为除了睡觉只剩游戏。我立刻反驳自己也买菜，她看了一眼我脚边空荡荡的袋子，让我下次拿出证据。",
+      "next": "tc_c10_zhouzhi_friends_011"
+    },
+    "tc_c10_zhouzhi_friends_011": {
+      "id": "tc_c10_zhouzhi_friends_011",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_friends",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "她朋友回来，我便把椅子往里让了让，让出过道。周栀起身继续忙，动作利落，偶尔跟朋友说两句，没再刻意回头照顾我有没有落单。",
+      "next": "tc_c10_zhouzhi_friends_012"
+    },
+    "tc_c10_zhouzhi_friends_012": {
+      "id": "tc_c10_zhouzhi_friends_012",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_friends",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "吃完我把自己的垃圾收好，叫她看一眼有没有漏付。她摆手说早收了，别每次都把自己当第一回来。我笑着问下次有没有新东西，她说有就发群里，不许提前催。",
+      "next": "tc_c10_zhouzhi_friends_013"
+    },
+    "tc_c10_zhouzhi_friends_013": {
+      "id": "tc_c10_zhouzhi_friends_013",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_friends_street",
+      "speaker": "narrator",
+      "character": null,
+      "text": "走到街口，我收到她发来的一张照片。是我刚才坐过的那张椅子，她在下面写：“毛狼说晚点来吃。你要没走远，还能再坐会儿。”",
+      "next": "tc_c10_zhouzhi_friends_014"
+    },
+    "tc_c10_zhouzhi_friends_014": {
+      "id": "tc_c10_zhouzhi_friends_014",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_friends_street",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我看了看时间，今晚不用上班，脚也不累，便转身往回走。",
+      "next": "tc_c10_zhouzhi_friends_015"
+    },
+    "tc_c10_zhouzhi_friends_015": {
+      "id": "tc_c10_zhouzhi_friends_015",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_friends_back_to_stall",
+      "speaker": "narrator",
+      "character": "zhouzhi",
+      "text": "周栀看见我，把椅子往外拉出一点，没有重新给我上一份饭，只把桌上的纸巾推过来。",
+      "next": "tc_c10_zhouzhi_friends_016"
+    },
+    "tc_c10_zhouzhi_friends_016": {
+      "id": "tc_c10_zhouzhi_friends_016",
+      "type": "line",
+      "scene": "ts_c10_zhouzhi_friends_back_to_stall",
+      "speaker": "zhouzhi",
+      "character": "zhouzhi",
+      "text": "“坐。想喝什么自己说。”",
+      "next": "tc_c10_zhouzhi_end_friends"
+    },
+    "tc_c10_zhouzhi_entry": {
+      "id": "tc_c10_zhouzhi_entry",
+      "type": "gate",
+      "scene": "ts_c10_zhouzhi_dating",
+      "cases": [
+        {
+          "flag": "zhouzhiRelationship",
+          "value": "dating",
+          "next": "tc_c10_zhouzhi_dating_001"
+        },
+        {
+          "flag": "zhouzhiRelationship",
+          "value": "friends",
+          "next": "tc_c10_zhouzhi_friends_001"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    },
+    "tc_c10_zhouzhi_end_dating": {
+      "id": "tc_c10_zhouzhi_end_dating",
+      "type": "end",
+      "scene": "ts_c10_zhouzhi_dating_eaves",
+      "character": "zhouzhi",
+      "title": "你先吃，我一会儿到",
+      "text": "",
+      "endingId": "tc_c10_zhouzhi_end_dating"
+    },
+    "tc_c10_zhouzhi_end_friends": {
+      "id": "tc_c10_zhouzhi_end_friends",
+      "type": "end",
+      "scene": "ts_c10_zhouzhi_friends_back_to_stall",
+      "character": "zhouzhi",
+      "title": "还有一张椅子",
+      "text": "",
+      "endingId": "tc_c10_zhouzhi_end_friends"
+    }
+  },
+  "imports": [
+    "tc_c03_common_exit",
+    "tc_c04_common_exit",
+    "tc_c05_common_exit",
+    "tc_c06_common_exit",
+    "tc_c07_common_exit",
+    "tc_c08_common_exit",
+    "tc_c09_common_exit"
+  ],
+  "exports": {
+    "tc_c03_zhouzhi_entry": "tc_c03_zhouzhi_entry",
+    "tc_c04_zhouzhi_entry": "tc_c04_zhouzhi_entry",
+    "tc_c05_zhouzhi_entry": "tc_c05_zhouzhi_entry",
+    "tc_c06_zhouzhi_entry": "tc_c06_zhouzhi_entry",
+    "tc_c07_zhouzhi_entry": "tc_c07_zhouzhi_entry",
+    "tc_c08_zhouzhi_entry": "tc_c08_zhouzhi_entry",
+    "tc_c09_zhouzhi_entry": "tc_c09_zhouzhi_entry",
+    "tc_c10_zhouzhi_end_dating": "tc_c10_zhouzhi_end_dating",
+    "tc_c10_zhouzhi_end_friends": "tc_c10_zhouzhi_end_friends",
+    "tc_c10_zhouzhi_entry": "tc_c10_zhouzhi_entry"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 221,
+      "endLine": 221,
+      "nodeIds": [
+        "tc_c03_zhouzhi_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 223,
+      "endLine": 223,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_002"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 225,
+      "endLine": 225,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 227,
+      "endLine": 227,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 229,
+      "endLine": 229,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 231,
+      "endLine": 231,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_006"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 233,
+      "endLine": 233,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 235,
+      "endLine": 235,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 237,
+      "endLine": 237,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 239,
+      "endLine": 239,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_010"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 241,
+      "endLine": 241,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_011"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 243,
+      "endLine": 243,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_012"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 245,
+      "endLine": 245,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 247,
+      "endLine": 247,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_014"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 249,
+      "endLine": 249,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_015"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 251,
+      "endLine": 251,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_016"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 253,
+      "endLine": 253,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_017"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 255,
+      "endLine": 255,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_018"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 257,
+      "endLine": 257,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_019"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 259,
+      "endLine": 259,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_020"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 261,
+      "endLine": 261,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_021"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 263,
+      "endLine": 263,
+      "nodeIds": [
+        "tc_c03_zhouzhi_umbrella_022"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 219,
+      "endLine": 219,
+      "nodeIds": [
+        "tc_c03_zhouzhi_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 267,
+      "endLine": 267,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 269,
+      "endLine": 269,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 271,
+      "endLine": 271,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 273,
+      "endLine": 273,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 275,
+      "endLine": 275,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 277,
+      "endLine": 277,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 279,
+      "endLine": 279,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 281,
+      "endLine": 281,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_008"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 283,
+      "endLine": 283,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_009"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 285,
+      "endLine": 285,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 287,
+      "endLine": 287,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_011"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 289,
+      "endLine": 289,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_012"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 291,
+      "endLine": 291,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 293,
+      "endLine": 293,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_014"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 295,
+      "endLine": 295,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_015"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 297,
+      "endLine": 297,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_016"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 299,
+      "endLine": 299,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_017"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 301,
+      "endLine": 301,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_018"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 303,
+      "endLine": 303,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_019"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 305,
+      "endLine": 305,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_020"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 307,
+      "endLine": 307,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_021"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 265,
+      "endLine": 265,
+      "nodeIds": [
+        "tc_c03_zhouzhi_bookstore_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 311,
+      "endLine": 311,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 313,
+      "endLine": 313,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 315,
+      "endLine": 315,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 317,
+      "endLine": 317,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 319,
+      "endLine": 319,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 321,
+      "endLine": 321,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_006"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 323,
+      "endLine": 323,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 325,
+      "endLine": 325,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_008"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 327,
+      "endLine": 327,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 329,
+      "endLine": 329,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 331,
+      "endLine": 331,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_011"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 333,
+      "endLine": 333,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_012"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 335,
+      "endLine": 335,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 337,
+      "endLine": 337,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_014"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 339,
+      "endLine": 339,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_015"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 341,
+      "endLine": 341,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_016"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 343,
+      "endLine": 343,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_017"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 345,
+      "endLine": 345,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_018"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 347,
+      "endLine": 347,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_019"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 349,
+      "endLine": 349,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_020"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 351,
+      "endLine": 351,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_021"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 353,
+      "endLine": 353,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_022"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 355,
+      "endLine": 355,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_023"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 309,
+      "endLine": 309,
+      "nodeIds": [
+        "tc_c03_zhouzhi_invitation_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 139,
+      "endLine": 139,
+      "nodeIds": [
+        "tc_c04_zhouzhi_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 141,
+      "endLine": 141,
+      "nodeIds": [
+        "tc_c04_zhouzhi_outing_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 143,
+      "endLine": 143,
+      "nodeIds": [
+        "tc_c04_zhouzhi_outing_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 145,
+      "endLine": 145,
+      "nodeIds": [
+        "tc_c04_zhouzhi_outing_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 147,
+      "endLine": 147,
+      "nodeIds": [
+        "tc_c04_zhouzhi_outing_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 149,
+      "endLine": 149,
+      "nodeIds": [
+        "tc_c04_zhouzhi_outing_006"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 151,
+      "endLine": 151,
+      "nodeIds": [
+        "tc_c04_zhouzhi_outing_007"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 153,
+      "endLine": 153,
+      "nodeIds": [
+        "tc_c04_zhouzhi_outing_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 137,
+      "endLine": 137,
+      "nodeIds": [
+        "tc_c04_zhouzhi_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 157,
+      "endLine": 157,
+      "nodeIds": [
+        "tc_c04_zhouzhi_river_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 159,
+      "endLine": 159,
+      "nodeIds": [
+        "tc_c04_zhouzhi_river_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 161,
+      "endLine": 161,
+      "nodeIds": [
+        "tc_c04_zhouzhi_river_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 163,
+      "endLine": 163,
+      "nodeIds": [
+        "tc_c04_zhouzhi_river_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 165,
+      "endLine": 165,
+      "nodeIds": [
+        "tc_c04_zhouzhi_river_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 167,
+      "endLine": 167,
+      "nodeIds": [
+        "tc_c04_zhouzhi_river_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 169,
+      "endLine": 169,
+      "nodeIds": [
+        "tc_c04_zhouzhi_river_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 171,
+      "endLine": 171,
+      "nodeIds": [
+        "tc_c04_zhouzhi_river_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 173,
+      "endLine": 173,
+      "nodeIds": [
+        "tc_c04_zhouzhi_river_009"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 155,
+      "endLine": 155,
+      "nodeIds": [
+        "tc_c04_zhouzhi_river_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 177,
+      "endLine": 177,
+      "nodeIds": [
+        "tc_c04_zhouzhi_cinema_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 179,
+      "endLine": 179,
+      "nodeIds": [
+        "tc_c04_zhouzhi_cinema_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 181,
+      "endLine": 181,
+      "nodeIds": [
+        "tc_c04_zhouzhi_cinema_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 183,
+      "endLine": 183,
+      "nodeIds": [
+        "tc_c04_zhouzhi_cinema_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 185,
+      "endLine": 185,
+      "nodeIds": [
+        "tc_c04_zhouzhi_cinema_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 187,
+      "endLine": 187,
+      "nodeIds": [
+        "tc_c04_zhouzhi_cinema_006"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 189,
+      "endLine": 189,
+      "nodeIds": [
+        "tc_c04_zhouzhi_cinema_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 191,
+      "endLine": 191,
+      "nodeIds": [
+        "tc_c04_zhouzhi_cinema_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 175,
+      "endLine": 175,
+      "nodeIds": [
+        "tc_c04_zhouzhi_cinema_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 195,
+      "endLine": 195,
+      "nodeIds": [
+        "tc_c04_zhouzhi_before_work_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 197,
+      "endLine": 197,
+      "nodeIds": [
+        "tc_c04_zhouzhi_before_work_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 199,
+      "endLine": 199,
+      "nodeIds": [
+        "tc_c04_zhouzhi_before_work_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 201,
+      "endLine": 201,
+      "nodeIds": [
+        "tc_c04_zhouzhi_before_work_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 203,
+      "endLine": 203,
+      "nodeIds": [
+        "tc_c04_zhouzhi_before_work_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 205,
+      "endLine": 205,
+      "nodeIds": [
+        "tc_c04_zhouzhi_before_work_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 207,
+      "endLine": 207,
+      "nodeIds": [
+        "tc_c04_zhouzhi_before_work_007"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 209,
+      "endLine": 209,
+      "nodeIds": [
+        "tc_c04_zhouzhi_before_work_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 193,
+      "endLine": 193,
+      "nodeIds": [
+        "tc_c04_zhouzhi_before_work_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 155,
+      "endLine": 155,
+      "nodeIds": [
+        "tc_c04_zhouzhi_outing_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 175,
+      "endLine": 175,
+      "nodeIds": [
+        "tc_c04_zhouzhi_outing_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 137,
+      "endLine": 137,
+      "nodeIds": [
+        "tc_c05_zhouzhi_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 139,
+      "endLine": 139,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 141,
+      "endLine": 141,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 143,
+      "endLine": 143,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 145,
+      "endLine": 145,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 147,
+      "endLine": 147,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 149,
+      "endLine": 149,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 151,
+      "endLine": 151,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_008"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 153,
+      "endLine": 153,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 155,
+      "endLine": 155,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 157,
+      "endLine": 157,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_011"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 159,
+      "endLine": 159,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_012"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 161,
+      "endLine": 161,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_013"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 163,
+      "endLine": 163,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_014"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 165,
+      "endLine": 165,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_015"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 167,
+      "endLine": 167,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_016"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 169,
+      "endLine": 169,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_017"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 171,
+      "endLine": 171,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_018"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 173,
+      "endLine": 173,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_019"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 175,
+      "endLine": 175,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_020"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 177,
+      "endLine": 177,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_021"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 179,
+      "endLine": 179,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_022"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 181,
+      "endLine": 181,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_023"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 183,
+      "endLine": 183,
+      "nodeIds": [
+        "tc_c05_zhouzhi_unexpected_company_024"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 135,
+      "endLine": 135,
+      "nodeIds": [
+        "tc_c05_zhouzhi_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 187,
+      "endLine": 187,
+      "nodeIds": [
+        "tc_c05_zhouzhi_two_seats_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 189,
+      "endLine": 189,
+      "nodeIds": [
+        "tc_c05_zhouzhi_two_seats_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 191,
+      "endLine": 191,
+      "nodeIds": [
+        "tc_c05_zhouzhi_two_seats_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 193,
+      "endLine": 193,
+      "nodeIds": [
+        "tc_c05_zhouzhi_two_seats_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 195,
+      "endLine": 195,
+      "nodeIds": [
+        "tc_c05_zhouzhi_two_seats_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 197,
+      "endLine": 197,
+      "nodeIds": [
+        "tc_c05_zhouzhi_two_seats_006"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 199,
+      "endLine": 199,
+      "nodeIds": [
+        "tc_c05_zhouzhi_two_seats_007"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 201,
+      "endLine": 201,
+      "nodeIds": [
+        "tc_c05_zhouzhi_two_seats_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 203,
+      "endLine": 203,
+      "nodeIds": [
+        "tc_c05_zhouzhi_two_seats_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 205,
+      "endLine": 205,
+      "nodeIds": [
+        "tc_c05_zhouzhi_two_seats_010"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 207,
+      "endLine": 207,
+      "nodeIds": [
+        "tc_c05_zhouzhi_two_seats_011"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 209,
+      "endLine": 209,
+      "nodeIds": [
+        "tc_c05_zhouzhi_two_seats_012"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 211,
+      "endLine": 211,
+      "nodeIds": [
+        "tc_c05_zhouzhi_two_seats_013"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 213,
+      "endLine": 213,
+      "nodeIds": [
+        "tc_c05_zhouzhi_two_seats_014"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 185,
+      "endLine": 185,
+      "nodeIds": [
+        "tc_c05_zhouzhi_two_seats_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 129,
+      "endLine": 129,
+      "nodeIds": [
+        "tc_c06_zhouzhi_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 131,
+      "endLine": 131,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 133,
+      "endLine": 133,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 135,
+      "endLine": 135,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 137,
+      "endLine": 137,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 139,
+      "endLine": 139,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 141,
+      "endLine": 141,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 143,
+      "endLine": 143,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_008"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 145,
+      "endLine": 145,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_009"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 147,
+      "endLine": 147,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_010"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 149,
+      "endLine": 149,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_011"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 151,
+      "endLine": 151,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_012"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 153,
+      "endLine": 153,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 155,
+      "endLine": 155,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_014"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 157,
+      "endLine": 157,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_015"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 159,
+      "endLine": 159,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_016"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 161,
+      "endLine": 161,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_017"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 163,
+      "endLine": 163,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_018"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 165,
+      "endLine": 165,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_019"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 167,
+      "endLine": 167,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_020"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 169,
+      "endLine": 169,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_021"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 171,
+      "endLine": 171,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_022"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 173,
+      "endLine": 173,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_023"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 175,
+      "endLine": 175,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_024"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 177,
+      "endLine": 177,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_025"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 179,
+      "endLine": 179,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_026"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 181,
+      "endLine": 181,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_027"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 183,
+      "endLine": 183,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_028"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 185,
+      "endLine": 185,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_029"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 187,
+      "endLine": 187,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_030"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 189,
+      "endLine": 189,
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_031"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 127,
+      "endLine": 127,
+      "nodeIds": [
+        "tc_c06_zhouzhi_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 127,
+      "endLine": 127,
+      "nodeIds": [
+        "tc_c07_zhouzhi_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 129,
+      "endLine": 129,
+      "nodeIds": [
+        "tc_c07_zhouzhi_her_plans_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 131,
+      "endLine": 131,
+      "nodeIds": [
+        "tc_c07_zhouzhi_her_plans_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 133,
+      "endLine": 133,
+      "nodeIds": [
+        "tc_c07_zhouzhi_her_plans_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 135,
+      "endLine": 135,
+      "nodeIds": [
+        "tc_c07_zhouzhi_her_plans_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 137,
+      "endLine": 137,
+      "nodeIds": [
+        "tc_c07_zhouzhi_her_plans_006"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 139,
+      "endLine": 139,
+      "nodeIds": [
+        "tc_c07_zhouzhi_her_plans_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 141,
+      "endLine": 141,
+      "nodeIds": [
+        "tc_c07_zhouzhi_her_plans_008"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 143,
+      "endLine": 143,
+      "nodeIds": [
+        "tc_c07_zhouzhi_her_plans_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 125,
+      "endLine": 125,
+      "nodeIds": [
+        "tc_c07_zhouzhi_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 147,
+      "endLine": 147,
+      "nodeIds": [
+        "tc_c07_zhouzhi_river_return_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 149,
+      "endLine": 149,
+      "nodeIds": [
+        "tc_c07_zhouzhi_river_return_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 151,
+      "endLine": 151,
+      "nodeIds": [
+        "tc_c07_zhouzhi_river_return_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 153,
+      "endLine": 153,
+      "nodeIds": [
+        "tc_c07_zhouzhi_river_return_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 155,
+      "endLine": 155,
+      "nodeIds": [
+        "tc_c07_zhouzhi_river_return_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 157,
+      "endLine": 157,
+      "nodeIds": [
+        "tc_c07_zhouzhi_river_return_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 159,
+      "endLine": 159,
+      "nodeIds": [
+        "tc_c07_zhouzhi_river_return_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 161,
+      "endLine": 161,
+      "nodeIds": [
+        "tc_c07_zhouzhi_river_return_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 145,
+      "endLine": 145,
+      "nodeIds": [
+        "tc_c07_zhouzhi_river_return_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 165,
+      "endLine": 165,
+      "nodeIds": [
+        "tc_c07_zhouzhi_cinema_return_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 167,
+      "endLine": 167,
+      "nodeIds": [
+        "tc_c07_zhouzhi_cinema_return_002"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 169,
+      "endLine": 169,
+      "nodeIds": [
+        "tc_c07_zhouzhi_cinema_return_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 171,
+      "endLine": 171,
+      "nodeIds": [
+        "tc_c07_zhouzhi_cinema_return_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 173,
+      "endLine": 173,
+      "nodeIds": [
+        "tc_c07_zhouzhi_cinema_return_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 175,
+      "endLine": 175,
+      "nodeIds": [
+        "tc_c07_zhouzhi_cinema_return_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 177,
+      "endLine": 177,
+      "nodeIds": [
+        "tc_c07_zhouzhi_cinema_return_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 179,
+      "endLine": 179,
+      "nodeIds": [
+        "tc_c07_zhouzhi_cinema_return_008"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 181,
+      "endLine": 181,
+      "nodeIds": [
+        "tc_c07_zhouzhi_cinema_return_009"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 183,
+      "endLine": 183,
+      "nodeIds": [
+        "tc_c07_zhouzhi_cinema_return_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 163,
+      "endLine": 163,
+      "nodeIds": [
+        "tc_c07_zhouzhi_cinema_return_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 187,
+      "endLine": 187,
+      "nodeIds": [
+        "tc_c07_zhouzhi_crossroad_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 189,
+      "endLine": 189,
+      "nodeIds": [
+        "tc_c07_zhouzhi_crossroad_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 191,
+      "endLine": 191,
+      "nodeIds": [
+        "tc_c07_zhouzhi_crossroad_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 193,
+      "endLine": 193,
+      "nodeIds": [
+        "tc_c07_zhouzhi_crossroad_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 195,
+      "endLine": 195,
+      "nodeIds": [
+        "tc_c07_zhouzhi_crossroad_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 197,
+      "endLine": 197,
+      "nodeIds": [
+        "tc_c07_zhouzhi_crossroad_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 199,
+      "endLine": 199,
+      "nodeIds": [
+        "tc_c07_zhouzhi_crossroad_007"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 185,
+      "endLine": 185,
+      "nodeIds": [
+        "tc_c07_zhouzhi_crossroad_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 145,
+      "endLine": 145,
+      "nodeIds": [
+        "tc_c07_zhouzhi_outing_gate"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 163,
+      "endLine": 163,
+      "nodeIds": [
+        "tc_c07_zhouzhi_outing_gate"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 127,
+      "endLine": 127,
+      "nodeIds": [
+        "tc_c08_zhouzhi_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 129,
+      "endLine": 129,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 131,
+      "endLine": 131,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 133,
+      "endLine": 133,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 135,
+      "endLine": 135,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 137,
+      "endLine": 137,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 139,
+      "endLine": 139,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 141,
+      "endLine": 141,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 143,
+      "endLine": 143,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_009"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 145,
+      "endLine": 145,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 147,
+      "endLine": 147,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_011"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 149,
+      "endLine": 149,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_012"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 151,
+      "endLine": 151,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 153,
+      "endLine": 153,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_014"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 155,
+      "endLine": 155,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_015"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 157,
+      "endLine": 157,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_016"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 159,
+      "endLine": 159,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_017"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 161,
+      "endLine": 161,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_018"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 163,
+      "endLine": 163,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_019"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 165,
+      "endLine": 165,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_020"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 167,
+      "endLine": 167,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_021"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 169,
+      "endLine": 169,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_022"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 171,
+      "endLine": 171,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_023"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 173,
+      "endLine": 173,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_024"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 175,
+      "endLine": 175,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_025"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 177,
+      "endLine": 177,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_026"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 179,
+      "endLine": 179,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_027"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 181,
+      "endLine": 181,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_028"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 183,
+      "endLine": 183,
+      "nodeIds": [
+        "tc_c08_zhouzhi_dinner_budget_029"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 125,
+      "endLine": 125,
+      "nodeIds": [
+        "tc_c08_zhouzhi_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 149,
+      "endLine": 149,
+      "nodeIds": [
+        "tc_c09_zhouzhi_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 151,
+      "endLine": 151,
+      "nodeIds": [
+        "tc_c09_zhouzhi_relationship_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 153,
+      "endLine": 153,
+      "nodeIds": [
+        "tc_c09_zhouzhi_relationship_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 155,
+      "endLine": 155,
+      "nodeIds": [
+        "tc_c09_zhouzhi_relationship_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 157,
+      "endLine": 157,
+      "nodeIds": [
+        "tc_c09_zhouzhi_relationship_005"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 159,
+      "endLine": 159,
+      "nodeIds": [
+        "tc_c09_zhouzhi_relationship_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 161,
+      "endLine": 161,
+      "nodeIds": [
+        "tc_c09_zhouzhi_relationship_007"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 163,
+      "endLine": 163,
+      "nodeIds": [
+        "tc_c09_zhouzhi_relationship_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 165,
+      "endLine": 165,
+      "nodeIds": [
+        "tc_c09_zhouzhi_relationship_009"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 167,
+      "endLine": 167,
+      "nodeIds": [
+        "tc_c09_zhouzhi_relationship_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 169,
+      "endLine": 169,
+      "nodeIds": [
+        "tc_c09_zhouzhi_relationship_011"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 147,
+      "endLine": 147,
+      "nodeIds": [
+        "tc_c09_zhouzhi_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 173,
+      "endLine": 173,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 175,
+      "endLine": 175,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_002"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 177,
+      "endLine": 177,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_003"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 179,
+      "endLine": 179,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 181,
+      "endLine": 181,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 183,
+      "endLine": 183,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 185,
+      "endLine": 185,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_007"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 187,
+      "endLine": 187,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 189,
+      "endLine": 189,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 191,
+      "endLine": 191,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_010"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 193,
+      "endLine": 193,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_011"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 195,
+      "endLine": 195,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_012"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 197,
+      "endLine": 197,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 199,
+      "endLine": 199,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_014"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 201,
+      "endLine": 201,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_015"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 203,
+      "endLine": 203,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_016"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 205,
+      "endLine": 205,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_017"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 207,
+      "endLine": 207,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_018"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 209,
+      "endLine": 209,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_019"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 211,
+      "endLine": 211,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_020"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 171,
+      "endLine": 171,
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 215,
+      "endLine": 215,
+      "nodeIds": [
+        "tc_c09_zhouzhi_friends_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 217,
+      "endLine": 217,
+      "nodeIds": [
+        "tc_c09_zhouzhi_friends_002"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 219,
+      "endLine": 219,
+      "nodeIds": [
+        "tc_c09_zhouzhi_friends_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 221,
+      "endLine": 221,
+      "nodeIds": [
+        "tc_c09_zhouzhi_friends_004"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 223,
+      "endLine": 223,
+      "nodeIds": [
+        "tc_c09_zhouzhi_friends_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 225,
+      "endLine": 225,
+      "nodeIds": [
+        "tc_c09_zhouzhi_friends_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 227,
+      "endLine": 227,
+      "nodeIds": [
+        "tc_c09_zhouzhi_friends_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 229,
+      "endLine": 229,
+      "nodeIds": [
+        "tc_c09_zhouzhi_friends_008"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 231,
+      "endLine": 231,
+      "nodeIds": [
+        "tc_c09_zhouzhi_friends_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 233,
+      "endLine": 233,
+      "nodeIds": [
+        "tc_c09_zhouzhi_friends_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 235,
+      "endLine": 235,
+      "nodeIds": [
+        "tc_c09_zhouzhi_friends_011"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 237,
+      "endLine": 237,
+      "nodeIds": [
+        "tc_c09_zhouzhi_friends_012"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 239,
+      "endLine": 239,
+      "nodeIds": [
+        "tc_c09_zhouzhi_friends_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 241,
+      "endLine": 241,
+      "nodeIds": [
+        "tc_c09_zhouzhi_friends_014"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 243,
+      "endLine": 243,
+      "nodeIds": [
+        "tc_c09_zhouzhi_friends_015"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 245,
+      "endLine": 245,
+      "nodeIds": [
+        "tc_c09_zhouzhi_friends_016"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 213,
+      "endLine": 213,
+      "nodeIds": [
+        "tc_c09_zhouzhi_friends_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 171,
+      "endLine": 171,
+      "nodeIds": [
+        "tc_c09_zhouzhi_relationship_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 213,
+      "endLine": 213,
+      "nodeIds": [
+        "tc_c09_zhouzhi_relationship_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 159,
+      "endLine": 159,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 161,
+      "endLine": 161,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_002"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 163,
+      "endLine": 163,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 165,
+      "endLine": 165,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 167,
+      "endLine": 167,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 169,
+      "endLine": 169,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_006"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 171,
+      "endLine": 171,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_007"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 173,
+      "endLine": 173,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_008"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 175,
+      "endLine": 175,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 177,
+      "endLine": 177,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 179,
+      "endLine": 179,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_011"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 181,
+      "endLine": 181,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_012"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 183,
+      "endLine": 183,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_013"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 185,
+      "endLine": 185,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_014"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 187,
+      "endLine": 187,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_015"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 189,
+      "endLine": 189,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_016"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 191,
+      "endLine": 191,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_017"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 193,
+      "endLine": 193,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_018"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 195,
+      "endLine": 195,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_019"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 197,
+      "endLine": 197,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_020"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 157,
+      "endLine": 157,
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 201,
+      "endLine": 201,
+      "nodeIds": [
+        "tc_c10_zhouzhi_friends_001"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 203,
+      "endLine": 203,
+      "nodeIds": [
+        "tc_c10_zhouzhi_friends_002"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 205,
+      "endLine": 205,
+      "nodeIds": [
+        "tc_c10_zhouzhi_friends_003"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 207,
+      "endLine": 207,
+      "nodeIds": [
+        "tc_c10_zhouzhi_friends_004"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 209,
+      "endLine": 209,
+      "nodeIds": [
+        "tc_c10_zhouzhi_friends_005"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 211,
+      "endLine": 211,
+      "nodeIds": [
+        "tc_c10_zhouzhi_friends_006"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 213,
+      "endLine": 213,
+      "nodeIds": [
+        "tc_c10_zhouzhi_friends_007"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 215,
+      "endLine": 215,
+      "nodeIds": [
+        "tc_c10_zhouzhi_friends_008"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 217,
+      "endLine": 217,
+      "nodeIds": [
+        "tc_c10_zhouzhi_friends_009"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 219,
+      "endLine": 219,
+      "nodeIds": [
+        "tc_c10_zhouzhi_friends_010"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 221,
+      "endLine": 221,
+      "nodeIds": [
+        "tc_c10_zhouzhi_friends_011"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 223,
+      "endLine": 223,
+      "nodeIds": [
+        "tc_c10_zhouzhi_friends_012"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 225,
+      "endLine": 225,
+      "nodeIds": [
+        "tc_c10_zhouzhi_friends_013"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 227,
+      "endLine": 227,
+      "nodeIds": [
+        "tc_c10_zhouzhi_friends_014"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 229,
+      "endLine": 229,
+      "nodeIds": [
+        "tc_c10_zhouzhi_friends_015"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 231,
+      "endLine": 231,
+      "nodeIds": [
+        "tc_c10_zhouzhi_friends_016"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 199,
+      "endLine": 199,
+      "nodeIds": [
+        "tc_c10_zhouzhi_friends_001"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 157,
+      "endLine": 157,
+      "nodeIds": [
+        "tc_c10_zhouzhi_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 199,
+      "endLine": 199,
+      "nodeIds": [
+        "tc_c10_zhouzhi_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 157,
+      "endLine": 157,
+      "nodeIds": [
+        "tc_c10_zhouzhi_end_dating"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 199,
+      "endLine": 199,
+      "nodeIds": [
+        "tc_c10_zhouzhi_end_friends"
+      ],
+      "kind": "control"
+    }
+  ],
+  "exclusions": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 217,
+      "endLine": 217,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 135,
+      "endLine": 135,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 133,
+      "endLine": 133,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 125,
+      "endLine": 125,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 123,
+      "endLine": 123,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 123,
+      "endLine": 123,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 145,
+      "endLine": 145,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 153,
+      "endLine": 153,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 155,
+      "endLine": 155,
+      "reason": "heading-only"
+    }
+  ],
+  "assetRequests": [
+    {
+      "id": "e01-art-ch03",
+      "a01Ids": [
+        "tc-bg-bookstore-day",
+        "tc-bg-convenience-day",
+        "tc-bg-echo-day",
+        "tc-bg-food-day",
+        "tc-bg-mall-day",
+        "tc-bg-rental-day",
+        "tc-bg-stall-day",
+        "tc-bg-street-dusk",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-hesitant",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-zhouzhi-human-base",
+        "tc-char-zhouzhi-human-expression-serious",
+        "tc-char-zhouzhi-human-expression-smile"
+      ]
+    },
+    {
+      "id": "e01-art-ch04",
+      "a01Ids": [
+        "tc-bg-cinema-interior",
+        "tc-bg-food-day",
+        "tc-bg-food-dusk",
+        "tc-bg-mall-day",
+        "tc-bg-river-day",
+        "tc-bg-street-dusk",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-hesitant",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-zhouzhi-human-base",
+        "tc-char-zhouzhi-human-expression-serious",
+        "tc-char-zhouzhi-human-expression-smile"
+      ]
+    },
+    {
+      "id": "e01-art-ch05",
+      "a01Ids": [
+        "tc-bg-busstop-dusk",
+        "tc-bg-food-day",
+        "tc-char-maolang-human-base",
+        "tc-char-maolang-human-expression-smile",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-downcast",
+        "tc-char-wenwen-human-expression-hesitant",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-zhouzhi-human-base",
+        "tc-char-zhouzhi-human-expression-serious",
+        "tc-char-zhouzhi-human-expression-smile",
+        "tc-char-zhouzhi-human-expression-tired"
+      ]
+    },
+    {
+      "id": "e01-art-ch06",
+      "a01Ids": [
+        "tc-bg-clothing-day",
+        "tc-bg-echo-closed-day",
+        "tc-bg-street-day",
+        "tc-bg-supermarket-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-zhouzhi-human-base",
+        "tc-char-zhouzhi-human-expression-hesitant",
+        "tc-char-zhouzhi-human-expression-smile",
+        "tc-look-zhouzhi-light-blue-shirt"
+      ]
+    },
+    {
+      "id": "e01-art-ch07",
+      "a01Ids": [
+        "tc-bg-cinema-interior",
+        "tc-bg-river-day",
+        "tc-bg-street-day",
+        "tc-bg-street-dusk",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-zhouzhi-human-base",
+        "tc-char-zhouzhi-human-expression-hesitant",
+        "tc-char-zhouzhi-human-expression-smile"
+      ]
+    },
+    {
+      "id": "e01-art-ch08",
+      "a01Ids": [
+        "tc-bg-food-day",
+        "tc-bg-food-dusk",
+        "tc-bg-street-dusk",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-zhouzhi-human-base",
+        "tc-char-zhouzhi-human-expression-hesitant",
+        "tc-char-zhouzhi-human-expression-smile"
+      ]
+    },
+    {
+      "id": "e01-art-ch09",
+      "a01Ids": [
+        "tc-bg-eaves-day",
+        "tc-bg-food-dusk",
+        "tc-bg-street-dusk",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-zhouzhi-human-base",
+        "tc-char-zhouzhi-human-expression-downcast",
+        "tc-char-zhouzhi-human-expression-hesitant",
+        "tc-char-zhouzhi-human-expression-smile"
+      ]
+    },
+    {
+      "id": "e01-art-ch10",
+      "a01Ids": [
+        "tc-bg-eaves-day",
+        "tc-bg-food-dusk",
+        "tc-bg-stall-night",
+        "tc-bg-street-dusk",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-zhouzhi-human-base",
+        "tc-char-zhouzhi-human-expression-hesitant",
+        "tc-char-zhouzhi-human-expression-smile",
+        "tc-look-zhouzhi-tied-hair"
+      ]
+    }
+  ]
+}

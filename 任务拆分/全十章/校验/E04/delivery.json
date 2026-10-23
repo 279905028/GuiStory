@@ -1,0 +1,3385 @@
+{
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "scope": "E04 路线源数据与来源／资产请求映射；未接入正式游戏",
+  "routes": [
+    {
+      "route": "xiaoman",
+      "readFlags": [
+        "route",
+        "xiaomanOuting",
+        "xiaomanRelationship"
+      ],
+      "writeFlags": [
+        "xiaomanOuting",
+        "xiaomanRelationship"
+      ],
+      "chapters": [
+        {
+          "chapter": 3,
+          "entry": "tc_c03_xiaoman_entry",
+          "returnTo": "tc_c03_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "startLine": 33,
+            "endLine": 216
+          },
+          "blocks": [
+            {
+              "name": "salon_visit",
+              "artId": "a01-ch03-xiaoman-01",
+              "headingLine": 35,
+              "nodeIds": [
+                "tc_c03_xiaoman_entry",
+                "tc_c03_xiaoman_salon_visit_002",
+                "tc_c03_xiaoman_salon_visit_003",
+                "tc_c03_xiaoman_salon_visit_004",
+                "tc_c03_xiaoman_salon_visit_005",
+                "tc_c03_xiaoman_salon_visit_006",
+                "tc_c03_xiaoman_salon_visit_007",
+                "tc_c03_xiaoman_salon_visit_008",
+                "tc_c03_xiaoman_salon_visit_009",
+                "tc_c03_xiaoman_salon_visit_010",
+                "tc_c03_xiaoman_salon_visit_011",
+                "tc_c03_xiaoman_salon_visit_012",
+                "tc_c03_xiaoman_salon_visit_013",
+                "tc_c03_xiaoman_salon_visit_014",
+                "tc_c03_xiaoman_salon_visit_015",
+                "tc_c03_xiaoman_salon_visit_016",
+                "tc_c03_xiaoman_salon_visit_017",
+                "tc_c03_xiaoman_salon_visit_018",
+                "tc_c03_xiaoman_salon_visit_019",
+                "tc_c03_xiaoman_salon_visit_020",
+                "tc_c03_xiaoman_salon_visit_021",
+                "tc_c03_xiaoman_salon_visit_022",
+                "tc_c03_xiaoman_salon_visit_023",
+                "tc_c03_xiaoman_salon_visit_024",
+                "tc_c03_xiaoman_salon_visit_025",
+                "tc_c03_xiaoman_salon_visit_026",
+                "tc_c03_xiaoman_salon_visit_027",
+                "tc_c03_xiaoman_salon_visit_028",
+                "tc_c03_xiaoman_salon_visit_029",
+                "tc_c03_xiaoman_salon_visit_030",
+                "tc_c03_xiaoman_salon_visit_031",
+                "tc_c03_xiaoman_salon_visit_032",
+                "tc_c03_xiaoman_salon_visit_033"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+                "startLine": 35,
+                "endLine": 101
+              },
+              "sceneIds": [
+                "ts_c03_xiaoman_salon_visit"
+              ]
+            },
+            {
+              "name": "present_day",
+              "artId": "a01-ch03-xiaoman-02",
+              "headingLine": 103,
+              "nodeIds": [
+                "tc_c03_xiaoman_present_day_001",
+                "tc_c03_xiaoman_present_day_002",
+                "tc_c03_xiaoman_present_day_003",
+                "tc_c03_xiaoman_present_day_004",
+                "tc_c03_xiaoman_present_day_005",
+                "tc_c03_xiaoman_present_day_006",
+                "tc_c03_xiaoman_present_day_007",
+                "tc_c03_xiaoman_present_day_008",
+                "tc_c03_xiaoman_present_day_009",
+                "tc_c03_xiaoman_present_day_010",
+                "tc_c03_xiaoman_present_day_011",
+                "tc_c03_xiaoman_present_day_012",
+                "tc_c03_xiaoman_present_day_013",
+                "tc_c03_xiaoman_present_day_014",
+                "tc_c03_xiaoman_present_day_015",
+                "tc_c03_xiaoman_present_day_016",
+                "tc_c03_xiaoman_present_day_017",
+                "tc_c03_xiaoman_present_day_018",
+                "tc_c03_xiaoman_present_day_019",
+                "tc_c03_xiaoman_present_day_020",
+                "tc_c03_xiaoman_present_day_021",
+                "tc_c03_xiaoman_present_day_022",
+                "tc_c03_xiaoman_present_day_023",
+                "tc_c03_xiaoman_present_day_024",
+                "tc_c03_xiaoman_present_day_025",
+                "tc_c03_xiaoman_present_day_026",
+                "tc_c03_xiaoman_present_day_027",
+                "tc_c03_xiaoman_present_day_028",
+                "tc_c03_xiaoman_present_day_029",
+                "tc_c03_xiaoman_present_day_030"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+                "startLine": 103,
+                "endLine": 163
+              },
+              "sceneIds": [
+                "ts_c03_xiaoman_present_day",
+                "ts_c03_xiaoman_present_day_street",
+                "ts_c03_xiaoman_present_day_busstop"
+              ]
+            },
+            {
+              "name": "old_sketch",
+              "artId": "a01-ch03-xiaoman-03",
+              "headingLine": 165,
+              "nodeIds": [
+                "tc_c03_xiaoman_old_sketch_001",
+                "tc_c03_xiaoman_old_sketch_002",
+                "tc_c03_xiaoman_old_sketch_003",
+                "tc_c03_xiaoman_old_sketch_004",
+                "tc_c03_xiaoman_old_sketch_005",
+                "tc_c03_xiaoman_old_sketch_006",
+                "tc_c03_xiaoman_old_sketch_007",
+                "tc_c03_xiaoman_old_sketch_008",
+                "tc_c03_xiaoman_old_sketch_009",
+                "tc_c03_xiaoman_old_sketch_010",
+                "tc_c03_xiaoman_old_sketch_011",
+                "tc_c03_xiaoman_old_sketch_012",
+                "tc_c03_xiaoman_old_sketch_013",
+                "tc_c03_xiaoman_old_sketch_014",
+                "tc_c03_xiaoman_old_sketch_015",
+                "tc_c03_xiaoman_old_sketch_016",
+                "tc_c03_xiaoman_old_sketch_017",
+                "tc_c03_xiaoman_old_sketch_018",
+                "tc_c03_xiaoman_old_sketch_019",
+                "tc_c03_xiaoman_old_sketch_020",
+                "tc_c03_xiaoman_old_sketch_021",
+                "tc_c03_xiaoman_old_sketch_022",
+                "tc_c03_xiaoman_old_sketch_023",
+                "tc_c03_xiaoman_old_sketch_024",
+                "tc_c03_xiaoman_old_sketch_025"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+                "startLine": 165,
+                "endLine": 215
+              },
+              "sceneIds": [
+                "ts_c03_xiaoman_old_sketch",
+                "ts_c03_xiaoman_old_sketch_convenience"
+              ]
+            }
+          ],
+          "controlIds": []
+        },
+        {
+          "chapter": 4,
+          "entry": "tc_c04_xiaoman_entry",
+          "returnTo": "tc_c04_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "startLine": 31,
+            "endLine": 134
+          },
+          "blocks": [
+            {
+              "name": "outing",
+              "artId": "a01-ch04-xiaoman-01",
+              "headingLine": 33,
+              "nodeIds": [
+                "tc_c04_xiaoman_entry",
+                "tc_c04_xiaoman_outing_002",
+                "tc_c04_xiaoman_outing_003",
+                "tc_c04_xiaoman_outing_004",
+                "tc_c04_xiaoman_outing_005",
+                "tc_c04_xiaoman_outing_006",
+                "tc_c04_xiaoman_outing_007"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+                "startLine": 33,
+                "endLine": 47
+              },
+              "sceneIds": [
+                "ts_c04_xiaoman_outing",
+                "ts_c04_xiaoman_outing_crossroad"
+              ]
+            },
+            {
+              "name": "basketball",
+              "artId": "a01-ch04-xiaoman-02",
+              "headingLine": 49,
+              "nodeIds": [
+                "tc_c04_xiaoman_basketball_001",
+                "tc_c04_xiaoman_basketball_002",
+                "tc_c04_xiaoman_basketball_003",
+                "tc_c04_xiaoman_basketball_004",
+                "tc_c04_xiaoman_basketball_005",
+                "tc_c04_xiaoman_basketball_006",
+                "tc_c04_xiaoman_basketball_007",
+                "tc_c04_xiaoman_basketball_008",
+                "tc_c04_xiaoman_basketball_009",
+                "tc_c04_xiaoman_basketball_010",
+                "tc_c04_xiaoman_basketball_011",
+                "tc_c04_xiaoman_basketball_012",
+                "tc_c04_xiaoman_basketball_013",
+                "tc_c04_xiaoman_basketball_014",
+                "tc_c04_xiaoman_basketball_015"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+                "startLine": 49,
+                "endLine": 79
+              },
+              "sceneIds": [
+                "ts_c04_xiaoman_basketball",
+                "ts_c04_xiaoman_basketball_arcade_exit"
+              ]
+            },
+            {
+              "name": "books",
+              "artId": "a01-ch04-xiaoman-03",
+              "headingLine": 81,
+              "nodeIds": [
+                "tc_c04_xiaoman_books_001",
+                "tc_c04_xiaoman_books_002",
+                "tc_c04_xiaoman_books_003",
+                "tc_c04_xiaoman_books_004",
+                "tc_c04_xiaoman_books_005",
+                "tc_c04_xiaoman_books_006",
+                "tc_c04_xiaoman_books_007",
+                "tc_c04_xiaoman_books_008",
+                "tc_c04_xiaoman_books_009",
+                "tc_c04_xiaoman_books_010",
+                "tc_c04_xiaoman_books_011",
+                "tc_c04_xiaoman_books_012",
+                "tc_c04_xiaoman_books_013",
+                "tc_c04_xiaoman_books_014"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+                "startLine": 81,
+                "endLine": 109
+              },
+              "sceneIds": [
+                "ts_c04_xiaoman_books"
+              ]
+            },
+            {
+              "name": "before_bus",
+              "artId": "a01-ch04-xiaoman-04",
+              "headingLine": 111,
+              "nodeIds": [
+                "tc_c04_xiaoman_before_bus_001",
+                "tc_c04_xiaoman_before_bus_002",
+                "tc_c04_xiaoman_before_bus_003",
+                "tc_c04_xiaoman_before_bus_004",
+                "tc_c04_xiaoman_before_bus_005",
+                "tc_c04_xiaoman_before_bus_006",
+                "tc_c04_xiaoman_before_bus_007",
+                "tc_c04_xiaoman_before_bus_008",
+                "tc_c04_xiaoman_before_bus_009",
+                "tc_c04_xiaoman_before_bus_010",
+                "tc_c04_xiaoman_before_bus_011"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+                "startLine": 111,
+                "endLine": 133
+              },
+              "sceneIds": [
+                "ts_c04_xiaoman_before_bus",
+                "ts_c04_xiaoman_before_bus_busstop"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c04_xiaoman_outing_choice"
+          ]
+        },
+        {
+          "chapter": 5,
+          "entry": "tc_c05_xiaoman_entry",
+          "returnTo": "tc_c05_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+            "startLine": 37,
+            "endLine": 132
+          },
+          "blocks": [
+            {
+              "name": "parcel",
+              "artId": "a01-ch05-xiaoman-01",
+              "headingLine": 39,
+              "nodeIds": [
+                "tc_c05_xiaoman_entry",
+                "tc_c05_xiaoman_parcel_002",
+                "tc_c05_xiaoman_parcel_003",
+                "tc_c05_xiaoman_parcel_004",
+                "tc_c05_xiaoman_parcel_005",
+                "tc_c05_xiaoman_parcel_006",
+                "tc_c05_xiaoman_parcel_007",
+                "tc_c05_xiaoman_parcel_008",
+                "tc_c05_xiaoman_parcel_009",
+                "tc_c05_xiaoman_parcel_010",
+                "tc_c05_xiaoman_parcel_011",
+                "tc_c05_xiaoman_parcel_012",
+                "tc_c05_xiaoman_parcel_013",
+                "tc_c05_xiaoman_parcel_014",
+                "tc_c05_xiaoman_parcel_015",
+                "tc_c05_xiaoman_parcel_016",
+                "tc_c05_xiaoman_parcel_017",
+                "tc_c05_xiaoman_parcel_018",
+                "tc_c05_xiaoman_parcel_019",
+                "tc_c05_xiaoman_parcel_020",
+                "tc_c05_xiaoman_parcel_021",
+                "tc_c05_xiaoman_parcel_022",
+                "tc_c05_xiaoman_parcel_023",
+                "tc_c05_xiaoman_parcel_024",
+                "tc_c05_xiaoman_parcel_025",
+                "tc_c05_xiaoman_parcel_026",
+                "tc_c05_xiaoman_parcel_027",
+                "tc_c05_xiaoman_parcel_028"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+                "startLine": 39,
+                "endLine": 95
+              },
+              "sceneIds": [
+                "ts_c05_xiaoman_parcel"
+              ]
+            },
+            {
+              "name": "new_coat",
+              "artId": "a01-ch05-xiaoman-02",
+              "headingLine": 97,
+              "nodeIds": [
+                "tc_c05_xiaoman_new_coat_001",
+                "tc_c05_xiaoman_new_coat_002",
+                "tc_c05_xiaoman_new_coat_003",
+                "tc_c05_xiaoman_new_coat_004",
+                "tc_c05_xiaoman_new_coat_005",
+                "tc_c05_xiaoman_new_coat_006",
+                "tc_c05_xiaoman_new_coat_007",
+                "tc_c05_xiaoman_new_coat_008",
+                "tc_c05_xiaoman_new_coat_009",
+                "tc_c05_xiaoman_new_coat_010",
+                "tc_c05_xiaoman_new_coat_011",
+                "tc_c05_xiaoman_new_coat_012",
+                "tc_c05_xiaoman_new_coat_013",
+                "tc_c05_xiaoman_new_coat_014",
+                "tc_c05_xiaoman_new_coat_015",
+                "tc_c05_xiaoman_new_coat_016",
+                "tc_c05_xiaoman_new_coat_017"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+                "startLine": 97,
+                "endLine": 131
+              },
+              "sceneIds": [
+                "ts_c05_xiaoman_new_coat"
+              ]
+            }
+          ],
+          "controlIds": []
+        },
+        {
+          "chapter": 6,
+          "entry": "tc_c06_xiaoman_entry",
+          "returnTo": "tc_c06_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+            "startLine": 45,
+            "endLine": 124
+          },
+          "blocks": [
+            {
+              "name": "rest_day",
+              "artId": "a01-ch06-xiaoman-01",
+              "headingLine": 47,
+              "nodeIds": [
+                "tc_c06_xiaoman_entry",
+                "tc_c06_xiaoman_rest_day_002",
+                "tc_c06_xiaoman_rest_day_003",
+                "tc_c06_xiaoman_rest_day_004",
+                "tc_c06_xiaoman_rest_day_005",
+                "tc_c06_xiaoman_rest_day_006",
+                "tc_c06_xiaoman_rest_day_007",
+                "tc_c06_xiaoman_rest_day_008",
+                "tc_c06_xiaoman_rest_day_009",
+                "tc_c06_xiaoman_rest_day_010",
+                "tc_c06_xiaoman_rest_day_011",
+                "tc_c06_xiaoman_rest_day_012",
+                "tc_c06_xiaoman_rest_day_013",
+                "tc_c06_xiaoman_rest_day_014",
+                "tc_c06_xiaoman_rest_day_015",
+                "tc_c06_xiaoman_rest_day_016",
+                "tc_c06_xiaoman_rest_day_017",
+                "tc_c06_xiaoman_rest_day_018",
+                "tc_c06_xiaoman_rest_day_019",
+                "tc_c06_xiaoman_rest_day_020",
+                "tc_c06_xiaoman_rest_day_021",
+                "tc_c06_xiaoman_rest_day_022",
+                "tc_c06_xiaoman_rest_day_023",
+                "tc_c06_xiaoman_rest_day_024",
+                "tc_c06_xiaoman_rest_day_025",
+                "tc_c06_xiaoman_rest_day_026",
+                "tc_c06_xiaoman_rest_day_027",
+                "tc_c06_xiaoman_rest_day_028",
+                "tc_c06_xiaoman_rest_day_029",
+                "tc_c06_xiaoman_rest_day_030",
+                "tc_c06_xiaoman_rest_day_031",
+                "tc_c06_xiaoman_rest_day_032",
+                "tc_c06_xiaoman_rest_day_033",
+                "tc_c06_xiaoman_rest_day_034",
+                "tc_c06_xiaoman_rest_day_035",
+                "tc_c06_xiaoman_rest_day_036",
+                "tc_c06_xiaoman_rest_day_037",
+                "tc_c06_xiaoman_rest_day_038"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+                "startLine": 47,
+                "endLine": 124
+              },
+              "sceneIds": [
+                "ts_c06_xiaoman_rest_day",
+                "ts_c06_xiaoman_rest_day_river",
+                "ts_c06_xiaoman_rest_day_dinner"
+              ]
+            }
+          ],
+          "controlIds": []
+        },
+        {
+          "chapter": 7,
+          "entry": "tc_c07_xiaoman_entry",
+          "returnTo": "tc_c07_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+            "startLine": 25,
+            "endLine": 122
+          },
+          "blocks": [
+            {
+              "name": "her_weekend",
+              "artId": "a01-ch07-xiaoman-01",
+              "headingLine": 27,
+              "nodeIds": [
+                "tc_c07_xiaoman_entry",
+                "tc_c07_xiaoman_her_weekend_002",
+                "tc_c07_xiaoman_her_weekend_003",
+                "tc_c07_xiaoman_her_weekend_004",
+                "tc_c07_xiaoman_her_weekend_005",
+                "tc_c07_xiaoman_her_weekend_006",
+                "tc_c07_xiaoman_her_weekend_007",
+                "tc_c07_xiaoman_her_weekend_008",
+                "tc_c07_xiaoman_her_weekend_009",
+                "tc_c07_xiaoman_her_weekend_010",
+                "tc_c07_xiaoman_her_weekend_011",
+                "tc_c07_xiaoman_her_weekend_012",
+                "tc_c07_xiaoman_her_weekend_013",
+                "tc_c07_xiaoman_her_weekend_014",
+                "tc_c07_xiaoman_her_weekend_015",
+                "tc_c07_xiaoman_her_weekend_016",
+                "tc_c07_xiaoman_her_weekend_017"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+                "startLine": 27,
+                "endLine": 62
+              },
+              "sceneIds": [
+                "ts_c07_xiaoman_her_weekend",
+                "ts_c07_xiaoman_her_weekend_street",
+                "ts_c07_xiaoman_her_weekend_meeting"
+              ]
+            },
+            {
+              "name": "basketball_return",
+              "artId": "a01-ch07-xiaoman-02",
+              "headingLine": 63,
+              "nodeIds": [
+                "tc_c07_xiaoman_basketball_return_001",
+                "tc_c07_xiaoman_basketball_return_002",
+                "tc_c07_xiaoman_basketball_return_003",
+                "tc_c07_xiaoman_basketball_return_004",
+                "tc_c07_xiaoman_basketball_return_005",
+                "tc_c07_xiaoman_basketball_return_006",
+                "tc_c07_xiaoman_basketball_return_007",
+                "tc_c07_xiaoman_basketball_return_008",
+                "tc_c07_xiaoman_basketball_return_009"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+                "startLine": 63,
+                "endLine": 82
+              },
+              "sceneIds": [
+                "ts_c07_xiaoman_basketball_return"
+              ]
+            },
+            {
+              "name": "books_return",
+              "artId": "a01-ch07-xiaoman-03",
+              "headingLine": 83,
+              "nodeIds": [
+                "tc_c07_xiaoman_books_return_001",
+                "tc_c07_xiaoman_books_return_002",
+                "tc_c07_xiaoman_books_return_003",
+                "tc_c07_xiaoman_books_return_004",
+                "tc_c07_xiaoman_books_return_005",
+                "tc_c07_xiaoman_books_return_006",
+                "tc_c07_xiaoman_books_return_007",
+                "tc_c07_xiaoman_books_return_008",
+                "tc_c07_xiaoman_books_return_009",
+                "tc_c07_xiaoman_books_return_010",
+                "tc_c07_xiaoman_books_return_011"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+                "startLine": 83,
+                "endLine": 106
+              },
+              "sceneIds": [
+                "ts_c07_xiaoman_books_return"
+              ]
+            },
+            {
+              "name": "crossroad",
+              "artId": "a01-ch07-xiaoman-04",
+              "headingLine": 107,
+              "nodeIds": [
+                "tc_c07_xiaoman_crossroad_001",
+                "tc_c07_xiaoman_crossroad_002",
+                "tc_c07_xiaoman_crossroad_003",
+                "tc_c07_xiaoman_crossroad_004",
+                "tc_c07_xiaoman_crossroad_005",
+                "tc_c07_xiaoman_crossroad_006",
+                "tc_c07_xiaoman_crossroad_007"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+                "startLine": 107,
+                "endLine": 122
+              },
+              "sceneIds": [
+                "ts_c07_xiaoman_crossroad"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c07_xiaoman_outing_gate"
+          ]
+        },
+        {
+          "chapter": 8,
+          "entry": "tc_c08_xiaoman_entry",
+          "returnTo": "tc_c08_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+            "startLine": 43,
+            "endLine": 122
+          },
+          "blocks": [
+            {
+              "name": "voice_call",
+              "artId": "a01-ch08-xiaoman-01",
+              "headingLine": 45,
+              "nodeIds": [
+                "tc_c08_xiaoman_entry",
+                "tc_c08_xiaoman_voice_call_002",
+                "tc_c08_xiaoman_voice_call_003",
+                "tc_c08_xiaoman_voice_call_004",
+                "tc_c08_xiaoman_voice_call_005",
+                "tc_c08_xiaoman_voice_call_006",
+                "tc_c08_xiaoman_voice_call_007",
+                "tc_c08_xiaoman_voice_call_008",
+                "tc_c08_xiaoman_voice_call_009",
+                "tc_c08_xiaoman_voice_call_010",
+                "tc_c08_xiaoman_voice_call_011",
+                "tc_c08_xiaoman_voice_call_012",
+                "tc_c08_xiaoman_voice_call_013",
+                "tc_c08_xiaoman_voice_call_014",
+                "tc_c08_xiaoman_voice_call_015",
+                "tc_c08_xiaoman_voice_call_016",
+                "tc_c08_xiaoman_voice_call_017",
+                "tc_c08_xiaoman_voice_call_018",
+                "tc_c08_xiaoman_voice_call_019"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+                "startLine": 45,
+                "endLine": 84
+              },
+              "sceneIds": [
+                "ts_c08_xiaoman_voice_call"
+              ]
+            },
+            {
+              "name": "badminton",
+              "artId": "a01-ch08-xiaoman-02",
+              "headingLine": 85,
+              "nodeIds": [
+                "tc_c08_xiaoman_badminton_001",
+                "tc_c08_xiaoman_badminton_002",
+                "tc_c08_xiaoman_badminton_003",
+                "tc_c08_xiaoman_badminton_004",
+                "tc_c08_xiaoman_badminton_005",
+                "tc_c08_xiaoman_badminton_006",
+                "tc_c08_xiaoman_badminton_007",
+                "tc_c08_xiaoman_badminton_008",
+                "tc_c08_xiaoman_badminton_009",
+                "tc_c08_xiaoman_badminton_010",
+                "tc_c08_xiaoman_badminton_011",
+                "tc_c08_xiaoman_badminton_012",
+                "tc_c08_xiaoman_badminton_013",
+                "tc_c08_xiaoman_badminton_014",
+                "tc_c08_xiaoman_badminton_015",
+                "tc_c08_xiaoman_badminton_016",
+                "tc_c08_xiaoman_badminton_017",
+                "tc_c08_xiaoman_badminton_018"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+                "startLine": 85,
+                "endLine": 122
+              },
+              "sceneIds": [
+                "ts_c08_xiaoman_badminton"
+              ]
+            }
+          ],
+          "controlIds": []
+        },
+        {
+          "chapter": 9,
+          "entry": "tc_c09_xiaoman_entry",
+          "returnTo": "tc_c09_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "startLine": 33,
+            "endLine": 144
+          },
+          "blocks": [
+            {
+              "name": "relationship",
+              "artId": "a01-ch09-xiaoman-01",
+              "headingLine": 35,
+              "nodeIds": [
+                "tc_c09_xiaoman_entry",
+                "tc_c09_xiaoman_relationship_002",
+                "tc_c09_xiaoman_relationship_003",
+                "tc_c09_xiaoman_relationship_004",
+                "tc_c09_xiaoman_relationship_005",
+                "tc_c09_xiaoman_relationship_006",
+                "tc_c09_xiaoman_relationship_007",
+                "tc_c09_xiaoman_relationship_008",
+                "tc_c09_xiaoman_relationship_009",
+                "tc_c09_xiaoman_relationship_010",
+                "tc_c09_xiaoman_relationship_011",
+                "tc_c09_xiaoman_relationship_012",
+                "tc_c09_xiaoman_relationship_013",
+                "tc_c09_xiaoman_relationship_014",
+                "tc_c09_xiaoman_relationship_015",
+                "tc_c09_xiaoman_relationship_016",
+                "tc_c09_xiaoman_relationship_017"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+                "startLine": 35,
+                "endLine": 70
+              },
+              "sceneIds": [
+                "ts_c09_xiaoman_relationship"
+              ]
+            },
+            {
+              "name": "dating",
+              "artId": "a01-ch09-xiaoman-02",
+              "headingLine": 71,
+              "nodeIds": [
+                "tc_c09_xiaoman_dating_001",
+                "tc_c09_xiaoman_dating_002",
+                "tc_c09_xiaoman_dating_003",
+                "tc_c09_xiaoman_dating_004",
+                "tc_c09_xiaoman_dating_005",
+                "tc_c09_xiaoman_dating_006",
+                "tc_c09_xiaoman_dating_007",
+                "tc_c09_xiaoman_dating_008",
+                "tc_c09_xiaoman_dating_009",
+                "tc_c09_xiaoman_dating_010",
+                "tc_c09_xiaoman_dating_011",
+                "tc_c09_xiaoman_dating_012",
+                "tc_c09_xiaoman_dating_013",
+                "tc_c09_xiaoman_dating_014",
+                "tc_c09_xiaoman_dating_015",
+                "tc_c09_xiaoman_dating_016",
+                "tc_c09_xiaoman_dating_017",
+                "tc_c09_xiaoman_dating_018",
+                "tc_c09_xiaoman_dating_019"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+                "startLine": 71,
+                "endLine": 110
+              },
+              "sceneIds": [
+                "ts_c09_xiaoman_dating"
+              ]
+            },
+            {
+              "name": "friends",
+              "artId": "a01-ch09-xiaoman-03",
+              "headingLine": 111,
+              "nodeIds": [
+                "tc_c09_xiaoman_friends_001",
+                "tc_c09_xiaoman_friends_002",
+                "tc_c09_xiaoman_friends_003",
+                "tc_c09_xiaoman_friends_004",
+                "tc_c09_xiaoman_friends_005",
+                "tc_c09_xiaoman_friends_006",
+                "tc_c09_xiaoman_friends_007",
+                "tc_c09_xiaoman_friends_008",
+                "tc_c09_xiaoman_friends_009",
+                "tc_c09_xiaoman_friends_010",
+                "tc_c09_xiaoman_friends_011",
+                "tc_c09_xiaoman_friends_012",
+                "tc_c09_xiaoman_friends_013",
+                "tc_c09_xiaoman_friends_014",
+                "tc_c09_xiaoman_friends_015",
+                "tc_c09_xiaoman_friends_016"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+                "startLine": 111,
+                "endLine": 144
+              },
+              "sceneIds": [
+                "ts_c09_xiaoman_friends",
+                "ts_c09_xiaoman_friends_busstop",
+                "ts_c09_xiaoman_friends_day82",
+                "ts_c09_xiaoman_friends_day82_crossroad"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c09_xiaoman_relationship_choice"
+          ]
+        },
+        {
+          "chapter": 10,
+          "entry": "tc_c10_xiaoman_entry",
+          "returnTo": null,
+          "endings": [
+            "tc_c10_xiaoman_end_dating",
+            "tc_c10_xiaoman_end_friends"
+          ],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+            "startLine": 65,
+            "endLine": 152
+          },
+          "blocks": [
+            {
+              "name": "dating",
+              "artId": "a01-ch10-xiaoman-01",
+              "headingLine": 69,
+              "nodeIds": [
+                "tc_c10_xiaoman_dating_001",
+                "tc_c10_xiaoman_dating_002",
+                "tc_c10_xiaoman_dating_003",
+                "tc_c10_xiaoman_dating_004",
+                "tc_c10_xiaoman_dating_005",
+                "tc_c10_xiaoman_dating_006",
+                "tc_c10_xiaoman_dating_007",
+                "tc_c10_xiaoman_dating_008",
+                "tc_c10_xiaoman_dating_009",
+                "tc_c10_xiaoman_dating_010",
+                "tc_c10_xiaoman_dating_011",
+                "tc_c10_xiaoman_dating_012",
+                "tc_c10_xiaoman_dating_013",
+                "tc_c10_xiaoman_dating_014",
+                "tc_c10_xiaoman_dating_015",
+                "tc_c10_xiaoman_dating_016",
+                "tc_c10_xiaoman_dating_017",
+                "tc_c10_xiaoman_dating_018",
+                "tc_c10_xiaoman_dating_019",
+                "tc_c10_xiaoman_dating_020",
+                "tc_c10_xiaoman_dating_021"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+                "startLine": 69,
+                "endLine": 112
+              },
+              "sceneIds": [
+                "ts_c10_xiaoman_dating"
+              ]
+            },
+            {
+              "name": "friends",
+              "artId": "a01-ch10-xiaoman-02",
+              "headingLine": 113,
+              "nodeIds": [
+                "tc_c10_xiaoman_friends_001",
+                "tc_c10_xiaoman_friends_002",
+                "tc_c10_xiaoman_friends_003",
+                "tc_c10_xiaoman_friends_004",
+                "tc_c10_xiaoman_friends_005",
+                "tc_c10_xiaoman_friends_006",
+                "tc_c10_xiaoman_friends_007",
+                "tc_c10_xiaoman_friends_008",
+                "tc_c10_xiaoman_friends_009",
+                "tc_c10_xiaoman_friends_010",
+                "tc_c10_xiaoman_friends_011",
+                "tc_c10_xiaoman_friends_012",
+                "tc_c10_xiaoman_friends_013",
+                "tc_c10_xiaoman_friends_014",
+                "tc_c10_xiaoman_friends_015",
+                "tc_c10_xiaoman_friends_016",
+                "tc_c10_xiaoman_friends_017",
+                "tc_c10_xiaoman_friends_018",
+                "tc_c10_xiaoman_friends_019"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+                "startLine": 113,
+                "endLine": 152
+              },
+              "sceneIds": [
+                "ts_c10_xiaoman_friends",
+                "ts_c10_xiaoman_friends_noodles",
+                "ts_c10_xiaoman_friends_street",
+                "ts_c10_xiaoman_friends_homeward"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c10_xiaoman_entry",
+            "tc_c10_xiaoman_end_dating",
+            "tc_c10_xiaoman_end_friends"
+          ]
+        }
+      ],
+      "assetMappings": [
+        {
+          "a01SectionId": "a01-ch03-xiaoman-01",
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "startLine": 35,
+          "endLine": 101,
+          "nodeIds": [
+            "tc_c03_xiaoman_entry",
+            "tc_c03_xiaoman_salon_visit_002",
+            "tc_c03_xiaoman_salon_visit_003",
+            "tc_c03_xiaoman_salon_visit_004",
+            "tc_c03_xiaoman_salon_visit_005",
+            "tc_c03_xiaoman_salon_visit_006",
+            "tc_c03_xiaoman_salon_visit_007",
+            "tc_c03_xiaoman_salon_visit_008",
+            "tc_c03_xiaoman_salon_visit_009",
+            "tc_c03_xiaoman_salon_visit_010",
+            "tc_c03_xiaoman_salon_visit_011",
+            "tc_c03_xiaoman_salon_visit_012",
+            "tc_c03_xiaoman_salon_visit_013",
+            "tc_c03_xiaoman_salon_visit_014",
+            "tc_c03_xiaoman_salon_visit_015",
+            "tc_c03_xiaoman_salon_visit_016",
+            "tc_c03_xiaoman_salon_visit_017",
+            "tc_c03_xiaoman_salon_visit_018",
+            "tc_c03_xiaoman_salon_visit_019",
+            "tc_c03_xiaoman_salon_visit_020",
+            "tc_c03_xiaoman_salon_visit_021",
+            "tc_c03_xiaoman_salon_visit_022",
+            "tc_c03_xiaoman_salon_visit_023",
+            "tc_c03_xiaoman_salon_visit_024",
+            "tc_c03_xiaoman_salon_visit_025",
+            "tc_c03_xiaoman_salon_visit_026",
+            "tc_c03_xiaoman_salon_visit_027",
+            "tc_c03_xiaoman_salon_visit_028",
+            "tc_c03_xiaoman_salon_visit_029",
+            "tc_c03_xiaoman_salon_visit_030",
+            "tc_c03_xiaoman_salon_visit_031",
+            "tc_c03_xiaoman_salon_visit_032",
+            "tc_c03_xiaoman_salon_visit_033"
+          ],
+          "sceneIds": [
+            "ts_c03_xiaoman_salon_visit"
+          ],
+          "assetIds": [
+            "tc-bg-salon-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile",
+            "tc-char-xiaoman-human-expression-hesitant",
+            "tc-look-xiaoman-work-apron"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "客人是环境配角；按手背/近额头属于小动作候选，不强制新CG。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch03-xiaoman-02",
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "startLine": 103,
+          "endLine": 163,
+          "nodeIds": [
+            "tc_c03_xiaoman_present_day_001",
+            "tc_c03_xiaoman_present_day_002",
+            "tc_c03_xiaoman_present_day_003",
+            "tc_c03_xiaoman_present_day_004",
+            "tc_c03_xiaoman_present_day_005",
+            "tc_c03_xiaoman_present_day_006",
+            "tc_c03_xiaoman_present_day_007",
+            "tc_c03_xiaoman_present_day_008",
+            "tc_c03_xiaoman_present_day_009",
+            "tc_c03_xiaoman_present_day_010",
+            "tc_c03_xiaoman_present_day_011",
+            "tc_c03_xiaoman_present_day_012",
+            "tc_c03_xiaoman_present_day_013",
+            "tc_c03_xiaoman_present_day_014",
+            "tc_c03_xiaoman_present_day_015",
+            "tc_c03_xiaoman_present_day_016",
+            "tc_c03_xiaoman_present_day_017",
+            "tc_c03_xiaoman_present_day_018",
+            "tc_c03_xiaoman_present_day_019",
+            "tc_c03_xiaoman_present_day_020",
+            "tc_c03_xiaoman_present_day_021",
+            "tc_c03_xiaoman_present_day_022",
+            "tc_c03_xiaoman_present_day_023",
+            "tc_c03_xiaoman_present_day_024",
+            "tc_c03_xiaoman_present_day_025",
+            "tc_c03_xiaoman_present_day_026",
+            "tc_c03_xiaoman_present_day_027",
+            "tc_c03_xiaoman_present_day_028",
+            "tc_c03_xiaoman_present_day_029",
+            "tc_c03_xiaoman_present_day_030"
+          ],
+          "sceneIds": [
+            "ts_c03_xiaoman_present_day",
+            "ts_c03_xiaoman_present_day_street",
+            "ts_c03_xiaoman_present_day_busstop"
+          ],
+          "assetIds": [
+            "tc-bg-busstop-day",
+            "tc-bg-street-day",
+            "tc-bg-busstop-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-serious",
+            "tc-char-xiaoman-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "儿时跳水坑仅言语提及，不用童年形象。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch03-xiaoman-03",
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "startLine": 165,
+          "endLine": 215,
+          "nodeIds": [
+            "tc_c03_xiaoman_old_sketch_001",
+            "tc_c03_xiaoman_old_sketch_002",
+            "tc_c03_xiaoman_old_sketch_003",
+            "tc_c03_xiaoman_old_sketch_004",
+            "tc_c03_xiaoman_old_sketch_005",
+            "tc_c03_xiaoman_old_sketch_006",
+            "tc_c03_xiaoman_old_sketch_007",
+            "tc_c03_xiaoman_old_sketch_008",
+            "tc_c03_xiaoman_old_sketch_009",
+            "tc_c03_xiaoman_old_sketch_010",
+            "tc_c03_xiaoman_old_sketch_011",
+            "tc_c03_xiaoman_old_sketch_012",
+            "tc_c03_xiaoman_old_sketch_013",
+            "tc_c03_xiaoman_old_sketch_014",
+            "tc_c03_xiaoman_old_sketch_015",
+            "tc_c03_xiaoman_old_sketch_016",
+            "tc_c03_xiaoman_old_sketch_017",
+            "tc_c03_xiaoman_old_sketch_018",
+            "tc_c03_xiaoman_old_sketch_019",
+            "tc_c03_xiaoman_old_sketch_020",
+            "tc_c03_xiaoman_old_sketch_021",
+            "tc_c03_xiaoman_old_sketch_022",
+            "tc_c03_xiaoman_old_sketch_023",
+            "tc_c03_xiaoman_old_sketch_024",
+            "tc_c03_xiaoman_old_sketch_025"
+          ],
+          "sceneIds": [
+            "ts_c03_xiaoman_old_sketch",
+            "ts_c03_xiaoman_old_sketch_convenience"
+          ],
+          "assetIds": [
+            "tc-bg-salon-day",
+            "tc-bg-convenience-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-hesitant",
+            "tc-char-xiaoman-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "同事只简短道别，不起哄。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch04-xiaoman-01",
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "startLine": 33,
+          "endLine": 47,
+          "nodeIds": [
+            "tc_c04_xiaoman_entry",
+            "tc_c04_xiaoman_outing_002",
+            "tc_c04_xiaoman_outing_003",
+            "tc_c04_xiaoman_outing_004",
+            "tc_c04_xiaoman_outing_005",
+            "tc_c04_xiaoman_outing_006",
+            "tc_c04_xiaoman_outing_007"
+          ],
+          "sceneIds": [
+            "ts_c04_xiaoman_outing",
+            "ts_c04_xiaoman_outing_crossroad"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day",
+            "tc-bg-street-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": []
+        },
+        {
+          "a01SectionId": "a01-ch04-xiaoman-02",
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "startLine": 49,
+          "endLine": 79,
+          "nodeIds": [
+            "tc_c04_xiaoman_basketball_001",
+            "tc_c04_xiaoman_basketball_002",
+            "tc_c04_xiaoman_basketball_003",
+            "tc_c04_xiaoman_basketball_004",
+            "tc_c04_xiaoman_basketball_005",
+            "tc_c04_xiaoman_basketball_006",
+            "tc_c04_xiaoman_basketball_007",
+            "tc_c04_xiaoman_basketball_008",
+            "tc_c04_xiaoman_basketball_009",
+            "tc_c04_xiaoman_basketball_010",
+            "tc_c04_xiaoman_basketball_011",
+            "tc_c04_xiaoman_basketball_012",
+            "tc_c04_xiaoman_basketball_013",
+            "tc_c04_xiaoman_basketball_014",
+            "tc_c04_xiaoman_basketball_015"
+          ],
+          "sceneIds": [
+            "ts_c04_xiaoman_basketball",
+            "ts_c04_xiaoman_basketball_arcade_exit"
+          ],
+          "assetIds": [
+            "tc-bg-arcade-basketball",
+            "tc-bg-street-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-serious",
+            "tc-char-xiaoman-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": []
+        },
+        {
+          "a01SectionId": "a01-ch04-xiaoman-03",
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "startLine": 81,
+          "endLine": 109,
+          "nodeIds": [
+            "tc_c04_xiaoman_books_001",
+            "tc_c04_xiaoman_books_002",
+            "tc_c04_xiaoman_books_003",
+            "tc_c04_xiaoman_books_004",
+            "tc_c04_xiaoman_books_005",
+            "tc_c04_xiaoman_books_006",
+            "tc_c04_xiaoman_books_007",
+            "tc_c04_xiaoman_books_008",
+            "tc_c04_xiaoman_books_009",
+            "tc_c04_xiaoman_books_010",
+            "tc_c04_xiaoman_books_011",
+            "tc_c04_xiaoman_books_012",
+            "tc_c04_xiaoman_books_013",
+            "tc_c04_xiaoman_books_014"
+          ],
+          "sceneIds": [
+            "ts_c04_xiaoman_books"
+          ],
+          "assetIds": [
+            "tc-bg-used-books-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": []
+        },
+        {
+          "a01SectionId": "a01-ch04-xiaoman-04",
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "startLine": 111,
+          "endLine": 133,
+          "nodeIds": [
+            "tc_c04_xiaoman_before_bus_001",
+            "tc_c04_xiaoman_before_bus_002",
+            "tc_c04_xiaoman_before_bus_003",
+            "tc_c04_xiaoman_before_bus_004",
+            "tc_c04_xiaoman_before_bus_005",
+            "tc_c04_xiaoman_before_bus_006",
+            "tc_c04_xiaoman_before_bus_007",
+            "tc_c04_xiaoman_before_bus_008",
+            "tc_c04_xiaoman_before_bus_009",
+            "tc_c04_xiaoman_before_bus_010",
+            "tc_c04_xiaoman_before_bus_011"
+          ],
+          "sceneIds": [
+            "ts_c04_xiaoman_before_bus",
+            "ts_c04_xiaoman_before_bus_busstop"
+          ],
+          "assetIds": [
+            "tc-bg-stall-day",
+            "tc-bg-busstop-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "未替她拨头发，停在半空后由她自己弄乱。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch05-xiaoman-01",
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "startLine": 39,
+          "endLine": 95,
+          "nodeIds": [
+            "tc_c05_xiaoman_entry",
+            "tc_c05_xiaoman_parcel_002",
+            "tc_c05_xiaoman_parcel_003",
+            "tc_c05_xiaoman_parcel_004",
+            "tc_c05_xiaoman_parcel_005",
+            "tc_c05_xiaoman_parcel_006",
+            "tc_c05_xiaoman_parcel_007",
+            "tc_c05_xiaoman_parcel_008",
+            "tc_c05_xiaoman_parcel_009",
+            "tc_c05_xiaoman_parcel_010",
+            "tc_c05_xiaoman_parcel_011",
+            "tc_c05_xiaoman_parcel_012",
+            "tc_c05_xiaoman_parcel_013",
+            "tc_c05_xiaoman_parcel_014",
+            "tc_c05_xiaoman_parcel_015",
+            "tc_c05_xiaoman_parcel_016",
+            "tc_c05_xiaoman_parcel_017",
+            "tc_c05_xiaoman_parcel_018",
+            "tc_c05_xiaoman_parcel_019",
+            "tc_c05_xiaoman_parcel_020",
+            "tc_c05_xiaoman_parcel_021",
+            "tc_c05_xiaoman_parcel_022",
+            "tc_c05_xiaoman_parcel_023",
+            "tc_c05_xiaoman_parcel_024",
+            "tc_c05_xiaoman_parcel_025",
+            "tc_c05_xiaoman_parcel_026",
+            "tc_c05_xiaoman_parcel_027",
+            "tc_c05_xiaoman_parcel_028"
+          ],
+          "sceneIds": [
+            "ts_c05_xiaoman_parcel"
+          ],
+          "assetIds": [
+            "tc-bg-parcel-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-wenwen-human-expression-downcast",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-serious",
+            "tc-char-xiaoman-human-expression-downcast",
+            "tc-look-xiaoman-new-coat"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "儿时熟人用环境配角，不做童年回忆；第25天群聊只回叙。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch05-xiaoman-02",
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "startLine": 97,
+          "endLine": 131,
+          "nodeIds": [
+            "tc_c05_xiaoman_new_coat_001",
+            "tc_c05_xiaoman_new_coat_002",
+            "tc_c05_xiaoman_new_coat_003",
+            "tc_c05_xiaoman_new_coat_004",
+            "tc_c05_xiaoman_new_coat_005",
+            "tc_c05_xiaoman_new_coat_006",
+            "tc_c05_xiaoman_new_coat_007",
+            "tc_c05_xiaoman_new_coat_008",
+            "tc_c05_xiaoman_new_coat_009",
+            "tc_c05_xiaoman_new_coat_010",
+            "tc_c05_xiaoman_new_coat_011",
+            "tc_c05_xiaoman_new_coat_012",
+            "tc_c05_xiaoman_new_coat_013",
+            "tc_c05_xiaoman_new_coat_014",
+            "tc_c05_xiaoman_new_coat_015",
+            "tc_c05_xiaoman_new_coat_016",
+            "tc_c05_xiaoman_new_coat_017"
+          ],
+          "sceneIds": [
+            "ts_c05_xiaoman_new_coat"
+          ],
+          "assetIds": [
+            "tc-bg-convenience-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-serious",
+            "tc-char-xiaoman-human-expression-smile",
+            "tc-look-xiaoman-new-coat"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "不能沿用砖红夹克敷衍这场，衣服颜色是对白信息。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch06-xiaoman-01",
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 47,
+          "endLine": 124,
+          "nodeIds": [
+            "tc_c06_xiaoman_entry",
+            "tc_c06_xiaoman_rest_day_002",
+            "tc_c06_xiaoman_rest_day_003",
+            "tc_c06_xiaoman_rest_day_004",
+            "tc_c06_xiaoman_rest_day_005",
+            "tc_c06_xiaoman_rest_day_006",
+            "tc_c06_xiaoman_rest_day_007",
+            "tc_c06_xiaoman_rest_day_008",
+            "tc_c06_xiaoman_rest_day_009",
+            "tc_c06_xiaoman_rest_day_010",
+            "tc_c06_xiaoman_rest_day_011",
+            "tc_c06_xiaoman_rest_day_012",
+            "tc_c06_xiaoman_rest_day_013",
+            "tc_c06_xiaoman_rest_day_014",
+            "tc_c06_xiaoman_rest_day_015",
+            "tc_c06_xiaoman_rest_day_016",
+            "tc_c06_xiaoman_rest_day_017",
+            "tc_c06_xiaoman_rest_day_018",
+            "tc_c06_xiaoman_rest_day_019",
+            "tc_c06_xiaoman_rest_day_020",
+            "tc_c06_xiaoman_rest_day_021",
+            "tc_c06_xiaoman_rest_day_022",
+            "tc_c06_xiaoman_rest_day_023",
+            "tc_c06_xiaoman_rest_day_024",
+            "tc_c06_xiaoman_rest_day_025",
+            "tc_c06_xiaoman_rest_day_026",
+            "tc_c06_xiaoman_rest_day_027",
+            "tc_c06_xiaoman_rest_day_028",
+            "tc_c06_xiaoman_rest_day_029",
+            "tc_c06_xiaoman_rest_day_030",
+            "tc_c06_xiaoman_rest_day_031",
+            "tc_c06_xiaoman_rest_day_032",
+            "tc_c06_xiaoman_rest_day_033",
+            "tc_c06_xiaoman_rest_day_034",
+            "tc_c06_xiaoman_rest_day_035",
+            "tc_c06_xiaoman_rest_day_036",
+            "tc_c06_xiaoman_rest_day_037",
+            "tc_c06_xiaoman_rest_day_038"
+          ],
+          "sceneIds": [
+            "ts_c06_xiaoman_rest_day",
+            "ts_c06_xiaoman_rest_day_river",
+            "ts_c06_xiaoman_rest_day_dinner"
+          ],
+          "assetIds": [
+            "tc-bg-street-day",
+            "tc-bg-river-day",
+            "tc-bg-food-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile",
+            "tc-char-xiaoman-human-expression-hesitant",
+            "tc-look-xiaoman-new-coat"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "新外套搭手臂，橘子、空盒、刷漆警示带与避雨台阶。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch07-xiaoman-01",
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "startLine": 27,
+          "endLine": 62,
+          "nodeIds": [
+            "tc_c07_xiaoman_entry",
+            "tc_c07_xiaoman_her_weekend_002",
+            "tc_c07_xiaoman_her_weekend_003",
+            "tc_c07_xiaoman_her_weekend_004",
+            "tc_c07_xiaoman_her_weekend_005",
+            "tc_c07_xiaoman_her_weekend_006",
+            "tc_c07_xiaoman_her_weekend_007",
+            "tc_c07_xiaoman_her_weekend_008",
+            "tc_c07_xiaoman_her_weekend_009",
+            "tc_c07_xiaoman_her_weekend_010",
+            "tc_c07_xiaoman_her_weekend_011",
+            "tc_c07_xiaoman_her_weekend_012",
+            "tc_c07_xiaoman_her_weekend_013",
+            "tc_c07_xiaoman_her_weekend_014",
+            "tc_c07_xiaoman_her_weekend_015",
+            "tc_c07_xiaoman_her_weekend_016",
+            "tc_c07_xiaoman_her_weekend_017"
+          ],
+          "sceneIds": [
+            "ts_c07_xiaoman_her_weekend",
+            "ts_c07_xiaoman_her_weekend_street",
+            "ts_c07_xiaoman_her_weekend_meeting"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day",
+            "tc-bg-street-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile",
+            "tc-char-xiaoman-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "先通话，约七点前街口见；不同事短课CG。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch07-xiaoman-02",
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "startLine": 63,
+          "endLine": 82,
+          "nodeIds": [
+            "tc_c07_xiaoman_basketball_return_001",
+            "tc_c07_xiaoman_basketball_return_002",
+            "tc_c07_xiaoman_basketball_return_003",
+            "tc_c07_xiaoman_basketball_return_004",
+            "tc_c07_xiaoman_basketball_return_005",
+            "tc_c07_xiaoman_basketball_return_006",
+            "tc_c07_xiaoman_basketball_return_007",
+            "tc_c07_xiaoman_basketball_return_008",
+            "tc_c07_xiaoman_basketball_return_009"
+          ],
+          "sceneIds": [
+            "ts_c07_xiaoman_basketball_return"
+          ],
+          "assetIds": [
+            "tc-bg-arcade-basketball",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile",
+            "tc-char-xiaoman-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "第四章投篮机分支回收；三局不补机械恋爱分数。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch07-xiaoman-03",
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "startLine": 83,
+          "endLine": 106,
+          "nodeIds": [
+            "tc_c07_xiaoman_books_return_001",
+            "tc_c07_xiaoman_books_return_002",
+            "tc_c07_xiaoman_books_return_003",
+            "tc_c07_xiaoman_books_return_004",
+            "tc_c07_xiaoman_books_return_005",
+            "tc_c07_xiaoman_books_return_006",
+            "tc_c07_xiaoman_books_return_007",
+            "tc_c07_xiaoman_books_return_008",
+            "tc_c07_xiaoman_books_return_009",
+            "tc_c07_xiaoman_books_return_010",
+            "tc_c07_xiaoman_books_return_011"
+          ],
+          "sceneIds": [
+            "ts_c07_xiaoman_books_return"
+          ],
+          "assetIds": [
+            "tc-bg-used-books-closed-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile",
+            "tc-char-xiaoman-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "第四章旧书摊分支；本次摊未开，石阶折彩纸鹤，不能仍摆满书。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch07-xiaoman-04",
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "startLine": 107,
+          "endLine": 122,
+          "nodeIds": [
+            "tc_c07_xiaoman_crossroad_001",
+            "tc_c07_xiaoman_crossroad_002",
+            "tc_c07_xiaoman_crossroad_003",
+            "tc_c07_xiaoman_crossroad_004",
+            "tc_c07_xiaoman_crossroad_005",
+            "tc_c07_xiaoman_crossroad_006",
+            "tc_c07_xiaoman_crossroad_007"
+          ],
+          "sceneIds": [
+            "ts_c07_xiaoman_crossroad"
+          ],
+          "assetIds": [
+            "tc-bg-street-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile",
+            "tc-char-xiaoman-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "19:30路口，光线待A04按季节连续安排。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch08-xiaoman-01",
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "startLine": 45,
+          "endLine": 84,
+          "nodeIds": [
+            "tc_c08_xiaoman_entry",
+            "tc_c08_xiaoman_voice_call_002",
+            "tc_c08_xiaoman_voice_call_003",
+            "tc_c08_xiaoman_voice_call_004",
+            "tc_c08_xiaoman_voice_call_005",
+            "tc_c08_xiaoman_voice_call_006",
+            "tc_c08_xiaoman_voice_call_007",
+            "tc_c08_xiaoman_voice_call_008",
+            "tc_c08_xiaoman_voice_call_009",
+            "tc_c08_xiaoman_voice_call_010",
+            "tc_c08_xiaoman_voice_call_011",
+            "tc_c08_xiaoman_voice_call_012",
+            "tc_c08_xiaoman_voice_call_013",
+            "tc_c08_xiaoman_voice_call_014",
+            "tc_c08_xiaoman_voice_call_015",
+            "tc_c08_xiaoman_voice_call_016",
+            "tc_c08_xiaoman_voice_call_017",
+            "tc_c08_xiaoman_voice_call_018",
+            "tc_c08_xiaoman_voice_call_019"
+          ],
+          "sceneIds": [
+            "ts_c08_xiaoman_voice_call"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile",
+            "tc-char-xiaoman-human-expression-tired"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "小满语音联系，不展示她住处与湿袖场面。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch08-xiaoman-02",
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "startLine": 85,
+          "endLine": 122,
+          "nodeIds": [
+            "tc_c08_xiaoman_badminton_001",
+            "tc_c08_xiaoman_badminton_002",
+            "tc_c08_xiaoman_badminton_003",
+            "tc_c08_xiaoman_badminton_004",
+            "tc_c08_xiaoman_badminton_005",
+            "tc_c08_xiaoman_badminton_006",
+            "tc_c08_xiaoman_badminton_007",
+            "tc_c08_xiaoman_badminton_008",
+            "tc_c08_xiaoman_badminton_009",
+            "tc_c08_xiaoman_badminton_010",
+            "tc_c08_xiaoman_badminton_011",
+            "tc_c08_xiaoman_badminton_012",
+            "tc_c08_xiaoman_badminton_013",
+            "tc_c08_xiaoman_badminton_014",
+            "tc_c08_xiaoman_badminton_015",
+            "tc_c08_xiaoman_badminton_016",
+            "tc_c08_xiaoman_badminton_017",
+            "tc_c08_xiaoman_badminton_018"
+          ],
+          "sceneIds": [
+            "ts_c08_xiaoman_badminton"
+          ],
+          "assetIds": [
+            "tc-bg-badminton-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile",
+            "tc-char-xiaoman-human-expression-hesitant",
+            "tc-char-xiaoman-human-expression-tired"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "熟人球馆非赛事；借拍与保护套，小腿疲倦。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch09-xiaoman-01",
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 35,
+          "endLine": 70,
+          "nodeIds": [
+            "tc_c09_xiaoman_entry",
+            "tc_c09_xiaoman_relationship_002",
+            "tc_c09_xiaoman_relationship_003",
+            "tc_c09_xiaoman_relationship_004",
+            "tc_c09_xiaoman_relationship_005",
+            "tc_c09_xiaoman_relationship_006",
+            "tc_c09_xiaoman_relationship_007",
+            "tc_c09_xiaoman_relationship_008",
+            "tc_c09_xiaoman_relationship_009",
+            "tc_c09_xiaoman_relationship_010",
+            "tc_c09_xiaoman_relationship_011",
+            "tc_c09_xiaoman_relationship_012",
+            "tc_c09_xiaoman_relationship_013",
+            "tc_c09_xiaoman_relationship_014",
+            "tc_c09_xiaoman_relationship_015",
+            "tc_c09_xiaoman_relationship_016",
+            "tc_c09_xiaoman_relationship_017"
+          ],
+          "sceneIds": [
+            "ts_c09_xiaoman_relationship"
+          ],
+          "assetIds": [
+            "tc-bg-slope-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile",
+            "tc-char-xiaoman-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "矮墙、橘子、碎发。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch09-xiaoman-02",
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 71,
+          "endLine": 110,
+          "nodeIds": [
+            "tc_c09_xiaoman_dating_001",
+            "tc_c09_xiaoman_dating_002",
+            "tc_c09_xiaoman_dating_003",
+            "tc_c09_xiaoman_dating_004",
+            "tc_c09_xiaoman_dating_005",
+            "tc_c09_xiaoman_dating_006",
+            "tc_c09_xiaoman_dating_007",
+            "tc_c09_xiaoman_dating_008",
+            "tc_c09_xiaoman_dating_009",
+            "tc_c09_xiaoman_dating_010",
+            "tc_c09_xiaoman_dating_011",
+            "tc_c09_xiaoman_dating_012",
+            "tc_c09_xiaoman_dating_013",
+            "tc_c09_xiaoman_dating_014",
+            "tc_c09_xiaoman_dating_015",
+            "tc_c09_xiaoman_dating_016",
+            "tc_c09_xiaoman_dating_017",
+            "tc_c09_xiaoman_dating_018",
+            "tc_c09_xiaoman_dating_019"
+          ],
+          "sceneIds": [
+            "ts_c09_xiaoman_dating"
+          ],
+          "assetIds": [
+            "tc-bg-slope-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile",
+            "tc-char-xiaoman-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "交往：征得同意，牵手下坡。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch09-xiaoman-03",
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 111,
+          "endLine": 144,
+          "nodeIds": [
+            "tc_c09_xiaoman_friends_001",
+            "tc_c09_xiaoman_friends_002",
+            "tc_c09_xiaoman_friends_003",
+            "tc_c09_xiaoman_friends_004",
+            "tc_c09_xiaoman_friends_005",
+            "tc_c09_xiaoman_friends_006",
+            "tc_c09_xiaoman_friends_007",
+            "tc_c09_xiaoman_friends_008",
+            "tc_c09_xiaoman_friends_009",
+            "tc_c09_xiaoman_friends_010",
+            "tc_c09_xiaoman_friends_011",
+            "tc_c09_xiaoman_friends_012",
+            "tc_c09_xiaoman_friends_013",
+            "tc_c09_xiaoman_friends_014",
+            "tc_c09_xiaoman_friends_015",
+            "tc_c09_xiaoman_friends_016"
+          ],
+          "sceneIds": [
+            "ts_c09_xiaoman_friends",
+            "ts_c09_xiaoman_friends_busstop",
+            "ts_c09_xiaoman_friends_day82",
+            "ts_c09_xiaoman_friends_day82_crossroad"
+          ],
+          "assetIds": [
+            "tc-bg-slope-day",
+            "tc-bg-busstop-day",
+            "tc-bg-badminton-day",
+            "tc-bg-street-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile",
+            "tc-char-xiaoman-human-expression-hesitant",
+            "tc-char-xiaoman-human-expression-downcast"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "朋友：不拥抱；第82天群约看球为后续，勿并入第68天。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch10-xiaoman-01",
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "startLine": 69,
+          "endLine": 112,
+          "nodeIds": [
+            "tc_c10_xiaoman_dating_001",
+            "tc_c10_xiaoman_dating_002",
+            "tc_c10_xiaoman_dating_003",
+            "tc_c10_xiaoman_dating_004",
+            "tc_c10_xiaoman_dating_005",
+            "tc_c10_xiaoman_dating_006",
+            "tc_c10_xiaoman_dating_007",
+            "tc_c10_xiaoman_dating_008",
+            "tc_c10_xiaoman_dating_009",
+            "tc_c10_xiaoman_dating_010",
+            "tc_c10_xiaoman_dating_011",
+            "tc_c10_xiaoman_dating_012",
+            "tc_c10_xiaoman_dating_013",
+            "tc_c10_xiaoman_dating_014",
+            "tc_c10_xiaoman_dating_015",
+            "tc_c10_xiaoman_dating_016",
+            "tc_c10_xiaoman_dating_017",
+            "tc_c10_xiaoman_dating_018",
+            "tc_c10_xiaoman_dating_019",
+            "tc_c10_xiaoman_dating_020",
+            "tc_c10_xiaoman_dating_021"
+          ],
+          "sceneIds": [
+            "ts_c10_xiaoman_dating"
+          ],
+          "assetIds": [
+            "tc-bg-xiaoman-home-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile",
+            "tc-char-xiaoman-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "小满租住房间、刘海剪刀玩笑、两袋番茄；恋人亲吻。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch10-xiaoman-02",
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "startLine": 113,
+          "endLine": 152,
+          "nodeIds": [
+            "tc_c10_xiaoman_friends_001",
+            "tc_c10_xiaoman_friends_002",
+            "tc_c10_xiaoman_friends_003",
+            "tc_c10_xiaoman_friends_004",
+            "tc_c10_xiaoman_friends_005",
+            "tc_c10_xiaoman_friends_006",
+            "tc_c10_xiaoman_friends_007",
+            "tc_c10_xiaoman_friends_008",
+            "tc_c10_xiaoman_friends_009",
+            "tc_c10_xiaoman_friends_010",
+            "tc_c10_xiaoman_friends_011",
+            "tc_c10_xiaoman_friends_012",
+            "tc_c10_xiaoman_friends_013",
+            "tc_c10_xiaoman_friends_014",
+            "tc_c10_xiaoman_friends_015",
+            "tc_c10_xiaoman_friends_016",
+            "tc_c10_xiaoman_friends_017",
+            "tc_c10_xiaoman_friends_018",
+            "tc_c10_xiaoman_friends_019"
+          ],
+          "sceneIds": [
+            "ts_c10_xiaoman_friends",
+            "ts_c10_xiaoman_friends_noodles",
+            "ts_c10_xiaoman_friends_street",
+            "ts_c10_xiaoman_friends_homeward"
+          ],
+          "assetIds": [
+            "tc-bg-street-day",
+            "tc-bg-food-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile",
+            "tc-char-xiaoman-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "朋友：纸袋新上衣，面馆叙旧；不套恋人房间CG。"
+          ]
+        }
+      ]
+    },
+    {
+      "route": "zhouzhi",
+      "readFlags": [
+        "route",
+        "zhouzhiOuting",
+        "zhouzhiRelationship"
+      ],
+      "writeFlags": [
+        "zhouzhiOuting",
+        "zhouzhiRelationship"
+      ],
+      "chapters": [
+        {
+          "chapter": 3,
+          "entry": "tc_c03_zhouzhi_entry",
+          "returnTo": "tc_c03_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "startLine": 217,
+            "endLine": 356
+          },
+          "blocks": [
+            {
+              "name": "umbrella",
+              "artId": "a01-ch03-zhouzhi-01",
+              "headingLine": 219,
+              "nodeIds": [
+                "tc_c03_zhouzhi_entry",
+                "tc_c03_zhouzhi_umbrella_002",
+                "tc_c03_zhouzhi_umbrella_003",
+                "tc_c03_zhouzhi_umbrella_004",
+                "tc_c03_zhouzhi_umbrella_005",
+                "tc_c03_zhouzhi_umbrella_006",
+                "tc_c03_zhouzhi_umbrella_007",
+                "tc_c03_zhouzhi_umbrella_008",
+                "tc_c03_zhouzhi_umbrella_009",
+                "tc_c03_zhouzhi_umbrella_010",
+                "tc_c03_zhouzhi_umbrella_011",
+                "tc_c03_zhouzhi_umbrella_012",
+                "tc_c03_zhouzhi_umbrella_013",
+                "tc_c03_zhouzhi_umbrella_014",
+                "tc_c03_zhouzhi_umbrella_015",
+                "tc_c03_zhouzhi_umbrella_016",
+                "tc_c03_zhouzhi_umbrella_017",
+                "tc_c03_zhouzhi_umbrella_018",
+                "tc_c03_zhouzhi_umbrella_019",
+                "tc_c03_zhouzhi_umbrella_020",
+                "tc_c03_zhouzhi_umbrella_021",
+                "tc_c03_zhouzhi_umbrella_022"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+                "startLine": 219,
+                "endLine": 263
+              },
+              "sceneIds": [
+                "ts_c03_zhouzhi_umbrella",
+                "ts_c03_zhouzhi_umbrella_meeting",
+                "ts_c03_zhouzhi_umbrella_umbrella_shop",
+                "ts_c03_zhouzhi_umbrella_potstickers",
+                "ts_c03_zhouzhi_umbrella_street"
+              ]
+            },
+            {
+              "name": "bookstore",
+              "artId": "a01-ch03-zhouzhi-02",
+              "headingLine": 265,
+              "nodeIds": [
+                "tc_c03_zhouzhi_bookstore_001",
+                "tc_c03_zhouzhi_bookstore_002",
+                "tc_c03_zhouzhi_bookstore_003",
+                "tc_c03_zhouzhi_bookstore_004",
+                "tc_c03_zhouzhi_bookstore_005",
+                "tc_c03_zhouzhi_bookstore_006",
+                "tc_c03_zhouzhi_bookstore_007",
+                "tc_c03_zhouzhi_bookstore_008",
+                "tc_c03_zhouzhi_bookstore_009",
+                "tc_c03_zhouzhi_bookstore_010",
+                "tc_c03_zhouzhi_bookstore_011",
+                "tc_c03_zhouzhi_bookstore_012",
+                "tc_c03_zhouzhi_bookstore_013",
+                "tc_c03_zhouzhi_bookstore_014",
+                "tc_c03_zhouzhi_bookstore_015",
+                "tc_c03_zhouzhi_bookstore_016",
+                "tc_c03_zhouzhi_bookstore_017",
+                "tc_c03_zhouzhi_bookstore_018",
+                "tc_c03_zhouzhi_bookstore_019",
+                "tc_c03_zhouzhi_bookstore_020",
+                "tc_c03_zhouzhi_bookstore_021"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+                "startLine": 265,
+                "endLine": 307
+              },
+              "sceneIds": [
+                "ts_c03_zhouzhi_bookstore",
+                "ts_c03_zhouzhi_bookstore_drinks"
+              ]
+            },
+            {
+              "name": "invitation",
+              "artId": "a01-ch03-zhouzhi-03",
+              "headingLine": 309,
+              "nodeIds": [
+                "tc_c03_zhouzhi_invitation_001",
+                "tc_c03_zhouzhi_invitation_002",
+                "tc_c03_zhouzhi_invitation_003",
+                "tc_c03_zhouzhi_invitation_004",
+                "tc_c03_zhouzhi_invitation_005",
+                "tc_c03_zhouzhi_invitation_006",
+                "tc_c03_zhouzhi_invitation_007",
+                "tc_c03_zhouzhi_invitation_008",
+                "tc_c03_zhouzhi_invitation_009",
+                "tc_c03_zhouzhi_invitation_010",
+                "tc_c03_zhouzhi_invitation_011",
+                "tc_c03_zhouzhi_invitation_012",
+                "tc_c03_zhouzhi_invitation_013",
+                "tc_c03_zhouzhi_invitation_014",
+                "tc_c03_zhouzhi_invitation_015",
+                "tc_c03_zhouzhi_invitation_016",
+                "tc_c03_zhouzhi_invitation_017",
+                "tc_c03_zhouzhi_invitation_018",
+                "tc_c03_zhouzhi_invitation_019",
+                "tc_c03_zhouzhi_invitation_020",
+                "tc_c03_zhouzhi_invitation_021",
+                "tc_c03_zhouzhi_invitation_022",
+                "tc_c03_zhouzhi_invitation_023"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+                "startLine": 309,
+                "endLine": 355
+              },
+              "sceneIds": [
+                "ts_c03_zhouzhi_invitation"
+              ]
+            }
+          ],
+          "controlIds": []
+        },
+        {
+          "chapter": 4,
+          "entry": "tc_c04_zhouzhi_entry",
+          "returnTo": "tc_c04_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "startLine": 135,
+            "endLine": 210
+          },
+          "blocks": [
+            {
+              "name": "outing",
+              "artId": "a01-ch04-zhouzhi-01",
+              "headingLine": 137,
+              "nodeIds": [
+                "tc_c04_zhouzhi_entry",
+                "tc_c04_zhouzhi_outing_002",
+                "tc_c04_zhouzhi_outing_003",
+                "tc_c04_zhouzhi_outing_004",
+                "tc_c04_zhouzhi_outing_005",
+                "tc_c04_zhouzhi_outing_006",
+                "tc_c04_zhouzhi_outing_007",
+                "tc_c04_zhouzhi_outing_008"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+                "startLine": 137,
+                "endLine": 153
+              },
+              "sceneIds": [
+                "ts_c04_zhouzhi_outing"
+              ]
+            },
+            {
+              "name": "river",
+              "artId": "a01-ch04-zhouzhi-02",
+              "headingLine": 155,
+              "nodeIds": [
+                "tc_c04_zhouzhi_river_001",
+                "tc_c04_zhouzhi_river_002",
+                "tc_c04_zhouzhi_river_003",
+                "tc_c04_zhouzhi_river_004",
+                "tc_c04_zhouzhi_river_005",
+                "tc_c04_zhouzhi_river_006",
+                "tc_c04_zhouzhi_river_007",
+                "tc_c04_zhouzhi_river_008",
+                "tc_c04_zhouzhi_river_009"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+                "startLine": 155,
+                "endLine": 173
+              },
+              "sceneIds": [
+                "ts_c04_zhouzhi_river"
+              ]
+            },
+            {
+              "name": "cinema",
+              "artId": "a01-ch04-zhouzhi-03",
+              "headingLine": 175,
+              "nodeIds": [
+                "tc_c04_zhouzhi_cinema_001",
+                "tc_c04_zhouzhi_cinema_002",
+                "tc_c04_zhouzhi_cinema_003",
+                "tc_c04_zhouzhi_cinema_004",
+                "tc_c04_zhouzhi_cinema_005",
+                "tc_c04_zhouzhi_cinema_006",
+                "tc_c04_zhouzhi_cinema_007",
+                "tc_c04_zhouzhi_cinema_008"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+                "startLine": 175,
+                "endLine": 191
+              },
+              "sceneIds": [
+                "ts_c04_zhouzhi_cinema",
+                "ts_c04_zhouzhi_cinema_mall"
+              ]
+            },
+            {
+              "name": "before_work",
+              "artId": "a01-ch04-zhouzhi-04",
+              "headingLine": 193,
+              "nodeIds": [
+                "tc_c04_zhouzhi_before_work_001",
+                "tc_c04_zhouzhi_before_work_002",
+                "tc_c04_zhouzhi_before_work_003",
+                "tc_c04_zhouzhi_before_work_004",
+                "tc_c04_zhouzhi_before_work_005",
+                "tc_c04_zhouzhi_before_work_006",
+                "tc_c04_zhouzhi_before_work_007",
+                "tc_c04_zhouzhi_before_work_008"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+                "startLine": 193,
+                "endLine": 209
+              },
+              "sceneIds": [
+                "ts_c04_zhouzhi_before_work",
+                "ts_c04_zhouzhi_before_work_crossroad"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c04_zhouzhi_outing_choice"
+          ]
+        },
+        {
+          "chapter": 5,
+          "entry": "tc_c05_zhouzhi_entry",
+          "returnTo": "tc_c05_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+            "startLine": 133,
+            "endLine": 214
+          },
+          "blocks": [
+            {
+              "name": "unexpected_company",
+              "artId": "a01-ch05-zhouzhi-01",
+              "headingLine": 135,
+              "nodeIds": [
+                "tc_c05_zhouzhi_entry",
+                "tc_c05_zhouzhi_unexpected_company_002",
+                "tc_c05_zhouzhi_unexpected_company_003",
+                "tc_c05_zhouzhi_unexpected_company_004",
+                "tc_c05_zhouzhi_unexpected_company_005",
+                "tc_c05_zhouzhi_unexpected_company_006",
+                "tc_c05_zhouzhi_unexpected_company_007",
+                "tc_c05_zhouzhi_unexpected_company_008",
+                "tc_c05_zhouzhi_unexpected_company_009",
+                "tc_c05_zhouzhi_unexpected_company_010",
+                "tc_c05_zhouzhi_unexpected_company_011",
+                "tc_c05_zhouzhi_unexpected_company_012",
+                "tc_c05_zhouzhi_unexpected_company_013",
+                "tc_c05_zhouzhi_unexpected_company_014",
+                "tc_c05_zhouzhi_unexpected_company_015",
+                "tc_c05_zhouzhi_unexpected_company_016",
+                "tc_c05_zhouzhi_unexpected_company_017",
+                "tc_c05_zhouzhi_unexpected_company_018",
+                "tc_c05_zhouzhi_unexpected_company_019",
+                "tc_c05_zhouzhi_unexpected_company_020",
+                "tc_c05_zhouzhi_unexpected_company_021",
+                "tc_c05_zhouzhi_unexpected_company_022",
+                "tc_c05_zhouzhi_unexpected_company_023",
+                "tc_c05_zhouzhi_unexpected_company_024"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+                "startLine": 135,
+                "endLine": 183
+              },
+              "sceneIds": [
+                "ts_c05_zhouzhi_unexpected_company",
+                "ts_c05_zhouzhi_unexpected_company_busstop"
+              ]
+            },
+            {
+              "name": "two_seats",
+              "artId": "a01-ch05-zhouzhi-02",
+              "headingLine": 185,
+              "nodeIds": [
+                "tc_c05_zhouzhi_two_seats_001",
+                "tc_c05_zhouzhi_two_seats_002",
+                "tc_c05_zhouzhi_two_seats_003",
+                "tc_c05_zhouzhi_two_seats_004",
+                "tc_c05_zhouzhi_two_seats_005",
+                "tc_c05_zhouzhi_two_seats_006",
+                "tc_c05_zhouzhi_two_seats_007",
+                "tc_c05_zhouzhi_two_seats_008",
+                "tc_c05_zhouzhi_two_seats_009",
+                "tc_c05_zhouzhi_two_seats_010",
+                "tc_c05_zhouzhi_two_seats_011",
+                "tc_c05_zhouzhi_two_seats_012",
+                "tc_c05_zhouzhi_two_seats_013",
+                "tc_c05_zhouzhi_two_seats_014"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+                "startLine": 185,
+                "endLine": 213
+              },
+              "sceneIds": [
+                "ts_c05_zhouzhi_two_seats"
+              ]
+            }
+          ],
+          "controlIds": []
+        },
+        {
+          "chapter": 6,
+          "entry": "tc_c06_zhouzhi_entry",
+          "returnTo": "tc_c06_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+            "startLine": 125,
+            "endLine": 190
+          },
+          "blocks": [
+            {
+              "name": "after_closing",
+              "artId": "a01-ch06-zhouzhi-01",
+              "headingLine": 127,
+              "nodeIds": [
+                "tc_c06_zhouzhi_entry",
+                "tc_c06_zhouzhi_after_closing_002",
+                "tc_c06_zhouzhi_after_closing_003",
+                "tc_c06_zhouzhi_after_closing_004",
+                "tc_c06_zhouzhi_after_closing_005",
+                "tc_c06_zhouzhi_after_closing_006",
+                "tc_c06_zhouzhi_after_closing_007",
+                "tc_c06_zhouzhi_after_closing_008",
+                "tc_c06_zhouzhi_after_closing_009",
+                "tc_c06_zhouzhi_after_closing_010",
+                "tc_c06_zhouzhi_after_closing_011",
+                "tc_c06_zhouzhi_after_closing_012",
+                "tc_c06_zhouzhi_after_closing_013",
+                "tc_c06_zhouzhi_after_closing_014",
+                "tc_c06_zhouzhi_after_closing_015",
+                "tc_c06_zhouzhi_after_closing_016",
+                "tc_c06_zhouzhi_after_closing_017",
+                "tc_c06_zhouzhi_after_closing_018",
+                "tc_c06_zhouzhi_after_closing_019",
+                "tc_c06_zhouzhi_after_closing_020",
+                "tc_c06_zhouzhi_after_closing_021",
+                "tc_c06_zhouzhi_after_closing_022",
+                "tc_c06_zhouzhi_after_closing_023",
+                "tc_c06_zhouzhi_after_closing_024",
+                "tc_c06_zhouzhi_after_closing_025",
+                "tc_c06_zhouzhi_after_closing_026",
+                "tc_c06_zhouzhi_after_closing_027",
+                "tc_c06_zhouzhi_after_closing_028",
+                "tc_c06_zhouzhi_after_closing_029",
+                "tc_c06_zhouzhi_after_closing_030",
+                "tc_c06_zhouzhi_after_closing_031"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+                "startLine": 127,
+                "endLine": 190
+              },
+              "sceneIds": [
+                "ts_c06_zhouzhi_after_closing",
+                "ts_c06_zhouzhi_after_closing_closed_echo",
+                "ts_c06_zhouzhi_after_closing_supermarket",
+                "ts_c06_zhouzhi_after_closing_soymilk",
+                "ts_c06_zhouzhi_after_closing_accessories"
+              ]
+            }
+          ],
+          "controlIds": []
+        },
+        {
+          "chapter": 7,
+          "entry": "tc_c07_zhouzhi_entry",
+          "returnTo": "tc_c07_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+            "startLine": 123,
+            "endLine": 200
+          },
+          "blocks": [
+            {
+              "name": "her_plans",
+              "artId": "a01-ch07-zhouzhi-01",
+              "headingLine": 125,
+              "nodeIds": [
+                "tc_c07_zhouzhi_entry",
+                "tc_c07_zhouzhi_her_plans_002",
+                "tc_c07_zhouzhi_her_plans_003",
+                "tc_c07_zhouzhi_her_plans_004",
+                "tc_c07_zhouzhi_her_plans_005",
+                "tc_c07_zhouzhi_her_plans_006",
+                "tc_c07_zhouzhi_her_plans_007",
+                "tc_c07_zhouzhi_her_plans_008",
+                "tc_c07_zhouzhi_her_plans_009"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+                "startLine": 125,
+                "endLine": 144
+              },
+              "sceneIds": [
+                "ts_c07_zhouzhi_her_plans"
+              ]
+            },
+            {
+              "name": "river_return",
+              "artId": "a01-ch07-zhouzhi-02",
+              "headingLine": 145,
+              "nodeIds": [
+                "tc_c07_zhouzhi_river_return_001",
+                "tc_c07_zhouzhi_river_return_002",
+                "tc_c07_zhouzhi_river_return_003",
+                "tc_c07_zhouzhi_river_return_004",
+                "tc_c07_zhouzhi_river_return_005",
+                "tc_c07_zhouzhi_river_return_006",
+                "tc_c07_zhouzhi_river_return_007",
+                "tc_c07_zhouzhi_river_return_008"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+                "startLine": 145,
+                "endLine": 162
+              },
+              "sceneIds": [
+                "ts_c07_zhouzhi_river_return"
+              ]
+            },
+            {
+              "name": "cinema_return",
+              "artId": "a01-ch07-zhouzhi-03",
+              "headingLine": 163,
+              "nodeIds": [
+                "tc_c07_zhouzhi_cinema_return_001",
+                "tc_c07_zhouzhi_cinema_return_002",
+                "tc_c07_zhouzhi_cinema_return_003",
+                "tc_c07_zhouzhi_cinema_return_004",
+                "tc_c07_zhouzhi_cinema_return_005",
+                "tc_c07_zhouzhi_cinema_return_006",
+                "tc_c07_zhouzhi_cinema_return_007",
+                "tc_c07_zhouzhi_cinema_return_008",
+                "tc_c07_zhouzhi_cinema_return_009",
+                "tc_c07_zhouzhi_cinema_return_010"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+                "startLine": 163,
+                "endLine": 184
+              },
+              "sceneIds": [
+                "ts_c07_zhouzhi_cinema_return"
+              ]
+            },
+            {
+              "name": "crossroad",
+              "artId": "a01-ch07-zhouzhi-04",
+              "headingLine": 185,
+              "nodeIds": [
+                "tc_c07_zhouzhi_crossroad_001",
+                "tc_c07_zhouzhi_crossroad_002",
+                "tc_c07_zhouzhi_crossroad_003",
+                "tc_c07_zhouzhi_crossroad_004",
+                "tc_c07_zhouzhi_crossroad_005",
+                "tc_c07_zhouzhi_crossroad_006",
+                "tc_c07_zhouzhi_crossroad_007"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+                "startLine": 185,
+                "endLine": 200
+              },
+              "sceneIds": [
+                "ts_c07_zhouzhi_crossroad"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c07_zhouzhi_outing_gate"
+          ]
+        },
+        {
+          "chapter": 8,
+          "entry": "tc_c08_zhouzhi_entry",
+          "returnTo": "tc_c08_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+            "startLine": 123,
+            "endLine": 184
+          },
+          "blocks": [
+            {
+              "name": "dinner_budget",
+              "artId": "a01-ch08-zhouzhi-01",
+              "headingLine": 125,
+              "nodeIds": [
+                "tc_c08_zhouzhi_entry",
+                "tc_c08_zhouzhi_dinner_budget_002",
+                "tc_c08_zhouzhi_dinner_budget_003",
+                "tc_c08_zhouzhi_dinner_budget_004",
+                "tc_c08_zhouzhi_dinner_budget_005",
+                "tc_c08_zhouzhi_dinner_budget_006",
+                "tc_c08_zhouzhi_dinner_budget_007",
+                "tc_c08_zhouzhi_dinner_budget_008",
+                "tc_c08_zhouzhi_dinner_budget_009",
+                "tc_c08_zhouzhi_dinner_budget_010",
+                "tc_c08_zhouzhi_dinner_budget_011",
+                "tc_c08_zhouzhi_dinner_budget_012",
+                "tc_c08_zhouzhi_dinner_budget_013",
+                "tc_c08_zhouzhi_dinner_budget_014",
+                "tc_c08_zhouzhi_dinner_budget_015",
+                "tc_c08_zhouzhi_dinner_budget_016",
+                "tc_c08_zhouzhi_dinner_budget_017",
+                "tc_c08_zhouzhi_dinner_budget_018",
+                "tc_c08_zhouzhi_dinner_budget_019",
+                "tc_c08_zhouzhi_dinner_budget_020",
+                "tc_c08_zhouzhi_dinner_budget_021",
+                "tc_c08_zhouzhi_dinner_budget_022",
+                "tc_c08_zhouzhi_dinner_budget_023",
+                "tc_c08_zhouzhi_dinner_budget_024",
+                "tc_c08_zhouzhi_dinner_budget_025",
+                "tc_c08_zhouzhi_dinner_budget_026",
+                "tc_c08_zhouzhi_dinner_budget_027",
+                "tc_c08_zhouzhi_dinner_budget_028",
+                "tc_c08_zhouzhi_dinner_budget_029"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+                "startLine": 125,
+                "endLine": 184
+              },
+              "sceneIds": [
+                "ts_c08_zhouzhi_dinner_budget",
+                "ts_c08_zhouzhi_dinner_budget_simple_dinner",
+                "ts_c08_zhouzhi_dinner_budget_soymilk"
+              ]
+            }
+          ],
+          "controlIds": []
+        },
+        {
+          "chapter": 9,
+          "entry": "tc_c09_zhouzhi_entry",
+          "returnTo": "tc_c09_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "startLine": 145,
+            "endLine": 246
+          },
+          "blocks": [
+            {
+              "name": "relationship",
+              "artId": "a01-ch09-zhouzhi-01",
+              "headingLine": 147,
+              "nodeIds": [
+                "tc_c09_zhouzhi_entry",
+                "tc_c09_zhouzhi_relationship_002",
+                "tc_c09_zhouzhi_relationship_003",
+                "tc_c09_zhouzhi_relationship_004",
+                "tc_c09_zhouzhi_relationship_005",
+                "tc_c09_zhouzhi_relationship_006",
+                "tc_c09_zhouzhi_relationship_007",
+                "tc_c09_zhouzhi_relationship_008",
+                "tc_c09_zhouzhi_relationship_009",
+                "tc_c09_zhouzhi_relationship_010",
+                "tc_c09_zhouzhi_relationship_011"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+                "startLine": 147,
+                "endLine": 170
+              },
+              "sceneIds": [
+                "ts_c09_zhouzhi_relationship"
+              ]
+            },
+            {
+              "name": "dating",
+              "artId": "a01-ch09-zhouzhi-02",
+              "headingLine": 171,
+              "nodeIds": [
+                "tc_c09_zhouzhi_dating_001",
+                "tc_c09_zhouzhi_dating_002",
+                "tc_c09_zhouzhi_dating_003",
+                "tc_c09_zhouzhi_dating_004",
+                "tc_c09_zhouzhi_dating_005",
+                "tc_c09_zhouzhi_dating_006",
+                "tc_c09_zhouzhi_dating_007",
+                "tc_c09_zhouzhi_dating_008",
+                "tc_c09_zhouzhi_dating_009",
+                "tc_c09_zhouzhi_dating_010",
+                "tc_c09_zhouzhi_dating_011",
+                "tc_c09_zhouzhi_dating_012",
+                "tc_c09_zhouzhi_dating_013",
+                "tc_c09_zhouzhi_dating_014",
+                "tc_c09_zhouzhi_dating_015",
+                "tc_c09_zhouzhi_dating_016",
+                "tc_c09_zhouzhi_dating_017",
+                "tc_c09_zhouzhi_dating_018",
+                "tc_c09_zhouzhi_dating_019",
+                "tc_c09_zhouzhi_dating_020"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+                "startLine": 171,
+                "endLine": 212
+              },
+              "sceneIds": [
+                "ts_c09_zhouzhi_dating",
+                "ts_c09_zhouzhi_dating_eaves"
+              ]
+            },
+            {
+              "name": "friends",
+              "artId": "a01-ch09-zhouzhi-03",
+              "headingLine": 213,
+              "nodeIds": [
+                "tc_c09_zhouzhi_friends_001",
+                "tc_c09_zhouzhi_friends_002",
+                "tc_c09_zhouzhi_friends_003",
+                "tc_c09_zhouzhi_friends_004",
+                "tc_c09_zhouzhi_friends_005",
+                "tc_c09_zhouzhi_friends_006",
+                "tc_c09_zhouzhi_friends_007",
+                "tc_c09_zhouzhi_friends_008",
+                "tc_c09_zhouzhi_friends_009",
+                "tc_c09_zhouzhi_friends_010",
+                "tc_c09_zhouzhi_friends_011",
+                "tc_c09_zhouzhi_friends_012",
+                "tc_c09_zhouzhi_friends_013",
+                "tc_c09_zhouzhi_friends_014",
+                "tc_c09_zhouzhi_friends_015",
+                "tc_c09_zhouzhi_friends_016"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+                "startLine": 213,
+                "endLine": 246
+              },
+              "sceneIds": [
+                "ts_c09_zhouzhi_friends",
+                "ts_c09_zhouzhi_friends_day88",
+                "ts_c09_zhouzhi_friends_day88_crossroad"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c09_zhouzhi_relationship_choice"
+          ]
+        },
+        {
+          "chapter": 10,
+          "entry": "tc_c10_zhouzhi_entry",
+          "returnTo": null,
+          "endings": [
+            "tc_c10_zhouzhi_end_dating",
+            "tc_c10_zhouzhi_end_friends"
+          ],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+            "startLine": 153,
+            "endLine": 232
+          },
+          "blocks": [
+            {
+              "name": "dating",
+              "artId": "a01-ch10-zhouzhi-01",
+              "headingLine": 157,
+              "nodeIds": [
+                "tc_c10_zhouzhi_dating_001",
+                "tc_c10_zhouzhi_dating_002",
+                "tc_c10_zhouzhi_dating_003",
+                "tc_c10_zhouzhi_dating_004",
+                "tc_c10_zhouzhi_dating_005",
+                "tc_c10_zhouzhi_dating_006",
+                "tc_c10_zhouzhi_dating_007",
+                "tc_c10_zhouzhi_dating_008",
+                "tc_c10_zhouzhi_dating_009",
+                "tc_c10_zhouzhi_dating_010",
+                "tc_c10_zhouzhi_dating_011",
+                "tc_c10_zhouzhi_dating_012",
+                "tc_c10_zhouzhi_dating_013",
+                "tc_c10_zhouzhi_dating_014",
+                "tc_c10_zhouzhi_dating_015",
+                "tc_c10_zhouzhi_dating_016",
+                "tc_c10_zhouzhi_dating_017",
+                "tc_c10_zhouzhi_dating_018",
+                "tc_c10_zhouzhi_dating_019",
+                "tc_c10_zhouzhi_dating_020"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+                "startLine": 157,
+                "endLine": 198
+              },
+              "sceneIds": [
+                "ts_c10_zhouzhi_dating",
+                "ts_c10_zhouzhi_dating_homeward",
+                "ts_c10_zhouzhi_dating_eaves"
+              ]
+            },
+            {
+              "name": "friends",
+              "artId": "a01-ch10-zhouzhi-02",
+              "headingLine": 199,
+              "nodeIds": [
+                "tc_c10_zhouzhi_friends_001",
+                "tc_c10_zhouzhi_friends_002",
+                "tc_c10_zhouzhi_friends_003",
+                "tc_c10_zhouzhi_friends_004",
+                "tc_c10_zhouzhi_friends_005",
+                "tc_c10_zhouzhi_friends_006",
+                "tc_c10_zhouzhi_friends_007",
+                "tc_c10_zhouzhi_friends_008",
+                "tc_c10_zhouzhi_friends_009",
+                "tc_c10_zhouzhi_friends_010",
+                "tc_c10_zhouzhi_friends_011",
+                "tc_c10_zhouzhi_friends_012",
+                "tc_c10_zhouzhi_friends_013",
+                "tc_c10_zhouzhi_friends_014",
+                "tc_c10_zhouzhi_friends_015",
+                "tc_c10_zhouzhi_friends_016"
+              ],
+              "source": {
+                "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+                "startLine": 199,
+                "endLine": 232
+              },
+              "sceneIds": [
+                "ts_c10_zhouzhi_friends",
+                "ts_c10_zhouzhi_friends_street",
+                "ts_c10_zhouzhi_friends_back_to_stall"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c10_zhouzhi_entry",
+            "tc_c10_zhouzhi_end_dating",
+            "tc_c10_zhouzhi_end_friends"
+          ]
+        }
+      ],
+      "assetMappings": [
+        {
+          "a01SectionId": "a01-ch03-zhouzhi-01",
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "startLine": 219,
+          "endLine": 263,
+          "nodeIds": [
+            "tc_c03_zhouzhi_entry",
+            "tc_c03_zhouzhi_umbrella_002",
+            "tc_c03_zhouzhi_umbrella_003",
+            "tc_c03_zhouzhi_umbrella_004",
+            "tc_c03_zhouzhi_umbrella_005",
+            "tc_c03_zhouzhi_umbrella_006",
+            "tc_c03_zhouzhi_umbrella_007",
+            "tc_c03_zhouzhi_umbrella_008",
+            "tc_c03_zhouzhi_umbrella_009",
+            "tc_c03_zhouzhi_umbrella_010",
+            "tc_c03_zhouzhi_umbrella_011",
+            "tc_c03_zhouzhi_umbrella_012",
+            "tc_c03_zhouzhi_umbrella_013",
+            "tc_c03_zhouzhi_umbrella_014",
+            "tc_c03_zhouzhi_umbrella_015",
+            "tc_c03_zhouzhi_umbrella_016",
+            "tc_c03_zhouzhi_umbrella_017",
+            "tc_c03_zhouzhi_umbrella_018",
+            "tc_c03_zhouzhi_umbrella_019",
+            "tc_c03_zhouzhi_umbrella_020",
+            "tc_c03_zhouzhi_umbrella_021",
+            "tc_c03_zhouzhi_umbrella_022"
+          ],
+          "sceneIds": [
+            "ts_c03_zhouzhi_umbrella",
+            "ts_c03_zhouzhi_umbrella_meeting",
+            "ts_c03_zhouzhi_umbrella_umbrella_shop",
+            "ts_c03_zhouzhi_umbrella_potstickers",
+            "ts_c03_zhouzhi_umbrella_street"
+          ],
+          "assetIds": [
+            "tc-bg-echo-day",
+            "tc-bg-convenience-day",
+            "tc-bg-stall-day",
+            "tc-bg-street-dusk",
+            "tc-bg-rental-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": []
+        },
+        {
+          "a01SectionId": "a01-ch03-zhouzhi-02",
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "startLine": 265,
+          "endLine": 307,
+          "nodeIds": [
+            "tc_c03_zhouzhi_bookstore_001",
+            "tc_c03_zhouzhi_bookstore_002",
+            "tc_c03_zhouzhi_bookstore_003",
+            "tc_c03_zhouzhi_bookstore_004",
+            "tc_c03_zhouzhi_bookstore_005",
+            "tc_c03_zhouzhi_bookstore_006",
+            "tc_c03_zhouzhi_bookstore_007",
+            "tc_c03_zhouzhi_bookstore_008",
+            "tc_c03_zhouzhi_bookstore_009",
+            "tc_c03_zhouzhi_bookstore_010",
+            "tc_c03_zhouzhi_bookstore_011",
+            "tc_c03_zhouzhi_bookstore_012",
+            "tc_c03_zhouzhi_bookstore_013",
+            "tc_c03_zhouzhi_bookstore_014",
+            "tc_c03_zhouzhi_bookstore_015",
+            "tc_c03_zhouzhi_bookstore_016",
+            "tc_c03_zhouzhi_bookstore_017",
+            "tc_c03_zhouzhi_bookstore_018",
+            "tc_c03_zhouzhi_bookstore_019",
+            "tc_c03_zhouzhi_bookstore_020",
+            "tc_c03_zhouzhi_bookstore_021"
+          ],
+          "sceneIds": [
+            "ts_c03_zhouzhi_bookstore",
+            "ts_c03_zhouzhi_bookstore_drinks"
+          ],
+          "assetIds": [
+            "tc-bg-bookstore-day",
+            "tc-bg-mall-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "游戏队糗事只对白，不需游戏/毛狼实体。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch03-zhouzhi-03",
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "startLine": 309,
+          "endLine": 355,
+          "nodeIds": [
+            "tc_c03_zhouzhi_invitation_001",
+            "tc_c03_zhouzhi_invitation_002",
+            "tc_c03_zhouzhi_invitation_003",
+            "tc_c03_zhouzhi_invitation_004",
+            "tc_c03_zhouzhi_invitation_005",
+            "tc_c03_zhouzhi_invitation_006",
+            "tc_c03_zhouzhi_invitation_007",
+            "tc_c03_zhouzhi_invitation_008",
+            "tc_c03_zhouzhi_invitation_009",
+            "tc_c03_zhouzhi_invitation_010",
+            "tc_c03_zhouzhi_invitation_011",
+            "tc_c03_zhouzhi_invitation_012",
+            "tc_c03_zhouzhi_invitation_013",
+            "tc_c03_zhouzhi_invitation_014",
+            "tc_c03_zhouzhi_invitation_015",
+            "tc_c03_zhouzhi_invitation_016",
+            "tc_c03_zhouzhi_invitation_017",
+            "tc_c03_zhouzhi_invitation_018",
+            "tc_c03_zhouzhi_invitation_019",
+            "tc_c03_zhouzhi_invitation_020",
+            "tc_c03_zhouzhi_invitation_021",
+            "tc_c03_zhouzhi_invitation_022",
+            "tc_c03_zhouzhi_invitation_023"
+          ],
+          "sceneIds": [
+            "ts_c03_zhouzhi_invitation"
+          ],
+          "assetIds": [
+            "tc-bg-food-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-serious",
+            "tc-char-zhouzhi-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "夜宵摊尚在商量，不出现成型摊位或投资书。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch04-zhouzhi-01",
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "startLine": 137,
+          "endLine": 153,
+          "nodeIds": [
+            "tc_c04_zhouzhi_entry",
+            "tc_c04_zhouzhi_outing_002",
+            "tc_c04_zhouzhi_outing_003",
+            "tc_c04_zhouzhi_outing_004",
+            "tc_c04_zhouzhi_outing_005",
+            "tc_c04_zhouzhi_outing_006",
+            "tc_c04_zhouzhi_outing_007",
+            "tc_c04_zhouzhi_outing_008"
+          ],
+          "sceneIds": [
+            "ts_c04_zhouzhi_outing"
+          ],
+          "assetIds": [
+            "tc-bg-food-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": []
+        },
+        {
+          "a01SectionId": "a01-ch04-zhouzhi-02",
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "startLine": 155,
+          "endLine": 173,
+          "nodeIds": [
+            "tc_c04_zhouzhi_river_001",
+            "tc_c04_zhouzhi_river_002",
+            "tc_c04_zhouzhi_river_003",
+            "tc_c04_zhouzhi_river_004",
+            "tc_c04_zhouzhi_river_005",
+            "tc_c04_zhouzhi_river_006",
+            "tc_c04_zhouzhi_river_007",
+            "tc_c04_zhouzhi_river_008",
+            "tc_c04_zhouzhi_river_009"
+          ],
+          "sceneIds": [
+            "ts_c04_zhouzhi_river"
+          ],
+          "assetIds": [
+            "tc-bg-river-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": []
+        },
+        {
+          "a01SectionId": "a01-ch04-zhouzhi-03",
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "startLine": 175,
+          "endLine": 191,
+          "nodeIds": [
+            "tc_c04_zhouzhi_cinema_001",
+            "tc_c04_zhouzhi_cinema_002",
+            "tc_c04_zhouzhi_cinema_003",
+            "tc_c04_zhouzhi_cinema_004",
+            "tc_c04_zhouzhi_cinema_005",
+            "tc_c04_zhouzhi_cinema_006",
+            "tc_c04_zhouzhi_cinema_007",
+            "tc_c04_zhouzhi_cinema_008"
+          ],
+          "sceneIds": [
+            "ts_c04_zhouzhi_cinema",
+            "ts_c04_zhouzhi_cinema_mall"
+          ],
+          "assetIds": [
+            "tc-bg-cinema-interior",
+            "tc-bg-mall-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": []
+        },
+        {
+          "a01SectionId": "a01-ch04-zhouzhi-04",
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "startLine": 193,
+          "endLine": 209,
+          "nodeIds": [
+            "tc_c04_zhouzhi_before_work_001",
+            "tc_c04_zhouzhi_before_work_002",
+            "tc_c04_zhouzhi_before_work_003",
+            "tc_c04_zhouzhi_before_work_004",
+            "tc_c04_zhouzhi_before_work_005",
+            "tc_c04_zhouzhi_before_work_006",
+            "tc_c04_zhouzhi_before_work_007",
+            "tc_c04_zhouzhi_before_work_008"
+          ],
+          "sceneIds": [
+            "ts_c04_zhouzhi_before_work",
+            "ts_c04_zhouzhi_before_work_crossroad"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk",
+            "tc-bg-street-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-serious",
+            "tc-char-zhouzhi-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "她要回去准备上班，不延长到夜间约会。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch05-zhouzhi-01",
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "startLine": 135,
+          "endLine": 183,
+          "nodeIds": [
+            "tc_c05_zhouzhi_entry",
+            "tc_c05_zhouzhi_unexpected_company_002",
+            "tc_c05_zhouzhi_unexpected_company_003",
+            "tc_c05_zhouzhi_unexpected_company_004",
+            "tc_c05_zhouzhi_unexpected_company_005",
+            "tc_c05_zhouzhi_unexpected_company_006",
+            "tc_c05_zhouzhi_unexpected_company_007",
+            "tc_c05_zhouzhi_unexpected_company_008",
+            "tc_c05_zhouzhi_unexpected_company_009",
+            "tc_c05_zhouzhi_unexpected_company_010",
+            "tc_c05_zhouzhi_unexpected_company_011",
+            "tc_c05_zhouzhi_unexpected_company_012",
+            "tc_c05_zhouzhi_unexpected_company_013",
+            "tc_c05_zhouzhi_unexpected_company_014",
+            "tc_c05_zhouzhi_unexpected_company_015",
+            "tc_c05_zhouzhi_unexpected_company_016",
+            "tc_c05_zhouzhi_unexpected_company_017",
+            "tc_c05_zhouzhi_unexpected_company_018",
+            "tc_c05_zhouzhi_unexpected_company_019",
+            "tc_c05_zhouzhi_unexpected_company_020",
+            "tc_c05_zhouzhi_unexpected_company_021",
+            "tc_c05_zhouzhi_unexpected_company_022",
+            "tc_c05_zhouzhi_unexpected_company_023",
+            "tc_c05_zhouzhi_unexpected_company_024"
+          ],
+          "sceneIds": [
+            "ts_c05_zhouzhi_unexpected_company",
+            "ts_c05_zhouzhi_unexpected_company_busstop"
+          ],
+          "assetIds": [
+            "tc-bg-food-day",
+            "tc-bg-busstop-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-wenwen-human-expression-downcast",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile",
+            "tc-char-zhouzhi-human-expression-tired",
+            "tc-char-zhouzhi-human-expression-serious",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "毛狼与同行先离开，严肃对话时只剩周栀和文文；不把社交照顾渲染成舞台工作。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch05-zhouzhi-02",
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "startLine": 185,
+          "endLine": 213,
+          "nodeIds": [
+            "tc_c05_zhouzhi_two_seats_001",
+            "tc_c05_zhouzhi_two_seats_002",
+            "tc_c05_zhouzhi_two_seats_003",
+            "tc_c05_zhouzhi_two_seats_004",
+            "tc_c05_zhouzhi_two_seats_005",
+            "tc_c05_zhouzhi_two_seats_006",
+            "tc_c05_zhouzhi_two_seats_007",
+            "tc_c05_zhouzhi_two_seats_008",
+            "tc_c05_zhouzhi_two_seats_009",
+            "tc_c05_zhouzhi_two_seats_010",
+            "tc_c05_zhouzhi_two_seats_011",
+            "tc_c05_zhouzhi_two_seats_012",
+            "tc_c05_zhouzhi_two_seats_013",
+            "tc_c05_zhouzhi_two_seats_014"
+          ],
+          "sceneIds": [
+            "ts_c05_zhouzhi_two_seats"
+          ],
+          "assetIds": [
+            "tc-bg-food-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "第30天饭局仍是未来约定，不补现场。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch06-zhouzhi-01",
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 127,
+          "endLine": 190,
+          "nodeIds": [
+            "tc_c06_zhouzhi_entry",
+            "tc_c06_zhouzhi_after_closing_002",
+            "tc_c06_zhouzhi_after_closing_003",
+            "tc_c06_zhouzhi_after_closing_004",
+            "tc_c06_zhouzhi_after_closing_005",
+            "tc_c06_zhouzhi_after_closing_006",
+            "tc_c06_zhouzhi_after_closing_007",
+            "tc_c06_zhouzhi_after_closing_008",
+            "tc_c06_zhouzhi_after_closing_009",
+            "tc_c06_zhouzhi_after_closing_010",
+            "tc_c06_zhouzhi_after_closing_011",
+            "tc_c06_zhouzhi_after_closing_012",
+            "tc_c06_zhouzhi_after_closing_013",
+            "tc_c06_zhouzhi_after_closing_014",
+            "tc_c06_zhouzhi_after_closing_015",
+            "tc_c06_zhouzhi_after_closing_016",
+            "tc_c06_zhouzhi_after_closing_017",
+            "tc_c06_zhouzhi_after_closing_018",
+            "tc_c06_zhouzhi_after_closing_019",
+            "tc_c06_zhouzhi_after_closing_020",
+            "tc_c06_zhouzhi_after_closing_021",
+            "tc_c06_zhouzhi_after_closing_022",
+            "tc_c06_zhouzhi_after_closing_023",
+            "tc_c06_zhouzhi_after_closing_024",
+            "tc_c06_zhouzhi_after_closing_025",
+            "tc_c06_zhouzhi_after_closing_026",
+            "tc_c06_zhouzhi_after_closing_027",
+            "tc_c06_zhouzhi_after_closing_028",
+            "tc_c06_zhouzhi_after_closing_029",
+            "tc_c06_zhouzhi_after_closing_030",
+            "tc_c06_zhouzhi_after_closing_031"
+          ],
+          "sceneIds": [
+            "ts_c06_zhouzhi_after_closing",
+            "ts_c06_zhouzhi_after_closing_closed_echo",
+            "ts_c06_zhouzhi_after_closing_supermarket",
+            "ts_c06_zhouzhi_after_closing_soymilk",
+            "ts_c06_zhouzhi_after_closing_accessories"
+          ],
+          "assetIds": [
+            "tc-bg-street-day",
+            "tc-bg-echo-closed-day",
+            "tc-bg-supermarket-day",
+            "tc-bg-clothing-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile",
+            "tc-char-zhouzhi-human-expression-hesitant",
+            "tc-look-zhouzhi-light-blue-shirt"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "第30天饭后/第31天为补叙；主场第32天下午。浅蓝衬衫、白杯蓝沿、两只各自的杯子。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch07-zhouzhi-01",
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "startLine": 125,
+          "endLine": 144,
+          "nodeIds": [
+            "tc_c07_zhouzhi_entry",
+            "tc_c07_zhouzhi_her_plans_002",
+            "tc_c07_zhouzhi_her_plans_003",
+            "tc_c07_zhouzhi_her_plans_004",
+            "tc_c07_zhouzhi_her_plans_005",
+            "tc_c07_zhouzhi_her_plans_006",
+            "tc_c07_zhouzhi_her_plans_007",
+            "tc_c07_zhouzhi_her_plans_008",
+            "tc_c07_zhouzhi_her_plans_009"
+          ],
+          "sceneIds": [
+            "ts_c07_zhouzhi_her_plans"
+          ],
+          "assetIds": [
+            "tc-bg-street-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile",
+            "tc-char-zhouzhi-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "试卖经历只消息概述；当前休息日，不画经营失败事件CG。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch07-zhouzhi-02",
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "startLine": 145,
+          "endLine": 162,
+          "nodeIds": [
+            "tc_c07_zhouzhi_river_return_001",
+            "tc_c07_zhouzhi_river_return_002",
+            "tc_c07_zhouzhi_river_return_003",
+            "tc_c07_zhouzhi_river_return_004",
+            "tc_c07_zhouzhi_river_return_005",
+            "tc_c07_zhouzhi_river_return_006",
+            "tc_c07_zhouzhi_river_return_007",
+            "tc_c07_zhouzhi_river_return_008"
+          ],
+          "sceneIds": [
+            "ts_c07_zhouzhi_river_return"
+          ],
+          "assetIds": [
+            "tc-bg-river-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile",
+            "tc-char-zhouzhi-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "第四章沿河听歌回收；一人一只耳机，河边座位。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch07-zhouzhi-03",
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "startLine": 163,
+          "endLine": 184,
+          "nodeIds": [
+            "tc_c07_zhouzhi_cinema_return_001",
+            "tc_c07_zhouzhi_cinema_return_002",
+            "tc_c07_zhouzhi_cinema_return_003",
+            "tc_c07_zhouzhi_cinema_return_004",
+            "tc_c07_zhouzhi_cinema_return_005",
+            "tc_c07_zhouzhi_cinema_return_006",
+            "tc_c07_zhouzhi_cinema_return_007",
+            "tc_c07_zhouzhi_cinema_return_008",
+            "tc_c07_zhouzhi_cinema_return_009",
+            "tc_c07_zhouzhi_cinema_return_010"
+          ],
+          "sceneIds": [
+            "ts_c07_zhouzhi_cinema_return"
+          ],
+          "assetIds": [
+            "tc-bg-cinema-interior",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile",
+            "tc-char-zhouzhi-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "第四章影院回收；不同电影/票根，具体影片不画。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch07-zhouzhi-04",
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "startLine": 185,
+          "endLine": 200,
+          "nodeIds": [
+            "tc_c07_zhouzhi_crossroad_001",
+            "tc_c07_zhouzhi_crossroad_002",
+            "tc_c07_zhouzhi_crossroad_003",
+            "tc_c07_zhouzhi_crossroad_004",
+            "tc_c07_zhouzhi_crossroad_005",
+            "tc_c07_zhouzhi_crossroad_006",
+            "tc_c07_zhouzhi_crossroad_007"
+          ],
+          "sceneIds": [
+            "ts_c07_zhouzhi_crossroad"
+          ],
+          "assetIds": [
+            "tc-bg-street-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile",
+            "tc-char-zhouzhi-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "分别各自购物，不画强行送行。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch08-zhouzhi-01",
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "startLine": 125,
+          "endLine": 184,
+          "nodeIds": [
+            "tc_c08_zhouzhi_entry",
+            "tc_c08_zhouzhi_dinner_budget_002",
+            "tc_c08_zhouzhi_dinner_budget_003",
+            "tc_c08_zhouzhi_dinner_budget_004",
+            "tc_c08_zhouzhi_dinner_budget_005",
+            "tc_c08_zhouzhi_dinner_budget_006",
+            "tc_c08_zhouzhi_dinner_budget_007",
+            "tc_c08_zhouzhi_dinner_budget_008",
+            "tc_c08_zhouzhi_dinner_budget_009",
+            "tc_c08_zhouzhi_dinner_budget_010",
+            "tc_c08_zhouzhi_dinner_budget_011",
+            "tc_c08_zhouzhi_dinner_budget_012",
+            "tc_c08_zhouzhi_dinner_budget_013",
+            "tc_c08_zhouzhi_dinner_budget_014",
+            "tc_c08_zhouzhi_dinner_budget_015",
+            "tc_c08_zhouzhi_dinner_budget_016",
+            "tc_c08_zhouzhi_dinner_budget_017",
+            "tc_c08_zhouzhi_dinner_budget_018",
+            "tc_c08_zhouzhi_dinner_budget_019",
+            "tc_c08_zhouzhi_dinner_budget_020",
+            "tc_c08_zhouzhi_dinner_budget_021",
+            "tc_c08_zhouzhi_dinner_budget_022",
+            "tc_c08_zhouzhi_dinner_budget_023",
+            "tc_c08_zhouzhi_dinner_budget_024",
+            "tc_c08_zhouzhi_dinner_budget_025",
+            "tc_c08_zhouzhi_dinner_budget_026",
+            "tc_c08_zhouzhi_dinner_budget_027",
+            "tc_c08_zhouzhi_dinner_budget_028",
+            "tc_c08_zhouzhi_dinner_budget_029"
+          ],
+          "sceneIds": [
+            "ts_c08_zhouzhi_dinner_budget",
+            "ts_c08_zhouzhi_dinner_budget_simple_dinner",
+            "ts_c08_zhouzhi_dinner_budget_soymilk"
+          ],
+          "assetIds": [
+            "tc-bg-food-day",
+            "tc-bg-food-dusk",
+            "tc-bg-street-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile",
+            "tc-char-zhouzhi-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "漂亮饭店门外发现价格，转去小锅饭；两杯热豆浆；不得把两店画成同一家。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch09-zhouzhi-01",
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 147,
+          "endLine": 170,
+          "nodeIds": [
+            "tc_c09_zhouzhi_entry",
+            "tc_c09_zhouzhi_relationship_002",
+            "tc_c09_zhouzhi_relationship_003",
+            "tc_c09_zhouzhi_relationship_004",
+            "tc_c09_zhouzhi_relationship_005",
+            "tc_c09_zhouzhi_relationship_006",
+            "tc_c09_zhouzhi_relationship_007",
+            "tc_c09_zhouzhi_relationship_008",
+            "tc_c09_zhouzhi_relationship_009",
+            "tc_c09_zhouzhi_relationship_010",
+            "tc_c09_zhouzhi_relationship_011"
+          ],
+          "sceneIds": [
+            "ts_c09_zhouzhi_relationship"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile",
+            "tc-char-zhouzhi-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "河边小馆晚饭；关系选择前。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch09-zhouzhi-02",
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 171,
+          "endLine": 212,
+          "nodeIds": [
+            "tc_c09_zhouzhi_dating_001",
+            "tc_c09_zhouzhi_dating_002",
+            "tc_c09_zhouzhi_dating_003",
+            "tc_c09_zhouzhi_dating_004",
+            "tc_c09_zhouzhi_dating_005",
+            "tc_c09_zhouzhi_dating_006",
+            "tc_c09_zhouzhi_dating_007",
+            "tc_c09_zhouzhi_dating_008",
+            "tc_c09_zhouzhi_dating_009",
+            "tc_c09_zhouzhi_dating_010",
+            "tc_c09_zhouzhi_dating_011",
+            "tc_c09_zhouzhi_dating_012",
+            "tc_c09_zhouzhi_dating_013",
+            "tc_c09_zhouzhi_dating_014",
+            "tc_c09_zhouzhi_dating_015",
+            "tc_c09_zhouzhi_dating_016",
+            "tc_c09_zhouzhi_dating_017",
+            "tc_c09_zhouzhi_dating_018",
+            "tc_c09_zhouzhi_dating_019",
+            "tc_c09_zhouzhi_dating_020"
+          ],
+          "sceneIds": [
+            "ts_c09_zhouzhi_dating",
+            "ts_c09_zhouzhi_dating_eaves"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk",
+            "tc-bg-eaves-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile",
+            "tc-char-zhouzhi-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "交往：牵手/伞下亲吻。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch09-zhouzhi-03",
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 213,
+          "endLine": 246,
+          "nodeIds": [
+            "tc_c09_zhouzhi_friends_001",
+            "tc_c09_zhouzhi_friends_002",
+            "tc_c09_zhouzhi_friends_003",
+            "tc_c09_zhouzhi_friends_004",
+            "tc_c09_zhouzhi_friends_005",
+            "tc_c09_zhouzhi_friends_006",
+            "tc_c09_zhouzhi_friends_007",
+            "tc_c09_zhouzhi_friends_008",
+            "tc_c09_zhouzhi_friends_009",
+            "tc_c09_zhouzhi_friends_010",
+            "tc_c09_zhouzhi_friends_011",
+            "tc_c09_zhouzhi_friends_012",
+            "tc_c09_zhouzhi_friends_013",
+            "tc_c09_zhouzhi_friends_014",
+            "tc_c09_zhouzhi_friends_015",
+            "tc_c09_zhouzhi_friends_016"
+          ],
+          "sceneIds": [
+            "ts_c09_zhouzhi_friends",
+            "ts_c09_zhouzhi_friends_day88",
+            "ts_c09_zhouzhi_friends_day88_crossroad"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk",
+            "tc-bg-street-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile",
+            "tc-char-zhouzhi-human-expression-hesitant",
+            "tc-char-zhouzhi-human-expression-downcast"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "朋友：先留距离；第88天群饭局再见，不密集催回复。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch10-zhouzhi-01",
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "startLine": 157,
+          "endLine": 198,
+          "nodeIds": [
+            "tc_c10_zhouzhi_dating_001",
+            "tc_c10_zhouzhi_dating_002",
+            "tc_c10_zhouzhi_dating_003",
+            "tc_c10_zhouzhi_dating_004",
+            "tc_c10_zhouzhi_dating_005",
+            "tc_c10_zhouzhi_dating_006",
+            "tc_c10_zhouzhi_dating_007",
+            "tc_c10_zhouzhi_dating_008",
+            "tc_c10_zhouzhi_dating_009",
+            "tc_c10_zhouzhi_dating_010",
+            "tc_c10_zhouzhi_dating_011",
+            "tc_c10_zhouzhi_dating_012",
+            "tc_c10_zhouzhi_dating_013",
+            "tc_c10_zhouzhi_dating_014",
+            "tc_c10_zhouzhi_dating_015",
+            "tc_c10_zhouzhi_dating_016",
+            "tc_c10_zhouzhi_dating_017",
+            "tc_c10_zhouzhi_dating_018",
+            "tc_c10_zhouzhi_dating_019",
+            "tc_c10_zhouzhi_dating_020"
+          ],
+          "sceneIds": [
+            "ts_c10_zhouzhi_dating",
+            "ts_c10_zhouzhi_dating_homeward",
+            "ts_c10_zhouzhi_dating_eaves"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk",
+            "tc-bg-eaves-day",
+            "tc-bg-street-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile",
+            "tc-char-zhouzhi-human-expression-hesitant",
+            "tc-look-zhouzhi-tied-hair"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "恋人：外面小店吃饭，头发随手扎；住处外屋檐亲吻，不虚构共同住所。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch10-zhouzhi-02",
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "startLine": 199,
+          "endLine": 232,
+          "nodeIds": [
+            "tc_c10_zhouzhi_friends_001",
+            "tc_c10_zhouzhi_friends_002",
+            "tc_c10_zhouzhi_friends_003",
+            "tc_c10_zhouzhi_friends_004",
+            "tc_c10_zhouzhi_friends_005",
+            "tc_c10_zhouzhi_friends_006",
+            "tc_c10_zhouzhi_friends_007",
+            "tc_c10_zhouzhi_friends_008",
+            "tc_c10_zhouzhi_friends_009",
+            "tc_c10_zhouzhi_friends_010",
+            "tc_c10_zhouzhi_friends_011",
+            "tc_c10_zhouzhi_friends_012",
+            "tc_c10_zhouzhi_friends_013",
+            "tc_c10_zhouzhi_friends_014",
+            "tc_c10_zhouzhi_friends_015",
+            "tc_c10_zhouzhi_friends_016"
+          ],
+          "sceneIds": [
+            "ts_c10_zhouzhi_friends",
+            "ts_c10_zhouzhi_friends_street",
+            "ts_c10_zhouzhi_friends_back_to_stall"
+          ],
+          "assetIds": [
+            "tc-bg-stall-night",
+            "tc-bg-street-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile",
+            "tc-char-zhouzhi-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "presentationNotes": [
+            "朋友：夜宵摊折叠椅；毛狼是照片消息中将来吃，不必实体。"
+          ]
+        }
+      ]
+    }
+  ]
+}

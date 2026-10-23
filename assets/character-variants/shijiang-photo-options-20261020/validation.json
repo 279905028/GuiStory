@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-20",
+  "scope": "仅两个候选素材，尚未正式接入",
+  "generationTool": "image_gen.imagegen built-in",
+  "files": [
+    {
+      "path": "option-A-photo-faithful.png",
+      "width": 1024,
+      "height": 1536,
+      "format": "RGBA PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPercent": 44.34630076090495,
+        "partialPercent": 55.653699239095054
+      },
+      "sha256": "391b5acd4b59bd93fcefc8c22c367d60be3faec8eb946a3635db38ee821eeed0",
+      "source": "/Users/yipin/.codex/generated_images/01a157db-ff60-7102-8994-2ef08f96801c/exec-8bb7fb7c-f7d4-44d5-8a41-20999daec7a5.png"
+    },
+    {
+      "path": "option-B-repair-workwear.png",
+      "width": 1024,
+      "height": 1536,
+      "format": "RGBA PNG",
+      "alpha": {
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPercent": 40.19584655761719,
+        "partialPercent": 59.80415344238281
+      },
+      "sha256": "8c4afb8753a610e1da52d0ae751de27dc32acfa831b226515c77fa42080c2bdd",
+      "source": "/Users/yipin/.codex/generated_images/01a157db-ff60-7102-8994-2ef08f96801c/exec-7e3bcf3d-2305-414a-94d7-a18856166fb5.png"
+    }
+  ],
+  "protectedFileCount": 45,
+  "protectedChanges": [],
+  "qaImage": "qa-light-dark-details.png",
+  "qaMethod": "PNG alpha-over solid light and dark surfaces; candidate only, not game screenshot",
+  "qaVisualInspection": "已实看两版完整轮廓、脸部和帽檐在浅色及深色底上的合成；未发现明显残底或手部畸形。保留生成结果原始 alpha，主体 alpha 最高为254。本次不包含游戏接入或运行验证。"
+}

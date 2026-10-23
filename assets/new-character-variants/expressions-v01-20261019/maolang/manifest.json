@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-20",
+  "owner": "M3",
+  "character": "maolang",
+  "version": "OptionD-20261020",
+  "source": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-photo2-options-20261020/option-D-dialogue-stance.png",
+  "sourceSha256": "1b6302e8c1fb95eb104cd645ab7fdc638ff0c30ed83b43779acdb61b1cc3006c",
+  "count": 9,
+  "candidateOnly": false,
+  "gameIntegrated": true,
+  "entries": [
+    {
+      "file": "char-maolang-expression-smile.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.png",
+      "type": "expression",
+      "slug": "smile",
+      "label": "微笑",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "69f0292995c00bc675ecd5875dc44106dfa26db27045dcf1ff0cec9ff58cf7c9",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157e2-58e3-7f22-b266-01312f6895ab/exec-47efbf44-1cf1-4906-a04d-1d099c9a3acd.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 51.4819,
+        "partiallyTransparentPixelPercent": 48.5181,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          129,
+          54,
+          914,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      },
+      "candidateStatus": "adopted_runtime",
+      "runtimeNodeIds": [
+        "s9_compete_07"
+      ],
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": true
+      }
+    },
+    {
+      "file": "char-maolang-expression-serious.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+      "type": "expression",
+      "slug": "serious",
+      "label": "认真",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "ac71699d27dc76d7c0a2bcfeed61bd56d30c033043150e7081b6562d56f50aa5",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157e2-58e3-7f22-b266-01312f6895ab/exec-b5996090-9e01-4fe8-9716-0931f801a3e6.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 51.332,
+        "partiallyTransparentPixelPercent": 48.668,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          129,
+          53,
+          912,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      },
+      "candidateStatus": "adopted_runtime",
+      "runtimeNodeIds": [
+        "s9_compete_02",
+        "s9_measure_02"
+      ],
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": true
+      }
+    },
+    {
+      "file": "char-maolang-expression-hesitant.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.png",
+      "type": "expression",
+      "slug": "hesitant",
+      "label": "犹豫",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "1e3ff8b41dca7b48b059c4530aee2b57c3e6ea5124e5036a9b9769e346f69859",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157e2-58e3-7f22-b266-01312f6895ab/exec-2c606c6d-56e0-44af-8a30-6cb8270476b6.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 51.4875,
+        "partiallyTransparentPixelPercent": 48.5125,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          130,
+          53,
+          912,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      },
+      "candidateStatus": "adopted_runtime",
+      "runtimeNodeIds": [
+        "s9_compete_04"
+      ],
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": true
+      }
+    },
+    {
+      "file": "char-maolang-expression-surprised.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.png",
+      "type": "expression",
+      "slug": "surprised",
+      "label": "惊讶",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "b6b6d04604afec6f5f648008969bc8880a91ecf5817daf14aa461c18c1841876",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157e2-58e3-7f22-b266-01312f6895ab/exec-6231d568-a2f7-4bad-a5c7-06fbc3675281.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 51.4194,
+        "partiallyTransparentPixelPercent": 48.5806,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          127,
+          54,
+          911,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      },
+      "candidateStatus": "adopted_runtime",
+      "runtimeNodeIds": [
+        "s2_counter_13"
+      ],
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": true
+      }
+    },
+    {
+      "file": "char-maolang-expression-displeased.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.png",
+      "type": "expression",
+      "slug": "displeased",
+      "label": "不悦",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "e0cf03cec9c50dae430978ca17cb9ab6c1dabe93542332244ba35eaf125cb624",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157e2-58e3-7f22-b266-01312f6895ab/exec-56295682-dea6-48c5-83b8-5c2b3732435b.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 51.4051,
+        "partiallyTransparentPixelPercent": 48.5949,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          129,
+          54,
+          912,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      },
+      "candidateStatus": "adopted_library_reserved",
+      "runtimeNodeIds": [],
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-maolang-expression-downcast.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.png",
+      "type": "expression",
+      "slug": "downcast",
+      "label": "低落",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "1e791d5a7b566633b97fe7c87be86105f11774bde8b7160c97ca5eec4d1c5274",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157e2-9c18-7701-8823-365392da77f8/exec-403108a5-679f-4393-beba-fa1e3732905b.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 51.0391,
+        "partiallyTransparentPixelPercent": 48.9609,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          130,
+          52,
+          912,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      },
+      "candidateStatus": "adopted_library_reserved",
+      "runtimeNodeIds": [],
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      }
+    },
+    {
+      "file": "char-maolang-action-wave.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.png",
+      "type": "action",
+      "slug": "wave",
+      "label": "招手",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "cf2643dd3affe296beff6289d3a2f824d9ace8ac5c8b8faf824aad5e6dd0c6e5",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157e2-9c18-7701-8823-365392da77f8/exec-56b0ba99-94de-4719-9e74-e01a9240c9a7.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 53.0177,
+        "partiallyTransparentPixelPercent": 46.9823,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          96,
+          51,
+          924,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      },
+      "candidateStatus": "adopted_runtime",
+      "runtimeNodeIds": [
+        "s2_counter_02"
+      ],
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": true
+      }
+    },
+    {
+      "file": "char-maolang-action-thinking.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.png",
+      "type": "action",
+      "slug": "thinking",
+      "label": "思考",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "19a7d81992b831b9d63199271cf7e3438be0c2e1c802d4fdc5a46fa426ab8a6c",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157e2-9c18-7701-8823-365392da77f8/exec-bdeb4895-3586-4592-85af-a83520340f48.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 55.0702,
+        "partiallyTransparentPixelPercent": 44.9298,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          181,
+          57,
+          917,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      },
+      "candidateStatus": "adopted_runtime",
+      "runtimeNodeIds": [
+        "s2_recruit_02"
+      ],
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": true
+      }
+    },
+    {
+      "file": "char-maolang-action-explaining.png",
+      "path": "/Users/yipin/Desktop/cjb/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.png",
+      "type": "action",
+      "slug": "explaining",
+      "label": "解释",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "a0e342fc91735cb4fa1b3caf36932b3147dcc0aa884869de9d64f11763238d65",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157e2-9c18-7701-8823-365392da77f8/exec-84be287a-000c-4e30-aa7d-1415453deb07.png",
+      "byteIdenticalToGenerated": true,
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 54.1283,
+        "partiallyTransparentPixelPercent": 45.8717,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          117,
+          54,
+          912,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      },
+      "candidateStatus": "adopted_runtime",
+      "runtimeNodeIds": [
+        "s2_counter_04"
+      ],
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": true
+      }
+    }
+  ],
+  "evidence": [
+    "assets/character-variants/maolang-optionD-production-20261020/qa-expressions-1.jpg",
+    "assets/character-variants/maolang-optionD-production-20261020/qa-expressions-2.jpg"
+  ],
+  "validationLimitations": [
+    "原始alpha保留；视觉一致不等于逐像素一致",
+    "当前剧情没有明确不悦/低落对白；这两张作为资源库备用，不强行改变叙事"
+  ],
+  "runtimeVariantCount": 7,
+  "runtimeNodeMap": {
+    "s2_counter_02": "action-wave",
+    "s2_counter_04": "action-explaining",
+    "s2_counter_13": "expression-surprised",
+    "s2_recruit_02": "action-thinking",
+    "s9_compete_02": "expression-serious",
+    "s9_compete_04": "expression-hesitant",
+    "s9_compete_07": "expression-smile",
+    "s9_measure_02": "expression-serious"
+  },
+  "runtimeEvidence": "qa/maolang-optionD-20261020/runtime-results.json"
+}

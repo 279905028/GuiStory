@@ -1,0 +1,139 @@
+[
+  {
+    "id": "e00ae3ca75e14d60b27b20107a75f301",
+    "name": "cjb-rain",
+    "tags": [],
+    "observability": {
+      "enabled": false,
+      "head_sampling_rate": 1,
+      "redact_query_string": false,
+      "logs": {
+        "enabled": false,
+        "head_sampling_rate": 1,
+        "invocation_logs": true,
+        "persist": true,
+        "destinations": []
+      },
+      "traces": {
+        "enabled": false,
+        "head_sampling_rate": 1,
+        "persist": true,
+        "destinations": []
+      }
+    },
+    "logpush": false,
+    "created_on": "2026-10-20T05:04:42.900139Z",
+    "updated_on": "2026-10-20T05:04:59.112117Z",
+    "deployed_on": "2026-10-20T05:04:58.01112Z",
+    "references": {
+      "workers": [],
+      "domains": [
+        {
+          "id": "e518cb72878de62884171bb813cfea8861b0aa60",
+          "hostname": "galagame.ambd.site",
+          "zone_id": "f597552dd7b3a425cfb91df04dbad507",
+          "zone_name": "ambd.site"
+        }
+      ],
+      "dispatch_namespace_outbounds": [],
+      "durable_objects": [],
+      "queues": []
+    },
+    "subdomain": {
+      "enabled": true,
+      "previews_enabled": false,
+      "url": "https://cjb-rain.279905028.workers.dev",
+      "preview_url_suffix": "-cjb-rain.279905028.workers.dev"
+    },
+    "tail_consumers": []
+  },
+  {
+    "id": "b1b6b6062f254172accffd9439b1ac81",
+    "name": "naming",
+    "tags": [],
+    "observability": {
+      "enabled": false,
+      "head_sampling_rate": 1,
+      "redact_query_string": false,
+      "logs": {
+        "enabled": false,
+        "head_sampling_rate": 1,
+        "invocation_logs": true,
+        "persist": true,
+        "destinations": []
+      },
+      "traces": {
+        "enabled": false,
+        "head_sampling_rate": 1,
+        "persist": true,
+        "destinations": []
+      }
+    },
+    "logpush": false,
+    "created_on": "2026-05-17T06:03:28.75341Z",
+    "updated_on": "2026-05-17T07:15:54.776221Z",
+    "deployed_on": "2026-05-17T07:15:53.543236Z",
+    "references": {
+      "workers": [],
+      "domains": [],
+      "dispatch_namespace_outbounds": [],
+      "durable_objects": [],
+      "queues": []
+    },
+    "subdomain": {
+      "enabled": true,
+      "previews_enabled": true,
+      "url": "https://naming.279905028.workers.dev",
+      "preview_url_suffix": "-naming.279905028.workers.dev"
+    },
+    "tail_consumers": []
+  },
+  {
+    "id": "5dde607737e545bab22102706f0ab334",
+    "name": "ambd",
+    "tags": [],
+    "observability": {
+      "enabled": false,
+      "head_sampling_rate": 1,
+      "redact_query_string": false,
+      "logs": {
+        "enabled": false,
+        "head_sampling_rate": 1,
+        "invocation_logs": true,
+        "persist": true,
+        "destinations": []
+      },
+      "traces": {
+        "enabled": false,
+        "head_sampling_rate": 1,
+        "persist": true,
+        "destinations": []
+      }
+    },
+    "logpush": false,
+    "created_on": "2026-05-11T11:36:49.124836Z",
+    "updated_on": "2026-05-15T11:47:05.783667Z",
+    "deployed_on": "2026-05-15T11:47:03.321129Z",
+    "references": {
+      "workers": [],
+      "domains": [
+        {
+          "id": "2b2f0a1db813300d72ed23bb6328bdf369313106",
+          "hostname": "works.ambd.site",
+          "zone_id": "f597552dd7b3a425cfb91df04dbad507",
+          "zone_name": "ambd.site"
+        }
+      ],
+      "dispatch_namespace_outbounds": [],
+      "durable_objects": [],
+      "queues": []
+    },
+    "subdomain": {
+      "enabled": true,
+      "previews_enabled": true,
+      "url": "https://ambd.279905028.workers.dev",
+      "preview_url_suffix": "-ambd.279905028.workers.dev"
+    },
+    "tail_consumers": []
+  }
+]

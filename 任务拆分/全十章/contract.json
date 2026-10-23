@@ -1,0 +1,5421 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "status": "E01-engineering-baseline-confirmed",
+  "confirmedOn": "2026-10-22",
+  "authorization": "用户在本次对话确认：采用当前稿作为本轮工程基线，后续修改再升级版本。",
+  "scope": "E01故事基线与接口；无正式剧情实现、构建、游戏验收或发布。",
+  "baseline": {
+    "sourceDirectory": "项目文档/故事/全十章审阅稿",
+    "sourceManifest": [
+      {
+        "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+        "chapter": 1,
+        "sha256": "766f2462d3695244aeb5d40a416c7610b05eeea15b397b8a0c232d351399e0c6",
+        "bytes": 15138,
+        "lineCount": 362
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+        "chapter": 2,
+        "sha256": "dac8ac7db39fb2d16732629cb694cb34816bfdb7cc8de0064d52e1e16fc0bf06",
+        "bytes": 11561,
+        "lineCount": 276
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "chapter": 3,
+        "sha256": "21ed8a4949d383f982625bcf473d75ced20aa02eeca5fb4fe4a099283749dc60",
+        "bytes": 47796,
+        "lineCount": 1119
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "chapter": 4,
+        "sha256": "456533e8485bffdaafc31a13d6c8c77e9f8266480707887e792a5ceaddaec0c2",
+        "bytes": 27094,
+        "lineCount": 586
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "chapter": 5,
+        "sha256": "237c81a388bc42db960729d600a88d2705ef6106ade18f4414e919a33acab082",
+        "bytes": 27427,
+        "lineCount": 576
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "chapter": 6,
+        "sha256": "8238a41e2b8e4102e7509e711662fa28bbdd83c7ef89e03f9af1e7798ff7c9e4",
+        "bytes": 25651,
+        "lineCount": 548
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "chapter": 7,
+        "sha256": "112623a8a21f59991e3a5717838c0558244293dc709b906815c8c83497ebc8f0",
+        "bytes": 29458,
+        "lineCount": 564
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "chapter": 8,
+        "sha256": "2903d54c7d22f9e7fcfe3a4d4ead3c16dc103a67b675c12a636eb7bfb463279b",
+        "bytes": 27170,
+        "lineCount": 548
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "chapter": 9,
+        "sha256": "d2aeb09d621edb3522b2dc63dcc5b49fa6949891e2c7d17520ffe14d39996549",
+        "bytes": 30764,
+        "lineCount": 621
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "chapter": 10,
+        "sha256": "94b9a7c273d7a6ba9d0c2f9572ec54a3874f57a8ea0663d4db455ec868d903b2",
+        "bytes": 34986,
+        "lineCount": 608
+      }
+    ],
+    "sourceDigest": "8e5b38f487e0f64bfefdae3a3bf0ea59afb236c26efea8893f1b1971ec099379",
+    "precedence": [
+      "本契约记录的本轮用户确认与文件指纹",
+      "本轮十章正文与人物已确认设定",
+      "阅读辅助文档",
+      "旧游戏仅作接口参考，不作新版故事来源"
+    ],
+    "laterChangePolicy": "任何十章正文变更先升contentRevision并重取指纹；接口破坏性变更升contractVersion主版本；不静默复用旧档。",
+    "unresolvedStoryDecisions": []
+  },
+  "counts": {
+    "chapters": 10,
+    "routes": 7,
+    "routeChapterSections": 56,
+    "choices": 19,
+    "options": 43,
+    "endings": 13
+  },
+  "characters": [
+    {
+      "id": "wenwen",
+      "name": "文文",
+      "age": 23,
+      "identity": "返乡网吧夜班网管",
+      "assetBoundary": "旧维修夹克/工具包语义待A01复核",
+      "source": "项目文档/人物/文文.md"
+    },
+    {
+      "id": "xiaoman",
+      "name": "罗小满",
+      "age": 22,
+      "identity": "理发店助理、儿时熟人",
+      "assetBoundary": "私人约会不固定手持职业工具",
+      "source": "项目文档/人物/罗小满.md"
+    },
+    {
+      "id": "zhouzhi",
+      "name": "周栀",
+      "age": 25,
+      "identity": "回声KTV陪唱、与朋友筹备夜宵",
+      "assetBoundary": "第30天最后营业夜；不虚构创业规模",
+      "source": "项目文档/人物/周栀.md"
+    },
+    {
+      "id": "mengyao",
+      "name": "孟遥",
+      "age": 23,
+      "identity": "英语老师、前女友",
+      "assetBoundary": "旧相机职业道具待复核",
+      "source": "项目文档/人物/孟遥.md"
+    },
+    {
+      "id": "yelan",
+      "name": "叶岚",
+      "age": 27,
+      "identity": "保险公司内勤、固定游戏队网友",
+      "assetBoundary": "旧领班夹板待复核；不擅解释为保险材料",
+      "source": "项目文档/人物/叶岚.md"
+    },
+    {
+      "id": "maolang",
+      "name": "毛狼",
+      "age": 24,
+      "identity": "临时演出主持与场务、固定队组织者",
+      "assetBoundary": "保留Option D外观；非网吧员工",
+      "source": "项目文档/人物/毛狼.md"
+    },
+    {
+      "id": "shijiang",
+      "name": "师匠",
+      "age": 32,
+      "identity": "网吧老板",
+      "assetBoundary": "保留Option A外观；不恢复维修师傅身份",
+      "source": "项目文档/人物/师匠.md"
+    },
+    {
+      "id": "piao",
+      "name": "飘",
+      "age": 20,
+      "identity": "曾在大城市做KTV陪酒，近期返乡待业",
+      "assetBoundary": "小册子是个人计划，不指定后续职业",
+      "source": "项目文档/人物/飘.md"
+    },
+    {
+      "id": "huangqiuqiu",
+      "name": "黄球球",
+      "age": 24,
+      "ageIsSelfReported": true,
+      "identity": "自称24岁成年女性、隐藏角色",
+      "assetBoundary": "人形基础图待外观审阅，不新增身世/疾病/能力/手机联系/公开显露",
+      "source": "项目文档/人物/黄球球.md"
+    }
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "第一章 · 凌晨六点的早餐",
+      "days": "第1—7天",
+      "dayRange": [
+        1,
+        7
+      ],
+      "timeDomain": "story-day",
+      "commonModule": "common/ch01.json",
+      "entry": "tc_c01_common_entry",
+      "dispatch": null,
+      "exit": "tc_c01_common_exit",
+      "next": "tc_c02_common_entry",
+      "sections": [
+        {
+          "scope": "common",
+          "owner": "E03",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+            "startLine": 7,
+            "endLine": 358
+          }
+        }
+      ],
+      "sceneAnchors": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+          "line": 7,
+          "raw": "## 第1天·下午｜箱子轮子响得太大",
+          "day": 1
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+          "line": 53,
+          "raw": "## 第1天·21:40｜三下轻响",
+          "day": 1
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+          "line": 105,
+          "raw": "## 第2天·06:20｜算不上接风",
+          "day": 2
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+          "line": 145,
+          "raw": "## 第3天·16:10｜没有预约的老熟人",
+          "day": 3
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+          "line": 185,
+          "raw": "## 第4天·17:20｜老师也会不耐烦",
+          "day": 4
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+          "line": 253,
+          "raw": "## 第5天·20:30｜今晚没有班",
+          "day": 5
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+          "line": 285,
+          "raw": "## 第6天·17:30｜辣椒自己放",
+          "day": 6
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+          "line": 319,
+          "raw": "## 第7天·17:30｜名字不用介绍第二遍",
+          "day": 7
+        }
+      ],
+      "order": [
+        "common",
+        "chapter-exit"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "第二章 · 语音里的那个人",
+      "days": "第8—14天",
+      "dayRange": [
+        8,
+        14
+      ],
+      "timeDomain": "story-day",
+      "commonModule": "common/ch02.json",
+      "entry": "tc_c02_common_entry",
+      "dispatch": null,
+      "exit": "tc_c02_common_exit",
+      "next": "tc_c03_common_entry",
+      "sections": [
+        {
+          "scope": "common",
+          "owner": "E03",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+            "startLine": 7,
+            "endLine": 272
+          }
+        }
+      ],
+      "sceneAnchors": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+          "line": 7,
+          "raw": "## 第8天·19:40｜还记得的三拍",
+          "day": 8
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+          "line": 59,
+          "raw": "## 第10天·20:50｜没赶上开局",
+          "day": 10
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+          "line": 109,
+          "raw": "## 第12天·16:30｜你在语音里不是这样",
+          "day": 12
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+          "line": 191,
+          "raw": "## 第14天·18:00｜来的人就先吃",
+          "day": 14
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+          "line": 221,
+          "raw": "## 第14天·20:30｜隐藏相识：门后有人回答",
+          "day": 14
+        }
+      ],
+      "order": [
+        "common",
+        "chapter-exit"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "第三章 · 想见你不必有事",
+      "days": "第15—21天",
+      "dayRange": [
+        15,
+        21
+      ],
+      "timeDomain": "story-day",
+      "commonModule": "common/ch03.json",
+      "entry": "tc_c03_common_entry",
+      "dispatch": "tc_c03_common_route_choice",
+      "exit": "tc_c03_common_exit",
+      "next": "tc_c04_common_entry",
+      "sections": [
+        {
+          "scope": "common",
+          "owner": "E03",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "startLine": 9,
+            "endLine": 32
+          }
+        },
+        {
+          "scope": "xiaoman",
+          "owner": "E04",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "startLine": 33,
+            "endLine": 216
+          }
+        },
+        {
+          "scope": "zhouzhi",
+          "owner": "E04",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "startLine": 217,
+            "endLine": 356
+          }
+        },
+        {
+          "scope": "mengyao",
+          "owner": "E05",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "startLine": 357,
+            "endLine": 532
+          }
+        },
+        {
+          "scope": "yelan",
+          "owner": "E05",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "startLine": 533,
+            "endLine": 692
+          }
+        },
+        {
+          "scope": "piao",
+          "owner": "E06",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "startLine": 693,
+            "endLine": 871
+          }
+        },
+        {
+          "scope": "friends",
+          "owner": "E06",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "startLine": 872,
+            "endLine": 967
+          }
+        },
+        {
+          "scope": "huangqiuqiu",
+          "owner": "E07",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "startLine": 968,
+            "endLine": 1115
+          }
+        }
+      ],
+      "sceneAnchors": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 11,
+          "raw": "### 第15天·下午｜这回自己开口",
+          "day": 15
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 35,
+          "raw": "### 第15天·16:10｜你是来剪头发的吗",
+          "day": 15
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 103,
+          "raw": "### 第18天·17:20｜别只认得小时候的我",
+          "day": 18
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 165,
+          "raw": "### 第21天·16:40｜那张画歪的纸",
+          "day": 21
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 219,
+          "raw": "### 第15天·17:20｜还没到上班时间",
+          "day": 15
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 265,
+          "raw": "### 第18天·16:30｜不好笑就不笑",
+          "day": 18
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 309,
+          "raw": "### 第21天·17:00｜是我想约你",
+          "day": 21
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 359,
+          "raw": "### 第15天·17:20｜这次不算顺路",
+          "day": 15
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 437,
+          "raw": "### 第18天·18:10｜并不熟练的双人游戏",
+          "day": 18
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 489,
+          "raw": "### 第21天·16:40｜不能直接续上的那一句",
+          "day": 21
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 535,
+          "raw": "### 第15天·18:20｜面已经吃过了",
+          "day": 15
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 601,
+          "raw": "### 第18天·19:10｜她也会把门走反",
+          "day": 18
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 645,
+          "raw": "### 第21天·17:50｜不用一直有声音",
+          "day": 21
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 695,
+          "raw": "### 第15天·16:30｜没有采访提纲",
+          "day": 15
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 745,
+          "raw": "### 第18天·17:00｜说到这里就够了",
+          "day": 18
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 795,
+          "raw": "### 第21天·16:00｜这一次讲明白",
+          "day": 21
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 874,
+          "raw": "### 第15天·16:00｜不用找个正事",
+          "day": 15
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 916,
+          "raw": "### 第18天·20:00｜老板也会掉下去",
+          "day": 18
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 940,
+          "raw": "### 第21天·15:30｜可以过一阵子的地方",
+          "day": 21
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 970,
+          "raw": "### 第15天·17:00｜第二次也要打招呼",
+          "day": 15
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 1024,
+          "raw": "### 第18天·17:30｜不是什么都知道",
+          "day": 18
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 1070,
+          "raw": "### 第21天·16:30｜来这里没有正事",
+          "day": 21
+        }
+      ],
+      "order": [
+        "common",
+        "selected-route",
+        "chapter-exit"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "第四章 · 约好的那一天",
+      "days": "第22—24天",
+      "dayRange": [
+        22,
+        24
+      ],
+      "timeDomain": "story-day",
+      "commonModule": "common/ch04.json",
+      "entry": "tc_c04_common_entry",
+      "dispatch": "tc_c04_common_route_gate",
+      "exit": "tc_c04_common_exit",
+      "next": "tc_c05_common_entry",
+      "sections": [
+        {
+          "scope": "common",
+          "owner": "E03",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "startLine": 9,
+            "endLine": 30
+          }
+        },
+        {
+          "scope": "xiaoman",
+          "owner": "E04",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "startLine": 31,
+            "endLine": 134
+          }
+        },
+        {
+          "scope": "zhouzhi",
+          "owner": "E04",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "startLine": 135,
+            "endLine": 210
+          }
+        },
+        {
+          "scope": "mengyao",
+          "owner": "E05",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "startLine": 211,
+            "endLine": 300
+          }
+        },
+        {
+          "scope": "yelan",
+          "owner": "E05",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "startLine": 301,
+            "endLine": 370
+          }
+        },
+        {
+          "scope": "piao",
+          "owner": "E06",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "startLine": 371,
+            "endLine": 451
+          }
+        },
+        {
+          "scope": "friends",
+          "owner": "E06",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "startLine": 452,
+            "endLine": 505
+          }
+        },
+        {
+          "scope": "huangqiuqiu",
+          "owner": "E07",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "startLine": 506,
+            "endLine": 582
+          }
+        }
+      ],
+      "sceneAnchors": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "line": 11,
+          "raw": "### 第22天·15:40｜发薪以后",
+          "day": 22
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "line": 33,
+          "raw": "### 第24天·16:00｜今天不谈发型",
+          "day": 24
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "line": 137,
+          "raw": "### 第23天·16:10｜轮到你选",
+          "day": 23
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "line": 213,
+          "raw": "### 第24天·15:30｜重新挑一件喜欢的事",
+          "day": 24
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "line": 303,
+          "raw": "### 第24天·15:40｜屏幕外的操作方式",
+          "day": 24
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "line": 373,
+          "raw": "### 第24天·16:30｜雨棚下的两个主意",
+          "day": 24
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "line": 420,
+          "raw": "### 第24天·18:00｜今天的散步到这里",
+          "day": 24
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "line": 454,
+          "raw": "### 第24天·下午｜谁都不用当陪客",
+          "day": 24
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "line": 508,
+          "raw": "### 第24天·16:30｜你可以选一个难题",
+          "day": 24
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "line": 559,
+          "raw": "### 第24天·17:30｜想坐高一点",
+          "day": 24
+        }
+      ],
+      "order": [
+        "common",
+        "selected-route",
+        "chapter-exit"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "第五章 · 没说出口的困意",
+      "days": "第25—29天",
+      "dayRange": [
+        25,
+        29
+      ],
+      "timeDomain": "story-day",
+      "commonModule": "common/ch05.json",
+      "entry": "tc_c05_common_entry",
+      "dispatch": "tc_c05_common_route_gate",
+      "exit": "tc_c05_common_exit",
+      "next": "tc_c06_common_entry",
+      "sections": [
+        {
+          "scope": "common",
+          "owner": "E03",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+            "startLine": 9,
+            "endLine": 36
+          }
+        },
+        {
+          "scope": "xiaoman",
+          "owner": "E04",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+            "startLine": 37,
+            "endLine": 132
+          }
+        },
+        {
+          "scope": "zhouzhi",
+          "owner": "E04",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+            "startLine": 133,
+            "endLine": 214
+          }
+        },
+        {
+          "scope": "mengyao",
+          "owner": "E05",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+            "startLine": 215,
+            "endLine": 298
+          }
+        },
+        {
+          "scope": "yelan",
+          "owner": "E05",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+            "startLine": 299,
+            "endLine": 362
+          }
+        },
+        {
+          "scope": "piao",
+          "owner": "E06",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+            "startLine": 363,
+            "endLine": 454
+          }
+        },
+        {
+          "scope": "friends",
+          "owner": "E06",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+            "startLine": 455,
+            "endLine": 502
+          }
+        },
+        {
+          "scope": "huangqiuqiu",
+          "owner": "E07",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+            "startLine": 503,
+            "endLine": 572
+          }
+        }
+      ],
+      "sceneAnchors": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 11,
+          "raw": "### 第25天·18:10｜回声那条消息",
+          "day": 25
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 39,
+          "raw": "### 第27天·17:10｜那句顺嘴的话",
+          "day": 27
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 97,
+          "raw": "### 第29天·16:30｜新外套",
+          "day": 29
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 135,
+          "raw": "### 第26天·17:30｜你今天也在上班吗",
+          "day": 26
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 185,
+          "raw": "### 第29天·16:50｜先留两个人的位置",
+          "day": 29
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 217,
+          "raw": "### 第27天·17:50｜一句玩笑碰到旧地方",
+          "day": 27
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 263,
+          "raw": "### 第29天·16:30｜你也可以听错",
+          "day": 29
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 301,
+          "raw": "### 第27天·20:10｜我没有说请你介绍",
+          "day": 27
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 323,
+          "raw": "### 第29天·18:00｜她不是另一个账号",
+          "day": 29
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 365,
+          "raw": "### 第27天·16:00｜一张不太满意的封面",
+          "day": 27
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 407,
+          "raw": "### 第29天·17:30｜别替我挑好答案",
+          "day": 29
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 457,
+          "raw": "### 第27天·17:10｜那个没说清的工作",
+          "day": 27
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 485,
+          "raw": "### 第29天·17:30｜照样讲出来",
+          "day": 29
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 505,
+          "raw": "### 第27天·17:00｜别猜我正在生气",
+          "day": 27
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 543,
+          "raw": "### 第29天·16:30｜一个没说完的哈欠",
+          "day": 29
+        }
+      ],
+      "order": [
+        "common",
+        "selected-route",
+        "chapter-exit"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "第六章 · 空出来的一个晚上",
+      "days": "第30—34天",
+      "dayRange": [
+        30,
+        34
+      ],
+      "timeDomain": "story-day",
+      "commonModule": "common/ch06.json",
+      "entry": "tc_c06_common_entry",
+      "dispatch": "tc_c06_common_route_gate",
+      "exit": "tc_c06_common_exit",
+      "next": "tc_c07_common_entry",
+      "sections": [
+        {
+          "scope": "common",
+          "owner": "E03",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+            "startLine": 9,
+            "endLine": 44
+          }
+        },
+        {
+          "scope": "xiaoman",
+          "owner": "E04",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+            "startLine": 45,
+            "endLine": 124
+          }
+        },
+        {
+          "scope": "zhouzhi",
+          "owner": "E04",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+            "startLine": 125,
+            "endLine": 190
+          }
+        },
+        {
+          "scope": "mengyao",
+          "owner": "E05",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+            "startLine": 191,
+            "endLine": 264
+          }
+        },
+        {
+          "scope": "yelan",
+          "owner": "E05",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+            "startLine": 265,
+            "endLine": 338
+          }
+        },
+        {
+          "scope": "piao",
+          "owner": "E06",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+            "startLine": 339,
+            "endLine": 420
+          }
+        },
+        {
+          "scope": "friends",
+          "owner": "E06",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+            "startLine": 421,
+            "endLine": 474
+          }
+        },
+        {
+          "scope": "huangqiuqiu",
+          "owner": "E07",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+            "startLine": 475,
+            "endLine": 544
+          }
+        }
+      ],
+      "sceneAnchors": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 11,
+          "raw": "### 第30天·18:00｜吃完还要上班",
+          "day": 30
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 47,
+          "raw": "### 第32天·15:50｜没有事也可以坐着",
+          "day": 32
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 127,
+          "raw": "### 第32天·17:10｜绕过那个门口",
+          "day": 32
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 193,
+          "raw": "### 第30天·19:20｜饭后各有一段路",
+          "day": 30
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 213,
+          "raw": "### 第32天·16:10｜她也不是每首都会唱",
+          "day": 32
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 267,
+          "raw": "### 第30天·19:15｜散席以后",
+          "day": 30
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 283,
+          "raw": "### 第32天·16:30｜她打飞的那一球",
+          "day": 32
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 341,
+          "raw": "### 第32天·15:30｜少了一个顺路的地方",
+          "day": 32
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 365,
+          "raw": "### 第32天·16:00｜把一个下午用掉",
+          "day": 32
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 423,
+          "raw": "### 第32天·16:30｜不开麦也能坐着",
+          "day": 32
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 449,
+          "raw": "### 第33天·18:20｜不替别人做主",
+          "day": 33
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 467,
+          "raw": "### 第34天·上午｜不赶着醒",
+          "day": 34
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 477,
+          "raw": "### 第32天·16:00｜门外换过一阵雨",
+          "day": 32
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 503,
+          "raw": "### 第32天·17:00｜她也会讲一个很糟的笑话",
+          "day": 32
+        }
+      ],
+      "order": [
+        "common",
+        "selected-route",
+        "chapter-exit"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "第七章 · 各自要过的日子",
+      "days": "第35—45天",
+      "dayRange": [
+        35,
+        45
+      ],
+      "timeDomain": "story-day",
+      "commonModule": "common/ch07.json",
+      "entry": "tc_c07_common_entry",
+      "dispatch": "tc_c07_common_route_gate",
+      "exit": "tc_c07_common_exit",
+      "next": "tc_c08_common_entry",
+      "sections": [
+        {
+          "scope": "common",
+          "owner": "E03",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+            "startLine": 9,
+            "endLine": 24
+          }
+        },
+        {
+          "scope": "xiaoman",
+          "owner": "E04",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+            "startLine": 25,
+            "endLine": 122
+          }
+        },
+        {
+          "scope": "zhouzhi",
+          "owner": "E04",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+            "startLine": 123,
+            "endLine": 200
+          }
+        },
+        {
+          "scope": "mengyao",
+          "owner": "E05",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+            "startLine": 201,
+            "endLine": 290
+          }
+        },
+        {
+          "scope": "yelan",
+          "owner": "E05",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+            "startLine": 291,
+            "endLine": 376
+          }
+        },
+        {
+          "scope": "piao",
+          "owner": "E06",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+            "startLine": 377,
+            "endLine": 440
+          }
+        },
+        {
+          "scope": "friends",
+          "owner": "E06",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+            "startLine": 441,
+            "endLine": 496
+          }
+        },
+        {
+          "scope": "huangqiuqiu",
+          "owner": "E07",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+            "startLine": 497,
+            "endLine": 560
+          }
+        }
+      ],
+      "sceneAnchors": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 11,
+          "raw": "### 第35天·下午｜群里空下来的一会儿",
+          "day": 35
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 27,
+          "raw": "### 第39天·17:00｜她的周末",
+          "day": 39
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 125,
+          "raw": "### 第43天·16:40｜她也有别的约",
+          "day": 43
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 203,
+          "raw": "### 第39天·17:10｜没有我的那一桌",
+          "day": 39
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 231,
+          "raw": "### 第43天·16:30｜上次留下的东西",
+          "day": 43
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 293,
+          "raw": "### 第39天·18:10｜她并不只在那个队伍里",
+          "day": 39
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 315,
+          "raw": "### 第43天·17:00｜再来一次，也可以不一样",
+          "day": 43
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 379,
+          "raw": "### 第39天·16:30｜她今天不围着我转",
+          "day": 39
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 395,
+          "raw": "### 第39天·17:00｜散场不是冷落",
+          "day": 39
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 443,
+          "raw": "### 第40天·休班下午｜再来一次，不必一模一样",
+          "day": 40
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 481,
+          "raw": "### 第43天·16:00｜他也有自己的事",
+          "day": 43
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 499,
+          "raw": "### 第40天·17:00｜她今天想少说一点",
+          "day": 40
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 523,
+          "raw": "### 第42天·16:30｜一个不能随便代替的名字",
+          "day": 42
+        }
+      ],
+      "order": [
+        "common",
+        "selected-route",
+        "chapter-exit"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "第八章 · 不用每次都逞强",
+      "days": "第46—60天",
+      "dayRange": [
+        46,
+        60
+      ],
+      "timeDomain": "story-day",
+      "commonModule": "common/ch08.json",
+      "entry": "tc_c08_common_entry",
+      "dispatch": "tc_c08_common_route_gate",
+      "exit": "tc_c08_common_exit",
+      "next": "tc_c09_common_entry",
+      "sections": [
+        {
+          "scope": "common",
+          "owner": "E03",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+            "startLine": 9,
+            "endLine": 42
+          }
+        },
+        {
+          "scope": "xiaoman",
+          "owner": "E04",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+            "startLine": 43,
+            "endLine": 122
+          }
+        },
+        {
+          "scope": "zhouzhi",
+          "owner": "E04",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+            "startLine": 123,
+            "endLine": 184
+          }
+        },
+        {
+          "scope": "mengyao",
+          "owner": "E05",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+            "startLine": 185,
+            "endLine": 266
+          }
+        },
+        {
+          "scope": "yelan",
+          "owner": "E05",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+            "startLine": 267,
+            "endLine": 334
+          }
+        },
+        {
+          "scope": "piao",
+          "owner": "E06",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+            "startLine": 335,
+            "endLine": 402
+          }
+        },
+        {
+          "scope": "friends",
+          "owner": "E06",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+            "startLine": 403,
+            "endLine": 454
+          }
+        },
+        {
+          "scope": "huangqiuqiu",
+          "owner": "E07",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+            "startLine": 455,
+            "endLine": 544
+          }
+        }
+      ],
+      "sceneAnchors": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "line": 11,
+          "raw": "### 第52天·17:00｜一张椅子坐得下两个人的意见",
+          "day": 52
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "line": 45,
+          "raw": "### 第55天·16:20｜今天换我不太行",
+          "day": 55
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "line": 85,
+          "raw": "### 第59天·17:40｜错过一球",
+          "day": 59
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "line": 125,
+          "raw": "### 第57天·17:20｜够不够，不用藏着算",
+          "day": 57
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "line": 187,
+          "raw": "### 第54天·16:00｜今天不当能干的人",
+          "day": 54
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "line": 269,
+          "raw": "### 第54天·17:20｜不想赢的时候，也想见你",
+          "day": 54
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "line": 337,
+          "raw": "### 第54天·16:00｜不是空出所有时间",
+          "day": 54
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "line": 357,
+          "raw": "### 第54天·17:00｜能说不，也能再靠近一点",
+          "day": 54
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "line": 405,
+          "raw": "### 第54天·17:30｜别把空出来的时间又填满",
+          "day": 54
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "line": 429,
+          "raw": "### 第56天·20:00｜一次不太成功的组局",
+          "day": 56
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "line": 443,
+          "raw": "### 第59天·下午｜剩下的半天",
+          "day": 59
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "line": 457,
+          "raw": "### 第55天·16:00｜一张还会改的班表",
+          "day": 55
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "line": 485,
+          "raw": "### 第55天·17:00｜她想把手放一会儿",
+          "day": 55
+        }
+      ],
+      "order": [
+        "common",
+        "selected-route",
+        "chapter-exit"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "第九章 · 把明天说具体",
+      "days": "第61—90天",
+      "dayRange": [
+        61,
+        90
+      ],
+      "timeDomain": "story-day",
+      "commonModule": "common/ch09.json",
+      "entry": "tc_c09_common_entry",
+      "dispatch": "tc_c09_common_route_gate",
+      "exit": "tc_c09_common_exit",
+      "next": "tc_c10_common_entry",
+      "sections": [
+        {
+          "scope": "common",
+          "owner": "E03",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "startLine": 9,
+            "endLine": 32
+          }
+        },
+        {
+          "scope": "xiaoman",
+          "owner": "E04",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "startLine": 33,
+            "endLine": 144
+          }
+        },
+        {
+          "scope": "zhouzhi",
+          "owner": "E04",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "startLine": 145,
+            "endLine": 246
+          }
+        },
+        {
+          "scope": "mengyao",
+          "owner": "E05",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "startLine": 247,
+            "endLine": 332
+          }
+        },
+        {
+          "scope": "yelan",
+          "owner": "E05",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "startLine": 333,
+            "endLine": 420
+          }
+        },
+        {
+          "scope": "piao",
+          "owner": "E06",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "startLine": 421,
+            "endLine": 498
+          }
+        },
+        {
+          "scope": "friends",
+          "owner": "E06",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "startLine": 499,
+            "endLine": 542
+          }
+        },
+        {
+          "scope": "huangqiuqiu",
+          "owner": "E07",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "startLine": 543,
+            "endLine": 617
+          }
+        }
+      ],
+      "sceneAnchors": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "line": 11,
+          "raw": "### 第61天·下午｜留下来的空格",
+          "day": 61
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "line": 35,
+          "raw": "### 第68天·16:30｜先把话说好",
+          "day": 68
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "line": 147,
+          "raw": "### 第75天·18:10｜吃完饭，话还没说完",
+          "day": 75
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "line": 249,
+          "raw": "### 第68天·17:30｜从现在开始答",
+          "day": 68
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "line": 335,
+          "raw": "### 第72天·17:40｜这次没有自动匹配",
+          "day": 72
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "line": 423,
+          "raw": "### 第74天·15:30｜说的是下一次",
+          "day": 74
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "line": 443,
+          "raw": "### 第74天·16:30｜已经选过的关系，接着往下走",
+          "day": 74
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "line": 501,
+          "raw": "### 第72天·休班晚上｜谁都不是替补",
+          "day": 72
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "line": 519,
+          "raw": "### 第80天·15:30｜我自己的下一步",
+          "day": 80
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "line": 531,
+          "raw": "### 第90天·傍晚｜回消息的人",
+          "day": 90
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "line": 545,
+          "raw": "### 第76天·16:30｜不是替故事选结尾",
+          "day": 76
+        }
+      ],
+      "order": [
+        "common",
+        "selected-route",
+        "chapter-exit"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "第十章 · 雨停之前也往前走",
+      "days": "两年后",
+      "dayRange": null,
+      "timeDomain": "two-years-later",
+      "commonModule": "common/ch10.json",
+      "entry": "tc_c10_common_entry",
+      "dispatch": "tc_c10_common_route_gate",
+      "exit": null,
+      "next": null,
+      "sections": [
+        {
+          "scope": "common",
+          "owner": "E03",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+            "startLine": 9,
+            "endLine": 64
+          }
+        },
+        {
+          "scope": "xiaoman",
+          "owner": "E04",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+            "startLine": 65,
+            "endLine": 152
+          }
+        },
+        {
+          "scope": "zhouzhi",
+          "owner": "E04",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+            "startLine": 153,
+            "endLine": 232
+          }
+        },
+        {
+          "scope": "mengyao",
+          "owner": "E05",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+            "startLine": 233,
+            "endLine": 322
+          }
+        },
+        {
+          "scope": "yelan",
+          "owner": "E05",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+            "startLine": 323,
+            "endLine": 396
+          }
+        },
+        {
+          "scope": "piao",
+          "owner": "E06",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+            "startLine": 397,
+            "endLine": 470
+          }
+        },
+        {
+          "scope": "friends",
+          "owner": "E06",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+            "startLine": 471,
+            "endLine": 526
+          }
+        },
+        {
+          "scope": "huangqiuqiu",
+          "owner": "E07",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+            "startLine": 527,
+            "endLine": 604
+          }
+        }
+      ],
+      "sceneAnchors": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 11,
+          "raw": "### 两年后｜仍然要去上班的人",
+          "day": null
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 67,
+          "raw": "### 两年后·一个有雨的休息日｜各自长成现在的样子",
+          "day": null
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 155,
+          "raw": "### 两年后·傍晚｜饭可以慢慢吃",
+          "day": null
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 235,
+          "raw": "### 两年后·16:20｜仅交往：一份新的错误记录",
+          "day": null
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 285,
+          "raw": "### 两年后·17:40｜仅朋友：不用重考的一门课",
+          "day": null
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 325,
+          "raw": "### 两年后·15:30｜仅交往：一起买完这袋米",
+          "day": null
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 367,
+          "raw": "### 两年后·19:20｜仅朋友：今晚少一个位置",
+          "day": null
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 399,
+          "raw": "### 两年后·一个休息日的下午｜第二版放在哪一层",
+          "day": null
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 473,
+          "raw": "### 两年后·休班下午｜迟到十分钟的人",
+          "day": null
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 529,
+          "raw": "### 两年后·休息日的下午｜门前的三下轻响",
+          "day": null
+        }
+      ],
+      "order": [
+        "common-prologue",
+        "one-piao-epilogue",
+        "selected-route-ending"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "xiaoman",
+      "name": "罗小满线",
+      "owner": "E04",
+      "file": "routes/xiaoman.json",
+      "entranceRequires": [],
+      "chapters": [
+        {
+          "chapter": 3,
+          "entry": "tc_c03_xiaoman_entry",
+          "returnTo": "tc_c03_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 4,
+          "entry": "tc_c04_xiaoman_entry",
+          "returnTo": "tc_c04_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 5,
+          "entry": "tc_c05_xiaoman_entry",
+          "returnTo": "tc_c05_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 6,
+          "entry": "tc_c06_xiaoman_entry",
+          "returnTo": "tc_c06_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 7,
+          "entry": "tc_c07_xiaoman_entry",
+          "returnTo": "tc_c07_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 8,
+          "entry": "tc_c08_xiaoman_entry",
+          "returnTo": "tc_c08_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 9,
+          "entry": "tc_c09_xiaoman_entry",
+          "returnTo": "tc_c09_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 10,
+          "entry": "tc_c10_xiaoman_entry",
+          "returnTo": null,
+          "terminal": true
+        }
+      ],
+      "readFlags": [
+        "route",
+        "xiaomanOuting",
+        "xiaomanRelationship"
+      ],
+      "writeFlags": [
+        "xiaomanOuting",
+        "xiaomanRelationship"
+      ]
+    },
+    {
+      "id": "zhouzhi",
+      "name": "周栀线",
+      "owner": "E04",
+      "file": "routes/zhouzhi.json",
+      "entranceRequires": [],
+      "chapters": [
+        {
+          "chapter": 3,
+          "entry": "tc_c03_zhouzhi_entry",
+          "returnTo": "tc_c03_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 4,
+          "entry": "tc_c04_zhouzhi_entry",
+          "returnTo": "tc_c04_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 5,
+          "entry": "tc_c05_zhouzhi_entry",
+          "returnTo": "tc_c05_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 6,
+          "entry": "tc_c06_zhouzhi_entry",
+          "returnTo": "tc_c06_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 7,
+          "entry": "tc_c07_zhouzhi_entry",
+          "returnTo": "tc_c07_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 8,
+          "entry": "tc_c08_zhouzhi_entry",
+          "returnTo": "tc_c08_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 9,
+          "entry": "tc_c09_zhouzhi_entry",
+          "returnTo": "tc_c09_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 10,
+          "entry": "tc_c10_zhouzhi_entry",
+          "returnTo": null,
+          "terminal": true
+        }
+      ],
+      "readFlags": [
+        "route",
+        "zhouzhiOuting",
+        "zhouzhiRelationship"
+      ],
+      "writeFlags": [
+        "zhouzhiOuting",
+        "zhouzhiRelationship"
+      ]
+    },
+    {
+      "id": "mengyao",
+      "name": "孟遥线",
+      "owner": "E05",
+      "file": "routes/mengyao.json",
+      "entranceRequires": [],
+      "chapters": [
+        {
+          "chapter": 3,
+          "entry": "tc_c03_mengyao_entry",
+          "returnTo": "tc_c03_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 4,
+          "entry": "tc_c04_mengyao_entry",
+          "returnTo": "tc_c04_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 5,
+          "entry": "tc_c05_mengyao_entry",
+          "returnTo": "tc_c05_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 6,
+          "entry": "tc_c06_mengyao_entry",
+          "returnTo": "tc_c06_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 7,
+          "entry": "tc_c07_mengyao_entry",
+          "returnTo": "tc_c07_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 8,
+          "entry": "tc_c08_mengyao_entry",
+          "returnTo": "tc_c08_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 9,
+          "entry": "tc_c09_mengyao_entry",
+          "returnTo": "tc_c09_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 10,
+          "entry": "tc_c10_mengyao_entry",
+          "returnTo": null,
+          "terminal": true
+        }
+      ],
+      "readFlags": [
+        "route",
+        "mengyaoOuting",
+        "mengyaoRelationship",
+        "reunion"
+      ],
+      "writeFlags": [
+        "mengyaoOuting",
+        "mengyaoRelationship"
+      ]
+    },
+    {
+      "id": "yelan",
+      "name": "叶岚线",
+      "owner": "E05",
+      "file": "routes/yelan.json",
+      "entranceRequires": [],
+      "chapters": [
+        {
+          "chapter": 3,
+          "entry": "tc_c03_yelan_entry",
+          "returnTo": "tc_c03_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 4,
+          "entry": "tc_c04_yelan_entry",
+          "returnTo": "tc_c04_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 5,
+          "entry": "tc_c05_yelan_entry",
+          "returnTo": "tc_c05_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 6,
+          "entry": "tc_c06_yelan_entry",
+          "returnTo": "tc_c06_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 7,
+          "entry": "tc_c07_yelan_entry",
+          "returnTo": "tc_c07_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 8,
+          "entry": "tc_c08_yelan_entry",
+          "returnTo": "tc_c08_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 9,
+          "entry": "tc_c09_yelan_entry",
+          "returnTo": "tc_c09_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 10,
+          "entry": "tc_c10_yelan_entry",
+          "returnTo": null,
+          "terminal": true
+        }
+      ],
+      "readFlags": [
+        "route",
+        "yelanOuting",
+        "yelanRelationship",
+        "yelanFirst"
+      ],
+      "writeFlags": [
+        "yelanOuting",
+        "yelanRelationship"
+      ]
+    },
+    {
+      "id": "piao",
+      "name": "飘线",
+      "owner": "E06",
+      "file": "routes/piao.json",
+      "entranceRequires": [],
+      "chapters": [
+        {
+          "chapter": 3,
+          "entry": "tc_c03_piao_entry",
+          "returnTo": "tc_c03_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 4,
+          "entry": "tc_c04_piao_entry",
+          "returnTo": "tc_c04_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 5,
+          "entry": "tc_c05_piao_entry",
+          "returnTo": "tc_c05_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 6,
+          "entry": "tc_c06_piao_entry",
+          "returnTo": "tc_c06_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 7,
+          "entry": "tc_c07_piao_entry",
+          "returnTo": "tc_c07_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 8,
+          "entry": "tc_c08_piao_entry",
+          "returnTo": "tc_c08_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 9,
+          "entry": "tc_c09_piao_entry",
+          "returnTo": "tc_c09_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 10,
+          "entry": "tc_c10_piao_entry",
+          "returnTo": null,
+          "terminal": true
+        }
+      ],
+      "readFlags": [
+        "route",
+        "piaoOuting",
+        "piaoRelationship"
+      ],
+      "writeFlags": [
+        "piaoRelationship",
+        "piaoOuting"
+      ]
+    },
+    {
+      "id": "friends",
+      "name": "朋友与职业线",
+      "owner": "E06",
+      "file": "routes/friends.json",
+      "entranceRequires": [],
+      "chapters": [
+        {
+          "chapter": 3,
+          "entry": "tc_c03_friends_entry",
+          "returnTo": "tc_c03_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 4,
+          "entry": "tc_c04_friends_entry",
+          "returnTo": "tc_c04_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 5,
+          "entry": "tc_c05_friends_entry",
+          "returnTo": "tc_c05_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 6,
+          "entry": "tc_c06_friends_entry",
+          "returnTo": "tc_c06_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 7,
+          "entry": "tc_c07_friends_entry",
+          "returnTo": "tc_c07_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 8,
+          "entry": "tc_c08_friends_entry",
+          "returnTo": "tc_c08_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 9,
+          "entry": "tc_c09_friends_entry",
+          "returnTo": "tc_c09_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 10,
+          "entry": "tc_c10_friends_entry",
+          "returnTo": null,
+          "terminal": true
+        }
+      ],
+      "readFlags": [
+        "route",
+        "friendsOuting"
+      ],
+      "writeFlags": [
+        "friendsOuting"
+      ]
+    },
+    {
+      "id": "huangqiuqiu",
+      "name": "黄球球线",
+      "owner": "E07",
+      "file": "routes/huangqiuqiu.json",
+      "entranceRequires": [
+        {
+          "flag": "qiuSignal",
+          "value": "record"
+        },
+        {
+          "flag": "qiuReply",
+          "value": "reply"
+        },
+        {
+          "flag": "qiuMet",
+          "value": true
+        }
+      ],
+      "chapters": [
+        {
+          "chapter": 3,
+          "entry": "tc_c03_huangqiuqiu_entry",
+          "returnTo": "tc_c03_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 4,
+          "entry": "tc_c04_huangqiuqiu_entry",
+          "returnTo": "tc_c04_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 5,
+          "entry": "tc_c05_huangqiuqiu_entry",
+          "returnTo": "tc_c05_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 6,
+          "entry": "tc_c06_huangqiuqiu_entry",
+          "returnTo": "tc_c06_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 7,
+          "entry": "tc_c07_huangqiuqiu_entry",
+          "returnTo": "tc_c07_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 8,
+          "entry": "tc_c08_huangqiuqiu_entry",
+          "returnTo": "tc_c08_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 9,
+          "entry": "tc_c09_huangqiuqiu_entry",
+          "returnTo": "tc_c09_common_exit",
+          "terminal": false
+        },
+        {
+          "chapter": 10,
+          "entry": "tc_c10_huangqiuqiu_entry",
+          "returnTo": null,
+          "terminal": true
+        }
+      ],
+      "readFlags": [
+        "route",
+        "huangqiuqiuOuting",
+        "huangqiuqiuRelationship",
+        "qiuSignal",
+        "qiuReply",
+        "qiuMet",
+        "qiuForm"
+      ],
+      "writeFlags": [
+        "huangqiuqiuOuting",
+        "huangqiuqiuRelationship",
+        "qiuForm"
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "key": "common-rhythm-record",
+      "chapter": 1,
+      "day": 1,
+      "time": "21:40",
+      "route": "common",
+      "prompt": {
+        "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+        "line": 67,
+        "raw": "**选择1｜我怎样对待刚才听到的声音？**"
+      },
+      "options": [
+        {
+          "key": "A",
+          "label": "再听一遍，把三拍记下来",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+            "line": 69,
+            "raw": "### A｜再听一遍，把三拍记下来"
+          },
+          "value": "record",
+          "requires": []
+        },
+        {
+          "key": "B",
+          "label": "先回柜台，暂时不记",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+            "line": 81,
+            "raw": "### B｜先回柜台，暂时不记"
+          },
+          "value": "ignore",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+          "line": 19,
+          "raw": "如果第一章记下了三拍，我先翻出那一行点，再在木门上照着敲了一遍。里面安静片刻，传来一句：“记得还挺清楚。”"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+          "line": 29,
+          "raw": "如果第一章没有记下三拍，我按刚才的印象敲了两下，又停住，不确定中间该隔多久。门里没有回应。我没有擅自推门，只在外面站了一会儿，便回到街上。"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+          "line": 37,
+          "raw": "> 只有第一章选择“记录三拍”，且本章选择“敲回节奏”，才阅读本章末尾的隐藏相识段。其他选择继续普通共通故事，第三章有六条路线。"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+          "line": 223,
+          "raw": "> 仅当第一章记录三拍、第二章选择敲回节奏时阅读。否则本章到上一场结束，直接进入第三章。"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 29,
+          "raw": "- **黄球球线**：兑现与黄球球的约定。仅在第一章记录三拍、第二章敲回节奏并读过正式相识段时可选。"
+        }
+      ],
+      "id": "tc_c01_common_rhythm_record_choice",
+      "owner": "E03",
+      "flag": "qiuSignal"
+    },
+    {
+      "key": "common-mengyao-reunion",
+      "chapter": 1,
+      "day": 4,
+      "time": "17:20",
+      "route": "common",
+      "prompt": {
+        "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+        "line": 221,
+        "raw": "**选择2｜分开前，我说什么？**"
+      },
+      "options": [
+        {
+          "key": "A",
+          "label": "直接承认自己紧张",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+            "line": 223,
+            "raw": "### A｜直接承认自己紧张"
+          },
+          "value": "nervous",
+          "requires": []
+        },
+        {
+          "key": "B",
+          "label": "先问她哪天有空",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+            "line": 235,
+            "raw": "### B｜先问她哪天有空"
+          },
+          "value": "availability",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 397,
+          "raw": "**若第一章坦言紧张：**孟遥问我今天还紧不紧张。我说比第一次好一点，她往我手里的咖啡杯看了一眼：“看出来了，今天没有把配料表翻来覆去地读。”我也笑，告诉她这杯没有那么多字可看。她说那可难为我了。"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 399,
+          "raw": "**若第一章先问哪天有空：**孟遥问我这回是不是先看过排班。我把手机里记下的时间给她看，她看完只问：“那你是特意来吃烧饼，还是特意来见我？”我说两个都有。她把纸袋往我面前一递：“行，至少烧饼这个部分没让你失望。”"
+        }
+      ],
+      "id": "tc_c01_common_reunion_choice",
+      "owner": "E03",
+      "flag": "reunion"
+    },
+    {
+      "key": "common-rhythm-response",
+      "chapter": 2,
+      "day": 8,
+      "time": "19:40",
+      "route": "common",
+      "prompt": {
+        "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+        "line": 15,
+        "raw": "**选择3｜我是否回应？**"
+      },
+      "options": [
+        {
+          "key": "A",
+          "label": "敲回刚才的节奏",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+            "line": 17,
+            "raw": "### A｜敲回刚才的节奏"
+          },
+          "value": "reply",
+          "requires": []
+        },
+        {
+          "key": "B",
+          "label": "不敲门，先离开",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+            "line": 31,
+            "raw": "### B｜不敲门，先离开"
+          },
+          "value": "leave",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+          "line": 19,
+          "raw": "如果第一章记下了三拍，我先翻出那一行点，再在木门上照着敲了一遍。里面安静片刻，传来一句：“记得还挺清楚。”"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+          "line": 29,
+          "raw": "如果第一章没有记下三拍，我按刚才的印象敲了两下，又停住，不确定中间该隔多久。门里没有回应。我没有擅自推门，只在外面站了一会儿，便回到街上。"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+          "line": 37,
+          "raw": "> 只有第一章选择“记录三拍”，且本章选择“敲回节奏”，才阅读本章末尾的隐藏相识段。其他选择继续普通共通故事，第三章有六条路线。"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+          "line": 223,
+          "raw": "> 仅当第一章记录三拍、第二章选择敲回节奏时阅读。否则本章到上一场结束，直接进入第三章。"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 29,
+          "raw": "- **黄球球线**：兑现与黄球球的约定。仅在第一章记录三拍、第二章敲回节奏并读过正式相识段时可选。"
+        }
+      ],
+      "conditionNote": "A始终可选；第一章未记录时进入无回应正文，不因此获得隐藏资格。",
+      "id": "tc_c02_common_rhythm_reply_choice",
+      "owner": "E03",
+      "flag": "qiuReply"
+    },
+    {
+      "key": "common-game-apology",
+      "chapter": 2,
+      "day": 10,
+      "time": "20:50",
+      "route": "common",
+      "prompt": {
+        "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+        "line": 75,
+        "raw": "**选择4｜我怎样解释这次没到？**"
+      },
+      "options": [
+        {
+          "key": "A",
+          "label": "发一条语音说明",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+            "line": 77,
+            "raw": "### A｜发一条语音说明"
+          },
+          "value": "voice",
+          "requires": []
+        },
+        {
+          "key": "B",
+          "label": "发文字，并把下次时间改具体",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+            "line": 85,
+            "raw": "### B｜发文字，并把下次时间改具体"
+          },
+          "value": "reschedule",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 33,
+          "raw": "**若当时发了说明语音：**晚些时候，毛狼问第30日吃完饭能不能顺便玩。我这次直接发语音，说那晚要值班，玩不了。他回了声知道，没有再把我列进去。我想起上次那段迟了五十分钟的解释，庆幸这回可以在事情发生前说清。"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 35,
+          "raw": "**若当时用文字重约时间：**晚些时候，毛狼把新约局时间发出来，仍按上次说好的，只留一个大家都能参加的短时段。我把第30日值班那格划掉，另回一个能参加的休班晚上。叶岚说她到时也只空一会儿，我们没有把谁的短暂出现当成扫兴。"
+        }
+      ],
+      "id": "tc_c02_common_missed_game_choice",
+      "owner": "E03",
+      "flag": "missedGame"
+    },
+    {
+      "key": "common-yelan-first-meeting",
+      "chapter": 2,
+      "day": 12,
+      "time": "16:30",
+      "route": "common",
+      "prompt": {
+        "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+        "line": 141,
+        "raw": "**选择5｜我怎样开始这顿饭？**"
+      },
+      "options": [
+        {
+          "key": "A",
+          "label": "先聊一局两个人都记得的游戏",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+            "line": 143,
+            "raw": "### A｜先聊一局两个人都记得的游戏"
+          },
+          "value": "game",
+          "requires": []
+        },
+        {
+          "key": "B",
+          "label": "先问她想吃什么",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+            "line": 157,
+            "raw": "### B｜先问她想吃什么"
+          },
+          "value": "food",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 557,
+          "raw": "**若上次从游戏开聊：**我问今天还要不要拿毛狼那局当开场。叶岚说他要是知道自己这么有用，可能会收费。我说那今天让他歇着，她点头，问我有没有吃晚饭。这一句在耳机里听过很多次，走在路上听见，又有一点不一样。"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 559,
+          "raw": "**若上次从菜单开聊：**叶岚问我有没有研究今天这条路上的菜单。我说没有，上次研究半天，能点的还不到一半。她笑了，说这次先看看，饿了再挑。“那也不用急着研究话题。”我说。她看了我一眼，嗯了一声。"
+        }
+      ],
+      "id": "tc_c02_common_yelan_first_choice",
+      "owner": "E03",
+      "flag": "yelanFirst"
+    },
+    {
+      "key": "route-select",
+      "chapter": 3,
+      "day": 15,
+      "time": "下午",
+      "route": "common",
+      "prompt": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 21,
+        "raw": "**路线选择｜接下来的时间，我想怎样度过？**"
+      },
+      "options": [
+        {
+          "key": "xiaoman",
+          "label": "去找小满，听她讲最近的事，也让她看看如今的我。",
+          "sourceKind": "option-list",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "line": 23,
+            "raw": "- **罗小满线**：去找小满，听她讲最近的事，也让她看看如今的我。"
+          },
+          "routeName": "罗小满线",
+          "value": "xiaoman",
+          "requires": []
+        },
+        {
+          "key": "zhouzhi",
+          "label": "约周栀吃一顿不赶着上班的饭，继续认识彼此的日常。",
+          "sourceKind": "option-list",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "line": 24,
+            "raw": "- **周栀线**：约周栀吃一顿不赶着上班的饭，继续认识彼此的日常。"
+          },
+          "routeName": "周栀线",
+          "value": "zhouzhi",
+          "requires": []
+        },
+        {
+          "key": "mengyao",
+          "label": "把和孟遥没说完的话接下去，看看我们现在还能怎样相处。",
+          "sourceKind": "option-list",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "line": 25,
+            "raw": "- **孟遥线**：把和孟遥没说完的话接下去，看看我们现在还能怎样相处。"
+          },
+          "routeName": "孟遥线",
+          "value": "mengyao",
+          "requires": []
+        },
+        {
+          "key": "yelan",
+          "label": "再约叶岚一次，让见面不只是游戏队的线下活动。",
+          "sourceKind": "option-list",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "line": 26,
+            "raw": "- **叶岚线**：再约叶岚一次，让见面不只是游戏队的线下活动。"
+          },
+          "routeName": "叶岚线",
+          "value": "yelan",
+          "requires": []
+        },
+        {
+          "key": "piao",
+          "label": "认真回应飘的邀约，也说清自己的心意。",
+          "sourceKind": "option-list",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "line": 27,
+            "raw": "- **飘线**：认真回应飘的邀约，也说清自己的心意。"
+          },
+          "routeName": "飘线",
+          "value": "piao",
+          "requires": []
+        },
+        {
+          "key": "friends",
+          "label": "先安排自己的生活，和毛狼、师匠继续做会见面的朋友。",
+          "sourceKind": "option-list",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "line": 28,
+            "raw": "- **朋友与职业线**：先安排自己的生活，和毛狼、师匠继续做会见面的朋友。"
+          },
+          "routeName": "朋友与职业线",
+          "value": "friends",
+          "requires": []
+        },
+        {
+          "key": "huangqiuqiu",
+          "label": "兑现与黄球球的约定。",
+          "sourceKind": "option-list",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "line": 29,
+            "raw": "- **黄球球线**：兑现与黄球球的约定。仅在第一章记录三拍、第二章敲回节奏并读过正式相识段时可选。"
+          },
+          "routeName": "黄球球线",
+          "condition": "第一章记录三拍、第二章敲回节奏且已读第14天正式相识段。",
+          "excludeFromDisplay": "仅在第一章记录三拍、第二章敲回节奏并读过正式相识段时可选。",
+          "value": "huangqiuqiu",
+          "requires": [
+            {
+              "flag": "qiuSignal",
+              "value": "record"
+            },
+            {
+              "flag": "qiuReply",
+              "value": "reply"
+            },
+            {
+              "flag": "qiuMet",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "id": "tc_c03_common_route_choice",
+      "owner": "E03",
+      "flag": "route"
+    },
+    {
+      "key": "piao-relationship",
+      "chapter": 3,
+      "day": 21,
+      "time": "16:00",
+      "route": "piao",
+      "prompt": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 817,
+        "raw": "**选择：**"
+      },
+      "options": [
+        {
+          "key": "romance",
+          "label": "我想跟你交往。以后约你，不再拿菜场当借口。",
+          "sourceKind": "option-list",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "line": 819,
+            "raw": "- **交往：**“我想跟你交往。以后约你，不再拿菜场当借口。”"
+          },
+          "value": "dating",
+          "requires": []
+        },
+        {
+          "key": "friend",
+          "label": "我很喜欢跟你待着，但现在想要的是朋友关系。我不拿含糊的话留住你。",
+          "sourceKind": "option-list",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "line": 820,
+            "raw": "- **朋友：**“我很喜欢跟你待着，但现在想要的是朋友关系。我不拿含糊的话留住你。”"
+          },
+          "value": "friends",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "line": 422,
+          "raw": "#### 仅交往"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "line": 440,
+          "raw": "#### 仅朋友"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 21,
+          "raw": "### 关系后日谈｜仅文文与飘交往时"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 41,
+          "raw": "### 关系后日谈｜其余路径：飘与毛狼的婚宴"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 401,
+          "raw": "#### 仅交往｜仍然在一起的两个人"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 445,
+          "raw": "#### 仅朋友｜婚礼以后的普通来往"
+        }
+      ],
+      "conditionNote": "第三章唯一一次关系选择；第四至第十章只读状态，不在第九章重置。",
+      "id": "tc_c03_piao_relationship_choice",
+      "owner": "E06",
+      "flag": "piaoRelationship"
+    },
+    {
+      "key": "xiaoman-daily",
+      "chapter": 4,
+      "day": 24,
+      "time": "16:00",
+      "route": "xiaoman",
+      "prompt": null,
+      "options": [
+        {
+          "key": "A",
+          "label": "去投篮机，输的人买水",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 49,
+            "raw": "#### 选择A｜去投篮机，输的人买水"
+          },
+          "value": "basketball",
+          "requires": []
+        },
+        {
+          "key": "B",
+          "label": "去旧书摊，给对方挑一本怪书",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 81,
+            "raw": "#### 选择B｜去旧书摊，给对方挑一本怪书"
+          },
+          "value": "books",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 63,
+          "raw": "#### 若第24天选择投篮机｜不欠的第三局"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 83,
+          "raw": "#### 若第24天选择旧书摊｜第二只纸鹤"
+        }
+      ],
+      "promptNote": "原稿没有单独选择提示；前置对白在47行，不能自动新写。",
+      "id": "tc_c04_xiaoman_outing_choice",
+      "owner": "E04",
+      "flag": "xiaomanOuting"
+    },
+    {
+      "key": "zhouzhi-daily",
+      "chapter": 4,
+      "day": 23,
+      "time": "16:10",
+      "route": "zhouzhi",
+      "prompt": null,
+      "options": [
+        {
+          "key": "A",
+          "label": "沿河走走，轮流放一首想听的歌",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 155,
+            "raw": "#### 选择A｜沿河走走，轮流放一首想听的歌"
+          },
+          "value": "river",
+          "requires": []
+        },
+        {
+          "key": "B",
+          "label": "去影院，允许我们喜欢不同的东西",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 175,
+            "raw": "#### 选择B｜去影院，允许我们喜欢不同的东西"
+          },
+          "value": "cinema",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 145,
+          "raw": "#### 若第23天选择沿河听歌｜今天的歌很吵"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 163,
+          "raw": "#### 若第23天选择影院｜这回我挑片"
+        }
+      ],
+      "promptNote": "原稿没有单独选择提示；前置正文到153行。",
+      "id": "tc_c04_zhouzhi_outing_choice",
+      "owner": "E04",
+      "flag": "zhouzhiOuting"
+    },
+    {
+      "key": "mengyao-daily",
+      "chapter": 4,
+      "day": 24,
+      "time": "15:30",
+      "route": "mengyao",
+      "prompt": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 227,
+        "raw": "**选择：今天先去哪里？**"
+      },
+      "options": [
+        {
+          "key": "A",
+          "label": "去旧书摊，各挑一本没看过的书",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 229,
+            "raw": "#### A｜去旧书摊，各挑一本没看过的书"
+          },
+          "value": "books",
+          "requires": []
+        },
+        {
+          "key": "B",
+          "label": "去街机厅，试一个谁都不擅长的项目",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 259,
+            "raw": "#### B｜去街机厅，试一个谁都不擅长的项目"
+          },
+          "value": "arcade",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 233,
+          "raw": "#### 若第四章选择 A｜旧书摊"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 257,
+          "raw": "#### 若第四章选择 B｜街机厅"
+        }
+      ],
+      "id": "tc_c04_mengyao_outing_choice",
+      "owner": "E05",
+      "flag": "mengyaoOuting"
+    },
+    {
+      "key": "yelan-daily",
+      "chapter": 4,
+      "day": 24,
+      "time": "15:40",
+      "route": "yelan",
+      "prompt": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 319,
+        "raw": "**选择：今天去哪里？**"
+      },
+      "options": [
+        {
+          "key": "A",
+          "label": "去河边空地放风筝",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 321,
+            "raw": "#### A｜去河边空地放风筝"
+          },
+          "value": "kite",
+          "requires": []
+        },
+        {
+          "key": "B",
+          "label": "去旧货市场找一样无用的小东西",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 339,
+            "raw": "#### B｜去旧货市场找一样无用的小东西"
+          },
+          "value": "market",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 317,
+          "raw": "#### 若第四章选择 A｜河边风筝"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 343,
+          "raw": "#### 若第四章选择 B｜旧货市场"
+        }
+      ],
+      "id": "tc_c04_yelan_outing_choice",
+      "owner": "E05",
+      "flag": "yelanOuting"
+    },
+    {
+      "key": "piao-daily",
+      "chapter": 4,
+      "day": 24,
+      "time": "16:30",
+      "route": "piao",
+      "prompt": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 385,
+        "raw": "**小选择：**"
+      },
+      "options": [
+        {
+          "key": "A",
+          "label": "留下等雨",
+          "sourceKind": "option-list",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 387,
+            "raw": "- **A，留下等雨：**买两瓶水，用我口袋里干净的旧收据折一只纸船。"
+          },
+          "description": "买两瓶水，用我口袋里干净的旧收据折一只纸船。",
+          "branchHeading": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 390,
+            "raw": "#### 选择A｜一只不能下水的船"
+          },
+          "value": "paperboat",
+          "requires": []
+        },
+        {
+          "key": "B",
+          "label": "绕进旧街",
+          "sourceKind": "option-list",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 388,
+            "raw": "- **B，绕进旧街：**沿屋檐慢走，猜一猜被新招牌遮住的旧店名。"
+          },
+          "description": "沿屋檐慢走，猜一猜被新招牌遮住的旧店名。",
+          "branchHeading": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 406,
+            "raw": "#### 选择B｜谁给店起的名字"
+          },
+          "value": "signs",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 389,
+          "raw": "**如果选过A：**我从她挪开的废纸里认出那只歪纸船，惊讶她真留到了现在。她说放在袋子夹层忘了扔，刚才翻出来，还能看见我声称的船头。我提议重折一次，她立刻把纸收远：“不行。这只是你当时的水平，不能修改历史。”我问那她自己的那只呢。她面不改色地说压平了，用过了。我们相互指责了一会儿，谁也没把船放进水里。"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 391,
+          "raw": "**如果选过B：**纸袋上印着一家店的名字，她看着忽然想起“东西都在”。我接“先坐一会儿”，两个人都笑得像听见一个只有彼此才知道的笑话。她说那天后来才发现，卖沙发的旧招牌后面还有一层。我问是什么，她说没看清，留到下回再猜。我们没有为那家不存在的店设计菜单，光用它起的怪名字把半小时浪费掉一点，就已经够了。"
+        }
+      ],
+      "id": "tc_c04_piao_outing_choice",
+      "owner": "E06",
+      "flag": "piaoOuting"
+    },
+    {
+      "key": "friends-daily",
+      "chapter": 4,
+      "day": 24,
+      "time": "下午",
+      "route": "friends",
+      "prompt": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 462,
+        "raw": "**本线选择｜这个下午去哪里？第七章分别回收。**"
+      },
+      "options": [
+        {
+          "key": "A",
+          "label": "去看毛狼说过的小演出",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 464,
+            "raw": "### A｜去看毛狼说过的小演出"
+          },
+          "value": "show",
+          "requires": []
+        },
+        {
+          "key": "B",
+          "label": "沿着没怎么走过的街慢慢逛",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 482,
+            "raw": "### B｜沿着没怎么走过的街慢慢逛"
+          },
+          "value": "walk",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 447,
+          "raw": "### 若第四章去看了小演出"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 461,
+          "raw": "### 若第四章沿街散步"
+        }
+      ],
+      "id": "tc_c04_friends_outing_choice",
+      "owner": "E06",
+      "flag": "friendsOuting"
+    },
+    {
+      "key": "huangqiuqiu-daily",
+      "chapter": 4,
+      "day": 24,
+      "time": "16:30",
+      "route": "huangqiuqiu",
+      "prompt": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 522,
+        "raw": "**小选择：**"
+      },
+      "options": [
+        {
+          "key": "A",
+          "label": "画自画像",
+          "sourceKind": "option-list",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 524,
+            "raw": "- **A，画自画像：**我照着手机里的自己画，由黄球球指出哪里最不像。"
+          },
+          "description": "我照着手机里的自己画，由黄球球指出哪里最不像。",
+          "branchHeading": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 527,
+            "raw": "#### 选择A｜画上那个人挺精神"
+          },
+          "value": "portrait",
+          "requires": []
+        },
+        {
+          "key": "B",
+          "label": "接一个笨故事",
+          "sourceKind": "option-list",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 525,
+            "raw": "- **B，接一个笨故事：**我只讲开头，她接下一句，再由我接，谁也不提前规定结局。"
+          },
+          "description": "我只讲开头，她接下一句，再由我接，谁也不提前规定结局。",
+          "branchHeading": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "line": 547,
+            "raw": "#### 选择B｜没有赶到结尾的鸭子"
+          },
+          "value": "story",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 519,
+          "raw": "**如果选过A：**她让我把压在干处的自画像拿出来。我翻开纸，自己也被那扇小门似的鼻子逗笑了。她说前几天想起画上那个人，觉得他好像很会逞强，头发没画对也不承认。我说画的人比他好一点，已经认了。她看着纸，说今天不用补一张更好的，就让他继续精神着。我们把画像重新放好，她没有拿它代替我，也没要求我把自己所有糗相留下。"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 521,
+          "raw": "**如果选过B：**她问那只没有买到伞的鸭子后来是不是还在屋檐下。我说可以还在，也可以已经回家。她想了想，说今天不替它决定，让它多坐一会儿。我想接一句好笑的话，又停住。她看着我，眼睛弯了点，像是发现我这回终于没把每个空白都当成等着填的地方。鸭子的故事没有继续，我们也没有因此变得没话可说。"
+        }
+      ],
+      "id": "tc_c04_huangqiuqiu_outing_choice",
+      "owner": "E07",
+      "flag": "huangqiuqiuOuting"
+    },
+    {
+      "key": "xiaoman-relationship",
+      "chapter": 9,
+      "day": 68,
+      "time": "16:30",
+      "route": "xiaoman",
+      "prompt": null,
+      "options": [
+        {
+          "key": "romance",
+          "label": "我想和你交往，不只是约着出去玩",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 71,
+            "raw": "#### 选择A｜我想和你交往，不只是约着出去玩"
+          },
+          "value": "dating",
+          "requires": []
+        },
+        {
+          "key": "friend",
+          "label": "我很珍惜你，但现在想把我们放在朋友的位置",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 111,
+            "raw": "#### 选择B｜我很珍惜你，但现在想把我们放在朋友的位置"
+          },
+          "value": "friends",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 69,
+          "raw": "#### 仅承接第九章选择A｜恋人结局：先问你有没有空"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 113,
+          "raw": "#### 仅承接第九章选择B｜朋友结局：叫我名字就行"
+        }
+      ],
+      "promptNote": "原稿没有单独选择提示；前置对白67行。",
+      "id": "tc_c09_xiaoman_relationship_choice",
+      "owner": "E04",
+      "flag": "xiaomanRelationship"
+    },
+    {
+      "key": "zhouzhi-relationship",
+      "chapter": 9,
+      "day": 75,
+      "time": "18:10",
+      "route": "zhouzhi",
+      "prompt": null,
+      "options": [
+        {
+          "key": "romance",
+          "label": "愿意。我也想把你放进以后的安排里",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 171,
+            "raw": "#### 选择A｜愿意。我也想把你放进以后的安排里"
+          },
+          "value": "dating",
+          "requires": []
+        },
+        {
+          "key": "friend",
+          "label": "谢谢你告诉我，但我想继续做朋友",
+          "sourceKind": "option-heading",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 213,
+            "raw": "#### 选择B｜谢谢你告诉我，但我想继续做朋友"
+          },
+          "value": "friends",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 157,
+          "raw": "#### 仅承接第九章选择A｜恋人结局：你先吃，我一会儿到"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 199,
+          "raw": "#### 仅承接第九章选择B｜朋友结局：还有一张椅子"
+        }
+      ],
+      "promptNote": "原稿没有单独选择提示；前置问句169行。",
+      "id": "tc_c09_zhouzhi_relationship_choice",
+      "owner": "E04",
+      "flag": "zhouzhiRelationship"
+    },
+    {
+      "key": "mengyao-relationship",
+      "chapter": 9,
+      "day": 68,
+      "time": "17:30",
+      "route": "mengyao",
+      "prompt": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 267,
+        "raw": "**选择：我想怎样回应孟遥？**"
+      },
+      "options": [
+        {
+          "key": "romance",
+          "label": "我想跟你重新交往。",
+          "sourceKind": "dialogue-excerpt",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 271,
+            "raw": "“我想跟你重新交往。”我说，“不是把以前那段接上。我想跟现在的你在一起。”"
+          },
+          "branchHeading": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 269,
+            "raw": "### 仅交往｜这一次，也请认识我"
+          },
+          "value": "dating",
+          "requires": []
+        },
+        {
+          "key": "friend",
+          "label": "我不想用这个答应你。现在，我更想做朋友。",
+          "sourceKind": "dialogue-excerpt",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 309,
+            "raw": "孟遥的手指停在纸袋折痕上。我继续说：“我不想用这个答应你。现在，我更想做朋友。”"
+          },
+          "branchHeading": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 305,
+            "raw": "### 仅朋友｜把熟悉放到别处"
+          },
+          "value": "friends",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 235,
+          "raw": "### 两年后·16:20｜仅交往：一份新的错误记录"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 285,
+          "raw": "### 两年后·17:40｜仅朋友：不用重考的一门课"
+        }
+      ],
+      "displayNote": "E01采用既有对白原样摘录为按钮；正文完整保留，不把选择按钮当成已播放对白，不新增台词。",
+      "id": "tc_c09_mengyao_relationship_choice",
+      "owner": "E05",
+      "flag": "mengyaoRelationship"
+    },
+    {
+      "key": "yelan-relationship",
+      "chapter": 9,
+      "day": 72,
+      "time": "17:40",
+      "route": "yelan",
+      "prompt": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 351,
+        "raw": "**选择：我怎样回应这份靠近？**"
+      },
+      "options": [
+        {
+          "key": "romance",
+          "label": "我喜欢你。想跟你交往。",
+          "sourceKind": "dialogue-excerpt",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 355,
+            "raw": "“有别的意思。”我说，“我喜欢你。想跟你交往。”"
+          },
+          "branchHeading": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 353,
+            "raw": "### 仅交往｜一起走出语音房间"
+          },
+          "value": "dating",
+          "requires": []
+        },
+        {
+          "key": "friend",
+          "label": "但想到交往，我还没有那种确定的心情。不能因为你问了，就顺着答应。",
+          "sourceKind": "dialogue-excerpt",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 393,
+            "raw": "“我很喜欢现在这样相处，”我说，“但想到交往，我还没有那种确定的心情。不能因为你问了，就顺着答应。”"
+          },
+          "branchHeading": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 391,
+            "raw": "### 仅朋友｜留在队伍里的人"
+          },
+          "value": "friends",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 325,
+          "raw": "### 两年后·15:30｜仅交往：一起买完这袋米"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 367,
+          "raw": "### 两年后·19:20｜仅朋友：今晚少一个位置"
+        }
+      ],
+      "displayNote": "E01采用既有对白原样摘录为按钮；正文完整保留，不把选择按钮当成已播放对白，不新增台词。",
+      "id": "tc_c09_yelan_relationship_choice",
+      "owner": "E05",
+      "flag": "yelanRelationship"
+    },
+    {
+      "key": "huangqiuqiu-relationship",
+      "chapter": 9,
+      "day": 76,
+      "time": "16:30",
+      "route": "huangqiuqiu",
+      "prompt": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 565,
+        "raw": "**选择：**"
+      },
+      "options": [
+        {
+          "key": "romance",
+          "label": "我喜欢你。我想和你交往，想见的就是现在的你。",
+          "sourceKind": "option-list",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 567,
+            "raw": "- **交往：**“我喜欢你。我想和你交往，想见的就是现在的你。”"
+          },
+          "value": "dating",
+          "requires": []
+        },
+        {
+          "key": "friend",
+          "label": "我珍惜你，但我想要的是朋友关系。我不把说不清当作答应。",
+          "sourceKind": "option-list",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 568,
+            "raw": "- **朋友：**“我珍惜你，但我想要的是朋友关系。我不把说不清当作答应。”"
+          },
+          "value": "friends",
+          "requires": []
+        }
+      ],
+      "callbacks": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 531,
+          "raw": "#### 仅交往｜还是她，还是这一声回答"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "line": 569,
+          "raw": "#### 仅朋友｜留给朋友的位置"
+        }
+      ],
+      "conditionNote": "两者均为已成人形之后的关系选择；不控制变身。",
+      "id": "tc_c09_huangqiuqiu_relationship_choice",
+      "owner": "E07",
+      "flag": "huangqiuqiuRelationship"
+    }
+  ],
+  "states": {
+    "qiuSignal": {
+      "type": "string",
+      "values": [
+        "record",
+        "ignore"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E03",
+        "nodeId": "tc_c01_common_rhythm_record_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E03",
+        "E07"
+      ],
+      "reset": "replay-prefix"
+    },
+    "reunion": {
+      "type": "string",
+      "values": [
+        "nervous",
+        "availability"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E03",
+        "nodeId": "tc_c01_common_reunion_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E03",
+        "E05"
+      ],
+      "reset": "replay-prefix"
+    },
+    "qiuReply": {
+      "type": "string",
+      "values": [
+        "reply",
+        "leave"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E03",
+        "nodeId": "tc_c02_common_rhythm_reply_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E03",
+        "E07"
+      ],
+      "reset": "replay-prefix"
+    },
+    "missedGame": {
+      "type": "string",
+      "values": [
+        "voice",
+        "reschedule"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E03",
+        "nodeId": "tc_c02_common_missed_game_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E03"
+      ],
+      "reset": "replay-prefix"
+    },
+    "yelanFirst": {
+      "type": "string",
+      "values": [
+        "game",
+        "food"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E03",
+        "nodeId": "tc_c02_common_yelan_first_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E03",
+        "E05"
+      ],
+      "reset": "replay-prefix"
+    },
+    "route": {
+      "type": "string",
+      "values": [
+        "xiaoman",
+        "zhouzhi",
+        "mengyao",
+        "yelan",
+        "piao",
+        "friends",
+        "huangqiuqiu"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E03",
+        "nodeId": "tc_c03_common_route_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08"
+      ],
+      "reset": "replay-prefix"
+    },
+    "piaoRelationship": {
+      "type": "string",
+      "values": [
+        "dating",
+        "friends"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E06",
+        "nodeId": "tc_c03_piao_relationship_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E03",
+        "E06"
+      ],
+      "reset": "replay-prefix"
+    },
+    "xiaomanOuting": {
+      "type": "string",
+      "values": [
+        "basketball",
+        "books"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E04",
+        "nodeId": "tc_c04_xiaoman_outing_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E04"
+      ],
+      "reset": "replay-prefix"
+    },
+    "zhouzhiOuting": {
+      "type": "string",
+      "values": [
+        "river",
+        "cinema"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E04",
+        "nodeId": "tc_c04_zhouzhi_outing_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E04"
+      ],
+      "reset": "replay-prefix"
+    },
+    "mengyaoOuting": {
+      "type": "string",
+      "values": [
+        "books",
+        "arcade"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E05",
+        "nodeId": "tc_c04_mengyao_outing_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E05"
+      ],
+      "reset": "replay-prefix"
+    },
+    "yelanOuting": {
+      "type": "string",
+      "values": [
+        "kite",
+        "market"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E05",
+        "nodeId": "tc_c04_yelan_outing_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E05"
+      ],
+      "reset": "replay-prefix"
+    },
+    "piaoOuting": {
+      "type": "string",
+      "values": [
+        "paperboat",
+        "signs"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E06",
+        "nodeId": "tc_c04_piao_outing_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E06"
+      ],
+      "reset": "replay-prefix"
+    },
+    "friendsOuting": {
+      "type": "string",
+      "values": [
+        "show",
+        "walk"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E06",
+        "nodeId": "tc_c04_friends_outing_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E06"
+      ],
+      "reset": "replay-prefix"
+    },
+    "huangqiuqiuOuting": {
+      "type": "string",
+      "values": [
+        "portrait",
+        "story"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E07",
+        "nodeId": "tc_c04_huangqiuqiu_outing_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E07"
+      ],
+      "reset": "replay-prefix"
+    },
+    "xiaomanRelationship": {
+      "type": "string",
+      "values": [
+        "dating",
+        "friends"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E04",
+        "nodeId": "tc_c09_xiaoman_relationship_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E04"
+      ],
+      "reset": "replay-prefix"
+    },
+    "zhouzhiRelationship": {
+      "type": "string",
+      "values": [
+        "dating",
+        "friends"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E04",
+        "nodeId": "tc_c09_zhouzhi_relationship_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E04"
+      ],
+      "reset": "replay-prefix"
+    },
+    "mengyaoRelationship": {
+      "type": "string",
+      "values": [
+        "dating",
+        "friends"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E05",
+        "nodeId": "tc_c09_mengyao_relationship_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E05"
+      ],
+      "reset": "replay-prefix"
+    },
+    "yelanRelationship": {
+      "type": "string",
+      "values": [
+        "dating",
+        "friends"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E05",
+        "nodeId": "tc_c09_yelan_relationship_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E05"
+      ],
+      "reset": "replay-prefix"
+    },
+    "huangqiuqiuRelationship": {
+      "type": "string",
+      "values": [
+        "dating",
+        "friends"
+      ],
+      "initial": "absent",
+      "writer": {
+        "owner": "E07",
+        "nodeId": "tc_c09_huangqiuqiu_relationship_choice",
+        "kind": "choice"
+      },
+      "readers": [
+        "E07"
+      ],
+      "reset": "replay-prefix"
+    },
+    "qiuMet": {
+      "type": "boolean",
+      "values": [
+        false,
+        true
+      ],
+      "initial": false,
+      "writer": {
+        "owner": "E03",
+        "nodeId": "tc_c02_common_qiu_met",
+        "kind": "onEnter"
+      },
+      "readers": [
+        "E03",
+        "E07"
+      ],
+      "reset": "replay-prefix"
+    },
+    "qiuForm": {
+      "type": "string",
+      "values": [
+        "sphere",
+        "human"
+      ],
+      "initial": "sphere",
+      "writer": {
+        "owner": "E07",
+        "nodeId": "tc_c08_huangqiuqiu_human_reveal",
+        "kind": "onEnter"
+      },
+      "readers": [
+        "E07",
+        "E08"
+      ],
+      "reset": "replay-prefix"
+    }
+  },
+  "automaticEvents": [
+    {
+      "id": "qiu-met",
+      "nodeId": "tc_c02_common_qiu_met",
+      "type": "line",
+      "owner": "E03",
+      "chapter": 2,
+      "route": "common",
+      "day": 14,
+      "time": "20:30",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+        "line": 271,
+        "raw": "回到屋里，我把明天的闹钟调好。备忘录上那三个点还在，下面多了一行名字。"
+      },
+      "requires": [
+        {
+          "flag": "qiuSignal",
+          "value": "record"
+        },
+        {
+          "flag": "qiuReply",
+          "value": "reply"
+        }
+      ],
+      "setFlags": {
+        "qiuMet": true
+      }
+    },
+    {
+      "id": "qiu-human",
+      "nodeId": "tc_c08_huangqiuqiu_human_reveal",
+      "type": "line",
+      "owner": "E07",
+      "chapter": 8,
+      "route": "huangqiuqiu",
+      "day": 55,
+      "time": "17:00",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 527,
+        "raw": "坐在我面前的，已经是个棕色齐刘海、中长发垂到肩旁的年轻女人。浅米灰色的宽松拉链外套敞着，里面是白色印花上衣，颈间有一圈黑色颈饰，一只眼前覆着白色遮片。她手里握着一根浅色的玩偶棒，长柄顶端是张圆圆的脸。"
+      },
+      "requires": [
+        {
+          "flag": "route",
+          "value": "huangqiuqiu"
+        },
+        {
+          "flag": "qiuSignal",
+          "value": "record"
+        },
+        {
+          "flag": "qiuReply",
+          "value": "reply"
+        },
+        {
+          "flag": "qiuMet",
+          "value": true
+        }
+      ],
+      "setFlags": {
+        "qiuForm": "human"
+      }
+    }
+  ],
+  "endings": [
+    {
+      "id": "tc_c10_xiaoman_end_dating",
+      "route": "xiaoman",
+      "relationship": "dating",
+      "owner": "E04",
+      "requires": [
+        {
+          "flag": "route",
+          "value": "xiaoman"
+        },
+        {
+          "flag": "xiaomanRelationship",
+          "value": "dating"
+        }
+      ],
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 69,
+        "raw": "#### 仅承接第九章选择A｜恋人结局：先问你有没有空"
+      },
+      "terminal": true
+    },
+    {
+      "id": "tc_c10_xiaoman_end_friends",
+      "route": "xiaoman",
+      "relationship": "friends",
+      "owner": "E04",
+      "requires": [
+        {
+          "flag": "route",
+          "value": "xiaoman"
+        },
+        {
+          "flag": "xiaomanRelationship",
+          "value": "friends"
+        }
+      ],
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 113,
+        "raw": "#### 仅承接第九章选择B｜朋友结局：叫我名字就行"
+      },
+      "terminal": true
+    },
+    {
+      "id": "tc_c10_zhouzhi_end_dating",
+      "route": "zhouzhi",
+      "relationship": "dating",
+      "owner": "E04",
+      "requires": [
+        {
+          "flag": "route",
+          "value": "zhouzhi"
+        },
+        {
+          "flag": "zhouzhiRelationship",
+          "value": "dating"
+        }
+      ],
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 157,
+        "raw": "#### 仅承接第九章选择A｜恋人结局：你先吃，我一会儿到"
+      },
+      "terminal": true
+    },
+    {
+      "id": "tc_c10_zhouzhi_end_friends",
+      "route": "zhouzhi",
+      "relationship": "friends",
+      "owner": "E04",
+      "requires": [
+        {
+          "flag": "route",
+          "value": "zhouzhi"
+        },
+        {
+          "flag": "zhouzhiRelationship",
+          "value": "friends"
+        }
+      ],
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 199,
+        "raw": "#### 仅承接第九章选择B｜朋友结局：还有一张椅子"
+      },
+      "terminal": true
+    },
+    {
+      "id": "tc_c10_mengyao_end_dating",
+      "route": "mengyao",
+      "relationship": "dating",
+      "owner": "E05",
+      "requires": [
+        {
+          "flag": "route",
+          "value": "mengyao"
+        },
+        {
+          "flag": "mengyaoRelationship",
+          "value": "dating"
+        }
+      ],
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 235,
+        "raw": "### 两年后·16:20｜仅交往：一份新的错误记录"
+      },
+      "terminal": true
+    },
+    {
+      "id": "tc_c10_mengyao_end_friends",
+      "route": "mengyao",
+      "relationship": "friends",
+      "owner": "E05",
+      "requires": [
+        {
+          "flag": "route",
+          "value": "mengyao"
+        },
+        {
+          "flag": "mengyaoRelationship",
+          "value": "friends"
+        }
+      ],
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 285,
+        "raw": "### 两年后·17:40｜仅朋友：不用重考的一门课"
+      },
+      "terminal": true
+    },
+    {
+      "id": "tc_c10_yelan_end_dating",
+      "route": "yelan",
+      "relationship": "dating",
+      "owner": "E05",
+      "requires": [
+        {
+          "flag": "route",
+          "value": "yelan"
+        },
+        {
+          "flag": "yelanRelationship",
+          "value": "dating"
+        }
+      ],
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 325,
+        "raw": "### 两年后·15:30｜仅交往：一起买完这袋米"
+      },
+      "terminal": true
+    },
+    {
+      "id": "tc_c10_yelan_end_friends",
+      "route": "yelan",
+      "relationship": "friends",
+      "owner": "E05",
+      "requires": [
+        {
+          "flag": "route",
+          "value": "yelan"
+        },
+        {
+          "flag": "yelanRelationship",
+          "value": "friends"
+        }
+      ],
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 367,
+        "raw": "### 两年后·19:20｜仅朋友：今晚少一个位置"
+      },
+      "terminal": true
+    },
+    {
+      "id": "tc_c10_piao_end_dating",
+      "route": "piao",
+      "relationship": "dating",
+      "owner": "E06",
+      "requires": [
+        {
+          "flag": "route",
+          "value": "piao"
+        },
+        {
+          "flag": "piaoRelationship",
+          "value": "dating"
+        }
+      ],
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 401,
+        "raw": "#### 仅交往｜仍然在一起的两个人"
+      },
+      "terminal": true
+    },
+    {
+      "id": "tc_c10_piao_end_friends",
+      "route": "piao",
+      "relationship": "friends",
+      "owner": "E06",
+      "requires": [
+        {
+          "flag": "route",
+          "value": "piao"
+        },
+        {
+          "flag": "piaoRelationship",
+          "value": "friends"
+        }
+      ],
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 445,
+        "raw": "#### 仅朋友｜婚礼以后的普通来往"
+      },
+      "terminal": true
+    },
+    {
+      "id": "tc_c10_friends_end",
+      "route": "friends",
+      "relationship": null,
+      "owner": "E06",
+      "requires": [
+        {
+          "flag": "route",
+          "value": "friends"
+        }
+      ],
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 473,
+        "raw": "### 两年后·休班下午｜迟到十分钟的人"
+      },
+      "terminal": true
+    },
+    {
+      "id": "tc_c10_huangqiuqiu_end_dating",
+      "route": "huangqiuqiu",
+      "relationship": "dating",
+      "owner": "E07",
+      "requires": [
+        {
+          "flag": "route",
+          "value": "huangqiuqiu"
+        },
+        {
+          "flag": "huangqiuqiuRelationship",
+          "value": "dating"
+        }
+      ],
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 531,
+        "raw": "#### 仅交往｜还是她，还是这一声回答"
+      },
+      "terminal": true,
+      "requiredForm": "human"
+    },
+    {
+      "id": "tc_c10_huangqiuqiu_end_friends",
+      "route": "huangqiuqiu",
+      "relationship": "friends",
+      "owner": "E07",
+      "requires": [
+        {
+          "flag": "route",
+          "value": "huangqiuqiu"
+        },
+        {
+          "flag": "huangqiuqiuRelationship",
+          "value": "friends"
+        }
+      ],
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 569,
+        "raw": "#### 仅朋友｜留给朋友的位置"
+      },
+      "terminal": true,
+      "requiredForm": "human"
+    }
+  ],
+  "epilogues": [
+    {
+      "id": "tc_c10_common_piao_dating",
+      "owner": "E03",
+      "textReviewer": "E06",
+      "all": [
+        {
+          "flag": "route",
+          "value": "piao"
+        },
+        {
+          "flag": "piaoRelationship",
+          "value": "dating"
+        }
+      ],
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 21,
+        "raw": "### 关系后日谈｜仅文文与飘交往时"
+      },
+      "terminal": false
+    },
+    {
+      "id": "tc_c10_common_piao_wedding",
+      "owner": "E03",
+      "textReviewer": "E06",
+      "otherwise": true,
+      "legalStatesOnly": true,
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 41,
+        "raw": "### 关系后日谈｜其余路径：飘与毛狼的婚宴"
+      },
+      "terminal": false,
+      "forbiddenCharacters": [
+        "huangqiuqiu"
+      ]
+    }
+  ],
+  "hidden": {
+    "rawRequires": [
+      {
+        "flag": "qiuSignal",
+        "value": "record"
+      },
+      {
+        "flag": "qiuReply",
+        "value": "reply"
+      }
+    ],
+    "routeRequires": [
+      {
+        "flag": "qiuSignal",
+        "value": "record"
+      },
+      {
+        "flag": "qiuReply",
+        "value": "reply"
+      },
+      {
+        "flag": "qiuMet",
+        "value": true
+      }
+    ],
+    "recordReplyCombinations": [
+      {
+        "record": false,
+        "reply": false,
+        "met": false,
+        "routeVisible": false
+      },
+      {
+        "record": false,
+        "reply": true,
+        "met": false,
+        "routeVisible": false
+      },
+      {
+        "record": true,
+        "reply": false,
+        "met": false,
+        "routeVisible": false
+      },
+      {
+        "record": true,
+        "reply": true,
+        "met": true,
+        "routeVisible": true
+      }
+    ],
+    "responseOptionAlwaysAvailable": true,
+    "noIdentityBeforeMeeting": true,
+    "noPublicAppearance": true,
+    "noPhoneContact": true
+  },
+  "timeline": {
+    "workShift": {
+      "start": "22:00",
+      "end": "06:00",
+      "crossesMidnight": true
+    },
+    "chapter6Flashbacks": [
+      {
+        "route": "mengyao",
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 193,
+          "raw": "### 第30天·19:20｜饭后各有一段路"
+        },
+        "day": 30,
+        "time": "19:20",
+        "mode": "flashback",
+        "sameDinner": true
+      },
+      {
+        "route": "yelan",
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 267,
+          "raw": "### 第30天·19:15｜散席以后"
+        },
+        "day": 30,
+        "time": "19:15",
+        "mode": "flashback",
+        "sameDinner": true
+      }
+    ],
+    "chapter6FlashbackNotice": {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 43,
+      "raw": "> 以下个人段补充各自的相处；孟遥、叶岚线先补叙第30天饭后的一小段相处，再接之后的约见，其余从第31天下午以后或第32天继续。同一顿饭只发生一次，文文当晚按时到岗。"
+    },
+    "milestones": [
+      {
+        "day": 30,
+        "event": "回声最后营业；文文22:00、周栀各自上班"
+      },
+      {
+        "day": 42,
+        "event": "球球改变模样铺垫，仍球形"
+      },
+      {
+        "day": 52,
+        "event": "试排轮班"
+      },
+      {
+        "day": 55,
+        "time": "16:00",
+        "event": "球球仍球形"
+      },
+      {
+        "day": 55,
+        "time": "17:00",
+        "event": "球球自主变身"
+      },
+      {
+        "day": 61,
+        "event": "确认轮班"
+      }
+    ],
+    "chapter10Order": "各段均为两年后，不强制同一天；先唯一适用公共后日谈，再本路线结局。",
+    "inlineDayChanges": [
+      {
+        "chapter": 6,
+        "route": "common",
+        "day": 31,
+        "time": "凌晨",
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 37,
+          "raw": "第三十一天凌晨，我休息的几分钟里看到周栀发来一句：“收工了，回去睡。”我回她晚安，没追问关门时有没有哭。"
+        },
+        "rule": "共通从第30天跨到第31天；之后孟遥/叶岚显式补叙第30天。"
+      },
+      {
+        "chapter": 6,
+        "route": "common",
+        "day": 31,
+        "time": "06:00",
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "line": 39,
+          "raw": "六点有人接班。我沿着昨天吃饭的那条路回去，回声的门已经关着。招牌还在那里，街上的早餐摊也已经摆出来。"
+        },
+        "rule": "早班交接，显示第31天清晨。"
+      },
+      {
+        "chapter": 9,
+        "route": "xiaoman",
+        "day": 82,
+        "relationship": "friends",
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "line": 139,
+          "raw": "第82天，小满在群里问有没有人一起看球，我回了有空。她回给我球馆时间，见面时先笑我的鞋还是像保安。我们之间还有一点不自在，但能各说各的话，不需要假装那天下午没发生过。"
+        },
+        "rule": "拆成对应日期的后续场景；不可沿用前一个标题日期。"
+      },
+      {
+        "chapter": 9,
+        "route": "zhouzhi",
+        "day": 88,
+        "relationship": "friends",
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "line": 233,
+          "raw": "接下来一阵子，我们没有密集地单独见面。我没每天问她好一点没有，她也没让整个朋友群替她避开我。第88天，毛狼在群里约大家吃东西，她先问时间，我确认轮班以后说能来。"
+        },
+        "rule": "拆成对应日期的后续场景；不可沿用前一个标题日期。"
+      },
+      {
+        "chapter": 9,
+        "route": "mengyao",
+        "day": 81,
+        "relationship": "friends",
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "line": 325,
+          "raw": "第81天，孟遥在群里发了一个自己也答错的冷知识。毛狼抢着说答案，我跟着答，两个人错得一模一样。她发来一串笑脸，过了一会儿，私信问我最近轮班怎么样。"
+        },
+        "rule": "拆成对应日期的后续场景；不可沿用前一个标题日期。"
+      },
+      {
+        "chapter": 9,
+        "route": "yelan",
+        "day": 86,
+        "relationship": "friends",
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "line": 409,
+          "raw": "到第86天，毛狼在群里约一场轻松的合作局。叶岚回了“我来”，又问还有谁。我说自己那天休息，可以参加。她没有退出，也没有特意多说一句。"
+        },
+        "rule": "拆成对应日期的后续场景；不可沿用前一个标题日期。"
+      }
+    ]
+  },
+  "interface": {
+    "implementationStatus": "requires-E02-and-E08",
+    "runtimeGlobal": "window.RAIN_STORY",
+    "engineGlobal": "window.RainCore.StoryEngine",
+    "api": [
+      "current",
+      "enter",
+      "advance",
+      "availableChoices",
+      "choose",
+      "snapshot",
+      "restore",
+      "replayPreview",
+      "replayChoice"
+    ],
+    "initialFlags": {
+      "qiuMet": false,
+      "qiuForm": "sphere"
+    },
+    "requiredCapabilities": [
+      "initial-flags-v1",
+      "line-on-enter-set-flags-v1",
+      "character-forms-v1",
+      "exhaustive-gates-v1",
+      "isolated-content-saves-v1"
+    ],
+    "requiredStoryFields": [
+      "version",
+      "backgrounds",
+      "contractVersion",
+      "contentRevision",
+      "requiredCapabilities",
+      "initialFlags",
+      "start",
+      "routeChoice",
+      "chapters",
+      "characters",
+      "scenes",
+      "nodes"
+    ],
+    "start": "tc_c01_common_entry",
+    "routeChoice": "tc_c03_common_route_choice",
+    "previewChoice": null,
+    "nodeIdPattern": "^tc_c(0[1-9]|10)_(common|xiaoman|zhouzhi|mengyao|yelan|piao|friends|huangqiuqiu)_[a-z][a-z0-9_]*$",
+    "sceneIdPattern": "^ts_c(0[1-9]|10)_(common|xiaoman|zhouzhi|mengyao|yelan|piao|friends|huangqiuqiu)_[a-z][a-z0-9_]*$",
+    "nodeTypes": [
+      "line",
+      "choice",
+      "gate",
+      "end"
+    ],
+    "nodeFields": {
+      "line": {
+        "required": [
+          "id",
+          "type",
+          "scene",
+          "speaker",
+          "text",
+          "next"
+        ],
+        "optional": [
+          "character",
+          "expression",
+          "avatarExpression",
+          "bg",
+          "time",
+          "cg",
+          "onEnter",
+          "location"
+        ]
+      },
+      "choice": {
+        "required": [
+          "id",
+          "type",
+          "scene",
+          "flag",
+          "choices",
+          "text"
+        ],
+        "optional": [
+          "character",
+          "expression",
+          "avatarExpression",
+          "bg",
+          "time",
+          "location"
+        ]
+      },
+      "gate": {
+        "required": [
+          "id",
+          "type",
+          "scene",
+          "cases",
+          "default"
+        ],
+        "optional": [
+          "exhaustive"
+        ]
+      },
+      "end": {
+        "required": [
+          "id",
+          "type",
+          "scene",
+          "title",
+          "text"
+        ],
+        "optional": [
+          "next",
+          "nextChapter",
+          "endingId",
+          "character",
+          "expression",
+          "avatarExpression",
+          "bg",
+          "time",
+          "location"
+        ]
+      }
+    },
+    "condition": {
+      "required": [
+        "flag",
+        "value"
+      ],
+      "operator": "own-and-strict-equality",
+      "optionRequires": "all",
+      "gateCases": "first-match-single-condition",
+      "andGateCompilation": "chain-two-or-more-gates",
+      "missingFlag": "false",
+      "exhaustiveDefault": null
+    },
+    "onEnter": {
+      "field": "line.onEnter.setFlags",
+      "type": "object-of-declared-scalar-enums",
+      "allowedEvents": [
+        "tc_c02_common_qiu_met",
+        "tc_c08_huangqiuqiu_human_reveal"
+      ],
+      "atomicBoundary": "本次enter/choose解析gate链、校验目标line与整批赋值后一次提交。失败保留原状态。",
+      "order": [
+        "clone-candidate",
+        "resolve-gates",
+        "validate-target-requires-and-assignment",
+        "apply-onEnter",
+        "append-history",
+        "commit"
+      ],
+      "idempotent": true,
+      "addsPlayerChoice": false,
+      "forbidden": [
+        "increment",
+        "random",
+        "clock",
+        "async",
+        "undeclared-flag",
+        "relationship-write",
+        "form-write-by-choice"
+      ],
+      "requiredFields": [
+        "requires",
+        "setFlags"
+      ],
+      "requires": "从automaticEvents[].requires原样写入line.onEnter.requires；E02/E10证明前置gate/合法图保证条件，E08进入目标line再以ALL复核，不满足则抛错且不提交。不是line顶层requires。"
+    },
+    "moduleFormat": {
+      "format": "JSON",
+      "required": [
+        "schemaVersion",
+        "contractVersion",
+        "contentRevision",
+        "moduleId",
+        "owner",
+        "scenes",
+        "nodes",
+        "imports",
+        "exports",
+        "sourceMap",
+        "exclusions",
+        "assetRequests"
+      ],
+      "schemaVersion": 1,
+      "scenes": "object keyed by scene ID",
+      "nodes": "object keyed by node ID; key must equal node.id",
+      "imports": "array of external node IDs",
+      "exports": "object mapping public node ID to same local node ID",
+      "sourceMap": "array of {file,startLine,endLine,nodeIds,kind}; kind=dialogue|narration|choice|scene-title|control",
+      "exclusions": "array of {file,startLine,endLine,reason}; reason=navigation|reading-rule|heading-only|choice-label-excerpt",
+      "assetRequests": "array of E01 semantic IDs plus A01 mapping when available",
+      "noExecutableCode": true,
+      "noOldStoryInheritance": true
+    },
+    "scenes": {
+      "required": [
+        "chapter",
+        "title",
+        "bg",
+        "time",
+        "chronology",
+        "location",
+        "day",
+        "dayLabel"
+      ],
+      "chronology": {
+        "required": [
+          "domain",
+          "mode"
+        ],
+        "domain": [
+          "story-day",
+          "two-years-later",
+          "chapter-range"
+        ],
+        "mode": [
+          "present",
+          "flashback"
+        ],
+        "optional": [
+          "day",
+          "clock",
+          "label"
+        ]
+      },
+      "bg": "A01 semantic binding until E09 resolves an A06-approved real background ID",
+      "displayMapping": {
+        "owner": "E02输出，E08读取",
+        "storyDay": "day=chronology.day, dayLabel=第N天；time使用正文时间文字，location使用真实场所。",
+        "twoYearsLater": "day=null, dayLabel=两年后；不推算绝对日期。",
+        "chapterRange": "day=null, dayLabel=章范围，time=章末，location为空字符串；chronology.domain=chapter-range。"
+      }
+    },
+    "chapterEnd": {
+      "owner": "E03",
+      "type": "end",
+      "next": "chapter.next",
+      "nextChapter": "实际下一章标题；无旧三章预告文本",
+      "scenePolicy": "独立中性章末scene，chronology.domain=chapter-range；dayLabel为章节范围，time=章末，location为空，不冒充某条路线日期或共通开头。背景由A01挑选适用的已采用图，不能指向占位或未审图。"
+    },
+    "terminalEnd": {
+      "next": "absent",
+      "endingId": "must equal one of endings[].id",
+      "onePerRelationship": true
+    },
+    "crossModuleRules": [
+      "路线仅引用所属chapter.common exit；第十章转本路线结局，不返回下一章。",
+      "共通模块拥有章入口、选线、路由、章末与第十章公共后日谈。",
+      "路线不引用其他路线节点；共通按route只分流一次。",
+      "每个入口必须对应真实本地节点；imports完全解析、不得悬空、重复ID或非预期环。",
+      "字符串next/default必须解析到唯一节点；仅exhaustive gate允许default:null且合法状态全覆盖。"
+    ],
+    "sourceCoverage": "E03—E07逐段交付来源→节点和排除清单；同一段仅一位正文所有者，按钮摘录可标注与完整对白同源，不能吞掉分支正文。控制节点可无正文，但必须标注control及依据。",
+    "presentation": {
+      "characterFormsField": "characters.<id>.forms",
+      "formFlag": "qiuForm",
+      "formValues": [
+        "sphere",
+        "human"
+      ],
+      "formEntryFields": [
+        "image",
+        "expressions",
+        "avatarImage",
+        "avatarExpressions",
+        "presentation"
+      ],
+      "presentationValues": {
+        "sphere": "orb",
+        "human": "human"
+      },
+      "resolution": "从已提交状态取form，分别解析立绘与说话头像，再取对应expression；缺失已需资源在E09报错，禁止悄悄回退另一形态。",
+      "history": "现回顾仅姓名文字。若渲染历史形象或回到旧节点，按历史前缀重放得到该行onEnter之后的形态；不以当前形态改写过去。",
+      "forbidden": [
+        "replace-global-character-image",
+        "romance-required-transformation",
+        "human-image-in-pretransform-scenes",
+        "unapproved-human-art-as-final"
+      ]
+    },
+    "save": {
+      "namespace": "bijie-rain-demo:ten-chapter:nightshift-20261022-r1:",
+      "contentVersion": 1,
+      "engineStateVersion": 1,
+      "contractVersion": "1.0.0",
+      "historyFields": [
+        "nodeId",
+        "scene",
+        "speaker",
+        "text",
+        "kind"
+      ],
+      "oldNamespacesPolicy": "do-not-read-migrate-write-or-delete",
+      "legacyCompatibilityPatch": "disabled-for-ten-chapter",
+      "validation": "从initialFlags与选择序列确定性重放，比较flags/history/choices及checkpoint；拒绝伪造qiuMet/qiuForm和非法路线。",
+      "reselect": "重放到所选选择之前的完整前缀；删掉其后的历史、选择、关系、日常选择与形态效果，保留此前正确状态。第3章重选时仍保留第14天已相识状态。",
+      "testsUseIsolatedStorage": true
+    },
+    "capabilitiesGuard": "E08读取新数据前检查契约版本和全部必需能力；旧引擎会忽略新字段，因此E02只能隔离输出，E09在配套播放器验证后才能正式接入。",
+    "storyVersion": 1,
+    "optionalStoryFields": [
+      "title",
+      "release",
+      "cgs",
+      "previewChoice"
+    ],
+    "optionFields": {
+      "required": [
+        "label",
+        "value",
+        "next"
+      ],
+      "optional": [
+        "requires"
+      ],
+      "label": "choices目录原文标签",
+      "value": "node.flag对应的枚举值",
+      "next": "分支首个实际节点ID",
+      "requires": "array of {flag,value}, ALL semantics"
+    },
+    "gateCaseFields": {
+      "required": [
+        "flag",
+        "value",
+        "next"
+      ],
+      "next": "实际节点ID"
+    },
+    "choicePromptPolicy": "text必须为字符串；有独立提问时移除Markdown控制标记后原样保留；无独立提问时允许空字符串，保留前置正文，不另编一句提问。",
+    "catalogNotRuntime": "choices/chapters/automaticEvents是E01接口目录，未包含实际节点next/正文映射；不能直接把contract.json当story.js或运行模块。"
+  },
+  "assetRequests": [
+    {
+      "id": "e01-art-ch01",
+      "chapter": 1,
+      "routes": [
+        "common"
+      ],
+      "source": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "needs": [
+        "出租屋",
+        "网吧柜台/机位",
+        "夜间后院侧门(不露球球)",
+        "清晨早餐店",
+        "理发店",
+        "街边店与约饭"
+      ],
+      "status": "semantic-request-only",
+      "productionOwner": "A01",
+      "adoptionOwner": "A06"
+    },
+    {
+      "id": "e01-art-ch02",
+      "chapter": 2,
+      "routes": [
+        "common"
+      ],
+      "source": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "needs": [
+        "后院侧门",
+        "住处游戏/消息",
+        "叶岚初见面馆",
+        "聚餐",
+        "第14天球形黄球球(仅满足隐藏条件)"
+      ],
+      "status": "semantic-request-only",
+      "productionOwner": "A01",
+      "adoptionOwner": "A06"
+    },
+    {
+      "id": "e01-art-ch03",
+      "chapter": 3,
+      "routes": [
+        "common",
+        "xiaoman",
+        "zhouzhi",
+        "mengyao",
+        "yelan",
+        "piao",
+        "friends",
+        "huangqiuqiu"
+      ],
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "needs": [
+        "出租屋/街巷/理发店",
+        "回声门外",
+        "商场休息处/面馆",
+        "网吧相邻机位",
+        "公园/便利店",
+        "隐蔽后院"
+      ],
+      "status": "semantic-request-only",
+      "productionOwner": "A01",
+      "adoptionOwner": "A06"
+    },
+    {
+      "id": "e01-art-ch04",
+      "chapter": 4,
+      "routes": [
+        "common",
+        "xiaoman",
+        "zhouzhi",
+        "mengyao",
+        "yelan",
+        "piao",
+        "friends",
+        "huangqiuqiu"
+      ],
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "needs": [
+        "投篮机/旧书摊",
+        "河边听歌/影院",
+        "旧书摊/街机厅",
+        "放风筝/旧货市场",
+        "雨棚纸船/旧店名",
+        "小演出/老街旧游戏店",
+        "后院画画/讲故事/看天空"
+      ],
+      "status": "semantic-request-only",
+      "productionOwner": "A01",
+      "adoptionOwner": "A06"
+    },
+    {
+      "id": "e01-art-ch05",
+      "chapter": 5,
+      "routes": [
+        "common",
+        "xiaoman",
+        "zhouzhi",
+        "mengyao",
+        "yelan",
+        "piao",
+        "friends",
+        "huangqiuqiu"
+      ],
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "needs": [
+        "回声停业消息",
+        "街边/便利店/面馆/饺子店",
+        "飘小册子封面",
+        "后院球形黄球球",
+        "疲倦与修正误会表情"
+      ],
+      "status": "semantic-request-only",
+      "productionOwner": "A01",
+      "adoptionOwner": "A06"
+    },
+    {
+      "id": "e01-art-ch06",
+      "chapter": 6,
+      "routes": [
+        "common",
+        "xiaoman",
+        "zhouzhi",
+        "mengyao",
+        "yelan",
+        "piao",
+        "friends",
+        "huangqiuqiu"
+      ],
+      "source": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "needs": [
+        "回声旁小店饭局",
+        "饭后公交站/街口",
+        "停业回声门外",
+        "练歌房/乒乓球馆",
+        "网吧外/后院"
+      ],
+      "status": "semantic-request-only",
+      "productionOwner": "A01",
+      "adoptionOwner": "A06"
+    },
+    {
+      "id": "e01-art-ch07",
+      "chapter": 7,
+      "routes": [
+        "common",
+        "xiaoman",
+        "zhouzhi",
+        "mengyao",
+        "yelan",
+        "piao",
+        "friends",
+        "huangqiuqiu"
+      ],
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "needs": [
+        "逐线第四章物件回收",
+        "茶店/书/风筝/旧物",
+        "小演出/旧游戏店",
+        "第40/42天后院球形与改变模样铺垫"
+      ],
+      "status": "semantic-request-only",
+      "productionOwner": "A01",
+      "adoptionOwner": "A06"
+    },
+    {
+      "id": "e01-art-ch08",
+      "chapter": 8,
+      "routes": [
+        "common",
+        "xiaoman",
+        "zhouzhi",
+        "mengyao",
+        "yelan",
+        "piao",
+        "friends",
+        "huangqiuqiu"
+      ],
+      "source": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "needs": [
+        "网吧试排班",
+        "羽毛球馆/服装店/约会场所",
+        "住处组局",
+        "第55天16:00球形后院",
+        "第55天17:00球形搭手→自主变化→人形"
+      ],
+      "status": "semantic-request-only",
+      "productionOwner": "A01",
+      "adoptionOwner": "A06"
+    },
+    {
+      "id": "e01-art-ch09",
+      "chapter": 9,
+      "routes": [
+        "common",
+        "xiaoman",
+        "zhouzhi",
+        "mengyao",
+        "yelan",
+        "piao",
+        "friends",
+        "huangqiuqiu"
+      ],
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "needs": [
+        "网吧轮班",
+        "各线正常休息时段约会",
+        "小册子/书签",
+        "朋友生日与个人生活",
+        "后院人形与两类关系选择"
+      ],
+      "status": "semantic-request-only",
+      "productionOwner": "A01",
+      "adoptionOwner": "A06"
+    },
+    {
+      "id": "e01-art-ch10",
+      "chapter": 10,
+      "routes": [
+        "common",
+        "xiaoman",
+        "zhouzhi",
+        "mengyao",
+        "yelan",
+        "piao",
+        "friends",
+        "huangqiuqiu"
+      ],
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "needs": [
+        "两年后网吧日常",
+        "飘交往路径朋友饭局",
+        "其他路径飘毛狼婚宴(无球球)",
+        "七线独立结局",
+        "球球恋人/朋友均人形"
+      ],
+      "status": "semantic-request-only",
+      "productionOwner": "A01",
+      "adoptionOwner": "A06"
+    }
+  ],
+  "assetPolicy": {
+    "formatReference": "项目文档/美术资源规范.md",
+    "runtimeFormat": "webp",
+    "transparentPreferredEncoding": "lossless-with-alpha",
+    "keepOriginals": true,
+    "countsFrozen": false,
+    "cgQuota": null,
+    "finalResourceIdsOwner": "A01",
+    "adoptionOwner": "A06",
+    "humanBaseStatus": "awaiting-user-art-review",
+    "semanticToNodeMappingOwner": "E03-E07/A01",
+    "integrationOwner": "E09"
+  },
+  "openItems": [
+    {
+      "id": "ART01",
+      "owner": "A03/用户",
+      "item": "黄球球人形基础图外观审阅；当前正文采用不代表该图已采用。",
+      "blocks": [
+        "A03正式差分",
+        "A06人形采用",
+        "E09最终美术完整"
+      ]
+    },
+    {
+      "id": "ART02",
+      "owner": "A01",
+      "item": "逐章逐线资产去重、可复用性、资源ID、尺寸及CG分镜/数量尚未确定。",
+      "blocks": [
+        "对应美术正式制作"
+      ]
+    },
+    {
+      "id": "ART03",
+      "owner": "A01/用户",
+      "item": "照片未显示的下装、两年后造型及婚宴服装如需新增设计，单独确认；不得虚构剧情事实。",
+      "blocks": [
+        "涉及这些设计的成图"
+      ]
+    },
+    {
+      "id": "ENG01",
+      "owner": "E02",
+      "item": "按契约实现隔离构建与模块校验，小样例不算十章正文。",
+      "blocks": [
+        "E03-E07数据接口最终冻结"
+      ]
+    },
+    {
+      "id": "ENG02",
+      "owner": "E08",
+      "item": "实现自动状态、双形态、启动能力检查、存档隔离与回放。",
+      "blocks": [
+        "E09正式集成"
+      ]
+    },
+    {
+      "id": "QA01",
+      "owner": "E10",
+      "item": "正式图/正文、存读档、真实浏览器/设备/声音/阅读均待集成后验收。",
+      "blocks": [
+        "E11交付验收"
+      ]
+    }
+  ],
+  "evidenceBoundary": "E01仅验证契约结构、来源指纹和抽象状态规则。契约模型场景数不等于正式游戏路径覆盖；未运行新引擎、故事构建、浏览器或发布。",
+  "callbackRules": [
+    {
+      "choiceId": "tc_c01_common_reunion_choice",
+      "flag": "reunion",
+      "value": "nervous",
+      "owner": "E05",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 397,
+        "raw": "**若第一章坦言紧张：**孟遥问我今天还紧不紧张。我说比第一次好一点，她往我手里的咖啡杯看了一眼：“看出来了，今天没有把配料表翻来覆去地读。”我也笑，告诉她这杯没有那么多字可看。她说那可难为我了。"
+      },
+      "kind": "early-callback"
+    },
+    {
+      "choiceId": "tc_c01_common_reunion_choice",
+      "flag": "reunion",
+      "value": "availability",
+      "owner": "E05",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 399,
+        "raw": "**若第一章先问哪天有空：**孟遥问我这回是不是先看过排班。我把手机里记下的时间给她看，她看完只问：“那你是特意来吃烧饼，还是特意来见我？”我说两个都有。她把纸袋往我面前一递：“行，至少烧饼这个部分没让你失望。”"
+      },
+      "kind": "early-callback"
+    },
+    {
+      "choiceId": "tc_c02_common_missed_game_choice",
+      "flag": "missedGame",
+      "value": "voice",
+      "owner": "E03",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 33,
+        "raw": "**若当时发了说明语音：**晚些时候，毛狼问第30日吃完饭能不能顺便玩。我这次直接发语音，说那晚要值班，玩不了。他回了声知道，没有再把我列进去。我想起上次那段迟了五十分钟的解释，庆幸这回可以在事情发生前说清。"
+      },
+      "kind": "early-callback"
+    },
+    {
+      "choiceId": "tc_c02_common_missed_game_choice",
+      "flag": "missedGame",
+      "value": "reschedule",
+      "owner": "E03",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 35,
+        "raw": "**若当时用文字重约时间：**晚些时候，毛狼把新约局时间发出来，仍按上次说好的，只留一个大家都能参加的短时段。我把第30日值班那格划掉，另回一个能参加的休班晚上。叶岚说她到时也只空一会儿，我们没有把谁的短暂出现当成扫兴。"
+      },
+      "kind": "early-callback"
+    },
+    {
+      "choiceId": "tc_c02_common_yelan_first_choice",
+      "flag": "yelanFirst",
+      "value": "game",
+      "owner": "E05",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 557,
+        "raw": "**若上次从游戏开聊：**我问今天还要不要拿毛狼那局当开场。叶岚说他要是知道自己这么有用，可能会收费。我说那今天让他歇着，她点头，问我有没有吃晚饭。这一句在耳机里听过很多次，走在路上听见，又有一点不一样。"
+      },
+      "kind": "early-callback"
+    },
+    {
+      "choiceId": "tc_c02_common_yelan_first_choice",
+      "flag": "yelanFirst",
+      "value": "food",
+      "owner": "E05",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 559,
+        "raw": "**若上次从菜单开聊：**叶岚问我有没有研究今天这条路上的菜单。我说没有，上次研究半天，能点的还不到一半。她笑了，说这次先看看，饿了再挑。“那也不用急着研究话题。”我说。她看了我一眼，嗯了一声。"
+      },
+      "kind": "early-callback"
+    },
+    {
+      "choiceId": "tc_c04_xiaoman_outing_choice",
+      "flag": "xiaomanOuting",
+      "value": "basketball",
+      "owner": "E04",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 63,
+        "raw": "#### 若第24天选择投篮机｜不欠的第三局"
+      },
+      "kind": "chapter4-to-7"
+    },
+    {
+      "choiceId": "tc_c04_xiaoman_outing_choice",
+      "flag": "xiaomanOuting",
+      "value": "books",
+      "owner": "E04",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 83,
+        "raw": "#### 若第24天选择旧书摊｜第二只纸鹤"
+      },
+      "kind": "chapter4-to-7"
+    },
+    {
+      "choiceId": "tc_c04_zhouzhi_outing_choice",
+      "flag": "zhouzhiOuting",
+      "value": "river",
+      "owner": "E04",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 145,
+        "raw": "#### 若第23天选择沿河听歌｜今天的歌很吵"
+      },
+      "kind": "chapter4-to-7"
+    },
+    {
+      "choiceId": "tc_c04_zhouzhi_outing_choice",
+      "flag": "zhouzhiOuting",
+      "value": "cinema",
+      "owner": "E04",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 163,
+        "raw": "#### 若第23天选择影院｜这回我挑片"
+      },
+      "kind": "chapter4-to-7"
+    },
+    {
+      "choiceId": "tc_c04_mengyao_outing_choice",
+      "flag": "mengyaoOuting",
+      "value": "books",
+      "owner": "E05",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 233,
+        "raw": "#### 若第四章选择 A｜旧书摊"
+      },
+      "kind": "chapter4-to-7"
+    },
+    {
+      "choiceId": "tc_c04_mengyao_outing_choice",
+      "flag": "mengyaoOuting",
+      "value": "arcade",
+      "owner": "E05",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 257,
+        "raw": "#### 若第四章选择 B｜街机厅"
+      },
+      "kind": "chapter4-to-7"
+    },
+    {
+      "choiceId": "tc_c04_yelan_outing_choice",
+      "flag": "yelanOuting",
+      "value": "kite",
+      "owner": "E05",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 317,
+        "raw": "#### 若第四章选择 A｜河边风筝"
+      },
+      "kind": "chapter4-to-7"
+    },
+    {
+      "choiceId": "tc_c04_yelan_outing_choice",
+      "flag": "yelanOuting",
+      "value": "market",
+      "owner": "E05",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 343,
+        "raw": "#### 若第四章选择 B｜旧货市场"
+      },
+      "kind": "chapter4-to-7"
+    },
+    {
+      "choiceId": "tc_c04_piao_outing_choice",
+      "flag": "piaoOuting",
+      "value": "paperboat",
+      "owner": "E06",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 389,
+        "raw": "**如果选过A：**我从她挪开的废纸里认出那只歪纸船，惊讶她真留到了现在。她说放在袋子夹层忘了扔，刚才翻出来，还能看见我声称的船头。我提议重折一次，她立刻把纸收远：“不行。这只是你当时的水平，不能修改历史。”我问那她自己的那只呢。她面不改色地说压平了，用过了。我们相互指责了一会儿，谁也没把船放进水里。"
+      },
+      "kind": "chapter4-to-7"
+    },
+    {
+      "choiceId": "tc_c04_piao_outing_choice",
+      "flag": "piaoOuting",
+      "value": "signs",
+      "owner": "E06",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 391,
+        "raw": "**如果选过B：**纸袋上印着一家店的名字，她看着忽然想起“东西都在”。我接“先坐一会儿”，两个人都笑得像听见一个只有彼此才知道的笑话。她说那天后来才发现，卖沙发的旧招牌后面还有一层。我问是什么，她说没看清，留到下回再猜。我们没有为那家不存在的店设计菜单，光用它起的怪名字把半小时浪费掉一点，就已经够了。"
+      },
+      "kind": "chapter4-to-7"
+    },
+    {
+      "choiceId": "tc_c04_friends_outing_choice",
+      "flag": "friendsOuting",
+      "value": "show",
+      "owner": "E06",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 447,
+        "raw": "### 若第四章去看了小演出"
+      },
+      "kind": "chapter4-to-7"
+    },
+    {
+      "choiceId": "tc_c04_friends_outing_choice",
+      "flag": "friendsOuting",
+      "value": "walk",
+      "owner": "E06",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 461,
+        "raw": "### 若第四章沿街散步"
+      },
+      "kind": "chapter4-to-7"
+    },
+    {
+      "choiceId": "tc_c04_huangqiuqiu_outing_choice",
+      "flag": "huangqiuqiuOuting",
+      "value": "portrait",
+      "owner": "E07",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 519,
+        "raw": "**如果选过A：**她让我把压在干处的自画像拿出来。我翻开纸，自己也被那扇小门似的鼻子逗笑了。她说前几天想起画上那个人，觉得他好像很会逞强，头发没画对也不承认。我说画的人比他好一点，已经认了。她看着纸，说今天不用补一张更好的，就让他继续精神着。我们把画像重新放好，她没有拿它代替我，也没要求我把自己所有糗相留下。"
+      },
+      "kind": "chapter4-to-7"
+    },
+    {
+      "choiceId": "tc_c04_huangqiuqiu_outing_choice",
+      "flag": "huangqiuqiuOuting",
+      "value": "story",
+      "owner": "E07",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 521,
+        "raw": "**如果选过B：**她问那只没有买到伞的鸭子后来是不是还在屋檐下。我说可以还在，也可以已经回家。她想了想，说今天不替它决定，让它多坐一会儿。我想接一句好笑的话，又停住。她看着我，眼睛弯了点，像是发现我这回终于没把每个空白都当成等着填的地方。鸭子的故事没有继续，我们也没有因此变得没话可说。"
+      },
+      "kind": "chapter4-to-7"
+    }
+  ],
+  "piaoRelationshipBlocks": [
+    {
+      "chapter": 4,
+      "owner": "E06",
+      "flag": "piaoRelationship",
+      "value": "dating",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 422,
+        "raw": "#### 仅交往"
+      }
+    },
+    {
+      "chapter": 4,
+      "owner": "E06",
+      "flag": "piaoRelationship",
+      "value": "friends",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 440,
+        "raw": "#### 仅朋友"
+      }
+    },
+    {
+      "chapter": 5,
+      "owner": "E06",
+      "flag": "piaoRelationship",
+      "value": "dating",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 409,
+        "raw": "#### 仅交往"
+      }
+    },
+    {
+      "chapter": 5,
+      "owner": "E06",
+      "flag": "piaoRelationship",
+      "value": "friends",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 433,
+        "raw": "#### 仅朋友"
+      }
+    },
+    {
+      "chapter": 6,
+      "owner": "E06",
+      "flag": "piaoRelationship",
+      "value": "dating",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 367,
+        "raw": "#### 仅交往"
+      }
+    },
+    {
+      "chapter": 6,
+      "owner": "E06",
+      "flag": "piaoRelationship",
+      "value": "friends",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 399,
+        "raw": "#### 仅朋友"
+      }
+    },
+    {
+      "chapter": 7,
+      "owner": "E06",
+      "flag": "piaoRelationship",
+      "value": "dating",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 397,
+        "raw": "#### 仅交往"
+      }
+    },
+    {
+      "chapter": 7,
+      "owner": "E06",
+      "flag": "piaoRelationship",
+      "value": "friends",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 421,
+        "raw": "#### 仅朋友"
+      }
+    },
+    {
+      "chapter": 8,
+      "owner": "E06",
+      "flag": "piaoRelationship",
+      "value": "dating",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 359,
+        "raw": "#### 仅交往"
+      }
+    },
+    {
+      "chapter": 8,
+      "owner": "E06",
+      "flag": "piaoRelationship",
+      "value": "friends",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 383,
+        "raw": "#### 仅朋友"
+      }
+    },
+    {
+      "chapter": 9,
+      "owner": "E06",
+      "flag": "piaoRelationship",
+      "value": "dating",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 445,
+        "raw": "#### 仅交往"
+      }
+    },
+    {
+      "chapter": 9,
+      "owner": "E06",
+      "flag": "piaoRelationship",
+      "value": "friends",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 475,
+        "raw": "#### 仅朋友"
+      }
+    },
+    {
+      "chapter": 10,
+      "owner": "E06",
+      "flag": "piaoRelationship",
+      "value": "dating",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 401,
+        "raw": "#### 仅交往｜仍然在一起的两个人"
+      }
+    },
+    {
+      "chapter": 10,
+      "owner": "E06",
+      "flag": "piaoRelationship",
+      "value": "friends",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 445,
+        "raw": "#### 仅朋友｜婚礼以后的普通来往"
+      }
+    }
+  ],
+  "sourceExclusionRules": {
+    "exclude": [
+      "章前阅读指引",
+      "Markdown导航与分隔线",
+      "以引用块标出的条件/阅读记录",
+      "隐藏入口的资格说明"
+    ],
+    "retain": [
+      "全部合法分支正文",
+      "条件说明后的对应真实对白",
+      "同一来源的选项与完整分支回答"
+    ],
+    "specialCases": [
+      {
+        "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+        "line": 87,
+        "raw": "> 阅读记录：未记住三拍。本稿仍可阅读六条普通路线，不进入黄球球相识段。"
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 29,
+        "raw": "- **黄球球线**：兑现与黄球球的约定。仅在第一章记录三拍、第二章敲回节奏并读过正式相识段时可选。"
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 43,
+        "raw": "> 若选择其他路线，或第三章飘线选择做朋友，读本段。黄球球不出席，也不在这场向其他人显露。"
+      }
+    ],
+    "rule": "条件前缀转换为门禁；正文内的日序必须保留为时间元数据，不能一概删除说明样式行。"
+  },
+  "readiness": {
+    "E01": "complete",
+    "E02": "can-start-isolated-framework",
+    "A01": "can-start-semantic-inventory",
+    "E03_E07": "wait-E02-module-validation",
+    "E08": "can-start-interface-design-implementation-own-task",
+    "formalIntegration": "blocked-on-E02-E08-and-A06"
+  }
+}

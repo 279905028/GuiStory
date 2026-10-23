@@ -1,0 +1,52 @@
+'use strict';
+const fs = require('node:fs');
+const path = require('node:path');
+const assert = require('node:assert/strict');
+const { hash } = require('../../交付/全十章-E11/templates/tools/verify.cjs');
+const root = path.resolve(__dirname, '../..');
+const read = file => fs.readFileSync(path.join(root, file));
+const json = file => JSON.parse(read(file));
+const sha = file => hash(read(file));
+const write = (file, value) => fs.writeFileSync(path.join(__dirname, file), JSON.stringify(value, null, 2) + '\n');
+const name = 'bi-jie-ten-chapter-nightshift-20261022-r1-e11';
+const delivery = '交付/全十章-E11/dist/';
+const archive = delivery + name + '.zip';
+const receipt = json(delivery + 'delivery-receipt.json');
+const packages = json('qa/ten-chapter-delivery/package-results.json');
+const browser = json('qa/ten-chapter-delivery/browser-results.json');
+assert.equal(packages.status, 'passed'); assert.equal(packages.passed, 9);
+assert.equal(browser.failed, 0); assert.equal(browser.passed, 24);
+assert.equal(browser.checks.length, 24); assert(browser.checks.every(c => c.passed));
+assert.equal(browser.pageErrors.length, 0);
+assert.equal(browser.unexpectedExternalRequests.length, 0);
+assert.equal(browser.resourceFailures.length, 0);
+assert.equal(browser.screenshots.length, 40);
+const zipHash = sha(archive);
+assert.equal(zipHash, receipt.sha256);
+assert.equal(zipHash, packages.zipSha256);
+assert.equal(zipHash, browser.archive.sha256);
+assert.equal(sha(delivery + name + '/package-manifest.json'), browser.packageManifestSha256);
+assert.equal(sha('assets/runtime-ten-chapter-manifest.json'), browser.manifestSha256);
+for (const [file, expected] of Object.entries(browser.runtimeHashes)) assert.equal(sha(file), expected, file);
+const baseline = json('qa/ten-chapter-delivery/protected-before.json');
+const changed = baseline.files.filter(row => !fs.existsSync(path.join(root, row.file)) || sha(row.file) !== row.sha256);
+write('protected-after.json', { task: 'E11', checkedAt: new Date().toISOString(), checked: baseline.files.length, changed, passed: changed.length === 0 });
+assert.deepEqual(changed, [], '正式工程或历史资料发生变化');
+const documents = ['TODO与多窗口提示词-v0.4.md', '总览.md', '试玩说明.md', '任务拆分/总览.md', '任务拆分/全十章开发计划.md', '任务拆分/全十章/交接/E11.md', '交付/全十章-E11/README.md', 'qa/ten-chapter-delivery/README.md'];
+for (const doc of ['操作说明.md', '回退说明.md', '维护说明.md']) documents.push(delivery + name + '/' + doc);
+let checkedLinks = 0;
+for (const file of documents) {
+  for (const match of read(file).toString().matchAll(/\[[^\]]*\]\(([^)]+)\)/g)) {
+    const target = match[1].split('#')[0];
+    if (!target || /^(?:https?:|codex:|mailto:)/.test(target)) continue;
+    assert(fs.existsSync(path.resolve(root, path.dirname(file), decodeURIComponent(target))), '断链：' + file + ' → ' + target);
+    checkedLinks++;
+  }
+}
+const visualReview = ['chrome-file-cover-390.png', 'firefox-http-human-390.png', 'chrome-file-tc-cg-qiuqiu-transform.png', 'firefox-http-ending-desktop.png'];
+const screenshots = browser.screenshots.map(file => ({ file, sha256: sha('qa/ten-chapter-delivery/' + file) }));
+const evidence = ['package-results.json', 'browser-results.json', 'protected-after.json'].map(file => ({ file, sha256: sha('qa/ten-chapter-delivery/' + file) }));
+const scripts = ['交付/全十章-E11/build-package.cjs', 'qa/ten-chapter-delivery/package-test.cjs', 'qa/ten-chapter-delivery/browser-test.cjs', 'qa/ten-chapter-delivery/finish-audit.cjs'].map(file => ({ file, sha256: sha(file) }));
+const report = { task: 'E11', date: '2026-10-23', generatedAt: new Date().toISOString(), status: 'local-delivery-complete', userScope: '仅完成本地交付，公网发布另行安排', archive, archiveSha256: zipHash, archiveBytes: fs.statSync(path.join(root, archive)).size, packageFiles: receipt.fileCount, runtimeFiles: receipt.runtimeFileCount, registeredAssets: receipt.registeredAssets, sourceFiles: receipt.sourceFileCount, packageChecks: 9, browserChecks: 24, protectedFiles: baseline.files.length, checkedDocumentLinks: checkedLinks, storySha256: receipt.storySha256, buildSha256: receipt.buildSha256, screenshots, visualReview, evidence, scripts, finalAcceptance: false, pending: ['Safari', '实体手机'], additionalNotTested: ['Windows实机', 'Linux实机', '旧版本运行回退', '公网发布与在线验收'], playerStorageAccessed: false, formalGameModified: false, deployed: false };
+write('report.json', report);
+console.log(JSON.stringify({ status: report.status, packageChecks: 9, browserChecks: 24, screenshots: screenshots.length, protectedFiles: baseline.files.length, checkedDocumentLinks: checkedLinks, archiveSha256: zipHash }, null, 2));

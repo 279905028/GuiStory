@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-20",
+  "character": "shijiang",
+  "selectedOption": "A",
+  "totalAssets": 12,
+  "sprites": 11,
+  "cg": 1,
+  "newImageGenCallsThisTurn": 11,
+  "reusedApprovedMaster": true,
+  "gameCode": "game.js",
+  "storyChange": {
+    "node": "s2_counter_06",
+    "change": "细框眼镜改为黑框眼镜",
+    "saveCompatibility": "先用旧文本严格验证存档，再沿已验证选择重放；保持engine.js和存档版本不变"
+  },
+  "runtimeNodes": {
+    "s2_counter_07": "action-explaining (CG09 fallback)",
+    "s2_counter_09": "expression-serious (CG09 fallback)",
+    "s2_counter_10": "expression-smile (CG09 fallback)",
+    "s2_counter_14": "action-thinking",
+    "s2_record_03": "expression-smile",
+    "s2_work_03": "action-explaining",
+    "s8_handoff_02": "action-phone",
+    "s8_handoff_04": "action-phone",
+    "s9_review_01": "expression-serious",
+    "s9_review_04": "action-explaining"
+  },
+  "validation": {
+    "browserStatus": "PASS",
+    "browserCases": 26,
+    "storyPaths": 1224,
+    "engineFixtureChecks": "120/120",
+    "byteIdenticalSprites": true
+  },
+  "deployment": "not_performed",
+  "backup": "qa/shijiang-optionA-20261020/before",
+  "concurrentWorkPreserved": "CG09使用编辑前最新毛狼造型；未覆盖毛狼当前立绘与CG06。旧历史候选和旧QA记录按历史资料保留。"
+}

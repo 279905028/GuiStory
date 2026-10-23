@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "id": "CG02",
+  "date": "2026-10-20",
+  "status": "美术自审采用；待用户审阅、工程接入及正式游戏验收",
+  "tool": "内置image_gen",
+  "storySha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+  "references": [
+    {
+      "path": "assets/char-xiaoman.png",
+      "sha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+      "role": "正式角色身份参考"
+    },
+    {
+      "path": "assets/char-wenwen.png",
+      "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "role": "正式角色身份参考"
+    },
+    {
+      "path": "assets/bg-salon.png",
+      "sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+      "role": "正式空间材质参考"
+    },
+    {
+      "path": "assets/cg-variants/CG02/sample-v1.png",
+      "sha256": "99a380c0b3c892a8fab777917dfa533ef6aaa00bd01aae38cd8d8b53aa1be601",
+      "role": "本图之前版本的编辑目标"
+    }
+  ],
+  "attempts": [
+    {
+      "version": "sample-v1",
+      "prompt": "用途：illustration-story；《毕节，雨停之前》第1—10天序章的完整剧情CG，不是立绘拼贴。统一画法：日系半写实视觉小说插画，成年中国人物，面部严格匹配正式角色参考，自然真实比例，细腻克制的绘画质感，旧物与衣料有生活纹理，灰青环境与实用暖光相融，不改成夸张动漫脸、3D玩偶或照片风格。横向16:9，目标1920×1080不透明PNG。所有重要脸、手和道具放在画面上方15%至62%范围，底部35%以非关键衣物、地面等自然场景延伸容纳将来的对白；不画任何文字、标注、对白框、界面、标题、边框、水印。人物与环境统一重绘，自然遮挡、透视和接触影，禁止把参考立绘直接贴入背景。\n本张CG02：第5天下午，普通街坊理发店，镜子旁的作品夹。输入图1仅作小满脸、浅金短发、砖红外套白内搭与成年22岁体型参考；图2仅作文文23岁短寸圆脸旧深灰维修夹克参考；图3仅作普通镜台、黑色理发椅和白天下午店面材质参考。叙事由站在空练习椅旁的文文看去：小满在画面偏右中景，认真且有一点好胜，抬眼看向文文，右手刚从收纳抽屉移开，左手轻扶镜台上合拢的作品夹。已经试过推剪，充电底座已收进抽屉，不再在台面摆一个充电底座。偏左中层是一把清楚空着的黑色练习椅，镜台上作品夹压住无文字的空白时段格。她还没有给文文剪头，文文没有坐椅子、没有围布；只能在镜面最右边缘露出一个自然站立的文文肩部和局部脸倒影，不在画外另加一个完整文文，不让镜子出现重复人、第二个小满或错位镜像。小满的脸中心约65%宽、30%高；作品夹与手约45%宽、50%高；空椅上半部在25%宽、45%高。窗外是阴天下午漫射日光，暖小灯轻轻补亮木镜框。关系是朋友之间尊重她认真学手艺的停顿，禁止浪漫贴近、理发进行中、展示已选好的照片、成绩文字。画面中的角色只有小满和镜中文文局部。",
+      "source": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a15384-7737-7423-837c-ceee66e56f7e/exec-1c81ae2a-91dc-4c43-a57e-405d767a170c.png",
+      "archive": "assets/cg-variants/CG02/sample-v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2450433,
+      "sha256": "99a380c0b3c892a8fab777917dfa533ef6aaa00bd01aae38cd8d8b53aa1be601",
+      "review": "脸与空椅成立；关键手和作品夹偏低，需构图修订。",
+      "inputReferences": [
+        {
+          "path": "assets/char-xiaoman.png",
+          "sha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3"
+        },
+        {
+          "path": "assets/char-wenwen.png",
+          "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44"
+        },
+        {
+          "path": "assets/bg-salon.png",
+          "sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7"
+        }
+      ],
+      "toolArguments": {
+        "prompt": "用途：illustration-story；《毕节，雨停之前》第1—10天序章的完整剧情CG，不是立绘拼贴。统一画法：日系半写实视觉小说插画，成年中国人物，面部严格匹配正式角色参考，自然真实比例，细腻克制的绘画质感，旧物与衣料有生活纹理，灰青环境与实用暖光相融，不改成夸张动漫脸、3D玩偶或照片风格。横向16:9，目标1920×1080不透明PNG。所有重要脸、手和道具放在画面上方15%至62%范围，底部35%以非关键衣物、地面等自然场景延伸容纳将来的对白；不画任何文字、标注、对白框、界面、标题、边框、水印。人物与环境统一重绘，自然遮挡、透视和接触影，禁止把参考立绘直接贴入背景。\n本张CG02：第5天下午，普通街坊理发店，镜子旁的作品夹。输入图1仅作小满脸、浅金短发、砖红外套白内搭与成年22岁体型参考；图2仅作文文23岁短寸圆脸旧深灰维修夹克参考；图3仅作普通镜台、黑色理发椅和白天下午店面材质参考。叙事由站在空练习椅旁的文文看去：小满在画面偏右中景，认真且有一点好胜，抬眼看向文文，右手刚从收纳抽屉移开，左手轻扶镜台上合拢的作品夹。已经试过推剪，充电底座已收进抽屉，不再在台面摆一个充电底座。偏左中层是一把清楚空着的黑色练习椅，镜台上作品夹压住无文字的空白时段格。她还没有给文文剪头，文文没有坐椅子、没有围布；只能在镜面最右边缘露出一个自然站立的文文肩部和局部脸倒影，不在画外另加一个完整文文，不让镜子出现重复人、第二个小满或错位镜像。小满的脸中心约65%宽、30%高；作品夹与手约45%宽、50%高；空椅上半部在25%宽、45%高。窗外是阴天下午漫射日光，暖小灯轻轻补亮木镜框。关系是朋友之间尊重她认真学手艺的停顿，禁止浪漫贴近、理发进行中、展示已选好的照片、成绩文字。画面中的角色只有小满和镜中文文局部。",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-xiaoman.png",
+          "/Users/yipin/Desktop/cjb/assets/char-wenwen.png",
+          "/Users/yipin/Desktop/cjb/assets/bg-salon.png"
+        ],
+        "transparent_background": false
+      }
+    },
+    {
+      "version": "candidate-v2",
+      "prompt": "用途：illustration-story。只修订这张既有理发店剧情CG的镜头构图，严格保持小满面孔、浅金短发、砖红外套、文文短寸圆脸深灰夹克、两人关系、下午自然光、统一日系半写实画法、空着的练习椅、镜面空间和道具种类不变。把镜头明显后退并稍微降低，让人物在画中更小且集中于上方：小满整张脸在纵向18%至36%；她自然扶在作品夹上的手、另一只刚离开收纳抽屉的手、合拢的作品夹和空椅上半部全部在纵向38%至61%，不要任何关键手或作品夹低过画面64%。画面底部36%只有非关键下摆、空椅下部和自然理发店地面，不能用黑条、纯色块或模糊遮盖伪造留白。保持头身比例，不缩短她的胳膊或躯干；通过整体后退和重构机位达成。抽屉里的充电底座不再在台面出现，文文没有坐椅、没有理发围布。镜中与实体反射严格一致，最左文文前景仅保留局部肩，不要一个巨大头挡住空椅。只有这两人，没有多余反射人物。横向16:9不透明完整PNG，目标1920×1080，绝不添加文字、界面、边框、水印。",
+      "references": [
+        "assets/cg-variants/CG02/sample-v1.png"
+      ],
+      "source": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a15384-7737-7423-837c-ceee66e56f7e/exec-7dc481dc-a7b0-4432-8719-3fbae927ea5e.png",
+      "archive": "assets/cg-variants/CG02/candidate-v2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2483983,
+      "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e",
+      "review": "构图修订采用：空椅、作品夹、两只手可辨，人设一致，手部无明显错接；镜中文文为同一实体的反射。",
+      "inputReferences": [
+        {
+          "path": "assets/cg-variants/CG02/sample-v1.png",
+          "sha256": "99a380c0b3c892a8fab777917dfa533ef6aaa00bd01aae38cd8d8b53aa1be601"
+        }
+      ],
+      "toolArguments": {
+        "prompt": "用途：illustration-story。只修订这张既有理发店剧情CG的镜头构图，严格保持小满面孔、浅金短发、砖红外套、文文短寸圆脸深灰夹克、两人关系、下午自然光、统一日系半写实画法、空着的练习椅、镜面空间和道具种类不变。把镜头明显后退并稍微降低，让人物在画中更小且集中于上方：小满整张脸在纵向18%至36%；她自然扶在作品夹上的手、另一只刚离开收纳抽屉的手、合拢的作品夹和空椅上半部全部在纵向38%至61%，不要任何关键手或作品夹低过画面64%。画面底部36%只有非关键下摆、空椅下部和自然理发店地面，不能用黑条、纯色块或模糊遮盖伪造留白。保持头身比例，不缩短她的胳膊或躯干；通过整体后退和重构机位达成。抽屉里的充电底座不再在台面出现，文文没有坐椅、没有理发围布。镜中与实体反射严格一致，最左文文前景仅保留局部肩，不要一个巨大头挡住空椅。只有这两人，没有多余反射人物。横向16:9不透明完整PNG，目标1920×1080，绝不添加文字、界面、边框、水印。",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/cg-variants/CG02/sample-v1.png"
+        ],
+        "transparent_background": false
+      }
+    }
+  ],
+  "adopted": {
+    "version": "candidate-v2",
+    "path": "assets/cg/cg-02-xiaoman-mirror.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2483983,
+    "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e",
+    "postprocessing": "无；原生PNG逐字节复制，未放大、裁切或拉伸",
+    "selectionAuthority": "本窗口依据已确认分镜与正式参考作美术自审采用；非用户逐图终审",
+    "dimensionNote": "保留原生输出，非1920×1080；不拉伸、不放大或伪称高分辨率母版"
+  },
+  "gameAcceptance": "未接入、未验收",
+  "criticalRegions": {
+    "coordinateSystem": "整张原图百分比[x,y,w,h]，左上原点",
+    "method": "人工观察估计，非像素级分割；只作布局避让说明，不能直接当裁切参数",
+    "items": [
+      {
+        "label": "小满脸",
+        "rect": [
+          57,
+          5,
+          12,
+          20
+        ]
+      },
+      {
+        "label": "作品夹与扶夹手",
+        "rect": [
+          67,
+          44,
+          16,
+          11
+        ]
+      },
+      {
+        "label": "收纳抽屉边的手",
+        "rect": [
+          59,
+          48,
+          8,
+          12
+        ]
+      },
+      {
+        "label": "空椅上部",
+        "rect": [
+          25,
+          37,
+          21,
+          28
+        ]
+      }
+    ]
+  },
+  "display": {
+    "approvedCrop": null,
+    "fit": "contain",
+    "desktop": "独立完整画面区，与对白区分开；不可直接沿用底部35%覆盖式对白",
+    "mobile": "完整横图、留边、独立对白；无竖版、无拉伸",
+    "reason": "实际多张图的关键道具或手位于原图下部，已按分镜约定的超出目标时改布局方案交接",
+    "staticChecks": [
+      {
+        "viewport": [
+          1440,
+          900
+        ],
+        "screenshot": "qa/cg-m2-CG02-static-1440x900.png"
+      },
+      {
+        "viewport": [
+          1280,
+          720
+        ],
+        "screenshot": "qa/cg-m2-CG02-static-1280x720.png"
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "screenshot": "qa/cg-m2-CG02-static-390x844.png"
+      },
+      {
+        "viewport": [
+          375,
+          667
+        ],
+        "screenshot": "qa/cg-m2-CG02-static-375x667.png"
+      },
+      {
+        "viewport": [
+          844,
+          390
+        ],
+        "screenshot": "qa/cg-m2-CG02-static-844x390.png"
+      }
+    ],
+    "rawChecks": "qa/cg-m2-static-checks.json",
+    "staticReviewPage": "qa/cg-m2-art-review.html",
+    "manualSmallScreenReview": "已逐张查看375×667截图；脸、动作及主要道具可辨；纸张细字不作识别要求",
+    "gameAcceptance": "未执行"
+  },
+  "integration": {
+    "cgKey": "cg02",
+    "nodeIds": [
+      "s5_mirror_03",
+      "s5_ride_walk_01",
+      "s5_ride_walk_02",
+      "s5_ride_taxi_01",
+      "s5_ride_taxi_02",
+      "s5_ride_leave_01",
+      "s5_ride_leave_02"
+    ],
+    "restoreAt": "s5_work_01",
+    "status": "待CG-D统一接入，story.js未修改",
+    "hidden": false,
+    "hiddenLoadBoundary": null
+  }
+}

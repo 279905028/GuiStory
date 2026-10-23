@@ -1,0 +1,45 @@
+{
+  "scope": "E04 actual isolated CLI build; public modules are fixtures",
+  "command": [
+    "node",
+    "任务拆分/三章扩展/build-story.cjs",
+    "--ten-chapter",
+    "--manifest",
+    "任务拆分/全十章/校验/E04/fixture/manifest.json"
+  ],
+  "exitCode": 0,
+  "stdout": "{\n  \"status\": \"passed\",\n  \"mode\": \"sample\",\n  \"formalIntegration\": false,\n  \"moduleCount\": 17,\n  \"nodeCount\": 758,\n  \"sceneCount\": 104,\n  \"output\": {\n    \"directory\": \"/Users/yipin/Desktop/cjb/任务拆分/全十章/构建/sample-a83e7e56184eb5db\",\n    \"contentHash\": \"a83e7e56184eb5db9c01a9ee7c591327876052d08831be32c2317cad478e2016\",\n    \"reused\": false\n  },\n  \"graph\": {\n    \"nodes\": 758,\n    \"edges\": 775,\n    \"choices\": 7,\n    \"options\": 19,\n    \"countsByType\": {\n      \"line\": 724,\n      \"end\": 13,\n      \"choice\": 7,\n      \"gate\": 14\n    },\n    \"exploredNodeStates\": 5029,\n    \"distinctFlagStates\": 81,\n    \"mergedNodeStates\": 0,\n    \"transitions\": 5028,\n    \"maximumFrontier\": 8,\n    \"terminalStates\": 32,\n    \"stoppedStates\": 17\n  }\n}\n\n",
+  "stderr": "",
+  "result": {
+    "status": "passed",
+    "mode": "sample",
+    "formalIntegration": false,
+    "moduleCount": 17,
+    "nodeCount": 758,
+    "sceneCount": 104,
+    "output": {
+      "directory": "/Users/yipin/Desktop/cjb/任务拆分/全十章/构建/sample-a83e7e56184eb5db",
+      "contentHash": "a83e7e56184eb5db9c01a9ee7c591327876052d08831be32c2317cad478e2016",
+      "reused": false
+    },
+    "graph": {
+      "nodes": 758,
+      "edges": 775,
+      "choices": 7,
+      "options": 19,
+      "countsByType": {
+        "line": 724,
+        "end": 13,
+        "choice": 7,
+        "gate": 14
+      },
+      "exploredNodeStates": 5029,
+      "distinctFlagStates": 81,
+      "mergedNodeStates": 0,
+      "transitions": 5028,
+      "maximumFrontier": 8,
+      "terminalStates": 32,
+      "stoppedStates": 17
+    }
+  }
+}

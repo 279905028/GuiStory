@@ -1,0 +1,132 @@
+{
+  "task": "A03",
+  "entries": [
+    {
+      "form": "sphere",
+      "key": "base",
+      "label": "球形·基础",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "source": "assets/char-huangqiuqiu.webp",
+      "output": "assets/char-huangqiuqiu.webp"
+    },
+    {
+      "form": "sphere",
+      "key": "expression-serious",
+      "label": "球形·认真",
+      "assetId": "tc-char-huangqiuqiu-orb-expression-serious",
+      "source": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+      "output": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp"
+    },
+    {
+      "form": "sphere",
+      "key": "expression-smile",
+      "label": "球形·微笑",
+      "assetId": "tc-char-huangqiuqiu-orb-expression-smile",
+      "source": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "output": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp"
+    },
+    {
+      "form": "sphere",
+      "key": "expression-hesitant",
+      "label": "球形·犹豫",
+      "assetId": "tc-char-huangqiuqiu-orb-expression-hesitant",
+      "source": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+      "output": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp"
+    },
+    {
+      "form": "sphere",
+      "key": "action-hand",
+      "label": "球形·轻搭手",
+      "assetId": "tc-look-huangqiuqiu-orb-hand",
+      "source": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-orb-hand-base.png",
+      "output": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-8c3b7119-bcd4-4c69-b95f-6ef7ee4ad0d6.png"
+    },
+    {
+      "form": "human",
+      "key": "base",
+      "label": "人形·基础",
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "source": "assets/character-variants/huangqiuqiu-human-20261022/char-huangqiuqiu-human-base.png",
+      "output": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp"
+    },
+    {
+      "form": "human",
+      "key": "expression-smile",
+      "label": "人形·微笑",
+      "assetId": "tc-char-huangqiuqiu-human-expression-smile",
+      "source": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-expression-smile-v2.png",
+      "output": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-smile.webp",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-7aeb300f-2170-4a15-a546-aef05ba1ca64.png",
+      "previousGeneration": {
+        "source": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-expression-smile.png",
+        "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-aa232b91-368e-4690-b0f5-136afca6778a.png",
+        "selected": false,
+        "reason": "袖部边缘留白偏紧；低落贴近画布底边"
+      }
+    },
+    {
+      "form": "human",
+      "key": "expression-hesitant",
+      "label": "人形·犹豫",
+      "assetId": "tc-char-huangqiuqiu-human-expression-hesitant",
+      "source": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-expression-hesitant.png",
+      "output": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-hesitant.webp",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-83f50f4d-eaba-4736-893d-49806c609172.png"
+    },
+    {
+      "form": "human",
+      "key": "expression-serious",
+      "label": "人形·认真",
+      "assetId": "tc-char-huangqiuqiu-human-expression-serious",
+      "source": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-expression-serious.png",
+      "output": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-serious.webp",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-8af21e7e-0699-44fc-823b-fe4e2507a3c8.png"
+    },
+    {
+      "form": "human",
+      "key": "expression-downcast",
+      "label": "人形·低落",
+      "assetId": "tc-char-huangqiuqiu-human-expression-downcast",
+      "source": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-expression-downcast-v2.png",
+      "output": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-downcast.webp",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-588ab5d1-d967-478c-bcd8-3b5df7a91cc0.png",
+      "previousGeneration": {
+        "source": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-expression-downcast.png",
+        "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-e9f23d11-7113-42db-8389-c74e32d4aed1.png",
+        "selected": false,
+        "reason": "袖部边缘留白偏紧；低落贴近画布底边"
+      }
+    },
+    {
+      "form": "human",
+      "key": "action-wave",
+      "label": "人形·挥手",
+      "assetId": "tc-char-huangqiuqiu-human-action-wave",
+      "source": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-action-wave-v2.png",
+      "output": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-action-wave.webp",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-c77a8d14-417e-495d-ae45-eaa0cc9e7b0c.png",
+      "previousGeneration": {
+        "source": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-action-wave.png",
+        "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-ce89e9af-ec26-48d1-9b1e-13f370abb47e.png",
+        "selected": false,
+        "reason": "袖部边缘留白偏紧；低落贴近画布底边"
+      }
+    },
+    {
+      "form": "human",
+      "key": "action-thinking",
+      "label": "人形·托腮",
+      "assetId": "tc-look-huangqiuqiu-human-chin",
+      "source": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-chin-base-v2.png",
+      "output": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-chin-base.webp",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-a1b15772-d000-4e64-91f1-19c925a20da3.png",
+      "previousGeneration": {
+        "source": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-chin-base.png",
+        "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-76584694-c046-4d58-a289-ebd099706795.png",
+        "selected": false,
+        "reason": "袖部边缘留白偏紧；低落贴近画布底边"
+      }
+    }
+  ]
+}

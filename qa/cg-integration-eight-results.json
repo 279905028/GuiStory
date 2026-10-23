@@ -1,0 +1,776 @@
+{
+  "date": "2026-10-20T02:11:06.212Z",
+  "scope": "正式剧情、实际PNG；隔离浏览器存储；非夹具剧情",
+  "smoke": true,
+  "logic": {
+    "semanticBaselineUnchanged": true,
+    "paths": 1224,
+    "compatibleSnapshots": 375,
+    "holders": 39,
+    "coverage": {
+      "cg01": 1224,
+      "cg02": 1224,
+      "cg03": 1224,
+      "cg04": 1224,
+      "cg05": 1224,
+      "cg06": 1224,
+      "cg07": 288,
+      "cg08": 72
+    }
+  },
+  "cases": [
+    {
+      "key": "cg01",
+      "width": 1280,
+      "height": 720,
+      "node": "s1_arrive_02",
+      "pass": true,
+      "screenshot": "qa/cg-integrated-cg01-1280x720.png",
+      "geometry": {
+        "fit": "contain",
+        "box": {
+          "x": 53.75,
+          "y": 93,
+          "width": 1172.5,
+          "height": 377,
+          "right": 1226.25,
+          "bottom": 470
+        },
+        "fitted": {
+          "x": 305.0669500531349,
+          "y": 93,
+          "right": 974.9330499468651,
+          "bottom": 470
+        },
+        "obscurers": [
+          {
+            "selector": ".scene-header",
+            "rect": {
+              "x": 53.75,
+              "y": 24,
+              "width": 1172.5,
+              "height": 57,
+              "right": 1226.25,
+              "bottom": 81
+            }
+          },
+          {
+            "selector": ".dialogue-shell",
+            "rect": {
+              "x": 53.75,
+              "y": 482,
+              "width": 1172.5,
+              "height": 216,
+              "right": 1226.25,
+              "bottom": 698
+            }
+          },
+          {
+            "selector": ".toolbar-controls",
+            "rect": {
+              "x": 849.46875,
+              "y": 653,
+              "width": 363.78125,
+              "height": 44,
+              "right": 1213.25,
+              "bottom": 697
+            }
+          },
+          {
+            "selector": ".menu-button",
+            "rect": {
+              "x": 1182.25,
+              "y": 30.5,
+              "width": 44,
+              "height": 44,
+              "right": 1226.25,
+              "bottom": 74.5
+            }
+          }
+        ],
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "ordinary": [
+          null,
+          null
+        ],
+        "src": "assets/cg/cg-01-rain-return.png"
+      }
+    },
+    {
+      "key": "cg02",
+      "width": 1280,
+      "height": 720,
+      "node": "s5_mirror_03",
+      "pass": true,
+      "screenshot": "qa/cg-integrated-cg02-1280x720.png",
+      "geometry": {
+        "fit": "contain",
+        "box": {
+          "x": 53.75,
+          "y": 93,
+          "width": 1172.5,
+          "height": 377,
+          "right": 1226.25,
+          "bottom": 470
+        },
+        "fitted": {
+          "x": 305.0669500531349,
+          "y": 93,
+          "right": 974.9330499468651,
+          "bottom": 470
+        },
+        "obscurers": [
+          {
+            "selector": ".scene-header",
+            "rect": {
+              "x": 53.75,
+              "y": 24,
+              "width": 1172.5,
+              "height": 57,
+              "right": 1226.25,
+              "bottom": 81
+            }
+          },
+          {
+            "selector": ".dialogue-shell",
+            "rect": {
+              "x": 53.75,
+              "y": 482,
+              "width": 1172.5,
+              "height": 216,
+              "right": 1226.25,
+              "bottom": 698
+            }
+          },
+          {
+            "selector": ".toolbar-controls",
+            "rect": {
+              "x": 849.46875,
+              "y": 653,
+              "width": 363.78125,
+              "height": 44,
+              "right": 1213.25,
+              "bottom": 697
+            }
+          },
+          {
+            "selector": ".menu-button",
+            "rect": {
+              "x": 1182.25,
+              "y": 30.5,
+              "width": 44,
+              "height": 44,
+              "right": 1226.25,
+              "bottom": 74.5
+            }
+          }
+        ],
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "ordinary": [
+          null,
+          null
+        ],
+        "src": "assets/cg/cg-02-xiaoman-mirror.png"
+      }
+    },
+    {
+      "key": "cg03",
+      "width": 1280,
+      "height": 720,
+      "node": "s6_plan_04",
+      "pass": true,
+      "screenshot": "qa/cg-integrated-cg03-1280x720.png",
+      "geometry": {
+        "fit": "contain",
+        "box": {
+          "x": 53.75,
+          "y": 93,
+          "width": 1172.5,
+          "height": 377,
+          "right": 1226.25,
+          "bottom": 470
+        },
+        "fitted": {
+          "x": 305.0669500531349,
+          "y": 93,
+          "right": 974.9330499468651,
+          "bottom": 470
+        },
+        "obscurers": [
+          {
+            "selector": ".scene-header",
+            "rect": {
+              "x": 53.75,
+              "y": 24,
+              "width": 1172.5,
+              "height": 57,
+              "right": 1226.25,
+              "bottom": 81
+            }
+          },
+          {
+            "selector": ".dialogue-shell",
+            "rect": {
+              "x": 53.75,
+              "y": 482,
+              "width": 1172.5,
+              "height": 216,
+              "right": 1226.25,
+              "bottom": 698
+            }
+          },
+          {
+            "selector": ".toolbar-controls",
+            "rect": {
+              "x": 849.46875,
+              "y": 653,
+              "width": 363.78125,
+              "height": 44,
+              "right": 1213.25,
+              "bottom": 697
+            }
+          },
+          {
+            "selector": ".menu-button",
+            "rect": {
+              "x": 1182.25,
+              "y": 30.5,
+              "width": 44,
+              "height": 44,
+              "right": 1226.25,
+              "bottom": 74.5
+            }
+          }
+        ],
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "ordinary": [
+          null,
+          null
+        ],
+        "src": "assets/cg/cg-03-zhouzhi-noodles.png"
+      }
+    },
+    {
+      "key": "cg04",
+      "width": 1280,
+      "height": 720,
+      "node": "s7_camera_01",
+      "pass": true,
+      "screenshot": "qa/cg-integrated-cg04-1280x720.png",
+      "geometry": {
+        "fit": "contain",
+        "box": {
+          "x": 53.75,
+          "y": 93,
+          "width": 1172.5,
+          "height": 377,
+          "right": 1226.25,
+          "bottom": 470
+        },
+        "fitted": {
+          "x": 305.0669500531349,
+          "y": 93,
+          "right": 974.9330499468651,
+          "bottom": 470
+        },
+        "obscurers": [
+          {
+            "selector": ".scene-header",
+            "rect": {
+              "x": 53.75,
+              "y": 24,
+              "width": 1172.5,
+              "height": 57,
+              "right": 1226.25,
+              "bottom": 81
+            }
+          },
+          {
+            "selector": ".dialogue-shell",
+            "rect": {
+              "x": 53.75,
+              "y": 482,
+              "width": 1172.5,
+              "height": 216,
+              "right": 1226.25,
+              "bottom": 698
+            }
+          },
+          {
+            "selector": ".toolbar-controls",
+            "rect": {
+              "x": 849.46875,
+              "y": 653,
+              "width": 363.78125,
+              "height": 44,
+              "right": 1213.25,
+              "bottom": 697
+            }
+          },
+          {
+            "selector": ".menu-button",
+            "rect": {
+              "x": 1182.25,
+              "y": 30.5,
+              "width": 44,
+              "height": 44,
+              "right": 1226.25,
+              "bottom": 74.5
+            }
+          }
+        ],
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "ordinary": [
+          null,
+          null
+        ],
+        "src": "assets/cg/cg-04-mengyao-camera.png"
+      }
+    },
+    {
+      "key": "cg05",
+      "width": 1280,
+      "height": 720,
+      "node": "s8_count_01",
+      "pass": true,
+      "screenshot": "qa/cg-integrated-cg05-1280x720.png",
+      "geometry": {
+        "fit": "contain",
+        "box": {
+          "x": 53.75,
+          "y": 93,
+          "width": 1172.5,
+          "height": 377,
+          "right": 1226.25,
+          "bottom": 470
+        },
+        "fitted": {
+          "x": 305.0669500531349,
+          "y": 93,
+          "right": 974.9330499468651,
+          "bottom": 470
+        },
+        "obscurers": [
+          {
+            "selector": ".scene-header",
+            "rect": {
+              "x": 53.75,
+              "y": 24,
+              "width": 1172.5,
+              "height": 57,
+              "right": 1226.25,
+              "bottom": 81
+            }
+          },
+          {
+            "selector": ".dialogue-shell",
+            "rect": {
+              "x": 53.75,
+              "y": 482,
+              "width": 1172.5,
+              "height": 216,
+              "right": 1226.25,
+              "bottom": 698
+            }
+          },
+          {
+            "selector": ".toolbar-controls",
+            "rect": {
+              "x": 849.46875,
+              "y": 653,
+              "width": 363.78125,
+              "height": 44,
+              "right": 1213.25,
+              "bottom": 697
+            }
+          },
+          {
+            "selector": ".menu-button",
+            "rect": {
+              "x": 1182.25,
+              "y": 30.5,
+              "width": 44,
+              "height": 44,
+              "right": 1226.25,
+              "bottom": 74.5
+            }
+          }
+        ],
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "ordinary": [
+          null,
+          null
+        ],
+        "src": "assets/cg/cg-05-yelan-inventory.png"
+      }
+    },
+    {
+      "key": "cg06",
+      "width": 1280,
+      "height": 720,
+      "node": "s9_compete_08",
+      "pass": true,
+      "screenshot": "qa/cg-integrated-cg06-1280x720.png",
+      "geometry": {
+        "fit": "contain",
+        "box": {
+          "x": 53.75,
+          "y": 93,
+          "width": 1172.5,
+          "height": 377,
+          "right": 1226.25,
+          "bottom": 470
+        },
+        "fitted": {
+          "x": 304.7106382978723,
+          "y": 93,
+          "right": 975.2893617021277,
+          "bottom": 470
+        },
+        "obscurers": [
+          {
+            "selector": ".scene-header",
+            "rect": {
+              "x": 53.75,
+              "y": 24,
+              "width": 1172.5,
+              "height": 57,
+              "right": 1226.25,
+              "bottom": 81
+            }
+          },
+          {
+            "selector": ".dialogue-shell",
+            "rect": {
+              "x": 53.75,
+              "y": 482,
+              "width": 1172.5,
+              "height": 216,
+              "right": 1226.25,
+              "bottom": 698
+            }
+          },
+          {
+            "selector": ".toolbar-controls",
+            "rect": {
+              "x": 849.46875,
+              "y": 653,
+              "width": 363.78125,
+              "height": 44,
+              "right": 1213.25,
+              "bottom": 697
+            }
+          },
+          {
+            "selector": ".menu-button",
+            "rect": {
+              "x": 1182.25,
+              "y": 30.5,
+              "width": 44,
+              "height": 44,
+              "right": 1226.25,
+              "bottom": 74.5
+            }
+          }
+        ],
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "ordinary": [
+          null,
+          null
+        ],
+        "src": "assets/cg/cg-06-maolang-confession.png"
+      }
+    },
+    {
+      "key": "cg07",
+      "width": 1280,
+      "height": 720,
+      "node": "preview_yelan_10",
+      "pass": true,
+      "screenshot": "qa/cg-integrated-cg07-1280x720.png",
+      "geometry": {
+        "fit": "contain",
+        "box": {
+          "x": 53.75,
+          "y": 93,
+          "width": 1172.5,
+          "height": 377,
+          "right": 1226.25,
+          "bottom": 470
+        },
+        "fitted": {
+          "x": 305.0669500531349,
+          "y": 93,
+          "right": 974.9330499468651,
+          "bottom": 470
+        },
+        "obscurers": [
+          {
+            "selector": ".scene-header",
+            "rect": {
+              "x": 53.75,
+              "y": 24,
+              "width": 1172.5,
+              "height": 57,
+              "right": 1226.25,
+              "bottom": 81
+            }
+          },
+          {
+            "selector": ".dialogue-shell",
+            "rect": {
+              "x": 53.75,
+              "y": 482,
+              "width": 1172.5,
+              "height": 216,
+              "right": 1226.25,
+              "bottom": 698
+            }
+          },
+          {
+            "selector": ".toolbar-controls",
+            "rect": {
+              "x": 849.46875,
+              "y": 653,
+              "width": 363.78125,
+              "height": 44,
+              "right": 1213.25,
+              "bottom": 697
+            }
+          },
+          {
+            "selector": ".menu-button",
+            "rect": {
+              "x": 1182.25,
+              "y": 30.5,
+              "width": 44,
+              "height": 44,
+              "right": 1226.25,
+              "bottom": 74.5
+            }
+          }
+        ],
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "ordinary": [
+          null,
+          null
+        ],
+        "src": "assets/cg/cg-07-yelan-off-duty.png"
+      }
+    },
+    {
+      "key": "cg08",
+      "width": 1280,
+      "height": 720,
+      "node": "preview_qiu_12",
+      "pass": true,
+      "screenshot": "qa/cg-integrated-cg08-1280x720.png",
+      "geometry": {
+        "fit": "contain",
+        "box": {
+          "x": 53.75,
+          "y": 93,
+          "width": 1172.5,
+          "height": 377,
+          "right": 1226.25,
+          "bottom": 470
+        },
+        "fitted": {
+          "x": 305.0669500531349,
+          "y": 93,
+          "right": 974.9330499468651,
+          "bottom": 470
+        },
+        "obscurers": [
+          {
+            "selector": ".scene-header",
+            "rect": {
+              "x": 53.75,
+              "y": 24,
+              "width": 1172.5,
+              "height": 57,
+              "right": 1226.25,
+              "bottom": 81
+            }
+          },
+          {
+            "selector": ".dialogue-shell",
+            "rect": {
+              "x": 53.75,
+              "y": 482,
+              "width": 1172.5,
+              "height": 216,
+              "right": 1226.25,
+              "bottom": 698
+            }
+          },
+          {
+            "selector": ".toolbar-controls",
+            "rect": {
+              "x": 849.46875,
+              "y": 653,
+              "width": 363.78125,
+              "height": 44,
+              "right": 1213.25,
+              "bottom": 697
+            }
+          },
+          {
+            "selector": ".menu-button",
+            "rect": {
+              "x": 1182.25,
+              "y": 30.5,
+              "width": 44,
+              "height": 44,
+              "right": 1226.25,
+              "bottom": 74.5
+            }
+          }
+        ],
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "scroll": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720
+        },
+        "ordinary": [
+          null,
+          null
+        ],
+        "src": "assets/cg/cg-08-huangqiuqiu-listening.png"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "正文、选项及拓扑未变；1224路径、375同文本旧快照和精确CG范围通过",
+      "pass": true,
+      "details": {
+        "semanticBaselineUnchanged": true,
+        "paths": 1224,
+        "compatibleSnapshots": 375,
+        "holders": 39,
+        "coverage": {
+          "cg01": 1224,
+          "cg02": 1224,
+          "cg03": 1224,
+          "cg04": 1224,
+          "cg05": 1224,
+          "cg06": 1224,
+          "cg07": 288,
+          "cg08": 72
+        }
+      }
+    },
+    {
+      "name": "正式CG中手动存档、切普通档、读回、刷新继续与菜单恢复",
+      "pass": true,
+      "details": {
+        "node": "s5_mirror_03"
+      }
+    },
+    {
+      "name": "隐藏图只在合法_12之后请求；普通档/结束页/重选清除隐藏画面",
+      "pass": true,
+      "details": {
+        "first": "preview_qiu_12"
+      }
+    }
+  ],
+  "pageErrors": [],
+  "requests": [
+    {
+      "width": 1280,
+      "height": 720,
+      "paths": [
+        "assets/cg/cg-01-rain-return.png",
+        "assets/cg/cg-02-xiaoman-mirror.png",
+        "assets/cg/cg-03-zhouzhi-noodles.png",
+        "assets/cg/cg-04-mengyao-camera.png",
+        "assets/cg/cg-05-yelan-inventory.png",
+        "assets/cg/cg-06-maolang-confession.png",
+        "assets/cg/cg-07-yelan-off-duty.png",
+        "assets/cg/cg-08-huangqiuqiu-listening.png",
+        "assets/cg/cg-02-xiaoman-mirror.png",
+        "assets/cg/cg-02-xiaoman-mirror.png"
+      ]
+    }
+  ],
+  "fingerprints": {
+    "story.js": "c2ab5df435091691f15ad9bb07fc2f05c26df3b80ecc45145a99ef793540d579",
+    "engine.js": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+    "game.js": "6bcd399cccb020e079061b8c08a4ff782dae8693a2de5189b8212080352b9cc4",
+    "index.html": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+    "styles.css": "48b6c1c4b106d9e89cf0ebcc744546203767f3b25616ac314731f6320be53bc3",
+    "assets/cg-manifest.json": "a78e3047eface54a3a2b9c2f03a76c6e7051af40f859824b9e12313e7de1b6e0"
+  },
+  "pass": true,
+  "finishedAt": "2026-10-20T02:11:19.445Z"
+}

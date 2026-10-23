@@ -1,0 +1,28 @@
+{
+  "specs": [
+    {
+      "id": "netcafe-pc-night",
+      "mode": "edit",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Change to rainy NIGHT, glass windows dark blue outside with street lamps, interior lights and screens remain ON. Also remove the single tiny background customer head at extreme upper left behind the screens, replacing only that area with continuous empty chair/wall. No people anywhere. Keep BOTH side-by-side stations, keyboards, water bottles and cashier same.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/backgrounds/sources/bg-netcafe-pc-day.png"
+      ]
+    },
+    {
+      "id": "used-books-closed-dusk",
+      "mode": "edit",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Same exact stall site, now NOT OPEN during still-bright early evening. Remove ALL displayed books and the bookcase contents, put empty folding tables neatly together under the same canopy; cover stored boxes with plain cloth. Wide central stone steps empty and usable for sitting. Keep walls, steps, awning and framing fixed; soft warm-gray dusk daylight, no night sky. No paper cranes, people or new props.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/backgrounds/sources/bg-used-books-day.png"
+      ]
+    },
+    {
+      "id": "bridge-dusk",
+      "mode": "edit",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Only change lighting to softer warm LATE AFTERNOON / early evening, still clearly daytime, for two-years-later 17:40 visit. Keep bridge, shaobing stall, steps, river water level and camera identical. Soft warm low sun with gray cloud fill, no night lamps domination.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/backgrounds/sources/bg-bridge-day.png"
+      ]
+    }
+  ]
+}

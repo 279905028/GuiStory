@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-19",
+  "note": "M3没有写这些文件；并行任务可能独立更新文件，hash变化不自动归因M3。",
+  "files": [
+    {
+      "path": "assets/char-wenwen.png",
+      "baselineSha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "currentSha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "matchesBaseline": true
+    },
+    {
+      "path": "assets/char-xiaoman.png",
+      "baselineSha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+      "currentSha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+      "matchesBaseline": true
+    },
+    {
+      "path": "assets/char-zhouzhi.png",
+      "baselineSha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+      "currentSha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+      "matchesBaseline": true
+    },
+    {
+      "path": "assets/char-mengyao.png",
+      "baselineSha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+      "currentSha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+      "matchesBaseline": true
+    },
+    {
+      "path": "assets/char-yelan.png",
+      "baselineSha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+      "currentSha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+      "matchesBaseline": true
+    },
+    {
+      "path": "assets/bg-street.png",
+      "baselineSha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "currentSha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "matchesBaseline": true
+    },
+    {
+      "path": "assets/bg-repair.png",
+      "baselineSha256": "3b918a88c0d486575fa18d09afb70a37f9e1743257dd49ce1a44f72416e098aa",
+      "currentSha256": "3b918a88c0d486575fa18d09afb70a37f9e1743257dd49ce1a44f72416e098aa",
+      "matchesBaseline": true
+    },
+    {
+      "path": "assets/bg-lobby.png",
+      "baselineSha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871",
+      "currentSha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871",
+      "matchesBaseline": true
+    },
+    {
+      "path": "assets/bg-room.png",
+      "baselineSha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+      "currentSha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+      "matchesBaseline": true
+    },
+    {
+      "path": "assets/bg-noodles.png",
+      "baselineSha256": "b3b2bd4aa1421b504417a1d37900add3ed69202f7d0f680c2da1be698a3dc984",
+      "currentSha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+      "matchesBaseline": false
+    },
+    {
+      "path": "assets/bg-salon.png",
+      "baselineSha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+      "currentSha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+      "matchesBaseline": true
+    },
+    {
+      "path": "assets/references/huangqiuqiu-reference.jpg",
+      "baselineSha256": "3762f93aadaac1244c0d403471e96b1ff5f4a42e1688746a4c756d6c4cb6c574",
+      "currentSha256": "3762f93aadaac1244c0d403471e96b1ff5f4a42e1688746a4c756d6c4cb6c574",
+      "matchesBaseline": true
+    },
+    {
+      "path": "assets/characters-manifest.json",
+      "baselineSha256": "40078c78ae9e49199d8a4d46e3f84f7ba115fe0389481d6c89769be44c841271",
+      "currentSha256": "40078c78ae9e49199d8a4d46e3f84f7ba115fe0389481d6c89769be44c841271",
+      "matchesBaseline": true
+    },
+    {
+      "path": "assets/backgrounds-manifest.json",
+      "baselineExists": false,
+      "currentExists": false,
+      "matchesBaseline": null
+    },
+    {
+      "path": "index.html",
+      "baselineSha256": "376290050b9b95f64c7c55f3e8fa0180a78bb7368887132855d47e49ac132488",
+      "currentSha256": "376290050b9b95f64c7c55f3e8fa0180a78bb7368887132855d47e49ac132488",
+      "matchesBaseline": true
+    },
+    {
+      "path": "styles.css",
+      "baselineSha256": "805fc2525186292f469c816cebcb95da09dfb876feecb0e45623cd3aaeed552e",
+      "currentSha256": "805fc2525186292f469c816cebcb95da09dfb876feecb0e45623cd3aaeed552e",
+      "matchesBaseline": true
+    },
+    {
+      "path": "game.js",
+      "baselineSha256": "5d33c68c6377af856f6f7946a57473dc856b007b58f47166f9b27affe59728ac",
+      "currentSha256": "1f6357867d93ae1e420bb0eeee3e330814f6123fb676e63f97771e911e74e91c",
+      "matchesBaseline": false
+    },
+    {
+      "path": "engine.js",
+      "baselineSha256": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+      "currentSha256": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+      "matchesBaseline": true
+    },
+    {
+      "path": "story.js",
+      "baselineSha256": "2e1ec1d6bcd544fc863ee452cc1bbcc40cd0b20b144c4d47f7d4ea0fe68a83e8",
+      "currentSha256": "2e1ec1d6bcd544fc863ee452cc1bbcc40cd0b20b144c4d47f7d4ea0fe68a83e8",
+      "matchesBaseline": true
+    },
+    {
+      "path": "任务拆分/共享契约.md",
+      "baselineSha256": "1f04efc153fa9cd6516efec2122b627d78a198f7f2d18e035f3c1ae17e271a82",
+      "currentSha256": "1f04efc153fa9cd6516efec2122b627d78a198f7f2d18e035f3c1ae17e271a82",
+      "matchesBaseline": true
+    },
+    {
+      "path": "任务拆分/角色与隐藏线-R2.md",
+      "baselineSha256": "f3f17d121ee18b63eef80df1a4699f308ecd12f95f9109c439cdf0f5d971b1b4",
+      "currentSha256": "f3f17d121ee18b63eef80df1a4699f308ecd12f95f9109c439cdf0f5d971b1b4",
+      "matchesBaseline": true
+    }
+  ]
+}

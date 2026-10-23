@@ -1,0 +1,1089 @@
+{
+  "startedAt": "2026-10-21T06:37:46.396Z",
+  "pass": true,
+  "initialHashes": {
+    "index.html": "2ae59b07bff371230049395148dc83bde549443889775d9679a405dc932f4ffa",
+    "styles.css": "71a08eb8e30a8f3a8186ec6bd6fb897a9fdf837d46045558cf5cfd337b3f8dd5",
+    "story.js": "5d9b3dad53fa7de88269f7e605db4cf2e7b80a92587dedffda0e425bb1878e7a",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "save-compat.js": "4ab32d0447c98650719bd61e29615f07d9ebfdc67596e3774a94953c4f98e742",
+    "game.js": "87a8d773c3f51ae930663d8edec927c19a7a0f61076e79d6c6a915848fdc9c6c",
+    "assets/runtime-v0.4-manifest.json": "64f1313a791f48aa0a879eca8d77ee70a0933c167063e3e2ebaac51465bd06d5",
+    "assets/webp-manifest.json": "cede257dd2a2d4d57fc89b6f783bdd93ff57e154fea22f9c2ba1e57812715996"
+  },
+  "cases": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "pass": true,
+      "cover": {
+        "src": "http://127.0.0.1:61684/assets/cover-b-desktop.webp",
+        "width": 1672,
+        "height": 941,
+        "visible": true
+      },
+      "cg": {
+        "src": "http://127.0.0.1:61684/assets/cg/cg-01-rain-return.webp",
+        "width": 1672,
+        "height": 941,
+        "visible": true
+      },
+      "cgLayout": {
+        "fit": "contain",
+        "image": {
+          "left": 60.46875,
+          "top": 135.5,
+          "right": 1379.53125,
+          "bottom": 578,
+          "width": 1319.0625,
+          "height": 442.5
+        },
+        "dialogue": {
+          "left": 61.46875,
+          "top": 591,
+          "right": 1378.53125,
+          "bottom": 787
+        }
+      },
+      "sprite": {
+        "src": "http://127.0.0.1:61684/assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.webp",
+        "width": 1024,
+        "height": 1536,
+        "visible": true
+      },
+      "alpha": {
+        "transparent": 751414,
+        "visible": 821450,
+        "maximumAlpha": 254
+      },
+      "background": {
+        "src": "http://127.0.0.1:61684/assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+        "width": 1672,
+        "height": 941,
+        "visible": true
+      },
+      "heroine": {
+        "src": "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+        "width": 1024,
+        "height": 1536,
+        "visible": true
+      },
+      "saveContinueAndReload": true,
+      "requests": 29
+    },
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "pass": true,
+      "cover": {
+        "src": "http://127.0.0.1:61684/assets/cover-b-desktop.webp",
+        "width": 1672,
+        "height": 941,
+        "visible": true
+      },
+      "cg": {
+        "src": "http://127.0.0.1:61684/assets/cg/cg-01-rain-return.webp",
+        "width": 1672,
+        "height": 941,
+        "visible": true
+      },
+      "cgLayout": {
+        "fit": "contain",
+        "image": {
+          "left": 53.75,
+          "top": 87.5,
+          "right": 1226.25,
+          "bottom": 470,
+          "width": 1172.5,
+          "height": 382.5
+        },
+        "dialogue": {
+          "left": 54.75,
+          "top": 483,
+          "right": 1225.25,
+          "bottom": 652
+        }
+      },
+      "sprite": {
+        "src": "http://127.0.0.1:61684/assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.webp",
+        "width": 1024,
+        "height": 1536,
+        "visible": true
+      },
+      "alpha": {
+        "transparent": 751414,
+        "visible": 821450,
+        "maximumAlpha": 254
+      },
+      "background": {
+        "src": "http://127.0.0.1:61684/assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+        "width": 1672,
+        "height": 941,
+        "visible": true
+      },
+      "heroine": {
+        "src": "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+        "width": 1024,
+        "height": 1536,
+        "visible": true
+      },
+      "saveContinueAndReload": true,
+      "requests": 29
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pass": true,
+      "cover": {
+        "src": "http://127.0.0.1:61684/assets/cover-b-mobile.webp",
+        "width": 941,
+        "height": 1672,
+        "visible": true
+      },
+      "cg": {
+        "src": "http://127.0.0.1:61684/assets/cg/cg-01-rain-return.webp",
+        "width": 1672,
+        "height": 941,
+        "visible": true
+      },
+      "cgLayout": {
+        "fit": "contain",
+        "image": {
+          "left": 14,
+          "top": 80,
+          "right": 376,
+          "bottom": 535.046875,
+          "width": 362,
+          "height": 455.046875
+        },
+        "dialogue": {
+          "left": 15,
+          "top": 546.046875,
+          "right": 375,
+          "bottom": 786
+        }
+      },
+      "sprite": {
+        "src": "http://127.0.0.1:61684/assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.webp",
+        "width": 1024,
+        "height": 1536,
+        "visible": true
+      },
+      "alpha": {
+        "transparent": 751414,
+        "visible": 821450,
+        "maximumAlpha": 254
+      },
+      "background": {
+        "src": "http://127.0.0.1:61684/assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+        "width": 1672,
+        "height": 941,
+        "visible": true
+      },
+      "heroine": {
+        "src": "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+        "width": 1024,
+        "height": 1536,
+        "visible": true
+      },
+      "saveContinueAndReload": true,
+      "requests": 29
+    },
+    {
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "pass": true,
+      "cover": {
+        "src": "http://127.0.0.1:61684/assets/cover-b-mobile.webp",
+        "width": 941,
+        "height": 1672,
+        "visible": true
+      },
+      "cg": {
+        "src": "http://127.0.0.1:61684/assets/cg/cg-01-rain-return.webp",
+        "width": 1672,
+        "height": 941,
+        "visible": true
+      },
+      "cgLayout": {
+        "fit": "contain",
+        "image": {
+          "left": 14,
+          "top": 80,
+          "right": 361,
+          "bottom": 410,
+          "width": 347,
+          "height": 330
+        },
+        "dialogue": {
+          "left": 15,
+          "top": 421,
+          "right": 360,
+          "bottom": 609
+        }
+      },
+      "sprite": {
+        "src": "http://127.0.0.1:61684/assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.webp",
+        "width": 1024,
+        "height": 1536,
+        "visible": true
+      },
+      "alpha": {
+        "transparent": 751414,
+        "visible": 821450,
+        "maximumAlpha": 254
+      },
+      "background": {
+        "src": "http://127.0.0.1:61684/assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+        "width": 1672,
+        "height": 941,
+        "visible": true
+      },
+      "heroine": {
+        "src": "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+        "width": 1024,
+        "height": 1536,
+        "visible": true
+      },
+      "saveContinueAndReload": true,
+      "requests": 29
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "pass": true,
+      "cover": {
+        "src": "http://127.0.0.1:61684/assets/cover-b-desktop.webp",
+        "width": 1672,
+        "height": 941,
+        "visible": true
+      },
+      "cg": {
+        "src": "http://127.0.0.1:61684/assets/cg/cg-01-rain-return.webp",
+        "width": 1672,
+        "height": 941,
+        "visible": true
+      },
+      "cgLayout": {
+        "fit": "contain",
+        "image": {
+          "left": 20,
+          "top": 72,
+          "right": 404.375,
+          "bottom": 378,
+          "width": 384.375,
+          "height": 306
+        },
+        "dialogue": {
+          "left": 421.375,
+          "top": 73,
+          "right": 823,
+          "bottom": 332
+        }
+      },
+      "sprite": {
+        "src": "http://127.0.0.1:61684/assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.webp",
+        "width": 1024,
+        "height": 1536,
+        "visible": true
+      },
+      "alpha": {
+        "transparent": 751414,
+        "visible": 821450,
+        "maximumAlpha": 254
+      },
+      "background": {
+        "src": "http://127.0.0.1:61684/assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+        "width": 1672,
+        "height": 941,
+        "visible": true
+      },
+      "heroine": {
+        "src": "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+        "width": 1024,
+        "height": 1536,
+        "visible": true
+      },
+      "saveContinueAndReload": true,
+      "requests": 29
+    }
+  ],
+  "decodeResults": [
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-street-day.webp",
+      "width": 1671,
+      "height": 941
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-busstop-day.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-echo-entrance-night.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-noodles-dusk.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-old-eaves-day.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-residential-slope-day.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-slope-junction-night.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/bg-lobby.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/bg-noodles.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/bg-repair.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/bg-room.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/bg-salon.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/bg-street.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/cg/cg-01-rain-return.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/cg/cg-02-xiaoman-mirror.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/cg/cg-03-zhouzhi-noodles.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/cg/cg-04-mengyao-camera.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/cg/cg-05-yelan-inventory.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/cg/cg-06-maolang-confession.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/cg/cg-07-yelan-off-duty.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/cg/cg-08-huangqiuqiu-listening.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/cg/cg-09-repair-handoff.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/cg/cg-13-xiaoman-night-stall.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/char-huangqiuqiu.webp",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "assets/char-maolang.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/char-piao.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/char-shijiang.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/char-wenwen.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-explaining.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-displeased.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-serious.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-smile.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-serious.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-smile.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-explaining.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/mengyao-face-v2-candidate.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-explaining.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-thinking.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-wave.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-displeased.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-phone.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-wave.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-displeased.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/yelan-face-v2-candidate.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/cover-b-desktop.webp",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "path": "assets/cover-b-mobile.webp",
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-displeased.webp",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-downcast.webp",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536
+    }
+  ],
+  "faults": [
+    {
+      "type": "sprite",
+      "blocked": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.webp",
+      "pass": true,
+      "fallbackVisible": true,
+      "continuedTo": "h1",
+      "expectedFaultRequests": 1
+    },
+    {
+      "type": "cg",
+      "blocked": "assets/cg/cg-01-rain-return.webp",
+      "pass": true,
+      "fallbackVisible": true,
+      "continuedTo": "s1_arrive_03",
+      "expectedFaultRequests": 1
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "qa/webp-20261021/title-1440x900.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "label": "title"
+    },
+    {
+      "file": "qa/webp-20261021/cg-1440x900.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "label": "cg"
+    },
+    {
+      "file": "qa/webp-20261021/story-1440x900.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "label": "story"
+    },
+    {
+      "file": "qa/webp-20261021/title-1280x720.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "label": "title"
+    },
+    {
+      "file": "qa/webp-20261021/cg-1280x720.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "label": "cg"
+    },
+    {
+      "file": "qa/webp-20261021/story-1280x720.png",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "label": "story"
+    },
+    {
+      "file": "qa/webp-20261021/title-390x844.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "label": "title"
+    },
+    {
+      "file": "qa/webp-20261021/cg-390x844.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "label": "cg"
+    },
+    {
+      "file": "qa/webp-20261021/story-390x844.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "label": "story"
+    },
+    {
+      "file": "qa/webp-20261021/title-375x667.png",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "label": "title"
+    },
+    {
+      "file": "qa/webp-20261021/cg-375x667.png",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "label": "cg"
+    },
+    {
+      "file": "qa/webp-20261021/story-375x667.png",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "label": "story"
+    },
+    {
+      "file": "qa/webp-20261021/title-844x390.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "label": "title"
+    },
+    {
+      "file": "qa/webp-20261021/cg-844x390.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "label": "cg"
+    },
+    {
+      "file": "qa/webp-20261021/story-844x390.png",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "label": "story"
+    }
+  ],
+  "pageErrors": [],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:61684/",
+    "http://127.0.0.1:61684/styles.css",
+    "http://127.0.0.1:61684/story.js",
+    "http://127.0.0.1:61684/assets/bg-street.webp",
+    "http://127.0.0.1:61684/assets/cover-b-desktop.webp",
+    "http://127.0.0.1:61684/assets/char-wenwen.webp",
+    "http://127.0.0.1:61684/engine.js",
+    "http://127.0.0.1:61684/save-compat.js",
+    "http://127.0.0.1:61684/game.js",
+    "http://127.0.0.1:61684/assets/backgrounds/bijie-20261020/bg-busstop-day.webp",
+    "http://127.0.0.1:61684/assets/cg/cg-01-rain-return.webp",
+    "http://127.0.0.1:61684/assets/bg-repair.webp",
+    "http://127.0.0.1:61684/assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.webp",
+    "http://127.0.0.1:61684/assets/char-shijiang.webp",
+    "http://127.0.0.1:61684/assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+    "http://127.0.0.1:61684/assets/character-variants/xiaoman-face-v2-candidate.webp",
+    "http://127.0.0.1:61684/assets/cover-b-mobile.webp",
+    "http://127.0.0.1:61684/assets/background-variants/m2-daynight-20261020/bg-street-day.webp",
+    "http://127.0.0.1:61684/assets/backgrounds/bijie-20261020/bg-echo-entrance-night.webp",
+    "http://127.0.0.1:61684/assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.webp",
+    "http://127.0.0.1:61684/assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.webp",
+    "http://127.0.0.1:61684/assets/backgrounds/bijie-20261020/bg-noodles-dusk.webp",
+    "http://127.0.0.1:61684/assets/backgrounds/bijie-20261020/bg-old-eaves-day.webp",
+    "http://127.0.0.1:61684/assets/backgrounds/bijie-20261020/bg-residential-slope-day.webp",
+    "http://127.0.0.1:61684/assets/backgrounds/bijie-20261020/bg-slope-junction-night.webp",
+    "http://127.0.0.1:61684/assets/bg-lobby.webp",
+    "http://127.0.0.1:61684/assets/bg-noodles.webp",
+    "http://127.0.0.1:61684/assets/bg-room.webp",
+    "http://127.0.0.1:61684/assets/bg-salon.webp",
+    "http://127.0.0.1:61684/assets/cg/cg-02-xiaoman-mirror.webp",
+    "http://127.0.0.1:61684/assets/cg/cg-03-zhouzhi-noodles.webp",
+    "http://127.0.0.1:61684/assets/cg/cg-04-mengyao-camera.webp",
+    "http://127.0.0.1:61684/assets/cg/cg-05-yelan-inventory.webp",
+    "http://127.0.0.1:61684/assets/cg/cg-06-maolang-confession.webp",
+    "http://127.0.0.1:61684/assets/cg/cg-07-yelan-off-duty.webp",
+    "http://127.0.0.1:61684/assets/cg/cg-08-huangqiuqiu-listening.webp",
+    "http://127.0.0.1:61684/assets/cg/cg-09-repair-handoff.webp",
+    "http://127.0.0.1:61684/assets/cg/cg-13-xiaoman-night-stall.webp",
+    "http://127.0.0.1:61684/assets/char-huangqiuqiu.webp",
+    "http://127.0.0.1:61684/assets/char-maolang.webp",
+    "http://127.0.0.1:61684/assets/char-piao.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-explaining.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-displeased.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-downcast.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-hesitant.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-serious.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-smile.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-surprised.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-surprised.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-hesitant.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-serious.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-smile.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-surprised.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-explaining.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.webp",
+    "http://127.0.0.1:61684/assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.webp",
+    "http://127.0.0.1:61684/assets/character-variants/mengyao-face-v2-candidate.webp",
+    "http://127.0.0.1:61684/assets/character-variants/piao-optionB-20261020/char-piao-action-explaining.webp",
+    "http://127.0.0.1:61684/assets/character-variants/piao-optionB-20261020/char-piao-action-thinking.webp",
+    "http://127.0.0.1:61684/assets/character-variants/piao-optionB-20261020/char-piao-action-wave.webp",
+    "http://127.0.0.1:61684/assets/character-variants/piao-optionB-20261020/char-piao-expression-displeased.webp",
+    "http://127.0.0.1:61684/assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.webp",
+    "http://127.0.0.1:61684/assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+    "http://127.0.0.1:61684/assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.webp",
+    "http://127.0.0.1:61684/assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+    "http://127.0.0.1:61684/assets/character-variants/piao-optionB-20261020/char-piao-expression-surprised.webp",
+    "http://127.0.0.1:61684/assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.webp",
+    "http://127.0.0.1:61684/assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-phone.webp",
+    "http://127.0.0.1:61684/assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-wave.webp",
+    "http://127.0.0.1:61684/assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-displeased.webp",
+    "http://127.0.0.1:61684/assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-downcast.webp",
+    "http://127.0.0.1:61684/assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-hesitant.webp",
+    "http://127.0.0.1:61684/assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.webp",
+    "http://127.0.0.1:61684/assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp",
+    "http://127.0.0.1:61684/assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-surprised.webp",
+    "http://127.0.0.1:61684/assets/character-variants/yelan-face-v2-candidate.webp",
+    "http://127.0.0.1:61684/assets/character-variants/zhouzhi-face-v2-candidate.webp",
+    "http://127.0.0.1:61684/assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-displeased.webp",
+    "http://127.0.0.1:61684/assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-downcast.webp",
+    "http://127.0.0.1:61684/assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+    "http://127.0.0.1:61684/assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+    "http://127.0.0.1:61684/assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+    "http://127.0.0.1:61684/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.webp",
+    "http://127.0.0.1:61684/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.webp",
+    "http://127.0.0.1:61684/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.webp",
+    "http://127.0.0.1:61684/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.webp",
+    "http://127.0.0.1:61684/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.webp",
+    "http://127.0.0.1:61684/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+    "http://127.0.0.1:61684/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.webp",
+    "http://127.0.0.1:61684/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+    "http://127.0.0.1:61684/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.webp"
+  ],
+  "limitations": [
+    "桌面 Chrome 的五种模拟视口；不等同实体手机、Safari 或 Firefox 验收。",
+    "隔离存档由迁移前正式剧情自然回放构造；不访问玩家存储，也不代表公网发布验收。",
+    "缺图用指定 WebP 请求故障注入验证，预期资源错误单列；正常运行要求无请求失败、HTTP 错误与控制台错误。"
+  ],
+  "finalHashes": {
+    "index.html": "2ae59b07bff371230049395148dc83bde549443889775d9679a405dc932f4ffa",
+    "styles.css": "71a08eb8e30a8f3a8186ec6bd6fb897a9fdf837d46045558cf5cfd337b3f8dd5",
+    "story.js": "5d9b3dad53fa7de88269f7e605db4cf2e7b80a92587dedffda0e425bb1878e7a",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "save-compat.js": "4ab32d0447c98650719bd61e29615f07d9ebfdc67596e3774a94953c4f98e742",
+    "game.js": "87a8d773c3f51ae930663d8edec927c19a7a0f61076e79d6c6a915848fdc9c6c",
+    "assets/runtime-v0.4-manifest.json": "64f1313a791f48aa0a879eca8d77ee70a0933c167063e3e2ebaac51465bd06d5",
+    "assets/webp-manifest.json": "cede257dd2a2d4d57fc89b6f783bdd93ff57e154fea22f9c2ba1e57812715996"
+  },
+  "finishedAt": "2026-10-21T06:39:06.266Z"
+}

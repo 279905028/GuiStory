@@ -1,0 +1,450 @@
+{
+  "status": "passed",
+  "runAt": "2026-10-23T02:22:01.658Z",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "formalIntegration": false,
+  "scope": "E07正文/说话者/隐藏资格/变身/分支/结局及E03+真实E04+E07隔离编译；另四线和美术为明确测试桩",
+  "passed": 26,
+  "failed": 0,
+  "results": [
+    {
+      "name": "冻结原稿指纹与契约源清单一致",
+      "status": "passed"
+    },
+    {
+      "name": "301段正文逐字、说话者、全分支与排除项完整核对",
+      "status": "passed",
+      "detail": {
+        "paragraphs": 301,
+        "dialogue": 88,
+        "narration": 213,
+        "nonempty": 337,
+        "exclusions": 9
+      }
+    },
+    {
+      "name": "只导出八章入口与两个结局，读写和资产请求遵循契约",
+      "status": "passed"
+    },
+    {
+      "name": "真实球球路线 portrait × dating 全八章逐段路径",
+      "status": "passed",
+      "detail": {
+        "chapters": [
+          {
+            "chapter": 3,
+            "lines": 70,
+            "stop": "tc_c03_common_exit"
+          },
+          {
+            "chapter": 4,
+            "lines": 26,
+            "stop": "tc_c04_common_exit"
+          },
+          {
+            "chapter": 5,
+            "lines": 32,
+            "stop": "tc_c05_common_exit"
+          },
+          {
+            "chapter": 6,
+            "lines": 32,
+            "stop": "tc_c06_common_exit"
+          },
+          {
+            "chapter": 7,
+            "lines": 27,
+            "stop": "tc_c07_common_exit"
+          },
+          {
+            "chapter": 8,
+            "lines": 42,
+            "stop": "tc_c08_common_exit"
+          },
+          {
+            "chapter": 9,
+            "lines": 21,
+            "stop": "tc_c09_common_exit"
+          },
+          {
+            "chapter": 10,
+            "lines": 18,
+            "stop": "tc_c10_huangqiuqiu_end_dating"
+          }
+        ],
+        "ending": "tc_c10_huangqiuqiu_end_dating"
+      }
+    },
+    {
+      "name": "真实球球路线 portrait × friends 全八章逐段路径",
+      "status": "passed",
+      "detail": {
+        "chapters": [
+          {
+            "chapter": 3,
+            "lines": 70,
+            "stop": "tc_c03_common_exit"
+          },
+          {
+            "chapter": 4,
+            "lines": 26,
+            "stop": "tc_c04_common_exit"
+          },
+          {
+            "chapter": 5,
+            "lines": 32,
+            "stop": "tc_c05_common_exit"
+          },
+          {
+            "chapter": 6,
+            "lines": 32,
+            "stop": "tc_c06_common_exit"
+          },
+          {
+            "chapter": 7,
+            "lines": 27,
+            "stop": "tc_c07_common_exit"
+          },
+          {
+            "chapter": 8,
+            "lines": 42,
+            "stop": "tc_c08_common_exit"
+          },
+          {
+            "chapter": 9,
+            "lines": 19,
+            "stop": "tc_c09_common_exit"
+          },
+          {
+            "chapter": 10,
+            "lines": 17,
+            "stop": "tc_c10_huangqiuqiu_end_friends"
+          }
+        ],
+        "ending": "tc_c10_huangqiuqiu_end_friends"
+      }
+    },
+    {
+      "name": "真实球球路线 story × dating 全八章逐段路径",
+      "status": "passed",
+      "detail": {
+        "chapters": [
+          {
+            "chapter": 3,
+            "lines": 70,
+            "stop": "tc_c03_common_exit"
+          },
+          {
+            "chapter": 4,
+            "lines": 22,
+            "stop": "tc_c04_common_exit"
+          },
+          {
+            "chapter": 5,
+            "lines": 32,
+            "stop": "tc_c05_common_exit"
+          },
+          {
+            "chapter": 6,
+            "lines": 32,
+            "stop": "tc_c06_common_exit"
+          },
+          {
+            "chapter": 7,
+            "lines": 27,
+            "stop": "tc_c07_common_exit"
+          },
+          {
+            "chapter": 8,
+            "lines": 42,
+            "stop": "tc_c08_common_exit"
+          },
+          {
+            "chapter": 9,
+            "lines": 21,
+            "stop": "tc_c09_common_exit"
+          },
+          {
+            "chapter": 10,
+            "lines": 18,
+            "stop": "tc_c10_huangqiuqiu_end_dating"
+          }
+        ],
+        "ending": "tc_c10_huangqiuqiu_end_dating"
+      }
+    },
+    {
+      "name": "真实球球路线 story × friends 全八章逐段路径",
+      "status": "passed",
+      "detail": {
+        "chapters": [
+          {
+            "chapter": 3,
+            "lines": 70,
+            "stop": "tc_c03_common_exit"
+          },
+          {
+            "chapter": 4,
+            "lines": 22,
+            "stop": "tc_c04_common_exit"
+          },
+          {
+            "chapter": 5,
+            "lines": 32,
+            "stop": "tc_c05_common_exit"
+          },
+          {
+            "chapter": 6,
+            "lines": 32,
+            "stop": "tc_c06_common_exit"
+          },
+          {
+            "chapter": 7,
+            "lines": 27,
+            "stop": "tc_c07_common_exit"
+          },
+          {
+            "chapter": 8,
+            "lines": 42,
+            "stop": "tc_c08_common_exit"
+          },
+          {
+            "chapter": 9,
+            "lines": 19,
+            "stop": "tc_c09_common_exit"
+          },
+          {
+            "chapter": 10,
+            "lines": 17,
+            "stop": "tc_c10_huangqiuqiu_end_friends"
+          }
+        ],
+        "ending": "tc_c10_huangqiuqiu_end_friends"
+      }
+    },
+    {
+      "name": "四条路径覆盖 E07 所有节点、选项与门禁分支",
+      "status": "passed"
+    },
+    {
+      "name": "第42天保持球形自主铺垫，第55天精确527行才变身",
+      "status": "passed"
+    },
+    {
+      "name": "第九章关系不反控变身，两个结局保持人形与各自正文",
+      "status": "passed"
+    },
+    {
+      "name": "E03共通＋E04双路线＋E07真实模块用E02隔离编译",
+      "status": "passed",
+      "detail": {
+        "nodes": 1446,
+        "edges": 1513,
+        "choices": 13,
+        "options": 31,
+        "countsByType": {
+          "line": 1399,
+          "end": 15,
+          "choice": 13,
+          "gate": 19
+        },
+        "exploredNodeStates": 75295,
+        "distinctFlagStates": 783,
+        "mergedNodeStates": 0,
+        "transitions": 75294,
+        "maximumFrontier": 12,
+        "terminalStates": 288,
+        "stoppedStates": 160
+      }
+    },
+    {
+      "name": "前两章32种前情：仅记录且回应相识，无资格不泄露身份",
+      "status": "passed",
+      "detail": {
+        "combinations": 32,
+        "qualified": 8
+      }
+    },
+    {
+      "name": "448条真实/桩拼接路径：后日谈唯一、婚宴无球球、路线不串线",
+      "status": "passed",
+      "detail": {
+        "paths": 448,
+        "realEndings": 6,
+        "stubBoundaries": 4
+      }
+    },
+    {
+      "name": "8种合资格前情×4种球球经历完整接到两个真人形结局",
+      "status": "passed",
+      "detail": {
+        "story/friends": 8,
+        "story/dating": 8,
+        "portrait/friends": 8,
+        "portrait/dating": 8
+      }
+    },
+    {
+      "name": "反例：正文多写一句被逐字核对拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "反例：正文漏映射被完整性核对拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "反例：正文伪装标题排除被拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "反例：第七章回收分支交换被独立路径期望拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "反例：提前到17点入口写人形被唯一写入点拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "反例：去掉527行自动事件无法通过形态图",
+      "status": "passed"
+    },
+    {
+      "name": "反例：隐藏选项缺少相识门槛被契约拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "反例：C10朋友误连恋人结局被状态条件拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "反例：公共婚宴显示球球被独立公共场合审计拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "反例：纯对白错标说话者被原稿独立表拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "正式构建入口仅 --check 执行，未生成正式游戏",
+      "status": "passed"
+    },
+    {
+      "name": "保护范围内正式游戏、源稿、契约和既有交付指纹未变",
+      "status": "passed",
+      "detail": {
+        "checked": 68
+      }
+    }
+  ],
+  "source": {
+    "paragraphs": 301,
+    "dialogue": 88,
+    "narration": 213,
+    "nonempty": 337,
+    "exclusions": 9
+  },
+  "totals": {
+    "nodes": 307,
+    "scenes": 33,
+    "qiuBranchPaths": 4,
+    "earlyCombinations": 32,
+    "integratedPaths": 448,
+    "negativeChecks": 10,
+    "protectedFiles": 68
+  },
+  "inputFiles": [
+    {
+      "file": "任务拆分/全十章/校验/E07/fixture/manifest.json",
+      "sha256": "c61da40bcf60b217dd1b1930cc3d37daa024d0016996fe087e9e717a12a23db2"
+    },
+    {
+      "file": "任务拆分/全十章/contract.json",
+      "sha256": "4086571ab65e54271ec70e5a0a0712e00d0b2a1f6dae739b1df05a328ada1876"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch01.json",
+      "sha256": "e67fd830b2a90b5b1ebc581dd0453a1d8feee5c3be0b91ce894cae6f1776b48f"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch02.json",
+      "sha256": "f9e89a31e445bd52655334f124c1e0f9c8bc9368bce0220742eed9f3561032b2"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch03.json",
+      "sha256": "88bb55edd4315f4a6c06500687a99134bdebaba1233b21ef03fd2660c75fba5b"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch04.json",
+      "sha256": "645ddb96d804533a226a8c14e5cb0fff18e557bfb9a2c994ee9eea915b24ac04"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch05.json",
+      "sha256": "2e19cd57cfafa07edd7c1880dc727f6aae386a62bad806f86c1d5a9f2d2fbfb8"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch06.json",
+      "sha256": "f95eabdfd886fdc72f1856872d21919b9adba833b501a303cc7219fe4c04e62f"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch07.json",
+      "sha256": "5b45f35bd675c3db4060f9e7ae8bf4d076cae60c9dd438cb8bead49e6fbd31c7"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch08.json",
+      "sha256": "4b98abcf1ef72c6ac5985cd70e1640bebfdf390fd2b67f6cfe9497ec80278ec9"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch09.json",
+      "sha256": "e437f863161b79661513d53c55e27529270918766114434eed3646b6bb710002"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch10.json",
+      "sha256": "5c179e95f3b1fc6ce28a47ffa70df2b41aa36dbd11ad440878c4fc23809d9b3c"
+    },
+    {
+      "file": "任务拆分/全十章/routes/xiaoman.json",
+      "sha256": "b982784014d95fe44cb620e6b0ccd2252b3b86ccea5e519c09501277abec0fb0"
+    },
+    {
+      "file": "任务拆分/全十章/routes/zhouzhi.json",
+      "sha256": "7da9e066d79aaa299ad2ab5fff911be7060f5db4e4ef11bda3e4a901880a8eff"
+    },
+    {
+      "file": "任务拆分/全十章/routes/huangqiuqiu.json",
+      "sha256": "c785e3d2dda7d967f4bec0ba73382d03f297796e1dcf532f52592e564fb78e19"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/fixture/route-mengyao.json",
+      "sha256": "3f79919fdb69a5dfdcad8a860152602999311c39259a6ac2a118a1b4b8c3a43f"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/fixture/route-yelan.json",
+      "sha256": "7418b6d17592e21c64fefe11f088b694969c7b919febaeeb6d239e66b2b8eda9"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/fixture/route-piao.json",
+      "sha256": "49674f0b92257ddfb56fc1081f511b425ebecd5d23ec01f2a5a6ab2a27a79a99"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/fixture/route-friends.json",
+      "sha256": "7a01c66c273925a45d323d8cfa1f5d151618b431868b6ac8fb0446e556409d57"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/fixture/bindings.json",
+      "sha256": "35cd22d2420d179074b5e7a2effa97060336b2e4912b403aa857db39b3a7dd42"
+    }
+  ],
+  "routeFile": {
+    "file": "任务拆分/全十章/routes/huangqiuqiu.json",
+    "sha256": "c785e3d2dda7d967f4bec0ba73382d03f297796e1dcf532f52592e564fb78e19"
+  },
+  "notExecuted": [
+    "E05/E06真实路线全文及全部13个结局",
+    "E08真实播放器/重选/存读档/形态恢复",
+    "A06真实美术及E09演出绑定",
+    "正式story.js替换与完整十章候选",
+    "浏览器/设备/声音/真人阅读",
+    "打包/部署/发布"
+  ]
+}

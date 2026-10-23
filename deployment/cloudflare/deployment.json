@@ -1,0 +1,37 @@
+{
+  "recordedAt": "2026-10-20T03:26:20.188Z",
+  "status": "deployed",
+  "provider": "Cloudflare Workers Static Assets",
+  "accountId": "f795b8a5df414f7f42b5a8e33303ad7d",
+  "workerName": "cjb-rain",
+  "url": "https://cjb-rain.279905028qq.workers.dev",
+  "versionId": "539be0f8-c568-4131-8693-6c896e9724de",
+  "fileCount": 30,
+  "imageCount": 25,
+  "totalBytes": 57096447,
+  "sourceChangedSincePackaging": [],
+  "sourceDifferencesFromPriorEdgeOneManifest": [],
+  "checks": {
+    "formalStoryPaths": 1224,
+    "saveRestoreNodes": 375,
+    "isolatedEngineChecks": 120,
+    "cgLogic": {
+      "resources": 10,
+      "holders": 48,
+      "exits": 10
+    },
+    "dryRun": "PASS",
+    "http": "PASS",
+    "browser": {
+      "homeRendered": true,
+      "startStory": true,
+      "manualSaveSlot3": true,
+      "reloadAndLoadSlot3": true,
+      "secondReloadAndContinue": true
+    }
+  },
+  "limitations": [
+    "本次未重跑全剧情浏览器通关、全部CG视觉或实体手机验收。",
+    "存档位于当前浏览器和域名下，不会自动迁移原站点存档。"
+  ]
+}

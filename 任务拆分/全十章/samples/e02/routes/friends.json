@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "routes/friends",
+  "owner": "E06",
+  "scenes": {
+    "ts_c03_friends_sample": {
+      "chapter": 3,
+      "title": "不用找个正事",
+      "bg": "sample-bg",
+      "time": "16:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "16:00"
+      },
+      "location": "修改裤脚的店",
+      "day": 15,
+      "dayLabel": "第15天"
+    }
+  },
+  "nodes": {
+    "tc_c03_friends_entry": {
+      "id": "tc_c03_friends_entry",
+      "type": "line",
+      "scene": "ts_c03_friends_sample",
+      "speaker": "narrator",
+      "character": null,
+      "text": "店里摆着一面很长的镜子。毛狼站在镜子前，裤脚被折上去一截，两条腿显得不太一样长。",
+      "next": "tc_c03_common_exit"
+    }
+  },
+  "imports": [
+    "tc_c03_common_exit"
+  ],
+  "exports": {
+    "tc_c03_friends_entry": "tc_c03_friends_entry"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 888,
+      "endLine": 888,
+      "nodeIds": [
+        "tc_c03_friends_entry"
+      ],
+      "kind": "narration"
+    }
+  ],
+  "exclusions": [],
+  "assetRequests": [
+    "e01-art-ch03"
+  ]
+}

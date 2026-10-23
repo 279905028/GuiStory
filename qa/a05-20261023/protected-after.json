@@ -1,0 +1,26 @@
+{
+  "checked": 1048,
+  "unchanged": 1045,
+  "allUnchanged": false,
+  "changes": [
+    {
+      "path": "任务拆分/全十章/校验/E07/completion-recheck.json",
+      "beforeSha256": "39d761ae96fca31d770327776de325c2ff4d1a5cf624a71d7b4ab6f0a8e4e08c",
+      "afterSha256": "0ffec1feb0d32eec64df48045e2742e6c017e38ce064eff5a48ba8e6342f465f",
+      "classification": "本轮未写入，观察到同期外部变化；未覆盖或还原"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/final-audit.json",
+      "beforeSha256": "487c0a46e41ff9458c44b2bbac2027709e9ded53ac0df54bba9bf2073ca33b23",
+      "afterSha256": "97165c2d8e57eea2004e1faa47ae8cf2af75762283dccf4a38b41db2db495899",
+      "classification": "本轮未写入，观察到同期外部变化；未覆盖或还原"
+    },
+    {
+      "path": "index.html",
+      "beforeSha256": "2ae59b07bff371230049395148dc83bde549443889775d9679a405dc932f4ffa",
+      "afterSha256": "d69ad01b4181d77ac990162c2e5a38d65839fe5208680ef2cd9972af3f2db197",
+      "classification": "本轮未写入，观察到同期外部变化；未覆盖或还原"
+    }
+  ],
+  "note": "本轮工具写入仅A05交付、A05 QA、A05交接和当前待办；指纹变化本身不能证明具体外部操作者。"
+}

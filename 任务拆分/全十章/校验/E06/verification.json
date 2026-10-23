@@ -1,0 +1,2734 @@
+{
+  "createdAt": "2026-10-23T02:11:55.135Z",
+  "scope": "E06真实路线/逐段原文/持续关系/E03后日谈交叉复核/含桩组合静态图",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "formalIntegration": false,
+  "pass": true,
+  "summary": {
+    "checks": 47,
+    "passed": 47,
+    "failed": 0,
+    "negativeChecks": 26,
+    "routePaths": 6,
+    "integratedPaths": 192,
+    "epilogueContexts": 13,
+    "nodes": 521,
+    "scenes": 99,
+    "paragraphs": 505
+  },
+  "sources": {
+    "piao": {
+      "paragraphs": 311,
+      "nonemptyLines": 360,
+      "lineNodes": 312,
+      "exclusions": 13
+    },
+    "friends": {
+      "paragraphs": 194,
+      "nonemptyLines": 230,
+      "lineNodes": 194,
+      "exclusions": 9
+    }
+  },
+  "checks": [
+    {
+      "name": "piao 全部原文逐段一致、覆盖和排除理由",
+      "status": "passed",
+      "details": {
+        "paragraphs": 311,
+        "nonemptyLines": 360,
+        "lineNodes": 312,
+        "exclusions": 13
+      }
+    },
+    {
+      "name": "piao 日序、未定地点和远程演出边界",
+      "status": "passed"
+    },
+    {
+      "name": "piao 公开接口和A01场段/资产请求完整",
+      "status": "passed",
+      "details": {
+        "entries": 8,
+        "endings": 2,
+        "assetMappings": 28
+      }
+    },
+    {
+      "name": "piao paperboat/dating 第3—10章路径",
+      "status": "passed",
+      "details": {
+        "ending": "tc_c10_piao_end_dating",
+        "lineNodes": 228,
+        "choices": [
+          {
+            "id": "tc_c03_piao_relationship_choice",
+            "flag": "piaoRelationship",
+            "value": "dating",
+            "index": 0
+          },
+          {
+            "id": "tc_c04_piao_outing_choice",
+            "flag": "piaoOuting",
+            "value": "paperboat",
+            "index": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "piao paperboat/friends 第3—10章路径",
+      "status": "passed",
+      "details": {
+        "ending": "tc_c10_piao_end_friends",
+        "lineNodes": 201,
+        "choices": [
+          {
+            "id": "tc_c03_piao_relationship_choice",
+            "flag": "piaoRelationship",
+            "value": "friends",
+            "index": 1
+          },
+          {
+            "id": "tc_c04_piao_outing_choice",
+            "flag": "piaoOuting",
+            "value": "paperboat",
+            "index": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "piao signs/dating 第3—10章路径",
+      "status": "passed",
+      "details": {
+        "ending": "tc_c10_piao_end_dating",
+        "lineNodes": 227,
+        "choices": [
+          {
+            "id": "tc_c03_piao_relationship_choice",
+            "flag": "piaoRelationship",
+            "value": "dating",
+            "index": 0
+          },
+          {
+            "id": "tc_c04_piao_outing_choice",
+            "flag": "piaoOuting",
+            "value": "signs",
+            "index": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "piao signs/friends 第3—10章路径",
+      "status": "passed",
+      "details": {
+        "ending": "tc_c10_piao_end_friends",
+        "lineNodes": 200,
+        "choices": [
+          {
+            "id": "tc_c03_piao_relationship_choice",
+            "flag": "piaoRelationship",
+            "value": "friends",
+            "index": 1
+          },
+          {
+            "id": "tc_c04_piao_outing_choice",
+            "flag": "piaoOuting",
+            "value": "signs",
+            "index": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "friends 全部原文逐段一致、覆盖和排除理由",
+      "status": "passed",
+      "details": {
+        "paragraphs": 194,
+        "nonemptyLines": 230,
+        "lineNodes": 194,
+        "exclusions": 9
+      }
+    },
+    {
+      "name": "friends 日序、未定地点和远程演出边界",
+      "status": "passed"
+    },
+    {
+      "name": "friends 公开接口和A01场段/资产请求完整",
+      "status": "passed",
+      "details": {
+        "entries": 8,
+        "endings": 1,
+        "assetMappings": 25
+      }
+    },
+    {
+      "name": "friends show/独立结尾 第3—10章路径",
+      "status": "passed",
+      "details": {
+        "ending": "tc_c10_friends_end",
+        "lineNodes": 182,
+        "choices": [
+          {
+            "id": "tc_c04_friends_outing_choice",
+            "flag": "friendsOuting",
+            "value": "show",
+            "index": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "friends walk/独立结尾 第3—10章路径",
+      "status": "passed",
+      "details": {
+        "ending": "tc_c10_friends_end",
+        "lineNodes": 180,
+        "choices": [
+          {
+            "id": "tc_c04_friends_outing_choice",
+            "flag": "friendsOuting",
+            "value": "walk",
+            "index": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "所有E06节点、选择、门禁分支和三个结局均有见证",
+      "status": "passed",
+      "details": {
+        "nodes": 521,
+        "gateBranches": 18,
+        "paths": 6,
+        "endings": [
+          "tc_c10_piao_end_dating",
+          "tc_c10_piao_end_friends",
+          "tc_c10_friends_end"
+        ]
+      }
+    },
+    {
+      "name": "转录可复现且不写共通或全局文件",
+      "status": "passed"
+    },
+    {
+      "name": "E03公共后日谈13种结局上下文：文本/互斥/归属/路由",
+      "status": "passed",
+      "details": {
+        "contexts": 13,
+        "dating": 1,
+        "wedding": 12
+      }
+    },
+    {
+      "name": "E03后日谈拒绝缺失/非法路由和飘关系",
+      "status": "passed"
+    },
+    {
+      "name": "飘后续章节拒绝缺失/非法关系，不能默认走朋友分支",
+      "status": "passed"
+    },
+    {
+      "name": "E03+E04+E06真实模块组合编译（其余三线/美术为桩）",
+      "status": "passed",
+      "details": {
+        "nodes": 1652,
+        "edges": 1726,
+        "choices": 13,
+        "options": 31,
+        "countsByType": {
+          "line": 1597,
+          "end": 16,
+          "choice": 13,
+          "gate": 26
+        },
+        "exploredNodeStates": 109663,
+        "distinctFlagStates": 919,
+        "mergedNodeStates": 0,
+        "transitions": 109662,
+        "maximumFrontier": 12,
+        "terminalStates": 448,
+        "stoppedStates": 72
+      }
+    },
+    {
+      "name": "32种前情×6条E06路径：共通接续、唯一后日谈和三结局",
+      "status": "passed",
+      "details": {
+        "preconditions": 32,
+        "routeVariants": 6,
+        "paths": 192
+      }
+    },
+    {
+      "name": "反例：piao篡改原文",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "原文被改写 项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md:697\n+ actual - expected\n\n+ '睡醒以后，我花了十分钟找另一只袜子。最后它在枕头底下，卷成一个很小的球。新增'\n- '睡醒以后，我花了十分钟找另一只袜子。最后它在枕头底下，卷成一个很小的球。'\n                                       ^\n"
+      }
+    },
+    {
+      "name": "反例：piao删除来源映射",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "正文段数\n\n310 !== 311\n"
+      }
+    },
+    {
+      "name": "反例：piao把真实正文当阅读提示排除",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "正文误排除"
+      }
+    },
+    {
+      "name": "反例：piao第七章回收颠倒",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "第7章播放顺序/分支正文\n+ actual - expected\n\n  [\n    381,\n    383,\n    385,\n+   391,\n-   389,\n    393,\n    399,\n    401,\n    403,\n    405,\n"
+      }
+    },
+    {
+      "name": "反例：piao跳过公共章末",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '项目文档/故事/全十章审阅稿/第四章-约好的那一天.md'\n- '项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md'\n                   ^\n"
+      }
+    },
+    {
+      "name": "反例：friends篡改原文",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "原文被改写 项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md:876\n+ actual - expected\n\n+ '我给毛狼打电话，问他下午出不出来。新增'\n- '我给毛狼打电话，问他下午出不出来。'\n                    ^\n"
+      }
+    },
+    {
+      "name": "反例：friends删除来源映射",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "正文段数\n\n193 !== 194\n"
+      }
+    },
+    {
+      "name": "反例：friends把真实正文当阅读提示排除",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "正文误排除"
+      }
+    },
+    {
+      "name": "反例：friends第七章回收颠倒",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "第7章播放顺序/分支正文\n+ actual - expected\n\n  [\n+   463,\n+   465,\n+   467,\n+   469,\n+   471,\n-   449,\n-   451,\n-   453,\n-   455,\n-   457,\n-   459,\n    475,\n    477,\n    479,\n    483,\n    485,\n"
+      }
+    },
+    {
+      "name": "反例：friends跳过公共章末",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '项目文档/故事/全十章审阅稿/第四章-约好的那一天.md'\n- '项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md'\n                   ^\n"
+      }
+    },
+    {
+      "name": "反例：飘第4章关系串段",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "第4章播放顺序/分支正文\n+ actual - expected\n... Skipped lines\n\n  [\n    375,\n    377,\n    379,\n    381,\n...\n    404,\n+   442,\n+   444,\n+   446,\n+   448,\n+   450\n-   424,\n-   426,\n-   428,\n-   430,\n-   432,\n-   434,\n-   436,\n-   438\n"
+      }
+    },
+    {
+      "name": "反例：飘第5章关系串段",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "第5章播放顺序/分支正文\n+ actual - expected\n... Skipped lines\n\n  [\n    367,\n    369,\n    371,\n    373,\n...\n    405,\n+   435,\n+   437,\n+   439,\n+   441,\n+   443,\n+   445,\n+   447,\n+   449,\n+   451,\n+   453\n-   411,\n-   413,\n-   415,"
+      }
+    },
+    {
+      "name": "反例：飘第6章关系串段",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "第6章播放顺序/分支正文\n+ actual - expected\n... Skipped lines\n\n  [\n    343,\n    345,\n    347,\n    349,\n...\n    363,\n+   401,\n+   403,\n+   405,\n+   407,\n+   409,\n+   411,\n+   413,\n+   415,\n+   417,\n+   419\n-   369,\n-   371,\n-   373,"
+      }
+    },
+    {
+      "name": "反例：飘第7章关系串段",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "第7章播放顺序/分支正文\n+ actual - expected\n\n  [\n    381,\n    383,\n    385,\n    389,\n    393,\n+   423,\n+   425,\n+   427,\n+   429,\n+   431,\n+   433,\n+   435,\n+   437,\n+   439\n-   399,\n-   401,\n-   403,\n-   405,\n-   407,\n-   409,\n-  "
+      }
+    },
+    {
+      "name": "反例：飘第8章关系串段",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "第8章播放顺序/分支正文\n+ actual - expected\n... Skipped lines\n\n  [\n    339,\n    341,\n    343,\n    345,\n...\n    355,\n+   385,\n+   387,\n+   389,\n+   391,\n+   393,\n+   395,\n+   397,\n+   399,\n+   401\n-   361,\n-   363,\n-   365,\n-   367,"
+      }
+    },
+    {
+      "name": "反例：飘第9章关系串段",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "第9章播放顺序/分支正文\n+ actual - expected\n... Skipped lines\n\n  [\n    425,\n    427,\n    429,\n    431,\n...\n    441,\n+   477,\n+   479,\n+   481,\n+   483,\n+   485,\n+   487,\n+   489,\n+   491,\n+   493,\n+   495,\n+   497\n-   447,\n-   449,"
+      }
+    },
+    {
+      "name": "反例：飘第10章关系串段",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "第10章播放顺序/分支正文\n+ actual - expected\n\n  [\n+   447,\n+   449,\n+   451,\n+   453,\n+   455,\n+   457,\n+   459,\n+   461,\n+   463,\n+   465,\n+   467,\n+   469\n-   403,\n-   405,\n-   407,\n-   409,\n-   411,\n-   413,\n-   415,\n-   417,\n- "
+      }
+    },
+    {
+      "name": "反例：第41天仍标第39天",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "Expected values to be strictly equal:\n\n39 !== 41\n"
+      }
+    },
+    {
+      "name": "反例：远程消息残留实体立绘",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "演出未采用前清除上一场人物"
+      }
+    },
+    {
+      "name": "反例：恋人误进婚宴",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "后日谈关系错配\n+ actual - expected\n\n+ 'tc_c10_common_piao_wedding'\n- 'tc_c10_common_piao_dating'\n                      ^\n"
+      }
+    },
+    {
+      "name": "反例：婚宴完又播放恋人后日谈",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "恰好一个公共后日谈\n\n2 !== 1\n"
+      }
+    },
+    {
+      "name": "反例：第九章重新写入飘关系",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "tc_c09_piao_entry未经登记的自动事件"
+      }
+    },
+    {
+      "name": "反例：朋友线读取飘关系",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "tc_c07_friends_entry跨路线读取 piaoRelationship"
+      }
+    },
+    {
+      "name": "反例：选择按钮改写",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "tc_c03_piao_relationship_choice选项顺序/文案/条件\n+ actual - expected\n\n  [\n+   '另写台词',\n-   '我想跟你交往。以后约你，不再拿菜场当借口。',\n    'dating',\n    []\n  ]\n"
+      }
+    },
+    {
+      "name": "反例：漏报公共出口",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "routes/piao imports必须精确列出外部引用\n+ actual - expected\n\n  [\n    'tc_c03_common_exit',\n    'tc_c04_common_exit',\n    'tc_c05_common_exit',\n    'tc_c06_common_exit',\n    'tc_c07_common_exit',\n    'tc_c08_common_exit',\n+   'tc_c"
+      }
+    },
+    {
+      "name": "反例：关系缺失默认走朋友分支",
+      "status": "passed",
+      "details": {
+        "rejected": true,
+        "reason": "Missing expected exception."
+      }
+    },
+    {
+      "name": "项目构建入口检查与隔离输出",
+      "status": "passed",
+      "details": {
+        "commands": 2
+      }
+    },
+    {
+      "name": "保护文件指纹未变",
+      "status": "passed",
+      "details": {
+        "files": 121,
+        "changed": []
+      }
+    }
+  ],
+  "routePaths": [
+    {
+      "route": "piao",
+      "outing": "paperboat",
+      "relationship": "dating",
+      "steps": [
+        "tc_c03_piao_entry",
+        "tc_c03_piao_sweet_jelly_002",
+        "tc_c03_piao_sweet_jelly_003",
+        "tc_c03_piao_sweet_jelly_004",
+        "tc_c03_piao_sweet_jelly_005",
+        "tc_c03_piao_sweet_jelly_006",
+        "tc_c03_piao_sweet_jelly_007",
+        "tc_c03_piao_sweet_jelly_008",
+        "tc_c03_piao_sweet_jelly_009",
+        "tc_c03_piao_sweet_jelly_010",
+        "tc_c03_piao_sweet_jelly_011",
+        "tc_c03_piao_sweet_jelly_012",
+        "tc_c03_piao_sweet_jelly_013",
+        "tc_c03_piao_sweet_jelly_014",
+        "tc_c03_piao_sweet_jelly_015",
+        "tc_c03_piao_sweet_jelly_016",
+        "tc_c03_piao_sweet_jelly_017",
+        "tc_c03_piao_sweet_jelly_018",
+        "tc_c03_piao_sweet_jelly_019",
+        "tc_c03_piao_sweet_jelly_020",
+        "tc_c03_piao_sweet_jelly_021",
+        "tc_c03_piao_sweet_jelly_022",
+        "tc_c03_piao_sweet_jelly_023",
+        "tc_c03_piao_sweet_jelly_024",
+        "tc_c03_piao_leave_blank_001",
+        "tc_c03_piao_leave_blank_002",
+        "tc_c03_piao_leave_blank_003",
+        "tc_c03_piao_leave_blank_004",
+        "tc_c03_piao_leave_blank_005",
+        "tc_c03_piao_leave_blank_006",
+        "tc_c03_piao_leave_blank_007",
+        "tc_c03_piao_leave_blank_008",
+        "tc_c03_piao_leave_blank_009",
+        "tc_c03_piao_leave_blank_010",
+        "tc_c03_piao_leave_blank_011",
+        "tc_c03_piao_leave_blank_012",
+        "tc_c03_piao_leave_blank_013",
+        "tc_c03_piao_leave_blank_014",
+        "tc_c03_piao_leave_blank_015",
+        "tc_c03_piao_leave_blank_016",
+        "tc_c03_piao_leave_blank_017",
+        "tc_c03_piao_leave_blank_018",
+        "tc_c03_piao_leave_blank_019",
+        "tc_c03_piao_leave_blank_020",
+        "tc_c03_piao_leave_blank_021",
+        "tc_c03_piao_leave_blank_022",
+        "tc_c03_piao_leave_blank_023",
+        "tc_c03_piao_leave_blank_024",
+        "tc_c03_piao_say_clearly_001",
+        "tc_c03_piao_say_clearly_002",
+        "tc_c03_piao_say_clearly_003",
+        "tc_c03_piao_say_clearly_004",
+        "tc_c03_piao_say_clearly_005",
+        "tc_c03_piao_say_clearly_006",
+        "tc_c03_piao_say_clearly_007",
+        "tc_c03_piao_say_clearly_008",
+        "tc_c03_piao_say_clearly_009",
+        "tc_c03_piao_say_clearly_010",
+        "tc_c03_piao_relationship_choice",
+        "tc_c03_piao_dating_001",
+        "tc_c03_piao_dating_002",
+        "tc_c03_piao_dating_003",
+        "tc_c03_piao_dating_004",
+        "tc_c03_piao_dating_005",
+        "tc_c03_piao_dating_006",
+        "tc_c03_piao_dating_007",
+        "tc_c03_piao_dating_008",
+        "tc_c03_piao_dating_009",
+        "tc_c03_piao_dating_010",
+        "tc_c03_piao_dating_011",
+        "tc_c03_piao_dating_012",
+        "tc_c04_piao_entry",
+        "tc_c04_piao_two_plans_002",
+        "tc_c04_piao_two_plans_003",
+        "tc_c04_piao_two_plans_004",
+        "tc_c04_piao_two_plans_005",
+        "tc_c04_piao_outing_choice",
+        "tc_c04_piao_paperboat_001",
+        "tc_c04_piao_paperboat_002",
+        "tc_c04_piao_paperboat_003",
+        "tc_c04_piao_paperboat_004",
+        "tc_c04_piao_paperboat_005",
+        "tc_c04_piao_paperboat_006",
+        "tc_c04_piao_paperboat_007",
+        "tc_c04_piao_relationship_gate",
+        "tc_c04_piao_dating_001",
+        "tc_c04_piao_dating_002",
+        "tc_c04_piao_dating_003",
+        "tc_c04_piao_dating_004",
+        "tc_c04_piao_dating_005",
+        "tc_c04_piao_dating_006",
+        "tc_c04_piao_dating_007",
+        "tc_c04_piao_dating_008",
+        "tc_c05_piao_entry",
+        "tc_c05_piao_cover_002",
+        "tc_c05_piao_cover_003",
+        "tc_c05_piao_cover_004",
+        "tc_c05_piao_cover_005",
+        "tc_c05_piao_cover_006",
+        "tc_c05_piao_cover_007",
+        "tc_c05_piao_cover_008",
+        "tc_c05_piao_cover_009",
+        "tc_c05_piao_cover_010",
+        "tc_c05_piao_cover_011",
+        "tc_c05_piao_cover_012",
+        "tc_c05_piao_cover_013",
+        "tc_c05_piao_cover_014",
+        "tc_c05_piao_cover_015",
+        "tc_c05_piao_cover_016",
+        "tc_c05_piao_cover_017",
+        "tc_c05_piao_cover_018",
+        "tc_c05_piao_cover_019",
+        "tc_c05_piao_cover_020",
+        "tc_c05_piao_relationship_gate",
+        "tc_c05_piao_dating_001",
+        "tc_c05_piao_dating_002",
+        "tc_c05_piao_dating_003",
+        "tc_c05_piao_dating_004",
+        "tc_c05_piao_dating_005",
+        "tc_c05_piao_dating_006",
+        "tc_c05_piao_dating_007",
+        "tc_c05_piao_dating_008",
+        "tc_c05_piao_dating_009",
+        "tc_c05_piao_dating_010",
+        "tc_c05_piao_dating_011",
+        "tc_c06_piao_entry",
+        "tc_c06_piao_closed_echo_002",
+        "tc_c06_piao_closed_echo_003",
+        "tc_c06_piao_closed_echo_004",
+        "tc_c06_piao_closed_echo_005",
+        "tc_c06_piao_closed_echo_006",
+        "tc_c06_piao_closed_echo_007",
+        "tc_c06_piao_closed_echo_008",
+        "tc_c06_piao_closed_echo_009",
+        "tc_c06_piao_closed_echo_010",
+        "tc_c06_piao_closed_echo_011",
+        "tc_c06_piao_relationship_gate",
+        "tc_c06_piao_dating_001",
+        "tc_c06_piao_dating_002",
+        "tc_c06_piao_dating_003",
+        "tc_c06_piao_dating_004",
+        "tc_c06_piao_dating_005",
+        "tc_c06_piao_dating_006",
+        "tc_c06_piao_dating_007",
+        "tc_c06_piao_dating_008",
+        "tc_c06_piao_dating_009",
+        "tc_c06_piao_dating_010",
+        "tc_c06_piao_dating_011",
+        "tc_c06_piao_dating_012",
+        "tc_c06_piao_dating_013",
+        "tc_c06_piao_dating_014",
+        "tc_c06_piao_dating_015",
+        "tc_c07_piao_entry",
+        "tc_c07_piao_half_hour_002",
+        "tc_c07_piao_half_hour_003",
+        "tc_c07_piao_outing_gate",
+        "tc_c07_piao_paperboat_return_001",
+        "tc_c07_piao_bag_ready_001",
+        "tc_c07_piao_relationship_gate",
+        "tc_c07_piao_dating_001",
+        "tc_c07_piao_dating_002",
+        "tc_c07_piao_dating_003",
+        "tc_c07_piao_dating_004",
+        "tc_c07_piao_dating_005",
+        "tc_c07_piao_dating_006",
+        "tc_c07_piao_dating_007",
+        "tc_c07_piao_dating_008",
+        "tc_c07_piao_dating_009",
+        "tc_c07_piao_dating_010",
+        "tc_c07_piao_dating_011",
+        "tc_c07_piao_dating_012",
+        "tc_c08_piao_entry",
+        "tc_c08_piao_shared_time_002",
+        "tc_c08_piao_shared_time_003",
+        "tc_c08_piao_shared_time_004",
+        "tc_c08_piao_shared_time_005",
+        "tc_c08_piao_shared_time_006",
+        "tc_c08_piao_shared_time_007",
+        "tc_c08_piao_shared_time_008",
+        "tc_c08_piao_shared_time_009",
+        "tc_c08_piao_relationship_gate",
+        "tc_c08_piao_dating_001",
+        "tc_c08_piao_dating_002",
+        "tc_c08_piao_dating_003",
+        "tc_c08_piao_dating_004",
+        "tc_c08_piao_dating_005",
+        "tc_c08_piao_dating_006",
+        "tc_c08_piao_dating_007",
+        "tc_c08_piao_dating_008",
+        "tc_c08_piao_dating_009",
+        "tc_c08_piao_dating_010",
+        "tc_c08_piao_dating_011",
+        "tc_c09_piao_entry",
+        "tc_c09_piao_booklet_002",
+        "tc_c09_piao_booklet_003",
+        "tc_c09_piao_booklet_004",
+        "tc_c09_piao_booklet_005",
+        "tc_c09_piao_booklet_006",
+        "tc_c09_piao_booklet_007",
+        "tc_c09_piao_booklet_008",
+        "tc_c09_piao_booklet_009",
+        "tc_c09_piao_relationship_gate",
+        "tc_c09_piao_dating_001",
+        "tc_c09_piao_dating_002",
+        "tc_c09_piao_dating_003",
+        "tc_c09_piao_dating_004",
+        "tc_c09_piao_dating_005",
+        "tc_c09_piao_dating_006",
+        "tc_c09_piao_dating_007",
+        "tc_c09_piao_dating_008",
+        "tc_c09_piao_dating_009",
+        "tc_c09_piao_dating_010",
+        "tc_c09_piao_dating_011",
+        "tc_c09_piao_dating_012",
+        "tc_c09_piao_dating_013",
+        "tc_c09_piao_dating_014",
+        "tc_c10_piao_entry",
+        "tc_c10_piao_dating_001",
+        "tc_c10_piao_dating_002",
+        "tc_c10_piao_dating_003",
+        "tc_c10_piao_dating_004",
+        "tc_c10_piao_dating_005",
+        "tc_c10_piao_dating_006",
+        "tc_c10_piao_dating_007",
+        "tc_c10_piao_dating_008",
+        "tc_c10_piao_dating_009",
+        "tc_c10_piao_dating_010",
+        "tc_c10_piao_dating_011",
+        "tc_c10_piao_dating_012",
+        "tc_c10_piao_dating_013",
+        "tc_c10_piao_dating_014",
+        "tc_c10_piao_dating_015",
+        "tc_c10_piao_dating_016",
+        "tc_c10_piao_dating_017",
+        "tc_c10_piao_dating_018",
+        "tc_c10_piao_dating_019",
+        "tc_c10_piao_dating_020",
+        "tc_c10_piao_dating_021",
+        "tc_c10_piao_end_dating"
+      ],
+      "gates": [
+        {
+          "id": "tc_c04_piao_relationship_gate",
+          "index": 0
+        },
+        {
+          "id": "tc_c05_piao_relationship_gate",
+          "index": 0
+        },
+        {
+          "id": "tc_c06_piao_relationship_gate",
+          "index": 0
+        },
+        {
+          "id": "tc_c07_piao_outing_gate",
+          "index": 0
+        },
+        {
+          "id": "tc_c07_piao_relationship_gate",
+          "index": 0
+        },
+        {
+          "id": "tc_c08_piao_relationship_gate",
+          "index": 0
+        },
+        {
+          "id": "tc_c09_piao_relationship_gate",
+          "index": 0
+        },
+        {
+          "id": "tc_c10_piao_entry",
+          "index": 0
+        }
+      ],
+      "choices": [
+        {
+          "id": "tc_c03_piao_relationship_choice",
+          "flag": "piaoRelationship",
+          "value": "dating",
+          "index": 0
+        },
+        {
+          "id": "tc_c04_piao_outing_choice",
+          "flag": "piaoOuting",
+          "value": "paperboat",
+          "index": 0
+        }
+      ],
+      "chapters": [
+        {
+          "chapter": 3,
+          "paragraphs": 70,
+          "lineNodes": 70,
+          "stop": "tc_c03_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating"
+          }
+        },
+        {
+          "chapter": 4,
+          "paragraphs": 20,
+          "lineNodes": 20,
+          "stop": "tc_c04_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating",
+            "piaoOuting": "paperboat"
+          }
+        },
+        {
+          "chapter": 5,
+          "paragraphs": 31,
+          "lineNodes": 31,
+          "stop": "tc_c05_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating",
+            "piaoOuting": "paperboat"
+          }
+        },
+        {
+          "chapter": 6,
+          "paragraphs": 26,
+          "lineNodes": 26,
+          "stop": "tc_c06_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating",
+            "piaoOuting": "paperboat"
+          }
+        },
+        {
+          "chapter": 7,
+          "paragraphs": 16,
+          "lineNodes": 17,
+          "stop": "tc_c07_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating",
+            "piaoOuting": "paperboat"
+          }
+        },
+        {
+          "chapter": 8,
+          "paragraphs": 20,
+          "lineNodes": 20,
+          "stop": "tc_c08_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating",
+            "piaoOuting": "paperboat"
+          }
+        },
+        {
+          "chapter": 9,
+          "paragraphs": 23,
+          "lineNodes": 23,
+          "stop": "tc_c09_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating",
+            "piaoOuting": "paperboat"
+          }
+        },
+        {
+          "chapter": 10,
+          "paragraphs": 21,
+          "lineNodes": 21,
+          "stop": "tc_c10_piao_end_dating",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating",
+            "piaoOuting": "paperboat"
+          }
+        }
+      ],
+      "ending": "tc_c10_piao_end_dating"
+    },
+    {
+      "route": "piao",
+      "outing": "paperboat",
+      "relationship": "friends",
+      "steps": [
+        "tc_c03_piao_entry",
+        "tc_c03_piao_sweet_jelly_002",
+        "tc_c03_piao_sweet_jelly_003",
+        "tc_c03_piao_sweet_jelly_004",
+        "tc_c03_piao_sweet_jelly_005",
+        "tc_c03_piao_sweet_jelly_006",
+        "tc_c03_piao_sweet_jelly_007",
+        "tc_c03_piao_sweet_jelly_008",
+        "tc_c03_piao_sweet_jelly_009",
+        "tc_c03_piao_sweet_jelly_010",
+        "tc_c03_piao_sweet_jelly_011",
+        "tc_c03_piao_sweet_jelly_012",
+        "tc_c03_piao_sweet_jelly_013",
+        "tc_c03_piao_sweet_jelly_014",
+        "tc_c03_piao_sweet_jelly_015",
+        "tc_c03_piao_sweet_jelly_016",
+        "tc_c03_piao_sweet_jelly_017",
+        "tc_c03_piao_sweet_jelly_018",
+        "tc_c03_piao_sweet_jelly_019",
+        "tc_c03_piao_sweet_jelly_020",
+        "tc_c03_piao_sweet_jelly_021",
+        "tc_c03_piao_sweet_jelly_022",
+        "tc_c03_piao_sweet_jelly_023",
+        "tc_c03_piao_sweet_jelly_024",
+        "tc_c03_piao_leave_blank_001",
+        "tc_c03_piao_leave_blank_002",
+        "tc_c03_piao_leave_blank_003",
+        "tc_c03_piao_leave_blank_004",
+        "tc_c03_piao_leave_blank_005",
+        "tc_c03_piao_leave_blank_006",
+        "tc_c03_piao_leave_blank_007",
+        "tc_c03_piao_leave_blank_008",
+        "tc_c03_piao_leave_blank_009",
+        "tc_c03_piao_leave_blank_010",
+        "tc_c03_piao_leave_blank_011",
+        "tc_c03_piao_leave_blank_012",
+        "tc_c03_piao_leave_blank_013",
+        "tc_c03_piao_leave_blank_014",
+        "tc_c03_piao_leave_blank_015",
+        "tc_c03_piao_leave_blank_016",
+        "tc_c03_piao_leave_blank_017",
+        "tc_c03_piao_leave_blank_018",
+        "tc_c03_piao_leave_blank_019",
+        "tc_c03_piao_leave_blank_020",
+        "tc_c03_piao_leave_blank_021",
+        "tc_c03_piao_leave_blank_022",
+        "tc_c03_piao_leave_blank_023",
+        "tc_c03_piao_leave_blank_024",
+        "tc_c03_piao_say_clearly_001",
+        "tc_c03_piao_say_clearly_002",
+        "tc_c03_piao_say_clearly_003",
+        "tc_c03_piao_say_clearly_004",
+        "tc_c03_piao_say_clearly_005",
+        "tc_c03_piao_say_clearly_006",
+        "tc_c03_piao_say_clearly_007",
+        "tc_c03_piao_say_clearly_008",
+        "tc_c03_piao_say_clearly_009",
+        "tc_c03_piao_say_clearly_010",
+        "tc_c03_piao_relationship_choice",
+        "tc_c03_piao_friends_001",
+        "tc_c03_piao_friends_002",
+        "tc_c03_piao_friends_003",
+        "tc_c03_piao_friends_004",
+        "tc_c03_piao_friends_005",
+        "tc_c03_piao_friends_006",
+        "tc_c03_piao_friends_007",
+        "tc_c03_piao_friends_008",
+        "tc_c03_piao_friends_009",
+        "tc_c03_piao_friends_010",
+        "tc_c03_piao_friends_011",
+        "tc_c04_piao_entry",
+        "tc_c04_piao_two_plans_002",
+        "tc_c04_piao_two_plans_003",
+        "tc_c04_piao_two_plans_004",
+        "tc_c04_piao_two_plans_005",
+        "tc_c04_piao_outing_choice",
+        "tc_c04_piao_paperboat_001",
+        "tc_c04_piao_paperboat_002",
+        "tc_c04_piao_paperboat_003",
+        "tc_c04_piao_paperboat_004",
+        "tc_c04_piao_paperboat_005",
+        "tc_c04_piao_paperboat_006",
+        "tc_c04_piao_paperboat_007",
+        "tc_c04_piao_relationship_gate",
+        "tc_c04_piao_friends_001",
+        "tc_c04_piao_friends_002",
+        "tc_c04_piao_friends_003",
+        "tc_c04_piao_friends_004",
+        "tc_c04_piao_friends_005",
+        "tc_c05_piao_entry",
+        "tc_c05_piao_cover_002",
+        "tc_c05_piao_cover_003",
+        "tc_c05_piao_cover_004",
+        "tc_c05_piao_cover_005",
+        "tc_c05_piao_cover_006",
+        "tc_c05_piao_cover_007",
+        "tc_c05_piao_cover_008",
+        "tc_c05_piao_cover_009",
+        "tc_c05_piao_cover_010",
+        "tc_c05_piao_cover_011",
+        "tc_c05_piao_cover_012",
+        "tc_c05_piao_cover_013",
+        "tc_c05_piao_cover_014",
+        "tc_c05_piao_cover_015",
+        "tc_c05_piao_cover_016",
+        "tc_c05_piao_cover_017",
+        "tc_c05_piao_cover_018",
+        "tc_c05_piao_cover_019",
+        "tc_c05_piao_cover_020",
+        "tc_c05_piao_relationship_gate",
+        "tc_c05_piao_friends_001",
+        "tc_c05_piao_friends_002",
+        "tc_c05_piao_friends_003",
+        "tc_c05_piao_friends_004",
+        "tc_c05_piao_friends_005",
+        "tc_c05_piao_friends_006",
+        "tc_c05_piao_friends_007",
+        "tc_c05_piao_friends_008",
+        "tc_c05_piao_friends_009",
+        "tc_c05_piao_friends_010",
+        "tc_c06_piao_entry",
+        "tc_c06_piao_closed_echo_002",
+        "tc_c06_piao_closed_echo_003",
+        "tc_c06_piao_closed_echo_004",
+        "tc_c06_piao_closed_echo_005",
+        "tc_c06_piao_closed_echo_006",
+        "tc_c06_piao_closed_echo_007",
+        "tc_c06_piao_closed_echo_008",
+        "tc_c06_piao_closed_echo_009",
+        "tc_c06_piao_closed_echo_010",
+        "tc_c06_piao_closed_echo_011",
+        "tc_c06_piao_relationship_gate",
+        "tc_c06_piao_friends_001",
+        "tc_c06_piao_friends_002",
+        "tc_c06_piao_friends_003",
+        "tc_c06_piao_friends_004",
+        "tc_c06_piao_friends_005",
+        "tc_c06_piao_friends_006",
+        "tc_c06_piao_friends_007",
+        "tc_c06_piao_friends_008",
+        "tc_c06_piao_friends_009",
+        "tc_c06_piao_friends_010",
+        "tc_c07_piao_entry",
+        "tc_c07_piao_half_hour_002",
+        "tc_c07_piao_half_hour_003",
+        "tc_c07_piao_outing_gate",
+        "tc_c07_piao_paperboat_return_001",
+        "tc_c07_piao_bag_ready_001",
+        "tc_c07_piao_relationship_gate",
+        "tc_c07_piao_friends_001",
+        "tc_c07_piao_friends_002",
+        "tc_c07_piao_friends_003",
+        "tc_c07_piao_friends_004",
+        "tc_c07_piao_friends_005",
+        "tc_c07_piao_friends_006",
+        "tc_c07_piao_friends_007",
+        "tc_c07_piao_friends_008",
+        "tc_c07_piao_friends_009",
+        "tc_c08_piao_entry",
+        "tc_c08_piao_shared_time_002",
+        "tc_c08_piao_shared_time_003",
+        "tc_c08_piao_shared_time_004",
+        "tc_c08_piao_shared_time_005",
+        "tc_c08_piao_shared_time_006",
+        "tc_c08_piao_shared_time_007",
+        "tc_c08_piao_shared_time_008",
+        "tc_c08_piao_shared_time_009",
+        "tc_c08_piao_relationship_gate",
+        "tc_c08_piao_friends_001",
+        "tc_c08_piao_friends_002",
+        "tc_c08_piao_friends_003",
+        "tc_c08_piao_friends_004",
+        "tc_c08_piao_friends_005",
+        "tc_c08_piao_friends_006",
+        "tc_c08_piao_friends_007",
+        "tc_c08_piao_friends_008",
+        "tc_c08_piao_friends_009",
+        "tc_c09_piao_entry",
+        "tc_c09_piao_booklet_002",
+        "tc_c09_piao_booklet_003",
+        "tc_c09_piao_booklet_004",
+        "tc_c09_piao_booklet_005",
+        "tc_c09_piao_booklet_006",
+        "tc_c09_piao_booklet_007",
+        "tc_c09_piao_booklet_008",
+        "tc_c09_piao_booklet_009",
+        "tc_c09_piao_relationship_gate",
+        "tc_c09_piao_friends_001",
+        "tc_c09_piao_friends_002",
+        "tc_c09_piao_friends_003",
+        "tc_c09_piao_friends_004",
+        "tc_c09_piao_friends_005",
+        "tc_c09_piao_friends_006",
+        "tc_c09_piao_friends_007",
+        "tc_c09_piao_friends_008",
+        "tc_c09_piao_friends_009",
+        "tc_c09_piao_friends_010",
+        "tc_c09_piao_friends_011",
+        "tc_c10_piao_entry",
+        "tc_c10_piao_friends_001",
+        "tc_c10_piao_friends_002",
+        "tc_c10_piao_friends_003",
+        "tc_c10_piao_friends_004",
+        "tc_c10_piao_friends_005",
+        "tc_c10_piao_friends_006",
+        "tc_c10_piao_friends_007",
+        "tc_c10_piao_friends_008",
+        "tc_c10_piao_friends_009",
+        "tc_c10_piao_friends_010",
+        "tc_c10_piao_friends_011",
+        "tc_c10_piao_friends_012",
+        "tc_c10_piao_end_friends"
+      ],
+      "gates": [
+        {
+          "id": "tc_c04_piao_relationship_gate",
+          "index": 1
+        },
+        {
+          "id": "tc_c05_piao_relationship_gate",
+          "index": 1
+        },
+        {
+          "id": "tc_c06_piao_relationship_gate",
+          "index": 1
+        },
+        {
+          "id": "tc_c07_piao_outing_gate",
+          "index": 0
+        },
+        {
+          "id": "tc_c07_piao_relationship_gate",
+          "index": 1
+        },
+        {
+          "id": "tc_c08_piao_relationship_gate",
+          "index": 1
+        },
+        {
+          "id": "tc_c09_piao_relationship_gate",
+          "index": 1
+        },
+        {
+          "id": "tc_c10_piao_entry",
+          "index": 1
+        }
+      ],
+      "choices": [
+        {
+          "id": "tc_c03_piao_relationship_choice",
+          "flag": "piaoRelationship",
+          "value": "friends",
+          "index": 1
+        },
+        {
+          "id": "tc_c04_piao_outing_choice",
+          "flag": "piaoOuting",
+          "value": "paperboat",
+          "index": 0
+        }
+      ],
+      "chapters": [
+        {
+          "chapter": 3,
+          "paragraphs": 69,
+          "lineNodes": 69,
+          "stop": "tc_c03_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "friends"
+          }
+        },
+        {
+          "chapter": 4,
+          "paragraphs": 17,
+          "lineNodes": 17,
+          "stop": "tc_c04_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "friends",
+            "piaoOuting": "paperboat"
+          }
+        },
+        {
+          "chapter": 5,
+          "paragraphs": 30,
+          "lineNodes": 30,
+          "stop": "tc_c05_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "friends",
+            "piaoOuting": "paperboat"
+          }
+        },
+        {
+          "chapter": 6,
+          "paragraphs": 21,
+          "lineNodes": 21,
+          "stop": "tc_c06_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "friends",
+            "piaoOuting": "paperboat"
+          }
+        },
+        {
+          "chapter": 7,
+          "paragraphs": 14,
+          "lineNodes": 14,
+          "stop": "tc_c07_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "friends",
+            "piaoOuting": "paperboat"
+          }
+        },
+        {
+          "chapter": 8,
+          "paragraphs": 18,
+          "lineNodes": 18,
+          "stop": "tc_c08_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "friends",
+            "piaoOuting": "paperboat"
+          }
+        },
+        {
+          "chapter": 9,
+          "paragraphs": 20,
+          "lineNodes": 20,
+          "stop": "tc_c09_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "friends",
+            "piaoOuting": "paperboat"
+          }
+        },
+        {
+          "chapter": 10,
+          "paragraphs": 12,
+          "lineNodes": 12,
+          "stop": "tc_c10_piao_end_friends",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "friends",
+            "piaoOuting": "paperboat"
+          }
+        }
+      ],
+      "ending": "tc_c10_piao_end_friends"
+    },
+    {
+      "route": "piao",
+      "outing": "signs",
+      "relationship": "dating",
+      "steps": [
+        "tc_c03_piao_entry",
+        "tc_c03_piao_sweet_jelly_002",
+        "tc_c03_piao_sweet_jelly_003",
+        "tc_c03_piao_sweet_jelly_004",
+        "tc_c03_piao_sweet_jelly_005",
+        "tc_c03_piao_sweet_jelly_006",
+        "tc_c03_piao_sweet_jelly_007",
+        "tc_c03_piao_sweet_jelly_008",
+        "tc_c03_piao_sweet_jelly_009",
+        "tc_c03_piao_sweet_jelly_010",
+        "tc_c03_piao_sweet_jelly_011",
+        "tc_c03_piao_sweet_jelly_012",
+        "tc_c03_piao_sweet_jelly_013",
+        "tc_c03_piao_sweet_jelly_014",
+        "tc_c03_piao_sweet_jelly_015",
+        "tc_c03_piao_sweet_jelly_016",
+        "tc_c03_piao_sweet_jelly_017",
+        "tc_c03_piao_sweet_jelly_018",
+        "tc_c03_piao_sweet_jelly_019",
+        "tc_c03_piao_sweet_jelly_020",
+        "tc_c03_piao_sweet_jelly_021",
+        "tc_c03_piao_sweet_jelly_022",
+        "tc_c03_piao_sweet_jelly_023",
+        "tc_c03_piao_sweet_jelly_024",
+        "tc_c03_piao_leave_blank_001",
+        "tc_c03_piao_leave_blank_002",
+        "tc_c03_piao_leave_blank_003",
+        "tc_c03_piao_leave_blank_004",
+        "tc_c03_piao_leave_blank_005",
+        "tc_c03_piao_leave_blank_006",
+        "tc_c03_piao_leave_blank_007",
+        "tc_c03_piao_leave_blank_008",
+        "tc_c03_piao_leave_blank_009",
+        "tc_c03_piao_leave_blank_010",
+        "tc_c03_piao_leave_blank_011",
+        "tc_c03_piao_leave_blank_012",
+        "tc_c03_piao_leave_blank_013",
+        "tc_c03_piao_leave_blank_014",
+        "tc_c03_piao_leave_blank_015",
+        "tc_c03_piao_leave_blank_016",
+        "tc_c03_piao_leave_blank_017",
+        "tc_c03_piao_leave_blank_018",
+        "tc_c03_piao_leave_blank_019",
+        "tc_c03_piao_leave_blank_020",
+        "tc_c03_piao_leave_blank_021",
+        "tc_c03_piao_leave_blank_022",
+        "tc_c03_piao_leave_blank_023",
+        "tc_c03_piao_leave_blank_024",
+        "tc_c03_piao_say_clearly_001",
+        "tc_c03_piao_say_clearly_002",
+        "tc_c03_piao_say_clearly_003",
+        "tc_c03_piao_say_clearly_004",
+        "tc_c03_piao_say_clearly_005",
+        "tc_c03_piao_say_clearly_006",
+        "tc_c03_piao_say_clearly_007",
+        "tc_c03_piao_say_clearly_008",
+        "tc_c03_piao_say_clearly_009",
+        "tc_c03_piao_say_clearly_010",
+        "tc_c03_piao_relationship_choice",
+        "tc_c03_piao_dating_001",
+        "tc_c03_piao_dating_002",
+        "tc_c03_piao_dating_003",
+        "tc_c03_piao_dating_004",
+        "tc_c03_piao_dating_005",
+        "tc_c03_piao_dating_006",
+        "tc_c03_piao_dating_007",
+        "tc_c03_piao_dating_008",
+        "tc_c03_piao_dating_009",
+        "tc_c03_piao_dating_010",
+        "tc_c03_piao_dating_011",
+        "tc_c03_piao_dating_012",
+        "tc_c04_piao_entry",
+        "tc_c04_piao_two_plans_002",
+        "tc_c04_piao_two_plans_003",
+        "tc_c04_piao_two_plans_004",
+        "tc_c04_piao_two_plans_005",
+        "tc_c04_piao_outing_choice",
+        "tc_c04_piao_signs_001",
+        "tc_c04_piao_signs_002",
+        "tc_c04_piao_signs_003",
+        "tc_c04_piao_signs_004",
+        "tc_c04_piao_signs_005",
+        "tc_c04_piao_signs_006",
+        "tc_c04_piao_relationship_gate",
+        "tc_c04_piao_dating_001",
+        "tc_c04_piao_dating_002",
+        "tc_c04_piao_dating_003",
+        "tc_c04_piao_dating_004",
+        "tc_c04_piao_dating_005",
+        "tc_c04_piao_dating_006",
+        "tc_c04_piao_dating_007",
+        "tc_c04_piao_dating_008",
+        "tc_c05_piao_entry",
+        "tc_c05_piao_cover_002",
+        "tc_c05_piao_cover_003",
+        "tc_c05_piao_cover_004",
+        "tc_c05_piao_cover_005",
+        "tc_c05_piao_cover_006",
+        "tc_c05_piao_cover_007",
+        "tc_c05_piao_cover_008",
+        "tc_c05_piao_cover_009",
+        "tc_c05_piao_cover_010",
+        "tc_c05_piao_cover_011",
+        "tc_c05_piao_cover_012",
+        "tc_c05_piao_cover_013",
+        "tc_c05_piao_cover_014",
+        "tc_c05_piao_cover_015",
+        "tc_c05_piao_cover_016",
+        "tc_c05_piao_cover_017",
+        "tc_c05_piao_cover_018",
+        "tc_c05_piao_cover_019",
+        "tc_c05_piao_cover_020",
+        "tc_c05_piao_relationship_gate",
+        "tc_c05_piao_dating_001",
+        "tc_c05_piao_dating_002",
+        "tc_c05_piao_dating_003",
+        "tc_c05_piao_dating_004",
+        "tc_c05_piao_dating_005",
+        "tc_c05_piao_dating_006",
+        "tc_c05_piao_dating_007",
+        "tc_c05_piao_dating_008",
+        "tc_c05_piao_dating_009",
+        "tc_c05_piao_dating_010",
+        "tc_c05_piao_dating_011",
+        "tc_c06_piao_entry",
+        "tc_c06_piao_closed_echo_002",
+        "tc_c06_piao_closed_echo_003",
+        "tc_c06_piao_closed_echo_004",
+        "tc_c06_piao_closed_echo_005",
+        "tc_c06_piao_closed_echo_006",
+        "tc_c06_piao_closed_echo_007",
+        "tc_c06_piao_closed_echo_008",
+        "tc_c06_piao_closed_echo_009",
+        "tc_c06_piao_closed_echo_010",
+        "tc_c06_piao_closed_echo_011",
+        "tc_c06_piao_relationship_gate",
+        "tc_c06_piao_dating_001",
+        "tc_c06_piao_dating_002",
+        "tc_c06_piao_dating_003",
+        "tc_c06_piao_dating_004",
+        "tc_c06_piao_dating_005",
+        "tc_c06_piao_dating_006",
+        "tc_c06_piao_dating_007",
+        "tc_c06_piao_dating_008",
+        "tc_c06_piao_dating_009",
+        "tc_c06_piao_dating_010",
+        "tc_c06_piao_dating_011",
+        "tc_c06_piao_dating_012",
+        "tc_c06_piao_dating_013",
+        "tc_c06_piao_dating_014",
+        "tc_c06_piao_dating_015",
+        "tc_c07_piao_entry",
+        "tc_c07_piao_half_hour_002",
+        "tc_c07_piao_half_hour_003",
+        "tc_c07_piao_outing_gate",
+        "tc_c07_piao_signs_return_001",
+        "tc_c07_piao_bag_ready_001",
+        "tc_c07_piao_relationship_gate",
+        "tc_c07_piao_dating_001",
+        "tc_c07_piao_dating_002",
+        "tc_c07_piao_dating_003",
+        "tc_c07_piao_dating_004",
+        "tc_c07_piao_dating_005",
+        "tc_c07_piao_dating_006",
+        "tc_c07_piao_dating_007",
+        "tc_c07_piao_dating_008",
+        "tc_c07_piao_dating_009",
+        "tc_c07_piao_dating_010",
+        "tc_c07_piao_dating_011",
+        "tc_c07_piao_dating_012",
+        "tc_c08_piao_entry",
+        "tc_c08_piao_shared_time_002",
+        "tc_c08_piao_shared_time_003",
+        "tc_c08_piao_shared_time_004",
+        "tc_c08_piao_shared_time_005",
+        "tc_c08_piao_shared_time_006",
+        "tc_c08_piao_shared_time_007",
+        "tc_c08_piao_shared_time_008",
+        "tc_c08_piao_shared_time_009",
+        "tc_c08_piao_relationship_gate",
+        "tc_c08_piao_dating_001",
+        "tc_c08_piao_dating_002",
+        "tc_c08_piao_dating_003",
+        "tc_c08_piao_dating_004",
+        "tc_c08_piao_dating_005",
+        "tc_c08_piao_dating_006",
+        "tc_c08_piao_dating_007",
+        "tc_c08_piao_dating_008",
+        "tc_c08_piao_dating_009",
+        "tc_c08_piao_dating_010",
+        "tc_c08_piao_dating_011",
+        "tc_c09_piao_entry",
+        "tc_c09_piao_booklet_002",
+        "tc_c09_piao_booklet_003",
+        "tc_c09_piao_booklet_004",
+        "tc_c09_piao_booklet_005",
+        "tc_c09_piao_booklet_006",
+        "tc_c09_piao_booklet_007",
+        "tc_c09_piao_booklet_008",
+        "tc_c09_piao_booklet_009",
+        "tc_c09_piao_relationship_gate",
+        "tc_c09_piao_dating_001",
+        "tc_c09_piao_dating_002",
+        "tc_c09_piao_dating_003",
+        "tc_c09_piao_dating_004",
+        "tc_c09_piao_dating_005",
+        "tc_c09_piao_dating_006",
+        "tc_c09_piao_dating_007",
+        "tc_c09_piao_dating_008",
+        "tc_c09_piao_dating_009",
+        "tc_c09_piao_dating_010",
+        "tc_c09_piao_dating_011",
+        "tc_c09_piao_dating_012",
+        "tc_c09_piao_dating_013",
+        "tc_c09_piao_dating_014",
+        "tc_c10_piao_entry",
+        "tc_c10_piao_dating_001",
+        "tc_c10_piao_dating_002",
+        "tc_c10_piao_dating_003",
+        "tc_c10_piao_dating_004",
+        "tc_c10_piao_dating_005",
+        "tc_c10_piao_dating_006",
+        "tc_c10_piao_dating_007",
+        "tc_c10_piao_dating_008",
+        "tc_c10_piao_dating_009",
+        "tc_c10_piao_dating_010",
+        "tc_c10_piao_dating_011",
+        "tc_c10_piao_dating_012",
+        "tc_c10_piao_dating_013",
+        "tc_c10_piao_dating_014",
+        "tc_c10_piao_dating_015",
+        "tc_c10_piao_dating_016",
+        "tc_c10_piao_dating_017",
+        "tc_c10_piao_dating_018",
+        "tc_c10_piao_dating_019",
+        "tc_c10_piao_dating_020",
+        "tc_c10_piao_dating_021",
+        "tc_c10_piao_end_dating"
+      ],
+      "gates": [
+        {
+          "id": "tc_c04_piao_relationship_gate",
+          "index": 0
+        },
+        {
+          "id": "tc_c05_piao_relationship_gate",
+          "index": 0
+        },
+        {
+          "id": "tc_c06_piao_relationship_gate",
+          "index": 0
+        },
+        {
+          "id": "tc_c07_piao_outing_gate",
+          "index": 1
+        },
+        {
+          "id": "tc_c07_piao_relationship_gate",
+          "index": 0
+        },
+        {
+          "id": "tc_c08_piao_relationship_gate",
+          "index": 0
+        },
+        {
+          "id": "tc_c09_piao_relationship_gate",
+          "index": 0
+        },
+        {
+          "id": "tc_c10_piao_entry",
+          "index": 0
+        }
+      ],
+      "choices": [
+        {
+          "id": "tc_c03_piao_relationship_choice",
+          "flag": "piaoRelationship",
+          "value": "dating",
+          "index": 0
+        },
+        {
+          "id": "tc_c04_piao_outing_choice",
+          "flag": "piaoOuting",
+          "value": "signs",
+          "index": 1
+        }
+      ],
+      "chapters": [
+        {
+          "chapter": 3,
+          "paragraphs": 70,
+          "lineNodes": 70,
+          "stop": "tc_c03_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating"
+          }
+        },
+        {
+          "chapter": 4,
+          "paragraphs": 19,
+          "lineNodes": 19,
+          "stop": "tc_c04_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating",
+            "piaoOuting": "signs"
+          }
+        },
+        {
+          "chapter": 5,
+          "paragraphs": 31,
+          "lineNodes": 31,
+          "stop": "tc_c05_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating",
+            "piaoOuting": "signs"
+          }
+        },
+        {
+          "chapter": 6,
+          "paragraphs": 26,
+          "lineNodes": 26,
+          "stop": "tc_c06_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating",
+            "piaoOuting": "signs"
+          }
+        },
+        {
+          "chapter": 7,
+          "paragraphs": 16,
+          "lineNodes": 17,
+          "stop": "tc_c07_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating",
+            "piaoOuting": "signs"
+          }
+        },
+        {
+          "chapter": 8,
+          "paragraphs": 20,
+          "lineNodes": 20,
+          "stop": "tc_c08_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating",
+            "piaoOuting": "signs"
+          }
+        },
+        {
+          "chapter": 9,
+          "paragraphs": 23,
+          "lineNodes": 23,
+          "stop": "tc_c09_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating",
+            "piaoOuting": "signs"
+          }
+        },
+        {
+          "chapter": 10,
+          "paragraphs": 21,
+          "lineNodes": 21,
+          "stop": "tc_c10_piao_end_dating",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating",
+            "piaoOuting": "signs"
+          }
+        }
+      ],
+      "ending": "tc_c10_piao_end_dating"
+    },
+    {
+      "route": "piao",
+      "outing": "signs",
+      "relationship": "friends",
+      "steps": [
+        "tc_c03_piao_entry",
+        "tc_c03_piao_sweet_jelly_002",
+        "tc_c03_piao_sweet_jelly_003",
+        "tc_c03_piao_sweet_jelly_004",
+        "tc_c03_piao_sweet_jelly_005",
+        "tc_c03_piao_sweet_jelly_006",
+        "tc_c03_piao_sweet_jelly_007",
+        "tc_c03_piao_sweet_jelly_008",
+        "tc_c03_piao_sweet_jelly_009",
+        "tc_c03_piao_sweet_jelly_010",
+        "tc_c03_piao_sweet_jelly_011",
+        "tc_c03_piao_sweet_jelly_012",
+        "tc_c03_piao_sweet_jelly_013",
+        "tc_c03_piao_sweet_jelly_014",
+        "tc_c03_piao_sweet_jelly_015",
+        "tc_c03_piao_sweet_jelly_016",
+        "tc_c03_piao_sweet_jelly_017",
+        "tc_c03_piao_sweet_jelly_018",
+        "tc_c03_piao_sweet_jelly_019",
+        "tc_c03_piao_sweet_jelly_020",
+        "tc_c03_piao_sweet_jelly_021",
+        "tc_c03_piao_sweet_jelly_022",
+        "tc_c03_piao_sweet_jelly_023",
+        "tc_c03_piao_sweet_jelly_024",
+        "tc_c03_piao_leave_blank_001",
+        "tc_c03_piao_leave_blank_002",
+        "tc_c03_piao_leave_blank_003",
+        "tc_c03_piao_leave_blank_004",
+        "tc_c03_piao_leave_blank_005",
+        "tc_c03_piao_leave_blank_006",
+        "tc_c03_piao_leave_blank_007",
+        "tc_c03_piao_leave_blank_008",
+        "tc_c03_piao_leave_blank_009",
+        "tc_c03_piao_leave_blank_010",
+        "tc_c03_piao_leave_blank_011",
+        "tc_c03_piao_leave_blank_012",
+        "tc_c03_piao_leave_blank_013",
+        "tc_c03_piao_leave_blank_014",
+        "tc_c03_piao_leave_blank_015",
+        "tc_c03_piao_leave_blank_016",
+        "tc_c03_piao_leave_blank_017",
+        "tc_c03_piao_leave_blank_018",
+        "tc_c03_piao_leave_blank_019",
+        "tc_c03_piao_leave_blank_020",
+        "tc_c03_piao_leave_blank_021",
+        "tc_c03_piao_leave_blank_022",
+        "tc_c03_piao_leave_blank_023",
+        "tc_c03_piao_leave_blank_024",
+        "tc_c03_piao_say_clearly_001",
+        "tc_c03_piao_say_clearly_002",
+        "tc_c03_piao_say_clearly_003",
+        "tc_c03_piao_say_clearly_004",
+        "tc_c03_piao_say_clearly_005",
+        "tc_c03_piao_say_clearly_006",
+        "tc_c03_piao_say_clearly_007",
+        "tc_c03_piao_say_clearly_008",
+        "tc_c03_piao_say_clearly_009",
+        "tc_c03_piao_say_clearly_010",
+        "tc_c03_piao_relationship_choice",
+        "tc_c03_piao_friends_001",
+        "tc_c03_piao_friends_002",
+        "tc_c03_piao_friends_003",
+        "tc_c03_piao_friends_004",
+        "tc_c03_piao_friends_005",
+        "tc_c03_piao_friends_006",
+        "tc_c03_piao_friends_007",
+        "tc_c03_piao_friends_008",
+        "tc_c03_piao_friends_009",
+        "tc_c03_piao_friends_010",
+        "tc_c03_piao_friends_011",
+        "tc_c04_piao_entry",
+        "tc_c04_piao_two_plans_002",
+        "tc_c04_piao_two_plans_003",
+        "tc_c04_piao_two_plans_004",
+        "tc_c04_piao_two_plans_005",
+        "tc_c04_piao_outing_choice",
+        "tc_c04_piao_signs_001",
+        "tc_c04_piao_signs_002",
+        "tc_c04_piao_signs_003",
+        "tc_c04_piao_signs_004",
+        "tc_c04_piao_signs_005",
+        "tc_c04_piao_signs_006",
+        "tc_c04_piao_relationship_gate",
+        "tc_c04_piao_friends_001",
+        "tc_c04_piao_friends_002",
+        "tc_c04_piao_friends_003",
+        "tc_c04_piao_friends_004",
+        "tc_c04_piao_friends_005",
+        "tc_c05_piao_entry",
+        "tc_c05_piao_cover_002",
+        "tc_c05_piao_cover_003",
+        "tc_c05_piao_cover_004",
+        "tc_c05_piao_cover_005",
+        "tc_c05_piao_cover_006",
+        "tc_c05_piao_cover_007",
+        "tc_c05_piao_cover_008",
+        "tc_c05_piao_cover_009",
+        "tc_c05_piao_cover_010",
+        "tc_c05_piao_cover_011",
+        "tc_c05_piao_cover_012",
+        "tc_c05_piao_cover_013",
+        "tc_c05_piao_cover_014",
+        "tc_c05_piao_cover_015",
+        "tc_c05_piao_cover_016",
+        "tc_c05_piao_cover_017",
+        "tc_c05_piao_cover_018",
+        "tc_c05_piao_cover_019",
+        "tc_c05_piao_cover_020",
+        "tc_c05_piao_relationship_gate",
+        "tc_c05_piao_friends_001",
+        "tc_c05_piao_friends_002",
+        "tc_c05_piao_friends_003",
+        "tc_c05_piao_friends_004",
+        "tc_c05_piao_friends_005",
+        "tc_c05_piao_friends_006",
+        "tc_c05_piao_friends_007",
+        "tc_c05_piao_friends_008",
+        "tc_c05_piao_friends_009",
+        "tc_c05_piao_friends_010",
+        "tc_c06_piao_entry",
+        "tc_c06_piao_closed_echo_002",
+        "tc_c06_piao_closed_echo_003",
+        "tc_c06_piao_closed_echo_004",
+        "tc_c06_piao_closed_echo_005",
+        "tc_c06_piao_closed_echo_006",
+        "tc_c06_piao_closed_echo_007",
+        "tc_c06_piao_closed_echo_008",
+        "tc_c06_piao_closed_echo_009",
+        "tc_c06_piao_closed_echo_010",
+        "tc_c06_piao_closed_echo_011",
+        "tc_c06_piao_relationship_gate",
+        "tc_c06_piao_friends_001",
+        "tc_c06_piao_friends_002",
+        "tc_c06_piao_friends_003",
+        "tc_c06_piao_friends_004",
+        "tc_c06_piao_friends_005",
+        "tc_c06_piao_friends_006",
+        "tc_c06_piao_friends_007",
+        "tc_c06_piao_friends_008",
+        "tc_c06_piao_friends_009",
+        "tc_c06_piao_friends_010",
+        "tc_c07_piao_entry",
+        "tc_c07_piao_half_hour_002",
+        "tc_c07_piao_half_hour_003",
+        "tc_c07_piao_outing_gate",
+        "tc_c07_piao_signs_return_001",
+        "tc_c07_piao_bag_ready_001",
+        "tc_c07_piao_relationship_gate",
+        "tc_c07_piao_friends_001",
+        "tc_c07_piao_friends_002",
+        "tc_c07_piao_friends_003",
+        "tc_c07_piao_friends_004",
+        "tc_c07_piao_friends_005",
+        "tc_c07_piao_friends_006",
+        "tc_c07_piao_friends_007",
+        "tc_c07_piao_friends_008",
+        "tc_c07_piao_friends_009",
+        "tc_c08_piao_entry",
+        "tc_c08_piao_shared_time_002",
+        "tc_c08_piao_shared_time_003",
+        "tc_c08_piao_shared_time_004",
+        "tc_c08_piao_shared_time_005",
+        "tc_c08_piao_shared_time_006",
+        "tc_c08_piao_shared_time_007",
+        "tc_c08_piao_shared_time_008",
+        "tc_c08_piao_shared_time_009",
+        "tc_c08_piao_relationship_gate",
+        "tc_c08_piao_friends_001",
+        "tc_c08_piao_friends_002",
+        "tc_c08_piao_friends_003",
+        "tc_c08_piao_friends_004",
+        "tc_c08_piao_friends_005",
+        "tc_c08_piao_friends_006",
+        "tc_c08_piao_friends_007",
+        "tc_c08_piao_friends_008",
+        "tc_c08_piao_friends_009",
+        "tc_c09_piao_entry",
+        "tc_c09_piao_booklet_002",
+        "tc_c09_piao_booklet_003",
+        "tc_c09_piao_booklet_004",
+        "tc_c09_piao_booklet_005",
+        "tc_c09_piao_booklet_006",
+        "tc_c09_piao_booklet_007",
+        "tc_c09_piao_booklet_008",
+        "tc_c09_piao_booklet_009",
+        "tc_c09_piao_relationship_gate",
+        "tc_c09_piao_friends_001",
+        "tc_c09_piao_friends_002",
+        "tc_c09_piao_friends_003",
+        "tc_c09_piao_friends_004",
+        "tc_c09_piao_friends_005",
+        "tc_c09_piao_friends_006",
+        "tc_c09_piao_friends_007",
+        "tc_c09_piao_friends_008",
+        "tc_c09_piao_friends_009",
+        "tc_c09_piao_friends_010",
+        "tc_c09_piao_friends_011",
+        "tc_c10_piao_entry",
+        "tc_c10_piao_friends_001",
+        "tc_c10_piao_friends_002",
+        "tc_c10_piao_friends_003",
+        "tc_c10_piao_friends_004",
+        "tc_c10_piao_friends_005",
+        "tc_c10_piao_friends_006",
+        "tc_c10_piao_friends_007",
+        "tc_c10_piao_friends_008",
+        "tc_c10_piao_friends_009",
+        "tc_c10_piao_friends_010",
+        "tc_c10_piao_friends_011",
+        "tc_c10_piao_friends_012",
+        "tc_c10_piao_end_friends"
+      ],
+      "gates": [
+        {
+          "id": "tc_c04_piao_relationship_gate",
+          "index": 1
+        },
+        {
+          "id": "tc_c05_piao_relationship_gate",
+          "index": 1
+        },
+        {
+          "id": "tc_c06_piao_relationship_gate",
+          "index": 1
+        },
+        {
+          "id": "tc_c07_piao_outing_gate",
+          "index": 1
+        },
+        {
+          "id": "tc_c07_piao_relationship_gate",
+          "index": 1
+        },
+        {
+          "id": "tc_c08_piao_relationship_gate",
+          "index": 1
+        },
+        {
+          "id": "tc_c09_piao_relationship_gate",
+          "index": 1
+        },
+        {
+          "id": "tc_c10_piao_entry",
+          "index": 1
+        }
+      ],
+      "choices": [
+        {
+          "id": "tc_c03_piao_relationship_choice",
+          "flag": "piaoRelationship",
+          "value": "friends",
+          "index": 1
+        },
+        {
+          "id": "tc_c04_piao_outing_choice",
+          "flag": "piaoOuting",
+          "value": "signs",
+          "index": 1
+        }
+      ],
+      "chapters": [
+        {
+          "chapter": 3,
+          "paragraphs": 69,
+          "lineNodes": 69,
+          "stop": "tc_c03_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "friends"
+          }
+        },
+        {
+          "chapter": 4,
+          "paragraphs": 16,
+          "lineNodes": 16,
+          "stop": "tc_c04_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "friends",
+            "piaoOuting": "signs"
+          }
+        },
+        {
+          "chapter": 5,
+          "paragraphs": 30,
+          "lineNodes": 30,
+          "stop": "tc_c05_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "friends",
+            "piaoOuting": "signs"
+          }
+        },
+        {
+          "chapter": 6,
+          "paragraphs": 21,
+          "lineNodes": 21,
+          "stop": "tc_c06_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "friends",
+            "piaoOuting": "signs"
+          }
+        },
+        {
+          "chapter": 7,
+          "paragraphs": 14,
+          "lineNodes": 14,
+          "stop": "tc_c07_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "friends",
+            "piaoOuting": "signs"
+          }
+        },
+        {
+          "chapter": 8,
+          "paragraphs": 18,
+          "lineNodes": 18,
+          "stop": "tc_c08_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "friends",
+            "piaoOuting": "signs"
+          }
+        },
+        {
+          "chapter": 9,
+          "paragraphs": 20,
+          "lineNodes": 20,
+          "stop": "tc_c09_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "friends",
+            "piaoOuting": "signs"
+          }
+        },
+        {
+          "chapter": 10,
+          "paragraphs": 12,
+          "lineNodes": 12,
+          "stop": "tc_c10_piao_end_friends",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "friends",
+            "piaoOuting": "signs"
+          }
+        }
+      ],
+      "ending": "tc_c10_piao_end_friends"
+    },
+    {
+      "route": "friends",
+      "outing": "show",
+      "relationship": null,
+      "steps": [
+        "tc_c03_friends_entry",
+        "tc_c03_friends_tailoring_002",
+        "tc_c03_friends_tailoring_003",
+        "tc_c03_friends_tailoring_004",
+        "tc_c03_friends_tailoring_005",
+        "tc_c03_friends_tailoring_006",
+        "tc_c03_friends_tailoring_007",
+        "tc_c03_friends_tailoring_008",
+        "tc_c03_friends_tailoring_009",
+        "tc_c03_friends_tailoring_010",
+        "tc_c03_friends_tailoring_011",
+        "tc_c03_friends_tailoring_012",
+        "tc_c03_friends_tailoring_013",
+        "tc_c03_friends_tailoring_014",
+        "tc_c03_friends_tailoring_015",
+        "tc_c03_friends_tailoring_016",
+        "tc_c03_friends_tailoring_017",
+        "tc_c03_friends_tailoring_018",
+        "tc_c03_friends_tailoring_019",
+        "tc_c03_friends_tailoring_020",
+        "tc_c03_friends_online_game_001",
+        "tc_c03_friends_online_game_002",
+        "tc_c03_friends_online_game_003",
+        "tc_c03_friends_online_game_004",
+        "tc_c03_friends_online_game_005",
+        "tc_c03_friends_online_game_006",
+        "tc_c03_friends_online_game_007",
+        "tc_c03_friends_online_game_008",
+        "tc_c03_friends_online_game_009",
+        "tc_c03_friends_online_game_010",
+        "tc_c03_friends_online_game_011",
+        "tc_c03_friends_settling_in_001",
+        "tc_c03_friends_settling_in_002",
+        "tc_c03_friends_settling_in_003",
+        "tc_c03_friends_settling_in_004",
+        "tc_c03_friends_settling_in_005",
+        "tc_c03_friends_settling_in_006",
+        "tc_c03_friends_settling_in_007",
+        "tc_c03_friends_settling_in_008",
+        "tc_c03_friends_settling_in_009",
+        "tc_c03_friends_settling_in_010",
+        "tc_c03_friends_settling_in_011",
+        "tc_c03_friends_settling_in_012",
+        "tc_c03_friends_settling_in_013",
+        "tc_c04_friends_entry",
+        "tc_c04_friends_own_plan_002",
+        "tc_c04_friends_own_plan_003",
+        "tc_c04_friends_outing_choice",
+        "tc_c04_friends_show_001",
+        "tc_c04_friends_show_002",
+        "tc_c04_friends_show_003",
+        "tc_c04_friends_show_004",
+        "tc_c04_friends_show_005",
+        "tc_c04_friends_show_006",
+        "tc_c04_friends_show_007",
+        "tc_c04_friends_show_008",
+        "tc_c04_friends_crossroad_001",
+        "tc_c04_friends_crossroad_002",
+        "tc_c04_friends_crossroad_003",
+        "tc_c05_friends_entry",
+        "tc_c05_friends_job_name_002",
+        "tc_c05_friends_job_name_003",
+        "tc_c05_friends_job_name_004",
+        "tc_c05_friends_job_name_005",
+        "tc_c05_friends_job_name_006",
+        "tc_c05_friends_job_name_007",
+        "tc_c05_friends_job_name_008",
+        "tc_c05_friends_job_name_009",
+        "tc_c05_friends_job_name_010",
+        "tc_c05_friends_job_name_011",
+        "tc_c05_friends_job_name_012",
+        "tc_c05_friends_job_name_013",
+        "tc_c05_friends_say_it_001",
+        "tc_c05_friends_say_it_002",
+        "tc_c05_friends_say_it_003",
+        "tc_c05_friends_say_it_004",
+        "tc_c05_friends_say_it_005",
+        "tc_c05_friends_say_it_006",
+        "tc_c05_friends_say_it_007",
+        "tc_c05_friends_say_it_008",
+        "tc_c06_friends_entry",
+        "tc_c06_friends_quiet_company_002",
+        "tc_c06_friends_quiet_company_003",
+        "tc_c06_friends_quiet_company_004",
+        "tc_c06_friends_quiet_company_005",
+        "tc_c06_friends_quiet_company_006",
+        "tc_c06_friends_quiet_company_007",
+        "tc_c06_friends_quiet_company_008",
+        "tc_c06_friends_quiet_company_009",
+        "tc_c06_friends_quiet_company_010",
+        "tc_c06_friends_quiet_company_011",
+        "tc_c06_friends_quiet_company_012",
+        "tc_c06_friends_own_invitation_001",
+        "tc_c06_friends_own_invitation_002",
+        "tc_c06_friends_own_invitation_003",
+        "tc_c06_friends_own_invitation_004",
+        "tc_c06_friends_own_invitation_005",
+        "tc_c06_friends_own_invitation_006",
+        "tc_c06_friends_own_invitation_007",
+        "tc_c06_friends_own_invitation_008",
+        "tc_c06_friends_sleep_001",
+        "tc_c06_friends_sleep_002",
+        "tc_c06_friends_sleep_003",
+        "tc_c07_friends_entry",
+        "tc_c07_friends_show_return_001",
+        "tc_c07_friends_show_return_002",
+        "tc_c07_friends_show_return_003",
+        "tc_c07_friends_show_return_004",
+        "tc_c07_friends_show_return_005",
+        "tc_c07_friends_show_return_006",
+        "tc_c07_friends_online_game_001",
+        "tc_c07_friends_online_game_002",
+        "tc_c07_friends_online_game_003",
+        "tc_c07_friends_own_dinner_001",
+        "tc_c07_friends_own_dinner_002",
+        "tc_c07_friends_own_dinner_003",
+        "tc_c07_friends_own_dinner_004",
+        "tc_c07_friends_own_dinner_005",
+        "tc_c07_friends_own_dinner_006",
+        "tc_c07_friends_own_dinner_007",
+        "tc_c08_friends_entry",
+        "tc_c08_friends_boundaries_002",
+        "tc_c08_friends_boundaries_003",
+        "tc_c08_friends_boundaries_004",
+        "tc_c08_friends_boundaries_005",
+        "tc_c08_friends_boundaries_006",
+        "tc_c08_friends_boundaries_007",
+        "tc_c08_friends_boundaries_008",
+        "tc_c08_friends_boundaries_009",
+        "tc_c08_friends_boundaries_010",
+        "tc_c08_friends_boundaries_011",
+        "tc_c08_friends_online_game_001",
+        "tc_c08_friends_online_game_002",
+        "tc_c08_friends_online_game_003",
+        "tc_c08_friends_online_game_004",
+        "tc_c08_friends_online_game_005",
+        "tc_c08_friends_online_game_006",
+        "tc_c08_friends_free_afternoon_001",
+        "tc_c08_friends_free_afternoon_002",
+        "tc_c08_friends_free_afternoon_003",
+        "tc_c08_friends_free_afternoon_004",
+        "tc_c08_friends_free_afternoon_005",
+        "tc_c09_friends_entry",
+        "tc_c09_friends_birthday_002",
+        "tc_c09_friends_birthday_003",
+        "tc_c09_friends_birthday_004",
+        "tc_c09_friends_birthday_005",
+        "tc_c09_friends_birthday_006",
+        "tc_c09_friends_birthday_007",
+        "tc_c09_friends_birthday_008",
+        "tc_c09_friends_own_book_001",
+        "tc_c09_friends_own_book_002",
+        "tc_c09_friends_own_book_003",
+        "tc_c09_friends_own_book_004",
+        "tc_c09_friends_own_book_005",
+        "tc_c09_friends_call_home_001",
+        "tc_c09_friends_call_home_002",
+        "tc_c09_friends_call_home_003",
+        "tc_c09_friends_call_home_004",
+        "tc_c09_friends_call_home_005",
+        "tc_c10_friends_entry",
+        "tc_c10_friends_late_host_002",
+        "tc_c10_friends_late_host_003",
+        "tc_c10_friends_late_host_004",
+        "tc_c10_friends_late_host_005",
+        "tc_c10_friends_late_host_006",
+        "tc_c10_friends_late_host_007",
+        "tc_c10_friends_late_host_008",
+        "tc_c10_friends_friends_table_001",
+        "tc_c10_friends_friends_table_002",
+        "tc_c10_friends_friends_table_003",
+        "tc_c10_friends_friends_table_004",
+        "tc_c10_friends_friends_table_005",
+        "tc_c10_friends_friends_table_006",
+        "tc_c10_friends_friends_table_007",
+        "tc_c10_friends_friends_table_008",
+        "tc_c10_friends_rain_walk_001",
+        "tc_c10_friends_rain_walk_002",
+        "tc_c10_friends_rain_walk_003",
+        "tc_c10_friends_rain_walk_004",
+        "tc_c10_friends_rain_walk_005",
+        "tc_c10_friends_rain_walk_006",
+        "tc_c10_friends_rain_walk_007",
+        "tc_c10_friends_rain_walk_008",
+        "tc_c10_friends_end"
+      ],
+      "gates": [
+        {
+          "id": "tc_c07_friends_entry",
+          "index": 0
+        }
+      ],
+      "choices": [
+        {
+          "id": "tc_c04_friends_outing_choice",
+          "flag": "friendsOuting",
+          "value": "show",
+          "index": 0
+        }
+      ],
+      "chapters": [
+        {
+          "chapter": 3,
+          "paragraphs": 44,
+          "lineNodes": 44,
+          "stop": "tc_c03_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends"
+          }
+        },
+        {
+          "chapter": 4,
+          "paragraphs": 14,
+          "lineNodes": 14,
+          "stop": "tc_c04_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends",
+            "friendsOuting": "show"
+          }
+        },
+        {
+          "chapter": 5,
+          "paragraphs": 21,
+          "lineNodes": 21,
+          "stop": "tc_c05_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends",
+            "friendsOuting": "show"
+          }
+        },
+        {
+          "chapter": 6,
+          "paragraphs": 23,
+          "lineNodes": 23,
+          "stop": "tc_c06_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends",
+            "friendsOuting": "show"
+          }
+        },
+        {
+          "chapter": 7,
+          "paragraphs": 16,
+          "lineNodes": 16,
+          "stop": "tc_c07_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends",
+            "friendsOuting": "show"
+          }
+        },
+        {
+          "chapter": 8,
+          "paragraphs": 22,
+          "lineNodes": 22,
+          "stop": "tc_c08_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends",
+            "friendsOuting": "show"
+          }
+        },
+        {
+          "chapter": 9,
+          "paragraphs": 18,
+          "lineNodes": 18,
+          "stop": "tc_c09_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends",
+            "friendsOuting": "show"
+          }
+        },
+        {
+          "chapter": 10,
+          "paragraphs": 24,
+          "lineNodes": 24,
+          "stop": "tc_c10_friends_end",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends",
+            "friendsOuting": "show"
+          }
+        }
+      ],
+      "ending": "tc_c10_friends_end"
+    },
+    {
+      "route": "friends",
+      "outing": "walk",
+      "relationship": null,
+      "steps": [
+        "tc_c03_friends_entry",
+        "tc_c03_friends_tailoring_002",
+        "tc_c03_friends_tailoring_003",
+        "tc_c03_friends_tailoring_004",
+        "tc_c03_friends_tailoring_005",
+        "tc_c03_friends_tailoring_006",
+        "tc_c03_friends_tailoring_007",
+        "tc_c03_friends_tailoring_008",
+        "tc_c03_friends_tailoring_009",
+        "tc_c03_friends_tailoring_010",
+        "tc_c03_friends_tailoring_011",
+        "tc_c03_friends_tailoring_012",
+        "tc_c03_friends_tailoring_013",
+        "tc_c03_friends_tailoring_014",
+        "tc_c03_friends_tailoring_015",
+        "tc_c03_friends_tailoring_016",
+        "tc_c03_friends_tailoring_017",
+        "tc_c03_friends_tailoring_018",
+        "tc_c03_friends_tailoring_019",
+        "tc_c03_friends_tailoring_020",
+        "tc_c03_friends_online_game_001",
+        "tc_c03_friends_online_game_002",
+        "tc_c03_friends_online_game_003",
+        "tc_c03_friends_online_game_004",
+        "tc_c03_friends_online_game_005",
+        "tc_c03_friends_online_game_006",
+        "tc_c03_friends_online_game_007",
+        "tc_c03_friends_online_game_008",
+        "tc_c03_friends_online_game_009",
+        "tc_c03_friends_online_game_010",
+        "tc_c03_friends_online_game_011",
+        "tc_c03_friends_settling_in_001",
+        "tc_c03_friends_settling_in_002",
+        "tc_c03_friends_settling_in_003",
+        "tc_c03_friends_settling_in_004",
+        "tc_c03_friends_settling_in_005",
+        "tc_c03_friends_settling_in_006",
+        "tc_c03_friends_settling_in_007",
+        "tc_c03_friends_settling_in_008",
+        "tc_c03_friends_settling_in_009",
+        "tc_c03_friends_settling_in_010",
+        "tc_c03_friends_settling_in_011",
+        "tc_c03_friends_settling_in_012",
+        "tc_c03_friends_settling_in_013",
+        "tc_c04_friends_entry",
+        "tc_c04_friends_own_plan_002",
+        "tc_c04_friends_own_plan_003",
+        "tc_c04_friends_outing_choice",
+        "tc_c04_friends_walk_001",
+        "tc_c04_friends_walk_002",
+        "tc_c04_friends_walk_003",
+        "tc_c04_friends_walk_004",
+        "tc_c04_friends_walk_005",
+        "tc_c04_friends_walk_006",
+        "tc_c04_friends_walk_007",
+        "tc_c04_friends_crossroad_001",
+        "tc_c04_friends_crossroad_002",
+        "tc_c04_friends_crossroad_003",
+        "tc_c05_friends_entry",
+        "tc_c05_friends_job_name_002",
+        "tc_c05_friends_job_name_003",
+        "tc_c05_friends_job_name_004",
+        "tc_c05_friends_job_name_005",
+        "tc_c05_friends_job_name_006",
+        "tc_c05_friends_job_name_007",
+        "tc_c05_friends_job_name_008",
+        "tc_c05_friends_job_name_009",
+        "tc_c05_friends_job_name_010",
+        "tc_c05_friends_job_name_011",
+        "tc_c05_friends_job_name_012",
+        "tc_c05_friends_job_name_013",
+        "tc_c05_friends_say_it_001",
+        "tc_c05_friends_say_it_002",
+        "tc_c05_friends_say_it_003",
+        "tc_c05_friends_say_it_004",
+        "tc_c05_friends_say_it_005",
+        "tc_c05_friends_say_it_006",
+        "tc_c05_friends_say_it_007",
+        "tc_c05_friends_say_it_008",
+        "tc_c06_friends_entry",
+        "tc_c06_friends_quiet_company_002",
+        "tc_c06_friends_quiet_company_003",
+        "tc_c06_friends_quiet_company_004",
+        "tc_c06_friends_quiet_company_005",
+        "tc_c06_friends_quiet_company_006",
+        "tc_c06_friends_quiet_company_007",
+        "tc_c06_friends_quiet_company_008",
+        "tc_c06_friends_quiet_company_009",
+        "tc_c06_friends_quiet_company_010",
+        "tc_c06_friends_quiet_company_011",
+        "tc_c06_friends_quiet_company_012",
+        "tc_c06_friends_own_invitation_001",
+        "tc_c06_friends_own_invitation_002",
+        "tc_c06_friends_own_invitation_003",
+        "tc_c06_friends_own_invitation_004",
+        "tc_c06_friends_own_invitation_005",
+        "tc_c06_friends_own_invitation_006",
+        "tc_c06_friends_own_invitation_007",
+        "tc_c06_friends_own_invitation_008",
+        "tc_c06_friends_sleep_001",
+        "tc_c06_friends_sleep_002",
+        "tc_c06_friends_sleep_003",
+        "tc_c07_friends_entry",
+        "tc_c07_friends_walk_return_001",
+        "tc_c07_friends_walk_return_002",
+        "tc_c07_friends_walk_return_003",
+        "tc_c07_friends_walk_return_004",
+        "tc_c07_friends_walk_return_005",
+        "tc_c07_friends_online_game_001",
+        "tc_c07_friends_online_game_002",
+        "tc_c07_friends_online_game_003",
+        "tc_c07_friends_own_dinner_001",
+        "tc_c07_friends_own_dinner_002",
+        "tc_c07_friends_own_dinner_003",
+        "tc_c07_friends_own_dinner_004",
+        "tc_c07_friends_own_dinner_005",
+        "tc_c07_friends_own_dinner_006",
+        "tc_c07_friends_own_dinner_007",
+        "tc_c08_friends_entry",
+        "tc_c08_friends_boundaries_002",
+        "tc_c08_friends_boundaries_003",
+        "tc_c08_friends_boundaries_004",
+        "tc_c08_friends_boundaries_005",
+        "tc_c08_friends_boundaries_006",
+        "tc_c08_friends_boundaries_007",
+        "tc_c08_friends_boundaries_008",
+        "tc_c08_friends_boundaries_009",
+        "tc_c08_friends_boundaries_010",
+        "tc_c08_friends_boundaries_011",
+        "tc_c08_friends_online_game_001",
+        "tc_c08_friends_online_game_002",
+        "tc_c08_friends_online_game_003",
+        "tc_c08_friends_online_game_004",
+        "tc_c08_friends_online_game_005",
+        "tc_c08_friends_online_game_006",
+        "tc_c08_friends_free_afternoon_001",
+        "tc_c08_friends_free_afternoon_002",
+        "tc_c08_friends_free_afternoon_003",
+        "tc_c08_friends_free_afternoon_004",
+        "tc_c08_friends_free_afternoon_005",
+        "tc_c09_friends_entry",
+        "tc_c09_friends_birthday_002",
+        "tc_c09_friends_birthday_003",
+        "tc_c09_friends_birthday_004",
+        "tc_c09_friends_birthday_005",
+        "tc_c09_friends_birthday_006",
+        "tc_c09_friends_birthday_007",
+        "tc_c09_friends_birthday_008",
+        "tc_c09_friends_own_book_001",
+        "tc_c09_friends_own_book_002",
+        "tc_c09_friends_own_book_003",
+        "tc_c09_friends_own_book_004",
+        "tc_c09_friends_own_book_005",
+        "tc_c09_friends_call_home_001",
+        "tc_c09_friends_call_home_002",
+        "tc_c09_friends_call_home_003",
+        "tc_c09_friends_call_home_004",
+        "tc_c09_friends_call_home_005",
+        "tc_c10_friends_entry",
+        "tc_c10_friends_late_host_002",
+        "tc_c10_friends_late_host_003",
+        "tc_c10_friends_late_host_004",
+        "tc_c10_friends_late_host_005",
+        "tc_c10_friends_late_host_006",
+        "tc_c10_friends_late_host_007",
+        "tc_c10_friends_late_host_008",
+        "tc_c10_friends_friends_table_001",
+        "tc_c10_friends_friends_table_002",
+        "tc_c10_friends_friends_table_003",
+        "tc_c10_friends_friends_table_004",
+        "tc_c10_friends_friends_table_005",
+        "tc_c10_friends_friends_table_006",
+        "tc_c10_friends_friends_table_007",
+        "tc_c10_friends_friends_table_008",
+        "tc_c10_friends_rain_walk_001",
+        "tc_c10_friends_rain_walk_002",
+        "tc_c10_friends_rain_walk_003",
+        "tc_c10_friends_rain_walk_004",
+        "tc_c10_friends_rain_walk_005",
+        "tc_c10_friends_rain_walk_006",
+        "tc_c10_friends_rain_walk_007",
+        "tc_c10_friends_rain_walk_008",
+        "tc_c10_friends_end"
+      ],
+      "gates": [
+        {
+          "id": "tc_c07_friends_entry",
+          "index": 1
+        }
+      ],
+      "choices": [
+        {
+          "id": "tc_c04_friends_outing_choice",
+          "flag": "friendsOuting",
+          "value": "walk",
+          "index": 1
+        }
+      ],
+      "chapters": [
+        {
+          "chapter": 3,
+          "paragraphs": 44,
+          "lineNodes": 44,
+          "stop": "tc_c03_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends"
+          }
+        },
+        {
+          "chapter": 4,
+          "paragraphs": 13,
+          "lineNodes": 13,
+          "stop": "tc_c04_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends",
+            "friendsOuting": "walk"
+          }
+        },
+        {
+          "chapter": 5,
+          "paragraphs": 21,
+          "lineNodes": 21,
+          "stop": "tc_c05_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends",
+            "friendsOuting": "walk"
+          }
+        },
+        {
+          "chapter": 6,
+          "paragraphs": 23,
+          "lineNodes": 23,
+          "stop": "tc_c06_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends",
+            "friendsOuting": "walk"
+          }
+        },
+        {
+          "chapter": 7,
+          "paragraphs": 15,
+          "lineNodes": 15,
+          "stop": "tc_c07_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends",
+            "friendsOuting": "walk"
+          }
+        },
+        {
+          "chapter": 8,
+          "paragraphs": 22,
+          "lineNodes": 22,
+          "stop": "tc_c08_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends",
+            "friendsOuting": "walk"
+          }
+        },
+        {
+          "chapter": 9,
+          "paragraphs": 18,
+          "lineNodes": 18,
+          "stop": "tc_c09_common_exit",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends",
+            "friendsOuting": "walk"
+          }
+        },
+        {
+          "chapter": 10,
+          "paragraphs": 24,
+          "lineNodes": 24,
+          "stop": "tc_c10_friends_end",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends",
+            "friendsOuting": "walk"
+          }
+        }
+      ],
+      "ending": "tc_c10_friends_end"
+    }
+  ],
+  "inputFiles": [
+    {
+      "file": "任务拆分/全十章/校验/E06/fixture/manifest.json",
+      "sha256": "b33950d3ae937397e8439663565cdb2a1a31b7a9f6680b1cbf04e89ea7c7f269"
+    },
+    {
+      "file": "任务拆分/全十章/contract.json",
+      "sha256": "4086571ab65e54271ec70e5a0a0712e00d0b2a1f6dae739b1df05a328ada1876"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch01.json",
+      "sha256": "e67fd830b2a90b5b1ebc581dd0453a1d8feee5c3be0b91ce894cae6f1776b48f"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch02.json",
+      "sha256": "f9e89a31e445bd52655334f124c1e0f9c8bc9368bce0220742eed9f3561032b2"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch03.json",
+      "sha256": "88bb55edd4315f4a6c06500687a99134bdebaba1233b21ef03fd2660c75fba5b"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch04.json",
+      "sha256": "645ddb96d804533a226a8c14e5cb0fff18e557bfb9a2c994ee9eea915b24ac04"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch05.json",
+      "sha256": "2e19cd57cfafa07edd7c1880dc727f6aae386a62bad806f86c1d5a9f2d2fbfb8"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch06.json",
+      "sha256": "f95eabdfd886fdc72f1856872d21919b9adba833b501a303cc7219fe4c04e62f"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch07.json",
+      "sha256": "5b45f35bd675c3db4060f9e7ae8bf4d076cae60c9dd438cb8bead49e6fbd31c7"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch08.json",
+      "sha256": "4b98abcf1ef72c6ac5985cd70e1640bebfdf390fd2b67f6cfe9497ec80278ec9"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch09.json",
+      "sha256": "e437f863161b79661513d53c55e27529270918766114434eed3646b6bb710002"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch10.json",
+      "sha256": "5c179e95f3b1fc6ce28a47ffa70df2b41aa36dbd11ad440878c4fc23809d9b3c"
+    },
+    {
+      "file": "任务拆分/全十章/routes/xiaoman.json",
+      "sha256": "b982784014d95fe44cb620e6b0ccd2252b3b86ccea5e519c09501277abec0fb0"
+    },
+    {
+      "file": "任务拆分/全十章/routes/zhouzhi.json",
+      "sha256": "7da9e066d79aaa299ad2ab5fff911be7060f5db4e4ef11bda3e4a901880a8eff"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/fixtures/route-mengyao.json",
+      "sha256": "3c75e4633f090a98043da2a7d914d4895d3ff6d6e3d1261ab17a3186759e3cf9"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/fixtures/route-yelan.json",
+      "sha256": "6970dc1da5321baa366e879d2f9c43bfbae9fc3ce9d6ed2a3f686a8f6908990b"
+    },
+    {
+      "file": "任务拆分/全十章/routes/piao.json",
+      "sha256": "b1ab806155124a8b2cf0e11e9c2947e33fe9a77a622ecdff69f314e50255202d"
+    },
+    {
+      "file": "任务拆分/全十章/routes/friends.json",
+      "sha256": "22c82f1aa56c6873f83df8eedd47309693ab56ef03b081095b93fce95bce4ed7"
+    },
+    {
+      "file": "任务拆分/全十章/common/qa/fixtures/route-huangqiuqiu.json",
+      "sha256": "60fe12c20a65ea872d9ec5b17d01f5ddc8526345a386c2e1ccccdd97de72e034"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E06/fixture/bindings.json",
+      "sha256": "697f795b10f7e4ae506a08b2e9e0ef276af4d9d4b2134251c657b28353329cfa"
+    }
+  ],
+  "notValidated": [
+    "E05/E07真实路线全量组合",
+    "E08真实引擎/自动事件/存读档",
+    "A06采用资源/E09演出绑定",
+    "正式十章story.js集成",
+    "浏览器/实体手机/声音/真人阅读",
+    "打包/发布"
+  ]
+}

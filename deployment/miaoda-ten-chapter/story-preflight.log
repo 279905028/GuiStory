@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "mode": "candidate",
+  "formalIntegration": false,
+  "finalAcceptance": false,
+  "moduleCount": 17,
+  "nodeCount": 2612,
+  "sceneCount": 360,
+  "registeredAssets": 138,
+  "contentHash": "db01e296857b57e787323644aeefdb30bfdbea53cb854d5812cf1935fb815139",
+  "output": null,
+  "graph": {
+    "nodes": 2612,
+    "edges": 2698,
+    "choices": 19,
+    "options": 43,
+    "countsByType": {
+      "line": 2536,
+      "end": 22,
+      "choice": 19,
+      "gate": 35
+    },
+    "exploredNodeStates": 156415,
+    "distinctFlagStates": 1359,
+    "mergedNodeStates": 0,
+    "transitions": 156414,
+    "maximumFrontier": 12,
+    "terminalStates": 736,
+    "stoppedStates": 0
+  }
+}
+

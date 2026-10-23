@@ -1,0 +1,1175 @@
+{
+  "evidenceLayer": "本次部署地址真实浏览器冒烟",
+  "target": "https://galagame.ambd.site/",
+  "startedAt": "2026-10-23T06:24:40.469Z",
+  "scope": "Chrome headless；1440×900、390×844 桌面模拟；每个视口使用全新临时 context，关闭即丢弃；只通过正式 UI 创建和读取本轮存档。",
+  "notTested": [
+    "全十章逐句阅读",
+    "全部路线与结局",
+    "全部资源遍历",
+    "Safari",
+    "实体手机",
+    "人耳试听"
+  ],
+  "environment": {
+    "node": "v24.18.1",
+    "playwright": "1.62.1",
+    "browser": "155.0.8059.85"
+  },
+  "checks": [
+    {
+      "name": "全十章首页与可见图片、横向布局",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "passed": true,
+      "milliseconds": 1883,
+      "story": {
+        "release": "ten-chapter",
+        "contentRevision": "nightshift-20261022-r1",
+        "chapters": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "profile": {
+          "namespace": "bijie-rain-demo:ten-chapter:nightshift-20261022-r1:",
+          "tenChapter": true,
+          "metadata": {
+            "contentVersion": 1,
+            "engineStateVersion": 1,
+            "contractVersion": "1.0.0",
+            "contentRevision": "nightshift-20261022-r1"
+          }
+        }
+      },
+      "screen": "title",
+      "images": [
+        {
+          "id": "title-cover",
+          "src": "https://galagame.ambd.site/assets/ten-chapter/ui/cover-desktop.webp",
+          "width": 1672,
+          "height": 941
+        }
+      ],
+      "widths": [
+        {
+          "selector": "html",
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "left": 0,
+          "right": 1440,
+          "overflowX": "clip"
+        },
+        {
+          "selector": "body",
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "left": 0,
+          "right": 1440,
+          "overflowX": "clip"
+        },
+        {
+          "selector": "#app",
+          "clientWidth": 1440,
+          "scrollWidth": 1728,
+          "left": 0,
+          "right": 1440,
+          "overflowX": "clip"
+        },
+        {
+          "selector": "#title-screen",
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "left": 0,
+          "right": 1440,
+          "overflowX": "clip"
+        },
+        {
+          "selector": "#game-title",
+          "clientWidth": 1,
+          "scrollWidth": 649,
+          "left": 81.078125,
+          "right": 82.078125,
+          "overflowX": "hidden"
+        },
+        {
+          "selector": ".title-menu",
+          "clientWidth": 318,
+          "scrollWidth": 318,
+          "left": 82.078125,
+          "right": 402.078125,
+          "overflowX": "visible"
+        },
+        {
+          "selector": ".title-footer",
+          "clientWidth": 1276,
+          "scrollWidth": 1276,
+          "left": 82.078125,
+          "right": 1357.921875,
+          "overflowX": "visible"
+        }
+      ],
+      "documentWidth": {
+        "viewport": 1440,
+        "html": 1440,
+        "body": 1440,
+        "scrollingElement": 1440
+      },
+      "controls": [
+        {
+          "selector": "button.title-start",
+          "label": "开始故事↗",
+          "left": 99.078125,
+          "right": 385.078125,
+          "clippedBy": []
+        },
+        {
+          "selector": "#continue-btn",
+          "label": "继续旅程CONTINUE",
+          "left": 99.078125,
+          "right": 385.078125,
+          "clippedBy": []
+        },
+        {
+          "selector": "button",
+          "label": "读取存档",
+          "left": 99.078125,
+          "right": 152.84375,
+          "clippedBy": []
+        },
+        {
+          "selector": "button",
+          "label": "游戏设置",
+          "left": 331.3125,
+          "right": 385.078125,
+          "clippedBy": []
+        },
+        {
+          "selector": "button.ambient-button",
+          "label": "开启环境音",
+          "left": 1273.859375,
+          "right": 1357.921875,
+          "clippedBy": []
+        }
+      ],
+      "layoutExclusions": [
+        {
+          "selector": "#app",
+          "clientWidth": 1440,
+          "scrollWidth": 1728,
+          "left": 0,
+          "right": 1440,
+          "overflowX": "clip",
+          "reason": "裁切容器内 .rain 装饰层的负 inset 扩张；未形成文档横向滚动",
+          "sourceRule": "styles.css: #app overflow:clip; .rain position:absolute; inset:-20%; pointer-events:none",
+          "decorativeBounds": {
+            "left": -288,
+            "right": 1728
+          },
+          "expectedScrollWidth": 1728
+        },
+        {
+          "selector": "#game-title",
+          "clientWidth": 1,
+          "scrollWidth": 649,
+          "left": 81.078125,
+          "right": 82.078125,
+          "overflowX": "hidden",
+          "reason": "仅供无障碍读取的 1px 裁切标题，不是可见文字",
+          "sourceRule": "styles.css: #title-screen #game-title",
+          "clipPath": "inset(50%)",
+          "height": 1
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "name": "真实开始并逐句推进至首个选择",
+      "viewport": "desktop-1440x900",
+      "passed": true,
+      "milliseconds": 13369,
+      "start": "tc_c01_common_entry",
+      "firstChoice": "tc_c01_common_rhythm_record_choice",
+      "advances": 28,
+      "visited": [
+        "tc_c01_common_entry",
+        "tc_c01_common_arrival_02",
+        "tc_c01_common_arrival_03",
+        "tc_c01_common_arrival_04",
+        "tc_c01_common_arrival_05",
+        "tc_c01_common_slope_01",
+        "tc_c01_common_slope_02",
+        "tc_c01_common_slope_03",
+        "tc_c01_common_slope_04",
+        "tc_c01_common_job_talk_01",
+        "tc_c01_common_job_talk_02",
+        "tc_c01_common_job_talk_03",
+        "tc_c01_common_job_talk_04",
+        "tc_c01_common_job_talk_05",
+        "tc_c01_common_job_talk_06",
+        "tc_c01_common_job_talk_07",
+        "tc_c01_common_job_talk_08",
+        "tc_c01_common_job_talk_09",
+        "tc_c01_common_job_talk_10",
+        "tc_c01_common_job_talk_11",
+        "tc_c01_common_job_talk_12",
+        "tc_c01_common_job_talk_13",
+        "tc_c01_common_three_taps_01",
+        "tc_c01_common_three_taps_02",
+        "tc_c01_common_three_taps_03",
+        "tc_c01_common_three_taps_04",
+        "tc_c01_common_three_taps_05",
+        "tc_c01_common_three_taps_06",
+        "tc_c01_common_rhythm_record_choice"
+      ],
+      "opening": {
+        "screen": "game",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "images": [
+          {
+            "id": "scene-bg",
+            "src": "https://galagame.ambd.site/assets/backgrounds/bijie-20261020/bg-busstop-day.webp",
+            "width": 1672,
+            "height": 941
+          },
+          {
+            "id": "speaker-avatar",
+            "src": "https://galagame.ambd.site/assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+            "width": 1024,
+            "height": 1536
+          }
+        ],
+        "widths": [
+          {
+            "selector": "html",
+            "clientWidth": 1440,
+            "scrollWidth": 1440,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "body",
+            "clientWidth": 1440,
+            "scrollWidth": 1440,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "#app",
+            "clientWidth": 1440,
+            "scrollWidth": 1728,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "#game-screen",
+            "clientWidth": 1440,
+            "scrollWidth": 1440,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip"
+          },
+          {
+            "selector": ".scene-header",
+            "clientWidth": 1319,
+            "scrollWidth": 1319,
+            "left": 60.46875,
+            "right": 1379.53125,
+            "overflowX": "visible"
+          },
+          {
+            "selector": ".dialogue-shell",
+            "clientWidth": 1317,
+            "scrollWidth": 1317,
+            "left": 60.46875,
+            "right": 1379.53125,
+            "overflowX": "visible"
+          },
+          {
+            "selector": "#dialogue-box",
+            "clientWidth": 1317,
+            "scrollWidth": 1317,
+            "left": 61.46875,
+            "right": 1378.53125,
+            "overflowX": "auto"
+          },
+          {
+            "selector": ".game-toolbar",
+            "clientWidth": 1317,
+            "scrollWidth": 1317,
+            "left": 61.46875,
+            "right": 1378.53125,
+            "overflowX": "visible"
+          }
+        ],
+        "documentWidth": {
+          "viewport": 1440,
+          "html": 1440,
+          "body": 1440,
+          "scrollingElement": 1440
+        },
+        "controls": [
+          {
+            "selector": "button.menu-button",
+            "label": "打开游戏菜单",
+            "left": 1335.53125,
+            "right": 1379.53125,
+            "clippedBy": []
+          },
+          {
+            "selector": "#dialogue-box",
+            "label": "推进对话，空格或回车",
+            "left": 61.46875,
+            "right": 1378.53125,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "回顾",
+            "left": 990.53125,
+            "right": 1034.53125,
+            "clippedBy": []
+          },
+          {
+            "selector": "#auto-label",
+            "label": "自动",
+            "left": 1050.359375,
+            "right": 1094.359375,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "存档",
+            "left": 1110.1875,
+            "right": 1154.1875,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "读档",
+            "left": 1170.015625,
+            "right": 1214.015625,
+            "clippedBy": []
+          },
+          {
+            "selector": "#sound-label",
+            "label": "开启环境音",
+            "left": 1254.671875,
+            "right": 1306.703125,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "设置",
+            "left": 1322.53125,
+            "right": 1366.53125,
+            "clippedBy": []
+          }
+        ],
+        "layoutExclusions": [
+          {
+            "selector": "#app",
+            "clientWidth": 1440,
+            "scrollWidth": 1728,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip",
+            "reason": "裁切容器内 .rain 装饰层的负 inset 扩张；未形成文档横向滚动",
+            "sourceRule": "styles.css: #app overflow:clip; .rain position:absolute; inset:-20%; pointer-events:none",
+            "decorativeBounds": {
+              "left": -288,
+              "right": 1728
+            },
+            "expectedScrollWidth": 1728
+          }
+        ],
+        "overflow": []
+      },
+      "choiceView": {
+        "screen": "game",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "images": [
+          {
+            "id": "scene-bg",
+            "src": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-backdoor-night.webp",
+            "width": 1672,
+            "height": 941
+          }
+        ],
+        "widths": [
+          {
+            "selector": "html",
+            "clientWidth": 1440,
+            "scrollWidth": 1440,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "body",
+            "clientWidth": 1440,
+            "scrollWidth": 1440,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "#app",
+            "clientWidth": 1440,
+            "scrollWidth": 1728,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "#game-screen",
+            "clientWidth": 1440,
+            "scrollWidth": 1440,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip"
+          },
+          {
+            "selector": ".scene-header",
+            "clientWidth": 1319,
+            "scrollWidth": 1319,
+            "left": 60.46875,
+            "right": 1379.53125,
+            "overflowX": "visible"
+          },
+          {
+            "selector": ".dialogue-shell",
+            "clientWidth": 1317,
+            "scrollWidth": 1317,
+            "left": 60.46875,
+            "right": 1379.53125,
+            "overflowX": "visible"
+          },
+          {
+            "selector": ".game-toolbar",
+            "clientWidth": 1317,
+            "scrollWidth": 1317,
+            "left": 61.46875,
+            "right": 1378.53125,
+            "overflowX": "visible"
+          },
+          {
+            "selector": "#choice-panel",
+            "clientWidth": 699,
+            "scrollWidth": 699,
+            "left": 73.65625,
+            "right": 772.75,
+            "overflowX": "auto"
+          }
+        ],
+        "documentWidth": {
+          "viewport": 1440,
+          "html": 1440,
+          "body": 1440,
+          "scrollingElement": 1440
+        },
+        "controls": [
+          {
+            "selector": "button.menu-button",
+            "label": "打开游戏菜单",
+            "left": 1335.53125,
+            "right": 1379.53125,
+            "clippedBy": []
+          },
+          {
+            "selector": "button.choice-button",
+            "label": "01再听一遍，把三拍记下来",
+            "left": 81.65625,
+            "right": 764.75,
+            "clippedBy": []
+          },
+          {
+            "selector": "button.choice-button",
+            "label": "02先回柜台，暂时不记",
+            "left": 81.65625,
+            "right": 764.75,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "回顾",
+            "left": 990.53125,
+            "right": 1034.53125,
+            "clippedBy": []
+          },
+          {
+            "selector": "#auto-label",
+            "label": "自动",
+            "left": 1050.359375,
+            "right": 1094.359375,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "存档",
+            "left": 1110.1875,
+            "right": 1154.1875,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "读档",
+            "left": 1170.015625,
+            "right": 1214.015625,
+            "clippedBy": []
+          },
+          {
+            "selector": "#sound-label",
+            "label": "开启环境音",
+            "left": 1254.671875,
+            "right": 1306.703125,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "设置",
+            "left": 1322.53125,
+            "right": 1366.53125,
+            "clippedBy": []
+          }
+        ],
+        "layoutExclusions": [
+          {
+            "selector": "#app",
+            "clientWidth": 1440,
+            "scrollWidth": 1728,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip",
+            "reason": "裁切容器内 .rain 装饰层的负 inset 扩张；未形成文档横向滚动",
+            "sourceRule": "styles.css: #app overflow:clip; .rain position:absolute; inset:-20%; pointer-events:none",
+            "decorativeBounds": {
+              "left": -288,
+              "right": 1728
+            },
+            "expectedScrollWidth": 1728
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "name": "手动 slot3 保存、刷新后读取及自动继续",
+      "viewport": "desktop-1440x900",
+      "passed": true,
+      "milliseconds": 1997,
+      "manualSlot": "slot3",
+      "manualNode": "tc_c01_common_rhythm_record_choice",
+      "selection": {
+        "nodeId": "tc_c01_common_rhythm_record_choice",
+        "index": "0",
+        "label": "01\n再听一遍，把三拍记下来",
+        "reached": "tc_c01_common_rhythm_record_01"
+      },
+      "automaticNode": "tc_c01_common_rhythm_record_01",
+      "historyEntries": 30,
+      "directStorageWrites": false
+    },
+    {
+      "name": "全十章首页与可见图片、横向布局",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "passed": true,
+      "milliseconds": 3279,
+      "story": {
+        "release": "ten-chapter",
+        "contentRevision": "nightshift-20261022-r1",
+        "chapters": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "profile": {
+          "namespace": "bijie-rain-demo:ten-chapter:nightshift-20261022-r1:",
+          "tenChapter": true,
+          "metadata": {
+            "contentVersion": 1,
+            "engineStateVersion": 1,
+            "contractVersion": "1.0.0",
+            "contentRevision": "nightshift-20261022-r1"
+          }
+        }
+      },
+      "screen": "title",
+      "images": [
+        {
+          "id": "title-cover",
+          "src": "https://galagame.ambd.site/assets/ten-chapter/ui/cover-mobile.webp",
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "widths": [
+        {
+          "selector": "html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "left": 0,
+          "right": 390,
+          "overflowX": "clip"
+        },
+        {
+          "selector": "body",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "left": 0,
+          "right": 390,
+          "overflowX": "clip"
+        },
+        {
+          "selector": "#app",
+          "clientWidth": 390,
+          "scrollWidth": 468,
+          "left": 0,
+          "right": 390,
+          "overflowX": "clip"
+        },
+        {
+          "selector": "#title-screen",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "left": 0,
+          "right": 390,
+          "overflowX": "clip"
+        },
+        {
+          "selector": "#game-title",
+          "clientWidth": 1,
+          "scrollWidth": 323,
+          "left": 26.296875,
+          "right": 27.296875,
+          "overflowX": "hidden"
+        },
+        {
+          "selector": ".title-menu",
+          "clientWidth": 335,
+          "scrollWidth": 335,
+          "left": 27.296875,
+          "right": 362.703125,
+          "overflowX": "visible"
+        },
+        {
+          "selector": ".title-footer",
+          "clientWidth": 335,
+          "scrollWidth": 335,
+          "left": 27.296875,
+          "right": 362.703125,
+          "overflowX": "visible"
+        }
+      ],
+      "documentWidth": {
+        "viewport": 390,
+        "html": 390,
+        "body": 390,
+        "scrollingElement": 390
+      },
+      "controls": [
+        {
+          "selector": "button.title-start",
+          "label": "开始故事↗",
+          "left": 27.296875,
+          "right": 190,
+          "clippedBy": []
+        },
+        {
+          "selector": "#continue-btn",
+          "label": "继续旅程CONTINUE",
+          "left": 200,
+          "right": 362.703125,
+          "clippedBy": []
+        },
+        {
+          "selector": "button",
+          "label": "读取存档",
+          "left": 44.859375,
+          "right": 144.859375,
+          "clippedBy": []
+        },
+        {
+          "selector": "button",
+          "label": "游戏设置",
+          "left": 245.125,
+          "right": 345.125,
+          "clippedBy": []
+        },
+        {
+          "selector": "button.ambient-button",
+          "label": "开启环境音",
+          "left": 318.703125,
+          "right": 362.703125,
+          "clippedBy": []
+        }
+      ],
+      "layoutExclusions": [
+        {
+          "selector": "#app",
+          "clientWidth": 390,
+          "scrollWidth": 468,
+          "left": 0,
+          "right": 390,
+          "overflowX": "clip",
+          "reason": "裁切容器内 .rain 装饰层的负 inset 扩张；未形成文档横向滚动",
+          "sourceRule": "styles.css: #app overflow:clip; .rain position:absolute; inset:-20%; pointer-events:none",
+          "decorativeBounds": {
+            "left": -78,
+            "right": 468
+          },
+          "expectedScrollWidth": 468
+        },
+        {
+          "selector": "#game-title",
+          "clientWidth": 1,
+          "scrollWidth": 323,
+          "left": 26.296875,
+          "right": 27.296875,
+          "overflowX": "hidden",
+          "reason": "仅供无障碍读取的 1px 裁切标题，不是可见文字",
+          "sourceRule": "styles.css: #title-screen #game-title",
+          "clipPath": "inset(50%)",
+          "height": 1
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "name": "真实开始并逐句推进至首个选择",
+      "viewport": "mobile-390x844",
+      "passed": true,
+      "milliseconds": 12406,
+      "start": "tc_c01_common_entry",
+      "firstChoice": "tc_c01_common_rhythm_record_choice",
+      "advances": 28,
+      "visited": [
+        "tc_c01_common_entry",
+        "tc_c01_common_arrival_02",
+        "tc_c01_common_arrival_03",
+        "tc_c01_common_arrival_04",
+        "tc_c01_common_arrival_05",
+        "tc_c01_common_slope_01",
+        "tc_c01_common_slope_02",
+        "tc_c01_common_slope_03",
+        "tc_c01_common_slope_04",
+        "tc_c01_common_job_talk_01",
+        "tc_c01_common_job_talk_02",
+        "tc_c01_common_job_talk_03",
+        "tc_c01_common_job_talk_04",
+        "tc_c01_common_job_talk_05",
+        "tc_c01_common_job_talk_06",
+        "tc_c01_common_job_talk_07",
+        "tc_c01_common_job_talk_08",
+        "tc_c01_common_job_talk_09",
+        "tc_c01_common_job_talk_10",
+        "tc_c01_common_job_talk_11",
+        "tc_c01_common_job_talk_12",
+        "tc_c01_common_job_talk_13",
+        "tc_c01_common_three_taps_01",
+        "tc_c01_common_three_taps_02",
+        "tc_c01_common_three_taps_03",
+        "tc_c01_common_three_taps_04",
+        "tc_c01_common_three_taps_05",
+        "tc_c01_common_three_taps_06",
+        "tc_c01_common_rhythm_record_choice"
+      ],
+      "opening": {
+        "screen": "game",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "images": [
+          {
+            "id": "scene-bg",
+            "src": "https://galagame.ambd.site/assets/backgrounds/bijie-20261020/bg-busstop-day.webp",
+            "width": 1672,
+            "height": 941
+          },
+          {
+            "id": "speaker-avatar",
+            "src": "https://galagame.ambd.site/assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+            "width": 1024,
+            "height": 1536
+          }
+        ],
+        "widths": [
+          {
+            "selector": "html",
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "body",
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "#app",
+            "clientWidth": 390,
+            "scrollWidth": 468,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "#game-screen",
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip"
+          },
+          {
+            "selector": ".scene-header",
+            "clientWidth": 362,
+            "scrollWidth": 362,
+            "left": 14,
+            "right": 376,
+            "overflowX": "visible"
+          },
+          {
+            "selector": ".dialogue-shell",
+            "clientWidth": 360,
+            "scrollWidth": 360,
+            "left": 14,
+            "right": 376,
+            "overflowX": "visible"
+          },
+          {
+            "selector": "#dialogue-box",
+            "clientWidth": 360,
+            "scrollWidth": 360,
+            "left": 15,
+            "right": 375,
+            "overflowX": "auto"
+          },
+          {
+            "selector": ".game-toolbar",
+            "clientWidth": 360,
+            "scrollWidth": 360,
+            "left": 15,
+            "right": 375,
+            "overflowX": "visible"
+          }
+        ],
+        "documentWidth": {
+          "viewport": 390,
+          "html": 390,
+          "body": 390,
+          "scrollingElement": 390
+        },
+        "controls": [
+          {
+            "selector": "button.menu-button",
+            "label": "打开游戏菜单",
+            "left": 332,
+            "right": 376,
+            "clippedBy": []
+          },
+          {
+            "selector": "#dialogue-box",
+            "label": "推进对话，空格或回车",
+            "left": 15,
+            "right": 375,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "回顾",
+            "left": 19,
+            "right": 63,
+            "clippedBy": []
+          },
+          {
+            "selector": "#auto-label",
+            "label": "自动",
+            "left": 77.5,
+            "right": 121.5,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "存档",
+            "left": 136,
+            "right": 180,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "读档",
+            "left": 194.5,
+            "right": 238.5,
+            "clippedBy": []
+          },
+          {
+            "selector": "#sound-label",
+            "label": "开启环境音",
+            "left": 268.5,
+            "right": 312.5,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "设置",
+            "left": 327,
+            "right": 371,
+            "clippedBy": []
+          }
+        ],
+        "layoutExclusions": [
+          {
+            "selector": "#app",
+            "clientWidth": 390,
+            "scrollWidth": 468,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip",
+            "reason": "裁切容器内 .rain 装饰层的负 inset 扩张；未形成文档横向滚动",
+            "sourceRule": "styles.css: #app overflow:clip; .rain position:absolute; inset:-20%; pointer-events:none",
+            "decorativeBounds": {
+              "left": -78,
+              "right": 468
+            },
+            "expectedScrollWidth": 468
+          }
+        ],
+        "overflow": []
+      },
+      "choiceView": {
+        "screen": "game",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "images": [
+          {
+            "id": "scene-bg",
+            "src": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-backdoor-night.webp",
+            "width": 1672,
+            "height": 941
+          }
+        ],
+        "widths": [
+          {
+            "selector": "html",
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "body",
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "#app",
+            "clientWidth": 390,
+            "scrollWidth": 468,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "#game-screen",
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip"
+          },
+          {
+            "selector": ".scene-header",
+            "clientWidth": 362,
+            "scrollWidth": 362,
+            "left": 14,
+            "right": 376,
+            "overflowX": "visible"
+          },
+          {
+            "selector": ".dialogue-shell",
+            "clientWidth": 360,
+            "scrollWidth": 360,
+            "left": 14,
+            "right": 376,
+            "overflowX": "visible"
+          },
+          {
+            "selector": ".game-toolbar",
+            "clientWidth": 360,
+            "scrollWidth": 360,
+            "left": 15,
+            "right": 375,
+            "overflowX": "visible"
+          },
+          {
+            "selector": "#choice-panel",
+            "clientWidth": 362,
+            "scrollWidth": 362,
+            "left": 14,
+            "right": 376,
+            "overflowX": "auto"
+          }
+        ],
+        "documentWidth": {
+          "viewport": 390,
+          "html": 390,
+          "body": 390,
+          "scrollingElement": 390
+        },
+        "controls": [
+          {
+            "selector": "button.menu-button",
+            "label": "打开游戏菜单",
+            "left": 332,
+            "right": 376,
+            "clippedBy": []
+          },
+          {
+            "selector": "button.choice-button",
+            "label": "01再听一遍，把三拍记下来",
+            "left": 20,
+            "right": 370,
+            "clippedBy": []
+          },
+          {
+            "selector": "button.choice-button",
+            "label": "02先回柜台，暂时不记",
+            "left": 20,
+            "right": 370,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "回顾",
+            "left": 19,
+            "right": 63,
+            "clippedBy": []
+          },
+          {
+            "selector": "#auto-label",
+            "label": "自动",
+            "left": 77.5,
+            "right": 121.5,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "存档",
+            "left": 136,
+            "right": 180,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "读档",
+            "left": 194.5,
+            "right": 238.5,
+            "clippedBy": []
+          },
+          {
+            "selector": "#sound-label",
+            "label": "开启环境音",
+            "left": 268.5,
+            "right": 312.5,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "设置",
+            "left": 327,
+            "right": 371,
+            "clippedBy": []
+          }
+        ],
+        "layoutExclusions": [
+          {
+            "selector": "#app",
+            "clientWidth": 390,
+            "scrollWidth": 468,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip",
+            "reason": "裁切容器内 .rain 装饰层的负 inset 扩张；未形成文档横向滚动",
+            "sourceRule": "styles.css: #app overflow:clip; .rain position:absolute; inset:-20%; pointer-events:none",
+            "decorativeBounds": {
+              "left": -78,
+              "right": 468
+            },
+            "expectedScrollWidth": 468
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "name": "无页面脚本错误或异常 HTTP／网络失败",
+      "passed": false,
+      "pageErrors": 0,
+      "httpErrors": 0,
+      "requestFailures": 1
+    }
+  ],
+  "screenshots": [
+    "screenshots/desktop-1440x900-title.png",
+    "screenshots/desktop-1440x900-game-start.png",
+    "screenshots/desktop-1440x900-first-choice.png",
+    "screenshots/desktop-1440x900-manual-load-after-refresh.png",
+    "screenshots/desktop-1440x900-auto-continue-after-refresh.png",
+    "screenshots/mobile-390x844-title.png",
+    "screenshots/mobile-390x844-game-start.png",
+    "screenshots/mobile-390x844-first-choice.png"
+  ],
+  "pageErrors": [],
+  "httpErrors": [],
+  "requestFailures": [
+    {
+      "viewport": "desktop-1440x900",
+      "url": "https://galagame.ambd.site/assets/char-maolang.webp",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "ignoredRequests": [],
+  "completedAt": "2026-10-23T06:25:14.288Z",
+  "pass": false
+}

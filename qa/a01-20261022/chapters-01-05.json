@@ -1,0 +1,4976 @@
+{
+  "chapters": [
+    {
+      "chapter": 1,
+      "source": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "sourceSha256": "766f2462d3695244aeb5d40a416c7610b05eeea15b397b8a0c232d351399e0c6",
+      "sections": [
+        {
+          "id": "a01-ch01-common-01",
+          "route": "common",
+          "heading": "第1天·下午｜箱子轮子响得太大",
+          "sourceLineStart": 7,
+          "sourceLineEnd": 51,
+          "time": "第1天下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            },
+            {
+              "id": "shijiang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            },
+            {
+              "id": "mother",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "phone-voice",
+              "requirements": [
+                "无已确认立绘；电话声即可"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "公交站牌及坡路",
+              "time": "雨天下午",
+              "requirements": [
+                "行李箱右轮歪、湿地砖；毛狼花纹黑T恤"
+              ]
+            },
+            {
+              "label": "网吧门口与柜台",
+              "time": "雨天下午",
+              "requirements": [
+                "一楼玻璃门、褪色饮料价目表、靠窗顶灯、风扇、收银台；邻近机位为背景顾客"
+              ]
+            }
+          ],
+          "cgCandidates": [
+            {
+              "label": "返乡的箱子与网吧门口",
+              "priority": "候选P2",
+              "composition": "低机位以坏轮箱子引导坡路与网吧入口，成年文文和毛狼进入街景。",
+              "storyConstraint": "仅本章已有返乡时刻，不补车站接机、故乡全景或庆祝人群。"
+            }
+          ],
+          "conditions": [],
+          "notes": [
+            "母亲仅来电；路人、顾客为无明确外观的环境配角，不新增专用立绘。",
+            "文文与师匠讲清夜班安排，勿呈现维修工/竞聘舞台。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch01-common-02",
+          "route": "common",
+          "heading": "第1天·21:40｜三下轻响",
+          "sourceLineStart": 53,
+          "sourceLineEnd": 103,
+          "time": "第1天21:40—次日02:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-tired",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "shijiang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [],
+              "appearanceMode": "unidentified-offscreen-voice",
+              "requirements": [
+                "此时只出现未识别声音，不显示姓名、球形、头像或角色立绘"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "网吧侧边小路与后院侧门",
+              "time": "21:40夜",
+              "requirements": [
+                "虚掩木门、潮湿墙、蓝色塑料凳腿；门缝仅见环境"
+              ]
+            },
+            {
+              "label": "网吧门厅与柜台",
+              "time": "夜间至02:00",
+              "requirements": [
+                "零钱、空饮料箱、收银/饮料/热水日常；灯光保持营业"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "选择A记录三拍或B未记录，后续隐藏资格由E01定义"
+          ],
+          "notes": [
+            "选择A手机备忘录三拍；B回亮灯门厅。",
+            "黄球球身份尚未公开，任何CG/立绘均不能提前揭露。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch01-common-03",
+          "route": "common",
+          "heading": "第2天·06:20｜算不上接风",
+          "sourceLineStart": 105,
+          "sourceLineEnd": 143,
+          "time": "第2天06:20—下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-tired",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "message-only",
+              "requirements": [
+                "灰蓝色线上头像可独立UI呈现，不显示现实身体"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "网吧门口",
+              "time": "清晨天已白",
+              "requirements": [
+                "交班后出门"
+              ]
+            },
+            {
+              "label": "早餐店门口及店内",
+              "time": "06:20清晨",
+              "requirements": [
+                "两碗面、低椅、演出贴纸；毛狼已还借来演出衣服"
+              ]
+            },
+            {
+              "label": "文文出租屋",
+              "time": "清晨至下午",
+              "requirements": [
+                "箱子靠墙、手机入群，午后窗光用于睡醒过渡"
+              ]
+            }
+          ],
+          "cgCandidates": [
+            {
+              "label": "清晨两碗面",
+              "priority": "候选P1",
+              "composition": "早餐桌双人中景，文文困倦打哈欠，毛狼把面推来，蒸汽与天亮店门形成层次。",
+              "storyConstraint": "毛狼接风但由文文请，未穿借来的主持服；无其他主角同桌。"
+            }
+          ],
+          "conditions": [],
+          "notes": [
+            "演出和嘉宾只是毛狼讲述，不生成演出回忆画面。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch01-common-04",
+          "route": "common",
+          "heading": "第3天·16:10｜没有预约的老熟人",
+          "sourceLineStart": 145,
+          "sourceLineEnd": 183,
+          "time": "第3天16:10",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "工作状态：扫帚、工作围裙/理发工具仅该场适用",
+                "浅金短发；练习本有发旋、歪小勾和旧折痕"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "理发店门口及靠窗椅",
+              "time": "下午",
+              "requirements": [
+                "玻璃门、碎发、小桌练习本、常温水；正在正常营业"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [],
+          "notes": [
+            "儿时粉笔画仅叙述回忆，不需要幼年立绘；师傅/顾客可环境剪影。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch01-common-05",
+          "route": "common",
+          "heading": "第4天·17:20｜老师也会不耐烦",
+          "sourceLineStart": 185,
+          "sourceLineEnd": 251,
+          "time": "第4天17:20",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "米白衬衫、栗色头发；下课后日常，手机/包/酸奶，不带旧相机"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "便利店",
+              "time": "下午",
+              "requirements": [
+                "饭盒、酸奶、柜台吸管纸盒"
+              ]
+            },
+            {
+              "label": "街道岔路口与坡口",
+              "time": "下午",
+              "requirements": [
+                "两人各向不同方向离开"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "A承认紧张/B询问空档分别由第三章孟遥线回收"
+          ],
+          "notes": [
+            "家长是电话另一端；经过打招呼的孩子可环境配角，不另立人物。",
+            "旧游戏/键盘仅对白回忆，无校园或旧恋爱CG。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch01-common-06",
+          "route": "common",
+          "heading": "第5天·20:30｜今晚没有班",
+          "sourceLineStart": 253,
+          "sourceLineEnd": 283,
+          "time": "第5天20:30—22:00前",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "voice-only",
+              "requirements": []
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "voice-only",
+              "requirements": []
+            },
+            {
+              "id": "shijiang",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "voice-only",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "文文出租屋电脑桌",
+              "time": "夜",
+              "requirements": [
+                "耳机、半份炒饭、电脑；休班在家游戏"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [],
+          "notes": [
+            "师匠在自己家上线，毛狼、叶岚也只语音；不得在出租屋摆四人实体立绘。",
+            "游戏为未指定作品，仅抽象游戏UI/屏幕光，不新增具体IP。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch01-common-07",
+          "route": "common",
+          "heading": "第6天·17:30｜辣椒自己放",
+          "sourceLineStart": 285,
+          "sourceLineEnd": 317,
+          "time": "第6天17:30—18:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "青色衬衫、深长发；上班前餐叙，不强制手持麦克风"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "街口面馆",
+              "time": "傍晚前",
+              "requirements": [
+                "面碗、独立辣椒、纸巾、汤碗；三人座位"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [],
+          "notes": [
+            "周栀与朋友备菜顺序是讲述，不需要夜宵摊/做饭场景；朋友没有实体出场。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch01-common-08",
+          "route": "common",
+          "heading": "第7天·17:30｜名字不用介绍第二遍",
+          "sourceLineStart": 319,
+          "sourceLineEnd": 357,
+          "time": "第7天17:30—饭后雨中",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "薄本子夹店门手绘和留白句；既定白黑滚边短袖、低马尾、浅酒窝"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "约饭小店",
+              "time": "傍晚前",
+              "requirements": [
+                "薄本子、菜单、三人桌"
+              ]
+            },
+            {
+              "label": "雨中街道及有屋檐路口",
+              "time": "饭后傍晚",
+              "requirements": [
+                "三人两把伞，彼此不特别靠近"
+              ]
+            }
+          ],
+          "cgCandidates": [
+            {
+              "label": "三个人两把伞",
+              "priority": "候选P2",
+              "composition": "雨中略远的街景，三名成年朋友保持自然距离，毛狼避水，文文在路口止步。",
+              "storyConstraint": "不画成恋爱共伞，不使任何两人贴靠。"
+            }
+          ],
+          "conditions": [],
+          "notes": [
+            "飘初见，不展示陪酒旧场景；小册子内容不编补未写完的语句。"
+          ],
+          "runtimeNodeIds": []
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "source": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "sourceSha256": "dac8ac7db39fb2d16732629cb694cb34816bfdb7cc8de0064d52e1e16fc0bf06",
+      "sections": [
+        {
+          "id": "a01-ch02-common-01",
+          "route": "common",
+          "heading": "第8天·19:40｜还记得的三拍",
+          "sourceLineStart": 7,
+          "sourceLineEnd": 57,
+          "time": "第8天19:40",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "shijiang",
+              "form": "human",
+              "expressions": [
+                "base"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [],
+              "appearanceMode": "unidentified-offscreen-voice",
+              "requirements": [
+                "门不打开；有资格分支才听见明确回应，仍不展示外形/身份"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "message-only",
+              "requirements": []
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "message-only",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "网吧柜台",
+              "time": "19:40夜",
+              "requirements": [
+                "文文取落下的充电线，师匠对顾客说话"
+              ]
+            },
+            {
+              "label": "网吧后院侧门外",
+              "time": "夜",
+              "requirements": [
+                "回应三拍仍不推门"
+              ]
+            },
+            {
+              "label": "坡口面馆外街道",
+              "time": "夜幕灯刚亮",
+              "requirements": [
+                "手机拍招牌；叶岚发白天同一招牌照片"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "有第一章记录＋本次A敲回：门内声音回应；无记录或B离开不回应，不揭球形"
+          ],
+          "notes": [
+            "聊天图片是手机内嵌画面，可复用同一面馆日/夜变体，不意味着叶岚实体出现。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch02-common-02",
+          "route": "common",
+          "heading": "第10天·20:50｜没赶上开局",
+          "sourceLineStart": 59,
+          "sourceLineEnd": 107,
+          "time": "第10天20:50—21:00后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-tired",
+                "expression-downcast"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "recollection-or-message-only",
+              "requirements": []
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "message-only",
+              "requirements": []
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "message-only",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "文文出租屋床沿及家务角",
+              "time": "夜",
+              "requirements": [
+                "手机20:50、洗衣机、未晾衣服、没吃的饭、排班和闹钟"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "A语音解释/B文字具体改约，保留第五章回收"
+          ],
+          "notes": [
+            "下午与毛狼相聚是回叙概述，无明确地点，不新造相聚背景；游戏队仅消息/结算图。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch02-common-03",
+          "route": "common",
+          "heading": "第12天·16:30｜你在语音里不是这样",
+          "sourceLineStart": 109,
+          "sourceLineEnd": 189,
+          "time": "第12天16:30—饭后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "低髻；深灰外套搭椅背；无耳机，无旧领班夹板"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "voice-only",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "坡口面馆靠窗桌",
+              "time": "下午",
+              "requirements": [
+                "两杯水、菜单、稀少食客；外套搭椅背"
+              ]
+            },
+            {
+              "label": "面馆外沿街和岔路口",
+              "time": "下午",
+              "requirements": [
+                "并行一小段后分路"
+              ]
+            }
+          ],
+          "cgCandidates": [
+            {
+              "label": "声音终于有了面孔",
+              "priority": "候选P1",
+              "composition": "文文视角的靠窗叶岚，椅背深灰外套，桌上两杯水；刚抬头识别的迟疑表情。",
+              "storyConstraint": "首次线下见面安静礼貌，不配相拥或多人聚会。"
+            }
+          ],
+          "conditions": [
+            "A游戏/B菜单开聊互斥，由第三章叶岚线回收"
+          ],
+          "notes": [
+            "毛狼因演出临时工作缺席，仅语音，不画第三人同桌。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch02-common-04",
+          "route": "common",
+          "heading": "第14天·18:00｜来的人就先吃",
+          "sourceLineStart": 191,
+          "sourceLineEnd": 219,
+          "time": "第14天18:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "晚到短坐后离开；不与其余四人全程同桌"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "message-only",
+              "requirements": []
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "message-only",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "朋友约饭小店",
+              "time": "18:00傍晚",
+              "requirements": [
+                "四人先吃，周栀晚到；菜单、水杯、普通饭菜"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [],
+          "notes": [
+            "孟遥上课、叶岚另有安排，饭后仅消息；勿画全员到齐。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch02-common-05",
+          "route": "common",
+          "heading": "第14天·20:30｜隐藏相识：门后有人回答",
+          "sourceLineStart": 221,
+          "sourceLineEnd": 271,
+          "time": "第14天20:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-surprised",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [
+                "base",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "黄色球体、忧虑眉、大眼、短红嘴、托腮小手；坐塑料凳"
+              ]
+            },
+            {
+              "id": "shijiang",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "offscreen-voice",
+              "requirements": [
+                "远处与人说话，不看见后院"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "网吧柜台过道",
+              "time": "夜",
+              "requirements": [
+                "当值同事环境配角"
+              ]
+            },
+            {
+              "label": "网吧后院侧门及院内干处",
+              "time": "20:30夜",
+              "requirements": [
+                "先门外自报名字与身份后推门；后院灯、两张塑料凳、凳面投影"
+              ]
+            },
+            {
+              "label": "文文出租屋",
+              "time": "夜",
+              "requirements": [
+                "调闹钟，备忘录三个点下新增名字"
+              ]
+            }
+          ],
+          "cgCandidates": [
+            {
+              "label": "门后有人回答",
+              "priority": "候选P1",
+              "composition": "从缓开的侧门取景，灯下塑料凳上黄色球体托腮，文文仅手扶门或局部侧影。",
+              "storyConstraint": "必须在声音已自报姓名和成年女性身份之后显示；不得人形/魔法效果/来历解释。"
+            }
+          ],
+          "conditions": [
+            "仅第一章记录三拍＋第二章敲回节奏；否则整段及其美术不出现"
+          ],
+          "notes": [
+            "师匠、经过者不见球球；不拍照、不在群里分享。"
+          ],
+          "runtimeNodeIds": []
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceSha256": "21ed8a4949d383f982625bcf473d75ced20aa02eeca5fb4fe4a099283749dc60",
+      "sections": [
+        {
+          "id": "a01-ch03-common-01",
+          "route": "common",
+          "heading": "第15天·下午｜这回自己开口",
+          "sourceLineStart": 11,
+          "sourceLineEnd": 31,
+          "time": "第15天下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "文文出租屋窗边",
+              "time": "雨后下午",
+              "requirements": [
+                "打开窗、防盗网滴水、手机排班"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "第三至十章仅所选一条路线；黄球球需相识资格"
+          ],
+          "notes": [
+            "路线选择是导航/状态入口，不把七名路线角色排成同时到场。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-xiaoman-01",
+          "route": "xiaoman",
+          "heading": "第15天·16:10｜你是来剪头发的吗",
+          "sourceLineStart": 35,
+          "sourceLineEnd": 101,
+          "time": "第15天16:10",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "工作围裙、手套；洗手后吃肉松包，出去玩明确不穿围裙"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "理发店门口及等候椅",
+              "time": "下午",
+              "requirements": [
+                "营业钟、镜子、纸袋面包、垃圾桶；吹风机环境声"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 xiaoman 路线"
+          ],
+          "notes": [
+            "客人是环境配角；按手背/近额头属于小动作候选，不强制新CG。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-xiaoman-02",
+          "route": "xiaoman",
+          "heading": "第18天·17:20｜别只认得小时候的我",
+          "sourceLineStart": 103,
+          "sourceLineEnd": 163,
+          "time": "第18天17:20",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "休闲夹克卷袖，未戴工作弹力发圈；酸奶，无剪发工具/围裙"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "理发店后公交站",
+              "time": "下午",
+              "requirements": [
+                "约见起点"
+              ]
+            },
+            {
+              "label": "街道水洼与关门服装店橱窗",
+              "time": "雨后下午",
+              "requirements": [
+                "局部阳光、橱窗倒影"
+              ]
+            },
+            {
+              "label": "拐角公交站",
+              "time": "傍晚前",
+              "requirements": [
+                "分别乘车"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 xiaoman 路线"
+          ],
+          "notes": [
+            "儿时跳水坑仅言语提及，不用童年形象。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-xiaoman-03",
+          "route": "xiaoman",
+          "heading": "第21天·16:40｜那张画歪的纸",
+          "sourceLineStart": 165,
+          "sourceLineEnd": 215,
+          "time": "第21天16:40",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "包里旧练习纸、发旋歪图与新修改页；休闲状态不带操作工具"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "理发店外",
+              "time": "下午",
+              "requirements": [
+                "等同事锁柜；风吹练习纸"
+              ]
+            },
+            {
+              "label": "便利店外座椅",
+              "time": "下午",
+              "requirements": [
+                "冰棒、硬币、包装纸"
+              ]
+            }
+          ],
+          "cgCandidates": [
+            {
+              "label": "画歪的旧纸也留下",
+              "priority": "候选P2",
+              "composition": "双手与新旧练习页特写，角色微笑置于上部；再切便利店并肩吃冰棒。",
+              "storyConstraint": "纸是理发练习，不是童年画像；不画熟练剪发成功庆祝。"
+            }
+          ],
+          "conditions": [
+            "仅所选 xiaoman 路线"
+          ],
+          "notes": [
+            "同事只简短道别，不起哄。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-zhouzhi-01",
+          "route": "zhouzhi",
+          "heading": "第15天·17:20｜还没到上班时间",
+          "sourceLineStart": 219,
+          "sourceLineEnd": 263,
+          "time": "第15天17:20",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "青色衬衫挽袖、手机、坏伞换短柄新伞；不持麦克风"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "回声KTV门外街边",
+              "time": "雨停的下午",
+              "requirements": [
+                "仅经过门口，绝不进营业包厢"
+              ]
+            },
+            {
+              "label": "卖伞小店门口与锅贴摊外",
+              "time": "下午",
+              "requirements": [
+                "新伞适合放进她包；纸盒锅贴"
+              ]
+            },
+            {
+              "label": "街口",
+              "time": "细雨重落的傍晚前",
+              "requirements": [
+                "两人各撑自己的伞，伞边轻碰后让开"
+              ]
+            }
+          ],
+          "cgCandidates": [
+            {
+              "label": "两把各自撑开的伞",
+              "priority": "候选P2",
+              "composition": "双伞并行中景，伞边轻碰，双方肩膀自在；街面少量雨光。",
+              "storyConstraint": "两人各自持伞，不改为共伞；不得把回声画成共同工作项目。"
+            }
+          ],
+          "conditions": [
+            "仅所选 zhouzhi 路线"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-zhouzhi-02",
+          "route": "zhouzhi",
+          "heading": "第18天·16:30｜不好笑就不笑",
+          "sourceLineStart": 265,
+          "sourceLineEnd": 307,
+          "time": "第18天16:30—傍晚",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "休班放松；旅行随笔与两杯不同热饮"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "商场书店靠窗阅读座",
+              "time": "下午转傍晚",
+              "requirements": [
+                "可坐书店，窗外亮招牌；保留窗光变暗"
+              ]
+            },
+            {
+              "label": "商场热饮座位",
+              "time": "傍晚",
+              "requirements": [
+                "原文未明示是否另店，优先同场连续区，不擅定咖啡品牌"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 zhouzhi 路线"
+          ],
+          "notes": [
+            "游戏队糗事只对白，不需游戏/毛狼实体。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-zhouzhi-03",
+          "route": "zhouzhi",
+          "heading": "第21天·17:00｜是我想约你",
+          "sourceLineStart": 309,
+          "sourceLineEnd": 355,
+          "time": "第21天17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "汤面辣椒单放、伞；浅羞意可用现有微笑/迟疑差分"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "街口小面馆",
+              "time": "下午",
+              "requirements": [
+                "两人桌，分开加辣"
+              ]
+            },
+            {
+              "label": "面馆外街口",
+              "time": "下午",
+              "requirements": [
+                "查安排、撑伞"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 zhouzhi 路线"
+          ],
+          "notes": [
+            "夜宵摊尚在商量，不出现成型摊位或投资书。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-mengyao-01",
+          "route": "mengyao",
+          "heading": "第15天·17:20｜这次不算顺路",
+          "sourceLineStart": 359,
+          "sourceLineEnd": 435,
+          "time": "第15天17:20",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "职业日常、资料布袋、电话、烧饼；无相机"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "文文出租屋",
+              "time": "下午",
+              "requirements": [
+                "起床看消息可文字过场"
+              ]
+            },
+            {
+              "label": "桥头烧饼店门口",
+              "time": "下午",
+              "requirements": [
+                "纸袋烧饼、文文咖啡"
+              ]
+            },
+            {
+              "label": "桥边干燥台阶",
+              "time": "下午",
+              "requirements": [
+                "布袋放膝，桥下路人伞作环境"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 mengyao 路线",
+            "第一章重逢A/B只取相应一句回收"
+          ],
+          "notes": [
+            "家长电话/旧游戏只是声音与回忆，不出现学生、课堂或过去恋爱实体。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-mengyao-02",
+          "route": "mengyao",
+          "heading": "第18天·18:10｜并不熟练的双人游戏",
+          "sourceLineStart": 437,
+          "sourceLineEnd": 487,
+          "time": "第18天18:10—19:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "expression-smile",
+                "expression-serious",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "下课后的职业日常；手指蓝墨迹，键盘/伞无相机"
+              ]
+            },
+            {
+              "id": "shijiang",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "网吧柜台",
+              "time": "18:10傍晚",
+              "requirements": [
+                "文文休班以顾客身份消费"
+              ]
+            },
+            {
+              "label": "网吧相邻机位",
+              "time": "傍晚",
+              "requirements": [
+                "双人电脑位与键盘、矿泉水"
+              ]
+            },
+            {
+              "label": "网吧门外",
+              "time": "19:30雨刚停",
+              "requirements": [
+                "孟遥找伞，文文手收入袋"
+              ]
+            }
+          ],
+          "cgCandidates": [
+            {
+              "label": "不熟练的双人闯关",
+              "priority": "候选P2",
+              "composition": "双机位侧向中景，孟遥按住文文键盘后两人对失败界面忍笑；屏幕内容抽象化。",
+              "storyConstraint": "文文休班付费，师匠只在柜台；不渲染游戏重新通关等于复合。"
+            }
+          ],
+          "conditions": [
+            "仅所选 mengyao 路线"
+          ],
+          "notes": [
+            "游戏角色不按现实演员绘制；二人未牵手。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-mengyao-03",
+          "route": "mengyao",
+          "heading": "第21天·16:40｜不能直接续上的那一句",
+          "sourceLineStart": 489,
+          "sourceLineEnd": 531,
+          "time": "第21天16:40",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "expression-smile",
+                "expression-serious",
+                "expression-downcast"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "普通餐叙，菜单/筷子/手机；不带相机"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "书店旁小面馆",
+              "time": "下午",
+              "requirements": [
+                "有窗能见车辆停车、菜单、两种浇头"
+              ]
+            },
+            {
+              "label": "面馆楼梯与分路口",
+              "time": "下午",
+              "requirements": [
+                "下周空档手机）"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 mengyao 路线"
+          ],
+          "notes": [
+            "前任旧事是对话；本场没有牵手、复合，CG不可提前确定关系。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-yelan-01",
+          "route": "yelan",
+          "heading": "第15天·18:20｜面已经吃过了",
+          "sourceLineStart": 535,
+          "sourceLineEnd": 599,
+          "time": "第15天18:20",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "深灰上班衣服、低髻被风吹松，水果袋，无旧领班夹板"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "街道路口",
+              "time": "18:20傍晚",
+              "requirements": [
+                "下班会面"
+              ]
+            },
+            {
+              "label": "街边水果摊及长椅",
+              "time": "傍晚",
+              "requirements": [
+                "青李子小袋、酸味反应"
+              ]
+            },
+            {
+              "label": "街道岔路",
+              "time": "傍晚",
+              "requirements": [
+                "各自回家吃饭"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 yelan 路线",
+            "第二章叶岚初见A/B只取相应回收"
+          ],
+          "notes": [
+            "群中回顾是线上，不把毛狼画入场。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-yelan-02",
+          "route": "yelan",
+          "heading": "第18天·19:10｜她也会把门走反",
+          "sourceLineStart": 601,
+          "sourceLineEnd": 643,
+          "time": "第18天19:10—21:00前",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "shijiang",
+              "form": "human",
+              "expressions": [
+                "base"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "voice-only",
+              "requirements": []
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "voice-only",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "网吧单机位",
+              "time": "夜",
+              "requirements": [
+                "文文以顾客身份开机、矿泉水、耳机；师匠短暂路过"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 yelan 路线"
+          ],
+          "notes": [
+            "叶岚与毛狼不实体出现。糖拌李子照片仅碗，不补她房间场景。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-yelan-03",
+          "route": "yelan",
+          "heading": "第21天·17:50｜不用一直有声音",
+          "sourceLineStart": 645,
+          "sourceLineEnd": 691,
+          "time": "第21天17:50",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "下班装与走久会累的鞋；包、薄荷糖盒；此时未换第24天平底休闲装"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "公园入口及树荫小路",
+              "time": "下午",
+              "requirements": [
+                "见面、薄荷糖"
+              ]
+            },
+            {
+              "label": "公园长椅与开阔草地远景",
+              "time": "傍晚前",
+              "requirements": [
+                "孩子和大人尝试放风筝是环境角色"
+              ]
+            },
+            {
+              "label": "公园积水路段至门口",
+              "time": "傍晚前",
+              "requirements": [
+                "她自己绕干路，文文收手"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 yelan 路线"
+          ],
+          "notes": [
+            "并未被文文抱起或牵过水洼，不将“这次不用救”画成救助CG。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-piao-01",
+          "route": "piao",
+          "heading": "第15天·16:30｜没有采访提纲",
+          "sourceLineStart": 695,
+          "sourceLineEnd": 743,
+          "time": "第15天16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "只拎伞，没有装小册子的布袋；浅酒窝笑时可见"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "文文出租屋",
+              "time": "下午",
+              "requirements": [
+                "找袜子可叙述过场"
+              ]
+            },
+            {
+              "label": "街巷入口",
+              "time": "灰白云下午",
+              "requirements": [
+                "巷口碰头"
+              ]
+            },
+            {
+              "label": "凉糕店靠门小桌",
+              "time": "下午",
+              "requirements": [
+                "糖罐、甜淡凉糕"
+              ]
+            },
+            {
+              "label": "巷道积水边",
+              "time": "下午",
+              "requirements": [
+                "各自走干处"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 piao 路线"
+          ],
+          "notes": [
+            "本次纯约吃东西，无采访纸笔或录音道具。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-piao-02",
+          "route": "piao",
+          "heading": "第18天·17:00｜说到这里就够了",
+          "sourceLineStart": 745,
+          "sourceLineEnd": 793,
+          "time": "第18天17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "布袋、订好的空封面草稿、留白框、矿泉水"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "小店门槛外",
+              "time": "下午",
+              "requirements": [
+                "花猫在门槛睡觉"
+              ]
+            },
+            {
+              "label": "街角长凳",
+              "time": "下午",
+              "requirements": [
+                "两瓶水与小册子纸稿"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 piao 路线"
+          ],
+          "notes": [
+            "曾在大城市KTV陪酒仅本人叙述，不补旧职业服饰/杯酒/包厢回忆；尊重未记录的店主话语留白。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-piao-03",
+          "route": "piao",
+          "heading": "第21天·16:00｜这一次讲明白",
+          "sourceLineStart": 795,
+          "sourceLineEnd": 820,
+          "time": "第21天16:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "两瓶水、一袋同口味甜饼，无册子"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "河边小路与休息处",
+              "time": "阴天下午",
+              "requirements": [
+                "两人坐着分饼，水袋收好防风"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 piao 路线",
+            "交往/朋友二选一，延续后续章节"
+          ],
+          "notes": [
+            "路线关系在此决定，未选择前不得显示牵手镜头。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-piao-04",
+          "route": "piao",
+          "heading": "仅交往｜把手伸过来",
+          "sourceLineStart": 822,
+          "sourceLineEnd": 846,
+          "time": "第21天16:00后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "吃完饼擦手再伸手"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "河边休息处及回程小路",
+              "time": "阴天下午",
+              "requirements": [
+                "宽窄道路交替，窄处自然松手"
+              ]
+            }
+          ],
+          "cgCandidates": [
+            {
+              "label": "第二次递来的手",
+              "priority": "候选P1",
+              "composition": "近景先聚焦两人重新握稳的手，飘含浅酒窝的笑在上侧，旁边饼袋与纸巾作生活细节。",
+              "storyConstraint": "只有交往分支；不是接吻，不把第一次生涩牵手画成婚礼承诺。"
+            }
+          ],
+          "conditions": [
+            "仅所选 piao 路线",
+            "仅飘关系=交往"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-piao-05",
+          "route": "piao",
+          "heading": "仅朋友｜不用补一句以后",
+          "sourceLineStart": 848,
+          "sourceLineEnd": 870,
+          "time": "第21天下午—晚上",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "expression-downcast",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "承认失落，不强装甜笑；水瓶和两块甜饼"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "河边小路至路口候车处",
+              "time": "下午",
+              "requirements": [
+                "朋友关系后提前结束散步"
+              ]
+            },
+            {
+              "label": "文文出租屋",
+              "time": "夜间窗外下雨",
+              "requirements": [
+                "封好饼袋、仅手机文字联系"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 piao 路线",
+            "仅飘关系=朋友"
+          ],
+          "notes": [
+            "晚上飘仅消息，不继续实体立绘；不给朋友分支配牵手。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-friends-01",
+          "route": "friends",
+          "heading": "第15天·16:00｜不用找个正事",
+          "sourceLineStart": 874,
+          "sourceLineEnd": 914,
+          "time": "第15天16:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "试穿临时演出服，裤脚折起待改，脸型发型沿用Option D；具体服装设计另行基准，不臆定正式西装颜色"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "改衣店",
+              "time": "下午",
+              "requirements": [
+                "长镜、折起裤脚、候坐椅，手机串词"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 friends 路线"
+          ],
+          "notes": [
+            "改衣师傅环境配角；文文陪坐不参与修改主持稿。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-friends-02",
+          "route": "friends",
+          "heading": "第18天·20:00｜老板也会掉下去",
+          "sourceLineStart": 916,
+          "sourceLineEnd": 938,
+          "time": "第18天20:00—约21:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "voice-only",
+              "requirements": []
+            },
+            {
+              "id": "shijiang",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "voice-only",
+              "requirements": []
+            },
+            {
+              "id": "unnamed-game-friend",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "voice-only",
+              "requirements": [
+                "补位朋友无外观设定，无专用图"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "文文出租屋电脑桌",
+              "time": "夜",
+              "requirements": [
+                "休班游戏，耳机"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 friends 路线"
+          ],
+          "notes": [
+            "叶岚本场缺席，不显示头像在线；师匠从自己家上线，不用店内立绘。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-friends-03",
+          "route": "friends",
+          "heading": "第21天·15:30｜可以过一阵子的地方",
+          "sourceLineStart": 940,
+          "sourceLineEnd": 966,
+          "time": "第21天15:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "文文出租屋",
+              "time": "下午",
+              "requirements": [
+                "衣柜、床底箱子、旧游戏卡、桌角、唯一的椅子、还来的伞"
+              ]
+            }
+          ],
+          "cgCandidates": [
+            {
+              "label": "把东西放进自己的生活",
+              "priority": "候选P2",
+              "composition": "出租屋桌角旧卡与收好箱子的环境中景，毛狼坐唯一椅子，文文整理小物。",
+              "storyConstraint": "仅生活安顿，不变成新办公室或离职场景。"
+            }
+          ],
+          "conditions": [
+            "仅所选 friends 路线"
+          ],
+          "notes": [
+            "旧游戏卡是物件，不需要童年CG。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-huangqiuqiu-01",
+          "route": "huangqiuqiu",
+          "heading": "第15天·17:00｜第二次也要打招呼",
+          "sourceLineStart": 970,
+          "sourceLineEnd": 1022,
+          "time": "第15天17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "球形；小手放下再托腮"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "文文出租屋床沿",
+              "time": "下午",
+              "requirements": [
+                "昨日外形回忆可文字"
+              ]
+            },
+            {
+              "label": "网吧前门过道",
+              "time": "上班前下午",
+              "requirements": [
+                "文文仅穿行"
+              ]
+            },
+            {
+              "label": "网吧后院侧门干处",
+              "time": "下午",
+              "requirements": [
+                "先敲门等应允；两个稳当低凳，视线齐平"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 huangqiuqiu 路线",
+            "已正式相识，隐藏线资格"
+          ],
+          "notes": [
+            "路过街口声音不使路人看见球球。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-huangqiuqiu-02",
+          "route": "huangqiuqiu",
+          "heading": "第18天·17:30｜不是什么都知道",
+          "sourceLineStart": 1024,
+          "sourceLineEnd": 1068,
+          "time": "第18天17:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [
+                "base",
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "球形；皱眉更明显、眼睛弯笑与托腮"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "网吧后院干处",
+              "time": "雨天下午",
+              "requirements": [
+                "文文晚饭袋在身侧，手机/钥匙在口袋"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 huangqiuqiu 路线",
+            "隐藏线资格"
+          ],
+          "notes": [
+            "不把“听过开头”画成读心、监控或路人投影；不添加球球进食能力设定。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch03-huangqiuqiu-03",
+          "route": "huangqiuqiu",
+          "heading": "第21天·16:30｜来这里没有正事",
+          "sourceLineStart": 1070,
+          "sourceLineEnd": 1114,
+          "time": "第21天16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "球形；眉间忧虑略松、小手摆动"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "网吧后院侧门与屋檐下",
+              "time": "雨天下午",
+              "requirements": [
+                "先敲门、低凳、檐雨；伞应远离她摆放"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 huangqiuqiu 路线",
+            "隐藏线资格"
+          ],
+          "notes": [
+            "普通聊天可用立绘演出，不需要为每段生成CG。"
+          ],
+          "runtimeNodeIds": []
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceSha256": "456533e8485bffdaafc31a13d6c8c77e9f8266480707887e792a5ceaddaec0c2",
+      "sections": [
+        {
+          "id": "a01-ch04-common-01",
+          "route": "common",
+          "heading": "第22天·15:40｜发薪以后",
+          "sourceLineStart": 11,
+          "sourceLineEnd": 29,
+          "time": "第22天15:40",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "voice-or-message-only",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "文文出租屋",
+              "time": "下午",
+              "requirements": [
+                "到账消息、新衣架、洗净衣服；旧衣架断一边"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [],
+          "notes": [
+            "买衣架没有明确店铺，不另造采购场景。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-xiaoman-01",
+          "route": "xiaoman",
+          "heading": "第24天·16:00｜今天不谈发型",
+          "sourceLineStart": 33,
+          "sourceLineEnd": 47,
+          "time": "第24天16:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "轻便休闲外套；没有练习本、工作围裙或工具"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "文文出租屋",
+              "time": "下午",
+              "requirements": [
+                "取晾干夹克"
+              ]
+            },
+            {
+              "label": "两条街岔路口",
+              "time": "下午",
+              "requirements": [
+                "投篮机音乐与旧书摊方向仅入口提示"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 xiaoman 路线"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-xiaoman-02",
+          "route": "xiaoman",
+          "heading": "选择A｜去投篮机，输的人买水",
+          "sourceLineStart": 49,
+          "sourceLineEnd": 79,
+          "time": "第24天16:00后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "休闲外套拉链略松、活动手腕、球与矿泉水"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "游戏厅投篮机区",
+              "time": "下午",
+              "requirements": [
+                "计分屏、球回收槽、旁侧栏杆，避免裁切掉手与球"
+              ]
+            },
+            {
+              "label": "游戏厅外路口",
+              "time": "下午",
+              "requirements": [
+                "离场回望投篮机"
+              ]
+            }
+          ],
+          "cgCandidates": [
+            {
+              "label": "没有让分的击掌",
+              "priority": "候选P2",
+              "composition": "双人投篮机斜侧构图，收回击掌而笑；栏杆明确可供她自行扶稳。",
+              "storyConstraint": "她自己扶栏杆，勿改写成文文拦腰救人；一胜一负。"
+            }
+          ],
+          "conditions": [
+            "仅所选 xiaoman 路线",
+            "第四章小满选择A：投篮机；第七章回收"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-xiaoman-03",
+          "route": "xiaoman",
+          "heading": "选择B｜去旧书摊，给对方挑一本怪书",
+          "sourceLineStart": 81,
+          "sourceLineEnd": 109,
+          "time": "第24天16:00后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "休闲无工具；旧生活杂志、折纸册和两只歪纸鹤"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "旧书摊棚下",
+              "time": "下午",
+              "requirements": [
+                "晒白书脊、废宣传纸"
+              ]
+            },
+            {
+              "label": "旧书摊旁石阶",
+              "time": "下午",
+              "requirements": [
+                "两人照书折纸，各留对方纸鹤"
+              ]
+            }
+          ],
+          "cgCandidates": [
+            {
+              "label": "两只都不像封面的纸鹤",
+              "priority": "候选P2",
+              "composition": "石阶手部近景，两只不对称纸鹤与摊开折纸册，人物笑意作为背景。",
+              "storyConstraint": "只拍纸、不偷拍人；两人交换纸鹤，不交换恋爱信物设定。"
+            }
+          ],
+          "conditions": [
+            "仅所选 xiaoman 路线",
+            "第四章小满选择B：旧书摊；第七章回收"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-xiaoman-04",
+          "route": "xiaoman",
+          "heading": "共同段｜回去之前",
+          "sourceLineStart": 111,
+          "sourceLineEnd": 133,
+          "time": "第24天17:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "同当日轻便外套；两份辣度不同烤土豆；离车门处竖拇指"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "路边烤土豆摊与步行街",
+              "time": "傍晚前",
+              "requirements": [
+                "纸碗、风吹乱浅金短发"
+              ]
+            },
+            {
+              "label": "公交站及公交门口",
+              "time": "傍晚前",
+              "requirements": [
+                "小满登车，文文留站"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 xiaoman 路线"
+          ],
+          "notes": [
+            "未替她拨头发，停在半空后由她自己弄乱。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-zhouzhi-01",
+          "route": "zhouzhi",
+          "heading": "第23天·16:10｜轮到你选",
+          "sourceLineStart": 137,
+          "sourceLineEnd": 153,
+          "time": "第23天16:10",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "淡妆，唇色淡；伞柄点鞋尖，不持工作麦克风"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "约定小店门口",
+              "time": "下午",
+              "requirements": [
+                "仅两人会面，衣装以休闲基准"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 zhouzhi 路线"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-zhouzhi-02",
+          "route": "zhouzhi",
+          "heading": "选择A｜沿河走走，轮流放一首想听的歌",
+          "sourceLineStart": 155,
+          "sourceLineEnd": 173,
+          "time": "第23天16:10后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "同当日淡妆，单侧有线耳机"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "河边步道与空长椅",
+              "time": "下午",
+              "requirements": [
+                "一人一只耳机，短线，手机置两人中间"
+              ]
+            }
+          ],
+          "cgCandidates": [
+            {
+              "label": "把手机放在中间",
+              "priority": "候选P1",
+              "composition": "长椅正面偏侧中景，各戴一只耳机自然向中间靠，手机和短线形成视觉连接。",
+              "storyConstraint": "休闲听歌不表演；二人尚未确定交往，不增加亲吻。"
+            }
+          ],
+          "conditions": [
+            "仅所选 zhouzhi 路线",
+            "第四章周栀选择A：河边听歌；第七章回收"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-zhouzhi-03",
+          "route": "zhouzhi",
+          "heading": "选择B｜去影院，允许我们喜欢不同的东西",
+          "sourceLineStart": 175,
+          "sourceLineEnd": 191,
+          "time": "第23天16:10后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "白水、折小票根塞手机壳；不与文文交换饮料"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "电影院观众席靠过道",
+              "time": "下午室内暗",
+              "requirements": [
+                "周栀选过道；屏幕光，影片内容抽象/不另造故事"
+              ]
+            },
+            {
+              "label": "商场电梯及一楼",
+              "time": "散场后仍白天",
+              "requirements": [
+                "电梯拥挤，衣袖碰手背，票根折叠"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 zhouzhi 路线",
+            "第四章周栀选择B：影院；第七章回收"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-zhouzhi-04",
+          "route": "zhouzhi",
+          "heading": "共同段｜不必把一天用满",
+          "sourceLineStart": 193,
+          "sourceLineEnd": 209,
+          "time": "第23天傍晚天仍亮",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "街角馄饨小店",
+              "time": "傍晚",
+              "requirements": [
+                "小份与大份区别，普通餐桌"
+              ]
+            },
+            {
+              "label": "人行路口",
+              "time": "傍晚",
+              "requirements": [
+                "伞换手后指尖碰文文袖口，随后独自离开"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 zhouzhi 路线"
+          ],
+          "notes": [
+            "她要回去准备上班，不延长到夜间约会。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-mengyao-01",
+          "route": "mengyao",
+          "heading": "第24天·15:30｜重新挑一件喜欢的事",
+          "sourceLineStart": 213,
+          "sourceLineEnd": 227,
+          "time": "第24天15:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "浅色休闲外套、小包替换资料布袋；无相机/教辅"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "旧书摊与商场街机厅方向的岔路",
+              "time": "下午",
+              "requirements": [
+                "只选择一个目的地"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 mengyao 路线"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-mengyao-02",
+          "route": "mengyao",
+          "heading": "A｜去旧书摊，各挑一本没看过的书",
+          "sourceLineStart": 229,
+          "sourceLineEnd": 257,
+          "time": "第24天15:30后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "短篇集、厨房随笔、杯子与写页码的收据；小包休闲装"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "旧书摊",
+              "time": "下午",
+              "requirements": [
+                "不选教辅，磨花短篇封面"
+              ]
+            },
+            {
+              "label": "旧书摊旁茶店",
+              "time": "下午",
+              "requirements": [
+                "双人桌各看各的书；可阅读文本需后期清晰排版"
+              ]
+            },
+            {
+              "label": "回程街道",
+              "time": "下午",
+              "requirements": [
+                "踢开小石子"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 mengyao 路线",
+            "第四章孟遥选择A：书摊；第七章回收"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-mengyao-03",
+          "route": "mengyao",
+          "heading": "B｜去街机厅，试一个谁都不擅长的项目",
+          "sourceLineStart": 259,
+          "sourceLineEnd": 287,
+          "time": "第24天15:30后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "休闲浅外套、小包，气垫球推柄、游戏币与比分小票"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "商场街机厅气垫球桌",
+              "time": "下午",
+              "requirements": [
+                "两侧球门、反弹圆盘和记分屏，手部完整"
+              ]
+            },
+            {
+              "label": "街机厅门口及回程路",
+              "time": "下午",
+              "requirements": [
+                "在小票背写比分与下次"
+              ]
+            }
+          ],
+          "cgCandidates": [
+            {
+              "label": "绕到对手那一边击掌",
+              "priority": "候选P2",
+              "composition": "气垫球桌角斜构图，文文绕角轻碰孟遥掌心，双方带笑；推柄/比分强调游戏。",
+              "storyConstraint": "没有让分；并未复合，不加拥抱亲吻。"
+            }
+          ],
+          "conditions": [
+            "仅所选 mengyao 路线",
+            "第四章孟遥选择B：气垫球；第七章回收"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-mengyao-04",
+          "route": "mengyao",
+          "heading": "本章汇合",
+          "sourceLineStart": 289,
+          "sourceLineEnd": 299,
+          "time": "第24天下午天仍亮",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "休闲浅外套、小包，忘拿后返回取伞"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "公交站",
+              "time": "下午",
+              "requirements": [
+                "孟遥取伞、上车后晃手机"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 mengyao 路线"
+          ],
+          "notes": [
+            "收到今天挺好消息时孟遥已在车内/离场，不摆回并肩。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-yelan-01",
+          "route": "yelan",
+          "heading": "第24天·15:40｜屏幕外的操作方式",
+          "sourceLineStart": 303,
+          "sourceLineEnd": 319,
+          "time": "第24天15:40",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "已换下深灰上班服，休闲装与平底鞋、温水杯；具体休闲颜色待美术基准，不擅指定"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "公园外入口",
+              "time": "下午",
+              "requirements": [
+                "叶岚手机列河边空地/旧货市场"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 yelan 路线"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-yelan-02",
+          "route": "yelan",
+          "heading": "A｜去河边空地放风筝",
+          "sourceLineStart": 321,
+          "sourceLineEnd": 337,
+          "time": "第24天15:40后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "同当日休闲平底鞋；普通鲜亮风筝与线轴"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "河边空地草坪",
+              "time": "下午有风",
+              "requirements": [
+                "足够放风筝距离，空中风筝与手部线轴不得同时裁失"
+              ]
+            }
+          ],
+          "cgCandidates": [
+            {
+              "label": "别都放手",
+              "priority": "候选P1",
+              "composition": "双人同握半个线轴，视线随风筝上升；近手与天空留白上下平衡。",
+              "storyConstraint": "风筝第三次逐渐飞稳，非竞赛胜利；不确定交往。"
+            }
+          ],
+          "conditions": [
+            "仅所选 yelan 路线",
+            "第四章叶岚选择A：风筝；第七章回收"
+          ],
+          "notes": [
+            "卖风筝人仅环境配角；普通风筝不定卡通IP。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-yelan-03",
+          "route": "yelan",
+          "heading": "B｜去旧货市场找一样无用的小东西",
+          "sourceLineStart": 339,
+          "sourceLineEnd": 357,
+          "time": "第24天15:40后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "同当日休闲平底鞋；歪头塑料鸭、划痕底座，文文笑脸铁盒零钱"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "旧货市场玩具摊及通道",
+              "time": "下午",
+              "requirements": [
+                "普通旧物，鸭子和铁盒为后续回收道具"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 yelan 路线",
+            "第四章叶岚选择B：旧货市场；第七章回收"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-yelan-04",
+          "route": "yelan",
+          "heading": "本章汇合",
+          "sourceLineStart": 359,
+          "sourceLineEnd": 369,
+          "time": "第24天下午结束",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "同当日休闲装；手机备忘录"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "所选出行地点出口",
+              "time": "下午",
+              "requirements": [
+                "原文未另定地点，沿A河边或B市场背景衔接，不新增地点"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 yelan 路线",
+            "继承A/B背景与道具，不混用"
+          ],
+          "notes": [
+            "手机文字“今天没有只吃面”建议引擎文字层，勿烧录错字。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-piao-01",
+          "route": "piao",
+          "heading": "第24天·16:30｜雨棚下的两个主意",
+          "sourceLineStart": 373,
+          "sourceLineEnd": 388,
+          "time": "第24天16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "伞收脚边、裤脚湿小截、薄荷糖"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "小卖部门口雨棚",
+              "time": "雨天下午",
+              "requirements": [
+                "雨变大，连续屋檐的旧街在对面"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 piao 路线"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-piao-02",
+          "route": "piao",
+          "heading": "选择A｜一只不能下水的船",
+          "sourceLineStart": 390,
+          "sourceLineEnd": 404,
+          "time": "第24天16:30后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "两张干净旧收据、两只失败折纸、水瓶、布袋"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "小卖部雨棚及柜台边",
+              "time": "雨天下午",
+              "requirements": [
+                "折纸留干处，猫只是老板比喻不强行加入"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 piao 路线",
+            "第四章飘选择A：等雨折纸；第七章回收"
+          ],
+          "notes": [
+            "不把纸船投水；保存文文失败折纸供回收。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-piao-03",
+          "route": "piao",
+          "heading": "选择B｜谁给店起的名字",
+          "sourceLineStart": 406,
+          "sourceLineEnd": 418,
+          "time": "第24天16:30后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "连续屋檐的旧街与杂货店门口",
+              "time": "雨中至雨停下午",
+              "requirements": [
+                "新旧招牌叠层，半个发/圆；招牌文字后期排版"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 piao 路线",
+            "第四章飘选择B：旧街店名；第七章回收"
+          ],
+          "notes": [
+            "临时猜店名不记录进册子，也不变店主采访任务。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-piao-04",
+          "route": "piao",
+          "heading": "第24天·18:00｜今天的散步到这里",
+          "sourceLineStart": 420,
+          "sourceLineEnd": 438,
+          "time": "第24天18:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "耳尖微红；抚衣领、捏手的生活动作"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "岔路至回网吧路口",
+              "time": "雨后傍晚",
+              "requirements": [
+                "短暂停步修衣领后分别"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 piao 路线",
+            "仅飘关系=交往"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-piao-05",
+          "route": "piao",
+          "heading": "仅朋友",
+          "sourceLineStart": 440,
+          "sourceLineEnd": 450,
+          "time": "第24天18:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "phone-photo-only",
+              "requirements": [
+                "演出照片中的夹板拿倒，不是现场出现"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "炸土豆摊与分别路口",
+              "time": "雨后傍晚",
+              "requirements": [
+                "两只纸碗，朋友各吃各辣度"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 piao 路线",
+            "仅飘关系=朋友"
+          ],
+          "notes": [
+            "毛狼为手机照片，不要求新增实体立绘或舞台背景。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-friends-01",
+          "route": "friends",
+          "heading": "第24天·下午｜谁都不用当陪客",
+          "sourceLineStart": 454,
+          "sourceLineEnd": 462,
+          "time": "第24天下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "message-only",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "文文出租屋",
+              "time": "下午",
+              "requirements": [
+                "休班看群聊，确定自己想去的地方"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 friends 路线"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-friends-02",
+          "route": "friends",
+          "heading": "A｜去看毛狼说过的小演出",
+          "sourceLineStart": 464,
+          "sourceLineEnd": 480,
+          "time": "第24天下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "普通休闲Option D，今天不是工作，不穿主持服、不持职业夹板"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "街边带小舞台的店",
+              "time": "下午",
+              "requirements": [
+                "双人在后排消费；台上歌手为环境角色，观众自然"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 friends 路线",
+            "第四章朋友线选择A：小演出；第七章回收"
+          ],
+          "notes": [
+            "不替换为回声KTV调音台/竞聘舞台。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-friends-03",
+          "route": "friends",
+          "heading": "B｜沿着没怎么走过的街慢慢逛",
+          "sourceLineStart": 482,
+          "sourceLineEnd": 496,
+          "time": "第24天下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "老街烤豆腐摊",
+              "time": "下午",
+              "requirements": [
+                "毛狼留两块豆腐并去买水"
+              ]
+            },
+            {
+              "label": "旧游戏小店室内与门外矮凳",
+              "time": "下午",
+              "requirements": [
+                "文文进店看，毛狼留外面；只买便宜明信片"
+              ]
+            },
+            {
+              "label": "雨洗过的亮墙街段",
+              "time": "下午",
+              "requirements": [
+                "步行折返"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 friends 路线",
+            "第四章朋友线选择B：逛街；第七章回收"
+          ],
+          "notes": [
+            "不新造稀有游戏收藏或高价设备。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-friends-04",
+          "route": "friends",
+          "heading": "共同段｜回到路口",
+          "sourceLineStart": 498,
+          "sourceLineEnd": 504,
+          "time": "第24天傍晚—晚上",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "路口亮灯面馆门口",
+              "time": "傍晚",
+              "requirements": [
+                "发现饿了；未细写用餐"
+              ]
+            },
+            {
+              "label": "文文出租屋",
+              "time": "晚上",
+              "requirements": [
+                "记当天支出，洗澡只叙述，不需浴室人物镜头"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 friends 路线"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-huangqiuqiu-01",
+          "route": "huangqiuqiu",
+          "heading": "第24天·16:30｜你可以选一个难题",
+          "sourceLineStart": 508,
+          "sourceLineEnd": 525,
+          "time": "第24天16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "始终球形，托腮小手可放下"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "网吧后院侧门干处",
+              "time": "雨天下午",
+              "requirements": [
+                "门外伞不挡路，纸笔；先敲门等应允"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 huangqiuqiu 路线",
+            "隐藏线资格"
+          ],
+          "notes": [
+            "鸭子云只说明画画缘由，不新增实际魔法/鸭子角色。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-huangqiuqiu-02",
+          "route": "huangqiuqiu",
+          "heading": "选择A｜画上那个人挺精神",
+          "sourceLineStart": 527,
+          "sourceLineEnd": 545,
+          "time": "第24天16:30后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "网吧后院干处",
+              "time": "雨天下午",
+              "requirements": [
+                "文文拙劣自画像、手机自拍参照、纸笔，纸平压干处不贴门"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 huangqiuqiu 路线",
+            "隐藏线资格；第四章球球选择A：自画像；第七章回收"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-huangqiuqiu-03",
+          "route": "huangqiuqiu",
+          "heading": "选择B｜没有赶到结尾的鸭子",
+          "sourceLineStart": 547,
+          "sourceLineEnd": 557,
+          "time": "第24天16:30后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "网吧后院干处",
+              "time": "雨天下午",
+              "requirements": [
+                "两个低凳，球球托腮与弯眼笑"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 huangqiuqiu 路线",
+            "隐藏线资格；第四章球球选择B：笨故事；第七章回收"
+          ],
+          "notes": [
+            "鸭子买伞为口头接故事，不制作故事中店铺/鸭子CG，不把长手变身笑话当能力。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch04-huangqiuqiu-04",
+          "route": "huangqiuqiu",
+          "heading": "第24天·17:30｜想坐高一点",
+          "sourceLineStart": 559,
+          "sourceLineEnd": 581,
+          "time": "第24天17:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "球形；小手碰文文手背，身体不可变成人形"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "网吧后院门框边干处",
+              "time": "雨停的下午",
+              "requirements": [
+                "稍高矮凳垫干净防滑布，门框外窄天空；结束托回原位"
+              ]
+            }
+          ],
+          "cgCandidates": [
+            {
+              "label": "看高一点的天",
+              "priority": "候选P1",
+              "composition": "文文双手稳托球形黄球球到垫布矮凳，球球小手碰手背示意停；门框一角露天。",
+              "storyConstraint": "必须同意后移动，止于近旁凳子；无恋爱变身、研究身体或公开登场。"
+            }
+          ],
+          "conditions": [
+            "仅所选 huangqiuqiu 路线",
+            "隐藏线资格"
+          ],
+          "notes": [
+            "明确先取得她同意；只移到身旁凳子，不抱出后院给路人看。"
+          ],
+          "runtimeNodeIds": []
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sourceSha256": "237c81a388bc42db960729d600a88d2705ef6106ade18f4414e919a33acab082",
+      "sections": [
+        {
+          "id": "a01-ch05-common-01",
+          "route": "common",
+          "heading": "第25天·18:10｜回声那条消息",
+          "sourceLineStart": 11,
+          "sourceLineEnd": 35,
+          "time": "第25天18:10及晚些时候",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "message-only",
+              "requirements": []
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "message-or-voice-only",
+              "requirements": []
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "message-only",
+              "requirements": []
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "message-only",
+              "requirements": []
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "message-only",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "文文出租屋饭桌/热饭处",
+              "time": "傍晚至夜",
+              "requirements": [
+                "群聊回声营业至30天、排班、热饭"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "第二章约局说明A/B回收，只读相应段"
+          ],
+          "notes": [
+            "回声停业消息不要求本场关闭KTV背景；本章所有路线重提第25天消息是前情，不重复实体饭局。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch05-xiaoman-01",
+          "route": "xiaoman",
+          "heading": "第27天·17:10｜那句顺嘴的话",
+          "sourceLineStart": 39,
+          "sourceLineEnd": 95,
+          "time": "第27天17:10",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile",
+                "expression-hesitant",
+                "expression-downcast"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-downcast"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "新外套仍在轻薄快递袋中，未穿；手机取件码，眼角微红但不是哭"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "快递点门口与货架",
+              "time": "下午",
+              "requirements": [
+                "取件码、包装袋"
+              ]
+            },
+            {
+              "label": "快递点外街路与路口",
+              "time": "下午",
+              "requirements": [
+                "推车暂隔两人，之后小满保持距离独自离开"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 xiaoman 路线"
+          ],
+          "notes": [
+            "儿时熟人用环境配角，不做童年回忆；第25天群聊只回叙。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch05-xiaoman-02",
+          "route": "xiaoman",
+          "heading": "第29天·16:30｜新外套",
+          "sourceLineStart": 97,
+          "sourceLineEnd": 131,
+          "time": "第29天16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "必需新衣装：浅灰新外套，袖口一道细蓝边；无围裙/理发工具；饼干"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "便利店座椅区",
+              "time": "下午",
+              "requirements": [
+                "未拆封到拆开的饼干；抬手要看见蓝边"
+              ]
+            }
+          ],
+          "cgCandidates": [
+            {
+              "label": "袖口那道蓝边",
+              "priority": "候选P2",
+              "composition": "便利店坐姿中近景，浅灰蓝边袖口与分饼干的手在视觉中心，小满从认真到微笑。",
+              "storyConstraint": "本场和解不等于正式交往；必须还原具体新外套颜色细节。"
+            }
+          ],
+          "conditions": [
+            "仅所选 xiaoman 路线"
+          ],
+          "notes": [
+            "不能沿用砖红夹克敷衍这场，衣服颜色是对白信息。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch05-zhouzhi-01",
+          "route": "zhouzhi",
+          "heading": "第26天·17:30｜你今天也在上班吗",
+          "sourceLineStart": 135,
+          "sourceLineEnd": 183,
+          "time": "第26天17:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile",
+                "expression-hesitant",
+                "expression-downcast"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "expression-smile",
+                "expression-tired",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "约饭门口与附近饭店",
+              "time": "下午",
+              "requirements": [
+                "起初三人来见周栀；毛狼同行为环境配角；周栀汤渐凉、筷子未动"
+              ]
+            },
+            {
+              "label": "车站",
+              "time": "傍晚",
+              "requirements": [
+                "周栀登车，隔玻璃抬手"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 zhouzhi 路线"
+          ],
+          "notes": [
+            "毛狼与同行先离开，严肃对话时只剩周栀和文文；不把社交照顾渲染成舞台工作。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch05-zhouzhi-02",
+          "route": "zhouzhi",
+          "heading": "第29天·16:50｜先留两个人的位置",
+          "sourceLineStart": 185,
+          "sourceLineEnd": 213,
+          "time": "第29天16:50",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "普通面馆双人桌",
+              "time": "下午",
+              "requirements": [
+                "文文先问口味，二人安静吃饭"
+              ]
+            },
+            {
+              "label": "面馆门口",
+              "time": "下午",
+              "requirements": [
+                "周栀压平文文外套后领"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 zhouzhi 路线"
+          ],
+          "notes": [
+            "第30天饭局仍是未来约定，不补现场。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch05-mengyao-01",
+          "route": "mengyao",
+          "heading": "第27天·17:50｜一句玩笑碰到旧地方",
+          "sourceLineStart": 217,
+          "sourceLineEnd": 261,
+          "time": "第27天17:50",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-tired",
+                "expression-hesitant",
+                "expression-downcast"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-downcast"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "下课职业日常，两张打印纸收起；米白/已确认衣装无相机"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "卖粥小店",
+              "time": "下午",
+              "requirements": [
+                "摆动风扇、粥碗、勺子、打印纸"
+              ]
+            },
+            {
+              "label": "街口",
+              "time": "傍晚前",
+              "requirements": [
+                "孟遥自己购物，文文不跟"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 mengyao 路线"
+          ],
+          "notes": [
+            "新讲法、学生情况只口述，不制作教学资料可识别隐私或课堂画面；不在结尾加甜蜜CG。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch05-mengyao-02",
+          "route": "mengyao",
+          "heading": "第29天·16:30｜你也可以听错",
+          "sourceLineStart": 263,
+          "sourceLineEnd": 297,
+          "time": "第29天16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "咸豆花与勺子；不翻具体学生资料，无相机"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "豆花店门口及店外遮阳棚座",
+              "time": "下午",
+              "requirements": [
+                "她已买咸豆花、扶碗、阳光移至棚外"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 mengyao 路线"
+          ],
+          "notes": [
+            "课堂事/网吧顾客只聊天回忆，实体仅两人。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch05-yelan-01",
+          "route": "yelan",
+          "heading": "第27天·20:10｜我没有说请你介绍",
+          "sourceLineStart": 301,
+          "sourceLineEnd": 321,
+          "time": "第27天20:10",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile",
+                "expression-hesitant",
+                "expression-downcast"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "voice-then-message-only",
+              "requirements": []
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "voice-only",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "网吧机位",
+              "time": "夜",
+              "requirements": [
+                "从隔壁座位顾客喊队友可判定在网吧；文文休班，耳机，手机私聊"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 yelan 路线"
+          ],
+          "notes": [
+            "叶岚、毛狼均远程，不同现实安静/线上活跃都不需要分身立绘；叶岚下线后仅消息。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch05-yelan-02",
+          "route": "yelan",
+          "heading": "第29天·18:00｜她不是另一个账号",
+          "sourceLineStart": 323,
+          "sourceLineEnd": 361,
+          "time": "第29天18:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "无旧领班文件夹；菜单、饺子勺、同款冰棒"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "饺子店",
+              "time": "傍晚",
+              "requirements": [
+                "热饺子在勺上晾凉，双人桌"
+              ]
+            },
+            {
+              "label": "相邻冰棒冰柜与街道路口",
+              "time": "傍晚",
+              "requirements": [
+                "挑同一种冰棒，包装入垃圾桶"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 yelan 路线"
+          ],
+          "notes": [
+            "她线下仍自然安静，和解不强行切热情夸张大笑；同事事只讲述。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch05-piao-01",
+          "route": "piao",
+          "heading": "第27天·16:00｜一张不太满意的封面",
+          "sourceLineStart": 365,
+          "sourceLineEnd": 405,
+          "time": "第27天16:00—傍晚",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "两张小册子封面试样、一张淡色；布袋收纸；保持个人创作"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "安静小店",
+              "time": "下午",
+              "requirements": [
+                "两张试样在桌上，不替她定最终稿"
+              ]
+            },
+            {
+              "label": "包子豆浆店门外",
+              "time": "下午至傍晚",
+              "requirements": [
+                "热豆浆、等刚蒸包子"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 piao 路线"
+          ],
+          "notes": [
+            "求职暂无结果，不画办公室/就业成功；封面只是剧情道具试样不是游戏封面修改任务。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch05-piao-02",
+          "route": "piao",
+          "heading": "第29天·17:30｜别替我挑好答案",
+          "sourceLineStart": 407,
+          "sourceLineEnd": 431,
+          "time": "第29天17:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "小店双人座",
+              "time": "下午",
+              "requirements": [
+                "炸豆腐共享盘，两人先对坐后飘主动挪旁边靠肩"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 piao 路线",
+            "仅飘关系=交往"
+          ],
+          "notes": [],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch05-piao-03",
+          "route": "piao",
+          "heading": "仅朋友",
+          "sourceLineStart": 433,
+          "sourceLineEnd": 453,
+          "time": "第29天17:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [],
+              "appearanceMode": "message-only",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "小店双人座及店门口",
+              "time": "下午",
+              "requirements": [
+                "炸豆腐、手机约下次、查看时间后各走"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 piao 路线",
+            "仅飘关系=朋友"
+          ],
+          "notes": [
+            "毛狼只是她说起/发消息对象，不到现场；不把文文画成三角恋竞争者。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch05-friends-01",
+          "route": "friends",
+          "heading": "第27天·17:10｜那个没说清的工作",
+          "sourceLineStart": 457,
+          "sourceLineEnd": 483,
+          "time": "第27天17:10及晚些时候",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-downcast",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "日用品店手提卫生纸；后半通话不继续实体同场"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "日用品商店与门口",
+              "time": "下午",
+              "requirements": [
+                "卫生纸、洗衣液、电池；旧熟人环境配角"
+              ]
+            },
+            {
+              "label": "文文出租屋床边",
+              "time": "晚些时候",
+              "requirements": [
+                "购物袋放下，给毛狼电话"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 friends 路线"
+          ],
+          "notes": [
+            "毛狼通话另一端拆纸声音，未明确房间不建其家；职业羞怯不变新办公室。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch05-friends-02",
+          "route": "friends",
+          "heading": "第29天·17:30｜照样讲出来",
+          "sourceLineStart": 485,
+          "sourceLineEnd": 501,
+          "time": "第29天17:30—准备夜班",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "shijiang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": []
+            }
+          ],
+          "scenes": [
+            {
+              "label": "面馆",
+              "time": "下午",
+              "requirements": [
+                "旧熟人环境配角，对话后独自吃面"
+              ]
+            },
+            {
+              "label": "网吧柜台",
+              "time": "傍晚",
+              "requirements": [
+                "送规格不合的卫生纸、师匠吃最后一口饭，放柜台下"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 friends 路线"
+          ],
+          "notes": [
+            "文文换上值班外套后准备22:00回来；毛狼仅托带纸，不在场；无技术维修表现。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch05-huangqiuqiu-01",
+          "route": "huangqiuqiu",
+          "heading": "第27天·17:00｜别猜我正在生气",
+          "sourceLineStart": 505,
+          "sourceLineEnd": 541,
+          "time": "第27天17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [
+                "base",
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "球形；忧虑眉常态不是一律愤怒，放下托腮小手再轻笑"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "网吧后院侧门干处",
+              "time": "下午",
+              "requirements": [
+                "风轻推门、低凳，文文紧张坐前沿后坐稳"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 huangqiuqiu 路线",
+            "隐藏线资格"
+          ],
+          "notes": [
+            "朋友饭局只是告知不能来的安排，不把球球带去聚会，不添手机联系。"
+          ],
+          "runtimeNodeIds": []
+        },
+        {
+          "id": "a01-ch05-huangqiuqiu-02",
+          "route": "huangqiuqiu",
+          "heading": "第29天·16:30｜一个没说完的哈欠",
+          "sourceLineStart": 543,
+          "sourceLineEnd": 571,
+          "time": "第29天16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "expression-tired",
+                "expression-hesitant",
+                "expression-smile"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称叙述；常规对白不强制全身立绘，CG需要时保持短寸圆脸",
+                "网管日常衣装，不附旧维修工具包"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [
+                "expression-serious",
+                "expression-smile"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "球形；忍不住笑时托腮小手放下，最后抬小手道别"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "网吧后院干处及门边",
+              "time": "雨天下午",
+              "requirements": [
+                "门外放伞、低凳不挡路；扶门站稳腿麻后离开"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅所选 huangqiuqiu 路线",
+            "隐藏线资格"
+          ],
+          "notes": [
+            "文文困意用疲惫差分，哈欠可演出动作；无抱人、变身或公开暴露。"
+          ],
+          "runtimeNodeIds": []
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "依据2026-10-22审阅稿提取，当前故事正文仍待用户反馈；美术资源映射不等于剧情接入或正式采用。",
+    "全部第1—5章黄球球实体均为orb；第1天/第8天仅未识别门后声音，先满足记录/回应后才在第14天显示外形。",
+    "physical=实际同场；first-person=文文第一人称；voice/message/photo/recollection模式不要求实体舞台立绘。无名配角原则上使用背景剪影/音声而非新增设定。",
+    "表情key为需求语义；可用现有同名差分复用，衣装或职业不符须同步修订，不能因表情存在就认定资产已适用。",
+    "CG均为候选分镜，优先级只表示视觉叙事价值，不代表必须每条制作。路线/关系条件必须约束CG及道具；runtimeNodeIds空待E01/E09绑定。",
+    "未读取或更改现行story.js；无美术生成/转换/正式接入，本文件独占供A01总清单合并。"
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "R2",
+  "owner": "M1",
+  "auditedOn": "2026-10-19",
+  "timezone": "Asia/Shanghai",
+  "scope": "original_five_only; E5 will consolidate with M3 after parallel tasks finish",
+  "imageGenerationCallsThisTask": 0,
+  "imageEditsThisTask": 0,
+  "priorGenerationPromptProvenance": "unknown; no prior prompt fabricated",
+  "characters": {
+    "wenwen": {
+      "key": "wenwen",
+      "name": "文文",
+      "age": 23,
+      "presentation": "human",
+      "source": {
+        "path": "/Users/yipin/Desktop/cjb/assets/char-wenwen.png",
+        "kind": "preexisting_project_asset",
+        "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+        "retained": true,
+        "mappingEvidence": "User-provided exact mapping, then individual view_image review",
+        "originalGenerationPrompt": null,
+        "originalGenerationPromptStatus": "not available / not inferred"
+      },
+      "path": "assets/char-wenwen.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "version": "original-archive-v1",
+      "archiveAction": "already present; identical",
+      "byteIdenticalToSource": true,
+      "alphaCheck": {
+        "passed": true,
+        "hasRealTransparency": true,
+        "range": [
+          0,
+          254
+        ],
+        "counts": {
+          "zero": 627597,
+          "oneTo239": 20525,
+          "nearOpaque240To254": 924742,
+          "fullyOpaque255": 0
+        },
+        "boundingBoxAlphaGreater127": [
+          106,
+          23,
+          1004,
+          1536
+        ],
+        "bodyAlphaNote": "主体多为252/253，最大254；约98.8%—99.2%不透明。保留原样，实景合成未见可见穿透。",
+        "visualEdgeResult": "亮暗底及实景未见妨碍使用的大面积光晕、矩形背景或粗连续白边；保留自然受光边和半透明发丝。"
+      },
+      "status": {
+        "generated": "existing_generation_confirmed",
+        "archived": "passed",
+        "singleImage": "passed",
+        "offlineComposite": "passed",
+        "inGame": "not_verified"
+      },
+      "editing": {
+        "performed": false,
+        "note": "直接复用；本轮未调用图像生成工具，未重画、抠图、改色或改alpha。",
+        "variants": []
+      },
+      "visualReview": "短寸、圆脸、眉眼、成年身形及深色维修夹克均保留。双手插袋，可见腕部、前臂衔接自然。原微信照片未重读，不做身份相似度重新核验或人脸重塑。",
+      "displayRecommendation": {
+        "aspectRatio": "2:3",
+        "scaleMultiplier": 1.0,
+        "desktop": {
+          "widthPercent": 45,
+          "heightPercent": 83,
+          "rightPercent": 7,
+          "bottomPercent": 10,
+          "fit": "contain",
+          "objectPosition": "bottom center"
+        },
+        "mobile": {
+          "widthPercent": 96,
+          "heightPercent": 69,
+          "rightPercent": 0,
+          "bottomPercent": 25,
+          "fit": "contain",
+          "objectPosition": "bottom center",
+          "status": "recommended, not applied; current CSS right is -10%",
+          "reason": "收回向右越界，保留右肩/手/道具；实际选择项遮挡仍需工程验证"
+        },
+        "avatarSourceCropLTRB": [
+          180,
+          0,
+          780,
+          720
+        ],
+        "avatarCropStatus": "recommendation_previewed_only; source PNG not cropped"
+      },
+      "evidence": [
+        "qa/art-characters-composite-wenwen.png",
+        "qa/art-characters-details-wenwen.png"
+      ]
+    },
+    "xiaoman": {
+      "key": "xiaoman",
+      "name": "罗小满",
+      "age": 22,
+      "presentation": "human",
+      "source": {
+        "path": "/Users/yipin/.codex/generated_images/01a143f3-8824-7882-ad4d-c1574bbb0e22/exec-3dea668c-0852-4033-b12e-c5061058a744.png",
+        "kind": "user_mapped_generated_cache",
+        "sha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+        "retained": true,
+        "mappingEvidence": "User-provided exact mapping, then individual view_image review",
+        "originalGenerationPrompt": null,
+        "originalGenerationPromptStatus": "not available / not inferred"
+      },
+      "path": "assets/char-xiaoman.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+      "version": "original-archive-v1",
+      "archiveAction": "copied source byte-for-byte",
+      "byteIdenticalToSource": true,
+      "alphaCheck": {
+        "passed": true,
+        "hasRealTransparency": true,
+        "range": [
+          0,
+          254
+        ],
+        "counts": {
+          "zero": 574841,
+          "oneTo239": 37178,
+          "nearOpaque240To254": 960845,
+          "fullyOpaque255": 0
+        },
+        "boundingBoxAlphaGreater127": [
+          45,
+          16,
+          980,
+          1536
+        ],
+        "bodyAlphaNote": "主体多为252/253，最大254；约98.8%—99.2%不透明。保留原样，实景合成未见可见穿透。",
+        "visualEdgeResult": "亮暗底及实景未见妨碍使用的大面积光晕、矩形背景或粗连续白边；保留自然受光边和半透明发丝。"
+      },
+      "status": {
+        "generated": "existing_generation_confirmed",
+        "archived": "passed",
+        "singleImage": "passed",
+        "offlineComposite": "passed",
+        "inGame": "not_verified"
+      },
+      "editing": {
+        "performed": false,
+        "note": "直接复用；本轮未调用图像生成工具，未重画、抠图、改色或改alpha。",
+        "variants": []
+      },
+      "visualReview": "浅金短发、砖红夹克、白内搭保留；发丝分离自然，垂手在原尺寸及显示尺寸下未见明显破损。",
+      "displayRecommendation": {
+        "aspectRatio": "2:3",
+        "scaleMultiplier": 1.0,
+        "desktop": {
+          "widthPercent": 45,
+          "heightPercent": 83,
+          "rightPercent": 7,
+          "bottomPercent": 10,
+          "fit": "contain",
+          "objectPosition": "bottom center"
+        },
+        "mobile": {
+          "widthPercent": 96,
+          "heightPercent": 69,
+          "rightPercent": 0,
+          "bottomPercent": 25,
+          "fit": "contain",
+          "objectPosition": "bottom center",
+          "status": "recommended, not applied; current CSS right is -10%",
+          "reason": "收回向右越界，保留右肩/手/道具；实际选择项遮挡仍需工程验证"
+        },
+        "avatarSourceCropLTRB": [
+          220,
+          0,
+          820,
+          720
+        ],
+        "avatarCropStatus": "recommendation_previewed_only; source PNG not cropped"
+      },
+      "evidence": [
+        "qa/art-characters-composite-xiaoman.png",
+        "qa/art-characters-details-xiaoman.png"
+      ]
+    },
+    "zhouzhi": {
+      "key": "zhouzhi",
+      "name": "周栀",
+      "age": 25,
+      "presentation": "human",
+      "source": {
+        "path": "/Users/yipin/.codex/generated_images/01a143f3-8824-7882-ad4d-c1574bbb0e22/exec-447981a6-6513-4aa3-90b4-9adcb41796ea.png",
+        "kind": "user_mapped_generated_cache",
+        "sha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+        "retained": true,
+        "mappingEvidence": "User-provided exact mapping, then individual view_image review",
+        "originalGenerationPrompt": null,
+        "originalGenerationPromptStatus": "not available / not inferred"
+      },
+      "path": "assets/char-zhouzhi.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+      "version": "original-archive-v1",
+      "archiveAction": "copied source byte-for-byte",
+      "byteIdenticalToSource": true,
+      "alphaCheck": {
+        "passed": true,
+        "hasRealTransparency": true,
+        "range": [
+          0,
+          254
+        ],
+        "counts": {
+          "zero": 697080,
+          "oneTo239": 45472,
+          "nearOpaque240To254": 830312,
+          "fullyOpaque255": 0
+        },
+        "boundingBoxAlphaGreater127": [
+          161,
+          7,
+          923,
+          1536
+        ],
+        "bodyAlphaNote": "主体多为252/253，最大254；约98.8%—99.2%不透明。保留原样，实景合成未见可见穿透。",
+        "visualEdgeResult": "亮暗底及实景未见妨碍使用的大面积光晕、矩形背景或粗连续白边；保留自然受光边和半透明发丝。"
+      },
+      "status": {
+        "generated": "existing_generation_confirmed",
+        "archived": "passed",
+        "singleImage": "passed",
+        "offlineComposite": "passed",
+        "inGame": "not_verified"
+      },
+      "editing": {
+        "performed": false,
+        "note": "直接复用；本轮未调用图像生成工具，未重画、抠图、改色或改alpha。",
+        "variants": []
+      },
+      "visualReview": "深色长发、青色衬衫及成人比例保留；深发在暗底可辨，袖口与插袋手腕衔接自然。",
+      "displayRecommendation": {
+        "aspectRatio": "2:3",
+        "scaleMultiplier": 1.0,
+        "desktop": {
+          "widthPercent": 45,
+          "heightPercent": 83,
+          "rightPercent": 7,
+          "bottomPercent": 10,
+          "fit": "contain",
+          "objectPosition": "bottom center"
+        },
+        "mobile": {
+          "widthPercent": 96,
+          "heightPercent": 69,
+          "rightPercent": 0,
+          "bottomPercent": 25,
+          "fit": "contain",
+          "objectPosition": "bottom center",
+          "status": "recommended, not applied; current CSS right is -10%",
+          "reason": "收回向右越界，保留右肩/手/道具；实际选择项遮挡仍需工程验证"
+        },
+        "avatarSourceCropLTRB": [
+          190,
+          0,
+          790,
+          720
+        ],
+        "avatarCropStatus": "recommendation_previewed_only; source PNG not cropped"
+      },
+      "evidence": [
+        "qa/art-characters-composite-zhouzhi.png",
+        "qa/art-characters-details-zhouzhi.png"
+      ]
+    },
+    "mengyao": {
+      "key": "mengyao",
+      "name": "孟遥",
+      "age": 23,
+      "presentation": "human",
+      "source": {
+        "path": "/Users/yipin/.codex/generated_images/01a143f3-8824-7882-ad4d-c1574bbb0e22/exec-61830735-1d29-42c0-aef2-d4afab1aaacf.png",
+        "kind": "user_mapped_generated_cache",
+        "sha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+        "retained": true,
+        "mappingEvidence": "User-provided exact mapping, then individual view_image review",
+        "originalGenerationPrompt": null,
+        "originalGenerationPromptStatus": "not available / not inferred"
+      },
+      "path": "assets/char-mengyao.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+      "version": "original-archive-v1",
+      "archiveAction": "copied source byte-for-byte",
+      "byteIdenticalToSource": true,
+      "alphaCheck": {
+        "passed": true,
+        "hasRealTransparency": true,
+        "range": [
+          0,
+          254
+        ],
+        "counts": {
+          "zero": 718752,
+          "oneTo239": 44111,
+          "nearOpaque240To254": 810001,
+          "fullyOpaque255": 0
+        },
+        "boundingBoxAlphaGreater127": [
+          153,
+          4,
+          939,
+          1536
+        ],
+        "bodyAlphaNote": "主体多为252/253，最大254；约98.8%—99.2%不透明。保留原样，实景合成未见可见穿透。",
+        "visualEdgeResult": "亮暗底及实景未见妨碍使用的大面积光晕、矩形背景或粗连续白边；保留自然受光边和半透明发丝。"
+      },
+      "status": {
+        "generated": "existing_generation_confirmed",
+        "archived": "passed",
+        "singleImage": "passed",
+        "offlineComposite": "passed",
+        "inGame": "not_verified"
+      },
+      "editing": {
+        "performed": false,
+        "note": "直接复用；本轮未调用图像生成工具，未重画、抠图、改色或改alpha。",
+        "variants": []
+      },
+      "visualReview": "栗色发、米白衬衫、相机及肩带完整；衣袖、相机轮廓与插袋手腕未见明显破损。",
+      "displayRecommendation": {
+        "aspectRatio": "2:3",
+        "scaleMultiplier": 1.0,
+        "desktop": {
+          "widthPercent": 45,
+          "heightPercent": 83,
+          "rightPercent": 7,
+          "bottomPercent": 10,
+          "fit": "contain",
+          "objectPosition": "bottom center"
+        },
+        "mobile": {
+          "widthPercent": 96,
+          "heightPercent": 69,
+          "rightPercent": 0,
+          "bottomPercent": 25,
+          "fit": "contain",
+          "objectPosition": "bottom center",
+          "status": "recommended, not applied; current CSS right is -10%",
+          "reason": "收回向右越界，保留右肩/手/道具；实际选择项遮挡仍需工程验证"
+        },
+        "avatarSourceCropLTRB": [
+          180,
+          0,
+          780,
+          720
+        ],
+        "avatarCropStatus": "recommendation_previewed_only; source PNG not cropped"
+      },
+      "evidence": [
+        "qa/art-characters-composite-mengyao.png",
+        "qa/art-characters-details-mengyao.png"
+      ]
+    },
+    "yelan": {
+      "key": "yelan",
+      "name": "叶岚",
+      "age": 27,
+      "presentation": "human",
+      "source": {
+        "path": "/Users/yipin/.codex/generated_images/01a143f3-8824-7882-ad4d-c1574bbb0e22/exec-f5c9e7c1-6966-4241-ad07-7dcf71fd0849.png",
+        "kind": "user_mapped_generated_cache",
+        "sha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+        "retained": true,
+        "mappingEvidence": "User-provided exact mapping, then individual view_image review",
+        "originalGenerationPrompt": null,
+        "originalGenerationPromptStatus": "not available / not inferred"
+      },
+      "path": "assets/char-yelan.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+      "version": "original-archive-v1",
+      "archiveAction": "copied source byte-for-byte",
+      "byteIdenticalToSource": true,
+      "alphaCheck": {
+        "passed": true,
+        "hasRealTransparency": true,
+        "range": [
+          0,
+          254
+        ],
+        "counts": {
+          "zero": 642001,
+          "oneTo239": 37532,
+          "nearOpaque240To254": 893331,
+          "fullyOpaque255": 0
+        },
+        "boundingBoxAlphaGreater127": [
+          146,
+          9,
+          987,
+          1536
+        ],
+        "bodyAlphaNote": "主体多为252/253，最大254；约98.8%—99.2%不透明。保留原样，实景合成未见可见穿透。",
+        "visualEdgeResult": "亮暗底及实景未见妨碍使用的大面积光晕、矩形背景或粗连续白边；保留自然受光边和半透明发丝。"
+      },
+      "status": {
+        "generated": "existing_generation_confirmed",
+        "archived": "passed",
+        "singleImage": "passed",
+        "offlineComposite": "passed",
+        "inGame": "not_verified"
+      },
+      "editing": {
+        "performed": false,
+        "note": "直接复用；本轮未调用图像生成工具，未重画、抠图、改色或改alpha。",
+        "variants": []
+      },
+      "visualReview": "低髻、深灰西装、夹板保留；持夹板的手及夹板边缘可辨，低髻轮廓完整。",
+      "displayRecommendation": {
+        "aspectRatio": "2:3",
+        "scaleMultiplier": 1.0,
+        "desktop": {
+          "widthPercent": 45,
+          "heightPercent": 83,
+          "rightPercent": 7,
+          "bottomPercent": 10,
+          "fit": "contain",
+          "objectPosition": "bottom center"
+        },
+        "mobile": {
+          "widthPercent": 96,
+          "heightPercent": 69,
+          "rightPercent": 0,
+          "bottomPercent": 25,
+          "fit": "contain",
+          "objectPosition": "bottom center",
+          "status": "recommended, not applied; current CSS right is -10%",
+          "reason": "收回向右越界，保留右肩/手/道具；实际选择项遮挡仍需工程验证"
+        },
+        "avatarSourceCropLTRB": [
+          190,
+          0,
+          790,
+          720
+        ],
+        "avatarCropStatus": "recommendation_previewed_only; source PNG not cropped"
+      },
+      "evidence": [
+        "qa/art-characters-composite-yelan.png",
+        "qa/art-characters-details-yelan.png"
+      ]
+    }
+  },
+  "compositeAudit": {
+    "status": "passed_offline_asset_composite",
+    "notGameCapture": true,
+    "backgroundsSnapshot": {
+      "street": {
+        "path": "assets/bg-street.png",
+        "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+        "size": [
+          1672,
+          941
+        ],
+        "meanLuma": 58.69
+      },
+      "repair": {
+        "path": "assets/bg-repair.png",
+        "sha256": "3b918a88c0d486575fa18d09afb70a37f9e1743257dd49ce1a44f72416e098aa",
+        "size": [
+          1672,
+          941
+        ],
+        "meanLuma": 94.83
+      },
+      "lobby": {
+        "path": "assets/bg-lobby.png",
+        "sha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871",
+        "size": [
+          1672,
+          941
+        ],
+        "meanLuma": 46.97
+      },
+      "room": {
+        "path": "assets/bg-room.png",
+        "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+        "size": [
+          1672,
+          941
+        ],
+        "meanLuma": 36.49
+      },
+      "noodles": {
+        "path": "assets/bg-noodles.png",
+        "sha256": "b3b2bd4aa1421b504417a1d37900add3ed69202f7d0f680c2da1be698a3dc984",
+        "size": [
+          1672,
+          941
+        ],
+        "meanLuma": 57.44
+      },
+      "salon": {
+        "path": "assets/bg-salon.png",
+        "sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+        "size": [
+          1672,
+          941
+        ],
+        "meanLuma": 107.27
+      }
+    },
+    "uniformBackgrounds": [
+      "#F0F1EE",
+      "#111821"
+    ],
+    "fullSizeSceneChecks": [
+      "salon",
+      "room"
+    ],
+    "allSceneCombinationOverviewCount": 30,
+    "rawCompositeFilters": "none; no CSS shadow, shade, color grading, or grain",
+    "portraitStage": [
+      1280,
+      720
+    ],
+    "mobileSchematicStages": [
+      [
+        390,
+        844
+      ],
+      [
+        375,
+        667
+      ]
+    ],
+    "limitations": [
+      "Offline asset alpha/composite acceptance only.",
+      "No live game, choices, title, end, actual font layout or browser filter validation.",
+      "Portraits end near thighs; bottom cut edge must remain behind dialogue or stage fade.",
+      "At audit time game.js was absent; other engineering tasks may subsequently add it."
+    ]
+  },
+  "evidence": {
+    "report": "qa/art-characters-report.md",
+    "originalLightDark": "qa/art-characters-original-light-dark.png",
+    "sixBackgroundOverview": "qa/art-characters-six-backgrounds.png",
+    "avatarPreview": "qa/art-characters-avatar-crops.png",
+    "mobileCurrentPreview": "qa/art-characters-mobile-composite.png",
+    "mobilePositionComparison": "qa/art-characters-mobile-position-comparison.png",
+    "handoff": "任务拆分/交接/M1.md"
+  }
+}

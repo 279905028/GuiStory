@@ -1,0 +1,13 @@
+{
+  "key": "yelan-casual",
+  "character": "yelan",
+  "file": "char-yelan-casual-base",
+  "ref": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-v1.png",
+  "references": [
+    "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-v1.png"
+  ],
+  "prompt": "Use case: identity-preserve\n单张视觉小说角色衣装/发型差分，输入图为编辑对象。修改：保留face-v2脸型、金色小耳钉和黑发，头发扎紧成整洁低马尾。深灰西装与灰衬衫换成简洁浅灰蓝休闲长袖上衣，深色休闲裤；双手自然放松，不拿任何物品。无夹板、文件或职业设备，供普通逛公园/球馆使用。延续原大腿截幅，不扩画全身或脚。自然微笑。\n严格锁定输入人物的脸型、五官、皮肤、成年身份、同一画风与光线，除上述服装/发型/必要手势外不改其他内容。保持1024×1536画布、原头顶落点、头身比例和大腿截幅，不扩画脚或完整全身。日系半写实细腻手绘立绘，背景为真实透明alpha，无底色、无地面、无光晕、无棋盘格、无文字、水印和边框。",
+  "generatedPath": "/Users/yipin/.codex/generated_images/01a162af-0842-7a61-a6ca-7846101abfe6/exec-958d3fcb-44e6-4914-a316-1158533ca1cb.png",
+  "tool": "image_gen built-in",
+  "attempt": 1
+}

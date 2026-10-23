@@ -1,0 +1,932 @@
+{
+  "schemaVersion": "1.0.0",
+  "date": "2026-10-23",
+  "formalIntegration": false,
+  "sourceModuleFingerprints": [
+    {
+      "file": "任务拆分/全十章/common/ch01.json",
+      "sha256": "e67fd830b2a90b5b1ebc581dd0453a1d8feee5c3be0b91ce894cae6f1776b48f"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch02.json",
+      "sha256": "f9e89a31e445bd52655334f124c1e0f9c8bc9368bce0220742eed9f3561032b2"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch03.json",
+      "sha256": "88bb55edd4315f4a6c06500687a99134bdebaba1233b21ef03fd2660c75fba5b"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch04.json",
+      "sha256": "645ddb96d804533a226a8c14e5cb0fff18e557bfb9a2c994ee9eea915b24ac04"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch05.json",
+      "sha256": "2e19cd57cfafa07edd7c1880dc727f6aae386a62bad806f86c1d5a9f2d2fbfb8"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch06.json",
+      "sha256": "f95eabdfd886fdc72f1856872d21919b9adba833b501a303cc7219fe4c04e62f"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch07.json",
+      "sha256": "5b45f35bd675c3db4060f9e7ae8bf4d076cae60c9dd438cb8bead49e6fbd31c7"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch08.json",
+      "sha256": "4b98abcf1ef72c6ac5985cd70e1640bebfdf390fd2b67f6cfe9497ec80278ec9"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch09.json",
+      "sha256": "e437f863161b79661513d53c55e27529270918766114434eed3646b6bb710002"
+    },
+    {
+      "file": "任务拆分/全十章/common/ch10.json",
+      "sha256": "5c179e95f3b1fc6ce28a47ffa70df2b41aa36dbd11ad440878c4fc23809d9b3c"
+    },
+    {
+      "file": "任务拆分/全十章/routes/xiaoman.json",
+      "sha256": "b982784014d95fe44cb620e6b0ccd2252b3b86ccea5e519c09501277abec0fb0"
+    },
+    {
+      "file": "任务拆分/全十章/routes/zhouzhi.json",
+      "sha256": "7da9e066d79aaa299ad2ab5fff911be7060f5db4e4ef11bda3e4a901880a8eff"
+    },
+    {
+      "file": "任务拆分/全十章/routes/mengyao.json",
+      "sha256": "8c7c8082bcc216107886bafc33e516aa349e596435a926b7adc9a17eaac90d0d"
+    },
+    {
+      "file": "任务拆分/全十章/routes/yelan.json",
+      "sha256": "7dcaae511ed9e7bfeb644816ef5821ad66e032783e62ef107e9e775af1472aee"
+    },
+    {
+      "file": "任务拆分/全十章/routes/piao.json",
+      "sha256": "b1ab806155124a8b2cf0e11e9c2947e33fe9a77a622ecdff69f314e50255202d"
+    },
+    {
+      "file": "任务拆分/全十章/routes/friends.json",
+      "sha256": "22c82f1aa56c6873f83df8eedd47309693ab56ef03b081095b93fce95bce4ed7"
+    },
+    {
+      "file": "任务拆分/全十章/routes/huangqiuqiu.json",
+      "sha256": "c785e3d2dda7d967f4bec0ba73382d03f297796e1dcf532f52592e564fb78e19"
+    }
+  ],
+  "overrides": [
+    {
+      "moduleFile": "任务拆分/全十章/common/ch06.json",
+      "sceneId": "ts_c06_common_closed_echo",
+      "nodeIds": [
+        "tc_c06_common_closed_echo_01",
+        "tc_c06_common_closed_echo_02",
+        "tc_c06_common_route_gate"
+      ],
+      "assetId": "tc-bg-echo-closed-dawn",
+      "previousAssetId": "tc-bg-echo-closed-day",
+      "decision": "replace",
+      "reason": "第31天06:00接班后经过回声；门关闭、门灯熄灭且清晨已亮。包含2个显示节点与1个同场路由控制节点。",
+      "time": "06:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "06:00",
+        "day": 31
+      },
+      "location": "回声门外与早餐摊",
+      "sourceRefs": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 39,
+          "endLine": 39,
+          "nodeIds": [
+            "tc_c06_common_closed_echo_01"
+          ],
+          "kind": "control"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 39,
+          "endLine": 39,
+          "nodeIds": [
+            "tc_c06_common_closed_echo_01"
+          ],
+          "kind": "narration"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 41,
+          "endLine": 41,
+          "nodeIds": [
+            "tc_c06_common_closed_echo_02"
+          ],
+          "kind": "narration"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 43,
+          "endLine": 43,
+          "nodeIds": [
+            "tc_c06_common_route_gate"
+          ],
+          "kind": "control"
+        }
+      ],
+      "limit": "仅限所列实际节点；不得扩展到同章、同场段或回叙饭局。"
+    },
+    {
+      "moduleFile": "任务拆分/全十章/routes/zhouzhi.json",
+      "sceneId": "ts_c06_zhouzhi_after_closing_closed_echo",
+      "nodeIds": [
+        "tc_c06_zhouzhi_after_closing_005",
+        "tc_c06_zhouzhi_after_closing_006",
+        "tc_c06_zhouzhi_after_closing_007",
+        "tc_c06_zhouzhi_after_closing_008",
+        "tc_c06_zhouzhi_after_closing_009",
+        "tc_c06_zhouzhi_after_closing_010",
+        "tc_c06_zhouzhi_after_closing_011"
+      ],
+      "assetId": "tc-bg-echo-closed-day",
+      "previousAssetId": "tc-bg-echo-closed-day",
+      "decision": "retain-confirmed",
+      "reason": "第32天17:10下午经过已停业回声；沿用闭门日景，不能被清晨变体整体覆盖。",
+      "time": "17:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 32,
+        "clock": "17:10"
+      },
+      "location": "通向回声的路口",
+      "sourceRefs": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 137,
+          "endLine": 137,
+          "nodeIds": [
+            "tc_c06_zhouzhi_after_closing_005"
+          ],
+          "kind": "narration"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 139,
+          "endLine": 139,
+          "nodeIds": [
+            "tc_c06_zhouzhi_after_closing_006"
+          ],
+          "kind": "narration"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 141,
+          "endLine": 141,
+          "nodeIds": [
+            "tc_c06_zhouzhi_after_closing_007"
+          ],
+          "kind": "narration"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 143,
+          "endLine": 143,
+          "nodeIds": [
+            "tc_c06_zhouzhi_after_closing_008"
+          ],
+          "kind": "dialogue"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 145,
+          "endLine": 145,
+          "nodeIds": [
+            "tc_c06_zhouzhi_after_closing_009"
+          ],
+          "kind": "dialogue"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 147,
+          "endLine": 147,
+          "nodeIds": [
+            "tc_c06_zhouzhi_after_closing_010"
+          ],
+          "kind": "dialogue"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 149,
+          "endLine": 149,
+          "nodeIds": [
+            "tc_c06_zhouzhi_after_closing_011"
+          ],
+          "kind": "dialogue"
+        }
+      ],
+      "limit": "仅限所列实际节点；不得扩展到同章、同场段或回叙饭局。"
+    },
+    {
+      "moduleFile": "任务拆分/全十章/routes/mengyao.json",
+      "sceneId": "ts_c10_mengyao_friends_bakery",
+      "nodeIds": [
+        "tc_c10_mengyao_friends_018",
+        "tc_c10_mengyao_end_friends"
+      ],
+      "assetId": "tc-bg-bridge-dusk",
+      "previousAssetId": "tc-bg-bridge-day",
+      "decision": "replace",
+      "reason": "两年后17:40朋友饭局散场后才经过烧饼店；仅朋友结尾018和end_friends用傍晚桥头图。001—011饭局保留food-dusk、012—017街道保留street-dusk。",
+      "time": "散场后",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "散场后"
+      },
+      "location": "烧饼店",
+      "sourceRefs": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "startLine": 321,
+          "endLine": 321,
+          "nodeIds": [
+            "tc_c10_mengyao_friends_018"
+          ],
+          "kind": "narration"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "startLine": 285,
+          "endLine": 285,
+          "nodeIds": [
+            "tc_c10_mengyao_end_friends"
+          ],
+          "kind": "control"
+        }
+      ],
+      "limit": "仅限所列实际节点；不得扩展到同章、同场段或回叙饭局。"
+    },
+    {
+      "moduleFile": "任务拆分/全十章/routes/zhouzhi.json",
+      "sceneId": "ts_c09_zhouzhi_dating_eaves",
+      "nodeIds": [
+        "tc_c09_zhouzhi_dating_014",
+        "tc_c09_zhouzhi_dating_015",
+        "tc_c09_zhouzhi_dating_016",
+        "tc_c09_zhouzhi_dating_017",
+        "tc_c09_zhouzhi_dating_018",
+        "tc_c09_zhouzhi_dating_019",
+        "tc_c09_zhouzhi_dating_020"
+      ],
+      "assetId": "tc-bg-eaves-day",
+      "previousAssetId": "tc-bg-eaves-day",
+      "decision": "retain-reviewed-dusk",
+      "reason": "第75天18:10晚饭后的雨天屋檐。原图为灰蓝低照度天光、屋檐灯已亮，无强日照；有限采用为尚有天光的阴雨傍晚，不根据day后缀将它解释为正午。",
+      "time": "饭后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 75,
+        "clock": "饭后"
+      },
+      "location": "河边小馆外屋檐",
+      "sourceRefs": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 199,
+          "endLine": 199,
+          "nodeIds": [
+            "tc_c09_zhouzhi_dating_014"
+          ],
+          "kind": "narration"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 201,
+          "endLine": 201,
+          "nodeIds": [
+            "tc_c09_zhouzhi_dating_015"
+          ],
+          "kind": "dialogue"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 203,
+          "endLine": 203,
+          "nodeIds": [
+            "tc_c09_zhouzhi_dating_016"
+          ],
+          "kind": "dialogue"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 205,
+          "endLine": 205,
+          "nodeIds": [
+            "tc_c09_zhouzhi_dating_017"
+          ],
+          "kind": "narration"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 207,
+          "endLine": 207,
+          "nodeIds": [
+            "tc_c09_zhouzhi_dating_018"
+          ],
+          "kind": "narration"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 209,
+          "endLine": 209,
+          "nodeIds": [
+            "tc_c09_zhouzhi_dating_019"
+          ],
+          "kind": "narration"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 211,
+          "endLine": 211,
+          "nodeIds": [
+            "tc_c09_zhouzhi_dating_020"
+          ],
+          "kind": "dialogue"
+        }
+      ],
+      "limit": "仅限所列实际节点；不得扩展到同章、同场段或回叙饭局。"
+    },
+    {
+      "moduleFile": "任务拆分/全十章/routes/zhouzhi.json",
+      "sceneId": "ts_c10_zhouzhi_dating_eaves",
+      "nodeIds": [
+        "tc_c10_zhouzhi_dating_016",
+        "tc_c10_zhouzhi_dating_017",
+        "tc_c10_zhouzhi_dating_018",
+        "tc_c10_zhouzhi_dating_019",
+        "tc_c10_zhouzhi_dating_020",
+        "tc_c10_zhouzhi_end_dating"
+      ],
+      "assetId": "tc-bg-eaves-day",
+      "previousAssetId": "tc-bg-eaves-day",
+      "decision": "retain-reviewed-dusk",
+      "reason": "两年后傍晚饭后在住处外屋檐；灰蓝阴雨天光与点亮屋檐灯符合尚有天光的傍晚。只用通用屋檐质感，不认定图中具体门牌或建筑即周栀住处。",
+      "time": "饭后",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "饭后"
+      },
+      "location": "周栀住处外屋檐",
+      "sourceRefs": [
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "startLine": 189,
+          "endLine": 189,
+          "nodeIds": [
+            "tc_c10_zhouzhi_dating_016"
+          ],
+          "kind": "narration"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "startLine": 191,
+          "endLine": 191,
+          "nodeIds": [
+            "tc_c10_zhouzhi_dating_017"
+          ],
+          "kind": "dialogue"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "startLine": 193,
+          "endLine": 193,
+          "nodeIds": [
+            "tc_c10_zhouzhi_dating_018"
+          ],
+          "kind": "narration"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "startLine": 195,
+          "endLine": 195,
+          "nodeIds": [
+            "tc_c10_zhouzhi_dating_019"
+          ],
+          "kind": "narration"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "startLine": 197,
+          "endLine": 197,
+          "nodeIds": [
+            "tc_c10_zhouzhi_dating_020"
+          ],
+          "kind": "dialogue"
+        },
+        {
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "startLine": 157,
+          "endLine": 157,
+          "nodeIds": [
+            "tc_c10_zhouzhi_end_dating"
+          ],
+          "kind": "control"
+        }
+      ],
+      "limit": "仅限所列实际节点；不得扩展到同章、同场段或回叙饭局。"
+    }
+  ],
+  "restrictions": [
+    {
+      "id": "full-landscape",
+      "assetIds": [
+        "tc-bg-street-day",
+        "tc-bg-street-dusk",
+        "tc-bg-slope-day",
+        "tc-bg-busstop-day",
+        "tc-bg-busstop-dusk",
+        "tc-bg-netcafe-counter-day",
+        "tc-bg-netcafe-pc-day",
+        "tc-bg-courtyard-day",
+        "tc-bg-rental-day",
+        "tc-bg-netcafe-counter-night",
+        "tc-bg-netcafe-pc-night",
+        "tc-bg-backdoor-night",
+        "tc-bg-courtyard-night",
+        "tc-bg-rental-night",
+        "tc-bg-breakfast-dawn",
+        "tc-bg-salon-day",
+        "tc-bg-convenience-day",
+        "tc-bg-food-day",
+        "tc-bg-food-dusk",
+        "tc-bg-food-night",
+        "tc-bg-food-front-dusk",
+        "tc-bg-stall-day",
+        "tc-bg-stall-night",
+        "tc-bg-eaves-day",
+        "tc-bg-echo-day",
+        "tc-bg-echo-closed-day",
+        "tc-bg-bookstore-day",
+        "tc-bg-mall-day",
+        "tc-bg-bridge-day",
+        "tc-bg-park-day",
+        "tc-bg-river-day",
+        "tc-bg-riverside-lawn-day",
+        "tc-bg-alteration-day",
+        "tc-bg-arcade-basketball",
+        "tc-bg-arcade-airhockey",
+        "tc-bg-arcade-rowing",
+        "tc-bg-used-books-day",
+        "tc-bg-used-books-closed-dusk",
+        "tc-bg-cinema-interior",
+        "tc-bg-tea-day",
+        "tc-bg-secondhand-day",
+        "tc-bg-kiosk-eaves-day",
+        "tc-bg-performance-shop-day",
+        "tc-bg-game-store-day",
+        "tc-bg-parcel-day",
+        "tc-bg-supermarket-day",
+        "tc-bg-clothing-day",
+        "tc-bg-practice-room",
+        "tc-bg-tabletennis-day",
+        "tc-bg-badminton-day",
+        "tc-bg-xiaoman-home-day",
+        "tc-bg-maolang-home-day",
+        "tc-bg-banquet-day",
+        "tc-bg-echo-closed-dawn",
+        "tc-bg-bridge-dusk"
+      ],
+      "rule": "采用清单原尺寸完整横图作为独立场景区；390×844居中cover只保留约26%的原始宽度。全幅+竖裁静态审核不构成真实游戏与实体手机验收。"
+    },
+    {
+      "id": "no-universal-cover",
+      "assetIds": [
+        "tc-bg-echo-day",
+        "tc-bg-echo-closed-day",
+        "tc-bg-echo-closed-dawn",
+        "tc-bg-bridge-day",
+        "tc-bg-bridge-dusk",
+        "tc-bg-eaves-day",
+        "tc-bg-netcafe-pc-day",
+        "tc-bg-netcafe-pc-night",
+        "tc-bg-bookstore-day",
+        "tc-bg-arcade-basketball",
+        "tc-bg-arcade-airhockey",
+        "tc-bg-arcade-rowing"
+      ],
+      "rule": "中央竖裁丢失双门、烧饼店、屋檐走廊或双人设备；这些场景禁止以统一居中cover作为唯一呈现。"
+    },
+    {
+      "id": "foreground-clearance",
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-bg-courtyard-night",
+        "tc-bg-practice-room",
+        "tc-bg-xiaoman-home-day",
+        "tc-bg-game-store-day"
+      ],
+      "rule": "两凳、双话筒冰杯、两袋番茄及门口矮凳处于画面下部；人物及对白布局需保留或用单独分镜，实际叠层待E08/E10验证。"
+    },
+    {
+      "id": "eaves-dusk-scope",
+      "assetIds": [
+        "tc-bg-eaves-day"
+      ],
+      "rule": "只按有天光的阴雨傍晚有限采用；不能替代明确深夜。必须保留右侧屋檐和走廊，不能把图中某扇门当作正文已确认的住址。"
+    },
+    {
+      "id": "banquet-neutral-shop",
+      "assetIds": [
+        "tc-bg-banquet-day"
+      ],
+      "rule": "图面是有简单红色装饰、餐桌和食物的普通小店，无预置宾客；可作E03普通小店婚宴。不得补写面馆身份、地址、宾客人数或球球。"
+    },
+    {
+      "id": "separate-props",
+      "assetIds": [
+        "tc-bg-kiosk-eaves-day",
+        "tc-bg-used-books-day",
+        "tc-bg-bookstore-day",
+        "tc-bg-tea-day",
+        "tc-bg-netcafe-counter-day"
+      ],
+      "rule": "半个发字、收据、班表、书页等必读信息需要独立文字/道具层，不能从背景模糊字样提取。"
+    }
+  ],
+  "holds": [
+    {
+      "id": "unspecified-location-staging",
+      "status": "requires-content-confirmation-before-concrete-location-binding",
+      "scenes": [
+        {
+          "moduleFile": "任务拆分/全十章/routes/piao.json",
+          "sceneId": "ts_c07_piao_dating_message",
+          "assetId": "tc-bg-rental-night",
+          "time": "晚上到店前",
+          "nodeIds": [
+            "tc_c07_piao_dating_009",
+            "tc_c07_piao_dating_010",
+            "tc_c07_piao_dating_011"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        },
+        {
+          "moduleFile": "任务拆分/全十章/routes/piao.json",
+          "sceneId": "ts_c07_piao_dating_day41",
+          "assetId": "tc-bg-food-day",
+          "time": "睡醒后（钟点未注明）",
+          "nodeIds": [
+            "tc_c07_piao_dating_012"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        },
+        {
+          "moduleFile": "任务拆分/全十章/routes/piao.json",
+          "sceneId": "ts_c07_piao_friends_later_summary",
+          "assetId": "tc-bg-street-day",
+          "time": "后续概述（饭局日序未注明）",
+          "nodeIds": [
+            "tc_c07_piao_friends_005",
+            "tc_c07_piao_friends_006",
+            "tc_c07_piao_friends_007",
+            "tc_c07_piao_friends_008",
+            "tc_c07_piao_friends_009"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        },
+        {
+          "moduleFile": "任务拆分/全十章/routes/piao.json",
+          "sceneId": "ts_c09_piao_booklet",
+          "assetId": "tc-bg-tea-day",
+          "time": "15:30",
+          "nodeIds": [
+            "tc_c09_piao_entry",
+            "tc_c09_piao_booklet_002",
+            "tc_c09_piao_booklet_003",
+            "tc_c09_piao_booklet_004",
+            "tc_c09_piao_booklet_005",
+            "tc_c09_piao_booklet_006",
+            "tc_c09_piao_booklet_007",
+            "tc_c09_piao_booklet_008",
+            "tc_c09_piao_booklet_009"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        },
+        {
+          "moduleFile": "任务拆分/全十章/routes/piao.json",
+          "sceneId": "ts_c09_piao_dating",
+          "assetId": "tc-bg-tea-day",
+          "time": "16:30",
+          "nodeIds": [
+            "tc_c09_piao_dating_001",
+            "tc_c09_piao_dating_002",
+            "tc_c09_piao_dating_003",
+            "tc_c09_piao_dating_004",
+            "tc_c09_piao_dating_005",
+            "tc_c09_piao_dating_006",
+            "tc_c09_piao_dating_007",
+            "tc_c09_piao_dating_008",
+            "tc_c09_piao_dating_009",
+            "tc_c09_piao_dating_010",
+            "tc_c09_piao_dating_011",
+            "tc_c09_piao_dating_012",
+            "tc_c09_piao_dating_013",
+            "tc_c09_piao_dating_014",
+            "tc_c09_piao_relationship_gate"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        },
+        {
+          "moduleFile": "任务拆分/全十章/routes/piao.json",
+          "sceneId": "ts_c09_piao_friends",
+          "assetId": "tc-bg-tea-day",
+          "time": "16:30",
+          "nodeIds": [
+            "tc_c09_piao_friends_001",
+            "tc_c09_piao_friends_002",
+            "tc_c09_piao_friends_003",
+            "tc_c09_piao_friends_004",
+            "tc_c09_piao_friends_005",
+            "tc_c09_piao_friends_006",
+            "tc_c09_piao_friends_007",
+            "tc_c09_piao_friends_008",
+            "tc_c09_piao_friends_009",
+            "tc_c09_piao_friends_010"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        },
+        {
+          "moduleFile": "任务拆分/全十章/routes/piao.json",
+          "sceneId": "ts_c10_piao_dating",
+          "assetId": "tc-bg-tea-day",
+          "time": "一个休息日的下午",
+          "nodeIds": [
+            "tc_c10_piao_dating_001",
+            "tc_c10_piao_dating_002",
+            "tc_c10_piao_dating_003",
+            "tc_c10_piao_dating_004",
+            "tc_c10_piao_dating_005",
+            "tc_c10_piao_dating_006",
+            "tc_c10_piao_dating_007",
+            "tc_c10_piao_dating_008",
+            "tc_c10_piao_dating_009",
+            "tc_c10_piao_dating_010",
+            "tc_c10_piao_dating_011",
+            "tc_c10_piao_dating_012",
+            "tc_c10_piao_dating_013",
+            "tc_c10_piao_dating_014",
+            "tc_c10_piao_dating_015",
+            "tc_c10_piao_dating_016",
+            "tc_c10_piao_dating_017",
+            "tc_c10_piao_dating_018",
+            "tc_c10_piao_entry"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        },
+        {
+          "moduleFile": "任务拆分/全十章/routes/friends.json",
+          "sceneId": "ts_c03_friends_tailoring",
+          "assetId": "tc-bg-rental-day",
+          "time": "16:00",
+          "nodeIds": [
+            "tc_c03_friends_entry",
+            "tc_c03_friends_tailoring_002",
+            "tc_c03_friends_tailoring_003",
+            "tc_c03_friends_tailoring_004",
+            "tc_c03_friends_tailoring_005",
+            "tc_c03_friends_tailoring_006"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        },
+        {
+          "moduleFile": "任务拆分/全十章/routes/friends.json",
+          "sceneId": "ts_c04_friends_own_plan",
+          "assetId": "tc-bg-rental-day",
+          "time": "下午",
+          "nodeIds": [
+            "tc_c04_friends_entry",
+            "tc_c04_friends_own_plan_002",
+            "tc_c04_friends_own_plan_003",
+            "tc_c04_friends_outing_choice"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        },
+        {
+          "moduleFile": "任务拆分/全十章/routes/friends.json",
+          "sceneId": "ts_c06_friends_own_invitation",
+          "assetId": "tc-bg-rental-day",
+          "time": "18:20",
+          "nodeIds": [
+            "tc_c06_friends_own_invitation_001",
+            "tc_c06_friends_own_invitation_002",
+            "tc_c06_friends_own_invitation_003",
+            "tc_c06_friends_own_invitation_004",
+            "tc_c06_friends_own_invitation_005",
+            "tc_c06_friends_own_invitation_006",
+            "tc_c06_friends_own_invitation_007",
+            "tc_c06_friends_own_invitation_008"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        },
+        {
+          "moduleFile": "任务拆分/全十章/routes/friends.json",
+          "sceneId": "ts_c07_friends_online_game",
+          "assetId": "tc-bg-rental-night",
+          "time": "20:00",
+          "nodeIds": [
+            "tc_c07_friends_online_game_001",
+            "tc_c07_friends_online_game_002",
+            "tc_c07_friends_online_game_003"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        },
+        {
+          "moduleFile": "任务拆分/全十章/routes/friends.json",
+          "sceneId": "ts_c07_friends_own_dinner",
+          "assetId": "tc-bg-rental-day",
+          "time": "16:00",
+          "nodeIds": [
+            "tc_c07_friends_own_dinner_001",
+            "tc_c07_friends_own_dinner_002",
+            "tc_c07_friends_own_dinner_003",
+            "tc_c07_friends_own_dinner_004",
+            "tc_c07_friends_own_dinner_005"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        },
+        {
+          "moduleFile": "任务拆分/全十章/routes/friends.json",
+          "sceneId": "ts_c07_friends_own_dinner_dinner",
+          "assetId": "tc-bg-food-dusk",
+          "time": "晚饭时",
+          "nodeIds": [
+            "tc_c07_friends_own_dinner_006",
+            "tc_c07_friends_own_dinner_007"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        },
+        {
+          "moduleFile": "任务拆分/全十章/routes/friends.json",
+          "sceneId": "ts_c08_friends_boundaries",
+          "assetId": "tc-bg-rental-day",
+          "time": "17:30",
+          "nodeIds": [
+            "tc_c08_friends_entry",
+            "tc_c08_friends_boundaries_002",
+            "tc_c08_friends_boundaries_003",
+            "tc_c08_friends_boundaries_004",
+            "tc_c08_friends_boundaries_005"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        },
+        {
+          "moduleFile": "任务拆分/全十章/routes/friends.json",
+          "sceneId": "ts_c08_friends_boundaries_glasses",
+          "assetId": "tc-bg-netcafe-counter-night",
+          "time": "晚上",
+          "nodeIds": [
+            "tc_c08_friends_boundaries_006",
+            "tc_c08_friends_boundaries_007",
+            "tc_c08_friends_boundaries_008",
+            "tc_c08_friends_boundaries_009",
+            "tc_c08_friends_boundaries_010",
+            "tc_c08_friends_boundaries_011"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        },
+        {
+          "moduleFile": "任务拆分/全十章/routes/friends.json",
+          "sceneId": "ts_c09_friends_birthday",
+          "assetId": "tc-bg-food-night",
+          "time": "休班晚上",
+          "nodeIds": [
+            "tc_c09_friends_entry",
+            "tc_c09_friends_birthday_002",
+            "tc_c09_friends_birthday_003",
+            "tc_c09_friends_birthday_004",
+            "tc_c09_friends_birthday_005",
+            "tc_c09_friends_birthday_006",
+            "tc_c09_friends_birthday_007",
+            "tc_c09_friends_birthday_008"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        },
+        {
+          "moduleFile": "任务拆分/全十章/routes/friends.json",
+          "sceneId": "ts_c09_friends_own_book_evening",
+          "assetId": "tc-bg-rental-night",
+          "time": "晚上",
+          "nodeIds": [
+            "tc_c09_friends_own_book_003",
+            "tc_c09_friends_own_book_004",
+            "tc_c09_friends_own_book_005"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        },
+        {
+          "moduleFile": "任务拆分/全十章/routes/friends.json",
+          "sceneId": "ts_c09_friends_call_home",
+          "assetId": "tc-bg-rental-day",
+          "time": "傍晚",
+          "nodeIds": [
+            "tc_c09_friends_call_home_001",
+            "tc_c09_friends_call_home_002",
+            "tc_c09_friends_call_home_003",
+            "tc_c09_friends_call_home_004",
+            "tc_c09_friends_call_home_005"
+          ],
+          "status": "content-location-unspecified",
+          "rule": "背景仅为演出候选，不从图面反推住宅、店名、工作单位或人物在场。E09绑定前保留未指明地点；若选具体店铺含义须先确认。"
+        }
+      ]
+    },
+    {
+      "id": "chapter-end-neutral-surface",
+      "assetId": "tc-bg-chapter-end",
+      "status": "E09-programmatic-presentation-required",
+      "scenes": [
+        {
+          "moduleFile": "任务拆分/全十章/common/ch01.json",
+          "sceneId": "ts_c01_common_chapter_end",
+          "nodeIds": [
+            "tc_c01_common_exit"
+          ]
+        },
+        {
+          "moduleFile": "任务拆分/全十章/common/ch02.json",
+          "sceneId": "ts_c02_common_chapter_end",
+          "nodeIds": [
+            "tc_c02_common_exit"
+          ]
+        },
+        {
+          "moduleFile": "任务拆分/全十章/common/ch03.json",
+          "sceneId": "ts_c03_common_chapter_end",
+          "nodeIds": [
+            "tc_c03_common_exit"
+          ]
+        },
+        {
+          "moduleFile": "任务拆分/全十章/common/ch04.json",
+          "sceneId": "ts_c04_common_chapter_end",
+          "nodeIds": [
+            "tc_c04_common_exit"
+          ]
+        },
+        {
+          "moduleFile": "任务拆分/全十章/common/ch05.json",
+          "sceneId": "ts_c05_common_chapter_end",
+          "nodeIds": [
+            "tc_c05_common_exit"
+          ]
+        },
+        {
+          "moduleFile": "任务拆分/全十章/common/ch06.json",
+          "sceneId": "ts_c06_common_chapter_end",
+          "nodeIds": [
+            "tc_c06_common_exit"
+          ]
+        },
+        {
+          "moduleFile": "任务拆分/全十章/common/ch07.json",
+          "sceneId": "ts_c07_common_chapter_end",
+          "nodeIds": [
+            "tc_c07_common_exit"
+          ]
+        },
+        {
+          "moduleFile": "任务拆分/全十章/common/ch08.json",
+          "sceneId": "ts_c08_common_chapter_end",
+          "nodeIds": [
+            "tc_c08_common_exit"
+          ]
+        },
+        {
+          "moduleFile": "任务拆分/全十章/common/ch09.json",
+          "sceneId": "ts_c09_common_chapter_end",
+          "nodeIds": [
+            "tc_c09_common_exit"
+          ]
+        }
+      ],
+      "rule": "这是9个中性章末控制场景，不是A04第56张背景；建议使用项目现有深色底/渐变与章名作为程序绘制界面，移除地点与人物。该建议尚未实现，不能套用任一街道或店铺图片。"
+    }
+  ]
+}

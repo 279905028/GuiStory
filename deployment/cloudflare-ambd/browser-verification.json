@@ -1,0 +1,20 @@
+{
+  "verifiedAt": "2026-10-20T05:06:57.339Z",
+  "url": "https://galagame.ambd.site/",
+  "status": "PASS",
+  "checks": {
+    "homeRendered": true,
+    "startStory": true,
+    "manualSaveSlot3": true,
+    "reloadAndLoadSlot3": true
+  },
+  "screenshots": [
+    "live-home.png",
+    "live-story.png",
+    "live-story-restored.png"
+  ],
+  "limitations": [
+    "未在本次域名绑定中重跑全剧情通关或实体手机验收。",
+    "存档按浏览器和域名隔离，旧站点的存档不会自动迁移。"
+  ]
+}

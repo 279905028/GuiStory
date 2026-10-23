@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "project": "毕节，雨停之前",
+  "contract": "v0.1 / R2六键保留",
+  "date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "scope": "M2：六默认背景、昼夜变体与交接；repair/lobby固定图定向替换，street新增下午变体待E3接入。",
+  "original_prompt_log": "assets/background-prompts.json",
+  "edits": [
+    {
+      "id": "M2-noodles-remove-distant-person-20261019",
+      "key": "noodles",
+      "reason": "原图右上暖门口存在远处路人，右边缘还可见截断人影；通用背景不应烘焙角色。",
+      "tool": "built-in image_gen",
+      "transparent_background": false,
+      "prompt": "Use case: precise-object-edit. Asset type: existing local visual-novel background, bg-noodles.png. Input image is the EDIT TARGET, not a style reference. Primary request: remove ONLY the tiny distant human figure at the extreme upper-right, at source approximately x1593–1629, y262–327 in the 1672×941 image, standing behind the railing beside the warm shop doorway. Seamlessly fill that small location with the existing doorway, warm wall and railing continuing behind it. Preserve the exact original 1672×941 composition, framing, perspective, painted material texture, noodle pot and steam, bowls, tables, rain, awning, stairs, wet road, hillside, muted slate teal and amber light. No reframing, no restyling, no relighting, no changes anywhere else. Completely opaque background. No people, no faces, no characters, no yellow orb, no hidden clues, no new lettering, no UI, no logos, no watermark. Keep all other pixels and visual detail as close to the source as possible.",
+      "input": "assets/background-variants/m2-20261019/bg-noodles-original.png",
+      "generated_output": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a15209-b789-7b23-bc4e-a2c7d3413778/exec-04a28da5-222c-4b30-8eeb-434a0a0acb3f.png",
+      "candidate": "assets/background-variants/m2-20261019/bg-noodles-no-person.png",
+      "adopted_path": "assets/bg-noodles.png",
+      "status": "adopted_after_M2_visual_review",
+      "confirmation": {
+        "method": "M2逐图view_image＋独立只读复核；确认为画质审校确认，不记录为用户另行批准。",
+        "result": "路人与边缘残影已去除；锅灶、雨棚、桌凳、坡道、灯光和透视可接受，无需继续生成。"
+      },
+      "invariants": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "resized": false,
+        "stretched": false
+      },
+      "limitations": "内置局部编辑产生少量全图纹理和亮度漂移，并非像素级只改目标区域。",
+      "mean_absolute_difference_rgb_0_to_255": [
+        6.800156,
+        6.130453,
+        5.375273
+      ],
+      "backup_preserved": true,
+      "qa_evidence": [
+        "qa/art-backgrounds-details-original.png",
+        "qa/art-backgrounds-noodles-review.png"
+      ],
+      "input_sha256": "b3b2bd4aa1421b504417a1d37900add3ed69202f7d0f680c2da1be698a3dc984",
+      "candidate_sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+      "adopted_sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+      "output_width": 1672,
+      "output_height": 941,
+      "output_mode": "RGB"
+    },
+    {
+      "id": "M2-repair-daynight-20261020-1",
+      "key": "repair",
+      "tool": "built-in image_gen",
+      "transparent_background": false,
+      "prompt": "Use case: lighting-weather. Asset type: existing visual-novel background. Input image is the EDIT TARGET. Edit this exact Chinese small-town electronics repair shop from daytime to rainy NIGHT. Keep the same wide 1672×941 framing, camera, architecture, open glass entrance, window frames, workbench, stool, tools, soldering iron, old speakers, parts shelves, mobile phone display cabinets, plants and wall pictures in precisely their existing places. Change ONLY time-of-day/weather illumination: outside the entrance show dark blue-gray rainy night with the same buildings and mountain silhouettes, a few believable existing building lights, damp ground; remove all daylight, sunlit foliage, bright white daytime sky and broad daylight spilling over the floor. Inside remain clearly readable and workable using the EXISTING warm workbench lamp and existing display strip lights; natural localized light falloff and believable night reflections, never a uniform dark overlay. Preserve the original detailed semi-realistic Japanese visual-novel painted rendering, material textures, muted slate teal and warm amber palette. Do not redesign, restyle, shift objects, reframe or crop. No people, faces, silhouettes, hidden characters, yellow ball, new props, new text, logos, UI, borders or watermarks. Fully opaque image. Match the original aspect ratio and all object sizes.",
+      "input": "assets/background-variants/m2-daynight-20261020/bg-repair-original.png",
+      "supporting_reference": null,
+      "generated_output": "/Users/yipin/.codex/generated_images/01a156ec-39d7-7a53-ab0b-c277ece36c82/exec-a89616ae-3d34-4669-8242-ffa814fe699a.png",
+      "candidate": "assets/background-variants/m2-daynight-20261020/bg-repair-night.png",
+      "status": "rejected_wet_indoor_floor",
+      "adopted_path": null,
+      "reason": "遵守V01-D既定时段，对原图定向调整昼夜，不改整体风格。",
+      "input_sha256": "3b918a88c0d486575fa18d09afb70a37f9e1743257dd49ce1a44f72416e098aa",
+      "candidate_meta": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-repair-night.png",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 2467991,
+        "sha256": "8b4afc043e48148094c0b17db060d9a3792f2735a71a0fb651e5ded6980bff73",
+        "transparent_background": false
+      },
+      "review": "室外湿地反射延入室内；留档不采用。",
+      "invariants": {
+        "resized": false,
+        "stretched": false,
+        "pixel_identical_outside_edit": false
+      },
+      "limitations": "生成编辑有局部材质与纹理漂移，不声明目标之外逐像素相同。",
+      "backup_preserved": true
+    },
+    {
+      "id": "M2-street-daynight-20261020-2",
+      "key": "street",
+      "tool": "built-in image_gen",
+      "transparent_background": false,
+      "prompt": "Use case: lighting-weather. Asset type: daytime variant of an existing visual-novel background. Input image is the EDIT TARGET. Convert this EXACT rainy night hillside street in Bijie into a rainy OVERCAST AFTERNOON. Preserve the full original wide 1672×941 composition, camera, road vanishing point, distant mountain contour, every building, windows, left awning, umbrella stand, utility poles and wires, right stone retaining wall and steps, foliage, storefronts and wet road. Do not redesign anything. Replace the night sky with clearly daytime pale muted gray overcast sky and soft gray daylight through rain/mist; hillside and buildings remain visible in their existing positions. Reduce the strong golden night reflections and turn off street lamps and most distant window lights; retain subtle plausible warm light deep inside shops only. The wet road reflects soft overcast daylight, with subdued interior amber accents. Do NOT make dusk, sunset, dawn, sunny day or dramatic storm. Keep the original restrained semi-realistic Japanese visual-novel painted texture and colors; no anime/cel/cartoon restyle. Change only weather/time lighting, keep geometry and scene identity as close as possible. No people, faces, traffic, new objects, hidden symbols, text, branding, UI, borders or watermarks. Fully opaque; match original aspect ratio without cropping or stretching.",
+      "input": "assets/background-variants/m2-daynight-20261020/bg-street-original.png",
+      "supporting_reference": null,
+      "generated_output": "/Users/yipin/.codex/generated_images/01a156ec-39d7-7a53-ab0b-c277ece36c82/exec-85e84e68-4d5f-4d1f-ad17-01dff192fa15.png",
+      "candidate": "assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+      "status": "adopted_asset_runtime_pending_E3",
+      "adopted_path": "assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+      "reason": "遵守V01-D既定时段，对原图定向调整昼夜，不改整体风格。",
+      "input_sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "candidate_meta": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+        "width": 1671,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 3220000,
+        "sha256": "3cd546cd5eb5addd38e14b0d36c4176134b819cd2fb7503710ea1f87f29443ab",
+        "transparent_background": false
+      },
+      "review": "根代理和独立只读代理实际view_image复核，未见新增显著人物/水印；无用户另行逐图批准声明。",
+      "invariants": {
+        "resized": false,
+        "stretched": false,
+        "pixel_identical_outside_edit": false
+      },
+      "limitations": "生成编辑有局部材质与纹理漂移，不声明目标之外逐像素相同。",
+      "backup_preserved": true
+    },
+    {
+      "id": "M2-lobby-daynight-20261020-3",
+      "key": "lobby",
+      "tool": "built-in image_gen",
+      "transparent_background": false,
+      "prompt": "Use case: lighting-weather. Asset type: afternoon variant of an existing visual-novel background. Input image is the EDIT TARGET. Edit this exact old KTV lobby to a rainy OVERCAST AFTERNOON. Preserve the original wide 1672×941 camera and composition, reception counter, phone and coiled cord, key rack and all keys, books, plant, red sofa, stone wall patterns, corridor, all doors and fixtures, landscape paintings and floor tiles in precisely their existing positions. Change only the time-of-day illumination: through the EXISTING upper-left window, replace the dark blue night sky and glowing city windows with soft pale gray cloudy daytime sky, misty green-gray mountain and the same buildings lit by overcast daylight. Existing raindrops on glass remain. Window supplies subtle soft cool daylight to the nearby counter, plant, wall and floor; keep the existing warm amber corridor lamps on and a believable darker interior, preserving readability and natural contrast. Do not just increase global exposure, do not paste an opaque window cover, do not obscure the outdoors. Preserve the original detailed semi-realistic Japanese visual-novel rendering and lived-in materials; no redesign or new style. No people, faces, new objects, new words, brands, UI, borders, or watermark. Fully opaque, no crop or stretch; match original aspect ratio.",
+      "input": "assets/background-variants/m2-daynight-20261020/bg-lobby-original.png",
+      "supporting_reference": null,
+      "generated_output": "/Users/yipin/.codex/generated_images/01a156ec-39d7-7a53-ab0b-c277ece36c82/exec-0b6c7749-4d29-44cc-9212-32f76fb4184a.png",
+      "candidate": "assets/background-variants/m2-daynight-20261020/bg-lobby-day.png",
+      "status": "adopted_after_visual_review",
+      "adopted_path": "assets/bg-lobby.png",
+      "reason": "遵守V01-D既定时段，对原图定向调整昼夜，不改整体风格。",
+      "input_sha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871",
+      "candidate_meta": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-lobby-day.png",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 2158979,
+        "sha256": "2bc2954dd90394bdd0261f87b5372bdcf61b7cc41fdb7939d490dcf49f08a39f",
+        "transparent_background": false
+      },
+      "review": "根代理和独立只读代理实际view_image复核，未见新增显著人物/水印；无用户另行逐图批准声明。",
+      "invariants": {
+        "resized": false,
+        "stretched": false,
+        "pixel_identical_outside_edit": false
+      },
+      "limitations": "生成编辑有局部材质与纹理漂移，不声明目标之外逐像素相同。",
+      "backup_preserved": true
+    },
+    {
+      "id": "M2-repair-daynight-20261020-4",
+      "key": "repair",
+      "tool": "built-in image_gen",
+      "transparent_background": false,
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the night version of the repair shop. Image 2 is supporting reference ONLY for the original dry indoor tile texture and geometry; NEVER restore its daylight. In Image 1 correct ONLY the indoor FLOOR, inside and in front of the entrance threshold, especially x900–1530 y530–940 in the 1672×941 frame. It currently looks wet or flooded with rain-speckled water, ripples and long exterior streetlamp streaks. Make ALL floor tiles inside the shop cleanly DRY, worn matte gray ceramic tile with solid existing grout lines, gentle subdued indoor light sheen only, no puddles, water film, raindrop speckles, ripples or wet-road reflections anywhere indoors. Match the dry tile material visible in Image 2 but with the NIGHT lighting of Image 1. The floor may softly reflect the existing warm task lamp and display lights, but no strong road-light streaks. The outdoor street beyond the threshold remains wet, rainy and dark NIGHT exactly as in Image 1. Keep EVERYTHING else in Image 1 unchanged: workbench lamp, workbench and tools, stool, cabinets, phone displays, shelf inventory, plants, walls, mountain outside, buildings, lights, door/window geometry, camera, framing and painted style. No people, no added objects, no text or watermarks. Keep 1672×941 wide composition, completely opaque. Do not apply a dark overlay or recolor the entire scene.",
+      "input": "assets/background-variants/m2-daynight-20261020/bg-repair-night.png",
+      "supporting_reference": "assets/background-variants/m2-daynight-20261020/bg-repair-original.png",
+      "generated_output": "/Users/yipin/.codex/generated_images/01a156ec-39d7-7a53-ab0b-c277ece36c82/exec-ede895af-18c0-439f-ad40-9428f4a736cd.png",
+      "candidate": "assets/background-variants/m2-daynight-20261020/bg-repair-night-v2.png",
+      "status": "adopted_after_visual_review",
+      "adopted_path": "assets/bg-repair.png",
+      "reason": "恢复室内干燥地砖；第一版室外湿路纹理和长反射错误延伸进店内。",
+      "input_sha256": "8b4afc043e48148094c0b17db060d9a3792f2735a71a0fb651e5ded6980bff73",
+      "candidate_meta": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-repair-night-v2.png",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 2370266,
+        "sha256": "14b00ead5390e93803ef16f82b38949dd464e901a9cf5b208bc1140cda0c3675",
+        "transparent_background": false
+      },
+      "review": "根代理和独立只读代理实际view_image复核，未见新增显著人物/水印；无用户另行逐图批准声明。",
+      "invariants": {
+        "resized": false,
+        "stretched": false,
+        "pixel_identical_outside_edit": false
+      },
+      "limitations": "生成编辑有局部材质与纹理漂移，不声明目标之外逐像素相同。",
+      "backup_preserved": true
+    }
+  ],
+  "unchanged_keys": [
+    "street",
+    "room",
+    "noodles",
+    "salon"
+  ],
+  "restrictions": [
+    "六个背景键、剧情时段与映射保留",
+    "用户已确认昼夜变体；street day待E3接入，lobby原night仅归档",
+    "不采用A—E整体风格，不修改background-prompts.json或剧情/工程/角色/CG",
+    "不把旧静态截图计为新版验收"
+  ],
+  "historical_restrictions": [
+    "不增加背景张数",
+    "不将黄球球、男配、匿名头像或隐藏线索绘入通用背景",
+    "不改变昼夜以掩盖脚本时段冲突",
+    "不修改原background-prompts.json"
+  ]
+}

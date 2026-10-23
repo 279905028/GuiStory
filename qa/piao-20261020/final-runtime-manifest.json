@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-20",
+  "release": "0.4",
+  "files": [
+    {
+      "path": "story.js",
+      "bytes": 431091,
+      "sha256": "78c20e18cdcb1d1c16853653d9969e7f34aa2aeb9a58142cdb2f6e3ea78e4e76"
+    },
+    {
+      "path": "engine.js",
+      "bytes": 11009,
+      "sha256": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072"
+    },
+    {
+      "path": "game.js",
+      "bytes": 54068,
+      "sha256": "79242f278784a9a056be5a782ff7e4ddb4b4ec9917684ab4c82b417fc3fa916a"
+    },
+    {
+      "path": "index.html",
+      "bytes": 7764,
+      "sha256": "2e0682faf21a1ce91881e267c9ac741b1a2975b66927dca3e4ed2d25bb6efaa9"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 39467,
+      "sha256": "6ec050b339efac44a46a607766714a3d7677bcc82abe3181ed4d90a2dbb441a0"
+    },
+    {
+      "path": "任务拆分/三章扩展/build-story.cjs",
+      "bytes": 13467,
+      "sha256": "4cea4778e0cd1b4e127f9dabb9a91ecfd4ef1a706138d083a76eab12499f86d2"
+    },
+    {
+      "path": "任务拆分/三章扩展/piao-route.cjs",
+      "bytes": 24579,
+      "sha256": "046f7155abca22922cf3c1e920aee083f2c712264016a166b1689b932ade1a96"
+    },
+    {
+      "path": "任务拆分/三章扩展/chapter2.json",
+      "bytes": 63897,
+      "sha256": "03fd3f7a07836f2d96627a3f83d035d8025f55713bb0c5320208fddf06f7cbba"
+    },
+    {
+      "path": "任务拆分/三章扩展/chapter3.json",
+      "bytes": 167533,
+      "sha256": "270886b7378a44aaf344f391aa01b8a6f8126d07c74e82a118ae5c1c3678c8f6"
+    },
+    {
+      "path": "assets/runtime-v0.4-manifest.json",
+      "bytes": 18145,
+      "sha256": "3dda814d8244fd062ffb1e076b939f001c3577793f970415f04557e31235631c"
+    },
+    {
+      "path": "assets/piao-character-manifest.json",
+      "bytes": 13202,
+      "sha256": "4b56820ea14b6fdcc2a53f255b53bbc61d42f304e2f00b72cebdd9e6d337fe04"
+    }
+  ],
+  "validation": {
+    "story": "qa/piao-20261020/story-results.json",
+    "browser": "qa/piao-20261020/browser-results.json",
+    "preview": "qa/piao-20261020/preview-verification.json",
+    "browserChecks": 9,
+    "pageErrors": 0,
+    "publicDeployment": false
+  }
+}

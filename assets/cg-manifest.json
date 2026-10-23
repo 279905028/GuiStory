@@ -1,0 +1,773 @@
+{
+  "schemaVersion": 1,
+  "revision": "OptionD-20261020",
+  "date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "scope": "首期8张＋用户授权增补2张（CG09维修柜台、CG13夜宵摊的练习图）；CG10—12原可选候选不实施",
+  "baselineStorySha256": "e0b48374db5e9204829062113dd500519ca56e42d767ef829519fba6ba7167ca",
+  "adoption": "美术自审采用，非用户逐图终审；不阻止用户已授权的制作与接入",
+  "display": "独立完整画面区、图外对白、等比contain，不裁切",
+  "runtimeFetch": false,
+  "assets": [
+    {
+      "id": "CG01",
+      "key": "cg01",
+      "version": "candidate-v1",
+      "path": "assets/cg/cg-01-rain-return.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1827560,
+      "sha256": "cf73bf80ff3651254affc1d04fc9932d3030982350a4be7d47a195c9fdffede2",
+      "postprocessing": "无损 WebP 转码；尺寸、可见像素与 alpha 一致；原始处理记录见 originalEncoding。",
+      "selectionAuthority": "本窗口依据已确认分镜与正式参考作美术自审采用；非用户逐图终审",
+      "dimensionNote": "保留原生输出，非1920×1080；不拉伸、不放大或伪称高分辨率母版",
+      "alt": "阴雨下午，文文的倒影映在站牌玻璃上，箱子和工具包在旁。",
+      "record": "assets/cg-variants/CG01/record.json",
+      "cgKey": "cg01",
+      "nodeIds": [
+        "s1_arrive_02",
+        "s1_arrive_03"
+      ],
+      "restoreAt": "s1_arrive_04",
+      "status": "integrated",
+      "hidden": false,
+      "hiddenLoadBoundary": null,
+      "criticalRegions": {
+        "coordinateSystem": "整张原图百分比[x,y,w,h]，左上原点",
+        "method": "人工观察估计，非像素级分割；只作布局避让说明，不能直接当裁切参数",
+        "items": [
+          {
+            "label": "玻璃倒影脸",
+            "rect": [
+              33,
+              7,
+              18,
+              33
+            ]
+          },
+          {
+            "label": "箱子辨识区",
+            "rect": [
+              15,
+              42,
+              29,
+              58
+            ]
+          },
+          {
+            "label": "工具包辨识区",
+            "rect": [
+              44,
+              62,
+              29,
+              38
+            ]
+          }
+        ]
+      },
+      "recordSha256": "c33fcb0453d47f5add96eb856bceccacafe654331620b5f2e81765da0e716f75",
+      "runtimeStatus": "已接入，验证结果见qa/cg-integration-results.json",
+      "originalEncoding": {
+        "path": "assets/cg/cg-01-rain-return.png",
+        "bytes": 2640053,
+        "sha256": "12309c94b8fa313074621f59e7b8d076d2f2277a8f0164cba4ff011aea192a33",
+        "postprocessing": "无；原生PNG逐字节复制，未放大、裁切或拉伸"
+      },
+      "format": "WebP"
+    },
+    {
+      "id": "CG02",
+      "key": "cg02",
+      "version": "candidate-v2",
+      "path": "assets/cg/cg-02-xiaoman-mirror.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1751750,
+      "sha256": "6530cf270f0b8046545812ade8d8e5c8521d529170e76592fb091290c4d5014e",
+      "postprocessing": "无损 WebP 转码；尺寸、可见像素与 alpha 一致；原始处理记录见 originalEncoding。",
+      "selectionAuthority": "本窗口依据已确认分镜与正式参考作美术自审采用；非用户逐图终审",
+      "dimensionNote": "保留原生输出，非1920×1080；不拉伸、不放大或伪称高分辨率母版",
+      "alt": "理发镜旁，小满站在作品夹和空练习椅边。",
+      "record": "assets/cg-variants/CG02/record.json",
+      "cgKey": "cg02",
+      "nodeIds": [
+        "s5_mirror_03",
+        "s5_ride_walk_01",
+        "s5_ride_walk_02",
+        "s5_ride_taxi_01",
+        "s5_ride_taxi_02",
+        "s5_ride_leave_01",
+        "s5_ride_leave_02"
+      ],
+      "restoreAt": "s5_work_01",
+      "status": "integrated",
+      "hidden": false,
+      "hiddenLoadBoundary": null,
+      "criticalRegions": {
+        "coordinateSystem": "整张原图百分比[x,y,w,h]，左上原点",
+        "method": "人工观察估计，非像素级分割；只作布局避让说明，不能直接当裁切参数",
+        "items": [
+          {
+            "label": "小满脸",
+            "rect": [
+              57,
+              5,
+              12,
+              20
+            ]
+          },
+          {
+            "label": "作品夹与扶夹手",
+            "rect": [
+              67,
+              44,
+              16,
+              11
+            ]
+          },
+          {
+            "label": "收纳抽屉边的手",
+            "rect": [
+              59,
+              48,
+              8,
+              12
+            ]
+          },
+          {
+            "label": "空椅上部",
+            "rect": [
+              25,
+              37,
+              21,
+              28
+            ]
+          }
+        ]
+      },
+      "recordSha256": "1fc39cf5b21a15665563e1c1e26876af950dd78af67036a34aec5e90c6a53a74",
+      "runtimeStatus": "已接入，验证结果见qa/cg-integration-results.json",
+      "originalEncoding": {
+        "path": "assets/cg/cg-02-xiaoman-mirror.png",
+        "bytes": 2483983,
+        "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e",
+        "postprocessing": "无；原生PNG逐字节复制，未放大、裁切或拉伸"
+      },
+      "format": "WebP"
+    },
+    {
+      "id": "CG03",
+      "key": "cg03",
+      "version": "candidate-v2",
+      "path": "assets/cg/cg-03-zhouzhi-noodles.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1657314,
+      "sha256": "8a48cebbb1fb36e0d16e769b125243bfca331a1840f068a985bc76ff9f0b1da8",
+      "postprocessing": "无损 WebP 转码；尺寸、可见像素与 alpha 一致；原始处理记录见 originalEncoding。",
+      "selectionAuthority": "本窗口依据已确认分镜与正式参考作美术自审采用；非用户逐图终审",
+      "dimensionNote": "保留原生输出，非1920×1080；不拉伸、不放大或伪称高分辨率母版",
+      "alt": "雨夜桌边，周栀用汤碗压住报价单，指向照明一栏。",
+      "record": "assets/cg-variants/CG03/record.json",
+      "cgKey": "cg03",
+      "nodeIds": [
+        "s6_plan_04",
+        "s6_plan_05",
+        "s6_plan_06",
+        "s6_plan_07",
+        "s6_plan_08"
+      ],
+      "restoreAt": "s6_plan_09",
+      "status": "integrated",
+      "hidden": false,
+      "hiddenLoadBoundary": null,
+      "criticalRegions": {
+        "coordinateSystem": "整张原图百分比[x,y,w,h]，左上原点",
+        "method": "人工观察估计，非像素级分割；只作布局避让说明，不能直接当裁切参数",
+        "items": [
+          {
+            "label": "周栀脸",
+            "rect": [
+              49,
+              11,
+              18,
+              31
+            ]
+          },
+          {
+            "label": "指纸与圈记手",
+            "rect": [
+              31,
+              62,
+              36,
+              29
+            ]
+          },
+          {
+            "label": "清汤碗压纸角",
+            "rect": [
+              63,
+              65,
+              20,
+              16
+            ]
+          },
+          {
+            "label": "前景面碗",
+            "rect": [
+              62,
+              79,
+              34,
+              21
+            ]
+          }
+        ]
+      },
+      "recordSha256": "d7dec6cfde8383f451a13416a8917d307df532f4321a57df954835f67cd23940",
+      "runtimeStatus": "已接入，验证结果见qa/cg-integration-results.json",
+      "originalEncoding": {
+        "path": "assets/cg/cg-03-zhouzhi-noodles.png",
+        "bytes": 2322046,
+        "sha256": "e50499d21beaaf3002c477771fe8b8be02065c992c85428b12234cdd835916ed",
+        "postprocessing": "无；原生PNG逐字节复制，未放大、裁切或拉伸"
+      },
+      "format": "WebP"
+    },
+    {
+      "id": "CG04",
+      "key": "cg04",
+      "version": "candidate-v1",
+      "path": "assets/cg/cg-04-mengyao-camera.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1711938,
+      "sha256": "772507fb8fb0e56dc399595d4f2ed8310213ad96e86812a8501866a262fa7344",
+      "postprocessing": "无损 WebP 转码；尺寸、可见像素与 alpha 一致；原始处理记录见 originalEncoding。",
+      "selectionAuthority": "本窗口依据已确认分镜与正式参考作美术自审采用；非用户逐图终审",
+      "dimensionNote": "保留原生输出，非1920×1080；不拉伸、不放大或伪称高分辨率母版",
+      "alt": "阴雨下午，屋檐下的孟遥放低相机，看向文文。",
+      "record": "assets/cg-variants/CG04/record.json",
+      "cgKey": "cg04",
+      "nodeIds": [
+        "s7_camera_01",
+        "s7_camera_02",
+        "s7_camera_03",
+        "s7_camera_04",
+        "s7_camera_05",
+        "s7_camera_06"
+      ],
+      "restoreAt": "s7_camera_07",
+      "status": "integrated",
+      "hidden": false,
+      "hiddenLoadBoundary": null,
+      "criticalRegions": {
+        "coordinateSystem": "整张原图百分比[x,y,w,h]，左上原点",
+        "method": "人工观察估计，非像素级分割；只作布局避让说明，不能直接当裁切参数",
+        "items": [
+          {
+            "label": "孟遥脸与湿发",
+            "rect": [
+              55,
+              8,
+              17,
+              40
+            ]
+          },
+          {
+            "label": "放低的相机与双手",
+            "rect": [
+              54,
+              70,
+              19,
+              23
+            ]
+          },
+          {
+            "label": "双方距离",
+            "rect": [
+              30,
+              20,
+              14,
+              60
+            ]
+          }
+        ]
+      },
+      "recordSha256": "406dc04e061b097fc6a452c00bc546719e0d782b0fe547a227f5c2a6cc1d741f",
+      "runtimeStatus": "已接入，验证结果见qa/cg-integration-results.json",
+      "originalEncoding": {
+        "path": "assets/cg/cg-04-mengyao-camera.png",
+        "bytes": 2500027,
+        "sha256": "d29f637064098205d9c6e0f1e38729bb8231940738a31beb652bac60cfb18067",
+        "postprocessing": "无；原生PNG逐字节复制，未放大、裁切或拉伸"
+      },
+      "format": "WebP"
+    },
+    {
+      "id": "CG05",
+      "key": "cg05",
+      "version": "candidate-v1",
+      "path": "assets/cg/cg-05-yelan-inventory.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1372214,
+      "sha256": "b048be9913c0f1f3fed4e811f5a60520b1fa0392479c4dc9de01a0233f835fdb",
+      "postprocessing": "无损 WebP 转码；尺寸、可见像素与 alpha 一致；原始处理记录见 originalEncoding。",
+      "selectionAuthority": "本窗口依据已确认分镜与正式参考作美术自审采用；非用户逐图终审",
+      "dimensionNote": "保留原生输出，非1920×1080；不拉伸、不放大或伪称高分辨率母版",
+      "alt": "夜间包厢里，叶岚在倒扣纸箱上铺开清单，设备分开摆放。",
+      "record": "assets/cg-variants/CG05/record.json",
+      "cgKey": "cg05",
+      "nodeIds": [
+        "s8_count_01",
+        "s8_count_02",
+        "s8_count_03",
+        "s8_count_04",
+        "s8_count_05",
+        "s8_count_06",
+        "s8_count_07",
+        "s8_count_08"
+      ],
+      "restoreAt": "s8_count_09",
+      "status": "integrated",
+      "hidden": false,
+      "hiddenLoadBoundary": null,
+      "criticalRegions": {
+        "coordinateSystem": "整张原图百分比[x,y,w,h]，左上原点",
+        "method": "人工观察估计，非像素级分割；只作布局避让说明，不能直接当裁切参数",
+        "items": [
+          {
+            "label": "叶岚脸",
+            "rect": [
+              57,
+              13,
+              17,
+              30
+            ]
+          },
+          {
+            "label": "清单、笔与双手",
+            "rect": [
+              27,
+              49,
+              46,
+              35
+            ]
+          },
+          {
+            "label": "倒扣纸箱",
+            "rect": [
+              16,
+              62,
+              56,
+              38
+            ]
+          },
+          {
+            "label": "左侧设备",
+            "rect": [
+              0,
+              22,
+              21,
+              31
+            ]
+          },
+          {
+            "label": "右侧设备",
+            "rect": [
+              90,
+              25,
+              10,
+              35
+            ]
+          }
+        ]
+      },
+      "recordSha256": "09df67df9624a3a493d74a1a4a26c62392c3624400e8e8320fb6bd0aeb256803",
+      "runtimeStatus": "已接入，验证结果见qa/cg-integration-results.json",
+      "originalEncoding": {
+        "path": "assets/cg/cg-05-yelan-inventory.png",
+        "bytes": 2001240,
+        "sha256": "463b708fbf32f7e95636167e4998f4e547d45a02e34612d2eaeaf4ad1e46055b",
+        "postprocessing": "无；原生PNG逐字节复制，未放大、裁切或拉伸"
+      },
+      "format": "WebP"
+    },
+    {
+      "id": "CG06",
+      "key": "cg06",
+      "version": "optionD-20261020",
+      "path": "assets/cg/cg-06-maolang-confession.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1483368,
+      "sha256": "a11a0faa3ddfba3fb6f73f5a57c502bf88bb2143d74f9664f903c9297655f3a2",
+      "postprocessing": "无损 WebP 转码；尺寸、可见像素与 alpha 一致；原始处理记录见 originalEncoding。",
+      "selectionAuthority": "本窗口依据已确认分镜与正式参考作美术自审采用；非用户逐图终审",
+      "dimensionNote": "Target 1672x940, generated native output 1672x941. Preserved unaltered; no crop, stretch, or upscaling.",
+      "alt": "下午的大厅，文文与毛狼在尺寸纸、笔和线箱旁停住。",
+      "record": "assets/cg-variants/CG06/record.json",
+      "cgKey": "cg06",
+      "nodeIds": [
+        "s9_compete_08",
+        "s9_compete_09"
+      ],
+      "restoreAt": "s9_compete_10",
+      "status": "integrated",
+      "hidden": false,
+      "hiddenLoadBoundary": null,
+      "criticalRegions": {
+        "coordinateSystem": "整张原图百分比[x,y,w,h]，左上原点",
+        "method": "人工观察估计，非像素级分割；只作布局避让说明，不能直接当裁切参数",
+        "items": [
+          {
+            "label": "文文局部侧脸",
+            "rect": [
+              9,
+              4,
+              17,
+              37
+            ]
+          },
+          {
+            "label": "毛狼脸",
+            "rect": [
+              59,
+              12,
+              14,
+              28
+            ]
+          },
+          {
+            "label": "尺寸纸与笔",
+            "rect": [
+              48,
+              75,
+              33,
+              20
+            ]
+          },
+          {
+            "label": "线箱辨识区",
+            "rect": [
+              80,
+              63,
+              20,
+              37
+            ]
+          }
+        ]
+      },
+      "recordSha256": "2393dbeff02435ef963cb0e4f317f47798a209d747b4af0aab26c3cfe3a32101",
+      "runtimeStatus": "Option D已接入；本轮Chrome五视口检查通过",
+      "originalEncoding": {
+        "path": "assets/cg/cg-06-maolang-confession.png",
+        "bytes": 2085757,
+        "sha256": "466975350fb8a6ed64786087d3162d46ef2b0a1ed4ad23bd945ed59989aa8568",
+        "postprocessing": "无；原生PNG逐字节复制，未放大、裁切或拉伸"
+      },
+      "format": "WebP"
+    },
+    {
+      "id": "CG07",
+      "key": "cg07",
+      "version": "candidate-v1",
+      "path": "assets/cg/cg-07-yelan-off-duty.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1972616,
+      "sha256": "986343ec2c184e269aa0738f2122877432259337fd97b5593c293f774453d388",
+      "postprocessing": "无损 WebP 转码；尺寸、可见像素与 alpha 一致；原始处理记录见 originalEncoding。",
+      "selectionAuthority": "本窗口依据已确认分镜与正式参考作美术自审采用；非用户逐图终审",
+      "dimensionNote": "保留原生输出，非1920×1080；不拉伸、不放大或伪称高分辨率母版",
+      "alt": "雨夜，叶岚撑伞回头，等文文收好工具包。",
+      "record": "assets/cg-variants/CG07/record.json",
+      "cgKey": "cg07",
+      "nodeIds": [
+        "preview_yelan_10"
+      ],
+      "restoreAt": "preview_yelan_11",
+      "status": "integrated",
+      "hidden": false,
+      "hiddenLoadBoundary": null,
+      "criticalRegions": {
+        "coordinateSystem": "整张原图百分比[x,y,w,h]，左上原点",
+        "method": "人工观察估计，非像素级分割；只作布局避让说明，不能直接当裁切参数",
+        "items": [
+          {
+            "label": "叶岚回头的脸",
+            "rect": [
+              62,
+              9,
+              14,
+              23
+            ]
+          },
+          {
+            "label": "伞与伞柄",
+            "rect": [
+              49,
+              0,
+              38,
+              54
+            ]
+          },
+          {
+            "label": "空下来的手",
+            "rect": [
+              56,
+              68,
+              5,
+              20
+            ]
+          },
+          {
+            "label": "收工具包的双手",
+            "rect": [
+              2,
+              47,
+              33,
+              39
+            ]
+          }
+        ]
+      },
+      "recordSha256": "f6d2ed3df0d097d851d546cfde69a8f8cd656c457ad48df856111afc3fe5331a",
+      "runtimeStatus": "已接入，验证结果见qa/cg-integration-results.json",
+      "originalEncoding": {
+        "path": "assets/cg/cg-07-yelan-off-duty.png",
+        "bytes": 2735921,
+        "sha256": "0eaa0c4a418e20926dcbfc11fbc0c782a38b17651151b341c9a45438ce8b61e8",
+        "postprocessing": "无；原生PNG逐字节复制，未放大、裁切或拉伸"
+      },
+      "format": "WebP"
+    },
+    {
+      "id": "CG08",
+      "key": "cg08",
+      "version": "candidate-v4",
+      "path": "assets/cg/cg-08-huangqiuqiu-listening.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1309720,
+      "sha256": "c415560dca1cbeb97275bab588d51042d30a15b7e002213d81fbc9a6b058907a",
+      "postprocessing": "无损 WebP 转码；尺寸、可见像素与 alpha 一致；原始处理记录见 originalEncoding。",
+      "selectionAuthority": "本窗口依据已确认分镜与正式参考作美术自审采用；非用户逐图终审",
+      "dimensionNote": "保留原生输出，非1920×1080；不拉伸、不放大或伪称高分辨率母版",
+      "alt": "空包厢调音台旁，黄球球托腮，文文坐下倾听。",
+      "record": "assets/cg-variants/CG08/record.json",
+      "cgKey": "cg08",
+      "nodeIds": [
+        "preview_qiu_12",
+        "preview_qiu_13",
+        "preview_qiu_14",
+        "preview_qiu_15",
+        "preview_qiu_16",
+        "preview_qiu_17",
+        "preview_qiu_18",
+        "preview_qiu_19"
+      ],
+      "restoreAt": "preview_qiu_20",
+      "status": "integrated",
+      "hidden": true,
+      "hiddenLoadBoundary": "仅合法到达preview_qiu_12—19时加载；此前节点与C6不得预取",
+      "criticalRegions": {
+        "coordinateSystem": "整张原图百分比[x,y,w,h]，左上原点",
+        "method": "人工观察估计，非像素级分割；只作布局避让说明，不能直接当裁切参数",
+        "items": [
+          {
+            "label": "球体与托腮小手",
+            "rect": [
+              50,
+              13,
+              26,
+              40
+            ]
+          },
+          {
+            "label": "文文椅边手",
+            "rect": [
+              17,
+              60,
+              23,
+              24
+            ]
+          },
+          {
+            "label": "椅背叠布",
+            "rect": [
+              0,
+              31,
+              10,
+              33
+            ]
+          },
+          {
+            "label": "调音设备",
+            "rect": [
+              76,
+              12,
+              24,
+              49
+            ]
+          }
+        ]
+      },
+      "recordSha256": "691084519e2aed861da66dc3d9a9734246991d3bb8b017cccb78576993bb38fa",
+      "runtimeStatus": "已接入，验证结果见qa/cg-integration-results.json",
+      "originalEncoding": {
+        "path": "assets/cg/cg-08-huangqiuqiu-listening.png",
+        "bytes": 1854736,
+        "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1",
+        "postprocessing": "无；原生PNG逐字节复制，未放大、裁切或拉伸"
+      },
+      "format": "WebP"
+    },
+    {
+      "id": "CG09",
+      "key": "cg09",
+      "version": "shijiang-optionA-20261020",
+      "path": "assets/cg/cg-09-repair-handoff.webp",
+      "postprocessing": "无损 WebP 转码；尺寸、可见像素与 alpha 一致；原始处理记录见 originalEncoding。",
+      "selectionAuthority": "用户选择A并授权生成和替换全部师匠美术资源",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1619248,
+      "sha256": "cbe9fd54d1244e0517311fa91c775cb44f592c3e9994142c85c16cfa3081fac6",
+      "alt": "雨夜维修柜台前，师匠用笔压住故障单，毛狼与文文一起听交接要求。",
+      "record": "assets/cg-variants/CG09/record.json",
+      "cgKey": "cg09",
+      "nodeIds": [
+        "s2_counter_06",
+        "s2_counter_07",
+        "s2_counter_08",
+        "s2_counter_09",
+        "s2_counter_10"
+      ],
+      "restoreAt": "s2_counter_11",
+      "status": "integrated",
+      "hidden": false,
+      "hiddenLoadBoundary": null,
+      "criticalRegions": {
+        "coordinateSystem": "source_percent_xywh",
+        "regions": [
+          {
+            "label": "师匠脸与眼镜",
+            "rect": [
+              26,
+              12,
+              15,
+              27
+            ]
+          },
+          {
+            "label": "毛狼脸",
+            "rect": [
+              52,
+              14,
+              15,
+              30
+            ]
+          },
+          {
+            "label": "师匠手、笔与故障单",
+            "rect": [
+              27,
+              58,
+              27,
+              22
+            ]
+          }
+        ],
+        "method": "目视估计，用于完整画面检查；不作为裁切许可"
+      },
+      "recordSha256": "340b5e3c230780db151bdd86f92dee13cc7ad71a59004dd04d5e6d724c2482f2",
+      "runtimeStatus": "A版师匠已接入，本轮本地验收PASS；详见qa/shijiang-optionA-20261020/browser-results.json",
+      "dimensionNote": "Target and generated native output both 1672x941. Preserved unaltered; no crop, stretch, or upscaling.",
+      "originalEncoding": {
+        "path": "assets/cg/cg-09-repair-handoff.png",
+        "bytes": 2273328,
+        "sha256": "a0984f00a9fa9f74923c95afbf1fb165fdc5435d08d568fc7b30dcaab04ef92a",
+        "postprocessing": "无；保留内置imagegen原生PNG字节"
+      },
+      "format": "WebP"
+    },
+    {
+      "id": "CG13",
+      "key": "cg13",
+      "version": "candidate-v2",
+      "path": "assets/cg/cg-13-xiaoman-night-stall.webp",
+      "postprocessing": "无损 WebP 转码；尺寸、可见像素与 alpha 一致；原始处理记录见 originalEncoding。",
+      "selectionAuthority": "按用户已授权的增补方案作美术自审采用，非用户逐图终审",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1639230,
+      "sha256": "70e6becb0467a565fbe66cf786ef2717591d1a375f62cf25e0e448a9278a8ed0",
+      "alt": "雨夜摊桌边，小满将练习图从洋芋盘与蘸水旁挪开，砖红外套搭在椅背上。",
+      "record": "assets/cg-variants/CG13/record.json",
+      "cgKey": "cg13",
+      "nodeIds": [
+        "s3_stall_05",
+        "s3_stall_06",
+        "s3_stall_07",
+        "s3_stall_08"
+      ],
+      "restoreAt": "s3_stall_09",
+      "status": "integrated",
+      "hidden": false,
+      "hiddenLoadBoundary": null,
+      "criticalRegions": {
+        "coordinateSystem": "source_percent_xywh",
+        "regions": [
+          {
+            "label": "小满脸与短发",
+            "rect": [
+              32,
+              7,
+              23,
+              32
+            ]
+          },
+          {
+            "label": "挪纸的手与练习图",
+            "rect": [
+              72,
+              61,
+              28,
+              29
+            ]
+          },
+          {
+            "label": "洋芋盘与蘸水",
+            "rect": [
+              40,
+              68,
+              36,
+              18
+            ]
+          }
+        ],
+        "method": "目视估计，用于完整画面检查；不作为裁切许可"
+      },
+      "recordSha256": "330aea5f7104779f6629a19729e1740dd36a7f8d2598ceec018d0132897a3e25",
+      "runtimeStatus": "已接入，验证结果见qa/cg-integration-results.json",
+      "originalEncoding": {
+        "path": "assets/cg/cg-13-xiaoman-night-stall.png",
+        "bytes": 2233982,
+        "sha256": "155cd137c4e1c0355944e4bbf89bf806909d18efe43dc0fddda3f175a68f8249",
+        "postprocessing": "无；原生PNG逐字节复制，未放大、裁切或拉伸"
+      },
+      "format": "WebP"
+    }
+  ],
+  "runtimeCGCount": 10,
+  "bindingCount": 48,
+  "verificationEvidence": "qa/cg-integration-results.json",
+  "shijiangVerificationEvidence": "qa/shijiang-optionA-20261020/browser-results.json",
+  "webpMigration": {
+    "date": "2026-10-21",
+    "manifest": "assets/webp-manifest.json",
+    "report": "qa/webp-20261021/report.md",
+    "note": "本次仅更新交付图片路径与编码指纹；来源、选型及旧QA字段仍属历史制作记录。"
+  }
+}

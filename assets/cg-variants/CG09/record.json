@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "CG09",
+  "title": "维修柜台",
+  "date": "2026-10-20",
+  "status": "用户授权执行增补计划；美术自审采用，非用户逐图终审",
+  "tool": "内置image_gen",
+  "storySha256": "e0b48374db5e9204829062113dd500519ca56e42d767ef829519fba6ba7167ca",
+  "references": [
+    {
+      "path": "assets/char-wenwen.png",
+      "role": "正式角色身份参考",
+      "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44"
+    },
+    {
+      "path": "assets/char-maolang.png",
+      "role": "正式角色身份参考",
+      "sha256": "d554134d8bf022572c0c26b9d0db80bbf59ec227c3b5aab4ce61089ba2133a1c"
+    },
+    {
+      "path": "assets/char-shijiang.png",
+      "role": "正式角色身份参考",
+      "sha256": "a8e1bceb9dad767e2ec11c94f3977a9b8337a2abcbd6b47c4f6996e72e004b1c"
+    },
+    {
+      "path": "assets/bg-repair.png",
+      "role": "正式空间及光线参考",
+      "sha256": "14b00ead5390e93803ef16f82b38949dd464e901a9cf5b208bc1140cda0c3675"
+    },
+    {
+      "path": "assets/cg/cg-02-xiaoman-mirror.png",
+      "role": "已采用CG画风参考",
+      "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e"
+    }
+  ],
+  "attempts": [
+    {
+      "version": "candidate-v1",
+      "prompt": "Use case: illustration-story.\nAsset type: 《毕节，雨停之前》视觉小说剧情CG09「维修柜台」，完整横向16:9不透明PNG叙事插画，目标1920×1080，保留实际原生像素。必须是人物与场景统一绘制，不是把立绘贴进照片。\nInput images: 图1 assets/char-wenwen.png 是23岁文文的正式脸型、短寸、旧深灰维修夹克参考；图2 assets/char-maolang.png 是24岁毛狼的正式脸型、微卷黑发、橄榄绿外套参考；图3 assets/char-shijiang.png 是32岁师匠正式外观参考，黑短发、细框矩形眼镜、藏蓝衬衫，稳重但不老人化；图4 assets/bg-repair.png 是雨夜维修铺的空间、设备、暖工作灯及冷蓝门外参考；图5 assets/cg/cg-02-xiaoman-mirror.png 只作本项目既有半写实CG的精致笔触、空间透视、脸部与衣料质感参考，不能把小满或理发店引入本张。\nPrimary request: 第1天晚上，文文回乡接活，师匠用一支笔压住尚未填完的故障单，抬眼确认文文听懂交接要求；毛狼在旁靠近已经按序摆好的话筒，带一点熟人之间轻松但此刻认真听的神情。只画文文、毛狼、师匠三位成年中国男性。正常职业生活场面，有交接的默契和各自责任，不画求职录用或胜负。\nComposition: 文文第一人称眼高，紧邻右前景只露少量短寸后脑/深灰夹克肩和放在柜台边的自然手，不能另画一个完整文文。师匠在柜台后中左、毛狼在中右，三人围着旧木工作台形成自然空间关系。师匠一只手持笔轻压故障单上沿，手和笔姿势清楚；纸张仍有空格，没有签满或打满勾。另一张不显眼报价草页可在侧边，仅为不可读线条。适量真实音响维修工具、整齐话筒和旧零件，保留生活质感，不堆满前景。不强迫所有人正对镜头摆拍。\nScene: 普通毕节坡街音响维修铺，夜晚暖灯照亮纸张和脸，门外有冷蓝雨夜和湿街。室内干地砖；不画室内积水。\nStyle: 与第五张已采用CG相同的日系半写实视觉小说绘画，成年真实五官和自然身体比例，柔和细腻的绘画质感，克制灰青与暖琥珀光，不做卡通Q版、照片、3D塑料或电影海报。\nFraming: 完整横向中景，三人脸、师匠手、笔和故障单均须完整；关键内容尽量在画面中上部，预留自然环境边缘。图外对白，图片本身没有UI或底部字幕条；不加黑边。\nAvoid: 任何可读文字、字母、数字、姓名、对白、提示、水印、招牌乱码；黄球球、女声可视化、黄色头像、三拍记号、发光超自然现象或隐藏解谜提示；额外人物、女主、长发师匠、老年师匠、换装、六指、多臂、手穿纸、悬浮工具或已完成维修的庆祝。",
+      "source": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a15705-8e28-7690-8d6e-f3aba23f81e6/exec-d69301b1-8479-458e-ba11-58045a4ee225.png",
+      "archive": "assets/cg-variants/CG09/candidate-v1.png",
+      "toolParameters": {
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-wenwen.png",
+          "/Users/yipin/Desktop/cjb/assets/char-maolang.png",
+          "/Users/yipin/Desktop/cjb/assets/char-shijiang.png",
+          "/Users/yipin/Desktop/cjb/assets/bg-repair.png",
+          "/Users/yipin/Desktop/cjb/assets/cg/cg-02-xiaoman-mirror.png"
+        ],
+        "transparent_background": false
+      },
+      "review": "已目视原生工具输出：成年外观、服装与正式参考对应；手部及道具接触自然，无额外人物或提前发生的分支事件。纸张不可读线条不承担玩法信息。",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2403639,
+      "sha256": "0477213b4388c8b90665bbb5790d142af2712d817a169a5759f8373cc86403ee"
+    },
+    {
+      "version": "optionD-20261020",
+      "prompt": "Use case: precise-object-edit.\nAsset type: existing visual-novel narrative CG for 《毕节，雨停之前》, CG09 repair-counter handoff, first day rainy night.\nInput image 1 is the EDIT TARGET and the exact composition, environment, every pose and object reference. Input image 2 is ONLY the approved Mao Lang OPTION D IDENTITY / HAIR / CLOTHING reference, not a pose, expression, lighting, or background reference.\nPrimary request: replace ONLY the man at MIDDLE-RIGHT of input image 1 (Mao Lang, currently olive jacket and gray shirt, resting his cheek against his fist) with the exact same adult man identity shown in input image 2. Make his face recognizably Option D: narrow oval youthful natural face, softly tapered jaw without a sharp idol V chin, straight natural eyebrows, slender attentive eyes, moderate nose with rounded tip, natural lips; short black hair with cropped sides and fluffy irregular slightly wavy top/fringe. Copy Option D's black crew-neck short-sleeve T-shirt, lower-hem multicolor outlined flower print, black trousers and single black wrist wrap. The lower shirt and trousers may naturally be hidden by the counter: do not reveal or relocate him just to display the print. Remove the old olive outer jacket and gray undershirt from this man only. No hat, no mask, no extra jacket.\nEmotion: he is listening to a serious equipment handoff, closed mouth, attentive and mildly awkward, neutral lips with no grin or teeth; keep his original eye-line toward the man in the right foreground. Do NOT copy the open-mouth smile from the identity reference.\nStrict invariants: preserve his exact leaning torso, head placement and tilt, fist supporting cheek, elbow support and other forearm/hand placement, and all visible hand anatomy. Keep the man at the LEFT completely unchanged: rectangular glasses, face, short neat hair, navy work shirt, pen in pocket, writing hand and posture; this is Shi Jiang and must not become the Option D identity. Keep the buzz-cut man in the RIGHT foreground completely unchanged: head/back profile, dark repair jacket, hand and shoulder position; this is Wenwen. Exactly THREE men. Keep the exact camera, crop, lens/perspective, subject sizes, workshop and window, shelves, all electronics, desk lamp and lighting, rain outside at NIGHT, soldering iron, boards, cables, speakers, clipboard, work sheets, writing pen, screwdriver, towel and the entire cluster of black/silver microphones on the counter, unchanged in position, count and form. Keep the existing gray-cyan rainy-night window light and amber desk lamp. Preserve the existing grounded Japanese semi-realistic painted style and material detail.\nOutput: ONE opaque full landscape PNG at the original target aspect ratio about 16:9 (target native 1672×940); preserve composition and avoid zooming or expanding.\nAvoid: changing any other person or prop, extra people, transferring D's standing pose, adding a yellow microphone or singing stage, removing or adding counter microphones, camera prop, tape measure, readable text, labels, subtitles, logos, watermark, new lettering, collage, transparent background, extra fingers.",
+      "source": "/Users/yipin/.codex/generated_images/01a157d4-7a19-7bd0-b3e8-728369206e9f/exec-26a8dc47-54c0-4332-8ae9-715c13e4444f.png",
+      "archive": "assets/character-variants/maolang-optionD-production-20261020/cg09-optionD.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/cg/cg-09-repair-handoff.png",
+        "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-photo2-options-20261020/option-D-dialogue-stance.png"
+      ],
+      "toolArguments": {
+        "prompt": "Use case: precise-object-edit.\nAsset type: existing visual-novel narrative CG for 《毕节，雨停之前》, CG09 repair-counter handoff, first day rainy night.\nInput image 1 is the EDIT TARGET and the exact composition, environment, every pose and object reference. Input image 2 is ONLY the approved Mao Lang OPTION D IDENTITY / HAIR / CLOTHING reference, not a pose, expression, lighting, or background reference.\nPrimary request: replace ONLY the man at MIDDLE-RIGHT of input image 1 (Mao Lang, currently olive jacket and gray shirt, resting his cheek against his fist) with the exact same adult man identity shown in input image 2. Make his face recognizably Option D: narrow oval youthful natural face, softly tapered jaw without a sharp idol V chin, straight natural eyebrows, slender attentive eyes, moderate nose with rounded tip, natural lips; short black hair with cropped sides and fluffy irregular slightly wavy top/fringe. Copy Option D's black crew-neck short-sleeve T-shirt, lower-hem multicolor outlined flower print, black trousers and single black wrist wrap. The lower shirt and trousers may naturally be hidden by the counter: do not reveal or relocate him just to display the print. Remove the old olive outer jacket and gray undershirt from this man only. No hat, no mask, no extra jacket.\nEmotion: he is listening to a serious equipment handoff, closed mouth, attentive and mildly awkward, neutral lips with no grin or teeth; keep his original eye-line toward the man in the right foreground. Do NOT copy the open-mouth smile from the identity reference.\nStrict invariants: preserve his exact leaning torso, head placement and tilt, fist supporting cheek, elbow support and other forearm/hand placement, and all visible hand anatomy. Keep the man at the LEFT completely unchanged: rectangular glasses, face, short neat hair, navy work shirt, pen in pocket, writing hand and posture; this is Shi Jiang and must not become the Option D identity. Keep the buzz-cut man in the RIGHT foreground completely unchanged: head/back profile, dark repair jacket, hand and shoulder position; this is Wenwen. Exactly THREE men. Keep the exact camera, crop, lens/perspective, subject sizes, workshop and window, shelves, all electronics, desk lamp and lighting, rain outside at NIGHT, soldering iron, boards, cables, speakers, clipboard, work sheets, writing pen, screwdriver, towel and the entire cluster of black/silver microphones on the counter, unchanged in position, count and form. Keep the existing gray-cyan rainy-night window light and amber desk lamp. Preserve the existing grounded Japanese semi-realistic painted style and material detail.\nOutput: ONE opaque full landscape PNG at the original target aspect ratio about 16:9 (target native 1672×940); preserve composition and avoid zooming or expanding.\nAvoid: changing any other person or prop, extra people, transferring D's standing pose, adding a yellow microphone or singing stage, removing or adding counter microphones, camera prop, tape measure, readable text, labels, subtitles, logos, watermark, new lettering, collage, transparent background, extra fingers.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/cg/cg-09-repair-handoff.png",
+          "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-photo2-options-20261020/option-D-dialogue-stance.png"
+        ],
+        "transparent_background": false
+      },
+      "review": {
+        "status": "passed_visual_material_review",
+        "identity": "Option D fluffy short black hair, natural narrow oval face, black lower-hem flower T-shirt, black wrist wrap; no hat, mask, olive jacket, or gray undershirt.",
+        "expression": "Closed mouth, neutral attentive expression, gaze at right foreground Wenwen; no grin or teeth.",
+        "poseAndHands": "Original cheek-supported-by-fist pose, elbow, other forearm and hand placement visually retained. Supporting hand and Shi Jiang's writing hand examined in before/after crops; no obvious extra or malformed fingers.",
+        "otherCharacters": "Shi Jiang face, rectangular glasses, hairstyle, navy work shirt, pocket pen, writing posture and Wenwen right-foreground buzz cut/dark jacket visually retained.",
+        "sceneAndProps": "Rainy night workshop, amber lamp, cool window, shelves, electronics, paper clipboard and pen, tool layout, microphone cluster, towel and cable coils visually retained. Exactly three men; no added yellow stage microphone.",
+        "limitations": "Generative edit preserves composition visually, not a pixel-locked edit. Shirt lower hem/trousers are largely counter-occluded. No browser/game acceptance or narrative integration performed."
+      },
+      "width": 1672,
+      "height": 941,
+      "bytes": 2274524,
+      "sha256": "ca7babc0fa68ce95ec8a74fc59d55d44e480551295cfdcf6713c7ffaa2aee054"
+    },
+    {
+      "version": "shijiang-optionA-20261020",
+      "path": "assets/cg/cg-09-repair-handoff.png",
+      "postprocessing": "无；保留内置imagegen原生PNG字节",
+      "selectionAuthority": "用户选择A并授权生成和替换全部师匠美术资源",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2273328,
+      "sha256": "a0984f00a9fa9f74923c95afbf1fb165fdc5435d08d568fc7b30dcaab04ef92a",
+      "prompt": "Use case: identity-preserve / precise-object-edit.\nAsset type: updated CG09 repair-counter handoff illustration for 《毕节，雨停之前》.\nInput image 1 is the CURRENT final CG and the edit target. Input image 2 is the USER-APPROVED Option A master portrait for Shi Jiang 师匠, identity and outfit reference.\nChange ONLY the LEFT man behind the counter, the man wearing rectangular glasses and holding a pen over the job sheet. Replace HIS face, hair/headwear and clothing with the man from image 2: naturally fuller cheeks and soft broad jaw/chin, short black hair, thick black rectangular eyeglasses, black bucket hat covered with white hand-drawn motifs and its small red tag, white short-sleeved T-shirt with the same colorful anime child graphic and red rectangular chest print. Keep his natural ordinary build; no square-jawed handsome technician face from image 1. His black athletic shorts from Option A may remain hidden behind the counter. He must unmistakably match the approved portrait.\nPreserve his seated/leaning-forward posture, gaze toward the foreground listener, his position and scale in the scene, hands, pen, pen contact with the incomplete fault sheet and natural tabletop interaction. Adapt the short shirt sleeves naturally without extra arms. Match the existing warm workshop light and cool blue rain-night highlights on his new face, hat and white fabric. Keep the current semi-realistic painted visual-novel finish and spatial depth.\nKeep the OTHER TWO PEOPLE unchanged: the middle-right younger adult man in the BLACK T-shirt with short slightly tousled hair, resting his cheek on his hand (Mao Lang), and the foreground short-haired listener seen from the back/right wearing the dark gray jacket (Wenwen). Their faces, hair, body builds, clothing, pose and placement MUST remain consistent with image 1. Do not return Mao Lang to the older green jacket design.\nKeep all surrounding repair-shop scenery, shelves, rain-night window, lights, perspective, microphones, tools, foreground electronics, paperwork and tabletop composition unchanged. No new people, no new props, no supernatural hints. Preserve the complete source canvas and landscape aspect ratio (source 1672×941); no crop, borders, UI, subtitles or watermark. Opaque scene, no transparency.",
+      "source": "/Users/yipin/.codex/generated_images/01a157db-ff60-7102-8994-2ef08f96801c/exec-6745c271-cc1f-415f-9423-bc5dbfb75f3c.png",
+      "archive": "assets/character-variants/shijiang-optionA-20261020/cg09-shijiang-optionA.png",
+      "toolParameters": {
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/qa/shijiang-optionA-20261020/cg09-before-shijiang-edit.png",
+          "/Users/yipin/Desktop/cjb/assets/character-variants/shijiang-photo-options-20261020/option-A-photo-faithful.png"
+        ],
+        "transparent_background": false
+      },
+      "review": "已查看原图，师匠替换为A；保留最新毛狼黑T恤造型与文文背影、柜台构图、纸笔动作。"
+    }
+  ],
+  "adopted": {
+    "version": "shijiang-optionA-20261020",
+    "path": "assets/cg/cg-09-repair-handoff.png",
+    "postprocessing": "无；保留内置imagegen原生PNG字节",
+    "selectionAuthority": "用户选择A并授权生成和替换全部师匠美术资源",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2273328,
+    "sha256": "a0984f00a9fa9f74923c95afbf1fb165fdc5435d08d568fc7b30dcaab04ef92a"
+  },
+  "criticalRegions": {
+    "coordinateSystem": "source_percent_xywh",
+    "regions": [
+      {
+        "label": "师匠脸与眼镜",
+        "rect": [
+          26,
+          12,
+          15,
+          27
+        ]
+      },
+      {
+        "label": "毛狼脸",
+        "rect": [
+          52,
+          14,
+          15,
+          30
+        ]
+      },
+      {
+        "label": "师匠手、笔与故障单",
+        "rect": [
+          27,
+          58,
+          27,
+          22
+        ]
+      }
+    ],
+    "method": "目视估计，用于完整画面检查；不作为裁切许可"
+  },
+  "display": {
+    "mode": "contain",
+    "dialogue": "图外独立区域",
+    "cropApproved": false
+  },
+  "integration": {
+    "cgKey": "cg09",
+    "nodeIds": [
+      "s2_counter_06",
+      "s2_counter_07",
+      "s2_counter_08",
+      "s2_counter_09",
+      "s2_counter_10"
+    ],
+    "restoreAt": "s2_counter_11",
+    "status": "integrated",
+    "hidden": false,
+    "hiddenLoadBoundary": null
+  },
+  "gameAcceptance": {
+    "evidence": "qa/shijiang-optionA-20261020/browser-results.json",
+    "status": "PASS",
+    "scope": "新CG09、5种本地浏览器视口、严格旧档兼容、图片失败回退；未线上部署"
+  },
+  "alt": "雨夜维修柜台前，师匠用笔压住故障单，毛狼与文文一起听交接要求。",
+  "identityRevision": {
+    "character": "maolang",
+    "version": "OptionD-20261020",
+    "master": "assets/character-variants/maolang-photo2-options-20261020/option-D-dialogue-stance.png"
+  },
+  "previousAdoptions": [
+    {
+      "version": "optionD-20261020",
+      "path": "assets/cg/cg-09-repair-handoff.png",
+      "postprocessing": "无；保留内置imagegen原始输出字节",
+      "selectionAuthority": "用户明确选择Option D并授权替换全部毛狼资源；按此作一致性自审采用",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2274524,
+      "sha256": "ca7babc0fa68ce95ec8a74fc59d55d44e480551295cfdcf6713c7ffaa2aee054",
+      "dimensionNote": "Target and generated native output both 1672x941. Preserved unaltered; no crop, stretch, or upscaling."
+    }
+  ],
+  "identityRevisionShijiang": {
+    "reference": "assets/character-variants/shijiang-photo-options-20261020/option-A-photo-faithful.png",
+    "scope": "只替换师匠，其他角色以编辑前最新CG为准",
+    "previousCG": "qa/shijiang-optionA-20261020/cg09-before-shijiang-edit.png"
+  }
+}

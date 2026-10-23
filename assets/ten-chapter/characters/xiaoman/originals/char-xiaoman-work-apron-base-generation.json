@@ -1,0 +1,13 @@
+{
+  "key": "xiaoman-work-apron",
+  "character": "xiaoman",
+  "file": "char-xiaoman-work-apron-base",
+  "ref": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+  "references": [
+    "/Users/yipin/Desktop/cjb/assets/character-variants/xiaoman-face-v2-candidate.webp"
+  ],
+  "prompt": "Use case: identity-preserve\n单张视觉小说角色衣装/发型差分，输入图为编辑对象。修改：保留米金短发、耳钉和face-v2脸型。换为白T恤外穿干净朴素的深灰工作围裙，移除砖红外套；一手自然握普通扫帚竖杆，扫帚下部可以延伸出画布；另一手自然放松。无剪刀套、胸牌或文字，成年理发店日常工作，保持微笑。\n严格锁定输入人物的脸型、五官、皮肤、成年身份、同一画风与光线，除上述服装/发型/必要手势外不改其他内容。保持1024×1536画布、原头顶落点、头身比例和大腿截幅，不扩画脚或完整全身。日系半写实细腻手绘立绘，背景为真实透明alpha，无底色、无地面、无光晕、无棋盘格、无文字、水印和边框。",
+  "generatedPath": "/Users/yipin/.codex/generated_images/01a162af-0842-7a61-a6ca-7846101abfe6/exec-010232c6-5458-4bab-a8ec-8319f1bdfa48.png",
+  "tool": "image_gen built-in",
+  "attempt": 1
+}

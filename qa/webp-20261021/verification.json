@@ -1,0 +1,2179 @@
+{
+  "startedAt": "2026-10-21T06:34:57.536Z",
+  "pass": true,
+  "checks": [
+    {
+      "name": "仅替换明确登记的美术路径；剧情、引擎、存档兼容组件与存档空间保持",
+      "pass": true
+    },
+    {
+      "name": "正式全图合法路径、结局分布及全部可见节点严格恢复保持",
+      "pass": true,
+      "paths": 246528,
+      "terminalCounts": {
+        "end_piao_maolang": 226944,
+        "end_piao_wenwen": 19584
+      },
+      "minLines": 482,
+      "maxLines": 538,
+      "minChars": 14954,
+      "maxChars": 17081,
+      "reachableNodes": 1310,
+      "equivalentStates": 58077,
+      "terminals": [
+        "end_piao_maolang",
+        "end_piao_wenwen"
+      ],
+      "strictRestoreWitnesses": 1265
+    },
+    {
+      "name": "全部原图与源指纹保留；WebP 尺寸、alpha 及全部可见像素无损",
+      "pass": true,
+      "convertedImages": 209
+    },
+    {
+      "name": "运行清单及入口额外素材指纹有效，全部运行引用为 WebP",
+      "pass": true,
+      "registeredImages": 93,
+      "referencedImages": 100,
+      "referenced": [
+        "assets/background-variants/m2-daynight-20261020/bg-street-day.webp",
+        "assets/backgrounds/bijie-20261020/bg-busstop-day.webp",
+        "assets/backgrounds/bijie-20261020/bg-echo-entrance-night.webp",
+        "assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+        "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.webp",
+        "assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.webp",
+        "assets/backgrounds/bijie-20261020/bg-noodles-dusk.webp",
+        "assets/backgrounds/bijie-20261020/bg-old-eaves-day.webp",
+        "assets/backgrounds/bijie-20261020/bg-residential-slope-day.webp",
+        "assets/backgrounds/bijie-20261020/bg-slope-junction-night.webp",
+        "assets/bg-lobby.webp",
+        "assets/bg-noodles.webp",
+        "assets/bg-repair.webp",
+        "assets/bg-room.webp",
+        "assets/bg-salon.webp",
+        "assets/bg-street.webp",
+        "assets/cg/cg-01-rain-return.webp",
+        "assets/cg/cg-02-xiaoman-mirror.webp",
+        "assets/cg/cg-03-zhouzhi-noodles.webp",
+        "assets/cg/cg-04-mengyao-camera.webp",
+        "assets/cg/cg-05-yelan-inventory.webp",
+        "assets/cg/cg-06-maolang-confession.webp",
+        "assets/cg/cg-07-yelan-off-duty.webp",
+        "assets/cg/cg-08-huangqiuqiu-listening.webp",
+        "assets/cg/cg-09-repair-handoff.webp",
+        "assets/cg/cg-13-xiaoman-night-stall.webp",
+        "assets/char-huangqiuqiu.webp",
+        "assets/char-maolang.webp",
+        "assets/char-piao.webp",
+        "assets/char-shijiang.webp",
+        "assets/char-wenwen.webp",
+        "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-explaining.webp",
+        "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-displeased.webp",
+        "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-downcast.webp",
+        "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-hesitant.webp",
+        "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-serious.webp",
+        "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-smile.webp",
+        "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-surprised.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.webp",
+        "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.webp",
+        "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.webp",
+        "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.webp",
+        "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+        "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-surprised.webp",
+        "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-hesitant.webp",
+        "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-serious.webp",
+        "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-smile.webp",
+        "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-surprised.webp",
+        "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-explaining.webp",
+        "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.webp",
+        "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.webp",
+        "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.webp",
+        "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.webp",
+        "assets/character-variants/mengyao-face-v2-candidate.webp",
+        "assets/character-variants/piao-optionB-20261020/char-piao-action-explaining.webp",
+        "assets/character-variants/piao-optionB-20261020/char-piao-action-thinking.webp",
+        "assets/character-variants/piao-optionB-20261020/char-piao-action-wave.webp",
+        "assets/character-variants/piao-optionB-20261020/char-piao-expression-displeased.webp",
+        "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.webp",
+        "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+        "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.webp",
+        "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+        "assets/character-variants/piao-optionB-20261020/char-piao-expression-surprised.webp",
+        "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.webp",
+        "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-phone.webp",
+        "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.webp",
+        "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-wave.webp",
+        "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-displeased.webp",
+        "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-downcast.webp",
+        "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-hesitant.webp",
+        "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.webp",
+        "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp",
+        "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-surprised.webp",
+        "assets/character-variants/xiaoman-face-v2-candidate.webp",
+        "assets/character-variants/yelan-face-v2-candidate.webp",
+        "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+        "assets/cover-b-desktop.webp",
+        "assets/cover-b-mobile.webp",
+        "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-displeased.webp",
+        "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-downcast.webp",
+        "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+        "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+        "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+        "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.webp",
+        "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.webp",
+        "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.webp",
+        "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.webp",
+        "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.webp",
+        "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+        "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.webp",
+        "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+        "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.webp"
+      ]
+    },
+    {
+      "name": "内存执行正式构建可精确重现 story.js 和运行清单，无历史基线修改",
+      "pass": true
+    }
+  ],
+  "initialHashes": {
+    "index.html": "2ae59b07bff371230049395148dc83bde549443889775d9679a405dc932f4ffa",
+    "styles.css": "71a08eb8e30a8f3a8186ec6bd6fb897a9fdf837d46045558cf5cfd337b3f8dd5",
+    "story.js": "5d9b3dad53fa7de88269f7e605db4cf2e7b80a92587dedffda0e425bb1878e7a",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "save-compat.js": "4ab32d0447c98650719bd61e29615f07d9ebfdc67596e3774a94953c4f98e742",
+    "game.js": "87a8d773c3f51ae930663d8edec927c19a7a0f61076e79d6c6a915848fdc9c6c",
+    "assets/runtime-v0.4-manifest.json": "64f1313a791f48aa0a879eca8d77ee70a0933c167063e3e2ebaac51465bd06d5",
+    "assets/webp-manifest.json": "cede257dd2a2d4d57fc89b6f783bdd93ff57e154fea22f9c2ba1e57812715996"
+  },
+  "limitations": [
+    "剧情路径为等价状态图分析；各可见节点严格恢复使用自然回放样本，不代表逐路径浏览器点击。",
+    "本轮 before 快照为迁移前当前正式版本，不读取或修改玩家存档；旧版本对白迁移仍由原 save-compat.js 负责。"
+  ],
+  "graph": {
+    "paths": 246528,
+    "terminalCounts": {
+      "end_piao_maolang": 226944,
+      "end_piao_wenwen": 19584
+    },
+    "minLines": 482,
+    "maxLines": 538,
+    "minChars": 14954,
+    "maxChars": 17081,
+    "reachableNodes": 1310,
+    "equivalentStates": 58077,
+    "terminals": [
+      "end_piao_maolang",
+      "end_piao_wenwen"
+    ],
+    "strictRestoreWitnesses": 1265
+  },
+  "images": [
+    {
+      "path": "assets/background-variants/m2-20261019/bg-noodles-no-person.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/background-variants/m2-20261019/bg-noodles-original.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-lobby-day.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-lobby-original.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-repair-night-v2.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-repair-night.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-repair-original.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-street-day.webp",
+      "width": 1671,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-street-original.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/background-variants/style-options-20261019/A-cinematic-realism.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/background-variants/style-options-20261019/B-anime-background.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/background-variants/style-options-20261019/C-watercolor-paper.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/background-variants/style-options-20261019/D-retro-film.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/background-variants/style-options-20261019/E-painterly-concept.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-busstop-day.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-echo-entrance-night.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-noodles-dusk.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-old-eaves-day.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-residential-slope-day.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-slope-junction-night.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/bg-lobby.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/bg-noodles.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/bg-repair.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/bg-room.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/bg-salon.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/bg-street.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG01/candidate-v1.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG02/candidate-v2.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG02/sample-v1.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG03/candidate-v1.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG03/candidate-v2.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG04/candidate-v1.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG05/candidate-v1.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG06/candidate-v1.webp",
+      "width": 1672,
+      "height": 940,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG06/candidate-v2.webp",
+      "width": 1672,
+      "height": 940,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG06/ref-bg-lobby-used.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG07/candidate-v1.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG08/candidate-v2.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG08/candidate-v3.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG08/candidate-v4.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG08/sample-v1.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG09/candidate-v1.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG13/candidate-v1.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg-variants/CG13/candidate-v2.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg/cg-01-rain-return.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg/cg-02-xiaoman-mirror.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg/cg-03-zhouzhi-noodles.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg/cg-04-mengyao-camera.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg/cg-05-yelan-inventory.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg/cg-06-maolang-confession.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg/cg-07-yelan-off-duty.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg/cg-08-huangqiuqiu-listening.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg/cg-09-repair-handoff.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cg/cg-13-xiaoman-night-stall.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/char-huangqiuqiu.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 740791
+    },
+    {
+      "path": "assets/char-maolang.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2084916
+    },
+    {
+      "path": "assets/char-mengyao.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1948559
+    },
+    {
+      "path": "assets/char-piao.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2132032
+    },
+    {
+      "path": "assets/char-shijiang.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1907073
+    },
+    {
+      "path": "assets/char-wenwen.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1704526
+    },
+    {
+      "path": "assets/char-xiaoman.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1574672
+    },
+    {
+      "path": "assets/char-yelan.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1683287
+    },
+    {
+      "path": "assets/char-zhouzhi.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1906018
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-explaining.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1920341
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-thinking.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1990235
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-wave.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1890897
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-displeased.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1976453
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1973234
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1962382
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2096281
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1960209
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1968419
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-explaining.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1651861
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-listening.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1926298
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-phone.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1690711
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-repairing.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1549133
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-thinking.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1711279
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-wave.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1595682
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1701865
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-displeased.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1700095
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1704657
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1706684
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1676476
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1705485
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-relieved.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1701096
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1549685
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1690510
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1703230
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1705503
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1692289
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-action-explaining.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1617706
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-action-thinking.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1721654
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-action-wave.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1641835
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-displeased.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1590551
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1586964
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1592261
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1583487
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1582626
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1576495
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-action-explaining.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1718788
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-action-thinking.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1677358
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-action-wave.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1682517
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-displeased.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1690656
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1690231
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1676238
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1672706
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1675389
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1685246
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-explaining.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1875628
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-thinking.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1892987
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-wave.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1871824
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-displeased.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1906831
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1887246
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1910967
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1894012
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1910505
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1886545
+    },
+    {
+      "path": "assets/character-variants/maolang-optionD-production-20261020/cg06-optionD.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/character-variants/maolang-optionD-production-20261020/cg09-optionD.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-action-explaining.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2030559
+    },
+    {
+      "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-action-thinking.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2054521
+    },
+    {
+      "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-action-wave.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2122609
+    },
+    {
+      "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-displeased.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2090496
+    },
+    {
+      "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2093522
+    },
+    {
+      "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2090810
+    },
+    {
+      "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2101500
+    },
+    {
+      "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2072449
+    },
+    {
+      "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2087261
+    },
+    {
+      "path": "assets/character-variants/maolang-photo-options-20261020/option-A-photo-faithful.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1826335
+    },
+    {
+      "path": "assets/character-variants/maolang-photo-options-20261020/option-B-vn-expressive.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1854561
+    },
+    {
+      "path": "assets/character-variants/maolang-photo2-options-20261020/option-C-microphone.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2134804
+    },
+    {
+      "path": "assets/character-variants/maolang-photo2-options-20261020/option-D-dialogue-stance.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2084916
+    },
+    {
+      "path": "assets/character-variants/mengyao-face-v2-candidate.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1966856
+    },
+    {
+      "path": "assets/character-variants/mengyao-v1-original.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1948559
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-explaining.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2161019
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-thinking.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2141191
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-wave.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2156425
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-base.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2132032
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-displeased.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2152540
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2055892
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2145764
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2158060
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2159390
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2299179
+    },
+    {
+      "path": "assets/character-variants/piao-photo-options-20261020/option-A-long-hair.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1765689
+    },
+    {
+      "path": "assets/character-variants/piao-photo-options-20261020/option-B-low-ponytail.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2110203
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/cg09-shijiang-optionA.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2031402
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-phone.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2055022
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2073984
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-wave.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2037721
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-displeased.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1924704
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1937163
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1923703
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1929334
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1928302
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1912379
+    },
+    {
+      "path": "assets/character-variants/shijiang-photo-options-20261020/option-A-photo-faithful.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1907073
+    },
+    {
+      "path": "assets/character-variants/shijiang-photo-options-20261020/option-B-repair-workwear.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1699834
+    },
+    {
+      "path": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1577603
+    },
+    {
+      "path": "assets/character-variants/xiaoman-v1-original.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1574672
+    },
+    {
+      "path": "assets/character-variants/yelan-face-v2-candidate.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1669912
+    },
+    {
+      "path": "assets/character-variants/yelan-v1-original.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1683287
+    },
+    {
+      "path": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1905046
+    },
+    {
+      "path": "assets/character-variants/zhouzhi-v1-original.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1906018
+    },
+    {
+      "path": "assets/cover-b-desktop.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cover-b-mobile.webp",
+      "width": 941,
+      "height": 1672,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cover-options/20261020/option-A-rainy-market.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cover-options/20261020/option-B-river-dusk.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cover-options/20261020/option-C-green-courtyard.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cover-options/20261020/option-D-timber-rain.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/cover-options/20261020/option-E-sloping-lane.webp",
+      "width": 1672,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 0
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-explaining.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 641203
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-thinking.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 453319
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-wave.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 546820
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-displeased.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 467348
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-downcast.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 670207
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 385314
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 481462
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 470778
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-surprised.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 388830
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2030559
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2054521
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2122609
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2090496
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2093522
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2090810
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2101500
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2072449
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2087261
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-explaining.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2031402
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-phone.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2055022
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-thinking.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2073984
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-wave.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 2037721
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-displeased.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1924704
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1937163
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1923703
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1929334
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1928302
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1912379
+    },
+    {
+      "path": "assets/new-character-variants/huangqiuqiu-v1.webp",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 740791
+    },
+    {
+      "path": "assets/new-character-variants/maolang-v1.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1840954
+    },
+    {
+      "path": "assets/new-character-variants/maolang-v2.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1846788
+    },
+    {
+      "path": "assets/new-character-variants/shijiang-v1.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1790849
+    },
+    {
+      "path": "assets/new-character-variants/shijiang-v2.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1791094
+    },
+    {
+      "path": "assets/new-character-variants/shijiang-v3.webp",
+      "width": 1024,
+      "height": 1536,
+      "hasAlpha": true,
+      "alphaEqual": true,
+      "visiblePixelsEqual": true,
+      "transparentRgbDifferences": 1772508
+    }
+  ],
+  "runtime": {
+    "registeredImages": 93,
+    "referencedImages": 100,
+    "referenced": [
+      "assets/background-variants/m2-daynight-20261020/bg-street-day.webp",
+      "assets/backgrounds/bijie-20261020/bg-busstop-day.webp",
+      "assets/backgrounds/bijie-20261020/bg-echo-entrance-night.webp",
+      "assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+      "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.webp",
+      "assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.webp",
+      "assets/backgrounds/bijie-20261020/bg-noodles-dusk.webp",
+      "assets/backgrounds/bijie-20261020/bg-old-eaves-day.webp",
+      "assets/backgrounds/bijie-20261020/bg-residential-slope-day.webp",
+      "assets/backgrounds/bijie-20261020/bg-slope-junction-night.webp",
+      "assets/bg-lobby.webp",
+      "assets/bg-noodles.webp",
+      "assets/bg-repair.webp",
+      "assets/bg-room.webp",
+      "assets/bg-salon.webp",
+      "assets/bg-street.webp",
+      "assets/cg/cg-01-rain-return.webp",
+      "assets/cg/cg-02-xiaoman-mirror.webp",
+      "assets/cg/cg-03-zhouzhi-noodles.webp",
+      "assets/cg/cg-04-mengyao-camera.webp",
+      "assets/cg/cg-05-yelan-inventory.webp",
+      "assets/cg/cg-06-maolang-confession.webp",
+      "assets/cg/cg-07-yelan-off-duty.webp",
+      "assets/cg/cg-08-huangqiuqiu-listening.webp",
+      "assets/cg/cg-09-repair-handoff.webp",
+      "assets/cg/cg-13-xiaoman-night-stall.webp",
+      "assets/char-huangqiuqiu.webp",
+      "assets/char-maolang.webp",
+      "assets/char-piao.webp",
+      "assets/char-shijiang.webp",
+      "assets/char-wenwen.webp",
+      "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-explaining.webp",
+      "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-displeased.webp",
+      "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-downcast.webp",
+      "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-hesitant.webp",
+      "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-serious.webp",
+      "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-smile.webp",
+      "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-surprised.webp",
+      "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.webp",
+      "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.webp",
+      "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.webp",
+      "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.webp",
+      "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.webp",
+      "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.webp",
+      "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.webp",
+      "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.webp",
+      "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.webp",
+      "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.webp",
+      "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.webp",
+      "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.webp",
+      "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+      "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-surprised.webp",
+      "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-hesitant.webp",
+      "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-serious.webp",
+      "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-smile.webp",
+      "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-surprised.webp",
+      "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-explaining.webp",
+      "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.webp",
+      "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.webp",
+      "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.webp",
+      "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.webp",
+      "assets/character-variants/mengyao-face-v2-candidate.webp",
+      "assets/character-variants/piao-optionB-20261020/char-piao-action-explaining.webp",
+      "assets/character-variants/piao-optionB-20261020/char-piao-action-thinking.webp",
+      "assets/character-variants/piao-optionB-20261020/char-piao-action-wave.webp",
+      "assets/character-variants/piao-optionB-20261020/char-piao-expression-displeased.webp",
+      "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.webp",
+      "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+      "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.webp",
+      "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+      "assets/character-variants/piao-optionB-20261020/char-piao-expression-surprised.webp",
+      "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.webp",
+      "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-phone.webp",
+      "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.webp",
+      "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-wave.webp",
+      "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-displeased.webp",
+      "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-downcast.webp",
+      "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-hesitant.webp",
+      "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.webp",
+      "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp",
+      "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-surprised.webp",
+      "assets/character-variants/xiaoman-face-v2-candidate.webp",
+      "assets/character-variants/yelan-face-v2-candidate.webp",
+      "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+      "assets/cover-b-desktop.webp",
+      "assets/cover-b-mobile.webp",
+      "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-displeased.webp",
+      "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-downcast.webp",
+      "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+      "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+      "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.webp",
+      "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.webp",
+      "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.webp",
+      "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.webp",
+      "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.webp",
+      "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+      "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.webp",
+      "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+      "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.webp"
+    ]
+  },
+  "finalHashes": {
+    "index.html": "2ae59b07bff371230049395148dc83bde549443889775d9679a405dc932f4ffa",
+    "styles.css": "71a08eb8e30a8f3a8186ec6bd6fb897a9fdf837d46045558cf5cfd337b3f8dd5",
+    "story.js": "5d9b3dad53fa7de88269f7e605db4cf2e7b80a92587dedffda0e425bb1878e7a",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "save-compat.js": "4ab32d0447c98650719bd61e29615f07d9ebfdc67596e3774a94953c4f98e742",
+    "game.js": "87a8d773c3f51ae930663d8edec927c19a7a0f61076e79d6c6a915848fdc9c6c",
+    "assets/runtime-v0.4-manifest.json": "64f1313a791f48aa0a879eca8d77ee70a0933c167063e3e2ebaac51465bd06d5",
+    "assets/webp-manifest.json": "cede257dd2a2d4d57fc89b6f783bdd93ff57e154fea22f9c2ba1e57812715996"
+  },
+  "finishedAt": "2026-10-21T06:35:17.484Z"
+}

@@ -1,0 +1,238 @@
+{
+  "startedAt": "2026-10-20T09:20:56.991Z",
+  "pass": false,
+  "initialHashes": {
+    "story.js": "1e88bf4fa7b0ff742166c5786a308dd3b4d740e6f939ab2b00c54c3db43e85b2",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "9fca5600452731df2351a353b001f38b702ccd4ad89f1fc7e8e5781e775ec655",
+    "index.html": "a073cf71f8232831f9f260a074b475dd82d750cbddf0bad32dbbde71c331695e",
+    "styles.css": "c498a9a63d759d231f63dca36fcccdabb85c5263ec9ff7dde4e9431a73342bf8",
+    "assets/runtime-v0.4-manifest.json": "3f13e1bb7136bac4c877fa536757cd357c29c777a54695aca8f85a33e3bfbd5f",
+    "assets/cover-b-desktop.png": "2041710ae3b577e40e8664c5a9b452240d7ce0d095279155ac1875c5b6ab33d2",
+    "assets/cover-b-mobile.png": null
+  },
+  "storagePrefix": "bijie-rain-demo:v0.4-background:",
+  "checks": [
+    {
+      "name": "旧 v0.4 与更早存档原文保留，新背景版可开局与刷新续读",
+      "pass": true,
+      "details": {
+        "strategy": "使用独立命名空间",
+        "oldKeysChecked": [
+          "bijie-rain-demo:v0.4:auto",
+          "bijie-rain-demo:v0.4:slot1",
+          "bijie-rain-demo:v0.3:auto",
+          "bijie-rain-demo:v1:slot1"
+        ],
+        "saveNote": "背景补全版使用独立存档。新增人物对白后，原 v0.4、v0.3 与 v1 玩家需重新开始；旧存档仍保留在本浏览器中，恢复旧进度需对应旧版。"
+      }
+    },
+    {
+      "name": "六位女主新增线索真实显示、继续、刷新续读与手动读档",
+      "pass": true,
+      "details": [
+        {
+          "heroine": "xiaoman",
+          "nodeId": "s5_bg_xiaoman_03",
+          "text": "刚进店只会洗头、递毛巾，就先记这些。收工看师傅剪过的头，回去再画，第二天问哪里看错了。",
+          "nextAfterClick": "s5_bg_xiaoman_04"
+        },
+        {
+          "heroine": "zhouzhi",
+          "nodeId": "s6_bg_zhouzhi_02",
+          "text": "这张原来记给自己。以前下夜班，朋友有时等我一起吃。她开火，我切菜，饿得听洋芋下锅都觉得好听。",
+          "nextAfterClick": "s6_bg_zhouzhi_03"
+        },
+        {
+          "heroine": "mengyao",
+          "nodeId": "ch3_bg_mengyao_15_04",
+          "text": "也怕自己拍半天还拿不出像样的。后来接活赶时间，我更容易把“再试一次”咽回去。",
+          "nextAfterClick": "ch3_mengyao_b_13"
+        },
+        {
+          "heroine": "yelan",
+          "nodeId": "ch3_bg_yelan_18_01",
+          "text": "以前有次临时加致辞，我答应得快，转身自己找话筒、挪椅子。跑回来，另一边的人全在等我点头。",
+          "nextAfterClick": "ch3_bg_yelan_18_02"
+        },
+        {
+          "heroine": "huangqiuqiu",
+          "nodeId": "ch2_bg_qiu_01",
+          "text": "以前散场的人常在门外说“改天再来”。我听见了，可有时等到的只是下一批脚步声。",
+          "nextAfterClick": "ch2_bg_qiu_02"
+        },
+        {
+          "heroine": "piao",
+          "nodeId": "ch2_piao_bg_return_01",
+          "text": "我前阵子才回毕节，现在还没上班。想趁这阵子，把这条街重新走一遍。",
+          "nextAfterClick": "ch2_piao_bg_return_02"
+        }
+      ]
+    },
+    {
+      "name": "390×844 本轮最长对白显示与续读",
+      "pass": true,
+      "details": {
+        "nodeId": "epilogue_piao_m_03",
+        "chars": 57,
+        "box": {
+          "left": 15,
+          "top": 546.046875,
+          "right": 375,
+          "bottom": 786,
+          "width": 390,
+          "height": 844,
+          "scrollHeight": 244,
+          "clientHeight": 240,
+          "overflowY": "auto"
+        },
+        "text": {
+          "left": 31,
+          "top": 640.046875,
+          "right": 359,
+          "bottom": 762.421875,
+          "width": 390,
+          "height": 844,
+          "scrollHeight": 122,
+          "clientHeight": 122,
+          "overflowY": "visible"
+        }
+      }
+    },
+    {
+      "name": "375×667 本轮最长对白显示与续读",
+      "pass": true,
+      "details": {
+        "nodeId": "epilogue_piao_m_03",
+        "chars": 57,
+        "box": {
+          "left": 15,
+          "top": 421,
+          "right": 360,
+          "bottom": 609,
+          "width": 375,
+          "height": 667,
+          "scrollHeight": 244,
+          "clientHeight": 188,
+          "overflowY": "auto"
+        },
+        "text": {
+          "left": 31,
+          "top": 515,
+          "right": 344,
+          "bottom": 637.375,
+          "width": 375,
+          "height": 667,
+          "scrollHeight": 122,
+          "clientHeight": 122,
+          "overflowY": "visible"
+        }
+      }
+    },
+    {
+      "name": "file:// 直接打开可读新增对白并刷新续读",
+      "pass": true,
+      "details": {
+        "nodeId": "epilogue_piao_m_03"
+      }
+    }
+  ],
+  "screenshots": [
+    "browser-legacy-preserved-new-start.png",
+    "browser-xiaoman-background.png",
+    "browser-zhouzhi-background.png",
+    "browser-mengyao-background.png",
+    "browser-yelan-background.png",
+    "browser-huangqiuqiu-background.png",
+    "browser-piao-background.png",
+    "browser-mobile-390x844-longest.png",
+    "browser-mobile-375x667-longest.png"
+  ],
+  "pageErrors": [],
+  "network": [
+    {
+      "label": "legacy-storage",
+      "blocked": [],
+      "failed": [],
+      "responseErrors": []
+    },
+    {
+      "label": "six-heroines",
+      "blocked": [],
+      "failed": [],
+      "responseErrors": []
+    },
+    {
+      "label": "mobile-390x844",
+      "blocked": [],
+      "failed": [],
+      "responseErrors": [
+        {
+          "url": "http://127.0.0.1:49830/assets/cover-b-mobile.png",
+          "status": 404
+        }
+      ]
+    },
+    {
+      "label": "mobile-375x667",
+      "blocked": [],
+      "failed": [],
+      "responseErrors": [
+        {
+          "url": "http://127.0.0.1:49830/assets/cover-b-mobile.png",
+          "status": 404
+        }
+      ]
+    },
+    {
+      "label": "file-new-dialogue",
+      "blocked": [],
+      "failed": [],
+      "responseErrors": []
+    }
+  ],
+  "externalCoverIssues": [
+    {
+      "label": "mobile-390x844",
+      "failed": [],
+      "responseErrors": [
+        {
+          "url": "http://127.0.0.1:49830/assets/cover-b-mobile.png",
+          "status": 404
+        }
+      ],
+      "attribution": "共享工作区并行封面工作；与背景对白内容独立"
+    },
+    {
+      "label": "mobile-375x667",
+      "failed": [],
+      "responseErrors": [
+        {
+          "url": "http://127.0.0.1:49830/assets/cover-b-mobile.png",
+          "status": 404
+        }
+      ],
+      "attribution": "共享工作区并行封面工作；与背景对白内容独立"
+    }
+  ],
+  "scope": "六位女主背景对白定点正式页面续读，新增最长对白手机布局，旧档保留与新档读写。",
+  "limitations": [
+    "使用隔离的 Google Chrome；手机仅为视口模拟，未覆盖实体手机、Safari、Firefox。",
+    "定点进度由正式引擎从入口自然重放生成；真实 UI 覆盖定点后续读，不等同全部路径完整 UI 点击。",
+    "不覆盖线上部署与音频听感。"
+  ],
+  "browser": "155.0.8059.85",
+  "contentChecksPass": true,
+  "error": "背景对白与存档专项通过，但并行封面资源仍有缺项；整体页面不记为无资源错误。",
+  "finishedAt": "2026-10-20T09:21:13.972Z",
+  "finalHashes": {
+    "story.js": "1e88bf4fa7b0ff742166c5786a308dd3b4d740e6f939ab2b00c54c3db43e85b2",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "9fca5600452731df2351a353b001f38b702ccd4ad89f1fc7e8e5781e775ec655",
+    "index.html": "a073cf71f8232831f9f260a074b475dd82d750cbddf0bad32dbbde71c331695e",
+    "styles.css": "c498a9a63d759d231f63dca36fcccdabb85c5263ec9ff7dde4e9431a73342bf8",
+    "assets/runtime-v0.4-manifest.json": "3f13e1bb7136bac4c877fa536757cd357c29c777a54695aca8f85a33e3bfbd5f",
+    "assets/cover-b-desktop.png": "2041710ae3b577e40e8664c5a9b452240d7ce0d095279155ac1875c5b6ab33d2",
+    "assets/cover-b-mobile.png": null
+  }
+}

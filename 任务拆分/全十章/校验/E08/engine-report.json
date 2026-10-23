@@ -1,0 +1,420 @@
+{
+  "task": "E08",
+  "scope": "isolated miniature ten-chapter engine protocol; not formal story or browser acceptance",
+  "pass": true,
+  "tests": 102,
+  "passed": 102,
+  "engineStateVersion": 1,
+  "accessesPlayerStorage": false,
+  "formalStoryRead": false,
+  "results": [
+    {
+      "name": "能力导出逐项匹配冻结契约，并保留浏览器导出",
+      "pass": true
+    },
+    {
+      "name": "新开局只写两个初始标记并隔离对象引用",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：缺契约版本",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：旧契约版本",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：缺正文修订",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：不匹配正文修订",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：旧状态格式",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：缺能力",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：未知能力",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：重复能力",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：少一项能力",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：缺初始状态",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：预置相识",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：预置人形",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：预置路线",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：错误初始类型",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：初始值继承属性",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：剥离元信息但保留新节点事件",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：事件写入其他节点",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：事件写入choice",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：事件写入gate",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：相识锚点缺事件",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：变身锚点缺事件",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：事件额外字段",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：行顶层requires",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：选择伪装相识",
+      "pass": true
+    },
+    {
+      "name": "启动拒绝：选择伪装变身",
+      "pass": true
+    },
+    {
+      "name": "局部样例可不包含尚未到达的锚点",
+      "pass": true
+    },
+    {
+      "name": "隐藏资格四组合 0/0",
+      "pass": true
+    },
+    {
+      "name": "隐藏资格四组合 0/1",
+      "pass": true
+    },
+    {
+      "name": "隐藏资格四组合 1/0",
+      "pass": true
+    },
+    {
+      "name": "隐藏资格四组合 1/1",
+      "pass": true
+    },
+    {
+      "name": "精确形态锚点：day42",
+      "pass": true
+    },
+    {
+      "name": "精确形态锚点：day55_before",
+      "pass": true
+    },
+    {
+      "name": "精确形态锚点：day55_transition",
+      "pass": true
+    },
+    {
+      "name": "精确形态锚点：tc_c08_huangqiuqiu_human_reveal",
+      "pass": true
+    },
+    {
+      "name": "精确形态锚点：tc_c09_huangqiuqiu_relationship_choice",
+      "pass": true
+    },
+    {
+      "name": "自动事件幂等、不增加玩家选择或重复行：tc_c02_common_qiu_met",
+      "pass": true
+    },
+    {
+      "name": "自动事件幂等、不增加玩家选择或重复行：tc_c08_huangqiuqiu_human_reveal",
+      "pass": true
+    },
+    {
+      "name": "事件整批拒绝且状态引用不变：缺requires",
+      "pass": true
+    },
+    {
+      "name": "事件整批拒绝且状态引用不变：缺setFlags",
+      "pass": true
+    },
+    {
+      "name": "事件整批拒绝且状态引用不变：空前置条件",
+      "pass": true
+    },
+    {
+      "name": "事件整批拒绝且状态引用不变：条件少一项",
+      "pass": true
+    },
+    {
+      "name": "事件整批拒绝且状态引用不变：条件篡改",
+      "pass": true
+    },
+    {
+      "name": "事件整批拒绝且状态引用不变：继承条件",
+      "pass": true
+    },
+    {
+      "name": "事件整批拒绝且状态引用不变：非数组条件",
+      "pass": true
+    },
+    {
+      "name": "事件整批拒绝且状态引用不变：赋值数组",
+      "pass": true
+    },
+    {
+      "name": "事件整批拒绝且状态引用不变：错误赋值类型",
+      "pass": true
+    },
+    {
+      "name": "事件整批拒绝且状态引用不变：额外关系赋值",
+      "pass": true
+    },
+    {
+      "name": "事件整批拒绝且状态引用不变：额外未知赋值",
+      "pass": true
+    },
+    {
+      "name": "事件整批拒绝且状态引用不变：回退球形",
+      "pass": true
+    },
+    {
+      "name": "事件整批拒绝且状态引用不变：原型键赋值",
+      "pass": true
+    },
+    {
+      "name": "变身前置复核拒绝：qiuSignal=ignore",
+      "pass": true
+    },
+    {
+      "name": "变身前置复核拒绝：qiuReply=leave",
+      "pass": true
+    },
+    {
+      "name": "变身前置复核拒绝：route=friends",
+      "pass": true
+    },
+    {
+      "name": "变身前置复核拒绝：qiuMet=false",
+      "pass": true
+    },
+    {
+      "name": "变身前置复核拒绝：qiuMet=true",
+      "pass": true
+    },
+    {
+      "name": "缺自有前置值不能通过事件",
+      "pass": true
+    },
+    {
+      "name": "choose后经gate再执行事件使用候选flags且一次提交",
+      "pass": true
+    },
+    {
+      "name": "choose后缺失事件前置不得保留该次选择",
+      "pass": true
+    },
+    {
+      "name": "运行中choice被篡改写形态时拒绝且不变",
+      "pass": true
+    },
+    {
+      "name": "穷尽gate拒绝非法路线：undefined",
+      "pass": true
+    },
+    {
+      "name": "穷尽gate拒绝非法路线：null",
+      "pass": true
+    },
+    {
+      "name": "穷尽gate拒绝非法路线：invalid",
+      "pass": true
+    },
+    {
+      "name": "穷尽gate拒绝非法路线：true",
+      "pass": true
+    },
+    {
+      "name": "穷尽gate拒绝非null默认：friends_end",
+      "pass": true
+    },
+    {
+      "name": "穷尽gate拒绝非null默认：undefined",
+      "pass": true
+    },
+    {
+      "name": "穷尽gate拒绝非null默认：false",
+      "pass": true
+    },
+    {
+      "name": "选择非法枚举后穷尽gate不提交候选flag和历史",
+      "pass": true
+    },
+    {
+      "name": "gate后目标断链不提交选择",
+      "pass": true
+    },
+    {
+      "name": "gate循环不提交选择",
+      "pass": true
+    },
+    {
+      "name": "确定性恢复前缀：start",
+      "pass": true
+    },
+    {
+      "name": "确定性恢复前缀：signal",
+      "pass": true
+    },
+    {
+      "name": "确定性恢复前缀：reply",
+      "pass": true
+    },
+    {
+      "name": "确定性恢复前缀：tc_c02_common_qiu_met",
+      "pass": true
+    },
+    {
+      "name": "确定性恢复前缀：tc_c03_common_route_choice",
+      "pass": true
+    },
+    {
+      "name": "确定性恢复前缀：outing",
+      "pass": true
+    },
+    {
+      "name": "确定性恢复前缀：day42",
+      "pass": true
+    },
+    {
+      "name": "确定性恢复前缀：day55_before",
+      "pass": true
+    },
+    {
+      "name": "确定性恢复前缀：day55_transition",
+      "pass": true
+    },
+    {
+      "name": "确定性恢复前缀：tc_c08_huangqiuqiu_human_reveal",
+      "pass": true
+    },
+    {
+      "name": "确定性恢复前缀：tc_c09_huangqiuqiu_relationship_choice",
+      "pass": true
+    },
+    {
+      "name": "确定性恢复前缀：dating_end",
+      "pass": true
+    },
+    {
+      "name": "确定性恢复前缀：qiu_friends_end",
+      "pass": true
+    },
+    {
+      "name": "确定性恢复前缀：friends_end",
+      "pass": true
+    },
+    {
+      "name": "恢复拒绝伪造且保留当前状态：伪造变身",
+      "pass": true
+    },
+    {
+      "name": "恢复拒绝伪造且保留当前状态：伪造相识",
+      "pass": true
+    },
+    {
+      "name": "恢复拒绝伪造且保留当前状态：注入关系",
+      "pass": true
+    },
+    {
+      "name": "恢复拒绝伪造且保留当前状态：篡改路线",
+      "pass": true
+    },
+    {
+      "name": "恢复拒绝伪造且保留当前状态：漏初始标记",
+      "pass": true
+    },
+    {
+      "name": "恢复拒绝伪造且保留当前状态：漏历史",
+      "pass": true
+    },
+    {
+      "name": "恢复拒绝伪造且保留当前状态：漏选择",
+      "pass": true
+    },
+    {
+      "name": "恢复拒绝伪造且保留当前状态：注入checkpoint",
+      "pass": true
+    },
+    {
+      "name": "恢复拒绝伪造且保留当前状态：越过变身节点",
+      "pass": true
+    },
+    {
+      "name": "恢复早期快照不串后续人形与关系",
+      "pass": true
+    },
+    {
+      "name": "重选只保留正确前缀：tc_c03_common_route_choice",
+      "pass": true
+    },
+    {
+      "name": "重选只保留正确前缀：outing",
+      "pass": true
+    },
+    {
+      "name": "重选只保留正确前缀：tc_c09_huangqiuqiu_relationship_choice",
+      "pass": true
+    },
+    {
+      "name": "重选第三章转朋友线不会保留人形",
+      "pass": true
+    },
+    {
+      "name": "第九章重选恋人/朋友均延续人形",
+      "pass": true
+    },
+    {
+      "name": "重选未到达选择或伪造当前flags不改变状态",
+      "pass": true
+    },
+    {
+      "name": "自动事件历史中只保留普通line结构",
+      "pass": true
+    }
+  ]
+}

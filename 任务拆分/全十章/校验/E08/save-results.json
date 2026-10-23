@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "scope": "E08 save metadata and deterministic restore using isolated ten-chapter candidate",
+  "checks": [
+    {
+      "name": "十章与旧版存档空间及三种版本严格分开",
+      "pass": true,
+      "detail": {
+        "tenChapter": "bijie-rain-demo:ten-chapter:nightshift-20261022-r1:",
+        "legacy": "bijie-rain-demo:v0.4-background:",
+        "metadata": {
+          "contentVersion": 1,
+          "engineStateVersion": 1,
+          "contractVersion": "1.0.0",
+          "contentRevision": "nightshift-20261022-r1"
+        }
+      }
+    },
+    {
+      "name": "真实十章关键节点经 JSON 信封保存恢复，原始状态保持不变",
+      "pass": true,
+      "detail": {
+        "snapshots": [
+          {
+            "nodeId": "tc_c01_common_entry",
+            "qiuMet": false,
+            "qiuForm": "sphere"
+          },
+          {
+            "nodeId": "tc_c02_common_qiu_met",
+            "qiuMet": true,
+            "qiuForm": "sphere"
+          },
+          {
+            "nodeId": "tc_c03_common_route_choice",
+            "qiuMet": true,
+            "qiuForm": "sphere"
+          },
+          {
+            "nodeId": "tc_c08_huangqiuqiu_entry",
+            "qiuMet": true,
+            "qiuForm": "sphere"
+          },
+          {
+            "nodeId": "tc_c08_huangqiuqiu_human_reveal",
+            "qiuMet": true,
+            "qiuForm": "human"
+          },
+          {
+            "nodeId": "tc_c10_huangqiuqiu_end_dating",
+            "qiuMet": true,
+            "qiuForm": "human"
+          },
+          {
+            "nodeId": "tc_c10_huangqiuqiu_end_friends",
+            "qiuMet": true,
+            "qiuForm": "human"
+          }
+        ]
+      }
+    },
+    {
+      "name": "缺失、类型错误、继承或不匹配的版本信息全部拒绝",
+      "pass": true,
+      "detail": {
+        "rejected": 24
+      }
+    },
+    {
+      "name": "合法版本不能掩盖伪造形态、关系、历史或检查点",
+      "pass": true,
+      "detail": {
+        "rejected": [
+          "未相识伪造资格",
+          "变身前伪造人形",
+          "变身后伪造球形",
+          "伪造恋人关系",
+          "篡改已读文本",
+          "删除选择轨迹",
+          "注入检查点"
+        ]
+      }
+    },
+    {
+      "name": "不完整十章标识拒绝启动，不会回退旧存档空间",
+      "pass": true,
+      "detail": {
+        "rejected": 9
+      }
+    },
+    {
+      "name": "旧两句补丁保留，已标记版本与十章均不使用该迁移",
+      "pass": true,
+      "detail": {
+        "migratedLegacy": true,
+        "versionedLegacyRejected": true,
+        "tenChapterRejectsLegacy": true
+      }
+    },
+    {
+      "name": "内存隔离存储只访问新空间，旧空间哨兵逐字节保持",
+      "pass": true,
+      "detail": {
+        "accessed": [
+          [
+            "write",
+            "bijie-rain-demo:ten-chapter:nightshift-20261022-r1:auto"
+          ],
+          [
+            "read",
+            "bijie-rain-demo:ten-chapter:nightshift-20261022-r1:auto"
+          ]
+        ],
+        "preservedOldKeys": [
+          "bijie-rain-demo:v1:auto",
+          "bijie-rain-demo:v0.3:auto",
+          "bijie-rain-demo:v0.4:auto",
+          "bijie-rain-demo:v0.4-background:auto"
+        ],
+        "storage": "fresh in-memory Map only; browser storage untouched"
+      }
+    }
+  ],
+  "formalIntegration": false,
+  "notValidated": [
+    "正式十章接入",
+    "真实浏览器玩家存档",
+    "E09演出与资源",
+    "实体手机、声音与真人阅读",
+    "发布"
+  ]
+}

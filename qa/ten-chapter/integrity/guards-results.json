@@ -1,0 +1,55 @@
+{
+  "task": "E10",
+  "runAt": "2026-10-23T05:18:47.649Z",
+  "storySha256": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60",
+  "passed": 11,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "未采用背景路径拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "假协议图片拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "缺少已采用注册资源拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "资源声明SHA漂移拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "采用版本漂移拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "缺失形态或头像拒绝启动",
+      "status": "passed"
+    },
+    {
+      "name": "未声明/额外能力拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "自动事件必须完整符合白名单",
+      "status": "passed"
+    },
+    {
+      "name": "隐藏选项的旧索引不能越权且失败不改状态",
+      "status": "passed"
+    },
+    {
+      "name": "缺形态/未知差分不能跨形态回退",
+      "status": "passed"
+    },
+    {
+      "name": "全部CG在不合法条件或缺事件历史时拒绝",
+      "status": "passed"
+    }
+  ],
+  "mutations": "只在内存中，未改正式数据/美术/玩家存档",
+  "testSha256": "dab8d219cd91ef0275f4241c534e2900d97a04360d389302f7a89eab0f453731"
+}

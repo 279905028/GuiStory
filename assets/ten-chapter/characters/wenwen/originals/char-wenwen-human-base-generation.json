@@ -1,0 +1,14 @@
+{
+  "key": "wenwen-base",
+  "character": "wenwen",
+  "file": "char-wenwen-human-base",
+  "ref": "assets/char-wenwen.webp",
+  "change": "仅移除胸前口袋露出的全部红黑维修工具和笔状物，补齐口袋布料。绝不能保留螺丝刀、笔、工具、绑带。其他一切保持原图，尤其短寸圆脸、微笑、头部落点、双手插袋、灰色T恤和炭灰夹克。",
+  "prompt": "Use case: precise-object-edit\n这是本地视觉小说已采用立绘的局部编辑。输入图片是唯一编辑对象。\n修改要求：仅移除胸前口袋露出的全部红黑维修工具和笔状物，补齐口袋布料。绝不能保留螺丝刀、笔、工具、绑带。其他一切保持原图，尤其短寸圆脸、微笑、头部落点、双手插袋、灰色T恤和炭灰夹克。\n保持原画1024×1536的画布与人物比例/裁切，保持角色成年、同一个人、同样半写实手绘风格与照明，不全身重画、不改成另一张脸。背景是真实全透明alpha，无底色、无阴影地面、无棋盘格、无文字水印。输出一张独立立绘。",
+  "references": [
+    "/Users/yipin/Desktop/cjb/assets/char-wenwen.webp"
+  ],
+  "generatedPath": "/Users/yipin/.codex/generated_images/01a162af-0842-7a61-a6ca-7846101abfe6/exec-3a75ea7d-b1d4-49b1-aeb3-b7b2747e77fd.png",
+  "tool": "image_gen built-in",
+  "attempt": 1
+}

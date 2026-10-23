@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-23",
+  "task": "A06",
+  "pass": true,
+  "checks": [
+    {
+      "name": "所有采用文件与来源存在且当前指纹一致",
+      "pass": true
+    },
+    {
+      "name": "采用与本轮逐图审计一一对应",
+      "pass": true
+    },
+    {
+      "name": "130项需求均有采用或明确替代且拒收图不混入",
+      "pass": true
+    },
+    {
+      "name": "当前来源版本与全部输入指纹锁定",
+      "pass": true
+    },
+    {
+      "name": "17模块节点及场景完整索引，逐节点来源可追溯",
+      "pass": true
+    },
+    {
+      "name": "180个场段引用闭合且各路线不串入其他路线节点",
+      "pass": true
+    },
+    {
+      "name": "待定地点及章末没有虚假采用文件",
+      "pass": true
+    },
+    {
+      "name": "精确时段修正保留饭局、回叙与下午差别",
+      "pass": true
+    },
+    {
+      "name": "CG进入退出引用存在且条件规则未丢失",
+      "pass": true
+    },
+    {
+      "name": "双形态所有图像与头像均已采用，衣装限制保留",
+      "pass": true
+    },
+    {
+      "name": "独立画廊当前138图与筛选检查通过",
+      "pass": true
+    },
+    {
+      "name": "602个开工保护文件未变",
+      "pass": true
+    }
+  ],
+  "counts": {
+    "images": 138,
+    "a01Requirements": 130,
+    "sections": 180,
+    "scenes": 360,
+    "nodes": 2612
+  },
+  "artifacts": [
+    {
+      "path": "assets/ten-chapter/a06-adoption.json",
+      "sha256": "8dd547dc110af7c8a36d8d0b6fe71a294594f59fb95dfa2816c797b8280c5292"
+    },
+    {
+      "path": "assets/ten-chapter/a06-scene-node-map.json",
+      "sha256": "32ec9e1c9db2d9bb69ac5ae13ec3ba472239156eaa9bcca73c3a4502a58d9544"
+    },
+    {
+      "path": "assets/ten-chapter/index.html",
+      "sha256": "52c6da5e0ac5960862ca3d0624a6d724dbc87aec3ec6af1538f55155bbe37444"
+    },
+    {
+      "path": "assets/ten-chapter/a06-integration-guide.md",
+      "sha256": "170ce2bb321575d29e64c82171f713ffc4d4a3d6c6bd671518268deefcd3e216"
+    }
+  ],
+  "formalIntegration": false,
+  "gameTested": false,
+  "playerStorageAccessed": false,
+  "browserRecovery": "初次沙箱内Chrome启动失败；按授权在独立临时浏览器环境重试，画廊实测通过。"
+}

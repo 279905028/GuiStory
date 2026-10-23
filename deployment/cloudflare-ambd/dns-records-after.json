@@ -1,0 +1,40 @@
+[
+  {
+    "id": "18eba9d145699c5a0b5f091a97929d37",
+    "name": "works.ambd.site",
+    "type": "CNAME",
+    "content": "public.r2.dev",
+    "proxiable": true,
+    "proxied": true,
+    "ttl": 1,
+    "settings": {
+      "flatten_cname": false
+    },
+    "meta": {
+      "r2_bucket": "portfolio-assets",
+      "read_only": true
+    },
+    "comment": null,
+    "tags": [],
+    "created_on": "2026-05-15T11:21:32.07878Z",
+    "modified_on": "2026-05-15T11:21:32.07878Z"
+  },
+  {
+    "id": "6eacebcf70daa349ae28fbb563f1448c",
+    "name": "galagame.ambd.site",
+    "type": "AAAA",
+    "content": "100::",
+    "proxiable": true,
+    "proxied": true,
+    "ttl": 1,
+    "settings": {},
+    "meta": {
+      "origin_worker_id": "e518cb72878de62884171bb813cfea8861b0aa60",
+      "read_only": true
+    },
+    "comment": null,
+    "tags": [],
+    "created_on": "2026-10-20T05:05:00.365317Z",
+    "modified_on": "2026-10-20T05:05:00.365317Z"
+  }
+]

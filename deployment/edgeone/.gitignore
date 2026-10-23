@@ -1,0 +1,11 @@
+site/
+.edgeone/
+deploy.log
+deploy-output.json
+edgeone.zip
+
+# Tencent Cloud EdgeOne
+.env
+.edgeone/*
+.tef_dist/*
+  

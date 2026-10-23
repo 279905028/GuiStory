@@ -1,0 +1,5449 @@
+{
+  "task": "E07",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "status": "requested-not-adopted",
+  "formalIntegration": false,
+  "formFlag": "qiuForm",
+  "formsIndex": "assets/ten-chapter/huangqiuqiu/forms-index.json",
+  "formsIndexSha256": "b9685a8c6bcc062b43c16f22276cbd822d772e4f6cbba587eaa5e45a51dd7cf6",
+  "registrationOwner": "E09",
+  "adoptionOwner": "A06",
+  "playerOwner": "E08",
+  "integrationRules": [
+    "expression=base表示使用该form的image/avatarImage；绑定时省略expression，不查找expressions.base。",
+    "每行character=null须清除上一行实体立绘；公共章节和婚宴不得残留球球立绘。",
+    "立绘与说话头像均读取该节点onEnter提交后的qiuForm，禁止跨形态回退。",
+    "回顾、恢复与重选按完整历史前缀重放；第三章重选保留相识、清除后续人形，第九章重选保留人形。",
+    "人形仅腰部镜头，不以照片外的下装或公开登场补足画面。"
+  ],
+  "nodeRequests": [
+    {
+      "nodeId": "tc_c03_huangqiuqiu_entry",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 972
+      },
+      "form": "sphere",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 974
+      },
+      "form": "sphere",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 976
+      },
+      "form": "sphere",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 978
+      },
+      "form": "sphere",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 980
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 982
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 984
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 986
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_009",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 988
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_010",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 990
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_011",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 992
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_012",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 994
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_013",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 996
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_014",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 998
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_015",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1000
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_016",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1002
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_017",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1004
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "expression-smile",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-expression-smile",
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-smile.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_018",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1006
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_019",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1008
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_020",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1010
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_021",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1012
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_022",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1014
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_023",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1016
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_024",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1018
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_025",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1020
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_026",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1022
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_001",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1026
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1028
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1030
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1032
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1034
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1036
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1038
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1040
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_009",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1042
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_010",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1044
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_011",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1046
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "expression-serious",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-expression-serious",
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-serious.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_012",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1048
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_013",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1050
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_014",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1052
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_015",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1054
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_016",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1056
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_017",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1058
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_018",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1060
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "expression-smile",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-expression-smile",
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-smile.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_019",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1062
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_020",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1064
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_021",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1066
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_022",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1068
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_001",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1072
+      },
+      "form": "sphere",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1074
+      },
+      "form": "sphere",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1076
+      },
+      "form": "sphere",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1078
+      },
+      "form": "sphere",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1080
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1082
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1084
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1086
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_009",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1088
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_010",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1090
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_011",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1092
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_012",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1094
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_013",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1096
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_014",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1098
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_015",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1100
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_016",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1102
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_017",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1104
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "expression-smile",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-expression-smile",
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-smile.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_018",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1106
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_019",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1108
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_020",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1110
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_021",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1112
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_022",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "line": 1114
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_entry",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 510
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_outing_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 512
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_outing_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 514
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_outing_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 516
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_outing_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 518
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_outing_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 520
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_portrait_001",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 529
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_portrait_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 531
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_portrait_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 533
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_portrait_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 535
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_portrait_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 537
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_portrait_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 539
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_portrait_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 541
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_portrait_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 543
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "action-hand",
+      "avatarExpression": null,
+      "assetId": "tc-look-huangqiuqiu-orb-hand",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-action-hand.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_portrait_009",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 545
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_story_001",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 549
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_story_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 551
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_story_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 553
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_story_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 555
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_story_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 557
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "expression-smile",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-expression-smile",
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-smile.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_001",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 561
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 563
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 565
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "action-hand",
+      "avatarExpression": "action-hand",
+      "assetId": "tc-look-huangqiuqiu-orb-hand",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-action-hand.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 567
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "action-hand",
+      "avatarExpression": null,
+      "assetId": "tc-look-huangqiuqiu-orb-hand",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-action-hand.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 569
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 571
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 573
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 575
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_009",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 577
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_010",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 579
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_011",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "line": 581
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_entry",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 507
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 509
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 511
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 513
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 515
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 517
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 519
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 521
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_009",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 523
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "expression-serious",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-expression-serious",
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-serious.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_010",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 525
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "expression-smile",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-expression-smile",
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-smile.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_011",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 527
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_012",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 529
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_013",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 531
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_014",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 533
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_015",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 535
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_016",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 537
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_017",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 539
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_018",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 541
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_001",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 545
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 547
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 549
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "expression-serious",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-expression-serious",
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-serious.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 551
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 553
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 555
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 557
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 559
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_009",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 561
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "expression-smile",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-expression-smile",
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-smile.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_010",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 563
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_011",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 565
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_012",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 567
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_013",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 569
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_014",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "line": 571
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "action-hand",
+      "avatarExpression": null,
+      "assetId": "tc-look-huangqiuqiu-orb-hand",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-action-hand.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_entry",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 479
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 481
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 483
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 485
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 487
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 489
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 491
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 493
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_009",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 495
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_010",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 497
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_011",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 499
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_012",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 501
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_001",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 505
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 507
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 509
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 511
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 513
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 515
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 517
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "expression-smile",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-expression-smile",
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-smile.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 519
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_009",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 521
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_010",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 523
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_011",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 525
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_012",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 527
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_013",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 529
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_014",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 531
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_015",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 533
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_016",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 535
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "action-hand",
+      "avatarExpression": null,
+      "assetId": "tc-look-huangqiuqiu-orb-hand",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-action-hand.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_017",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 537
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_018",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 539
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_019",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 541
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_020",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "line": 543
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_entry",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 501
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_quiet_company_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 503
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_quiet_company_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 505
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_quiet_company_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 507
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_quiet_company_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 509
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_quiet_company_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 511
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_quiet_company_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 513
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_quiet_company_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 515
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_outing_return_001",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 519
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_outing_return_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 521
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_001",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 525
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 527
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 529
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 531
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "expression-serious",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-expression-serious",
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-serious.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 533
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 535
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 537
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 539
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_009",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 541
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "expression-smile",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-expression-smile",
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-smile.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_010",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 543
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_011",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 545
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_012",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 547
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_013",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 549
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_014",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 551
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "expression-hesitant",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-expression-hesitant",
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-hesitant.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_015",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 553
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_016",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 555
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_017",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 557
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_018",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 559
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_entry",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 459
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 461
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 463
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 465
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 467
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 469
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 471
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 473
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "action-hand",
+      "avatarExpression": null,
+      "assetId": "tc-look-huangqiuqiu-orb-hand",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-action-hand.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_009",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 475
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "action-hand",
+      "avatarExpression": null,
+      "assetId": "tc-look-huangqiuqiu-orb-hand",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-action-hand.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_010",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 477
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_011",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 479
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_012",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 481
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_013",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 483
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_001",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 487
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "action-hand",
+      "avatarExpression": null,
+      "assetId": "tc-look-huangqiuqiu-orb-hand",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-action-hand.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 489
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 491
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 493
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "expression-hesitant",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-expression-hesitant",
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-hesitant.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 495
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 497
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 499
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "action-hand",
+      "avatarExpression": null,
+      "assetId": "tc-look-huangqiuqiu-orb-hand",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-action-hand.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 501
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_009",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 503
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_010",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 505
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "expression-smile",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-expression-smile",
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-smile.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_011",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 507
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_012",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 509
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_013",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 511
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_014",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 513
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_015",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 515
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_016",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 517
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_017",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 519
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_018",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 521
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "expression-serious",
+      "avatarExpression": "expression-serious",
+      "assetId": "tc-char-huangqiuqiu-orb-expression-serious",
+      "image": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-serious.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_019",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 523
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "physical",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_020",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 525
+      },
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "image": "assets/char-huangqiuqiu.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "rendering": "transition-without-early-human-reveal",
+      "framing": "sphere-contain",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_human_reveal",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 527
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_022",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 529
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "expression-hesitant",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-expression-hesitant",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-hesitant.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-hesitant.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_023",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 531
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_024",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 533
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "expression-serious",
+      "avatarExpression": "expression-serious",
+      "assetId": "tc-char-huangqiuqiu-human-expression-serious",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-serious.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-serious.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_025",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 535
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_026",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 537
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_027",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 539
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "expression-smile",
+      "avatarExpression": "expression-smile",
+      "assetId": "tc-char-huangqiuqiu-human-expression-smile",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-smile.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_028",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 541
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_029",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "line": 543
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "action-wave",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-action-wave",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-action-wave.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-wave.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_entry",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 547
+      },
+      "form": "human",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_relationship_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 549
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_relationship_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 551
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_relationship_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 553
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "expression-serious",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-expression-serious",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-serious.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-serious.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_relationship_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 555
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_relationship_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 557
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_relationship_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 559
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_relationship_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 561
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_relationship_009",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 563
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_dating_001",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 572
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "expression-hesitant",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-expression-hesitant",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-hesitant.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-hesitant.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_dating_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 574
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_dating_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 576
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_dating_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 578
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_dating_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 580
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_dating_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 582
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_dating_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 584
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_dating_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 586
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_dating_009",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 588
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "expression-smile",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-expression-smile",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-smile.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_dating_010",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 590
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_dating_011",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 592
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "action-wave",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-action-wave",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-action-wave.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-wave.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_dating_012",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 594
+      },
+      "form": "human",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_friends_001",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 598
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "expression-downcast",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-expression-downcast",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-downcast.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-downcast.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_friends_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 600
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_friends_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 602
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_friends_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 604
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_friends_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 606
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_friends_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 608
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "expression-smile",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-expression-smile",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-smile.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_friends_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 610
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_friends_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 612
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_friends_009",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 614
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_friends_010",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "line": 616
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "action-wave",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-action-wave",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-action-wave.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-wave.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_001",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 533
+      },
+      "form": "human",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 535
+      },
+      "form": "human",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 537
+      },
+      "form": "human",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 539
+      },
+      "form": "human",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 541
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "action-wave",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-action-wave",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-action-wave.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-wave.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 543
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 545
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 547
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_009",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 549
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_010",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 551
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "expression-smile",
+      "avatarExpression": "expression-smile",
+      "assetId": "tc-char-huangqiuqiu-human-expression-smile",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-smile.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_011",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 553
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_012",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 555
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "expression-smile",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-expression-smile",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-smile.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_013",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 557
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_014",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 559
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "action-thinking",
+      "avatarExpression": null,
+      "assetId": "tc-look-huangqiuqiu-human-chin",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-chin-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-thinking.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_015",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 561
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_016",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 563
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_017",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 565
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_dating_018",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 567
+      },
+      "form": "human",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_friends_001",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 571
+      },
+      "form": "human",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_friends_002",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 573
+      },
+      "form": "human",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_friends_003",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 575
+      },
+      "form": "human",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_friends_004",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 577
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "action-thinking",
+      "avatarExpression": null,
+      "assetId": "tc-look-huangqiuqiu-human-chin",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-chin-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-thinking.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_friends_005",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 579
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": "base",
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_friends_006",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 581
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_friends_007",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 583
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_friends_008",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 585
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_friends_009",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 587
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_friends_010",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 589
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "expression-smile",
+      "avatarExpression": "expression-smile",
+      "assetId": "tc-char-huangqiuqiu-human-expression-smile",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-smile.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_friends_011",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 591
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_friends_012",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 593
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_friends_013",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 595
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_friends_014",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 597
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "expression-smile",
+      "avatarExpression": "expression-smile",
+      "assetId": "tc-char-huangqiuqiu-human-expression-smile",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-smile.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-smile.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_friends_015",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 599
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_friends_016",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 601
+      },
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "action-wave",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-action-wave",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-action-wave.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-wave.webp",
+      "rendering": "physical",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_friends_017",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "line": 603
+      },
+      "form": "human",
+      "character": null,
+      "expression": "base",
+      "avatarExpression": null,
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "image": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "avatarImage": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "rendering": "no-physical-sprite",
+      "framing": "waist-up-no-new-lower-clothing",
+      "status": "requested-not-adopted"
+    }
+  ],
+  "sceneRequests": [
+    {
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting",
+      "backgroundAssetId": "tc-bg-rental-day",
+      "location": "文文出租屋",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_side_door",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院侧门外",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院侧门外",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c04_huangqiuqiu_outing",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c04_huangqiuqiu_portrait",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c04_huangqiuqiu_story",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c04_huangqiuqiu_higher_seat",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c05_huangqiuqiu_unfinished_yawn",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c06_huangqiuqiu_after_dinner",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c07_huangqiuqiu_quiet_company",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c07_huangqiuqiu_outing_return",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c08_huangqiuqiu_trial_roster",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c09_huangqiuqiu_relationship",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院侧门外",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c09_huangqiuqiu_relationship_inside",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c09_huangqiuqiu_dating",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c09_huangqiuqiu_dating_outside",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院侧门外",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c09_huangqiuqiu_friends",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c09_huangqiuqiu_friends_days_later",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c10_huangqiuqiu_dating",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院侧门外",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c10_huangqiuqiu_dating_inside",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c10_huangqiuqiu_dating_outside",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院侧门外",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c10_huangqiuqiu_friends",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院侧门外",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c10_huangqiuqiu_friends_inside",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c10_huangqiuqiu_friends_doorway",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内门边",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c10_huangqiuqiu_friends_inside_again",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院门内干处",
+      "status": "requested-not-adopted"
+    },
+    {
+      "sceneId": "ts_c10_huangqiuqiu_friends_outside",
+      "backgroundAssetId": "tc-bg-courtyard-day",
+      "location": "网吧后院侧门外",
+      "status": "requested-not-adopted"
+    }
+  ],
+  "sequence": [
+    {
+      "nodeId": "tc_c07_huangqiuqiu_another_form_015",
+      "chapter": 7,
+      "day": 42,
+      "form": "sphere",
+      "meaning": "只提出另一副模样，未变身"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_001",
+      "chapter": 8,
+      "day": 55,
+      "time": "17:00",
+      "form": "sphere",
+      "meaning": "先轻搭手"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_010",
+      "form": "sphere",
+      "meaning": "她自行松开，不触发告白或变身"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_018",
+      "form": "sphere",
+      "meaning": "她主动提出今天试试"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_019",
+      "form": "sphere",
+      "meaning": "文文收手退凳并留出空间"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_020",
+      "form": "sphere",
+      "rendering": "transition-without-early-human-reveal",
+      "meaning": "过渡行保持球形状态；可淡出球形，不提前露人形、不新增下装"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_human_reveal",
+      "form": "human",
+      "meaning": "onEnter提交后首次展示人形立绘及对应头像"
+    },
+    {
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_029",
+      "form": "human",
+      "meaning": "挥手告别"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_relationship_choice",
+      "form": "human",
+      "meaning": "变身已完成，交往／朋友不影响形态"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_end_dating",
+      "form": "human",
+      "meaning": "两年后人形结局"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_end_friends",
+      "form": "human",
+      "meaning": "两年后人形结局"
+    }
+  ],
+  "relativeTimeNotes": [
+    {
+      "nodeIds": [
+        "tc_c09_huangqiuqiu_friends_007",
+        "tc_c09_huangqiuqiu_friends_008",
+        "tc_c09_huangqiuqiu_friends_009",
+        "tc_c09_huangqiuqiu_friends_010"
+      ],
+      "anchorDay": 76,
+      "label": "第76天后的数日（具体日序未注明）",
+      "note": "冻结接口要求数值day，76仅为本段日期锚点，不能把此处当作第76天同日。chronology.label与time保留相对日序；E08/E09显示时使用该相对文字，不编造第几天。"
+    }
+  ],
+  "controlRequests": [
+    {
+      "nodeId": "tc_c04_huangqiuqiu_outing_choice",
+      "form": "sphere",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "rendering": "physical",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c09_huangqiuqiu_relationship_choice",
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "rendering": "physical",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_end_dating",
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "rendering": "ending-card-private-courtyard",
+      "status": "requested-not-adopted"
+    },
+    {
+      "nodeId": "tc_c10_huangqiuqiu_end_friends",
+      "form": "human",
+      "character": "huangqiuqiu",
+      "expression": "base",
+      "rendering": "ending-card-private-courtyard",
+      "status": "requested-not-adopted"
+    }
+  ]
+}

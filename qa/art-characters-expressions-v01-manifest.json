@@ -1,0 +1,2080 @@
+{
+  "date": "2026-10-19",
+  "expected": 81,
+  "selected_count": 81,
+  "unique_sha256": 81,
+  "counts": {
+    "wenwen": 18,
+    "xiaoman": 9,
+    "zhouzhi": 9,
+    "mengyao": 9,
+    "yelan": 9,
+    "maolang": 9,
+    "shijiang": 9,
+    "huangqiuqiu": 9
+  },
+  "bytes": 159785562,
+  "assets": [
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "smile",
+      "label": "微笑",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 624228,
+      "alpha128_bbox": [
+        106,
+        22,
+        1005,
+        1536
+      ],
+      "sha256": "e6b925e52feded4b555a13dc32041abd261fdd0830816f1e510c3e89c7c567c0",
+      "bytes": 2219084,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-2bea4da8-33a2-44ee-990b-9ebf0f12ab3d.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "serious",
+      "label": "认真",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 626467,
+      "alpha128_bbox": [
+        105,
+        21,
+        1005,
+        1536
+      ],
+      "sha256": "3e60054129fd00bdb0a048b70f8aa6f5c3d840128f464dde1926feb41d0f0c91",
+      "bytes": 2205624,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-93e0f921-b113-4449-b44a-2d0ddc05827f.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "hesitant",
+      "label": "犹豫",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 628919,
+      "alpha128_bbox": [
+        106,
+        22,
+        1004,
+        1536
+      ],
+      "sha256": "2e74049a392cf793f6072b45a39cb4c8cd24d12f0c52b2023ba1e101fce6d213",
+      "bytes": 2145513,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-25789be0-acd0-430f-a7c0-8e149bb5c7f9.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "surprised",
+      "label": "惊讶",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 627546,
+      "alpha128_bbox": [
+        106,
+        22,
+        1005,
+        1536
+      ],
+      "sha256": "521d889a40b086d6784c7ad852c733a737a62f04d591200eb080f5ad7006c98b",
+      "bytes": 2234688,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-0855a2e4-4a98-424e-af06-959323eaa67a.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "displeased",
+      "label": "不悦",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-displeased.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 628700,
+      "alpha128_bbox": [
+        106,
+        22,
+        1005,
+        1536
+      ],
+      "sha256": "1c500c5e6468fcb5cee6bf1c2e581cfec102166502cc33afa7f55a9e95ad55e6",
+      "bytes": 2151006,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-e5bb1f19-76bb-413f-9b15-8c298dbfb444.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "downcast",
+      "label": "低落",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-downcast.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 626592,
+      "alpha128_bbox": [
+        106,
+        22,
+        1005,
+        1536
+      ],
+      "sha256": "49c42013ef1e35307dbd3a3cd1e5ffd3a34de011793832dea1b1f870439bffe4",
+      "bytes": 2210292,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-c5092027-b17a-4cb0-87a1-2d997e20d48a.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "embarrassed",
+      "label": "尴尬",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 627906,
+      "alpha128_bbox": [
+        107,
+        22,
+        1004,
+        1536
+      ],
+      "sha256": "b76af0b747f88e0b7e4750f5eae60e2b1de1d72eb237fc60dd43f258934f1744",
+      "bytes": 2186411,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-b45b4055-bb52-40a2-b4fd-7ddf81319541.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "relieved",
+      "label": "释然",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-relieved.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 629698,
+      "alpha128_bbox": [
+        107,
+        22,
+        1004,
+        1536
+      ],
+      "sha256": "7223c94dfa91c8a6611591f8d7ac528371513525b6ad2a45dd5f26e334a6ab7b",
+      "bytes": 2196367,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-b09b6dfb-54fd-4620-a191-e2731f2073bf.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "guilty",
+      "label": "愧疚",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 620123,
+      "alpha128_bbox": [
+        105,
+        22,
+        1007,
+        1536
+      ],
+      "sha256": "a3169d9e2391ef67ac577a5ebc7543e28e5d042ff61620bbfa755ce720bf3951",
+      "bytes": 2206129,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-bba725bf-e722-4125-9bc2-9c46bb46df83.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "determined",
+      "label": "坚定",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 628790,
+      "alpha128_bbox": [
+        105,
+        23,
+        1005,
+        1536
+      ],
+      "sha256": "ce4e43b188589e1a199e972dd4fab1ea632d25d44fefb63a417a70b40522cdcc",
+      "bytes": 2182419,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-22ec2947-77fa-4d61-a50b-ceb6b8a7c942.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "tired",
+      "label": "疲惫",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 628149,
+      "alpha128_bbox": [
+        106,
+        22,
+        1005,
+        1536
+      ],
+      "sha256": "a9a4dc44999ba3559e8d4ac7f9114e6b832919d7fc1a9427205eabad93c564cf",
+      "bytes": 2168938,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-bc19e831-18ba-4390-ac30-210fea04fa75.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "expression",
+      "slug": "wry",
+      "label": "苦笑",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 624002,
+      "alpha128_bbox": [
+        105,
+        22,
+        1006,
+        1536
+      ],
+      "sha256": "9fd01f9690d7d56702ae78116955fd8d4b2cede26271c545503b376eb5e16b01",
+      "bytes": 2231700,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-b39daae4-518a-421a-a651-02812b25c4fa.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "action",
+      "slug": "wave",
+      "label": "招手",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-wave.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 560521,
+      "alpha128_bbox": [
+        18,
+        22,
+        1020,
+        1536
+      ],
+      "sha256": "e2c74044d140dca6c0b05103d69b787eb268bc91cd682e1717c75912a10650b7",
+      "bytes": 2373437,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-ce49aab2-777c-409e-8a49-a4129417dcb4.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "action",
+      "slug": "thinking",
+      "label": "思考",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-thinking.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 627146,
+      "alpha128_bbox": [
+        69,
+        21,
+        1004,
+        1536
+      ],
+      "sha256": "7e9a5b3d9eaeb87f92a31710dbe56654183f9c531112cade99f56ac8a67234a0",
+      "bytes": 2218651,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-94659f19-60bb-4847-8720-db97aeb806dd.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "action",
+      "slug": "explaining",
+      "label": "解释",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-explaining.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 625323,
+      "alpha128_bbox": [
+        19,
+        23,
+        1016,
+        1536
+      ],
+      "sha256": "025f83220e2a7ad0f983f797aed621039e68f009448f34402f278063d30e1bb3",
+      "bytes": 2154226,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-5a6e66d5-bdb8-42dd-a5a4-1b77f92542f5.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "action",
+      "slug": "repairing",
+      "label": "低头检修",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-repairing.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 600873,
+      "alpha128_bbox": [
+        4,
+        21,
+        1019,
+        1536
+      ],
+      "sha256": "1616b7d46d06d86cda6cc19f79df3e19bc7aa1f13e4d8daa5b03e558402dee84",
+      "bytes": 2290714,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-c8376e11-6e95-495f-8085-0b88659dfea4.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "action",
+      "slug": "phone",
+      "label": "查看手机",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-phone.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 617793,
+      "alpha128_bbox": [
+        60,
+        30,
+        1002,
+        1536
+      ],
+      "sha256": "3983ece863503833459257807a519cf61a1fb9c815a90943c55679c44995d43d",
+      "bytes": 2211999,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-6325104b-2995-4532-9c96-81c9268b6fca.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "type": "action",
+      "slug": "listening",
+      "label": "抱臂倾听",
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-listening.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 705438,
+      "alpha128_bbox": [
+        89,
+        24,
+        927,
+        1536
+      ],
+      "sha256": "598a3a55f21d7a71d8bca712193adf8f35b2e7509ae4cbcf2b51d5da7fa8c432",
+      "bytes": 2192732,
+      "status": "candidate_not_integrated",
+      "generated_source": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-622f758c-6786-4599-be98-a0a78af0902d.png",
+      "source_copy_sha256_equal": true
+    },
+    {
+      "character": "xiaoman",
+      "name": "罗小满",
+      "type": "expression",
+      "slug": "smile",
+      "label": "微笑",
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 569105,
+      "alpha128_bbox": [
+        43,
+        19,
+        984,
+        1536
+      ],
+      "sha256": "b23be783b2b3c510d8912c5f0516593904a4f329bc09e5383b41bed64ff86073",
+      "bytes": 2302290,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "xiaoman",
+      "name": "罗小满",
+      "type": "expression",
+      "slug": "serious",
+      "label": "认真",
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 572084,
+      "alpha128_bbox": [
+        44,
+        19,
+        983,
+        1536
+      ],
+      "sha256": "7a9884c822c8f8acf8e07cff1c9f071bb2d76c5f2b4104b9b37f0bd5ec4778bb",
+      "bytes": 2301368,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "xiaoman",
+      "name": "罗小满",
+      "type": "expression",
+      "slug": "hesitant",
+      "label": "犹豫",
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 572866,
+      "alpha128_bbox": [
+        46,
+        19,
+        981,
+        1536
+      ],
+      "sha256": "e74f9978d1fcde67d371d565d8eb8ebbebdad8b8ec0464eab6d7cd0bc6bcb28e",
+      "bytes": 2262581,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "xiaoman",
+      "name": "罗小满",
+      "type": "expression",
+      "slug": "surprised",
+      "label": "惊讶",
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-surprised.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 569409,
+      "alpha128_bbox": [
+        44,
+        20,
+        984,
+        1536
+      ],
+      "sha256": "0b266cbaf0395d590f2362bb4e5d7f121396622923157fc065434ae1fbfb697d",
+      "bytes": 2286101,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "xiaoman",
+      "name": "罗小满",
+      "type": "expression",
+      "slug": "displeased",
+      "label": "不悦",
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-displeased.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 573883,
+      "alpha128_bbox": [
+        46,
+        18,
+        983,
+        1536
+      ],
+      "sha256": "d36f4a86e542cb454a8b0ac5f685c5b747c91b91650c15882c8c018b39c79c5d",
+      "bytes": 2249838,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "xiaoman",
+      "name": "罗小满",
+      "type": "expression",
+      "slug": "downcast",
+      "label": "低落",
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 574195,
+      "alpha128_bbox": [
+        44,
+        20,
+        983,
+        1536
+      ],
+      "sha256": "1205c9c786b743baae41fcd12c297b73e065027336a7f1ac0f9b14de5a8ed8f0",
+      "bytes": 2288619,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "xiaoman",
+      "name": "罗小满",
+      "type": "action",
+      "slug": "wave",
+      "label": "招手",
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-action-wave.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 580751,
+      "alpha128_bbox": [
+        57,
+        19,
+        985,
+        1536
+      ],
+      "sha256": "e22428856e1248d165ba550946528b2a2c24767295cec35045d36e78811fbbc4",
+      "bytes": 2369476,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "xiaoman",
+      "name": "罗小满",
+      "type": "action",
+      "slug": "thinking",
+      "label": "思考",
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-action-thinking.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 616344,
+      "alpha128_bbox": [
+        94,
+        18,
+        982,
+        1536
+      ],
+      "sha256": "7ea8dd506477b662fa76f0ae5c39662798b97e44133a35f0bc204a3213b7f9df",
+      "bytes": 2294403,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "xiaoman",
+      "name": "罗小满",
+      "type": "action",
+      "slug": "explaining",
+      "label": "解释",
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-action-explaining.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 582764,
+      "alpha128_bbox": [
+        28,
+        20,
+        985,
+        1536
+      ],
+      "sha256": "d6141c5d07c4fd335dc1485453ebf6bcf0da03564c3b5ace3533a95fd9cbe334",
+      "bytes": 2329066,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "zhouzhi",
+      "name": "周栀",
+      "type": "expression",
+      "slug": "smile",
+      "label": "微笑",
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 686666,
+      "alpha128_bbox": [
+        159,
+        15,
+        933,
+        1536
+      ],
+      "sha256": "bd0747a9715ea539f8329ea7bd3bee42aa6acf6cbd01593d38073e536d6b3803",
+      "bytes": 1887634,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "zhouzhi",
+      "name": "周栀",
+      "type": "expression",
+      "slug": "serious",
+      "label": "认真",
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 679552,
+      "alpha128_bbox": [
+        161,
+        17,
+        935,
+        1536
+      ],
+      "sha256": "5cfcf2196f698044e753d62ddbb480d3cb0c90a785b52f83bd9e185b80de3172",
+      "bytes": 1900576,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "zhouzhi",
+      "name": "周栀",
+      "type": "expression",
+      "slug": "hesitant",
+      "label": "犹豫",
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 689163,
+      "alpha128_bbox": [
+        160,
+        18,
+        937,
+        1536
+      ],
+      "sha256": "91d6c8efc60732b5a6c184301983b0050d8c08eb9e25ae7d1f6cfd8b028920a0",
+      "bytes": 1881068,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "zhouzhi",
+      "name": "周栀",
+      "type": "expression",
+      "slug": "surprised",
+      "label": "惊讶",
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-surprised.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 688092,
+      "alpha128_bbox": [
+        161,
+        15,
+        934,
+        1536
+      ],
+      "sha256": "414d6b30d2fba560d67c3d1c39bda1a6b4ba1e11d4259f7d324b81e7b2c224db",
+      "bytes": 1857846,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "zhouzhi",
+      "name": "周栀",
+      "type": "expression",
+      "slug": "displeased",
+      "label": "不悦",
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-displeased.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 686496,
+      "alpha128_bbox": [
+        160,
+        8,
+        933,
+        1536
+      ],
+      "sha256": "364843c11ce75a858479595aa412350ae3b63fdaf791c7ff30fd2295623bd149",
+      "bytes": 1921186,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "zhouzhi",
+      "name": "周栀",
+      "type": "expression",
+      "slug": "downcast",
+      "label": "低落",
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 684785,
+      "alpha128_bbox": [
+        161,
+        18,
+        941,
+        1536
+      ],
+      "sha256": "a08e55e0f7a7466d68694b5107a29c90ba7d5f8256ea42ff128c56e01de762b5",
+      "bytes": 1857776,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "zhouzhi",
+      "name": "周栀",
+      "type": "action",
+      "slug": "wave",
+      "label": "招手",
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-wave.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 651801,
+      "alpha128_bbox": [
+        89,
+        15,
+        944,
+        1536
+      ],
+      "sha256": "e24435e83940c197930003bbe99986994a8c777f7f4acecace81c8fee634cea7",
+      "bytes": 1979538,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "zhouzhi",
+      "name": "周栀",
+      "type": "action",
+      "slug": "thinking",
+      "label": "思考",
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-thinking.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 698815,
+      "alpha128_bbox": [
+        169,
+        8,
+        942,
+        1536
+      ],
+      "sha256": "261180efc3eec58c4b58385d3a92896ddb1e436993b35b860fbe53e9a2ed7ad4",
+      "bytes": 1847654,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "zhouzhi",
+      "name": "周栀",
+      "type": "action",
+      "slug": "explaining",
+      "label": "解释",
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-explaining.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 687283,
+      "alpha128_bbox": [
+        78,
+        14,
+        937,
+        1536
+      ],
+      "sha256": "503bb67015ef463243baf35d04c98c0af968492586b70471d8843bae3c6ffd70",
+      "bytes": 1943860,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "mengyao",
+      "name": "孟遥",
+      "type": "expression",
+      "slug": "smile",
+      "label": "微笑",
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-smile.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 711571,
+      "alpha128_bbox": [
+        147,
+        11,
+        951,
+        1536
+      ],
+      "sha256": "085ab477388ecc9867ccc4aa1bc4eded913ff1c651b94cdfa71136e2637fa4bc",
+      "bytes": 2177226,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "mengyao",
+      "name": "孟遥",
+      "type": "expression",
+      "slug": "serious",
+      "label": "认真",
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-serious.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 720189,
+      "alpha128_bbox": [
+        151,
+        12,
+        943,
+        1536
+      ],
+      "sha256": "988fbf94a15bfefda5ee0389f3f8c87f43522fb281dbce0ea35311445091ac20",
+      "bytes": 2156220,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "mengyao",
+      "name": "孟遥",
+      "type": "expression",
+      "slug": "hesitant",
+      "label": "犹豫",
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-hesitant.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 712051,
+      "alpha128_bbox": [
+        150,
+        5,
+        949,
+        1536
+      ],
+      "sha256": "960440d06a40b6c9a2751c007caf733d8aeb413e9ca24d1707015e08e4104430",
+      "bytes": 2145977,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "mengyao",
+      "name": "孟遥",
+      "type": "expression",
+      "slug": "surprised",
+      "label": "惊讶",
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-surprised.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 715733,
+      "alpha128_bbox": [
+        152,
+        8,
+        944,
+        1536
+      ],
+      "sha256": "6859d7e0c323276b32398650736e92371743504405dc7310c66fec036e43c035",
+      "bytes": 2151059,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "mengyao",
+      "name": "孟遥",
+      "type": "expression",
+      "slug": "displeased",
+      "label": "不悦",
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-displeased.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 717173,
+      "alpha128_bbox": [
+        153,
+        11,
+        945,
+        1536
+      ],
+      "sha256": "3864083e3ea1d0b9bb37fdbb7d5541ad8f03b6374bfa691fa15ea9a1754a8250",
+      "bytes": 2132157,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "mengyao",
+      "name": "孟遥",
+      "type": "expression",
+      "slug": "downcast",
+      "label": "低落",
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-downcast.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 716906,
+      "alpha128_bbox": [
+        154,
+        14,
+        944,
+        1536
+      ],
+      "sha256": "11e2bde1e0dcdaa2d81e5f5e58b4a07cb50d2573bab6de68aaa063d280ad3f11",
+      "bytes": 2111128,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "mengyao",
+      "name": "孟遥",
+      "type": "action",
+      "slug": "wave",
+      "label": "招手",
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-wave.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 663209,
+      "alpha128_bbox": [
+        112,
+        14,
+        948,
+        1536
+      ],
+      "sha256": "e8dbbdafb9baa87f72b2b450a2948be2f543b0567422c17650d7aa38c6129f13",
+      "bytes": 2254450,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "mengyao",
+      "name": "孟遥",
+      "type": "action",
+      "slug": "thinking",
+      "label": "思考",
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-thinking.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 718128,
+      "alpha128_bbox": [
+        156,
+        16,
+        949,
+        1536
+      ],
+      "sha256": "ed817af259807c5bc2b42b3f607d8df2de8017dc2f7d42a607cd5f2922267321",
+      "bytes": 2217895,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "mengyao",
+      "name": "孟遥",
+      "type": "action",
+      "slug": "explaining",
+      "label": "解释",
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-explaining.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 699245,
+      "alpha128_bbox": [
+        29,
+        16,
+        955,
+        1536
+      ],
+      "sha256": "b2cfccc37f54d1b90bc102f573bbc96d069d013ad7bfe434ccfe732b1e270292",
+      "bytes": 2267080,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "yelan",
+      "name": "叶岚",
+      "type": "expression",
+      "slug": "smile",
+      "label": "微笑",
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-smile.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 636085,
+      "alpha128_bbox": [
+        142,
+        13,
+        993,
+        1536
+      ],
+      "sha256": "e133205561287fcb1ffa6763222a460f12ff9d624b86a0d5b6fd54d00e87d598",
+      "bytes": 1856444,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "yelan",
+      "name": "叶岚",
+      "type": "expression",
+      "slug": "serious",
+      "label": "认真",
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-serious.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 640252,
+      "alpha128_bbox": [
+        146,
+        13,
+        992,
+        1536
+      ],
+      "sha256": "650cb051df5211666c16ebdab93be2ca4088a19399a2d65468ea12242bd63327",
+      "bytes": 1838964,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "yelan",
+      "name": "叶岚",
+      "type": "expression",
+      "slug": "hesitant",
+      "label": "犹豫",
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-hesitant.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 638811,
+      "alpha128_bbox": [
+        144,
+        13,
+        992,
+        1536
+      ],
+      "sha256": "d7d2b79d4ba4f66fd420c669acafabf8350c4bedc0932bea25e64532d964e90f",
+      "bytes": 1821919,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "yelan",
+      "name": "叶岚",
+      "type": "expression",
+      "slug": "surprised",
+      "label": "惊讶",
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-surprised.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 641253,
+      "alpha128_bbox": [
+        145,
+        12,
+        992,
+        1536
+      ],
+      "sha256": "e2ea6959c337f30631323f3f248788d03fbf8304a529e6f00238c2df054f0702",
+      "bytes": 1828510,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "yelan",
+      "name": "叶岚",
+      "type": "expression",
+      "slug": "displeased",
+      "label": "不悦",
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-displeased.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 640044,
+      "alpha128_bbox": [
+        147,
+        13,
+        992,
+        1536
+      ],
+      "sha256": "8e911787af718ec93095af7465b9576a948bc667d8a159a2e5150d9e3d0c489b",
+      "bytes": 1845967,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "yelan",
+      "name": "叶岚",
+      "type": "expression",
+      "slug": "downcast",
+      "label": "低落",
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-downcast.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 641558,
+      "alpha128_bbox": [
+        147,
+        13,
+        991,
+        1536
+      ],
+      "sha256": "c95436333744ed6dd422f3e86840dc3f003a3a6bd50b38e10a336409875f5016",
+      "bytes": 1838708,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "yelan",
+      "name": "叶岚",
+      "type": "action",
+      "slug": "wave",
+      "label": "招手",
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-action-wave.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 598694,
+      "alpha128_bbox": [
+        52,
+        13,
+        992,
+        1536
+      ],
+      "sha256": "ca7f8dfd34a25523b66e1bda58d310bf14d9fdc2c10fc1bcd0a3bd412206de4c",
+      "bytes": 1902923,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "yelan",
+      "name": "叶岚",
+      "type": "action",
+      "slug": "thinking",
+      "label": "思考",
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-action-thinking.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 642245,
+      "alpha128_bbox": [
+        123,
+        13,
+        991,
+        1536
+      ],
+      "sha256": "b6f892bcc462cdae237aca140e2477748fa6c848d791788419f410af0b0c0df2",
+      "bytes": 1855865,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "yelan",
+      "name": "叶岚",
+      "type": "action",
+      "slug": "explaining",
+      "label": "解释",
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-action-explaining.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 649864,
+      "alpha128_bbox": [
+        25,
+        13,
+        993,
+        1536
+      ],
+      "sha256": "ff59966ee7b63c6a6c928e5985bf8d1a5a719d896f03074d17f3abb79c0d3c1e",
+      "bytes": 1909504,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "maolang",
+      "name": "毛狼",
+      "type": "expression",
+      "slug": "smile",
+      "label": "微笑",
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 686580,
+      "alpha128_bbox": [
+        109,
+        32,
+        950,
+        1536
+      ],
+      "sha256": "135bfdac8d39f9f2d4fdbc37ff94e4ab3477d4c12c5d64d8be71254c82debba7",
+      "bytes": 1939761,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "maolang",
+      "name": "毛狼",
+      "type": "expression",
+      "slug": "serious",
+      "label": "认真",
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 691522,
+      "alpha128_bbox": [
+        109,
+        31,
+        949,
+        1536
+      ],
+      "sha256": "562f15c66f55afa5902d77d13a919e15ff26bcadc9cf630f130e339acf8a4978",
+      "bytes": 1927793,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "maolang",
+      "name": "毛狼",
+      "type": "expression",
+      "slug": "hesitant",
+      "label": "犹豫",
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 691729,
+      "alpha128_bbox": [
+        108,
+        34,
+        949,
+        1536
+      ],
+      "sha256": "1771193665e8dd6a35eb8d8e8bce1be8802e79c145600714c69f200097f98b12",
+      "bytes": 1922607,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "maolang",
+      "name": "毛狼",
+      "type": "expression",
+      "slug": "surprised",
+      "label": "惊讶",
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 690514,
+      "alpha128_bbox": [
+        109,
+        34,
+        950,
+        1536
+      ],
+      "sha256": "1dfa7b2a0c69deb211b03d1b5fa73bb05ef3b48ebb6e513e7744d37f9d53cd64",
+      "bytes": 1939656,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "maolang",
+      "name": "毛狼",
+      "type": "expression",
+      "slug": "displeased",
+      "label": "不悦",
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 698041,
+      "alpha128_bbox": [
+        109,
+        30,
+        950,
+        1536
+      ],
+      "sha256": "469f1e4a6091cd2d98f6ba833c3c4b39540ebad6e12ba9b1796f78c942097994",
+      "bytes": 1915835,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "maolang",
+      "name": "毛狼",
+      "type": "expression",
+      "slug": "downcast",
+      "label": "低落",
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 691452,
+      "alpha128_bbox": [
+        108,
+        42,
+        951,
+        1536
+      ],
+      "sha256": "201bea0edda79bb4e1c21585ecffa41b756db585c79a712310405e9b9ab2842f",
+      "bytes": 1969243,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "maolang",
+      "name": "毛狼",
+      "type": "action",
+      "slug": "wave",
+      "label": "招手",
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 694806,
+      "alpha128_bbox": [
+        16,
+        37,
+        962,
+        1536
+      ],
+      "sha256": "152eeeb3a3d469e3222e95ee82dc56bc8a39c89d8b65c700f7d06f31fb89cbcf",
+      "bytes": 2003334,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "maolang",
+      "name": "毛狼",
+      "type": "action",
+      "slug": "thinking",
+      "label": "思考",
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 758205,
+      "alpha128_bbox": [
+        139,
+        32,
+        951,
+        1536
+      ],
+      "sha256": "cefec309dd4cb2e2c716685bf4c79577dccc6bca82a49473a55e2b950ba0ae2a",
+      "bytes": 1923266,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "maolang",
+      "name": "毛狼",
+      "type": "action",
+      "slug": "explaining",
+      "label": "解释",
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 733332,
+      "alpha128_bbox": [
+        97,
+        31,
+        950,
+        1536
+      ],
+      "sha256": "d496b0de4503049b67255acdff0b630400f19e079d1d5bbd41da289fc5397654",
+      "bytes": 1939209,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "type": "expression",
+      "slug": "smile",
+      "label": "微笑",
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-smile.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 692285,
+      "alpha128_bbox": [
+        101,
+        38,
+        985,
+        1536
+      ],
+      "sha256": "4ddea918a33cf38cfe87957e2796480031a34fc8c0e4df48907b5b977517c515",
+      "bytes": 1851270,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "type": "expression",
+      "slug": "serious",
+      "label": "认真",
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-serious.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 694622,
+      "alpha128_bbox": [
+        101,
+        40,
+        984,
+        1536
+      ],
+      "sha256": "233cb173e5bfef7a5f07b069c93f13382ec77db91a30be7ee67aa743b106d15f",
+      "bytes": 1849284,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "type": "expression",
+      "slug": "hesitant",
+      "label": "犹豫",
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-hesitant.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 691594,
+      "alpha128_bbox": [
+        101,
+        40,
+        986,
+        1536
+      ],
+      "sha256": "c3f810d0d25d1537cf2852119b705e1e69cad60ccb218f91a86b2772b7192f2d",
+      "bytes": 1813943,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "type": "expression",
+      "slug": "surprised",
+      "label": "惊讶",
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-surprised.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 686623,
+      "alpha128_bbox": [
+        101,
+        39,
+        986,
+        1536
+      ],
+      "sha256": "9bcbb5ca2a38ddb5e4d0cf47f4f932c6273c78bc43c4302401e060c34193d57e",
+      "bytes": 1821920,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "type": "expression",
+      "slug": "displeased",
+      "label": "不悦",
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-displeased.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 688971,
+      "alpha128_bbox": [
+        101,
+        40,
+        986,
+        1536
+      ],
+      "sha256": "f3da5a95403a25691bbc61a8ede10094b3525cf39e17d41000827942c280c216",
+      "bytes": 1859722,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "type": "expression",
+      "slug": "downcast",
+      "label": "低落",
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-downcast.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 692269,
+      "alpha128_bbox": [
+        100,
+        40,
+        985,
+        1536
+      ],
+      "sha256": "1a2b5e5561154715da837a9c268441ade8c46f067fd57584ef61f00f84b96bcd",
+      "bytes": 1833035,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "type": "action",
+      "slug": "wave",
+      "label": "招手",
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-wave.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 682534,
+      "alpha128_bbox": [
+        32,
+        40,
+        989,
+        1536
+      ],
+      "sha256": "e8810dbf02f69141fee91f6029b44e708c317bb7100c3b22b94e8b1055fb8875",
+      "bytes": 1924502,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "type": "action",
+      "slug": "thinking",
+      "label": "思考",
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-thinking.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 735866,
+      "alpha128_bbox": [
+        103,
+        41,
+        985,
+        1536
+      ],
+      "sha256": "c2a4c19a2a1223b60c57ff13f901e890338a2bfdd67c7e3c54f62e5efaa4f8fd",
+      "bytes": 1827224,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "type": "action",
+      "slug": "explaining",
+      "label": "解释",
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-explaining.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 718009,
+      "alpha128_bbox": [
+        53,
+        40,
+        991,
+        1536
+      ],
+      "sha256": "f1b8bef2da64f421447fb5a3c5702f94ef481e77b6cc333328829b8951775108",
+      "bytes": 1871629,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "type": "expression",
+      "slug": "smile",
+      "label": "微笑",
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 610290,
+      "alpha128_bbox": [
+        65,
+        102,
+        1180,
+        1200
+      ],
+      "sha256": "d1303d347f0842ffe594d4b02d07490bc130a6073af872c54d9f7daf3a5fd063",
+      "bytes": 1296320,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "type": "expression",
+      "slug": "serious",
+      "label": "认真",
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 616448,
+      "alpha128_bbox": [
+        68,
+        104,
+        1184,
+        1193
+      ],
+      "sha256": "40bba14a54428b8a6772793a46f45803877912465600c1f8096b95bc3e562a90",
+      "bytes": 1281021,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "type": "expression",
+      "slug": "hesitant",
+      "label": "犹豫",
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 568377,
+      "alpha128_bbox": [
+        56,
+        70,
+        1193,
+        1189
+      ],
+      "sha256": "84e93a43e63e816d8b942991d0b02026492d2245d54de1d9de15e4dd8cabbb4f",
+      "bytes": 1364321,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "type": "expression",
+      "slug": "surprised",
+      "label": "惊讶",
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-surprised.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 613120,
+      "alpha128_bbox": [
+        73,
+        97,
+        1181,
+        1197
+      ],
+      "sha256": "c51b8646bb463624e3befea7c84e2e7b54791936bb6cf8d7b33b0bf876be5873",
+      "bytes": 1325319,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "type": "expression",
+      "slug": "displeased",
+      "label": "不悦",
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-displeased.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 603868,
+      "alpha128_bbox": [
+        72,
+        91,
+        1182,
+        1193
+      ],
+      "sha256": "7714f024bc313eb12521de9c2e3b057768cf5936bf59f4da4235f8756e30685a",
+      "bytes": 1330721,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "type": "expression",
+      "slug": "downcast",
+      "label": "低落",
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-downcast.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 605056,
+      "alpha128_bbox": [
+        73,
+        79,
+        1180,
+        1183
+      ],
+      "sha256": "4f8add603a99bc94cf2c773297eab7b3e59a4b7728a83f287c566a537773052f",
+      "bytes": 1329711,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "type": "action",
+      "slug": "wave",
+      "label": "招手",
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-wave.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 627436,
+      "alpha128_bbox": [
+        42,
+        107,
+        1234,
+        1184
+      ],
+      "sha256": "d4c5ab241a5849a90f23f972aa383a67aed3f7a0dc90b08651d21a39b062b9da",
+      "bytes": 1261527,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "type": "action",
+      "slug": "thinking",
+      "label": "思考",
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-thinking.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 704148,
+      "alpha128_bbox": [
+        99,
+        126,
+        1167,
+        1156
+      ],
+      "sha256": "93a754b45e871f9f31f8f19f359b2d01ef04478d953d4947156d7ca21dddb1b8",
+      "bytes": 1174518,
+      "status": "candidate_not_integrated"
+    },
+    {
+      "character": "huangqiuqiu",
+      "name": "黄球球",
+      "type": "action",
+      "slug": "explaining",
+      "label": "解释",
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-explaining.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "transparent_pixels": 534947,
+      "alpha128_bbox": [
+        51,
+        101,
+        1208,
+        1172
+      ],
+      "sha256": "9b189c77a07634ac91818d8ec2be5eaf936deba70fa44380e3826c85fc7dfdbe",
+      "bytes": 1436065,
+      "status": "candidate_not_integrated"
+    }
+  ]
+}

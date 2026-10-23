@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "common/ch10",
+  "owner": "E03",
+  "scenes": {
+    "ts_c10_common_e04_boundary": {
+      "chapter": 10,
+      "title": "第十章 · 雨停之前也往前走",
+      "bg": "sample-bg",
+      "time": "两年后",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present"
+      },
+      "location": "",
+      "day": null,
+      "dayLabel": "两年后"
+    }
+  },
+  "nodes": {
+    "tc_c10_common_entry": {
+      "id": "tc_c10_common_entry",
+      "type": "gate",
+      "scene": "ts_c10_common_e04_boundary",
+      "cases": [
+        {
+          "flag": "route",
+          "value": "xiaoman",
+          "next": "tc_c10_xiaoman_entry"
+        },
+        {
+          "flag": "route",
+          "value": "zhouzhi",
+          "next": "tc_c10_zhouzhi_entry"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    }
+  },
+  "imports": [
+    "tc_c10_xiaoman_entry",
+    "tc_c10_zhouzhi_entry"
+  ],
+  "exports": {
+    "tc_c10_common_entry": "tc_c10_common_entry"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c10_common_entry"
+      ],
+      "kind": "control"
+    }
+  ],
+  "exclusions": [],
+  "assetRequests": []
+}

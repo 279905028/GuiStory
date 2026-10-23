@@ -1,0 +1,43 @@
+{
+  "selectedOption": "B",
+  "name": "河桥暮色",
+  "date": "2026-10-20",
+  "images": [
+    {
+      "path": "assets/cover-b-desktop.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1891554,
+      "sha256": "c36cac65c8f0c26ac8d3fbf2b8e7c7df614c68cfddecb26e4e21ac2905f64a4b",
+      "originalEncoding": {
+        "path": "assets/cover-b-desktop.png",
+        "bytes": 2627244,
+        "sha256": "2041710ae3b577e40e8664c5a9b452240d7ce0d095279155ac1875c5b6ab33d2"
+      },
+      "format": "WebP"
+    },
+    {
+      "path": "assets/cover-b-mobile.webp",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2048826,
+      "sha256": "8cdc091c775ed40ece56227ddbdd9a48a5bf2332f7c4b866c21e7f60c1c0d13f",
+      "originalEncoding": {
+        "path": "assets/cover-b-mobile.png",
+        "bytes": 2757780,
+        "sha256": "bfb2d5786fd9c074601ccfb7a1ee617eea51493317aaf7bc59c3c04f22830c81"
+      },
+      "format": "WebP"
+    }
+  ],
+  "mobileMedia": "(max-width: 760px) and (orientation: portrait)",
+  "integration": "local title screen",
+  "deployed": false,
+  "generationRecord": "qa/cover-b-20261020/generation-record.json",
+  "webpMigration": {
+    "date": "2026-10-21",
+    "manifest": "assets/webp-manifest.json",
+    "report": "qa/webp-20261021/report.md",
+    "note": "本次仅更新交付图片路径与编码指纹；来源、选型及旧QA字段仍属历史制作记录。"
+  }
+}

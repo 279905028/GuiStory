@@ -1,0 +1,440 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "common/ch05",
+  "owner": "E03",
+  "scenes": {
+    "ts_c05_common_echo_message": {
+      "chapter": 5,
+      "title": "第25天·18:10｜回声那条消息",
+      "bg": "tc-bg-rental-night",
+      "time": "18:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "18:10",
+        "day": 25
+      },
+      "location": "文文出租屋",
+      "day": 25,
+      "dayLabel": "第25天"
+    },
+    "ts_c05_common_chapter_end": {
+      "chapter": 5,
+      "title": "第五章 · 没说出口的困意",
+      "bg": "tc-bg-chapter-end",
+      "time": "章末",
+      "chronology": {
+        "domain": "chapter-range",
+        "mode": "present",
+        "label": "第25—29天"
+      },
+      "location": "",
+      "day": null,
+      "dayLabel": "第25—29天"
+    },
+    "ts_c05_common_missed_game_callback": {
+      "chapter": 5,
+      "title": "提前把约局说清",
+      "bg": "tc-bg-rental-night",
+      "time": "晚些时候",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "晚些时候",
+        "day": 25
+      },
+      "location": "文文出租屋",
+      "day": 25,
+      "dayLabel": "第25天"
+    }
+  },
+  "nodes": {
+    "tc_c05_common_entry": {
+      "id": "tc_c05_common_entry",
+      "type": "line",
+      "scene": "ts_c05_common_echo_message",
+      "speaker": "narrator",
+      "text": "周栀在约饭群里说，回声最后营业到第三十天。",
+      "character": null,
+      "next": "tc_c05_common_echo_message_02"
+    },
+    "tc_c05_common_echo_message_02": {
+      "id": "tc_c05_common_echo_message_02",
+      "type": "line",
+      "scene": "ts_c05_common_echo_message",
+      "speaker": "narrator",
+      "text": "消息没有配长篇告别。她说这几天照常上班，最后那天下午可以在附近吃一顿，她晚上还得回店里。没空的人不用硬挤，之后也不是失联。",
+      "character": null,
+      "next": "tc_c05_common_echo_message_03"
+    },
+    "tc_c05_common_echo_message_03": {
+      "id": "tc_c05_common_echo_message_03",
+      "type": "line",
+      "scene": "ts_c05_common_echo_message",
+      "speaker": "narrator",
+      "text": "我问她最近怎么样。她回：“有点烦，也有点想偷懒。后一个愿望暂时实现不了。”",
+      "character": null,
+      "next": "tc_c05_common_echo_message_04"
+    },
+    "tc_c05_common_echo_message_04": {
+      "id": "tc_c05_common_echo_message_04",
+      "type": "line",
+      "scene": "ts_c05_common_echo_message",
+      "speaker": "narrator",
+      "text": "毛狼说他要是去，能不能不用表演感言。周栀说正好，店里听的歌已经够多，不需要加主持节目。",
+      "character": null,
+      "next": "tc_c05_common_echo_message_05"
+    },
+    "tc_c05_common_echo_message_05": {
+      "id": "tc_c05_common_echo_message_05",
+      "type": "line",
+      "scene": "ts_c05_common_echo_message",
+      "speaker": "narrator",
+      "text": "我看了眼自己的班。第三十天晚上十点上班，傍晚去吃饭来得及，收尾却不能在场。我把这件事直接说了。",
+      "character": null,
+      "next": "tc_c05_common_echo_message_06"
+    },
+    "tc_c05_common_echo_message_06": {
+      "id": "tc_c05_common_echo_message_06",
+      "type": "line",
+      "scene": "ts_c05_common_echo_message",
+      "speaker": "zhouzhi",
+      "text": "“吃完你该去就去。”她回，“剩下是店里的事。”",
+      "character": null,
+      "next": "tc_c05_common_echo_message_07"
+    },
+    "tc_c05_common_echo_message_07": {
+      "id": "tc_c05_common_echo_message_07",
+      "type": "line",
+      "scene": "ts_c05_common_echo_message",
+      "speaker": "narrator",
+      "text": "一会儿，小满问菜能不能先少点，飘说人到再加。群里又回到普通的吃饭话题。",
+      "character": null,
+      "next": "tc_c05_common_echo_message_08"
+    },
+    "tc_c05_common_echo_message_08": {
+      "id": "tc_c05_common_echo_message_08",
+      "type": "line",
+      "scene": "ts_c05_common_echo_message",
+      "speaker": "narrator",
+      "text": "我把手机放下，去热自己的饭。过去我总觉得这种时候非得做点特别的事，才配得上“朋友”两个字。可这一次，没有人叫我带工具，也没有人等我拿出让店继续开下去的办法。",
+      "character": null,
+      "next": "tc_c05_common_echo_message_09"
+    },
+    "tc_c05_common_echo_message_09": {
+      "id": "tc_c05_common_echo_message_09",
+      "type": "line",
+      "scene": "ts_c05_common_echo_message",
+      "speaker": "narrator",
+      "text": "我能做的是到场，吃饭，听她愿意讲的话，然后按时去上自己的班。",
+      "character": null,
+      "next": "tc_c05_common_missed_game_gate"
+    },
+    "tc_c05_common_exit": {
+      "id": "tc_c05_common_exit",
+      "type": "end",
+      "scene": "ts_c05_common_chapter_end",
+      "title": "第五章 · 没说出口的困意",
+      "text": "",
+      "character": null,
+      "next": "tc_c06_common_entry",
+      "nextChapter": "第六章 · 空出来的一个晚上"
+    },
+    "tc_c05_common_missed_voice_callback_01": {
+      "id": "tc_c05_common_missed_voice_callback_01",
+      "type": "line",
+      "scene": "ts_c05_common_missed_game_callback",
+      "speaker": "narrator",
+      "text": "晚些时候，毛狼问第30日吃完饭能不能顺便玩。我这次直接发语音，说那晚要值班，玩不了。他回了声知道，没有再把我列进去。我想起上次那段迟了五十分钟的解释，庆幸这回可以在事情发生前说清。",
+      "character": null,
+      "next": "tc_c05_common_route_gate"
+    },
+    "tc_c05_common_missed_reschedule_callback_01": {
+      "id": "tc_c05_common_missed_reschedule_callback_01",
+      "type": "line",
+      "scene": "ts_c05_common_missed_game_callback",
+      "speaker": "narrator",
+      "text": "晚些时候，毛狼把新约局时间发出来，仍按上次说好的，只留一个大家都能参加的短时段。我把第30日值班那格划掉，另回一个能参加的休班晚上。叶岚说她到时也只空一会儿，我们没有把谁的短暂出现当成扫兴。",
+      "character": null,
+      "next": "tc_c05_common_route_gate"
+    },
+    "tc_c05_common_route_gate": {
+      "id": "tc_c05_common_route_gate",
+      "type": "gate",
+      "scene": "ts_c05_common_missed_game_callback",
+      "cases": [
+        {
+          "flag": "route",
+          "value": "xiaoman",
+          "next": "tc_c05_xiaoman_entry"
+        },
+        {
+          "flag": "route",
+          "value": "zhouzhi",
+          "next": "tc_c05_zhouzhi_entry"
+        },
+        {
+          "flag": "route",
+          "value": "mengyao",
+          "next": "tc_c05_mengyao_entry"
+        },
+        {
+          "flag": "route",
+          "value": "yelan",
+          "next": "tc_c05_yelan_entry"
+        },
+        {
+          "flag": "route",
+          "value": "piao",
+          "next": "tc_c05_piao_entry"
+        },
+        {
+          "flag": "route",
+          "value": "friends",
+          "next": "tc_c05_friends_entry"
+        },
+        {
+          "flag": "route",
+          "value": "huangqiuqiu",
+          "next": "tc_c05_huangqiuqiu_entry"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    },
+    "tc_c05_common_missed_game_gate": {
+      "id": "tc_c05_common_missed_game_gate",
+      "type": "gate",
+      "scene": "ts_c05_common_missed_game_callback",
+      "cases": [
+        {
+          "flag": "missedGame",
+          "value": "voice",
+          "next": "tc_c05_common_missed_voice_callback_01"
+        },
+        {
+          "flag": "missedGame",
+          "value": "reschedule",
+          "next": "tc_c05_common_missed_reschedule_callback_01"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    }
+  },
+  "imports": [
+    "tc_c05_friends_entry",
+    "tc_c05_huangqiuqiu_entry",
+    "tc_c05_mengyao_entry",
+    "tc_c05_piao_entry",
+    "tc_c05_xiaoman_entry",
+    "tc_c05_yelan_entry",
+    "tc_c05_zhouzhi_entry",
+    "tc_c06_common_entry"
+  ],
+  "exports": {
+    "tc_c05_common_entry": "tc_c05_common_entry",
+    "tc_c05_common_exit": "tc_c05_common_exit",
+    "tc_c05_common_route_gate": "tc_c05_common_route_gate"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c05_common_exit"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 11,
+      "endLine": 11,
+      "nodeIds": [
+        "tc_c05_common_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 13,
+      "endLine": 13,
+      "nodeIds": [
+        "tc_c05_common_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 15,
+      "endLine": 15,
+      "nodeIds": [
+        "tc_c05_common_echo_message_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 17,
+      "endLine": 17,
+      "nodeIds": [
+        "tc_c05_common_echo_message_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 19,
+      "endLine": 19,
+      "nodeIds": [
+        "tc_c05_common_echo_message_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 21,
+      "endLine": 21,
+      "nodeIds": [
+        "tc_c05_common_echo_message_05"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 23,
+      "endLine": 23,
+      "nodeIds": [
+        "tc_c05_common_echo_message_06"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 25,
+      "endLine": 25,
+      "nodeIds": [
+        "tc_c05_common_echo_message_07"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 27,
+      "endLine": 27,
+      "nodeIds": [
+        "tc_c05_common_echo_message_08"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 29,
+      "endLine": 29,
+      "nodeIds": [
+        "tc_c05_common_echo_message_09"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 31,
+      "endLine": 31,
+      "nodeIds": [
+        "tc_c05_common_route_gate"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 31,
+      "endLine": 31,
+      "nodeIds": [
+        "tc_c05_common_missed_game_gate"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 33,
+      "endLine": 33,
+      "nodeIds": [
+        "tc_c05_common_missed_voice_callback_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 33,
+      "endLine": 33,
+      "nodeIds": [
+        "tc_c05_common_missed_voice_callback_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 35,
+      "endLine": 35,
+      "nodeIds": [
+        "tc_c05_common_missed_reschedule_callback_01"
+      ],
+      "kind": "narration"
+    }
+  ],
+  "exclusions": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 1,
+      "endLine": 1,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 3,
+      "endLine": 3,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 5,
+      "endLine": 5,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 7,
+      "endLine": 7,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 573,
+      "endLine": 573,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 575,
+      "endLine": 575,
+      "reason": "navigation"
+    }
+  ],
+  "assetRequests": [
+    {
+      "id": "e01-art-ch05",
+      "a01Ids": [
+        "tc-bg-rental-night",
+        "tc-char-maolang-human-base",
+        "tc-char-piao-human-base",
+        "tc-char-wenwen-human-base",
+        "tc-char-xiaoman-human-base",
+        "tc-char-yelan-human-base",
+        "tc-char-zhouzhi-human-base"
+      ]
+    }
+  ]
+}

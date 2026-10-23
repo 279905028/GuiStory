@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-20",
+  "scope": "B cover images, responsive title screen and title-menu smoke checks only",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 720,
+      "asset": "cover-b-desktop.png",
+      "loaded": true,
+      "overflow": false,
+      "minMenuButtonHeight": 44,
+      "screenshot": "desktop-1280x720.jpg"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "asset": "cover-b-mobile.png",
+      "loaded": true,
+      "overflow": false,
+      "minMenuButtonHeight": 44,
+      "screenshot": "mobile-390x844-final.jpg",
+      "refreshedWithLatestSavedFiles": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "asset": "cover-b-mobile.png",
+      "loaded": true,
+      "overflow": false,
+      "minMenuButtonHeight": 44,
+      "screenshot": "mobile-320x568.jpg"
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "asset": "cover-b-desktop.png",
+      "loaded": true,
+      "overflow": false,
+      "minMenuButtonHeight": 44,
+      "screenshot": "landscape-844x390.jpg"
+    }
+  ],
+  "visualChecks": {
+    "wenwenPrimary": true,
+    "maolangAndShijiangRecognizable": true,
+    "humanHeroinesSolidSilhouettes": 5,
+    "orbSolidSilhouette": 1,
+    "titleNotDuplicated": true,
+    "menuDoesNotCoverFaces": true
+  },
+  "flows": {
+    "settingsDialogOpened": true,
+    "loadDialogOpened": true,
+    "startEnteredFirstScene": true,
+    "returnTitle": true,
+    "continueRestoredTestAutoSave": true
+  },
+  "consoleWarningsOrErrors": [],
+  "limits": [
+    "Simulated browser viewports, not physical phones",
+    "No full story-route acceptance or public deployment",
+    "Shared story.js and styles.css changed in another task during this work; no external changes were overwritten"
+  ]
+}

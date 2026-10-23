@@ -1,0 +1,1125 @@
+{
+  "schemaVersion": 1,
+  "task": "A03",
+  "version": "a03-20261022-r1",
+  "date": "2026-10-22",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "tool": "built-in image_gen",
+  "encoder": {
+    "sharp": "0.35.5",
+    "webp": "1.6.0",
+    "lossless": true,
+    "effort": 6
+  },
+  "originalsPreserved": true,
+  "entries": [
+    {
+      "assetId": "tc-char-huangqiuqiu-orb-base",
+      "label": "球形·基础",
+      "form": "sphere",
+      "key": "base",
+      "source": {
+        "path": "assets/char-huangqiuqiu.webp",
+        "sha256": "ce01862d4078b2b091980575bbf728f30d3ce2044ac9b6f41643fb11a843b2de",
+        "generatedSource": null
+      },
+      "image": {
+        "path": "assets/char-huangqiuqiu.webp",
+        "sha256": "ce01862d4078b2b091980575bbf728f30d3ce2044ac9b6f41643fb11a843b2de",
+        "bytes": 768286,
+        "format": "webp",
+        "width": 1254,
+        "height": 1254,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "transparent": 606348,
+          "visible": 966168,
+          "bboxAbove127": [
+            72,
+            87,
+            1176,
+            1191
+          ],
+          "touchingSides": 0
+        }
+      },
+      "conversion": null,
+      "avatar": {
+        "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+        "sha256": "6d3caefa7fd09ba5ea926a915fc1737689d796d2cad5ad40eef61893e5a39d5a",
+        "bytes": 140258,
+        "format": "webp",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "transparent": 100450,
+          "visible": 161694,
+          "bboxAbove127": [
+            29,
+            35,
+            480,
+            486
+          ],
+          "touchingSides": 0
+        },
+        "original": "assets/ten-chapter/huangqiuqiu/originals/avatar-sphere-base.png",
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1254,
+          "height": 1254
+        },
+        "resize": {
+          "width": 512,
+          "height": 512,
+          "kernel": "lanczos3"
+        },
+        "conversion": {
+          "lossless": true,
+          "effort": 6,
+          "dimensionsEqual": true,
+          "alphaEqual": true,
+          "visiblePixelsEqual": true,
+          "invisibleRgbChanges": 91064
+        }
+      },
+      "cueIds": [
+        "a01-ch02-common-05",
+        "a01-ch03-huangqiuqiu-01",
+        "a01-ch03-huangqiuqiu-02",
+        "a01-ch03-huangqiuqiu-03",
+        "a01-ch04-huangqiuqiu-01",
+        "a01-ch04-huangqiuqiu-02",
+        "a01-ch04-huangqiuqiu-03",
+        "a01-ch04-huangqiuqiu-04",
+        "a01-ch05-huangqiuqiu-01",
+        "a01-ch05-huangqiuqiu-02",
+        "a01-ch06-huangqiuqiu-01",
+        "a01-ch06-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-01",
+        "a01-ch07-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-03",
+        "a01-ch08-huangqiuqiu-01",
+        "a01-ch08-huangqiuqiu-02"
+      ],
+      "gameIntegrated": false,
+      "adoptionStatus": "delivered-awaiting-A06"
+    },
+    {
+      "assetId": "tc-char-huangqiuqiu-orb-expression-serious",
+      "label": "球形·认真",
+      "form": "sphere",
+      "key": "expression-serious",
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+        "sha256": "08846f26ea6ee59dc8291f90497197c0bc8907386652c8903d9158b1a1bcac57",
+        "generatedSource": null
+      },
+      "image": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+        "sha256": "08846f26ea6ee59dc8291f90497197c0bc8907386652c8903d9158b1a1bcac57",
+        "bytes": 744520,
+        "format": "webp",
+        "width": 1254,
+        "height": 1254,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "transparent": 616448,
+          "visible": 956068,
+          "bboxAbove127": [
+            68,
+            104,
+            1183,
+            1192
+          ],
+          "touchingSides": 0
+        }
+      },
+      "conversion": null,
+      "avatar": {
+        "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-serious.webp",
+        "sha256": "5ef42616a862ee3e537936449226d72012e5233897403549dc4b5e187a1eb76e",
+        "bytes": 137860,
+        "format": "webp",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "transparent": 101950,
+          "visible": 160194,
+          "bboxAbove127": [
+            28,
+            42,
+            482,
+            486
+          ],
+          "touchingSides": 0
+        },
+        "original": "assets/ten-chapter/huangqiuqiu/originals/avatar-sphere-expression-serious.png",
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1254,
+          "height": 1254
+        },
+        "resize": {
+          "width": 512,
+          "height": 512,
+          "kernel": "lanczos3"
+        },
+        "conversion": {
+          "lossless": true,
+          "effort": 6,
+          "dimensionsEqual": true,
+          "alphaEqual": true,
+          "visiblePixelsEqual": true,
+          "invisibleRgbChanges": 92538
+        }
+      },
+      "cueIds": [
+        "a01-ch02-common-05",
+        "a01-ch03-huangqiuqiu-02",
+        "a01-ch05-huangqiuqiu-01",
+        "a01-ch05-huangqiuqiu-02",
+        "a01-ch06-huangqiuqiu-01",
+        "a01-ch06-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-01",
+        "a01-ch07-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-03",
+        "a01-ch08-huangqiuqiu-01",
+        "a01-ch08-huangqiuqiu-02"
+      ],
+      "gameIntegrated": false,
+      "adoptionStatus": "delivered-awaiting-A06"
+    },
+    {
+      "assetId": "tc-char-huangqiuqiu-orb-expression-smile",
+      "label": "球形·微笑",
+      "form": "sphere",
+      "key": "expression-smile",
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+        "sha256": "03c4cb0d38b786ba29d67ecf5a7940c14c7a06ed9596420c57980e3de4e8bf12",
+        "generatedSource": null
+      },
+      "image": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+        "sha256": "03c4cb0d38b786ba29d67ecf5a7940c14c7a06ed9596420c57980e3de4e8bf12",
+        "bytes": 758926,
+        "format": "webp",
+        "width": 1254,
+        "height": 1254,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "transparent": 610290,
+          "visible": 962226,
+          "bboxAbove127": [
+            65,
+            102,
+            1179,
+            1199
+          ],
+          "touchingSides": 0
+        }
+      },
+      "conversion": null,
+      "avatar": {
+        "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-smile.webp",
+        "sha256": "a90b6f459453940ca296af8214bfc29ea7f4447710734435a3d3ba740eeca723",
+        "bytes": 140388,
+        "format": "webp",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "transparent": 100945,
+          "visible": 161199,
+          "bboxAbove127": [
+            27,
+            42,
+            481,
+            489
+          ],
+          "touchingSides": 0
+        },
+        "original": "assets/ten-chapter/huangqiuqiu/originals/avatar-sphere-expression-smile.png",
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1254,
+          "height": 1254
+        },
+        "resize": {
+          "width": 512,
+          "height": 512,
+          "kernel": "lanczos3"
+        },
+        "conversion": {
+          "lossless": true,
+          "effort": 6,
+          "dimensionsEqual": true,
+          "alphaEqual": true,
+          "visiblePixelsEqual": true,
+          "invisibleRgbChanges": 111956
+        }
+      },
+      "cueIds": [
+        "a01-ch03-huangqiuqiu-01",
+        "a01-ch03-huangqiuqiu-02",
+        "a01-ch03-huangqiuqiu-03",
+        "a01-ch04-huangqiuqiu-01",
+        "a01-ch04-huangqiuqiu-02",
+        "a01-ch04-huangqiuqiu-03",
+        "a01-ch04-huangqiuqiu-04",
+        "a01-ch05-huangqiuqiu-01",
+        "a01-ch05-huangqiuqiu-02",
+        "a01-ch06-huangqiuqiu-01",
+        "a01-ch06-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-01",
+        "a01-ch07-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-03",
+        "a01-ch08-huangqiuqiu-01",
+        "a01-ch08-huangqiuqiu-02"
+      ],
+      "gameIntegrated": false,
+      "adoptionStatus": "delivered-awaiting-A06"
+    },
+    {
+      "assetId": "tc-char-huangqiuqiu-orb-expression-hesitant",
+      "label": "球形·犹豫",
+      "form": "sphere",
+      "key": "expression-hesitant",
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+        "sha256": "9664e4a971c4a8a08b7b47c49bc669a3d25632c3d5bb0c2ed324307e74fc7c9f",
+        "generatedSource": null
+      },
+      "image": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+        "sha256": "9664e4a971c4a8a08b7b47c49bc669a3d25632c3d5bb0c2ed324307e74fc7c9f",
+        "bytes": 808730,
+        "format": "webp",
+        "width": 1254,
+        "height": 1254,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "transparent": 568377,
+          "visible": 1004139,
+          "bboxAbove127": [
+            56,
+            70,
+            1192,
+            1188
+          ],
+          "touchingSides": 0
+        }
+      },
+      "conversion": null,
+      "avatar": {
+        "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-hesitant.webp",
+        "sha256": "9de0ac5f7a79885621986cd89407b9186365953859636d28b652691e86bd9042",
+        "bytes": 147816,
+        "format": "webp",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "transparent": 94301,
+          "visible": 167843,
+          "bboxAbove127": [
+            23,
+            29,
+            486,
+            484
+          ],
+          "touchingSides": 0
+        },
+        "original": "assets/ten-chapter/huangqiuqiu/originals/avatar-sphere-expression-hesitant.png",
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1254,
+          "height": 1254
+        },
+        "resize": {
+          "width": 512,
+          "height": 512,
+          "kernel": "lanczos3"
+        },
+        "conversion": {
+          "lossless": true,
+          "effort": 6,
+          "dimensionsEqual": true,
+          "alphaEqual": true,
+          "visiblePixelsEqual": true,
+          "invisibleRgbChanges": 38914
+        }
+      },
+      "cueIds": [
+        "a01-ch06-huangqiuqiu-01",
+        "a01-ch06-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-01",
+        "a01-ch07-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-03",
+        "a01-ch08-huangqiuqiu-01",
+        "a01-ch08-huangqiuqiu-02"
+      ],
+      "gameIntegrated": false,
+      "adoptionStatus": "delivered-awaiting-A06"
+    },
+    {
+      "assetId": "tc-look-huangqiuqiu-orb-hand",
+      "label": "球形·轻搭手",
+      "form": "sphere",
+      "key": "action-hand",
+      "source": {
+        "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-orb-hand-base.png",
+        "sha256": "b56ff997e4b8753d345eb6b685b40f019d5bdfea97059efc31440691d68b51da",
+        "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-8c3b7119-bcd4-4c69-b95f-6ef7ee4ad0d6.png"
+      },
+      "image": {
+        "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+        "sha256": "1a5e3269fd31f9e869edd6a4c14e72bd91fe0e1e7e85fa2d8bbd36244198a24c",
+        "bytes": 739174,
+        "format": "webp",
+        "width": 1254,
+        "height": 1254,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "transparent": 660227,
+          "visible": 912289,
+          "bboxAbove127": [
+            87,
+            98,
+            1184,
+            1154
+          ],
+          "touchingSides": 0
+        }
+      },
+      "conversion": {
+        "lossless": true,
+        "effort": 6,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbChanges": 465315
+      },
+      "avatar": {
+        "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-action-hand.webp",
+        "sha256": "4ac7b6f622c51783f05b2c3fd1c83138b1d7f717a420ea2a46e0ed97df236b51",
+        "bytes": 132016,
+        "format": "webp",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "transparent": 109320,
+          "visible": 152824,
+          "bboxAbove127": [
+            36,
+            40,
+            483,
+            471
+          ],
+          "touchingSides": 0
+        },
+        "original": "assets/ten-chapter/huangqiuqiu/originals/avatar-sphere-action-hand.png",
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 1254,
+          "height": 1254
+        },
+        "resize": {
+          "width": 512,
+          "height": 512,
+          "kernel": "lanczos3"
+        },
+        "conversion": {
+          "lossless": true,
+          "effort": 6,
+          "dimensionsEqual": true,
+          "alphaEqual": true,
+          "visiblePixelsEqual": true,
+          "invisibleRgbChanges": 72915
+        }
+      },
+      "cueIds": [
+        "a01-ch04-huangqiuqiu-01",
+        "a01-ch04-huangqiuqiu-02",
+        "a01-ch04-huangqiuqiu-03",
+        "a01-ch04-huangqiuqiu-04",
+        "a01-ch08-huangqiuqiu-01",
+        "a01-ch08-huangqiuqiu-02"
+      ],
+      "gameIntegrated": false,
+      "adoptionStatus": "delivered-awaiting-A06"
+    },
+    {
+      "assetId": "tc-char-huangqiuqiu-human-base",
+      "label": "人形·基础",
+      "form": "human",
+      "key": "base",
+      "source": {
+        "path": "assets/character-variants/huangqiuqiu-human-20261022/char-huangqiuqiu-human-base.png",
+        "sha256": "5bb91eb4b58ac5eb630fa09cd4948d0a5a4b582bd2de46af57f8199e8ba93925",
+        "generatedSource": null
+      },
+      "image": {
+        "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+        "sha256": "4e458e5fe38514e3eb4a0ae61fc2023166f078b2370e4836cb1557a6c56cd3d2",
+        "bytes": 1126134,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "transparent": 575841,
+          "visible": 997023,
+          "bboxAbove127": [
+            40,
+            85,
+            999,
+            1527
+          ],
+          "touchingSides": 0
+        }
+      },
+      "conversion": {
+        "lossless": true,
+        "effort": 6,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbChanges": 1572090
+      },
+      "avatar": {
+        "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+        "sha256": "881d3f443f78e18ec595e221312757913b968d5f8e1cb68fb4f2616c8f6f2a1d",
+        "bytes": 233888,
+        "format": "webp",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "transparent": 82864,
+          "visible": 179280,
+          "bboxAbove127": [
+            0,
+            35,
+            511,
+            511
+          ],
+          "touchingSides": 125
+        },
+        "original": "assets/ten-chapter/huangqiuqiu/originals/avatar-human-base.png",
+        "crop": {
+          "left": 200,
+          "top": 40,
+          "width": 650,
+          "height": 650
+        },
+        "resize": {
+          "width": 512,
+          "height": 512,
+          "kernel": "lanczos3"
+        },
+        "conversion": {
+          "lossless": true,
+          "effort": 6,
+          "dimensionsEqual": true,
+          "alphaEqual": true,
+          "visiblePixelsEqual": true,
+          "invisibleRgbChanges": 27511
+        }
+      },
+      "cueIds": [
+        "a01-ch08-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-01",
+        "a01-ch09-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-03",
+        "a01-ch10-huangqiuqiu-01",
+        "a01-ch10-huangqiuqiu-02"
+      ],
+      "gameIntegrated": false,
+      "adoptionStatus": "delivered-awaiting-A06"
+    },
+    {
+      "assetId": "tc-char-huangqiuqiu-human-expression-smile",
+      "label": "人形·微笑",
+      "form": "human",
+      "key": "expression-smile",
+      "source": {
+        "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-expression-smile-v2.png",
+        "sha256": "dcf4b864cec42afd2e75c91e1666383e3d0101a0e5340fef569fac3859d66d57",
+        "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-7aeb300f-2170-4a15-a546-aef05ba1ca64.png"
+      },
+      "image": {
+        "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-smile.webp",
+        "sha256": "bebfac9007c567c546a01c0d4739591866b8faeb5f02b67ef2755281780230cb",
+        "bytes": 1023166,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "transparent": 680022,
+          "visible": 892842,
+          "bboxAbove127": [
+            58,
+            115,
+            984,
+            1469
+          ],
+          "touchingSides": 0
+        }
+      },
+      "conversion": {
+        "lossless": true,
+        "effort": 6,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbChanges": 1825417
+      },
+      "avatar": {
+        "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-smile.webp",
+        "sha256": "d01a049cdf15e39e240d0595e235ae94517b9b8ffaa2c77e1ff1978cbcf3766c",
+        "bytes": 233976,
+        "format": "webp",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "transparent": 97862,
+          "visible": 164282,
+          "bboxAbove127": [
+            0,
+            59,
+            511,
+            511
+          ],
+          "touchingSides": 104
+        },
+        "original": "assets/ten-chapter/huangqiuqiu/originals/avatar-human-expression-smile.png",
+        "crop": {
+          "left": 200,
+          "top": 40,
+          "width": 650,
+          "height": 650
+        },
+        "resize": {
+          "width": 512,
+          "height": 512,
+          "kernel": "lanczos3"
+        },
+        "conversion": {
+          "lossless": true,
+          "effort": 6,
+          "dimensionsEqual": true,
+          "alphaEqual": true,
+          "visiblePixelsEqual": true,
+          "invisibleRgbChanges": 1505
+        }
+      },
+      "cueIds": [
+        "a01-ch08-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-01",
+        "a01-ch09-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-03",
+        "a01-ch10-huangqiuqiu-01",
+        "a01-ch10-huangqiuqiu-02"
+      ],
+      "gameIntegrated": false,
+      "adoptionStatus": "delivered-awaiting-A06"
+    },
+    {
+      "assetId": "tc-char-huangqiuqiu-human-expression-hesitant",
+      "label": "人形·犹豫",
+      "form": "human",
+      "key": "expression-hesitant",
+      "source": {
+        "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-expression-hesitant.png",
+        "sha256": "60ff9aad224eaf93889a465d0a39516243ceedf8c8cf711e0989901d92ac3a1b",
+        "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-83f50f4d-eaba-4736-893d-49806c609172.png"
+      },
+      "image": {
+        "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-hesitant.webp",
+        "sha256": "0cfd679043a6ab6701aa32770a0ee87bbce4325b9df6fa17d93b44cd837a04ba",
+        "bytes": 1089200,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "transparent": 562484,
+          "visible": 1010380,
+          "bboxAbove127": [
+            39,
+            81,
+            1000,
+            1527
+          ],
+          "touchingSides": 0
+        }
+      },
+      "conversion": {
+        "lossless": true,
+        "effort": 6,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbChanges": 1556836
+      },
+      "avatar": {
+        "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-hesitant.webp",
+        "sha256": "9c9b7701bcbcac5f2be4d7c5452c263f3fb33fa01f7abdd3a4e0a42bafda3328",
+        "bytes": 237646,
+        "format": "webp",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "transparent": 76248,
+          "visible": 185896,
+          "bboxAbove127": [
+            0,
+            33,
+            511,
+            511
+          ],
+          "touchingSides": 127
+        },
+        "original": "assets/ten-chapter/huangqiuqiu/originals/avatar-human-expression-hesitant.png",
+        "crop": {
+          "left": 200,
+          "top": 40,
+          "width": 650,
+          "height": 650
+        },
+        "resize": {
+          "width": 512,
+          "height": 512,
+          "kernel": "lanczos3"
+        },
+        "conversion": {
+          "lossless": true,
+          "effort": 6,
+          "dimensionsEqual": true,
+          "alphaEqual": true,
+          "visiblePixelsEqual": true,
+          "invisibleRgbChanges": 1542
+        }
+      },
+      "cueIds": [
+        "a01-ch08-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-01",
+        "a01-ch09-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-03",
+        "a01-ch10-huangqiuqiu-01",
+        "a01-ch10-huangqiuqiu-02"
+      ],
+      "gameIntegrated": false,
+      "adoptionStatus": "delivered-awaiting-A06"
+    },
+    {
+      "assetId": "tc-char-huangqiuqiu-human-expression-serious",
+      "label": "人形·认真",
+      "form": "human",
+      "key": "expression-serious",
+      "source": {
+        "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-expression-serious.png",
+        "sha256": "85b4c1d81d256e8f597bb1d73b3127b0f0d01f93cba7f8c649e80e9a47963bf5",
+        "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-8af21e7e-0699-44fc-823b-fe4e2507a3c8.png"
+      },
+      "image": {
+        "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-serious.webp",
+        "sha256": "19ef244a325bfb04b03133d5bf0bf194cd9d70417dcc97ebc8e757c8058d071e",
+        "bytes": 1148984,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "transparent": 554758,
+          "visible": 1018106,
+          "bboxAbove127": [
+            33,
+            69,
+            1005,
+            1527
+          ],
+          "touchingSides": 0
+        }
+      },
+      "conversion": {
+        "lossless": true,
+        "effort": 6,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbChanges": 1539128
+      },
+      "avatar": {
+        "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-serious.webp",
+        "sha256": "92da2ea71812a85e084c6a5b349d13b3ad6fc406c8996237e4c08a3ae0eb2497",
+        "bytes": 243324,
+        "format": "webp",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "transparent": 75937,
+          "visible": 186207,
+          "bboxAbove127": [
+            0,
+            23,
+            511,
+            511
+          ],
+          "touchingSides": 132
+        },
+        "original": "assets/ten-chapter/huangqiuqiu/originals/avatar-human-expression-serious.png",
+        "crop": {
+          "left": 200,
+          "top": 40,
+          "width": 650,
+          "height": 650
+        },
+        "resize": {
+          "width": 512,
+          "height": 512,
+          "kernel": "lanczos3"
+        },
+        "conversion": {
+          "lossless": true,
+          "effort": 6,
+          "dimensionsEqual": true,
+          "alphaEqual": true,
+          "visiblePixelsEqual": true,
+          "invisibleRgbChanges": 76033
+        }
+      },
+      "cueIds": [
+        "a01-ch08-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-01",
+        "a01-ch09-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-03",
+        "a01-ch10-huangqiuqiu-01",
+        "a01-ch10-huangqiuqiu-02"
+      ],
+      "gameIntegrated": false,
+      "adoptionStatus": "delivered-awaiting-A06"
+    },
+    {
+      "assetId": "tc-char-huangqiuqiu-human-expression-downcast",
+      "label": "人形·低落",
+      "form": "human",
+      "key": "expression-downcast",
+      "source": {
+        "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-expression-downcast-v2.png",
+        "sha256": "eedc821169197384a35dd5a70f48f634c07c6f3057c9def2f5efddd688c13025",
+        "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-588ab5d1-d967-478c-bcd8-3b5df7a91cc0.png"
+      },
+      "image": {
+        "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-downcast.webp",
+        "sha256": "546a9b5c83ab694633cb7e323a3367136c04ed54bba8ae2351fd3866bdc73595",
+        "bytes": 1066248,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "transparent": 609911,
+          "visible": 962953,
+          "bboxAbove127": [
+            36,
+            109,
+            993,
+            1503
+          ],
+          "touchingSides": 0
+        }
+      },
+      "conversion": {
+        "lossless": true,
+        "effort": 6,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbChanges": 1631042
+      },
+      "avatar": {
+        "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-downcast.webp",
+        "sha256": "ed7d25534f242db1d288083499ed9e281dc64bdf19ed5a7236c1fc809cd87da3",
+        "bytes": 225912,
+        "format": "webp",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "transparent": 91881,
+          "visible": 170263,
+          "bboxAbove127": [
+            0,
+            54,
+            511,
+            511
+          ],
+          "touchingSides": 176
+        },
+        "original": "assets/ten-chapter/huangqiuqiu/originals/avatar-human-expression-downcast.png",
+        "crop": {
+          "left": 200,
+          "top": 40,
+          "width": 650,
+          "height": 650
+        },
+        "resize": {
+          "width": 512,
+          "height": 512,
+          "kernel": "lanczos3"
+        },
+        "conversion": {
+          "lossless": true,
+          "effort": 6,
+          "dimensionsEqual": true,
+          "alphaEqual": true,
+          "visiblePixelsEqual": true,
+          "invisibleRgbChanges": 2149
+        }
+      },
+      "cueIds": [
+        "a01-ch09-huangqiuqiu-03"
+      ],
+      "gameIntegrated": false,
+      "adoptionStatus": "delivered-awaiting-A06"
+    },
+    {
+      "assetId": "tc-char-huangqiuqiu-human-action-wave",
+      "label": "人形·挥手",
+      "form": "human",
+      "key": "action-wave",
+      "source": {
+        "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-action-wave-v2.png",
+        "sha256": "9d34a7eb2b704a89052c177fdd4c557be5c4b33535580d6361ffd816b41f2319",
+        "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-c77a8d14-417e-495d-ae45-eaa0cc9e7b0c.png"
+      },
+      "image": {
+        "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-action-wave.webp",
+        "sha256": "27cd16f1233463f800b7651e97ace261416436c5fd020ce5b547694ddc7639da",
+        "bytes": 1001188,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "transparent": 701883,
+          "visible": 870981,
+          "bboxAbove127": [
+            63,
+            155,
+            984,
+            1477
+          ],
+          "touchingSides": 0
+        }
+      },
+      "conversion": {
+        "lossless": true,
+        "effort": 6,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbChanges": 1833991
+      },
+      "avatar": {
+        "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-wave.webp",
+        "sha256": "ea311f9cdc6e91989618f2ee0153bca9f7b663b632d42487e9ef7a720b034a74",
+        "bytes": 213288,
+        "format": "webp",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "transparent": 112819,
+          "visible": 149325,
+          "bboxAbove127": [
+            0,
+            90,
+            511,
+            511
+          ],
+          "touchingSides": 109
+        },
+        "original": "assets/ten-chapter/huangqiuqiu/originals/avatar-human-action-wave.png",
+        "crop": {
+          "left": 200,
+          "top": 40,
+          "width": 650,
+          "height": 650
+        },
+        "resize": {
+          "width": 512,
+          "height": 512,
+          "kernel": "lanczos3"
+        },
+        "conversion": {
+          "lossless": true,
+          "effort": 6,
+          "dimensionsEqual": true,
+          "alphaEqual": true,
+          "visiblePixelsEqual": true,
+          "invisibleRgbChanges": 4169
+        }
+      },
+      "cueIds": [
+        "a01-ch08-huangqiuqiu-02"
+      ],
+      "gameIntegrated": false,
+      "adoptionStatus": "delivered-awaiting-A06"
+    },
+    {
+      "assetId": "tc-look-huangqiuqiu-human-chin",
+      "label": "人形·托腮",
+      "form": "human",
+      "key": "action-thinking",
+      "source": {
+        "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-chin-base-v2.png",
+        "sha256": "5a151d27dd56516b4f429212a264094ef526f4583b788452dbe90fe19529d4e5",
+        "generatedSource": "/Users/yipin/.codex/generated_images/01a162af-1b4d-7eb2-9263-991427da9437/exec-a1b15772-d000-4e64-91f1-19c925a20da3.png"
+      },
+      "image": {
+        "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-chin-base.webp",
+        "sha256": "68682fd771ad2cea823f7beb5e0a57ceec64678a9686d24a316817c16b45e466",
+        "bytes": 1123108,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "transparent": 613391,
+          "visible": 959473,
+          "bboxAbove127": [
+            55,
+            99,
+            996,
+            1483
+          ],
+          "touchingSides": 0
+        }
+      },
+      "conversion": {
+        "lossless": true,
+        "effort": 6,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbChanges": 1674453
+      },
+      "avatar": {
+        "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-thinking.webp",
+        "sha256": "fe712afe64036b8e75952dca74b1cc2ab8771f66998c6821ba1ff92eaf7a75ee",
+        "bytes": 254246,
+        "format": "webp",
+        "width": 512,
+        "height": 512,
+        "hasAlpha": true,
+        "alpha": {
+          "min": 0,
+          "max": 255,
+          "transparent": 81232,
+          "visible": 180912,
+          "bboxAbove127": [
+            0,
+            47,
+            511,
+            511
+          ],
+          "touchingSides": 211
+        },
+        "original": "assets/ten-chapter/huangqiuqiu/originals/avatar-human-action-thinking.png",
+        "crop": {
+          "left": 200,
+          "top": 40,
+          "width": 650,
+          "height": 650
+        },
+        "resize": {
+          "width": 512,
+          "height": 512,
+          "kernel": "lanczos3"
+        },
+        "conversion": {
+          "lossless": true,
+          "effort": 6,
+          "dimensionsEqual": true,
+          "alphaEqual": true,
+          "visiblePixelsEqual": true,
+          "invisibleRgbChanges": 4102
+        }
+      },
+      "cueIds": [
+        "a01-ch08-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-01",
+        "a01-ch09-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-03",
+        "a01-ch10-huangqiuqiu-01",
+        "a01-ch10-huangqiuqiu-02"
+      ],
+      "gameIntegrated": false,
+      "adoptionStatus": "delivered-awaiting-A06"
+    }
+  ],
+  "gameIntegrated": false,
+  "globalAdoption": false
+}

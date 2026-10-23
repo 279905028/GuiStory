@@ -1,0 +1,3698 @@
+{
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "scope": "E06真实路线源与来源/资产请求映射；未正式接入",
+  "formalIntegration": false,
+  "routes": [
+    {
+      "route": "piao",
+      "readFlags": [
+        "route",
+        "piaoOuting",
+        "piaoRelationship"
+      ],
+      "writeFlags": [
+        "piaoRelationship",
+        "piaoOuting"
+      ],
+      "chapters": [
+        {
+          "chapter": 3,
+          "entry": "tc_c03_piao_entry",
+          "returnTo": "tc_c03_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "startLine": 693,
+            "endLine": 871
+          },
+          "blocks": [
+            {
+              "name": "sweet_jelly",
+              "startLine": 695,
+              "endLine": 743,
+              "nodeIds": [
+                "tc_c03_piao_entry",
+                "tc_c03_piao_sweet_jelly_002",
+                "tc_c03_piao_sweet_jelly_003",
+                "tc_c03_piao_sweet_jelly_004",
+                "tc_c03_piao_sweet_jelly_005",
+                "tc_c03_piao_sweet_jelly_006",
+                "tc_c03_piao_sweet_jelly_007",
+                "tc_c03_piao_sweet_jelly_008",
+                "tc_c03_piao_sweet_jelly_009",
+                "tc_c03_piao_sweet_jelly_010",
+                "tc_c03_piao_sweet_jelly_011",
+                "tc_c03_piao_sweet_jelly_012",
+                "tc_c03_piao_sweet_jelly_013",
+                "tc_c03_piao_sweet_jelly_014",
+                "tc_c03_piao_sweet_jelly_015",
+                "tc_c03_piao_sweet_jelly_016",
+                "tc_c03_piao_sweet_jelly_017",
+                "tc_c03_piao_sweet_jelly_018",
+                "tc_c03_piao_sweet_jelly_019",
+                "tc_c03_piao_sweet_jelly_020",
+                "tc_c03_piao_sweet_jelly_021",
+                "tc_c03_piao_sweet_jelly_022",
+                "tc_c03_piao_sweet_jelly_023",
+                "tc_c03_piao_sweet_jelly_024"
+              ],
+              "sceneIds": [
+                "ts_c03_piao_sweet_jelly",
+                "ts_c03_piao_sweet_jelly_meeting",
+                "ts_c03_piao_sweet_jelly_jelly_shop",
+                "ts_c03_piao_sweet_jelly_puddles"
+              ]
+            },
+            {
+              "name": "leave_blank",
+              "startLine": 745,
+              "endLine": 793,
+              "nodeIds": [
+                "tc_c03_piao_leave_blank_001",
+                "tc_c03_piao_leave_blank_002",
+                "tc_c03_piao_leave_blank_003",
+                "tc_c03_piao_leave_blank_004",
+                "tc_c03_piao_leave_blank_005",
+                "tc_c03_piao_leave_blank_006",
+                "tc_c03_piao_leave_blank_007",
+                "tc_c03_piao_leave_blank_008",
+                "tc_c03_piao_leave_blank_009",
+                "tc_c03_piao_leave_blank_010",
+                "tc_c03_piao_leave_blank_011",
+                "tc_c03_piao_leave_blank_012",
+                "tc_c03_piao_leave_blank_013",
+                "tc_c03_piao_leave_blank_014",
+                "tc_c03_piao_leave_blank_015",
+                "tc_c03_piao_leave_blank_016",
+                "tc_c03_piao_leave_blank_017",
+                "tc_c03_piao_leave_blank_018",
+                "tc_c03_piao_leave_blank_019",
+                "tc_c03_piao_leave_blank_020",
+                "tc_c03_piao_leave_blank_021",
+                "tc_c03_piao_leave_blank_022",
+                "tc_c03_piao_leave_blank_023",
+                "tc_c03_piao_leave_blank_024"
+              ],
+              "sceneIds": [
+                "ts_c03_piao_leave_blank",
+                "ts_c03_piao_leave_blank_bench"
+              ]
+            },
+            {
+              "name": "say_clearly",
+              "startLine": 795,
+              "endLine": 815,
+              "nodeIds": [
+                "tc_c03_piao_say_clearly_001",
+                "tc_c03_piao_say_clearly_002",
+                "tc_c03_piao_say_clearly_003",
+                "tc_c03_piao_say_clearly_004",
+                "tc_c03_piao_say_clearly_005",
+                "tc_c03_piao_say_clearly_006",
+                "tc_c03_piao_say_clearly_007",
+                "tc_c03_piao_say_clearly_008",
+                "tc_c03_piao_say_clearly_009",
+                "tc_c03_piao_say_clearly_010"
+              ],
+              "sceneIds": [
+                "ts_c03_piao_say_clearly",
+                "ts_c03_piao_say_clearly_river"
+              ]
+            },
+            {
+              "name": "dating",
+              "startLine": 822,
+              "endLine": 846,
+              "nodeIds": [
+                "tc_c03_piao_dating_001",
+                "tc_c03_piao_dating_002",
+                "tc_c03_piao_dating_003",
+                "tc_c03_piao_dating_004",
+                "tc_c03_piao_dating_005",
+                "tc_c03_piao_dating_006",
+                "tc_c03_piao_dating_007",
+                "tc_c03_piao_dating_008",
+                "tc_c03_piao_dating_009",
+                "tc_c03_piao_dating_010",
+                "tc_c03_piao_dating_011",
+                "tc_c03_piao_dating_012"
+              ],
+              "sceneIds": [
+                "ts_c03_piao_dating"
+              ]
+            },
+            {
+              "name": "friends",
+              "startLine": 848,
+              "endLine": 870,
+              "nodeIds": [
+                "tc_c03_piao_friends_001",
+                "tc_c03_piao_friends_002",
+                "tc_c03_piao_friends_003",
+                "tc_c03_piao_friends_004",
+                "tc_c03_piao_friends_005",
+                "tc_c03_piao_friends_006",
+                "tc_c03_piao_friends_007",
+                "tc_c03_piao_friends_008",
+                "tc_c03_piao_friends_009",
+                "tc_c03_piao_friends_010",
+                "tc_c03_piao_friends_011"
+              ],
+              "sceneIds": [
+                "ts_c03_piao_friends",
+                "ts_c03_piao_friends_crossroad",
+                "ts_c03_piao_friends_busstop",
+                "ts_c03_piao_friends_message"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c03_piao_relationship_choice"
+          ]
+        },
+        {
+          "chapter": 4,
+          "entry": "tc_c04_piao_entry",
+          "returnTo": "tc_c04_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "startLine": 371,
+            "endLine": 451
+          },
+          "blocks": [
+            {
+              "name": "two_plans",
+              "startLine": 373,
+              "endLine": 383,
+              "nodeIds": [
+                "tc_c04_piao_entry",
+                "tc_c04_piao_two_plans_002",
+                "tc_c04_piao_two_plans_003",
+                "tc_c04_piao_two_plans_004",
+                "tc_c04_piao_two_plans_005"
+              ],
+              "sceneIds": [
+                "ts_c04_piao_two_plans"
+              ]
+            },
+            {
+              "name": "paperboat",
+              "startLine": 390,
+              "endLine": 404,
+              "nodeIds": [
+                "tc_c04_piao_paperboat_001",
+                "tc_c04_piao_paperboat_002",
+                "tc_c04_piao_paperboat_003",
+                "tc_c04_piao_paperboat_004",
+                "tc_c04_piao_paperboat_005",
+                "tc_c04_piao_paperboat_006",
+                "tc_c04_piao_paperboat_007"
+              ],
+              "sceneIds": [
+                "ts_c04_piao_paperboat"
+              ]
+            },
+            {
+              "name": "signs",
+              "startLine": 406,
+              "endLine": 418,
+              "nodeIds": [
+                "tc_c04_piao_signs_001",
+                "tc_c04_piao_signs_002",
+                "tc_c04_piao_signs_003",
+                "tc_c04_piao_signs_004",
+                "tc_c04_piao_signs_005",
+                "tc_c04_piao_signs_006"
+              ],
+              "sceneIds": [
+                "ts_c04_piao_signs"
+              ]
+            },
+            {
+              "name": "dating",
+              "startLine": 422,
+              "endLine": 438,
+              "nodeIds": [
+                "tc_c04_piao_dating_001",
+                "tc_c04_piao_dating_002",
+                "tc_c04_piao_dating_003",
+                "tc_c04_piao_dating_004",
+                "tc_c04_piao_dating_005",
+                "tc_c04_piao_dating_006",
+                "tc_c04_piao_dating_007",
+                "tc_c04_piao_dating_008"
+              ],
+              "sceneIds": [
+                "ts_c04_piao_dating",
+                "ts_c04_piao_dating_workward"
+              ]
+            },
+            {
+              "name": "friends",
+              "startLine": 440,
+              "endLine": 450,
+              "nodeIds": [
+                "tc_c04_piao_friends_001",
+                "tc_c04_piao_friends_002",
+                "tc_c04_piao_friends_003",
+                "tc_c04_piao_friends_004",
+                "tc_c04_piao_friends_005"
+              ],
+              "sceneIds": [
+                "ts_c04_piao_friends",
+                "ts_c04_piao_friends_parting"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c04_piao_relationship_gate",
+            "tc_c04_piao_outing_choice"
+          ]
+        },
+        {
+          "chapter": 5,
+          "entry": "tc_c05_piao_entry",
+          "returnTo": "tc_c05_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+            "startLine": 363,
+            "endLine": 454
+          },
+          "blocks": [
+            {
+              "name": "cover",
+              "startLine": 365,
+              "endLine": 405,
+              "nodeIds": [
+                "tc_c05_piao_entry",
+                "tc_c05_piao_cover_002",
+                "tc_c05_piao_cover_003",
+                "tc_c05_piao_cover_004",
+                "tc_c05_piao_cover_005",
+                "tc_c05_piao_cover_006",
+                "tc_c05_piao_cover_007",
+                "tc_c05_piao_cover_008",
+                "tc_c05_piao_cover_009",
+                "tc_c05_piao_cover_010",
+                "tc_c05_piao_cover_011",
+                "tc_c05_piao_cover_012",
+                "tc_c05_piao_cover_013",
+                "tc_c05_piao_cover_014",
+                "tc_c05_piao_cover_015",
+                "tc_c05_piao_cover_016",
+                "tc_c05_piao_cover_017",
+                "tc_c05_piao_cover_018",
+                "tc_c05_piao_cover_019",
+                "tc_c05_piao_cover_020"
+              ],
+              "sceneIds": [
+                "ts_c05_piao_cover",
+                "ts_c05_piao_cover_soymilk"
+              ]
+            },
+            {
+              "name": "dating",
+              "startLine": 409,
+              "endLine": 431,
+              "nodeIds": [
+                "tc_c05_piao_dating_001",
+                "tc_c05_piao_dating_002",
+                "tc_c05_piao_dating_003",
+                "tc_c05_piao_dating_004",
+                "tc_c05_piao_dating_005",
+                "tc_c05_piao_dating_006",
+                "tc_c05_piao_dating_007",
+                "tc_c05_piao_dating_008",
+                "tc_c05_piao_dating_009",
+                "tc_c05_piao_dating_010",
+                "tc_c05_piao_dating_011"
+              ],
+              "sceneIds": [
+                "ts_c05_piao_dating"
+              ]
+            },
+            {
+              "name": "friends",
+              "startLine": 433,
+              "endLine": 453,
+              "nodeIds": [
+                "tc_c05_piao_friends_001",
+                "tc_c05_piao_friends_002",
+                "tc_c05_piao_friends_003",
+                "tc_c05_piao_friends_004",
+                "tc_c05_piao_friends_005",
+                "tc_c05_piao_friends_006",
+                "tc_c05_piao_friends_007",
+                "tc_c05_piao_friends_008",
+                "tc_c05_piao_friends_009",
+                "tc_c05_piao_friends_010"
+              ],
+              "sceneIds": [
+                "ts_c05_piao_friends",
+                "ts_c05_piao_friends_parting"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c05_piao_relationship_gate"
+          ]
+        },
+        {
+          "chapter": 6,
+          "entry": "tc_c06_piao_entry",
+          "returnTo": "tc_c06_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+            "startLine": 339,
+            "endLine": 420
+          },
+          "blocks": [
+            {
+              "name": "closed_echo",
+              "startLine": 341,
+              "endLine": 363,
+              "nodeIds": [
+                "tc_c06_piao_entry",
+                "tc_c06_piao_closed_echo_002",
+                "tc_c06_piao_closed_echo_003",
+                "tc_c06_piao_closed_echo_004",
+                "tc_c06_piao_closed_echo_005",
+                "tc_c06_piao_closed_echo_006",
+                "tc_c06_piao_closed_echo_007",
+                "tc_c06_piao_closed_echo_008",
+                "tc_c06_piao_closed_echo_009",
+                "tc_c06_piao_closed_echo_010",
+                "tc_c06_piao_closed_echo_011"
+              ],
+              "sceneIds": [
+                "ts_c06_piao_closed_echo",
+                "ts_c06_piao_closed_echo_closed_door",
+                "ts_c06_piao_closed_echo_street",
+                "ts_c06_piao_closed_echo_bench"
+              ]
+            },
+            {
+              "name": "dating",
+              "startLine": 367,
+              "endLine": 397,
+              "nodeIds": [
+                "tc_c06_piao_dating_001",
+                "tc_c06_piao_dating_002",
+                "tc_c06_piao_dating_003",
+                "tc_c06_piao_dating_004",
+                "tc_c06_piao_dating_005",
+                "tc_c06_piao_dating_006",
+                "tc_c06_piao_dating_007",
+                "tc_c06_piao_dating_008",
+                "tc_c06_piao_dating_009",
+                "tc_c06_piao_dating_010",
+                "tc_c06_piao_dating_011",
+                "tc_c06_piao_dating_012",
+                "tc_c06_piao_dating_013",
+                "tc_c06_piao_dating_014",
+                "tc_c06_piao_dating_015"
+              ],
+              "sceneIds": [
+                "ts_c06_piao_dating",
+                "ts_c06_piao_dating_dinner"
+              ]
+            },
+            {
+              "name": "friends",
+              "startLine": 399,
+              "endLine": 419,
+              "nodeIds": [
+                "tc_c06_piao_friends_001",
+                "tc_c06_piao_friends_002",
+                "tc_c06_piao_friends_003",
+                "tc_c06_piao_friends_004",
+                "tc_c06_piao_friends_005",
+                "tc_c06_piao_friends_006",
+                "tc_c06_piao_friends_007",
+                "tc_c06_piao_friends_008",
+                "tc_c06_piao_friends_009",
+                "tc_c06_piao_friends_010"
+              ],
+              "sceneIds": [
+                "ts_c06_piao_friends",
+                "ts_c06_piao_friends_home"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c06_piao_relationship_gate"
+          ]
+        },
+        {
+          "chapter": 7,
+          "entry": "tc_c07_piao_entry",
+          "returnTo": "tc_c07_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+            "startLine": 377,
+            "endLine": 440
+          },
+          "blocks": [
+            {
+              "name": "half_hour",
+              "startLine": 379,
+              "endLine": 385,
+              "nodeIds": [
+                "tc_c07_piao_entry",
+                "tc_c07_piao_half_hour_002",
+                "tc_c07_piao_half_hour_003"
+              ],
+              "sceneIds": [
+                "ts_c07_piao_half_hour"
+              ]
+            },
+            {
+              "name": "paperboat_return",
+              "startLine": 389,
+              "endLine": 389,
+              "nodeIds": [
+                "tc_c07_piao_paperboat_return_001"
+              ],
+              "sceneIds": [
+                "ts_c07_piao_paperboat_return"
+              ]
+            },
+            {
+              "name": "signs_return",
+              "startLine": 391,
+              "endLine": 391,
+              "nodeIds": [
+                "tc_c07_piao_signs_return_001"
+              ],
+              "sceneIds": [
+                "ts_c07_piao_signs_return"
+              ]
+            },
+            {
+              "name": "bag_ready",
+              "startLine": 393,
+              "endLine": 393,
+              "nodeIds": [
+                "tc_c07_piao_bag_ready_001"
+              ],
+              "sceneIds": [
+                "ts_c07_piao_bag_ready"
+              ]
+            },
+            {
+              "name": "dating",
+              "startLine": 397,
+              "endLine": 419,
+              "nodeIds": [
+                "tc_c07_piao_dating_001",
+                "tc_c07_piao_dating_002",
+                "tc_c07_piao_dating_003",
+                "tc_c07_piao_dating_004",
+                "tc_c07_piao_dating_005",
+                "tc_c07_piao_dating_006",
+                "tc_c07_piao_dating_007",
+                "tc_c07_piao_dating_008",
+                "tc_c07_piao_dating_009",
+                "tc_c07_piao_dating_010",
+                "tc_c07_piao_dating_011",
+                "tc_c07_piao_dating_012"
+              ],
+              "sceneIds": [
+                "ts_c07_piao_dating",
+                "ts_c07_piao_dating_laundry",
+                "ts_c07_piao_dating_message",
+                "ts_c07_piao_dating_day41"
+              ]
+            },
+            {
+              "name": "friends",
+              "startLine": 421,
+              "endLine": 439,
+              "nodeIds": [
+                "tc_c07_piao_friends_001",
+                "tc_c07_piao_friends_002",
+                "tc_c07_piao_friends_003",
+                "tc_c07_piao_friends_004",
+                "tc_c07_piao_friends_005",
+                "tc_c07_piao_friends_006",
+                "tc_c07_piao_friends_007",
+                "tc_c07_piao_friends_008",
+                "tc_c07_piao_friends_009"
+              ],
+              "sceneIds": [
+                "ts_c07_piao_friends",
+                "ts_c07_piao_friends_later_summary"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c07_piao_relationship_gate",
+            "tc_c07_piao_outing_gate"
+          ]
+        },
+        {
+          "chapter": 8,
+          "entry": "tc_c08_piao_entry",
+          "returnTo": "tc_c08_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+            "startLine": 335,
+            "endLine": 402
+          },
+          "blocks": [
+            {
+              "name": "shared_time",
+              "startLine": 337,
+              "endLine": 355,
+              "nodeIds": [
+                "tc_c08_piao_entry",
+                "tc_c08_piao_shared_time_002",
+                "tc_c08_piao_shared_time_003",
+                "tc_c08_piao_shared_time_004",
+                "tc_c08_piao_shared_time_005",
+                "tc_c08_piao_shared_time_006",
+                "tc_c08_piao_shared_time_007",
+                "tc_c08_piao_shared_time_008",
+                "tc_c08_piao_shared_time_009"
+              ],
+              "sceneIds": [
+                "ts_c08_piao_shared_time"
+              ]
+            },
+            {
+              "name": "dating",
+              "startLine": 359,
+              "endLine": 381,
+              "nodeIds": [
+                "tc_c08_piao_dating_001",
+                "tc_c08_piao_dating_002",
+                "tc_c08_piao_dating_003",
+                "tc_c08_piao_dating_004",
+                "tc_c08_piao_dating_005",
+                "tc_c08_piao_dating_006",
+                "tc_c08_piao_dating_007",
+                "tc_c08_piao_dating_008",
+                "tc_c08_piao_dating_009",
+                "tc_c08_piao_dating_010",
+                "tc_c08_piao_dating_011"
+              ],
+              "sceneIds": [
+                "ts_c08_piao_dating",
+                "ts_c08_piao_dating_street"
+              ]
+            },
+            {
+              "name": "friends",
+              "startLine": 383,
+              "endLine": 401,
+              "nodeIds": [
+                "tc_c08_piao_friends_001",
+                "tc_c08_piao_friends_002",
+                "tc_c08_piao_friends_003",
+                "tc_c08_piao_friends_004",
+                "tc_c08_piao_friends_005",
+                "tc_c08_piao_friends_006",
+                "tc_c08_piao_friends_007",
+                "tc_c08_piao_friends_008",
+                "tc_c08_piao_friends_009"
+              ],
+              "sceneIds": [
+                "ts_c08_piao_friends"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c08_piao_relationship_gate"
+          ]
+        },
+        {
+          "chapter": 9,
+          "entry": "tc_c09_piao_entry",
+          "returnTo": "tc_c09_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "startLine": 421,
+            "endLine": 498
+          },
+          "blocks": [
+            {
+              "name": "booklet",
+              "startLine": 423,
+              "endLine": 441,
+              "nodeIds": [
+                "tc_c09_piao_entry",
+                "tc_c09_piao_booklet_002",
+                "tc_c09_piao_booklet_003",
+                "tc_c09_piao_booklet_004",
+                "tc_c09_piao_booklet_005",
+                "tc_c09_piao_booklet_006",
+                "tc_c09_piao_booklet_007",
+                "tc_c09_piao_booklet_008",
+                "tc_c09_piao_booklet_009"
+              ],
+              "sceneIds": [
+                "ts_c09_piao_booklet"
+              ]
+            },
+            {
+              "name": "dating",
+              "startLine": 445,
+              "endLine": 473,
+              "nodeIds": [
+                "tc_c09_piao_dating_001",
+                "tc_c09_piao_dating_002",
+                "tc_c09_piao_dating_003",
+                "tc_c09_piao_dating_004",
+                "tc_c09_piao_dating_005",
+                "tc_c09_piao_dating_006",
+                "tc_c09_piao_dating_007",
+                "tc_c09_piao_dating_008",
+                "tc_c09_piao_dating_009",
+                "tc_c09_piao_dating_010",
+                "tc_c09_piao_dating_011",
+                "tc_c09_piao_dating_012",
+                "tc_c09_piao_dating_013",
+                "tc_c09_piao_dating_014"
+              ],
+              "sceneIds": [
+                "ts_c09_piao_dating"
+              ]
+            },
+            {
+              "name": "friends",
+              "startLine": 475,
+              "endLine": 497,
+              "nodeIds": [
+                "tc_c09_piao_friends_001",
+                "tc_c09_piao_friends_002",
+                "tc_c09_piao_friends_003",
+                "tc_c09_piao_friends_004",
+                "tc_c09_piao_friends_005",
+                "tc_c09_piao_friends_006",
+                "tc_c09_piao_friends_007",
+                "tc_c09_piao_friends_008",
+                "tc_c09_piao_friends_009",
+                "tc_c09_piao_friends_010",
+                "tc_c09_piao_friends_011"
+              ],
+              "sceneIds": [
+                "ts_c09_piao_friends",
+                "ts_c09_piao_friends_parting"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c09_piao_relationship_gate"
+          ]
+        },
+        {
+          "chapter": 10,
+          "entry": "tc_c10_piao_entry",
+          "returnTo": null,
+          "endings": [
+            "tc_c10_piao_end_dating",
+            "tc_c10_piao_end_friends"
+          ],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+            "startLine": 397,
+            "endLine": 470
+          },
+          "blocks": [
+            {
+              "name": "dating",
+              "startLine": 401,
+              "endLine": 443,
+              "nodeIds": [
+                "tc_c10_piao_dating_001",
+                "tc_c10_piao_dating_002",
+                "tc_c10_piao_dating_003",
+                "tc_c10_piao_dating_004",
+                "tc_c10_piao_dating_005",
+                "tc_c10_piao_dating_006",
+                "tc_c10_piao_dating_007",
+                "tc_c10_piao_dating_008",
+                "tc_c10_piao_dating_009",
+                "tc_c10_piao_dating_010",
+                "tc_c10_piao_dating_011",
+                "tc_c10_piao_dating_012",
+                "tc_c10_piao_dating_013",
+                "tc_c10_piao_dating_014",
+                "tc_c10_piao_dating_015",
+                "tc_c10_piao_dating_016",
+                "tc_c10_piao_dating_017",
+                "tc_c10_piao_dating_018",
+                "tc_c10_piao_dating_019",
+                "tc_c10_piao_dating_020",
+                "tc_c10_piao_dating_021"
+              ],
+              "sceneIds": [
+                "ts_c10_piao_dating",
+                "ts_c10_piao_dating_dinner_walk"
+              ]
+            },
+            {
+              "name": "friends",
+              "startLine": 445,
+              "endLine": 469,
+              "nodeIds": [
+                "tc_c10_piao_friends_001",
+                "tc_c10_piao_friends_002",
+                "tc_c10_piao_friends_003",
+                "tc_c10_piao_friends_004",
+                "tc_c10_piao_friends_005",
+                "tc_c10_piao_friends_006",
+                "tc_c10_piao_friends_007",
+                "tc_c10_piao_friends_008",
+                "tc_c10_piao_friends_009",
+                "tc_c10_piao_friends_010",
+                "tc_c10_piao_friends_011",
+                "tc_c10_piao_friends_012"
+              ],
+              "sceneIds": [
+                "ts_c10_piao_friends",
+                "ts_c10_piao_friends_parting"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c10_piao_entry",
+            "tc_c10_piao_end_dating",
+            "tc_c10_piao_end_friends"
+          ]
+        }
+      ],
+      "assetMappings": [
+        {
+          "a01SectionId": "a01-ch03-piao-01",
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "startLine": 695,
+          "endLine": 743,
+          "nodeIds": [
+            "tc_c03_piao_entry",
+            "tc_c03_piao_sweet_jelly_002",
+            "tc_c03_piao_sweet_jelly_003",
+            "tc_c03_piao_sweet_jelly_004",
+            "tc_c03_piao_sweet_jelly_005",
+            "tc_c03_piao_sweet_jelly_006",
+            "tc_c03_piao_sweet_jelly_007",
+            "tc_c03_piao_sweet_jelly_008",
+            "tc_c03_piao_sweet_jelly_009",
+            "tc_c03_piao_sweet_jelly_010",
+            "tc_c03_piao_sweet_jelly_011",
+            "tc_c03_piao_sweet_jelly_012",
+            "tc_c03_piao_sweet_jelly_013",
+            "tc_c03_piao_sweet_jelly_014",
+            "tc_c03_piao_sweet_jelly_015",
+            "tc_c03_piao_sweet_jelly_016",
+            "tc_c03_piao_sweet_jelly_017",
+            "tc_c03_piao_sweet_jelly_018",
+            "tc_c03_piao_sweet_jelly_019",
+            "tc_c03_piao_sweet_jelly_020",
+            "tc_c03_piao_sweet_jelly_021",
+            "tc_c03_piao_sweet_jelly_022",
+            "tc_c03_piao_sweet_jelly_023",
+            "tc_c03_piao_sweet_jelly_024"
+          ],
+          "sceneIds": [
+            "ts_c03_piao_sweet_jelly",
+            "ts_c03_piao_sweet_jelly_meeting",
+            "ts_c03_piao_sweet_jelly_jelly_shop",
+            "ts_c03_piao_sweet_jelly_puddles"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day",
+            "tc-bg-street-day",
+            "tc-bg-food-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 piao 路线"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "本次纯约吃东西，无采访纸笔或录音道具。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch03-piao-02",
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "startLine": 745,
+          "endLine": 793,
+          "nodeIds": [
+            "tc_c03_piao_leave_blank_001",
+            "tc_c03_piao_leave_blank_002",
+            "tc_c03_piao_leave_blank_003",
+            "tc_c03_piao_leave_blank_004",
+            "tc_c03_piao_leave_blank_005",
+            "tc_c03_piao_leave_blank_006",
+            "tc_c03_piao_leave_blank_007",
+            "tc_c03_piao_leave_blank_008",
+            "tc_c03_piao_leave_blank_009",
+            "tc_c03_piao_leave_blank_010",
+            "tc_c03_piao_leave_blank_011",
+            "tc_c03_piao_leave_blank_012",
+            "tc_c03_piao_leave_blank_013",
+            "tc_c03_piao_leave_blank_014",
+            "tc_c03_piao_leave_blank_015",
+            "tc_c03_piao_leave_blank_016",
+            "tc_c03_piao_leave_blank_017",
+            "tc_c03_piao_leave_blank_018",
+            "tc_c03_piao_leave_blank_019",
+            "tc_c03_piao_leave_blank_020",
+            "tc_c03_piao_leave_blank_021",
+            "tc_c03_piao_leave_blank_022",
+            "tc_c03_piao_leave_blank_023",
+            "tc_c03_piao_leave_blank_024"
+          ],
+          "sceneIds": [
+            "ts_c03_piao_leave_blank",
+            "ts_c03_piao_leave_blank_bench"
+          ],
+          "assetIds": [
+            "tc-bg-food-day",
+            "tc-bg-street-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-serious",
+            "tc-char-piao-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 piao 路线"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "曾在大城市KTV陪酒仅本人叙述，不补旧职业服饰/杯酒/包厢回忆；尊重未记录的店主话语留白。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch03-piao-03",
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "startLine": 795,
+          "endLine": 820,
+          "nodeIds": [
+            "tc_c03_piao_say_clearly_001",
+            "tc_c03_piao_say_clearly_002",
+            "tc_c03_piao_say_clearly_003",
+            "tc_c03_piao_say_clearly_004",
+            "tc_c03_piao_say_clearly_005",
+            "tc_c03_piao_say_clearly_006",
+            "tc_c03_piao_say_clearly_007",
+            "tc_c03_piao_say_clearly_008",
+            "tc_c03_piao_say_clearly_009",
+            "tc_c03_piao_say_clearly_010",
+            "tc_c03_piao_relationship_choice"
+          ],
+          "sceneIds": [
+            "ts_c03_piao_say_clearly",
+            "ts_c03_piao_say_clearly_river"
+          ],
+          "assetIds": [
+            "tc-bg-river-day",
+            "tc-bg-rental-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-serious",
+            "tc-char-piao-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 piao 路线",
+            "交往/朋友二选一，延续后续章节"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "路线关系在此决定，未选择前不得显示牵手镜头。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch03-piao-04",
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "startLine": 822,
+          "endLine": 846,
+          "nodeIds": [
+            "tc_c03_piao_dating_001",
+            "tc_c03_piao_dating_002",
+            "tc_c03_piao_dating_003",
+            "tc_c03_piao_dating_004",
+            "tc_c03_piao_dating_005",
+            "tc_c03_piao_dating_006",
+            "tc_c03_piao_dating_007",
+            "tc_c03_piao_dating_008",
+            "tc_c03_piao_dating_009",
+            "tc_c03_piao_dating_010",
+            "tc_c03_piao_dating_011",
+            "tc_c03_piao_dating_012"
+          ],
+          "sceneIds": [
+            "ts_c03_piao_dating"
+          ],
+          "assetIds": [
+            "tc-bg-river-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-hesitant",
+            "tc-char-piao-human-expression-smile",
+            "tc-cg-piao-choice"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 piao 路线",
+            "仅飘关系=交往"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [
+            {
+              "label": "第二次递来的手",
+              "priority": "候选P1",
+              "composition": "近景先聚焦两人重新握稳的手，飘含浅酒窝的笑在上侧，旁边饼袋与纸巾作生活细节。",
+              "storyConstraint": "只有交往分支；不是接吻，不把第一次生涩牵手画成婚礼承诺。"
+            }
+          ],
+          "presentationNotes": []
+        },
+        {
+          "a01SectionId": "a01-ch03-piao-05",
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "startLine": 848,
+          "endLine": 870,
+          "nodeIds": [
+            "tc_c03_piao_friends_001",
+            "tc_c03_piao_friends_002",
+            "tc_c03_piao_friends_003",
+            "tc_c03_piao_friends_004",
+            "tc_c03_piao_friends_005",
+            "tc_c03_piao_friends_006",
+            "tc_c03_piao_friends_007",
+            "tc_c03_piao_friends_008",
+            "tc_c03_piao_friends_009",
+            "tc_c03_piao_friends_010",
+            "tc_c03_piao_friends_011"
+          ],
+          "sceneIds": [
+            "ts_c03_piao_friends",
+            "ts_c03_piao_friends_crossroad",
+            "ts_c03_piao_friends_busstop",
+            "ts_c03_piao_friends_message"
+          ],
+          "assetIds": [
+            "tc-bg-busstop-day",
+            "tc-bg-rental-night",
+            "tc-bg-river-day",
+            "tc-bg-street-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-downcast",
+            "tc-char-piao-human-expression-serious",
+            "tc-cg-piao-choice"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 piao 路线",
+            "仅飘关系=朋友"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "晚上飘仅消息，不继续实体立绘；不给朋友分支配牵手。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch04-piao-01",
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "startLine": 373,
+          "endLine": 388,
+          "nodeIds": [
+            "tc_c04_piao_entry",
+            "tc_c04_piao_two_plans_002",
+            "tc_c04_piao_two_plans_003",
+            "tc_c04_piao_two_plans_004",
+            "tc_c04_piao_two_plans_005",
+            "tc_c04_piao_outing_choice"
+          ],
+          "sceneIds": [
+            "ts_c04_piao_two_plans"
+          ],
+          "assetIds": [
+            "tc-bg-kiosk-eaves-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 piao 路线"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": []
+        },
+        {
+          "a01SectionId": "a01-ch04-piao-02",
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "startLine": 390,
+          "endLine": 404,
+          "nodeIds": [
+            "tc_c04_piao_paperboat_001",
+            "tc_c04_piao_paperboat_002",
+            "tc_c04_piao_paperboat_003",
+            "tc_c04_piao_paperboat_004",
+            "tc_c04_piao_paperboat_005",
+            "tc_c04_piao_paperboat_006",
+            "tc_c04_piao_paperboat_007"
+          ],
+          "sceneIds": [
+            "ts_c04_piao_paperboat"
+          ],
+          "assetIds": [
+            "tc-bg-kiosk-eaves-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 piao 路线",
+            "第四章飘选择A：等雨折纸；第七章回收"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "不把纸船投水；保存文文失败折纸供回收。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch04-piao-03",
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "startLine": 406,
+          "endLine": 418,
+          "nodeIds": [
+            "tc_c04_piao_signs_001",
+            "tc_c04_piao_signs_002",
+            "tc_c04_piao_signs_003",
+            "tc_c04_piao_signs_004",
+            "tc_c04_piao_signs_005",
+            "tc_c04_piao_signs_006"
+          ],
+          "sceneIds": [
+            "ts_c04_piao_signs"
+          ],
+          "assetIds": [
+            "tc-bg-kiosk-eaves-day",
+            "tc-bg-eaves-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 piao 路线",
+            "第四章飘选择B：旧街店名；第七章回收"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "临时猜店名不记录进册子，也不变店主采访任务。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch04-piao-04",
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "startLine": 420,
+          "endLine": 438,
+          "nodeIds": [
+            "tc_c04_piao_dating_001",
+            "tc_c04_piao_dating_002",
+            "tc_c04_piao_dating_003",
+            "tc_c04_piao_dating_004",
+            "tc_c04_piao_dating_005",
+            "tc_c04_piao_dating_006",
+            "tc_c04_piao_dating_007",
+            "tc_c04_piao_dating_008",
+            "tc_c04_piao_relationship_gate"
+          ],
+          "sceneIds": [
+            "ts_c04_piao_dating",
+            "ts_c04_piao_dating_workward"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-day",
+            "tc-bg-street-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-hesitant",
+            "tc-char-piao-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 piao 路线",
+            "仅飘关系=交往"
+          ],
+          "conditionAnchors": [
+            {
+              "flag": "piaoRelationship",
+              "value": "dating",
+              "sourceLine": 422
+            }
+          ],
+          "cgCandidates": [],
+          "presentationNotes": []
+        },
+        {
+          "a01SectionId": "a01-ch04-piao-05",
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "startLine": 440,
+          "endLine": 450,
+          "nodeIds": [
+            "tc_c04_piao_friends_001",
+            "tc_c04_piao_friends_002",
+            "tc_c04_piao_friends_003",
+            "tc_c04_piao_friends_004",
+            "tc_c04_piao_friends_005",
+            "tc_c04_piao_relationship_gate"
+          ],
+          "sceneIds": [
+            "ts_c04_piao_friends",
+            "ts_c04_piao_friends_parting",
+            "ts_c04_piao_dating"
+          ],
+          "assetIds": [
+            "tc-bg-stall-day",
+            "tc-bg-street-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-maolang-human-base"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 piao 路线",
+            "仅飘关系=朋友"
+          ],
+          "conditionAnchors": [
+            {
+              "flag": "piaoRelationship",
+              "value": "friends",
+              "sourceLine": 440
+            }
+          ],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "毛狼为手机照片，不要求新增实体立绘或舞台背景。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch05-piao-01",
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "startLine": 365,
+          "endLine": 405,
+          "nodeIds": [
+            "tc_c05_piao_entry",
+            "tc_c05_piao_cover_002",
+            "tc_c05_piao_cover_003",
+            "tc_c05_piao_cover_004",
+            "tc_c05_piao_cover_005",
+            "tc_c05_piao_cover_006",
+            "tc_c05_piao_cover_007",
+            "tc_c05_piao_cover_008",
+            "tc_c05_piao_cover_009",
+            "tc_c05_piao_cover_010",
+            "tc_c05_piao_cover_011",
+            "tc_c05_piao_cover_012",
+            "tc_c05_piao_cover_013",
+            "tc_c05_piao_cover_014",
+            "tc_c05_piao_cover_015",
+            "tc_c05_piao_cover_016",
+            "tc_c05_piao_cover_017",
+            "tc_c05_piao_cover_018",
+            "tc_c05_piao_cover_019",
+            "tc_c05_piao_cover_020"
+          ],
+          "sceneIds": [
+            "ts_c05_piao_cover",
+            "ts_c05_piao_cover_soymilk"
+          ],
+          "assetIds": [
+            "tc-bg-food-day",
+            "tc-bg-food-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-serious",
+            "tc-char-piao-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 piao 路线"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "求职暂无结果，不画办公室/就业成功；封面只是剧情道具试样不是游戏封面修改任务。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch05-piao-02",
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "startLine": 407,
+          "endLine": 431,
+          "nodeIds": [
+            "tc_c05_piao_dating_001",
+            "tc_c05_piao_dating_002",
+            "tc_c05_piao_dating_003",
+            "tc_c05_piao_dating_004",
+            "tc_c05_piao_dating_005",
+            "tc_c05_piao_dating_006",
+            "tc_c05_piao_dating_007",
+            "tc_c05_piao_dating_008",
+            "tc_c05_piao_dating_009",
+            "tc_c05_piao_dating_010",
+            "tc_c05_piao_dating_011",
+            "tc_c05_piao_relationship_gate"
+          ],
+          "sceneIds": [
+            "ts_c05_piao_dating"
+          ],
+          "assetIds": [
+            "tc-bg-food-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-serious",
+            "tc-char-piao-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 piao 路线",
+            "仅飘关系=交往"
+          ],
+          "conditionAnchors": [
+            {
+              "flag": "piaoRelationship",
+              "value": "dating",
+              "sourceLine": 409
+            }
+          ],
+          "cgCandidates": [],
+          "presentationNotes": []
+        },
+        {
+          "a01SectionId": "a01-ch05-piao-03",
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "startLine": 433,
+          "endLine": 453,
+          "nodeIds": [
+            "tc_c05_piao_friends_001",
+            "tc_c05_piao_friends_002",
+            "tc_c05_piao_friends_003",
+            "tc_c05_piao_friends_004",
+            "tc_c05_piao_friends_005",
+            "tc_c05_piao_friends_006",
+            "tc_c05_piao_friends_007",
+            "tc_c05_piao_friends_008",
+            "tc_c05_piao_friends_009",
+            "tc_c05_piao_friends_010",
+            "tc_c05_piao_relationship_gate"
+          ],
+          "sceneIds": [
+            "ts_c05_piao_friends",
+            "ts_c05_piao_friends_parting",
+            "ts_c05_piao_dating"
+          ],
+          "assetIds": [
+            "tc-bg-food-day",
+            "tc-bg-street-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-maolang-human-base"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 piao 路线",
+            "仅飘关系=朋友"
+          ],
+          "conditionAnchors": [
+            {
+              "flag": "piaoRelationship",
+              "value": "friends",
+              "sourceLine": 433
+            }
+          ],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "毛狼只是她说起/发消息对象，不到现场；不把文文画成三角恋竞争者。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch06-piao-01",
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 341,
+          "endLine": 364,
+          "nodeIds": [
+            "tc_c06_piao_entry",
+            "tc_c06_piao_closed_echo_002",
+            "tc_c06_piao_closed_echo_003",
+            "tc_c06_piao_closed_echo_004",
+            "tc_c06_piao_closed_echo_005",
+            "tc_c06_piao_closed_echo_006",
+            "tc_c06_piao_closed_echo_007",
+            "tc_c06_piao_closed_echo_008",
+            "tc_c06_piao_closed_echo_009",
+            "tc_c06_piao_closed_echo_010",
+            "tc_c06_piao_closed_echo_011"
+          ],
+          "sceneIds": [
+            "ts_c06_piao_closed_echo",
+            "ts_c06_piao_closed_echo_closed_door",
+            "ts_c06_piao_closed_echo_street",
+            "ts_c06_piao_closed_echo_bench"
+          ],
+          "assetIds": [
+            "tc-bg-echo-closed-day",
+            "tc-bg-park-day",
+            "tc-bg-street-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 piao"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "经过关闭门口，不入内；酸橘子、饼。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch06-piao-02",
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 367,
+          "endLine": 398,
+          "nodeIds": [
+            "tc_c06_piao_dating_001",
+            "tc_c06_piao_dating_002",
+            "tc_c06_piao_dating_003",
+            "tc_c06_piao_dating_004",
+            "tc_c06_piao_dating_005",
+            "tc_c06_piao_dating_006",
+            "tc_c06_piao_dating_007",
+            "tc_c06_piao_dating_008",
+            "tc_c06_piao_dating_009",
+            "tc_c06_piao_dating_010",
+            "tc_c06_piao_dating_011",
+            "tc_c06_piao_dating_012",
+            "tc_c06_piao_dating_013",
+            "tc_c06_piao_dating_014",
+            "tc_c06_piao_dating_015",
+            "tc_c06_piao_relationship_gate"
+          ],
+          "sceneIds": [
+            "ts_c06_piao_dating",
+            "ts_c06_piao_dating_dinner"
+          ],
+          "assetIds": [
+            "tc-bg-park-day",
+            "tc-bg-food-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择交往"
+          ],
+          "conditionAnchors": [
+            {
+              "flag": "piaoRelationship",
+              "value": "dating",
+              "sourceLine": 367
+            }
+          ],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "承接第21天交往；牵手与额角吻仅此分支。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch06-piao-03",
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 399,
+          "endLine": 420,
+          "nodeIds": [
+            "tc_c06_piao_friends_001",
+            "tc_c06_piao_friends_002",
+            "tc_c06_piao_friends_003",
+            "tc_c06_piao_friends_004",
+            "tc_c06_piao_friends_005",
+            "tc_c06_piao_friends_006",
+            "tc_c06_piao_friends_007",
+            "tc_c06_piao_friends_008",
+            "tc_c06_piao_friends_009",
+            "tc_c06_piao_friends_010",
+            "tc_c06_piao_relationship_gate"
+          ],
+          "sceneIds": [
+            "ts_c06_piao_friends",
+            "ts_c06_piao_friends_home",
+            "ts_c06_piao_dating"
+          ],
+          "assetIds": [
+            "tc-bg-park-day",
+            "tc-bg-rental-night",
+            "tc-bg-rental-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择朋友"
+          ],
+          "conditionAnchors": [
+            {
+              "flag": "piaoRelationship",
+              "value": "friends",
+              "sourceLine": 399
+            }
+          ],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "承接朋友；毛狼只发照片，不实体入场。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch07-piao-01",
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "startLine": 379,
+          "endLine": 386,
+          "nodeIds": [
+            "tc_c07_piao_entry",
+            "tc_c07_piao_half_hour_002",
+            "tc_c07_piao_half_hour_003"
+          ],
+          "sceneIds": [
+            "ts_c07_piao_half_hour"
+          ],
+          "assetIds": [
+            "tc-bg-street-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 piao"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "半小时路口；纸袋破提手、废纸。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch07-piao-02",
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "startLine": 387,
+          "endLine": 394,
+          "nodeIds": [
+            "tc_c07_piao_paperboat_return_001",
+            "tc_c07_piao_signs_return_001",
+            "tc_c07_piao_bag_ready_001",
+            "tc_c07_piao_outing_gate"
+          ],
+          "sceneIds": [
+            "ts_c07_piao_paperboat_return",
+            "ts_c07_piao_signs_return",
+            "ts_c07_piao_bag_ready"
+          ],
+          "assetIds": [
+            "tc-bg-street-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 piao",
+            "第四章相应选项已发生；两分支互斥"
+          ],
+          "conditionAnchors": [
+            {
+              "flag": "piaoOuting",
+              "value": "paperboat",
+              "sourceLine": 389
+            },
+            {
+              "flag": "piaoOuting",
+              "value": "signs",
+              "sourceLine": 391
+            }
+          ],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "第四章A旧歪纸船与B招牌笑话互斥；不重折抹掉旧船。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch07-piao-03",
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "startLine": 397,
+          "endLine": 420,
+          "nodeIds": [
+            "tc_c07_piao_dating_001",
+            "tc_c07_piao_dating_002",
+            "tc_c07_piao_dating_003",
+            "tc_c07_piao_dating_004",
+            "tc_c07_piao_dating_005",
+            "tc_c07_piao_dating_006",
+            "tc_c07_piao_dating_007",
+            "tc_c07_piao_dating_008",
+            "tc_c07_piao_dating_009",
+            "tc_c07_piao_dating_010",
+            "tc_c07_piao_dating_011",
+            "tc_c07_piao_dating_012",
+            "tc_c07_piao_relationship_gate"
+          ],
+          "sceneIds": [
+            "ts_c07_piao_dating",
+            "ts_c07_piao_dating_laundry",
+            "ts_c07_piao_dating_message",
+            "ts_c07_piao_dating_day41"
+          ],
+          "assetIds": [
+            "tc-bg-street-day",
+            "tc-bg-rental-day",
+            "tc-bg-rental-night",
+            "tc-bg-food-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择交往"
+          ],
+          "conditionAnchors": [
+            {
+              "flag": "piaoRelationship",
+              "value": "dating",
+              "sourceLine": 397
+            }
+          ],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "恋人分支；朋友约会不强行跟去。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch07-piao-04",
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "startLine": 421,
+          "endLine": 440,
+          "nodeIds": [
+            "tc_c07_piao_friends_001",
+            "tc_c07_piao_friends_002",
+            "tc_c07_piao_friends_003",
+            "tc_c07_piao_friends_004",
+            "tc_c07_piao_friends_005",
+            "tc_c07_piao_friends_006",
+            "tc_c07_piao_friends_007",
+            "tc_c07_piao_friends_008",
+            "tc_c07_piao_friends_009",
+            "tc_c07_piao_relationship_gate"
+          ],
+          "sceneIds": [
+            "ts_c07_piao_friends",
+            "ts_c07_piao_friends_later_summary",
+            "ts_c07_piao_dating"
+          ],
+          "assetIds": [
+            "tc-bg-street-day",
+            "tc-bg-food-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-hesitant",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile",
+            "tc-char-maolang-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择朋友"
+          ],
+          "conditionAnchors": [
+            {
+              "flag": "piaoRelationship",
+              "value": "friends",
+              "sourceLine": 421
+            }
+          ],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "朋友分支后叙朋友饭局；其他朋友不新增身份。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch08-piao-01",
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "startLine": 337,
+          "endLine": 356,
+          "nodeIds": [
+            "tc_c08_piao_entry",
+            "tc_c08_piao_shared_time_002",
+            "tc_c08_piao_shared_time_003",
+            "tc_c08_piao_shared_time_004",
+            "tc_c08_piao_shared_time_005",
+            "tc_c08_piao_shared_time_006",
+            "tc_c08_piao_shared_time_007",
+            "tc_c08_piao_shared_time_008",
+            "tc_c08_piao_shared_time_009"
+          ],
+          "sceneIds": [
+            "ts_c08_piao_shared_time"
+          ],
+          "assetIds": [
+            "tc-bg-food-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 piao"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "没带册子，润喉糖、门口猫可环境细节，不新增宠物角色。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch08-piao-02",
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "startLine": 359,
+          "endLine": 382,
+          "nodeIds": [
+            "tc_c08_piao_dating_001",
+            "tc_c08_piao_dating_002",
+            "tc_c08_piao_dating_003",
+            "tc_c08_piao_dating_004",
+            "tc_c08_piao_dating_005",
+            "tc_c08_piao_dating_006",
+            "tc_c08_piao_dating_007",
+            "tc_c08_piao_dating_008",
+            "tc_c08_piao_dating_009",
+            "tc_c08_piao_dating_010",
+            "tc_c08_piao_dating_011",
+            "tc_c08_piao_relationship_gate"
+          ],
+          "sceneIds": [
+            "ts_c08_piao_dating",
+            "ts_c08_piao_dating_street"
+          ],
+          "assetIds": [
+            "tc-bg-clothing-day",
+            "tc-bg-street-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择交往"
+          ],
+          "conditionAnchors": [
+            {
+              "flag": "piaoRelationship",
+              "value": "dating",
+              "sourceLine": 359
+            }
+          ],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "恋人：衣店拒绝逛，街角靠肩及拥抱仅此分支。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch08-piao-03",
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "startLine": 383,
+          "endLine": 402,
+          "nodeIds": [
+            "tc_c08_piao_friends_001",
+            "tc_c08_piao_friends_002",
+            "tc_c08_piao_friends_003",
+            "tc_c08_piao_friends_004",
+            "tc_c08_piao_friends_005",
+            "tc_c08_piao_friends_006",
+            "tc_c08_piao_friends_007",
+            "tc_c08_piao_friends_008",
+            "tc_c08_piao_friends_009",
+            "tc_c08_piao_relationship_gate"
+          ],
+          "sceneIds": [
+            "ts_c08_piao_friends",
+            "ts_c08_piao_dating"
+          ],
+          "assetIds": [
+            "tc-bg-food-day",
+            "tc-bg-clothing-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择朋友"
+          ],
+          "conditionAnchors": [
+            {
+              "flag": "piaoRelationship",
+              "value": "friends",
+              "sourceLine": 383
+            }
+          ],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "朋友：告知与毛狼正式交往；毛狼仅消息。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch09-piao-01",
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 423,
+          "endLine": 442,
+          "nodeIds": [
+            "tc_c09_piao_entry",
+            "tc_c09_piao_booklet_002",
+            "tc_c09_piao_booklet_003",
+            "tc_c09_piao_booklet_004",
+            "tc_c09_piao_booklet_005",
+            "tc_c09_piao_booklet_006",
+            "tc_c09_piao_booklet_007",
+            "tc_c09_piao_booklet_008",
+            "tc_c09_piao_booklet_009"
+          ],
+          "sceneIds": [
+            "ts_c09_piao_booklet"
+          ],
+          "assetIds": [
+            "tc-bg-tea-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 piao"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "原文只说桌边落座；茶店是可复用演出建议，地点未定，不强定她住处。第一批册子/日期空框。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch09-piao-02",
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 445,
+          "endLine": 474,
+          "nodeIds": [
+            "tc_c09_piao_dating_001",
+            "tc_c09_piao_dating_002",
+            "tc_c09_piao_dating_003",
+            "tc_c09_piao_dating_004",
+            "tc_c09_piao_dating_005",
+            "tc_c09_piao_dating_006",
+            "tc_c09_piao_dating_007",
+            "tc_c09_piao_dating_008",
+            "tc_c09_piao_dating_009",
+            "tc_c09_piao_dating_010",
+            "tc_c09_piao_dating_011",
+            "tc_c09_piao_dating_012",
+            "tc_c09_piao_dating_013",
+            "tc_c09_piao_dating_014",
+            "tc_c09_piao_relationship_gate"
+          ],
+          "sceneIds": [
+            "ts_c09_piao_dating"
+          ],
+          "assetIds": [
+            "tc-bg-tea-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择交往"
+          ],
+          "conditionAnchors": [
+            {
+              "flag": "piaoRelationship",
+              "value": "dating",
+              "sourceLine": 445
+            }
+          ],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "沿用第三章交往，不能再选；书签/亲吻/预留日期。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch09-piao-03",
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 475,
+          "endLine": 498,
+          "nodeIds": [
+            "tc_c09_piao_friends_001",
+            "tc_c09_piao_friends_002",
+            "tc_c09_piao_friends_003",
+            "tc_c09_piao_friends_004",
+            "tc_c09_piao_friends_005",
+            "tc_c09_piao_friends_006",
+            "tc_c09_piao_friends_007",
+            "tc_c09_piao_friends_008",
+            "tc_c09_piao_friends_009",
+            "tc_c09_piao_friends_010",
+            "tc_c09_piao_friends_011",
+            "tc_c09_piao_relationship_gate"
+          ],
+          "sceneIds": [
+            "ts_c09_piao_friends",
+            "ts_c09_piao_friends_parting",
+            "ts_c09_piao_dating"
+          ],
+          "assetIds": [
+            "tc-bg-tea-day",
+            "tc-bg-street-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-hesitant",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile",
+            "tc-char-maolang-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择朋友"
+          ],
+          "conditionAnchors": [
+            {
+              "flag": "piaoRelationship",
+              "value": "friends",
+              "sourceLine": 475
+            }
+          ],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "沿用第三章朋友，毛狼先电话后到场。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch10-piao-01",
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "startLine": 401,
+          "endLine": 444,
+          "nodeIds": [
+            "tc_c10_piao_dating_001",
+            "tc_c10_piao_dating_002",
+            "tc_c10_piao_dating_003",
+            "tc_c10_piao_dating_004",
+            "tc_c10_piao_dating_005",
+            "tc_c10_piao_dating_006",
+            "tc_c10_piao_dating_007",
+            "tc_c10_piao_dating_008",
+            "tc_c10_piao_dating_009",
+            "tc_c10_piao_dating_010",
+            "tc_c10_piao_dating_011",
+            "tc_c10_piao_dating_012",
+            "tc_c10_piao_dating_013",
+            "tc_c10_piao_dating_014",
+            "tc_c10_piao_dating_015",
+            "tc_c10_piao_dating_016",
+            "tc_c10_piao_dating_017",
+            "tc_c10_piao_dating_018",
+            "tc_c10_piao_dating_019",
+            "tc_c10_piao_dating_020",
+            "tc_c10_piao_dating_021",
+            "tc_c10_piao_entry",
+            "tc_c10_piao_end_dating"
+          ],
+          "sceneIds": [
+            "ts_c10_piao_dating",
+            "ts_c10_piao_dating_dinner_walk"
+          ],
+          "assetIds": [
+            "tc-bg-tea-day",
+            "tc-bg-street-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择交往"
+          ],
+          "conditionAnchors": [
+            {
+              "flag": "piaoRelationship",
+              "value": "dating",
+              "sourceLine": 401
+            }
+          ],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "恋人：第二版册子/瓶盖，地点未点名，普通桌边演出建议；不婚礼化。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch10-piao-02",
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "startLine": 445,
+          "endLine": 470,
+          "nodeIds": [
+            "tc_c10_piao_friends_001",
+            "tc_c10_piao_friends_002",
+            "tc_c10_piao_friends_003",
+            "tc_c10_piao_friends_004",
+            "tc_c10_piao_friends_005",
+            "tc_c10_piao_friends_006",
+            "tc_c10_piao_friends_007",
+            "tc_c10_piao_friends_008",
+            "tc_c10_piao_friends_009",
+            "tc_c10_piao_friends_010",
+            "tc_c10_piao_friends_011",
+            "tc_c10_piao_friends_012",
+            "tc_c10_piao_entry",
+            "tc_c10_piao_end_friends"
+          ],
+          "sceneIds": [
+            "ts_c10_piao_friends",
+            "ts_c10_piao_friends_parting",
+            "ts_c10_piao_dating"
+          ],
+          "assetIds": [
+            "tc-bg-food-day",
+            "tc-bg-street-day",
+            "tc-bg-tea-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-hesitant",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile",
+            "tc-char-maolang-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择朋友"
+          ],
+          "conditionAnchors": [
+            {
+              "flag": "piaoRelationship",
+              "value": "friends",
+              "sourceLine": 445
+            }
+          ],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "朋友：婚后普通小店，飘明确普通衣服；非再办婚礼。"
+          ]
+        }
+      ],
+      "presentationNotes": [
+        "第三章唯一写入关系，第四至第十章只读；第七章纸船/旧店名回收与关系分流独立。",
+        "第七章第419行按原句拆出明确第41天；第431—439行“几天以后”的饭局作为第39天章段的后续概述，chronology.label标明日序未给出，不推定新日期。",
+        "第九章及第十章恋人桌边未点名地点，location留空；茶店背景仅沿用A01建议，待E09按内容核定。",
+        "两种公共后日谈完全由E03拥有；本模块不复制，不创建婚宴，也不给朋友结局继续使用礼裙/婚宴造型。"
+      ]
+    },
+    {
+      "route": "friends",
+      "readFlags": [
+        "route",
+        "friendsOuting"
+      ],
+      "writeFlags": [
+        "friendsOuting"
+      ],
+      "chapters": [
+        {
+          "chapter": 3,
+          "entry": "tc_c03_friends_entry",
+          "returnTo": "tc_c03_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "startLine": 872,
+            "endLine": 967
+          },
+          "blocks": [
+            {
+              "name": "tailoring",
+              "startLine": 874,
+              "endLine": 914,
+              "nodeIds": [
+                "tc_c03_friends_entry",
+                "tc_c03_friends_tailoring_002",
+                "tc_c03_friends_tailoring_003",
+                "tc_c03_friends_tailoring_004",
+                "tc_c03_friends_tailoring_005",
+                "tc_c03_friends_tailoring_006",
+                "tc_c03_friends_tailoring_007",
+                "tc_c03_friends_tailoring_008",
+                "tc_c03_friends_tailoring_009",
+                "tc_c03_friends_tailoring_010",
+                "tc_c03_friends_tailoring_011",
+                "tc_c03_friends_tailoring_012",
+                "tc_c03_friends_tailoring_013",
+                "tc_c03_friends_tailoring_014",
+                "tc_c03_friends_tailoring_015",
+                "tc_c03_friends_tailoring_016",
+                "tc_c03_friends_tailoring_017",
+                "tc_c03_friends_tailoring_018",
+                "tc_c03_friends_tailoring_019",
+                "tc_c03_friends_tailoring_020"
+              ],
+              "sceneIds": [
+                "ts_c03_friends_tailoring",
+                "ts_c03_friends_tailoring_shop"
+              ]
+            },
+            {
+              "name": "online_game",
+              "startLine": 916,
+              "endLine": 938,
+              "nodeIds": [
+                "tc_c03_friends_online_game_001",
+                "tc_c03_friends_online_game_002",
+                "tc_c03_friends_online_game_003",
+                "tc_c03_friends_online_game_004",
+                "tc_c03_friends_online_game_005",
+                "tc_c03_friends_online_game_006",
+                "tc_c03_friends_online_game_007",
+                "tc_c03_friends_online_game_008",
+                "tc_c03_friends_online_game_009",
+                "tc_c03_friends_online_game_010",
+                "tc_c03_friends_online_game_011"
+              ],
+              "sceneIds": [
+                "ts_c03_friends_online_game"
+              ]
+            },
+            {
+              "name": "settling_in",
+              "startLine": 940,
+              "endLine": 966,
+              "nodeIds": [
+                "tc_c03_friends_settling_in_001",
+                "tc_c03_friends_settling_in_002",
+                "tc_c03_friends_settling_in_003",
+                "tc_c03_friends_settling_in_004",
+                "tc_c03_friends_settling_in_005",
+                "tc_c03_friends_settling_in_006",
+                "tc_c03_friends_settling_in_007",
+                "tc_c03_friends_settling_in_008",
+                "tc_c03_friends_settling_in_009",
+                "tc_c03_friends_settling_in_010",
+                "tc_c03_friends_settling_in_011",
+                "tc_c03_friends_settling_in_012",
+                "tc_c03_friends_settling_in_013"
+              ],
+              "sceneIds": [
+                "ts_c03_friends_settling_in"
+              ]
+            }
+          ],
+          "controlIds": []
+        },
+        {
+          "chapter": 4,
+          "entry": "tc_c04_friends_entry",
+          "returnTo": "tc_c04_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "startLine": 452,
+            "endLine": 505
+          },
+          "blocks": [
+            {
+              "name": "own_plan",
+              "startLine": 454,
+              "endLine": 460,
+              "nodeIds": [
+                "tc_c04_friends_entry",
+                "tc_c04_friends_own_plan_002",
+                "tc_c04_friends_own_plan_003"
+              ],
+              "sceneIds": [
+                "ts_c04_friends_own_plan"
+              ]
+            },
+            {
+              "name": "show",
+              "startLine": 464,
+              "endLine": 480,
+              "nodeIds": [
+                "tc_c04_friends_show_001",
+                "tc_c04_friends_show_002",
+                "tc_c04_friends_show_003",
+                "tc_c04_friends_show_004",
+                "tc_c04_friends_show_005",
+                "tc_c04_friends_show_006",
+                "tc_c04_friends_show_007",
+                "tc_c04_friends_show_008"
+              ],
+              "sceneIds": [
+                "ts_c04_friends_show"
+              ]
+            },
+            {
+              "name": "walk",
+              "startLine": 482,
+              "endLine": 496,
+              "nodeIds": [
+                "tc_c04_friends_walk_001",
+                "tc_c04_friends_walk_002",
+                "tc_c04_friends_walk_003",
+                "tc_c04_friends_walk_004",
+                "tc_c04_friends_walk_005",
+                "tc_c04_friends_walk_006",
+                "tc_c04_friends_walk_007"
+              ],
+              "sceneIds": [
+                "ts_c04_friends_walk",
+                "ts_c04_friends_walk_game_store",
+                "ts_c04_friends_walk_stool",
+                "ts_c04_friends_walk_wall"
+              ]
+            },
+            {
+              "name": "crossroad",
+              "startLine": 498,
+              "endLine": 504,
+              "nodeIds": [
+                "tc_c04_friends_crossroad_001",
+                "tc_c04_friends_crossroad_002",
+                "tc_c04_friends_crossroad_003"
+              ],
+              "sceneIds": [
+                "ts_c04_friends_crossroad",
+                "ts_c04_friends_crossroad_home"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c04_friends_outing_choice"
+          ]
+        },
+        {
+          "chapter": 5,
+          "entry": "tc_c05_friends_entry",
+          "returnTo": "tc_c05_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+            "startLine": 455,
+            "endLine": 502
+          },
+          "blocks": [
+            {
+              "name": "job_name",
+              "startLine": 457,
+              "endLine": 483,
+              "nodeIds": [
+                "tc_c05_friends_entry",
+                "tc_c05_friends_job_name_002",
+                "tc_c05_friends_job_name_003",
+                "tc_c05_friends_job_name_004",
+                "tc_c05_friends_job_name_005",
+                "tc_c05_friends_job_name_006",
+                "tc_c05_friends_job_name_007",
+                "tc_c05_friends_job_name_008",
+                "tc_c05_friends_job_name_009",
+                "tc_c05_friends_job_name_010",
+                "tc_c05_friends_job_name_011",
+                "tc_c05_friends_job_name_012",
+                "tc_c05_friends_job_name_013"
+              ],
+              "sceneIds": [
+                "ts_c05_friends_job_name",
+                "ts_c05_friends_job_name_door",
+                "ts_c05_friends_job_name_home",
+                "ts_c05_friends_job_name_call"
+              ]
+            },
+            {
+              "name": "say_it",
+              "startLine": 485,
+              "endLine": 501,
+              "nodeIds": [
+                "tc_c05_friends_say_it_001",
+                "tc_c05_friends_say_it_002",
+                "tc_c05_friends_say_it_003",
+                "tc_c05_friends_say_it_004",
+                "tc_c05_friends_say_it_005",
+                "tc_c05_friends_say_it_006",
+                "tc_c05_friends_say_it_007",
+                "tc_c05_friends_say_it_008"
+              ],
+              "sceneIds": [
+                "ts_c05_friends_say_it",
+                "ts_c05_friends_say_it_counter"
+              ]
+            }
+          ],
+          "controlIds": []
+        },
+        {
+          "chapter": 6,
+          "entry": "tc_c06_friends_entry",
+          "returnTo": "tc_c06_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+            "startLine": 421,
+            "endLine": 474
+          },
+          "blocks": [
+            {
+              "name": "quiet_company",
+              "startLine": 423,
+              "endLine": 447,
+              "nodeIds": [
+                "tc_c06_friends_entry",
+                "tc_c06_friends_quiet_company_002",
+                "tc_c06_friends_quiet_company_003",
+                "tc_c06_friends_quiet_company_004",
+                "tc_c06_friends_quiet_company_005",
+                "tc_c06_friends_quiet_company_006",
+                "tc_c06_friends_quiet_company_007",
+                "tc_c06_friends_quiet_company_008",
+                "tc_c06_friends_quiet_company_009",
+                "tc_c06_friends_quiet_company_010",
+                "tc_c06_friends_quiet_company_011",
+                "tc_c06_friends_quiet_company_012"
+              ],
+              "sceneIds": [
+                "ts_c06_friends_quiet_company",
+                "ts_c06_friends_quiet_company_eaves"
+              ]
+            },
+            {
+              "name": "own_invitation",
+              "startLine": 449,
+              "endLine": 465,
+              "nodeIds": [
+                "tc_c06_friends_own_invitation_001",
+                "tc_c06_friends_own_invitation_002",
+                "tc_c06_friends_own_invitation_003",
+                "tc_c06_friends_own_invitation_004",
+                "tc_c06_friends_own_invitation_005",
+                "tc_c06_friends_own_invitation_006",
+                "tc_c06_friends_own_invitation_007",
+                "tc_c06_friends_own_invitation_008"
+              ],
+              "sceneIds": [
+                "ts_c06_friends_own_invitation"
+              ]
+            },
+            {
+              "name": "sleep",
+              "startLine": 467,
+              "endLine": 473,
+              "nodeIds": [
+                "tc_c06_friends_sleep_001",
+                "tc_c06_friends_sleep_002",
+                "tc_c06_friends_sleep_003"
+              ],
+              "sceneIds": [
+                "ts_c06_friends_sleep",
+                "ts_c06_friends_sleep_awake"
+              ]
+            }
+          ],
+          "controlIds": []
+        },
+        {
+          "chapter": 7,
+          "entry": "tc_c07_friends_entry",
+          "returnTo": "tc_c07_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+            "startLine": 441,
+            "endLine": 496
+          },
+          "blocks": [
+            {
+              "name": "show_return",
+              "startLine": 447,
+              "endLine": 459,
+              "nodeIds": [
+                "tc_c07_friends_show_return_001",
+                "tc_c07_friends_show_return_002",
+                "tc_c07_friends_show_return_003",
+                "tc_c07_friends_show_return_004",
+                "tc_c07_friends_show_return_005",
+                "tc_c07_friends_show_return_006"
+              ],
+              "sceneIds": [
+                "ts_c07_friends_show_return",
+                "ts_c07_friends_show_return_after_show"
+              ]
+            },
+            {
+              "name": "walk_return",
+              "startLine": 461,
+              "endLine": 471,
+              "nodeIds": [
+                "tc_c07_friends_walk_return_001",
+                "tc_c07_friends_walk_return_002",
+                "tc_c07_friends_walk_return_003",
+                "tc_c07_friends_walk_return_004",
+                "tc_c07_friends_walk_return_005"
+              ],
+              "sceneIds": [
+                "ts_c07_friends_walk_return",
+                "ts_c07_friends_walk_return_message"
+              ]
+            },
+            {
+              "name": "online_game",
+              "startLine": 473,
+              "endLine": 479,
+              "nodeIds": [
+                "tc_c07_friends_online_game_001",
+                "tc_c07_friends_online_game_002",
+                "tc_c07_friends_online_game_003"
+              ],
+              "sceneIds": [
+                "ts_c07_friends_online_game"
+              ]
+            },
+            {
+              "name": "own_dinner",
+              "startLine": 481,
+              "endLine": 495,
+              "nodeIds": [
+                "tc_c07_friends_own_dinner_001",
+                "tc_c07_friends_own_dinner_002",
+                "tc_c07_friends_own_dinner_003",
+                "tc_c07_friends_own_dinner_004",
+                "tc_c07_friends_own_dinner_005",
+                "tc_c07_friends_own_dinner_006",
+                "tc_c07_friends_own_dinner_007"
+              ],
+              "sceneIds": [
+                "ts_c07_friends_own_dinner",
+                "ts_c07_friends_own_dinner_dinner"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c07_friends_entry"
+          ]
+        },
+        {
+          "chapter": 8,
+          "entry": "tc_c08_friends_entry",
+          "returnTo": "tc_c08_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+            "startLine": 403,
+            "endLine": 454
+          },
+          "blocks": [
+            {
+              "name": "boundaries",
+              "startLine": 405,
+              "endLine": 427,
+              "nodeIds": [
+                "tc_c08_friends_entry",
+                "tc_c08_friends_boundaries_002",
+                "tc_c08_friends_boundaries_003",
+                "tc_c08_friends_boundaries_004",
+                "tc_c08_friends_boundaries_005",
+                "tc_c08_friends_boundaries_006",
+                "tc_c08_friends_boundaries_007",
+                "tc_c08_friends_boundaries_008",
+                "tc_c08_friends_boundaries_009",
+                "tc_c08_friends_boundaries_010",
+                "tc_c08_friends_boundaries_011"
+              ],
+              "sceneIds": [
+                "ts_c08_friends_boundaries",
+                "ts_c08_friends_boundaries_glasses"
+              ]
+            },
+            {
+              "name": "online_game",
+              "startLine": 429,
+              "endLine": 441,
+              "nodeIds": [
+                "tc_c08_friends_online_game_001",
+                "tc_c08_friends_online_game_002",
+                "tc_c08_friends_online_game_003",
+                "tc_c08_friends_online_game_004",
+                "tc_c08_friends_online_game_005",
+                "tc_c08_friends_online_game_006"
+              ],
+              "sceneIds": [
+                "ts_c08_friends_online_game"
+              ]
+            },
+            {
+              "name": "free_afternoon",
+              "startLine": 443,
+              "endLine": 453,
+              "nodeIds": [
+                "tc_c08_friends_free_afternoon_001",
+                "tc_c08_friends_free_afternoon_002",
+                "tc_c08_friends_free_afternoon_003",
+                "tc_c08_friends_free_afternoon_004",
+                "tc_c08_friends_free_afternoon_005"
+              ],
+              "sceneIds": [
+                "ts_c08_friends_free_afternoon",
+                "ts_c08_friends_free_afternoon_home"
+              ]
+            }
+          ],
+          "controlIds": []
+        },
+        {
+          "chapter": 9,
+          "entry": "tc_c09_friends_entry",
+          "returnTo": "tc_c09_common_exit",
+          "endings": [],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "startLine": 499,
+            "endLine": 542
+          },
+          "blocks": [
+            {
+              "name": "birthday",
+              "startLine": 501,
+              "endLine": 517,
+              "nodeIds": [
+                "tc_c09_friends_entry",
+                "tc_c09_friends_birthday_002",
+                "tc_c09_friends_birthday_003",
+                "tc_c09_friends_birthday_004",
+                "tc_c09_friends_birthday_005",
+                "tc_c09_friends_birthday_006",
+                "tc_c09_friends_birthday_007",
+                "tc_c09_friends_birthday_008"
+              ],
+              "sceneIds": [
+                "ts_c09_friends_birthday"
+              ]
+            },
+            {
+              "name": "own_book",
+              "startLine": 519,
+              "endLine": 529,
+              "nodeIds": [
+                "tc_c09_friends_own_book_001",
+                "tc_c09_friends_own_book_002",
+                "tc_c09_friends_own_book_003",
+                "tc_c09_friends_own_book_004",
+                "tc_c09_friends_own_book_005"
+              ],
+              "sceneIds": [
+                "ts_c09_friends_own_book",
+                "ts_c09_friends_own_book_evening"
+              ]
+            },
+            {
+              "name": "call_home",
+              "startLine": 531,
+              "endLine": 541,
+              "nodeIds": [
+                "tc_c09_friends_call_home_001",
+                "tc_c09_friends_call_home_002",
+                "tc_c09_friends_call_home_003",
+                "tc_c09_friends_call_home_004",
+                "tc_c09_friends_call_home_005"
+              ],
+              "sceneIds": [
+                "ts_c09_friends_call_home"
+              ]
+            }
+          ],
+          "controlIds": []
+        },
+        {
+          "chapter": 10,
+          "entry": "tc_c10_friends_entry",
+          "returnTo": null,
+          "endings": [
+            "tc_c10_friends_end"
+          ],
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+            "startLine": 471,
+            "endLine": 526
+          },
+          "blocks": [
+            {
+              "name": "late_host",
+              "startLine": 473,
+              "endLine": 489,
+              "nodeIds": [
+                "tc_c10_friends_entry",
+                "tc_c10_friends_late_host_002",
+                "tc_c10_friends_late_host_003",
+                "tc_c10_friends_late_host_004",
+                "tc_c10_friends_late_host_005",
+                "tc_c10_friends_late_host_006",
+                "tc_c10_friends_late_host_007",
+                "tc_c10_friends_late_host_008"
+              ],
+              "sceneIds": [
+                "ts_c10_friends_late_host"
+              ]
+            },
+            {
+              "name": "friends_table",
+              "startLine": 491,
+              "endLine": 507,
+              "nodeIds": [
+                "tc_c10_friends_friends_table_001",
+                "tc_c10_friends_friends_table_002",
+                "tc_c10_friends_friends_table_003",
+                "tc_c10_friends_friends_table_004",
+                "tc_c10_friends_friends_table_005",
+                "tc_c10_friends_friends_table_006",
+                "tc_c10_friends_friends_table_007",
+                "tc_c10_friends_friends_table_008"
+              ],
+              "sceneIds": [
+                "ts_c10_friends_friends_table"
+              ]
+            },
+            {
+              "name": "rain_walk",
+              "startLine": 509,
+              "endLine": 525,
+              "nodeIds": [
+                "tc_c10_friends_rain_walk_001",
+                "tc_c10_friends_rain_walk_002",
+                "tc_c10_friends_rain_walk_003",
+                "tc_c10_friends_rain_walk_004",
+                "tc_c10_friends_rain_walk_005",
+                "tc_c10_friends_rain_walk_006",
+                "tc_c10_friends_rain_walk_007",
+                "tc_c10_friends_rain_walk_008"
+              ],
+              "sceneIds": [
+                "ts_c10_friends_rain_walk",
+                "ts_c10_friends_rain_walk_netcafe",
+                "ts_c10_friends_rain_walk_homeward"
+              ]
+            }
+          ],
+          "controlIds": [
+            "tc_c10_friends_end"
+          ]
+        }
+      ],
+      "assetMappings": [
+        {
+          "a01SectionId": "a01-ch03-friends-01",
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "startLine": 874,
+          "endLine": 914,
+          "nodeIds": [
+            "tc_c03_friends_entry",
+            "tc_c03_friends_tailoring_002",
+            "tc_c03_friends_tailoring_003",
+            "tc_c03_friends_tailoring_004",
+            "tc_c03_friends_tailoring_005",
+            "tc_c03_friends_tailoring_006",
+            "tc_c03_friends_tailoring_007",
+            "tc_c03_friends_tailoring_008",
+            "tc_c03_friends_tailoring_009",
+            "tc_c03_friends_tailoring_010",
+            "tc_c03_friends_tailoring_011",
+            "tc_c03_friends_tailoring_012",
+            "tc_c03_friends_tailoring_013",
+            "tc_c03_friends_tailoring_014",
+            "tc_c03_friends_tailoring_015",
+            "tc_c03_friends_tailoring_016",
+            "tc_c03_friends_tailoring_017",
+            "tc_c03_friends_tailoring_018",
+            "tc_c03_friends_tailoring_019",
+            "tc_c03_friends_tailoring_020"
+          ],
+          "sceneIds": [
+            "ts_c03_friends_tailoring",
+            "ts_c03_friends_tailoring_shop"
+          ],
+          "assetIds": [
+            "tc-bg-alteration-day",
+            "tc-bg-rental-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile",
+            "tc-char-maolang-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 friends 路线"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "改衣师傅环境配角；文文陪坐不参与修改主持稿。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch03-friends-02",
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "startLine": 916,
+          "endLine": 938,
+          "nodeIds": [
+            "tc_c03_friends_online_game_001",
+            "tc_c03_friends_online_game_002",
+            "tc_c03_friends_online_game_003",
+            "tc_c03_friends_online_game_004",
+            "tc_c03_friends_online_game_005",
+            "tc_c03_friends_online_game_006",
+            "tc_c03_friends_online_game_007",
+            "tc_c03_friends_online_game_008",
+            "tc_c03_friends_online_game_009",
+            "tc_c03_friends_online_game_010",
+            "tc_c03_friends_online_game_011"
+          ],
+          "sceneIds": [
+            "ts_c03_friends_online_game"
+          ],
+          "assetIds": [
+            "tc-bg-rental-night",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-maolang-human-base",
+            "tc-char-shijiang-human-base"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 friends 路线"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "叶岚本场缺席，不显示头像在线；师匠从自己家上线，不用店内立绘。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch03-friends-03",
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "startLine": 940,
+          "endLine": 966,
+          "nodeIds": [
+            "tc_c03_friends_settling_in_001",
+            "tc_c03_friends_settling_in_002",
+            "tc_c03_friends_settling_in_003",
+            "tc_c03_friends_settling_in_004",
+            "tc_c03_friends_settling_in_005",
+            "tc_c03_friends_settling_in_006",
+            "tc_c03_friends_settling_in_007",
+            "tc_c03_friends_settling_in_008",
+            "tc_c03_friends_settling_in_009",
+            "tc_c03_friends_settling_in_010",
+            "tc_c03_friends_settling_in_011",
+            "tc_c03_friends_settling_in_012",
+            "tc_c03_friends_settling_in_013"
+          ],
+          "sceneIds": [
+            "ts_c03_friends_settling_in"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 friends 路线"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [
+            {
+              "label": "把东西放进自己的生活",
+              "priority": "候选P2",
+              "composition": "出租屋桌角旧卡与收好箱子的环境中景，毛狼坐唯一椅子，文文整理小物。",
+              "storyConstraint": "仅生活安顿，不变成新办公室或离职场景。"
+            }
+          ],
+          "presentationNotes": [
+            "旧游戏卡是物件，不需要童年CG。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch04-friends-01",
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "startLine": 454,
+          "endLine": 462,
+          "nodeIds": [
+            "tc_c04_friends_entry",
+            "tc_c04_friends_own_plan_002",
+            "tc_c04_friends_own_plan_003",
+            "tc_c04_friends_outing_choice"
+          ],
+          "sceneIds": [
+            "ts_c04_friends_own_plan"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-maolang-human-base"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 friends 路线"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": []
+        },
+        {
+          "a01SectionId": "a01-ch04-friends-02",
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "startLine": 464,
+          "endLine": 480,
+          "nodeIds": [
+            "tc_c04_friends_show_001",
+            "tc_c04_friends_show_002",
+            "tc_c04_friends_show_003",
+            "tc_c04_friends_show_004",
+            "tc_c04_friends_show_005",
+            "tc_c04_friends_show_006",
+            "tc_c04_friends_show_007",
+            "tc_c04_friends_show_008",
+            "tc_c04_friends_outing_choice"
+          ],
+          "sceneIds": [
+            "ts_c04_friends_show",
+            "ts_c04_friends_own_plan"
+          ],
+          "assetIds": [
+            "tc-bg-performance-shop-day",
+            "tc-bg-rental-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 friends 路线",
+            "第四章朋友线选择A：小演出；第七章回收"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "不替换为回声KTV调音台/竞聘舞台。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch04-friends-03",
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "startLine": 482,
+          "endLine": 496,
+          "nodeIds": [
+            "tc_c04_friends_walk_001",
+            "tc_c04_friends_walk_002",
+            "tc_c04_friends_walk_003",
+            "tc_c04_friends_walk_004",
+            "tc_c04_friends_walk_005",
+            "tc_c04_friends_walk_006",
+            "tc_c04_friends_walk_007",
+            "tc_c04_friends_outing_choice"
+          ],
+          "sceneIds": [
+            "ts_c04_friends_walk",
+            "ts_c04_friends_walk_game_store",
+            "ts_c04_friends_walk_stool",
+            "ts_c04_friends_walk_wall",
+            "ts_c04_friends_own_plan"
+          ],
+          "assetIds": [
+            "tc-bg-stall-day",
+            "tc-bg-game-store-day",
+            "tc-bg-slope-day",
+            "tc-bg-street-day",
+            "tc-bg-rental-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 friends 路线",
+            "第四章朋友线选择B：逛街；第七章回收"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "不新造稀有游戏收藏或高价设备。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch04-friends-04",
+          "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+          "startLine": 498,
+          "endLine": 504,
+          "nodeIds": [
+            "tc_c04_friends_crossroad_001",
+            "tc_c04_friends_crossroad_002",
+            "tc_c04_friends_crossroad_003"
+          ],
+          "sceneIds": [
+            "ts_c04_friends_crossroad",
+            "ts_c04_friends_crossroad_home"
+          ],
+          "assetIds": [
+            "tc-bg-food-front-dusk",
+            "tc-bg-rental-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 friends 路线"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": []
+        },
+        {
+          "a01SectionId": "a01-ch05-friends-01",
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "startLine": 457,
+          "endLine": 483,
+          "nodeIds": [
+            "tc_c05_friends_entry",
+            "tc_c05_friends_job_name_002",
+            "tc_c05_friends_job_name_003",
+            "tc_c05_friends_job_name_004",
+            "tc_c05_friends_job_name_005",
+            "tc_c05_friends_job_name_006",
+            "tc_c05_friends_job_name_007",
+            "tc_c05_friends_job_name_008",
+            "tc_c05_friends_job_name_009",
+            "tc_c05_friends_job_name_010",
+            "tc_c05_friends_job_name_011",
+            "tc_c05_friends_job_name_012",
+            "tc_c05_friends_job_name_013"
+          ],
+          "sceneIds": [
+            "ts_c05_friends_job_name",
+            "ts_c05_friends_job_name_door",
+            "ts_c05_friends_job_name_home",
+            "ts_c05_friends_job_name_call"
+          ],
+          "assetIds": [
+            "tc-bg-supermarket-day",
+            "tc-bg-rental-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-wenwen-human-expression-downcast",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-serious"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 friends 路线"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "毛狼通话另一端拆纸声音，未明确房间不建其家；职业羞怯不变新办公室。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch05-friends-02",
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "startLine": 485,
+          "endLine": 501,
+          "nodeIds": [
+            "tc_c05_friends_say_it_001",
+            "tc_c05_friends_say_it_002",
+            "tc_c05_friends_say_it_003",
+            "tc_c05_friends_say_it_004",
+            "tc_c05_friends_say_it_005",
+            "tc_c05_friends_say_it_006",
+            "tc_c05_friends_say_it_007",
+            "tc_c05_friends_say_it_008"
+          ],
+          "sceneIds": [
+            "ts_c05_friends_say_it",
+            "ts_c05_friends_say_it_counter"
+          ],
+          "assetIds": [
+            "tc-bg-food-day",
+            "tc-bg-netcafe-counter-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-shijiang-human-base",
+            "tc-char-shijiang-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅所选 friends 路线"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "文文换上值班外套后准备22:00回来；毛狼仅托带纸，不在场；无技术维修表现。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch06-friends-01",
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 423,
+          "endLine": 448,
+          "nodeIds": [
+            "tc_c06_friends_entry",
+            "tc_c06_friends_quiet_company_002",
+            "tc_c06_friends_quiet_company_003",
+            "tc_c06_friends_quiet_company_004",
+            "tc_c06_friends_quiet_company_005",
+            "tc_c06_friends_quiet_company_006",
+            "tc_c06_friends_quiet_company_007",
+            "tc_c06_friends_quiet_company_008",
+            "tc_c06_friends_quiet_company_009",
+            "tc_c06_friends_quiet_company_010",
+            "tc_c06_friends_quiet_company_011",
+            "tc_c06_friends_quiet_company_012"
+          ],
+          "sceneIds": [
+            "ts_c06_friends_quiet_company",
+            "ts_c06_friends_quiet_company_eaves"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-day",
+            "tc-bg-stall-day",
+            "tc-bg-eaves-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile",
+            "tc-char-maolang-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "烤土豆分辣度。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch06-friends-02",
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 449,
+          "endLine": 466,
+          "nodeIds": [
+            "tc_c06_friends_own_invitation_001",
+            "tc_c06_friends_own_invitation_002",
+            "tc_c06_friends_own_invitation_003",
+            "tc_c06_friends_own_invitation_004",
+            "tc_c06_friends_own_invitation_005",
+            "tc_c06_friends_own_invitation_006",
+            "tc_c06_friends_own_invitation_007",
+            "tc_c06_friends_own_invitation_008"
+          ],
+          "sceneIds": [
+            "ts_c06_friends_own_invitation"
+          ],
+          "assetIds": [
+            "tc-bg-rental-night",
+            "tc-bg-rental-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "群消息；飘与毛狼去打印为计划/转述，不画打印店到访。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch06-friends-03",
+          "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+          "startLine": 467,
+          "endLine": 474,
+          "nodeIds": [
+            "tc_c06_friends_sleep_001",
+            "tc_c06_friends_sleep_002",
+            "tc_c06_friends_sleep_003"
+          ],
+          "sceneIds": [
+            "ts_c06_friends_sleep",
+            "ts_c06_friends_sleep_awake"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "上午睡前至下午醒来；毛狼只消息。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch07-friends-01",
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "startLine": 447,
+          "endLine": 460,
+          "nodeIds": [
+            "tc_c07_friends_show_return_001",
+            "tc_c07_friends_show_return_002",
+            "tc_c07_friends_show_return_003",
+            "tc_c07_friends_show_return_004",
+            "tc_c07_friends_show_return_005",
+            "tc_c07_friends_show_return_006",
+            "tc_c07_friends_entry"
+          ],
+          "sceneIds": [
+            "ts_c07_friends_show_return",
+            "ts_c07_friends_show_return_after_show"
+          ],
+          "assetIds": [
+            "tc-bg-performance-shop-day",
+            "tc-bg-street-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 friends",
+            "第四章相应选项已发生；两分支互斥"
+          ],
+          "conditionAnchors": [
+            {
+              "flag": "friendsOuting",
+              "value": "show",
+              "sourceLine": 447
+            }
+          ],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "一个人看演出，毛狼在工作不入场。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch07-friends-02",
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "startLine": 461,
+          "endLine": 472,
+          "nodeIds": [
+            "tc_c07_friends_walk_return_001",
+            "tc_c07_friends_walk_return_002",
+            "tc_c07_friends_walk_return_003",
+            "tc_c07_friends_walk_return_004",
+            "tc_c07_friends_walk_return_005",
+            "tc_c07_friends_entry"
+          ],
+          "sceneIds": [
+            "ts_c07_friends_walk_return",
+            "ts_c07_friends_walk_return_message",
+            "ts_c07_friends_show_return"
+          ],
+          "assetIds": [
+            "tc-bg-game-store-day",
+            "tc-bg-street-day",
+            "tc-bg-performance-shop-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 friends",
+            "第四章相应选项已发生；两分支互斥"
+          ],
+          "conditionAnchors": [
+            {
+              "flag": "friendsOuting",
+              "value": "walk",
+              "sourceLine": 461
+            }
+          ],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "独自逛店，店主无专用立绘。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch07-friends-03",
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "startLine": 473,
+          "endLine": 480,
+          "nodeIds": [
+            "tc_c07_friends_online_game_001",
+            "tc_c07_friends_online_game_002",
+            "tc_c07_friends_online_game_003"
+          ],
+          "sceneIds": [
+            "ts_c07_friends_online_game"
+          ],
+          "assetIds": [
+            "tc-bg-rental-night",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "在线小局；师匠、叶岚均缺席，不渲染其头像。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch07-friends-04",
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "startLine": 481,
+          "endLine": 496,
+          "nodeIds": [
+            "tc_c07_friends_own_dinner_001",
+            "tc_c07_friends_own_dinner_002",
+            "tc_c07_friends_own_dinner_003",
+            "tc_c07_friends_own_dinner_004",
+            "tc_c07_friends_own_dinner_005",
+            "tc_c07_friends_own_dinner_006",
+            "tc_c07_friends_own_dinner_007"
+          ],
+          "sceneIds": [
+            "ts_c07_friends_own_dinner",
+            "ts_c07_friends_own_dinner_dinner"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day",
+            "tc-bg-food-dusk",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "毛狼消息谈与飘约会，不画两人约会现场。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch08-friends-01",
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "startLine": 405,
+          "endLine": 428,
+          "nodeIds": [
+            "tc_c08_friends_entry",
+            "tc_c08_friends_boundaries_002",
+            "tc_c08_friends_boundaries_003",
+            "tc_c08_friends_boundaries_004",
+            "tc_c08_friends_boundaries_005",
+            "tc_c08_friends_boundaries_006",
+            "tc_c08_friends_boundaries_007",
+            "tc_c08_friends_boundaries_008",
+            "tc_c08_friends_boundaries_009",
+            "tc_c08_friends_boundaries_010",
+            "tc_c08_friends_boundaries_011"
+          ],
+          "sceneIds": [
+            "ts_c08_friends_boundaries",
+            "ts_c08_friends_boundaries_glasses"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day",
+            "tc-bg-netcafe-counter-night",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-shijiang-human-base",
+            "tc-char-shijiang-human-expression-smile",
+            "tc-char-shijiang-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "拒绝活动现场帮工仅消息；晚间师匠找眼镜盒，不新增演出工作场。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch08-friends-02",
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "startLine": 429,
+          "endLine": 442,
+          "nodeIds": [
+            "tc_c08_friends_online_game_001",
+            "tc_c08_friends_online_game_002",
+            "tc_c08_friends_online_game_003",
+            "tc_c08_friends_online_game_004",
+            "tc_c08_friends_online_game_005",
+            "tc_c08_friends_online_game_006"
+          ],
+          "sceneIds": [
+            "ts_c08_friends_online_game"
+          ],
+          "assetIds": [
+            "tc-bg-rental-night",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile",
+            "tc-char-shijiang-human-base",
+            "tc-char-shijiang-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "休班在线组局，毛狼/师匠仅语音。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch08-friends-03",
+          "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+          "startLine": 443,
+          "endLine": 454,
+          "nodeIds": [
+            "tc_c08_friends_free_afternoon_001",
+            "tc_c08_friends_free_afternoon_002",
+            "tc_c08_friends_free_afternoon_003",
+            "tc_c08_friends_free_afternoon_004",
+            "tc_c08_friends_free_afternoon_005"
+          ],
+          "sceneIds": [
+            "ts_c08_friends_free_afternoon",
+            "ts_c08_friends_free_afternoon_home"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day",
+            "tc-bg-street-day",
+            "tc-bg-supermarket-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "买菜、路边看棋、洗床单/择菜；陌生棋手无专用立绘。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch09-friends-01",
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 501,
+          "endLine": 518,
+          "nodeIds": [
+            "tc_c09_friends_entry",
+            "tc_c09_friends_birthday_002",
+            "tc_c09_friends_birthday_003",
+            "tc_c09_friends_birthday_004",
+            "tc_c09_friends_birthday_005",
+            "tc_c09_friends_birthday_006",
+            "tc_c09_friends_birthday_007",
+            "tc_c09_friends_birthday_008"
+          ],
+          "sceneIds": [
+            "ts_c09_friends_birthday"
+          ],
+          "assetIds": [
+            "tc-bg-food-night",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile",
+            "tc-char-maolang-human-expression-hesitant",
+            "tc-char-shijiang-human-base",
+            "tc-char-shijiang-human-expression-smile",
+            "tc-char-shijiang-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "生日第二顿，蛋糕/水果；地点未指定，普通小店为演出建议，不改文稿。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch09-friends-02",
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 519,
+          "endLine": 530,
+          "nodeIds": [
+            "tc_c09_friends_own_book_001",
+            "tc_c09_friends_own_book_002",
+            "tc_c09_friends_own_book_003",
+            "tc_c09_friends_own_book_004",
+            "tc_c09_friends_own_book_005"
+          ],
+          "sceneIds": [
+            "ts_c09_friends_own_book",
+            "ts_c09_friends_own_book_evening"
+          ],
+          "assetIds": [
+            "tc-bg-bookstore-day",
+            "tc-bg-rental-night",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "自己的书非技能资料，晚间毛狼仅消息。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch09-friends-03",
+          "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+          "startLine": 531,
+          "endLine": 542,
+          "nodeIds": [
+            "tc_c09_friends_call_home_001",
+            "tc_c09_friends_call_home_002",
+            "tc_c09_friends_call_home_003",
+            "tc_c09_friends_call_home_004",
+            "tc_c09_friends_call_home_005"
+          ],
+          "sceneIds": [
+            "ts_c09_friends_call_home"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "母亲电话，地理位置未指定，沿用住处为演出建议。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch10-friends-01",
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "startLine": 473,
+          "endLine": 490,
+          "nodeIds": [
+            "tc_c10_friends_entry",
+            "tc_c10_friends_late_host_002",
+            "tc_c10_friends_late_host_003",
+            "tc_c10_friends_late_host_004",
+            "tc_c10_friends_late_host_005",
+            "tc_c10_friends_late_host_006",
+            "tc_c10_friends_late_host_007",
+            "tc_c10_friends_late_host_008",
+            "tc_c10_friends_end"
+          ],
+          "sceneIds": [
+            "ts_c10_friends_late_host",
+            "ts_c10_friends_rain_walk_homeward"
+          ],
+          "assetIds": [
+            "tc-bg-maolang-home-day",
+            "tc-bg-street-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-hesitant",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile",
+            "tc-char-maolang-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "飘开门、毛狼买酱油迟到；第二版册子纸袋下。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch10-friends-02",
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "startLine": 491,
+          "endLine": 508,
+          "nodeIds": [
+            "tc_c10_friends_friends_table_001",
+            "tc_c10_friends_friends_table_002",
+            "tc_c10_friends_friends_table_003",
+            "tc_c10_friends_friends_table_004",
+            "tc_c10_friends_friends_table_005",
+            "tc_c10_friends_friends_table_006",
+            "tc_c10_friends_friends_table_007",
+            "tc_c10_friends_friends_table_008"
+          ],
+          "sceneIds": [
+            "ts_c10_friends_friends_table"
+          ],
+          "assetIds": [
+            "tc-bg-maolang-home-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-hesitant",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile",
+            "tc-char-maolang-human-expression-hesitant",
+            "tc-char-shijiang-human-base",
+            "tc-char-shijiang-human-expression-smile",
+            "tc-char-shijiang-human-expression-hesitant",
+            "tc-cg-small-everyday"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "师匠带水果，其他同事当班，不全员离岗。"
+          ]
+        },
+        {
+          "a01SectionId": "a01-ch10-friends-03",
+          "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+          "startLine": 509,
+          "endLine": 526,
+          "nodeIds": [
+            "tc_c10_friends_rain_walk_001",
+            "tc_c10_friends_rain_walk_002",
+            "tc_c10_friends_rain_walk_003",
+            "tc_c10_friends_rain_walk_004",
+            "tc_c10_friends_rain_walk_005",
+            "tc_c10_friends_rain_walk_006",
+            "tc_c10_friends_rain_walk_007",
+            "tc_c10_friends_rain_walk_008"
+          ],
+          "sceneIds": [
+            "ts_c10_friends_rain_walk",
+            "ts_c10_friends_rain_walk_netcafe",
+            "ts_c10_friends_rain_walk_homeward"
+          ],
+          "assetIds": [
+            "tc-bg-street-day",
+            "tc-bg-netcafe-counter-day",
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-serious",
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile",
+            "tc-char-maolang-human-expression-hesitant"
+          ],
+          "bindingStatus": "requested-not-adopted",
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "conditionAnchors": [],
+          "cgCandidates": [],
+          "presentationNotes": [
+            "毛狼递落伞，文文路过网吧继续走；不是回去值班。"
+          ]
+        }
+      ],
+      "presentationNotes": [
+        "朋友线没有关系选择；第四章两种经历在第七章互斥回收，第十章只有独立终结。",
+        "电话、群消息、线上游戏和照片不等于角色实体到场；第18天叶岚缺席，第40天在线局师匠与叶岚均缺席。",
+        "第九章生日聚餐、母亲电话等未点名地点留空；A01建议背景不等于已确认场所。",
+        "两年后文文仍在网吧轮班；末段仅路过网吧，今晚不是他的班，不转回工作场。"
+      ]
+    }
+  ]
+}

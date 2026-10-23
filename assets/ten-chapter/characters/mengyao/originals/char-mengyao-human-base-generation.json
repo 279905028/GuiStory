@@ -1,0 +1,14 @@
+{
+  "key": "mengyao-base",
+  "character": "mengyao",
+  "file": "char-mengyao-human-base",
+  "ref": "assets/character-variants/mengyao-face-v2-candidate.webp",
+  "change": "仅移除胸前相机与整个绕颈相机肩带（包含颈部两侧至腰部全部棕色带、金属环），自然补齐灰色T恤与米白衬衫。手腕细皮带腕饰保留。禁止相机、挂颈绳和摄影器材。其他一切保持：face-v2五官、棕色低马尾、微笑、双手插袋、头部落点、衬衫牛仔裤与画风。",
+  "prompt": "Use case: precise-object-edit\n这是本地视觉小说已采用立绘的局部编辑。输入图片是唯一编辑对象。\n修改要求：仅移除胸前相机与整个绕颈相机肩带（包含颈部两侧至腰部全部棕色带、金属环），自然补齐灰色T恤与米白衬衫。手腕细皮带腕饰保留。禁止相机、挂颈绳和摄影器材。其他一切保持：face-v2五官、棕色低马尾、微笑、双手插袋、头部落点、衬衫牛仔裤与画风。\n保持原画1024×1536的画布与人物比例/裁切，保持角色成年、同一个人、同样半写实手绘风格与照明，不全身重画、不改成另一张脸。背景是真实全透明alpha，无底色、无阴影地面、无棋盘格、无文字水印。输出一张独立立绘。",
+  "references": [
+    "/Users/yipin/Desktop/cjb/assets/character-variants/mengyao-face-v2-candidate.webp"
+  ],
+  "generatedPath": "/Users/yipin/.codex/generated_images/01a162af-0842-7a61-a6ca-7846101abfe6/exec-ea399f73-6c65-4c95-ba6d-5b17de3d2a8d.png",
+  "tool": "image_gen built-in",
+  "attempt": 1
+}

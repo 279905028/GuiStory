@@ -1,0 +1,2171 @@
+{
+  "created_at": "2026-10-20T01:30:42.661Z",
+  "timezone": "Asia/Shanghai",
+  "files": {
+    "TODO与多窗口提示词-v0.1.md": {
+      "sha256": "46151e107206a7837c643566d8589c9af694c635d911536bac8393ad07081105",
+      "bytes": 12537,
+      "mtime_ms": 1792459533806.9705
+    },
+    "assets/background-edits.json": {
+      "sha256": "ad11cb439502965d08c5fc0ff2ce691078ceae8f09f833080589b83ca5da303e",
+      "bytes": 3666,
+      "mtime_ms": 1792393173652.6748
+    },
+    "assets/background-prompts.json": {
+      "sha256": "939314fc9e3c2bade1686b924d5f86afd3164893bf9f7fdb18e467d043f0d6d1",
+      "bytes": 9955,
+      "mtime_ms": 1792144792537.8853
+    },
+    "assets/background-variants/m2-20261019/bg-noodles-no-person.png": {
+      "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+      "bytes": 2528115,
+      "mtime_ms": 1792377943974.6377
+    },
+    "assets/background-variants/m2-20261019/bg-noodles-original.png": {
+      "sha256": "b3b2bd4aa1421b504417a1d37900add3ed69202f7d0f680c2da1be698a3dc984",
+      "bytes": 2714889,
+      "mtime_ms": 1792144792452.3196
+    },
+    "assets/background-variants/style-options-20261019/A-cinematic-realism.png": {
+      "sha256": "73f5dc2e0d5f24acfc920ab95ecaa94bd9821f7863a796723ed98e914eed7fb0",
+      "bytes": 3081181,
+      "mtime_ms": 1792374786798.6821
+    },
+    "assets/background-variants/style-options-20261019/B-anime-background.png": {
+      "sha256": "d89f2b88967cc9098ab7a198ecb6675a61c62155aef1a0373774d5e5b704a300",
+      "bytes": 2956030,
+      "mtime_ms": 1792374786803.4573
+    },
+    "assets/background-variants/style-options-20261019/C-watercolor-paper.png": {
+      "sha256": "331a95eae7300156d929018eb679220b860c864c0b0a9528a467f3abd44bf8d3",
+      "bytes": 3582775,
+      "mtime_ms": 1792374786809.505
+    },
+    "assets/background-variants/style-options-20261019/D-retro-film.png": {
+      "sha256": "24cf648fe77dc7f99752fd2241ce40b1c0365894b90131f0b15b10a6c75fa432",
+      "bytes": 2961748,
+      "mtime_ms": 1792374786815.62
+    },
+    "assets/background-variants/style-options-20261019/E-painterly-concept.png": {
+      "sha256": "4cdc901a7f33af3b41cce98fd9d7167422393d1e52fbd893c1b48da1db8149f7",
+      "bytes": 3194590,
+      "mtime_ms": 1792374786821.3196
+    },
+    "assets/background-variants/style-options-20261019/index.html": {
+      "sha256": "d72ab205147e33a37e98fb3d8bbfcb88288a2f0771d1622875662224ca432d9a",
+      "bytes": 16566,
+      "mtime_ms": 1792374674496.1199
+    },
+    "assets/background-variants/style-options-20261019/prompts.json": {
+      "sha256": "0319f60a6f4c69d3c07b444501028b9afb2b7dc0364ab020cfa088face282224",
+      "bytes": 12873,
+      "mtime_ms": 1792374841441.8909
+    },
+    "assets/background-variants/style-options-20261019/sources.json": {
+      "sha256": "dd4fae68af68a6a3a644dc8f7982ba5b5408f0634179c3dc0b54d848ef506d1b",
+      "bytes": 1364,
+      "mtime_ms": 1792374841347.2004
+    },
+    "assets/background-variants/style-options-20261019/说明.md": {
+      "sha256": "e854bb4aa753e8d75ba0f95141124aaaf8eaf103a644bfd48eccc159bf04beb3",
+      "bytes": 1077,
+      "mtime_ms": 1792374841442.0205
+    },
+    "assets/backgrounds-manifest.json": {
+      "sha256": "a7c8c29a6427009f69ca3059443162bc7bfa009854e4ca3a491dadc6f55718ae",
+      "bytes": 34956,
+      "mtime_ms": 1792393575903.1582
+    },
+    "assets/bg-lobby.png": {
+      "sha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871",
+      "bytes": 2260911,
+      "mtime_ms": 1792144792362.963
+    },
+    "assets/bg-noodles.png": {
+      "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+      "bytes": 2528115,
+      "mtime_ms": 1792377943974.6377
+    },
+    "assets/bg-repair.png": {
+      "sha256": "3b918a88c0d486575fa18d09afb70a37f9e1743257dd49ce1a44f72416e098aa",
+      "bytes": 2576047,
+      "mtime_ms": 1792144792319.466
+    },
+    "assets/bg-room.png": {
+      "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+      "bytes": 1968927,
+      "mtime_ms": 1792144792407.3052
+    },
+    "assets/bg-salon.png": {
+      "sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+      "bytes": 2571679,
+      "mtime_ms": 1792144792495.9238
+    },
+    "assets/bg-street.png": {
+      "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "bytes": 3010764,
+      "mtime_ms": 1792144792277.2522
+    },
+    "assets/cg/cg-01-rain-return.png": {
+      "sha256": "12309c94b8fa313074621f59e7b8d076d2f2277a8f0164cba4ff011aea192a33",
+      "bytes": 2640053,
+      "mtime_ms": 1792459787216.8555
+    },
+    "assets/cg/cg-02-xiaoman-mirror.png": {
+      "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e",
+      "bytes": 2483983,
+      "mtime_ms": 1792458774696.6606
+    },
+    "assets/cg/cg-04-mengyao-camera.png": {
+      "sha256": "d29f637064098205d9c6e0f1e38729bb8231940738a31beb652bac60cfb18067",
+      "bytes": 2500027,
+      "mtime_ms": 1792459787238.0078
+    },
+    "assets/cg/cg-05-yelan-inventory.png": {
+      "sha256": "463b708fbf32f7e95636167e4998f4e547d45a02e34612d2eaeaf4ad1e46055b",
+      "bytes": 2001240,
+      "mtime_ms": 1792459787250.073
+    },
+    "assets/cg/cg-07-yelan-off-duty.png": {
+      "sha256": "0eaa0c4a418e20926dcbfc11fbc0c782a38b17651151b341c9a45438ce8b61e8",
+      "bytes": 2735921,
+      "mtime_ms": 1792459787270.1174
+    },
+    "assets/cg/cg-08-huangqiuqiu-listening.png": {
+      "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1",
+      "bytes": 1854736,
+      "mtime_ms": 1792459121466.3381
+    },
+    "assets/cg-variants/CG01/candidate-v1.png": {
+      "sha256": "12309c94b8fa313074621f59e7b8d076d2f2277a8f0164cba4ff011aea192a33",
+      "bytes": 2640053,
+      "mtime_ms": 1792459787207.45
+    },
+    "assets/cg-variants/CG01/record.json": {
+      "sha256": "db30b90ef3dc509ef4ecc987e51dac960d3f9ed0c95da2020b43bf18339b29ce",
+      "bytes": 4374,
+      "mtime_ms": 1792459787217.1877
+    },
+    "assets/cg-variants/CG02/candidate-v2.png": {
+      "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e",
+      "bytes": 2483983,
+      "mtime_ms": 1792458774692.3752
+    },
+    "assets/cg-variants/CG02/record.json": {
+      "sha256": "da1d6c42085cdab0704efa6a91d551788723cdfa007067efe7ce1111e08baa82",
+      "bytes": 5844,
+      "mtime_ms": 1792458774696.7915
+    },
+    "assets/cg-variants/CG02/sample-v1.png": {
+      "sha256": "99a380c0b3c892a8fab777917dfa533ef6aaa00bd01aae38cd8d8b53aa1be601",
+      "bytes": 2450433,
+      "mtime_ms": 1792458575781.831
+    },
+    "assets/cg-variants/CG03/candidate-v1.png": {
+      "sha256": "50ef608a207469cfbf492bf7b66d1f84bcb791576262ba1e35cb6b80c9e69997",
+      "bytes": 2415216,
+      "mtime_ms": 1792459787220.3247
+    },
+    "assets/cg-variants/CG03/record.json": {
+      "sha256": "58bb269dc5c3703f684d3a06460beaede422c2e7c3dff30a523a9bb857a31979",
+      "bytes": 4339,
+      "mtime_ms": 1792459787228.3257
+    },
+    "assets/cg-variants/CG04/candidate-v1.png": {
+      "sha256": "d29f637064098205d9c6e0f1e38729bb8231940738a31beb652bac60cfb18067",
+      "bytes": 2500027,
+      "mtime_ms": 1792459787230.3179
+    },
+    "assets/cg-variants/CG04/record.json": {
+      "sha256": "3749a22b481949a37e0609c5f49d117c45b278005b1889ff4c6c18228c172759",
+      "bytes": 4574,
+      "mtime_ms": 1792459787238.3145
+    },
+    "assets/cg-variants/CG05/candidate-v1.png": {
+      "sha256": "463b708fbf32f7e95636167e4998f4e547d45a02e34612d2eaeaf4ad1e46055b",
+      "bytes": 2001240,
+      "mtime_ms": 1792459787242.8708
+    },
+    "assets/cg-variants/CG05/record.json": {
+      "sha256": "7824d253ce891f8e4203217b31750f557ab0b013fda8b45a5b5a1c3cb483b1c5",
+      "bytes": 4799,
+      "mtime_ms": 1792459787250.463
+    },
+    "assets/cg-variants/CG06/candidate-v1.png": {
+      "sha256": "d7e57677599eac3d88e2e9c77d3542f6ca326e60d136883d34b9ecbd7db50a83",
+      "bytes": 2207748,
+      "mtime_ms": 1792459787253.729
+    },
+    "assets/cg-variants/CG06/record.json": {
+      "sha256": "18835d8088adfdf8af34281170b23e977dba3905dd90cb95dae148eed6b533d3",
+      "bytes": 4318,
+      "mtime_ms": 1792459787260.4846
+    },
+    "assets/cg-variants/CG07/candidate-v1.png": {
+      "sha256": "0eaa0c4a418e20926dcbfc11fbc0c782a38b17651151b341c9a45438ce8b61e8",
+      "bytes": 2735921,
+      "mtime_ms": 1792459787262.5464
+    },
+    "assets/cg-variants/CG07/record.json": {
+      "sha256": "4fd5a27a12c3b696c00f6df249fd86f7ebee86a9962afa7c4d5e3709340d57a8",
+      "bytes": 4763,
+      "mtime_ms": 1792459787270.638
+    },
+    "assets/cg-variants/CG08/candidate-v2.png": {
+      "sha256": "acab189176970ac5a4713bb4a5d26cada061b7ea2c586745787653cd63ce5131",
+      "bytes": 1988696,
+      "mtime_ms": 1792458774699.6387
+    },
+    "assets/cg-variants/CG08/candidate-v3.png": {
+      "sha256": "cc48368235dfd71e2ade56e990a519f848ad137ae6cbeb464dda5d3c1bdb2daf",
+      "bytes": 1956379,
+      "mtime_ms": 1792458933204.1777
+    },
+    "assets/cg-variants/CG08/candidate-v4.png": {
+      "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1",
+      "bytes": 1854736,
+      "mtime_ms": 1792459121464.401
+    },
+    "assets/cg-variants/CG08/record.json": {
+      "sha256": "7567145f6f89d712b77c4f4866182400feb4b3305138ae39b71666546a66487d",
+      "bytes": 11755,
+      "mtime_ms": 1792459121470.5552
+    },
+    "assets/cg-variants/CG08/sample-v1.png": {
+      "sha256": "3959b3ead3dd3e7b276fc9d004d226ae531840a5ee22288279e481ff7f312d08",
+      "bytes": 2002511,
+      "mtime_ms": 1792458575790.2332
+    },
+    "assets/char-huangqiuqiu.png": {
+      "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9",
+      "bytes": 1305412,
+      "mtime_ms": 1792378057818.7063
+    },
+    "assets/char-maolang.png": {
+      "sha256": "d554134d8bf022572c0c26b9d0db80bbf59ec227c3b5aab4ce61089ba2133a1c",
+      "bytes": 2038141,
+      "mtime_ms": 1792379441643.0002
+    },
+    "assets/char-mengyao.png": {
+      "sha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+      "bytes": 2209681,
+      "mtime_ms": 1792144738007.2207
+    },
+    "assets/char-shijiang.png": {
+      "sha256": "a8e1bceb9dad767e2ec11c94f3977a9b8337a2abcbd6b47c4f6996e72e004b1c",
+      "bytes": 1825205,
+      "mtime_ms": 1792379713823.7983
+    },
+    "assets/char-wenwen.png": {
+      "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "bytes": 2267104,
+      "mtime_ms": 1792144564106.5598
+    },
+    "assets/char-xiaoman.png": {
+      "sha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+      "bytes": 2323438,
+      "mtime_ms": 1792144652636.0007
+    },
+    "assets/char-yelan.png": {
+      "sha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+      "bytes": 1835417,
+      "mtime_ms": 1792144784461.0923
+    },
+    "assets/char-zhouzhi.png": {
+      "sha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+      "bytes": 1902928,
+      "mtime_ms": 1792144699341.026
+    },
+    "assets/character-prompts.json": {
+      "sha256": "d71117b5e482656e4ecefe2192a45f8b3cfa9756b086843f02d032fb894eff30",
+      "bytes": 734,
+      "mtime_ms": 1792377674489.1233
+    },
+    "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-explaining.png": {
+      "sha256": "b2cfccc37f54d1b90bc102f573bbc96d069d013ad7bfe434ccfe732b1e270292",
+      "bytes": 2267080,
+      "mtime_ms": 1792403061999.392
+    },
+    "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-thinking.png": {
+      "sha256": "ed817af259807c5bc2b42b3f607d8df2de8017dc2f7d42a607cd5f2922267321",
+      "bytes": 2217895,
+      "mtime_ms": 1792402965177.9268
+    },
+    "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-wave.png": {
+      "sha256": "e8dbbdafb9baa87f72b2b450a2948be2f543b0567422c17650d7aa38c6129f13",
+      "bytes": 2254450,
+      "mtime_ms": 1792402921341.2449
+    },
+    "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-displeased.png": {
+      "sha256": "3864083e3ea1d0b9bb37fdbb7d5541ad8f03b6374bfa691fa15ea9a1754a8250",
+      "bytes": 2132157,
+      "mtime_ms": 1792402767637.5232
+    },
+    "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-downcast.png": {
+      "sha256": "11e2bde1e0dcdaa2d81e5f5e58b4a07cb50d2573bab6de68aaa063d280ad3f11",
+      "bytes": 2111128,
+      "mtime_ms": 1792402727532.9797
+    },
+    "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-hesitant.png": {
+      "sha256": "960440d06a40b6c9a2751c007caf733d8aeb413e9ca24d1707015e08e4104430",
+      "bytes": 2145977,
+      "mtime_ms": 1792402617444.0137
+    },
+    "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-serious.png": {
+      "sha256": "988fbf94a15bfefda5ee0389f3f8c87f43522fb281dbce0ea35311445091ac20",
+      "bytes": 2156220,
+      "mtime_ms": 1792402568825.2244
+    },
+    "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-smile.png": {
+      "sha256": "085ab477388ecc9867ccc4aa1bc4eded913ff1c651b94cdfa71136e2637fa4bc",
+      "bytes": 2177226,
+      "mtime_ms": 1792402488141.532
+    },
+    "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-surprised.png": {
+      "sha256": "6859d7e0c323276b32398650736e92371743504405dc7310c66fec036e43c035",
+      "bytes": 2151059,
+      "mtime_ms": 1792402832043.5913
+    },
+    "assets/character-variants/expressions-v01-20261019/mengyao/manifest.json": {
+      "sha256": "cade0b23c8270ec2a26bd45dfb2f80acf594ae983c5111f790214fdb6ae911fe",
+      "bytes": 9106,
+      "mtime_ms": 1792403556194.9138
+    },
+    "assets/character-variants/expressions-v01-20261019/mengyao/prompts.json": {
+      "sha256": "b3384dcda923d65d9c8bb63f843da47df8a4ba402d427d62d3863d001fe5ee63",
+      "bytes": 15429,
+      "mtime_ms": 1792403534021.2234
+    },
+    "assets/character-variants/expressions-v01-20261019/mengyao/qa-action-hands.png": {
+      "sha256": "70d8f3c5237893d610d43834c0dbed14d2d2adc3c9b91e4940102dd60680833e",
+      "bytes": 1199955,
+      "mtime_ms": 1792403556194.649
+    },
+    "assets/character-variants/expressions-v01-20261019/mengyao/qa-faces.png": {
+      "sha256": "71635aa53bf56afd8ac7e4bed95c191404f049456234fad6b4ed4e5108bee499",
+      "bytes": 1067468,
+      "mtime_ms": 1792403556164.7124
+    },
+    "assets/character-variants/expressions-v01-20261019/mengyao/qa-light-dark.png": {
+      "sha256": "87056b57c81d339bc0f1098c92935c02fb33c5c7afebff9767b0cac4b6865b1c",
+      "bytes": 1881981,
+      "mtime_ms": 1792403556140.18
+    },
+    "assets/character-variants/expressions-v01-20261019/mengyao/review.md": {
+      "sha256": "160add8f469ffce3fc7fda0adc783130601a0c0ae6b8cd642480f50ca906d30d",
+      "bytes": 4156,
+      "mtime_ms": 1792403649989.9868
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-explaining.png": {
+      "sha256": "025f83220e2a7ad0f983f797aed621039e68f009448f34402f278063d30e1bb3",
+      "bytes": 2154226,
+      "mtime_ms": 1792404258917.6921
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-listening.png": {
+      "sha256": "598a3a55f21d7a71d8bca712193adf8f35b2e7509ae4cbcf2b51d5da7fa8c432",
+      "bytes": 2192732,
+      "mtime_ms": 1792403742256.507
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-phone.png": {
+      "sha256": "3983ece863503833459257807a519cf61a1fb9c815a90943c55679c44995d43d",
+      "bytes": 2211999,
+      "mtime_ms": 1792403742254.2236
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-repairing.png": {
+      "sha256": "1616b7d46d06d86cda6cc19f79df3e19bc7aa1f13e4d8daa5b03e558402dee84",
+      "bytes": 2290714,
+      "mtime_ms": 1792403742249.831
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-thinking.png": {
+      "sha256": "7e9a5b3d9eaeb87f92a31710dbe56654183f9c531112cade99f56ac8a67234a0",
+      "bytes": 2218651,
+      "mtime_ms": 1792403742239.6238
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-wave.png": {
+      "sha256": "e2c74044d140dca6c0b05103d69b787eb268bc91cd682e1717c75912a10650b7",
+      "bytes": 2373437,
+      "mtime_ms": 1792403742235.3464
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.png": {
+      "sha256": "ce4e43b188589e1a199e972dd4fab1ea632d25d44fefb63a417a70b40522cdcc",
+      "bytes": 2182419,
+      "mtime_ms": 1792403742221.4348
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-displeased.png": {
+      "sha256": "1c500c5e6468fcb5cee6bf1c2e581cfec102166502cc33afa7f55a9e95ad55e6",
+      "bytes": 2151006,
+      "mtime_ms": 1792403290942.8
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-downcast.png": {
+      "sha256": "49c42013ef1e35307dbd3a3cd1e5ffd3a34de011793832dea1b1f870439bffe4",
+      "bytes": 2210292,
+      "mtime_ms": 1792403290949.2156
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.png": {
+      "sha256": "b76af0b747f88e0b7e4750f5eae60e2b1de1d72eb237fc60dd43f258934f1744",
+      "bytes": 2186411,
+      "mtime_ms": 1792403290953.9482
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.png": {
+      "sha256": "a3169d9e2391ef67ac577a5ebc7543e28e5d042ff61620bbfa755ce720bf3951",
+      "bytes": 2206129,
+      "mtime_ms": 1792403290965.8635
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.png": {
+      "sha256": "2e74049a392cf793f6072b45a39cb4c8cd24d12f0c52b2023ba1e101fce6d213",
+      "bytes": 2145513,
+      "mtime_ms": 1792402874668.6675
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-relieved.png": {
+      "sha256": "7223c94dfa91c8a6611591f8d7ac528371513525b6ad2a45dd5f26e334a6ab7b",
+      "bytes": 2196367,
+      "mtime_ms": 1792403290961.0051
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.png": {
+      "sha256": "3e60054129fd00bdb0a048b70f8aa6f5c3d840128f464dde1926feb41d0f0c91",
+      "bytes": 2205624,
+      "mtime_ms": 1792402874663.5364
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.png": {
+      "sha256": "e6b925e52feded4b555a13dc32041abd261fdd0830816f1e510c3e89c7c567c0",
+      "bytes": 2219084,
+      "mtime_ms": 1792402874660.1309
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.png": {
+      "sha256": "521d889a40b086d6784c7ad852c733a737a62f04d591200eb080f5ad7006c98b",
+      "bytes": 2234688,
+      "mtime_ms": 1792403290940.2651
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.png": {
+      "sha256": "a9a4dc44999ba3559e8d4ac7f9114e6b832919d7fc1a9427205eabad93c564cf",
+      "bytes": 2168938,
+      "mtime_ms": 1792403742223.7458
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.png": {
+      "sha256": "9fd01f9690d7d56702ae78116955fd8d4b2cede26271c545503b376eb5e16b01",
+      "bytes": 2231700,
+      "mtime_ms": 1792403742229.1567
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/manifest.json": {
+      "sha256": "98e3b87d9064d90041fbb483b069a99d55f1242b56c1f5664d6a96635bcd24f0",
+      "bytes": 15337,
+      "mtime_ms": 1792404404145.5852
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/prompts.json": {
+      "sha256": "09eda9fa88eedfe36946a3a077fd68bfd6059cf1a6cce78d80e991f439c02931",
+      "bytes": 38636,
+      "mtime_ms": 1792404258917.9358
+    },
+    "assets/character-variants/expressions-v01-20261019/wenwen/review.md": {
+      "sha256": "657277ff7157d5f1fcca7608ec3ad48686e3d9dafd39a012cf039a6d739f4e5a",
+      "bytes": 2221,
+      "mtime_ms": 1792404576065.0593
+    },
+    "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-action-explaining.png": {
+      "sha256": "d6141c5d07c4fd335dc1485453ebf6bcf0da03564c3b5ace3533a95fd9cbe334",
+      "bytes": 2329066,
+      "mtime_ms": 1792402855952.3792
+    },
+    "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-action-thinking.png": {
+      "sha256": "7ea8dd506477b662fa76f0ae5c39662798b97e44133a35f0bc204a3213b7f9df",
+      "bytes": 2294403,
+      "mtime_ms": 1792402887259.523
+    },
+    "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-action-wave.png": {
+      "sha256": "e22428856e1248d165ba550946528b2a2c24767295cec35045d36e78811fbbc4",
+      "bytes": 2369476,
+      "mtime_ms": 1792402810502.0923
+    },
+    "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-displeased.png": {
+      "sha256": "d36f4a86e542cb454a8b0ac5f685c5b747c91b91650c15882c8c018b39c79c5d",
+      "bytes": 2249838,
+      "mtime_ms": 1792402712889.0974
+    },
+    "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.png": {
+      "sha256": "1205c9c786b743baae41fcd12c297b73e065027336a7f1ac0f9b14de5a8ed8f0",
+      "bytes": 2288619,
+      "mtime_ms": 1792402673095.1582
+    },
+    "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.png": {
+      "sha256": "e74f9978d1fcde67d371d565d8eb8ebbebdad8b8ec0464eab6d7cd0bc6bcb28e",
+      "bytes": 2262581,
+      "mtime_ms": 1792402479841.0056
+    },
+    "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.png": {
+      "sha256": "7a9884c822c8f8acf8e07cff1c9f071bb2d76c5f2b4104b9b37f0bd5ec4778bb",
+      "bytes": 2301368,
+      "mtime_ms": 1792402587771.1497
+    },
+    "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.png": {
+      "sha256": "b23be783b2b3c510d8912c5f0516593904a4f329bc09e5383b41bed64ff86073",
+      "bytes": 2302290,
+      "mtime_ms": 1792402535686.835
+    },
+    "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-surprised.png": {
+      "sha256": "0b266cbaf0395d590f2362bb4e5d7f121396622923157fc065434ae1fbfb697d",
+      "bytes": 2286101,
+      "mtime_ms": 1792402753603.1917
+    },
+    "assets/character-variants/expressions-v01-20261019/xiaoman/manifest.json": {
+      "sha256": "fb2b943cc5805005478823f0f24618aabcfb03f0812f215bc1accc210e05e1d4",
+      "bytes": 10661,
+      "mtime_ms": 1792403467918.0554
+    },
+    "assets/character-variants/expressions-v01-20261019/xiaoman/prompts.json": {
+      "sha256": "186567c816d194638bb0195561b73bdf0649ca2f01384c212617b0104cd23407",
+      "bytes": 20349,
+      "mtime_ms": 1792402906986.5264
+    },
+    "assets/character-variants/expressions-v01-20261019/xiaoman/review-preview.html": {
+      "sha256": "a916d8445d3cf2daa6adf9ae86a4176cc5b138f08427479cef99226f1aeff934",
+      "bytes": 1671,
+      "mtime_ms": 1792403488503.2666
+    },
+    "assets/character-variants/expressions-v01-20261019/xiaoman/review.md": {
+      "sha256": "9d6f24d78f48cc14bc6b870cf236466dc90a7ad2af74fd53eaa7289cec0caf34",
+      "bytes": 4162,
+      "mtime_ms": 1792403586841.0774
+    },
+    "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-action-explaining.png": {
+      "sha256": "ff59966ee7b63c6a6c928e5985bf8d1a5a719d896f03074d17f3abb79c0d3c1e",
+      "bytes": 1909504,
+      "mtime_ms": 1792403468506.468
+    },
+    "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-action-thinking.png": {
+      "sha256": "b6f892bcc462cdae237aca140e2477748fa6c848d791788419f410af0b0c0df2",
+      "bytes": 1855865,
+      "mtime_ms": 1792403507845.0645
+    },
+    "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-action-wave.png": {
+      "sha256": "ca7f8dfd34a25523b66e1bda58d310bf14d9fdc2c10fc1bcd0a3bd412206de4c",
+      "bytes": 1902923,
+      "mtime_ms": 1792403427019.4587
+    },
+    "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-displeased.png": {
+      "sha256": "8e911787af718ec93095af7465b9576a948bc667d8a159a2e5150d9e3d0c489b",
+      "bytes": 1845967,
+      "mtime_ms": 1792403284152.6794
+    },
+    "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-downcast.png": {
+      "sha256": "c95436333744ed6dd422f3e86840dc3f003a3a6bd50b38e10a336409875f5016",
+      "bytes": 1838708,
+      "mtime_ms": 1792403324795.6462
+    },
+    "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-hesitant.png": {
+      "sha256": "d7d2b79d4ba4f66fd420c669acafabf8350c4bedc0932bea25e64532d964e90f",
+      "bytes": 1821919,
+      "mtime_ms": 1792403212561.2036
+    },
+    "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-serious.png": {
+      "sha256": "650cb051df5211666c16ebdab93be2ca4088a19399a2d65468ea12242bd63327",
+      "bytes": 1838964,
+      "mtime_ms": 1792403129201.807
+    },
+    "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-smile.png": {
+      "sha256": "e133205561287fcb1ffa6763222a460f12ff9d624b86a0d5b6fd54d00e87d598",
+      "bytes": 1856444,
+      "mtime_ms": 1792403172461.708
+    },
+    "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-surprised.png": {
+      "sha256": "e2ea6959c337f30631323f3f248788d03fbf8304a529e6f00238c2df054f0702",
+      "bytes": 1828510,
+      "mtime_ms": 1792403365562.2607
+    },
+    "assets/character-variants/expressions-v01-20261019/yelan/manifest.json": {
+      "sha256": "4966f513faa401001bbc28c328a6422855331818962eae160cfd4e02d794ed57",
+      "bytes": 9029,
+      "mtime_ms": 1792403556622.942
+    },
+    "assets/character-variants/expressions-v01-20261019/yelan/prompts.json": {
+      "sha256": "6edec2e4329b088ef70b3123ef02ace1608b365f721311fdb0dc791294aa4af7",
+      "bytes": 15165,
+      "mtime_ms": 1792403534043.042
+    },
+    "assets/character-variants/expressions-v01-20261019/yelan/qa-action-hands.png": {
+      "sha256": "774a884c03b268e9acbddcfd511336effdde90055e80f9449eca165997c04cdf",
+      "bytes": 1025534,
+      "mtime_ms": 1792403556622.6858
+    },
+    "assets/character-variants/expressions-v01-20261019/yelan/qa-faces.png": {
+      "sha256": "cd5b2773c2fa63363663b8f1c5b0f8a47d46f210ba4f0c659e1c9d73a546f711",
+      "bytes": 963196,
+      "mtime_ms": 1792403556586.0576
+    },
+    "assets/character-variants/expressions-v01-20261019/yelan/qa-light-dark.png": {
+      "sha256": "274723cf507b8f7d646fbea5e49e4879c0d85bd2e664f85532062a189c6812e9",
+      "bytes": 1677705,
+      "mtime_ms": 1792403556561.1997
+    },
+    "assets/character-variants/expressions-v01-20261019/yelan/review.md": {
+      "sha256": "650f5408f20ae9755dce9aee7e199f05839850ede74223f9c704317e542e3674",
+      "bytes": 4091,
+      "mtime_ms": 1792403650012.5396
+    },
+    "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-explaining.png": {
+      "sha256": "503bb67015ef463243baf35d04c98c0af968492586b70471d8843bae3c6ffd70",
+      "bytes": 1943860,
+      "mtime_ms": 1792403323995.3398
+    },
+    "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-thinking.png": {
+      "sha256": "261180efc3eec58c4b58385d3a92896ddb1e436993b35b860fbe53e9a2ed7ad4",
+      "bytes": 1847654,
+      "mtime_ms": 1792403275606.6309
+    },
+    "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-wave.png": {
+      "sha256": "e24435e83940c197930003bbe99986994a8c777f7f4acecace81c8fee634cea7",
+      "bytes": 1979538,
+      "mtime_ms": 1792403231227.7273
+    },
+    "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-displeased.png": {
+      "sha256": "364843c11ce75a858479595aa412350ae3b63fdaf791c7ff30fd2295623bd149",
+      "bytes": 1921186,
+      "mtime_ms": 1792403126388.4348
+    },
+    "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.png": {
+      "sha256": "a08e55e0f7a7466d68694b5107a29c90ba7d5f8256ea42ff128c56e01de762b5",
+      "bytes": 1857776,
+      "mtime_ms": 1792403394269.1338
+    },
+    "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.png": {
+      "sha256": "91d6c8efc60732b5a6c184301983b0050d8c08eb9e25ae7d1f6cfd8b028920a0",
+      "bytes": 1881068,
+      "mtime_ms": 1792403432394.0376
+    },
+    "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.png": {
+      "sha256": "5cfcf2196f698044e753d62ddbb480d3cb0c90a785b52f83bd9e185b80de3172",
+      "bytes": 1900576,
+      "mtime_ms": 1792403002455.9736
+    },
+    "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.png": {
+      "sha256": "bd0747a9715ea539f8329ea7bd3bee42aa6acf6cbd01593d38073e536d6b3803",
+      "bytes": 1887634,
+      "mtime_ms": 1792403035495.4607
+    },
+    "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-surprised.png": {
+      "sha256": "414d6b30d2fba560d67c3d1c39bda1a6b4ba1e11d4259f7d324b81e7b2c224db",
+      "bytes": 1857846,
+      "mtime_ms": 1792403166530.8662
+    },
+    "assets/character-variants/expressions-v01-20261019/zhouzhi/manifest.json": {
+      "sha256": "2cd1c6aefe65ed52f8b732759ab161fa0268bdae159ef69679d839284e182a68",
+      "bytes": 10664,
+      "mtime_ms": 1792403468134.7993
+    },
+    "assets/character-variants/expressions-v01-20261019/zhouzhi/prompts.json": {
+      "sha256": "7298b3bdf3ca1fd6847d304b79150911d5fd192e8e997ae1e2f0522d5fd9e1ba",
+      "bytes": 23500,
+      "mtime_ms": 1792403467553.3218
+    },
+    "assets/character-variants/expressions-v01-20261019/zhouzhi/review-preview.html": {
+      "sha256": "68eaaf9a8e8383d93a76017a30adf4fee7b4bb157c995e0378144179826a91b4",
+      "bytes": 1671,
+      "mtime_ms": 1792403488503.524
+    },
+    "assets/character-variants/expressions-v01-20261019/zhouzhi/review.md": {
+      "sha256": "bf2ff0d964550205290570c8ff5c2a0f382883a80fffbbafc485d2c8c65b2e35",
+      "bytes": 4338,
+      "mtime_ms": 1792403586863.3242
+    },
+    "assets/character-variants/mengyao-face-v2-candidate.png": {
+      "sha256": "2dd0f78048ed0a8f67438838c27174df94c5d275ed54a4a050ae5c4fdfc98ee9",
+      "bytes": 2140620,
+      "mtime_ms": 1792378058588.0398
+    },
+    "assets/character-variants/mengyao-face-v2-edit.json": {
+      "sha256": "4cd1db08d99c42f867bb7fd117901038f1a015392b1fd8b0fc7d138ca9027d28",
+      "bytes": 3650,
+      "mtime_ms": 1792378058559.8179
+    },
+    "assets/character-variants/mengyao-v1-original.png": {
+      "sha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+      "bytes": 2209681,
+      "mtime_ms": 1792144738007.2207
+    },
+    "assets/character-variants/pre-face-v2-character-prompts.json": {
+      "sha256": "d71117b5e482656e4ecefe2192a45f8b3cfa9756b086843f02d032fb894eff30",
+      "bytes": 734,
+      "mtime_ms": 1792377674489.1233
+    },
+    "assets/character-variants/pre-face-v2-characters-manifest.json": {
+      "sha256": "40078c78ae9e49199d8a4d46e3f84f7ba115fe0389481d6c89769be44c841271",
+      "bytes": 19622,
+      "mtime_ms": 1792377674488.9446
+    },
+    "assets/character-variants/xiaoman-face-v2-candidate.png": {
+      "sha256": "a576591f1b2a93c0c20eae946085ff3b1f404f143055a49dee6871f995d76a70",
+      "bytes": 2317566,
+      "mtime_ms": 1792378208587.5037
+    },
+    "assets/character-variants/xiaoman-face-v2-edit.json": {
+      "sha256": "7fc521cb43dc76ca6cf0fdb91cca6d349adbd0aeeb29bb4b8237bef86fbf5e2a",
+      "bytes": 2810,
+      "mtime_ms": 1792378208553.469
+    },
+    "assets/character-variants/xiaoman-v1-original.png": {
+      "sha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+      "bytes": 2323438,
+      "mtime_ms": 1792144652636.0007
+    },
+    "assets/character-variants/yelan-face-v2-candidate.png": {
+      "sha256": "d7ffa93d04c7bf990d93c3e5f04b8e8bb30ff006b4afe6207e2c21205827e209",
+      "bytes": 1834827,
+      "mtime_ms": 1792378150491.5667
+    },
+    "assets/character-variants/yelan-face-v2-edit.json": {
+      "sha256": "f9c313a31e9c6f28a0b187eef3c990229c191447b51890d9fbf9fa5e31bf8320",
+      "bytes": 3731,
+      "mtime_ms": 1792378200930.261
+    },
+    "assets/character-variants/yelan-v1-original.png": {
+      "sha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+      "bytes": 1835417,
+      "mtime_ms": 1792144784461.0923
+    },
+    "assets/character-variants/zhouzhi-face-v2-candidate.png": {
+      "sha256": "788536cfc207f37002818a3dcd973bbbb2d57a0b8dec701931dea237c8a790d8",
+      "bytes": 1853389,
+      "mtime_ms": 1792378017334.4407
+    },
+    "assets/character-variants/zhouzhi-face-v2-edit.json": {
+      "sha256": "c04e66e898d6bfb6cb77f82164e5410168588f45b418874fd641a0c275f0977b",
+      "bytes": 3556,
+      "mtime_ms": 1792378050371.546
+    },
+    "assets/character-variants/zhouzhi-v1-original.png": {
+      "sha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+      "bytes": 1902928,
+      "mtime_ms": 1792144699341.026
+    },
+    "assets/characters-manifest.json": {
+      "sha256": "40078c78ae9e49199d8a4d46e3f84f7ba115fe0389481d6c89769be44c841271",
+      "bytes": 19622,
+      "mtime_ms": 1792377674488.9446
+    },
+    "assets/new-character-prompts.json": {
+      "sha256": "d6ee4a8a922827fef40279dbff0dfd4d9abcf2722503dc4eb8fda7e9581f8ee1",
+      "bytes": 23074,
+      "mtime_ms": 1792379895245.0657
+    },
+    "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-explaining.png": {
+      "sha256": "9b189c77a07634ac91818d8ec2be5eaf936deba70fa44380e3826c85fc7dfdbe",
+      "bytes": 1436065,
+      "mtime_ms": 1792404006318.513
+    },
+    "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-thinking.png": {
+      "sha256": "93a754b45e871f9f31f8f19f359b2d01ef04478d953d4947156d7ca21dddb1b8",
+      "bytes": 1174518,
+      "mtime_ms": 1792404006317.9702
+    },
+    "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-wave.png": {
+      "sha256": "d4c5ab241a5849a90f23f972aa383a67aed3f7a0dc90b08651d21a39b062b9da",
+      "bytes": 1261527,
+      "mtime_ms": 1792404006317.451
+    },
+    "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-displeased.png": {
+      "sha256": "7714f024bc313eb12521de9c2e3b057768cf5936bf59f4da4235f8756e30685a",
+      "bytes": 1330721,
+      "mtime_ms": 1792403817073.4854
+    },
+    "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-downcast.png": {
+      "sha256": "4f8add603a99bc94cf2c773297eab7b3e59a4b7728a83f287c566a537773052f",
+      "bytes": 1329711,
+      "mtime_ms": 1792403817075.0474
+    },
+    "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.png": {
+      "sha256": "84e93a43e63e816d8b942991d0b02026492d2245d54de1d9de15e4dd8cabbb4f",
+      "bytes": 1364321,
+      "mtime_ms": 1792403676640.0417
+    },
+    "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.png": {
+      "sha256": "40bba14a54428b8a6772793a46f45803877912465600c1f8096b95bc3e562a90",
+      "bytes": 1281021,
+      "mtime_ms": 1792403676639.5073
+    },
+    "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.png": {
+      "sha256": "d1303d347f0842ffe594d4b02d07490bc130a6073af872c54d9f7daf3a5fd063",
+      "bytes": 1296320,
+      "mtime_ms": 1792403676637.983
+    },
+    "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-surprised.png": {
+      "sha256": "c51b8646bb463624e3befea7c84e2e7b54791936bb6cf8d7b33b0bf876be5873",
+      "bytes": 1325319,
+      "mtime_ms": 1792403817069.4446
+    },
+    "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/manifest.json": {
+      "sha256": "2fe9aded18ea21e2c3b7dcfa4a244423085b9e9e2e4c0809ea329eb3216c6539",
+      "bytes": 12931,
+      "mtime_ms": 1792404077077.1802
+    },
+    "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/prompts.json": {
+      "sha256": "ab032a52c026172a6dc402fac4925ad5e67b01a4e1445c9c706ec261e9a4ee3f",
+      "bytes": 35248,
+      "mtime_ms": 1792404006319.9668
+    },
+    "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/qa-explaining-full-light-dark.jpg": {
+      "sha256": "0efa7551ae6be5e5304f8366c13d729006a81876a1c5c1f6642a4ba938a89b05",
+      "bytes": 439913,
+      "mtime_ms": 1792404006619.5667
+    },
+    "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/qa-light-dark.jpg": {
+      "sha256": "3abf2f94469d796508aa59f7ff29a4c179aaa4a42736446ad86392aa61f94315",
+      "bytes": 394417,
+      "mtime_ms": 1792404006622.4858
+    },
+    "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/review.md": {
+      "sha256": "d2755dba6523b7895c08ba4067e8edccd7424d73d174f3a962acd117642ebe12",
+      "bytes": 3064,
+      "mtime_ms": 1792404077076.9404
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.png": {
+      "sha256": "d496b0de4503049b67255acdff0b630400f19e079d1d5bbd41da289fc5397654",
+      "bytes": 1939209,
+      "mtime_ms": 1792402889743.2922
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.png": {
+      "sha256": "cefec309dd4cb2e2c716685bf4c79577dccc6bca82a49473a55e2b950ba0ae2a",
+      "bytes": 1923266,
+      "mtime_ms": 1792402889741.3772
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.png": {
+      "sha256": "152eeeb3a3d469e3222e95ee82dc56bc8a39c89d8b65c700f7d06f31fb89cbcf",
+      "bytes": 2003334,
+      "mtime_ms": 1792402889735.4355
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.png": {
+      "sha256": "469f1e4a6091cd2d98f6ba833c3c4b39540ebad6e12ba9b1796f78c942097994",
+      "bytes": 1915835,
+      "mtime_ms": 1792402727995.1946
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.png": {
+      "sha256": "201bea0edda79bb4e1c21585ecffa41b756db585c79a712310405e9b9ab2842f",
+      "bytes": 1969243,
+      "mtime_ms": 1792402727999.5986
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.png": {
+      "sha256": "1771193665e8dd6a35eb8d8e8bce1be8802e79c145600714c69f200097f98b12",
+      "bytes": 1922607,
+      "mtime_ms": 1792402539732.6594
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png": {
+      "sha256": "562f15c66f55afa5902d77d13a919e15ff26bcadc9cf630f130e339acf8a4978",
+      "bytes": 1927793,
+      "mtime_ms": 1792402539726.8623
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.png": {
+      "sha256": "135bfdac8d39f9f2d4fdbc37ff94e4ab3477d4c12c5d64d8be71254c82debba7",
+      "bytes": 1939761,
+      "mtime_ms": 1792402539724.9094
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.png": {
+      "sha256": "1dfa7b2a0c69deb211b03d1b5fa73bb05ef3b48ebb6e513e7744d37f9d53cd64",
+      "bytes": 1939656,
+      "mtime_ms": 1792402727991.754
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/manifest.json": {
+      "sha256": "389d0a21420f5338a0d8833167fff1185af61b7fb8d2d55fdb770e72908da3fe",
+      "bytes": 12398,
+      "mtime_ms": 1792403463379.849
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/prompts.json": {
+      "sha256": "99a2b72548f7e1584787103f136e6e379eadad6c3f8dee71e3d14b899401502e",
+      "bytes": 29581,
+      "mtime_ms": 1792402889746.7869
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/qa-expressions-faces.jpg": {
+      "sha256": "17877663b0c833a44bc02e9a0bbb98472fef7ff8037e3d47dab2a2861f366ca6",
+      "bytes": 222046,
+      "mtime_ms": 1792403413555.7166
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/qa-light-dark.jpg": {
+      "sha256": "ff752d30935e62953a0be1f20afc15be6337995f9c1e2647a8b39b92aa572e7b",
+      "bytes": 485113,
+      "mtime_ms": 1792403413554
+    },
+    "assets/new-character-variants/expressions-v01-20261019/maolang/review.md": {
+      "sha256": "0ad3e8e17d515c71228086f3360e8e03a56c94519520dba613eebb591dcf446a",
+      "bytes": 2571,
+      "mtime_ms": 1792403463379.5212
+    },
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-explaining.png": {
+      "sha256": "f1b8bef2da64f421447fb5a3c5702f94ef481e77b6cc333328829b8951775108",
+      "bytes": 1871629,
+      "mtime_ms": 1792403411798.832
+    },
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-thinking.png": {
+      "sha256": "c2a4c19a2a1223b60c57ff13f901e890338a2bfdd67c7e3c54f62e5efaa4f8fd",
+      "bytes": 1827224,
+      "mtime_ms": 1792403411795.7273
+    },
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-wave.png": {
+      "sha256": "e8810dbf02f69141fee91f6029b44e708c317bb7100c3b22b94e8b1055fb8875",
+      "bytes": 1924502,
+      "mtime_ms": 1792403411792.3672
+    },
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-displeased.png": {
+      "sha256": "f3da5a95403a25691bbc61a8ede10094b3525cf39e17d41000827942c280c216",
+      "bytes": 1859722,
+      "mtime_ms": 1792403196726.384
+    },
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-downcast.png": {
+      "sha256": "1a2b5e5561154715da837a9c268441ade8c46f067fd57584ef61f00f84b96bcd",
+      "bytes": 1833035,
+      "mtime_ms": 1792403196729.4946
+    },
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-hesitant.png": {
+      "sha256": "c3f810d0d25d1537cf2852119b705e1e69cad60ccb218f91a86b2772b7192f2d",
+      "bytes": 1813943,
+      "mtime_ms": 1792403039579.399
+    },
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-serious.png": {
+      "sha256": "233cb173e5bfef7a5f07b069c93f13382ec77db91a30be7ee67aa743b106d15f",
+      "bytes": 1849284,
+      "mtime_ms": 1792403039575.0828
+    },
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-smile.png": {
+      "sha256": "4ddea918a33cf38cfe87957e2796480031a34fc8c0e4df48907b5b977517c515",
+      "bytes": 1851270,
+      "mtime_ms": 1792403039571.9197
+    },
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-surprised.png": {
+      "sha256": "9bcbb5ca2a38ddb5e4d0cf47f4f932c6273c78bc43c4302401e060c34193d57e",
+      "bytes": 1821920,
+      "mtime_ms": 1792403196723.084
+    },
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/manifest.json": {
+      "sha256": "6901424852a64dcab655b283f3f05a5b23cdf86de8994f004894110d11f28158",
+      "bytes": 12471,
+      "mtime_ms": 1792403463443.2627
+    },
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/prompts.json": {
+      "sha256": "3ad17b0c1a83824ac64472c052531ed566ce8d60b4d2ce538faa4d179db4f55a",
+      "bytes": 30878,
+      "mtime_ms": 1792403411800.7544
+    },
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/qa-expressions-faces.jpg": {
+      "sha256": "93ee7ae290122a4110aa5b2b1e901bc03e3574125cbc5216f7cfe4b5e353c1c9",
+      "bytes": 194933,
+      "mtime_ms": 1792403413829.794
+    },
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/qa-light-dark.jpg": {
+      "sha256": "31e17204f37f0c85a15a71edfb13dd264f2eaaa77319d776420d347d1706aff7",
+      "bytes": 461765,
+      "mtime_ms": 1792403413828.2534
+    },
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/review.md": {
+      "sha256": "bb8b05f3e0724b1945c7ba07b237fd626df0571de5705c08f2a6c3512537cc45",
+      "bytes": 2615,
+      "mtime_ms": 1792403463442.921
+    },
+    "assets/new-character-variants/huangqiuqiu-v1.png": {
+      "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9",
+      "bytes": 1305412,
+      "mtime_ms": 1792378057818.7063
+    },
+    "assets/new-character-variants/manifest-v1.json": {
+      "sha256": "030f95e6bd32a80108c633a6bd51f6ae64a80380e950627c0180909a1d3a0133",
+      "bytes": 8474,
+      "mtime_ms": 1792378384887.5393
+    },
+    "assets/new-character-variants/maolang-v1.png": {
+      "sha256": "52ddf5092e88a768a7103eb0e4b2527efaf4ce5c8dfd6b086aa17540278b8ce6",
+      "bytes": 2091587,
+      "mtime_ms": 1792378008042.916
+    },
+    "assets/new-character-variants/maolang-v2.png": {
+      "sha256": "d554134d8bf022572c0c26b9d0db80bbf59ec227c3b5aab4ce61089ba2133a1c",
+      "bytes": 2038141,
+      "mtime_ms": 1792379441643.0002
+    },
+    "assets/new-character-variants/shijiang-v1.png": {
+      "sha256": "e7129efb6a41002a32a5092c51ef11f6d2357ff37b5e0641ea6327b143c399bc",
+      "bytes": 1958472,
+      "mtime_ms": 1792378099564.753
+    },
+    "assets/new-character-variants/shijiang-v2.png": {
+      "sha256": "569dcc1e72d70d63f6c3d72d812ea9047a9ff18c76e8c0a0e87e4dd519dcf419",
+      "bytes": 1866836,
+      "mtime_ms": 1792379481586.8394
+    },
+    "assets/new-character-variants/shijiang-v3.png": {
+      "sha256": "a8e1bceb9dad767e2ec11c94f3977a9b8337a2abcbd6b47c4f6996e72e004b1c",
+      "bytes": 1825205,
+      "mtime_ms": 1792379713823.7983
+    },
+    "assets/new-characters-manifest.json": {
+      "sha256": "68c5ecd046214c8393911b86485bff0aaa26c4449d5503e058504d5fa2053be3",
+      "bytes": 9755,
+      "mtime_ms": 1792379895244.85
+    },
+    "assets/references/huangqiuqiu-reference.jpg": {
+      "sha256": "3762f93aadaac1244c0d403471e96b1ff5f4a42e1688746a4c756d6c4cb6c574",
+      "bytes": 51048,
+      "mtime_ms": 1792373693018.1055
+    },
+    "engine.js": {
+      "sha256": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+      "bytes": 9734,
+      "mtime_ms": 1792377414393.8325
+    },
+    "game.js": {
+      "sha256": "0e3cfb81ae7630e05a4ab02c8473f374b2ce8ca7927d911a1a07c958313dc1e6",
+      "bytes": 44605,
+      "mtime_ms": 1792459809536.1167
+    },
+    "index.html": {
+      "sha256": "376290050b9b95f64c7c55f3e8fa0180a78bb7368887132855d47e49ac132488",
+      "bytes": 6888,
+      "mtime_ms": 1792144767088.0833
+    },
+    "qa/art-backgrounds-baseline.json": {
+      "sha256": "8d1a65aeee2dd68e24a10f55992e42a333520ef3e0e9505f5a08f71c25530a15",
+      "bytes": 1653,
+      "mtime_ms": 1792377935518.2168
+    },
+    "qa/art-backgrounds-details-original.png": {
+      "sha256": "50b22465e186ed460b241090cfca1fa0c08ba503c5b58fe2c2bb4214ee9d5279",
+      "bytes": 415833,
+      "mtime_ms": 1792377935598.3494
+    },
+    "qa/art-backgrounds-layout-measurements.json": {
+      "sha256": "4be8c37103b467182964af96697a1962f5d2fed4ac3cd2d7699a88805ea5443f",
+      "bytes": 32169,
+      "mtime_ms": 1792392860648.1565
+    },
+    "qa/art-backgrounds-layout-snapshot.json": {
+      "sha256": "32d7d24d4479e678140df28889f24d4b1d3732d2ad866160b58e6c4e14c7c386",
+      "bytes": 385,
+      "mtime_ms": 1792378146729.837
+    },
+    "qa/art-backgrounds-lobby-desktop-static.png": {
+      "sha256": "81baa3ca5daffae35bb79c4930aef0471c955c4f6acf9b7a86374178306e1410",
+      "bytes": 967625,
+      "mtime_ms": 1792392853473.0999
+    },
+    "qa/art-backgrounds-lobby-mobile-compact-long-static.png": {
+      "sha256": "dd7caf21e76e2b6bc90466ed814febf2f48ad72c4cf6be3cf43cbbb16e1b6a41",
+      "bytes": 288994,
+      "mtime_ms": 1792392854270.6348
+    },
+    "qa/art-backgrounds-lobby-mobile-current-static.png": {
+      "sha256": "b2391d904913cdbad435bc7505e536923426fb5da10ca28529bc2bb99fa9a4ea",
+      "bytes": 353051,
+      "mtime_ms": 1792392853761.6711
+    },
+    "qa/art-backgrounds-lobby-mobile-suggested-static.png": {
+      "sha256": "0d6eca6e1b91abe9d045bb44883c75234b5e8100d3945782a3af0eb257bd4835",
+      "bytes": 369261,
+      "mtime_ms": 1792392854019.4802
+    },
+    "qa/art-backgrounds-lobby-review.png": {
+      "sha256": "d4aca6ec3239e3f65c9240ab0780efb2a386bc4a817a387ecda470db96d2f202",
+      "bytes": 1257142,
+      "mtime_ms": 1792392950137.7222
+    },
+    "qa/art-backgrounds-noodles-desktop-static.png": {
+      "sha256": "21413af08f6e84c1f4622eba5cb3cb2db1fcc7c551514b4642c96c0c76386e9d",
+      "bytes": 1097589,
+      "mtime_ms": 1792392855874.7637
+    },
+    "qa/art-backgrounds-noodles-mobile-compact-long-static.png": {
+      "sha256": "701d0701f7259a5fceb154f3b2af9eeaf8007e9254009e1d4672df2c03b375d0",
+      "bytes": 296788,
+      "mtime_ms": 1792392856760.6353
+    },
+    "qa/art-backgrounds-noodles-mobile-current-static.png": {
+      "sha256": "7472c42282213cdbe8148efa644c56d60e8b1579350b038c9f07b67f8239a41b",
+      "bytes": 402084,
+      "mtime_ms": 1792392856164.193
+    },
+    "qa/art-backgrounds-noodles-mobile-suggested-static.png": {
+      "sha256": "decf28cc70d4d63b9c42fadf711c8e9404493f9fdb538d8870df47521a84a129",
+      "bytes": 389086,
+      "mtime_ms": 1792392856475.4304
+    },
+    "qa/art-backgrounds-noodles-review.png": {
+      "sha256": "6c51c93b0049f970a544813e4093611bda5ba88208bc42fbefe6f8e5cb07eae7",
+      "bytes": 1419982,
+      "mtime_ms": 1792392950302.3076
+    },
+    "qa/art-backgrounds-overview.png": {
+      "sha256": "2262ea99d647b1505d5424708b5ff867aa75ad6659dea84b5b7196bf3280e053",
+      "bytes": 2427519,
+      "mtime_ms": 1792392950934.7366
+    },
+    "qa/art-backgrounds-preview.html": {
+      "sha256": "8731855273efba2279ac7906854aa73c5ac1be710756170ae6d8072ecc32047d",
+      "bytes": 36891,
+      "mtime_ms": 1792378146728.7686
+    },
+    "qa/art-backgrounds-r2-composite-record.json": {
+      "sha256": "6adb538cc8e88f274a7530543f234620a9ae2a3d81f93237340cce6e25b44db5",
+      "bytes": 4766,
+      "mtime_ms": 1792393419075.1133
+    },
+    "qa/art-backgrounds-r2-huangqiuqiu-repair-1280x720-alpha.png": {
+      "sha256": "aaf75667f54c9c4e5845319a5ae5c4918ed48af05fe2c84606062a8f9025c5f5",
+      "bytes": 1198360,
+      "mtime_ms": 1792393418225.9124
+    },
+    "qa/art-backgrounds-r2-huangqiuqiu-repair-390x844-alpha.png": {
+      "sha256": "b67c042d387009e03fbb8aa67576b97f3d4ce46c6229e3cefb5159a1d6add17f",
+      "bytes": 455934,
+      "mtime_ms": 1792393418387.8752
+    },
+    "qa/art-backgrounds-r2-huangqiuqiu-review.png": {
+      "sha256": "325bc640554814bdad3cfe506e573308b2591a464b0e7086f23b442eb22e7230",
+      "bytes": 1475096,
+      "mtime_ms": 1792393418553.7761
+    },
+    "qa/art-backgrounds-r2-huangqiuqiu-room-1280x720-alpha.png": {
+      "sha256": "d16a86e13d28fdbba5d53e58cda1f6ee6f9eb93b05e8b3d16801dded8ce3a5a0",
+      "bytes": 877110,
+      "mtime_ms": 1792393418326.6973
+    },
+    "qa/art-backgrounds-r2-huangqiuqiu-room-390x844-alpha.png": {
+      "sha256": "260e416375e1e71ae295b24ce672a8f35a44140bc05ccb46a26df807dc85752f",
+      "bytes": 299136,
+      "mtime_ms": 1792393418454.5962
+    },
+    "qa/art-backgrounds-r2-maolang-repair-1280x720-alpha.png": {
+      "sha256": "4f4c30186e187d6d32bd7c211a04f40c8ee6b2b74c5f0be5ee809a189dee684e",
+      "bytes": 1223992,
+      "mtime_ms": 1792393418651.9949
+    },
+    "qa/art-backgrounds-r2-maolang-review.png": {
+      "sha256": "3be3271119446c02c4a0c74dff09d683296a1d70cf7d5471b629efa4e1d0b677",
+      "bytes": 692631,
+      "mtime_ms": 1792393418813.2583
+    },
+    "qa/art-backgrounds-r2-maolang-room-1280x720-alpha.png": {
+      "sha256": "73f6af92e50103798c31940e23a6f3ae3c4cea09239c08c1b782e58faa9c20cb",
+      "bytes": 918845,
+      "mtime_ms": 1792393418756.581
+    },
+    "qa/art-backgrounds-r2-shijiang-repair-1280x720-alpha.png": {
+      "sha256": "995ec6d6157965e90746d1af876cbcc6e756bed75bd142a2a63fa484ac8ca736",
+      "bytes": 1208414,
+      "mtime_ms": 1792393418912.2393
+    },
+    "qa/art-backgrounds-r2-shijiang-review.png": {
+      "sha256": "8149fb576e4053223dbd3cfbec0664749c820897d81defbc5a80eee67ff8779c",
+      "bytes": 682969,
+      "mtime_ms": 1792393419074.7646
+    },
+    "qa/art-backgrounds-r2-shijiang-room-1280x720-alpha.png": {
+      "sha256": "ebf914261358cdc35c40232d0d1c3c5b405a40b8f6a1e233f3297b05bdef59cf",
+      "bytes": 898911,
+      "mtime_ms": 1792393419017.2803
+    },
+    "qa/art-backgrounds-repair-desktop-static.png": {
+      "sha256": "860e1cc7d4ec1862556be3fba0ce90ab384f40de712b872b5ee4741facd7b6a3",
+      "bytes": 1107665,
+      "mtime_ms": 1792392852344.4565
+    },
+    "qa/art-backgrounds-repair-mobile-compact-long-static.png": {
+      "sha256": "80355e4d421865030a2fca46df676a39835a8ae8d25cb9f7dcba72523dfd666a",
+      "bytes": 310929,
+      "mtime_ms": 1792392853121.39
+    },
+    "qa/art-backgrounds-repair-mobile-current-static.png": {
+      "sha256": "be7880bbdc917a50f88426174a630980d9051107a1251bdfdffaff5e85430cd2",
+      "bytes": 400376,
+      "mtime_ms": 1792392852601.2927
+    },
+    "qa/art-backgrounds-repair-mobile-suggested-static.png": {
+      "sha256": "aa290b82343af58ee8cc021c5b05d9b30194d78b359e8813111c1c968b264a10",
+      "bytes": 417773,
+      "mtime_ms": 1792392852852.636
+    },
+    "qa/art-backgrounds-repair-review.png": {
+      "sha256": "3d6e77eeb2c86cf002f44364598c4ab3f322d676e4b0e5228b4ca4851c5cdfbb",
+      "bytes": 1463070,
+      "mtime_ms": 1792392950056.9172
+    },
+    "qa/art-backgrounds-repair-yellow-probe-desktop-static.png": {
+      "sha256": "bb94973d5876bb3d902ac9abebdf9cae9c34bfaf013f4db4b340ea14d846f77d",
+      "bytes": 1003181,
+      "mtime_ms": 1792392858941.3535
+    },
+    "qa/art-backgrounds-repair-yellow-probe-mobile-static.png": {
+      "sha256": "9f803089e05f5f55e29a5a19ec525b95d13e5365fdd98a43f26d47e21fb106c1",
+      "bytes": 382339,
+      "mtime_ms": 1792392859203.6475
+    },
+    "qa/art-backgrounds-report.md": {
+      "sha256": "58bd49ad906d446a8d98f304536f8dff7b5ad27c7655529108c13e9bc6e23d2a",
+      "bytes": 10550,
+      "mtime_ms": 1792393575841.519
+    },
+    "qa/art-backgrounds-room-desktop-static.png": {
+      "sha256": "939863b730d61f04cd632ec1e94452354e9fa029bcd4c90c71dcbba0f54d0ed2",
+      "bytes": 864215,
+      "mtime_ms": 1792392854627.3872
+    },
+    "qa/art-backgrounds-room-mobile-compact-long-static.png": {
+      "sha256": "e190b35335a751b57240b9a530c22244e37df098b0dbb3242a6c3591c12a6cb9",
+      "bytes": 257129,
+      "mtime_ms": 1792392855507.9219
+    },
+    "qa/art-backgrounds-room-mobile-current-static.png": {
+      "sha256": "add9b0d6267b2ee695a3a1f8e943a836a95b02f90032efb0b0ce15d6d3f53672",
+      "bytes": 339425,
+      "mtime_ms": 1792392854934.1177
+    },
+    "qa/art-backgrounds-room-mobile-suggested-static.png": {
+      "sha256": "09edf8265e81790e21e5e016e7b605389a3dfc37cb589b249d09cda85713da5c",
+      "bytes": 326152,
+      "mtime_ms": 1792392855234.3145
+    },
+    "qa/art-backgrounds-room-review.png": {
+      "sha256": "ed31eff2fd7f93124619abd76fb7572b4330c7406027387df00326bfa81ebaef",
+      "bytes": 1129844,
+      "mtime_ms": 1792392950221.9683
+    },
+    "qa/art-backgrounds-room-small-320-static.png": {
+      "sha256": "67def70e0419025cbcba3e923154f0c67fa1bb85b878fd452c86cf650e43c535",
+      "bytes": 204527,
+      "mtime_ms": 1792392860643.2014
+    },
+    "qa/art-backgrounds-room-yellow-probe-desktop-static.png": {
+      "sha256": "04660330a4ad142c446c5babbae6a4e4db02e65a2531e8a4320d492a80620fad",
+      "bytes": 780470,
+      "mtime_ms": 1792392859767.6853
+    },
+    "qa/art-backgrounds-room-yellow-probe-mobile-static.png": {
+      "sha256": "07ae45c2401af048fd6c924a7b9802a1a10809a7994c26eadf7d9a359ce168be",
+      "bytes": 277977,
+      "mtime_ms": 1792392860069.1973
+    },
+    "qa/art-backgrounds-salon-desktop-static.png": {
+      "sha256": "7ac6cbe6665291ba470c72a8b5d6ffd3c939132b43e6a43a455aaa2c191f5214",
+      "bytes": 1126163,
+      "mtime_ms": 1792392857102.5503
+    },
+    "qa/art-backgrounds-salon-mobile-compact-long-static.png": {
+      "sha256": "a5319b1e9e289345ea2ed17645b3502bfc265a4c484802e4baafe7d2825daa6f",
+      "bytes": 314263,
+      "mtime_ms": 1792392857986.6099
+    },
+    "qa/art-backgrounds-salon-mobile-current-static.png": {
+      "sha256": "ac2a7bdcb9a2230e007bd2f15df393926eb78b18970e13b667b8c1a33ad17f3b",
+      "bytes": 407941,
+      "mtime_ms": 1792392857399.7888
+    },
+    "qa/art-backgrounds-salon-mobile-suggested-static.png": {
+      "sha256": "e771f7a9e8eba2525f7f5d5298d0d9ee92be7da5581ab403e1baae8cfee27019",
+      "bytes": 424894,
+      "mtime_ms": 1792392857702.4077
+    },
+    "qa/art-backgrounds-salon-review.png": {
+      "sha256": "c92e7ef1b86f7bda5ef16ec75e1023c61d5fdf1ede64a90732c717e814d7785a",
+      "bytes": 1455923,
+      "mtime_ms": 1792392950382.8262
+    },
+    "qa/art-backgrounds-special-cases.png": {
+      "sha256": "688abd766c56ec218c7fffd4cc6780e760f2932a6dc79f86efd2d85e0f60afb0",
+      "bytes": 1873319,
+      "mtime_ms": 1792393025057.4126
+    },
+    "qa/art-backgrounds-street-desktop-static.png": {
+      "sha256": "75977a4e378968d8474432b39647330fe56413bc8f48628db81a3421f7da027a",
+      "bytes": 1163535,
+      "mtime_ms": 1792392851119.6094
+    },
+    "qa/art-backgrounds-street-five-choices-compact-static.png": {
+      "sha256": "1d60ec9f2f74487777ecb067aff6878a662ea6c8c2f2193d11d656c669421f4e",
+      "bytes": 360187,
+      "mtime_ms": 1792392860363.5554
+    },
+    "qa/art-backgrounds-street-mobile-compact-long-static.png": {
+      "sha256": "0b52372531ef3d61c2f81236c3ae905566eec558d0b7fb3ff251a60dbc6e9c8a",
+      "bytes": 313079,
+      "mtime_ms": 1792392852026.4226
+    },
+    "qa/art-backgrounds-street-mobile-current-static.png": {
+      "sha256": "aa3d00da8628608a2153d020f0a09e931b5936eb152483fd5e691c48ae7d9f8b",
+      "bytes": 426062,
+      "mtime_ms": 1792392851460.046
+    },
+    "qa/art-backgrounds-street-mobile-suggested-static.png": {
+      "sha256": "08a05a61ff365c0d05ddda688577270961a259fd96cd8d4a2f33349488b52a42",
+      "bytes": 417872,
+      "mtime_ms": 1792392851745.6345
+    },
+    "qa/art-backgrounds-street-review.png": {
+      "sha256": "d2b9c2e50673c76d859334c0c8acc9257cb5d5191779167e9ad81ab1020c3c46",
+      "bytes": 1491972,
+      "mtime_ms": 1792392949974.131
+    },
+    "qa/art-backgrounds-street-title-desktop-static.png": {
+      "sha256": "d766fd00ae03479512d82d11b49af23951078c8038fa7b0a2aec478bbc9be1ba",
+      "bytes": 1227348,
+      "mtime_ms": 1792392858376.0132
+    },
+    "qa/art-backgrounds-street-title-mobile-static.png": {
+      "sha256": "3908389a12a10ec0880de2840d9d752efdbfd0201feae9c3f9d2a8a5f2445404",
+      "bytes": 387119,
+      "mtime_ms": 1792392858632.3813
+    },
+    "qa/art-backgrounds-verification.json": {
+      "sha256": "6a794349674ba246a89527296c74291e256c35b5b26c4a496546e52f7b45a53c",
+      "bytes": 2219,
+      "mtime_ms": 1792393575911.916
+    },
+    "qa/art-characters-avatar-crops.png": {
+      "sha256": "e0a54d11c28c530f9454a4a9ff645c557ad3ddc5b2f60e07f01486655d7b8320",
+      "bytes": 566915,
+      "mtime_ms": 1792377386148.1885
+    },
+    "qa/art-characters-avatar-recommendations.json": {
+      "sha256": "46cb7fc14f7a2984e7921d62639e4edce147179b59d755bba99b394e47b93629",
+      "bytes": 1249,
+      "mtime_ms": 1792377674489.3828
+    },
+    "qa/art-characters-background-reference.png": {
+      "sha256": "0738a93a3b141aa4ee8e36f57ae370dbe82392f1d5058f1659bf72701c7991c8",
+      "bytes": 2101846,
+      "mtime_ms": 1792377185746.6072
+    },
+    "qa/art-characters-baseline-audit.json": {
+      "sha256": "dffff375a6a44107e1ae7293f29cc089a0a4c72c4a7dcc893390772357f75713",
+      "bytes": 5178,
+      "mtime_ms": 1792377185747.1765
+    },
+    "qa/art-characters-composite-mengyao.png": {
+      "sha256": "1009a83101bf7d856c601e3006a3cbd30d165a3172486e6b6066d278e8768cde",
+      "bytes": 2758437,
+      "mtime_ms": 1792377385161.5732
+    },
+    "qa/art-characters-composite-wenwen.png": {
+      "sha256": "bf6b378dfdd045a89830d19b58217ea27b77fc3af25b07c8476fb2f09d32a6ee",
+      "bytes": 2732642,
+      "mtime_ms": 1792377384814.4377
+    },
+    "qa/art-characters-composite-xiaoman.png": {
+      "sha256": "edb758c9627ae419569afb89ee8b0e3f37c6a03726d23f92c6476ba227d89982",
+      "bytes": 2752957,
+      "mtime_ms": 1792377384931.7673
+    },
+    "qa/art-characters-composite-yelan.png": {
+      "sha256": "9556f06dfff461d6f7a58ebccbd7fd7a0edcd5863778fdd1636e1462b99ec9df",
+      "bytes": 2646037,
+      "mtime_ms": 1792377385279.509
+    },
+    "qa/art-characters-composite-zhouzhi.png": {
+      "sha256": "fd9c2eb9088987c7344bc286e1ac33e5fa4fb62ebc9ce06538e9a48c632f5e05",
+      "bytes": 2677672,
+      "mtime_ms": 1792377385047.7842
+    },
+    "qa/art-characters-details-mengyao.png": {
+      "sha256": "2f375f7486a8b9031dd1af86946f88cd38a94a0fb73fb7baef2f2d70c83be863",
+      "bytes": 1524713,
+      "mtime_ms": 1792377386079.996
+    },
+    "qa/art-characters-details-wenwen.png": {
+      "sha256": "bcf610c1aec586c4c0e2537910ce20a7ece4d9054cd9cc8492fb2ea3611b0201",
+      "bytes": 1392911,
+      "mtime_ms": 1792377385967.077
+    },
+    "qa/art-characters-details-xiaoman.png": {
+      "sha256": "ab6cf6cf2b99226527a0d8d989333797f395fe7cb6654f2337f0f56d3845cdd3",
+      "bytes": 952946,
+      "mtime_ms": 1792377385993.9683
+    },
+    "qa/art-characters-details-yelan.png": {
+      "sha256": "88ffd61c901b5b3b080ab7c246b6bcaacb1f24aab2eeaf15783e62dcc39ae343",
+      "bytes": 815178,
+      "mtime_ms": 1792377386110.6118
+    },
+    "qa/art-characters-details-zhouzhi.png": {
+      "sha256": "4b95ee2e4a86fd986306c082c94d628af36af1025d913ed4bc421b911b2cce6a",
+      "bytes": 1161907,
+      "mtime_ms": 1792377386037.4155
+    },
+    "qa/art-characters-expressions-v01-final-check.json": {
+      "sha256": "4176b0ba6c28731b01e904dd4904a0bf1436a1386d909e9eb2bb37103ff264e6",
+      "bytes": 29646,
+      "mtime_ms": 1792404636211.2532
+    },
+    "qa/art-characters-expressions-v01-gallery.html": {
+      "sha256": "7fac0e76026fcb8342f7db24adb05630c2227b6d3c9edd963f0046a93eb14582",
+      "bytes": 42933,
+      "mtime_ms": 1792404409215.7048
+    },
+    "qa/art-characters-expressions-v01-manifest.json": {
+      "sha256": "26b35346a23191dc10f6ea6af419d442d2b880647f64901202d809d9486c2779",
+      "bytes": 56353,
+      "mtime_ms": 1792404409215.5662
+    },
+    "qa/art-characters-expressions-v01-mengyao-faces.jpg": {
+      "sha256": "4491a57c3d8c4935c0066cbb0348e03c1bd2a46d22a8cfed5ea00c9a580bcc44",
+      "bytes": 154652,
+      "mtime_ms": 1792404406395.9058
+    },
+    "qa/art-characters-expressions-v01-mengyao-light-dark.jpg": {
+      "sha256": "93ee3a50a9052d48175b48252b66131659a7f82a1973c6a6cf0cfeb4903d9718",
+      "bytes": 198855,
+      "mtime_ms": 1792404406044.984
+    },
+    "qa/art-characters-expressions-v01-mengyao-scenes.jpg": {
+      "sha256": "52f1ca2ce777d9d82305f7b3f621690244de5b1547680e6fc98b4c34d5e0519c",
+      "bytes": 409710,
+      "mtime_ms": 1792404406276.9604
+    },
+    "qa/art-characters-expressions-v01-preservation.json": {
+      "sha256": "8ffba23980c7d93d57bac2ebd1598cc02f176d4f28a37c78872e7fa45d502f99",
+      "bytes": 2412,
+      "mtime_ms": 1792404019575.5
+    },
+    "qa/art-characters-expressions-v01-report.md": {
+      "sha256": "7f3d48804e86132217bb57cbd24ff53623bc5950b30d7a7b512cca442fec7fdf",
+      "bytes": 4367,
+      "mtime_ms": 1792404576045.8027
+    },
+    "qa/art-characters-expressions-v01-wenwen-faces.jpg": {
+      "sha256": "6026474d58a86385a439dcddfcea3f605e3d0b3fcbba04d04dfbc9084e9c5bb0",
+      "bytes": 280112,
+      "mtime_ms": 1792404404129.7742
+    },
+    "qa/art-characters-expressions-v01-wenwen-light-dark.jpg": {
+      "sha256": "e366438b0addf31565b4acf8d185149013fafc0cd0a6953f0f55fdf7cccbdd25",
+      "bytes": 412345,
+      "mtime_ms": 1792404403457.5862
+    },
+    "qa/art-characters-expressions-v01-wenwen-scenes.jpg": {
+      "sha256": "ab7ce6043fed0cbfc60d0bed51b4de2a0a70f09cef7df6ed7ebb1f943b20c0ae",
+      "bytes": 813161,
+      "mtime_ms": 1792404403885.4797
+    },
+    "qa/art-characters-expressions-v01-xiaoman-faces.jpg": {
+      "sha256": "e32f14bd0ba0469655b62b4086ec2ae680fe3c145e119a15bc1a88ac2346e9b8",
+      "bytes": 176230,
+      "mtime_ms": 1792404404925.3347
+    },
+    "qa/art-characters-expressions-v01-xiaoman-light-dark.jpg": {
+      "sha256": "cf2199c68a835ea9477dd17beec37180ee56e534451a09a06109dcca17f8b03c",
+      "bytes": 229434,
+      "mtime_ms": 1792404404570.5002
+    },
+    "qa/art-characters-expressions-v01-xiaoman-scenes.jpg": {
+      "sha256": "f292c956bcafaee3c5ce3494529acbbd5fc3aadd2708fa2f19ecc3fef3eccdd9",
+      "bytes": 417594,
+      "mtime_ms": 1792404404802.9004
+    },
+    "qa/art-characters-expressions-v01-yelan-faces.jpg": {
+      "sha256": "8ea4ab7574958f1434a24f1893dbeb6889d307c040f9c2238e3016830dcc2e86",
+      "bytes": 134688,
+      "mtime_ms": 1792404407085.9675
+    },
+    "qa/art-characters-expressions-v01-yelan-light-dark.jpg": {
+      "sha256": "a7ee94e3bc3ff19e4da0b9498a8366190a8f334b14a947b0777d392f7b6fdc8d",
+      "bytes": 184294,
+      "mtime_ms": 1792404406772.6345
+    },
+    "qa/art-characters-expressions-v01-yelan-scenes.jpg": {
+      "sha256": "cf7e2264d1989a810e8ddb2134995f1fbd2a7e89a6bfafb4eb77fac9ef5ee700",
+      "bytes": 396016,
+      "mtime_ms": 1792404406981.7056
+    },
+    "qa/art-characters-expressions-v01-zhouzhi-faces.jpg": {
+      "sha256": "659be020d9366e955e61d800147a9ed74624e61be2efb9f5e71350d0f6074f44",
+      "bytes": 166246,
+      "mtime_ms": 1792404405625.9368
+    },
+    "qa/art-characters-expressions-v01-zhouzhi-light-dark.jpg": {
+      "sha256": "cb811411a81c733de916f094ce92b9bb531c20da59500deab79cdc6ad4159501",
+      "bytes": 188158,
+      "mtime_ms": 1792404405306.6572
+    },
+    "qa/art-characters-expressions-v01-zhouzhi-scenes.jpg": {
+      "sha256": "162400e537033b642bb32dd72d1612dfdf284bab13e50c815daabbf1fd072f8f",
+      "bytes": 401554,
+      "mtime_ms": 1792404405518.5024
+    },
+    "qa/art-characters-mobile-composite.png": {
+      "sha256": "863aa9e6febdd8a561454a46e6cd8023b7dc43efd448aad85ff96089073ba1c6",
+      "bytes": 1885918,
+      "mtime_ms": 1792377386303.5889
+    },
+    "qa/art-characters-mobile-position-comparison.png": {
+      "sha256": "14315a072edbc6b3c84387225cd9dfcf69d7f352fe3355d4ee0fc6065a186bbf",
+      "bytes": 2274890,
+      "mtime_ms": 1792377500551.5308
+    },
+    "qa/art-characters-original-light-dark.png": {
+      "sha256": "413c9e87eebadaedb2d7136232136042bf0788b0e783bb7653d3f16b6386f871",
+      "bytes": 1766883,
+      "mtime_ms": 1792377185530.713
+    },
+    "qa/art-characters-report.md": {
+      "sha256": "d272298aa444093292dc89e4f7b4ef639187ee552d9b593386b304f3fa94e30f",
+      "bytes": 6667,
+      "mtime_ms": 1792377674489.4832
+    },
+    "qa/art-characters-six-backgrounds.png": {
+      "sha256": "322ad6e03c944b583d2314930b32df36d8b8044066a249de087e2d3001d4ed5b",
+      "bytes": 2618829,
+      "mtime_ms": 1792377385924.6018
+    },
+    "qa/art-characters-v2-mengyao-alpha.json": {
+      "sha256": "772da3c6dbb05f5f57c27d34257125a068c7cd5fe51881763c703f9a051e8782",
+      "bytes": 287,
+      "mtime_ms": 1792378073442.9502
+    },
+    "qa/art-characters-v2-mengyao-comparison.png": {
+      "sha256": "7ec78de8b0ec6464f1f853a5a09594f94b14497b93533cd0f4c23f701871a512",
+      "bytes": 992039,
+      "mtime_ms": 1792378073440.0293
+    },
+    "qa/art-characters-v2-yelan-alpha.json": {
+      "sha256": "9e3631a53a07f0acfd2bc3098edeb285375bf67f447a37b5e7542a7ff1d48663",
+      "bytes": 622,
+      "mtime_ms": 1792378181092.1704
+    },
+    "qa/art-characters-v2-yelan-face-compare.png": {
+      "sha256": "5adcbde88471f726878615e4632c4576aab4c6d27a89d0d203899a71c5f2097f",
+      "bytes": 1320579,
+      "mtime_ms": 1792378181091.711
+    },
+    "qa/art-characters-v2-zhouzhi-face-comparison.png": {
+      "sha256": "3fb76b8657fee1256e2dcba105d81df7f0aa3cd110e785dbd2b349cc4be074d4",
+      "bytes": 1430561,
+      "mtime_ms": 1792378050367.8152
+    },
+    "qa/art-characters-v2-zhouzhi-light-dark.png": {
+      "sha256": "789202e0f99b8bc6559dc80872966e4122476cbb7355cc50be4cab118b9d8df5",
+      "bytes": 476431,
+      "mtime_ms": 1792378068026.5383
+    },
+    "qa/art-new-characters-avatars.png": {
+      "sha256": "e37254a54b43d283936c9d4ab8eb048e813782c0b8788f04cf475d142ea06ba4",
+      "bytes": 48088,
+      "mtime_ms": 1792379900486.9841
+    },
+    "qa/art-new-characters-baseline.json": {
+      "sha256": "a18260e947ae72b127eab9afe6c0fbe36f3c601650171afec3d84eca5072dbff",
+      "bytes": 9994,
+      "mtime_ms": 1792377963522.1064
+    },
+    "qa/art-new-characters-capture.cjs": {
+      "sha256": "3ff3a6c902358908721981f9933892a98ee00af82f3e4b2bd2462892234e780f",
+      "bytes": 1705,
+      "mtime_ms": 1792379709770.431
+    },
+    "qa/art-new-characters-completion.json": {
+      "sha256": "3a70e040ccdd0c8b0d7c4c0922fefb29c3a3e9c77dc9de474f682153f185931e",
+      "bytes": 417,
+      "mtime_ms": 1792379987250.6997
+    },
+    "qa/art-new-characters-composite-huangqiuqiu.png": {
+      "sha256": "5ba971998c2994d0b29942872622efa19e154c310dadd2ead23caa7085202b1c",
+      "bytes": 894154,
+      "mtime_ms": 1792379900029.6973
+    },
+    "qa/art-new-characters-composite-maolang.png": {
+      "sha256": "305d20ace9d992b8eb9205e0c6b6f239240242a2c714967beceac1becbaa4d66",
+      "bytes": 979599,
+      "mtime_ms": 1792379899274.9094
+    },
+    "qa/art-new-characters-composite-shijiang.png": {
+      "sha256": "f248002d8a77b4b074a10eb1561da5a56a3a30c20c69e67d46edb01cb790528a",
+      "bytes": 969713,
+      "mtime_ms": 1792379899627.3098
+    },
+    "qa/art-new-characters-details-huangqiuqiu.png": {
+      "sha256": "531a7e3d15f93c3195d5854caabbd49473c3c499833d484b3b0b0389f41ee0ca",
+      "bytes": 444087,
+      "mtime_ms": 1792379900303.0325
+    },
+    "qa/art-new-characters-details-maolang.png": {
+      "sha256": "827fc09a92e5562f31cd53b7624ec7c0cb34e30b3bdf0b0a2cd22232c492fff9",
+      "bytes": 655889,
+      "mtime_ms": 1792379899475.7705
+    },
+    "qa/art-new-characters-details-shijiang.png": {
+      "sha256": "acd890848da81f8db58757af2cd5c703dd3eab56d622186a518dc200acf7956d",
+      "bytes": 597267,
+      "mtime_ms": 1792379899866.0952
+    },
+    "qa/art-new-characters-edges-huangqiuqiu.png": {
+      "sha256": "5cbd8488c64a2d45611935bd579b77c13642edac89389d0295acdf554f092c0b",
+      "bytes": 299603,
+      "mtime_ms": 1792379900148.4258
+    },
+    "qa/art-new-characters-edges-maolang.png": {
+      "sha256": "b497b26e5268e9bc3da6d830a54255d24dac293405f367650e12a616f23e5be9",
+      "bytes": 287992,
+      "mtime_ms": 1792379899358.0608
+    },
+    "qa/art-new-characters-edges-shijiang.png": {
+      "sha256": "8b2d8c2d1702ccad3342e38217130ef4ab27a8f3df789c45fad5378d21300fc3",
+      "bytes": 269222,
+      "mtime_ms": 1792379899723.3315
+    },
+    "qa/art-new-characters-expressions-v01-huangqiuqiu-faces.jpg": {
+      "sha256": "7e86965a60ba040540bbd268708092f80bde3c0cab9cbfacf64eb5784c1bfefd",
+      "bytes": 94194,
+      "mtime_ms": 1792404409214.8198
+    },
+    "qa/art-new-characters-expressions-v01-huangqiuqiu-light-dark.jpg": {
+      "sha256": "cc71f81709c66904df24ecfa39383d0c5d705f90d57f4d7aae8d3fcccf3189ee",
+      "bytes": 127933,
+      "mtime_ms": 1792404408910.2961
+    },
+    "qa/art-new-characters-expressions-v01-huangqiuqiu-scenes.jpg": {
+      "sha256": "297e6a3f0568e759ba194f88c6ae823dce7bbbfee7322006ea40d263daf5a377",
+      "bytes": 387749,
+      "mtime_ms": 1792404409104.574
+    },
+    "qa/art-new-characters-expressions-v01-maolang-faces.jpg": {
+      "sha256": "28ee4cb27274df2f81cf259b8a5a8badbc183913fb650cbd41b35cf41e49e0c5",
+      "bytes": 135958,
+      "mtime_ms": 1792404407834.5513
+    },
+    "qa/art-new-characters-expressions-v01-maolang-light-dark.jpg": {
+      "sha256": "706ad793ee630276b5bc8bc454378bee6951dcd13ba8ed41c0b7e4eba9519848",
+      "bytes": 191249,
+      "mtime_ms": 1792404407493.975
+    },
+    "qa/art-new-characters-expressions-v01-maolang-scenes.jpg": {
+      "sha256": "fb78fd03ae31649027da0ffa1293ef35229283a8fdb408677e8f61f4b5188deb",
+      "bytes": 402922,
+      "mtime_ms": 1792404407719.1694
+    },
+    "qa/art-new-characters-expressions-v01-shijiang-faces.jpg": {
+      "sha256": "4c5609eea15176a04ded6d01c04baab514353d896239a15b2a1f7effa3ecdcc6",
+      "bytes": 126415,
+      "mtime_ms": 1792404408577.2046
+    },
+    "qa/art-new-characters-expressions-v01-shijiang-light-dark.jpg": {
+      "sha256": "ba901e7e3142ab4ebfa27b06cfce6d3e3332bad40ff74750e5d52dc4b79d2efe",
+      "bytes": 181368,
+      "mtime_ms": 1792404408239.746
+    },
+    "qa/art-new-characters-expressions-v01-shijiang-scenes.jpg": {
+      "sha256": "e13ba98c58331321f31ad184e31453b3c0d0073bac2bcd1809c5f87cdc1a7fe5",
+      "bytes": 398634,
+      "mtime_ms": 1792404408463.2144
+    },
+    "qa/art-new-characters-preservation.json": {
+      "sha256": "67bb398af91351f274b4246f71a9a94c7f5397795f5a7d93c327f8b5c391c74e",
+      "bytes": 5600,
+      "mtime_ms": 1792378384906.1936
+    },
+    "qa/art-new-characters-preview.html": {
+      "sha256": "db71015583986fb3a63b3eac24ac2dedd0b9671bd6411f901457c1122652884b",
+      "bytes": 6315,
+      "mtime_ms": 1792379709769.5361
+    },
+    "qa/art-new-characters-preview.png": {
+      "sha256": "321e9c61b494483a6a8943d7b9229e508e1e70000ac8b829c030b4ec3f06fed1",
+      "bytes": 495299,
+      "mtime_ms": 1792379900409.856
+    },
+    "qa/art-new-characters-report.md": {
+      "sha256": "30e1c81de4bee157d7e46a4679185302d8f7ffd92edbd371e307ce8e1a7e61aa",
+      "bytes": 5763,
+      "mtime_ms": 1792379987250.3982
+    },
+    "qa/art-new-characters-v1-avatars.png": {
+      "sha256": "e37254a54b43d283936c9d4ab8eb048e813782c0b8788f04cf475d142ea06ba4",
+      "bytes": 48088,
+      "mtime_ms": 1792378237350.1235
+    },
+    "qa/art-new-characters-v1-composite-huangqiuqiu.png": {
+      "sha256": "5ba971998c2994d0b29942872622efa19e154c310dadd2ead23caa7085202b1c",
+      "bytes": 894154,
+      "mtime_ms": 1792378236902.4077
+    },
+    "qa/art-new-characters-v1-composite-maolang.png": {
+      "sha256": "edf28e02bc36052ede653582afe0db24eca91e165c47a86af1efa31d3da31d22",
+      "bytes": 972962,
+      "mtime_ms": 1792378236157.6365
+    },
+    "qa/art-new-characters-v1-composite-shijiang.png": {
+      "sha256": "d7d7ae0989ee8f0ffb49d692560041af3df6cb02838d0da7bac7aca0d2d02784",
+      "bytes": 967510,
+      "mtime_ms": 1792378236526.154
+    },
+    "qa/art-new-characters-v1-details-huangqiuqiu.png": {
+      "sha256": "531a7e3d15f93c3195d5854caabbd49473c3c499833d484b3b0b0389f41ee0ca",
+      "bytes": 444087,
+      "mtime_ms": 1792378237159.3528
+    },
+    "qa/art-new-characters-v1-details-maolang.png": {
+      "sha256": "cfa75eed32ececf83df6d3e47950892e58513f9d63143a9cedef9a492d99fb5e",
+      "bytes": 659279,
+      "mtime_ms": 1792378236373.7178
+    },
+    "qa/art-new-characters-v1-details-shijiang.png": {
+      "sha256": "66df7a11953591ae895f7a9d1d34065d67184ee3c57411360c037bc5bf16a462",
+      "bytes": 626569,
+      "mtime_ms": 1792378236752.8484
+    },
+    "qa/art-new-characters-v1-edges-huangqiuqiu.png": {
+      "sha256": "5cbd8488c64a2d45611935bd579b77c13642edac89389d0295acdf554f092c0b",
+      "bytes": 299603,
+      "mtime_ms": 1792378237011.2122
+    },
+    "qa/art-new-characters-v1-edges-maolang.png": {
+      "sha256": "347ee929dc64cc7e478ed73827c1ec0dddf62d10ae37303eaa03d2b022cb26ec",
+      "bytes": 283004,
+      "mtime_ms": 1792378236240.7402
+    },
+    "qa/art-new-characters-v1-edges-shijiang.png": {
+      "sha256": "53971c81ebf5676c59250844313bbfaa28e4d3fad15a72747656082bfb239ccd",
+      "bytes": 269250,
+      "mtime_ms": 1792378236618.6611
+    },
+    "qa/art-new-characters-v1-measurements.json": {
+      "sha256": "2c7244b65aa7f30276a702ada178756ee5b1195278c38e9c5e26b0b7dce2ec12",
+      "bytes": 2670,
+      "mtime_ms": 1792378121373.257
+    },
+    "qa/art-new-characters-v1-preview.png": {
+      "sha256": "0bb06d5966bfd37d89c4f1a480c678055142fee969713b6a55d3d0816a433aa4",
+      "bytes": 490437,
+      "mtime_ms": 1792378237278.2988
+    },
+    "qa/art-new-characters-v1-report.md": {
+      "sha256": "b1cd643067eefaaa882ce61ec17f2a049abfbb8ef160a38b02c868320dbaae12",
+      "bytes": 6850,
+      "mtime_ms": 1792378492174.5146
+    },
+    "qa/art-new-characters-v2-avatars.png": {
+      "sha256": "e37254a54b43d283936c9d4ab8eb048e813782c0b8788f04cf475d142ea06ba4",
+      "bytes": 48088,
+      "mtime_ms": 1792379517687.8027
+    },
+    "qa/art-new-characters-v2-baseline.json": {
+      "sha256": "95f66fbadbc2e9e4fcb2f26250c0477b4ae02f24a67ce29440169335151cd0ff",
+      "bytes": 24553,
+      "mtime_ms": 1792379329153.6453
+    },
+    "qa/art-new-characters-v2-composite-huangqiuqiu.png": {
+      "sha256": "5ba971998c2994d0b29942872622efa19e154c310dadd2ead23caa7085202b1c",
+      "bytes": 894154,
+      "mtime_ms": 1792379517234.4246
+    },
+    "qa/art-new-characters-v2-composite-maolang.png": {
+      "sha256": "305d20ace9d992b8eb9205e0c6b6f239240242a2c714967beceac1becbaa4d66",
+      "bytes": 979599,
+      "mtime_ms": 1792379516510.8662
+    },
+    "qa/art-new-characters-v2-composite-shijiang.png": {
+      "sha256": "e85e6d73fbbfdca89dcc64cd83c0ad93b67efc195502d6ac2d7b3ecc3b271094",
+      "bytes": 968833,
+      "mtime_ms": 1792379516863.541
+    },
+    "qa/art-new-characters-v2-details-huangqiuqiu.png": {
+      "sha256": "531a7e3d15f93c3195d5854caabbd49473c3c499833d484b3b0b0389f41ee0ca",
+      "bytes": 444087,
+      "mtime_ms": 1792379517498.047
+    },
+    "qa/art-new-characters-v2-details-maolang.png": {
+      "sha256": "827fc09a92e5562f31cd53b7624ec7c0cb34e30b3bdf0b0a2cd22232c492fff9",
+      "bytes": 655889,
+      "mtime_ms": 1792379516710.283
+    },
+    "qa/art-new-characters-v2-details-shijiang.png": {
+      "sha256": "d4a8640d0fb28d7eadab4b1a1063e1aebc3d4fd19dc1fac9e4928cc284137c20",
+      "bytes": 603777,
+      "mtime_ms": 1792379517093.1826
+    },
+    "qa/art-new-characters-v2-edges-huangqiuqiu.png": {
+      "sha256": "5cbd8488c64a2d45611935bd579b77c13642edac89389d0295acdf554f092c0b",
+      "bytes": 299603,
+      "mtime_ms": 1792379517350.3545
+    },
+    "qa/art-new-characters-v2-edges-maolang.png": {
+      "sha256": "b497b26e5268e9bc3da6d830a54255d24dac293405f367650e12a616f23e5be9",
+      "bytes": 287992,
+      "mtime_ms": 1792379516589.7043
+    },
+    "qa/art-new-characters-v2-edges-shijiang.png": {
+      "sha256": "ca76f9102611deb00a0a68d6436882e0a863fd755cd4130b562d9314f2cf0fdb",
+      "bytes": 269303,
+      "mtime_ms": 1792379516960.0083
+    },
+    "qa/art-new-characters-v2-face-comparison.html": {
+      "sha256": "1080584e2eff74d8dfea08afc1bdaa9b315d46fd23545f9aab8d59d0bd887ee1",
+      "bytes": 2091,
+      "mtime_ms": 1792379392801.0657
+    },
+    "qa/art-new-characters-v2-face-comparison.png": {
+      "sha256": "a43fd3369521ef35a06b3b6a76d3cf560218768f9c9c30d31c5d1abfee49bb3c",
+      "bytes": 536154,
+      "mtime_ms": 1792379517891.2598
+    },
+    "qa/art-new-characters-v2-generation-record.json": {
+      "sha256": "e0b5a528cb8c959a6fb64fe7aa30a698dfd10711e7a614ea54a8d6d37f74c71c",
+      "bytes": 7135,
+      "mtime_ms": 1792379895244.5837
+    },
+    "qa/art-new-characters-v2-measurements.json": {
+      "sha256": "42ed3e4864c450e1dbef0056dea8ea6c94e83e34e066928f89ce3653fa0bc5c1",
+      "bytes": 1271,
+      "mtime_ms": 1792379510863.39
+    },
+    "qa/art-new-characters-v2-preservation.json": {
+      "sha256": "8ea2fe143cbac0d21a452c56fbd8a3a85da3caa648f22ce25a601d4a98571fdc",
+      "bytes": 7169,
+      "mtime_ms": 1792379987241.0469
+    },
+    "qa/art-new-characters-v2-preview.png": {
+      "sha256": "ade8526195e552fff3930532aa18d01aba1db807390c7cdbc6db9d1e899fb6f2",
+      "bytes": 495002,
+      "mtime_ms": 1792379517617.0293
+    },
+    "qa/art-new-characters-v3-avatars.png": {
+      "sha256": "e37254a54b43d283936c9d4ab8eb048e813782c0b8788f04cf475d142ea06ba4",
+      "bytes": 48088,
+      "mtime_ms": 1792379778582.8865
+    },
+    "qa/art-new-characters-v3-composite-huangqiuqiu.png": {
+      "sha256": "5ba971998c2994d0b29942872622efa19e154c310dadd2ead23caa7085202b1c",
+      "bytes": 894154,
+      "mtime_ms": 1792379778131.2112
+    },
+    "qa/art-new-characters-v3-composite-maolang.png": {
+      "sha256": "305d20ace9d992b8eb9205e0c6b6f239240242a2c714967beceac1becbaa4d66",
+      "bytes": 979599,
+      "mtime_ms": 1792379777405.7915
+    },
+    "qa/art-new-characters-v3-composite-shijiang.png": {
+      "sha256": "f248002d8a77b4b074a10eb1561da5a56a3a30c20c69e67d46edb01cb790528a",
+      "bytes": 969713,
+      "mtime_ms": 1792379777760.137
+    },
+    "qa/art-new-characters-v3-details-huangqiuqiu.png": {
+      "sha256": "531a7e3d15f93c3195d5854caabbd49473c3c499833d484b3b0b0389f41ee0ca",
+      "bytes": 444087,
+      "mtime_ms": 1792379778391.2346
+    },
+    "qa/art-new-characters-v3-details-maolang.png": {
+      "sha256": "827fc09a92e5562f31cd53b7624ec7c0cb34e30b3bdf0b0a2cd22232c492fff9",
+      "bytes": 655889,
+      "mtime_ms": 1792379777605.9038
+    },
+    "qa/art-new-characters-v3-details-shijiang.png": {
+      "sha256": "acd890848da81f8db58757af2cd5c703dd3eab56d622186a518dc200acf7956d",
+      "bytes": 597267,
+      "mtime_ms": 1792379777984.569
+    },
+    "qa/art-new-characters-v3-edges-huangqiuqiu.png": {
+      "sha256": "5cbd8488c64a2d45611935bd579b77c13642edac89389d0295acdf554f092c0b",
+      "bytes": 299603,
+      "mtime_ms": 1792379778243.2622
+    },
+    "qa/art-new-characters-v3-edges-maolang.png": {
+      "sha256": "b497b26e5268e9bc3da6d830a54255d24dac293405f367650e12a616f23e5be9",
+      "bytes": 287992,
+      "mtime_ms": 1792379777483.3943
+    },
+    "qa/art-new-characters-v3-edges-shijiang.png": {
+      "sha256": "8b2d8c2d1702ccad3342e38217130ef4ab27a8f3df789c45fad5378d21300fc3",
+      "bytes": 269222,
+      "mtime_ms": 1792379777853.285
+    },
+    "qa/art-new-characters-v3-face-comparison.html": {
+      "sha256": "76fe7dc144651720db8abfaf8f937bd908cad665f4850eac23827c5dbb5ef22c",
+      "bytes": 2111,
+      "mtime_ms": 1792379709770.2036
+    },
+    "qa/art-new-characters-v3-face-comparison.png": {
+      "sha256": "47ec12370ae6f0511dd738ac441932f42188a1df355d871d4ca3a2d74ff65900",
+      "bytes": 535616,
+      "mtime_ms": 1792379778786.592
+    },
+    "qa/art-new-characters-v3-generation-record.json": {
+      "sha256": "389f366ea4245d94246e50f246642df55830f8c463b30047cb5c6c19bf0eb874",
+      "bytes": 3290,
+      "mtime_ms": 1792379895244.6892
+    },
+    "qa/art-new-characters-v3-measurements.json": {
+      "sha256": "327c06d272662e42554f42e39ddd29f3df708bb233843af7398bc5388d26579a",
+      "bytes": 584,
+      "mtime_ms": 1792379772763.4512
+    },
+    "qa/art-new-characters-v3-preview.png": {
+      "sha256": "321e9c61b494483a6a8943d7b9229e508e1e70000ac8b829c030b4ec3f06fed1",
+      "bytes": 495299,
+      "mtime_ms": 1792379778510.8765
+    },
+    "qa/cg-m1-art-review.html": {
+      "sha256": "b40e8ca74613f3e75db516edd8a0934abea03536b566c3341accdb84fea08c11",
+      "bytes": 3343,
+      "mtime_ms": 1792459208021.7258
+    },
+    "qa/cg-m2-CG02-static-375x667.png": {
+      "sha256": "60681fede2e050fea7027d7d22e193767eb1bd2a24857f4aa492096de43ba4ac",
+      "bytes": 40651,
+      "mtime_ms": 1792459433388.0596
+    },
+    "qa/cg-m2-art-review.html": {
+      "sha256": "fae12f4bb44064dca61934eed722f209a4018eadc9c94317e37d1a194f1d8aaa",
+      "bytes": 4067,
+      "mtime_ms": 1792459208022.602
+    },
+    "qa/cg-m3-CG08-static-375x667.png": {
+      "sha256": "a02e4bd3f9b267798eca017c0c88c7f269b2fdb9ab8e85dae5466ef0559e9cc1",
+      "bytes": 32894,
+      "mtime_ms": 1792459587169.0417
+    },
+    "qa/cg-m3-art-review.html": {
+      "sha256": "53d2cdfb47498204987619de0a25a05a28f86077084b20d899ecd4c120e43c15",
+      "bytes": 3154,
+      "mtime_ms": 1792459208022.6912
+    },
+    "qa/engine-test.cjs": {
+      "sha256": "28105d317ccffe43ce0dd091ccf0072f0b5c0e028015fa7898c80ce6671269bc",
+      "bytes": 28353,
+      "mtime_ms": 1792377458716.7334
+    },
+    "qa/progress-20261020-tests.txt": {
+      "sha256": "874b744a784fa357ef157de6ce3e5fb3da147e83a7fe124730b2fd943b6883c9",
+      "bytes": 4508,
+      "mtime_ms": 1792459458889.111
+    },
+    "qa/progress-20261020.md": {
+      "sha256": "3c50524ace9c85ccd014d56450571d90fd0dca808064d5846b53194ff68f89f3",
+      "bytes": 7775,
+      "mtime_ms": 1792459458892.0315
+    },
+    "qa/story-test.cjs": {
+      "sha256": "3fc429ca690c7c34e2f8c1f67f77b1cbf8e5a1afcb75cbc1006e71372cb170e1",
+      "bytes": 29514,
+      "mtime_ms": 1792377404762.236
+    },
+    "qa/ui-baseline.json": {
+      "sha256": "8762b973342f026af2aaa5f59f146cb5e4e9b37e62edde89f093e97bacecc292",
+      "bytes": 3480,
+      "mtime_ms": 1792459736659.1023
+    },
+    "story.js": {
+      "sha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+      "bytes": 126840,
+      "mtime_ms": 1792402096143.8423
+    },
+    "styles.css": {
+      "sha256": "805fc2525186292f469c816cebcb95da09dfb876feecb0e45623cd3aaeed552e",
+      "bytes": 25983,
+      "mtime_ms": 1792144767131.1265
+    },
+    "任务拆分/CG/CG接入约定.md": {
+      "sha256": "ba84c79d4b5db3ee43d9da56b56d8451dc5bdcd694e0483bdde8ee1b5422a4b1",
+      "bytes": 17411,
+      "mtime_ms": 1792403282587.1409
+    },
+    "任务拆分/CG/分镜与接入表.md": {
+      "sha256": "8b30684042f5ad7289f654e4c4fce811334b226ea2cba3f75763ac509bc6bc4f",
+      "bytes": 23131,
+      "mtime_ms": 1792403282566.5002
+    },
+    "任务拆分/CG/多窗口任务提示词.md": {
+      "sha256": "e7039fe768400726b0374aa2f499c815ed5717eaee92f80b38e81f6de627cf56",
+      "bytes": 13255,
+      "mtime_ms": 1792459512002.5374
+    },
+    "任务拆分/v0.1/主线草稿.md": {
+      "sha256": "3488067034f975684a22c705541e4495a0911cd1da2ead4b724fc13c21e87c32",
+      "bytes": 43510,
+      "mtime_ms": 1792400069435.1853
+    },
+    "任务拆分/v0.1/人物草稿.md": {
+      "sha256": "bab83c46faad80d3fe334451f34a543fa96d255c4b37ecf21bd20c22d9a6ddd2",
+      "bytes": 42634,
+      "mtime_ms": 1792400451313.399
+    },
+    "任务拆分/v0.1/分支与隐藏线草稿.md": {
+      "sha256": "f273e467be5afd5da98548719c475889f695a4e9e21a370a650e369ebf37ac13",
+      "bytes": 34639,
+      "mtime_ms": 1792400344425.795
+    },
+    "任务拆分/交接/CG-A.md": {
+      "sha256": "f28573125db2fa8e4bca848b6e829be47eba5c8921707bc5963fb694c917b773",
+      "bytes": 13033,
+      "mtime_ms": 1792403353060.3997
+    },
+    "任务拆分/交接/E1.md": {
+      "sha256": "dd5734ad0b7a56946b0e9731df61ca801187cc852edb8b5a25f1a2d446a7f876",
+      "bytes": 22572,
+      "mtime_ms": 1792376117904.757
+    },
+    "任务拆分/交接/E2.md": {
+      "sha256": "4ffff3eaa0fda7c09266b564036f1730c6faaa8caea2f166464d136d10b6ad79",
+      "bytes": 7131,
+      "mtime_ms": 1792377555344.1958
+    },
+    "任务拆分/交接/E3.md": {
+      "sha256": "0838786dfe2f43bb7d2dbc21fdc91d02f8eadf72c23b1fb327057973f26bcd64",
+      "bytes": 11117,
+      "mtime_ms": 1792378733300.1704
+    },
+    "任务拆分/交接/M1.md": {
+      "sha256": "06c07ab600d3d886ec2704970fd3cd1b806862227a0d227d0bd426cffb177612",
+      "bytes": 3937,
+      "mtime_ms": 1792404576080.928
+    },
+    "任务拆分/交接/M2.md": {
+      "sha256": "f56e6abaff3ef0d3a1ed2761e75ed23d0d4013b667a81880f1c36919246b875b",
+      "bytes": 4870,
+      "mtime_ms": 1792393575859.122
+    },
+    "任务拆分/交接/M3.md": {
+      "sha256": "121a3064d2bcff0df856f06066d56aa982e5adb81a726afc6513e46d1c962cd5",
+      "bytes": 3675,
+      "mtime_ms": 1792404576095.6707
+    },
+    "任务拆分/交接/V01-A.md": {
+      "sha256": "056536b5db3a0502b0775ffc51e81f573c0ee5db314d780d20af412554073c3d",
+      "bytes": 6580,
+      "mtime_ms": 1792400204019.2441
+    },
+    "任务拆分/交接/V01-B.md": {
+      "sha256": "599a9e4e94586c799d4f15c461b85d76efff6005f9f7844aab0f8384cd2eca75",
+      "bytes": 8642,
+      "mtime_ms": 1792400495258.8196
+    },
+    "任务拆分/交接/V01-C.md": {
+      "sha256": "8fb35fbbfe3e78fc516dddf56b759f57638483f5752e8bcd94194881f43b3781",
+      "bytes": 8667,
+      "mtime_ms": 1792400344524.5476
+    },
+    "任务拆分/交接/V01-D.md": {
+      "sha256": "abb598491c64cdd56498d69b255408954040e55fd546c47eba199730a4f86999",
+      "bytes": 19211,
+      "mtime_ms": 1792402558875.2986
+    },
+    "任务拆分/共享契约.md": {
+      "sha256": "1f04efc153fa9cd6516efec2122b627d78a198f7f2d18e035f3c1ae17e271a82",
+      "bytes": 12688,
+      "mtime_ms": 1792373911091.3525
+    },
+    "任务拆分/工程/E1-剧情与分支.md": {
+      "sha256": "8f1b8e3abc95c2aa57d3901df1433d1afaa174ec655f4fb893e597e495a81738",
+      "bytes": 3015,
+      "mtime_ms": 1792374004784.438
+    },
+    "任务拆分/工程/E2-核心引擎与可靠性.md": {
+      "sha256": "d2c75538211330a6930da5d8a2994e2aee94f4200f839aae19e6d3fd52e522e8",
+      "bytes": 2792,
+      "mtime_ms": 1792374004784.6409
+    },
+    "任务拆分/工程/E3-播放器与存读档.md": {
+      "sha256": "8ffefa6c53fabda236b4d67180016cd77954ea1cf5c7618c97e793c398460f72",
+      "bytes": 3356,
+      "mtime_ms": 1792374004784.8423
+    },
+    "任务拆分/工程/E4-界面与多屏适配.md": {
+      "sha256": "7c84cdd1e80fd4fa79da37abe480d5260d2c3436f82ede012739d0a2021a0138",
+      "bytes": 2647,
+      "mtime_ms": 1792374004785.0188
+    },
+    "任务拆分/工程/E5-总验收与交付.md": {
+      "sha256": "ea03b1ccbf3f0b8d123837734b3b44ec60eaa5a6766fa4ccb9cf4bb27eea62cd",
+      "bytes": 3604,
+      "mtime_ms": 1792374004785.1782
+    },
+    "任务拆分/总览.md": {
+      "sha256": "4d3565b13747d5172cd98713df0c0ca36fedc268a26b8f995fc41bdea8a8e8d3",
+      "bytes": 2146,
+      "mtime_ms": 1792459163461.5
+    },
+    "任务拆分/美术/M1-角色归档与立绘审校.md": {
+      "sha256": "3d3ec5e585823139d640c3fd91949de225da7f5a3f8a837539ea676f16b94772",
+      "bytes": 4002,
+      "mtime_ms": 1792374004785.3137
+    },
+    "任务拆分/美术/M2-场景审校与使用清单.md": {
+      "sha256": "753525b5fb8b63f3802c8981c1ed417658d2b70e47c1d14df2edae4c3dcd1e10",
+      "bytes": 2804,
+      "mtime_ms": 1792374004785.4497
+    },
+    "任务拆分/美术/M3-新增三角色美术.md": {
+      "sha256": "ba2703bca81cafba6f8e8651e9c0b0699c696dca478c94f7a128d952dfae566d",
+      "bytes": 3697,
+      "mtime_ms": 1792374004838.3254
+    },
+    "任务拆分/角色与隐藏线-R2.md": {
+      "sha256": "f3f17d121ee18b63eef80df1a4699f308ecd12f95f9109c439cdf0f5d971b1b4",
+      "bytes": 4937,
+      "mtime_ms": 1792374070193.5132
+    },
+    "剧情CG更新计划.md": {
+      "sha256": "90c611689e5fc888925cc39b64ebf461a112eebe1bb7ecdaac52010b81152abb",
+      "bytes": 17383,
+      "mtime_ms": 1792459512021.2063
+    },
+    "多窗口任务提示词-R2/assets/references/huangqiuqiu-reference.jpg": {
+      "sha256": "3762f93aadaac1244c0d403471e96b1ff5f4a42e1688746a4c756d6c4cb6c574",
+      "bytes": 51048,
+      "mtime_ms": 1792373692000
+    },
+    "多窗口任务提示词-R2/任务拆分/共享契约.md": {
+      "sha256": "1f04efc153fa9cd6516efec2122b627d78a198f7f2d18e035f3c1ae17e271a82",
+      "bytes": 12688,
+      "mtime_ms": 1792373910000
+    },
+    "多窗口任务提示词-R2/任务拆分/工程/E1-剧情与分支.md": {
+      "sha256": "8f1b8e3abc95c2aa57d3901df1433d1afaa174ec655f4fb893e597e495a81738",
+      "bytes": 3015,
+      "mtime_ms": 1792374004000
+    },
+    "多窗口任务提示词-R2/任务拆分/工程/E2-核心引擎与可靠性.md": {
+      "sha256": "d2c75538211330a6930da5d8a2994e2aee94f4200f839aae19e6d3fd52e522e8",
+      "bytes": 2792,
+      "mtime_ms": 1792374004000
+    },
+    "多窗口任务提示词-R2/任务拆分/工程/E3-播放器与存读档.md": {
+      "sha256": "8ffefa6c53fabda236b4d67180016cd77954ea1cf5c7618c97e793c398460f72",
+      "bytes": 3356,
+      "mtime_ms": 1792374004000
+    },
+    "多窗口任务提示词-R2/任务拆分/工程/E4-界面与多屏适配.md": {
+      "sha256": "7c84cdd1e80fd4fa79da37abe480d5260d2c3436f82ede012739d0a2021a0138",
+      "bytes": 2647,
+      "mtime_ms": 1792374004000
+    },
+    "多窗口任务提示词-R2/任务拆分/工程/E5-总验收与交付.md": {
+      "sha256": "ea03b1ccbf3f0b8d123837734b3b44ec60eaa5a6766fa4ccb9cf4bb27eea62cd",
+      "bytes": 3604,
+      "mtime_ms": 1792374004000
+    },
+    "多窗口任务提示词-R2/任务拆分/美术/M1-角色归档与立绘审校.md": {
+      "sha256": "3d3ec5e585823139d640c3fd91949de225da7f5a3f8a837539ea676f16b94772",
+      "bytes": 4002,
+      "mtime_ms": 1792374004000
+    },
+    "多窗口任务提示词-R2/任务拆分/美术/M2-场景审校与使用清单.md": {
+      "sha256": "753525b5fb8b63f3802c8981c1ed417658d2b70e47c1d14df2edae4c3dcd1e10",
+      "bytes": 2804,
+      "mtime_ms": 1792374004000
+    },
+    "多窗口任务提示词-R2/任务拆分/美术/M3-新增三角色美术.md": {
+      "sha256": "ba2703bca81cafba6f8e8651e9c0b0699c696dca478c94f7a128d952dfae566d",
+      "bytes": 3697,
+      "mtime_ms": 1792374004000
+    },
+    "多窗口任务提示词-R2/任务拆分/角色与隐藏线-R2.md": {
+      "sha256": "f3f17d121ee18b63eef80df1a4699f308ecd12f95f9109c439cdf0f5d971b1b4",
+      "bytes": 4937,
+      "mtime_ms": 1792374070000
+    },
+    "总览.md": {
+      "sha256": "969e8e5ef51389ccb426177cda428b18ad04e48f4f41a8d66abc20b5fb18d1a8",
+      "bytes": 8765,
+      "mtime_ms": 1792459388371.609
+    },
+    "故事优化方案-审阅版.md": {
+      "sha256": "3d652b2fc9b26e13c94207ae0cb039000c7171aa7904744fde45ca8394c3fd04",
+      "bytes": 17524,
+      "mtime_ms": 1792395019198.835
+    },
+    "故事优化方案-待审阅-20261019.md": {
+      "sha256": "24693353a3e058d8aa0230f7bdc792f2d37084a50f7e633fcca1f30a2c7bdae1",
+      "bytes": 14755,
+      "mtime_ms": 1792394921610.3032
+    }
+  }
+}

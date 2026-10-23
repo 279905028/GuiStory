@@ -1,0 +1,210 @@
+{
+  "characters": {
+    "wenwen": {
+      "source": "/Users/yipin/Desktop/cjb/assets/char-wenwen.png",
+      "sourceSha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "archiveAction": "already present; identical",
+      "finalSha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alpha0": 627597,
+      "alpha1to254": 945267,
+      "alpha255": 0,
+      "bboxAlphaGreater0": [
+        101,
+        15,
+        1008,
+        1536
+      ],
+      "bboxAlphaGreater127": [
+        106,
+        23,
+        1004,
+        1536
+      ]
+    },
+    "xiaoman": {
+      "source": "/Users/yipin/.codex/generated_images/01a143f3-8824-7882-ad4d-c1574bbb0e22/exec-3dea668c-0852-4033-b12e-c5061058a744.png",
+      "sourceSha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+      "archiveAction": "copied source byte-for-byte",
+      "finalSha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alpha0": 574841,
+      "alpha1to254": 998023,
+      "alpha255": 0,
+      "bboxAlphaGreater0": [
+        0,
+        0,
+        986,
+        1536
+      ],
+      "bboxAlphaGreater127": [
+        45,
+        16,
+        980,
+        1536
+      ]
+    },
+    "zhouzhi": {
+      "source": "/Users/yipin/.codex/generated_images/01a143f3-8824-7882-ad4d-c1574bbb0e22/exec-447981a6-6513-4aa3-90b4-9adcb41796ea.png",
+      "sourceSha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+      "archiveAction": "copied source byte-for-byte",
+      "finalSha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alpha0": 697080,
+      "alpha1to254": 875784,
+      "alpha255": 0,
+      "bboxAlphaGreater0": [
+        0,
+        0,
+        1010,
+        1536
+      ],
+      "bboxAlphaGreater127": [
+        161,
+        7,
+        923,
+        1536
+      ]
+    },
+    "mengyao": {
+      "source": "/Users/yipin/.codex/generated_images/01a143f3-8824-7882-ad4d-c1574bbb0e22/exec-61830735-1d29-42c0-aef2-d4afab1aaacf.png",
+      "sourceSha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+      "archiveAction": "copied source byte-for-byte",
+      "finalSha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alpha0": 718752,
+      "alpha1to254": 854112,
+      "alpha255": 0,
+      "bboxAlphaGreater0": [
+        0,
+        0,
+        1023,
+        1536
+      ],
+      "bboxAlphaGreater127": [
+        153,
+        4,
+        939,
+        1536
+      ]
+    },
+    "yelan": {
+      "source": "/Users/yipin/.codex/generated_images/01a143f3-8824-7882-ad4d-c1574bbb0e22/exec-f5c9e7c1-6966-4241-ad07-7dcf71fd0849.png",
+      "sourceSha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+      "archiveAction": "copied source byte-for-byte",
+      "finalSha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alpha0": 642001,
+      "alpha1to254": 930863,
+      "alpha255": 0,
+      "bboxAlphaGreater0": [
+        0,
+        0,
+        991,
+        1536
+      ],
+      "bboxAlphaGreater127": [
+        146,
+        9,
+        987,
+        1536
+      ]
+    }
+  },
+  "backgroundsReadOnly": {
+    "street": {
+      "path": "assets/bg-street.png",
+      "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "size": [
+        1672,
+        941
+      ],
+      "meanLuma": 58.69
+    },
+    "repair": {
+      "path": "assets/bg-repair.png",
+      "sha256": "3b918a88c0d486575fa18d09afb70a37f9e1743257dd49ce1a44f72416e098aa",
+      "size": [
+        1672,
+        941
+      ],
+      "meanLuma": 94.83
+    },
+    "lobby": {
+      "path": "assets/bg-lobby.png",
+      "sha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871",
+      "size": [
+        1672,
+        941
+      ],
+      "meanLuma": 46.97
+    },
+    "room": {
+      "path": "assets/bg-room.png",
+      "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+      "size": [
+        1672,
+        941
+      ],
+      "meanLuma": 36.49
+    },
+    "noodles": {
+      "path": "assets/bg-noodles.png",
+      "sha256": "b3b2bd4aa1421b504417a1d37900add3ed69202f7d0f680c2da1be698a3dc984",
+      "size": [
+        1672,
+        941
+      ],
+      "meanLuma": 57.44
+    },
+    "salon": {
+      "path": "assets/bg-salon.png",
+      "sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+      "size": [
+        1672,
+        941
+      ],
+      "meanLuma": 107.27
+    }
+  }
+}

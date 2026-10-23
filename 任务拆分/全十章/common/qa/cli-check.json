@@ -1,0 +1,6 @@
+{
+  "command": "node 任务拆分/三章扩展/build-story.cjs --ten-chapter --manifest 任务拆分/全十章/common/qa/fixtures/manifest.json --check",
+  "stdout": "{\n  \"status\": \"passed\",\n  \"mode\": \"sample\",\n  \"formalIntegration\": false,\n  \"moduleCount\": 17,\n  \"nodeCount\": 447,\n  \"sceneCount\": 110,\n  \"output\": null,\n  \"graph\": {\n    \"nodes\": 447,\n    \"edges\": 505,\n    \"choices\": 7,\n    \"options\": 19,\n    \"countsByType\": {\n      \"line\": 418,\n      \"end\": 9,\n      \"choice\": 7,\n      \"gate\": 13\n    },\n    \"exploredNodeStates\": 25631,\n    \"distinctFlagStates\": 343,\n    \"mergedNodeStates\": 0,\n    \"transitions\": 25630,\n    \"maximumFrontier\": 11,\n    \"terminalStates\": 0,\n    \"stoppedStates\": 232\n  }\n}",
+  "scope": "E03 common + explicitly marked interface stubs",
+  "formalIntegration": false
+}

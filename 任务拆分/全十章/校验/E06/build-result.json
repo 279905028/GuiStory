@@ -1,0 +1,14 @@
+{
+  "scope": "E06组合静态图隔离输出，不替换根story.js",
+  "formalIntegration": false,
+  "commands": [
+    {
+      "command": "node 任务拆分/三章扩展/build-story.cjs --ten-chapter --manifest 任务拆分/全十章/校验/E06/fixture/manifest.json --check",
+      "stdout": "{\n  \"status\": \"passed\",\n  \"mode\": \"sample\",\n  \"formalIntegration\": false,\n  \"moduleCount\": 17,\n  \"nodeCount\": 1652,\n  \"sceneCount\": 255,\n  \"output\": null,\n  \"graph\": {\n    \"nodes\": 1652,\n    \"edges\": 1726,\n    \"choices\": 13,\n    \"options\": 31,\n    \"countsByType\": {\n      \"line\": 1597,\n      \"end\": 16,\n      \"choice\": 13,\n      \"gate\": 26\n    },\n    \"exploredNodeStates\": 109663,\n    \"distinctFlagStates\": 919,\n    \"mergedNodeStates\": 0,\n    \"transitions\": 109662,\n    \"maximumFrontier\": 12,\n    \"terminalStates\": 448,\n    \"stoppedStates\": 72\n  }\n}"
+    },
+    {
+      "command": "node 任务拆分/三章扩展/build-story.cjs --ten-chapter --manifest 任务拆分/全十章/校验/E06/fixture/manifest.json",
+      "stdout": "{\n  \"status\": \"passed\",\n  \"mode\": \"sample\",\n  \"formalIntegration\": false,\n  \"moduleCount\": 17,\n  \"nodeCount\": 1652,\n  \"sceneCount\": 255,\n  \"output\": {\n    \"directory\": \"/Users/yipin/Desktop/cjb/任务拆分/全十章/构建/sample-0288e01d681cae5b\",\n    \"contentHash\": \"0288e01d681cae5bb0c6e8f70b344e8eb2c562c81e0a7553f3ea2a58c654850e\",\n    \"reused\": false\n  },\n  \"graph\": {\n    \"nodes\": 1652,\n    \"edges\": 1726,\n    \"choices\": 13,\n    \"options\": 31,\n    \"countsByType\": {\n      \"line\": 1597,\n      \"end\": 16,\n      \"choice\": 13,\n      \"gate\": 26\n    },\n    \"exploredNodeStates\": 109663,\n    \"distinctFlagStates\": 919,\n    \"mergedNodeStates\": 0,\n    \"transitions\": 109662,\n    \"maximumFrontier\": 12,\n    \"terminalStates\": 448,\n    \"stoppedStates\": 72\n  }\n}"
+    }
+  ]
+}

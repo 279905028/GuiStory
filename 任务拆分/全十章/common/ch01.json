@@ -1,0 +1,3495 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "common/ch01",
+  "owner": "E03",
+  "scenes": {
+    "ts_c01_common_arrival_bus": {
+      "chapter": 1,
+      "title": "第1天·下午｜箱子轮子响得太大",
+      "bg": "tc-bg-busstop-day",
+      "time": "下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "下午",
+        "day": 1
+      },
+      "location": "公交站牌",
+      "day": 1,
+      "dayLabel": "第1天"
+    },
+    "ts_c01_common_arrival_slope": {
+      "chapter": 1,
+      "title": "箱子轮子响得太大",
+      "bg": "tc-bg-slope-day",
+      "time": "下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "下午",
+        "day": 1
+      },
+      "location": "坡路",
+      "day": 1,
+      "dayLabel": "第1天"
+    },
+    "ts_c01_common_first_shift_talk": {
+      "chapter": 1,
+      "title": "先把休息讲明白",
+      "bg": "tc-bg-netcafe-counter-day",
+      "time": "下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "下午",
+        "day": 1
+      },
+      "location": "网吧柜台",
+      "day": 1,
+      "dayLabel": "第1天"
+    },
+    "ts_c01_common_three_taps": {
+      "chapter": 1,
+      "title": "第1天·21:40｜三下轻响",
+      "bg": "tc-bg-backdoor-night",
+      "time": "21:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "21:40",
+        "day": 1
+      },
+      "location": "网吧后院侧门外",
+      "day": 1,
+      "dayLabel": "第1天"
+    },
+    "ts_c01_common_back_to_counter": {
+      "chapter": 1,
+      "title": "先回柜台",
+      "bg": "tc-bg-netcafe-counter-night",
+      "time": "21:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "21:40",
+        "day": 1
+      },
+      "location": "网吧门厅与柜台",
+      "day": 1,
+      "dayLabel": "第1天"
+    },
+    "ts_c01_common_first_shift": {
+      "chapter": 1,
+      "title": "第一班",
+      "bg": "tc-bg-netcafe-counter-night",
+      "time": "22:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "22:00",
+        "day": 1
+      },
+      "location": "网吧柜台",
+      "day": 1,
+      "dayLabel": "第1天"
+    },
+    "ts_c01_common_night_greeting": {
+      "chapter": 1,
+      "title": "预支早上好",
+      "bg": "tc-bg-netcafe-counter-night",
+      "time": "02:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "02:00",
+        "day": 2
+      },
+      "location": "网吧柜台",
+      "day": 2,
+      "dayLabel": "第2天"
+    },
+    "ts_c01_common_dawn_handover": {
+      "chapter": 1,
+      "title": "六点交班",
+      "bg": "tc-bg-netcafe-counter-day",
+      "time": "06:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "06:00",
+        "day": 2
+      },
+      "location": "网吧门口",
+      "day": 2,
+      "dayLabel": "第2天"
+    },
+    "ts_c01_common_breakfast": {
+      "chapter": 1,
+      "title": "第2天·06:20｜算不上接风",
+      "bg": "tc-bg-breakfast-dawn",
+      "time": "06:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "06:20",
+        "day": 2
+      },
+      "location": "早餐店",
+      "day": 2,
+      "dayLabel": "第2天"
+    },
+    "ts_c01_common_morning_messages": {
+      "chapter": 1,
+      "title": "回去睡觉",
+      "bg": "tc-bg-rental-day",
+      "time": "清晨",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "清晨",
+        "day": 2
+      },
+      "location": "文文出租屋",
+      "day": 2,
+      "dayLabel": "第2天"
+    },
+    "ts_c01_common_salon": {
+      "chapter": 1,
+      "title": "第3天·16:10｜没有预约的老熟人",
+      "bg": "tc-bg-salon-day",
+      "time": "16:10",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "16:10",
+        "day": 3
+      },
+      "location": "理发店",
+      "day": 3,
+      "dayLabel": "第3天"
+    },
+    "ts_c01_common_reunion": {
+      "chapter": 1,
+      "title": "第4天·17:20｜老师也会不耐烦",
+      "bg": "tc-bg-convenience-day",
+      "time": "17:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "17:20",
+        "day": 4
+      },
+      "location": "便利店",
+      "day": 4,
+      "dayLabel": "第4天"
+    },
+    "ts_c01_common_reunion_fork": {
+      "chapter": 1,
+      "title": "分开前",
+      "bg": "tc-bg-slope-day",
+      "time": "17:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "17:20",
+        "day": 4
+      },
+      "location": "街道岔路口与坡口",
+      "day": 4,
+      "dayLabel": "第4天"
+    },
+    "ts_c01_common_home_game": {
+      "chapter": 1,
+      "title": "第5天·20:30｜今晚没有班",
+      "bg": "tc-bg-rental-night",
+      "time": "20:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "20:30",
+        "day": 5
+      },
+      "location": "文文出租屋",
+      "day": 5,
+      "dayLabel": "第5天"
+    },
+    "ts_c01_common_noodles": {
+      "chapter": 1,
+      "title": "第6天·17:30｜辣椒自己放",
+      "bg": "tc-bg-food-dusk",
+      "time": "17:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "17:30",
+        "day": 6
+      },
+      "location": "街口面馆",
+      "day": 6,
+      "dayLabel": "第6天"
+    },
+    "ts_c01_common_piao_meal": {
+      "chapter": 1,
+      "title": "第7天·17:30｜名字不用介绍第二遍",
+      "bg": "tc-bg-food-dusk",
+      "time": "17:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "17:30",
+        "day": 7
+      },
+      "location": "约饭小店",
+      "day": 7,
+      "dayLabel": "第7天"
+    },
+    "ts_c01_common_two_umbrellas": {
+      "chapter": 1,
+      "title": "三个人两把伞",
+      "bg": "tc-bg-eaves-day",
+      "time": "饭后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "饭后",
+        "day": 7
+      },
+      "location": "雨中街道及路口",
+      "day": 7,
+      "dayLabel": "第7天"
+    },
+    "ts_c01_common_chapter_end": {
+      "chapter": 1,
+      "title": "第一章 · 凌晨六点的早餐",
+      "bg": "tc-bg-chapter-end",
+      "time": "章末",
+      "chronology": {
+        "domain": "chapter-range",
+        "mode": "present",
+        "label": "第1—7天"
+      },
+      "location": "",
+      "day": null,
+      "dayLabel": "第1—7天"
+    }
+  },
+  "nodes": {
+    "tc_c01_common_entry": {
+      "id": "tc_c01_common_entry",
+      "type": "line",
+      "scene": "ts_c01_common_arrival_bus",
+      "speaker": "narrator",
+      "text": "大巴走了以后，站牌底下就剩我和一只不好拉的箱子。",
+      "character": null,
+      "next": "tc_c01_common_arrival_02"
+    },
+    "tc_c01_common_arrival_02": {
+      "id": "tc_c01_common_arrival_02",
+      "type": "line",
+      "scene": "ts_c01_common_arrival_bus",
+      "speaker": "narrator",
+      "text": "箱子右边的轮子有点歪，过地砖缝时哒哒作响。三年没回毕节，我本来想走得像个刚好路过的人，结果一路都有人回头看。",
+      "character": null,
+      "next": "tc_c01_common_arrival_03"
+    },
+    "tc_c01_common_arrival_03": {
+      "id": "tc_c01_common_arrival_03",
+      "type": "line",
+      "scene": "ts_c01_common_arrival_bus",
+      "speaker": "narrator",
+      "text": "手机亮起来。母亲问我到了没有，又问包里的本子湿没湿。",
+      "character": null,
+      "next": "tc_c01_common_arrival_04"
+    },
+    "tc_c01_common_arrival_04": {
+      "id": "tc_c01_common_arrival_04",
+      "type": "line",
+      "scene": "ts_c01_common_arrival_bus",
+      "speaker": "narrator",
+      "text": "“到了。没湿。”我用手背擦一下额头，“晚饭不一定回去吃，毛狼说帮我问了份工作。”",
+      "character": null,
+      "next": "tc_c01_common_arrival_05"
+    },
+    "tc_c01_common_arrival_05": {
+      "id": "tc_c01_common_arrival_05",
+      "type": "line",
+      "scene": "ts_c01_common_arrival_bus",
+      "speaker": "narrator",
+      "text": "母亲说家里留着饭。我等了一会儿，她没问工资，也没问为什么上一份不做了。那些在车上排练过的说法，暂时用不上。",
+      "character": null,
+      "next": "tc_c01_common_slope_01"
+    },
+    "tc_c01_common_slope_01": {
+      "id": "tc_c01_common_slope_01",
+      "type": "line",
+      "scene": "ts_c01_common_arrival_slope",
+      "speaker": "narrator",
+      "text": "毛狼站在坡上，黑T恤的花纹隔着雨也很显眼。他先接箱子，拉出去两步，又把手柄塞回来。",
+      "character": null,
+      "next": "tc_c01_common_slope_02"
+    },
+    "tc_c01_common_slope_02": {
+      "id": "tc_c01_common_slope_02",
+      "type": "line",
+      "scene": "ts_c01_common_arrival_slope",
+      "speaker": "maolang",
+      "text": "“你带了个拖拉机？”",
+      "character": null,
+      "next": "tc_c01_common_slope_03"
+    },
+    "tc_c01_common_slope_03": {
+      "id": "tc_c01_common_slope_03",
+      "type": "line",
+      "scene": "ts_c01_common_arrival_slope",
+      "speaker": "wenwen",
+      "text": "“它上过班，比你稳定。”",
+      "character": null,
+      "next": "tc_c01_common_slope_04"
+    },
+    "tc_c01_common_slope_04": {
+      "id": "tc_c01_common_slope_04",
+      "type": "line",
+      "scene": "ts_c01_common_arrival_slope",
+      "speaker": "maolang",
+      "text": "“那让它去值夜班。你负责在旁边响。”",
+      "character": null,
+      "next": "tc_c01_common_job_talk_01"
+    },
+    "tc_c01_common_job_talk_01": {
+      "id": "tc_c01_common_job_talk_01",
+      "type": "line",
+      "scene": "ts_c01_common_first_shift_talk",
+      "speaker": "narrator",
+      "text": "网吧在一楼，玻璃门上贴着褪色的饮料价目表。里面不黑，靠窗那排开着顶灯，有人戴耳机看电影，也有人只是伏在桌边吃面。风扇和键盘声混在一起，比我想的普通。",
+      "character": null,
+      "next": "tc_c01_common_job_talk_02"
+    },
+    "tc_c01_common_job_talk_02": {
+      "id": "tc_c01_common_job_talk_02",
+      "type": "line",
+      "scene": "ts_c01_common_first_shift_talk",
+      "speaker": "narrator",
+      "text": "师匠从柜台下面拿出一包纸，先扔给毛狼。",
+      "character": null,
+      "next": "tc_c01_common_job_talk_03"
+    },
+    "tc_c01_common_job_talk_03": {
+      "id": "tc_c01_common_job_talk_03",
+      "type": "line",
+      "scene": "ts_c01_common_first_shift_talk",
+      "speaker": "shijiang",
+      "text": "“鞋擦干。上回你进来，把地踩得像刚插完秧。”",
+      "character": null,
+      "next": "tc_c01_common_job_talk_04"
+    },
+    "tc_c01_common_job_talk_04": {
+      "id": "tc_c01_common_job_talk_04",
+      "type": "line",
+      "scene": "ts_c01_common_first_shift_talk",
+      "speaker": "narrator",
+      "text": "毛狼说这回带了劳动人口，可以将功补过。师匠看我一眼，问夜班能不能做。",
+      "character": null,
+      "next": "tc_c01_common_job_talk_05"
+    },
+    "tc_c01_common_job_talk_05": {
+      "id": "tc_c01_common_job_talk_05",
+      "type": "line",
+      "scene": "ts_c01_common_first_shift_talk",
+      "speaker": "shijiang",
+      "text": "“晚上十点到早上六点。按谈好的班次算，有休班。先把钱怎么发、休息怎么排讲明白，别干了半个月才觉得我骗你。”",
+      "character": null,
+      "next": "tc_c01_common_job_talk_06"
+    },
+    "tc_c01_common_job_talk_06": {
+      "id": "tc_c01_common_job_talk_06",
+      "type": "line",
+      "scene": "ts_c01_common_first_shift_talk",
+      "speaker": "narrator",
+      "text": "我们坐在柜台旁，把待遇和试做的几天谈清楚。我问了两次休息安排，第二次声音小了一点。",
+      "character": null,
+      "next": "tc_c01_common_job_talk_07"
+    },
+    "tc_c01_common_job_talk_07": {
+      "id": "tc_c01_common_job_talk_07",
+      "type": "line",
+      "scene": "ts_c01_common_first_shift_talk",
+      "speaker": "narrator",
+      "text": "师匠倒没嫌烦：“要睡觉就问，别装自己不用睡。”",
+      "character": null,
+      "next": "tc_c01_common_job_talk_08"
+    },
+    "tc_c01_common_job_talk_08": {
+      "id": "tc_c01_common_job_talk_08",
+      "type": "line",
+      "scene": "ts_c01_common_first_shift_talk",
+      "speaker": "narrator",
+      "text": "收银、开机、饮料补货、有人喊的时候过去看看。这些我会学，太复杂的故障另找负责的人。我原先准备好的“我什么都能弄一点”没派上用场。",
+      "character": null,
+      "next": "tc_c01_common_job_talk_09"
+    },
+    "tc_c01_common_job_talk_09": {
+      "id": "tc_c01_common_job_talk_09",
+      "type": "line",
+      "scene": "ts_c01_common_first_shift_talk",
+      "speaker": "narrator",
+      "text": "毛狼探过来：“以后叫你文管？”",
+      "character": null,
+      "next": "tc_c01_common_job_talk_10"
+    },
+    "tc_c01_common_job_talk_10": {
+      "id": "tc_c01_common_job_talk_10",
+      "type": "line",
+      "scene": "ts_c01_common_first_shift_talk",
+      "speaker": "wenwen",
+      "text": "“叫我名字。”",
+      "character": null,
+      "next": "tc_c01_common_job_talk_11"
+    },
+    "tc_c01_common_job_talk_11": {
+      "id": "tc_c01_common_job_talk_11",
+      "type": "line",
+      "scene": "ts_c01_common_first_shift_talk",
+      "speaker": "maolang",
+      "text": "“文老板？”",
+      "character": null,
+      "next": "tc_c01_common_job_talk_12"
+    },
+    "tc_c01_common_job_talk_12": {
+      "id": "tc_c01_common_job_talk_12",
+      "type": "line",
+      "scene": "ts_c01_common_first_shift_talk",
+      "speaker": "narrator",
+      "text": "师匠抬头：“你叫他老板，工资找他拿？”",
+      "character": null,
+      "next": "tc_c01_common_job_talk_13"
+    },
+    "tc_c01_common_job_talk_13": {
+      "id": "tc_c01_common_job_talk_13",
+      "type": "line",
+      "scene": "ts_c01_common_first_shift_talk",
+      "speaker": "narrator",
+      "text": "毛狼把嘴闭上了。他可能觉得为了逞一句嘴冒这个险，不太值得。",
+      "character": null,
+      "next": "tc_c01_common_three_taps_01"
+    },
+    "tc_c01_common_three_taps_01": {
+      "id": "tc_c01_common_three_taps_01",
+      "type": "line",
+      "scene": "ts_c01_common_three_taps",
+      "speaker": "narrator",
+      "text": "正式上班还差二十分钟。我把晚饭盒丢进外面的垃圾桶，顺着网吧侧边的小路走回来。",
+      "character": null,
+      "next": "tc_c01_common_three_taps_02"
+    },
+    "tc_c01_common_three_taps_02": {
+      "id": "tc_c01_common_three_taps_02",
+      "type": "line",
+      "scene": "ts_c01_common_three_taps",
+      "speaker": "narrator",
+      "text": "后院门虚掩着。里面响了三下：轻、轻，隔了一点，再重一些。",
+      "character": null,
+      "next": "tc_c01_common_three_taps_03"
+    },
+    "tc_c01_common_three_taps_03": {
+      "id": "tc_c01_common_three_taps_03",
+      "type": "line",
+      "scene": "ts_c01_common_three_taps",
+      "speaker": "narrator",
+      "text": "我以为有人叫，停住。隔着门缝，只有一截潮湿的墙，和塑料凳露出来的蓝腿。",
+      "character": null,
+      "next": "tc_c01_common_three_taps_04"
+    },
+    "tc_c01_common_three_taps_04": {
+      "id": "tc_c01_common_three_taps_04",
+      "type": "line",
+      "scene": "ts_c01_common_three_taps",
+      "speaker": "narrator",
+      "text": "“……后面还有。”",
+      "character": null,
+      "next": "tc_c01_common_three_taps_05"
+    },
+    "tc_c01_common_three_taps_05": {
+      "id": "tc_c01_common_three_taps_05",
+      "type": "line",
+      "scene": "ts_c01_common_three_taps",
+      "speaker": "narrator",
+      "text": "声音很轻，像有人正把一句被打断的话接回来。",
+      "character": null,
+      "next": "tc_c01_common_three_taps_06"
+    },
+    "tc_c01_common_three_taps_06": {
+      "id": "tc_c01_common_three_taps_06",
+      "type": "line",
+      "scene": "ts_c01_common_three_taps",
+      "speaker": "narrator",
+      "text": "我没有推门。柜台里传来找零钱的声音，时间也还够我站一会儿。",
+      "character": null,
+      "next": "tc_c01_common_rhythm_record_choice"
+    },
+    "tc_c01_common_rhythm_record_01": {
+      "id": "tc_c01_common_rhythm_record_01",
+      "type": "line",
+      "scene": "ts_c01_common_three_taps",
+      "speaker": "narrator",
+      "text": "我拿出手机，在备忘录里打了三个点，又把第二个和第三个之间拉开一点。",
+      "character": null,
+      "next": "tc_c01_common_rhythm_record_02"
+    },
+    "tc_c01_common_rhythm_record_02": {
+      "id": "tc_c01_common_rhythm_record_02",
+      "type": "line",
+      "scene": "ts_c01_common_three_taps",
+      "speaker": "wenwen",
+      "text": "“是这样吗？”我压低声音问。",
+      "character": null,
+      "next": "tc_c01_common_rhythm_record_03"
+    },
+    "tc_c01_common_rhythm_record_03": {
+      "id": "tc_c01_common_rhythm_record_03",
+      "type": "line",
+      "scene": "ts_c01_common_three_taps",
+      "speaker": "narrator",
+      "text": "门内没有回答。我又站了一小会儿，记下“网吧后院，三下轻响”，把手机收好。",
+      "character": null,
+      "next": "tc_c01_common_rhythm_record_04"
+    },
+    "tc_c01_common_rhythm_record_04": {
+      "id": "tc_c01_common_rhythm_record_04",
+      "type": "line",
+      "scene": "ts_c01_common_three_taps",
+      "speaker": "narrator",
+      "text": "那不是一个答案，但至少下次再听见，我不会把它当成另一件事。",
+      "character": null,
+      "next": "tc_c01_common_first_shift_01"
+    },
+    "tc_c01_common_rhythm_ignore_01": {
+      "id": "tc_c01_common_rhythm_ignore_01",
+      "type": "line",
+      "scene": "ts_c01_common_back_to_counter",
+      "speaker": "narrator",
+      "text": "我朝门里问了一句有没有人。没有回应，便退回亮着灯的门厅。",
+      "character": null,
+      "next": "tc_c01_common_rhythm_ignore_02"
+    },
+    "tc_c01_common_rhythm_ignore_02": {
+      "id": "tc_c01_common_rhythm_ignore_02",
+      "type": "line",
+      "scene": "ts_c01_common_back_to_counter",
+      "speaker": "narrator",
+      "text": "师匠正把零钱数给客人。我接过空饮料箱，放回柜台下面。三下响声被别的声音盖住，没再响起。",
+      "character": null,
+      "next": "tc_c01_common_first_shift_01"
+    },
+    "tc_c01_common_first_shift_01": {
+      "id": "tc_c01_common_first_shift_01",
+      "type": "line",
+      "scene": "ts_c01_common_first_shift",
+      "speaker": "narrator",
+      "text": "师匠把最常用的几个操作演给我看。轮到我试时，我把可乐输成了雪碧。",
+      "character": null,
+      "next": "tc_c01_common_first_shift_02"
+    },
+    "tc_c01_common_first_shift_02": {
+      "id": "tc_c01_common_first_shift_02",
+      "type": "line",
+      "scene": "ts_c01_common_first_shift",
+      "speaker": "shijiang",
+      "text": "“第一笔就有创造力。”他说。",
+      "character": null,
+      "next": "tc_c01_common_first_shift_03"
+    },
+    "tc_c01_common_first_shift_03": {
+      "id": "tc_c01_common_first_shift_03",
+      "type": "line",
+      "scene": "ts_c01_common_first_shift",
+      "speaker": "narrator",
+      "text": "我撤掉重来，把客人要的可乐递过去。对方只关心冰不冰，没关心我的职业起点。",
+      "character": null,
+      "next": "tc_c01_common_night_greeting_01"
+    },
+    "tc_c01_common_night_greeting_01": {
+      "id": "tc_c01_common_night_greeting_01",
+      "type": "line",
+      "scene": "ts_c01_common_night_greeting",
+      "speaker": "narrator",
+      "text": "夜里两点，有人过来要热水。我以为自己很精神，开口却说了句“早上好”。那人看我，我也看他。",
+      "character": null,
+      "next": "tc_c01_common_night_greeting_02"
+    },
+    "tc_c01_common_night_greeting_02": {
+      "id": "tc_c01_common_night_greeting_02",
+      "type": "line",
+      "scene": "ts_c01_common_night_greeting",
+      "speaker": "wenwen",
+      "text": "“预支。”我说。",
+      "character": null,
+      "next": "tc_c01_common_night_greeting_03"
+    },
+    "tc_c01_common_night_greeting_03": {
+      "id": "tc_c01_common_night_greeting_03",
+      "type": "line",
+      "scene": "ts_c01_common_night_greeting",
+      "speaker": "narrator",
+      "text": "他点点头：“那也预支一包纸。”",
+      "character": null,
+      "next": "tc_c01_common_night_greeting_04"
+    },
+    "tc_c01_common_night_greeting_04": {
+      "id": "tc_c01_common_night_greeting_04",
+      "type": "line",
+      "scene": "ts_c01_common_night_greeting",
+      "speaker": "narrator",
+      "text": "我把纸递过去，忍不住笑了一下。第一晚既没有谁专程来捣乱，也没有等着我拯救的故障。最多的是找零、擦桌子，以及确认刚才那位到底点了两碗面还是一碗。",
+      "character": null,
+      "next": "tc_c01_common_handover_01"
+    },
+    "tc_c01_common_handover_01": {
+      "id": "tc_c01_common_handover_01",
+      "type": "line",
+      "scene": "ts_c01_common_dawn_handover",
+      "speaker": "narrator",
+      "text": "六点有人接班。我把最后一笔账说清，出了门才发现天已经白了。",
+      "character": null,
+      "next": "tc_c01_common_breakfast_01"
+    },
+    "tc_c01_common_breakfast_01": {
+      "id": "tc_c01_common_breakfast_01",
+      "type": "line",
+      "scene": "ts_c01_common_breakfast",
+      "speaker": "narrator",
+      "text": "毛狼蹲在早餐店门口，手里捏着一张演出贴纸。他昨晚去做临时主持，刚把借来的衣服还掉。",
+      "character": null,
+      "next": "tc_c01_common_breakfast_02"
+    },
+    "tc_c01_common_breakfast_02": {
+      "id": "tc_c01_common_breakfast_02",
+      "type": "line",
+      "scene": "ts_c01_common_breakfast",
+      "speaker": "maolang",
+      "text": "“接风。”他抬起下巴，“你请。”",
+      "character": null,
+      "next": "tc_c01_common_breakfast_03"
+    },
+    "tc_c01_common_breakfast_03": {
+      "id": "tc_c01_common_breakfast_03",
+      "type": "line",
+      "scene": "ts_c01_common_breakfast",
+      "speaker": "wenwen",
+      "text": "“接的是谁的风？”",
+      "character": null,
+      "next": "tc_c01_common_breakfast_04"
+    },
+    "tc_c01_common_breakfast_04": {
+      "id": "tc_c01_common_breakfast_04",
+      "type": "line",
+      "scene": "ts_c01_common_breakfast",
+      "speaker": "maolang",
+      "text": "“毕节的。昨晚挺大。”",
+      "character": null,
+      "next": "tc_c01_common_breakfast_05"
+    },
+    "tc_c01_common_breakfast_05": {
+      "id": "tc_c01_common_breakfast_05",
+      "type": "line",
+      "scene": "ts_c01_common_breakfast",
+      "speaker": "narrator",
+      "text": "我买了两碗面，坐到他对面。店里的椅子很矮，膝盖不知道往哪儿放。他说昨晚把抽奖嘉宾的名字念错一个字，对方上台以后很给面子，先纠正，再自己笑。",
+      "character": null,
+      "next": "tc_c01_common_breakfast_06"
+    },
+    "tc_c01_common_breakfast_06": {
+      "id": "tc_c01_common_breakfast_06",
+      "type": "line",
+      "scene": "ts_c01_common_breakfast",
+      "speaker": "wenwen",
+      "text": "“你后来怎么补的？”",
+      "character": null,
+      "next": "tc_c01_common_breakfast_07"
+    },
+    "tc_c01_common_breakfast_07": {
+      "id": "tc_c01_common_breakfast_07",
+      "type": "line",
+      "scene": "ts_c01_common_breakfast",
+      "speaker": "maolang",
+      "text": "“老实认。再往回圆容易把人家姓都改了。”",
+      "character": null,
+      "next": "tc_c01_common_breakfast_08"
+    },
+    "tc_c01_common_breakfast_08": {
+      "id": "tc_c01_common_breakfast_08",
+      "type": "line",
+      "scene": "ts_c01_common_breakfast",
+      "speaker": "narrator",
+      "text": "他说完问我第一班怎么样。我把“预支早上好”讲给他听，他笑得差点把辣椒呛进鼻子。",
+      "character": null,
+      "next": "tc_c01_common_breakfast_09"
+    },
+    "tc_c01_common_breakfast_09": {
+      "id": "tc_c01_common_breakfast_09",
+      "type": "line",
+      "scene": "ts_c01_common_breakfast",
+      "speaker": "narrator",
+      "text": "群里有人问晚上组不组。他打字飞快，转过屏幕给我看：“有个位置，休班的时候来。里面人都上班，没人陪你全天耗。”",
+      "character": null,
+      "next": "tc_c01_common_breakfast_10"
+    },
+    "tc_c01_common_breakfast_10": {
+      "id": "tc_c01_common_breakfast_10",
+      "type": "line",
+      "scene": "ts_c01_common_breakfast",
+      "speaker": "wenwen",
+      "text": "“以前那个队？”",
+      "character": null,
+      "next": "tc_c01_common_breakfast_11"
+    },
+    "tc_c01_common_breakfast_11": {
+      "id": "tc_c01_common_breakfast_11",
+      "type": "line",
+      "scene": "ts_c01_common_breakfast",
+      "speaker": "maolang",
+      "text": "“换过人，现在这几个合得来。你先进去，别一上来就装大神。”",
+      "character": null,
+      "next": "tc_c01_common_breakfast_12"
+    },
+    "tc_c01_common_breakfast_12": {
+      "id": "tc_c01_common_breakfast_12",
+      "type": "line",
+      "scene": "ts_c01_common_breakfast",
+      "speaker": "narrator",
+      "text": "我还想反驳，打了个很长的哈欠。",
+      "character": null,
+      "next": "tc_c01_common_breakfast_13"
+    },
+    "tc_c01_common_breakfast_13": {
+      "id": "tc_c01_common_breakfast_13",
+      "type": "line",
+      "scene": "ts_c01_common_breakfast",
+      "speaker": "narrator",
+      "text": "毛狼把我那碗没碰的面往前推：“吃完回去睡。接风活动到这里，主宾掉线了。”",
+      "character": null,
+      "next": "tc_c01_common_morning_messages_01"
+    },
+    "tc_c01_common_morning_messages_01": {
+      "id": "tc_c01_common_morning_messages_01",
+      "type": "line",
+      "scene": "ts_c01_common_morning_messages",
+      "speaker": "narrator",
+      "text": "我租的住处离网吧不远。回去以后，我把箱子放墙边，才看见手机里刚加入的群。一个灰蓝色头像发来消息。",
+      "character": null,
+      "next": "tc_c01_common_morning_messages_02"
+    },
+    "tc_c01_common_morning_messages_02": {
+      "id": "tc_c01_common_morning_messages_02",
+      "type": "line",
+      "scene": "ts_c01_common_morning_messages",
+      "speaker": "narrator",
+      "text": "“新来的报名字，别让毛狼随便给你起。”",
+      "character": null,
+      "next": "tc_c01_common_morning_messages_03"
+    },
+    "tc_c01_common_morning_messages_03": {
+      "id": "tc_c01_common_morning_messages_03",
+      "type": "line",
+      "scene": "ts_c01_common_morning_messages",
+      "speaker": "narrator",
+      "text": "我回：“文文。”",
+      "character": null,
+      "next": "tc_c01_common_morning_messages_04"
+    },
+    "tc_c01_common_morning_messages_04": {
+      "id": "tc_c01_common_morning_messages_04",
+      "type": "line",
+      "scene": "ts_c01_common_morning_messages",
+      "speaker": "narrator",
+      "text": "她回：“行。我叫叶岚。今天别回了，他说你刚下夜班。”",
+      "character": null,
+      "next": "tc_c01_common_morning_messages_05"
+    },
+    "tc_c01_common_morning_messages_05": {
+      "id": "tc_c01_common_morning_messages_05",
+      "type": "line",
+      "scene": "ts_c01_common_morning_messages",
+      "speaker": "narrator",
+      "text": "我本来还想打一段客气话，屏幕已经蹭到鼻子。醒来时，窗外到了下午。",
+      "character": null,
+      "next": "tc_c01_common_salon_01"
+    },
+    "tc_c01_common_salon_01": {
+      "id": "tc_c01_common_salon_01",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "narrator",
+      "text": "理发店的玻璃门上映出我睡乱的头发。小满拿着扫帚走过来，先看头，再看脸。",
+      "character": null,
+      "next": "tc_c01_common_salon_02"
+    },
+    "tc_c01_common_salon_02": {
+      "id": "tc_c01_common_salon_02",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "xiaoman",
+      "text": "“你这个发型，自己熬出来的？”",
+      "character": null,
+      "next": "tc_c01_common_salon_03"
+    },
+    "tc_c01_common_salon_03": {
+      "id": "tc_c01_common_salon_03",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "wenwen",
+      "text": "“睡出来的。”",
+      "character": null,
+      "next": "tc_c01_common_salon_04"
+    },
+    "tc_c01_common_salon_04": {
+      "id": "tc_c01_common_salon_04",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "xiaoman",
+      "text": "“那睡眠质量不行。发型质量也不行。”",
+      "character": null,
+      "next": "tc_c01_common_salon_05"
+    },
+    "tc_c01_common_salon_05": {
+      "id": "tc_c01_common_salon_05",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "narrator",
+      "text": "她比记忆里瘦一点，浅金短发翘在耳边。店里有人叫她，她应一声，先把地上的碎发扫完，才指了指靠窗椅子。",
+      "character": null,
+      "next": "tc_c01_common_salon_06"
+    },
+    "tc_c01_common_salon_06": {
+      "id": "tc_c01_common_salon_06",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "xiaoman",
+      "text": "“今天不能给你剪。等下有人来，师傅排满了。”",
+      "character": null,
+      "next": "tc_c01_common_salon_07"
+    },
+    "tc_c01_common_salon_07": {
+      "id": "tc_c01_common_salon_07",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "wenwen",
+      "text": "“我又没说要剪。”",
+      "character": null,
+      "next": "tc_c01_common_salon_08"
+    },
+    "tc_c01_common_salon_08": {
+      "id": "tc_c01_common_salon_08",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "xiaoman",
+      "text": "“你站在理发店里一直摸头，我只能往正常方向猜。”",
+      "character": null,
+      "next": "tc_c01_common_salon_09"
+    },
+    "tc_c01_common_salon_09": {
+      "id": "tc_c01_common_salon_09",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "narrator",
+      "text": "我说只是路过。她把一瓶常温水推过来，说路过的人也可以喝，别站着装很忙。",
+      "character": null,
+      "next": "tc_c01_common_salon_10"
+    },
+    "tc_c01_common_salon_10": {
+      "id": "tc_c01_common_salon_10",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "narrator",
+      "text": "我在椅子上坐了十分钟。她练习本摊在小桌边，发旋画得像煎蛋，旁边有个歪歪的小勾。我刚要指，她先把本子抽走。",
+      "character": null,
+      "next": "tc_c01_common_salon_11"
+    },
+    "tc_c01_common_salon_11": {
+      "id": "tc_c01_common_salon_11",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "xiaoman",
+      "text": "“老的。”",
+      "character": null,
+      "next": "tc_c01_common_salon_12"
+    },
+    "tc_c01_common_salon_12": {
+      "id": "tc_c01_common_salon_12",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "wenwen",
+      "text": "“我没说不好。”",
+      "character": null,
+      "next": "tc_c01_common_salon_13"
+    },
+    "tc_c01_common_salon_13": {
+      "id": "tc_c01_common_salon_13",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "xiaoman",
+      "text": "“你那个表情已经说了。”",
+      "character": null,
+      "next": "tc_c01_common_salon_14"
+    },
+    "tc_c01_common_salon_14": {
+      "id": "tc_c01_common_salon_14",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "narrator",
+      "text": "小时候她拿粉笔在台阶上画东西，也是这样，先把她不满意的擦掉，才肯让人看。如今擦不掉的东西多了，纸上有修改，有压得发亮的折痕。",
+      "character": null,
+      "next": "tc_c01_common_salon_15"
+    },
+    "tc_c01_common_salon_15": {
+      "id": "tc_c01_common_salon_15",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "wenwen",
+      "text": "“现在挺忙？”我问。",
+      "character": null,
+      "next": "tc_c01_common_salon_16"
+    },
+    "tc_c01_common_salon_16": {
+      "id": "tc_c01_common_salon_16",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "xiaoman",
+      "text": "“忙。也不是都忙正经的。昨天找一个发夹找了半小时，最后在自己头上。”",
+      "character": null,
+      "next": "tc_c01_common_salon_17"
+    },
+    "tc_c01_common_salon_17": {
+      "id": "tc_c01_common_salon_17",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "wenwen",
+      "text": "“这经验可以收费。”",
+      "character": null,
+      "next": "tc_c01_common_salon_18"
+    },
+    "tc_c01_common_salon_18": {
+      "id": "tc_c01_common_salon_18",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "narrator",
+      "text": "她笑了，眼睛朝门口一偏，提醒我别挡客人进来。",
+      "character": null,
+      "next": "tc_c01_common_salon_19"
+    },
+    "tc_c01_common_salon_19": {
+      "id": "tc_c01_common_salon_19",
+      "type": "line",
+      "scene": "ts_c01_common_salon",
+      "speaker": "narrator",
+      "text": "我走时，她没说下次免费剪，只说：“下回想聊天就说聊天。我好给你留椅子。”",
+      "character": null,
+      "next": "tc_c01_common_reunion_01"
+    },
+    "tc_c01_common_reunion_01": {
+      "id": "tc_c01_common_reunion_01",
+      "type": "line",
+      "scene": "ts_c01_common_reunion",
+      "speaker": "narrator",
+      "text": "我在便利店挑晚饭，听见身后有人用很耐心的声音说：“这部分我会再和他练。您先别急着把整页都撕掉，错题还能再看。”",
+      "character": null,
+      "next": "tc_c01_common_reunion_02"
+    },
+    "tc_c01_common_reunion_02": {
+      "id": "tc_c01_common_reunion_02",
+      "type": "line",
+      "scene": "ts_c01_common_reunion",
+      "speaker": "narrator",
+      "text": "孟遥挂了电话，拿着一盒酸奶，抬头见到我。",
+      "character": null,
+      "next": "tc_c01_common_reunion_03"
+    },
+    "tc_c01_common_reunion_03": {
+      "id": "tc_c01_common_reunion_03",
+      "type": "line",
+      "scene": "ts_c01_common_reunion",
+      "speaker": "narrator",
+      "text": "我们同时停了一下。",
+      "character": null,
+      "next": "tc_c01_common_reunion_04"
+    },
+    "tc_c01_common_reunion_04": {
+      "id": "tc_c01_common_reunion_04",
+      "type": "line",
+      "scene": "ts_c01_common_reunion",
+      "speaker": "mengyao",
+      "text": "“回来了？”她问。",
+      "character": null,
+      "next": "tc_c01_common_reunion_05"
+    },
+    "tc_c01_common_reunion_05": {
+      "id": "tc_c01_common_reunion_05",
+      "type": "line",
+      "scene": "ts_c01_common_reunion",
+      "speaker": "wenwen",
+      "text": "“嗯。”",
+      "character": null,
+      "next": "tc_c01_common_reunion_06"
+    },
+    "tc_c01_common_reunion_06": {
+      "id": "tc_c01_common_reunion_06",
+      "type": "line",
+      "scene": "ts_c01_common_reunion",
+      "speaker": "mengyao",
+      "text": "“听毛狼说了。夜班？”",
+      "character": null,
+      "next": "tc_c01_common_reunion_07"
+    },
+    "tc_c01_common_reunion_07": {
+      "id": "tc_c01_common_reunion_07",
+      "type": "line",
+      "scene": "ts_c01_common_reunion",
+      "speaker": "wenwen",
+      "text": "“先在网吧做着。”",
+      "character": null,
+      "next": "tc_c01_common_reunion_08"
+    },
+    "tc_c01_common_reunion_08": {
+      "id": "tc_c01_common_reunion_08",
+      "type": "line",
+      "scene": "ts_c01_common_reunion",
+      "speaker": "narrator",
+      "text": "她点点头，把手机收进包。外面有个孩子经过，叫了一声老师。她笑着应了，等人走远，才低头看酸奶的吸管。",
+      "character": null,
+      "next": "tc_c01_common_reunion_09"
+    },
+    "tc_c01_common_reunion_09": {
+      "id": "tc_c01_common_reunion_09",
+      "type": "line",
+      "scene": "ts_c01_common_reunion",
+      "speaker": "mengyao",
+      "text": "“断了。”",
+      "character": null,
+      "next": "tc_c01_common_reunion_10"
+    },
+    "tc_c01_common_reunion_10": {
+      "id": "tc_c01_common_reunion_10",
+      "type": "line",
+      "scene": "ts_c01_common_reunion",
+      "speaker": "narrator",
+      "text": "我从柜台纸盒里取一根递过去。她接过来，戳了两次才成功。",
+      "character": null,
+      "next": "tc_c01_common_reunion_11"
+    },
+    "tc_c01_common_reunion_11": {
+      "id": "tc_c01_common_reunion_11",
+      "type": "line",
+      "scene": "ts_c01_common_reunion",
+      "speaker": "wenwen",
+      "text": "“你以前玩游戏，输了也这样戳键盘。”我说。",
+      "character": null,
+      "next": "tc_c01_common_reunion_12"
+    },
+    "tc_c01_common_reunion_12": {
+      "id": "tc_c01_common_reunion_12",
+      "type": "line",
+      "scene": "ts_c01_common_reunion",
+      "speaker": "mengyao",
+      "text": "“你以前输了就说网卡。”她看我，“现在管网吧了，还打算怪谁？”",
+      "character": null,
+      "next": "tc_c01_common_reunion_13"
+    },
+    "tc_c01_common_reunion_13": {
+      "id": "tc_c01_common_reunion_13",
+      "type": "line",
+      "scene": "ts_c01_common_reunion",
+      "speaker": "narrator",
+      "text": "我笑出了声。那一瞬很像以前，笑完又不是。我们站得不远，却没人自然接过对方的袋子。",
+      "character": null,
+      "next": "tc_c01_common_reunion_14"
+    },
+    "tc_c01_common_reunion_14": {
+      "id": "tc_c01_common_reunion_14",
+      "type": "line",
+      "scene": "ts_c01_common_reunion",
+      "speaker": "narrator",
+      "text": "她现在在培训机构教英语，刚下完课，还得回去备明天的。她说到一半，我问是不是总有家长找。",
+      "character": null,
+      "next": "tc_c01_common_reunion_15"
+    },
+    "tc_c01_common_reunion_15": {
+      "id": "tc_c01_common_reunion_15",
+      "type": "line",
+      "scene": "ts_c01_common_reunion",
+      "speaker": "mengyao",
+      "text": "“也不是总有。只是有电话的时候你刚好听见。”",
+      "character": null,
+      "next": "tc_c01_common_reunion_16"
+    },
+    "tc_c01_common_reunion_16": {
+      "id": "tc_c01_common_reunion_16",
+      "type": "line",
+      "scene": "ts_c01_common_reunion",
+      "speaker": "narrator",
+      "text": "她说得很平常，我却有点尴尬。我差点又把她的一小段生活，当成我已经了解的全部。",
+      "character": null,
+      "next": "tc_c01_common_reunion_fork_01"
+    },
+    "tc_c01_common_reunion_fork_01": {
+      "id": "tc_c01_common_reunion_fork_01",
+      "type": "line",
+      "scene": "ts_c01_common_reunion_fork",
+      "speaker": "narrator",
+      "text": "两个人走到岔路口。她朝上，我朝下。",
+      "character": null,
+      "next": "tc_c01_common_reunion_choice"
+    },
+    "tc_c01_common_rhythm_record_choice": {
+      "id": "tc_c01_common_rhythm_record_choice",
+      "type": "choice",
+      "scene": "ts_c01_common_three_taps",
+      "flag": "qiuSignal",
+      "text": "我怎样对待刚才听到的声音？",
+      "choices": [
+        {
+          "label": "再听一遍，把三拍记下来",
+          "value": "record",
+          "next": "tc_c01_common_rhythm_record_01"
+        },
+        {
+          "label": "先回柜台，暂时不记",
+          "value": "ignore",
+          "next": "tc_c01_common_rhythm_ignore_01"
+        }
+      ],
+      "character": null
+    },
+    "tc_c01_common_reunion_nervous_01": {
+      "id": "tc_c01_common_reunion_nervous_01",
+      "type": "line",
+      "scene": "ts_c01_common_reunion_fork",
+      "speaker": "wenwen",
+      "text": "“刚才见你，我有点不知道说什么。”",
+      "character": null,
+      "next": "tc_c01_common_reunion_nervous_02"
+    },
+    "tc_c01_common_reunion_nervous_02": {
+      "id": "tc_c01_common_reunion_nervous_02",
+      "type": "line",
+      "scene": "ts_c01_common_reunion_fork",
+      "speaker": "narrator",
+      "text": "她手里的袋子晃了一下。",
+      "character": null,
+      "next": "tc_c01_common_reunion_nervous_03"
+    },
+    "tc_c01_common_reunion_nervous_03": {
+      "id": "tc_c01_common_reunion_nervous_03",
+      "type": "line",
+      "scene": "ts_c01_common_reunion_fork",
+      "speaker": "mengyao",
+      "text": "“看得出来。你把饭盒翻了三面。”",
+      "character": null,
+      "next": "tc_c01_common_reunion_nervous_04"
+    },
+    "tc_c01_common_reunion_nervous_04": {
+      "id": "tc_c01_common_reunion_nervous_04",
+      "type": "line",
+      "scene": "ts_c01_common_reunion_fork",
+      "speaker": "wenwen",
+      "text": "“我在看配料。”",
+      "character": null,
+      "next": "tc_c01_common_reunion_nervous_05"
+    },
+    "tc_c01_common_reunion_nervous_05": {
+      "id": "tc_c01_common_reunion_nervous_05",
+      "type": "line",
+      "scene": "ts_c01_common_reunion_fork",
+      "speaker": "mengyao",
+      "text": "“文文。”她笑得很轻，“可以就紧张，不用每句都补一句。”",
+      "character": null,
+      "next": "tc_c01_common_reunion_message_01"
+    },
+    "tc_c01_common_reunion_availability_01": {
+      "id": "tc_c01_common_reunion_availability_01",
+      "type": "line",
+      "scene": "ts_c01_common_reunion_fork",
+      "speaker": "wenwen",
+      "text": "“你哪天没那么赶？可以一起吃顿饭。”",
+      "character": null,
+      "next": "tc_c01_common_reunion_availability_02"
+    },
+    "tc_c01_common_reunion_availability_02": {
+      "id": "tc_c01_common_reunion_availability_02",
+      "type": "line",
+      "scene": "ts_c01_common_reunion_fork",
+      "speaker": "mengyao",
+      "text": "“我得看课表。”她停了停，“你也看一下自己的班。别像以前，先说哪天都行。”",
+      "character": null,
+      "next": "tc_c01_common_reunion_availability_03"
+    },
+    "tc_c01_common_reunion_availability_03": {
+      "id": "tc_c01_common_reunion_availability_03",
+      "type": "line",
+      "scene": "ts_c01_common_reunion_fork",
+      "speaker": "wenwen",
+      "text": "“行。我先看。”",
+      "character": null,
+      "next": "tc_c01_common_reunion_availability_04"
+    },
+    "tc_c01_common_reunion_availability_04": {
+      "id": "tc_c01_common_reunion_availability_04",
+      "type": "line",
+      "scene": "ts_c01_common_reunion_fork",
+      "speaker": "mengyao",
+      "text": "“这次这个‘行’，听着还可以。”",
+      "character": null,
+      "next": "tc_c01_common_reunion_message_01"
+    },
+    "tc_c01_common_reunion_choice": {
+      "id": "tc_c01_common_reunion_choice",
+      "type": "choice",
+      "scene": "ts_c01_common_reunion_fork",
+      "flag": "reunion",
+      "text": "分开前，我说什么？",
+      "choices": [
+        {
+          "label": "直接承认自己紧张",
+          "value": "nervous",
+          "next": "tc_c01_common_reunion_nervous_01"
+        },
+        {
+          "label": "先问她哪天有空",
+          "value": "availability",
+          "next": "tc_c01_common_reunion_availability_01"
+        }
+      ],
+      "character": null
+    },
+    "tc_c01_common_reunion_message_01": {
+      "id": "tc_c01_common_reunion_message_01",
+      "type": "line",
+      "scene": "ts_c01_common_reunion_fork",
+      "speaker": "narrator",
+      "text": "到坡口，我收到她的消息：“酸奶还没过期，你那个表情不用那么凝重。”",
+      "character": null,
+      "next": "tc_c01_common_reunion_message_02"
+    },
+    "tc_c01_common_reunion_message_02": {
+      "id": "tc_c01_common_reunion_message_02",
+      "type": "line",
+      "scene": "ts_c01_common_reunion_fork",
+      "speaker": "narrator",
+      "text": "我回她一个翻白眼的表情。过了一会儿，又补了一句：“见到你挺高兴。”",
+      "character": null,
+      "next": "tc_c01_common_reunion_message_03"
+    },
+    "tc_c01_common_reunion_message_03": {
+      "id": "tc_c01_common_reunion_message_03",
+      "type": "line",
+      "scene": "ts_c01_common_reunion_fork",
+      "speaker": "narrator",
+      "text": "这次我没有删。她也没有立刻把过去的事情全放下，只回：“嗯。饭记得吃。”",
+      "character": null,
+      "next": "tc_c01_common_home_game_01"
+    },
+    "tc_c01_common_home_game_01": {
+      "id": "tc_c01_common_home_game_01",
+      "type": "line",
+      "scene": "ts_c01_common_home_game",
+      "speaker": "narrator",
+      "text": "休班的晚上，我在自己的住处戴上耳机。白天睡够了，桌上放着吃了一半的炒饭，没有需要随时跑回去接待的客人。",
+      "character": null,
+      "next": "tc_c01_common_home_game_02"
+    },
+    "tc_c01_common_home_game_02": {
+      "id": "tc_c01_common_home_game_02",
+      "type": "line",
+      "scene": "ts_c01_common_home_game",
+      "speaker": "narrator",
+      "text": "毛狼把我拉进队伍，宣布今晚最大的优势是我不收费。",
+      "character": null,
+      "next": "tc_c01_common_home_game_03"
+    },
+    "tc_c01_common_home_game_03": {
+      "id": "tc_c01_common_home_game_03",
+      "type": "line",
+      "scene": "ts_c01_common_home_game",
+      "speaker": "narrator",
+      "text": "叶岚在语音里说：“那技术也不能按赠品标准来。”",
+      "character": null,
+      "next": "tc_c01_common_home_game_04"
+    },
+    "tc_c01_common_home_game_04": {
+      "id": "tc_c01_common_home_game_04",
+      "type": "line",
+      "scene": "ts_c01_common_home_game",
+      "speaker": "narrator",
+      "text": "她声音比文字活泼得多。第一局我绕错路，还没来得及解释，她已经说：“这位选手在替我们考察地图边界。”",
+      "character": null,
+      "next": "tc_c01_common_home_game_05"
+    },
+    "tc_c01_common_home_game_05": {
+      "id": "tc_c01_common_home_game_05",
+      "type": "line",
+      "scene": "ts_c01_common_home_game",
+      "speaker": "wenwen",
+      "text": "“战略。”我说。",
+      "character": null,
+      "next": "tc_c01_common_home_game_06"
+    },
+    "tc_c01_common_home_game_06": {
+      "id": "tc_c01_common_home_game_06",
+      "type": "line",
+      "scene": "ts_c01_common_home_game",
+      "speaker": "yelan",
+      "text": "“战略回头，队友在身后。”",
+      "character": null,
+      "next": "tc_c01_common_home_game_07"
+    },
+    "tc_c01_common_home_game_07": {
+      "id": "tc_c01_common_home_game_07",
+      "type": "line",
+      "scene": "ts_c01_common_home_game",
+      "speaker": "narrator",
+      "text": "毛狼笑得最响，下一秒自己先出了局。叶岚停了半拍：“刚才那个笑声，算遗言吗？”",
+      "character": null,
+      "next": "tc_c01_common_home_game_08"
+    },
+    "tc_c01_common_home_game_08": {
+      "id": "tc_c01_common_home_game_08",
+      "type": "line",
+      "scene": "ts_c01_common_home_game",
+      "speaker": "narrator",
+      "text": "我们没有赢。第二局也没有。第三局终于打回来时，三个人同时说话，我一个字都没听清，倒先笑了起来。",
+      "character": null,
+      "next": "tc_c01_common_home_game_09"
+    },
+    "tc_c01_common_home_game_09": {
+      "id": "tc_c01_common_home_game_09",
+      "type": "line",
+      "scene": "ts_c01_common_home_game",
+      "speaker": "narrator",
+      "text": "一局结束，师匠上线，只玩一会儿。他说店里有人值班，自己回家了。毛狼特意提醒我，不要因为欠着老板工资就给他让位置。",
+      "character": null,
+      "next": "tc_c01_common_home_game_10"
+    },
+    "tc_c01_common_home_game_10": {
+      "id": "tc_c01_common_home_game_10",
+      "type": "line",
+      "scene": "ts_c01_common_home_game",
+      "speaker": "narrator",
+      "text": "“谁欠谁工资？”师匠问。",
+      "character": null,
+      "next": "tc_c01_common_home_game_11"
+    },
+    "tc_c01_common_home_game_11": {
+      "id": "tc_c01_common_home_game_11",
+      "type": "line",
+      "scene": "ts_c01_common_home_game",
+      "speaker": "maolang",
+      "text": "“提前关心发薪进度。”",
+      "character": null,
+      "next": "tc_c01_common_home_game_12"
+    },
+    "tc_c01_common_home_game_12": {
+      "id": "tc_c01_common_home_game_12",
+      "type": "line",
+      "scene": "ts_c01_common_home_game",
+      "speaker": "narrator",
+      "text": "师匠玩得不熟，乱按了一下，把自己送到最危险的地方。叶岚忍着笑指路。我没忍住。他说下次换个不需要反应那么快的游戏。",
+      "character": null,
+      "next": "tc_c01_common_home_game_13"
+    },
+    "tc_c01_common_home_game_13": {
+      "id": "tc_c01_common_home_game_13",
+      "type": "line",
+      "scene": "ts_c01_common_home_game",
+      "speaker": "narrator",
+      "text": "“这个决定很有经营智慧。”毛狼说。",
+      "character": null,
+      "next": "tc_c01_common_home_game_14"
+    },
+    "tc_c01_common_home_game_14": {
+      "id": "tc_c01_common_home_game_14",
+      "type": "line",
+      "scene": "ts_c01_common_home_game",
+      "speaker": "narrator",
+      "text": "快十点，叶岚说要下了，明天还得上班。她在保险公司做内勤，一天下来不见得跑多少路，脑子却累得很。没人劝她再来最后一把。",
+      "character": null,
+      "next": "tc_c01_common_home_game_15"
+    },
+    "tc_c01_common_home_game_15": {
+      "id": "tc_c01_common_home_game_15",
+      "type": "line",
+      "scene": "ts_c01_common_home_game",
+      "speaker": "narrator",
+      "text": "耳机摘下来，屋里一下安静。我把凉掉的炒饭吃完，发现今晚过得很快。不是因为我做成了什么，只是有人接得住我那些没用的话。",
+      "character": null,
+      "next": "tc_c01_common_noodles_01"
+    },
+    "tc_c01_common_noodles_01": {
+      "id": "tc_c01_common_noodles_01",
+      "type": "line",
+      "scene": "ts_c01_common_noodles",
+      "speaker": "narrator",
+      "text": "毛狼约我吃一碗面，说朋友也在。周栀坐在里面，正在给自己的碗拌辣椒。",
+      "character": null,
+      "next": "tc_c01_common_noodles_02"
+    },
+    "tc_c01_common_noodles_02": {
+      "id": "tc_c01_common_noodles_02",
+      "type": "line",
+      "scene": "ts_c01_common_noodles",
+      "speaker": "zhouzhi",
+      "text": "“他是不是说就他一个？”她问我。",
+      "character": null,
+      "next": "tc_c01_common_noodles_03"
+    },
+    "tc_c01_common_noodles_03": {
+      "id": "tc_c01_common_noodles_03",
+      "type": "line",
+      "scene": "ts_c01_common_noodles",
+      "speaker": "wenwen",
+      "text": "“他说朋友在。”",
+      "character": null,
+      "next": "tc_c01_common_noodles_04"
+    },
+    "tc_c01_common_noodles_04": {
+      "id": "tc_c01_common_noodles_04",
+      "type": "line",
+      "scene": "ts_c01_common_noodles",
+      "speaker": "zhouzhi",
+      "text": "“进步了。上回他说顺便吃饭，带来四个人。”",
+      "character": null,
+      "next": "tc_c01_common_noodles_05"
+    },
+    "tc_c01_common_noodles_05": {
+      "id": "tc_c01_common_noodles_05",
+      "type": "line",
+      "scene": "ts_c01_common_noodles",
+      "speaker": "narrator",
+      "text": "毛狼把椅子拖开：“人多热闹。”",
+      "character": null,
+      "next": "tc_c01_common_noodles_06"
+    },
+    "tc_c01_common_noodles_06": {
+      "id": "tc_c01_common_noodles_06",
+      "type": "line",
+      "scene": "ts_c01_common_noodles",
+      "speaker": "zhouzhi",
+      "text": "“付账的时候也要这么想。”",
+      "character": null,
+      "next": "tc_c01_common_noodles_07"
+    },
+    "tc_c01_common_noodles_07": {
+      "id": "tc_c01_common_noodles_07",
+      "type": "line",
+      "scene": "ts_c01_common_noodles",
+      "speaker": "narrator",
+      "text": "周栀在回声做陪唱。她晚上才去上班，吃东西很专心，说话也不耽误。她听说我是夜班网管，先问的是下班能不能睡着。",
+      "character": null,
+      "next": "tc_c01_common_noodles_08"
+    },
+    "tc_c01_common_noodles_08": {
+      "id": "tc_c01_common_noodles_08",
+      "type": "line",
+      "scene": "ts_c01_common_noodles",
+      "speaker": "wenwen",
+      "text": "“前几天睡得像断电。”",
+      "character": null,
+      "next": "tc_c01_common_noodles_09"
+    },
+    "tc_c01_common_noodles_09": {
+      "id": "tc_c01_common_noodles_09",
+      "type": "line",
+      "scene": "ts_c01_common_noodles",
+      "speaker": "zhouzhi",
+      "text": "“那挺好。别为了晚上有人喊你玩，白天也不肯睡。”",
+      "character": null,
+      "next": "tc_c01_common_noodles_10"
+    },
+    "tc_c01_common_noodles_10": {
+      "id": "tc_c01_common_noodles_10",
+      "type": "line",
+      "scene": "ts_c01_common_noodles",
+      "speaker": "narrator",
+      "text": "毛狼举手表示自己不是随叫随到的睡眠破坏者。她给他一张纸，让他先擦掉嘴角的油。",
+      "character": null,
+      "next": "tc_c01_common_noodles_11"
+    },
+    "tc_c01_common_noodles_11": {
+      "id": "tc_c01_common_noodles_11",
+      "type": "line",
+      "scene": "ts_c01_common_noodles",
+      "speaker": "narrator",
+      "text": "我看到她的面还没拌匀，问要不要再加点汤。她说不用，自己就爱吃干一点的，又把汤碗朝我推开一点，留出放手的位置。",
+      "character": null,
+      "next": "tc_c01_common_noodles_12"
+    },
+    "tc_c01_common_noodles_12": {
+      "id": "tc_c01_common_noodles_12",
+      "type": "line",
+      "scene": "ts_c01_common_noodles",
+      "speaker": "zhouzhi",
+      "text": "“你爱怎么吃就怎么吃。别看我放辣椒，你也跟着加。”",
+      "character": null,
+      "next": "tc_c01_common_noodles_13"
+    },
+    "tc_c01_common_noodles_13": {
+      "id": "tc_c01_common_noodles_13",
+      "type": "line",
+      "scene": "ts_c01_common_noodles",
+      "speaker": "narrator",
+      "text": "我收回刚拿起的勺子。她笑出声，没给我找台阶，毛狼也没有。我只好自己认了：“我还以为你们这里吃面都得这样。”",
+      "character": null,
+      "next": "tc_c01_common_noodles_14"
+    },
+    "tc_c01_common_noodles_14": {
+      "id": "tc_c01_common_noodles_14",
+      "type": "line",
+      "scene": "ts_c01_common_noodles",
+      "speaker": "zhouzhi",
+      "text": "“这里的人也有胃口差的时候。”她说。",
+      "character": null,
+      "next": "tc_c01_common_noodles_15"
+    },
+    "tc_c01_common_noodles_15": {
+      "id": "tc_c01_common_noodles_15",
+      "type": "line",
+      "scene": "ts_c01_common_noodles",
+      "speaker": "narrator",
+      "text": "她和朋友想试着做夜宵，讲起一回备菜顺序弄反，青菜先切出来放蔫，自己都笑。不是邀请我投资，更没要我替她想好以后，只是在一顿饭里告诉我，她最近喜欢琢磨什么。",
+      "character": null,
+      "next": "tc_c01_common_noodles_16"
+    },
+    "tc_c01_common_noodles_16": {
+      "id": "tc_c01_common_noodles_16",
+      "type": "line",
+      "scene": "ts_c01_common_noodles",
+      "speaker": "narrator",
+      "text": "快六点，她先走。我回去歇一阵，十点再上班。日子开始有一点形状：别人的晚饭，我的上班前；别人的清早，我的一天结束。",
+      "character": null,
+      "next": "tc_c01_common_piao_meal_01"
+    },
+    "tc_c01_common_piao_meal_01": {
+      "id": "tc_c01_common_piao_meal_01",
+      "type": "line",
+      "scene": "ts_c01_common_piao_meal",
+      "speaker": "narrator",
+      "text": "今天约饭的是毛狼，先到的是飘。",
+      "character": null,
+      "next": "tc_c01_common_piao_meal_02"
+    },
+    "tc_c01_common_piao_meal_02": {
+      "id": "tc_c01_common_piao_meal_02",
+      "type": "line",
+      "scene": "ts_c01_common_piao_meal",
+      "speaker": "narrator",
+      "text": "她把一本薄本子放在桌边，见我过来，先把椅子往里推。毛狼昨天已在三个人的小群里互相介绍过，我不用假装第一次知道她的名字。",
+      "character": null,
+      "next": "tc_c01_common_piao_meal_03"
+    },
+    "tc_c01_common_piao_meal_03": {
+      "id": "tc_c01_common_piao_meal_03",
+      "type": "line",
+      "scene": "ts_c01_common_piao_meal",
+      "speaker": "piao",
+      "text": "“文文？”",
+      "character": null,
+      "next": "tc_c01_common_piao_meal_04"
+    },
+    "tc_c01_common_piao_meal_04": {
+      "id": "tc_c01_common_piao_meal_04",
+      "type": "line",
+      "scene": "ts_c01_common_piao_meal",
+      "speaker": "wenwen",
+      "text": "“嗯。飘？”",
+      "character": null,
+      "next": "tc_c01_common_piao_meal_05"
+    },
+    "tc_c01_common_piao_meal_05": {
+      "id": "tc_c01_common_piao_meal_05",
+      "type": "line",
+      "scene": "ts_c01_common_piao_meal",
+      "speaker": "piao",
+      "text": "“这段介绍效率挺高。”她说。",
+      "character": null,
+      "next": "tc_c01_common_piao_meal_06"
+    },
+    "tc_c01_common_piao_meal_06": {
+      "id": "tc_c01_common_piao_meal_06",
+      "type": "line",
+      "scene": "ts_c01_common_piao_meal",
+      "speaker": "narrator",
+      "text": "我坐下。她回毕节没多久，现在没上班。她说这句话时没有压低声音，也没顺势问我是不是觉得待业不好。我于是也不用急着安慰。",
+      "character": null,
+      "next": "tc_c01_common_piao_meal_07"
+    },
+    "tc_c01_common_piao_meal_07": {
+      "id": "tc_c01_common_piao_meal_07",
+      "type": "line",
+      "scene": "ts_c01_common_piao_meal",
+      "speaker": "narrator",
+      "text": "本子里夹着老街店门的手绘轮廓，还有几句不同笔迹的话。她想做一本小册子，记些店里的人愿意留下的事，名字先不急着定。她又说起巷里那家凉糕店，打算改天去尝尝，问我吃过没有。我摇头，她说那以后可以一起试。",
+      "character": null,
+      "next": "tc_c01_common_piao_meal_08"
+    },
+    "tc_c01_common_piao_meal_08": {
+      "id": "tc_c01_common_piao_meal_08",
+      "type": "line",
+      "scene": "ts_c01_common_piao_meal",
+      "speaker": "wenwen",
+      "text": "“这句为什么没写完？”我指着半行字问。",
+      "character": null,
+      "next": "tc_c01_common_piao_meal_09"
+    },
+    "tc_c01_common_piao_meal_09": {
+      "id": "tc_c01_common_piao_meal_09",
+      "type": "line",
+      "scene": "ts_c01_common_piao_meal",
+      "speaker": "piao",
+      "text": "“人家讲到这里就不想讲了。”",
+      "character": null,
+      "next": "tc_c01_common_piao_meal_10"
+    },
+    "tc_c01_common_piao_meal_10": {
+      "id": "tc_c01_common_piao_meal_10",
+      "type": "line",
+      "scene": "ts_c01_common_piao_meal",
+      "speaker": "wenwen",
+      "text": "“空着？”",
+      "character": null,
+      "next": "tc_c01_common_piao_meal_11"
+    },
+    "tc_c01_common_piao_meal_11": {
+      "id": "tc_c01_common_piao_meal_11",
+      "type": "line",
+      "scene": "ts_c01_common_piao_meal",
+      "speaker": "piao",
+      "text": "“嗯。等他哪天想补。也可能一直不补。”",
+      "character": null,
+      "next": "tc_c01_common_piao_meal_12"
+    },
+    "tc_c01_common_piao_meal_12": {
+      "id": "tc_c01_common_piao_meal_12",
+      "type": "line",
+      "scene": "ts_c01_common_piao_meal",
+      "speaker": "narrator",
+      "text": "毛狼推门进来，气还没喘匀，先说自己差点被演出临时加活留住。飘把菜单递给他：“先点。你的迟到感言等菜来。”",
+      "character": null,
+      "next": "tc_c01_common_piao_meal_13"
+    },
+    "tc_c01_common_piao_meal_13": {
+      "id": "tc_c01_common_piao_meal_13",
+      "type": "line",
+      "scene": "ts_c01_common_piao_meal",
+      "speaker": "narrator",
+      "text": "他果然等菜来才开始讲。讲到自己被一位阿姨夸台风稳，飘问是不是风真的大，他愣住，我笑得停不下来。",
+      "character": null,
+      "next": "tc_c01_common_piao_meal_14"
+    },
+    "tc_c01_common_piao_meal_14": {
+      "id": "tc_c01_common_piao_meal_14",
+      "type": "line",
+      "scene": "ts_c01_common_piao_meal",
+      "speaker": "narrator",
+      "text": "后来他问她下回去不去走走，她说可以先看自己安排。那句话里有认真考虑，也没有当场许诺。我看了她一眼，她正把菜单底下垫歪的纸抽出来。",
+      "character": null,
+      "next": "tc_c01_common_two_umbrellas_01"
+    },
+    "tc_c01_common_two_umbrellas_01": {
+      "id": "tc_c01_common_two_umbrellas_01",
+      "type": "line",
+      "scene": "ts_c01_common_two_umbrellas",
+      "speaker": "narrator",
+      "text": "吃完，雨还没停。飘打开伞，毛狼也有，我的伞落在网吧。",
+      "character": null,
+      "next": "tc_c01_common_two_umbrellas_02"
+    },
+    "tc_c01_common_two_umbrellas_02": {
+      "id": "tc_c01_common_two_umbrellas_02",
+      "type": "line",
+      "scene": "ts_c01_common_two_umbrellas",
+      "speaker": "piao",
+      "text": "“你先跟我们走到路口。”她说，“那边有屋檐。”",
+      "character": null,
+      "next": "tc_c01_common_two_umbrellas_03"
+    },
+    "tc_c01_common_two_umbrellas_03": {
+      "id": "tc_c01_common_two_umbrellas_03",
+      "type": "line",
+      "scene": "ts_c01_common_two_umbrellas",
+      "speaker": "narrator",
+      "text": "三个人两把伞，谁都没挨得特别近。毛狼为了不踩水，走得像临时编了一段舞。",
+      "character": null,
+      "next": "tc_c01_common_two_umbrellas_04"
+    },
+    "tc_c01_common_two_umbrellas_04": {
+      "id": "tc_c01_common_two_umbrellas_04",
+      "type": "line",
+      "scene": "ts_c01_common_two_umbrellas",
+      "speaker": "narrator",
+      "text": "我在路口停下，看他们往另一边走。手机里多了几个人的消息，屋里还有没收拾完的箱子，今晚照样要上班。",
+      "character": null,
+      "next": "tc_c01_common_two_umbrellas_05"
+    },
+    "tc_c01_common_two_umbrellas_05": {
+      "id": "tc_c01_common_two_umbrellas_05",
+      "type": "line",
+      "scene": "ts_c01_common_two_umbrellas",
+      "speaker": "narrator",
+      "text": "但我已经不像刚下大巴时那样，觉得整个城市只听得见箱子轮子的响声了。",
+      "character": null,
+      "next": "tc_c01_common_exit"
+    },
+    "tc_c01_common_exit": {
+      "id": "tc_c01_common_exit",
+      "type": "end",
+      "scene": "ts_c01_common_chapter_end",
+      "title": "第一章 · 凌晨六点的早餐",
+      "text": "",
+      "character": null,
+      "next": "tc_c02_common_entry",
+      "nextChapter": "第二章 · 语音里的那个人"
+    }
+  },
+  "imports": [
+    "tc_c02_common_entry"
+  ],
+  "exports": {
+    "tc_c01_common_entry": "tc_c01_common_entry",
+    "tc_c01_common_exit": "tc_c01_common_exit"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 7,
+      "endLine": 7,
+      "nodeIds": [
+        "tc_c01_common_exit"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 7,
+      "endLine": 7,
+      "nodeIds": [
+        "tc_c01_common_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c01_common_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 11,
+      "endLine": 11,
+      "nodeIds": [
+        "tc_c01_common_arrival_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 13,
+      "endLine": 13,
+      "nodeIds": [
+        "tc_c01_common_arrival_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 15,
+      "endLine": 15,
+      "nodeIds": [
+        "tc_c01_common_arrival_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 17,
+      "endLine": 17,
+      "nodeIds": [
+        "tc_c01_common_arrival_05"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 19,
+      "endLine": 19,
+      "nodeIds": [
+        "tc_c01_common_slope_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 19,
+      "endLine": 19,
+      "nodeIds": [
+        "tc_c01_common_slope_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 21,
+      "endLine": 21,
+      "nodeIds": [
+        "tc_c01_common_slope_02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 23,
+      "endLine": 23,
+      "nodeIds": [
+        "tc_c01_common_slope_03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 25,
+      "endLine": 25,
+      "nodeIds": [
+        "tc_c01_common_slope_04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 27,
+      "endLine": 27,
+      "nodeIds": [
+        "tc_c01_common_job_talk_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 27,
+      "endLine": 27,
+      "nodeIds": [
+        "tc_c01_common_job_talk_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 29,
+      "endLine": 29,
+      "nodeIds": [
+        "tc_c01_common_job_talk_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 31,
+      "endLine": 31,
+      "nodeIds": [
+        "tc_c01_common_job_talk_03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 33,
+      "endLine": 33,
+      "nodeIds": [
+        "tc_c01_common_job_talk_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 35,
+      "endLine": 35,
+      "nodeIds": [
+        "tc_c01_common_job_talk_05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 37,
+      "endLine": 37,
+      "nodeIds": [
+        "tc_c01_common_job_talk_06"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 39,
+      "endLine": 39,
+      "nodeIds": [
+        "tc_c01_common_job_talk_07"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 41,
+      "endLine": 41,
+      "nodeIds": [
+        "tc_c01_common_job_talk_08"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 43,
+      "endLine": 43,
+      "nodeIds": [
+        "tc_c01_common_job_talk_09"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 45,
+      "endLine": 45,
+      "nodeIds": [
+        "tc_c01_common_job_talk_10"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 47,
+      "endLine": 47,
+      "nodeIds": [
+        "tc_c01_common_job_talk_11"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 49,
+      "endLine": 49,
+      "nodeIds": [
+        "tc_c01_common_job_talk_12"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 51,
+      "endLine": 51,
+      "nodeIds": [
+        "tc_c01_common_job_talk_13"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 53,
+      "endLine": 53,
+      "nodeIds": [
+        "tc_c01_common_three_taps_01"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 55,
+      "endLine": 55,
+      "nodeIds": [
+        "tc_c01_common_three_taps_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 57,
+      "endLine": 57,
+      "nodeIds": [
+        "tc_c01_common_three_taps_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 59,
+      "endLine": 59,
+      "nodeIds": [
+        "tc_c01_common_three_taps_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 61,
+      "endLine": 61,
+      "nodeIds": [
+        "tc_c01_common_three_taps_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 63,
+      "endLine": 63,
+      "nodeIds": [
+        "tc_c01_common_three_taps_05"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 65,
+      "endLine": 65,
+      "nodeIds": [
+        "tc_c01_common_three_taps_06"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 67,
+      "endLine": 67,
+      "nodeIds": [
+        "tc_c01_common_rhythm_record_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 69,
+      "endLine": 69,
+      "nodeIds": [
+        "tc_c01_common_rhythm_record_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 71,
+      "endLine": 71,
+      "nodeIds": [
+        "tc_c01_common_rhythm_record_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 73,
+      "endLine": 73,
+      "nodeIds": [
+        "tc_c01_common_rhythm_record_02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 75,
+      "endLine": 75,
+      "nodeIds": [
+        "tc_c01_common_rhythm_record_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 77,
+      "endLine": 77,
+      "nodeIds": [
+        "tc_c01_common_rhythm_record_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 81,
+      "endLine": 81,
+      "nodeIds": [
+        "tc_c01_common_rhythm_record_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 83,
+      "endLine": 83,
+      "nodeIds": [
+        "tc_c01_common_rhythm_ignore_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 83,
+      "endLine": 83,
+      "nodeIds": [
+        "tc_c01_common_rhythm_ignore_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 85,
+      "endLine": 85,
+      "nodeIds": [
+        "tc_c01_common_rhythm_ignore_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 91,
+      "endLine": 91,
+      "nodeIds": [
+        "tc_c01_common_first_shift_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 91,
+      "endLine": 91,
+      "nodeIds": [
+        "tc_c01_common_first_shift_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 93,
+      "endLine": 93,
+      "nodeIds": [
+        "tc_c01_common_first_shift_02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 95,
+      "endLine": 95,
+      "nodeIds": [
+        "tc_c01_common_first_shift_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 97,
+      "endLine": 97,
+      "nodeIds": [
+        "tc_c01_common_night_greeting_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 97,
+      "endLine": 97,
+      "nodeIds": [
+        "tc_c01_common_night_greeting_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 99,
+      "endLine": 99,
+      "nodeIds": [
+        "tc_c01_common_night_greeting_02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 101,
+      "endLine": 101,
+      "nodeIds": [
+        "tc_c01_common_night_greeting_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 103,
+      "endLine": 103,
+      "nodeIds": [
+        "tc_c01_common_night_greeting_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 105,
+      "endLine": 105,
+      "nodeIds": [
+        "tc_c01_common_breakfast_01"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 107,
+      "endLine": 107,
+      "nodeIds": [
+        "tc_c01_common_handover_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 107,
+      "endLine": 107,
+      "nodeIds": [
+        "tc_c01_common_handover_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 109,
+      "endLine": 109,
+      "nodeIds": [
+        "tc_c01_common_breakfast_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 111,
+      "endLine": 111,
+      "nodeIds": [
+        "tc_c01_common_breakfast_02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 113,
+      "endLine": 113,
+      "nodeIds": [
+        "tc_c01_common_breakfast_03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 115,
+      "endLine": 115,
+      "nodeIds": [
+        "tc_c01_common_breakfast_04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 117,
+      "endLine": 117,
+      "nodeIds": [
+        "tc_c01_common_breakfast_05"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 119,
+      "endLine": 119,
+      "nodeIds": [
+        "tc_c01_common_breakfast_06"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 121,
+      "endLine": 121,
+      "nodeIds": [
+        "tc_c01_common_breakfast_07"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 123,
+      "endLine": 123,
+      "nodeIds": [
+        "tc_c01_common_breakfast_08"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 125,
+      "endLine": 125,
+      "nodeIds": [
+        "tc_c01_common_breakfast_09"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 127,
+      "endLine": 127,
+      "nodeIds": [
+        "tc_c01_common_breakfast_10"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 129,
+      "endLine": 129,
+      "nodeIds": [
+        "tc_c01_common_breakfast_11"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 131,
+      "endLine": 131,
+      "nodeIds": [
+        "tc_c01_common_breakfast_12"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 133,
+      "endLine": 133,
+      "nodeIds": [
+        "tc_c01_common_breakfast_13"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 135,
+      "endLine": 135,
+      "nodeIds": [
+        "tc_c01_common_morning_messages_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 135,
+      "endLine": 135,
+      "nodeIds": [
+        "tc_c01_common_morning_messages_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 137,
+      "endLine": 137,
+      "nodeIds": [
+        "tc_c01_common_morning_messages_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 139,
+      "endLine": 139,
+      "nodeIds": [
+        "tc_c01_common_morning_messages_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 141,
+      "endLine": 141,
+      "nodeIds": [
+        "tc_c01_common_morning_messages_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 143,
+      "endLine": 143,
+      "nodeIds": [
+        "tc_c01_common_morning_messages_05"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 145,
+      "endLine": 145,
+      "nodeIds": [
+        "tc_c01_common_salon_01"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 147,
+      "endLine": 147,
+      "nodeIds": [
+        "tc_c01_common_salon_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 149,
+      "endLine": 149,
+      "nodeIds": [
+        "tc_c01_common_salon_02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 151,
+      "endLine": 151,
+      "nodeIds": [
+        "tc_c01_common_salon_03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 153,
+      "endLine": 153,
+      "nodeIds": [
+        "tc_c01_common_salon_04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 155,
+      "endLine": 155,
+      "nodeIds": [
+        "tc_c01_common_salon_05"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 157,
+      "endLine": 157,
+      "nodeIds": [
+        "tc_c01_common_salon_06"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 159,
+      "endLine": 159,
+      "nodeIds": [
+        "tc_c01_common_salon_07"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 161,
+      "endLine": 161,
+      "nodeIds": [
+        "tc_c01_common_salon_08"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 163,
+      "endLine": 163,
+      "nodeIds": [
+        "tc_c01_common_salon_09"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 165,
+      "endLine": 165,
+      "nodeIds": [
+        "tc_c01_common_salon_10"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 167,
+      "endLine": 167,
+      "nodeIds": [
+        "tc_c01_common_salon_11"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 169,
+      "endLine": 169,
+      "nodeIds": [
+        "tc_c01_common_salon_12"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 171,
+      "endLine": 171,
+      "nodeIds": [
+        "tc_c01_common_salon_13"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 173,
+      "endLine": 173,
+      "nodeIds": [
+        "tc_c01_common_salon_14"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 175,
+      "endLine": 175,
+      "nodeIds": [
+        "tc_c01_common_salon_15"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 177,
+      "endLine": 177,
+      "nodeIds": [
+        "tc_c01_common_salon_16"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 179,
+      "endLine": 179,
+      "nodeIds": [
+        "tc_c01_common_salon_17"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 181,
+      "endLine": 181,
+      "nodeIds": [
+        "tc_c01_common_salon_18"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 183,
+      "endLine": 183,
+      "nodeIds": [
+        "tc_c01_common_salon_19"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 185,
+      "endLine": 185,
+      "nodeIds": [
+        "tc_c01_common_reunion_01"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 187,
+      "endLine": 187,
+      "nodeIds": [
+        "tc_c01_common_reunion_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 189,
+      "endLine": 189,
+      "nodeIds": [
+        "tc_c01_common_reunion_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 191,
+      "endLine": 191,
+      "nodeIds": [
+        "tc_c01_common_reunion_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 193,
+      "endLine": 193,
+      "nodeIds": [
+        "tc_c01_common_reunion_04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 195,
+      "endLine": 195,
+      "nodeIds": [
+        "tc_c01_common_reunion_05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 197,
+      "endLine": 197,
+      "nodeIds": [
+        "tc_c01_common_reunion_06"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 199,
+      "endLine": 199,
+      "nodeIds": [
+        "tc_c01_common_reunion_07"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 201,
+      "endLine": 201,
+      "nodeIds": [
+        "tc_c01_common_reunion_08"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 203,
+      "endLine": 203,
+      "nodeIds": [
+        "tc_c01_common_reunion_09"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 205,
+      "endLine": 205,
+      "nodeIds": [
+        "tc_c01_common_reunion_10"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 207,
+      "endLine": 207,
+      "nodeIds": [
+        "tc_c01_common_reunion_11"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 209,
+      "endLine": 209,
+      "nodeIds": [
+        "tc_c01_common_reunion_12"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 211,
+      "endLine": 211,
+      "nodeIds": [
+        "tc_c01_common_reunion_13"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 213,
+      "endLine": 213,
+      "nodeIds": [
+        "tc_c01_common_reunion_14"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 215,
+      "endLine": 215,
+      "nodeIds": [
+        "tc_c01_common_reunion_15"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 217,
+      "endLine": 217,
+      "nodeIds": [
+        "tc_c01_common_reunion_16"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 219,
+      "endLine": 219,
+      "nodeIds": [
+        "tc_c01_common_reunion_fork_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 219,
+      "endLine": 219,
+      "nodeIds": [
+        "tc_c01_common_reunion_fork_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 221,
+      "endLine": 221,
+      "nodeIds": [
+        "tc_c01_common_reunion_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 223,
+      "endLine": 223,
+      "nodeIds": [
+        "tc_c01_common_reunion_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 225,
+      "endLine": 225,
+      "nodeIds": [
+        "tc_c01_common_reunion_nervous_01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 227,
+      "endLine": 227,
+      "nodeIds": [
+        "tc_c01_common_reunion_nervous_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 229,
+      "endLine": 229,
+      "nodeIds": [
+        "tc_c01_common_reunion_nervous_03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 231,
+      "endLine": 231,
+      "nodeIds": [
+        "tc_c01_common_reunion_nervous_04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 233,
+      "endLine": 233,
+      "nodeIds": [
+        "tc_c01_common_reunion_nervous_05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 235,
+      "endLine": 235,
+      "nodeIds": [
+        "tc_c01_common_reunion_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 237,
+      "endLine": 237,
+      "nodeIds": [
+        "tc_c01_common_reunion_availability_01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 239,
+      "endLine": 239,
+      "nodeIds": [
+        "tc_c01_common_reunion_availability_02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 241,
+      "endLine": 241,
+      "nodeIds": [
+        "tc_c01_common_reunion_availability_03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 243,
+      "endLine": 243,
+      "nodeIds": [
+        "tc_c01_common_reunion_availability_04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 247,
+      "endLine": 247,
+      "nodeIds": [
+        "tc_c01_common_reunion_message_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 249,
+      "endLine": 249,
+      "nodeIds": [
+        "tc_c01_common_reunion_message_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 251,
+      "endLine": 251,
+      "nodeIds": [
+        "tc_c01_common_reunion_message_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 253,
+      "endLine": 253,
+      "nodeIds": [
+        "tc_c01_common_home_game_01"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 255,
+      "endLine": 255,
+      "nodeIds": [
+        "tc_c01_common_home_game_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 257,
+      "endLine": 257,
+      "nodeIds": [
+        "tc_c01_common_home_game_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 259,
+      "endLine": 259,
+      "nodeIds": [
+        "tc_c01_common_home_game_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 261,
+      "endLine": 261,
+      "nodeIds": [
+        "tc_c01_common_home_game_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 263,
+      "endLine": 263,
+      "nodeIds": [
+        "tc_c01_common_home_game_05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 265,
+      "endLine": 265,
+      "nodeIds": [
+        "tc_c01_common_home_game_06"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 267,
+      "endLine": 267,
+      "nodeIds": [
+        "tc_c01_common_home_game_07"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 269,
+      "endLine": 269,
+      "nodeIds": [
+        "tc_c01_common_home_game_08"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 271,
+      "endLine": 271,
+      "nodeIds": [
+        "tc_c01_common_home_game_09"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 273,
+      "endLine": 273,
+      "nodeIds": [
+        "tc_c01_common_home_game_10"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 275,
+      "endLine": 275,
+      "nodeIds": [
+        "tc_c01_common_home_game_11"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 277,
+      "endLine": 277,
+      "nodeIds": [
+        "tc_c01_common_home_game_12"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 279,
+      "endLine": 279,
+      "nodeIds": [
+        "tc_c01_common_home_game_13"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 281,
+      "endLine": 281,
+      "nodeIds": [
+        "tc_c01_common_home_game_14"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 283,
+      "endLine": 283,
+      "nodeIds": [
+        "tc_c01_common_home_game_15"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 285,
+      "endLine": 285,
+      "nodeIds": [
+        "tc_c01_common_noodles_01"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 287,
+      "endLine": 287,
+      "nodeIds": [
+        "tc_c01_common_noodles_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 289,
+      "endLine": 289,
+      "nodeIds": [
+        "tc_c01_common_noodles_02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 291,
+      "endLine": 291,
+      "nodeIds": [
+        "tc_c01_common_noodles_03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 293,
+      "endLine": 293,
+      "nodeIds": [
+        "tc_c01_common_noodles_04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 295,
+      "endLine": 295,
+      "nodeIds": [
+        "tc_c01_common_noodles_05"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 297,
+      "endLine": 297,
+      "nodeIds": [
+        "tc_c01_common_noodles_06"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 299,
+      "endLine": 299,
+      "nodeIds": [
+        "tc_c01_common_noodles_07"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 301,
+      "endLine": 301,
+      "nodeIds": [
+        "tc_c01_common_noodles_08"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 303,
+      "endLine": 303,
+      "nodeIds": [
+        "tc_c01_common_noodles_09"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 305,
+      "endLine": 305,
+      "nodeIds": [
+        "tc_c01_common_noodles_10"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 307,
+      "endLine": 307,
+      "nodeIds": [
+        "tc_c01_common_noodles_11"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 309,
+      "endLine": 309,
+      "nodeIds": [
+        "tc_c01_common_noodles_12"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 311,
+      "endLine": 311,
+      "nodeIds": [
+        "tc_c01_common_noodles_13"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 313,
+      "endLine": 313,
+      "nodeIds": [
+        "tc_c01_common_noodles_14"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 315,
+      "endLine": 315,
+      "nodeIds": [
+        "tc_c01_common_noodles_15"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 317,
+      "endLine": 317,
+      "nodeIds": [
+        "tc_c01_common_noodles_16"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 319,
+      "endLine": 319,
+      "nodeIds": [
+        "tc_c01_common_piao_meal_01"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 321,
+      "endLine": 321,
+      "nodeIds": [
+        "tc_c01_common_piao_meal_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 323,
+      "endLine": 323,
+      "nodeIds": [
+        "tc_c01_common_piao_meal_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 325,
+      "endLine": 325,
+      "nodeIds": [
+        "tc_c01_common_piao_meal_03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 327,
+      "endLine": 327,
+      "nodeIds": [
+        "tc_c01_common_piao_meal_04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 329,
+      "endLine": 329,
+      "nodeIds": [
+        "tc_c01_common_piao_meal_05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 331,
+      "endLine": 331,
+      "nodeIds": [
+        "tc_c01_common_piao_meal_06"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 333,
+      "endLine": 333,
+      "nodeIds": [
+        "tc_c01_common_piao_meal_07"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 335,
+      "endLine": 335,
+      "nodeIds": [
+        "tc_c01_common_piao_meal_08"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 337,
+      "endLine": 337,
+      "nodeIds": [
+        "tc_c01_common_piao_meal_09"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 339,
+      "endLine": 339,
+      "nodeIds": [
+        "tc_c01_common_piao_meal_10"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 341,
+      "endLine": 341,
+      "nodeIds": [
+        "tc_c01_common_piao_meal_11"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 343,
+      "endLine": 343,
+      "nodeIds": [
+        "tc_c01_common_piao_meal_12"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 345,
+      "endLine": 345,
+      "nodeIds": [
+        "tc_c01_common_piao_meal_13"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 347,
+      "endLine": 347,
+      "nodeIds": [
+        "tc_c01_common_piao_meal_14"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 349,
+      "endLine": 349,
+      "nodeIds": [
+        "tc_c01_common_two_umbrellas_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 349,
+      "endLine": 349,
+      "nodeIds": [
+        "tc_c01_common_two_umbrellas_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 351,
+      "endLine": 351,
+      "nodeIds": [
+        "tc_c01_common_two_umbrellas_02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 353,
+      "endLine": 353,
+      "nodeIds": [
+        "tc_c01_common_two_umbrellas_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 355,
+      "endLine": 355,
+      "nodeIds": [
+        "tc_c01_common_two_umbrellas_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 357,
+      "endLine": 357,
+      "nodeIds": [
+        "tc_c01_common_two_umbrellas_05"
+      ],
+      "kind": "narration"
+    }
+  ],
+  "exclusions": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 1,
+      "endLine": 1,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 3,
+      "endLine": 3,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 5,
+      "endLine": 5,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 79,
+      "endLine": 79,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 87,
+      "endLine": 87,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 89,
+      "endLine": 89,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 245,
+      "endLine": 245,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 359,
+      "endLine": 359,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 361,
+      "endLine": 361,
+      "reason": "navigation"
+    }
+  ],
+  "assetRequests": [
+    {
+      "id": "e01-art-ch01",
+      "a01Ids": [
+        "tc-bg-backdoor-night",
+        "tc-bg-breakfast-dawn",
+        "tc-bg-busstop-day",
+        "tc-bg-convenience-day",
+        "tc-bg-eaves-day",
+        "tc-bg-food-dusk",
+        "tc-bg-netcafe-counter-day",
+        "tc-bg-netcafe-counter-night",
+        "tc-bg-rental-day",
+        "tc-bg-rental-night",
+        "tc-bg-salon-day",
+        "tc-bg-slope-day",
+        "tc-char-maolang-human-base",
+        "tc-char-maolang-human-expression-smile",
+        "tc-char-mengyao-human-base",
+        "tc-char-mengyao-human-expression-hesitant",
+        "tc-char-mengyao-human-expression-smile",
+        "tc-char-piao-human-base",
+        "tc-char-piao-human-expression-smile",
+        "tc-char-shijiang-human-base",
+        "tc-char-shijiang-human-expression-serious",
+        "tc-char-shijiang-human-expression-smile",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-hesitant",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-wenwen-human-expression-tired",
+        "tc-char-xiaoman-human-base",
+        "tc-char-xiaoman-human-expression-hesitant",
+        "tc-char-xiaoman-human-expression-smile",
+        "tc-char-yelan-human-base",
+        "tc-char-zhouzhi-human-base",
+        "tc-char-zhouzhi-human-expression-smile",
+        "tc-look-xiaoman-work-apron"
+      ]
+    }
+  ]
+}

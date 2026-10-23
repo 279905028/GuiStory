@@ -1,0 +1,312 @@
+{
+  "status": "passed",
+  "runAt": "2026-10-22T09:42:24.566Z",
+  "scope": "E03共通源/逐段原文/静态路由/带接口桩的E02编译；不是正式游戏验收",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "formalIntegration": false,
+  "passed": 38,
+  "results": [
+    {
+      "name": "十份JSON与冻结正文确定性组装一致",
+      "status": "passed"
+    },
+    {
+      "name": "common/ch01 逐段原文、非空行覆盖与排除理由",
+      "status": "passed"
+    },
+    {
+      "name": "common/ch02 逐段原文、非空行覆盖与排除理由",
+      "status": "passed"
+    },
+    {
+      "name": "common/ch03 逐段原文、非空行覆盖与排除理由",
+      "status": "passed"
+    },
+    {
+      "name": "common/ch04 逐段原文、非空行覆盖与排除理由",
+      "status": "passed"
+    },
+    {
+      "name": "common/ch05 逐段原文、非空行覆盖与排除理由",
+      "status": "passed"
+    },
+    {
+      "name": "common/ch06 逐段原文、非空行覆盖与排除理由",
+      "status": "passed"
+    },
+    {
+      "name": "common/ch07 逐段原文、非空行覆盖与排除理由",
+      "status": "passed"
+    },
+    {
+      "name": "common/ch08 逐段原文、非空行覆盖与排除理由",
+      "status": "passed"
+    },
+    {
+      "name": "common/ch09 逐段原文、非空行覆盖与排除理由",
+      "status": "passed"
+    },
+    {
+      "name": "common/ch10 逐段原文、非空行覆盖与排除理由",
+      "status": "passed"
+    },
+    {
+      "name": "只写共通ID、六处选择和相识事件",
+      "status": "passed"
+    },
+    {
+      "name": "全部正文清除读稿说明，章末不重复正文",
+      "status": "passed"
+    },
+    {
+      "name": "选择提问沿用六处原题，不新增台词",
+      "status": "passed"
+    },
+    {
+      "name": "九个章末为中性范围，指向真实下一章",
+      "status": "passed"
+    },
+    {
+      "name": "八个后续路由/选线接口只导向本章七条路线",
+      "status": "passed"
+    },
+    {
+      "name": "第一晚凌晨与第六章跨日按原文分场",
+      "status": "passed"
+    },
+    {
+      "name": "A01资源ID可解析；正文模块只有语义背景，无真实美术采用",
+      "status": "passed"
+    },
+    {
+      "name": "E02编译器加载真实共通JSON与明确标记的外部测试桩",
+      "status": "passed"
+    },
+    {
+      "name": "全部389个共通节点与17个共通选项可达",
+      "status": "passed"
+    },
+    {
+      "name": "全部共通门禁分支都有状态见证",
+      "status": "passed"
+    },
+    {
+      "name": "前两章32种选择组合：只有记录并回应才能相识和看见第七路线",
+      "status": "passed"
+    },
+    {
+      "name": "232条接口路径：无重复播放、跨章汇合准确、公共后日谈恰好一次",
+      "status": "passed"
+    },
+    {
+      "name": "婚宴无球球、恋人饭局不串婚宴，均返回所选路线",
+      "status": "passed"
+    },
+    {
+      "name": "13种契约结局上下文分别经过正确后日谈后交还本路线",
+      "status": "passed"
+    },
+    {
+      "name": "非法/缺失route与飘关系不默认为普通路线或婚宴",
+      "status": "passed"
+    },
+    {
+      "name": "第三章重选仅重放真实前缀，不带后续关系或人形（静态重放）",
+      "status": "passed"
+    },
+    {
+      "name": "E03与已交付E04真实双路线接续，四个结局可达（其余五线为桩）",
+      "status": "passed"
+    },
+    {
+      "name": "反例：篡改正文会被逐字核对拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "反例：遗漏正文映射会被完整性核对拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "反例：真实对白伪装为阅读提示不能排除",
+      "status": "passed"
+    },
+    {
+      "name": "反例：隐藏信号门反转会被事件前置拒绝",
+      "status": "passed"
+    },
+    {
+      "name": "反例：选项缺少qiuMet门槛不能通过契约",
+      "status": "passed"
+    },
+    {
+      "name": "反例：交往误入婚宴不能通过后日谈条件检查",
+      "status": "passed"
+    },
+    {
+      "name": "反例：路由跳进别人的路线不能通过状态图",
+      "status": "passed"
+    },
+    {
+      "name": "反例：新对白写入飘关系会违反唯一写入点",
+      "status": "passed"
+    },
+    {
+      "name": "正式构建入口 --ten-chapter --manifest --check 通过且无输出写入",
+      "status": "passed"
+    },
+    {
+      "name": "40个原文/契约/构建/运行/A01保护文件指纹未变",
+      "status": "passed"
+    }
+  ],
+  "modules": [
+    {
+      "chapter": 1,
+      "file": "任务拆分/全十章/common/ch01.json",
+      "sha256": "e67fd830b2a90b5b1ebc581dd0453a1d8feee5c3be0b91ce894cae6f1776b48f",
+      "nodes": 161,
+      "scenes": 18,
+      "paragraphs": 158,
+      "choices": 2,
+      "sourceRows": 182,
+      "exclusions": 9
+    },
+    {
+      "chapter": 2,
+      "file": "任务拆分/全十章/common/ch02.json",
+      "sha256": "f9e89a31e445bd52655334f124c1e0f9c8bc9368bce0220742eed9f3561032b2",
+      "nodes": 121,
+      "scenes": 13,
+      "paragraphs": 114,
+      "choices": 3,
+      "sourceRows": 139,
+      "exclusions": 9
+    },
+    {
+      "chapter": 3,
+      "file": "任务拆分/全十章/common/ch03.json",
+      "sha256": "88bb55edd4315f4a6c06500687a99134bdebaba1233b21ef03fd2660c75fba5b",
+      "nodes": 6,
+      "scenes": 2,
+      "paragraphs": 4,
+      "choices": 1,
+      "sourceRows": 14,
+      "exclusions": 7
+    },
+    {
+      "chapter": 4,
+      "file": "任务拆分/全十章/common/ch04.json",
+      "sha256": "645ddb96d804533a226a8c14e5cb0fff18e557bfb9a2c994ee9eea915b24ac04",
+      "nodes": 10,
+      "scenes": 2,
+      "paragraphs": 8,
+      "choices": 0,
+      "sourceRows": 11,
+      "exclusions": 7
+    },
+    {
+      "chapter": 5,
+      "file": "任务拆分/全十章/common/ch05.json",
+      "sha256": "2e19cd57cfafa07edd7c1880dc727f6aae386a62bad806f86c1d5a9f2d2fbfb8",
+      "nodes": 14,
+      "scenes": 3,
+      "paragraphs": 11,
+      "choices": 0,
+      "sourceRows": 16,
+      "exclusions": 6
+    },
+    {
+      "chapter": 6,
+      "file": "任务拆分/全十章/common/ch06.json",
+      "sha256": "f95eabdfd886fdc72f1856872d21919b9adba833b501a303cc7219fe4c04e62f",
+      "nodes": 17,
+      "scenes": 6,
+      "paragraphs": 15,
+      "choices": 0,
+      "sourceRows": 22,
+      "exclusions": 6
+    },
+    {
+      "chapter": 7,
+      "file": "任务拆分/全十章/common/ch07.json",
+      "sha256": "5b45f35bd675c3db4060f9e7ae8bf4d076cae60c9dd438cb8bead49e6fbd31c7",
+      "nodes": 8,
+      "scenes": 2,
+      "paragraphs": 6,
+      "choices": 0,
+      "sourceRows": 9,
+      "exclusions": 6
+    },
+    {
+      "chapter": 8,
+      "file": "任务拆分/全十章/common/ch08.json",
+      "sha256": "4b98abcf1ef72c6ac5985cd70e1640bebfdf390fd2b67f6cfe9497ec80278ec9",
+      "nodes": 16,
+      "scenes": 2,
+      "paragraphs": 14,
+      "choices": 0,
+      "sourceRows": 17,
+      "exclusions": 7
+    },
+    {
+      "chapter": 9,
+      "file": "任务拆分/全十章/common/ch09.json",
+      "sha256": "e437f863161b79661513d53c55e27529270918766114434eed3646b6bb710002",
+      "nodes": 12,
+      "scenes": 2,
+      "paragraphs": 10,
+      "choices": 0,
+      "sourceRows": 13,
+      "exclusions": 6
+    },
+    {
+      "chapter": 10,
+      "file": "任务拆分/全十章/common/ch10.json",
+      "sha256": "5c179e95f3b1fc6ce28a47ffa70df2b41aa36dbd11ad440878c4fc23809d9b3c",
+      "nodes": 24,
+      "scenes": 3,
+      "paragraphs": 21,
+      "choices": 0,
+      "sourceRows": 27,
+      "exclusions": 7
+    }
+  ],
+  "totals": {
+    "modules": 10,
+    "nodes": 389,
+    "scenes": 53,
+    "paragraphs": 361,
+    "choices": 6,
+    "options": 17,
+    "earlyChoiceCombinations": 32,
+    "interfacePaths": 232,
+    "endingContexts": 13,
+    "negativeChecks": 8
+  },
+  "protectedFilesChecked": 40,
+  "protectedFilesChanged": [],
+  "e04Integration": {
+    "status": "passed",
+    "inputFiles": [
+      {
+        "file": "任务拆分/全十章/routes/xiaoman.json",
+        "sha256": "b982784014d95fe44cb620e6b0ccd2252b3b86ccea5e519c09501277abec0fb0"
+      },
+      {
+        "file": "任务拆分/全十章/routes/zhouzhi.json",
+        "sha256": "7da9e066d79aaa299ad2ab5fff911be7060f5db4e4ef11bda3e4a901880a8eff"
+      }
+    ],
+    "report": "common/qa/e04-common-integration.json"
+  },
+  "notExecuted": [
+    "E05—E07真实路线接入/正文与全部13个终结",
+    "E06/E07独立交叉复核",
+    "E08真实引擎/存读档/形态恢复",
+    "A06采用资源与E09演出绑定",
+    "正式story.js构建替换",
+    "浏览器/实体手机/声音/真人阅读",
+    "打包/发布"
+  ]
+}

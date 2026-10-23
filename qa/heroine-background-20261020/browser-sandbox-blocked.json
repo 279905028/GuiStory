@@ -1,0 +1,33 @@
+{
+  "startedAt": "2026-10-20T09:13:50.320Z",
+  "pass": false,
+  "initialHashes": {
+    "story.js": "1e88bf4fa7b0ff742166c5786a308dd3b4d740e6f939ab2b00c54c3db43e85b2",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "9fca5600452731df2351a353b001f38b702ccd4ad89f1fc7e8e5781e775ec655",
+    "index.html": "2e0682faf21a1ce91881e267c9ac741b1a2975b66927dca3e4ed2d25bb6efaa9",
+    "styles.css": "6ec050b339efac44a46a607766714a3d7677bcc82abe3181ed4d90a2dbb441a0",
+    "assets/runtime-v0.4-manifest.json": "3f13e1bb7136bac4c877fa536757cd357c29c777a54695aca8f85a33e3bfbd5f"
+  },
+  "storagePrefix": "bijie-rain-demo:v0.4-background:",
+  "checks": [],
+  "screenshots": [],
+  "pageErrors": [],
+  "network": [],
+  "scope": "六位女主背景对白定点正式页面续读，新增最长对白手机布局，旧档保留与新档读写。",
+  "limitations": [
+    "使用隔离的 Google Chrome；手机仅为视口模拟，未覆盖实体手机、Safari、Firefox。",
+    "定点进度由正式引擎从入口自然重放生成；真实 UI 覆盖定点后续读，不等同全部路径完整 UI 点击。",
+    "不覆盖线上部署与音频听感。"
+  ],
+  "error": "Error: listen EPERM: operation not permitted 127.0.0.1\n    at Server.setupListenHandle [as _listen2] (node:net:1987:21)\n    at listenInCluster (node:net:2066:12)\n    at node:net:2275:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)",
+  "finishedAt": "2026-10-20T09:13:50.323Z",
+  "finalHashes": {
+    "story.js": "1e88bf4fa7b0ff742166c5786a308dd3b4d740e6f939ab2b00c54c3db43e85b2",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "9fca5600452731df2351a353b001f38b702ccd4ad89f1fc7e8e5781e775ec655",
+    "index.html": "2e0682faf21a1ce91881e267c9ac741b1a2975b66927dca3e4ed2d25bb6efaa9",
+    "styles.css": "6ec050b339efac44a46a607766714a3d7677bcc82abe3181ed4d90a2dbb441a0",
+    "assets/runtime-v0.4-manifest.json": "3f13e1bb7136bac4c877fa536757cd357c29c777a54695aca8f85a33e3bfbd5f"
+  }
+}

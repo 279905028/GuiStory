@@ -1,0 +1,234 @@
+{
+  "task": "E11",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T06:09:29.253Z",
+  "status": "local-delivery-complete",
+  "userScope": "仅完成本地交付，公网发布另行安排",
+  "archive": "交付/全十章-E11/dist/bi-jie-ten-chapter-nightshift-20261022-r1-e11.zip",
+  "archiveSha256": "c53545a3a47f7c42e49716038b3bb699f29fc47bd5ef0b6b65a80dab9feee0bb",
+  "archiveBytes": 179972124,
+  "packageFiles": 229,
+  "runtimeFiles": 146,
+  "registeredAssets": 138,
+  "sourceFiles": 62,
+  "packageChecks": 9,
+  "browserChecks": 24,
+  "protectedFiles": 6699,
+  "checkedDocumentLinks": 162,
+  "storySha256": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60",
+  "buildSha256": "db01e296857b57e787323644aeefdb30bfdbea53cb854d5812cf1935fb815139",
+  "screenshots": [
+    {
+      "file": "screenshots/chrome-file-cover-desktop.png",
+      "sha256": "bc8f30667bd2ce7dd6901d8ceaf12c564f894534443709293139d8ed9ce9690f"
+    },
+    {
+      "file": "screenshots/chrome-file-cover-390.png",
+      "sha256": "035af293f59906af16312f2b75e4756276c12fac1930b934ddb284d5b9a996da"
+    },
+    {
+      "file": "screenshots/chrome-file-start-390.png",
+      "sha256": "d53d63d798b0de41b026e499bb327451985ba7f58a7b24a973c2ffd7db77412f"
+    },
+    {
+      "file": "screenshots/chrome-file-chapter-end-390.png",
+      "sha256": "c179444574724afbdfc22e280ff17390687ff95a28b0987eb0a7bf4fed6e8293"
+    },
+    {
+      "file": "screenshots/chrome-file-human-390.png",
+      "sha256": "aed01735899d298efa444c46751554f7347424afbb89aa27b3ace622784a82ed"
+    },
+    {
+      "file": "screenshots/chrome-file-tc-cg-piao-choice.png",
+      "sha256": "7d291c0802d1f1d10cc59a0abfd23ddc9192281e76115ff8a70124ed6e2795c0"
+    },
+    {
+      "file": "screenshots/chrome-file-tc-cg-last-echo-dinner.png",
+      "sha256": "c4ebfe2ec3a5c67ad5056f9142ca4badb5d674aaa18031e39eded37e3f95ed1b"
+    },
+    {
+      "file": "screenshots/chrome-file-tc-cg-qiuqiu-transform.png",
+      "sha256": "c4a53d02dc850764a35c43b638da1e848e3068f2efab9a763f38afa6f6fe7f92"
+    },
+    {
+      "file": "screenshots/chrome-file-tc-cg-piao-wedding.png",
+      "sha256": "0aa87f2e683924f989bb4925d85e48db12172a2a7200525fc437e75d961c7883"
+    },
+    {
+      "file": "screenshots/chrome-http-cover-desktop.png",
+      "sha256": "bc8f30667bd2ce7dd6901d8ceaf12c564f894534443709293139d8ed9ce9690f"
+    },
+    {
+      "file": "screenshots/chrome-http-cover-390.png",
+      "sha256": "035af293f59906af16312f2b75e4756276c12fac1930b934ddb284d5b9a996da"
+    },
+    {
+      "file": "screenshots/chrome-http-start-390.png",
+      "sha256": "82919bc85938392ca1d06b1cf2b302269a726b8ab1e8d8bcde26cc36793260fd"
+    },
+    {
+      "file": "screenshots/chrome-http-chapter-end-390.png",
+      "sha256": "c8179469f6cd1106e960e54d30d2ccc9211334ec52fc0f210f36489892fbc60a"
+    },
+    {
+      "file": "screenshots/chrome-http-human-390.png",
+      "sha256": "7ad9adc934b93b8ecbf1dab3f76c99b7e9d875e656f4b9a75af1279472fae998"
+    },
+    {
+      "file": "screenshots/chrome-http-tc-cg-piao-choice.png",
+      "sha256": "9e8b9322f7e59f2213b96c8b655973358ddf71da5ac6e69e4030ee9f7a7eef91"
+    },
+    {
+      "file": "screenshots/chrome-http-tc-cg-last-echo-dinner.png",
+      "sha256": "d3d54f776271e16f253444b1b0b733d5f8f219013a13cc7a2da45907e20fa508"
+    },
+    {
+      "file": "screenshots/chrome-http-tc-cg-qiuqiu-transform.png",
+      "sha256": "c4a53d02dc850764a35c43b638da1e848e3068f2efab9a763f38afa6f6fe7f92"
+    },
+    {
+      "file": "screenshots/chrome-http-tc-cg-piao-wedding.png",
+      "sha256": "b4bbb08d72a05881df6835ee4be1f8824d06399cf527149516d525a648ce592d"
+    },
+    {
+      "file": "screenshots/chrome-http-ending-desktop.png",
+      "sha256": "79d797920f161a7eb7769fe6c15a4336ddd32c362338a5e323ca43a78d45a380"
+    },
+    {
+      "file": "screenshots/chrome-http-restart-restored.png",
+      "sha256": "e88c87b4da2f43a0f356c2423ecf79152489e6af0855aee4c96f5afed4ed5a9a"
+    },
+    {
+      "file": "screenshots/firefox-file-cover-desktop.png",
+      "sha256": "e8873c74614d8a69dc8f5c79cca201cdd058d66d935e3da728e62fd49b78c332"
+    },
+    {
+      "file": "screenshots/firefox-file-cover-390.png",
+      "sha256": "71b0f129c29fe05fda8144287287a57f0dc6a3ee3b0c8a04b3fa46a8309fee5b"
+    },
+    {
+      "file": "screenshots/firefox-file-start-390.png",
+      "sha256": "1257a2eae9314e4ecaefe90f8fc20c38cfbddcfae8db4d682416582a56b277a1"
+    },
+    {
+      "file": "screenshots/firefox-file-chapter-end-390.png",
+      "sha256": "df89f4003f349d09d5686d8b409e98ed856530a2157a45e472d20cd3d4d49d4a"
+    },
+    {
+      "file": "screenshots/firefox-file-human-390.png",
+      "sha256": "b9e7cda4b42636b36ad74bd33712fbd2ed16e4d83a3505387000dcb087836c2a"
+    },
+    {
+      "file": "screenshots/firefox-file-tc-cg-piao-choice.png",
+      "sha256": "ea73d21b9da6ffc671587af7284f619f8ef75d4ba46d4776faedd4066198b6d1"
+    },
+    {
+      "file": "screenshots/firefox-file-tc-cg-last-echo-dinner.png",
+      "sha256": "96939720c02e44c51feaf8b350d9cd05b0dccd30a12b906bace767a1421e90bb"
+    },
+    {
+      "file": "screenshots/firefox-file-tc-cg-qiuqiu-transform.png",
+      "sha256": "fbc0d043c6ff1717144ace7ac93cc30cd6da59e019f76c754a1047684d3eea95"
+    },
+    {
+      "file": "screenshots/firefox-file-tc-cg-piao-wedding.png",
+      "sha256": "775a577b4f52b91b533b9e1117bb4a0694bd844af485caf2ff3a132398bc1521"
+    },
+    {
+      "file": "screenshots/firefox-http-cover-desktop.png",
+      "sha256": "e8873c74614d8a69dc8f5c79cca201cdd058d66d935e3da728e62fd49b78c332"
+    },
+    {
+      "file": "screenshots/firefox-http-cover-390.png",
+      "sha256": "71b0f129c29fe05fda8144287287a57f0dc6a3ee3b0c8a04b3fa46a8309fee5b"
+    },
+    {
+      "file": "screenshots/firefox-http-start-390.png",
+      "sha256": "1257a2eae9314e4ecaefe90f8fc20c38cfbddcfae8db4d682416582a56b277a1"
+    },
+    {
+      "file": "screenshots/firefox-http-chapter-end-390.png",
+      "sha256": "df89f4003f349d09d5686d8b409e98ed856530a2157a45e472d20cd3d4d49d4a"
+    },
+    {
+      "file": "screenshots/firefox-http-human-390.png",
+      "sha256": "11bdbbfedd1d8e7d5803303e37c04f4ad55fbd0bc47a5ec16c927dbf68694323"
+    },
+    {
+      "file": "screenshots/firefox-http-tc-cg-piao-choice.png",
+      "sha256": "bee228978655c6161137251c3bfc1b2ad6c49eb00f7068d9afb89d2345b205a6"
+    },
+    {
+      "file": "screenshots/firefox-http-tc-cg-last-echo-dinner.png",
+      "sha256": "96939720c02e44c51feaf8b350d9cd05b0dccd30a12b906bace767a1421e90bb"
+    },
+    {
+      "file": "screenshots/firefox-http-tc-cg-qiuqiu-transform.png",
+      "sha256": "fbc0d043c6ff1717144ace7ac93cc30cd6da59e019f76c754a1047684d3eea95"
+    },
+    {
+      "file": "screenshots/firefox-http-tc-cg-piao-wedding.png",
+      "sha256": "775a577b4f52b91b533b9e1117bb4a0694bd844af485caf2ff3a132398bc1521"
+    },
+    {
+      "file": "screenshots/firefox-http-ending-desktop.png",
+      "sha256": "67ee1847b4fcf6a376d6f23bd80e5c4c019cbb1b640caf9233c11359987280df"
+    },
+    {
+      "file": "screenshots/firefox-http-restart-restored.png",
+      "sha256": "beeea85e8262d376cab40b6bfa7476901d4e864aba0f009ddcc2d56d5de92717"
+    }
+  ],
+  "visualReview": [
+    "chrome-file-cover-390.png",
+    "firefox-http-human-390.png",
+    "chrome-file-tc-cg-qiuqiu-transform.png",
+    "firefox-http-ending-desktop.png"
+  ],
+  "evidence": [
+    {
+      "file": "package-results.json",
+      "sha256": "21a68f1009bd6572cc8483dc91ceaa6006504dabd43bede30fff5f66e4a4dd5a"
+    },
+    {
+      "file": "browser-results.json",
+      "sha256": "811bc9659a41ebd92bb4325a93d137f880b7e4147dfd10d027cbd5931f0aaa79"
+    },
+    {
+      "file": "protected-after.json",
+      "sha256": "d1c7332ce0af62f4763d452c11fe9ec08d39ab843bd763fc2c2cb15d9dff239c"
+    }
+  ],
+  "scripts": [
+    {
+      "file": "交付/全十章-E11/build-package.cjs",
+      "sha256": "3928f796a9b9fce9f164e0d36daaa6c0f3a6180eb7639963350931541c049aa7"
+    },
+    {
+      "file": "qa/ten-chapter-delivery/package-test.cjs",
+      "sha256": "9ba678161b9243a72f1dbc7e96c3a4a948a13e669b823d8b6509c48e6a4b0aae"
+    },
+    {
+      "file": "qa/ten-chapter-delivery/browser-test.cjs",
+      "sha256": "e52c598736b0a9654e0af4c0cf9168b72b8241fc0465be67d0241c3013cd8e22"
+    },
+    {
+      "file": "qa/ten-chapter-delivery/finish-audit.cjs",
+      "sha256": "e7410f3d961f7f1b4455fac57389cf122a7809cb0b0cfff249887d4ec1877ad1"
+    }
+  ],
+  "finalAcceptance": false,
+  "pending": [
+    "Safari",
+    "实体手机"
+  ],
+  "additionalNotTested": [
+    "Windows实机",
+    "Linux实机",
+    "旧版本运行回退",
+    "公网发布与在线验收"
+  ],
+  "playerStorageAccessed": false,
+  "formalGameModified": false,
+  "deployed": false
+}

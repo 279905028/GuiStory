@@ -1,0 +1,6155 @@
+{
+  "version": "a04-20261023-v1",
+  "source": "任务拆分/全十章/美术清单.json",
+  "contentRevision": "nightshift-20261022-r1",
+  "sections": [
+    {
+      "cueId": "a01-ch01-common-01",
+      "chapter": 1,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "sourceLineStart": 7,
+      "sourceLineEnd": 51,
+      "heading": "第1天·下午｜箱子轮子响得太大",
+      "time": "第1天下午",
+      "scenes": [
+        {
+          "label": "公交站牌及坡路",
+          "time": "雨天下午",
+          "requirements": [
+            "行李箱右轮歪、湿地砖；毛狼花纹黑T恤"
+          ],
+          "assetIds": [
+            "tc-bg-busstop-day",
+            "tc-bg-slope-day"
+          ]
+        },
+        {
+          "label": "网吧门口与柜台",
+          "time": "雨天下午",
+          "requirements": [
+            "一楼玻璃门、褪色饮料价目表、靠窗顶灯、风扇、收银台；邻近机位为背景顾客"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-day"
+          ]
+        }
+      ],
+      "conditions": [],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch01-common-02",
+      "chapter": 1,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "sourceLineStart": 53,
+      "sourceLineEnd": 103,
+      "heading": "第1天·21:40｜三下轻响",
+      "time": "第1天21:40—次日02:00",
+      "scenes": [
+        {
+          "label": "网吧侧边小路与后院侧门",
+          "time": "21:40夜",
+          "requirements": [
+            "虚掩木门、潮湿墙、蓝色塑料凳腿；门缝仅见环境"
+          ],
+          "assetIds": [
+            "tc-bg-backdoor-night"
+          ]
+        },
+        {
+          "label": "网吧门厅与柜台",
+          "time": "夜间至02:00",
+          "requirements": [
+            "零钱、空饮料箱、收银/饮料/热水日常；灯光保持营业"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "选择A记录三拍或B未记录，后续隐藏资格由E01定义"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch01-common-03",
+      "chapter": 1,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "sourceLineStart": 105,
+      "sourceLineEnd": 143,
+      "heading": "第2天·06:20｜算不上接风",
+      "time": "第2天06:20—下午",
+      "scenes": [
+        {
+          "label": "网吧门口",
+          "time": "清晨天已白",
+          "requirements": [
+            "交班后出门"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-day"
+          ]
+        },
+        {
+          "label": "早餐店门口及店内",
+          "time": "06:20清晨",
+          "requirements": [
+            "两碗面、低椅、演出贴纸；毛狼已还借来演出衣服"
+          ],
+          "assetIds": [
+            "tc-bg-breakfast-dawn"
+          ]
+        },
+        {
+          "label": "文文出租屋",
+          "time": "清晨至下午",
+          "requirements": [
+            "箱子靠墙、手机入群，午后窗光用于睡醒过渡"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        }
+      ],
+      "conditions": [],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch01-common-04",
+      "chapter": 1,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "sourceLineStart": 145,
+      "sourceLineEnd": 183,
+      "heading": "第3天·16:10｜没有预约的老熟人",
+      "time": "第3天16:10",
+      "scenes": [
+        {
+          "label": "理发店门口及靠窗椅",
+          "time": "下午",
+          "requirements": [
+            "玻璃门、碎发、小桌练习本、常温水；正在正常营业"
+          ],
+          "assetIds": [
+            "tc-bg-salon-day"
+          ]
+        }
+      ],
+      "conditions": [],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch01-common-05",
+      "chapter": 1,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "sourceLineStart": 185,
+      "sourceLineEnd": 251,
+      "heading": "第4天·17:20｜老师也会不耐烦",
+      "time": "第4天17:20",
+      "scenes": [
+        {
+          "label": "便利店",
+          "time": "下午",
+          "requirements": [
+            "饭盒、酸奶、柜台吸管纸盒"
+          ],
+          "assetIds": [
+            "tc-bg-convenience-day"
+          ]
+        },
+        {
+          "label": "街道岔路口与坡口",
+          "time": "下午",
+          "requirements": [
+            "两人各向不同方向离开"
+          ],
+          "assetIds": [
+            "tc-bg-slope-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "A承认紧张/B询问空档分别由第三章孟遥线回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch01-common-06",
+      "chapter": 1,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "sourceLineStart": 253,
+      "sourceLineEnd": 283,
+      "heading": "第5天·20:30｜今晚没有班",
+      "time": "第5天20:30—22:00前",
+      "scenes": [
+        {
+          "label": "文文出租屋电脑桌",
+          "time": "夜",
+          "requirements": [
+            "耳机、半份炒饭、电脑；休班在家游戏"
+          ],
+          "assetIds": [
+            "tc-bg-rental-night"
+          ]
+        }
+      ],
+      "conditions": [],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch01-common-07",
+      "chapter": 1,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "sourceLineStart": 285,
+      "sourceLineEnd": 317,
+      "heading": "第6天·17:30｜辣椒自己放",
+      "time": "第6天17:30—18:00",
+      "scenes": [
+        {
+          "label": "街口面馆",
+          "time": "傍晚前",
+          "requirements": [
+            "面碗、独立辣椒、纸巾、汤碗；三人座位"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        }
+      ],
+      "conditions": [],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch01-common-08",
+      "chapter": 1,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "sourceLineStart": 319,
+      "sourceLineEnd": 357,
+      "heading": "第7天·17:30｜名字不用介绍第二遍",
+      "time": "第7天17:30—饭后雨中",
+      "scenes": [
+        {
+          "label": "约饭小店",
+          "time": "傍晚前",
+          "requirements": [
+            "薄本子、菜单、三人桌"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        },
+        {
+          "label": "雨中街道及有屋檐路口",
+          "time": "饭后傍晚",
+          "requirements": [
+            "三人两把伞，彼此不特别靠近"
+          ],
+          "assetIds": [
+            "tc-bg-eaves-day"
+          ]
+        }
+      ],
+      "conditions": [],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch02-common-01",
+      "chapter": 2,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "sourceLineStart": 7,
+      "sourceLineEnd": 57,
+      "heading": "第8天·19:40｜还记得的三拍",
+      "time": "第8天19:40",
+      "scenes": [
+        {
+          "label": "网吧柜台",
+          "time": "19:40夜",
+          "requirements": [
+            "文文取落下的充电线，师匠对顾客说话"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-night"
+          ]
+        },
+        {
+          "label": "网吧后院侧门外",
+          "time": "夜",
+          "requirements": [
+            "回应三拍仍不推门"
+          ],
+          "assetIds": [
+            "tc-bg-backdoor-night"
+          ]
+        },
+        {
+          "label": "坡口面馆外街道",
+          "time": "夜幕灯刚亮",
+          "requirements": [
+            "手机拍招牌；叶岚发白天同一招牌照片"
+          ],
+          "assetIds": [
+            "tc-bg-food-front-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "有第一章记录＋本次A敲回：门内声音回应；无记录或B离开不回应，不揭球形"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch02-common-02",
+      "chapter": 2,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "sourceLineStart": 59,
+      "sourceLineEnd": 107,
+      "heading": "第10天·20:50｜没赶上开局",
+      "time": "第10天20:50—21:00后",
+      "scenes": [
+        {
+          "label": "文文出租屋床沿及家务角",
+          "time": "夜",
+          "requirements": [
+            "手机20:50、洗衣机、未晾衣服、没吃的饭、排班和闹钟"
+          ],
+          "assetIds": [
+            "tc-bg-rental-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "A语音解释/B文字具体改约，保留第五章回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch02-common-03",
+      "chapter": 2,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "sourceLineStart": 109,
+      "sourceLineEnd": 189,
+      "heading": "第12天·16:30｜你在语音里不是这样",
+      "time": "第12天16:30—饭后",
+      "scenes": [
+        {
+          "label": "坡口面馆靠窗桌",
+          "time": "下午",
+          "requirements": [
+            "两杯水、菜单、稀少食客；外套搭椅背"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        },
+        {
+          "label": "面馆外沿街和岔路口",
+          "time": "下午",
+          "requirements": [
+            "并行一小段后分路"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "A游戏/B菜单开聊互斥，由第三章叶岚线回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch02-common-04",
+      "chapter": 2,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "sourceLineStart": 191,
+      "sourceLineEnd": 219,
+      "heading": "第14天·18:00｜来的人就先吃",
+      "time": "第14天18:00",
+      "scenes": [
+        {
+          "label": "朋友约饭小店",
+          "time": "18:00傍晚",
+          "requirements": [
+            "四人先吃，周栀晚到；菜单、水杯、普通饭菜"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        }
+      ],
+      "conditions": [],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch02-common-05",
+      "chapter": 2,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "sourceLineStart": 221,
+      "sourceLineEnd": 271,
+      "heading": "第14天·20:30｜隐藏相识：门后有人回答",
+      "time": "第14天20:30",
+      "scenes": [
+        {
+          "label": "网吧柜台过道",
+          "time": "夜",
+          "requirements": [
+            "当值同事环境配角"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-night"
+          ]
+        },
+        {
+          "label": "网吧后院侧门及院内干处",
+          "time": "20:30夜",
+          "requirements": [
+            "先门外自报名字与身份后推门；后院灯、两张塑料凳、凳面投影"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-night"
+          ]
+        },
+        {
+          "label": "文文出租屋",
+          "time": "夜",
+          "requirements": [
+            "调闹钟，备忘录三个点下新增名字"
+          ],
+          "assetIds": [
+            "tc-bg-rental-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅第一章记录三拍＋第二章敲回节奏；否则整段及其美术不出现"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-common-01",
+      "chapter": 3,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 11,
+      "sourceLineEnd": 31,
+      "heading": "第15天·下午｜这回自己开口",
+      "time": "第15天下午",
+      "scenes": [
+        {
+          "label": "文文出租屋窗边",
+          "time": "雨后下午",
+          "requirements": [
+            "打开窗、防盗网滴水、手机排班"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "第三至十章仅所选一条路线；黄球球需相识资格"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-xiaoman-01",
+      "chapter": 3,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 35,
+      "sourceLineEnd": 101,
+      "heading": "第15天·16:10｜你是来剪头发的吗",
+      "time": "第15天16:10",
+      "scenes": [
+        {
+          "label": "理发店门口及等候椅",
+          "time": "下午",
+          "requirements": [
+            "营业钟、镜子、纸袋面包、垃圾桶；吹风机环境声"
+          ],
+          "assetIds": [
+            "tc-bg-salon-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 xiaoman 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-xiaoman-02",
+      "chapter": 3,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 103,
+      "sourceLineEnd": 163,
+      "heading": "第18天·17:20｜别只认得小时候的我",
+      "time": "第18天17:20",
+      "scenes": [
+        {
+          "label": "理发店后公交站",
+          "time": "下午",
+          "requirements": [
+            "约见起点"
+          ],
+          "assetIds": [
+            "tc-bg-busstop-day"
+          ]
+        },
+        {
+          "label": "街道水洼与关门服装店橱窗",
+          "time": "雨后下午",
+          "requirements": [
+            "局部阳光、橱窗倒影"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        },
+        {
+          "label": "拐角公交站",
+          "time": "傍晚前",
+          "requirements": [
+            "分别乘车"
+          ],
+          "assetIds": [
+            "tc-bg-busstop-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 xiaoman 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-xiaoman-03",
+      "chapter": 3,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 165,
+      "sourceLineEnd": 215,
+      "heading": "第21天·16:40｜那张画歪的纸",
+      "time": "第21天16:40",
+      "scenes": [
+        {
+          "label": "理发店外",
+          "time": "下午",
+          "requirements": [
+            "等同事锁柜；风吹练习纸"
+          ],
+          "assetIds": [
+            "tc-bg-salon-day"
+          ]
+        },
+        {
+          "label": "便利店外座椅",
+          "time": "下午",
+          "requirements": [
+            "冰棒、硬币、包装纸"
+          ],
+          "assetIds": [
+            "tc-bg-convenience-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 xiaoman 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-zhouzhi-01",
+      "chapter": 3,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 219,
+      "sourceLineEnd": 263,
+      "heading": "第15天·17:20｜还没到上班时间",
+      "time": "第15天17:20",
+      "scenes": [
+        {
+          "label": "回声KTV门外街边",
+          "time": "雨停的下午",
+          "requirements": [
+            "仅经过门口，绝不进营业包厢"
+          ],
+          "assetIds": [
+            "tc-bg-echo-day"
+          ]
+        },
+        {
+          "label": "卖伞小店门口与锅贴摊外",
+          "time": "下午",
+          "requirements": [
+            "新伞适合放进她包；纸盒锅贴"
+          ],
+          "assetIds": [
+            "tc-bg-convenience-day",
+            "tc-bg-stall-day"
+          ]
+        },
+        {
+          "label": "街口",
+          "time": "细雨重落的傍晚前",
+          "requirements": [
+            "两人各撑自己的伞，伞边轻碰后让开"
+          ],
+          "assetIds": [
+            "tc-bg-street-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 zhouzhi 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-zhouzhi-02",
+      "chapter": 3,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 265,
+      "sourceLineEnd": 307,
+      "heading": "第18天·16:30｜不好笑就不笑",
+      "time": "第18天16:30—傍晚",
+      "scenes": [
+        {
+          "label": "商场书店靠窗阅读座",
+          "time": "下午转傍晚",
+          "requirements": [
+            "可坐书店，窗外亮招牌；保留窗光变暗"
+          ],
+          "assetIds": [
+            "tc-bg-bookstore-day"
+          ]
+        },
+        {
+          "label": "商场热饮座位",
+          "time": "傍晚",
+          "requirements": [
+            "原文未明示是否另店，优先同场连续区，不擅定咖啡品牌"
+          ],
+          "assetIds": [
+            "tc-bg-mall-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 zhouzhi 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-zhouzhi-03",
+      "chapter": 3,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 309,
+      "sourceLineEnd": 355,
+      "heading": "第21天·17:00｜是我想约你",
+      "time": "第21天17:00",
+      "scenes": [
+        {
+          "label": "街口小面馆",
+          "time": "下午",
+          "requirements": [
+            "两人桌，分开加辣"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        },
+        {
+          "label": "面馆外街口",
+          "time": "下午",
+          "requirements": [
+            "查安排、撑伞"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 zhouzhi 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-mengyao-01",
+      "chapter": 3,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 359,
+      "sourceLineEnd": 435,
+      "heading": "第15天·17:20｜这次不算顺路",
+      "time": "第15天17:20",
+      "scenes": [
+        {
+          "label": "文文出租屋",
+          "time": "下午",
+          "requirements": [
+            "起床看消息可文字过场"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        },
+        {
+          "label": "桥头烧饼店门口",
+          "time": "下午",
+          "requirements": [
+            "纸袋烧饼、文文咖啡"
+          ],
+          "assetIds": [
+            "tc-bg-bridge-day"
+          ]
+        },
+        {
+          "label": "桥边干燥台阶",
+          "time": "下午",
+          "requirements": [
+            "布袋放膝，桥下路人伞作环境"
+          ],
+          "assetIds": [
+            "tc-bg-bridge-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 mengyao 路线",
+        "第一章重逢A/B只取相应一句回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-mengyao-02",
+      "chapter": 3,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 437,
+      "sourceLineEnd": 487,
+      "heading": "第18天·18:10｜并不熟练的双人游戏",
+      "time": "第18天18:10—19:30",
+      "scenes": [
+        {
+          "label": "网吧柜台",
+          "time": "18:10傍晚",
+          "requirements": [
+            "文文休班以顾客身份消费"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-day"
+          ]
+        },
+        {
+          "label": "网吧相邻机位",
+          "time": "傍晚",
+          "requirements": [
+            "双人电脑位与键盘、矿泉水"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-pc-day"
+          ]
+        },
+        {
+          "label": "网吧门外",
+          "time": "19:30雨刚停",
+          "requirements": [
+            "孟遥找伞，文文手收入袋"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 mengyao 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-mengyao-03",
+      "chapter": 3,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 489,
+      "sourceLineEnd": 531,
+      "heading": "第21天·16:40｜不能直接续上的那一句",
+      "time": "第21天16:40",
+      "scenes": [
+        {
+          "label": "书店旁小面馆",
+          "time": "下午",
+          "requirements": [
+            "有窗能见车辆停车、菜单、两种浇头"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        },
+        {
+          "label": "面馆楼梯与分路口",
+          "time": "下午",
+          "requirements": [
+            "下周空档手机）"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 mengyao 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-yelan-01",
+      "chapter": 3,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 535,
+      "sourceLineEnd": 599,
+      "heading": "第15天·18:20｜面已经吃过了",
+      "time": "第15天18:20",
+      "scenes": [
+        {
+          "label": "街道路口",
+          "time": "18:20傍晚",
+          "requirements": [
+            "下班会面"
+          ],
+          "assetIds": [
+            "tc-bg-street-dusk"
+          ]
+        },
+        {
+          "label": "街边水果摊及长椅",
+          "time": "傍晚",
+          "requirements": [
+            "青李子小袋、酸味反应"
+          ],
+          "assetIds": [
+            "tc-bg-stall-day"
+          ]
+        },
+        {
+          "label": "街道岔路",
+          "time": "傍晚",
+          "requirements": [
+            "各自回家吃饭"
+          ],
+          "assetIds": [
+            "tc-bg-street-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 yelan 路线",
+        "第二章叶岚初见A/B只取相应回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-yelan-02",
+      "chapter": 3,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 601,
+      "sourceLineEnd": 643,
+      "heading": "第18天·19:10｜她也会把门走反",
+      "time": "第18天19:10—21:00前",
+      "scenes": [
+        {
+          "label": "网吧单机位",
+          "time": "夜",
+          "requirements": [
+            "文文以顾客身份开机、矿泉水、耳机；师匠短暂路过"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-pc-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 yelan 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-yelan-03",
+      "chapter": 3,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 645,
+      "sourceLineEnd": 691,
+      "heading": "第21天·17:50｜不用一直有声音",
+      "time": "第21天17:50",
+      "scenes": [
+        {
+          "label": "公园入口及树荫小路",
+          "time": "下午",
+          "requirements": [
+            "见面、薄荷糖"
+          ],
+          "assetIds": [
+            "tc-bg-park-day"
+          ]
+        },
+        {
+          "label": "公园长椅与开阔草地远景",
+          "time": "傍晚前",
+          "requirements": [
+            "孩子和大人尝试放风筝是环境角色"
+          ],
+          "assetIds": [
+            "tc-bg-park-day"
+          ]
+        },
+        {
+          "label": "公园积水路段至门口",
+          "time": "傍晚前",
+          "requirements": [
+            "她自己绕干路，文文收手"
+          ],
+          "assetIds": [
+            "tc-bg-park-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 yelan 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-piao-01",
+      "chapter": 3,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 695,
+      "sourceLineEnd": 743,
+      "heading": "第15天·16:30｜没有采访提纲",
+      "time": "第15天16:30",
+      "scenes": [
+        {
+          "label": "文文出租屋",
+          "time": "下午",
+          "requirements": [
+            "找袜子可叙述过场"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        },
+        {
+          "label": "街巷入口",
+          "time": "灰白云下午",
+          "requirements": [
+            "巷口碰头"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        },
+        {
+          "label": "凉糕店靠门小桌",
+          "time": "下午",
+          "requirements": [
+            "糖罐、甜淡凉糕"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        },
+        {
+          "label": "巷道积水边",
+          "time": "下午",
+          "requirements": [
+            "各自走干处"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 piao 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-piao-02",
+      "chapter": 3,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 745,
+      "sourceLineEnd": 793,
+      "heading": "第18天·17:00｜说到这里就够了",
+      "time": "第18天17:00",
+      "scenes": [
+        {
+          "label": "小店门槛外",
+          "time": "下午",
+          "requirements": [
+            "花猫在门槛睡觉"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        },
+        {
+          "label": "街角长凳",
+          "time": "下午",
+          "requirements": [
+            "两瓶水与小册子纸稿"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 piao 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-piao-03",
+      "chapter": 3,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 795,
+      "sourceLineEnd": 820,
+      "heading": "第21天·16:00｜这一次讲明白",
+      "time": "第21天16:00",
+      "scenes": [
+        {
+          "label": "河边小路与休息处",
+          "time": "阴天下午",
+          "requirements": [
+            "两人坐着分饼，水袋收好防风"
+          ],
+          "assetIds": [
+            "tc-bg-river-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 piao 路线",
+        "交往/朋友二选一，延续后续章节"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-piao-04",
+      "chapter": 3,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 822,
+      "sourceLineEnd": 846,
+      "heading": "仅交往｜把手伸过来",
+      "time": "第21天16:00后",
+      "scenes": [
+        {
+          "label": "河边休息处及回程小路",
+          "time": "阴天下午",
+          "requirements": [
+            "宽窄道路交替，窄处自然松手"
+          ],
+          "assetIds": [
+            "tc-bg-river-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 piao 路线",
+        "仅飘关系=交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-piao-05",
+      "chapter": 3,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 848,
+      "sourceLineEnd": 870,
+      "heading": "仅朋友｜不用补一句以后",
+      "time": "第21天下午—晚上",
+      "scenes": [
+        {
+          "label": "河边小路至路口候车处",
+          "time": "下午",
+          "requirements": [
+            "朋友关系后提前结束散步"
+          ],
+          "assetIds": [
+            "tc-bg-busstop-day"
+          ]
+        },
+        {
+          "label": "文文出租屋",
+          "time": "夜间窗外下雨",
+          "requirements": [
+            "封好饼袋、仅手机文字联系"
+          ],
+          "assetIds": [
+            "tc-bg-rental-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 piao 路线",
+        "仅飘关系=朋友"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-friends-01",
+      "chapter": 3,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 874,
+      "sourceLineEnd": 914,
+      "heading": "第15天·16:00｜不用找个正事",
+      "time": "第15天16:00",
+      "scenes": [
+        {
+          "label": "改衣店",
+          "time": "下午",
+          "requirements": [
+            "长镜、折起裤脚、候坐椅，手机串词"
+          ],
+          "assetIds": [
+            "tc-bg-alteration-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 friends 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-friends-02",
+      "chapter": 3,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 916,
+      "sourceLineEnd": 938,
+      "heading": "第18天·20:00｜老板也会掉下去",
+      "time": "第18天20:00—约21:00",
+      "scenes": [
+        {
+          "label": "文文出租屋电脑桌",
+          "time": "夜",
+          "requirements": [
+            "休班游戏，耳机"
+          ],
+          "assetIds": [
+            "tc-bg-rental-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 friends 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-friends-03",
+      "chapter": 3,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 940,
+      "sourceLineEnd": 966,
+      "heading": "第21天·15:30｜可以过一阵子的地方",
+      "time": "第21天15:30",
+      "scenes": [
+        {
+          "label": "文文出租屋",
+          "time": "下午",
+          "requirements": [
+            "衣柜、床底箱子、旧游戏卡、桌角、唯一的椅子、还来的伞"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 friends 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-huangqiuqiu-01",
+      "chapter": 3,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 970,
+      "sourceLineEnd": 1022,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "time": "第15天17:00",
+      "scenes": [
+        {
+          "label": "文文出租屋床沿",
+          "time": "下午",
+          "requirements": [
+            "昨日外形回忆可文字"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        },
+        {
+          "label": "网吧前门过道",
+          "time": "上班前下午",
+          "requirements": [
+            "文文仅穿行"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-day"
+          ]
+        },
+        {
+          "label": "网吧后院侧门干处",
+          "time": "下午",
+          "requirements": [
+            "先敲门等应允；两个稳当低凳，视线齐平"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 huangqiuqiu 路线",
+        "已正式相识，隐藏线资格"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-huangqiuqiu-02",
+      "chapter": 3,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 1024,
+      "sourceLineEnd": 1068,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "time": "第18天17:30",
+      "scenes": [
+        {
+          "label": "网吧后院干处",
+          "time": "雨天下午",
+          "requirements": [
+            "文文晚饭袋在身侧，手机/钥匙在口袋"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 huangqiuqiu 路线",
+        "隐藏线资格"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch03-huangqiuqiu-03",
+      "chapter": 3,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sourceLineStart": 1070,
+      "sourceLineEnd": 1114,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "time": "第21天16:30",
+      "scenes": [
+        {
+          "label": "网吧后院侧门与屋檐下",
+          "time": "雨天下午",
+          "requirements": [
+            "先敲门、低凳、檐雨；伞应远离她摆放"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 huangqiuqiu 路线",
+        "隐藏线资格"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-common-01",
+      "chapter": 4,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 11,
+      "sourceLineEnd": 29,
+      "heading": "第22天·15:40｜发薪以后",
+      "time": "第22天15:40",
+      "scenes": [
+        {
+          "label": "文文出租屋",
+          "time": "下午",
+          "requirements": [
+            "到账消息、新衣架、洗净衣服；旧衣架断一边"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        }
+      ],
+      "conditions": [],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-xiaoman-01",
+      "chapter": 4,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 33,
+      "sourceLineEnd": 47,
+      "heading": "第24天·16:00｜今天不谈发型",
+      "time": "第24天16:00",
+      "scenes": [
+        {
+          "label": "文文出租屋",
+          "time": "下午",
+          "requirements": [
+            "取晾干夹克"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        },
+        {
+          "label": "两条街岔路口",
+          "time": "下午",
+          "requirements": [
+            "投篮机音乐与旧书摊方向仅入口提示"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 xiaoman 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-xiaoman-02",
+      "chapter": 4,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 49,
+      "sourceLineEnd": 79,
+      "heading": "选择A｜去投篮机，输的人买水",
+      "time": "第24天16:00后",
+      "scenes": [
+        {
+          "label": "游戏厅投篮机区",
+          "time": "下午",
+          "requirements": [
+            "计分屏、球回收槽、旁侧栏杆，避免裁切掉手与球"
+          ],
+          "assetIds": [
+            "tc-bg-arcade-basketball"
+          ]
+        },
+        {
+          "label": "游戏厅外路口",
+          "time": "下午",
+          "requirements": [
+            "离场回望投篮机"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 xiaoman 路线",
+        "第四章小满选择A：投篮机；第七章回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-xiaoman-03",
+      "chapter": 4,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 81,
+      "sourceLineEnd": 109,
+      "heading": "选择B｜去旧书摊，给对方挑一本怪书",
+      "time": "第24天16:00后",
+      "scenes": [
+        {
+          "label": "旧书摊棚下",
+          "time": "下午",
+          "requirements": [
+            "晒白书脊、废宣传纸"
+          ],
+          "assetIds": [
+            "tc-bg-used-books-day"
+          ]
+        },
+        {
+          "label": "旧书摊旁石阶",
+          "time": "下午",
+          "requirements": [
+            "两人照书折纸，各留对方纸鹤"
+          ],
+          "assetIds": [
+            "tc-bg-used-books-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 xiaoman 路线",
+        "第四章小满选择B：旧书摊；第七章回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-xiaoman-04",
+      "chapter": 4,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 111,
+      "sourceLineEnd": 133,
+      "heading": "共同段｜回去之前",
+      "time": "第24天17:30",
+      "scenes": [
+        {
+          "label": "路边烤土豆摊与步行街",
+          "time": "傍晚前",
+          "requirements": [
+            "纸碗、风吹乱浅金短发"
+          ],
+          "assetIds": [
+            "tc-bg-stall-day"
+          ]
+        },
+        {
+          "label": "公交站及公交门口",
+          "time": "傍晚前",
+          "requirements": [
+            "小满登车，文文留站"
+          ],
+          "assetIds": [
+            "tc-bg-busstop-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 xiaoman 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-zhouzhi-01",
+      "chapter": 4,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 137,
+      "sourceLineEnd": 153,
+      "heading": "第23天·16:10｜轮到你选",
+      "time": "第23天16:10",
+      "scenes": [
+        {
+          "label": "约定小店门口",
+          "time": "下午",
+          "requirements": [
+            "仅两人会面，衣装以休闲基准"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 zhouzhi 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-zhouzhi-02",
+      "chapter": 4,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 155,
+      "sourceLineEnd": 173,
+      "heading": "选择A｜沿河走走，轮流放一首想听的歌",
+      "time": "第23天16:10后",
+      "scenes": [
+        {
+          "label": "河边步道与空长椅",
+          "time": "下午",
+          "requirements": [
+            "一人一只耳机，短线，手机置两人中间"
+          ],
+          "assetIds": [
+            "tc-bg-river-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 zhouzhi 路线",
+        "第四章周栀选择A：河边听歌；第七章回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-zhouzhi-03",
+      "chapter": 4,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 175,
+      "sourceLineEnd": 191,
+      "heading": "选择B｜去影院，允许我们喜欢不同的东西",
+      "time": "第23天16:10后",
+      "scenes": [
+        {
+          "label": "电影院观众席靠过道",
+          "time": "下午室内暗",
+          "requirements": [
+            "周栀选过道；屏幕光，影片内容抽象/不另造故事"
+          ],
+          "assetIds": [
+            "tc-bg-cinema-interior"
+          ]
+        },
+        {
+          "label": "商场电梯及一楼",
+          "time": "散场后仍白天",
+          "requirements": [
+            "电梯拥挤，衣袖碰手背，票根折叠"
+          ],
+          "assetIds": [
+            "tc-bg-mall-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 zhouzhi 路线",
+        "第四章周栀选择B：影院；第七章回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-zhouzhi-04",
+      "chapter": 4,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 193,
+      "sourceLineEnd": 209,
+      "heading": "共同段｜不必把一天用满",
+      "time": "第23天傍晚天仍亮",
+      "scenes": [
+        {
+          "label": "街角馄饨小店",
+          "time": "傍晚",
+          "requirements": [
+            "小份与大份区别，普通餐桌"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        },
+        {
+          "label": "人行路口",
+          "time": "傍晚",
+          "requirements": [
+            "伞换手后指尖碰文文袖口，随后独自离开"
+          ],
+          "assetIds": [
+            "tc-bg-street-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 zhouzhi 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-mengyao-01",
+      "chapter": 4,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 213,
+      "sourceLineEnd": 227,
+      "heading": "第24天·15:30｜重新挑一件喜欢的事",
+      "time": "第24天15:30",
+      "scenes": [
+        {
+          "label": "旧书摊与商场街机厅方向的岔路",
+          "time": "下午",
+          "requirements": [
+            "只选择一个目的地"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 mengyao 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-mengyao-02",
+      "chapter": 4,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 229,
+      "sourceLineEnd": 257,
+      "heading": "A｜去旧书摊，各挑一本没看过的书",
+      "time": "第24天15:30后",
+      "scenes": [
+        {
+          "label": "旧书摊",
+          "time": "下午",
+          "requirements": [
+            "不选教辅，磨花短篇封面"
+          ],
+          "assetIds": [
+            "tc-bg-used-books-day"
+          ]
+        },
+        {
+          "label": "旧书摊旁茶店",
+          "time": "下午",
+          "requirements": [
+            "双人桌各看各的书；可阅读文本需后期清晰排版"
+          ],
+          "assetIds": [
+            "tc-bg-tea-day"
+          ]
+        },
+        {
+          "label": "回程街道",
+          "time": "下午",
+          "requirements": [
+            "踢开小石子"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 mengyao 路线",
+        "第四章孟遥选择A：书摊；第七章回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-mengyao-03",
+      "chapter": 4,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 259,
+      "sourceLineEnd": 287,
+      "heading": "B｜去街机厅，试一个谁都不擅长的项目",
+      "time": "第24天15:30后",
+      "scenes": [
+        {
+          "label": "商场街机厅气垫球桌",
+          "time": "下午",
+          "requirements": [
+            "两侧球门、反弹圆盘和记分屏，手部完整"
+          ],
+          "assetIds": [
+            "tc-bg-arcade-airhockey"
+          ]
+        },
+        {
+          "label": "街机厅门口及回程路",
+          "time": "下午",
+          "requirements": [
+            "在小票背写比分与下次"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 mengyao 路线",
+        "第四章孟遥选择B：气垫球；第七章回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-mengyao-04",
+      "chapter": 4,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 289,
+      "sourceLineEnd": 299,
+      "heading": "本章汇合",
+      "time": "第24天下午天仍亮",
+      "scenes": [
+        {
+          "label": "公交站",
+          "time": "下午",
+          "requirements": [
+            "孟遥取伞、上车后晃手机"
+          ],
+          "assetIds": [
+            "tc-bg-busstop-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 mengyao 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-yelan-01",
+      "chapter": 4,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 303,
+      "sourceLineEnd": 319,
+      "heading": "第24天·15:40｜屏幕外的操作方式",
+      "time": "第24天15:40",
+      "scenes": [
+        {
+          "label": "公园外入口",
+          "time": "下午",
+          "requirements": [
+            "叶岚手机列河边空地/旧货市场"
+          ],
+          "assetIds": [
+            "tc-bg-park-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 yelan 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-yelan-02",
+      "chapter": 4,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 321,
+      "sourceLineEnd": 337,
+      "heading": "A｜去河边空地放风筝",
+      "time": "第24天15:40后",
+      "scenes": [
+        {
+          "label": "河边空地草坪",
+          "time": "下午有风",
+          "requirements": [
+            "足够放风筝距离，空中风筝与手部线轴不得同时裁失"
+          ],
+          "assetIds": [
+            "tc-bg-riverside-lawn-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 yelan 路线",
+        "第四章叶岚选择A：风筝；第七章回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-yelan-03",
+      "chapter": 4,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 339,
+      "sourceLineEnd": 357,
+      "heading": "B｜去旧货市场找一样无用的小东西",
+      "time": "第24天15:40后",
+      "scenes": [
+        {
+          "label": "旧货市场玩具摊及通道",
+          "time": "下午",
+          "requirements": [
+            "普通旧物，鸭子和铁盒为后续回收道具"
+          ],
+          "assetIds": [
+            "tc-bg-secondhand-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 yelan 路线",
+        "第四章叶岚选择B：旧货市场；第七章回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-yelan-04",
+      "chapter": 4,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 359,
+      "sourceLineEnd": 369,
+      "heading": "本章汇合",
+      "time": "第24天下午结束",
+      "scenes": [
+        {
+          "label": "所选出行地点出口",
+          "time": "下午",
+          "requirements": [
+            "原文未另定地点，沿A河边或B市场背景衔接，不新增地点"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 yelan 路线",
+        "继承A/B背景与道具，不混用"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-piao-01",
+      "chapter": 4,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 373,
+      "sourceLineEnd": 388,
+      "heading": "第24天·16:30｜雨棚下的两个主意",
+      "time": "第24天16:30",
+      "scenes": [
+        {
+          "label": "小卖部门口雨棚",
+          "time": "雨天下午",
+          "requirements": [
+            "雨变大，连续屋檐的旧街在对面"
+          ],
+          "assetIds": [
+            "tc-bg-kiosk-eaves-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 piao 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-piao-02",
+      "chapter": 4,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 390,
+      "sourceLineEnd": 404,
+      "heading": "选择A｜一只不能下水的船",
+      "time": "第24天16:30后",
+      "scenes": [
+        {
+          "label": "小卖部雨棚及柜台边",
+          "time": "雨天下午",
+          "requirements": [
+            "折纸留干处，猫只是老板比喻不强行加入"
+          ],
+          "assetIds": [
+            "tc-bg-kiosk-eaves-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 piao 路线",
+        "第四章飘选择A：等雨折纸；第七章回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-piao-03",
+      "chapter": 4,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 406,
+      "sourceLineEnd": 418,
+      "heading": "选择B｜谁给店起的名字",
+      "time": "第24天16:30后",
+      "scenes": [
+        {
+          "label": "连续屋檐的旧街与杂货店门口",
+          "time": "雨中至雨停下午",
+          "requirements": [
+            "新旧招牌叠层，半个发/圆；招牌文字后期排版"
+          ],
+          "assetIds": [
+            "tc-bg-kiosk-eaves-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 piao 路线",
+        "第四章飘选择B：旧街店名；第七章回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-piao-04",
+      "chapter": 4,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 420,
+      "sourceLineEnd": 438,
+      "heading": "第24天·18:00｜今天的散步到这里",
+      "time": "第24天18:00",
+      "scenes": [
+        {
+          "label": "岔路至回网吧路口",
+          "time": "雨后傍晚",
+          "requirements": [
+            "短暂停步修衣领后分别"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 piao 路线",
+        "仅飘关系=交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-piao-05",
+      "chapter": 4,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 440,
+      "sourceLineEnd": 450,
+      "heading": "仅朋友",
+      "time": "第24天18:00",
+      "scenes": [
+        {
+          "label": "炸土豆摊与分别路口",
+          "time": "雨后傍晚",
+          "requirements": [
+            "两只纸碗，朋友各吃各辣度"
+          ],
+          "assetIds": [
+            "tc-bg-stall-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 piao 路线",
+        "仅飘关系=朋友"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-friends-01",
+      "chapter": 4,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 454,
+      "sourceLineEnd": 462,
+      "heading": "第24天·下午｜谁都不用当陪客",
+      "time": "第24天下午",
+      "scenes": [
+        {
+          "label": "文文出租屋",
+          "time": "下午",
+          "requirements": [
+            "休班看群聊，确定自己想去的地方"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 friends 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-friends-02",
+      "chapter": 4,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 464,
+      "sourceLineEnd": 480,
+      "heading": "A｜去看毛狼说过的小演出",
+      "time": "第24天下午",
+      "scenes": [
+        {
+          "label": "街边带小舞台的店",
+          "time": "下午",
+          "requirements": [
+            "双人在后排消费；台上歌手为环境角色，观众自然"
+          ],
+          "assetIds": [
+            "tc-bg-performance-shop-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 friends 路线",
+        "第四章朋友线选择A：小演出；第七章回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-friends-03",
+      "chapter": 4,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 482,
+      "sourceLineEnd": 496,
+      "heading": "B｜沿着没怎么走过的街慢慢逛",
+      "time": "第24天下午",
+      "scenes": [
+        {
+          "label": "老街烤豆腐摊",
+          "time": "下午",
+          "requirements": [
+            "毛狼留两块豆腐并去买水"
+          ],
+          "assetIds": [
+            "tc-bg-stall-day"
+          ]
+        },
+        {
+          "label": "旧游戏小店室内与门外矮凳",
+          "time": "下午",
+          "requirements": [
+            "文文进店看，毛狼留外面；只买便宜明信片"
+          ],
+          "assetIds": [
+            "tc-bg-game-store-day"
+          ]
+        },
+        {
+          "label": "雨洗过的亮墙街段",
+          "time": "下午",
+          "requirements": [
+            "步行折返"
+          ],
+          "assetIds": [
+            "tc-bg-slope-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 friends 路线",
+        "第四章朋友线选择B：逛街；第七章回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-friends-04",
+      "chapter": 4,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 498,
+      "sourceLineEnd": 504,
+      "heading": "共同段｜回到路口",
+      "time": "第24天傍晚—晚上",
+      "scenes": [
+        {
+          "label": "路口亮灯面馆门口",
+          "time": "傍晚",
+          "requirements": [
+            "发现饿了；未细写用餐"
+          ],
+          "assetIds": [
+            "tc-bg-food-front-dusk"
+          ]
+        },
+        {
+          "label": "文文出租屋",
+          "time": "晚上",
+          "requirements": [
+            "记当天支出，洗澡只叙述，不需浴室人物镜头"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 friends 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-huangqiuqiu-01",
+      "chapter": 4,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 508,
+      "sourceLineEnd": 525,
+      "heading": "第24天·16:30｜你可以选一个难题",
+      "time": "第24天16:30",
+      "scenes": [
+        {
+          "label": "网吧后院侧门干处",
+          "time": "雨天下午",
+          "requirements": [
+            "门外伞不挡路，纸笔；先敲门等应允"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 huangqiuqiu 路线",
+        "隐藏线资格"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-huangqiuqiu-02",
+      "chapter": 4,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 527,
+      "sourceLineEnd": 545,
+      "heading": "选择A｜画上那个人挺精神",
+      "time": "第24天16:30后",
+      "scenes": [
+        {
+          "label": "网吧后院干处",
+          "time": "雨天下午",
+          "requirements": [
+            "文文拙劣自画像、手机自拍参照、纸笔，纸平压干处不贴门"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 huangqiuqiu 路线",
+        "隐藏线资格；第四章球球选择A：自画像；第七章回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-huangqiuqiu-03",
+      "chapter": 4,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 547,
+      "sourceLineEnd": 557,
+      "heading": "选择B｜没有赶到结尾的鸭子",
+      "time": "第24天16:30后",
+      "scenes": [
+        {
+          "label": "网吧后院干处",
+          "time": "雨天下午",
+          "requirements": [
+            "两个低凳，球球托腮与弯眼笑"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 huangqiuqiu 路线",
+        "隐藏线资格；第四章球球选择B：笨故事；第七章回收"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch04-huangqiuqiu-04",
+      "chapter": 4,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sourceLineStart": 559,
+      "sourceLineEnd": 581,
+      "heading": "第24天·17:30｜想坐高一点",
+      "time": "第24天17:30",
+      "scenes": [
+        {
+          "label": "网吧后院门框边干处",
+          "time": "雨停的下午",
+          "requirements": [
+            "稍高矮凳垫干净防滑布，门框外窄天空；结束托回原位"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 huangqiuqiu 路线",
+        "隐藏线资格"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch05-common-01",
+      "chapter": 5,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sourceLineStart": 11,
+      "sourceLineEnd": 35,
+      "heading": "第25天·18:10｜回声那条消息",
+      "time": "第25天18:10及晚些时候",
+      "scenes": [
+        {
+          "label": "文文出租屋饭桌/热饭处",
+          "time": "傍晚至夜",
+          "requirements": [
+            "群聊回声营业至30天、排班、热饭"
+          ],
+          "assetIds": [
+            "tc-bg-rental-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "第二章约局说明A/B回收，只读相应段"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch05-xiaoman-01",
+      "chapter": 5,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sourceLineStart": 39,
+      "sourceLineEnd": 95,
+      "heading": "第27天·17:10｜那句顺嘴的话",
+      "time": "第27天17:10",
+      "scenes": [
+        {
+          "label": "快递点门口与货架",
+          "time": "下午",
+          "requirements": [
+            "取件码、包装袋"
+          ],
+          "assetIds": [
+            "tc-bg-parcel-day"
+          ]
+        },
+        {
+          "label": "快递点外街路与路口",
+          "time": "下午",
+          "requirements": [
+            "推车暂隔两人，之后小满保持距离独自离开"
+          ],
+          "assetIds": [
+            "tc-bg-parcel-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 xiaoman 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch05-xiaoman-02",
+      "chapter": 5,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sourceLineStart": 97,
+      "sourceLineEnd": 131,
+      "heading": "第29天·16:30｜新外套",
+      "time": "第29天16:30",
+      "scenes": [
+        {
+          "label": "便利店座椅区",
+          "time": "下午",
+          "requirements": [
+            "未拆封到拆开的饼干；抬手要看见蓝边"
+          ],
+          "assetIds": [
+            "tc-bg-convenience-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 xiaoman 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch05-zhouzhi-01",
+      "chapter": 5,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sourceLineStart": 135,
+      "sourceLineEnd": 183,
+      "heading": "第26天·17:30｜你今天也在上班吗",
+      "time": "第26天17:30",
+      "scenes": [
+        {
+          "label": "约饭门口与附近饭店",
+          "time": "下午",
+          "requirements": [
+            "起初三人来见周栀；毛狼同行为环境配角；周栀汤渐凉、筷子未动"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        },
+        {
+          "label": "车站",
+          "time": "傍晚",
+          "requirements": [
+            "周栀登车，隔玻璃抬手"
+          ],
+          "assetIds": [
+            "tc-bg-busstop-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 zhouzhi 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch05-zhouzhi-02",
+      "chapter": 5,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sourceLineStart": 185,
+      "sourceLineEnd": 213,
+      "heading": "第29天·16:50｜先留两个人的位置",
+      "time": "第29天16:50",
+      "scenes": [
+        {
+          "label": "普通面馆双人桌",
+          "time": "下午",
+          "requirements": [
+            "文文先问口味，二人安静吃饭"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        },
+        {
+          "label": "面馆门口",
+          "time": "下午",
+          "requirements": [
+            "周栀压平文文外套后领"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 zhouzhi 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch05-mengyao-01",
+      "chapter": 5,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sourceLineStart": 217,
+      "sourceLineEnd": 261,
+      "heading": "第27天·17:50｜一句玩笑碰到旧地方",
+      "time": "第27天17:50",
+      "scenes": [
+        {
+          "label": "卖粥小店",
+          "time": "下午",
+          "requirements": [
+            "摆动风扇、粥碗、勺子、打印纸"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        },
+        {
+          "label": "街口",
+          "time": "傍晚前",
+          "requirements": [
+            "孟遥自己购物，文文不跟"
+          ],
+          "assetIds": [
+            "tc-bg-street-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 mengyao 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch05-mengyao-02",
+      "chapter": 5,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sourceLineStart": 263,
+      "sourceLineEnd": 297,
+      "heading": "第29天·16:30｜你也可以听错",
+      "time": "第29天16:30",
+      "scenes": [
+        {
+          "label": "豆花店门口及店外遮阳棚座",
+          "time": "下午",
+          "requirements": [
+            "她已买咸豆花、扶碗、阳光移至棚外"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 mengyao 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch05-yelan-01",
+      "chapter": 5,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sourceLineStart": 301,
+      "sourceLineEnd": 321,
+      "heading": "第27天·20:10｜我没有说请你介绍",
+      "time": "第27天20:10",
+      "scenes": [
+        {
+          "label": "网吧机位",
+          "time": "夜",
+          "requirements": [
+            "从隔壁座位顾客喊队友可判定在网吧；文文休班，耳机，手机私聊"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-pc-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 yelan 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch05-yelan-02",
+      "chapter": 5,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sourceLineStart": 323,
+      "sourceLineEnd": 361,
+      "heading": "第29天·18:00｜她不是另一个账号",
+      "time": "第29天18:00",
+      "scenes": [
+        {
+          "label": "饺子店",
+          "time": "傍晚",
+          "requirements": [
+            "热饺子在勺上晾凉，双人桌"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        },
+        {
+          "label": "相邻冰棒冰柜与街道路口",
+          "time": "傍晚",
+          "requirements": [
+            "挑同一种冰棒，包装入垃圾桶"
+          ],
+          "assetIds": [
+            "tc-bg-convenience-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 yelan 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch05-piao-01",
+      "chapter": 5,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sourceLineStart": 365,
+      "sourceLineEnd": 405,
+      "heading": "第27天·16:00｜一张不太满意的封面",
+      "time": "第27天16:00—傍晚",
+      "scenes": [
+        {
+          "label": "安静小店",
+          "time": "下午",
+          "requirements": [
+            "两张试样在桌上，不替她定最终稿"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        },
+        {
+          "label": "包子豆浆店门外",
+          "time": "下午至傍晚",
+          "requirements": [
+            "热豆浆、等刚蒸包子"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 piao 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch05-piao-02",
+      "chapter": 5,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sourceLineStart": 407,
+      "sourceLineEnd": 431,
+      "heading": "第29天·17:30｜别替我挑好答案",
+      "time": "第29天17:30",
+      "scenes": [
+        {
+          "label": "小店双人座",
+          "time": "下午",
+          "requirements": [
+            "炸豆腐共享盘，两人先对坐后飘主动挪旁边靠肩"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 piao 路线",
+        "仅飘关系=交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch05-piao-03",
+      "chapter": 5,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sourceLineStart": 433,
+      "sourceLineEnd": 453,
+      "heading": "仅朋友",
+      "time": "第29天17:30",
+      "scenes": [
+        {
+          "label": "小店双人座及店门口",
+          "time": "下午",
+          "requirements": [
+            "炸豆腐、手机约下次、查看时间后各走"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 piao 路线",
+        "仅飘关系=朋友"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch05-friends-01",
+      "chapter": 5,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sourceLineStart": 457,
+      "sourceLineEnd": 483,
+      "heading": "第27天·17:10｜那个没说清的工作",
+      "time": "第27天17:10及晚些时候",
+      "scenes": [
+        {
+          "label": "日用品商店与门口",
+          "time": "下午",
+          "requirements": [
+            "卫生纸、洗衣液、电池；旧熟人环境配角"
+          ],
+          "assetIds": [
+            "tc-bg-supermarket-day"
+          ]
+        },
+        {
+          "label": "文文出租屋床边",
+          "time": "晚些时候",
+          "requirements": [
+            "购物袋放下，给毛狼电话"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 friends 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch05-friends-02",
+      "chapter": 5,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sourceLineStart": 485,
+      "sourceLineEnd": 501,
+      "heading": "第29天·17:30｜照样讲出来",
+      "time": "第29天17:30—准备夜班",
+      "scenes": [
+        {
+          "label": "面馆",
+          "time": "下午",
+          "requirements": [
+            "旧熟人环境配角，对话后独自吃面"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        },
+        {
+          "label": "网吧柜台",
+          "time": "傍晚",
+          "requirements": [
+            "送规格不合的卫生纸、师匠吃最后一口饭，放柜台下"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 friends 路线"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch05-huangqiuqiu-01",
+      "chapter": 5,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sourceLineStart": 505,
+      "sourceLineEnd": 541,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "time": "第27天17:00",
+      "scenes": [
+        {
+          "label": "网吧后院侧门干处",
+          "time": "下午",
+          "requirements": [
+            "风轻推门、低凳，文文紧张坐前沿后坐稳"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 huangqiuqiu 路线",
+        "隐藏线资格"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch05-huangqiuqiu-02",
+      "chapter": 5,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sourceLineStart": 543,
+      "sourceLineEnd": 571,
+      "heading": "第29天·16:30｜一个没说完的哈欠",
+      "time": "第29天16:30",
+      "scenes": [
+        {
+          "label": "网吧后院干处及门边",
+          "time": "雨天下午",
+          "requirements": [
+            "门外放伞、低凳不挡路；扶门站稳腿麻后离开"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅所选 huangqiuqiu 路线",
+        "隐藏线资格"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch06-common-01",
+      "chapter": 6,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sourceLineStart": 11,
+      "sourceLineEnd": 44,
+      "heading": "第30天·18:00｜吃完还要上班",
+      "time": "第30天·18:00",
+      "scenes": [
+        {
+          "label": "普通小食店/面馆·暮色",
+          "time": "傍晚",
+          "requirements": [
+            "同一饭局；其他朋友未点名，不为全员各造立绘。第31天06:00回声已关门。"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        },
+        {
+          "label": "网吧入口/柜台·夜",
+          "time": "夜间",
+          "requirements": [
+            "同一饭局；其他朋友未点名，不为全员各造立绘。第31天06:00回声已关门。"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-night"
+          ]
+        },
+        {
+          "label": "回声门外·停业日间/清晨",
+          "time": "第30天·18:00",
+          "requirements": [
+            "同一饭局；其他朋友未点名，不为全员各造立绘。第31天06:00回声已关门。"
+          ],
+          "assetIds": [
+            "tc-bg-echo-closed-day"
+          ]
+        }
+      ],
+      "conditions": [],
+      "chronologyOverrides": [
+        {
+          "chapter": 6,
+          "route": "common",
+          "day": 31,
+          "time": "凌晨",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+            "line": 37,
+            "raw": "第三十一天凌晨，我休息的几分钟里看到周栀发来一句：“收工了，回去睡。”我回她晚安，没追问关门时有没有哭。"
+          },
+          "rule": "共通从第30天跨到第31天；之后孟遥/叶岚显式补叙第30天。"
+        },
+        {
+          "chapter": 6,
+          "route": "common",
+          "day": 31,
+          "time": "06:00",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+            "line": 39,
+            "raw": "六点有人接班。我沿着昨天吃饭的那条路回去，回声的门已经关着。招牌还在那里，街上的早餐摊也已经摆出来。"
+          },
+          "rule": "早班交接，显示第31天清晨。"
+        }
+      ],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch06-xiaoman-01",
+      "chapter": 6,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sourceLineStart": 47,
+      "sourceLineEnd": 124,
+      "heading": "第32天·15:50｜没有事也可以坐着",
+      "time": "第32天·15:50",
+      "scenes": [
+        {
+          "label": "毕节街道/坡口·日间",
+          "time": "第32天·15:50",
+          "requirements": [
+            "新外套搭手臂，橘子、空盒、刷漆警示带与避雨台阶。"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        },
+        {
+          "label": "河边步道/长椅/避雨台阶·日",
+          "time": "第32天·15:50",
+          "requirements": [
+            "新外套搭手臂，橘子、空盒、刷漆警示带与避雨台阶。"
+          ],
+          "assetIds": [
+            "tc-bg-river-day"
+          ]
+        },
+        {
+          "label": "普通小食店/面馆·暮色",
+          "time": "傍晚",
+          "requirements": [
+            "新外套搭手臂，橘子、空盒、刷漆警示带与避雨台阶。"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 xiaoman"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch06-zhouzhi-01",
+      "chapter": 6,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sourceLineStart": 127,
+      "sourceLineEnd": 190,
+      "heading": "第32天·17:10｜绕过那个门口",
+      "time": "第32天·17:10",
+      "scenes": [
+        {
+          "label": "毕节街道/坡口·日间",
+          "time": "第32天·17:10",
+          "requirements": [
+            "第30天饭后/第31天为补叙；主场第32天下午。浅蓝衬衫、白杯蓝沿、两只各自的杯子。"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        },
+        {
+          "label": "回声门外·停业日间/清晨",
+          "time": "第32天·17:10",
+          "requirements": [
+            "第30天饭后/第31天为补叙；主场第32天下午。浅蓝衬衫、白杯蓝沿、两只各自的杯子。"
+          ],
+          "assetIds": [
+            "tc-bg-echo-closed-day"
+          ]
+        },
+        {
+          "label": "超市日用品/米袋/零食货架·日",
+          "time": "第32天·17:10",
+          "requirements": [
+            "第30天饭后/第31天为补叙；主场第32天下午。浅蓝衬衫、白杯蓝沿、两只各自的杯子。"
+          ],
+          "assetIds": [
+            "tc-bg-supermarket-day"
+          ]
+        },
+        {
+          "label": "普通服装/饰品店·日",
+          "time": "第32天·17:10",
+          "requirements": [
+            "第30天饭后/第31天为补叙；主场第32天下午。浅蓝衬衫、白杯蓝沿、两只各自的杯子。"
+          ],
+          "assetIds": [
+            "tc-bg-clothing-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 zhouzhi"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch06-mengyao-01",
+      "chapter": 6,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sourceLineStart": 193,
+      "sourceLineEnd": 212,
+      "heading": "第30天·19:20｜饭后各有一段路",
+      "time": "第30天·19:20",
+      "scenes": [
+        {
+          "label": "公交站·傍晚",
+          "time": "傍晚",
+          "requirements": [
+            "补叙共通第30天同顿饭；第31天清晨照片只在手机，不新增饭局。"
+          ],
+          "assetIds": [
+            "tc-bg-busstop-dusk"
+          ]
+        },
+        {
+          "label": "网吧入口/柜台·夜",
+          "time": "夜间",
+          "requirements": [
+            "补叙共通第30天同顿饭；第31天清晨照片只在手机，不新增饭局。"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 mengyao"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch06-mengyao-02",
+      "chapter": 6,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sourceLineStart": 213,
+      "sourceLineEnd": 264,
+      "heading": "第32天·16:10｜她也不是每首都会唱",
+      "time": "第32天·16:10",
+      "scenes": [
+        {
+          "label": "按时计费小练歌房·室内",
+          "time": "第32天·16:10",
+          "requirements": [
+            "浅色外套、双话筒、冰杯；陌生小练歌房，不是回声重新营业。"
+          ],
+          "assetIds": [
+            "tc-bg-practice-room"
+          ]
+        },
+        {
+          "label": "毕节街道/坡口·日间",
+          "time": "第32天·16:10",
+          "requirements": [
+            "浅色外套、双话筒、冰杯；陌生小练歌房，不是回声重新营业。"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 mengyao"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch06-yelan-01",
+      "chapter": 6,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sourceLineStart": 267,
+      "sourceLineEnd": 282,
+      "heading": "第30天·19:15｜散席以后",
+      "time": "第30天·19:15",
+      "scenes": [
+        {
+          "label": "普通小食店/面馆·暮色",
+          "time": "傍晚",
+          "requirements": [
+            "补叙同顿饭，付款/递纸巾后乘车，不做设备交接。"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        },
+        {
+          "label": "毕节街道/坡口·尚亮傍晚",
+          "time": "傍晚",
+          "requirements": [
+            "补叙同顿饭，付款/递纸巾后乘车，不做设备交接。"
+          ],
+          "assetIds": [
+            "tc-bg-street-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 yelan"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch06-yelan-02",
+      "chapter": 6,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sourceLineStart": 283,
+      "sourceLineEnd": 338,
+      "heading": "第32天·16:30｜她打飞的那一球",
+      "time": "第32天·16:30",
+      "scenes": [
+        {
+          "label": "乒乓球馆/场边座椅·日",
+          "time": "第32天·16:30",
+          "requirements": [
+            "头发重新扎紧，球拍、水瓶；不穿高跟工作装打球。"
+          ],
+          "assetIds": [
+            "tc-bg-tabletennis-day"
+          ]
+        },
+        {
+          "label": "便利店柜台/门外座椅·日",
+          "time": "第32天·16:30",
+          "requirements": [
+            "头发重新扎紧，球拍、水瓶；不穿高跟工作装打球。"
+          ],
+          "assetIds": [
+            "tc-bg-convenience-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 yelan"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch06-piao-01",
+      "chapter": 6,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sourceLineStart": 341,
+      "sourceLineEnd": 364,
+      "heading": "第32天·15:30｜少了一个顺路的地方",
+      "time": "第32天·15:30",
+      "scenes": [
+        {
+          "label": "回声门外·停业日间/清晨",
+          "time": "第32天·15:30",
+          "requirements": [
+            "经过关闭门口，不入内；酸橘子、饼。"
+          ],
+          "assetIds": [
+            "tc-bg-echo-closed-day"
+          ]
+        },
+        {
+          "label": "公园入口/树荫/长椅·日",
+          "time": "第32天·15:30",
+          "requirements": [
+            "经过关闭门口，不入内；酸橘子、饼。"
+          ],
+          "assetIds": [
+            "tc-bg-park-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 piao"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch06-piao-02",
+      "chapter": 6,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sourceLineStart": 367,
+      "sourceLineEnd": 398,
+      "heading": "仅交往",
+      "time": "第32天·16:00",
+      "scenes": [
+        {
+          "label": "公园入口/树荫/长椅·日",
+          "time": "第32天·16:00",
+          "requirements": [
+            "承接第21天交往；牵手与额角吻仅此分支。"
+          ],
+          "assetIds": [
+            "tc-bg-park-day"
+          ]
+        },
+        {
+          "label": "普通小食店/面馆·暮色",
+          "time": "傍晚",
+          "requirements": [
+            "承接第21天交往；牵手与额角吻仅此分支。"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 piao",
+        "第三章第21天选择交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch06-piao-03",
+      "chapter": 6,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sourceLineStart": 399,
+      "sourceLineEnd": 420,
+      "heading": "仅朋友",
+      "time": "第32天·16:00",
+      "scenes": [
+        {
+          "label": "公园入口/树荫/长椅·日",
+          "time": "第32天·16:00",
+          "requirements": [
+            "承接朋友；毛狼只发照片，不实体入场。"
+          ],
+          "assetIds": [
+            "tc-bg-park-day"
+          ]
+        },
+        {
+          "label": "文文出租屋床/桌/生活角·夜",
+          "time": "夜间",
+          "requirements": [
+            "承接朋友；毛狼只发照片，不实体入场。"
+          ],
+          "assetIds": [
+            "tc-bg-rental-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 piao",
+        "第三章第21天选择朋友"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch06-friends-01",
+      "chapter": 6,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sourceLineStart": 423,
+      "sourceLineEnd": 448,
+      "heading": "第32天·16:30｜不开麦也能坐着",
+      "time": "第32天·16:30",
+      "scenes": [
+        {
+          "label": "网吧入口/柜台·日",
+          "time": "第32天·16:30",
+          "requirements": [
+            "烤土豆分辣度。"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-day"
+          ]
+        },
+        {
+          "label": "烤土豆/豆腐等街边摊·日/尚亮傍晚",
+          "time": "第32天·16:30",
+          "requirements": [
+            "烤土豆分辣度。"
+          ],
+          "assetIds": [
+            "tc-bg-stall-day"
+          ]
+        },
+        {
+          "label": "连续旧街屋檐·日",
+          "time": "第32天·16:30",
+          "requirements": [
+            "烤土豆分辣度。"
+          ],
+          "assetIds": [
+            "tc-bg-eaves-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 friends"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch06-friends-02",
+      "chapter": 6,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sourceLineStart": 449,
+      "sourceLineEnd": 466,
+      "heading": "第33天·18:20｜不替别人做主",
+      "time": "第33天·18:20",
+      "scenes": [
+        {
+          "label": "文文出租屋床/桌/生活角·夜",
+          "time": "夜间",
+          "requirements": [
+            "群消息；飘与毛狼去打印为计划/转述，不画打印店到访。"
+          ],
+          "assetIds": [
+            "tc-bg-rental-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 friends"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch06-friends-03",
+      "chapter": 6,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sourceLineStart": 467,
+      "sourceLineEnd": 474,
+      "heading": "第34天·上午｜不赶着醒",
+      "time": "第34天·上午",
+      "scenes": [
+        {
+          "label": "文文出租屋床/桌/生活角·日",
+          "time": "第34天·上午",
+          "requirements": [
+            "上午睡前至下午醒来；毛狼只消息。"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 friends"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch06-huangqiuqiu-01",
+      "chapter": 6,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sourceLineStart": 477,
+      "sourceLineEnd": 502,
+      "heading": "第32天·16:00｜门外换过一阵雨",
+      "time": "第32天·16:00",
+      "scenes": [
+        {
+          "label": "后院门内干处/凳子/门框天空·日",
+          "time": "第32天·16:00",
+          "requirements": [
+            "球形，私密门内。"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 huangqiuqiu",
+        "已取得隐藏资格并完成第14天相识"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch06-huangqiuqiu-02",
+      "chapter": 6,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sourceLineStart": 503,
+      "sourceLineEnd": 544,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "time": "第32天·17:00",
+      "scenes": [
+        {
+          "label": "后院门内干处/凳子/门框天空·日",
+          "time": "第32天·17:00",
+          "requirements": [
+            "球形笑话，不把故事中人物画进现场。"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 huangqiuqiu",
+        "已取得隐藏资格并完成第14天相识"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-common-01",
+      "chapter": 7,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 11,
+      "sourceLineEnd": 24,
+      "heading": "第35天·下午｜群里空下来的一会儿",
+      "time": "第35天·下午",
+      "scenes": [
+        {
+          "label": "文文出租屋床/桌/生活角·日",
+          "time": "第35天·下午",
+          "requirements": [
+            "群聊/游戏，仅头像。"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        }
+      ],
+      "conditions": [],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-xiaoman-01",
+      "chapter": 7,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 27,
+      "sourceLineEnd": 62,
+      "heading": "第39天·17:00｜她的周末",
+      "time": "第39天·17:00",
+      "scenes": [
+        {
+          "label": "文文出租屋床/桌/生活角·日",
+          "time": "第39天·17:00",
+          "requirements": [
+            "先通话，约七点前街口见；不同事短课CG。"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        },
+        {
+          "label": "毕节街道/坡口·尚亮傍晚",
+          "time": "傍晚",
+          "requirements": [
+            "先通话，约七点前街口见；不同事短课CG。"
+          ],
+          "assetIds": [
+            "tc-bg-street-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 xiaoman"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-xiaoman-02",
+      "chapter": 7,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 63,
+      "sourceLineEnd": 82,
+      "heading": "若第24天选择投篮机｜不欠的第三局",
+      "time": "第39天·17:00",
+      "scenes": [
+        {
+          "label": "游戏厅投篮机·室内",
+          "time": "第39天·17:00",
+          "requirements": [
+            "第四章投篮机分支回收；三局不补机械恋爱分数。"
+          ],
+          "assetIds": [
+            "tc-bg-arcade-basketball"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 xiaoman",
+        "第四章相应选项已发生；两分支互斥"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-xiaoman-03",
+      "chapter": 7,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 83,
+      "sourceLineEnd": 106,
+      "heading": "若第24天选择旧书摊｜第二只纸鹤",
+      "time": "第39天·17:00",
+      "scenes": [
+        {
+          "label": "旧书摊收摊石阶·傍晚",
+          "time": "傍晚",
+          "requirements": [
+            "第四章旧书摊分支；本次摊未开，石阶折彩纸鹤，不能仍摆满书。"
+          ],
+          "assetIds": [
+            "tc-bg-used-books-closed-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 xiaoman",
+        "第四章相应选项已发生；两分支互斥"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-xiaoman-04",
+      "chapter": 7,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 107,
+      "sourceLineEnd": 122,
+      "heading": "共同段｜七点半的路口",
+      "time": "第39天·17:00",
+      "scenes": [
+        {
+          "label": "毕节街道/坡口·尚亮傍晚",
+          "time": "傍晚",
+          "requirements": [
+            "19:30路口，光线待A04按季节连续安排。"
+          ],
+          "assetIds": [
+            "tc-bg-street-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 xiaoman"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-zhouzhi-01",
+      "chapter": 7,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 125,
+      "sourceLineEnd": 144,
+      "heading": "第43天·16:40｜她也有别的约",
+      "time": "第43天·16:40",
+      "scenes": [
+        {
+          "label": "毕节街道/坡口·日间",
+          "time": "第43天·16:40",
+          "requirements": [
+            "试卖经历只消息概述；当前休息日，不画经营失败事件CG。"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 zhouzhi"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-zhouzhi-02",
+      "chapter": 7,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 145,
+      "sourceLineEnd": 162,
+      "heading": "若第23天选择沿河听歌｜今天的歌很吵",
+      "time": "第43天·16:40",
+      "scenes": [
+        {
+          "label": "河边步道/长椅/避雨台阶·日",
+          "time": "第43天·16:40",
+          "requirements": [
+            "第四章沿河听歌回收；一人一只耳机，河边座位。"
+          ],
+          "assetIds": [
+            "tc-bg-river-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 zhouzhi",
+        "第四章相应选项已发生；两分支互斥"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-zhouzhi-03",
+      "chapter": 7,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 163,
+      "sourceLineEnd": 184,
+      "heading": "若第23天选择影院｜这回我挑片",
+      "time": "第43天·16:40",
+      "scenes": [
+        {
+          "label": "电影院观众席过道/散场",
+          "time": "第43天·16:40",
+          "requirements": [
+            "第四章影院回收；不同电影/票根，具体影片不画。"
+          ],
+          "assetIds": [
+            "tc-bg-cinema-interior"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 zhouzhi",
+        "第四章相应选项已发生；两分支互斥"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-zhouzhi-04",
+      "chapter": 7,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 185,
+      "sourceLineEnd": 200,
+      "heading": "共同段｜不是接送任务",
+      "time": "第43天·16:40",
+      "scenes": [
+        {
+          "label": "毕节街道/坡口·尚亮傍晚",
+          "time": "傍晚",
+          "requirements": [
+            "分别各自购物，不画强行送行。"
+          ],
+          "assetIds": [
+            "tc-bg-street-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 zhouzhi"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-mengyao-01",
+      "chapter": 7,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 203,
+      "sourceLineEnd": 230,
+      "heading": "第39天·17:10｜没有我的那一桌",
+      "time": "第39天·17:10",
+      "scenes": [
+        {
+          "label": "普通小食店/面馆中性桌位·日",
+          "time": "第39天·17:10",
+          "requirements": [
+            "饭店门口与两位朋友；朋友为无专用立绘环境人物。"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 mengyao"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-mengyao-02",
+      "chapter": 7,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 233,
+      "sourceLineEnd": 256,
+      "heading": "若第四章选择 A｜旧书摊",
+      "time": "第43天·16:30",
+      "scenes": [
+        {
+          "label": "茶店桌游/看书桌位·日",
+          "time": "第43天·16:30",
+          "requirements": [
+            "旧书分支回收；收据、厨房随笔、纸条。"
+          ],
+          "assetIds": [
+            "tc-bg-tea-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 mengyao",
+        "第四章相应选项已发生；两分支互斥"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-mengyao-03",
+      "chapter": 7,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 257,
+      "sourceLineEnd": 278,
+      "heading": "若第四章选择 B｜街机厅",
+      "time": "第43天·16:30",
+      "scenes": [
+        {
+          "label": "游戏厅双人划船·室内",
+          "time": "第43天·16:30",
+          "requirements": [
+            "街机分支回收；本次双人划船，不继续画气垫球。"
+          ],
+          "assetIds": [
+            "tc-bg-arcade-rowing"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 mengyao",
+        "第四章相应选项已发生；两分支互斥"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-mengyao-04",
+      "chapter": 7,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 279,
+      "sourceLineEnd": 290,
+      "heading": "本章汇合",
+      "time": "第43天·16:30",
+      "scenes": [
+        {
+          "label": "毕节街道/坡口·日间",
+          "time": "第43天·16:30",
+          "requirements": [
+            "共同汇合。"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 mengyao"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-yelan-01",
+      "chapter": 7,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 293,
+      "sourceLineEnd": 314,
+      "heading": "第39天·18:10｜她并不只在那个队伍里",
+      "time": "第39天·18:10",
+      "scenes": [
+        {
+          "label": "文文出租屋床/桌/生活角·日",
+          "time": "第39天·18:10",
+          "requirements": [
+            "叶岚仅消息/无脸甜汤照，不实体出场，不增公司背景。"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        },
+        {
+          "label": "网吧入口/柜台·夜",
+          "time": "夜间",
+          "requirements": [
+            "叶岚仅消息/无脸甜汤照，不实体出场，不增公司背景。"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 yelan"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-yelan-02",
+      "chapter": 7,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 317,
+      "sourceLineEnd": 342,
+      "heading": "若第四章选择 A｜河边风筝",
+      "time": "第43天·17:00",
+      "scenes": [
+        {
+          "label": "河边放风筝空地·日",
+          "time": "第43天·17:00",
+          "requirements": [
+            "第四章风筝回收；边缘透明胶补丁，不画崭新风筝。"
+          ],
+          "assetIds": [
+            "tc-bg-riverside-lawn-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 yelan",
+        "第四章相应选项已发生；两分支互斥"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-yelan-03",
+      "chapter": 7,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 343,
+      "sourceLineEnd": 366,
+      "heading": "若第四章选择 B｜旧货市场",
+      "time": "第43天·17:00",
+      "scenes": [
+        {
+          "label": "旧货市场玩具摊·日",
+          "time": "第43天·17:00",
+          "requirements": [
+            "第四章旧货回收；公司桌角鸭照只手机；新送小鸭底座颜色不同。"
+          ],
+          "assetIds": [
+            "tc-bg-secondhand-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 yelan",
+        "第四章相应选项已发生；两分支互斥"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-yelan-04",
+      "chapter": 7,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 367,
+      "sourceLineEnd": 376,
+      "heading": "本章汇合",
+      "time": "第43天·17:00",
+      "scenes": [
+        {
+          "label": "普通小食店/面馆·暮色",
+          "time": "傍晚",
+          "requirements": [
+            "本章汇合，不把朋友都列为实体。"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 yelan"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-piao-01",
+      "chapter": 7,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 379,
+      "sourceLineEnd": 386,
+      "heading": "第39天·16:30｜她今天不围着我转",
+      "time": "第39天·16:30",
+      "scenes": [
+        {
+          "label": "毕节街道/坡口·日间",
+          "time": "第39天·16:30",
+          "requirements": [
+            "半小时路口；纸袋破提手、废纸。"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 piao"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-piao-02",
+      "chapter": 7,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 387,
+      "sourceLineEnd": 394,
+      "heading": "回收第24天的小选择",
+      "time": "第39天·16:30",
+      "scenes": [
+        {
+          "label": "毕节街道/坡口·日间",
+          "time": "第39天·16:30",
+          "requirements": [
+            "第四章A旧歪纸船与B招牌笑话互斥；不重折抹掉旧船。"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 piao",
+        "第四章相应选项已发生；两分支互斥"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-piao-03",
+      "chapter": 7,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 397,
+      "sourceLineEnd": 420,
+      "heading": "仅交往",
+      "time": "第39天·17:00",
+      "scenes": [
+        {
+          "label": "毕节街道/坡口·日间",
+          "time": "第39天·17:00",
+          "requirements": [
+            "恋人分支；朋友约会不强行跟去。"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 piao",
+        "第三章第21天选择交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-piao-04",
+      "chapter": 7,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 421,
+      "sourceLineEnd": 440,
+      "heading": "仅朋友",
+      "time": "第39天·17:00",
+      "scenes": [
+        {
+          "label": "毕节街道/坡口·日间",
+          "time": "第39天·17:00",
+          "requirements": [
+            "朋友分支后叙朋友饭局；其他朋友不新增身份。"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        },
+        {
+          "label": "普通小食店/面馆·暮色",
+          "time": "傍晚",
+          "requirements": [
+            "朋友分支后叙朋友饭局；其他朋友不新增身份。"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 piao",
+        "第三章第21天选择朋友"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-friends-01",
+      "chapter": 7,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 447,
+      "sourceLineEnd": 460,
+      "heading": "若第四章去看了小演出",
+      "time": "第40天·休班下午",
+      "scenes": [
+        {
+          "label": "有小舞台的街边店·日",
+          "time": "第40天·休班下午",
+          "requirements": [
+            "一个人看演出，毛狼在工作不入场。"
+          ],
+          "assetIds": [
+            "tc-bg-performance-shop-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 friends",
+        "第四章相应选项已发生；两分支互斥"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-friends-02",
+      "chapter": 7,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 461,
+      "sourceLineEnd": 472,
+      "heading": "若第四章沿街散步",
+      "time": "第40天·休班下午",
+      "scenes": [
+        {
+          "label": "旧游戏店/门外矮凳·日",
+          "time": "第40天·休班下午",
+          "requirements": [
+            "独自逛店，店主无专用立绘。"
+          ],
+          "assetIds": [
+            "tc-bg-game-store-day"
+          ]
+        },
+        {
+          "label": "毕节街道/坡口·日间",
+          "time": "第40天·休班下午",
+          "requirements": [
+            "独自逛店，店主无专用立绘。"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 friends",
+        "第四章相应选项已发生；两分支互斥"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-friends-03",
+      "chapter": 7,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 473,
+      "sourceLineEnd": 480,
+      "heading": "共同段｜晚上那一小局",
+      "time": "第40天·休班下午",
+      "scenes": [
+        {
+          "label": "文文出租屋床/桌/生活角·夜",
+          "time": "夜间",
+          "requirements": [
+            "在线小局；师匠、叶岚均缺席，不渲染其头像。"
+          ],
+          "assetIds": [
+            "tc-bg-rental-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 friends"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-friends-04",
+      "chapter": 7,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 481,
+      "sourceLineEnd": 496,
+      "heading": "第43天·16:00｜他也有自己的事",
+      "time": "第43天·16:00",
+      "scenes": [
+        {
+          "label": "文文出租屋床/桌/生活角·日",
+          "time": "第43天·16:00",
+          "requirements": [
+            "毛狼消息谈与飘约会，不画两人约会现场。"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 friends"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-huangqiuqiu-01",
+      "chapter": 7,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 499,
+      "sourceLineEnd": 516,
+      "heading": "第40天·17:00｜她今天想少说一点",
+      "time": "第40天·17:00",
+      "scenes": [
+        {
+          "label": "后院门内干处/凳子/门框天空·日",
+          "time": "第40天·17:00",
+          "requirements": [
+            "球形，少说话也可并坐。"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 huangqiuqiu",
+        "已取得隐藏资格并完成第14天相识"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-huangqiuqiu-02",
+      "chapter": 7,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 517,
+      "sourceLineEnd": 522,
+      "heading": "回收第24天的小选择",
+      "time": "第40天·17:00",
+      "scenes": [
+        {
+          "label": "后院门内干处/凳子/门框天空·日",
+          "time": "第40天·17:00",
+          "requirements": [
+            "第四章自画像/鸭故事互斥；鸭不是实体宠物。"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 huangqiuqiu",
+        "已取得隐藏资格并完成第14天相识",
+        "第四章相应选项已发生；两分支互斥"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch07-huangqiuqiu-03",
+      "chapter": 7,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceLineStart": 523,
+      "sourceLineEnd": 560,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "time": "第42天·16:30",
+      "scenes": [
+        {
+          "label": "后院门内干处/凳子/门框天空·日",
+          "time": "第42天·16:30",
+          "requirements": [
+            "第42天铺垫仍球形，不提前显示人形或形态按钮。"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 huangqiuqiu",
+        "已取得隐藏资格并完成第14天相识"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch08-common-01",
+      "chapter": 8,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sourceLineStart": 11,
+      "sourceLineEnd": 42,
+      "heading": "第52天·17:00｜一张椅子坐得下两个人的意见",
+      "time": "第52天·17:00",
+      "scenes": [
+        {
+          "label": "网吧入口/柜台·日",
+          "time": "第52天·17:00",
+          "requirements": [
+            "饭盒、手机试排，其他同事仅电话；未获得固定白班。"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-day"
+          ]
+        }
+      ],
+      "conditions": [],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch08-xiaoman-01",
+      "chapter": 8,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sourceLineStart": 45,
+      "sourceLineEnd": 84,
+      "heading": "第55天·16:20｜今天换我不太行",
+      "time": "第55天·16:20",
+      "scenes": [
+        {
+          "label": "文文出租屋床/桌/生活角·日",
+          "time": "第55天·16:20",
+          "requirements": [
+            "小满语音联系，不展示她住处与湿袖场面。"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 xiaoman"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch08-xiaoman-02",
+      "chapter": 8,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sourceLineStart": 85,
+      "sourceLineEnd": 122,
+      "heading": "第59天·17:40｜错过一球",
+      "time": "第59天·17:40",
+      "scenes": [
+        {
+          "label": "羽毛球馆/场边座椅·日",
+          "time": "第59天·17:40",
+          "requirements": [
+            "熟人球馆非赛事；借拍与保护套，小腿疲倦。"
+          ],
+          "assetIds": [
+            "tc-bg-badminton-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 xiaoman"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch08-zhouzhi-01",
+      "chapter": 8,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sourceLineStart": 125,
+      "sourceLineEnd": 184,
+      "heading": "第57天·17:20｜够不够，不用藏着算",
+      "time": "第57天·17:20",
+      "scenes": [
+        {
+          "label": "普通小食店/面馆中性桌位·日",
+          "time": "第57天·17:20",
+          "requirements": [
+            "漂亮饭店门外发现价格，转去小锅饭；两杯热豆浆；不得把两店画成同一家。"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        },
+        {
+          "label": "普通小食店/面馆·暮色",
+          "time": "傍晚",
+          "requirements": [
+            "漂亮饭店门外发现价格，转去小锅饭；两杯热豆浆；不得把两店画成同一家。"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        },
+        {
+          "label": "毕节街道/坡口·尚亮傍晚",
+          "time": "傍晚",
+          "requirements": [
+            "漂亮饭店门外发现价格，转去小锅饭；两杯热豆浆；不得把两店画成同一家。"
+          ],
+          "assetIds": [
+            "tc-bg-street-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 zhouzhi"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch08-mengyao-01",
+      "chapter": 8,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sourceLineStart": 187,
+      "sourceLineEnd": 266,
+      "heading": "第54天·16:00｜今天不当能干的人",
+      "time": "第54天·16:00",
+      "scenes": [
+        {
+          "label": "茶店桌游/看书桌位·日",
+          "time": "第54天·16:00",
+          "requirements": [
+            "桌游茶店、包带挂错椅背；疲倦但不改职业。"
+          ],
+          "assetIds": [
+            "tc-bg-tea-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 mengyao"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch08-yelan-01",
+      "chapter": 8,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sourceLineStart": 269,
+      "sourceLineEnd": 334,
+      "heading": "第54天·17:20｜不想赢的时候，也想见你",
+      "time": "第54天·17:20",
+      "scenes": [
+        {
+          "label": "普通小食店/面馆中性桌位·日",
+          "time": "第54天·17:20",
+          "requirements": [
+            "饭店/超市/街边长椅，饼干水；不画游戏胜利。"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        },
+        {
+          "label": "超市日用品/米袋/零食货架·日",
+          "time": "第54天·17:20",
+          "requirements": [
+            "饭店/超市/街边长椅，饼干水；不画游戏胜利。"
+          ],
+          "assetIds": [
+            "tc-bg-supermarket-day"
+          ]
+        },
+        {
+          "label": "公园入口/树荫/长椅·日",
+          "time": "第54天·17:20",
+          "requirements": [
+            "饭店/超市/街边长椅，饼干水；不画游戏胜利。"
+          ],
+          "assetIds": [
+            "tc-bg-park-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 yelan"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch08-piao-01",
+      "chapter": 8,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sourceLineStart": 337,
+      "sourceLineEnd": 356,
+      "heading": "第54天·16:00｜不是空出所有时间",
+      "time": "第54天·16:00",
+      "scenes": [
+        {
+          "label": "普通小食店/面馆中性桌位·日",
+          "time": "第54天·16:00",
+          "requirements": [
+            "没带册子，润喉糖、门口猫可环境细节，不新增宠物角色。"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 piao"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch08-piao-02",
+      "chapter": 8,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sourceLineStart": 359,
+      "sourceLineEnd": 382,
+      "heading": "仅交往",
+      "time": "第54天·17:00",
+      "scenes": [
+        {
+          "label": "普通服装/饰品店·日",
+          "time": "第54天·17:00",
+          "requirements": [
+            "恋人：衣店拒绝逛，街角靠肩及拥抱仅此分支。"
+          ],
+          "assetIds": [
+            "tc-bg-clothing-day"
+          ]
+        },
+        {
+          "label": "毕节街道/坡口·日间",
+          "time": "第54天·17:00",
+          "requirements": [
+            "恋人：衣店拒绝逛，街角靠肩及拥抱仅此分支。"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 piao",
+        "第三章第21天选择交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch08-piao-03",
+      "chapter": 8,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sourceLineStart": 383,
+      "sourceLineEnd": 402,
+      "heading": "仅朋友",
+      "time": "第54天·17:00",
+      "scenes": [
+        {
+          "label": "普通小食店/面馆中性桌位·日",
+          "time": "第54天·17:00",
+          "requirements": [
+            "朋友：告知与毛狼正式交往；毛狼仅消息。"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 piao",
+        "第三章第21天选择朋友"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch08-friends-01",
+      "chapter": 8,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sourceLineStart": 405,
+      "sourceLineEnd": 428,
+      "heading": "第54天·17:30｜别把空出来的时间又填满",
+      "time": "第54天·17:30",
+      "scenes": [
+        {
+          "label": "文文出租屋床/桌/生活角·日",
+          "time": "第54天·17:30",
+          "requirements": [
+            "拒绝活动现场帮工仅消息；晚间师匠找眼镜盒，不新增演出工作场。"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        },
+        {
+          "label": "网吧入口/柜台·夜",
+          "time": "夜间",
+          "requirements": [
+            "拒绝活动现场帮工仅消息；晚间师匠找眼镜盒，不新增演出工作场。"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 friends"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch08-friends-02",
+      "chapter": 8,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sourceLineStart": 429,
+      "sourceLineEnd": 442,
+      "heading": "第56天·20:00｜一次不太成功的组局",
+      "time": "第56天·20:00",
+      "scenes": [
+        {
+          "label": "文文出租屋床/桌/生活角·夜",
+          "time": "夜间",
+          "requirements": [
+            "休班在线组局，毛狼/师匠仅语音。"
+          ],
+          "assetIds": [
+            "tc-bg-rental-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 friends"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch08-friends-03",
+      "chapter": 8,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sourceLineStart": 443,
+      "sourceLineEnd": 454,
+      "heading": "第59天·下午｜剩下的半天",
+      "time": "第59天·下午",
+      "scenes": [
+        {
+          "label": "文文出租屋床/桌/生活角·日",
+          "time": "第59天·下午",
+          "requirements": [
+            "买菜、路边看棋、洗床单/择菜；陌生棋手无专用立绘。"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        },
+        {
+          "label": "毕节街道/坡口·日间",
+          "time": "第59天·下午",
+          "requirements": [
+            "买菜、路边看棋、洗床单/择菜；陌生棋手无专用立绘。"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        },
+        {
+          "label": "超市日用品/米袋/零食货架·日",
+          "time": "第59天·下午",
+          "requirements": [
+            "买菜、路边看棋、洗床单/择菜；陌生棋手无专用立绘。"
+          ],
+          "assetIds": [
+            "tc-bg-supermarket-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 friends"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch08-huangqiuqiu-01",
+      "chapter": 8,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sourceLineStart": 457,
+      "sourceLineEnd": 484,
+      "heading": "第55天·16:00｜一张还会改的班表",
+      "time": "第55天·16:00",
+      "scenes": [
+        {
+          "label": "后院门内干处/凳子/门框天空·日",
+          "time": "第55天·16:00",
+          "requirements": [
+            "球形，班表不画成升职通知；移凳看天。"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 huangqiuqiu",
+        "已取得隐藏资格并完成第14天相识"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch08-huangqiuqiu-02",
+      "chapter": 8,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sourceLineStart": 485,
+      "sourceLineEnd": 544,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "time": "第55天·17:00",
+      "scenes": [
+        {
+          "label": "后院门内干处/凳子/门框天空·日",
+          "time": "第55天·17:00",
+          "requirements": [
+            "17:00先球形触手并松开；主动提出变身，文文退后；变身后人形。人形只腰部镜头，照片下装不可补设。"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 huangqiuqiu",
+        "已取得隐藏资格并完成第14天相识"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-common-01",
+      "chapter": 9,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 11,
+      "sourceLineEnd": 32,
+      "heading": "第61天·下午｜留下来的空格",
+      "time": "第61天·下午",
+      "scenes": [
+        {
+          "label": "网吧入口/柜台·日",
+          "time": "第61天·下午",
+          "requirements": [
+            "第61天轮班确认，仍有夜班；班表文字交程序。"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-day"
+          ]
+        }
+      ],
+      "conditions": [],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-xiaoman-01",
+      "chapter": 9,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 35,
+      "sourceLineEnd": 70,
+      "heading": "第68天·16:30｜先把话说好",
+      "time": "第68天·16:30",
+      "scenes": [
+        {
+          "label": "居民坡道与矮墙·日",
+          "time": "第68天·16:30",
+          "requirements": [
+            "矮墙、橘子、碎发。"
+          ],
+          "assetIds": [
+            "tc-bg-slope-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 xiaoman"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-xiaoman-02",
+      "chapter": 9,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 71,
+      "sourceLineEnd": 110,
+      "heading": "选择A｜我想和你交往，不只是约着出去玩",
+      "time": "第68天·16:30",
+      "scenes": [
+        {
+          "label": "居民坡道与矮墙·日",
+          "time": "第68天·16:30",
+          "requirements": [
+            "交往：征得同意，牵手下坡。"
+          ],
+          "assetIds": [
+            "tc-bg-slope-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 xiaoman",
+        "当前路线第九章选择交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-xiaoman-03",
+      "chapter": 9,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 111,
+      "sourceLineEnd": 144,
+      "heading": "选择B｜我很珍惜你，但现在想把我们放在朋友的位置",
+      "time": "第68天·16:30",
+      "scenes": [
+        {
+          "label": "居民坡道与矮墙·日",
+          "time": "第68天·16:30",
+          "requirements": [
+            "朋友：不拥抱；第82天群约看球为后续，勿并入第68天。"
+          ],
+          "assetIds": [
+            "tc-bg-slope-day"
+          ]
+        },
+        {
+          "label": "公交站·日",
+          "time": "第68天·16:30",
+          "requirements": [
+            "朋友：不拥抱；第82天群约看球为后续，勿并入第68天。"
+          ],
+          "assetIds": [
+            "tc-bg-busstop-day"
+          ]
+        },
+        {
+          "label": "羽毛球馆/场边座椅·日",
+          "time": "第68天·16:30",
+          "requirements": [
+            "朋友：不拥抱；第82天群约看球为后续，勿并入第68天。"
+          ],
+          "assetIds": [
+            "tc-bg-badminton-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 xiaoman",
+        "当前路线第九章选择朋友"
+      ],
+      "chronologyOverrides": [
+        {
+          "chapter": 9,
+          "route": "xiaoman",
+          "day": 82,
+          "relationship": "friends",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 139,
+            "raw": "第82天，小满在群里问有没有人一起看球，我回了有空。她回给我球馆时间，见面时先笑我的鞋还是像保安。我们之间还有一点不自在，但能各说各的话，不需要假装那天下午没发生过。"
+          },
+          "rule": "拆成对应日期的后续场景；不可沿用前一个标题日期。"
+        }
+      ],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-zhouzhi-01",
+      "chapter": 9,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 147,
+      "sourceLineEnd": 170,
+      "heading": "第75天·18:10｜吃完饭，话还没说完",
+      "time": "第75天·18:10",
+      "scenes": [
+        {
+          "label": "普通小食店/面馆·暮色",
+          "time": "傍晚",
+          "requirements": [
+            "河边小馆晚饭；关系选择前。"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 zhouzhi"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-zhouzhi-02",
+      "chapter": 9,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 171,
+      "sourceLineEnd": 212,
+      "heading": "选择A｜愿意。我也想把你放进以后的安排里",
+      "time": "第75天·18:10",
+      "scenes": [
+        {
+          "label": "普通小食店/面馆·暮色",
+          "time": "傍晚",
+          "requirements": [
+            "交往：牵手/伞下亲吻。"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        },
+        {
+          "label": "连续旧街屋檐·日",
+          "time": "第75天·18:10",
+          "requirements": [
+            "交往：牵手/伞下亲吻。"
+          ],
+          "assetIds": [
+            "tc-bg-eaves-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 zhouzhi",
+        "当前路线第九章选择交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-zhouzhi-03",
+      "chapter": 9,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 213,
+      "sourceLineEnd": 246,
+      "heading": "选择B｜谢谢你告诉我，但我想继续做朋友",
+      "time": "第75天·18:10",
+      "scenes": [
+        {
+          "label": "普通小食店/面馆·暮色",
+          "time": "傍晚",
+          "requirements": [
+            "朋友：先留距离；第88天群饭局再见，不密集催回复。"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        },
+        {
+          "label": "毕节街道/坡口·尚亮傍晚",
+          "time": "傍晚",
+          "requirements": [
+            "朋友：先留距离；第88天群饭局再见，不密集催回复。"
+          ],
+          "assetIds": [
+            "tc-bg-street-dusk"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 zhouzhi",
+        "当前路线第九章选择朋友"
+      ],
+      "chronologyOverrides": [
+        {
+          "chapter": 9,
+          "route": "zhouzhi",
+          "day": 88,
+          "relationship": "friends",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 233,
+            "raw": "接下来一阵子，我们没有密集地单独见面。我没每天问她好一点没有，她也没让整个朋友群替她避开我。第88天，毛狼在群里约大家吃东西，她先问时间，我确认轮班以后说能来。"
+          },
+          "rule": "拆成对应日期的后续场景；不可沿用前一个标题日期。"
+        }
+      ],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-mengyao-01",
+      "chapter": 9,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 249,
+      "sourceLineEnd": 268,
+      "heading": "第68天·17:30｜从现在开始答",
+      "time": "第68天·17:30",
+      "scenes": [
+        {
+          "label": "桥头烧饼店/桥边台阶·日",
+          "time": "第68天·17:30",
+          "requirements": [
+            "烧饼、较低水位、晒热台阶。"
+          ],
+          "assetIds": [
+            "tc-bg-bridge-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 mengyao"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-mengyao-02",
+      "chapter": 9,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 269,
+      "sourceLineEnd": 304,
+      "heading": "仅交往｜这一次，也请认识我",
+      "time": "第68天·17:30",
+      "scenes": [
+        {
+          "label": "桥头烧饼店/桥边台阶·日",
+          "time": "第68天·17:30",
+          "requirements": [
+            "交往：牵手，不能把前任视作默认复合。"
+          ],
+          "assetIds": [
+            "tc-bg-bridge-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 mengyao",
+        "当前路线第九章选择交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-mengyao-03",
+      "chapter": 9,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 305,
+      "sourceLineEnd": 332,
+      "heading": "仅朋友｜把熟悉放到别处",
+      "time": "第68天·17:30",
+      "scenes": [
+        {
+          "label": "桥头烧饼店/桥边台阶·日",
+          "time": "第68天·17:30",
+          "requirements": [
+            "朋友：第81天群聊和私信单独时间，非桥边延续。"
+          ],
+          "assetIds": [
+            "tc-bg-bridge-day"
+          ]
+        },
+        {
+          "label": "文文出租屋床/桌/生活角·日",
+          "time": "第68天·17:30",
+          "requirements": [
+            "朋友：第81天群聊和私信单独时间，非桥边延续。"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 mengyao",
+        "当前路线第九章选择朋友"
+      ],
+      "chronologyOverrides": [
+        {
+          "chapter": 9,
+          "route": "mengyao",
+          "day": 81,
+          "relationship": "friends",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 325,
+            "raw": "第81天，孟遥在群里发了一个自己也答错的冷知识。毛狼抢着说答案，我跟着答，两个人错得一模一样。她发来一串笑脸，过了一会儿，私信问我最近轮班怎么样。"
+          },
+          "rule": "拆成对应日期的后续场景；不可沿用前一个标题日期。"
+        }
+      ],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-yelan-01",
+      "chapter": 9,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 335,
+      "sourceLineEnd": 352,
+      "heading": "第72天·17:40｜这次没有自动匹配",
+      "time": "第72天·17:40",
+      "scenes": [
+        {
+          "label": "连续旧街屋檐·日",
+          "time": "第72天·17:40",
+          "requirements": [
+            "新街道小店门外看雨，颜色不同的伞。"
+          ],
+          "assetIds": [
+            "tc-bg-eaves-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 yelan"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-yelan-02",
+      "chapter": 9,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 353,
+      "sourceLineEnd": 390,
+      "heading": "仅交往｜一起走出语音房间",
+      "time": "第72天·17:40",
+      "scenes": [
+        {
+          "label": "连续旧街屋檐·日",
+          "time": "第72天·17:40",
+          "requirements": [
+            "交往：水瓶换手、牵手。"
+          ],
+          "assetIds": [
+            "tc-bg-eaves-day"
+          ]
+        },
+        {
+          "label": "公交站·日",
+          "time": "第72天·17:40",
+          "requirements": [
+            "交往：水瓶换手、牵手。"
+          ],
+          "assetIds": [
+            "tc-bg-busstop-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 yelan",
+        "当前路线第九章选择交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-yelan-03",
+      "chapter": 9,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 391,
+      "sourceLineEnd": 420,
+      "heading": "仅朋友｜留在队伍里的人",
+      "time": "第72天·17:40",
+      "scenes": [
+        {
+          "label": "连续旧街屋檐·日",
+          "time": "第72天·17:40",
+          "requirements": [
+            "朋友：保持队友关系，后续语音不实体登场。"
+          ],
+          "assetIds": [
+            "tc-bg-eaves-day"
+          ]
+        },
+        {
+          "label": "文文出租屋床/桌/生活角·夜",
+          "time": "夜间",
+          "requirements": [
+            "朋友：保持队友关系，后续语音不实体登场。"
+          ],
+          "assetIds": [
+            "tc-bg-rental-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 yelan",
+        "当前路线第九章选择朋友"
+      ],
+      "chronologyOverrides": [
+        {
+          "chapter": 9,
+          "route": "yelan",
+          "day": 86,
+          "relationship": "friends",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "line": 409,
+            "raw": "到第86天，毛狼在群里约一场轻松的合作局。叶岚回了“我来”，又问还有谁。我说自己那天休息，可以参加。她没有退出，也没有特意多说一句。"
+          },
+          "rule": "拆成对应日期的后续场景；不可沿用前一个标题日期。"
+        }
+      ],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-piao-01",
+      "chapter": 9,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 423,
+      "sourceLineEnd": 442,
+      "heading": "第74天·15:30｜说的是下一次",
+      "time": "第74天·15:30",
+      "scenes": [
+        {
+          "label": "茶店桌游/看书桌位·日",
+          "time": "第74天·15:30",
+          "requirements": [
+            "原文只说桌边落座；茶店是可复用演出建议，地点未定，不强定她住处。第一批册子/日期空框。"
+          ],
+          "assetIds": [
+            "tc-bg-tea-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 piao"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-piao-02",
+      "chapter": 9,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 445,
+      "sourceLineEnd": 474,
+      "heading": "仅交往",
+      "time": "第74天·16:30",
+      "scenes": [
+        {
+          "label": "茶店桌游/看书桌位·日",
+          "time": "第74天·16:30",
+          "requirements": [
+            "沿用第三章交往，不能再选；书签/亲吻/预留日期。"
+          ],
+          "assetIds": [
+            "tc-bg-tea-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 piao",
+        "第三章第21天选择交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-piao-03",
+      "chapter": 9,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 475,
+      "sourceLineEnd": 498,
+      "heading": "仅朋友",
+      "time": "第74天·16:30",
+      "scenes": [
+        {
+          "label": "茶店桌游/看书桌位·日",
+          "time": "第74天·16:30",
+          "requirements": [
+            "沿用第三章朋友，毛狼先电话后到场。"
+          ],
+          "assetIds": [
+            "tc-bg-tea-day"
+          ]
+        },
+        {
+          "label": "毕节街道/坡口·日间",
+          "time": "第74天·16:30",
+          "requirements": [
+            "沿用第三章朋友，毛狼先电话后到场。"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 piao",
+        "第三章第21天选择朋友"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-friends-01",
+      "chapter": 9,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 501,
+      "sourceLineEnd": 518,
+      "heading": "第72天·休班晚上｜谁都不是替补",
+      "time": "第72天·休班晚上",
+      "scenes": [
+        {
+          "label": "普通小食店·夜",
+          "time": "夜间",
+          "requirements": [
+            "生日第二顿，蛋糕/水果；地点未指定，普通小店为演出建议，不改文稿。"
+          ],
+          "assetIds": [
+            "tc-bg-food-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 friends"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-friends-02",
+      "chapter": 9,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 519,
+      "sourceLineEnd": 530,
+      "heading": "第80天·15:30｜我自己的下一步",
+      "time": "第80天·15:30",
+      "scenes": [
+        {
+          "label": "商场书店/阅读座位·日",
+          "time": "第80天·15:30",
+          "requirements": [
+            "自己的书非技能资料，晚间毛狼仅消息。"
+          ],
+          "assetIds": [
+            "tc-bg-bookstore-day"
+          ]
+        },
+        {
+          "label": "文文出租屋床/桌/生活角·夜",
+          "time": "夜间",
+          "requirements": [
+            "自己的书非技能资料，晚间毛狼仅消息。"
+          ],
+          "assetIds": [
+            "tc-bg-rental-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 friends"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-friends-03",
+      "chapter": 9,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 531,
+      "sourceLineEnd": 542,
+      "heading": "第90天·傍晚｜回消息的人",
+      "time": "第90天·傍晚",
+      "scenes": [
+        {
+          "label": "文文出租屋床/桌/生活角·日",
+          "time": "第90天·傍晚",
+          "requirements": [
+            "母亲电话，地理位置未指定，沿用住处为演出建议。"
+          ],
+          "assetIds": [
+            "tc-bg-rental-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 friends"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-huangqiuqiu-01",
+      "chapter": 9,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 545,
+      "sourceLineEnd": 569,
+      "heading": "第76天·16:30｜不是替故事选结尾",
+      "time": "第76天·16:30",
+      "scenes": [
+        {
+          "label": "后院门内干处/凳子/门框天空·日",
+          "time": "第76天·16:30",
+          "requirements": [
+            "人形，玩偶棒靠凳，袖口折起。"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 huangqiuqiu",
+        "已取得隐藏资格并完成第14天相识"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-huangqiuqiu-02",
+      "chapter": 9,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 570,
+      "sourceLineEnd": 595,
+      "heading": "仅交往｜我可以再近一点吗",
+      "time": "第76天·16:30",
+      "scenes": [
+        {
+          "label": "后院门内干处/凳子/门框天空·日",
+          "time": "第76天·16:30",
+          "requirements": [
+            "人形恋人：同意后轻拥抱；不由拥抱触发变身。"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 huangqiuqiu",
+        "已取得隐藏资格并完成第14天相识",
+        "当前路线第九章选择交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch09-huangqiuqiu-03",
+      "chapter": 9,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceLineStart": 596,
+      "sourceLineEnd": 617,
+      "heading": "仅朋友｜这句话也会留下来",
+      "time": "第76天·16:30",
+      "scenes": [
+        {
+          "label": "后院门内干处/凳子/门框天空·日",
+          "time": "第76天·16:30",
+          "requirements": [
+            "人形朋友：不再敲门催她好起来。"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 huangqiuqiu",
+        "已取得隐藏资格并完成第14天相识",
+        "当前路线第九章选择朋友"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-common-01",
+      "chapter": 10,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 11,
+      "sourceLineEnd": 20,
+      "heading": "两年后｜仍然要去上班的人",
+      "time": "两年后",
+      "scenes": [
+        {
+          "label": "网吧入口/柜台·日",
+          "time": "两年后",
+          "requirements": [
+            "两年后仍在网吧；只改日用品位置，不擅自装修升级。"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-day"
+          ]
+        }
+      ],
+      "conditions": [],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-common-02",
+      "chapter": 10,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 21,
+      "sourceLineEnd": 40,
+      "heading": "关系后日谈｜仅文文与飘交往时",
+      "time": "两年后",
+      "scenes": [
+        {
+          "label": "普通小食店/面馆中性桌位·日",
+          "time": "两年后",
+          "requirements": [
+            "仅第三章飘交往；普通饭局无婚礼。"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "route=piao 且第21天交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-common-03",
+      "chapter": 10,
+      "route": "common",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 41,
+      "sourceLineEnd": 64,
+      "heading": "关系后日谈｜其余路径：飘与毛狼的婚宴",
+      "time": "两年后",
+      "scenes": [
+        {
+          "label": "普通小店婚宴·两年后",
+          "time": "两年后",
+          "requirements": [
+            "仅其他路线或飘朋友；普通婚宴，球球不出席。文稿未列全员，其他人不硬加。"
+          ],
+          "assetIds": [
+            "tc-bg-banquet-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "非飘交往路径；黄球球不得入场"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-xiaoman-01",
+      "chapter": 10,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 69,
+      "sourceLineEnd": 112,
+      "heading": "仅承接第九章选择A｜恋人结局：先问你有没有空",
+      "time": "两年后·一个有雨的休息日",
+      "scenes": [
+        {
+          "label": "小满租住房间·两年后日",
+          "time": "两年后·一个有雨的休息日",
+          "requirements": [
+            "小满租住房间、刘海剪刀玩笑、两袋番茄；恋人亲吻。"
+          ],
+          "assetIds": [
+            "tc-bg-xiaoman-home-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 xiaoman",
+        "当前路线第九章选择交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-xiaoman-02",
+      "chapter": 10,
+      "route": "xiaoman",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 113,
+      "sourceLineEnd": 152,
+      "heading": "仅承接第九章选择B｜朋友结局：叫我名字就行",
+      "time": "两年后·一个有雨的休息日",
+      "scenes": [
+        {
+          "label": "毕节街道/坡口·日间",
+          "time": "两年后·一个有雨的休息日",
+          "requirements": [
+            "朋友：纸袋新上衣，面馆叙旧；不套恋人房间CG。"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        },
+        {
+          "label": "普通小食店/面馆中性桌位·日",
+          "time": "两年后·一个有雨的休息日",
+          "requirements": [
+            "朋友：纸袋新上衣，面馆叙旧；不套恋人房间CG。"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 xiaoman",
+        "当前路线第九章选择朋友"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-zhouzhi-01",
+      "chapter": 10,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 157,
+      "sourceLineEnd": 198,
+      "heading": "仅承接第九章选择A｜恋人结局：你先吃，我一会儿到",
+      "time": "两年后·傍晚",
+      "scenes": [
+        {
+          "label": "普通小食店/面馆·暮色",
+          "time": "傍晚",
+          "requirements": [
+            "恋人：外面小店吃饭，头发随手扎；住处外屋檐亲吻，不虚构共同住所。"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        },
+        {
+          "label": "连续旧街屋檐·日",
+          "time": "两年后·傍晚",
+          "requirements": [
+            "恋人：外面小店吃饭，头发随手扎；住处外屋檐亲吻，不虚构共同住所。"
+          ],
+          "assetIds": [
+            "tc-bg-eaves-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 zhouzhi",
+        "当前路线第九章选择交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-zhouzhi-02",
+      "chapter": 10,
+      "route": "zhouzhi",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 199,
+      "sourceLineEnd": 232,
+      "heading": "仅承接第九章选择B｜朋友结局：还有一张椅子",
+      "time": "两年后·傍晚",
+      "scenes": [
+        {
+          "label": "夜宵摊·夜",
+          "time": "夜间",
+          "requirements": [
+            "朋友：夜宵摊折叠椅；毛狼是照片消息中将来吃，不必实体。"
+          ],
+          "assetIds": [
+            "tc-bg-stall-night"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 zhouzhi",
+        "当前路线第九章选择朋友"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-mengyao-01",
+      "chapter": 10,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 235,
+      "sourceLineEnd": 284,
+      "heading": "两年后·16:20｜仅交往：一份新的错误记录",
+      "time": "两年后·16:20",
+      "scenes": [
+        {
+          "label": "茶店桌游/看书桌位·日",
+          "time": "两年后·16:20",
+          "requirements": [
+            "恋人：茶店门外后换新桌游小店；可共享中性桌景但需转场，不认成同店；第四章票据回收两版本。"
+          ],
+          "assetIds": [
+            "tc-bg-tea-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 mengyao",
+        "当前路线第九章选择交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-mengyao-02",
+      "chapter": 10,
+      "route": "mengyao",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 285,
+      "sourceLineEnd": 322,
+      "heading": "两年后·17:40｜仅朋友：不用重考的一门课",
+      "time": "两年后·17:40",
+      "scenes": [
+        {
+          "label": "普通小食店/面馆·暮色",
+          "time": "傍晚",
+          "requirements": [
+            "朋友：朋友约饭后烧饼店，时间傍晚保留暖光变体需求。"
+          ],
+          "assetIds": [
+            "tc-bg-food-dusk"
+          ]
+        },
+        {
+          "label": "桥头烧饼店/桥边台阶·日",
+          "time": "两年后·17:40",
+          "requirements": [
+            "朋友：朋友约饭后烧饼店，时间傍晚保留暖光变体需求。"
+          ],
+          "assetIds": [
+            "tc-bg-bridge-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 mengyao",
+        "当前路线第九章选择朋友"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-yelan-01",
+      "chapter": 10,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 325,
+      "sourceLineEnd": 366,
+      "heading": "两年后·15:30｜仅交往：一起买完这袋米",
+      "time": "两年后·15:30",
+      "scenes": [
+        {
+          "label": "超市日用品/米袋/零食货架·日",
+          "time": "两年后·15:30",
+          "requirements": [
+            "恋人：两张小票、共同托米袋，不擅加家庭婚姻。"
+          ],
+          "assetIds": [
+            "tc-bg-supermarket-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 yelan",
+        "当前路线第九章选择交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-yelan-02",
+      "chapter": 10,
+      "route": "yelan",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 367,
+      "sourceLineEnd": 396,
+      "heading": "两年后·19:20｜仅朋友：今晚少一个位置",
+      "time": "两年后·19:20",
+      "scenes": [
+        {
+          "label": "网吧入口/柜台·夜",
+          "time": "夜间",
+          "requirements": [
+            "先群聊叶岚无实体，后另一天打球实体；不能当班去球馆。"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-night"
+          ]
+        },
+        {
+          "label": "乒乓球馆/场边座椅·日",
+          "time": "另一天朋友约球；原文未指定时刻，室内中性光候选",
+          "requirements": [
+            "先群聊叶岚无实体，后另一天打球实体；不能当班去球馆。"
+          ],
+          "assetIds": [
+            "tc-bg-tabletennis-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 yelan",
+        "当前路线第九章选择朋友"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-piao-01",
+      "chapter": 10,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 401,
+      "sourceLineEnd": 444,
+      "heading": "仅交往｜仍然在一起的两个人",
+      "time": "两年后·一个休息日的下午",
+      "scenes": [
+        {
+          "label": "茶店桌游/看书桌位·日",
+          "time": "两年后·一个休息日的下午",
+          "requirements": [
+            "恋人：第二版册子/瓶盖，地点未点名，普通桌边演出建议；不婚礼化。"
+          ],
+          "assetIds": [
+            "tc-bg-tea-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 piao",
+        "第三章第21天选择交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-piao-02",
+      "chapter": 10,
+      "route": "piao",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 445,
+      "sourceLineEnd": 470,
+      "heading": "仅朋友｜婚礼以后的普通来往",
+      "time": "两年后·一个休息日的下午",
+      "scenes": [
+        {
+          "label": "普通小食店/面馆中性桌位·日",
+          "time": "两年后·一个休息日的下午",
+          "requirements": [
+            "朋友：婚后普通小店，飘明确普通衣服；非再办婚礼。"
+          ],
+          "assetIds": [
+            "tc-bg-food-day"
+          ]
+        },
+        {
+          "label": "毕节街道/坡口·日间",
+          "time": "两年后·一个休息日的下午",
+          "requirements": [
+            "朋友：婚后普通小店，飘明确普通衣服；非再办婚礼。"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 piao",
+        "第三章第21天选择朋友"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-friends-01",
+      "chapter": 10,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 473,
+      "sourceLineEnd": 490,
+      "heading": "两年后·休班下午｜迟到十分钟的人",
+      "time": "两年后·休班下午",
+      "scenes": [
+        {
+          "label": "毛狼与飘家中餐桌·两年后日",
+          "time": "两年后·休班下午",
+          "requirements": [
+            "飘开门、毛狼买酱油迟到；第二版册子纸袋下。"
+          ],
+          "assetIds": [
+            "tc-bg-maolang-home-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 friends"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-friends-02",
+      "chapter": 10,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 491,
+      "sourceLineEnd": 508,
+      "heading": "朋友坐在另一边",
+      "time": "两年后·休班下午",
+      "scenes": [
+        {
+          "label": "毛狼与飘家中餐桌·两年后日",
+          "time": "两年后·休班下午",
+          "requirements": [
+            "师匠带水果，其他同事当班，不全员离岗。"
+          ],
+          "assetIds": [
+            "tc-bg-maolang-home-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 friends"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-friends-03",
+      "chapter": 10,
+      "route": "friends",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 509,
+      "sourceLineEnd": 526,
+      "heading": "雨还在下",
+      "time": "两年后·休班下午",
+      "scenes": [
+        {
+          "label": "毕节街道/坡口·日间",
+          "time": "两年后·休班下午",
+          "requirements": [
+            "毛狼递落伞，文文路过网吧继续走；不是回去值班。"
+          ],
+          "assetIds": [
+            "tc-bg-street-day"
+          ]
+        },
+        {
+          "label": "网吧入口/柜台·日",
+          "time": "两年后·休班下午",
+          "requirements": [
+            "毛狼递落伞，文文路过网吧继续走；不是回去值班。"
+          ],
+          "assetIds": [
+            "tc-bg-netcafe-counter-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 friends"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-huangqiuqiu-01",
+      "chapter": 10,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 531,
+      "sourceLineEnd": 568,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "time": "两年后·休息日的下午",
+      "scenes": [
+        {
+          "label": "后院门内干处/凳子/门框天空·日",
+          "time": "两年后·休息日的下午",
+          "requirements": [
+            "人形恋人，先敲门、同意后轻抱；照片可见外观不改。"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 huangqiuqiu",
+        "已取得隐藏资格并完成第14天相识",
+        "当前路线第九章选择交往"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    },
+    {
+      "cueId": "a01-ch10-huangqiuqiu-02",
+      "chapter": 10,
+      "route": "huangqiuqiu",
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceLineStart": 569,
+      "sourceLineEnd": 604,
+      "heading": "仅朋友｜留给朋友的位置",
+      "time": "两年后·休息日的下午",
+      "scenes": [
+        {
+          "label": "后院门内干处/凳子/门框天空·日",
+          "time": "两年后·休息日的下午",
+          "requirements": [
+            "人形朋友，托腮/站在门边看云；不补下装特写。"
+          ],
+          "assetIds": [
+            "tc-bg-courtyard-day"
+          ]
+        }
+      ],
+      "conditions": [
+        "仅当前路线 huangqiuqiu",
+        "已取得隐藏资格并完成第14天相识",
+        "当前路线第九章选择朋友"
+      ],
+      "chronologyOverrides": [],
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-A06-E09-node-binding"
+    }
+  ]
+}

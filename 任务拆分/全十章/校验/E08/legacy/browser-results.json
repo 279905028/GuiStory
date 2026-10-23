@@ -1,0 +1,440 @@
+{
+  "generatedAt": "2026-10-23T02:45:19.504Z",
+  "status": "PASS",
+  "isolation": {
+    "browser": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "context": "每场景 browser.newContext，无 userDataDir；127.0.0.1 随机端口；禁止公网请求",
+    "storage": "夹具与故障注入只存在隔离 context，未访问玩家存储",
+    "fixtures": "当前与两句改写前的正式 story.js 使用冻结 engine.js 自然推进生成合法快照",
+    "origin": "http://127.0.0.1:52144"
+  },
+  "baseline": {
+    "path": "qa/chapter3-followup-20261021/before/story.js",
+    "sha256": "43d0f9f6823ef583c27b386a2627025361d389a0b76af46f7e84a1bf736ccfc4"
+  },
+  "originalHashes": {
+    "qa/save-compat-20261021/browser-test.cjs": "8730254e9b457d5cda998a6740e27ee7340442cc41081870d07692127de520bb",
+    "qa/save-compat-20261021/browser-results.json": "6f83df3b0cd72764143cc05206bd348c3984e51d030cb1ff31250a7c9bf43ccc",
+    "qa/save-compat-20261021/migrated-history.png": "2ed6bf1be214e8229e193ff82633f599418eef1508d876340e76142619f468d6",
+    "qa/save-compat-20261021/protected-auto.png": "8d142341b6d844b8d7089d420c0d284b32b89eeedc2225f553eac2cd1fd03ac7"
+  },
+  "adaptation": "复制旧浏览器专项，仅调整路径、冻结新增player-runtime.js；旧测试及报告不覆盖",
+  "initialHashes": {
+    "game.js": "a3cfb8a51d89e2bce23c7f3b2254818c80f43646f785b4e5bced089ce4c9f50b",
+    "save-compat.js": "11cc52079a67a2ee32244206b79bb11e1cfe71874227aefdd1e768594a0e816f",
+    "player-runtime.js": "911385f9e9d3e608b859648c48b8ca832abd22de677e5d65d0b1fd83c8d39772",
+    "story.js": "5d9b3dad53fa7de88269f7e605db4cf2e7b80a92587dedffda0e425bb1878e7a",
+    "engine.js": "363e4a9b1ddd9d6e012b6623af04c54f9fc077a065e9d1ee3b61981e9be5e39a",
+    "index.html": "d69ad01b4181d77ac990162c2e5a38d65839fe5208680ef2cd9972af3f2db197",
+    "styles.css": "1aa6e6c501f2d1198d812e849cf07f90d3f21024f0ad5c79602bebdde773374c"
+  },
+  "finalHashes": {
+    "game.js": "a3cfb8a51d89e2bce23c7f3b2254818c80f43646f785b4e5bced089ce4c9f50b",
+    "save-compat.js": "11cc52079a67a2ee32244206b79bb11e1cfe71874227aefdd1e768594a0e816f",
+    "player-runtime.js": "911385f9e9d3e608b859648c48b8ca832abd22de677e5d65d0b1fd83c8d39772",
+    "story.js": "5d9b3dad53fa7de88269f7e605db4cf2e7b80a92587dedffda0e425bb1878e7a",
+    "engine.js": "363e4a9b1ddd9d6e012b6623af04c54f9fc077a065e9d1ee3b61981e9be5e39a",
+    "index.html": "d69ad01b4181d77ac990162c2e5a38d65839fe5208680ef2cd9972af3f2db197",
+    "styles.css": "1aa6e6c501f2d1198d812e849cf07f90d3f21024f0ad5c79602bebdde773374c"
+  },
+  "fixtures": {
+    "first": {
+      "sha256": "0a4637dd34411ad842b7edb1056910e3af583b0647e0a7d60b83add667ed63ed",
+      "bytes": 436,
+      "nodeId": "s1_arrive_01",
+      "historyLength": 1
+    },
+    "oldFirst": {
+      "sha256": "558f0ff275e5f25c477506ae0f52fe9094d5822f8f3870ead4aac0a9ff7d7a13",
+      "bytes": 417,
+      "nodeId": "s1_arrive_01",
+      "historyLength": 1
+    },
+    "oldOne": {
+      "sha256": "9f200900af6c957d3fe71d8ac1ed1da2b8a8f87fb973c248df331d172cd86480",
+      "bytes": 83303,
+      "nodeId": "preview_xiaoman_visit_01",
+      "historyLength": 247
+    },
+    "oldBoth": {
+      "sha256": "c441537e5253de784d8f7435aa54c40801e202fab38458443476fc6176298faa",
+      "bytes": 107279,
+      "nodeId": "ch2_cut_join_04",
+      "historyLength": 368
+    },
+    "currentBoth": {
+      "sha256": "736f0372796ece457d84fb7511fb4c7f851de7e21c55620bd9b74e5d4f3b32f2",
+      "bytes": 107310,
+      "nodeId": "ch2_cut_join_04",
+      "historyLength": 368
+    },
+    "unlocked": {
+      "sha256": "61ad7da4e208ab10233f9c130e533061f8f4c8a425f7b2820891f2a31654bdd0",
+      "bytes": 81037,
+      "nodeId": "c6",
+      "historyLength": 234
+    },
+    "locked": {
+      "sha256": "4e53a49e638a201b9c58f7adf28631dc3761aa5007d21141f26fde70119a7e4a",
+      "bytes": 80359,
+      "nodeId": "c6",
+      "historyLength": 233
+    },
+    "unlockedEnd": {
+      "sha256": "ce76701eb70f70628fff4faa786c817119d44ea5911f3eb24c2781b03b5cbc25",
+      "bytes": 86534,
+      "nodeId": "end_huangqiuqiu",
+      "historyLength": 262
+    },
+    "lockedEnd": {
+      "sha256": "03ddade2cabe96081d9456aec1e78b00cec5b6fb5035285b6bc69ad6b414647d",
+      "bytes": 82988,
+      "nodeId": "end_xiaoman",
+      "historyLength": 248
+    },
+    "badJson": {
+      "sha256": "9e8629055e2d74ae49fbe99a1bdeeed735a897fe5f5eb13b0673a558c58f38f7",
+      "bytes": 49
+    },
+    "nullState": {
+      "sha256": "5a39a1e45b5fffa7aec317aa55ffe743c3ee091451bab43f9d751c4cbf063938",
+      "bytes": 125
+    },
+    "unknown": {
+      "sha256": "60bda9ca2882486ee4d8d5c73ccca206636fc28e302aff52df353c3e2d669f42",
+      "bytes": 438
+    },
+    "unknownText": {
+      "sha256": "37b8bce307e664f6fbcbb4a1f354f8e460e0211ab06149f8f563bc244b6b9d2a",
+      "bytes": 107303
+    }
+  },
+  "cases": [
+    {
+      "name": "标题与读取列表只读；旧档两句可识别，未知版本不误收",
+      "status": "PASS",
+      "assertions": 6
+    },
+    {
+      "name": "oldOne自动档继续：新文本、原样备份、版本标记、刷新恢复",
+      "status": "PASS",
+      "assertions": 11
+    },
+    {
+      "name": "oldBoth自动档继续：新文本、原样备份、版本标记、刷新恢复",
+      "status": "PASS",
+      "assertions": 12
+    },
+    {
+      "name": "未受影响无标记auto首次保存也原样备份；当前版本无需备份",
+      "status": "PASS",
+      "assertions": 4
+    },
+    {
+      "name": "手动旧档读取保留源；覆盖取消不备份；确认覆盖前原样备份",
+      "status": "PASS",
+      "assertions": 10
+    },
+    {
+      "name": "旧auto首次保存失败保护：writeBackup",
+      "status": "PASS",
+      "assertions": 7
+    },
+    {
+      "name": "旧auto首次保存失败保护：readBackup",
+      "status": "PASS",
+      "assertions": 7
+    },
+    {
+      "name": "旧auto首次保存失败保护：mismatchBackup",
+      "status": "PASS",
+      "assertions": 7
+    },
+    {
+      "name": "旧auto首次保存失败保护：writeSlot",
+      "status": "PASS",
+      "assertions": 7
+    },
+    {
+      "name": "手动旧档覆盖失败保护：writeBackup",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "手动旧档覆盖失败保护：readBackup",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "手动旧档覆盖失败保护：mismatchBackup",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "手动旧档覆盖失败保护：writeSlot",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "旧档备份后竞态：auto",
+      "status": "PASS",
+      "assertions": 4
+    },
+    {
+      "name": "旧档备份后竞态：slot1",
+      "status": "PASS",
+      "assertions": 4
+    },
+    {
+      "name": "手动确认期间换档应重新确认",
+      "status": "PASS",
+      "assertions": 4
+    },
+    {
+      "name": "badJson损坏auto保护：读取其他槽、推进、设置、pagehide、取消恢复和确认备份",
+      "status": "PASS",
+      "assertions": 14
+    },
+    {
+      "name": "unknown损坏auto保护：读取其他槽、推进、设置、pagehide、取消恢复和确认备份",
+      "status": "PASS",
+      "assertions": 14
+    },
+    {
+      "name": "unknownText损坏auto保护：读取其他槽、推进、设置、pagehide、取消恢复和确认备份",
+      "status": "PASS",
+      "assertions": 14
+    },
+    {
+      "name": "损坏auto开始新故事备份失败：writeBackup",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "损坏auto开始新故事备份失败：readBackup",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "损坏auto开始新故事备份失败：mismatchBackup",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "损坏auto备份后竞态及写入失败",
+      "status": "PASS",
+      "assertions": 6
+    },
+    {
+      "name": "旧命名空间不读写；缺兼容组件安全关闭入口",
+      "status": "PASS",
+      "assertions": 10
+    },
+    {
+      "name": "隐藏选项门槛和章末重选保留，清理后续历史",
+      "status": "PASS",
+      "assertions": 12
+    }
+  ],
+  "assertions": [
+    "合法旧auto可继续",
+    "标题不写存储",
+    "前3槽正确识别为可读取",
+    "未知版本显示不兼容",
+    "打开关闭列表不写存储",
+    "只读不建立任何备份",
+    "oldOne继续进入游戏",
+    "oldOne写入新内容版本",
+    "oldOne节点不变",
+    "oldOne选择不变",
+    "oldOne标记不变",
+    "oldOne回顾采用新句 preview_xiaoman_visit_01",
+    "oldOne备份保留旧档原字符串",
+    "oldOne当前对白为新句",
+    "oldOne刷新继续可用",
+    "oldOne刷新恢复相同状态",
+    "oldOne刷新不重复备份",
+    "oldBoth继续进入游戏",
+    "oldBoth写入新内容版本",
+    "oldBoth节点不变",
+    "oldBoth选择不变",
+    "oldBoth标记不变",
+    "oldBoth回顾采用新句 preview_xiaoman_visit_01",
+    "oldBoth回顾采用新句 ch2_cut_join_04",
+    "oldBoth备份保留旧档原字符串",
+    "oldBoth当前对白为新句",
+    "oldBoth刷新继续可用",
+    "oldBoth刷新恢复相同状态",
+    "oldBoth刷新不重复备份",
+    "oldFirst写入版本2",
+    "oldFirst备份数量",
+    "first写入版本2",
+    "first备份数量",
+    "读取保留源手动槽：原字符串",
+    "读取保留源手动槽：无成功覆盖",
+    "读取手动旧档后auto为新版本",
+    "只读手动槽不备份",
+    "取消覆盖保留手动槽：原字符串",
+    "取消覆盖保留手动槽：无成功覆盖",
+    "取消覆盖不备份",
+    "确认原样备份手动旧档",
+    "手动覆盖为当前节点",
+    "手动覆盖版本2",
+    "writeBackup仍能读取到游戏",
+    "writeBackup不替换旧auto：原字符串",
+    "writeBackup不替换旧auto：无成功覆盖",
+    "writeBackup提示失败",
+    "writeBackup不虚报读取迁移成功",
+    "writeBackup推进后仍保留：原字符串",
+    "writeBackup推进后仍保留：无成功覆盖",
+    "readBackup仍能读取到游戏",
+    "readBackup不替换旧auto：原字符串",
+    "readBackup不替换旧auto：无成功覆盖",
+    "readBackup提示失败",
+    "readBackup不虚报读取迁移成功",
+    "readBackup推进后仍保留：原字符串",
+    "readBackup推进后仍保留：无成功覆盖",
+    "mismatchBackup仍能读取到游戏",
+    "mismatchBackup不替换旧auto：原字符串",
+    "mismatchBackup不替换旧auto：无成功覆盖",
+    "mismatchBackup提示失败",
+    "mismatchBackup不虚报读取迁移成功",
+    "mismatchBackup推进后仍保留：原字符串",
+    "mismatchBackup推进后仍保留：无成功覆盖",
+    "writeSlot仍能读取到游戏",
+    "writeSlot不替换旧auto：原字符串",
+    "writeSlot不替换旧auto：无成功覆盖",
+    "writeSlot提示失败",
+    "writeSlot不虚报读取迁移成功",
+    "writeSlot推进后仍保留：原字符串",
+    "writeSlot推进后仍保留：无成功覆盖",
+    "writeBackup保留手动原档：原字符串",
+    "writeBackup保留手动原档：无成功覆盖",
+    "writeBackup手动失败提示",
+    "readBackup保留手动原档：原字符串",
+    "readBackup保留手动原档：无成功覆盖",
+    "readBackup手动失败提示",
+    "mismatchBackup保留手动原档：原字符串",
+    "mismatchBackup保留手动原档：无成功覆盖",
+    "mismatchBackup手动失败提示",
+    "writeSlot保留手动原档：原字符串",
+    "writeSlot保留手动原档：无成功覆盖",
+    "writeSlot手动失败提示",
+    "auto备份后到达档不覆盖：原字符串",
+    "auto备份后到达档不覆盖：无成功覆盖",
+    "auto竞态精确保留原授权版本备份",
+    "auto竞态提示",
+    "slot1备份后到达档不覆盖：原字符串",
+    "slot1备份后到达档不覆盖：无成功覆盖",
+    "slot1竞态精确保留原授权版本备份",
+    "slot1竞态提示",
+    "确认期间换档不覆盖：原字符串",
+    "确认期间换档不覆盖：无成功覆盖",
+    "确认期间换档不备份",
+    "手动换档重新确认提示",
+    "badJson损坏继续禁用",
+    "badJson读取其他槽不覆盖：原字符串",
+    "badJson读取其他槽不覆盖：无成功覆盖",
+    "badJson推进不覆盖：原字符串",
+    "badJson推进不覆盖：无成功覆盖",
+    "badJson设置不覆盖：原字符串",
+    "badJson设置不覆盖：无成功覆盖",
+    "badJsonpagehide不覆盖：原字符串",
+    "badJsonpagehide不覆盖：无成功覆盖",
+    "badJson取消恢复不覆盖：原字符串",
+    "badJson取消恢复不覆盖：无成功覆盖",
+    "badJson取消恢复不备份",
+    "badJson确认精确保留损坏档",
+    "badJson确认后写入版本2",
+    "unknown损坏继续禁用",
+    "unknown读取其他槽不覆盖：原字符串",
+    "unknown读取其他槽不覆盖：无成功覆盖",
+    "unknown推进不覆盖：原字符串",
+    "unknown推进不覆盖：无成功覆盖",
+    "unknown设置不覆盖：原字符串",
+    "unknown设置不覆盖：无成功覆盖",
+    "unknownpagehide不覆盖：原字符串",
+    "unknownpagehide不覆盖：无成功覆盖",
+    "unknown取消恢复不覆盖：原字符串",
+    "unknown取消恢复不覆盖：无成功覆盖",
+    "unknown取消恢复不备份",
+    "unknown确认精确保留损坏档",
+    "unknown确认后写入版本2",
+    "unknownText损坏继续禁用",
+    "unknownText读取其他槽不覆盖：原字符串",
+    "unknownText读取其他槽不覆盖：无成功覆盖",
+    "unknownText推进不覆盖：原字符串",
+    "unknownText推进不覆盖：无成功覆盖",
+    "unknownText设置不覆盖：原字符串",
+    "unknownText设置不覆盖：无成功覆盖",
+    "unknownTextpagehide不覆盖：原字符串",
+    "unknownTextpagehide不覆盖：无成功覆盖",
+    "unknownText取消恢复不覆盖：原字符串",
+    "unknownText取消恢复不覆盖：无成功覆盖",
+    "unknownText取消恢复不备份",
+    "unknownText确认精确保留损坏档",
+    "unknownText确认后写入版本2",
+    "writeBackup备份失败仍标题",
+    "writeBackup坏档未替换：原字符串",
+    "writeBackup坏档未替换：无成功覆盖",
+    "readBackup备份失败仍标题",
+    "readBackup坏档未替换：原字符串",
+    "readBackup坏档未替换：无成功覆盖",
+    "mismatchBackup备份失败仍标题",
+    "mismatchBackup坏档未替换：原字符串",
+    "mismatchBackup坏档未替换：无成功覆盖",
+    "坏auto备份后换档不替换：原字符串",
+    "坏auto备份后换档不替换：无成功覆盖",
+    "坏档竞态备份原授权版本",
+    "坏auto备份后写入失败保留：原字符串",
+    "坏auto备份后写入失败保留：无成功覆盖",
+    "写入失败仍存在原始备份",
+    "保留历史命名空间 bijie-rain-demo:v1:auto",
+    "保留历史命名空间 bijie-rain-demo:v0.3:auto",
+    "保留历史命名空间 bijie-rain-demo:v0.4:auto",
+    "所有写入只限当前命名空间",
+    "运行层不读取其他历史命名空间",
+    "缺组件继续禁用",
+    "缺组件开始禁用",
+    "缺组件显示明确提示",
+    "缺组件不写存储",
+    "缺组件原档保留",
+    "槽1载入章末",
+    "槽1预告选项数",
+    "槽1重选保留前置选择",
+    "槽1重选清理后续历史",
+    "槽1重选清理后续标记",
+    "槽1读取源手动档保持原样",
+    "槽2载入章末",
+    "槽2预告选项数",
+    "槽2重选保留前置选择",
+    "槽2重选清理后续历史",
+    "槽2重选清理后续标记",
+    "槽2读取源手动档保持原样",
+    "真实浏览器无未捕获异常",
+    "没有公网请求",
+    "测试期间存档运行文件版本保持稳定",
+    "原浏览器脚本、报告与截图保持不变",
+    "旧版基线文件保持不变"
+  ],
+  "pageErrors": [],
+  "blockedExternalRequests": [],
+  "screenshots": [
+    {
+      "file": "任务拆分/全十章/校验/E08/legacy/migrated-history.png",
+      "scenario": "真实旧两句档兼容读取后回顾显示新版文本",
+      "viewport": "1440×900"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E08/legacy/protected-auto.png",
+      "scenario": "损坏auto读取其他旧手动槽后保留原档，菜单提供备份恢复入口",
+      "viewport": "1440×900"
+    }
+  ],
+  "limitations": [
+    "自然构造旧版样本，不读取或统计玩家真实旧档；不等于所有存档兼容率。",
+    "存储故障与竞态由隔离 Storage 方法注入，非真实浏览器配额耗尽或多标签并发。",
+    "本次为桌面 Chrome 存档专项；不含移动端、Safari、Firefox、上线部署和全剧情人工游玩验收。"
+  ],
+  "styleChangedDuringRun": false
+}

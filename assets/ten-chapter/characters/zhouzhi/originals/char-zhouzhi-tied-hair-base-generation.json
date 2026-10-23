@@ -1,0 +1,13 @@
+{
+  "key": "zhouzhi-tied-hair",
+  "character": "zhouzhi",
+  "file": "char-zhouzhi-tied-hair-base",
+  "ref": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+  "references": [
+    "/Users/yipin/Desktop/cjb/assets/character-variants/zhouzhi-face-v2-candidate.webp"
+  ],
+  "prompt": "Use case: identity-preserve\n单张视觉小说角色衣装/发型差分，输入图为编辑对象。修改：保留face-v2脸型和成年外观，不改变年龄；只把披肩长卷发随手扎成低马尾，一些碎发自然留在脸侧。深青衬衫、耳环、腕表和深色裤子以及手势保持，身上不穿外套；不要画椅子或环境。自然柔和微笑。\n严格锁定输入人物的脸型、五官、皮肤、成年身份、同一画风与光线，除上述服装/发型/必要手势外不改其他内容。保持1024×1536画布、原头顶落点、头身比例和大腿截幅，不扩画脚或完整全身。日系半写实细腻手绘立绘，背景为真实透明alpha，无底色、无地面、无光晕、无棋盘格、无文字、水印和边框。",
+  "generatedPath": "/Users/yipin/.codex/generated_images/01a162af-0842-7a61-a6ca-7846101abfe6/exec-a045cef4-e1c8-4d96-9d59-eb040072ea2f.png",
+  "tool": "image_gen built-in",
+  "attempt": 1
+}

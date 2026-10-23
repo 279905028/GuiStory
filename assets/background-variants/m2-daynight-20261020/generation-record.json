@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "tool": "built-in image_gen",
+  "transparent_background": false,
+  "user_decision": "保留六背景键，采用昼夜变体，后交E3接入；无代码写入授权。lobby经当前数据核对仅s9下午使用，直接更新固定图，旧夜景归档。",
+  "generated": [
+    {
+      "key": "repair",
+      "input": "assets/background-variants/m2-daynight-20261020/bg-repair-original.png",
+      "output": "/Users/yipin/.codex/generated_images/01a156ec-39d7-7a53-ab0b-c277ece36c82/exec-a89616ae-3d34-4669-8242-ffa814fe699a.png",
+      "candidate": "assets/background-variants/m2-daynight-20261020/bg-repair-night.png",
+      "prompt": "Use case: lighting-weather. Asset type: existing visual-novel background. Input image is the EDIT TARGET. Edit this exact Chinese small-town electronics repair shop from daytime to rainy NIGHT. Keep the same wide 1672×941 framing, camera, architecture, open glass entrance, window frames, workbench, stool, tools, soldering iron, old speakers, parts shelves, mobile phone display cabinets, plants and wall pictures in precisely their existing places. Change ONLY time-of-day/weather illumination: outside the entrance show dark blue-gray rainy night with the same buildings and mountain silhouettes, a few believable existing building lights, damp ground; remove all daylight, sunlit foliage, bright white daytime sky and broad daylight spilling over the floor. Inside remain clearly readable and workable using the EXISTING warm workbench lamp and existing display strip lights; natural localized light falloff and believable night reflections, never a uniform dark overlay. Preserve the original detailed semi-realistic Japanese visual-novel painted rendering, material textures, muted slate teal and warm amber palette. Do not redesign, restyle, shift objects, reframe or crop. No people, faces, silhouettes, hidden characters, yellow ball, new props, new text, logos, UI, borders or watermarks. Fully opaque image. Match the original aspect ratio and all object sizes."
+    },
+    {
+      "key": "street",
+      "input": "assets/background-variants/m2-daynight-20261020/bg-street-original.png",
+      "output": "/Users/yipin/.codex/generated_images/01a156ec-39d7-7a53-ab0b-c277ece36c82/exec-85e84e68-4d5f-4d1f-ad17-01dff192fa15.png",
+      "candidate": "assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+      "prompt": "Use case: lighting-weather. Asset type: daytime variant of an existing visual-novel background. Input image is the EDIT TARGET. Convert this EXACT rainy night hillside street in Bijie into a rainy OVERCAST AFTERNOON. Preserve the full original wide 1672×941 composition, camera, road vanishing point, distant mountain contour, every building, windows, left awning, umbrella stand, utility poles and wires, right stone retaining wall and steps, foliage, storefronts and wet road. Do not redesign anything. Replace the night sky with clearly daytime pale muted gray overcast sky and soft gray daylight through rain/mist; hillside and buildings remain visible in their existing positions. Reduce the strong golden night reflections and turn off street lamps and most distant window lights; retain subtle plausible warm light deep inside shops only. The wet road reflects soft overcast daylight, with subdued interior amber accents. Do NOT make dusk, sunset, dawn, sunny day or dramatic storm. Keep the original restrained semi-realistic Japanese visual-novel painted texture and colors; no anime/cel/cartoon restyle. Change only weather/time lighting, keep geometry and scene identity as close as possible. No people, faces, traffic, new objects, hidden symbols, text, branding, UI, borders or watermarks. Fully opaque; match original aspect ratio without cropping or stretching."
+    },
+    {
+      "key": "lobby",
+      "input": "assets/background-variants/m2-daynight-20261020/bg-lobby-original.png",
+      "output": "/Users/yipin/.codex/generated_images/01a156ec-39d7-7a53-ab0b-c277ece36c82/exec-0b6c7749-4d29-44cc-9212-32f76fb4184a.png",
+      "candidate": "assets/background-variants/m2-daynight-20261020/bg-lobby-day.png",
+      "prompt": "Use case: lighting-weather. Asset type: afternoon variant of an existing visual-novel background. Input image is the EDIT TARGET. Edit this exact old KTV lobby to a rainy OVERCAST AFTERNOON. Preserve the original wide 1672×941 camera and composition, reception counter, phone and coiled cord, key rack and all keys, books, plant, red sofa, stone wall patterns, corridor, all doors and fixtures, landscape paintings and floor tiles in precisely their existing positions. Change only the time-of-day illumination: through the EXISTING upper-left window, replace the dark blue night sky and glowing city windows with soft pale gray cloudy daytime sky, misty green-gray mountain and the same buildings lit by overcast daylight. Existing raindrops on glass remain. Window supplies subtle soft cool daylight to the nearby counter, plant, wall and floor; keep the existing warm amber corridor lamps on and a believable darker interior, preserving readability and natural contrast. Do not just increase global exposure, do not paste an opaque window cover, do not obscure the outdoors. Preserve the original detailed semi-realistic Japanese visual-novel rendering and lived-in materials; no redesign or new style. No people, faces, new objects, new words, brands, UI, borders, or watermark. Fully opaque, no crop or stretch; match original aspect ratio."
+    }
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "common/ch06",
+  "owner": "E03",
+  "scenes": {
+    "ts_c06_common_last_night_meal": {
+      "chapter": 6,
+      "title": "第30天·18:00｜吃完还要上班",
+      "bg": "tc-bg-food-dusk",
+      "time": "18:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "18:00",
+        "day": 30
+      },
+      "location": "回声旁小店",
+      "day": 30,
+      "dayLabel": "第30天"
+    },
+    "ts_c06_common_chapter_end": {
+      "chapter": 6,
+      "title": "第六章 · 空出来的一个晚上",
+      "bg": "tc-bg-chapter-end",
+      "time": "章末",
+      "chronology": {
+        "domain": "chapter-range",
+        "mode": "present",
+        "label": "第30—34天"
+      },
+      "location": "",
+      "day": null,
+      "dayLabel": "第30—34天"
+    },
+    "ts_c06_common_meal_goodbye": {
+      "chapter": 6,
+      "title": "吃完还要上班",
+      "bg": "tc-bg-food-dusk",
+      "time": "七点多",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "七点多",
+        "day": 30
+      },
+      "location": "回声旁小店",
+      "day": 30,
+      "dayLabel": "第30天"
+    },
+    "ts_c06_common_night_shift": {
+      "chapter": 6,
+      "title": "按时到岗",
+      "bg": "tc-bg-netcafe-counter-night",
+      "time": "22:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "22:00",
+        "day": 30
+      },
+      "location": "网吧柜台",
+      "day": 30,
+      "dayLabel": "第30天"
+    },
+    "ts_c06_common_after_midnight": {
+      "chapter": 6,
+      "title": "收工了，回去睡",
+      "bg": "tc-bg-netcafe-counter-night",
+      "time": "凌晨",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "凌晨",
+        "day": 31
+      },
+      "location": "网吧柜台",
+      "day": 31,
+      "dayLabel": "第31天"
+    },
+    "ts_c06_common_closed_echo": {
+      "chapter": 6,
+      "title": "招牌还在那里",
+      "bg": "tc-bg-echo-closed-day",
+      "time": "06:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "06:00",
+        "day": 31
+      },
+      "location": "回声门外与早餐摊",
+      "day": 31,
+      "dayLabel": "第31天"
+    }
+  },
+  "nodes": {
+    "tc_c06_common_entry": {
+      "id": "tc_c06_common_entry",
+      "type": "line",
+      "scene": "ts_c06_common_last_night_meal",
+      "speaker": "narrator",
+      "text": "饭桌在回声旁边的小店，没有包间。周栀把外套搭好，第一句话是：“别点那道，上回咸得我喝了两壶水。”",
+      "character": null,
+      "next": "tc_c06_common_last_night_meal_02"
+    },
+    "tc_c06_common_last_night_meal_02": {
+      "id": "tc_c06_common_last_night_meal_02",
+      "type": "line",
+      "scene": "ts_c06_common_last_night_meal",
+      "speaker": "narrator",
+      "text": "毛狼收回手，改点别的。小满晚一点到，飘让老板多添一副碗筷。孟遥下课后也赶来坐了一会儿，叶岚下班后坐到了她旁边。我坐在靠过道的位置，给端菜的人让路。",
+      "character": null,
+      "next": "tc_c06_common_last_night_meal_03"
+    },
+    "tc_c06_common_last_night_meal_03": {
+      "id": "tc_c06_common_last_night_meal_03",
+      "type": "line",
+      "scene": "ts_c06_common_last_night_meal",
+      "speaker": "narrator",
+      "text": "谁都没急着把这顿饭变成某种仪式。周栀讲以前有客人坚持说自己没跑调，是伴奏不肯跟他，毛狼听得深有同感，被大家一起看了一眼。",
+      "character": null,
+      "next": "tc_c06_common_last_night_meal_04"
+    },
+    "tc_c06_common_last_night_meal_04": {
+      "id": "tc_c06_common_last_night_meal_04",
+      "type": "line",
+      "scene": "ts_c06_common_last_night_meal",
+      "speaker": "maolang",
+      "text": "“我是主持，又不负责唱。”",
+      "character": null,
+      "next": "tc_c06_common_last_night_meal_05"
+    },
+    "tc_c06_common_last_night_meal_05": {
+      "id": "tc_c06_common_last_night_meal_05",
+      "type": "line",
+      "scene": "ts_c06_common_last_night_meal",
+      "speaker": "xiaoman",
+      "text": "“你每次都唱。”小满说。",
+      "character": null,
+      "next": "tc_c06_common_last_night_meal_06"
+    },
+    "tc_c06_common_last_night_meal_06": {
+      "id": "tc_c06_common_last_night_meal_06",
+      "type": "line",
+      "scene": "ts_c06_common_last_night_meal",
+      "speaker": "maolang",
+      "text": "“那是节目诚意。”",
+      "character": null,
+      "next": "tc_c06_common_last_night_meal_07"
+    },
+    "tc_c06_common_last_night_meal_07": {
+      "id": "tc_c06_common_last_night_meal_07",
+      "type": "line",
+      "scene": "ts_c06_common_last_night_meal",
+      "speaker": "narrator",
+      "text": "菜端上来，大家的话断断续续。周栀说以后先歇几天，再和朋友试做夜宵，看自己到底适不适合。具体能做成什么，她现在也不知道。",
+      "character": null,
+      "next": "tc_c06_common_last_night_meal_08"
+    },
+    "tc_c06_common_last_night_meal_08": {
+      "id": "tc_c06_common_last_night_meal_08",
+      "type": "line",
+      "scene": "ts_c06_common_last_night_meal",
+      "speaker": "wenwen",
+      "text": "“那你这几天是不是终于能按饭点吃饭？”我问。",
+      "character": null,
+      "next": "tc_c06_common_last_night_meal_09"
+    },
+    "tc_c06_common_last_night_meal_09": {
+      "id": "tc_c06_common_last_night_meal_09",
+      "type": "line",
+      "scene": "ts_c06_common_last_night_meal",
+      "speaker": "zhouzhi",
+      "text": "“也可能睡到饭点以后。”",
+      "character": null,
+      "next": "tc_c06_common_last_night_meal_10"
+    },
+    "tc_c06_common_last_night_meal_10": {
+      "id": "tc_c06_common_last_night_meal_10",
+      "type": "line",
+      "scene": "ts_c06_common_last_night_meal",
+      "speaker": "narrator",
+      "text": "她笑了。我第一次觉得，她不需要在店关门之前就变成一个目标清晰的人。",
+      "character": null,
+      "next": "tc_c06_common_meal_goodbye_01"
+    },
+    "tc_c06_common_exit": {
+      "id": "tc_c06_common_exit",
+      "type": "end",
+      "scene": "ts_c06_common_chapter_end",
+      "title": "第六章 · 空出来的一个晚上",
+      "text": "",
+      "character": null,
+      "next": "tc_c07_common_entry",
+      "nextChapter": "第七章 · 各自要过的日子"
+    },
+    "tc_c06_common_meal_goodbye_01": {
+      "id": "tc_c06_common_meal_goodbye_01",
+      "type": "line",
+      "scene": "ts_c06_common_meal_goodbye",
+      "speaker": "narrator",
+      "text": "七点多，她先走。出门时又回来拿外套，说差点把后面几个月唯一能确定的财产落下。大家笑她，她自己也笑。",
+      "character": null,
+      "next": "tc_c06_common_night_shift_01"
+    },
+    "tc_c06_common_night_shift_01": {
+      "id": "tc_c06_common_night_shift_01",
+      "type": "line",
+      "scene": "ts_c06_common_night_shift",
+      "speaker": "narrator",
+      "text": "我没有跟去回声。十点到了网吧，照常给客人开机，替一位刚走的人收掉桌上的纸杯。过了零点，街上越来越静。",
+      "character": null,
+      "next": "tc_c06_common_after_midnight_01"
+    },
+    "tc_c06_common_after_midnight_01": {
+      "id": "tc_c06_common_after_midnight_01",
+      "type": "line",
+      "scene": "ts_c06_common_after_midnight",
+      "speaker": "narrator",
+      "text": "第三十一天凌晨，我休息的几分钟里看到周栀发来一句：“收工了，回去睡。”我回她晚安，没追问关门时有没有哭。",
+      "character": null,
+      "next": "tc_c06_common_closed_echo_01"
+    },
+    "tc_c06_common_closed_echo_01": {
+      "id": "tc_c06_common_closed_echo_01",
+      "type": "line",
+      "scene": "ts_c06_common_closed_echo",
+      "speaker": "narrator",
+      "text": "六点有人接班。我沿着昨天吃饭的那条路回去，回声的门已经关着。招牌还在那里，街上的早餐摊也已经摆出来。",
+      "character": null,
+      "next": "tc_c06_common_closed_echo_02"
+    },
+    "tc_c06_common_closed_echo_02": {
+      "id": "tc_c06_common_closed_echo_02",
+      "type": "line",
+      "scene": "ts_c06_common_closed_echo",
+      "speaker": "narrator",
+      "text": "我买了一份带走。热气把塑料袋熏得发白，手指能感觉到里面的温度。",
+      "character": null,
+      "next": "tc_c06_common_route_gate"
+    },
+    "tc_c06_common_route_gate": {
+      "id": "tc_c06_common_route_gate",
+      "type": "gate",
+      "scene": "ts_c06_common_closed_echo",
+      "cases": [
+        {
+          "flag": "route",
+          "value": "xiaoman",
+          "next": "tc_c06_xiaoman_entry"
+        },
+        {
+          "flag": "route",
+          "value": "zhouzhi",
+          "next": "tc_c06_zhouzhi_entry"
+        },
+        {
+          "flag": "route",
+          "value": "mengyao",
+          "next": "tc_c06_mengyao_entry"
+        },
+        {
+          "flag": "route",
+          "value": "yelan",
+          "next": "tc_c06_yelan_entry"
+        },
+        {
+          "flag": "route",
+          "value": "piao",
+          "next": "tc_c06_piao_entry"
+        },
+        {
+          "flag": "route",
+          "value": "friends",
+          "next": "tc_c06_friends_entry"
+        },
+        {
+          "flag": "route",
+          "value": "huangqiuqiu",
+          "next": "tc_c06_huangqiuqiu_entry"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    }
+  },
+  "imports": [
+    "tc_c06_friends_entry",
+    "tc_c06_huangqiuqiu_entry",
+    "tc_c06_mengyao_entry",
+    "tc_c06_piao_entry",
+    "tc_c06_xiaoman_entry",
+    "tc_c06_yelan_entry",
+    "tc_c06_zhouzhi_entry",
+    "tc_c07_common_entry"
+  ],
+  "exports": {
+    "tc_c06_common_entry": "tc_c06_common_entry",
+    "tc_c06_common_exit": "tc_c06_common_exit",
+    "tc_c06_common_route_gate": "tc_c06_common_route_gate"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c06_common_exit"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 11,
+      "endLine": 11,
+      "nodeIds": [
+        "tc_c06_common_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 13,
+      "endLine": 13,
+      "nodeIds": [
+        "tc_c06_common_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 15,
+      "endLine": 15,
+      "nodeIds": [
+        "tc_c06_common_last_night_meal_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 17,
+      "endLine": 17,
+      "nodeIds": [
+        "tc_c06_common_last_night_meal_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 19,
+      "endLine": 19,
+      "nodeIds": [
+        "tc_c06_common_last_night_meal_04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 21,
+      "endLine": 21,
+      "nodeIds": [
+        "tc_c06_common_last_night_meal_05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 23,
+      "endLine": 23,
+      "nodeIds": [
+        "tc_c06_common_last_night_meal_06"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 25,
+      "endLine": 25,
+      "nodeIds": [
+        "tc_c06_common_last_night_meal_07"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 27,
+      "endLine": 27,
+      "nodeIds": [
+        "tc_c06_common_last_night_meal_08"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 29,
+      "endLine": 29,
+      "nodeIds": [
+        "tc_c06_common_last_night_meal_09"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 31,
+      "endLine": 31,
+      "nodeIds": [
+        "tc_c06_common_last_night_meal_10"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 33,
+      "endLine": 33,
+      "nodeIds": [
+        "tc_c06_common_meal_goodbye_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 33,
+      "endLine": 33,
+      "nodeIds": [
+        "tc_c06_common_meal_goodbye_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 35,
+      "endLine": 35,
+      "nodeIds": [
+        "tc_c06_common_night_shift_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 35,
+      "endLine": 35,
+      "nodeIds": [
+        "tc_c06_common_night_shift_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 37,
+      "endLine": 37,
+      "nodeIds": [
+        "tc_c06_common_after_midnight_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 37,
+      "endLine": 37,
+      "nodeIds": [
+        "tc_c06_common_after_midnight_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 39,
+      "endLine": 39,
+      "nodeIds": [
+        "tc_c06_common_closed_echo_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 39,
+      "endLine": 39,
+      "nodeIds": [
+        "tc_c06_common_closed_echo_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 41,
+      "endLine": 41,
+      "nodeIds": [
+        "tc_c06_common_closed_echo_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 43,
+      "endLine": 43,
+      "nodeIds": [
+        "tc_c06_common_route_gate"
+      ],
+      "kind": "control"
+    }
+  ],
+  "exclusions": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 1,
+      "endLine": 1,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 3,
+      "endLine": 3,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 5,
+      "endLine": 5,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 7,
+      "endLine": 7,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 545,
+      "endLine": 545,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 547,
+      "endLine": 547,
+      "reason": "navigation"
+    }
+  ],
+  "assetRequests": [
+    {
+      "id": "e01-art-ch06",
+      "a01Ids": [
+        "tc-bg-echo-closed-day",
+        "tc-bg-food-dusk",
+        "tc-bg-netcafe-counter-night",
+        "tc-char-maolang-human-base",
+        "tc-char-maolang-human-expression-hesitant",
+        "tc-char-maolang-human-expression-smile",
+        "tc-char-piao-human-base",
+        "tc-char-piao-human-expression-hesitant",
+        "tc-char-piao-human-expression-smile",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-zhouzhi-human-base",
+        "tc-char-zhouzhi-human-expression-hesitant",
+        "tc-char-zhouzhi-human-expression-smile"
+      ]
+    }
+  ]
+}

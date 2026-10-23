@@ -1,0 +1,490 @@
+{
+  "character": "zhouzhi",
+  "name": "周栀",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "baseline": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+  "assets": [
+    {
+      "id": "tc-char-zhouzhi-human-base",
+      "character": "zhouzhi",
+      "kind": "character",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch01-common-07",
+        "a01-ch02-common-04",
+        "a01-ch03-zhouzhi-01",
+        "a01-ch03-zhouzhi-02",
+        "a01-ch03-zhouzhi-03",
+        "a01-ch04-zhouzhi-01",
+        "a01-ch04-zhouzhi-02",
+        "a01-ch04-zhouzhi-03",
+        "a01-ch04-zhouzhi-04",
+        "a01-ch05-common-01",
+        "a01-ch05-zhouzhi-01",
+        "a01-ch05-zhouzhi-02",
+        "a01-ch06-common-01",
+        "a01-ch06-zhouzhi-01",
+        "a01-ch07-zhouzhi-01",
+        "a01-ch07-zhouzhi-02",
+        "a01-ch07-zhouzhi-03",
+        "a01-ch07-zhouzhi-04",
+        "a01-ch08-zhouzhi-01",
+        "a01-ch09-zhouzhi-01",
+        "a01-ch09-zhouzhi-02",
+        "a01-ch09-zhouzhi-03",
+        "a01-ch10-zhouzhi-01",
+        "a01-ch10-zhouzhi-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+        "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a",
+        "bytes": 839198
+      },
+      "delivery": {
+        "path": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+        "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a",
+        "bytes": 839198,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 690058,
+          "partial": 56274,
+          "nearOpaque": 826532,
+          "visibleBBox": {
+            "left": 158,
+            "top": 6,
+            "right": 930,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.43872706095377606
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-zhouzhi-human-expression-smile",
+      "character": "zhouzhi",
+      "kind": "character",
+      "expression": "expression-smile",
+      "cueIds": [
+        "a01-ch01-common-07",
+        "a01-ch03-zhouzhi-01",
+        "a01-ch03-zhouzhi-02",
+        "a01-ch03-zhouzhi-03",
+        "a01-ch04-zhouzhi-01",
+        "a01-ch04-zhouzhi-02",
+        "a01-ch04-zhouzhi-03",
+        "a01-ch04-zhouzhi-04",
+        "a01-ch05-zhouzhi-01",
+        "a01-ch05-zhouzhi-02",
+        "a01-ch06-common-01",
+        "a01-ch06-zhouzhi-01",
+        "a01-ch07-zhouzhi-01",
+        "a01-ch07-zhouzhi-02",
+        "a01-ch07-zhouzhi-03",
+        "a01-ch07-zhouzhi-04",
+        "a01-ch08-zhouzhi-01",
+        "a01-ch09-zhouzhi-01",
+        "a01-ch09-zhouzhi-02",
+        "a01-ch09-zhouzhi-03",
+        "a01-ch10-zhouzhi-01",
+        "a01-ch10-zhouzhi-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.webp",
+        "sha256": "21d6bef6495b7fcdca9a9369f59842bcf4e20743426b51a5493c117c2b50cf5a",
+        "bytes": 857994
+      },
+      "delivery": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.webp",
+        "sha256": "21d6bef6495b7fcdca9a9369f59842bcf4e20743426b51a5493c117c2b50cf5a",
+        "bytes": 857994,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 686666,
+          "partial": 58917,
+          "nearOpaque": 827281,
+          "visibleBBox": {
+            "left": 158,
+            "top": 6,
+            "right": 933,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4365704854329427
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-zhouzhi-human-expression-serious",
+      "character": "zhouzhi",
+      "kind": "character",
+      "expression": "expression-serious",
+      "cueIds": [
+        "a01-ch03-zhouzhi-03",
+        "a01-ch04-zhouzhi-04",
+        "a01-ch05-zhouzhi-01"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.webp",
+        "sha256": "47133aa81d4be43234874bb5e072195fa6c53040fab0456580806802e6a82e0e",
+        "bytes": 865546
+      },
+      "delivery": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.webp",
+        "sha256": "47133aa81d4be43234874bb5e072195fa6c53040fab0456580806802e6a82e0e",
+        "bytes": 865546,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 679552,
+          "partial": 64221,
+          "nearOpaque": 829091,
+          "visibleBBox": {
+            "left": 152,
+            "top": 7,
+            "right": 934,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4320475260416667
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-zhouzhi-human-expression-tired",
+      "character": "zhouzhi",
+      "kind": "character",
+      "expression": "expression-tired",
+      "cueIds": [
+        "a01-ch05-zhouzhi-01"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/zhouzhi/originals/char-zhouzhi-human-expression-tired-v1.png",
+        "sha256": "d9e49dd2371dbb81ef7ae8138f027825e32cac9c09490e27548a081efd72ff82",
+        "bytes": 1809998
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/zhouzhi/char-zhouzhi-human-expression-tired.webp",
+        "sha256": "061227c7b9526195f47307a3e429090deb2cd8627e665ee197cc659cb6ea5712",
+        "bytes": 809684,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1892867,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 686792,
+          "partial": 55766,
+          "nearOpaque": 830306,
+          "visibleBBox": {
+            "left": 159,
+            "top": 5,
+            "right": 932,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4366505940755208
+        }
+      },
+      "promptKey": "zhouzhi-tired",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-zhouzhi-human-expression-hesitant",
+      "character": "zhouzhi",
+      "kind": "character",
+      "expression": "expression-hesitant",
+      "cueIds": [
+        "a01-ch06-common-01",
+        "a01-ch06-zhouzhi-01",
+        "a01-ch07-zhouzhi-01",
+        "a01-ch07-zhouzhi-02",
+        "a01-ch07-zhouzhi-03",
+        "a01-ch07-zhouzhi-04",
+        "a01-ch08-zhouzhi-01",
+        "a01-ch09-zhouzhi-01",
+        "a01-ch09-zhouzhi-02",
+        "a01-ch09-zhouzhi-03",
+        "a01-ch10-zhouzhi-01",
+        "a01-ch10-zhouzhi-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.webp",
+        "sha256": "c77e074b064afe4f9250f0e827b6ecfb742c1486d9aa9ba68e22700927f55a20",
+        "bytes": 852512
+      },
+      "delivery": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.webp",
+        "sha256": "c77e074b064afe4f9250f0e827b6ecfb742c1486d9aa9ba68e22700927f55a20",
+        "bytes": 852512,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 689163,
+          "partial": 52237,
+          "nearOpaque": 831464,
+          "visibleBBox": {
+            "left": 158,
+            "top": 6,
+            "right": 937,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4381580352783203
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-zhouzhi-human-expression-downcast",
+      "character": "zhouzhi",
+      "kind": "character",
+      "expression": "expression-downcast",
+      "cueIds": [
+        "a01-ch09-zhouzhi-03"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.webp",
+        "sha256": "f33bd7d32161fd13d8597b88779fc2233921a1db3f60c10c63d5be296dd4e713",
+        "bytes": 841286
+      },
+      "delivery": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.webp",
+        "sha256": "f33bd7d32161fd13d8597b88779fc2233921a1db3f60c10c63d5be296dd4e713",
+        "bytes": 841286,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 684785,
+          "partial": 49968,
+          "nearOpaque": 838111,
+          "visibleBBox": {
+            "left": 159,
+            "top": 9,
+            "right": 941,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.43537457784016925
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-zhouzhi-light-blue-shirt",
+      "character": "zhouzhi",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch06-zhouzhi-01"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/zhouzhi/originals/char-zhouzhi-light-blue-shirt-base-v1.png",
+        "sha256": "219193208efe4cbc6c9a2cdaa5683ff9ee211bd8382b4b3d420d93bf415d056f",
+        "bytes": 1888073
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/zhouzhi/char-zhouzhi-light-blue-shirt-base.webp",
+        "sha256": "b77a71b1ec296d6067a150a47bcafe92ba2489e688eed36acdf1aa1c09332ea5",
+        "bytes": 846344,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1883435,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 681518,
+          "partial": 59910,
+          "nearOpaque": 831436,
+          "visibleBBox": {
+            "left": 148,
+            "top": 5,
+            "right": 935,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.43329747517903644
+        }
+      },
+      "promptKey": "zhouzhi-light-blue-shirt",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-zhouzhi-tied-hair",
+      "character": "zhouzhi",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch10-zhouzhi-01"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/zhouzhi/originals/char-zhouzhi-tied-hair-base-v1.png",
+        "sha256": "19e6696c23be0939ac9fd4fb5dbb4c3a6a3a60070faea34df59e04288acd1368",
+        "bytes": 1719833
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/zhouzhi/char-zhouzhi-tied-hair-base.webp",
+        "sha256": "c8f25f8ff8dd3492d418e6396269661023b9389fa66d463b48e38bb507bb6630",
+        "bytes": 753766,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1910011,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 729850,
+          "partial": 58185,
+          "nearOpaque": 784829,
+          "visibleBBox": {
+            "left": 156,
+            "top": 5,
+            "right": 931,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.46402613321940106
+        }
+      },
+      "promptKey": "zhouzhi-tied-hair",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    }
+  ],
+  "evidence": {
+    "fullFigureLightDark": [
+      {
+        "path": "assets/ten-chapter/characters/zhouzhi/qa/light-dark-1.png",
+        "resourceIds": [
+          "tc-char-zhouzhi-human-base",
+          "tc-char-zhouzhi-human-expression-smile",
+          "tc-char-zhouzhi-human-expression-serious",
+          "tc-char-zhouzhi-human-expression-tired"
+        ]
+      },
+      {
+        "path": "assets/ten-chapter/characters/zhouzhi/qa/light-dark-2.png",
+        "resourceIds": [
+          "tc-char-zhouzhi-human-expression-hesitant",
+          "tc-char-zhouzhi-human-expression-downcast",
+          "tc-look-zhouzhi-light-blue-shirt",
+          "tc-look-zhouzhi-tied-hair"
+        ]
+      }
+    ],
+    "faceDetail": "assets/ten-chapter/characters/zhouzhi/qa/faces.png"
+  },
+  "status": "delivered-awaiting-A06"
+}

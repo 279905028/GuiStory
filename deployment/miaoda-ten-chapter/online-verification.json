@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-23T07:00:00.243Z",
+  "url": "https://rcniaktjf0x2.feishu.link/app/app_17gm4z6t27j",
+  "browser": "Safari native UI",
+  "homepageVisible": true,
+  "coverVisible": true,
+  "editionVisible": "全十章 / 第 1—90 天 · 两年后",
+  "controls": [
+    "开始故事",
+    "继续旅程（禁用）",
+    "读取存档",
+    "游戏设置",
+    "切换环境音"
+  ],
+  "gameStarted": false,
+  "saveWrites": false,
+  "evidenceLayer": "真实妙搭线上首页及封面目视确认",
+  "screenshot": "online-evidence/safari-title.png",
+  "accessibility": "online-evidence/safari-title-ax.txt",
+  "limitations": [
+    "未执行线上开始/分支/存读档",
+    "未遍历线上全部138张图",
+    "未进行完整Safari路线验收",
+    "未进行实体手机验收"
+  ],
+  "inAppBrowser": "创建及读取两次超时；Safari后备验证成功"
+}

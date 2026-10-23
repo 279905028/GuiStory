@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "characters": {
+    "wenwen": {
+      "name": "文文"
+    },
+    "xiaoman": {
+      "name": "罗小满"
+    },
+    "zhouzhi": {
+      "name": "周栀"
+    },
+    "mengyao": {
+      "name": "孟遥"
+    },
+    "yelan": {
+      "name": "叶岚"
+    },
+    "maolang": {
+      "name": "毛狼"
+    },
+    "shijiang": {
+      "name": "师匠"
+    },
+    "piao": {
+      "name": "飘"
+    },
+    "huangqiuqiu": {
+      "name": "黄球球"
+    }
+  },
+  "backgrounds": {
+    "sample-bg": "sample://sample-bg",
+    "tc-bg-salon-day": "sample://tc-bg-salon-day",
+    "tc-bg-busstop-day": "sample://tc-bg-busstop-day",
+    "tc-bg-street-day": "sample://tc-bg-street-day",
+    "tc-bg-busstop-dusk": "sample://tc-bg-busstop-dusk",
+    "tc-bg-convenience-day": "sample://tc-bg-convenience-day",
+    "tc-bg-rental-day": "sample://tc-bg-rental-day",
+    "tc-bg-arcade-basketball": "sample://tc-bg-arcade-basketball",
+    "tc-bg-used-books-day": "sample://tc-bg-used-books-day",
+    "tc-bg-stall-day": "sample://tc-bg-stall-day",
+    "tc-bg-parcel-day": "sample://tc-bg-parcel-day",
+    "tc-bg-river-day": "sample://tc-bg-river-day",
+    "tc-bg-food-dusk": "sample://tc-bg-food-dusk",
+    "tc-bg-street-dusk": "sample://tc-bg-street-dusk",
+    "tc-bg-used-books-closed-dusk": "sample://tc-bg-used-books-closed-dusk",
+    "tc-bg-badminton-day": "sample://tc-bg-badminton-day",
+    "tc-bg-slope-day": "sample://tc-bg-slope-day",
+    "tc-bg-xiaoman-home-day": "sample://tc-bg-xiaoman-home-day",
+    "tc-bg-food-day": "sample://tc-bg-food-day",
+    "tc-bg-echo-day": "sample://tc-bg-echo-day",
+    "tc-bg-bookstore-day": "sample://tc-bg-bookstore-day",
+    "tc-bg-mall-day": "sample://tc-bg-mall-day",
+    "tc-bg-cinema-interior": "sample://tc-bg-cinema-interior",
+    "tc-bg-echo-closed-day": "sample://tc-bg-echo-closed-day",
+    "tc-bg-supermarket-day": "sample://tc-bg-supermarket-day",
+    "tc-bg-clothing-day": "sample://tc-bg-clothing-day",
+    "tc-bg-eaves-day": "sample://tc-bg-eaves-day",
+    "tc-bg-stall-night": "sample://tc-bg-stall-night"
+  },
+  "cgs": {},
+  "scenes": {},
+  "nodes": {}
+}

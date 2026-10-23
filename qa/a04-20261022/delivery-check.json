@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-23",
+  "checks": {
+    "markdownLinks": 20,
+    "missingMarkdownLinks": [],
+    "htmlReferences": 269,
+    "missingHtmlLinks": [],
+    "inlineScriptSyntax": "passed",
+    "requirements": 53,
+    "timeVariants": 2,
+    "allSelectedHashesMatch": true,
+    "allVisualReviewHashesMatch": true,
+    "allNewSourceReferencesExist": true,
+    "protectedFileCount": 552,
+    "changedProtectedFiles": []
+  },
+  "browserReview": {
+    "status": "blocked-not-run",
+    "reason": "本地服务监听被沙箱拒绝（EPERM）；浏览器工具拒绝file:协议。未绕过限制。"
+  },
+  "formalGameTest": "not-run",
+  "links": [
+    {
+      "from": "assets/ten-chapter/backgrounds/README.md",
+      "target": "index.html",
+      "exists": true
+    },
+    {
+      "from": "assets/ten-chapter/backgrounds/README.md",
+      "target": "a04-manifest.json",
+      "exists": true
+    },
+    {
+      "from": "assets/ten-chapter/backgrounds/README.md",
+      "target": "source-map.json",
+      "exists": true
+    },
+    {
+      "from": "assets/ten-chapter/backgrounds/README.md",
+      "target": "../../../任务拆分/全十章/交接/A04.md",
+      "exists": true
+    },
+    {
+      "from": "assets/ten-chapter/backgrounds/README.md",
+      "target": "generation-record.json",
+      "exists": true
+    },
+    {
+      "from": "任务拆分/全十章/交接/A04.md",
+      "target": "../../../assets/ten-chapter/backgrounds/index.html",
+      "exists": true
+    },
+    {
+      "from": "任务拆分/全十章/交接/A04.md",
+      "target": "../../../assets/ten-chapter/backgrounds/a04-manifest.json",
+      "exists": true
+    },
+    {
+      "from": "任务拆分/全十章/交接/A04.md",
+      "target": "../../../assets/ten-chapter/backgrounds/source-map.json",
+      "exists": true
+    },
+    {
+      "from": "任务拆分/全十章/交接/A04.md",
+      "target": "../../../assets/ten-chapter/backgrounds/generation-record.json",
+      "exists": true
+    },
+    {
+      "from": "任务拆分/全十章/交接/A04.md",
+      "target": "../../../qa/a04-20261022/report.md",
+      "exists": true
+    },
+    {
+      "from": "qa/a04-20261022/report.md",
+      "target": "contact-1.webp",
+      "exists": true
+    },
+    {
+      "from": "qa/a04-20261022/report.md",
+      "target": "report.json",
+      "exists": true
+    },
+    {
+      "from": "qa/a04-20261022/report.md",
+      "target": "delivery-check.json",
+      "exists": true
+    },
+    {
+      "from": "qa/a04-20261022/report.md",
+      "target": "contact-1.webp",
+      "exists": true
+    },
+    {
+      "from": "qa/a04-20261022/report.md",
+      "target": "contact-2.webp",
+      "exists": true
+    },
+    {
+      "from": "qa/a04-20261022/report.md",
+      "target": "contact-3.webp",
+      "exists": true
+    },
+    {
+      "from": "qa/a04-20261022/report.md",
+      "target": "contact-4.webp",
+      "exists": true
+    },
+    {
+      "from": "qa/a04-20261022/report.md",
+      "target": "contact-5.webp",
+      "exists": true
+    },
+    {
+      "from": "qa/a04-20261022/report.md",
+      "target": "contact-6.webp",
+      "exists": true
+    },
+    {
+      "from": "qa/a04-20261022/report.md",
+      "target": "contact-7.webp",
+      "exists": true
+    }
+  ],
+  "passed": true
+}

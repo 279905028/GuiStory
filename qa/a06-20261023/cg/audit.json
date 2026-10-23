@@ -1,0 +1,1309 @@
+{
+  "schemaVersion": "1.0.0",
+  "task": "A06",
+  "subtask": "A05 CG/covers/storyboards",
+  "date": "2026-10-23",
+  "completedAt": "2026-10-23T03:08:59.210Z",
+  "verdict": "pass-static-art-adoption",
+  "actualGameIntegration": false,
+  "counts": {
+    "images": 6,
+    "cg": 4,
+    "covers": 2,
+    "storyboards": 10,
+    "fallbackBoards": 6,
+    "fallbackReferences": 39,
+    "uniqueFallbackFiles": 23,
+    "sequenceBeats": 7,
+    "gateExamples": 24
+  },
+  "items": [
+    {
+      "id": "tc-ui-cover-desktop",
+      "label": "横版封面修订",
+      "kind": "ui",
+      "file": "assets/ten-chapter/ui/cover-desktop.webp",
+      "sha256": "a2754760ac8863b57fb1820f2d7769332effd1c06eb9a224d13da06ad5ffd665",
+      "source": {
+        "path": "assets/ten-chapter/ui/originals/cover-desktop-v1.png",
+        "sha256": "305b26ed13489b46333432ccdade916996518fcd34e7888f7a60c645b18d56ad"
+      },
+      "width": 1672,
+      "height": 941,
+      "bytes": 1874752,
+      "hasAlpha": false,
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      },
+      "checks": {
+        "riffWebp": true,
+        "decodes": true,
+        "sourcePng": true,
+        "dimensionsMatchManifest": true,
+        "dimensionsMatchSource": true,
+        "alphaMatchManifest": true,
+        "rgbaPixelsEqual": true,
+        "fileHashMatch": true,
+        "sourceHashMatch": true,
+        "bytesMatch": true
+      },
+      "nodeEvidence": [],
+      "visual": {
+        "status": "pass-static-review",
+        "observed": "逐图查看：标题、副题、三名前景人物与河桥剪影完整；胸袋无工具、桥上无相机。",
+        "inspectedImages": [
+          "assets/ten-chapter/ui/cover-desktop.webp"
+        ]
+      },
+      "adoptionRecommendation": "adopted-static-awaiting-E09",
+      "runtimeBindingStatus": "not-integrated"
+    },
+    {
+      "id": "tc-ui-cover-mobile",
+      "label": "竖版封面修订",
+      "kind": "ui",
+      "file": "assets/ten-chapter/ui/cover-mobile.webp",
+      "sha256": "66f3af124050fa455001108bf2369a9db22b028c96f1774858402d1fafebfe40",
+      "source": {
+        "path": "assets/ten-chapter/ui/originals/cover-mobile-v1.png",
+        "sha256": "a7edfea6ac37c0dea739ca1f0b429a2414d56f99edf7883b4afbfc756880703d"
+      },
+      "width": 941,
+      "height": 1672,
+      "bytes": 1943458,
+      "hasAlpha": false,
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      },
+      "checks": {
+        "riffWebp": true,
+        "decodes": true,
+        "sourcePng": true,
+        "dimensionsMatchManifest": true,
+        "dimensionsMatchSource": true,
+        "alphaMatchManifest": true,
+        "rgbaPixelsEqual": true,
+        "fileHashMatch": true,
+        "sourceHashMatch": true,
+        "bytesMatch": true
+      },
+      "nodeEvidence": [],
+      "visual": {
+        "status": "pass-static-review",
+        "observed": "逐图查看：独立竖构图；标题、副题、三名前景人物及河桥保留；无工具、相机或挂带。",
+        "inspectedImages": [
+          "assets/ten-chapter/ui/cover-mobile.webp"
+        ]
+      },
+      "adoptionRecommendation": "adopted-static-awaiting-E09",
+      "runtimeBindingStatus": "not-integrated"
+    },
+    {
+      "id": "tc-cg-piao-choice",
+      "label": "这一次讲明白",
+      "kind": "cg",
+      "file": "assets/ten-chapter/cg/cg-piao-choice.webp",
+      "sha256": "8fb73d0507f30d661f291cd500ffa12839f4c54d493c7b4ead4e4d12448cc6d5",
+      "source": {
+        "path": "assets/ten-chapter/cg/originals/cg-piao-choice-v1.png",
+        "sha256": "7d04b27f164e0ec040c42c51b501a0d2e0204461bd0b30a1db9c96f6bb0f9471"
+      },
+      "width": 1672,
+      "height": 941,
+      "bytes": 2040426,
+      "hasAlpha": false,
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      },
+      "checks": {
+        "riffWebp": true,
+        "decodes": true,
+        "sourcePng": true,
+        "dimensionsMatchManifest": true,
+        "dimensionsMatchSource": true,
+        "alphaMatchManifest": true,
+        "rgbaPixelsEqual": true,
+        "fileHashMatch": true,
+        "sourceHashMatch": true,
+        "bytesMatch": true
+      },
+      "nodeEvidence": [
+        {
+          "id": "tc_c03_piao_say_clearly_002",
+          "module": "任务拆分/全十章/routes/piao.json",
+          "moduleSha256": "b1ab806155124a8b2cf0e11e9c2947e33fe9a77a622ecdff69f314e50255202d",
+          "moduleHashMatchesA05": true,
+          "textMatchesA05": true,
+          "scene": "ts_c03_piao_say_clearly_river",
+          "next": "tc_c03_piao_say_clearly_003"
+        }
+      ],
+      "visual": {
+        "status": "pass-static-review",
+        "observed": "逐图和手部局部查看：低马尾、白衬衫黑边、红绳；两瓶水、饼袋；双手在自己膝前，无另一人手或牵手。",
+        "inspectedImages": [
+          "assets/ten-chapter/cg/cg-piao-choice.webp",
+          "qa/a06-20261023/cg/piao-hands.webp"
+        ]
+      },
+      "adoptionRecommendation": "adopted-static-awaiting-E09",
+      "runtimeBindingStatus": "not-integrated"
+    },
+    {
+      "id": "tc-cg-last-echo-dinner",
+      "label": "吃完还要上班",
+      "kind": "cg",
+      "file": "assets/ten-chapter/cg/cg-last-echo-dinner.webp",
+      "sha256": "33d8c4d7905776bc0146f3c84c4bda953027b34e7ab0d8446ef56fc810079840",
+      "source": {
+        "path": "assets/ten-chapter/cg/originals/cg-last-echo-dinner-v1.png",
+        "sha256": "23fc8be324a386ce28f19d6e6d4d7f1c203031bd0a2bb6798414105629bf4b3d"
+      },
+      "width": 1672,
+      "height": 941,
+      "bytes": 1682214,
+      "hasAlpha": false,
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      },
+      "checks": {
+        "riffWebp": true,
+        "decodes": true,
+        "sourcePng": true,
+        "dimensionsMatchManifest": true,
+        "dimensionsMatchSource": true,
+        "alphaMatchManifest": true,
+        "rgbaPixelsEqual": true,
+        "fileHashMatch": true,
+        "sourceHashMatch": true,
+        "bytesMatch": true
+      },
+      "nodeEvidence": [
+        {
+          "id": "tc_c06_common_last_night_meal_07",
+          "module": "任务拆分/全十章/common/ch06.json",
+          "moduleSha256": "f95eabdfd886fdc72f1856872d21919b9adba833b501a303cc7219fe4c04e62f",
+          "moduleHashMatchesA05": true,
+          "textMatchesA05": true,
+          "scene": "ts_c06_common_last_night_meal",
+          "next": "tc_c06_common_last_night_meal_08"
+        }
+      ],
+      "visual": {
+        "status": "pass-static-review",
+        "observed": "逐图查看：周栀与毛狼的双人局部饭桌，暮色小店、碗筷及椅背外套；无职业器材或仪式。只可解释为共通多人饭局切镜。",
+        "inspectedImages": [
+          "assets/ten-chapter/cg/cg-last-echo-dinner.webp"
+        ]
+      },
+      "adoptionRecommendation": "adopted-static-awaiting-E09",
+      "runtimeBindingStatus": "not-integrated"
+    },
+    {
+      "id": "tc-cg-qiuqiu-transform",
+      "label": "她自己决定换个模样",
+      "kind": "cg",
+      "file": "assets/ten-chapter/cg/cg-qiuqiu-transform.webp",
+      "sha256": "43fd7979c5f9bcd29f639d5525430310f63f9ae07fe87c09767a11f80dd63598",
+      "source": {
+        "path": "assets/ten-chapter/cg/originals/cg-qiuqiu-transform-v2.png",
+        "sha256": "a1c661c4dbc6a7d19f6cac4b1a17c3fe5bda8e67088d4953b5136d4557a6172c"
+      },
+      "width": 1672,
+      "height": 941,
+      "bytes": 1657930,
+      "hasAlpha": false,
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      },
+      "checks": {
+        "riffWebp": true,
+        "decodes": true,
+        "sourcePng": true,
+        "dimensionsMatchManifest": true,
+        "dimensionsMatchSource": true,
+        "alphaMatchManifest": true,
+        "rgbaPixelsEqual": true,
+        "fileHashMatch": true,
+        "sourceHashMatch": true,
+        "bytesMatch": true
+      },
+      "nodeEvidence": [
+        {
+          "id": "tc_c08_huangqiuqiu_her_decision_025",
+          "module": "任务拆分/全十章/routes/huangqiuqiu.json",
+          "moduleSha256": "c785e3d2dda7d967f4bec0ba73382d03f297796e1dcf532f52592e564fb78e19",
+          "moduleHashMatchesA05": true,
+          "textMatchesA05": true,
+          "scene": "ts_c08_huangqiuqiu_her_decision",
+          "next": "tc_c08_huangqiuqiu_her_decision_026"
+        }
+      ],
+      "visual": {
+        "status": "pass-static-review",
+        "observed": "逐图和手部下缘查看：眼贴在画面右侧，黑颈饰、棕发、米灰外套和白印花内搭；两手扶浅色玩偶棒；下缘为外套、无新增下装；空凳、无握手拥抱或施法。",
+        "inspectedImages": [
+          "assets/ten-chapter/cg/cg-qiuqiu-transform.webp",
+          "qa/a06-20261023/cg/qiuqiu-hands-hem.webp"
+        ]
+      },
+      "adoptionRecommendation": "adopted-static-awaiting-E09",
+      "runtimeBindingStatus": "not-integrated"
+    },
+    {
+      "id": "tc-cg-piao-wedding",
+      "label": "领子没有歪",
+      "kind": "cg",
+      "file": "assets/ten-chapter/cg/cg-piao-wedding.webp",
+      "sha256": "d0f9cf5f68c62ee9e217cfc56937bc874af4217bfa3fe4d048271b70bf7840bc",
+      "source": {
+        "path": "assets/ten-chapter/cg/originals/cg-piao-wedding-v2.png",
+        "sha256": "c4d11482b36b050a083de61f58f2a08b29446f350c5780e407f874e0de83e3c1"
+      },
+      "width": 1672,
+      "height": 941,
+      "bytes": 1761642,
+      "hasAlpha": false,
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      },
+      "checks": {
+        "riffWebp": true,
+        "decodes": true,
+        "sourcePng": true,
+        "dimensionsMatchManifest": true,
+        "dimensionsMatchSource": true,
+        "alphaMatchManifest": true,
+        "rgbaPixelsEqual": true,
+        "fileHashMatch": true,
+        "sourceHashMatch": true,
+        "bytesMatch": true
+      },
+      "nodeEvidence": [
+        {
+          "id": "tc_c10_common_piao_wedding_04",
+          "module": "任务拆分/全十章/common/ch10.json",
+          "moduleSha256": "5c179e95f3b1fc6ce28a47ffa70df2b41aa36dbd11ad440878c4fc23809d9b3c",
+          "moduleHashMatchesA05": true,
+          "textMatchesA05": true,
+          "scene": "ts_c10_common_piao_wedding",
+          "next": "tc_c10_common_piao_wedding_05"
+        }
+      ],
+      "visual": {
+        "status": "pass-static-review",
+        "observed": "逐图和领口/册子局部查看：门口站姿、便西装和简洁粉礼裙；毛狼整理领口、飘扶衣袖；右下无字册子；无球球或额外宾客。",
+        "inspectedImages": [
+          "assets/ten-chapter/cg/cg-piao-wedding.webp",
+          "qa/a06-20261023/cg/wedding-collar.webp",
+          "qa/a06-20261023/cg/wedding-book.webp"
+        ]
+      },
+      "adoptionRecommendation": "adopted-static-awaiting-E09",
+      "runtimeBindingStatus": "not-integrated"
+    }
+  ],
+  "boardDecisions": [
+    {
+      "boardId": "a01-board-breakfast",
+      "label": "清晨接风",
+      "priority": "P2",
+      "decision": "不另制CG；使用已交付背景／立绘／正文",
+      "assetId": "tc-cg-breakfast",
+      "deliveryFile": null,
+      "fallbacks": [
+        {
+          "file": "assets/ten-chapter/backgrounds/bg-breakfast-dawn.webp",
+          "owner": "A04",
+          "assetId": "tc-bg-breakfast-dawn",
+          "manifest": "assets/ten-chapter/backgrounds/a04-manifest.json",
+          "sha256": "35b4ed25926a9ade51ceca446f22b72caf8a257a38211bfdb066eb0b1823b523",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+          "owner": "A02",
+          "assetId": "tc-char-wenwen-human-base",
+          "manifest": "assets/ten-chapter/characters/wenwen/manifest.json",
+          "sha256": "94e76a03d5b7437cf986b459c1e02df56f3912259a2f32ad4a99d573673fbbb7",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-hesitant.webp",
+          "owner": "A02",
+          "assetId": "tc-char-wenwen-human-expression-hesitant",
+          "manifest": "assets/ten-chapter/characters/wenwen/manifest.json",
+          "sha256": "69999fd5cbde8ae0a96652a5ed99f935755a610c25b6401f25f1c4807913d131",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-smile.webp",
+          "owner": "A02",
+          "assetId": "tc-char-wenwen-human-expression-smile",
+          "manifest": "assets/ten-chapter/characters/wenwen/manifest.json",
+          "sha256": "d9273a8309bba3e8bd8d4a63d649625af3dd8a952ba8b0024430b433a3fa8e82",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/char-maolang.webp",
+          "owner": "A02",
+          "assetId": "tc-char-maolang-human-base",
+          "manifest": "assets/ten-chapter/characters/maolang/manifest.json",
+          "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+          "owner": "A02",
+          "assetId": "tc-char-maolang-human-expression-smile",
+          "manifest": "assets/ten-chapter/characters/maolang/manifest.json",
+          "sha256": "5704ec0c670226e7c4ae80aa952994c3d100c088c7648c221156f08515923a92",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+          "owner": "A02",
+          "assetId": "tc-char-maolang-human-expression-hesitant",
+          "manifest": "assets/ten-chapter/characters/maolang/manifest.json",
+          "sha256": "e6b1d49e1a239ea99f95022cba84bd1ba44a452c838b18579d207fbccaffe54f",
+          "exists": true,
+          "sha256Matches": true
+        }
+      ],
+      "a01Conditions": [],
+      "status": "fallback-assets-resolved-static",
+      "runtimeBound": false
+    },
+    {
+      "boardId": "a01-board-online-first-meet",
+      "label": "叶岚线下初见",
+      "priority": "P2",
+      "decision": "不另制CG；使用已交付背景／立绘／正文",
+      "assetId": "tc-cg-online-first-meet",
+      "deliveryFile": null,
+      "fallbacks": [
+        {
+          "file": "assets/ten-chapter/backgrounds/bg-food-day.webp",
+          "owner": "A04",
+          "assetId": "tc-bg-food-day",
+          "manifest": "assets/ten-chapter/backgrounds/a04-manifest.json",
+          "sha256": "5436c4770b21d57274d84e7345823b8b145561a4632845f97ea2acb1dbf67480",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/characters/yelan/char-yelan-human-base.webp",
+          "owner": "A02",
+          "assetId": "tc-char-yelan-human-base",
+          "manifest": "assets/ten-chapter/characters/yelan/manifest.json",
+          "sha256": "802c5fe292b422fba7d4187fd063be9595eb390cded3b34ed69abf6feff8428f",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-hesitant.webp",
+          "owner": "A02",
+          "assetId": "tc-char-yelan-human-expression-hesitant",
+          "manifest": "assets/ten-chapter/characters/yelan/manifest.json",
+          "sha256": "a606f94cee4f3520c5056bf52370bb04d3d291c0078a129a3205ab97dcfc7c33",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-smile.webp",
+          "owner": "A02",
+          "assetId": "tc-char-yelan-human-expression-smile",
+          "manifest": "assets/ten-chapter/characters/yelan/manifest.json",
+          "sha256": "ad24c46a6da89de7450d382a70ca7081d361d22f4fd1c527fab70c8287d8e332",
+          "exists": true,
+          "sha256Matches": true
+        }
+      ],
+      "a01Conditions": [
+        "A游戏/B菜单开聊互斥，由第三章叶岚线回收"
+      ],
+      "status": "fallback-assets-resolved-static",
+      "runtimeBound": false
+    },
+    {
+      "boardId": "a01-board-piao-choice",
+      "label": "飘第一次关系选择",
+      "priority": "P1",
+      "decision": "独立CG＋前后立绘演出",
+      "assetId": "tc-cg-piao-choice",
+      "deliveryFile": "assets/ten-chapter/cg/cg-piao-choice.webp",
+      "fallbacks": [],
+      "a01Conditions": [
+        "仅所选 piao 路线",
+        "仅飘关系=交往",
+        "仅飘关系=朋友"
+      ],
+      "status": "independent-cg-adopted-static",
+      "runtimeBound": false
+    },
+    {
+      "boardId": "a01-board-last-echo-dinner",
+      "label": "回声最后营业前的饭",
+      "priority": "P1",
+      "decision": "独立CG＋前后立绘演出",
+      "assetId": "tc-cg-last-echo-dinner",
+      "deliveryFile": "assets/ten-chapter/cg/cg-last-echo-dinner.webp",
+      "fallbacks": [],
+      "a01Conditions": [],
+      "status": "independent-cg-adopted-static",
+      "runtimeBound": false
+    },
+    {
+      "boardId": "a01-board-shift-request",
+      "label": "说清轮班请求",
+      "priority": "P2",
+      "decision": "不另制CG；使用已交付背景／立绘／正文",
+      "assetId": "tc-cg-shift-request",
+      "deliveryFile": null,
+      "fallbacks": [
+        {
+          "file": "assets/ten-chapter/backgrounds/bg-netcafe-counter-day.webp",
+          "owner": "A04",
+          "assetId": "tc-bg-netcafe-counter-day",
+          "manifest": "assets/ten-chapter/backgrounds/a04-manifest.json",
+          "sha256": "ad4441bd82897f63a57766890badb01a9ea981052b701906f62cc8f4ac97ba09",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+          "owner": "A02",
+          "assetId": "tc-char-wenwen-human-base",
+          "manifest": "assets/ten-chapter/characters/wenwen/manifest.json",
+          "sha256": "94e76a03d5b7437cf986b459c1e02df56f3912259a2f32ad4a99d573673fbbb7",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-hesitant.webp",
+          "owner": "A02",
+          "assetId": "tc-char-wenwen-human-expression-hesitant",
+          "manifest": "assets/ten-chapter/characters/wenwen/manifest.json",
+          "sha256": "69999fd5cbde8ae0a96652a5ed99f935755a610c25b6401f25f1c4807913d131",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-smile.webp",
+          "owner": "A02",
+          "assetId": "tc-char-wenwen-human-expression-smile",
+          "manifest": "assets/ten-chapter/characters/wenwen/manifest.json",
+          "sha256": "d9273a8309bba3e8bd8d4a63d649625af3dd8a952ba8b0024430b433a3fa8e82",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/char-shijiang.webp",
+          "owner": "A02",
+          "assetId": "tc-char-shijiang-human-base",
+          "manifest": "assets/ten-chapter/characters/shijiang/manifest.json",
+          "sha256": "286042deb9ae765c377f69285824c8ca4e2a7a23ba8af960cbaf413747fc207c",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp",
+          "owner": "A02",
+          "assetId": "tc-char-shijiang-human-expression-smile",
+          "manifest": "assets/ten-chapter/characters/shijiang/manifest.json",
+          "sha256": "46d040efebffd1f356fed0773e317e9eb6654e9356c2e4800a42a388e9d6259f",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-hesitant.webp",
+          "owner": "A02",
+          "assetId": "tc-char-shijiang-human-expression-hesitant",
+          "manifest": "assets/ten-chapter/characters/shijiang/manifest.json",
+          "sha256": "86140f606a2c669fa62f4b62cf956e166c4b046e94502c8b425d3c9757f983ee",
+          "exists": true,
+          "sha256Matches": true
+        }
+      ],
+      "a01Conditions": [],
+      "status": "fallback-assets-resolved-static",
+      "runtimeBound": false
+    },
+    {
+      "boardId": "a01-board-qiuqiu-transform",
+      "label": "她自己决定换个模样",
+      "priority": "P1",
+      "decision": "独立CG＋前后立绘演出",
+      "assetId": "tc-cg-qiuqiu-transform",
+      "deliveryFile": "assets/ten-chapter/cg/cg-qiuqiu-transform.webp",
+      "fallbacks": [],
+      "a01Conditions": [
+        "仅当前路线 huangqiuqiu",
+        "已取得隐藏资格并完成第14天相识"
+      ],
+      "status": "independent-cg-adopted-static",
+      "runtimeBound": false
+    },
+    {
+      "boardId": "a01-board-qiuqiu-answer",
+      "label": "两个都被尊重的回答",
+      "priority": "P2",
+      "decision": "不另制CG；使用已交付背景／立绘／正文",
+      "assetId": "tc-cg-qiuqiu-answer",
+      "deliveryFile": null,
+      "fallbacks": [
+        {
+          "file": "assets/ten-chapter/backgrounds/bg-courtyard-day.webp",
+          "owner": "A04",
+          "assetId": "tc-bg-courtyard-day",
+          "manifest": "assets/ten-chapter/backgrounds/a04-manifest.json",
+          "sha256": "d20a905d8da1113440fa0f0a48811223e5e1505ad9bff5703e033746b59b9eee",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+          "owner": "A03",
+          "assetId": "tc-char-huangqiuqiu-human-base",
+          "manifest": "assets/ten-chapter/huangqiuqiu/manifest.json",
+          "sha256": "4e458e5fe38514e3eb4a0ae61fc2023166f078b2370e4836cb1557a6c56cd3d2",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-chin-base.webp",
+          "owner": "A03",
+          "assetId": "tc-look-huangqiuqiu-human-chin",
+          "manifest": "assets/ten-chapter/huangqiuqiu/manifest.json",
+          "sha256": "68682fd771ad2cea823f7beb5e0a57ceec64678a9686d24a316817c16b45e466",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-action-wave.webp",
+          "owner": "A03",
+          "assetId": "tc-char-huangqiuqiu-human-action-wave",
+          "manifest": "assets/ten-chapter/huangqiuqiu/manifest.json",
+          "sha256": "27cd16f1233463f800b7651e97ace261416436c5fd020ce5b547694ddc7639da",
+          "exists": true,
+          "sha256Matches": true
+        }
+      ],
+      "a01Conditions": [
+        "仅当前路线 huangqiuqiu",
+        "已取得隐藏资格并完成第14天相识",
+        "当前路线第九章选择交往",
+        "当前路线第九章选择朋友"
+      ],
+      "status": "fallback-assets-resolved-static",
+      "runtimeBound": false
+    },
+    {
+      "boardId": "a01-board-piao-wedding",
+      "label": "飘与毛狼的婚宴",
+      "priority": "P1",
+      "decision": "独立CG＋前后立绘演出",
+      "assetId": "tc-cg-piao-wedding",
+      "deliveryFile": "assets/ten-chapter/cg/cg-piao-wedding.webp",
+      "fallbacks": [],
+      "a01Conditions": [
+        "非飘交往路径；黄球球不得入场"
+      ],
+      "status": "independent-cg-adopted-static",
+      "runtimeBound": false
+    },
+    {
+      "boardId": "a01-board-small-everyday",
+      "label": "两年后仍然有自己的日子",
+      "priority": "P2",
+      "decision": "不另制CG；使用已交付背景／立绘／正文",
+      "assetId": "tc-cg-small-everyday",
+      "deliveryFile": null,
+      "fallbacks": [
+        {
+          "file": "assets/ten-chapter/backgrounds/bg-maolang-home-day.webp",
+          "owner": "A04",
+          "assetId": "tc-bg-maolang-home-day",
+          "manifest": "assets/ten-chapter/backgrounds/a04-manifest.json",
+          "sha256": "f1493fdc6610c29c8d9ae8c73e1e22f20b6cb853022d7207f175dc75d516990f",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/char-maolang.webp",
+          "owner": "A02",
+          "assetId": "tc-char-maolang-human-base",
+          "manifest": "assets/ten-chapter/characters/maolang/manifest.json",
+          "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+          "owner": "A02",
+          "assetId": "tc-char-maolang-human-expression-smile",
+          "manifest": "assets/ten-chapter/characters/maolang/manifest.json",
+          "sha256": "5704ec0c670226e7c4ae80aa952994c3d100c088c7648c221156f08515923a92",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+          "owner": "A02",
+          "assetId": "tc-char-maolang-human-expression-hesitant",
+          "manifest": "assets/ten-chapter/characters/maolang/manifest.json",
+          "sha256": "e6b1d49e1a239ea99f95022cba84bd1ba44a452c838b18579d207fbccaffe54f",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/char-piao.webp",
+          "owner": "A02",
+          "assetId": "tc-char-piao-human-base",
+          "manifest": "assets/ten-chapter/characters/piao/manifest.json",
+          "sha256": "b28422dabd0a4d3eb2ad7a34f832104bae4884ecb93bd45eb0d80e9c17a70331",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+          "owner": "A02",
+          "assetId": "tc-char-piao-human-expression-smile",
+          "manifest": "assets/ten-chapter/characters/piao/manifest.json",
+          "sha256": "6d2661f9fd7c8551cb1dace16519ffcc220c23e5c69693103538cfe57ba612b0",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+          "owner": "A02",
+          "assetId": "tc-char-piao-human-expression-hesitant",
+          "manifest": "assets/ten-chapter/characters/piao/manifest.json",
+          "sha256": "9bb08999a38861d259fa6fd29458fb1b58e03425a2fa50533634280e9e90e831",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/char-shijiang.webp",
+          "owner": "A02",
+          "assetId": "tc-char-shijiang-human-base",
+          "manifest": "assets/ten-chapter/characters/shijiang/manifest.json",
+          "sha256": "286042deb9ae765c377f69285824c8ca4e2a7a23ba8af960cbaf413747fc207c",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp",
+          "owner": "A02",
+          "assetId": "tc-char-shijiang-human-expression-smile",
+          "manifest": "assets/ten-chapter/characters/shijiang/manifest.json",
+          "sha256": "46d040efebffd1f356fed0773e317e9eb6654e9356c2e4800a42a388e9d6259f",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-hesitant.webp",
+          "owner": "A02",
+          "assetId": "tc-char-shijiang-human-expression-hesitant",
+          "manifest": "assets/ten-chapter/characters/shijiang/manifest.json",
+          "sha256": "86140f606a2c669fa62f4b62cf956e166c4b046e94502c8b425d3c9757f983ee",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+          "owner": "A02",
+          "assetId": "tc-char-wenwen-human-base",
+          "manifest": "assets/ten-chapter/characters/wenwen/manifest.json",
+          "sha256": "94e76a03d5b7437cf986b459c1e02df56f3912259a2f32ad4a99d573673fbbb7",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-hesitant.webp",
+          "owner": "A02",
+          "assetId": "tc-char-wenwen-human-expression-hesitant",
+          "manifest": "assets/ten-chapter/characters/wenwen/manifest.json",
+          "sha256": "69999fd5cbde8ae0a96652a5ed99f935755a610c25b6401f25f1c4807913d131",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-smile.webp",
+          "owner": "A02",
+          "assetId": "tc-char-wenwen-human-expression-smile",
+          "manifest": "assets/ten-chapter/characters/wenwen/manifest.json",
+          "sha256": "d9273a8309bba3e8bd8d4a63d649625af3dd8a952ba8b0024430b433a3fa8e82",
+          "exists": true,
+          "sha256Matches": true
+        }
+      ],
+      "a01Conditions": [
+        "仅当前路线 friends"
+      ],
+      "status": "fallback-assets-resolved-static",
+      "runtimeBound": false
+    },
+    {
+      "boardId": "a01-board-qiuqiu-epilogue",
+      "label": "门里清楚的一声回答",
+      "priority": "P2",
+      "decision": "不另制CG；使用已交付背景／立绘／正文",
+      "assetId": "tc-cg-qiuqiu-epilogue",
+      "deliveryFile": null,
+      "fallbacks": [
+        {
+          "file": "assets/ten-chapter/backgrounds/bg-courtyard-day.webp",
+          "owner": "A04",
+          "assetId": "tc-bg-courtyard-day",
+          "manifest": "assets/ten-chapter/backgrounds/a04-manifest.json",
+          "sha256": "d20a905d8da1113440fa0f0a48811223e5e1505ad9bff5703e033746b59b9eee",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+          "owner": "A03",
+          "assetId": "tc-char-huangqiuqiu-human-base",
+          "manifest": "assets/ten-chapter/huangqiuqiu/manifest.json",
+          "sha256": "4e458e5fe38514e3eb4a0ae61fc2023166f078b2370e4836cb1557a6c56cd3d2",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-chin-base.webp",
+          "owner": "A03",
+          "assetId": "tc-look-huangqiuqiu-human-chin",
+          "manifest": "assets/ten-chapter/huangqiuqiu/manifest.json",
+          "sha256": "68682fd771ad2cea823f7beb5e0a57ceec64678a9686d24a316817c16b45e466",
+          "exists": true,
+          "sha256Matches": true
+        },
+        {
+          "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-action-wave.webp",
+          "owner": "A03",
+          "assetId": "tc-char-huangqiuqiu-human-action-wave",
+          "manifest": "assets/ten-chapter/huangqiuqiu/manifest.json",
+          "sha256": "27cd16f1233463f800b7651e97ace261416436c5fd020ce5b547694ddc7639da",
+          "exists": true,
+          "sha256Matches": true
+        }
+      ],
+      "a01Conditions": [
+        "仅当前路线 huangqiuqiu",
+        "已取得隐藏资格并完成第14天相识",
+        "当前路线第九章选择交往",
+        "当前路线第九章选择朋友"
+      ],
+      "status": "fallback-assets-resolved-static",
+      "runtimeBound": false
+    }
+  ],
+  "sourceChecks": {
+    "allSuggestedNodesExist": true,
+    "allExitNodesExist": true,
+    "allA05ModuleFingerprintsCurrent": true,
+    "weddingGateExamples": [
+      {
+        "route": "xiaoman",
+        "piaoRelationship": "dating",
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "xiaoman",
+        "piaoRelationship": "friends",
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "xiaoman",
+        "piaoRelationship": null,
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "zhouzhi",
+        "piaoRelationship": "dating",
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "zhouzhi",
+        "piaoRelationship": "friends",
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "zhouzhi",
+        "piaoRelationship": null,
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "mengyao",
+        "piaoRelationship": "dating",
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "mengyao",
+        "piaoRelationship": "friends",
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "mengyao",
+        "piaoRelationship": null,
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "yelan",
+        "piaoRelationship": "dating",
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "yelan",
+        "piaoRelationship": "friends",
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "yelan",
+        "piaoRelationship": null,
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "piao",
+        "piaoRelationship": "dating",
+        "target": "tc_c10_common_piao_dating",
+        "weddingCgAllowed": false
+      },
+      {
+        "route": "piao",
+        "piaoRelationship": "friends",
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "piao",
+        "piaoRelationship": null,
+        "target": null,
+        "weddingCgAllowed": false
+      },
+      {
+        "route": "friends",
+        "piaoRelationship": "dating",
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "friends",
+        "piaoRelationship": "friends",
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "friends",
+        "piaoRelationship": null,
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "huangqiuqiu",
+        "piaoRelationship": "dating",
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "huangqiuqiu",
+        "piaoRelationship": "friends",
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "huangqiuqiu",
+        "piaoRelationship": null,
+        "target": "tc_c10_common_piao_wedding",
+        "weddingCgAllowed": true
+      },
+      {
+        "route": "unknown",
+        "piaoRelationship": "dating",
+        "target": null,
+        "weddingCgAllowed": false
+      },
+      {
+        "route": "unknown",
+        "piaoRelationship": "friends",
+        "target": null,
+        "weddingCgAllowed": false
+      },
+      {
+        "route": "unknown",
+        "piaoRelationship": null,
+        "target": null,
+        "weddingCgAllowed": false
+      }
+    ],
+    "qiuqiuSequence": [
+      {
+        "beat": "轻搭手",
+        "node": "tc_c08_huangqiuqiu_her_decision_001",
+        "form": "sphere",
+        "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+        "note": "A03姿态＋正文表达接触；不新增紧握或告白。",
+        "text": "看够天空以后，她让我帮忙回到靠里的位置。我照着她说的慢慢放好，正准备收手，她的小手忽然碰住了我的手指。",
+        "positionInLinearChain": 0,
+        "nodeExists": true
+      },
+      {
+        "beat": "她自主松开",
+        "node": "tc_c08_huangqiuqiu_her_decision_010",
+        "form": "sphere",
+        "file": "assets/char-huangqiuqiu.webp",
+        "text": "她没追问，嘴角有一点很浅的笑。我们就这么放了一会儿，直到她自己松开。我没有把这个动作立即变成一句必须回答的告白，她也没有假装刚才只是为了坐稳。",
+        "positionInLinearChain": 9,
+        "nodeExists": true
+      },
+      {
+        "beat": "文文收手、退凳",
+        "node": "tc_c08_huangqiuqiu_her_decision_019",
+        "form": "sphere",
+        "file": "assets/char-huangqiuqiu.webp",
+        "text": "我把手收回膝上，问她要不要我往后坐一点。她点头，我便起身把凳子挪开。等空出一点地方，她才说好了。",
+        "positionInLinearChain": 18,
+        "nodeExists": true
+      },
+      {
+        "beat": "轮廓变化",
+        "node": "tc_c08_huangqiuqiu_her_decision_020",
+        "form": "sphere",
+        "file": "assets/char-huangqiuqiu.webp",
+        "note": "由E08／E09淡出球形；不提前切人形，不加恋爱条件。",
+        "text": "她坐直了一点，原本圆润的黄色轮廓在我眼前渐渐改变。肩背舒展开来，手臂落到身侧；等她把双脚踩稳，我才发现自己一直屏着气。",
+        "positionInLinearChain": 19,
+        "nodeExists": true
+      },
+      {
+        "beat": "揭示人形并执行形态事件",
+        "node": "tc_c08_huangqiuqiu_human_reveal",
+        "form": "human",
+        "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+        "note": "先执行原有onEnter，再解析人形立绘和头像。",
+        "text": "坐在我面前的，已经是个棕色齐刘海、中长发垂到肩旁的年轻女人。浅米灰色的宽松拉链外套敞着，里面是白色印花上衣，颈间有一圈黑色颈饰，一只眼前覆着白色遮片。她手里握着一根浅色的玩偶棒，长柄顶端是张圆圆的脸。",
+        "positionInLinearChain": 20,
+        "nodeExists": true
+      },
+      {
+        "beat": "扶正玩偶棒的近景",
+        "node": "tc_c08_huangqiuqiu_her_decision_025",
+        "form": "human",
+        "file": "assets/ten-chapter/cg/cg-qiuqiu-transform.webp",
+        "text": "我笑了一下，终于把那口气呼出来。她低头整理袖口，玩偶棒差点碰到我的膝盖，又被她及时扶正。",
+        "positionInLinearChain": 24,
+        "nodeExists": true
+      },
+      {
+        "beat": "退出CG继续聊天",
+        "node": "tc_c08_huangqiuqiu_her_decision_028",
+        "form": "human",
+        "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+        "text": "我重新坐下。她把玩偶棒靠在身边，自己将外套下摆拢好，挪到坐得舒服的位置。我没有伸手替她安排，她也没有急着让我夸这副模样。我们隔着刚才留出的那点距离，重新聊起晚饭。",
+        "positionInLinearChain": 27,
+        "nodeExists": true
+      }
+    ],
+    "qiuqiuHumanEvent": {
+      "requires": [
+        {
+          "flag": "route",
+          "value": "huangqiuqiu"
+        },
+        {
+          "flag": "qiuSignal",
+          "value": "record"
+        },
+        {
+          "flag": "qiuReply",
+          "value": "reply"
+        },
+        {
+          "flag": "qiuMet",
+          "value": true
+        }
+      ],
+      "setFlags": {
+        "qiuForm": "human"
+      }
+    },
+    "noRomanceGateOnHumanEvent": true
+  },
+  "decisions": [
+    {
+      "id": "piao-neutral-cg-vs-old-e06-note",
+      "status": "resolved",
+      "evidence": [
+        "任务拆分/全十章/交接/A05.md",
+        "assets/ten-chapter/cg/a05-manifest.json",
+        "任务拆分/全十章/交接/E06.md",
+        "qa/a06-20261023/cg/piao-hands.webp"
+      ],
+      "resolution": "采用实际无牵手的选择前中性CG；选择前退出，后续两关系走各自文本/差分。E06候选牵手说明不适用本图。"
+    },
+    {
+      "id": "qiuqiu-transform-framing",
+      "status": "accepted-with-integration-constraint",
+      "resolution": "A05近景暖色切镜可采用；A01同机位连续变身仍由A03球形/人形承担。本CG仅human_reveal已执行后的扶正玩偶棒节点使用。"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "assets/char-maolang.webp",
+      "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf"
+    },
+    {
+      "path": "assets/char-piao.webp",
+      "sha256": "b28422dabd0a4d3eb2ad7a34f832104bae4884ecb93bd45eb0d80e9c17a70331"
+    },
+    {
+      "path": "assets/char-shijiang.webp",
+      "sha256": "286042deb9ae765c377f69285824c8ca4e2a7a23ba8af960cbaf413747fc207c"
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+      "sha256": "9bb08999a38861d259fa6fd29458fb1b58e03425a2fa50533634280e9e90e831"
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+      "sha256": "6d2661f9fd7c8551cb1dace16519ffcc220c23e5c69693103538cfe57ba612b0"
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-hesitant.webp",
+      "sha256": "86140f606a2c669fa62f4b62cf956e166c4b046e94502c8b425d3c9757f983ee"
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp",
+      "sha256": "46d040efebffd1f356fed0773e317e9eb6654e9356c2e4800a42a388e9d6259f"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+      "sha256": "e6b1d49e1a239ea99f95022cba84bd1ba44a452c838b18579d207fbccaffe54f"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+      "sha256": "5704ec0c670226e7c4ae80aa952994c3d100c088c7648c221156f08515923a92"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/a04-manifest.json",
+      "sha256": "fb915c78aaa54a51825e1fc032c62e7ee45904b307e5b5067398d209bfba5426"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-breakfast-dawn.webp",
+      "sha256": "35b4ed25926a9ade51ceca446f22b72caf8a257a38211bfdb066eb0b1823b523"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-courtyard-day.webp",
+      "sha256": "d20a905d8da1113440fa0f0a48811223e5e1505ad9bff5703e033746b59b9eee"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-food-day.webp",
+      "sha256": "5436c4770b21d57274d84e7345823b8b145561a4632845f97ea2acb1dbf67480"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-maolang-home-day.webp",
+      "sha256": "f1493fdc6610c29c8d9ae8c73e1e22f20b6cb853022d7207f175dc75d516990f"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-netcafe-counter-day.webp",
+      "sha256": "ad4441bd82897f63a57766890badb01a9ea981052b701906f62cc8f4ac97ba09"
+    },
+    {
+      "path": "assets/ten-chapter/cg/a05-manifest.json",
+      "sha256": "e6c988b2b17d068fced867da2977dc3ab20a03497f3c3a036991d50a5996c614"
+    },
+    {
+      "path": "assets/ten-chapter/cg/cg-last-echo-dinner.webp",
+      "sha256": "33d8c4d7905776bc0146f3c84c4bda953027b34e7ab0d8446ef56fc810079840"
+    },
+    {
+      "path": "assets/ten-chapter/cg/cg-piao-choice.webp",
+      "sha256": "8fb73d0507f30d661f291cd500ffa12839f4c54d493c7b4ead4e4d12448cc6d5"
+    },
+    {
+      "path": "assets/ten-chapter/cg/cg-piao-wedding.webp",
+      "sha256": "d0f9cf5f68c62ee9e217cfc56937bc874af4217bfa3fe4d048271b70bf7840bc"
+    },
+    {
+      "path": "assets/ten-chapter/cg/cg-qiuqiu-transform.webp",
+      "sha256": "43fd7979c5f9bcd29f639d5525430310f63f9ae07fe87c09767a11f80dd63598"
+    },
+    {
+      "path": "assets/ten-chapter/cg/originals/cg-last-echo-dinner-v1.png",
+      "sha256": "23fc8be324a386ce28f19d6e6d4d7f1c203031bd0a2bb6798414105629bf4b3d"
+    },
+    {
+      "path": "assets/ten-chapter/cg/originals/cg-piao-choice-v1.png",
+      "sha256": "7d04b27f164e0ec040c42c51b501a0d2e0204461bd0b30a1db9c96f6bb0f9471"
+    },
+    {
+      "path": "assets/ten-chapter/cg/originals/cg-piao-wedding-v2.png",
+      "sha256": "c4d11482b36b050a083de61f58f2a08b29446f350c5780e407f874e0de83e3c1"
+    },
+    {
+      "path": "assets/ten-chapter/cg/originals/cg-qiuqiu-transform-v2.png",
+      "sha256": "a1c661c4dbc6a7d19f6cac4b1a17c3fe5bda8e67088d4953b5136d4557a6172c"
+    },
+    {
+      "path": "assets/ten-chapter/characters/maolang/manifest.json",
+      "sha256": "ee9518763dc5bab20609e87d55eee1b869e2fccc07ec1288301ba389952577b7"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/manifest.json",
+      "sha256": "ac074a4b6f78b5c34db9dada2bf0d049821c6a0ff235dafe338c6171e0c29bc7"
+    },
+    {
+      "path": "assets/ten-chapter/characters/piao/manifest.json",
+      "sha256": "0d569d4cd165e3fe11b3d3e61e56d302240b4174804634de6ce0c69d3621a0c1"
+    },
+    {
+      "path": "assets/ten-chapter/characters/shijiang/manifest.json",
+      "sha256": "bcca38d5bc98763140852320b6996e26f85b86dc1021a2c22b90830e45207022"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+      "sha256": "94e76a03d5b7437cf986b459c1e02df56f3912259a2f32ad4a99d573673fbbb7"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-hesitant.webp",
+      "sha256": "69999fd5cbde8ae0a96652a5ed99f935755a610c25b6401f25f1c4807913d131"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-smile.webp",
+      "sha256": "d9273a8309bba3e8bd8d4a63d649625af3dd8a952ba8b0024430b433a3fa8e82"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/manifest.json",
+      "sha256": "3508dbb38065b15e997ce95d8eedfe8318b031791b5e9d27e72d6e45546b086f"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/manifest.json",
+      "sha256": "35d6f8592f29a685cfd287acd5240879de616a05498f12709b388cefe9423f0c"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-base.webp",
+      "sha256": "802c5fe292b422fba7d4187fd063be9595eb390cded3b34ed69abf6feff8428f"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-hesitant.webp",
+      "sha256": "a606f94cee4f3520c5056bf52370bb04d3d291c0078a129a3205ab97dcfc7c33"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-smile.webp",
+      "sha256": "ad24c46a6da89de7450d382a70ca7081d361d22f4fd1c527fab70c8287d8e332"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/manifest.json",
+      "sha256": "c007f18bdc2169ef8fd09e0c3760a172b9d616638e204813ac4c5d42f3b08b73"
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/manifest.json",
+      "sha256": "fc9370206cc9f9abb9b8e13a457a216c37c35281ae58d05479cb6eff4bd10aea"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-action-wave.webp",
+      "sha256": "27cd16f1233463f800b7651e97ace261416436c5fd020ce5b547694ddc7639da"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "sha256": "4e458e5fe38514e3eb4a0ae61fc2023166f078b2370e4836cb1557a6c56cd3d2"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-chin-base.webp",
+      "sha256": "68682fd771ad2cea823f7beb5e0a57ceec64678a9686d24a316817c16b45e466"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/manifest.json",
+      "sha256": "4826058faa132066c70c985bc9bcc0e77f4b270099bca477d776a7e8f3e21700"
+    },
+    {
+      "path": "assets/ten-chapter/ui/cover-desktop.webp",
+      "sha256": "a2754760ac8863b57fb1820f2d7769332effd1c06eb9a224d13da06ad5ffd665"
+    },
+    {
+      "path": "assets/ten-chapter/ui/cover-mobile.webp",
+      "sha256": "66f3af124050fa455001108bf2369a9db22b028c96f1774858402d1fafebfe40"
+    },
+    {
+      "path": "assets/ten-chapter/ui/originals/cover-desktop-v1.png",
+      "sha256": "305b26ed13489b46333432ccdade916996518fcd34e7888f7a60c645b18d56ad"
+    },
+    {
+      "path": "assets/ten-chapter/ui/originals/cover-mobile-v1.png",
+      "sha256": "a7edfea6ac37c0dea739ca1f0b429a2414d56f99edf7883b4afbfc756880703d"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch06.json",
+      "sha256": "f95eabdfd886fdc72f1856872d21919b9adba833b501a303cc7219fe4c04e62f"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch10.json",
+      "sha256": "5c179e95f3b1fc6ce28a47ffa70df2b41aa36dbd11ad440878c4fc23809d9b3c"
+    },
+    {
+      "path": "任务拆分/全十章/routes/huangqiuqiu.json",
+      "sha256": "c785e3d2dda7d967f4bec0ba73382d03f297796e1dcf532f52592e564fb78e19"
+    },
+    {
+      "path": "任务拆分/全十章/routes/piao.json",
+      "sha256": "b1ab806155124a8b2cf0e11e9c2947e33fe9a77a622ecdff69f314e50255202d"
+    },
+    {
+      "path": "任务拆分/全十章/交接/A05.md",
+      "sha256": "f7d0cda174c2f77ac83b66c3a03998084419c7b0bc9e36257415b4fee136fc46"
+    },
+    {
+      "path": "任务拆分/全十章/交接/E06.md",
+      "sha256": "87b653f02b94ff500bb13c15a7dbd7d73dc90d669c7a35d1fa4ddfb7d75fb76a"
+    },
+    {
+      "path": "任务拆分/全十章/美术清单.json",
+      "sha256": "10cd396bf8de6e26e54ee60bc494fb512bb697ecc46a7f23b631b4e214a351b2"
+    },
+    {
+      "path": "项目文档/美术资源规范.md",
+      "sha256": "fbd38ec2eb694d6fd01ec7e93314711f9c9554f08e4ff1379925c4acf5841e93"
+    }
+  ],
+  "notExecuted": [
+    "正式游戏绑定/重建",
+    "实际游戏CG进入退出与解锁测试",
+    "浏览器/实体手机验收",
+    "存读档/回顾验收"
+  ],
+  "historicalEvidenceNotClaimedAsCurrent": [
+    "qa/a05-20261023/gallery-check.json"
+  ],
+  "pass": true
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "characters": {},
+  "backgrounds": {
+    "sample-bg": "sample://background"
+  },
+  "cgs": {},
+  "scenes": {},
+  "nodes": {
+    "tc_c01_common_entry": {
+      "bg": "sample-bg"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "routes/mengyao",
+  "owner": "E05",
+  "scenes": {
+    "ts_c03_mengyao_sample": {
+      "chapter": 3,
+      "title": "这次不算顺路",
+      "bg": "sample-bg",
+      "time": "17:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "17:20"
+      },
+      "location": "桥头烧饼店门边",
+      "day": 15,
+      "dayLabel": "第15天"
+    }
+  },
+  "nodes": {
+    "tc_c03_mengyao_entry": {
+      "id": "tc_c03_mengyao_entry",
+      "type": "line",
+      "scene": "ts_c03_mengyao_sample",
+      "speaker": "narrator",
+      "character": null,
+      "text": "孟遥站在店门边，提着一个装资料的布袋。她正在听电话，声音比跟我说话时慢：“我知道您着急。不过今天先把这两处弄明白，下次我们再看新的。”她听了一会儿，说好，挂掉电话，转身就问我：“要几个？”",
+      "next": "tc_c03_common_exit"
+    }
+  },
+  "imports": [
+    "tc_c03_common_exit"
+  ],
+  "exports": {
+    "tc_c03_mengyao_entry": "tc_c03_mengyao_entry"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 369,
+      "endLine": 369,
+      "nodeIds": [
+        "tc_c03_mengyao_entry"
+      ],
+      "kind": "narration"
+    }
+  ],
+  "exclusions": [],
+  "assetRequests": [
+    "e01-art-ch03"
+  ]
+}

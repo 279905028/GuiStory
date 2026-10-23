@@ -1,0 +1,112 @@
+{
+  "task": "E07",
+  "date": "2026-10-23",
+  "runAt": "2026-10-23T02:23:53.982Z",
+  "status": "passed",
+  "formalIntegration": false,
+  "scope": "复核已有E07完整交付；未重写路线与演出请求，未扩展E08/E09/E10任务",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "checks": {
+    "specializedPassed": 38,
+    "specializedFailed": 0,
+    "negativeCases": 14,
+    "paragraphs": 301,
+    "nodes": 307,
+    "scenes": 33,
+    "qiuBranchPaths": 4,
+    "earlyCombinations": 32,
+    "integratedPathsWithFourRouteStubs": 448,
+    "protectedFiles": 68,
+    "protectedChanged": [],
+    "deliveryChanged": [],
+    "verifiedInputsCurrent": true
+  },
+  "commands": [
+    {
+      "command": "node 任务拆分/全十章/校验/E07/verify.cjs",
+      "status": "passed",
+      "passed": 26
+    },
+    {
+      "command": "node 任务拆分/全十章/校验/E07/verify-delivery.cjs",
+      "status": "passed",
+      "passed": 12
+    },
+    {
+      "command": "node 任务拆分/三章扩展/build-story.cjs --ten-chapter --manifest 任务拆分/全十章/校验/E07/fixture/manifest.json",
+      "status": "passed",
+      "exitCode": 0
+    }
+  ],
+  "deliveryFiles": [
+    {
+      "file": "任务拆分/全十章/routes/huangqiuqiu.json",
+      "sha256": "c785e3d2dda7d967f4bec0ba73382d03f297796e1dcf532f52592e564fb78e19"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/delivery.json",
+      "sha256": "e406212897dfbea71bca96a21a03343d5388525e738dab8f7d510df8705ab0c6"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/presentation.json",
+      "sha256": "018e66333fabae7be1442084cb1be74dd01ef4dbe46df766729d4f9920e45e21"
+    }
+  ],
+  "verificationFiles": [
+    {
+      "file": "任务拆分/全十章/校验/E07/verification.json",
+      "sha256": "181fdc76bf64149080a3fe7c63f63720e5fba566218d452f5513646717c4e785"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/delivery-verification.json",
+      "sha256": "600c6589201e0898f0cabf6c09cad97f1e6e5f999e19a48d82eb74aa4b579330"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/path-witnesses.json",
+      "sha256": "1b3ae7093cd415e933c44ee1f2ebd8fb2038bde43b10540f910ebb4e183a0f0b"
+    }
+  ],
+  "isolatedOutput": {
+    "directory": "/Users/yipin/Desktop/cjb/任务拆分/全十章/构建/sample-bbf363525828da2e",
+    "contentHash": "bbf363525828da2e9fbfef778fa6ff9ef0eff76d98f959f0b58f7e10b0f3d5b8",
+    "reused": true,
+    "files": [
+      {
+        "file": "任务拆分/全十章/构建/sample-bbf363525828da2e/story.js",
+        "sha256": "d056927e1957bde222735b330180dfd58421bd43f4d1a24c3f19a777a94e8b27"
+      },
+      {
+        "file": "任务拆分/全十章/构建/sample-bbf363525828da2e/story.json",
+        "sha256": "ea1279583a7a3683d2d6dc38c00952aeb9389024fb68f09de98e55dc79894ff3"
+      },
+      {
+        "file": "任务拆分/全十章/构建/sample-bbf363525828da2e/source-map.json",
+        "sha256": "1bd88b24a8b6ef3752f95d1a1ae03e834d4525cd0b6c11a50d123a1dec055da6"
+      },
+      {
+        "file": "任务拆分/全十章/构建/sample-bbf363525828da2e/build-report.json",
+        "sha256": "003ba178b8978a6c9d6312c80da0970af82555bac8b56f72ddebb498148ab0e8"
+      }
+    ]
+  },
+  "notExecuted": [
+    "E05/E06真实路线全文及全部13个结局",
+    "E08真实播放器/重选/存读档/形态恢复",
+    "A06真实美术及E09演出绑定",
+    "正式story.js替换与完整十章候选",
+    "浏览器/设备/声音/真人阅读",
+    "打包/部署/发布"
+  ],
+  "gitStatus": "本轮系统Git仍受Xcode许可阻止；通过SHA256复核文件边界。",
+  "documentLinks": {
+    "checked": 86,
+    "broken": []
+  },
+  "independentReadOnlyReview": {
+    "status": "passed",
+    "blockers": [],
+    "scope": "隐藏三项门槛、第42天铺垫、第55天17:00唯一自动事件、四种路线组合、两个人形结局、21个A01场段和A03资源请求",
+    "deferred": "第九章数日后的相对日期显示由E08/E09实现、E10验收；未做播放器或浏览器验收"
+  }
+}

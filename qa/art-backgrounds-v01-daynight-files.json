@@ -1,0 +1,350 @@
+{
+  "revision": "M2-v01-daynight-20261020",
+  "captured_at_utc": "2026-10-20T01:48:27.583Z",
+  "user_timezone": "Asia/Shanghai",
+  "scope": "仅M2写入，其他窗口变动只读观察，不回滚。",
+  "modified_by_this_task": [
+    "assets/background-edits.json",
+    "assets/backgrounds-manifest.json",
+    "assets/bg-lobby.png",
+    "assets/bg-repair.png",
+    "qa/art-backgrounds-report.md",
+    "任务拆分/交接/M2.md"
+  ],
+  "added_by_this_task_excluding_this_inventory": [
+    "assets/background-variants/m2-daynight-20261020/bg-lobby-day.png",
+    "assets/background-variants/m2-daynight-20261020/bg-lobby-original.png",
+    "assets/background-variants/m2-daynight-20261020/bg-repair-night-v2.png",
+    "assets/background-variants/m2-daynight-20261020/bg-repair-night.png",
+    "assets/background-variants/m2-daynight-20261020/bg-repair-original.png",
+    "assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+    "assets/background-variants/m2-daynight-20261020/bg-street-original.png",
+    "assets/background-variants/m2-daynight-20261020/generation-record.json",
+    "assets/background-variants/m2-daynight-20261020/repair-refinement-record.json",
+    "assets/background-variants/m2-daynight-20261020/usage-map.json",
+    "qa/art-backgrounds-m2-handoff-r2-20261019.md",
+    "qa/art-backgrounds-report-r2-20261019.md",
+    "qa/art-backgrounds-v01-20261020-baseline.json",
+    "qa/art-backgrounds-v01-daynight-audit.cjs",
+    "qa/art-backgrounds-v01-daynight-preview.html",
+    "qa/art-backgrounds-v01-daynight-verification.json"
+  ],
+  "output_versions": {
+    "assets/background-edits.json": {
+      "sha256": "991a07764ef6376856e5259c277996a43de6e9045f6dfddbd3f189325427ecb4",
+      "bytes": 15859,
+      "mtime_ms": 1792460547494.3872
+    },
+    "assets/background-variants/m2-daynight-20261020/bg-lobby-day.png": {
+      "sha256": "2bc2954dd90394bdd0261f87b5372bdcf61b7cc41fdb7939d490dcf49f08a39f",
+      "bytes": 2158979,
+      "mtime_ms": 1792460113340.4807
+    },
+    "assets/background-variants/m2-daynight-20261020/bg-lobby-original.png": {
+      "sha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871",
+      "bytes": 2260911,
+      "mtime_ms": 1792459842669.02
+    },
+    "assets/background-variants/m2-daynight-20261020/bg-repair-night-v2.png": {
+      "sha256": "14b00ead5390e93803ef16f82b38949dd464e901a9cf5b208bc1140cda0c3675",
+      "bytes": 2370266,
+      "mtime_ms": 1792460287818.56
+    },
+    "assets/background-variants/m2-daynight-20261020/bg-repair-night.png": {
+      "sha256": "8b4afc043e48148094c0b17db060d9a3792f2735a71a0fb651e5ded6980bff73",
+      "bytes": 2467991,
+      "mtime_ms": 1792460113328.6545
+    },
+    "assets/background-variants/m2-daynight-20261020/bg-repair-original.png": {
+      "sha256": "3b918a88c0d486575fa18d09afb70a37f9e1743257dd49ce1a44f72416e098aa",
+      "bytes": 2576047,
+      "mtime_ms": 1792459842665.8
+    },
+    "assets/background-variants/m2-daynight-20261020/bg-street-day.png": {
+      "sha256": "3cd546cd5eb5addd38e14b0d36c4176134b819cd2fb7503710ea1f87f29443ab",
+      "bytes": 3220000,
+      "mtime_ms": 1792460113334.59
+    },
+    "assets/background-variants/m2-daynight-20261020/bg-street-original.png": {
+      "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "bytes": 3010764,
+      "mtime_ms": 1792459842664.4683
+    },
+    "assets/background-variants/m2-daynight-20261020/generation-record.json": {
+      "sha256": "2ac2291f6b9e7a9db53fb563189c8047caa92445da8e98bf4a2c583b887412d4",
+      "bytes": 5548,
+      "mtime_ms": 1792460113270.0718
+    },
+    "assets/background-variants/m2-daynight-20261020/repair-refinement-record.json": {
+      "sha256": "eaa084521c8c0cbf45055975a8fc401d7c6e2421483fe8416fa27adaf66f364d",
+      "bytes": 1959,
+      "mtime_ms": 1792460287771.8435
+    },
+    "assets/background-variants/m2-daynight-20261020/usage-map.json": {
+      "sha256": "79a03784690c65c1eb9f8a185b41cf51b3a3e1eb6462a843142cb3a6f7029fec",
+      "bytes": 75155,
+      "mtime_ms": 1792460547471.2493
+    },
+    "assets/backgrounds-manifest.json": {
+      "sha256": "7835ebaf864c5bd1272e4a2c65cddc6cb9bf18efcb6725c111c4982dd30cd253",
+      "bytes": 46565,
+      "mtime_ms": 1792460907583.5044
+    },
+    "assets/bg-lobby.png": {
+      "sha256": "2bc2954dd90394bdd0261f87b5372bdcf61b7cc41fdb7939d490dcf49f08a39f",
+      "bytes": 2158979,
+      "mtime_ms": 1792460383275.0222
+    },
+    "assets/bg-repair.png": {
+      "sha256": "14b00ead5390e93803ef16f82b38949dd464e901a9cf5b208bc1140cda0c3675",
+      "bytes": 2370266,
+      "mtime_ms": 1792460383270.4421
+    },
+    "qa/art-backgrounds-m2-handoff-r2-20261019.md": {
+      "sha256": "f56e6abaff3ef0d3a1ed2761e75ed23d0d4013b667a81880f1c36919246b875b",
+      "bytes": 4870,
+      "mtime_ms": 1792460383268.1445
+    },
+    "qa/art-backgrounds-report-r2-20261019.md": {
+      "sha256": "58bd49ad906d446a8d98f304536f8dff7b5ad27c7655529108c13e9bc6e23d2a",
+      "bytes": 10550,
+      "mtime_ms": 1792460383268.2334
+    },
+    "qa/art-backgrounds-report.md": {
+      "sha256": "ad483095ec36ac45c60620f162c4662fcd64c6380be03dc4cf11cb2f292cb016",
+      "bytes": 7802,
+      "mtime_ms": 1792460778092.4446
+    },
+    "qa/art-backgrounds-v01-20261020-baseline.json": {
+      "sha256": "111638a3c3bb77ac876fdee3db75f4b0a3bd67418671664e4956840f4adb6ac0",
+      "bytes": 93537,
+      "mtime_ms": 1792459842662.8462
+    },
+    "qa/art-backgrounds-v01-daynight-audit.cjs": {
+      "sha256": "90984fc79516c41fdfc0e257c39b4bd6374b8e8df9f54d8f183bb7983db29793",
+      "bytes": 6739,
+      "mtime_ms": 1792460625244.0872
+    },
+    "qa/art-backgrounds-v01-daynight-preview.html": {
+      "sha256": "a7e64d8c9d3403f4c5312a93a8ce1b36688fae79e1d835e1be32aaaab9b5f024",
+      "bytes": 3932,
+      "mtime_ms": 1792460383218.8276
+    },
+    "qa/art-backgrounds-v01-daynight-verification.json": {
+      "sha256": "7194ce4096cae7f8da439314f5bed1cd2fa5914443c58426baaa53930dac58cc",
+      "bytes": 18637,
+      "mtime_ms": 1792460625673.1338
+    },
+    "任务拆分/交接/M2.md": {
+      "sha256": "7d7adb34e0c82b52fa8977603bc561b64a7b29c32bfc45b95b5a0bfade38afa0",
+      "bytes": 3810,
+      "mtime_ms": 1792460778092.5996
+    }
+  },
+  "source_versions_observed": {
+    "story.js": {
+      "sha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+      "bytes": 126840,
+      "mtime_ms": 1792402096143.8423
+    },
+    "game.js": {
+      "sha256": "6bcd399cccb020e079061b8c08a4ff782dae8693a2de5189b8212080352b9cc4",
+      "bytes": 45283,
+      "mtime_ms": 1792460156209.9265
+    },
+    "engine.js": {
+      "sha256": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+      "bytes": 9734,
+      "mtime_ms": 1792377414393.8325
+    },
+    "index.html": {
+      "sha256": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+      "bytes": 7049,
+      "mtime_ms": 1792459886251.0847
+    },
+    "styles.css": {
+      "sha256": "48b6c1c4b106d9e89cf0ebcc744546203767f3b25616ac314731f6320be53bc3",
+      "bytes": 38815,
+      "mtime_ms": 1792460296359.5093
+    },
+    "assets/background-prompts.json": {
+      "sha256": "939314fc9e3c2bade1686b924d5f86afd3164893bf9f7fdb18e467d043f0d6d1",
+      "bytes": 9955,
+      "mtime_ms": 1792144792537.8853
+    }
+  },
+  "unchanged_fixed_backgrounds": [
+    "street",
+    "room",
+    "noodles",
+    "salon"
+  ],
+  "style_option_files_preserved": 9,
+  "historical_reports_archived_byte_exact": true,
+  "asset_hashes_still_match_successful_audit": true,
+  "document_links_resolve": true,
+  "external_changes_observed": [
+    "assets/cg-variants/CG01/record.json",
+    "assets/cg-variants/CG02/record.json",
+    "assets/cg-variants/CG03/record.json",
+    "assets/cg-variants/CG04/record.json",
+    "assets/cg-variants/CG05/record.json",
+    "assets/cg-variants/CG06/record.json",
+    "assets/cg-variants/CG07/record.json",
+    "assets/cg-variants/CG08/record.json",
+    "game.js",
+    "index.html",
+    "styles.css",
+    "任务拆分/CG/CG接入约定.md",
+    "任务拆分/CG/分镜与接入表.md",
+    "任务拆分/交接/CG-A.md",
+    "任务拆分/交接/E3.md"
+  ],
+  "external_new_files_observed": [
+    "assets/cg/cg-03-zhouzhi-noodles.png",
+    "assets/cg/cg-06-maolang-confession.png",
+    "assets/cg-variants/CG03/candidate-v2.png",
+    "assets/cg-variants/CG06/candidate-v2.png",
+    "assets/cg-variants/CG06/ref-bg-lobby-used.png",
+    "qa/cg-m1-CG01-static-1280x720.png",
+    "qa/cg-m1-CG01-static-1440x900.png",
+    "qa/cg-m1-CG01-static-375x667.png",
+    "qa/cg-m1-CG01-static-390x844.png",
+    "qa/cg-m1-CG01-static-844x390.png",
+    "qa/cg-m1-CG06-static-1280x720.png",
+    "qa/cg-m1-CG06-static-1440x900.png",
+    "qa/cg-m1-CG06-static-375x667.png",
+    "qa/cg-m1-CG06-static-390x844.png",
+    "qa/cg-m1-CG06-static-844x390.png",
+    "qa/cg-m1-art-report.md",
+    "qa/cg-m1-static-checks.json",
+    "qa/cg-m2-CG02-static-1280x720.png",
+    "qa/cg-m2-CG02-static-1440x900.png",
+    "qa/cg-m2-CG02-static-390x844.png",
+    "qa/cg-m2-CG02-static-844x390.png",
+    "qa/cg-m2-CG03-static-1280x720.png",
+    "qa/cg-m2-CG03-static-1440x900.png",
+    "qa/cg-m2-CG03-static-375x667.png",
+    "qa/cg-m2-CG03-static-390x844.png",
+    "qa/cg-m2-CG03-static-844x390.png",
+    "qa/cg-m2-CG04-static-1280x720.png",
+    "qa/cg-m2-CG04-static-1440x900.png",
+    "qa/cg-m2-CG04-static-375x667.png",
+    "qa/cg-m2-CG04-static-390x844.png",
+    "qa/cg-m2-CG04-static-844x390.png",
+    "qa/cg-m2-CG05-static-1280x720.png",
+    "qa/cg-m2-CG05-static-1440x900.png",
+    "qa/cg-m2-CG05-static-375x667.png",
+    "qa/cg-m2-CG05-static-390x844.png",
+    "qa/cg-m2-CG05-static-844x390.png",
+    "qa/cg-m2-CG07-static-1280x720.png",
+    "qa/cg-m2-CG07-static-1440x900.png",
+    "qa/cg-m2-CG07-static-375x667.png",
+    "qa/cg-m2-CG07-static-390x844.png",
+    "qa/cg-m2-CG07-static-844x390.png",
+    "qa/cg-m2-art-report.md",
+    "qa/cg-m2-static-checks.json",
+    "qa/cg-m3-CG08-static-1280x720.png",
+    "qa/cg-m3-CG08-static-1440x900.png",
+    "qa/cg-m3-CG08-static-390x844.png",
+    "qa/cg-m3-CG08-static-844x390.png",
+    "qa/cg-m3-art-report.md",
+    "qa/cg-m3-static-checks.json",
+    "qa/cg-player-cg-results.json",
+    "qa/cg-player-cg-test.cjs",
+    "qa/cg-player-storage-confirm.png",
+    "qa/cg-player-storage-protected.png",
+    "qa/cg-player-storage-results.json",
+    "qa/cg-player-storage-test.cjs",
+    "qa/cg-ui-cg01-1280x720.png",
+    "qa/cg-ui-cg01-1440x900.png",
+    "qa/cg-ui-cg01-375x667.png",
+    "qa/cg-ui-cg01-390x844.png",
+    "qa/cg-ui-cg01-844x390.png",
+    "qa/cg-ui-cg02-1280x720.png",
+    "qa/cg-ui-cg02-1440x900.png",
+    "qa/cg-ui-cg02-375x667.png",
+    "qa/cg-ui-cg02-390x844.png",
+    "qa/cg-ui-cg02-844x390.png",
+    "qa/cg-ui-cg03-1280x720.png",
+    "qa/cg-ui-cg03-1440x900.png",
+    "qa/cg-ui-cg03-375x667.png",
+    "qa/cg-ui-cg03-390x844.png",
+    "qa/cg-ui-cg03-844x390.png",
+    "qa/cg-ui-cg04-1280x720.png",
+    "qa/cg-ui-cg04-1440x900.png",
+    "qa/cg-ui-cg04-375x667.png",
+    "qa/cg-ui-cg04-390x844.png",
+    "qa/cg-ui-cg04-844x390.png",
+    "qa/cg-ui-cg05-1280x720.png",
+    "qa/cg-ui-cg05-1440x900.png",
+    "qa/cg-ui-cg05-375x667.png",
+    "qa/cg-ui-cg05-390x844.png",
+    "qa/cg-ui-cg05-844x390.png",
+    "qa/cg-ui-cg06-1280x720.png",
+    "qa/cg-ui-cg06-1440x900.png",
+    "qa/cg-ui-cg06-375x667.png",
+    "qa/cg-ui-cg06-390x844.png",
+    "qa/cg-ui-cg06-844x390.png",
+    "qa/cg-ui-cg07-1280x720.png",
+    "qa/cg-ui-cg07-1440x900.png",
+    "qa/cg-ui-cg07-375x667.png",
+    "qa/cg-ui-cg07-390x844.png",
+    "qa/cg-ui-cg07-844x390.png",
+    "qa/cg-ui-cg08-1280x720.png",
+    "qa/cg-ui-cg08-1440x900.png",
+    "qa/cg-ui-cg08-375x667.png",
+    "qa/cg-ui-cg08-390x844.png",
+    "qa/cg-ui-cg08-844x390.png",
+    "qa/cg-ui-regression.cjs",
+    "qa/cg-ui-results.json",
+    "qa/ui-1280x720-choice-5.png",
+    "qa/ui-1440x900-background-lobby.png",
+    "qa/ui-1440x900-background-repair.png",
+    "qa/ui-1440x900-choice-5.png",
+    "qa/ui-1440x900-title.png",
+    "qa/ui-375x667-background-lobby.png",
+    "qa/ui-375x667-background-repair.png",
+    "qa/ui-375x667-choice-5.png",
+    "qa/ui-375x667-end_huangqiuqiu-actions.png",
+    "qa/ui-375x667-end_huangqiuqiu.png",
+    "qa/ui-375x667-longest-dialogue.png",
+    "qa/ui-375x667-modal-settings.png",
+    "qa/ui-375x667-pressure-95.png",
+    "qa/ui-375x667-role-huangqiuqiu.png",
+    "qa/ui-375x667-role-maolang.png",
+    "qa/ui-375x667-role-mengyao.png",
+    "qa/ui-375x667-role-shijiang.png",
+    "qa/ui-375x667-role-wenwen.png",
+    "qa/ui-375x667-role-xiaoman.png",
+    "qa/ui-375x667-role-yelan.png",
+    "qa/ui-375x667-role-zhouzhi.png",
+    "qa/ui-375x667-title.png",
+    "qa/ui-390x844-choice-5.png",
+    "qa/ui-844x390-background-lobby.png",
+    "qa/ui-844x390-background-repair.png",
+    "qa/ui-844x390-choice-5.png",
+    "qa/ui-844x390-end_huangqiuqiu-actions.png",
+    "qa/ui-844x390-end_huangqiuqiu.png",
+    "qa/ui-844x390-role-huangqiuqiu.png",
+    "qa/ui-844x390-title.png",
+    "qa/ui-preservation.json",
+    "qa/ui-regression.cjs",
+    "qa/ui-report.md",
+    "qa/ui-results-background-refresh.json",
+    "qa/ui-results-first-pass.json",
+    "qa/ui-results-partial.json",
+    "qa/ui-results.json",
+    "qa/ui-scroll-lifecycle.cjs",
+    "qa/ui-scroll-lifecycle.json",
+    "qa/ui-title-hit-test-before-fix.json",
+    "任务拆分/交接/CG-E3.md",
+    "任务拆分/交接/CG-M1.md",
+    "任务拆分/交接/CG-M2.md",
+    "任务拆分/交接/CG-M3.md",
+    "任务拆分/交接/E4.md"
+  ],
+  "deleted_observed": [],
+  "inventory_self_hash_excluded": true,
+  "final_review": "独立只读审校确认无映射/验收口径冲突；历史报告指针已修正。"
+}

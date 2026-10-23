@@ -1,0 +1,322 @@
+[
+  {
+    "key": "wenwen",
+    "slug": "smile",
+    "type": "expression",
+    "label": "微笑",
+    "instruction": "a clear relaxed warm smile, lips slightly parted showing only a hint of upper teeth, cheeks subtly raised, eyes warm, natural adult friendliness; slightly more visible than the reference closed-mouth smile.",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual-novel character sprite, no text, no panels.\nEdit target and identity reference: input image of Wenwen, the SAME fictional 23-year-old adult Chinese man. Preserve his exact round face shape, short buzz cut, eye spacing, nose, ears, complexion, adult build, charcoal repair jacket, gray T-shirt, chest-pocket screwdriver, all clothing seams and fabric. Preserve the semi-realistic Japanese visual novel rendering, original body angle, head size, framing from full head to upper thighs, and warm soft lighting. Do not beautify into a different person or lengthen/narrow his face.\nOnly change the specified facial expression; keep his two hands in the pockets, body pose and clothes unchanged. Preserve close registration to the reference for sprite switching. Remove any backdrop or ambient fog outside the figure. Background must be truly transparent alpha, clean natural edges, no dark rectangle, no halo, no shadow ground, no labels/watermarks. Vertical 2:3 composition, target 1024x1536.\nSpecified expression: a clear relaxed warm smile, lips slightly parted showing only a hint of upper teeth, cheeks subtly raised, eyes warm, natural adult friendliness; slightly more visible than the reference closed-mouth smile.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-2bea4da8-33a2-44ee-990b-9ebf0f12ab3d.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.png",
+    "selected": true
+  },
+  {
+    "key": "wenwen",
+    "slug": "serious",
+    "type": "expression",
+    "label": "认真",
+    "instruction": "focused and serious while listening to a repair problem: relaxed but attentive slightly drawn brows, steady eye contact, closed neutral mouth with absolutely no smile, not angry.",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual-novel character sprite, no text, no panels.\nEdit target and identity reference: input image of Wenwen, the SAME fictional 23-year-old adult Chinese man. Preserve his exact round face shape, short buzz cut, eye spacing, nose, ears, complexion, adult build, charcoal repair jacket, gray T-shirt, chest-pocket screwdriver, all clothing seams and fabric. Preserve the semi-realistic Japanese visual novel rendering, original body angle, head size, framing from full head to upper thighs, and warm soft lighting. Do not beautify into a different person or lengthen/narrow his face.\nOnly change the specified facial expression; keep his two hands in the pockets, body pose and clothes unchanged. Preserve close registration to the reference for sprite switching. Remove any backdrop or ambient fog outside the figure. Background must be truly transparent alpha, clean natural edges, no dark rectangle, no halo, no shadow ground, no labels/watermarks. Vertical 2:3 composition, target 1024x1536.\nSpecified expression: focused and serious while listening to a repair problem: relaxed but attentive slightly drawn brows, steady eye contact, closed neutral mouth with absolutely no smile, not angry.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-93e0f921-b113-4449-b44a-2d0ddc05827f.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.png",
+    "selected": true
+  },
+  {
+    "key": "wenwen",
+    "slug": "hesitant",
+    "type": "expression",
+    "label": "犹豫",
+    "instruction": "uncertain and hesitant before speaking about his plans: subtly lifted inner eyebrows, small tension around lips pressed lightly together, gaze slightly away, mouth not smiling. Clearly different from serious, no extreme grimace.",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual-novel character sprite, no text, no panels.\nEdit target and identity reference: input image of Wenwen, the SAME fictional 23-year-old adult Chinese man. Preserve his exact round face shape, short buzz cut, eye spacing, nose, ears, complexion, adult build, charcoal repair jacket, gray T-shirt, chest-pocket screwdriver, all clothing seams and fabric. Preserve the semi-realistic Japanese visual novel rendering, original body angle, head size, framing from full head to upper thighs, and warm soft lighting. Do not beautify into a different person or lengthen/narrow his face.\nOnly change the specified facial expression; keep his two hands in the pockets, body pose and clothes unchanged. Preserve close registration to the reference for sprite switching. Remove any backdrop or ambient fog outside the figure. Background must be truly transparent alpha, clean natural edges, no dark rectangle, no halo, no shadow ground, no labels/watermarks. Vertical 2:3 composition, target 1024x1536.\nSpecified expression: uncertain and hesitant before speaking about his plans: subtly lifted inner eyebrows, small tension around lips pressed lightly together, gaze slightly away, mouth not smiling. Clearly different from serious, no extreme grimace.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-25789be0-acd0-430f-a7c0-8e149bb5c7f9.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.png",
+    "selected": true
+  },
+  {
+    "key": "wenwen",
+    "slug": "surprised",
+    "label": "惊讶",
+    "type": "expression",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual-novel character sprite, no text, no panels.\nEdit target and identity reference: input image of Wenwen, the SAME fictional 23-year-old adult Chinese man. Preserve his exact round face shape, short buzz cut, eye spacing, nose, ears, complexion, adult build, charcoal repair jacket, gray T-shirt, chest-pocket screwdriver, all clothing seams and fabric. Preserve the semi-realistic Japanese visual novel rendering, original body angle, head size, framing from full head to upper thighs, and warm soft lighting. Do not beautify into a different person or lengthen/narrow his face.\nOnly change the specified facial expression; keep his two hands in the pockets, body pose and clothes unchanged. Preserve close registration to the reference for sprite switching. Remove any backdrop or ambient fog outside the figure. Background must be truly transparent alpha, clean natural edges, no dark rectangle, no halo, no shadow ground, no labels/watermarks. Vertical 2:3 composition, target 1024x1536.\nSpecified expression: eyes open wider, eyebrows raised, lips distinctly parted in a small startled intake of breath, natural adult surprise, no smile.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-0855a2e4-4a98-424e-af06-959323eaa67a.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.png",
+    "selected": true
+  },
+  {
+    "key": "wenwen",
+    "slug": "displeased",
+    "label": "不悦",
+    "type": "expression",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual-novel character sprite, no text, no panels.\nEdit target and identity reference: input image of Wenwen, the SAME fictional 23-year-old adult Chinese man. Preserve his exact round face shape, short buzz cut, eye spacing, nose, ears, complexion, adult build, charcoal repair jacket, gray T-shirt, chest-pocket screwdriver, all clothing seams and fabric. Preserve the semi-realistic Japanese visual novel rendering, original body angle, head size, framing from full head to upper thighs, and warm soft lighting. Do not beautify into a different person or lengthen/narrow his face.\nOnly change the specified facial expression; keep his two hands in the pockets, body pose and clothes unchanged. Preserve close registration to the reference for sprite switching. Remove any backdrop or ambient fog outside the figure. Background must be truly transparent alpha, clean natural edges, no dark rectangle, no halo, no shadow ground, no labels/watermarks. Vertical 2:3 composition, target 1024x1536.\nSpecified expression: brows lowered slightly and drawn together, eyes firm, mouth pressed in a slight downward curve, restrained annoyance, no smile, not rage.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-e5bb1f19-76bb-413f-9b15-8c298dbfb444.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-displeased.png",
+    "selected": true
+  },
+  {
+    "key": "wenwen",
+    "slug": "downcast",
+    "label": "低落",
+    "type": "expression",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual-novel character sprite, no text, no panels.\nEdit target and identity reference: input image of Wenwen, the SAME fictional 23-year-old adult Chinese man. Preserve his exact round face shape, short buzz cut, eye spacing, nose, ears, complexion, adult build, charcoal repair jacket, gray T-shirt, chest-pocket screwdriver, all clothing seams and fabric. Preserve the semi-realistic Japanese visual novel rendering, original body angle, head size, framing from full head to upper thighs, and warm soft lighting. Do not beautify into a different person or lengthen/narrow his face.\nOnly change the specified facial expression; keep his two hands in the pockets, body pose and clothes unchanged. Preserve close registration to the reference for sprite switching. Remove any backdrop or ambient fog outside the figure. Background must be truly transparent alpha, clean natural edges, no dark rectangle, no halo, no shadow ground, no labels/watermarks. Vertical 2:3 composition, target 1024x1536.\nSpecified expression: inner brows gently raised, eyes lowered and sad, corners of mouth down, restrained sadness, no tears, no smile, keep head position close to reference.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-c5092027-b17a-4cb0-87a1-2d997e20d48a.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-downcast.png",
+    "selected": true
+  },
+  {
+    "key": "wenwen",
+    "slug": "embarrassed",
+    "label": "尴尬",
+    "type": "expression",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual-novel character sprite, no text, no panels.\nEdit target and identity reference: input image of Wenwen, the SAME fictional 23-year-old adult Chinese man. Preserve his exact round face shape, short buzz cut, eye spacing, nose, ears, complexion, adult build, charcoal repair jacket, gray T-shirt, chest-pocket screwdriver, all clothing seams and fabric. Preserve the semi-realistic Japanese visual novel rendering, original body angle, head size, framing from full head to upper thighs, and warm soft lighting. Do not beautify into a different person or lengthen/narrow his face.\nOnly change the specified facial expression; keep his two hands in the pockets, body pose and clothes unchanged. Preserve close registration to the reference for sprite switching. Remove any backdrop or ambient fog outside the figure. Background must be truly transparent alpha, clean natural edges, no dark rectangle, no halo, no shadow ground, no labels/watermarks. Vertical 2:3 composition, target 1024x1536.\nSpecified expression: embarrassed and awkward after his joke fails: gaze slightly to the side, uneven uncertain eyebrows, lips briefly pulled tight in an awkward half-smile, slight natural warmth to cheeks, no exaggerated blush.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-b45b4055-bb52-40a2-b4fd-7ddf81319541.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.png",
+    "selected": true
+  },
+  {
+    "key": "wenwen",
+    "slug": "relieved",
+    "label": "释然",
+    "type": "expression",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual-novel character sprite, no text, no panels.\nEdit target and identity reference: input image of Wenwen, the SAME fictional 23-year-old adult Chinese man. Preserve his exact round face shape, short buzz cut, eye spacing, nose, ears, complexion, adult build, charcoal repair jacket, gray T-shirt, chest-pocket screwdriver, all clothing seams and fabric. Preserve the semi-realistic Japanese visual novel rendering, original body angle, head size, framing from full head to upper thighs, and warm soft lighting. Do not beautify into a different person or lengthen/narrow his face.\nOnly change the specified facial expression; keep his two hands in the pockets, body pose and clothes unchanged. Preserve close registration to the reference for sprite switching. Remove any backdrop or ambient fog outside the figure. Background must be truly transparent alpha, clean natural edges, no dark rectangle, no halo, no shadow ground, no labels/watermarks. Vertical 2:3 composition, target 1024x1536.\nSpecified expression: a quiet visible sense of relief, tension gone from brows, eyelids softly relaxed, gentle small genuine smile after finally saying something difficult, no exaggerated joy.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-b09b6dfb-54fd-4620-a191-e2731f2073bf.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-relieved.png",
+    "selected": true
+  },
+  {
+    "key": "wenwen",
+    "slug": "guilty",
+    "label": "愧疚",
+    "type": "expression",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual-novel character sprite, no text, no panels.\nEdit target and identity reference: input image of Wenwen, the SAME fictional 23-year-old adult Chinese man. Preserve his exact round face shape, short buzz cut, eye spacing, nose, ears, complexion, adult build, charcoal repair jacket, gray T-shirt, chest-pocket screwdriver, all clothing seams and fabric. Preserve the semi-realistic Japanese visual novel rendering, original body angle, head size, framing from full head to upper thighs, and warm soft lighting. Do not beautify into a different person or lengthen/narrow his face.\nOnly change the specified facial expression; keep his two hands in the pockets, body pose and clothes unchanged. Preserve close registration to the reference for sprite switching. Remove any backdrop or ambient fog outside the figure. Background must be truly transparent alpha, clean natural edges, no dark rectangle, no halo, no shadow ground, no labels/watermarks. Vertical 2:3 composition, target 1024x1536.\nSpecified expression: remorseful after admitting he hid his plans: eyes down and inward, inner eyebrows raised, lips compressed with corners slightly down, serious regret, no smile and no tears.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-bba725bf-e722-4125-9bc2-9c46bb46df83.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.png",
+    "selected": true
+  },
+  {
+    "type": "expression",
+    "slug": "determined",
+    "label": "坚定",
+    "instruction": "calmly determined: direct unwavering eye contact, eyebrows level and resolved, chin slightly settled, closed firm mouth with no smile; not hostile.",
+    "key": "wenwen",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual-novel character sprite, no text, no panels.\nEdit target and identity reference: input image of Wenwen, the SAME fictional 23-year-old adult Chinese man. Preserve his exact round face shape, short buzz cut, eye spacing, nose, ears, complexion, adult build, charcoal repair jacket, gray T-shirt, chest-pocket screwdriver, all clothing seams and fabric. Preserve the semi-realistic Japanese visual novel rendering, original body angle, head size, framing from full head to upper thighs, and warm soft lighting. Do not beautify into a different person or lengthen/narrow his face.\nOnly change the specified facial expression; keep his two hands in the pockets, body pose and clothes unchanged. Preserve close registration to the reference for sprite switching. Remove any backdrop or ambient fog outside the figure. Background must be truly transparent alpha, clean natural edges, no dark rectangle, no halo, no shadow ground, no labels/watermarks. Vertical 2:3 composition, target 1024x1536.\nSpecified expression: calmly determined: direct unwavering eye contact, eyebrows level and resolved, chin slightly settled, closed firm mouth with no smile; not hostile.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-22ec2947-77fa-4d61-a50b-ceb6b8a7c942.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.png",
+    "selected": true
+  },
+  {
+    "type": "expression",
+    "slug": "tired",
+    "label": "疲惫",
+    "instruction": "visibly tired after work: slightly drooping eyelids, subtly slack brow and mouth, small natural dark circles, closed neutral lips with no smile, not sick or dramatically aged.",
+    "key": "wenwen",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual-novel character sprite, no text, no panels.\nEdit target and identity reference: input image of Wenwen, the SAME fictional 23-year-old adult Chinese man. Preserve his exact round face shape, short buzz cut, eye spacing, nose, ears, complexion, adult build, charcoal repair jacket, gray T-shirt, chest-pocket screwdriver, all clothing seams and fabric. Preserve the semi-realistic Japanese visual novel rendering, original body angle, head size, framing from full head to upper thighs, and warm soft lighting. Do not beautify into a different person or lengthen/narrow his face.\nOnly change the specified facial expression; keep his two hands in the pockets, body pose and clothes unchanged. Preserve close registration to the reference for sprite switching. Remove any backdrop or ambient fog outside the figure. Background must be truly transparent alpha, clean natural edges, no dark rectangle, no halo, no shadow ground, no labels/watermarks. Vertical 2:3 composition, target 1024x1536.\nSpecified expression: visibly tired after work: slightly drooping eyelids, subtly slack brow and mouth, small natural dark circles, closed neutral lips with no smile, not sick or dramatically aged.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-bc19e831-18ba-4390-ac30-210fea04fa75.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.png",
+    "selected": true
+  },
+  {
+    "type": "expression",
+    "slug": "wry",
+    "label": "苦笑",
+    "instruction": "a clear rueful wry smile: only one corner of mouth pulls up while the other stays flat, inner brows slightly worried and eyes rueful, a failed self-deprecating joke; not a relaxed happy smile.",
+    "key": "wenwen",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual-novel character sprite, no text, no panels.\nEdit target and identity reference: input image of Wenwen, the SAME fictional 23-year-old adult Chinese man. Preserve his exact round face shape, short buzz cut, eye spacing, nose, ears, complexion, adult build, charcoal repair jacket, gray T-shirt, chest-pocket screwdriver, all clothing seams and fabric. Preserve the semi-realistic Japanese visual novel rendering, original body angle, head size, framing from full head to upper thighs, and warm soft lighting. Do not beautify into a different person or lengthen/narrow his face.\nOnly change the specified facial expression; keep his two hands in the pockets, body pose and clothes unchanged. Preserve close registration to the reference for sprite switching. Remove any backdrop or ambient fog outside the figure. Background must be truly transparent alpha, clean natural edges, no dark rectangle, no halo, no shadow ground, no labels/watermarks. Vertical 2:3 composition, target 1024x1536.\nSpecified expression: a clear rueful wry smile: only one corner of mouth pulls up while the other stays flat, inner brows slightly worried and eyes rueful, a failed self-deprecating joke; not a relaxed happy smile.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-b39daae4-518a-421a-a651-02812b25c4fa.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.png",
+    "selected": true
+  },
+  {
+    "type": "action",
+    "slug": "wave",
+    "label": "招手",
+    "instruction": "friendly greeting with one hand raised beside the shoulder, palm open toward viewer, five clear natural fingers; the other hand remains in trousers pocket. Gentle smile, no forced exuberance.",
+    "key": "wenwen",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual novel character sprite, no text or panels.\nInput image is the edit target and identity reference: SAME fictional adult 23-year-old Chinese man Wenwen. Preserve his exact round face, short buzz cut, eyebrow/eye spacing, nose, ears, skin complexion and adult stocky body proportions. Same charcoal gray repair jacket and gray crew-neck T-shirt, dark trousers, chest-pocket repair tools. Same semi-realistic Japanese visual-novel rendering and soft warm lighting. Do not change his identity, face shape, haircut, age, or costume. Change only the pose needed for the requested action. Preserve the full-head to upper-thigh framing, similar scale, and vertical 2:3 canvas target 1024x1536. Keep both shoulders and hands in frame, natural anatomy and exactly five fingers on visible open hands. No added text/watermarks, no background or ambient glow/fog. Outside the figure must be true transparent alpha. Do not add any unrelated objects. Requested action: friendly greeting with one hand raised beside the shoulder, palm open toward viewer, five clear natural fingers; the other hand remains in trousers pocket. Gentle smile, no forced exuberance.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-ce49aab2-777c-409e-8a49-a4129417dcb4.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-wave.png",
+    "selected": true
+  },
+  {
+    "type": "action",
+    "slug": "thinking",
+    "label": "思考",
+    "instruction": "thinking quietly: bring one hand to the chin, index finger resting naturally along chin and thumb beneath; other hand in pocket. Gaze angled slightly downward, lips neutral, attentive brows. Preserve exact face identity.",
+    "key": "wenwen",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual novel character sprite, no text or panels.\nInput image is the edit target and identity reference: SAME fictional adult 23-year-old Chinese man Wenwen. Preserve his exact round face, short buzz cut, eyebrow/eye spacing, nose, ears, skin complexion and adult stocky body proportions. Same charcoal gray repair jacket and gray crew-neck T-shirt, dark trousers, chest-pocket repair tools. Same semi-realistic Japanese visual-novel rendering and soft warm lighting. Do not change his identity, face shape, haircut, age, or costume. Change only the pose needed for the requested action. Preserve the full-head to upper-thigh framing, similar scale, and vertical 2:3 canvas target 1024x1536. Keep both shoulders and hands in frame, natural anatomy and exactly five fingers on visible open hands. No added text/watermarks, no background or ambient glow/fog. Outside the figure must be true transparent alpha. Do not add any unrelated objects. Requested action: thinking quietly: bring one hand to the chin, index finger resting naturally along chin and thumb beneath; other hand in pocket. Gaze angled slightly downward, lips neutral, attentive brows. Preserve exact face identity.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-94659f19-60bb-4847-8720-db97aeb806dd.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-thinking.png",
+    "selected": true
+  },
+  {
+    "type": "action",
+    "slug": "explaining",
+    "label": "解释",
+    "instruction": "explaining a practical issue: one hand extended near waist/chest with palm facing up in an open explanatory gesture, other hand remains in pocket. Mouth slightly parted as talking, calm focused expression. Preserve five natural fingers.",
+    "key": "wenwen",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual novel character sprite, no text or panels.\nInput image is the edit target and identity reference: SAME fictional adult 23-year-old Chinese man Wenwen. Preserve his exact round face, short buzz cut, eyebrow/eye spacing, nose, ears, skin complexion and adult stocky body proportions. Same charcoal gray repair jacket and gray crew-neck T-shirt, dark trousers, chest-pocket repair tools. Same semi-realistic Japanese visual-novel rendering and soft warm lighting. Do not change his identity, face shape, haircut, age, or costume. Change only the pose needed for the requested action. Preserve the full-head to upper-thigh framing, similar scale, and vertical 2:3 canvas target 1024x1536. Keep both shoulders and hands in frame, natural anatomy and exactly five fingers on visible open hands. No added text/watermarks, no background or ambient glow/fog. Outside the figure must be true transparent alpha. Do not add any unrelated objects. Requested action: explaining a practical issue: one hand extended near waist/chest with palm facing up in an open explanatory gesture, other hand remains in pocket. Mouth slightly parted as talking, calm focused expression. Preserve five natural fingers.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-92a3d8de-b5b1-44b1-9d76-092f6a3cedf0.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-explaining.png",
+    "selected": false,
+    "rejectionReason": "右手呈六指观感，已定向修复"
+  },
+  {
+    "type": "action",
+    "slug": "repairing",
+    "label": "低头检修",
+    "instruction": "looking down to inspect a small handheld audio connector or compact audio electronics part held naturally in one hand at waist level, using the red-handled screwdriver from his chest pocket carefully with the other hand. Remove that same screwdriver from pocket since it is in his hand. Both hands and object visible, head slightly lowered but face recognizably Wenwen, no workbench/background, calm professional focus. Small ordinary practical tool action, no sparks or effects.",
+    "key": "wenwen",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual novel character sprite, no text or panels.\nInput image is the edit target and identity reference: SAME fictional adult 23-year-old Chinese man Wenwen. Preserve his exact round face, short buzz cut, eyebrow/eye spacing, nose, ears, skin complexion and adult stocky body proportions. Same charcoal gray repair jacket and gray crew-neck T-shirt, dark trousers, chest-pocket repair tools. Same semi-realistic Japanese visual-novel rendering and soft warm lighting. Do not change his identity, face shape, haircut, age, or costume. Change only the pose needed for the requested action. Preserve the full-head to upper-thigh framing, similar scale, and vertical 2:3 canvas target 1024x1536. Keep both shoulders and hands in frame, natural anatomy and exactly five fingers on visible open hands. No added text/watermarks, no background or ambient glow/fog. Outside the figure must be true transparent alpha. Do not add any unrelated objects. Requested action: looking down to inspect a small handheld audio connector or compact audio electronics part held naturally in one hand at waist level, using the red-handled screwdriver from his chest pocket carefully with the other hand. Remove that same screwdriver from pocket since it is in his hand. Both hands and object visible, head slightly lowered but face recognizably Wenwen, no workbench/background, calm professional focus. Small ordinary practical tool action, no sparks or effects.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-c8376e11-6e95-495f-8085-0b88659dfea4.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-repairing.png",
+    "selected": true
+  },
+  {
+    "type": "action",
+    "slug": "phone",
+    "label": "查看手机",
+    "instruction": "checking his ordinary smartphone held in one hand at chest/waist height; gaze lowered to the phone with a contemplative neutral expression. Other hand remains in pocket. Phone screen faces him and is not readable to viewer, no UI text, same outfit and unchanged pocket screwdriver.",
+    "key": "wenwen",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual novel character sprite, no text or panels.\nInput image is the edit target and identity reference: SAME fictional adult 23-year-old Chinese man Wenwen. Preserve his exact round face, short buzz cut, eyebrow/eye spacing, nose, ears, skin complexion and adult stocky body proportions. Same charcoal gray repair jacket and gray crew-neck T-shirt, dark trousers, chest-pocket repair tools. Same semi-realistic Japanese visual-novel rendering and soft warm lighting. Do not change his identity, face shape, haircut, age, or costume. Change only the pose needed for the requested action. Preserve the full-head to upper-thigh framing, similar scale, and vertical 2:3 canvas target 1024x1536. Keep both shoulders and hands in frame, natural anatomy and exactly five fingers on visible open hands. No added text/watermarks, no background or ambient glow/fog. Outside the figure must be true transparent alpha. Do not add any unrelated objects. Requested action: checking his ordinary smartphone held in one hand at chest/waist height; gaze lowered to the phone with a contemplative neutral expression. Other hand remains in pocket. Phone screen faces him and is not readable to viewer, no UI text, same outfit and unchanged pocket screwdriver.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-6325104b-2995-4532-9c96-81c9268b6fca.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-phone.png",
+    "selected": true
+  },
+  {
+    "type": "action",
+    "slug": "listening",
+    "label": "抱臂倾听",
+    "instruction": "both arms folded comfortably across his chest while quietly listening, hands naturally resting by opposite upper arms, not defensive or aggressive. Gentle attentive neutral mouth, head slightly inclined, eyes toward unseen conversation partner near viewer. Keep jacket and tool pocket recognizable.",
+    "key": "wenwen",
+    "args": {
+      "prompt": "Use case: identity-preserve.\nAsset type: one transparent visual novel character sprite, no text or panels.\nInput image is the edit target and identity reference: SAME fictional adult 23-year-old Chinese man Wenwen. Preserve his exact round face, short buzz cut, eyebrow/eye spacing, nose, ears, skin complexion and adult stocky body proportions. Same charcoal gray repair jacket and gray crew-neck T-shirt, dark trousers, chest-pocket repair tools. Same semi-realistic Japanese visual-novel rendering and soft warm lighting. Do not change his identity, face shape, haircut, age, or costume. Change only the pose needed for the requested action. Preserve the full-head to upper-thigh framing, similar scale, and vertical 2:3 canvas target 1024x1536. Keep both shoulders and hands in frame, natural anatomy and exactly five fingers on visible open hands. No added text/watermarks, no background or ambient glow/fog. Outside the figure must be true transparent alpha. Do not add any unrelated objects. Requested action: both arms folded comfortably across his chest while quietly listening, hands naturally resting by opposite upper arms, not defensive or aggressive. Gentle attentive neutral mouth, head slightly inclined, eyes toward unseen conversation partner near viewer. Keep jacket and tool pocket recognizable.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-622f758c-6786-4599-be98-a0a78af0902d.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-listening.png",
+    "selected": true
+  },
+  {
+    "type": "action",
+    "slug": "explaining",
+    "label": "解释",
+    "instruction": "explaining a practical issue: one hand extended near waist/chest with palm facing up in an open explanatory gesture, other hand remains in pocket. Mouth slightly parted as talking, calm focused expression. Preserve five natural fingers.",
+    "key": "wenwen",
+    "args": {
+      "prompt": "Use case: precise-object-edit / identity-preserve. Edit the attached Wenwen sprite. ONLY correct the open palm gesture on the left side of the image (the character's right hand): the current hand appears to have six digits. Redraw this ONE hand with exactly five anatomical digits total: ONE thumb and FOUR fingers, with a natural open upward-facing explanatory palm and simple clear finger separation. The palm must have one thumb at the upper side and only four fingers, not four curled fingertips plus another extended extra finger. Make the four fingers gently extended together, slightly curved rather than tightly curled, to avoid duplicate fingertips. Preserve the existing wrist, sleeve, forearm placement and gesture scale. Preserve EVERYTHING else: the same adult fictional 23-year-old Chinese Wenwen, exact round face, expression, buzz cut, clothes, chest-pocket tools, lighting, framing, other hand in pocket and image dimensions. Keep true transparent alpha background and natural clean edges. No text, no new objects, no extra hands, no change to face or clothes. One character and one frame.",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-explaining.png"
+      ],
+      "transparent_background": true
+    },
+    "sourceOutput": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-5a6e66d5-bdb8-42dd-a5a4-1b77f92542f5.png",
+    "output": "/Users/yipin/Desktop/cjb/assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-explaining.png",
+    "revision": 2,
+    "previousSource": "/Users/yipin/.codex/generated_images/01a15376-73c8-7d03-88af-a4a191496159/exec-92a3d8de-b5b1-44b1-9d76-092f6a3cedf0.png",
+    "selected": true
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "key": "repair",
+  "input": "assets/background-variants/m2-daynight-20261020/bg-repair-night.png",
+  "supporting_reference": "assets/background-variants/m2-daynight-20261020/bg-repair-original.png",
+  "output": "/Users/yipin/.codex/generated_images/01a156ec-39d7-7a53-ab0b-c277ece36c82/exec-ede895af-18c0-439f-ad40-9428f4a736cd.png",
+  "candidate": "assets/background-variants/m2-daynight-20261020/bg-repair-night-v2.png",
+  "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: the night version of the repair shop. Image 2 is supporting reference ONLY for the original dry indoor tile texture and geometry; NEVER restore its daylight. In Image 1 correct ONLY the indoor FLOOR, inside and in front of the entrance threshold, especially x900–1530 y530–940 in the 1672×941 frame. It currently looks wet or flooded with rain-speckled water, ripples and long exterior streetlamp streaks. Make ALL floor tiles inside the shop cleanly DRY, worn matte gray ceramic tile with solid existing grout lines, gentle subdued indoor light sheen only, no puddles, water film, raindrop speckles, ripples or wet-road reflections anywhere indoors. Match the dry tile material visible in Image 2 but with the NIGHT lighting of Image 1. The floor may softly reflect the existing warm task lamp and display lights, but no strong road-light streaks. The outdoor street beyond the threshold remains wet, rainy and dark NIGHT exactly as in Image 1. Keep EVERYTHING else in Image 1 unchanged: workbench lamp, workbench and tools, stool, cabinets, phone displays, shelf inventory, plants, walls, mountain outside, buildings, lights, door/window geometry, camera, framing and painted style. No people, no added objects, no text or watermarks. Keep 1672×941 wide composition, completely opaque. Do not apply a dark overlay or recolor the entire scene.",
+  "reason": "恢复室内干燥地砖；第一版室外湿路纹理和长反射错误延伸进店内。"
+}

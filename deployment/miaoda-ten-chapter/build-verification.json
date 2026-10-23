@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-23T06:47:50.952Z",
+  "pass": true,
+  "contentRevision": "nightshift-20261022-r1",
+  "canonicalRuntimeUnchanged": true,
+  "exactRuntimeScriptCopies": 5,
+  "scriptSyntaxPass": 6,
+  "mappedResources": 138,
+  "scriptOrder": [
+    "/app/app_17gm4z6t27j/story.js",
+    "/app/app_17gm4z6t27j/asset-map.js",
+    "/app/app_17gm4z6t27j/engine.js",
+    "/app/app_17gm4z6t27j/save-compat.js",
+    "/app/app_17gm4z6t27j/player-runtime.js",
+    "/app/app_17gm4z6t27j/game.js"
+  ],
+  "buildPassed": true,
+  "typecheckPassed": true,
+  "eslintPassed": true
+}

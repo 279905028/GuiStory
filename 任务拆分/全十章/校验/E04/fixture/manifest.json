@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "mode": "sample",
+  "modules": [
+    "common/ch01.json",
+    "common/ch02.json",
+    "common/ch03.json",
+    "routes/mengyao.json",
+    "routes/yelan.json",
+    "routes/piao.json",
+    "routes/friends.json",
+    "routes/huangqiuqiu.json",
+    "../../../routes/xiaoman.json",
+    "../../../routes/zhouzhi.json",
+    "common/ch04.json",
+    "common/ch05.json",
+    "common/ch06.json",
+    "common/ch07.json",
+    "common/ch08.json",
+    "common/ch09.json",
+    "common/ch10.json"
+  ],
+  "bindings": [
+    "bindings.json"
+  ],
+  "sample": {
+    "start": "tc_c01_common_entry",
+    "stops": [
+      "tc_c03_mengyao_entry",
+      "tc_c03_yelan_entry",
+      "tc_c03_piao_entry",
+      "tc_c03_friends_entry",
+      "tc_c03_huangqiuqiu_entry"
+    ]
+  }
+}

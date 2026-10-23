@@ -1,0 +1,1009 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-22T08:16:52.969Z",
+  "evidenceLayer": "isolated-graph-mechanism-tests",
+  "evidenceBoundary": "合成的隔离图与状态样本；未经过完整模块/来源编译，不代表十章正式文本覆盖、引擎执行、存读档、播放器、浏览器或发布验收。candidate 仅是图验证模式，不代表完整候选故事。",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "sourceHashes": {
+    "contract": "4086571ab65e54271ec70e5a0a0712e00d0b2a1f6dae739b1df05a328ada1876",
+    "graph": "9217ff94f9825c575614b138adf6b27c1d3e1237e73a4874964030ebee7637b5",
+    "test": "22555e142e2ec4f81c54e26fbacff203a41726c2eeef39f17b53cd42d06fc7dc"
+  },
+  "command": "node 任务拆分/全十章/build/graph-test.cjs",
+  "total": 38,
+  "passed": 38,
+  "failed": 0,
+  "results": [
+    {
+      "id": "hidden-positive",
+      "description": "四种记录／回应组合；只有记录＋回应相识并显示隐藏选项",
+      "passed": true,
+      "evidence": {
+        "statistics": {
+          "nodes": 10,
+          "edges": 14,
+          "choices": 3,
+          "options": 6,
+          "countsByType": {
+            "line": 5,
+            "choice": 3,
+            "gate": 2
+          },
+          "exploredNodeStates": 25,
+          "distinctFlagStates": 13,
+          "mergedNodeStates": 0,
+          "transitions": 24,
+          "maximumFrontier": 3,
+          "terminalStates": 0,
+          "stoppedStates": 5
+        },
+        "events": {
+          "tc_c02_common_qiu_met": {
+            "nodeId": "tc_c02_common_qiu_met",
+            "flagsBefore": {
+              "qiuMet": false,
+              "qiuForm": "sphere",
+              "qiuSignal": "record",
+              "qiuReply": "reply"
+            },
+            "flagsAfter": {
+              "qiuMet": true,
+              "qiuForm": "sphere",
+              "qiuSignal": "record",
+              "qiuReply": "reply"
+            },
+            "choices": [
+              {
+                "nodeId": "tc_c01_common_rhythm_record_choice",
+                "index": 0,
+                "flag": "qiuSignal",
+                "value": "record",
+                "label": "record"
+              },
+              {
+                "nodeId": "tc_c02_common_rhythm_reply_choice",
+                "index": 0,
+                "flag": "qiuReply",
+                "value": "reply",
+                "label": "reply"
+              }
+            ]
+          }
+        },
+        "qualification": {
+          "ignore/leave": {
+            "nodeId": "tc_c03_common_route_choice",
+            "flagsBefore": {
+              "qiuMet": false,
+              "qiuForm": "sphere",
+              "qiuSignal": "ignore",
+              "qiuReply": "leave"
+            },
+            "flagsAfter": {
+              "qiuMet": false,
+              "qiuForm": "sphere",
+              "qiuSignal": "ignore",
+              "qiuReply": "leave"
+            },
+            "choices": [
+              {
+                "nodeId": "tc_c01_common_rhythm_record_choice",
+                "index": 1,
+                "flag": "qiuSignal",
+                "value": "ignore",
+                "label": "ignore"
+              },
+              {
+                "nodeId": "tc_c02_common_rhythm_reply_choice",
+                "index": 1,
+                "flag": "qiuReply",
+                "value": "leave",
+                "label": "leave"
+              }
+            ]
+          },
+          "ignore/reply": {
+            "nodeId": "tc_c03_common_route_choice",
+            "flagsBefore": {
+              "qiuMet": false,
+              "qiuForm": "sphere",
+              "qiuSignal": "ignore",
+              "qiuReply": "reply"
+            },
+            "flagsAfter": {
+              "qiuMet": false,
+              "qiuForm": "sphere",
+              "qiuSignal": "ignore",
+              "qiuReply": "reply"
+            },
+            "choices": [
+              {
+                "nodeId": "tc_c01_common_rhythm_record_choice",
+                "index": 1,
+                "flag": "qiuSignal",
+                "value": "ignore",
+                "label": "ignore"
+              },
+              {
+                "nodeId": "tc_c02_common_rhythm_reply_choice",
+                "index": 0,
+                "flag": "qiuReply",
+                "value": "reply",
+                "label": "reply"
+              }
+            ]
+          },
+          "record/leave": {
+            "nodeId": "tc_c03_common_route_choice",
+            "flagsBefore": {
+              "qiuMet": false,
+              "qiuForm": "sphere",
+              "qiuSignal": "record",
+              "qiuReply": "leave"
+            },
+            "flagsAfter": {
+              "qiuMet": false,
+              "qiuForm": "sphere",
+              "qiuSignal": "record",
+              "qiuReply": "leave"
+            },
+            "choices": [
+              {
+                "nodeId": "tc_c01_common_rhythm_record_choice",
+                "index": 0,
+                "flag": "qiuSignal",
+                "value": "record",
+                "label": "record"
+              },
+              {
+                "nodeId": "tc_c02_common_rhythm_reply_choice",
+                "index": 1,
+                "flag": "qiuReply",
+                "value": "leave",
+                "label": "leave"
+              }
+            ]
+          },
+          "record/reply": {
+            "nodeId": "tc_c03_common_route_choice",
+            "flagsBefore": {
+              "qiuMet": true,
+              "qiuForm": "sphere",
+              "qiuSignal": "record",
+              "qiuReply": "reply"
+            },
+            "flagsAfter": {
+              "qiuMet": true,
+              "qiuForm": "sphere",
+              "qiuSignal": "record",
+              "qiuReply": "reply"
+            },
+            "choices": [
+              {
+                "nodeId": "tc_c01_common_rhythm_record_choice",
+                "index": 0,
+                "flag": "qiuSignal",
+                "value": "record",
+                "label": "record"
+              },
+              {
+                "nodeId": "tc_c02_common_rhythm_reply_choice",
+                "index": 0,
+                "flag": "qiuReply",
+                "value": "reply",
+                "label": "reply"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "candidate-stops",
+      "description": "候选构建不得使用样例截点",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] candidate 不允许样例截点"
+      }
+    },
+    {
+      "id": "unknown-stop",
+      "description": "截点必须存在",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] 样例截点 tc_c04_common_missing 必须为已存在且 next:null 的 line"
+      }
+    },
+    {
+      "id": "duplicate-stops",
+      "description": "截点不得重复",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] stops 不得重复"
+      }
+    },
+    {
+      "id": "choice-stop",
+      "description": "选项节点不能作为样例截点",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] 样例截点 tc_c03_common_route_choice 必须为已存在且 next:null 的 line"
+      }
+    },
+    {
+      "id": "nonterminal-line-stop",
+      "description": "有后继的正文行不能作为截点",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] 样例截点 tc_c01_common_entry 必须为已存在且 next:null 的 line"
+      }
+    },
+    {
+      "id": "unregistered-stop",
+      "description": "未登记的 null 正文后继必须拒绝",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] line tc_c04_common_entry 无后继，且未登记为样例截点"
+      }
+    },
+    {
+      "id": "missing-line-reference",
+      "description": "正文后继不得悬空",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] tc_c03_xiaoman_entry.next 引用了不存在的节点 missing"
+      }
+    },
+    {
+      "id": "missing-option-reference",
+      "description": "选项后继不得悬空",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] tc_c03_common_route_choice.choices[0].next 引用了不存在的节点 missing"
+      }
+    },
+    {
+      "id": "missing-case-reference",
+      "description": "门禁 case 后继不得悬空",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] tc_c02_common_signal_gate.cases[0].next 引用了不存在的节点 missing"
+      }
+    },
+    {
+      "id": "missing-default-reference",
+      "description": "门禁 default 后继不得悬空",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] tc_c02_common_signal_gate.default 引用了不存在的节点 missing"
+      }
+    },
+    {
+      "id": "unreachable-static-cycle",
+      "description": "即使从入口不可达，独立环也必须拒绝",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] 静态图存在环：tc_c01_common_unreachable_loop -> tc_c01_common_unreachable_loop",
+        "details": {
+          "cycle": [
+            "tc_c01_common_unreachable_loop",
+            "tc_c01_common_unreachable_loop"
+          ]
+        }
+      }
+    },
+    {
+      "id": "reachable-static-cycle",
+      "description": "正常路径中的环必须拒绝",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] 静态图存在环：tc_c03_common_route_choice -> tc_c03_xiaoman_entry -> tc_c03_common_route_choice",
+        "details": {
+          "cycle": [
+            "tc_c03_common_route_choice",
+            "tc_c03_xiaoman_entry",
+            "tc_c03_common_route_choice"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unreachable-node",
+      "description": "没有环的孤立正文节点也必须拒绝",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] 存在不可达节点或选项：节点 1，选项 0",
+        "details": {
+          "unreachableNodes": [
+            "tc_c01_common_unreachable_line"
+          ],
+          "unreachableOptions": []
+        }
+      }
+    },
+    {
+      "id": "unreachable-option",
+      "description": "目标节点可达仍不能掩盖永不开放的选项",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] 存在不可达节点或选项：节点 0，选项 1",
+        "details": {
+          "unreachableNodes": [],
+          "unreachableOptions": [
+            "tc_c03_common_route_choice:2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "first-match-case",
+      "description": "门禁只执行第一个匹配 case",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] 存在不可达节点或选项：节点 1，选项 0",
+        "details": {
+          "unreachableNodes": [
+            "tc_c02_common_shadowed_case"
+          ],
+          "unreachableOptions": []
+        }
+      }
+    },
+    {
+      "id": "hidden-option-unguarded",
+      "description": "缺少隐藏资格不能进入球球路线",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] tc_c03_huangqiuqiu_entry 未满足黄球球路线资格",
+        "details": {
+          "nodeId": "tc_c03_huangqiuqiu_entry",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "qiuReply": "leave",
+            "route": "huangqiuqiu"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "qiuReply": "leave",
+            "route": "huangqiuqiu"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 1,
+              "flag": "qiuSignal",
+              "value": "ignore",
+              "label": "ignore"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 1,
+              "flag": "qiuReply",
+              "value": "leave",
+              "label": "leave"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "index": 1,
+              "flag": "route",
+              "value": "huangqiuqiu",
+              "label": "隔离球球分支"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "event-requires",
+      "description": "到达不满足条件的事件必须报错，不可跳过",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] tc_c02_common_qiu_met 的 onEnter.requires 不成立，不能跳过事件或先赋值",
+        "details": {
+          "nodeId": "tc_c02_common_qiu_met",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "qiuReply": "leave"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "qiuReply": "leave"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 1,
+              "flag": "qiuSignal",
+              "value": "ignore",
+              "label": "ignore"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 1,
+              "flag": "qiuReply",
+              "value": "leave",
+              "label": "leave"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "event-requires-before-write",
+      "description": "自动事件必须先检查条件再执行赋值",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] tc_c02_common_qiu_met 的 onEnter.requires 不成立，不能跳过事件或先赋值",
+        "details": {
+          "nodeId": "tc_c02_common_qiu_met",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "qiuReply": "reply"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "qiuReply": "reply"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 0,
+              "flag": "qiuSignal",
+              "value": "record",
+              "label": "record"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 0,
+              "flag": "qiuReply",
+              "value": "reply",
+              "label": "reply"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "missing-meeting-effect",
+      "description": "已记录且已回应的路径必须实际完成相识",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] tc_c03_common_route_choice 的相识状态与记录、回应组合不一致",
+        "details": {
+          "nodeId": "tc_c03_common_route_choice",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "qiuReply": "reply"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "qiuReply": "reply"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 0,
+              "flag": "qiuSignal",
+              "value": "record",
+              "label": "record"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 0,
+              "flag": "qiuReply",
+              "value": "reply",
+              "label": "reply"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "route-mismatch",
+      "description": "非 common 节点必须与已选路线一致",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] 路线串线：tc_c03_huangqiuqiu_entry 要求 route=huangqiuqiu，实际为 xiaoman",
+        "details": {
+          "nodeId": "tc_c03_huangqiuqiu_entry",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "qiuReply": "leave",
+            "route": "xiaoman"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "qiuReply": "leave",
+            "route": "xiaoman"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 1,
+              "flag": "qiuSignal",
+              "value": "ignore",
+              "label": "ignore"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 1,
+              "flag": "qiuReply",
+              "value": "leave",
+              "label": "leave"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "index": 0,
+              "flag": "route",
+              "value": "xiaoman",
+              "label": "隔离小满分支"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "exhaustive-unmatched",
+      "description": "穷尽门禁遇到合法可达状态未命中时必须拒绝",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] 穷尽门禁 tc_c02_common_signal_gate 未命中任何 case",
+        "details": {
+          "nodeId": "tc_c02_common_signal_gate",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "qiuReply": "leave"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "qiuReply": "leave"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "index": 1,
+              "flag": "qiuSignal",
+              "value": "ignore",
+              "label": "ignore"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "index": 1,
+              "flag": "qiuReply",
+              "value": "leave",
+              "label": "leave"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nonexhaustive-null-default",
+      "description": "非穷尽门禁不得使用 null default",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] gate tc_c02_common_signal_gate 缺少 default，只有 exhaustive:true 可以使用 default:null"
+      }
+    },
+    {
+      "id": "no-available-options",
+      "description": "可达选择节点不能没有可选项",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] tc_c01_common_rhythm_record_choice 在可达状态中没有可用选项",
+        "details": {
+          "nodeId": "tc_c01_common_rhythm_record_choice",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere"
+          },
+          "choices": []
+        }
+      }
+    },
+    {
+      "id": "strict-condition-equality",
+      "description": "条件不能把字符串 true 当作布尔 true",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] 存在不可达节点或选项：节点 1，选项 1",
+        "details": {
+          "unreachableNodes": [
+            "tc_c03_huangqiuqiu_entry"
+          ],
+          "unreachableOptions": [
+            "tc_c03_common_route_choice:1"
+          ]
+        }
+      }
+    },
+    {
+      "id": "inherited-flags-ignored",
+      "description": "初始状态不能通过继承字段伪造隐藏资格",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] tc_c01_common_entry 的 qiuMet=true 缺少记录与回应资格",
+        "details": {
+          "nodeId": "tc_c01_common_entry",
+          "flagsBefore": {
+            "qiuMet": true,
+            "qiuForm": "sphere"
+          },
+          "flagsAfter": {
+            "qiuMet": true,
+            "qiuForm": "sphere"
+          },
+          "choices": []
+        }
+      }
+    },
+    {
+      "id": "node-state-merge",
+      "description": "同节点和相同 flags 合并，同时保留两条选项的可达覆盖",
+      "passed": true,
+      "evidence": {
+        "nodes": 2,
+        "edges": 2,
+        "choices": 1,
+        "options": 2,
+        "countsByType": {
+          "choice": 1,
+          "line": 1
+        },
+        "exploredNodeStates": 2,
+        "distinctFlagStates": 2,
+        "mergedNodeStates": 1,
+        "transitions": 2,
+        "maximumFrontier": 1,
+        "terminalStates": 0,
+        "stoppedStates": 1
+      }
+    },
+    {
+      "id": "human-and-ending-positive",
+      "description": "人形自动事件先 sphere 后 human，并进入朋友关系对应结局",
+      "passed": true,
+      "evidence": {
+        "statistics": {
+          "nodes": 4,
+          "edges": 3,
+          "choices": 0,
+          "options": 0,
+          "countsByType": {
+            "line": 3,
+            "end": 1
+          },
+          "exploredNodeStates": 4,
+          "distinctFlagStates": 2,
+          "mergedNodeStates": 0,
+          "transitions": 3,
+          "maximumFrontier": 1,
+          "terminalStates": 1,
+          "stoppedStates": 0
+        },
+        "events": {
+          "tc_c08_huangqiuqiu_human_reveal": {
+            "nodeId": "tc_c08_huangqiuqiu_human_reveal",
+            "flagsBefore": {
+              "qiuMet": true,
+              "qiuForm": "sphere",
+              "route": "huangqiuqiu",
+              "qiuSignal": "record",
+              "qiuReply": "reply",
+              "huangqiuqiuRelationship": "friends"
+            },
+            "flagsAfter": {
+              "qiuMet": true,
+              "qiuForm": "human",
+              "route": "huangqiuqiu",
+              "qiuSignal": "record",
+              "qiuReply": "reply",
+              "huangqiuqiuRelationship": "friends"
+            },
+            "choices": []
+          }
+        },
+        "endings": {
+          "tc_c10_huangqiuqiu_end_friends": {
+            "nodeId": "tc_c10_huangqiuqiu_end_friends",
+            "flagsBefore": {
+              "qiuMet": true,
+              "qiuForm": "human",
+              "route": "huangqiuqiu",
+              "qiuSignal": "record",
+              "qiuReply": "reply",
+              "huangqiuqiuRelationship": "friends"
+            },
+            "flagsAfter": {
+              "qiuMet": true,
+              "qiuForm": "human",
+              "route": "huangqiuqiu",
+              "qiuSignal": "record",
+              "qiuReply": "reply",
+              "huangqiuqiuRelationship": "friends"
+            },
+            "choices": []
+          }
+        }
+      }
+    },
+    {
+      "id": "bypass-human-reveal",
+      "description": "绕过显露人形事件不能进入其后的正文",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] tc_c08_huangqiuqiu_after_reveal 的形态应为 human，实际为 sphere",
+        "details": {
+          "nodeId": "tc_c08_huangqiuqiu_after_reveal",
+          "flagsBefore": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "route": "huangqiuqiu",
+            "qiuSignal": "record",
+            "qiuReply": "reply",
+            "huangqiuqiuRelationship": "friends"
+          },
+          "flagsAfter": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "route": "huangqiuqiu",
+            "qiuSignal": "record",
+            "qiuReply": "reply",
+            "huangqiuqiuRelationship": "friends"
+          },
+          "choices": []
+        }
+      }
+    },
+    {
+      "id": "premature-human",
+      "description": "显露之前不能提前显示人形",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] tc_c08_huangqiuqiu_entry 的形态应为 sphere，实际为 human",
+        "details": {
+          "nodeId": "tc_c08_huangqiuqiu_entry",
+          "flagsBefore": {
+            "qiuMet": true,
+            "qiuForm": "human",
+            "route": "huangqiuqiu",
+            "qiuSignal": "record",
+            "qiuReply": "reply",
+            "huangqiuqiuRelationship": "friends"
+          },
+          "flagsAfter": {
+            "qiuMet": true,
+            "qiuForm": "human",
+            "route": "huangqiuqiu",
+            "qiuSignal": "record",
+            "qiuReply": "reply",
+            "huangqiuqiuRelationship": "friends"
+          },
+          "choices": []
+        }
+      }
+    },
+    {
+      "id": "human-before-day55",
+      "description": "第55天之前的场景不能借助改跳转提前变成人形",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] tc_c08_huangqiuqiu_human_reveal 在第55天变身之前提前进入人形",
+        "details": {
+          "nodeId": "tc_c08_huangqiuqiu_human_reveal",
+          "flagsBefore": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "route": "huangqiuqiu",
+            "qiuSignal": "record",
+            "qiuReply": "reply",
+            "huangqiuqiuRelationship": "friends"
+          },
+          "flagsAfter": {
+            "qiuMet": true,
+            "qiuForm": "human",
+            "route": "huangqiuqiu",
+            "qiuSignal": "record",
+            "qiuReply": "reply",
+            "huangqiuqiuRelationship": "friends"
+          },
+          "choices": []
+        }
+      }
+    },
+    {
+      "id": "wrong-ending-relationship",
+      "description": "朋友结局不能接收 dating 状态",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] tc_c10_huangqiuqiu_end_friends 的结局条件不成立",
+        "details": {
+          "nodeId": "tc_c10_huangqiuqiu_end_friends",
+          "flagsBefore": {
+            "qiuMet": true,
+            "qiuForm": "human",
+            "route": "huangqiuqiu",
+            "qiuSignal": "record",
+            "qiuReply": "reply",
+            "huangqiuqiuRelationship": "dating"
+          },
+          "flagsAfter": {
+            "qiuMet": true,
+            "qiuForm": "human",
+            "route": "huangqiuqiu",
+            "qiuSignal": "record",
+            "qiuReply": "reply",
+            "huangqiuqiuRelationship": "dating"
+          },
+          "choices": []
+        }
+      }
+    },
+    {
+      "id": "unknown-ending",
+      "description": "未登记的终结节点必须拒绝",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] tc_c10_huangqiuqiu_end_friends 不是契约登记的终结节点",
+        "details": {
+          "nodeId": "tc_c10_huangqiuqiu_end_friends",
+          "flagsBefore": {
+            "qiuMet": true,
+            "qiuForm": "human",
+            "route": "huangqiuqiu",
+            "qiuSignal": "record",
+            "qiuReply": "reply",
+            "huangqiuqiuRelationship": "friends"
+          },
+          "flagsAfter": {
+            "qiuMet": true,
+            "qiuForm": "human",
+            "route": "huangqiuqiu",
+            "qiuSignal": "record",
+            "qiuReply": "reply",
+            "huangqiuqiuRelationship": "friends"
+          },
+          "choices": []
+        }
+      }
+    },
+    {
+      "id": "epilogue-dating-positive",
+      "description": "公共后日谈仅接受适用状态（正例）",
+      "passed": true,
+      "evidence": {
+        "nodes": 2,
+        "edges": 1,
+        "choices": 0,
+        "options": 0,
+        "countsByType": {
+          "line": 2
+        },
+        "exploredNodeStates": 2,
+        "distinctFlagStates": 1,
+        "mergedNodeStates": 0,
+        "transitions": 1,
+        "maximumFrontier": 1,
+        "terminalStates": 0,
+        "stoppedStates": 1
+      }
+    },
+    {
+      "id": "epilogue-dating-negative",
+      "description": "公共后日谈拒绝不适用状态（反例）",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] tc_c10_common_piao_dating 进入了不适用的公共后日谈",
+        "details": {
+          "nodeId": "tc_c10_common_piao_dating",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "friends"
+          },
+          "choices": []
+        }
+      }
+    },
+    {
+      "id": "epilogue-wedding-positive",
+      "description": "公共后日谈仅接受适用状态（正例）",
+      "passed": true,
+      "evidence": {
+        "nodes": 2,
+        "edges": 1,
+        "choices": 0,
+        "options": 0,
+        "countsByType": {
+          "line": 2
+        },
+        "exploredNodeStates": 2,
+        "distinctFlagStates": 1,
+        "mergedNodeStates": 0,
+        "transitions": 1,
+        "maximumFrontier": 1,
+        "terminalStates": 0,
+        "stoppedStates": 1
+      }
+    },
+    {
+      "id": "epilogue-wedding-negative",
+      "description": "公共后日谈拒绝不适用状态（反例）",
+      "passed": true,
+      "evidence": {
+        "rejectedWith": "[E02 graph] tc_c10_common_piao_wedding 进入了不适用的公共后日谈",
+        "details": {
+          "nodeId": "tc_c10_common_piao_wedding",
+          "flagsBefore": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating"
+          },
+          "flagsAfter": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "route": "piao",
+            "piaoRelationship": "dating"
+          },
+          "choices": []
+        }
+      }
+    },
+    {
+      "id": "long-chain-30000",
+      "description": "30,000节点长链：静态检查与状态遍历不依赖递归调用栈",
+      "passed": true,
+      "evidence": {
+        "nodes": 30000,
+        "edges": 29999,
+        "choices": 0,
+        "options": 0,
+        "countsByType": {
+          "line": 30000
+        },
+        "exploredNodeStates": 30000,
+        "distinctFlagStates": 1,
+        "mergedNodeStates": 0,
+        "transitions": 29999,
+        "maximumFrontier": 1,
+        "terminalStates": 0,
+        "stoppedStates": 1
+      }
+    }
+  ]
+}

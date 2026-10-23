@@ -1,0 +1,500 @@
+{
+  "character": "xiaoman",
+  "name": "罗小满",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "baseline": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+  "assets": [
+    {
+      "id": "tc-char-xiaoman-human-base",
+      "character": "xiaoman",
+      "kind": "character",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch01-common-04",
+        "a01-ch02-common-04",
+        "a01-ch03-xiaoman-01",
+        "a01-ch03-xiaoman-02",
+        "a01-ch03-xiaoman-03",
+        "a01-ch04-xiaoman-01",
+        "a01-ch04-xiaoman-02",
+        "a01-ch04-xiaoman-03",
+        "a01-ch04-xiaoman-04",
+        "a01-ch05-common-01",
+        "a01-ch05-xiaoman-01",
+        "a01-ch05-xiaoman-02",
+        "a01-ch06-xiaoman-01",
+        "a01-ch07-xiaoman-01",
+        "a01-ch07-xiaoman-02",
+        "a01-ch07-xiaoman-03",
+        "a01-ch07-xiaoman-04",
+        "a01-ch08-xiaoman-01",
+        "a01-ch08-xiaoman-02",
+        "a01-ch09-xiaoman-01",
+        "a01-ch09-xiaoman-02",
+        "a01-ch09-xiaoman-03",
+        "a01-ch10-xiaoman-01",
+        "a01-ch10-xiaoman-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+        "sha256": "1be5cc691cd5948cebc281714b4b94ab2f9ba5b44794f6039e488c67fe5c491c",
+        "bytes": 1186548
+      },
+      "delivery": {
+        "path": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+        "sha256": "1be5cc691cd5948cebc281714b4b94ab2f9ba5b44794f6039e488c67fe5c491c",
+        "bytes": 1186548,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 570788,
+          "partial": 49171,
+          "nearOpaque": 952905,
+          "visibleBBox": {
+            "left": 45,
+            "top": 6,
+            "right": 981,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.36289723714192706
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-xiaoman-human-expression-smile",
+      "character": "xiaoman",
+      "kind": "character",
+      "expression": "expression-smile",
+      "cueIds": [
+        "a01-ch01-common-04",
+        "a01-ch02-common-04",
+        "a01-ch03-xiaoman-01",
+        "a01-ch03-xiaoman-02",
+        "a01-ch03-xiaoman-03",
+        "a01-ch04-xiaoman-01",
+        "a01-ch04-xiaoman-02",
+        "a01-ch04-xiaoman-03",
+        "a01-ch04-xiaoman-04",
+        "a01-ch05-xiaoman-02",
+        "a01-ch06-xiaoman-01",
+        "a01-ch07-xiaoman-01",
+        "a01-ch07-xiaoman-02",
+        "a01-ch07-xiaoman-03",
+        "a01-ch07-xiaoman-04",
+        "a01-ch08-xiaoman-01",
+        "a01-ch08-xiaoman-02",
+        "a01-ch09-xiaoman-01",
+        "a01-ch09-xiaoman-02",
+        "a01-ch09-xiaoman-03",
+        "a01-ch10-xiaoman-01",
+        "a01-ch10-xiaoman-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+        "sha256": "f7a76782c6cd6a8a3739d68d2e664afe0da3be2810241e8802c6e1bec7dae990",
+        "bytes": 1186586
+      },
+      "delivery": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+        "sha256": "f7a76782c6cd6a8a3739d68d2e664afe0da3be2810241e8802c6e1bec7dae990",
+        "bytes": 1186586,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 569105,
+          "partial": 42237,
+          "nearOpaque": 961522,
+          "visibleBBox": {
+            "left": 43,
+            "top": 7,
+            "right": 984,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.36182721455891925
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-xiaoman-human-expression-hesitant",
+      "character": "xiaoman",
+      "kind": "character",
+      "expression": "expression-hesitant",
+      "cueIds": [
+        "a01-ch01-common-04",
+        "a01-ch03-xiaoman-01",
+        "a01-ch03-xiaoman-03",
+        "a01-ch06-xiaoman-01",
+        "a01-ch07-xiaoman-01",
+        "a01-ch07-xiaoman-02",
+        "a01-ch07-xiaoman-03",
+        "a01-ch07-xiaoman-04",
+        "a01-ch08-xiaoman-02",
+        "a01-ch09-xiaoman-01",
+        "a01-ch09-xiaoman-02",
+        "a01-ch09-xiaoman-03",
+        "a01-ch10-xiaoman-01",
+        "a01-ch10-xiaoman-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.webp",
+        "sha256": "20300c95bf649054fb93e4fad1d1ccc7aa0fc34172bd0b88eef10a72bd1a9531",
+        "bytes": 1159176
+      },
+      "delivery": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.webp",
+        "sha256": "20300c95bf649054fb93e4fad1d1ccc7aa0fc34172bd0b88eef10a72bd1a9531",
+        "bytes": 1159176,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 572866,
+          "partial": 48536,
+          "nearOpaque": 951462,
+          "visibleBBox": {
+            "left": 45,
+            "top": 7,
+            "right": 981,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.36421839396158856
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-xiaoman-human-expression-serious",
+      "character": "xiaoman",
+      "kind": "character",
+      "expression": "expression-serious",
+      "cueIds": [
+        "a01-ch03-xiaoman-02",
+        "a01-ch04-xiaoman-02",
+        "a01-ch05-xiaoman-01",
+        "a01-ch05-xiaoman-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.webp",
+        "sha256": "8fdaf41013fe8f7dc313a7cea6699cb37a54ed88e9dd8c6c41af92cbe03334dc",
+        "bytes": 1174552
+      },
+      "delivery": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.webp",
+        "sha256": "8fdaf41013fe8f7dc313a7cea6699cb37a54ed88e9dd8c6c41af92cbe03334dc",
+        "bytes": 1174552,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 572084,
+          "partial": 46525,
+          "nearOpaque": 954255,
+          "visibleBBox": {
+            "left": 43,
+            "top": 8,
+            "right": 983,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.36372121175130206
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-xiaoman-human-expression-downcast",
+      "character": "xiaoman",
+      "kind": "character",
+      "expression": "expression-downcast",
+      "cueIds": [
+        "a01-ch05-xiaoman-01",
+        "a01-ch09-xiaoman-03"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.webp",
+        "sha256": "17431ee18497db77547c67bba1b294873d3c02fa0260075d16354b82bf510c39",
+        "bytes": 1174138
+      },
+      "delivery": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.webp",
+        "sha256": "17431ee18497db77547c67bba1b294873d3c02fa0260075d16354b82bf510c39",
+        "bytes": 1174138,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 574195,
+          "partial": 41462,
+          "nearOpaque": 957207,
+          "visibleBBox": {
+            "left": 44,
+            "top": 12,
+            "right": 983,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.3650633494059245
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-xiaoman-human-expression-tired",
+      "character": "xiaoman",
+      "kind": "character",
+      "expression": "expression-tired",
+      "cueIds": [
+        "a01-ch08-xiaoman-01",
+        "a01-ch08-xiaoman-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/xiaoman/originals/char-xiaoman-human-expression-tired-v1.png",
+        "sha256": "1095c93243297150c7e8226b5f65b1bbf5167515c96ab593efda6269bda3dc81",
+        "bytes": 2221670
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/xiaoman/char-xiaoman-human-expression-tired.webp",
+        "sha256": "29a50ca754c518c047c5c73cd9e373d80a49afa27a385b604b189baf20b7217c",
+        "bytes": 1129696,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1565855,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 566644,
+          "partial": 48708,
+          "nearOpaque": 957512,
+          "visibleBBox": {
+            "left": 40,
+            "top": 7,
+            "right": 983,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.36026255289713544
+        }
+      },
+      "promptKey": "xiaoman-tired",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-xiaoman-work-apron",
+      "character": "xiaoman",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch01-common-04",
+        "a01-ch03-xiaoman-01",
+        "a01-ch03-xiaoman-02",
+        "a01-ch03-xiaoman-03"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/xiaoman/originals/char-xiaoman-work-apron-base-v1.png",
+        "sha256": "f24925212a799b14a753b91853a27f84f790a4748aecdaeb77c1926b6a35e303",
+        "bytes": 2199261
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/xiaoman/char-xiaoman-work-apron-base.webp",
+        "sha256": "ce56195e2dd817d5ada6421ead65b6030d14ca0a1492e70e0d9f551271bb81fd",
+        "bytes": 1049844,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1945238,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 691557,
+          "partial": 61481,
+          "nearOpaque": 819826,
+          "visibleBBox": {
+            "left": 92,
+            "top": 4,
+            "right": 982,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4396800994873047
+        }
+      },
+      "promptKey": "xiaoman-work-apron",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-xiaoman-new-coat",
+      "character": "xiaoman",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch05-xiaoman-01",
+        "a01-ch05-xiaoman-02",
+        "a01-ch06-xiaoman-01"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/xiaoman/originals/char-xiaoman-new-coat-base-v2.png",
+        "sha256": "3e9dc71404cb2d6e6a44faf9b0f38217e1c2fb908e4c66f10bec2addcf6476cc",
+        "bytes": 2181112
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/xiaoman/char-xiaoman-new-coat-base-v2.webp",
+        "sha256": "d334b8d736328d91ab4e3aeb3c78248c797487849287bc89239273f15f809b1b",
+        "bytes": 1020276,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1900647,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 703623,
+          "partial": 56530,
+          "nearOpaque": 812711,
+          "visibleBBox": {
+            "left": 101,
+            "top": 11,
+            "right": 1020,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.44735145568847656
+        }
+      },
+      "promptKey": "xiaoman-new-coat",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    }
+  ],
+  "evidence": {
+    "fullFigureLightDark": [
+      {
+        "path": "assets/ten-chapter/characters/xiaoman/qa/light-dark-1.png",
+        "resourceIds": [
+          "tc-char-xiaoman-human-base",
+          "tc-char-xiaoman-human-expression-smile",
+          "tc-char-xiaoman-human-expression-hesitant",
+          "tc-char-xiaoman-human-expression-serious"
+        ]
+      },
+      {
+        "path": "assets/ten-chapter/characters/xiaoman/qa/light-dark-2.png",
+        "resourceIds": [
+          "tc-char-xiaoman-human-expression-downcast",
+          "tc-char-xiaoman-human-expression-tired",
+          "tc-look-xiaoman-work-apron",
+          "tc-look-xiaoman-new-coat"
+        ]
+      }
+    ],
+    "faceDetail": "assets/ten-chapter/characters/xiaoman/qa/faces.png"
+  },
+  "status": "delivered-awaiting-A06"
+}

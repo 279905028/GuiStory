@@ -1,0 +1,258 @@
+{
+  "date": "2026-10-20T07:39:52.482Z",
+  "release": "0.4",
+  "scope": "当前正式剧情的结构、自然回放与严格存档；不代替浏览器视觉或线上验收",
+  "files": {
+    "story.js": "78c20e18cdcb1d1c16853653d9969e7f34aa2aeb9a58142cdb2f6e3ea78e4e76",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "assets/runtime-v0.4-manifest.json": "3dda814d8244fd062ffb1e076b939f001c3577793f970415f04557e31235631c"
+  },
+  "checks": [
+    {
+      "name": "三章加后日谈、九人、七线、双终止页，日期与资源有效，原10CG/48绑定保留",
+      "pass": true,
+      "detail": {
+        "chapters": 3,
+        "epilogues": 1,
+        "characters": 9,
+        "scenes": 43,
+        "nodes": 1230,
+        "assets": 84,
+        "cgCount": 10,
+        "cgBindings": 48,
+        "chapter3Stops": [
+          "end_ch3_xiaoman",
+          "end_ch3_zhouzhi",
+          "end_ch3_mengyao",
+          "end_ch3_yelan",
+          "end_ch3_solo",
+          "end_ch3_huangqiuqiu",
+          "end_ch3_piao"
+        ],
+        "terminals": [
+          "end_piao_maolang",
+          "end_piao_wenwen"
+        ],
+        "preservedOriginalNodes": 1063
+      }
+    },
+    {
+      "name": "穷尽合法分支：全节点可达、无环、隐藏条件不泄漏，恋人与婚礼结局唯一正确",
+      "pass": true,
+      "detail": {
+        "paths": 246528,
+        "minLines": 456,
+        "maxLines": 504,
+        "minChars": 14122,
+        "maxChars": 16163,
+        "reachableNodes": 1230,
+        "equivalentStates": 55723,
+        "terminals": [
+          "end_piao_maolang",
+          "end_piao_wenwen"
+        ]
+      }
+    },
+    {
+      "name": "全部可见节点均可自然到达，并经完整选择轨迹严格存档恢复",
+      "pass": true,
+      "detail": {
+        "restored": 1185,
+        "byChapter": {
+          "1": 386,
+          "2": 195,
+          "3": 575,
+          "epilogue": 29
+        }
+      }
+    },
+    {
+      "name": "隐藏前置×原预告×前期邀约×七条路线×全部线内选择的自然回放组合",
+      "pass": true,
+      "detail": {
+        "hiddenConditionCombinations": 4,
+        "previewCombinations": 17,
+        "invitationVariants": 2,
+        "routeVariants": 14,
+        "terminalRuns": 428,
+        "hiddenRejected": 24,
+        "invitationReplyCoverage": "六条非飘路线、两种邀约均经过相应回执；飘路线直接赴约"
+      }
+    },
+    {
+      "name": "飘与其余六线双向重选、承诺重选和预告重选均清理后续关系与历史",
+      "pass": true,
+      "detail": {
+        "otherRoutes": 6,
+        "replayTransitions": 24,
+        "previewResets": 6
+      }
+    },
+    {
+      "name": "伪造关系、结局或选择轨迹的存档被拒绝，失败恢复不改变当前状态",
+      "pass": true,
+      "detail": {
+        "validSourceStates": 5,
+        "rejectedForgeries": 32,
+        "transactionalFailures": 32
+      }
+    }
+  ],
+  "routes": [
+    {
+      "route": "xiaoman",
+      "decisions": {
+        "ch3_xiaoman_choice": "rehearse"
+      },
+      "terminal": "end_piao_maolang",
+      "chapter3Lines": 82,
+      "chapter3Chars": 2424,
+      "epilogueLines": 14,
+      "epilogueChars": 469
+    },
+    {
+      "route": "xiaoman",
+      "decisions": {
+        "ch3_xiaoman_choice": "compare"
+      },
+      "terminal": "end_piao_maolang",
+      "chapter3Lines": 82,
+      "chapter3Chars": 2403,
+      "epilogueLines": 14,
+      "epilogueChars": 469
+    },
+    {
+      "route": "zhouzhi",
+      "decisions": {
+        "ch3_zhouzhi_choice": "taste"
+      },
+      "terminal": "end_piao_maolang",
+      "chapter3Lines": 81,
+      "chapter3Chars": 2522,
+      "epilogueLines": 14,
+      "epilogueChars": 469
+    },
+    {
+      "route": "zhouzhi",
+      "decisions": {
+        "ch3_zhouzhi_choice": "observe"
+      },
+      "terminal": "end_piao_maolang",
+      "chapter3Lines": 81,
+      "chapter3Chars": 2537,
+      "epilogueLines": 14,
+      "epilogueChars": 469
+    },
+    {
+      "route": "mengyao",
+      "decisions": {
+        "ch3_mengyao_choice": "image"
+      },
+      "terminal": "end_piao_maolang",
+      "chapter3Lines": 85,
+      "chapter3Chars": 2753,
+      "epilogueLines": 14,
+      "epilogueChars": 469
+    },
+    {
+      "route": "mengyao",
+      "decisions": {
+        "ch3_mengyao_choice": "sound"
+      },
+      "terminal": "end_piao_maolang",
+      "chapter3Lines": 85,
+      "chapter3Chars": 2786,
+      "epilogueLines": 14,
+      "epilogueChars": 469
+    },
+    {
+      "route": "yelan",
+      "decisions": {
+        "ch3_yelan_choice": "handoff"
+      },
+      "terminal": "end_piao_maolang",
+      "chapter3Lines": 83,
+      "chapter3Chars": 2758,
+      "epilogueLines": 14,
+      "epilogueChars": 469
+    },
+    {
+      "route": "yelan",
+      "decisions": {
+        "ch3_yelan_choice": "pitch"
+      },
+      "terminal": "end_piao_maolang",
+      "chapter3Lines": 83,
+      "chapter3Chars": 2758,
+      "epilogueLines": 14,
+      "epilogueChars": 469
+    },
+    {
+      "route": "solo",
+      "decisions": {
+        "ch3_solo_choice": "explain"
+      },
+      "terminal": "end_piao_maolang",
+      "chapter3Lines": 84,
+      "chapter3Chars": 2691,
+      "epilogueLines": 14,
+      "epilogueChars": 469
+    },
+    {
+      "route": "solo",
+      "decisions": {
+        "ch3_solo_choice": "delivery"
+      },
+      "terminal": "end_piao_maolang",
+      "chapter3Lines": 84,
+      "chapter3Chars": 2708,
+      "epilogueLines": 14,
+      "epilogueChars": 469
+    },
+    {
+      "route": "piao",
+      "decisions": {
+        "ch3_piao_commit": "together"
+      },
+      "terminal": "end_piao_wenwen",
+      "chapter3Lines": 81,
+      "chapter3Chars": 2428,
+      "epilogueLines": 13,
+      "epilogueChars": 378
+    },
+    {
+      "route": "piao",
+      "decisions": {
+        "ch3_piao_commit": "friends"
+      },
+      "terminal": "end_piao_maolang",
+      "chapter3Lines": 81,
+      "chapter3Chars": 2432,
+      "epilogueLines": 14,
+      "epilogueChars": 469
+    },
+    {
+      "route": "huangqiuqiu",
+      "decisions": {
+        "ch3_qiu_choice": "sound"
+      },
+      "terminal": "end_piao_maolang",
+      "chapter3Lines": 90,
+      "chapter3Chars": 2869,
+      "epilogueLines": 14,
+      "epilogueChars": 469
+    },
+    {
+      "route": "huangqiuqiu",
+      "decisions": {
+        "ch3_qiu_choice": "story"
+      },
+      "terminal": "end_piao_maolang",
+      "chapter3Lines": 90,
+      "chapter3Chars": 2855,
+      "epilogueLines": 14,
+      "epilogueChars": 469
+    }
+  ],
+  "pass": true
+}

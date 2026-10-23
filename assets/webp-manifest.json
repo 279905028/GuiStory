@@ -1,0 +1,4712 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-21T06:32:52.265Z",
+  "policy": "无损 WebP；保留原始 PNG/JPEG；参考照片与验收拼图保持原样。",
+  "encoder": {
+    "sharp": "0.35.5",
+    "webp": "1.6.0",
+    "lossless": true,
+    "effort": 6
+  },
+  "summary": {
+    "converted": 209,
+    "excluded": 23,
+    "sourceBytes": 445065234,
+    "webpBytes": 251361526,
+    "savedBytes": 193703708
+  },
+  "assets": [
+    {
+      "source": {
+        "path": "assets/background-variants/m2-20261019/bg-noodles-no-person.png",
+        "bytes": 2528115,
+        "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500"
+      },
+      "webp": {
+        "path": "assets/background-variants/m2-20261019/bg-noodles-no-person.webp",
+        "bytes": 1890104,
+        "sha256": "83c5a1069d2d081997a9961988cbb71255df64c50a60d0f53ae1ab62bb566999",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/background-variants/m2-20261019/bg-noodles-original.png",
+        "bytes": 2714889,
+        "sha256": "b3b2bd4aa1421b504417a1d37900add3ed69202f7d0f680c2da1be698a3dc984"
+      },
+      "webp": {
+        "path": "assets/background-variants/m2-20261019/bg-noodles-original.webp",
+        "bytes": 2018590,
+        "sha256": "90e649547fd309c8ea454a42b8d0756e606900fd25cd0e260b7677717b0d45ef",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-lobby-day.png",
+        "bytes": 2158979,
+        "sha256": "2bc2954dd90394bdd0261f87b5372bdcf61b7cc41fdb7939d490dcf49f08a39f"
+      },
+      "webp": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-lobby-day.webp",
+        "bytes": 1544576,
+        "sha256": "1fe139b2bf5a80d9591f437a7c6d7663a9c22958608a8d61cb46255452d1329c",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-lobby-original.png",
+        "bytes": 2260911,
+        "sha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871"
+      },
+      "webp": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-lobby-original.webp",
+        "bytes": 1632006,
+        "sha256": "6c226ce43e06d551efee116e013475cfd34471ec29ff3584eae45b3060ce4956",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-repair-night-v2.png",
+        "bytes": 2370266,
+        "sha256": "14b00ead5390e93803ef16f82b38949dd464e901a9cf5b208bc1140cda0c3675"
+      },
+      "webp": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-repair-night-v2.webp",
+        "bytes": 1735200,
+        "sha256": "3a5bedfc3cee00a301139f2bb74c3f98f7541ef852181c90f262397a6789e3b1",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-repair-night.png",
+        "bytes": 2467991,
+        "sha256": "8b4afc043e48148094c0b17db060d9a3792f2735a71a0fb651e5ded6980bff73"
+      },
+      "webp": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-repair-night.webp",
+        "bytes": 1812560,
+        "sha256": "8aaf006e412fa753d1e8412a64f2f4a9beca00259c68834614ac117ad6e3c3cc",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-repair-original.png",
+        "bytes": 2576047,
+        "sha256": "3b918a88c0d486575fa18d09afb70a37f9e1743257dd49ce1a44f72416e098aa"
+      },
+      "webp": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-repair-original.webp",
+        "bytes": 1862690,
+        "sha256": "cbaadc33330ac743ef33de60b9cbfd33ced1de43757901f2a14946475abcdb51",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+        "bytes": 3220000,
+        "sha256": "3cd546cd5eb5addd38e14b0d36c4176134b819cd2fb7503710ea1f87f29443ab"
+      },
+      "webp": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-street-day.webp",
+        "bytes": 2137550,
+        "sha256": "3841f1ae27040c2416b73466f22fbf7664145b9aa2617bce1fbf4b1d17b2a7d7",
+        "width": 1671,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-street-original.png",
+        "bytes": 3010764,
+        "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e"
+      },
+      "webp": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-street-original.webp",
+        "bytes": 2149334,
+        "sha256": "0c2596024811638b9b135abcce0ca7d8e204644ec71f7831838f70a889b6a3c8",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/background-variants/style-options-20261019/A-cinematic-realism.png",
+        "bytes": 3081181,
+        "sha256": "73f5dc2e0d5f24acfc920ab95ecaa94bd9821f7863a796723ed98e914eed7fb0"
+      },
+      "webp": {
+        "path": "assets/background-variants/style-options-20261019/A-cinematic-realism.webp",
+        "bytes": 2248068,
+        "sha256": "3109553e6d031971bffaf8744de92e4c1945c9b71423a08675a4fd0f1d09dbf3",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/background-variants/style-options-20261019/B-anime-background.png",
+        "bytes": 2956030,
+        "sha256": "d89f2b88967cc9098ab7a198ecb6675a61c62155aef1a0373774d5e5b704a300"
+      },
+      "webp": {
+        "path": "assets/background-variants/style-options-20261019/B-anime-background.webp",
+        "bytes": 2248078,
+        "sha256": "361f03ae5a534f925fb25da62a81e1b880cc06bdb47a730e3bd4fe83aac3968d",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/background-variants/style-options-20261019/C-watercolor-paper.png",
+        "bytes": 3582775,
+        "sha256": "331a95eae7300156d929018eb679220b860c864c0b0a9528a467f3abd44bf8d3"
+      },
+      "webp": {
+        "path": "assets/background-variants/style-options-20261019/C-watercolor-paper.webp",
+        "bytes": 2537474,
+        "sha256": "2a798656e4df4c72fba48409f76fb855e13409ca9edabd20016ce98b3ac67b3e",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/background-variants/style-options-20261019/D-retro-film.png",
+        "bytes": 2961748,
+        "sha256": "24cf648fe77dc7f99752fd2241ce40b1c0365894b90131f0b15b10a6c75fa432"
+      },
+      "webp": {
+        "path": "assets/background-variants/style-options-20261019/D-retro-film.webp",
+        "bytes": 2127552,
+        "sha256": "d1ee2d3ad3323e2fd18330bfad94e7cc2158486b80aba2ca749f972600b2f068",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/background-variants/style-options-20261019/E-painterly-concept.png",
+        "bytes": 3194590,
+        "sha256": "4cdc901a7f33af3b41cce98fd9d7167422393d1e52fbd893c1b48da1db8149f7"
+      },
+      "webp": {
+        "path": "assets/background-variants/style-options-20261019/E-painterly-concept.webp",
+        "bytes": 2382916,
+        "sha256": "6d26724d4ee59fa945fb46e704a15ab5e04cc3f3fdef47a86176b96f75a8e13b",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/backgrounds/bijie-20261020/bg-busstop-day.png",
+        "bytes": 3338135,
+        "sha256": "35192db09b8229a75d540131b4a5ca674c52127e6e04b28665eae21b824d2448"
+      },
+      "webp": {
+        "path": "assets/backgrounds/bijie-20261020/bg-busstop-day.webp",
+        "bytes": 2301340,
+        "sha256": "335b2bf31c5ec8828589bcd5551c708ec8a7f914408d8635ca7f53d38a700b16",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/backgrounds/bijie-20261020/bg-echo-entrance-night.png",
+        "bytes": 2960387,
+        "sha256": "c421717c9a4e6616edb5321b1f5cf550f70df537508664426c3af488cda5719f"
+      },
+      "webp": {
+        "path": "assets/backgrounds/bijie-20261020/bg-echo-entrance-night.webp",
+        "bytes": 2154918,
+        "sha256": "f93d6425e7869ed919b4d71511ac8d80f576c915fcb440669ab839f37f053c20",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/backgrounds/bijie-20261020/bg-market-stall-night.png",
+        "bytes": 2929670,
+        "sha256": "dc4c42075dcbe686eeece9fb9579a0097f3283ed2036441881318d0e3c0d205c"
+      },
+      "webp": {
+        "path": "assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+        "bytes": 2180932,
+        "sha256": "ff721898479c352bdac7969a7b301b29fd196215d04cdd24290c77de8c94caa0",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.png",
+        "bytes": 3121572,
+        "sha256": "e11e0d3b869faf362df516bf02a2101d522f7865500b6cb484360699db46f195"
+      },
+      "webp": {
+        "path": "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.webp",
+        "bytes": 2285578,
+        "sha256": "b0b100f1e82cdcfeb58aa02c782480399ca2787582a00368a9a2a3dc01c68809",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.png",
+        "bytes": 2800492,
+        "sha256": "604c5c3251ee32c47008a5028968035f1f0cc2f84620ba6bc923b9b06e226232"
+      },
+      "webp": {
+        "path": "assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.webp",
+        "bytes": 2119482,
+        "sha256": "188326b2cdb65dcb0a65f117ffd7c05d5cd9b60df5bf9536786fc7da84bde6f7",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/backgrounds/bijie-20261020/bg-noodles-dusk.png",
+        "bytes": 2723269,
+        "sha256": "788d11bce8fe478df0c4e2b52d6ab9f6f066aa475c32d35986829e198d61b1ee"
+      },
+      "webp": {
+        "path": "assets/backgrounds/bijie-20261020/bg-noodles-dusk.webp",
+        "bytes": 2035924,
+        "sha256": "e4a0e4aa5baaf996064f949b382b1dbec9e7c53b01bff708e3b2b9dd335e582f",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/backgrounds/bijie-20261020/bg-old-eaves-day.png",
+        "bytes": 3269368,
+        "sha256": "2236e61707ab498fded0114f578349425918bdca924982f99ab8e061d4e6b2b4"
+      },
+      "webp": {
+        "path": "assets/backgrounds/bijie-20261020/bg-old-eaves-day.webp",
+        "bytes": 2290852,
+        "sha256": "18861e49214b039d1507ea98a7073ddc8876062b4ad8684bdad91ea3deee7445",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/backgrounds/bijie-20261020/bg-residential-slope-day.png",
+        "bytes": 3400316,
+        "sha256": "5d6bcc1d8d3e49879f9662f313498bba3a4cbcd04bcceb8f61cd5845c451e9de"
+      },
+      "webp": {
+        "path": "assets/backgrounds/bijie-20261020/bg-residential-slope-day.webp",
+        "bytes": 2340464,
+        "sha256": "d5920c93d6841fd26f71766ca7ea52d368464f680da573e0114f3913c0bb95f5",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/backgrounds/bijie-20261020/bg-slope-junction-night.png",
+        "bytes": 3196144,
+        "sha256": "88fef397279f14d58e63ae3babd630b9497291e58c0ca318e56570a5060d6cb1"
+      },
+      "webp": {
+        "path": "assets/backgrounds/bijie-20261020/bg-slope-junction-night.webp",
+        "bytes": 2314944,
+        "sha256": "f81e14760a5950f40fbc223e6bc5fe8fde5ed261014c02dd1b0181b7f97cffa1",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/bg-lobby.png",
+        "bytes": 2158979,
+        "sha256": "2bc2954dd90394bdd0261f87b5372bdcf61b7cc41fdb7939d490dcf49f08a39f"
+      },
+      "webp": {
+        "path": "assets/bg-lobby.webp",
+        "bytes": 1544576,
+        "sha256": "1fe139b2bf5a80d9591f437a7c6d7663a9c22958608a8d61cb46255452d1329c",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/bg-noodles.png",
+        "bytes": 2528115,
+        "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500"
+      },
+      "webp": {
+        "path": "assets/bg-noodles.webp",
+        "bytes": 1890104,
+        "sha256": "83c5a1069d2d081997a9961988cbb71255df64c50a60d0f53ae1ab62bb566999",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/bg-repair.png",
+        "bytes": 2370266,
+        "sha256": "14b00ead5390e93803ef16f82b38949dd464e901a9cf5b208bc1140cda0c3675"
+      },
+      "webp": {
+        "path": "assets/bg-repair.webp",
+        "bytes": 1735200,
+        "sha256": "3a5bedfc3cee00a301139f2bb74c3f98f7541ef852181c90f262397a6789e3b1",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/bg-room.png",
+        "bytes": 1968927,
+        "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac"
+      },
+      "webp": {
+        "path": "assets/bg-room.webp",
+        "bytes": 1371208,
+        "sha256": "82740dc9ac4dd0499f7658dd7a0f4d33fe8cf29c4eb6fe646ec39f63c3ef9f6c",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/bg-salon.png",
+        "bytes": 2571679,
+        "sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7"
+      },
+      "webp": {
+        "path": "assets/bg-salon.webp",
+        "bytes": 1833416,
+        "sha256": "ce234b655ad068db55435d251f11796b946e7b3a97cb2b20143f5717833ca4f9",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/bg-street.png",
+        "bytes": 3010764,
+        "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e"
+      },
+      "webp": {
+        "path": "assets/bg-street.webp",
+        "bytes": 2149334,
+        "sha256": "0c2596024811638b9b135abcce0ca7d8e204644ec71f7831838f70a889b6a3c8",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG01/candidate-v1.png",
+        "bytes": 2640053,
+        "sha256": "12309c94b8fa313074621f59e7b8d076d2f2277a8f0164cba4ff011aea192a33"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG01/candidate-v1.webp",
+        "bytes": 1827560,
+        "sha256": "cf73bf80ff3651254affc1d04fc9932d3030982350a4be7d47a195c9fdffede2",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG02/candidate-v2.png",
+        "bytes": 2483983,
+        "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG02/candidate-v2.webp",
+        "bytes": 1751750,
+        "sha256": "6530cf270f0b8046545812ade8d8e5c8521d529170e76592fb091290c4d5014e",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG02/sample-v1.png",
+        "bytes": 2450433,
+        "sha256": "99a380c0b3c892a8fab777917dfa533ef6aaa00bd01aae38cd8d8b53aa1be601"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG02/sample-v1.webp",
+        "bytes": 1673996,
+        "sha256": "f6170d59559ed25205f167bdf5b78c471c22b005967659d55cee928b87bf5df0",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG03/candidate-v1.png",
+        "bytes": 2415216,
+        "sha256": "50ef608a207469cfbf492bf7b66d1f84bcb791576262ba1e35cb6b80c9e69997"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG03/candidate-v1.webp",
+        "bytes": 1726542,
+        "sha256": "57f1ad57b0d1285df186d1c813b2c63115456e9e8bcc75cbcfaffa71a0dcf1b5",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG03/candidate-v2.png",
+        "bytes": 2322046,
+        "sha256": "e50499d21beaaf3002c477771fe8b8be02065c992c85428b12234cdd835916ed"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG03/candidate-v2.webp",
+        "bytes": 1657314,
+        "sha256": "8a48cebbb1fb36e0d16e769b125243bfca331a1840f068a985bc76ff9f0b1da8",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG04/candidate-v1.png",
+        "bytes": 2500027,
+        "sha256": "d29f637064098205d9c6e0f1e38729bb8231940738a31beb652bac60cfb18067"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG04/candidate-v1.webp",
+        "bytes": 1711938,
+        "sha256": "772507fb8fb0e56dc399595d4f2ed8310213ad96e86812a8501866a262fa7344",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG05/candidate-v1.png",
+        "bytes": 2001240,
+        "sha256": "463b708fbf32f7e95636167e4998f4e547d45a02e34612d2eaeaf4ad1e46055b"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG05/candidate-v1.webp",
+        "bytes": 1372214,
+        "sha256": "b048be9913c0f1f3fed4e811f5a60520b1fa0392479c4dc9de01a0233f835fdb",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG06/candidate-v1.png",
+        "bytes": 2207748,
+        "sha256": "d7e57677599eac3d88e2e9c77d3542f6ca326e60d136883d34b9ecbd7db50a83"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG06/candidate-v1.webp",
+        "bytes": 1547188,
+        "sha256": "717602bbdc54a458d53e61fe47b81d648ff1bc5c588a0117a90a65b53a4d22f2",
+        "width": 1672,
+        "height": 940,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG06/candidate-v2.png",
+        "bytes": 2153691,
+        "sha256": "aed4b987445c443ccb20f911d56866259425f342d4fffea9ac52fe7fd15ea389"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG06/candidate-v2.webp",
+        "bytes": 1504490,
+        "sha256": "c2d1c7b4580b986fe22b56aea3dd90e3988f011ccce01245c802d1e41a78204f",
+        "width": 1672,
+        "height": 940,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG06/ref-bg-lobby-used.png",
+        "bytes": 2260911,
+        "sha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG06/ref-bg-lobby-used.webp",
+        "bytes": 1632006,
+        "sha256": "6c226ce43e06d551efee116e013475cfd34471ec29ff3584eae45b3060ce4956",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG07/candidate-v1.png",
+        "bytes": 2735921,
+        "sha256": "0eaa0c4a418e20926dcbfc11fbc0c782a38b17651151b341c9a45438ce8b61e8"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG07/candidate-v1.webp",
+        "bytes": 1972616,
+        "sha256": "986343ec2c184e269aa0738f2122877432259337fd97b5593c293f774453d388",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG08/candidate-v2.png",
+        "bytes": 1988696,
+        "sha256": "acab189176970ac5a4713bb4a5d26cada061b7ea2c586745787653cd63ce5131"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG08/candidate-v2.webp",
+        "bytes": 1407596,
+        "sha256": "d7befb8f02e4832a9b33dc20b836d5ab1c30da799f8c50c2b4c0780414e293ad",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG08/candidate-v3.png",
+        "bytes": 1956379,
+        "sha256": "cc48368235dfd71e2ade56e990a519f848ad137ae6cbeb464dda5d3c1bdb2daf"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG08/candidate-v3.webp",
+        "bytes": 1401842,
+        "sha256": "73c912ef1585c946fa834c165e6ec542e8316ae23f5cea4933ccee0c612deab2",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG08/candidate-v4.png",
+        "bytes": 1854736,
+        "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG08/candidate-v4.webp",
+        "bytes": 1309720,
+        "sha256": "c415560dca1cbeb97275bab588d51042d30a15b7e002213d81fbc9a6b058907a",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG08/sample-v1.png",
+        "bytes": 2002511,
+        "sha256": "3959b3ead3dd3e7b276fc9d004d226ae531840a5ee22288279e481ff7f312d08"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG08/sample-v1.webp",
+        "bytes": 1393470,
+        "sha256": "f9035e7b4a8936ac515135f498ab806ed2da2935d5d1622452121248e79d98d2",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG09/candidate-v1.png",
+        "bytes": 2403639,
+        "sha256": "0477213b4388c8b90665bbb5790d142af2712d817a169a5759f8373cc86403ee"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG09/candidate-v1.webp",
+        "bytes": 1700916,
+        "sha256": "c879c24b4bdb2b54ff4ea137fa536cdf9de2e461bfa32333027caf6aa05ba2e9",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG13/candidate-v1.png",
+        "bytes": 2372867,
+        "sha256": "66ac8cf597e301bb2c5998a1e545553f299da9c8faa8fc05ef9dd212930e9532"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG13/candidate-v1.webp",
+        "bytes": 1722526,
+        "sha256": "75a2d4f311c0c433989c9252bc8135fc4e460bdcfb23ec5b86d64f025aab6e31",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg-variants/CG13/candidate-v2.png",
+        "bytes": 2233982,
+        "sha256": "155cd137c4e1c0355944e4bbf89bf806909d18efe43dc0fddda3f175a68f8249"
+      },
+      "webp": {
+        "path": "assets/cg-variants/CG13/candidate-v2.webp",
+        "bytes": 1639230,
+        "sha256": "70e6becb0467a565fbe66cf786ef2717591d1a375f62cf25e0e448a9278a8ed0",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg/cg-01-rain-return.png",
+        "bytes": 2640053,
+        "sha256": "12309c94b8fa313074621f59e7b8d076d2f2277a8f0164cba4ff011aea192a33"
+      },
+      "webp": {
+        "path": "assets/cg/cg-01-rain-return.webp",
+        "bytes": 1827560,
+        "sha256": "cf73bf80ff3651254affc1d04fc9932d3030982350a4be7d47a195c9fdffede2",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg/cg-02-xiaoman-mirror.png",
+        "bytes": 2483983,
+        "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e"
+      },
+      "webp": {
+        "path": "assets/cg/cg-02-xiaoman-mirror.webp",
+        "bytes": 1751750,
+        "sha256": "6530cf270f0b8046545812ade8d8e5c8521d529170e76592fb091290c4d5014e",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg/cg-03-zhouzhi-noodles.png",
+        "bytes": 2322046,
+        "sha256": "e50499d21beaaf3002c477771fe8b8be02065c992c85428b12234cdd835916ed"
+      },
+      "webp": {
+        "path": "assets/cg/cg-03-zhouzhi-noodles.webp",
+        "bytes": 1657314,
+        "sha256": "8a48cebbb1fb36e0d16e769b125243bfca331a1840f068a985bc76ff9f0b1da8",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg/cg-04-mengyao-camera.png",
+        "bytes": 2500027,
+        "sha256": "d29f637064098205d9c6e0f1e38729bb8231940738a31beb652bac60cfb18067"
+      },
+      "webp": {
+        "path": "assets/cg/cg-04-mengyao-camera.webp",
+        "bytes": 1711938,
+        "sha256": "772507fb8fb0e56dc399595d4f2ed8310213ad96e86812a8501866a262fa7344",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg/cg-05-yelan-inventory.png",
+        "bytes": 2001240,
+        "sha256": "463b708fbf32f7e95636167e4998f4e547d45a02e34612d2eaeaf4ad1e46055b"
+      },
+      "webp": {
+        "path": "assets/cg/cg-05-yelan-inventory.webp",
+        "bytes": 1372214,
+        "sha256": "b048be9913c0f1f3fed4e811f5a60520b1fa0392479c4dc9de01a0233f835fdb",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg/cg-06-maolang-confession.png",
+        "bytes": 2085757,
+        "sha256": "466975350fb8a6ed64786087d3162d46ef2b0a1ed4ad23bd945ed59989aa8568"
+      },
+      "webp": {
+        "path": "assets/cg/cg-06-maolang-confession.webp",
+        "bytes": 1483368,
+        "sha256": "a11a0faa3ddfba3fb6f73f5a57c502bf88bb2143d74f9664f903c9297655f3a2",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg/cg-07-yelan-off-duty.png",
+        "bytes": 2735921,
+        "sha256": "0eaa0c4a418e20926dcbfc11fbc0c782a38b17651151b341c9a45438ce8b61e8"
+      },
+      "webp": {
+        "path": "assets/cg/cg-07-yelan-off-duty.webp",
+        "bytes": 1972616,
+        "sha256": "986343ec2c184e269aa0738f2122877432259337fd97b5593c293f774453d388",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg/cg-08-huangqiuqiu-listening.png",
+        "bytes": 1854736,
+        "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1"
+      },
+      "webp": {
+        "path": "assets/cg/cg-08-huangqiuqiu-listening.webp",
+        "bytes": 1309720,
+        "sha256": "c415560dca1cbeb97275bab588d51042d30a15b7e002213d81fbc9a6b058907a",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg/cg-09-repair-handoff.png",
+        "bytes": 2273328,
+        "sha256": "a0984f00a9fa9f74923c95afbf1fb165fdc5435d08d568fc7b30dcaab04ef92a"
+      },
+      "webp": {
+        "path": "assets/cg/cg-09-repair-handoff.webp",
+        "bytes": 1619248,
+        "sha256": "cbe9fd54d1244e0517311fa91c775cb44f592c3e9994142c85c16cfa3081fac6",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cg/cg-13-xiaoman-night-stall.png",
+        "bytes": 2233982,
+        "sha256": "155cd137c4e1c0355944e4bbf89bf806909d18efe43dc0fddda3f175a68f8249"
+      },
+      "webp": {
+        "path": "assets/cg/cg-13-xiaoman-night-stall.webp",
+        "bytes": 1639230,
+        "sha256": "70e6becb0467a565fbe66cf786ef2717591d1a375f62cf25e0e448a9278a8ed0",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/char-huangqiuqiu.png",
+        "bytes": 1305412,
+        "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9"
+      },
+      "webp": {
+        "path": "assets/char-huangqiuqiu.webp",
+        "bytes": 768286,
+        "sha256": "ce01862d4078b2b091980575bbf728f30d3ce2044ac9b6f41643fb11a843b2de",
+        "width": 1254,
+        "height": 1254,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 740791,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/char-maolang.png",
+        "bytes": 1700282,
+        "sha256": "1b6302e8c1fb95eb104cd645ab7fdc638ff0c30ed83b43779acdb61b1cc3006c"
+      },
+      "webp": {
+        "path": "assets/char-maolang.webp",
+        "bytes": 730662,
+        "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2084916,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/char-mengyao.png",
+        "bytes": 2209681,
+        "sha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6"
+      },
+      "webp": {
+        "path": "assets/char-mengyao.webp",
+        "bytes": 1088088,
+        "sha256": "c619b6cd255fdc8cf0b5c9843747b2bca196d7cde6ff0c596aa498f416a296b6",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1948559,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/char-piao.png",
+        "bytes": 1743396,
+        "sha256": "8fd8b8c0f59e0321dca419d22c18525893ccd74fc8f4deabe6a5c38f851e3f9b"
+      },
+      "webp": {
+        "path": "assets/char-piao.webp",
+        "bytes": 716636,
+        "sha256": "b28422dabd0a4d3eb2ad7a34f832104bae4884ecb93bd45eb0d80e9c17a70331",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2132032,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/char-shijiang.png",
+        "bytes": 2033251,
+        "sha256": "391b5acd4b59bd93fcefc8c22c367d60be3faec8eb946a3635db38ee821eeed0"
+      },
+      "webp": {
+        "path": "assets/char-shijiang.webp",
+        "bytes": 932076,
+        "sha256": "286042deb9ae765c377f69285824c8ca4e2a7a23ba8af960cbaf413747fc207c",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1907073,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/char-wenwen.png",
+        "bytes": 2267104,
+        "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44"
+      },
+      "webp": {
+        "path": "assets/char-wenwen.webp",
+        "bytes": 1161238,
+        "sha256": "53acbc2180f64f81aae3aa3d33f4cf2039fa16de07aea74248809e45f8dda96b",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1704526,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/char-xiaoman.png",
+        "bytes": 2323438,
+        "sha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3"
+      },
+      "webp": {
+        "path": "assets/char-xiaoman.webp",
+        "bytes": 1226000,
+        "sha256": "19d1263afb2a132681c23fc43539951b404c9da1b3329555951361deb562ce0e",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1574672,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/char-yelan.png",
+        "bytes": 1835417,
+        "sha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496"
+      },
+      "webp": {
+        "path": "assets/char-yelan.webp",
+        "bytes": 873818,
+        "sha256": "ed26224bb492cc4a48e5aae187b88fc8967e95a2f0b1d452b0898bf815e68bba",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1683287,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/char-zhouzhi.png",
+        "bytes": 1902928,
+        "sha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f"
+      },
+      "webp": {
+        "path": "assets/char-zhouzhi.webp",
+        "bytes": 929236,
+        "sha256": "4a27151002d0c681be401f07e0f1a1762b95addfa1e141046e0118d0ec1a8d3a",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1906018,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-explaining.png",
+        "bytes": 2267080,
+        "sha256": "b2cfccc37f54d1b90bc102f573bbc96d069d013ad7bfe434ccfe732b1e270292"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-explaining.webp",
+        "bytes": 1072730,
+        "sha256": "59134850e7886d3fabc4f7ef2739ced6f0ba8b56fe217a5b51f4d55bbafd4a7a",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1920341,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-thinking.png",
+        "bytes": 2217895,
+        "sha256": "ed817af259807c5bc2b42b3f607d8df2de8017dc2f7d42a607cd5f2922267321"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-thinking.webp",
+        "bytes": 1024466,
+        "sha256": "c29d47209df02e4d2a7a44f270c17b502ad6379ae22aa572b53e70ee3514d852",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1990235,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-wave.png",
+        "bytes": 2254450,
+        "sha256": "e8dbbdafb9baa87f72b2b450a2948be2f543b0567422c17650d7aa38c6129f13"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-wave.webp",
+        "bytes": 1083212,
+        "sha256": "790dd9c7748ca13c0ee29237def9f58658e35ec65c2c92492a45eeed382fc586",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1890897,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-displeased.png",
+        "bytes": 2132157,
+        "sha256": "3864083e3ea1d0b9bb37fdbb7d5541ad8f03b6374bfa691fa15ea9a1754a8250"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-displeased.webp",
+        "bytes": 978294,
+        "sha256": "ef85c279075bd08a33c801813a6293cec327f0c5e243e505c7dde0bcd000f9c2",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1976453,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-downcast.png",
+        "bytes": 2111128,
+        "sha256": "11e2bde1e0dcdaa2d81e5f5e58b4a07cb50d2573bab6de68aaa063d280ad3f11"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-downcast.webp",
+        "bytes": 963720,
+        "sha256": "f19e70633b7bc52f4559af3e348f4acd0fa4e4f73c7fc6f7bb8e43937a225572",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1973234,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-hesitant.png",
+        "bytes": 2145977,
+        "sha256": "960440d06a40b6c9a2751c007caf733d8aeb413e9ca24d1707015e08e4104430"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-hesitant.webp",
+        "bytes": 988126,
+        "sha256": "7e76af061b6263eb9eb04f4ad25b09265f1d6a4783f9ffce0239e317aaf74ac1",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1962382,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-serious.png",
+        "bytes": 2156220,
+        "sha256": "988fbf94a15bfefda5ee0389f3f8c87f43522fb281dbce0ea35311445091ac20"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-serious.webp",
+        "bytes": 994590,
+        "sha256": "0c9a4b316dc9d455869a590ce12565621298a91f25abec4482895f92a4c1464d",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2096281,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-smile.png",
+        "bytes": 2177226,
+        "sha256": "085ab477388ecc9867ccc4aa1bc4eded913ff1c651b94cdfa71136e2637fa4bc"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-smile.webp",
+        "bytes": 1011604,
+        "sha256": "a5ae89b9d02aaa2e040167ebb1e5cd2110c85cda3494de82ae839ab195133ef5",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1960209,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-surprised.png",
+        "bytes": 2151059,
+        "sha256": "6859d7e0c323276b32398650736e92371743504405dc7310c66fec036e43c035"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-surprised.webp",
+        "bytes": 994918,
+        "sha256": "e9bb081bc6aa921fa26e4cc7abdd188ab0abd66afcb8c26597b1509057ec3ca5",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1968419,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-explaining.png",
+        "bytes": 2154226,
+        "sha256": "025f83220e2a7ad0f983f797aed621039e68f009448f34402f278063d30e1bb3"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-explaining.webp",
+        "bytes": 1044076,
+        "sha256": "57d95f881eaa695bdafd73bdc2b20705a061e39d5f47b12596571c3f26e5cba1",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1651861,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-listening.png",
+        "bytes": 2192732,
+        "sha256": "598a3a55f21d7a71d8bca712193adf8f35b2e7509ae4cbcf2b51d5da7fa8c432"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-listening.webp",
+        "bytes": 1048228,
+        "sha256": "844900f0d11b09a02978da1462fdee2e5e63bf81cd2e1ec86a97fcee6d08fe7f",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1926298,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-phone.png",
+        "bytes": 2211999,
+        "sha256": "3983ece863503833459257807a519cf61a1fb9c815a90943c55679c44995d43d"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-phone.webp",
+        "bytes": 1107382,
+        "sha256": "6d97e9d7a30806a683c2cfc56752da519f78e418f4561d34696fd986eabdb88e",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1690711,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-repairing.png",
+        "bytes": 2290714,
+        "sha256": "1616b7d46d06d86cda6cc19f79df3e19bc7aa1f13e4d8daa5b03e558402dee84"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-repairing.webp",
+        "bytes": 1164612,
+        "sha256": "f3f8746d2d15d4ae2f8fc047fb607f65316cfd28c7ea4d168c0aed7179d2673f",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1549133,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-thinking.png",
+        "bytes": 2218651,
+        "sha256": "7e9a5b3d9eaeb87f92a31710dbe56654183f9c531112cade99f56ac8a67234a0"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-thinking.webp",
+        "bytes": 1113284,
+        "sha256": "9189afa32e4b38f897db7907c49553c089f8cf61a0900cd8a69e8bd1ce1c1edf",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1711279,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-wave.png",
+        "bytes": 2373437,
+        "sha256": "e2c74044d140dca6c0b05103d69b787eb268bc91cd682e1717c75912a10650b7"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-wave.webp",
+        "bytes": 1241162,
+        "sha256": "daa371597c7ae177396c7b6b23d9a580a2d7c1a0f412a1a74cbc6e70586df667",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1595682,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.png",
+        "bytes": 2182419,
+        "sha256": "ce4e43b188589e1a199e972dd4fab1ea632d25d44fefb63a417a70b40522cdcc"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.webp",
+        "bytes": 1074802,
+        "sha256": "b9d203ba40f9542a09a1c586ce9b774f39aefe5819c9812440bb8c689a06ae4e",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1701865,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-displeased.png",
+        "bytes": 2151006,
+        "sha256": "1c500c5e6468fcb5cee6bf1c2e581cfec102166502cc33afa7f55a9e95ad55e6"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-displeased.webp",
+        "bytes": 1056926,
+        "sha256": "14e7f9ce194907b3473ffab8267291bc357453e4c3fe7ce900f5813e7890ee92",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1700095,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-downcast.png",
+        "bytes": 2210292,
+        "sha256": "49c42013ef1e35307dbd3a3cd1e5ffd3a34de011793832dea1b1f870439bffe4"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-downcast.webp",
+        "bytes": 1098490,
+        "sha256": "836b0d37ad152b9776cb1ada6ead24e2b21822dd296bf4b205e1fe96d5389be7",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1704657,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.png",
+        "bytes": 2186411,
+        "sha256": "b76af0b747f88e0b7e4750f5eae60e2b1de1d72eb237fc60dd43f258934f1744"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.webp",
+        "bytes": 1083666,
+        "sha256": "1ff2b4561b8de7ac6330dc333f0dd3c2eac40542ebe4ed5852a9920f1a601bbe",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1706684,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.png",
+        "bytes": 2206129,
+        "sha256": "a3169d9e2391ef67ac577a5ebc7543e28e5d042ff61620bbfa755ce720bf3951"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.webp",
+        "bytes": 1102368,
+        "sha256": "0059b2db23d7f26bdb24bb0023a761436be46805aa60f4f08bf4d3f068289718",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1676476,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.png",
+        "bytes": 2145513,
+        "sha256": "2e74049a392cf793f6072b45a39cb4c8cd24d12f0c52b2023ba1e101fce6d213"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.webp",
+        "bytes": 1052722,
+        "sha256": "a538b1aa917c55588148d63dc59946f20eb6cc656d68211a50de6a494585d85e",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1705485,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-relieved.png",
+        "bytes": 2196367,
+        "sha256": "7223c94dfa91c8a6611591f8d7ac528371513525b6ad2a45dd5f26e334a6ab7b"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-relieved.webp",
+        "bytes": 1087788,
+        "sha256": "c74c3f9076e308f49c007852a5ee844f3d14c93fbe33000ef859eca431270119",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1701096,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.png",
+        "bytes": 2205624,
+        "sha256": "3e60054129fd00bdb0a048b70f8aa6f5c3d840128f464dde1926feb41d0f0c91"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.webp",
+        "bytes": 1095116,
+        "sha256": "af37016a61f89086b9d4bdd8b788e87c7463564af72bc5c33425e5415f3afd38",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1549685,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.png",
+        "bytes": 2219084,
+        "sha256": "e6b925e52feded4b555a13dc32041abd261fdd0830816f1e510c3e89c7c567c0"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.webp",
+        "bytes": 1109936,
+        "sha256": "eeddf86e50eda45fd0ed74b0e278ffea59f6121c48d5b6582e8f848bb5e15e8a",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1690510,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.png",
+        "bytes": 2234688,
+        "sha256": "521d889a40b086d6784c7ad852c733a737a62f04d591200eb080f5ad7006c98b"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.webp",
+        "bytes": 1117538,
+        "sha256": "1ddbc410065c975d378a8242a5717abf398a0bb3eccb39a325a6d01ec675da38",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1703230,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.png",
+        "bytes": 2168938,
+        "sha256": "a9a4dc44999ba3559e8d4ac7f9114e6b832919d7fc1a9427205eabad93c564cf"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.webp",
+        "bytes": 1068384,
+        "sha256": "e5df6c2008d4e729619aa0105dcdc29aa7aed7a5bd25f688a6d255ab9eadf8e3",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1705503,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.png",
+        "bytes": 2231700,
+        "sha256": "9fd01f9690d7d56702ae78116955fd8d4b2cede26271c545503b376eb5e16b01"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.webp",
+        "bytes": 1120460,
+        "sha256": "885c35ad33235c20211fc1587a7f0c202bd8775c165c8b80224ed3b23965c0c9",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1692289,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-action-explaining.png",
+        "bytes": 2329066,
+        "sha256": "d6141c5d07c4fd335dc1485453ebf6bcf0da03564c3b5ace3533a95fd9cbe334"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-action-explaining.webp",
+        "bytes": 1200128,
+        "sha256": "ef0263c535dbdb55d0bb0c03b490774773b6d70877ccb447d78b605c7153f269",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1617706,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-action-thinking.png",
+        "bytes": 2294403,
+        "sha256": "7ea8dd506477b662fa76f0ae5c39662798b97e44133a35f0bc204a3213b7f9df"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-action-thinking.webp",
+        "bytes": 1154152,
+        "sha256": "8885ae4f76c43a5ecacfa9f398c953f017bd6a5a05fb925feabb89ae993c9efa",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1721654,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-action-wave.png",
+        "bytes": 2369476,
+        "sha256": "e22428856e1248d165ba550946528b2a2c24767295cec35045d36e78811fbbc4"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-action-wave.webp",
+        "bytes": 1205194,
+        "sha256": "303e00e0f22ae59e74db38c6b32a49cae4fb2974fb887c58282eb30053b7df11",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1641835,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-displeased.png",
+        "bytes": 2249838,
+        "sha256": "d36f4a86e542cb454a8b0ac5f685c5b747c91b91650c15882c8c018b39c79c5d"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-displeased.webp",
+        "bytes": 1141926,
+        "sha256": "b8b29607df62094db5f660d6bb216c6369a574527302fd43958f23fe571bcb5f",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1590551,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.png",
+        "bytes": 2288619,
+        "sha256": "1205c9c786b743baae41fcd12c297b73e065027336a7f1ac0f9b14de5a8ed8f0"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.webp",
+        "bytes": 1174138,
+        "sha256": "17431ee18497db77547c67bba1b294873d3c02fa0260075d16354b82bf510c39",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1586964,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.png",
+        "bytes": 2262581,
+        "sha256": "e74f9978d1fcde67d371d565d8eb8ebbebdad8b8ec0464eab6d7cd0bc6bcb28e"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.webp",
+        "bytes": 1159176,
+        "sha256": "20300c95bf649054fb93e4fad1d1ccc7aa0fc34172bd0b88eef10a72bd1a9531",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1592261,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.png",
+        "bytes": 2301368,
+        "sha256": "7a9884c822c8f8acf8e07cff1c9f071bb2d76c5f2b4104b9b37f0bd5ec4778bb"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.webp",
+        "bytes": 1174552,
+        "sha256": "8fdaf41013fe8f7dc313a7cea6699cb37a54ed88e9dd8c6c41af92cbe03334dc",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1583487,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.png",
+        "bytes": 2302290,
+        "sha256": "b23be783b2b3c510d8912c5f0516593904a4f329bc09e5383b41bed64ff86073"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+        "bytes": 1186586,
+        "sha256": "f7a76782c6cd6a8a3739d68d2e664afe0da3be2810241e8802c6e1bec7dae990",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1582626,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-surprised.png",
+        "bytes": 2286101,
+        "sha256": "0b266cbaf0395d590f2362bb4e5d7f121396622923157fc065434ae1fbfb697d"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-surprised.webp",
+        "bytes": 1180620,
+        "sha256": "2a31e6f1e15c80a4ce41c24241e5971228fd44b909eed293fe7413b43a6d7093",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1576495,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-action-explaining.png",
+        "bytes": 1909504,
+        "sha256": "ff59966ee7b63c6a6c928e5985bf8d1a5a719d896f03074d17f3abb79c0d3c1e"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-action-explaining.webp",
+        "bytes": 872654,
+        "sha256": "4ff56d931f6d5552bbf8e58f69c5b31fda5eda7500de7fd8bc12871aabc2c151",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1718788,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-action-thinking.png",
+        "bytes": 1855865,
+        "sha256": "b6f892bcc462cdae237aca140e2477748fa6c848d791788419f410af0b0c0df2"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-action-thinking.webp",
+        "bytes": 851090,
+        "sha256": "f77412436e6d40a048fc39a74742c81d3c71a0ed6505591a8f2061137a0914cc",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1677358,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-action-wave.png",
+        "bytes": 1902923,
+        "sha256": "ca7f8dfd34a25523b66e1bda58d310bf14d9fdc2c10fc1bcd0a3bd412206de4c"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-action-wave.webp",
+        "bytes": 889386,
+        "sha256": "8b8e8173fbbd94527860ad1a99c52d853c561482c34cafd79c6d07036518ab58",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1682517,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-displeased.png",
+        "bytes": 1845967,
+        "sha256": "8e911787af718ec93095af7465b9576a948bc667d8a159a2e5150d9e3d0c489b"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-displeased.webp",
+        "bytes": 837162,
+        "sha256": "59e6068aa0e2e4c09dec92689dd7bc482dab0bd493bb9be5dde3ee41e9134f57",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1690656,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-downcast.png",
+        "bytes": 1838708,
+        "sha256": "c95436333744ed6dd422f3e86840dc3f003a3a6bd50b38e10a336409875f5016"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-downcast.webp",
+        "bytes": 834806,
+        "sha256": "7b5c357892c89bc507d8c244787c32a7baf137eab5e018e37e5a1739af83830c",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1690231,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-hesitant.png",
+        "bytes": 1821919,
+        "sha256": "d7d2b79d4ba4f66fd420c669acafabf8350c4bedc0932bea25e64532d964e90f"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-hesitant.webp",
+        "bytes": 827650,
+        "sha256": "b4ae21beb7d23777511f3f29259a888bd1819fd87c275d6be3944e24feb069f3",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1676238,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-serious.png",
+        "bytes": 1838964,
+        "sha256": "650cb051df5211666c16ebdab93be2ca4088a19399a2d65468ea12242bd63327"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-serious.webp",
+        "bytes": 836758,
+        "sha256": "aa4731fd8f4237d9a38adb09dbe53fc71f0767e0251a4dadb5241be313ac445c",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1672706,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-smile.png",
+        "bytes": 1856444,
+        "sha256": "e133205561287fcb1ffa6763222a460f12ff9d624b86a0d5b6fd54d00e87d598"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-smile.webp",
+        "bytes": 854524,
+        "sha256": "1a15b9785e79602a2394d848203604f2d98abdb87d1a8ff5af7bcb5d503fb158",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1675389,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-surprised.png",
+        "bytes": 1828510,
+        "sha256": "e2ea6959c337f30631323f3f248788d03fbf8304a529e6f00238c2df054f0702"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-surprised.webp",
+        "bytes": 832104,
+        "sha256": "d88b8693db7c2fabcd22ead1569adcbec3fb3fa4bc4665b5ec6c7c21c40e905c",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1685246,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-explaining.png",
+        "bytes": 1943860,
+        "sha256": "503bb67015ef463243baf35d04c98c0af968492586b70471d8843bae3c6ffd70"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-explaining.webp",
+        "bytes": 894574,
+        "sha256": "133b599712c9bc47953891c8cccc78af8117b8ef339333e6040912315f44e93f",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1875628,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-thinking.png",
+        "bytes": 1847654,
+        "sha256": "261180efc3eec58c4b58385d3a92896ddb1e436993b35b860fbe53e9a2ed7ad4"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-thinking.webp",
+        "bytes": 834430,
+        "sha256": "7fc5e069d643095451d8adcb72fc095f02fc1cf8492e1f25e29a9403353c04b0",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1892987,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-wave.png",
+        "bytes": 1979538,
+        "sha256": "e24435e83940c197930003bbe99986994a8c777f7f4acecace81c8fee634cea7"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-wave.webp",
+        "bytes": 927032,
+        "sha256": "3c6f583be3eb92f44b9dba9f32285d0f17e8104df878912065d8d20df11664f0",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1871824,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-displeased.png",
+        "bytes": 1921186,
+        "sha256": "364843c11ce75a858479595aa412350ae3b63fdaf791c7ff30fd2295623bd149"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-displeased.webp",
+        "bytes": 877338,
+        "sha256": "c24d5f40286f3905b5627f111f762226fd7ff63775794246de460e80c245e786",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1906831,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.png",
+        "bytes": 1857776,
+        "sha256": "a08e55e0f7a7466d68694b5107a29c90ba7d5f8256ea42ff128c56e01de762b5"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.webp",
+        "bytes": 841286,
+        "sha256": "f33bd7d32161fd13d8597b88779fc2233921a1db3f60c10c63d5be296dd4e713",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1887246,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.png",
+        "bytes": 1881068,
+        "sha256": "91d6c8efc60732b5a6c184301983b0050d8c08eb9e25ae7d1f6cfd8b028920a0"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.webp",
+        "bytes": 852512,
+        "sha256": "c77e074b064afe4f9250f0e827b6ecfb742c1486d9aa9ba68e22700927f55a20",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1910967,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.png",
+        "bytes": 1900576,
+        "sha256": "5cfcf2196f698044e753d62ddbb480d3cb0c90a785b52f83bd9e185b80de3172"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.webp",
+        "bytes": 865546,
+        "sha256": "47133aa81d4be43234874bb5e072195fa6c53040fab0456580806802e6a82e0e",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1894012,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.png",
+        "bytes": 1887634,
+        "sha256": "bd0747a9715ea539f8329ea7bd3bee42aa6acf6cbd01593d38073e536d6b3803"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.webp",
+        "bytes": 857994,
+        "sha256": "21d6bef6495b7fcdca9a9369f59842bcf4e20743426b51a5493c117c2b50cf5a",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1910505,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-surprised.png",
+        "bytes": 1857846,
+        "sha256": "414d6b30d2fba560d67c3d1c39bda1a6b4ba1e11d4259f7d324b81e7b2c224db"
+      },
+      "webp": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-surprised.webp",
+        "bytes": 840954,
+        "sha256": "8947e1e6d47d4a35f082733ee1595537bb2b09da68b895c035a7e057b8533af6",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1886545,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/cg06-optionD.png",
+        "bytes": 2085757,
+        "sha256": "466975350fb8a6ed64786087d3162d46ef2b0a1ed4ad23bd945ed59989aa8568"
+      },
+      "webp": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/cg06-optionD.webp",
+        "bytes": 1483368,
+        "sha256": "a11a0faa3ddfba3fb6f73f5a57c502bf88bb2143d74f9664f903c9297655f3a2",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/cg09-optionD.png",
+        "bytes": 2274524,
+        "sha256": "ca7babc0fa68ce95ec8a74fc59d55d44e480551295cfdcf6713c7ffaa2aee054"
+      },
+      "webp": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/cg09-optionD.webp",
+        "bytes": 1616050,
+        "sha256": "c109b41253f4d27e85c8ac4fc0ee50997750e02a44677471fb7e54cdcca0cfc6",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-action-explaining.png",
+        "bytes": 1694695,
+        "sha256": "a0e342fc91735cb4fa1b3caf36932b3147dcc0aa884869de9d64f11763238d65"
+      },
+      "webp": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-action-explaining.webp",
+        "bytes": 710854,
+        "sha256": "9985035944f927cd0f4a2fd386d6c40809b3012464955b59e6a9d2073cd3084a",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2030559,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-action-thinking.png",
+        "bytes": 1689258,
+        "sha256": "19a7d81992b831b9d63199271cf7e3438be0c2e1c802d4fdc5a46fa426ab8a6c"
+      },
+      "webp": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-action-thinking.webp",
+        "bytes": 709280,
+        "sha256": "051db72e7417b59930dad4ed1e7f2b6f74b8c740de1ce9c2153cca6549801734",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2054521,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-action-wave.png",
+        "bytes": 1720094,
+        "sha256": "cf2643dd3affe296beff6289d3a2f824d9ace8ac5c8b8faf824aad5e6dd0c6e5"
+      },
+      "webp": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-action-wave.webp",
+        "bytes": 725538,
+        "sha256": "e6ce4fef0da70fee1d353a19d4c7fe9dd242ca5d2b8705b8c761d35406b35d66",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2122609,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-displeased.png",
+        "bytes": 1704641,
+        "sha256": "e0cf03cec9c50dae430978ca17cb9ab6c1dabe93542332244ba35eaf125cb624"
+      },
+      "webp": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-displeased.webp",
+        "bytes": 725902,
+        "sha256": "8f528f4d50ee28862387623961ff35bb6efc9ae4a6810c57e7506e8149b830d1",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2090496,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-downcast.png",
+        "bytes": 1758518,
+        "sha256": "1e791d5a7b566633b97fe7c87be86105f11774bde8b7160c97ca5eec4d1c5274"
+      },
+      "webp": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-downcast.webp",
+        "bytes": 761428,
+        "sha256": "678ffd7c22082caa2ee736ba1e37020ee3b28f16272ada5a91cf23592f809612",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2093522,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-hesitant.png",
+        "bytes": 1770943,
+        "sha256": "1e3ff8b41dca7b48b059c4530aee2b57c3e6ea5124e5036a9b9769e346f69859"
+      },
+      "webp": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-hesitant.webp",
+        "bytes": 764064,
+        "sha256": "e6b1d49e1a239ea99f95022cba84bd1ba44a452c838b18579d207fbccaffe54f",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2090810,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-serious.png",
+        "bytes": 1729742,
+        "sha256": "ac71699d27dc76d7c0a2bcfeed61bd56d30c033043150e7081b6562d56f50aa5"
+      },
+      "webp": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-serious.webp",
+        "bytes": 739990,
+        "sha256": "1bed64f2586cc3633098aeef862046dc6d7b970d71f872adb71c8060008cef44",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2101500,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-smile.png",
+        "bytes": 1727276,
+        "sha256": "69f0292995c00bc675ecd5875dc44106dfa26db27045dcf1ff0cec9ff58cf7c9"
+      },
+      "webp": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-smile.webp",
+        "bytes": 737200,
+        "sha256": "5704ec0c670226e7c4ae80aa952994c3d100c088c7648c221156f08515923a92",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2072449,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-surprised.png",
+        "bytes": 1746601,
+        "sha256": "b6b6d04604afec6f5f648008969bc8880a91ecf5817daf14aa461c18c1841876"
+      },
+      "webp": {
+        "path": "assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-surprised.webp",
+        "bytes": 753030,
+        "sha256": "6fde30da9c295969b490e685cc3130dac9aa5054ae0e459bd79189228f968bae",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2087261,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/maolang-photo-options-20261020/option-A-photo-faithful.png",
+        "bytes": 1829445,
+        "sha256": "6dfe6b07e67111900d45425be34ee25b0cdbf423d06362c5ea97096bf1265299"
+      },
+      "webp": {
+        "path": "assets/character-variants/maolang-photo-options-20261020/option-A-photo-faithful.webp",
+        "bytes": 822538,
+        "sha256": "b68717f7fa67a8b68dfa633cd80832aa3a1667febf74883243153577b0f44c30",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1826335,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/maolang-photo-options-20261020/option-B-vn-expressive.png",
+        "bytes": 1923840,
+        "sha256": "a55d38f8e4fce09777fa8a2047beb663993b160b298b8b37b6ac5559d894625f"
+      },
+      "webp": {
+        "path": "assets/character-variants/maolang-photo-options-20261020/option-B-vn-expressive.webp",
+        "bytes": 859068,
+        "sha256": "4fb9ca207571a7788329a10fedb09186032ebb083175b28e86dfd2b10fba1ffb",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1854561,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/maolang-photo2-options-20261020/option-C-microphone.png",
+        "bytes": 1808502,
+        "sha256": "eccdbfaa453d8e2bc58dcdbee72ff077d3dd3b04e2d1fb972439aa5ce4e04af1"
+      },
+      "webp": {
+        "path": "assets/character-variants/maolang-photo2-options-20261020/option-C-microphone.webp",
+        "bytes": 795096,
+        "sha256": "426f8b78782323adaa83ef6c7ed142cb9735e063da08d05e27bb08376f6d9820",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2134804,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/maolang-photo2-options-20261020/option-D-dialogue-stance.png",
+        "bytes": 1700282,
+        "sha256": "1b6302e8c1fb95eb104cd645ab7fdc638ff0c30ed83b43779acdb61b1cc3006c"
+      },
+      "webp": {
+        "path": "assets/character-variants/maolang-photo2-options-20261020/option-D-dialogue-stance.webp",
+        "bytes": 730662,
+        "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2084916,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/mengyao-face-v2-candidate.png",
+        "bytes": 2140620,
+        "sha256": "2dd0f78048ed0a8f67438838c27174df94c5d275ed54a4a050ae5c4fdfc98ee9"
+      },
+      "webp": {
+        "path": "assets/character-variants/mengyao-face-v2-candidate.webp",
+        "bytes": 993208,
+        "sha256": "19740a8e75758a332bf7ee2de0744174493c6610735b175ade5bc0fb84afb0ab",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1966856,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/mengyao-v1-original.png",
+        "bytes": 2209681,
+        "sha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6"
+      },
+      "webp": {
+        "path": "assets/character-variants/mengyao-v1-original.webp",
+        "bytes": 1088088,
+        "sha256": "c619b6cd255fdc8cf0b5c9843747b2bca196d7cde6ff0c596aa498f416a296b6",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1948559,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-explaining.png",
+        "bytes": 1737209,
+        "sha256": "3119053c176305cd377581298eaee1770e59d8d49ca19ff6ba036cbd3e6d9536"
+      },
+      "webp": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-explaining.webp",
+        "bytes": 725906,
+        "sha256": "2cf905d8a48d2ca8e0b4a876c22a72789ee506ab2c66f08de801077ffb159238",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2161019,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-thinking.png",
+        "bytes": 1701347,
+        "sha256": "cc21a362d7e3d603569eefabd61fafe15cecea56d88ac306c8124649c1d22d20"
+      },
+      "webp": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-thinking.webp",
+        "bytes": 699240,
+        "sha256": "71abe11bb98fb387e3cec1fc756f02d080d0b6f120c969f3425841d89e6fbc7d",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2141191,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-wave.png",
+        "bytes": 1783463,
+        "sha256": "b5daee1f1d2276abacf1162c374c5af3ed7afd29100a41509d07ad14a2279a27"
+      },
+      "webp": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-wave.webp",
+        "bytes": 754774,
+        "sha256": "1384bb3e03126e7f0ad435dd7dc82fce638ac5ef4d3cfa2bcbd5f26c5ea0e05c",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2156425,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-base.png",
+        "bytes": 1743396,
+        "sha256": "8fd8b8c0f59e0321dca419d22c18525893ccd74fc8f4deabe6a5c38f851e3f9b"
+      },
+      "webp": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-base.webp",
+        "bytes": 716636,
+        "sha256": "b28422dabd0a4d3eb2ad7a34f832104bae4884ecb93bd45eb0d80e9c17a70331",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2132032,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-displeased.png",
+        "bytes": 1733929,
+        "sha256": "8a6c4f152a6f24022c0c096f34f44aa088e4929cad56ce9ff50df55166375113"
+      },
+      "webp": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-displeased.webp",
+        "bytes": 714078,
+        "sha256": "22106363272c16bac15ab480e1d5d7404e4a2dbacb6c9d87a37f4adf3fe679b1",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2152540,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.png",
+        "bytes": 1714700,
+        "sha256": "53a3c303f5bf797f3d5e9a6da7feed1a68e314057c5d71edb44602d93b2a2cb3"
+      },
+      "webp": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.webp",
+        "bytes": 704186,
+        "sha256": "4ba3d09a6f0d46c156b7ba278388b9228a8e2c00ba30e398de3f8b46872965e5",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2055892,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.png",
+        "bytes": 1713205,
+        "sha256": "8b8b1ebc9fb997c9a367c216375f502fc5f87dd8965e42c0228ca5e4c8c8df6b"
+      },
+      "webp": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+        "bytes": 701286,
+        "sha256": "9bb08999a38861d259fa6fd29458fb1b58e03425a2fa50533634280e9e90e831",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2145764,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.png",
+        "bytes": 1728340,
+        "sha256": "bc5ebcf28f7dee480141be2acca34821b575e2e31533d977437cd825af3170cf"
+      },
+      "webp": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.webp",
+        "bytes": 700748,
+        "sha256": "ea955ceb6b2301825e391ca636d343145753b7451e20d6229d5935b90139486f",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2158060,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.png",
+        "bytes": 1723413,
+        "sha256": "fba298b4c572bb6d9293f0fef2f5dbc865ae44a9156eefcd86db0e03ec5c4b6b"
+      },
+      "webp": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+        "bytes": 705920,
+        "sha256": "6d2661f9fd7c8551cb1dace16519ffcc220c23e5c69693103538cfe57ba612b0",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2159390,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-surprised.png",
+        "bytes": 1731259,
+        "sha256": "c49627dfb66433258082197dfb18aeeabf068021e65b2eb779de7a91034a81ba"
+      },
+      "webp": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-surprised.webp",
+        "bytes": 712368,
+        "sha256": "fa89fa31ccf2e075209da840012fe044142876ce8ed6d21f6c0d408a2c6cd851",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2299179,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/piao-photo-options-20261020/option-A-long-hair.png",
+        "bytes": 2449021,
+        "sha256": "9238f6515a7d185ad60b4949f7ad0e403503991f36154894cad98ccb7a164112"
+      },
+      "webp": {
+        "path": "assets/character-variants/piao-photo-options-20261020/option-A-long-hair.webp",
+        "bytes": 1251152,
+        "sha256": "7eaf7b1b03e9062887cd0b08bd91c828d74de172aca52b4af9854fcf3d67e2c0",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1765689,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/piao-photo-options-20261020/option-B-low-ponytail.png",
+        "bytes": 1798715,
+        "sha256": "5f387c716defb394ad420651190e6e465b0a27da3edd0ca262b4e05b7f6a0ab9"
+      },
+      "webp": {
+        "path": "assets/character-variants/piao-photo-options-20261020/option-B-low-ponytail.webp",
+        "bytes": 758262,
+        "sha256": "e493d5409bae664f7471c66fa95ad79341642f2b0874dce6b43df44bc01ccc66",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2110203,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/cg09-shijiang-optionA.png",
+        "bytes": 2273328,
+        "sha256": "a0984f00a9fa9f74923c95afbf1fb165fdc5435d08d568fc7b30dcaab04ef92a"
+      },
+      "webp": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/cg09-shijiang-optionA.webp",
+        "bytes": 1619248,
+        "sha256": "cbe9fd54d1244e0517311fa91c775cb44f592c3e9994142c85c16cfa3081fac6",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.png",
+        "bytes": 1974302,
+        "sha256": "5eb68e45445e161189ab5bf1e74afc63e9104ef986da89c3bc89526e2d854177"
+      },
+      "webp": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.webp",
+        "bytes": 864166,
+        "sha256": "15fc44f1743fc0ed2bdaa22b7cce7a56cdbcd27c1ceb55b11bce3ce322281deb",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2031402,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-phone.png",
+        "bytes": 2001907,
+        "sha256": "aa878ad187fefaacd4e6d3181fde8916f93f80948580a795b723daecf5a6b292"
+      },
+      "webp": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-phone.webp",
+        "bytes": 881748,
+        "sha256": "b8329f02e41974d283676fd629dc23acb6b7eae2dc51621e6d12025bd4eb73f7",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2055022,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.png",
+        "bytes": 1979683,
+        "sha256": "f9372732973ae4d755bff0503462ea4e394d211002918cf73017b51e6cb05a34"
+      },
+      "webp": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.webp",
+        "bytes": 865472,
+        "sha256": "22ab051c12a15850ff3611598104e6c411001afdfaa18708a0aa257c763a458c",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2073984,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-wave.png",
+        "bytes": 2003262,
+        "sha256": "c4935048b8102a677c6f37ecd2a48cbb28abd3607d973a63d94352e66d88ab67"
+      },
+      "webp": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-wave.webp",
+        "bytes": 883208,
+        "sha256": "618e3f0ae05fb68645aa22cf5b8dd3028e2a17c54de159aa44a3ce3c31d01ae3",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2037721,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-displeased.png",
+        "bytes": 1957774,
+        "sha256": "928b0e76a6ab93c03c1c28db3700cc8662465a6a43cdccc31f4558fb2ee3ccb2"
+      },
+      "webp": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-displeased.webp",
+        "bytes": 869588,
+        "sha256": "2521076c0c2824725c713032de566f3777630a6363d9076b2d5904e16b35e67c",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1924704,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-downcast.png",
+        "bytes": 1957138,
+        "sha256": "de8295898974c495558a7bbad8e845776b404307baee289334bae07619382bac"
+      },
+      "webp": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-downcast.webp",
+        "bytes": 867818,
+        "sha256": "5e89d2f0fb071f3f844d444877fe490fa92848af8de6c27390f14e08555ebde6",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1937163,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-hesitant.png",
+        "bytes": 1963611,
+        "sha256": "586b7fca8dff496d7bd5811cccf3c4e3e1ce8a0e17106369234c05a1040e0d0a"
+      },
+      "webp": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-hesitant.webp",
+        "bytes": 871542,
+        "sha256": "86140f606a2c669fa62f4b62cf956e166c4b046e94502c8b425d3c9757f983ee",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1923703,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.png",
+        "bytes": 1996202,
+        "sha256": "8888ac0dd387444cded362eea27a3ef22a361f6327e48eb47b3f8168201c26af"
+      },
+      "webp": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.webp",
+        "bytes": 900014,
+        "sha256": "e4399ca942e6bc20bf5e2c6391de95a115bcb59c4320d0c10eea99d953c1352f",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1929334,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.png",
+        "bytes": 1982798,
+        "sha256": "e43b52d5a2ed63ed4c2afb31bff13f006c809922329f7c353a09c5511aa074b4"
+      },
+      "webp": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp",
+        "bytes": 885086,
+        "sha256": "46d040efebffd1f356fed0773e317e9eb6654e9356c2e4800a42a388e9d6259f",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1928302,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-surprised.png",
+        "bytes": 2026042,
+        "sha256": "11d44a959fd94dfe57ec327b6079d692820e85586b2c13b3c1ffc79321c6810f"
+      },
+      "webp": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-surprised.webp",
+        "bytes": 918680,
+        "sha256": "d7a6fdbce4d39eec19fe193fdb9a699616439ddce5da65eda3337103ff82ad7f",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1912379,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/shijiang-photo-options-20261020/option-A-photo-faithful.png",
+        "bytes": 2033251,
+        "sha256": "391b5acd4b59bd93fcefc8c22c367d60be3faec8eb946a3635db38ee821eeed0"
+      },
+      "webp": {
+        "path": "assets/character-variants/shijiang-photo-options-20261020/option-A-photo-faithful.webp",
+        "bytes": 932076,
+        "sha256": "286042deb9ae765c377f69285824c8ca4e2a7a23ba8af960cbaf413747fc207c",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1907073,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/shijiang-photo-options-20261020/option-B-repair-workwear.png",
+        "bytes": 1996772,
+        "sha256": "8c4afb8753a610e1da52d0ae751de27dc32acfa831b226515c77fa42080c2bdd"
+      },
+      "webp": {
+        "path": "assets/character-variants/shijiang-photo-options-20261020/option-B-repair-workwear.webp",
+        "bytes": 955628,
+        "sha256": "8dc52926fb0d5e9c043bd1e95a76467a7254697e1253d6b4691e579e5ead14c7",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1699834,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/xiaoman-face-v2-candidate.png",
+        "bytes": 2317566,
+        "sha256": "a576591f1b2a93c0c20eae946085ff3b1f404f143055a49dee6871f995d76a70"
+      },
+      "webp": {
+        "path": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+        "bytes": 1186548,
+        "sha256": "1be5cc691cd5948cebc281714b4b94ab2f9ba5b44794f6039e488c67fe5c491c",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1577603,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/xiaoman-v1-original.png",
+        "bytes": 2323438,
+        "sha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3"
+      },
+      "webp": {
+        "path": "assets/character-variants/xiaoman-v1-original.webp",
+        "bytes": 1226000,
+        "sha256": "19d1263afb2a132681c23fc43539951b404c9da1b3329555951361deb562ce0e",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1574672,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/yelan-face-v2-candidate.png",
+        "bytes": 1834827,
+        "sha256": "d7ffa93d04c7bf990d93c3e5f04b8e8bb30ff006b4afe6207e2c21205827e209"
+      },
+      "webp": {
+        "path": "assets/character-variants/yelan-face-v2-candidate.webp",
+        "bytes": 847506,
+        "sha256": "9672425d2f9fac472a9bf881459a681078419eab4b80a9618ada5f3a08ac57b9",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1669912,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/yelan-v1-original.png",
+        "bytes": 1835417,
+        "sha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496"
+      },
+      "webp": {
+        "path": "assets/character-variants/yelan-v1-original.webp",
+        "bytes": 873818,
+        "sha256": "ed26224bb492cc4a48e5aae187b88fc8967e95a2f0b1d452b0898bf815e68bba",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1683287,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/zhouzhi-face-v2-candidate.png",
+        "bytes": 1853389,
+        "sha256": "788536cfc207f37002818a3dcd973bbbb2d57a0b8dec701931dea237c8a790d8"
+      },
+      "webp": {
+        "path": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+        "bytes": 839198,
+        "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1905046,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/character-variants/zhouzhi-v1-original.png",
+        "bytes": 1902928,
+        "sha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f"
+      },
+      "webp": {
+        "path": "assets/character-variants/zhouzhi-v1-original.webp",
+        "bytes": 929236,
+        "sha256": "4a27151002d0c681be401f07e0f1a1762b95addfa1e141046e0118d0ec1a8d3a",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1906018,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cover-b-desktop.png",
+        "bytes": 2627244,
+        "sha256": "2041710ae3b577e40e8664c5a9b452240d7ce0d095279155ac1875c5b6ab33d2"
+      },
+      "webp": {
+        "path": "assets/cover-b-desktop.webp",
+        "bytes": 1891554,
+        "sha256": "c36cac65c8f0c26ac8d3fbf2b8e7c7df614c68cfddecb26e4e21ac2905f64a4b",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cover-b-mobile.png",
+        "bytes": 2757780,
+        "sha256": "bfb2d5786fd9c074601ccfb7a1ee617eea51493317aaf7bc59c3c04f22830c81"
+      },
+      "webp": {
+        "path": "assets/cover-b-mobile.webp",
+        "bytes": 2048826,
+        "sha256": "8cdc091c775ed40ece56227ddbdd9a48a5bf2332f7c4b866c21e7f60c1c0d13f",
+        "width": 941,
+        "height": 1672,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cover-options/20261020/option-A-rainy-market.png",
+        "bytes": 2643045,
+        "sha256": "45ba7e741ffc4b942cc4812931301faba86f4d28f9a55c2b86fe79affc544f7a"
+      },
+      "webp": {
+        "path": "assets/cover-options/20261020/option-A-rainy-market.webp",
+        "bytes": 1951842,
+        "sha256": "eff8980e87e73f707148bb8c0900a94c69684ad779a27c8adc7dd379768bc11f",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cover-options/20261020/option-B-river-dusk.png",
+        "bytes": 2627244,
+        "sha256": "2041710ae3b577e40e8664c5a9b452240d7ce0d095279155ac1875c5b6ab33d2"
+      },
+      "webp": {
+        "path": "assets/cover-options/20261020/option-B-river-dusk.webp",
+        "bytes": 1891554,
+        "sha256": "c36cac65c8f0c26ac8d3fbf2b8e7c7df614c68cfddecb26e4e21ac2905f64a4b",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cover-options/20261020/option-C-green-courtyard.png",
+        "bytes": 2671410,
+        "sha256": "94ecc0e4644f445d56614788e565ff15d14e330ffcd594c99329933c734e5384"
+      },
+      "webp": {
+        "path": "assets/cover-options/20261020/option-C-green-courtyard.webp",
+        "bytes": 1920782,
+        "sha256": "9bdc64b878b398b5c1473e27091e5fba51f32800e113fdb074eb7431c90fa5d3",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cover-options/20261020/option-D-timber-rain.png",
+        "bytes": 2788653,
+        "sha256": "8e875019c057ae357e191cfab45f0af1e319e7fe8b789cc3048d51a1b622b1bf"
+      },
+      "webp": {
+        "path": "assets/cover-options/20261020/option-D-timber-rain.webp",
+        "bytes": 1992780,
+        "sha256": "b8b8ec7f90affd4eda25fda9887445cc43ab5eacd8b51deb031016aa74fb7ed6",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/cover-options/20261020/option-E-sloping-lane.png",
+        "bytes": 2672908,
+        "sha256": "00234d3a4553761a719b5eb43201c9f14a8b227924d9f1e2a7fad728b5dd34bc"
+      },
+      "webp": {
+        "path": "assets/cover-options/20261020/option-E-sloping-lane.webp",
+        "bytes": 1949280,
+        "sha256": "50357e2d6e81d330591f3d1b036f4e21890823297480f23216b5910d92cf03e9",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 0,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-explaining.png",
+        "bytes": 1436065,
+        "sha256": "9b189c77a07634ac91818d8ec2be5eaf936deba70fa44380e3826c85fc7dfdbe"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-explaining.webp",
+        "bytes": 868214,
+        "sha256": "36d4bc1bd925ba84a64adccd685f1f2234cf3cc96ed8c96a3854920a7a44647b",
+        "width": 1254,
+        "height": 1254,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 641203,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-thinking.png",
+        "bytes": 1174518,
+        "sha256": "93a754b45e871f9f31f8f19f359b2d01ef04478d953d4947156d7ca21dddb1b8"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-thinking.webp",
+        "bytes": 685542,
+        "sha256": "e900fb624e1c502ec38dd24f4270581b082965f5a86e587dba79c7588526124c",
+        "width": 1254,
+        "height": 1254,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 453319,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-wave.png",
+        "bytes": 1261527,
+        "sha256": "d4c5ab241a5849a90f23f972aa383a67aed3f7a0dc90b08651d21a39b062b9da"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-action-wave.webp",
+        "bytes": 735370,
+        "sha256": "5fd39e8e94b9f1b3d98de29b585ab2c981137b04b5114cc6cf3405898ec643b1",
+        "width": 1254,
+        "height": 1254,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 546820,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-displeased.png",
+        "bytes": 1330721,
+        "sha256": "7714f024bc313eb12521de9c2e3b057768cf5936bf59f4da4235f8756e30685a"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-displeased.webp",
+        "bytes": 800516,
+        "sha256": "27c6e9d00f36eb3ef00028b34932b69bffff4169a82098a8cddca0453593a5fe",
+        "width": 1254,
+        "height": 1254,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 467348,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-downcast.png",
+        "bytes": 1329711,
+        "sha256": "4f8add603a99bc94cf2c773297eab7b3e59a4b7728a83f287c566a537773052f"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-downcast.webp",
+        "bytes": 788756,
+        "sha256": "fbf7ddf3cbe77f2532bb06ee68d695c0313b93b3426b0195269ad4ba7a351930",
+        "width": 1254,
+        "height": 1254,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 670207,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.png",
+        "bytes": 1364321,
+        "sha256": "84e93a43e63e816d8b942991d0b02026492d2245d54de1d9de15e4dd8cabbb4f"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+        "bytes": 808730,
+        "sha256": "9664e4a971c4a8a08b7b47c49bc669a3d25632c3d5bb0c2ed324307e74fc7c9f",
+        "width": 1254,
+        "height": 1254,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 385314,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.png",
+        "bytes": 1281021,
+        "sha256": "40bba14a54428b8a6772793a46f45803877912465600c1f8096b95bc3e562a90"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+        "bytes": 744520,
+        "sha256": "08846f26ea6ee59dc8291f90497197c0bc8907386652c8903d9158b1a1bcac57",
+        "width": 1254,
+        "height": 1254,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 481462,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.png",
+        "bytes": 1296320,
+        "sha256": "d1303d347f0842ffe594d4b02d07490bc130a6073af872c54d9f7daf3a5fd063"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+        "bytes": 758926,
+        "sha256": "03c4cb0d38b786ba29d67ecf5a7940c14c7a06ed9596420c57980e3de4e8bf12",
+        "width": 1254,
+        "height": 1254,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 470778,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-surprised.png",
+        "bytes": 1325319,
+        "sha256": "c51b8646bb463624e3befea7c84e2e7b54791936bb6cf8d7b33b0bf876be5873"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-surprised.webp",
+        "bytes": 784904,
+        "sha256": "122156e76443c4634df7599a327a9dd7883acb38a2da21dddf0f3931dc9d1568",
+        "width": 1254,
+        "height": 1254,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 388830,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.png",
+        "bytes": 1694695,
+        "sha256": "a0e342fc91735cb4fa1b3caf36932b3147dcc0aa884869de9d64f11763238d65"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.webp",
+        "bytes": 710854,
+        "sha256": "9985035944f927cd0f4a2fd386d6c40809b3012464955b59e6a9d2073cd3084a",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2030559,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.png",
+        "bytes": 1689258,
+        "sha256": "19a7d81992b831b9d63199271cf7e3438be0c2e1c802d4fdc5a46fa426ab8a6c"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.webp",
+        "bytes": 709280,
+        "sha256": "051db72e7417b59930dad4ed1e7f2b6f74b8c740de1ce9c2153cca6549801734",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2054521,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.png",
+        "bytes": 1720094,
+        "sha256": "cf2643dd3affe296beff6289d3a2f824d9ace8ac5c8b8faf824aad5e6dd0c6e5"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.webp",
+        "bytes": 725538,
+        "sha256": "e6ce4fef0da70fee1d353a19d4c7fe9dd242ca5d2b8705b8c761d35406b35d66",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2122609,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.png",
+        "bytes": 1704641,
+        "sha256": "e0cf03cec9c50dae430978ca17cb9ab6c1dabe93542332244ba35eaf125cb624"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.webp",
+        "bytes": 725902,
+        "sha256": "8f528f4d50ee28862387623961ff35bb6efc9ae4a6810c57e7506e8149b830d1",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2090496,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.png",
+        "bytes": 1758518,
+        "sha256": "1e791d5a7b566633b97fe7c87be86105f11774bde8b7160c97ca5eec4d1c5274"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.webp",
+        "bytes": 761428,
+        "sha256": "678ffd7c22082caa2ee736ba1e37020ee3b28f16272ada5a91cf23592f809612",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2093522,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.png",
+        "bytes": 1770943,
+        "sha256": "1e3ff8b41dca7b48b059c4530aee2b57c3e6ea5124e5036a9b9769e346f69859"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+        "bytes": 764064,
+        "sha256": "e6b1d49e1a239ea99f95022cba84bd1ba44a452c838b18579d207fbccaffe54f",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2090810,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+        "bytes": 1729742,
+        "sha256": "ac71699d27dc76d7c0a2bcfeed61bd56d30c033043150e7081b6562d56f50aa5"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.webp",
+        "bytes": 739990,
+        "sha256": "1bed64f2586cc3633098aeef862046dc6d7b970d71f872adb71c8060008cef44",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2101500,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.png",
+        "bytes": 1727276,
+        "sha256": "69f0292995c00bc675ecd5875dc44106dfa26db27045dcf1ff0cec9ff58cf7c9"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+        "bytes": 737200,
+        "sha256": "5704ec0c670226e7c4ae80aa952994c3d100c088c7648c221156f08515923a92",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2072449,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.png",
+        "bytes": 1746601,
+        "sha256": "b6b6d04604afec6f5f648008969bc8880a91ecf5817daf14aa461c18c1841876"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.webp",
+        "bytes": 753030,
+        "sha256": "6fde30da9c295969b490e685cc3130dac9aa5054ae0e459bd79189228f968bae",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2087261,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-explaining.png",
+        "bytes": 1974302,
+        "sha256": "5eb68e45445e161189ab5bf1e74afc63e9104ef986da89c3bc89526e2d854177"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-explaining.webp",
+        "bytes": 864166,
+        "sha256": "15fc44f1743fc0ed2bdaa22b7cce7a56cdbcd27c1ceb55b11bce3ce322281deb",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2031402,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-phone.png",
+        "bytes": 2001907,
+        "sha256": "aa878ad187fefaacd4e6d3181fde8916f93f80948580a795b723daecf5a6b292"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-phone.webp",
+        "bytes": 881748,
+        "sha256": "b8329f02e41974d283676fd629dc23acb6b7eae2dc51621e6d12025bd4eb73f7",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2055022,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-thinking.png",
+        "bytes": 1979683,
+        "sha256": "f9372732973ae4d755bff0503462ea4e394d211002918cf73017b51e6cb05a34"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-thinking.webp",
+        "bytes": 865472,
+        "sha256": "22ab051c12a15850ff3611598104e6c411001afdfaa18708a0aa257c763a458c",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2073984,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-wave.png",
+        "bytes": 2003262,
+        "sha256": "c4935048b8102a677c6f37ecd2a48cbb28abd3607d973a63d94352e66d88ab67"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-wave.webp",
+        "bytes": 883208,
+        "sha256": "618e3f0ae05fb68645aa22cf5b8dd3028e2a17c54de159aa44a3ce3c31d01ae3",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 2037721,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-displeased.png",
+        "bytes": 1957774,
+        "sha256": "928b0e76a6ab93c03c1c28db3700cc8662465a6a43cdccc31f4558fb2ee3ccb2"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-displeased.webp",
+        "bytes": 869588,
+        "sha256": "2521076c0c2824725c713032de566f3777630a6363d9076b2d5904e16b35e67c",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1924704,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-downcast.png",
+        "bytes": 1957138,
+        "sha256": "de8295898974c495558a7bbad8e845776b404307baee289334bae07619382bac"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-downcast.webp",
+        "bytes": 867818,
+        "sha256": "5e89d2f0fb071f3f844d444877fe490fa92848af8de6c27390f14e08555ebde6",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1937163,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-hesitant.png",
+        "bytes": 1963611,
+        "sha256": "586b7fca8dff496d7bd5811cccf3c4e3e1ce8a0e17106369234c05a1040e0d0a"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-hesitant.webp",
+        "bytes": 871542,
+        "sha256": "86140f606a2c669fa62f4b62cf956e166c4b046e94502c8b425d3c9757f983ee",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1923703,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-serious.png",
+        "bytes": 1996202,
+        "sha256": "8888ac0dd387444cded362eea27a3ef22a361f6327e48eb47b3f8168201c26af"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-serious.webp",
+        "bytes": 900014,
+        "sha256": "e4399ca942e6bc20bf5e2c6391de95a115bcb59c4320d0c10eea99d953c1352f",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1929334,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-smile.png",
+        "bytes": 1982798,
+        "sha256": "e43b52d5a2ed63ed4c2afb31bff13f006c809922329f7c353a09c5511aa074b4"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-smile.webp",
+        "bytes": 885086,
+        "sha256": "46d040efebffd1f356fed0773e317e9eb6654e9356c2e4800a42a388e9d6259f",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1928302,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-surprised.png",
+        "bytes": 2026042,
+        "sha256": "11d44a959fd94dfe57ec327b6079d692820e85586b2c13b3c1ffc79321c6810f"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-surprised.webp",
+        "bytes": 918680,
+        "sha256": "d7a6fdbce4d39eec19fe193fdb9a699616439ddce5da65eda3337103ff82ad7f",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1912379,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/huangqiuqiu-v1.png",
+        "bytes": 1305412,
+        "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/huangqiuqiu-v1.webp",
+        "bytes": 768286,
+        "sha256": "ce01862d4078b2b091980575bbf728f30d3ce2044ac9b6f41643fb11a843b2de",
+        "width": 1254,
+        "height": 1254,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 740791,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/maolang-v1.png",
+        "bytes": 2091587,
+        "sha256": "52ddf5092e88a768a7103eb0e4b2527efaf4ce5c8dfd6b086aa17540278b8ce6"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/maolang-v1.webp",
+        "bytes": 1005718,
+        "sha256": "dd53b2a87b0e232d0406cc165c2746596f1713fd3f27dbdc8376f6b3dd975c7a",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1840954,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/maolang-v2.png",
+        "bytes": 2038141,
+        "sha256": "d554134d8bf022572c0c26b9d0db80bbf59ec227c3b5aab4ce61089ba2133a1c"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/maolang-v2.webp",
+        "bytes": 952490,
+        "sha256": "f9b5f334f5c7d394430ee04c58e690d48621cadabf624a333c447e643d37fbf1",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1846788,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/shijiang-v1.png",
+        "bytes": 1958472,
+        "sha256": "e7129efb6a41002a32a5092c51ef11f6d2357ff37b5e0641ea6327b143c399bc"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/shijiang-v1.webp",
+        "bytes": 985512,
+        "sha256": "e6ca67225dfcd07ebdfb065356cd16ec0524b19c7649fe872e1b0ec40d1ebfe0",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1790849,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/shijiang-v2.png",
+        "bytes": 1866836,
+        "sha256": "569dcc1e72d70d63f6c3d72d812ea9047a9ff18c76e8c0a0e87e4dd519dcf419"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/shijiang-v2.webp",
+        "bytes": 872380,
+        "sha256": "b9f30a03b4a638004de4c47e556bf5753ae576df4a473575049085169acb0989",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1791094,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    },
+    {
+      "source": {
+        "path": "assets/new-character-variants/shijiang-v3.png",
+        "bytes": 1825205,
+        "sha256": "a8e1bceb9dad767e2ec11c94f3977a9b8337a2abcbd6b47c4f6996e72e004b1c"
+      },
+      "webp": {
+        "path": "assets/new-character-variants/shijiang-v3.webp",
+        "bytes": 842182,
+        "sha256": "5f76ab0926b129f97832cd5530764d4ab44417ead525b4811058a61cf82d7f0e",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "dimensionsEqual": true,
+        "visiblePixelsEqual": true,
+        "alphaEqual": true,
+        "transparentRgbDifferences": 1772508,
+        "note": "仅完全透明像素下不可见 RGB 允许编码器归零；所有 alpha 和可见 RGB 逐值一致。"
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/qa-action-hands.png",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/qa-faces.png",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/qa-light-dark.png",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/qa-action-hands.png",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/qa-faces.png",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/qa-light-dark.png",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/character-variants/maolang-optionD-production-20261020/qa-expressions-1.jpg",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/character-variants/maolang-optionD-production-20261020/qa-expressions-2.jpg",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/character-variants/maolang-photo-options-20261020/qa-light-dark-details.jpg",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/character-variants/maolang-photo2-options-20261020/qa-light-dark-details.jpg",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/character-variants/maolang-photo2-options-20261020/reference-photo.jpg",
+      "reason": "原始参考照片"
+    },
+    {
+      "path": "assets/character-variants/piao-photo-options-20261020/qa-preview.png",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/qa-light-dark.png",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/character-variants/shijiang-photo-options-20261020/qa-light-dark-details.png",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/qa-explaining-full-light-dark.jpg",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/qa-light-dark.jpg",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/qa-expressions-faces.jpg",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/qa-light-dark.jpg",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/qa-expressions-faces.jpg",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/shijiang/qa-light-dark.jpg",
+      "reason": "历史验收拼图"
+    },
+    {
+      "path": "assets/references/huangqiuqiu-reference.jpg",
+      "reason": "原始参考照片"
+    },
+    {
+      "path": "assets/references/piao/photo-01.jpg",
+      "reason": "原始参考照片"
+    },
+    {
+      "path": "assets/references/piao/photo-02.jpg",
+      "reason": "原始参考照片"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "routes/piao",
+  "owner": "E06",
+  "scenes": {
+    "ts_c03_piao_sample": {
+      "chapter": 3,
+      "title": "没有采访提纲",
+      "bg": "sample-bg",
+      "time": "16:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "16:30"
+      },
+      "location": "巷口",
+      "day": 15,
+      "dayLabel": "第15天"
+    }
+  },
+  "nodes": {
+    "tc_c03_piao_entry": {
+      "id": "tc_c03_piao_entry",
+      "type": "line",
+      "scene": "ts_c03_piao_sample",
+      "speaker": "narrator",
+      "character": null,
+      "text": "飘站在巷口，低头看手机上的时间。我举起手，还没开口，她先说：“没迟到。你不用一来就解释。”",
+      "next": null
+    }
+  },
+  "imports": [],
+  "exports": {
+    "tc_c03_piao_entry": "tc_c03_piao_entry"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 699,
+      "endLine": 699,
+      "nodeIds": [
+        "tc_c03_piao_entry"
+      ],
+      "kind": "narration"
+    }
+  ],
+  "exclusions": [],
+  "assetRequests": [
+    "e01-art-ch03"
+  ]
+}

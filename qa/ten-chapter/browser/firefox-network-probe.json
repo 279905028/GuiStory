@@ -1,0 +1,31 @@
+{
+  "tests": [
+    {
+      "direct": false,
+      "route": false,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:63173/\", waiting until \"load\"\u001b[22m\n"
+    },
+    {
+      "direct": false,
+      "route": true,
+      "error": "page.goto: NS_ERROR_NET_ERROR_RESPONSE\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:63173/\", waiting until \"load\"\u001b[22m\n"
+    },
+    {
+      "direct": true,
+      "route": false,
+      "status": 200,
+      "title": "E10 localhost probe"
+    },
+    {
+      "direct": true,
+      "route": true,
+      "status": 200,
+      "title": "E10 localhost probe"
+    }
+  ],
+  "requests": [
+    "/",
+    "/favicon.ico",
+    "/"
+  ]
+}

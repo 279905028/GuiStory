@@ -1,0 +1,1454 @@
+{
+  "contract": "R2",
+  "date": "2026-10-19",
+  "method": "Isolated static HTML, audited CSS snapshot; no game/story/engine execution. Browser viewport simulations only.",
+  "captures": [
+    {
+      "key": "street",
+      "label": "desktop-static",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "file": "qa/art-backgrounds-street-desktop-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "bottom": 720,
+        "right": 1280
+      },
+      "dialogue": {
+        "x": 53.75,
+        "y": 453.265625,
+        "width": 1172.5,
+        "height": 241.546875,
+        "bottom": 694.8125,
+        "right": 1226.25
+      },
+      "characterElement": {
+        "x": 614.40625,
+        "y": 50.40625,
+        "width": 576,
+        "height": 597.59375,
+        "bottom": 648,
+        "right": 1190.40625
+      },
+      "avatar": {
+        "x": 93.140625,
+        "y": 484.984375,
+        "width": 97.265625,
+        "height": 119.03125,
+        "bottom": 604.015625,
+        "right": 190.40625
+      },
+      "choice": null,
+      "objectPosition": "50% 50%",
+      "textLength": 27,
+      "scrollHeight": 720
+    },
+    {
+      "key": "street",
+      "label": "mobile-current-static",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "qa/art-backgrounds-street-mobile-current-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844,
+        "right": 390
+      },
+      "dialogue": {
+        "x": 15.59375,
+        "y": 566.6875,
+        "width": 358.8125,
+        "height": 252,
+        "bottom": 818.6875,
+        "right": 374.40625
+      },
+      "characterElement": {
+        "x": 54.609375,
+        "y": 50.640625,
+        "width": 374.390625,
+        "height": 582.359375,
+        "bottom": 633,
+        "right": 429
+      },
+      "avatar": {
+        "x": 36.59375,
+        "y": 524.6875,
+        "width": 60,
+        "height": 70,
+        "bottom": 594.6875,
+        "right": 96.59375
+      },
+      "choice": null,
+      "objectPosition": "58% 50%",
+      "textLength": 27,
+      "scrollHeight": 844
+    },
+    {
+      "key": "street",
+      "label": "mobile-suggested-static",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "qa/art-backgrounds-street-mobile-suggested-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844,
+        "right": 390
+      },
+      "dialogue": {
+        "x": 15.59375,
+        "y": 566.6875,
+        "width": 358.8125,
+        "height": 252,
+        "bottom": 818.6875,
+        "right": 374.40625
+      },
+      "characterElement": {
+        "x": 54.609375,
+        "y": 50.640625,
+        "width": 374.390625,
+        "height": 582.359375,
+        "bottom": 633,
+        "right": 429
+      },
+      "avatar": {
+        "x": 36.59375,
+        "y": 524.6875,
+        "width": 60,
+        "height": 70,
+        "bottom": 594.6875,
+        "right": 96.59375
+      },
+      "choice": null,
+      "objectPosition": "36% 50%",
+      "textLength": 27,
+      "scrollHeight": 844
+    },
+    {
+      "key": "street",
+      "label": "mobile-compact-long-static",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "file": "qa/art-backgrounds-street-mobile-compact-long-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 667,
+        "bottom": 667,
+        "right": 375
+      },
+      "dialogue": {
+        "x": 15,
+        "y": 325.4375,
+        "width": 345,
+        "height": 321.5625,
+        "bottom": 647,
+        "right": 360
+      },
+      "characterElement": {
+        "x": 52.5,
+        "y": 40.03125,
+        "width": 360,
+        "height": 460.21875,
+        "bottom": 500.25,
+        "right": 412.5
+      },
+      "avatar": {
+        "x": 36,
+        "y": 283.4375,
+        "width": 60,
+        "height": 70,
+        "bottom": 353.4375,
+        "right": 96
+      },
+      "choice": null,
+      "objectPosition": "36% 50%",
+      "textLength": 95,
+      "scrollHeight": 667
+    },
+    {
+      "key": "repair",
+      "label": "desktop-static",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "file": "qa/art-backgrounds-repair-desktop-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "bottom": 720,
+        "right": 1280
+      },
+      "dialogue": {
+        "x": 53.75,
+        "y": 453.265625,
+        "width": 1172.5,
+        "height": 241.546875,
+        "bottom": 694.8125,
+        "right": 1226.25
+      },
+      "characterElement": {
+        "x": 614.40625,
+        "y": 50.40625,
+        "width": 576,
+        "height": 597.59375,
+        "bottom": 648,
+        "right": 1190.40625
+      },
+      "avatar": {
+        "x": 93.140625,
+        "y": 484.984375,
+        "width": 97.265625,
+        "height": 119.03125,
+        "bottom": 604.015625,
+        "right": 190.40625
+      },
+      "choice": null,
+      "objectPosition": "50% 50%",
+      "textLength": 27,
+      "scrollHeight": 720
+    },
+    {
+      "key": "repair",
+      "label": "mobile-current-static",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "qa/art-backgrounds-repair-mobile-current-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844,
+        "right": 390
+      },
+      "dialogue": {
+        "x": 15.59375,
+        "y": 566.6875,
+        "width": 358.8125,
+        "height": 252,
+        "bottom": 818.6875,
+        "right": 374.40625
+      },
+      "characterElement": {
+        "x": 54.609375,
+        "y": 50.640625,
+        "width": 374.390625,
+        "height": 582.359375,
+        "bottom": 633,
+        "right": 429
+      },
+      "avatar": {
+        "x": 36.59375,
+        "y": 524.6875,
+        "width": 60,
+        "height": 70,
+        "bottom": 594.6875,
+        "right": 96.59375
+      },
+      "choice": null,
+      "objectPosition": "58% 50%",
+      "textLength": 27,
+      "scrollHeight": 844
+    },
+    {
+      "key": "repair",
+      "label": "mobile-suggested-static",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "qa/art-backgrounds-repair-mobile-suggested-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844,
+        "right": 390
+      },
+      "dialogue": {
+        "x": 15.59375,
+        "y": 566.6875,
+        "width": 358.8125,
+        "height": 252,
+        "bottom": 818.6875,
+        "right": 374.40625
+      },
+      "characterElement": {
+        "x": 54.609375,
+        "y": 50.640625,
+        "width": 374.390625,
+        "height": 582.359375,
+        "bottom": 633,
+        "right": 429
+      },
+      "avatar": {
+        "x": 36.59375,
+        "y": 524.6875,
+        "width": 60,
+        "height": 70,
+        "bottom": 594.6875,
+        "right": 96.59375
+      },
+      "choice": null,
+      "objectPosition": "18% 50%",
+      "textLength": 27,
+      "scrollHeight": 844
+    },
+    {
+      "key": "repair",
+      "label": "mobile-compact-long-static",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "file": "qa/art-backgrounds-repair-mobile-compact-long-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 667,
+        "bottom": 667,
+        "right": 375
+      },
+      "dialogue": {
+        "x": 15,
+        "y": 325.4375,
+        "width": 345,
+        "height": 321.5625,
+        "bottom": 647,
+        "right": 360
+      },
+      "characterElement": {
+        "x": 52.5,
+        "y": 40.03125,
+        "width": 360,
+        "height": 460.21875,
+        "bottom": 500.25,
+        "right": 412.5
+      },
+      "avatar": {
+        "x": 36,
+        "y": 283.4375,
+        "width": 60,
+        "height": 70,
+        "bottom": 353.4375,
+        "right": 96
+      },
+      "choice": null,
+      "objectPosition": "18% 50%",
+      "textLength": 95,
+      "scrollHeight": 667
+    },
+    {
+      "key": "lobby",
+      "label": "desktop-static",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "file": "qa/art-backgrounds-lobby-desktop-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "bottom": 720,
+        "right": 1280
+      },
+      "dialogue": {
+        "x": 53.75,
+        "y": 453.265625,
+        "width": 1172.5,
+        "height": 241.546875,
+        "bottom": 694.8125,
+        "right": 1226.25
+      },
+      "characterElement": {
+        "x": 614.40625,
+        "y": 50.40625,
+        "width": 576,
+        "height": 597.59375,
+        "bottom": 648,
+        "right": 1190.40625
+      },
+      "avatar": {
+        "x": 93.140625,
+        "y": 484.984375,
+        "width": 97.265625,
+        "height": 119.03125,
+        "bottom": 604.015625,
+        "right": 190.40625
+      },
+      "choice": null,
+      "objectPosition": "50% 50%",
+      "textLength": 27,
+      "scrollHeight": 720
+    },
+    {
+      "key": "lobby",
+      "label": "mobile-current-static",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "qa/art-backgrounds-lobby-mobile-current-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844,
+        "right": 390
+      },
+      "dialogue": {
+        "x": 15.59375,
+        "y": 566.6875,
+        "width": 358.8125,
+        "height": 252,
+        "bottom": 818.6875,
+        "right": 374.40625
+      },
+      "characterElement": {
+        "x": 54.609375,
+        "y": 50.640625,
+        "width": 374.390625,
+        "height": 582.359375,
+        "bottom": 633,
+        "right": 429
+      },
+      "avatar": {
+        "x": 36.59375,
+        "y": 524.6875,
+        "width": 60,
+        "height": 70,
+        "bottom": 594.6875,
+        "right": 96.59375
+      },
+      "choice": null,
+      "objectPosition": "58% 50%",
+      "textLength": 27,
+      "scrollHeight": 844
+    },
+    {
+      "key": "lobby",
+      "label": "mobile-suggested-static",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "qa/art-backgrounds-lobby-mobile-suggested-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844,
+        "right": 390
+      },
+      "dialogue": {
+        "x": 15.59375,
+        "y": 566.6875,
+        "width": 358.8125,
+        "height": 252,
+        "bottom": 818.6875,
+        "right": 374.40625
+      },
+      "characterElement": {
+        "x": 54.609375,
+        "y": 50.640625,
+        "width": 374.390625,
+        "height": 582.359375,
+        "bottom": 633,
+        "right": 429
+      },
+      "avatar": {
+        "x": 36.59375,
+        "y": 524.6875,
+        "width": 60,
+        "height": 70,
+        "bottom": 594.6875,
+        "right": 96.59375
+      },
+      "choice": null,
+      "objectPosition": "35% 50%",
+      "textLength": 27,
+      "scrollHeight": 844
+    },
+    {
+      "key": "lobby",
+      "label": "mobile-compact-long-static",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "file": "qa/art-backgrounds-lobby-mobile-compact-long-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 667,
+        "bottom": 667,
+        "right": 375
+      },
+      "dialogue": {
+        "x": 15,
+        "y": 325.4375,
+        "width": 345,
+        "height": 321.5625,
+        "bottom": 647,
+        "right": 360
+      },
+      "characterElement": {
+        "x": 52.5,
+        "y": 40.03125,
+        "width": 360,
+        "height": 460.21875,
+        "bottom": 500.25,
+        "right": 412.5
+      },
+      "avatar": {
+        "x": 36,
+        "y": 283.4375,
+        "width": 60,
+        "height": 70,
+        "bottom": 353.4375,
+        "right": 96
+      },
+      "choice": null,
+      "objectPosition": "35% 50%",
+      "textLength": 95,
+      "scrollHeight": 667
+    },
+    {
+      "key": "room",
+      "label": "desktop-static",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "file": "qa/art-backgrounds-room-desktop-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "bottom": 720,
+        "right": 1280
+      },
+      "dialogue": {
+        "x": 53.75,
+        "y": 453.265625,
+        "width": 1172.5,
+        "height": 241.546875,
+        "bottom": 694.8125,
+        "right": 1226.25
+      },
+      "characterElement": {
+        "x": 614.40625,
+        "y": 50.40625,
+        "width": 576,
+        "height": 597.59375,
+        "bottom": 648,
+        "right": 1190.40625
+      },
+      "avatar": {
+        "x": 93.140625,
+        "y": 484.984375,
+        "width": 97.265625,
+        "height": 119.03125,
+        "bottom": 604.015625,
+        "right": 190.40625
+      },
+      "choice": null,
+      "objectPosition": "50% 50%",
+      "textLength": 27,
+      "scrollHeight": 720
+    },
+    {
+      "key": "room",
+      "label": "mobile-current-static",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "qa/art-backgrounds-room-mobile-current-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844,
+        "right": 390
+      },
+      "dialogue": {
+        "x": 15.59375,
+        "y": 566.6875,
+        "width": 358.8125,
+        "height": 252,
+        "bottom": 818.6875,
+        "right": 374.40625
+      },
+      "characterElement": {
+        "x": 54.609375,
+        "y": 50.640625,
+        "width": 374.390625,
+        "height": 582.359375,
+        "bottom": 633,
+        "right": 429
+      },
+      "avatar": {
+        "x": 36.59375,
+        "y": 524.6875,
+        "width": 60,
+        "height": 70,
+        "bottom": 594.6875,
+        "right": 96.59375
+      },
+      "choice": null,
+      "objectPosition": "58% 50%",
+      "textLength": 27,
+      "scrollHeight": 844
+    },
+    {
+      "key": "room",
+      "label": "mobile-suggested-static",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "qa/art-backgrounds-room-mobile-suggested-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844,
+        "right": 390
+      },
+      "dialogue": {
+        "x": 15.59375,
+        "y": 566.6875,
+        "width": 358.8125,
+        "height": 252,
+        "bottom": 818.6875,
+        "right": 374.40625
+      },
+      "characterElement": {
+        "x": 54.609375,
+        "y": 50.640625,
+        "width": 374.390625,
+        "height": 582.359375,
+        "bottom": 633,
+        "right": 429
+      },
+      "avatar": {
+        "x": 36.59375,
+        "y": 524.6875,
+        "width": 60,
+        "height": 70,
+        "bottom": 594.6875,
+        "right": 96.59375
+      },
+      "choice": null,
+      "objectPosition": "38% 50%",
+      "textLength": 27,
+      "scrollHeight": 844
+    },
+    {
+      "key": "room",
+      "label": "mobile-compact-long-static",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "file": "qa/art-backgrounds-room-mobile-compact-long-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 667,
+        "bottom": 667,
+        "right": 375
+      },
+      "dialogue": {
+        "x": 15,
+        "y": 325.4375,
+        "width": 345,
+        "height": 321.5625,
+        "bottom": 647,
+        "right": 360
+      },
+      "characterElement": {
+        "x": 52.5,
+        "y": 40.03125,
+        "width": 360,
+        "height": 460.21875,
+        "bottom": 500.25,
+        "right": 412.5
+      },
+      "avatar": {
+        "x": 36,
+        "y": 283.4375,
+        "width": 60,
+        "height": 70,
+        "bottom": 353.4375,
+        "right": 96
+      },
+      "choice": null,
+      "objectPosition": "38% 50%",
+      "textLength": 95,
+      "scrollHeight": 667
+    },
+    {
+      "key": "noodles",
+      "label": "desktop-static",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "file": "qa/art-backgrounds-noodles-desktop-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "bottom": 720,
+        "right": 1280
+      },
+      "dialogue": {
+        "x": 53.75,
+        "y": 453.265625,
+        "width": 1172.5,
+        "height": 241.546875,
+        "bottom": 694.8125,
+        "right": 1226.25
+      },
+      "characterElement": {
+        "x": 614.40625,
+        "y": 50.40625,
+        "width": 576,
+        "height": 597.59375,
+        "bottom": 648,
+        "right": 1190.40625
+      },
+      "avatar": {
+        "x": 93.140625,
+        "y": 484.984375,
+        "width": 97.265625,
+        "height": 119.03125,
+        "bottom": 604.015625,
+        "right": 190.40625
+      },
+      "choice": null,
+      "objectPosition": "50% 50%",
+      "textLength": 27,
+      "scrollHeight": 720
+    },
+    {
+      "key": "noodles",
+      "label": "mobile-current-static",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "qa/art-backgrounds-noodles-mobile-current-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844,
+        "right": 390
+      },
+      "dialogue": {
+        "x": 15.59375,
+        "y": 566.6875,
+        "width": 358.8125,
+        "height": 252,
+        "bottom": 818.6875,
+        "right": 374.40625
+      },
+      "characterElement": {
+        "x": 54.609375,
+        "y": 50.640625,
+        "width": 374.390625,
+        "height": 582.359375,
+        "bottom": 633,
+        "right": 429
+      },
+      "avatar": {
+        "x": 36.59375,
+        "y": 524.6875,
+        "width": 60,
+        "height": 70,
+        "bottom": 594.6875,
+        "right": 96.59375
+      },
+      "choice": null,
+      "objectPosition": "58% 50%",
+      "textLength": 27,
+      "scrollHeight": 844
+    },
+    {
+      "key": "noodles",
+      "label": "mobile-suggested-static",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "qa/art-backgrounds-noodles-mobile-suggested-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844,
+        "right": 390
+      },
+      "dialogue": {
+        "x": 15.59375,
+        "y": 566.6875,
+        "width": 358.8125,
+        "height": 252,
+        "bottom": 818.6875,
+        "right": 374.40625
+      },
+      "characterElement": {
+        "x": 54.609375,
+        "y": 50.640625,
+        "width": 374.390625,
+        "height": 582.359375,
+        "bottom": 633,
+        "right": 429
+      },
+      "avatar": {
+        "x": 36.59375,
+        "y": 524.6875,
+        "width": 60,
+        "height": 70,
+        "bottom": 594.6875,
+        "right": 96.59375
+      },
+      "choice": null,
+      "objectPosition": "18% 50%",
+      "textLength": 27,
+      "scrollHeight": 844
+    },
+    {
+      "key": "noodles",
+      "label": "mobile-compact-long-static",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "file": "qa/art-backgrounds-noodles-mobile-compact-long-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 667,
+        "bottom": 667,
+        "right": 375
+      },
+      "dialogue": {
+        "x": 15,
+        "y": 325.4375,
+        "width": 345,
+        "height": 321.5625,
+        "bottom": 647,
+        "right": 360
+      },
+      "characterElement": {
+        "x": 52.5,
+        "y": 40.03125,
+        "width": 360,
+        "height": 460.21875,
+        "bottom": 500.25,
+        "right": 412.5
+      },
+      "avatar": {
+        "x": 36,
+        "y": 283.4375,
+        "width": 60,
+        "height": 70,
+        "bottom": 353.4375,
+        "right": 96
+      },
+      "choice": null,
+      "objectPosition": "18% 50%",
+      "textLength": 95,
+      "scrollHeight": 667
+    },
+    {
+      "key": "salon",
+      "label": "desktop-static",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "file": "qa/art-backgrounds-salon-desktop-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "bottom": 720,
+        "right": 1280
+      },
+      "dialogue": {
+        "x": 53.75,
+        "y": 453.265625,
+        "width": 1172.5,
+        "height": 241.546875,
+        "bottom": 694.8125,
+        "right": 1226.25
+      },
+      "characterElement": {
+        "x": 614.40625,
+        "y": 50.40625,
+        "width": 576,
+        "height": 597.59375,
+        "bottom": 648,
+        "right": 1190.40625
+      },
+      "avatar": {
+        "x": 93.140625,
+        "y": 484.984375,
+        "width": 97.265625,
+        "height": 119.03125,
+        "bottom": 604.015625,
+        "right": 190.40625
+      },
+      "choice": null,
+      "objectPosition": "50% 50%",
+      "textLength": 27,
+      "scrollHeight": 720
+    },
+    {
+      "key": "salon",
+      "label": "mobile-current-static",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "qa/art-backgrounds-salon-mobile-current-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844,
+        "right": 390
+      },
+      "dialogue": {
+        "x": 15.59375,
+        "y": 566.6875,
+        "width": 358.8125,
+        "height": 252,
+        "bottom": 818.6875,
+        "right": 374.40625
+      },
+      "characterElement": {
+        "x": 54.609375,
+        "y": 50.640625,
+        "width": 374.390625,
+        "height": 582.359375,
+        "bottom": 633,
+        "right": 429
+      },
+      "avatar": {
+        "x": 36.59375,
+        "y": 524.6875,
+        "width": 60,
+        "height": 70,
+        "bottom": 594.6875,
+        "right": 96.59375
+      },
+      "choice": null,
+      "objectPosition": "58% 50%",
+      "textLength": 27,
+      "scrollHeight": 844
+    },
+    {
+      "key": "salon",
+      "label": "mobile-suggested-static",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "qa/art-backgrounds-salon-mobile-suggested-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844,
+        "right": 390
+      },
+      "dialogue": {
+        "x": 15.59375,
+        "y": 566.6875,
+        "width": 358.8125,
+        "height": 252,
+        "bottom": 818.6875,
+        "right": 374.40625
+      },
+      "characterElement": {
+        "x": 54.609375,
+        "y": 50.640625,
+        "width": 374.390625,
+        "height": 582.359375,
+        "bottom": 633,
+        "right": 429
+      },
+      "avatar": {
+        "x": 36.59375,
+        "y": 524.6875,
+        "width": 60,
+        "height": 70,
+        "bottom": 594.6875,
+        "right": 96.59375
+      },
+      "choice": null,
+      "objectPosition": "28% 50%",
+      "textLength": 27,
+      "scrollHeight": 844
+    },
+    {
+      "key": "salon",
+      "label": "mobile-compact-long-static",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "file": "qa/art-backgrounds-salon-mobile-compact-long-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 667,
+        "bottom": 667,
+        "right": 375
+      },
+      "dialogue": {
+        "x": 15,
+        "y": 325.4375,
+        "width": 345,
+        "height": 321.5625,
+        "bottom": 647,
+        "right": 360
+      },
+      "characterElement": {
+        "x": 52.5,
+        "y": 40.03125,
+        "width": 360,
+        "height": 460.21875,
+        "bottom": 500.25,
+        "right": 412.5
+      },
+      "avatar": {
+        "x": 36,
+        "y": 283.4375,
+        "width": 60,
+        "height": 70,
+        "bottom": 353.4375,
+        "right": 96
+      },
+      "choice": null,
+      "objectPosition": "28% 50%",
+      "textLength": 95,
+      "scrollHeight": 667
+    },
+    {
+      "key": "street",
+      "label": "title-desktop-static",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "file": "qa/art-backgrounds-street-title-desktop-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "bottom": 720,
+        "right": 1280
+      },
+      "dialogue": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "characterElement": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "avatar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "choice": null,
+      "objectPosition": "50% 50%",
+      "textLength": 27,
+      "scrollHeight": 720
+    },
+    {
+      "key": "street",
+      "label": "title-mobile-static",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "qa/art-backgrounds-street-title-mobile-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844,
+        "right": 390
+      },
+      "dialogue": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "characterElement": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "avatar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "choice": null,
+      "objectPosition": "36% 50%",
+      "textLength": 27,
+      "scrollHeight": 844
+    },
+    {
+      "key": "repair",
+      "label": "yellow-probe-desktop-static",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "file": "qa/art-backgrounds-repair-yellow-probe-desktop-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "bottom": 720,
+        "right": 1280
+      },
+      "dialogue": {
+        "x": 53.75,
+        "y": 453.265625,
+        "width": 1172.5,
+        "height": 241.546875,
+        "bottom": 694.8125,
+        "right": 1226.25
+      },
+      "characterElement": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "avatar": {
+        "x": 93.140625,
+        "y": 484.984375,
+        "width": 97.265625,
+        "height": 119.03125,
+        "bottom": 604.015625,
+        "right": 190.40625
+      },
+      "choice": null,
+      "objectPosition": "50% 50%",
+      "textLength": 27,
+      "scrollHeight": 720
+    },
+    {
+      "key": "repair",
+      "label": "yellow-probe-mobile-static",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "qa/art-backgrounds-repair-yellow-probe-mobile-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844,
+        "right": 390
+      },
+      "dialogue": {
+        "x": 15.59375,
+        "y": 566.6875,
+        "width": 358.8125,
+        "height": 252,
+        "bottom": 818.6875,
+        "right": 374.40625
+      },
+      "characterElement": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "avatar": {
+        "x": 36.59375,
+        "y": 524.6875,
+        "width": 60,
+        "height": 70,
+        "bottom": 594.6875,
+        "right": 96.59375
+      },
+      "choice": null,
+      "objectPosition": "18% 50%",
+      "textLength": 27,
+      "scrollHeight": 844
+    },
+    {
+      "key": "room",
+      "label": "yellow-probe-desktop-static",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "file": "qa/art-backgrounds-room-yellow-probe-desktop-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "bottom": 720,
+        "right": 1280
+      },
+      "dialogue": {
+        "x": 53.75,
+        "y": 453.265625,
+        "width": 1172.5,
+        "height": 241.546875,
+        "bottom": 694.8125,
+        "right": 1226.25
+      },
+      "characterElement": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "avatar": {
+        "x": 93.140625,
+        "y": 484.984375,
+        "width": 97.265625,
+        "height": 119.03125,
+        "bottom": 604.015625,
+        "right": 190.40625
+      },
+      "choice": null,
+      "objectPosition": "50% 50%",
+      "textLength": 27,
+      "scrollHeight": 720
+    },
+    {
+      "key": "room",
+      "label": "yellow-probe-mobile-static",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "file": "qa/art-backgrounds-room-yellow-probe-mobile-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844,
+        "right": 390
+      },
+      "dialogue": {
+        "x": 15.59375,
+        "y": 566.6875,
+        "width": 358.8125,
+        "height": 252,
+        "bottom": 818.6875,
+        "right": 374.40625
+      },
+      "characterElement": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "avatar": {
+        "x": 36.59375,
+        "y": 524.6875,
+        "width": 60,
+        "height": 70,
+        "bottom": 594.6875,
+        "right": 96.59375
+      },
+      "choice": null,
+      "objectPosition": "38% 50%",
+      "textLength": 27,
+      "scrollHeight": 844
+    },
+    {
+      "key": "street",
+      "label": "five-choices-compact-static",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "file": "qa/art-backgrounds-street-five-choices-compact-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 667,
+        "bottom": 667,
+        "right": 375
+      },
+      "dialogue": {
+        "x": 15,
+        "y": 325.4375,
+        "width": 345,
+        "height": 321.5625,
+        "bottom": 647,
+        "right": 360
+      },
+      "characterElement": {
+        "x": 52.5,
+        "y": 40.03125,
+        "width": 360,
+        "height": 460.21875,
+        "bottom": 500.25,
+        "right": 412.5
+      },
+      "avatar": {
+        "x": 36,
+        "y": 283.4375,
+        "width": 60,
+        "height": 70,
+        "bottom": 353.4375,
+        "right": 96
+      },
+      "choice": {
+        "x": 22.5,
+        "y": 100.046875,
+        "width": 330,
+        "height": 349.59375,
+        "bottom": 449.640625,
+        "right": 352.5
+      },
+      "objectPosition": "36% 50%",
+      "textLength": 95,
+      "scrollHeight": 667
+    },
+    {
+      "key": "room",
+      "label": "small-320-static",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "file": "qa/art-backgrounds-room-small-320-static.png",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 640,
+        "bottom": 640,
+        "right": 320
+      },
+      "dialogue": {
+        "x": 12.796875,
+        "y": 238.0625,
+        "width": 294.40625,
+        "height": 382.75,
+        "bottom": 620.8125,
+        "right": 307.203125
+      },
+      "characterElement": {
+        "x": 44.8125,
+        "y": 38.40625,
+        "width": 307.1875,
+        "height": 441.59375,
+        "bottom": 480,
+        "right": 352
+      },
+      "avatar": {
+        "x": 33.796875,
+        "y": 196.0625,
+        "width": 60,
+        "height": 70,
+        "bottom": 266.0625,
+        "right": 93.796875
+      },
+      "choice": null,
+      "objectPosition": "38% 50%",
+      "textLength": 95,
+      "scrollHeight": 640
+    }
+  ]
+}

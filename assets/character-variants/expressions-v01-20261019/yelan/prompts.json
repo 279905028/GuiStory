@@ -1,0 +1,144 @@
+{
+  "task": "expressions-v01-20261019",
+  "status": "candidate_not_integrated",
+  "tool": "image_gen.imagegen",
+  "skill": "game-character-gen + imagegen",
+  "character": "yelan",
+  "records": [
+    {
+      "key": "yelan",
+      "slug": "smile",
+      "zh": "微笑",
+      "kind": "expression",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. Edit supplied image as the sole identity and appearance reference. Preserve Yelan's exact adult 27-year-old identity, facial bone structure and proportions, dark hair in low bun with loose wisps, small gold earrings, charcoal suit jacket and trousers, taupe blouse, black belt and same dark clipboard held at her left side (viewer right). Adult semi-realistic Japanese illustration, same soft light. Change only facial expression; preserve original stance, right hand in pocket, left hand holding clipboard, body orientation and head-to-mid-thigh vertical framing. True transparent background with clean hair/clothing edges; no dark backdrop, haze, glow, scenery or shadow rectangle. No text, symbols, borders, additional objects or extra limbs. Facial expression: warm but restrained closed-mouth smile, mouth corners clearly yet subtly lifted, relaxed eyes and brows, composed adult demeanor.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/yelan-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-392d6608-dc09-4d0a-b1dd-08f7ee3edf15.png",
+      "output_filename": "char-yelan-expression-smile.png"
+    },
+    {
+      "key": "yelan",
+      "slug": "serious",
+      "zh": "认真",
+      "kind": "expression",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. Edit supplied image as the sole identity and appearance reference. Preserve Yelan's exact adult 27-year-old identity, facial bone structure and proportions, dark hair in low bun with loose wisps, small gold earrings, charcoal suit jacket and trousers, taupe blouse, black belt and same dark clipboard held at her left side (viewer right). Adult semi-realistic Japanese illustration, same soft light. Change only facial expression; preserve original stance, right hand in pocket, left hand holding clipboard, body orientation and head-to-mid-thigh vertical framing. True transparent background with clean hair/clothing edges; no dark backdrop, haze, glow, scenery or shadow rectangle. No text, symbols, borders, additional objects or extra limbs. Facial expression: serious focused attentiveness, lips closed and flat with no smile, slightly concentrated eyebrows, firm direct eye contact. Preserve exact face identity; not anger, not smirking.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/yelan-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-0190c221-23d9-4eb9-9e70-0aec9c27f898.png",
+      "output_filename": "char-yelan-expression-serious.png"
+    },
+    {
+      "key": "yelan",
+      "slug": "hesitant",
+      "zh": "犹豫",
+      "kind": "expression",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. Edit supplied image as the sole identity and appearance reference. Preserve Yelan's exact adult 27-year-old identity, facial bone structure and proportions, dark hair in low bun with loose wisps, small gold earrings, charcoal suit jacket and trousers, taupe blouse, black belt and same dark clipboard held at her left side (viewer right). Adult semi-realistic Japanese illustration, same soft light. Change only facial expression; preserve original stance, right hand in pocket, left hand holding clipboard, body orientation and head-to-mid-thigh vertical framing. True transparent background with clean hair/clothing edges; no dark backdrop, haze, glow, scenery or shadow rectangle. No text, symbols, borders, additional objects or extra limbs. Facial expression: visible hesitation, inner brows slightly raised and knitted, gaze subtly shifts aside, lips gently pressed without a smile. Composed adult uncertainty, not a cute pout.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/yelan-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-0e59fd2b-11b6-4c07-9a58-c2166e19f806.png",
+      "output_filename": "char-yelan-expression-hesitant.png"
+    },
+    {
+      "key": "yelan",
+      "slug": "surprised",
+      "zh": "惊讶",
+      "kind": "expression",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. Edit supplied image as sole identity and appearance reference. Preserve Yelan's exact adult 27-year-old identity, facial bone structure and proportions, dark hair in low bun with loose wisps, small gold earrings, charcoal suit jacket and trousers, taupe blouse, black belt and same dark clipboard held at her left side (viewer right). Adult semi-realistic Japanese illustration, same soft light. Change only facial expression; preserve original stance, right hand in pocket, left hand holding clipboard, body orientation and head-to-mid-thigh vertical framing. True transparent background with clean hair/clothing edges; no dark backdrop, haze, glow, scenery or shadow rectangle. No text, symbols, borders, additional objects or extra limbs. Facial expression: clearly surprised, eyebrows raised, eyes widened naturally, lips part in a small rounded opening. Keep adult composed character, do not make face childlike. No smile or cartoon symbols.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/yelan-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-2f2846bb-ead9-461f-8f72-6c39e880d69f.png",
+      "output_filename": "char-yelan-expression-surprised.png"
+    },
+    {
+      "key": "yelan",
+      "slug": "displeased",
+      "zh": "不悦",
+      "kind": "expression",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. Edit supplied image as sole identity and appearance reference. Preserve Yelan's exact adult 27-year-old identity, facial bone structure and proportions, dark hair in low bun with loose wisps, small gold earrings, charcoal suit jacket and trousers, taupe blouse, black belt and same dark clipboard held at her left side (viewer right). Adult semi-realistic Japanese illustration, same soft light. Change only facial expression; preserve original stance, right hand in pocket, left hand holding clipboard, body orientation and head-to-mid-thigh vertical framing. True transparent background with clean hair/clothing edges; no dark backdrop, haze, glow, scenery or shadow rectangle. No text, symbols, borders, additional objects or extra limbs. Facial expression: restrained displeasure, brows lowered and slightly drawn together, eyes firm and a little narrowed, lips pressed closed and mouth corners subtly downturned. Clearly not a smile. Adult controlled annoyance.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/yelan-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-b3b63d6c-dfe3-4c52-b36f-a373454c8992.png",
+      "output_filename": "char-yelan-expression-displeased.png"
+    },
+    {
+      "key": "yelan",
+      "slug": "downcast",
+      "zh": "低落",
+      "kind": "expression",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. Edit supplied image as sole identity and appearance reference. Preserve Yelan's exact adult 27-year-old identity, facial bone structure and proportions, dark hair in low bun with loose wisps, small gold earrings, charcoal suit jacket and trousers, taupe blouse, black belt and same dark clipboard held at her left side (viewer right). Adult semi-realistic Japanese illustration, same soft light. Change only facial expression; preserve original stance, right hand in pocket, left hand holding clipboard, body orientation and head-to-mid-thigh vertical framing. True transparent background with clean hair/clothing edges; no dark backdrop, haze, glow, scenery or shadow rectangle. No text, symbols, borders, additional objects or extra limbs. Facial expression: visibly downcast with quiet disappointment, gaze lowered slightly, upper lids lowered, inner brows lift with sadness, lips relaxed closed with corners lowered. No smile, no tears or added effects; head and body stance remain same.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/yelan-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-6fa92413-3813-42f4-a346-2373d4923a19.png",
+      "output_filename": "char-yelan-expression-downcast.png"
+    },
+    {
+      "key": "yelan",
+      "slug": "wave",
+      "zh": "招手",
+      "kind": "action",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. The supplied image is edit target and sole face/appearance reference. Preserve Yelan's exact adult 27-year-old identity, facial bone structure/proportions, dark hair in a low bun with loose wisps, gold stud earrings, charcoal suit jacket and trousers, taupe blouse, black belt, same dark clipboard held under her left arm/hand (viewer right). Soft original light, adult semi-realistic Japanese illustration. Single character head-through-mid-thigh vertical framing, entire head and hand gesture visible. True transparent background with clean hair/clothing edges, no existing backdrop or glow. No text, symbols, additional props or extra limbs. Change pose only as described; keep outfit, face, hairstyle and clipboard design unchanged. Action: small friendly greeting wave. Take her right hand (viewer left) out of trouser pocket and raise it beside shoulder, palm toward viewer with five natural separated fingers. Left hand continues to hold clipboard at her side (viewer right). Keep body angled same as reference. Relaxed restrained closed-mouth smile. Anatomically natural hand, wrist and elbow.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/yelan-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-c8d757e1-2399-4322-b670-f5daea593019.png",
+      "output_filename": "char-yelan-action-wave.png"
+    },
+    {
+      "key": "yelan",
+      "slug": "thinking",
+      "zh": "思考",
+      "kind": "action",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. The supplied image is edit target and sole face/appearance reference. Preserve Yelan's exact adult 27-year-old identity, facial bone structure/proportions, dark hair in a low bun with loose wisps, gold stud earrings, charcoal suit jacket and trousers, taupe blouse, black belt, same dark clipboard held under her left arm/hand (viewer right). Soft original light, adult semi-realistic Japanese illustration. Single character head-through-mid-thigh vertical framing, entire head and hand gesture visible. True transparent background with clean hair/clothing edges, no existing backdrop or glow. No text, symbols, additional props or extra limbs. Change pose only as described; keep outfit, face, hairstyle and clipboard design unchanged. Action: calm thinking. Take her right hand (viewer left) out of trouser pocket, bring the index finger lightly beside her chin and naturally curl the remaining fingers. Left hand continues to support clipboard at her side (viewer right). Face thoughtful and focused, lips closed without smile, gaze subtly aside. No face obstruction or finger fusion; natural shoulder/elbow alignment.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/yelan-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-1a061574-0bdd-420a-a1fb-df19c87f14d8.png",
+      "output_filename": "char-yelan-action-thinking.png"
+    },
+    {
+      "key": "yelan",
+      "slug": "explaining",
+      "zh": "解释",
+      "kind": "action",
+      "args": {
+        "prompt": "Use case: identity-preserve. Asset: transparent visual-novel character sprite for 《毕节，雨停之前》. The supplied image is edit target and sole face/appearance reference. Preserve Yelan's exact adult 27-year-old identity, facial bone structure/proportions, dark hair in a low bun with loose wisps, gold stud earrings, charcoal suit jacket and trousers, taupe blouse, black belt, same dark clipboard held under her left arm/hand (viewer right). Soft original light, adult semi-realistic Japanese illustration. Single character head-through-mid-thigh vertical framing, entire head and hand gesture visible. True transparent background with clean hair/clothing edges, no existing backdrop or glow. No text, symbols, additional props or extra limbs. Change pose only as described; keep outfit, face, hairstyle and clipboard design unchanged. Action: explaining a matter clearly and calmly. Take her right hand (viewer left) out of pocket and hold palm up slightly to the side at lower chest level, five fingers naturally grouped in an explanatory gesture. Left hand keeps the clipboard at her side (viewer right). Face attentive and serious, lips slightly parted as speaking, no broad smile. Keep clipboard visible and unchanged.",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/character-variants/yelan-face-v2-candidate.png"
+        ],
+        "transparent_background": true
+      },
+      "generated_original_path": "/Users/yipin/.codex/generated_images/01a15381-971d-7b02-b566-e4fd8ac2dc84/exec-92f36055-5aad-4360-83e8-1e5abd80a3f8.png",
+      "output_filename": "char-yelan-action-explaining.png"
+    }
+  ]
+}

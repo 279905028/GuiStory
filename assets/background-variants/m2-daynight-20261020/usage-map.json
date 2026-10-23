@@ -1,0 +1,3511 @@
+{
+  "schema_version": 1,
+  "revision": "M2-v01-daynight-20261020",
+  "date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "story_sha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+  "user_confirmed": "采用昼夜变体，后交E3接入；保留六背景键、场景时段和映射，不改剧情或工程。",
+  "background_keys": [
+    "street",
+    "repair",
+    "lobby",
+    "room",
+    "noodles",
+    "salon"
+  ],
+  "current_default_image_count": 6,
+  "target_runtime_image_count": 7,
+  "note": "前厅经当前节点核对仅s9下午使用，白天图直接成为固定默认图；旧前厅夜图仅归档，不加入当前运行计数。",
+  "effective_value_order": [
+    "scene = story.scenes[node.scene]",
+    "bg = node.bg ?? scene.bg",
+    "time = node.time ?? scene.time",
+    "先计算当前节点有效背景/时段，再选择图片；节点覆盖不向后继承"
+  ],
+  "defaults": {
+    "street": {
+      "path": "assets/bg-street.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 3010764,
+      "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "transparent_background": false
+    },
+    "repair": {
+      "path": "assets/bg-repair.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2370266,
+      "sha256": "14b00ead5390e93803ef16f82b38949dd464e901a9cf5b208bc1140cda0c3675",
+      "transparent_background": false
+    },
+    "lobby": {
+      "path": "assets/bg-lobby.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2158979,
+      "sha256": "2bc2954dd90394bdd0261f87b5372bdcf61b7cc41fdb7939d490dcf49f08a39f",
+      "transparent_background": false
+    },
+    "room": {
+      "path": "assets/bg-room.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 1968927,
+      "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+      "transparent_background": false
+    },
+    "noodles": {
+      "path": "assets/bg-noodles.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2528115,
+      "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+      "transparent_background": false
+    },
+    "salon": {
+      "path": "assets/bg-salon.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2571679,
+      "sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+      "transparent_background": false
+    }
+  },
+  "overrides": [
+    {
+      "background": "street",
+      "effective_times": [
+        "下午"
+      ],
+      "path": "assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+      "scenes": [
+        "s1",
+        "s7"
+      ],
+      "display_node_count": 40,
+      "meta": {
+        "path": "assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+        "width": 1671,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 3220000,
+        "sha256": "3cd546cd5eb5addd38e14b0d36c4176134b819cd2fb7503710ea1f87f29443ab",
+        "transparent_background": false
+      },
+      "status": "asset_ready_runtime_pending_E3"
+    }
+  ],
+  "night_preservation": {
+    "title": "assets/bg-street.png",
+    "street_times": [
+      "夜间",
+      "凌晨"
+    ],
+    "street_display_node_count": 103
+  },
+  "archive_only": [
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-lobby-original.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2260911,
+      "sha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871",
+      "transparent_background": false
+    },
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-repair-original.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2576047,
+      "sha256": "3b918a88c0d486575fa18d09afb70a37f9e1743257dd49ce1a44f72416e098aa",
+      "transparent_background": false
+    }
+  ],
+  "runtime_implementation": "未修改game.js；本JSON为交接清单，不会自动加载。不新增本地JSON fetch依赖；E3按既有离线普通脚本方式接入。",
+  "display_nodes": [
+    {
+      "id": "s1_arrive_01",
+      "type": "line",
+      "scene": "s1",
+      "day": 1,
+      "time": "下午",
+      "bg": "street",
+      "location": "毕节 · 老街坡口"
+    },
+    {
+      "id": "s1_arrive_02",
+      "type": "line",
+      "scene": "s1",
+      "day": 1,
+      "time": "下午",
+      "bg": "street",
+      "location": "毕节 · 老街坡口"
+    },
+    {
+      "id": "s1_arrive_03",
+      "type": "line",
+      "scene": "s1",
+      "day": 1,
+      "time": "下午",
+      "bg": "street",
+      "location": "毕节 · 老街坡口"
+    },
+    {
+      "id": "s1_arrive_04",
+      "type": "line",
+      "scene": "s1",
+      "day": 1,
+      "time": "下午",
+      "bg": "street",
+      "location": "毕节 · 老街坡口"
+    },
+    {
+      "id": "s1_arrive_05",
+      "type": "line",
+      "scene": "s1",
+      "day": 1,
+      "time": "下午",
+      "bg": "street",
+      "location": "毕节 · 老街坡口"
+    },
+    {
+      "id": "s1_arrive_06",
+      "type": "line",
+      "scene": "s1",
+      "day": 1,
+      "time": "下午",
+      "bg": "street",
+      "location": "毕节 · 老街坡口"
+    },
+    {
+      "id": "s1_arrive_07",
+      "type": "line",
+      "scene": "s1",
+      "day": 1,
+      "time": "下午",
+      "bg": "street",
+      "location": "毕节 · 老街坡口"
+    },
+    {
+      "id": "s1_arrive_08",
+      "type": "line",
+      "scene": "s1",
+      "day": 1,
+      "time": "下午",
+      "bg": "street",
+      "location": "毕节 · 老街坡口"
+    },
+    {
+      "id": "s1_arrive_09",
+      "type": "line",
+      "scene": "s1",
+      "day": 1,
+      "time": "下午",
+      "bg": "street",
+      "location": "毕节 · 老街坡口"
+    },
+    {
+      "id": "s1_arrive_10",
+      "type": "line",
+      "scene": "s1",
+      "day": 1,
+      "time": "下午",
+      "bg": "street",
+      "location": "毕节 · 老街坡口"
+    },
+    {
+      "id": "s1_arrive_11",
+      "type": "line",
+      "scene": "s1",
+      "day": 1,
+      "time": "下午",
+      "bg": "street",
+      "location": "毕节 · 老街坡口"
+    },
+    {
+      "id": "s1_arrive_12",
+      "type": "line",
+      "scene": "s1",
+      "day": 1,
+      "time": "下午",
+      "bg": "street",
+      "location": "毕节 · 老街坡口"
+    },
+    {
+      "id": "s2_counter_01",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_counter_02",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_counter_03",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_counter_04",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_counter_05",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_counter_06",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_counter_07",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_counter_08",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_counter_09",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_counter_10",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_counter_11",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_counter_12",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_counter_13",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_counter_14",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "h1",
+      "type": "choice",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_record_01",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_record_02",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_record_03",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_work_01",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_work_02",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_work_03",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_trial_01",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 试音包厢"
+    },
+    {
+      "id": "s2_trial_02",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 试音包厢"
+    },
+    {
+      "id": "s2_trial_03",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 试音包厢"
+    },
+    {
+      "id": "s2_trial_04",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 试音包厢"
+    },
+    {
+      "id": "s2_trial_05",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 试音包厢"
+    },
+    {
+      "id": "s2_trial_06",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 试音包厢"
+    },
+    {
+      "id": "s2_trial_07",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 试音包厢"
+    },
+    {
+      "id": "s2_trial_08",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 试音包厢"
+    },
+    {
+      "id": "s2_recruit_01",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_recruit_02",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_recruit_03",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_notes_01",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "repair",
+      "location": "师匠的维修柜台"
+    },
+    {
+      "id": "s2_trial_09",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 试音包厢"
+    },
+    {
+      "id": "s2_trial_10",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 试音包厢"
+    },
+    {
+      "id": "s2_trial_11",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 试音包厢"
+    },
+    {
+      "id": "s2_trial_12",
+      "type": "line",
+      "scene": "s2",
+      "day": 1,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 试音包厢"
+    },
+    {
+      "id": "s3_stall_01",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_stall_02",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_stall_03",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_stall_04",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_stall_05",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_stall_06",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_stall_07",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_stall_08",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_stall_09",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_stall_10",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_stall_11",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "c1",
+      "type": "choice",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_walk_01",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "street",
+      "location": "老街岔路口"
+    },
+    {
+      "id": "s3_walk_02",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "street",
+      "location": "老街岔路口"
+    },
+    {
+      "id": "s3_walk_03",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "street",
+      "location": "老街岔路口"
+    },
+    {
+      "id": "s3_walk_04",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "street",
+      "location": "老街岔路口"
+    },
+    {
+      "id": "s3_taxi_01",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_taxi_02",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_taxi_03",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_taxi_04",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_leave_01",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_leave_02",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_leave_03",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_leave_04",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_stall_12",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_stall_13",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_stall_14",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s3_walk_05",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "street",
+      "location": "老街岔路口"
+    },
+    {
+      "id": "s3_taxi_05",
+      "type": "line",
+      "scene": "s3",
+      "day": 3,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "老街夜宵摊"
+    },
+    {
+      "id": "s4_shift_01",
+      "type": "line",
+      "scene": "s4",
+      "day": 4,
+      "time": "凌晨",
+      "bg": "street",
+      "location": "回声门外"
+    },
+    {
+      "id": "s4_shift_02",
+      "type": "line",
+      "scene": "s4",
+      "day": 4,
+      "time": "凌晨",
+      "bg": "street",
+      "location": "回声门外"
+    },
+    {
+      "id": "s4_shift_03",
+      "type": "line",
+      "scene": "s4",
+      "day": 4,
+      "time": "凌晨",
+      "bg": "street",
+      "location": "回声门外"
+    },
+    {
+      "id": "s4_shift_04",
+      "type": "line",
+      "scene": "s4",
+      "day": 4,
+      "time": "凌晨",
+      "bg": "street",
+      "location": "回声门外"
+    },
+    {
+      "id": "s4_shift_05",
+      "type": "line",
+      "scene": "s4",
+      "day": 4,
+      "time": "凌晨",
+      "bg": "street",
+      "location": "回声门外"
+    },
+    {
+      "id": "s4_shift_06",
+      "type": "line",
+      "scene": "s4",
+      "day": 4,
+      "time": "凌晨",
+      "bg": "street",
+      "location": "回声门外"
+    },
+    {
+      "id": "s4_shift_07",
+      "type": "line",
+      "scene": "s4",
+      "day": 4,
+      "time": "凌晨",
+      "bg": "street",
+      "location": "回声门外"
+    },
+    {
+      "id": "s4_shift_08",
+      "type": "line",
+      "scene": "s4",
+      "day": 4,
+      "time": "凌晨",
+      "bg": "street",
+      "location": "回声门外"
+    },
+    {
+      "id": "c2",
+      "type": "choice",
+      "scene": "s4",
+      "day": 4,
+      "time": "凌晨",
+      "bg": "street",
+      "location": "回声门外"
+    },
+    {
+      "id": "s4_invite_01",
+      "type": "line",
+      "scene": "s4",
+      "day": 4,
+      "time": "凌晨",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s4_invite_02",
+      "type": "line",
+      "scene": "s4",
+      "day": 4,
+      "time": "凌晨",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s4_invite_03",
+      "type": "line",
+      "scene": "s4",
+      "day": 4,
+      "time": "凌晨",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s4_invite_04",
+      "type": "line",
+      "scene": "s4",
+      "day": 4,
+      "time": "凌晨",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s4_space_01",
+      "type": "line",
+      "scene": "s4",
+      "day": 4,
+      "time": "凌晨",
+      "bg": "street",
+      "location": "回声门外"
+    },
+    {
+      "id": "s4_space_02",
+      "type": "line",
+      "scene": "s4",
+      "day": 4,
+      "time": "凌晨",
+      "bg": "street",
+      "location": "回声门外"
+    },
+    {
+      "id": "s4_space_03",
+      "type": "line",
+      "scene": "s4",
+      "day": 4,
+      "time": "凌晨",
+      "bg": "street",
+      "location": "回声门外"
+    },
+    {
+      "id": "s4_space_04",
+      "type": "line",
+      "scene": "s4",
+      "day": 4,
+      "time": "凌晨",
+      "bg": "street",
+      "location": "回声门外"
+    },
+    {
+      "id": "s5_mirror_01",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_mirror_02",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_mirror_03",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_ride_walk_01",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_ride_walk_02",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_ride_taxi_01",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_ride_taxi_02",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_ride_leave_01",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_ride_leave_02",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_work_01",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_work_02",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_work_03",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_work_04",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "c3",
+      "type": "choice",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_portfolio_01",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_portfolio_02",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_portfolio_03",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_portfolio_04",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_model_01",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_model_02",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_model_03",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_model_04",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_portfolio_05",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_portfolio_06",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_portfolio_07",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_model_05",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_model_06",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_model_07",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s5_model_08",
+      "type": "line",
+      "scene": "s5",
+      "day": 5,
+      "time": "下午",
+      "bg": "salon",
+      "location": "罗小满工作的理发店"
+    },
+    {
+      "id": "s6_table_01",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s6_second_01",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s6_second_02",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s6_second_03",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s6_first_01",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s6_first_02",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s6_first_03",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s6_plan_01",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s6_plan_02",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s6_plan_03",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s6_plan_04",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s6_plan_05",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s6_plan_06",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s6_plan_07",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s6_plan_08",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s6_plan_09",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s6_plan_10",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s6_plan_11",
+      "type": "line",
+      "scene": "s6",
+      "day": 6,
+      "time": "夜间",
+      "bg": "noodles",
+      "location": "坡口面馆"
+    },
+    {
+      "id": "s7_camera_01",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_camera_02",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_camera_03",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_camera_04",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_camera_05",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_camera_06",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_camera_07",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_camera_08",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_camera_09",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_camera_10",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "c4",
+      "type": "choice",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_apologize_01",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_apologize_02",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_apologize_03",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_apologize_04",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_appointment_01",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_appointment_02",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_appointment_03",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_joke_01",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_joke_02",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_joke_03",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_joke_04",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_terms_01",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_terms_02",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_terms_03",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_appointment_04",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_appointment_05",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s7_joke_05",
+      "type": "line",
+      "scene": "s7",
+      "day": 7,
+      "time": "下午",
+      "bg": "street",
+      "location": "老街屋檐下"
+    },
+    {
+      "id": "s8_count_01",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_count_02",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_count_03",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_count_04",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_count_05",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_count_06",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_count_07",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_count_08",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_count_09",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "c5",
+      "type": "choice",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_full_01",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_full_02",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_full_03",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_full_04",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_limited_01",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_limited_02",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_limited_03",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_limited_04",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_handoff_01",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_handoff_02",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_handoff_03",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_handoff_04",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_handoff_05",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_handoff_06",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "h2",
+      "type": "choice",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_echo_record_01",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_echo_record_02",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_echo_record_03",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_echo_work_01",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_echo_work_02",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_finish_01",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_finish_02",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_finish_03",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_finish_04",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s8_hours_01",
+      "type": "line",
+      "scene": "s8",
+      "day": 8,
+      "time": "晚上",
+      "bg": "room",
+      "location": "回声 · 空包厢"
+    },
+    {
+      "id": "s9_prepare_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_prepare_02",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_prepare_03",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_prepare_04",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_prepare_05",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_ride_walk_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_ride_taxi_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_ride_leave_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_noodles_invite_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_noodles_invite_02",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_noodles_space_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_noodles_space_02",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_salon_portfolio_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_salon_model_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_reunion_apologize_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_reunion_apologize_02",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_reunion_appointment_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_reunion_appointment_02",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_reunion_joke_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_reunion_joke_02",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_inventory_full_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_inventory_full_02",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_inventory_limited_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_inventory_limited_02",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_compete_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_compete_02",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_compete_03",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_compete_04",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_compete_05",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_compete_06",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_compete_07",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_compete_08",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_compete_09",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_compete_10",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_compete_11",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_inventory_full_03",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_inventory_full_04",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_inventory_limited_03",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_review_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_review_02",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_review_03",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_review_04",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_review_05",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_adjust_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_adjust_02",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_noodles_invite_03",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_noodles_space_03",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_ready_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_ready_02",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_ready_03",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_ready_04",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_compete_12",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_compete_13",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_measure_01",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_measure_02",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_measure_03",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s9_measure_04",
+      "type": "line",
+      "scene": "s9",
+      "day": 10,
+      "time": "下午",
+      "bg": "lobby",
+      "location": "回声大厅"
+    },
+    {
+      "id": "s10_messages_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "s10_messages_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "s10_salon_portfolio_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "s10_salon_model_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "s10_zhouzhi_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "s10_zhouzhi_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "s10_reunion_apologize_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "s10_reunion_appointment_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "s10_reunion_joke_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "s10_yelan_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "s10_yelan_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "s10_anonymous_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "s10_anonymous_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "c6",
+      "type": "choice",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_xiaoman_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_xiaoman_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_xiaoman_03",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_xiaoman_04",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "end_xiaoman",
+      "type": "end",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_zhouzhi_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_zhouzhi_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_zhouzhi_03",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_zhouzhi_04",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "end_zhouzhi",
+      "type": "end",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "end_mengyao",
+      "type": "end",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_yelan_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_yelan_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_yelan_03",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_yelan_04",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "end_yelan",
+      "type": "end",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_qiu_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_03",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_04",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_05",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_06",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_07",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_08",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_09",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_10",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_11",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_12",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_13",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_14",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_15",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_16",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_17",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_18",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_19",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_20",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_21",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_22",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_23",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_24",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_25",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_26",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "preview_qiu_27",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "end_huangqiuqiu",
+      "type": "end",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢"
+    },
+    {
+      "id": "s10_messages_03",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_xiaoman_05",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_xiaoman_portfolio_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_xiaoman_portfolio_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_xiaoman_portfolio_03",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_xiaoman_portfolio_04",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_xiaoman_portfolio_05",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_xiaoman_portfolio_06",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_xiaoman_model_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_xiaoman_model_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_xiaoman_model_03",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_xiaoman_model_04",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_xiaoman_model_05",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_xiaoman_model_06",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_zhouzhi_05",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_zhouzhi_06",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_zhouzhi_07",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_zhouzhi_08",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_zhouzhi_invite_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_zhouzhi_invite_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_zhouzhi_space_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_zhouzhi_space_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_apologize_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_apologize_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_apologize_03",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_apologize_04",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_apologize_05",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_apologize_06",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_appointment_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_appointment_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_appointment_03",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_appointment_04",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_appointment_05",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_appointment_06",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_joke_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_joke_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_joke_03",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_joke_04",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_joke_05",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_mengyao_joke_06",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_yelan_05",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_yelan_06",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_yelan_07",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_yelan_08",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_yelan_09",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_yelan_10",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_yelan_11",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_yelan_full_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_yelan_full_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_yelan_full_03",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_yelan_limited_01",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_yelan_limited_02",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    },
+    {
+      "id": "preview_yelan_limited_03",
+      "type": "line",
+      "scene": "s10",
+      "day": 10,
+      "time": "夜间",
+      "bg": "street",
+      "location": "回声门外的屋檐"
+    }
+  ]
+}

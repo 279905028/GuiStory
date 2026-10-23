@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-22",
+  "scope": "A01清单结构、源文稿指纹、来源与映射、旧文件保护、文档链接检查；非A06或游戏验收",
+  "pass": true,
+  "failures": [],
+  "counts": {
+    "chapters": 10,
+    "routeChapterPairs": 56,
+    "cues": 180,
+    "assets": 130,
+    "byKind": {
+      "background": 53,
+      "character": 54,
+      "look": 11,
+      "ui": 2,
+      "cg": 10
+    },
+    "byAction": {
+      "reuse": 37,
+      "revise": 24,
+      "new": 68,
+      "pending": 1
+    },
+    "storyboards": 10,
+    "endings": 13,
+    "localLinks": 33,
+    "protectedFiles": 570,
+    "existingRuntimeAssets": 93
+  },
+  "protectedFilesUnchanged": false,
+  "unchangedProtectedFiles": 569,
+  "concurrentChanges": [
+    {
+      "path": "项目文档/故事/全十章审阅稿/README.md",
+      "unchanged": false,
+      "attributionEvidence": "任务拆分/全十章/交接/E01.md：更新十章README基线状态；A01未改写"
+    }
+  ],
+  "contract": {
+    "version": "1.0.0",
+    "contentRevision": "nightshift-20261022-r1",
+    "choicesMapped": 19,
+    "endingsMapped": 13
+  },
+  "notExecuted": [
+    "生图与图片编辑",
+    "WebP重新转换与逐像素复验",
+    "正式构建与节点绑定",
+    "游戏/浏览器/设备验收",
+    "发布"
+  ],
+  "environmentNote": "系统git因Xcode许可不可用；采用本轮开始时570个文件SHA256快照对比，未宣称Git差异检查通过"
+}

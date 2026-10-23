@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "mode": "candidate",
+  "modules": [
+    "common/ch01.json",
+    "common/ch02.json",
+    "common/ch03.json",
+    "common/ch04.json",
+    "common/ch05.json",
+    "common/ch06.json",
+    "common/ch07.json",
+    "common/ch08.json",
+    "common/ch09.json",
+    "common/ch10.json",
+    "routes/xiaoman.json",
+    "routes/zhouzhi.json",
+    "routes/mengyao.json",
+    "routes/yelan.json",
+    "routes/piao.json",
+    "routes/friends.json",
+    "routes/huangqiuqiu.json"
+  ],
+  "bindings": ["presentation/bindings.json"]
+}

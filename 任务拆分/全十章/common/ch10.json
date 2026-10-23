@@ -1,0 +1,677 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "common/ch10",
+  "owner": "E03",
+  "scenes": {
+    "ts_c10_common_daily_life": {
+      "chapter": 10,
+      "title": "两年后｜仍然要去上班的人",
+      "bg": "tc-bg-netcafe-counter-day",
+      "time": "两年后",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "两年后"
+      },
+      "location": "网吧柜台",
+      "day": null,
+      "dayLabel": "两年后"
+    },
+    "ts_c10_common_piao_dating_meal": {
+      "chapter": 10,
+      "title": "朋友饭局",
+      "bg": "tc-bg-food-day",
+      "time": "休班日",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "休班日"
+      },
+      "location": "朋友约饭小店",
+      "day": null,
+      "dayLabel": "两年后"
+    },
+    "ts_c10_common_piao_wedding": {
+      "chapter": 10,
+      "title": "飘与毛狼的婚宴",
+      "bg": "tc-bg-banquet-day",
+      "time": "婚宴当天",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present",
+        "clock": "婚宴当天"
+      },
+      "location": "普通小店婚宴",
+      "day": null,
+      "dayLabel": "两年后"
+    }
+  },
+  "nodes": {
+    "tc_c10_common_entry": {
+      "id": "tc_c10_common_entry",
+      "type": "line",
+      "scene": "ts_c10_common_daily_life",
+      "speaker": "narrator",
+      "text": "两年后，我还在那家网吧工作，已经习惯轮班。",
+      "character": null,
+      "next": "tc_c10_common_daily_life_02"
+    },
+    "tc_c10_common_daily_life_02": {
+      "id": "tc_c10_common_daily_life_02",
+      "type": "line",
+      "scene": "ts_c10_common_daily_life",
+      "speaker": "narrator",
+      "text": "柜台边的纸巾换过几次位置，师匠的眼镜盒却还是经常找不到。他会先问我，再摸自己口袋，大多数时候问题到这里结束。",
+      "character": null,
+      "next": "tc_c10_common_daily_life_03"
+    },
+    "tc_c10_common_daily_life_03": {
+      "id": "tc_c10_common_daily_life_03",
+      "type": "line",
+      "scene": "ts_c10_common_daily_life",
+      "speaker": "narrator",
+      "text": "毛狼的临时演出有忙有闲，不是什么突然出名的大主持。他说自己如今至少知道，名字不认识要先问，不能临上台赌运气。",
+      "character": null,
+      "next": "tc_c10_common_daily_life_04"
+    },
+    "tc_c10_common_daily_life_04": {
+      "id": "tc_c10_common_daily_life_04",
+      "type": "line",
+      "scene": "ts_c10_common_daily_life",
+      "speaker": "narrator",
+      "text": "我攒了一点钱，花掉过一些，也还没把所有未来想通。换班以后腾出来的日子，没有全拿去做大事。有时只是睡够、买菜，和约好的人坐一会儿。",
+      "character": null,
+      "next": "tc_c10_common_epilogue_route_gate"
+    },
+    "tc_c10_common_piao_dating": {
+      "id": "tc_c10_common_piao_dating",
+      "type": "line",
+      "scene": "ts_c10_common_piao_dating_meal",
+      "speaker": "narrator",
+      "text": "休班那天，毛狼约我们吃饭，到了才说店里换菜单了，他怕一个人点踩雷。",
+      "character": null,
+      "next": "tc_c10_common_piao_dating_02"
+    },
+    "tc_c10_common_piao_dating_02": {
+      "id": "tc_c10_common_piao_dating_02",
+      "type": "line",
+      "scene": "ts_c10_common_piao_dating_meal",
+      "speaker": "narrator",
+      "text": "飘把刚印好的第二版小册子给他看。他翻到最后，先问有没有把他写进去。",
+      "character": null,
+      "next": "tc_c10_common_piao_dating_03"
+    },
+    "tc_c10_common_piao_dating_03": {
+      "id": "tc_c10_common_piao_dating_03",
+      "type": "line",
+      "scene": "ts_c10_common_piao_dating_meal",
+      "speaker": "piao",
+      "text": "“有。”她说。",
+      "character": null,
+      "next": "tc_c10_common_piao_dating_04"
+    },
+    "tc_c10_common_piao_dating_04": {
+      "id": "tc_c10_common_piao_dating_04",
+      "type": "line",
+      "scene": "ts_c10_common_piao_dating_meal",
+      "speaker": "maolang",
+      "text": "“正面形象？”",
+      "character": null,
+      "next": "tc_c10_common_piao_dating_05"
+    },
+    "tc_c10_common_piao_dating_05": {
+      "id": "tc_c10_common_piao_dating_05",
+      "type": "line",
+      "scene": "ts_c10_common_piao_dating_meal",
+      "speaker": "piao",
+      "text": "“你迟到那次。”",
+      "character": null,
+      "next": "tc_c10_common_piao_dating_06"
+    },
+    "tc_c10_common_piao_dating_06": {
+      "id": "tc_c10_common_piao_dating_06",
+      "type": "line",
+      "scene": "ts_c10_common_piao_dating_meal",
+      "speaker": "narrator",
+      "text": "他合上本子：“文学需要审慎。”",
+      "character": null,
+      "next": "tc_c10_common_piao_dating_07"
+    },
+    "tc_c10_common_piao_dating_07": {
+      "id": "tc_c10_common_piao_dating_07",
+      "type": "line",
+      "scene": "ts_c10_common_piao_dating_meal",
+      "speaker": "narrator",
+      "text": "我伸手去拿，被飘先抽回去：“先吃饭，别都拿来当挡嘴的。”",
+      "character": null,
+      "next": "tc_c10_common_piao_dating_08"
+    },
+    "tc_c10_common_piao_dating_08": {
+      "id": "tc_c10_common_piao_dating_08",
+      "type": "line",
+      "scene": "ts_c10_common_piao_dating_meal",
+      "speaker": "narrator",
+      "text": "我们仍然是恋人，毛狼仍然是会和我们吃饭的朋友。桌上没有谁必须让出的座位，也没人用一个人的选择解释另一个人的整段人生。",
+      "character": null,
+      "next": "tc_c10_common_route_gate"
+    },
+    "tc_c10_common_piao_wedding": {
+      "id": "tc_c10_common_piao_wedding",
+      "type": "line",
+      "scene": "ts_c10_common_piao_wedding",
+      "speaker": "narrator",
+      "text": "婚宴那天，我休班。毛狼在门口站得挺直，直到看见我，才低声问领子是不是歪了。",
+      "character": null,
+      "next": "tc_c10_common_piao_wedding_02"
+    },
+    "tc_c10_common_piao_wedding_02": {
+      "id": "tc_c10_common_piao_wedding_02",
+      "type": "line",
+      "scene": "ts_c10_common_piao_wedding",
+      "speaker": "wenwen",
+      "text": "“你主持那么多场，今天怕了？”",
+      "character": null,
+      "next": "tc_c10_common_piao_wedding_03"
+    },
+    "tc_c10_common_piao_wedding_03": {
+      "id": "tc_c10_common_piao_wedding_03",
+      "type": "line",
+      "scene": "ts_c10_common_piao_wedding",
+      "speaker": "maolang",
+      "text": "“别人的话筒坏了能换。今天这个不能换人。”",
+      "character": null,
+      "next": "tc_c10_common_piao_wedding_04"
+    },
+    "tc_c10_common_piao_wedding_04": {
+      "id": "tc_c10_common_piao_wedding_04",
+      "type": "line",
+      "scene": "ts_c10_common_piao_wedding",
+      "speaker": "narrator",
+      "text": "飘走过来，替他看了一眼：“没歪。你手别一直扯。”",
+      "character": null,
+      "next": "tc_c10_common_piao_wedding_05"
+    },
+    "tc_c10_common_piao_wedding_05": {
+      "id": "tc_c10_common_piao_wedding_05",
+      "type": "line",
+      "scene": "ts_c10_common_piao_wedding",
+      "speaker": "narrator",
+      "text": "两年里，他们慢慢把约饭、走路和各自要忙的事放进同一段生活，也吵过谁总把时间估得太宽。毛狼拿不准的时候会问她，飘不愿意的时候也直说。喜帖送到我手里时，两个人还在争桌上的菜该多一道辣的还是清淡的。",
+      "character": null,
+      "next": "tc_c10_common_piao_wedding_06"
+    },
+    "tc_c10_common_piao_wedding_06": {
+      "id": "tc_c10_common_piao_wedding_06",
+      "type": "line",
+      "scene": "ts_c10_common_piao_wedding",
+      "speaker": "narrator",
+      "text": "桌上放着飘的小册子，第二版，印得不多。她看到我翻页，说有一处还是空的，那位店主后来依旧不想补。",
+      "character": null,
+      "next": "tc_c10_common_piao_wedding_07"
+    },
+    "tc_c10_common_piao_wedding_07": {
+      "id": "tc_c10_common_piao_wedding_07",
+      "type": "line",
+      "scene": "ts_c10_common_piao_wedding",
+      "speaker": "narrator",
+      "text": "毛狼凑过来：“空着就空着。总不能婚礼当天催人交稿。”",
+      "character": null,
+      "next": "tc_c10_common_piao_wedding_08"
+    },
+    "tc_c10_common_piao_wedding_08": {
+      "id": "tc_c10_common_piao_wedding_08",
+      "type": "line",
+      "scene": "ts_c10_common_piao_wedding",
+      "speaker": "narrator",
+      "text": "飘笑着拍了一下他的手，让他先去招呼刚到的人。",
+      "character": null,
+      "next": "tc_c10_common_piao_wedding_09"
+    },
+    "tc_c10_common_piao_wedding_09": {
+      "id": "tc_c10_common_piao_wedding_09",
+      "type": "line",
+      "scene": "ts_c10_common_piao_wedding",
+      "speaker": "narrator",
+      "text": "我坐下来，给自己的杯子倒水。有人喊毛狼，他这回没有先练一句漂亮的开场，直接应了声来了。",
+      "character": null,
+      "next": "tc_c10_common_route_gate"
+    },
+    "tc_c10_common_route_gate": {
+      "id": "tc_c10_common_route_gate",
+      "type": "gate",
+      "scene": "ts_c10_common_daily_life",
+      "cases": [
+        {
+          "flag": "route",
+          "value": "xiaoman",
+          "next": "tc_c10_xiaoman_entry"
+        },
+        {
+          "flag": "route",
+          "value": "zhouzhi",
+          "next": "tc_c10_zhouzhi_entry"
+        },
+        {
+          "flag": "route",
+          "value": "mengyao",
+          "next": "tc_c10_mengyao_entry"
+        },
+        {
+          "flag": "route",
+          "value": "yelan",
+          "next": "tc_c10_yelan_entry"
+        },
+        {
+          "flag": "route",
+          "value": "piao",
+          "next": "tc_c10_piao_entry"
+        },
+        {
+          "flag": "route",
+          "value": "friends",
+          "next": "tc_c10_friends_entry"
+        },
+        {
+          "flag": "route",
+          "value": "huangqiuqiu",
+          "next": "tc_c10_huangqiuqiu_entry"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    },
+    "tc_c10_common_piao_relationship_gate": {
+      "id": "tc_c10_common_piao_relationship_gate",
+      "type": "gate",
+      "scene": "ts_c10_common_daily_life",
+      "cases": [
+        {
+          "flag": "piaoRelationship",
+          "value": "dating",
+          "next": "tc_c10_common_piao_dating"
+        },
+        {
+          "flag": "piaoRelationship",
+          "value": "friends",
+          "next": "tc_c10_common_piao_wedding"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    },
+    "tc_c10_common_epilogue_route_gate": {
+      "id": "tc_c10_common_epilogue_route_gate",
+      "type": "gate",
+      "scene": "ts_c10_common_daily_life",
+      "cases": [
+        {
+          "flag": "route",
+          "value": "xiaoman",
+          "next": "tc_c10_common_piao_wedding"
+        },
+        {
+          "flag": "route",
+          "value": "zhouzhi",
+          "next": "tc_c10_common_piao_wedding"
+        },
+        {
+          "flag": "route",
+          "value": "mengyao",
+          "next": "tc_c10_common_piao_wedding"
+        },
+        {
+          "flag": "route",
+          "value": "yelan",
+          "next": "tc_c10_common_piao_wedding"
+        },
+        {
+          "flag": "route",
+          "value": "piao",
+          "next": "tc_c10_common_piao_relationship_gate"
+        },
+        {
+          "flag": "route",
+          "value": "friends",
+          "next": "tc_c10_common_piao_wedding"
+        },
+        {
+          "flag": "route",
+          "value": "huangqiuqiu",
+          "next": "tc_c10_common_piao_wedding"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    }
+  },
+  "imports": [
+    "tc_c10_friends_entry",
+    "tc_c10_huangqiuqiu_entry",
+    "tc_c10_mengyao_entry",
+    "tc_c10_piao_entry",
+    "tc_c10_xiaoman_entry",
+    "tc_c10_yelan_entry",
+    "tc_c10_zhouzhi_entry"
+  ],
+  "exports": {
+    "tc_c10_common_entry": "tc_c10_common_entry",
+    "tc_c10_common_route_gate": "tc_c10_common_route_gate",
+    "tc_c10_common_piao_dating": "tc_c10_common_piao_dating",
+    "tc_c10_common_piao_wedding": "tc_c10_common_piao_wedding"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 11,
+      "endLine": 11,
+      "nodeIds": [
+        "tc_c10_common_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 13,
+      "endLine": 13,
+      "nodeIds": [
+        "tc_c10_common_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 15,
+      "endLine": 15,
+      "nodeIds": [
+        "tc_c10_common_daily_life_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 17,
+      "endLine": 17,
+      "nodeIds": [
+        "tc_c10_common_daily_life_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 19,
+      "endLine": 19,
+      "nodeIds": [
+        "tc_c10_common_daily_life_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 21,
+      "endLine": 21,
+      "nodeIds": [
+        "tc_c10_common_piao_dating"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 23,
+      "endLine": 23,
+      "nodeIds": [
+        "tc_c10_common_piao_relationship_gate"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 25,
+      "endLine": 25,
+      "nodeIds": [
+        "tc_c10_common_piao_dating"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 27,
+      "endLine": 27,
+      "nodeIds": [
+        "tc_c10_common_piao_dating_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 29,
+      "endLine": 29,
+      "nodeIds": [
+        "tc_c10_common_piao_dating_03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 31,
+      "endLine": 31,
+      "nodeIds": [
+        "tc_c10_common_piao_dating_04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 33,
+      "endLine": 33,
+      "nodeIds": [
+        "tc_c10_common_piao_dating_05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 35,
+      "endLine": 35,
+      "nodeIds": [
+        "tc_c10_common_piao_dating_06"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 37,
+      "endLine": 37,
+      "nodeIds": [
+        "tc_c10_common_piao_dating_07"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 39,
+      "endLine": 39,
+      "nodeIds": [
+        "tc_c10_common_piao_dating_08"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 41,
+      "endLine": 41,
+      "nodeIds": [
+        "tc_c10_common_piao_wedding"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 43,
+      "endLine": 43,
+      "nodeIds": [
+        "tc_c10_common_epilogue_route_gate"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 45,
+      "endLine": 45,
+      "nodeIds": [
+        "tc_c10_common_piao_wedding"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 47,
+      "endLine": 47,
+      "nodeIds": [
+        "tc_c10_common_piao_wedding_02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 49,
+      "endLine": 49,
+      "nodeIds": [
+        "tc_c10_common_piao_wedding_03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 51,
+      "endLine": 51,
+      "nodeIds": [
+        "tc_c10_common_piao_wedding_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 53,
+      "endLine": 53,
+      "nodeIds": [
+        "tc_c10_common_piao_wedding_05"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 55,
+      "endLine": 55,
+      "nodeIds": [
+        "tc_c10_common_piao_wedding_06"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 57,
+      "endLine": 57,
+      "nodeIds": [
+        "tc_c10_common_piao_wedding_07"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 59,
+      "endLine": 59,
+      "nodeIds": [
+        "tc_c10_common_piao_wedding_08"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 61,
+      "endLine": 61,
+      "nodeIds": [
+        "tc_c10_common_piao_wedding_09"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 63,
+      "endLine": 63,
+      "nodeIds": [
+        "tc_c10_common_route_gate"
+      ],
+      "kind": "control"
+    }
+  ],
+  "exclusions": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 1,
+      "endLine": 1,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 3,
+      "endLine": 3,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 5,
+      "endLine": 5,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 7,
+      "endLine": 7,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 9,
+      "endLine": 9,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 605,
+      "endLine": 605,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 607,
+      "endLine": 607,
+      "reason": "navigation"
+    }
+  ],
+  "assetRequests": [
+    {
+      "id": "e01-art-ch10",
+      "a01Ids": [
+        "tc-bg-banquet-day",
+        "tc-bg-food-day",
+        "tc-bg-netcafe-counter-day",
+        "tc-char-maolang-human-base",
+        "tc-char-maolang-human-expression-hesitant",
+        "tc-char-maolang-human-expression-smile",
+        "tc-char-piao-human-base",
+        "tc-char-piao-human-expression-hesitant",
+        "tc-char-piao-human-expression-smile",
+        "tc-char-shijiang-human-base",
+        "tc-char-shijiang-human-expression-hesitant",
+        "tc-char-shijiang-human-expression-smile",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-look-maolang-wedding",
+        "tc-look-piao-wedding"
+      ]
+    }
+  ]
+}

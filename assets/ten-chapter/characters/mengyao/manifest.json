@@ -1,0 +1,504 @@
+{
+  "character": "mengyao",
+  "name": "孟遥",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "baseline": "assets/ten-chapter/characters/mengyao/char-mengyao-human-base.webp",
+  "assets": [
+    {
+      "id": "tc-char-mengyao-human-base",
+      "character": "mengyao",
+      "kind": "character",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch01-common-05",
+        "a01-ch02-common-02",
+        "a01-ch02-common-04",
+        "a01-ch03-mengyao-01",
+        "a01-ch03-mengyao-02",
+        "a01-ch03-mengyao-03",
+        "a01-ch04-mengyao-01",
+        "a01-ch04-mengyao-02",
+        "a01-ch04-mengyao-03",
+        "a01-ch04-mengyao-04",
+        "a01-ch05-mengyao-01",
+        "a01-ch05-mengyao-02",
+        "a01-ch06-mengyao-01",
+        "a01-ch06-mengyao-02",
+        "a01-ch07-mengyao-01",
+        "a01-ch07-mengyao-02",
+        "a01-ch07-mengyao-03",
+        "a01-ch07-mengyao-04",
+        "a01-ch08-mengyao-01",
+        "a01-ch09-mengyao-01",
+        "a01-ch09-mengyao-02",
+        "a01-ch09-mengyao-03",
+        "a01-ch10-mengyao-01",
+        "a01-ch10-mengyao-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png",
+        "sha256": "ba75e220593d83baeffd455e85ea8099369283477d32151974da652d305638c7",
+        "bytes": 2072345
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-base.webp",
+        "sha256": "76ba11802c19739383fbd116aa82fa15856990ddd3ce9e83365ae8ec45c1b095",
+        "bytes": 942716,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1965361,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 717716,
+          "partial": 54049,
+          "nearOpaque": 801099,
+          "visibleBBox": {
+            "left": 151,
+            "top": 4,
+            "right": 943,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.45631154378255206
+        }
+      },
+      "promptKey": "mengyao-base",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-hesitant",
+      "character": "mengyao",
+      "kind": "character",
+      "expression": "expression-hesitant",
+      "cueIds": [
+        "a01-ch01-common-05",
+        "a01-ch03-mengyao-01",
+        "a01-ch03-mengyao-02",
+        "a01-ch04-mengyao-02",
+        "a01-ch04-mengyao-03",
+        "a01-ch06-mengyao-01",
+        "a01-ch06-mengyao-02",
+        "a01-ch07-mengyao-01",
+        "a01-ch07-mengyao-02",
+        "a01-ch07-mengyao-03",
+        "a01-ch07-mengyao-04",
+        "a01-ch08-mengyao-01",
+        "a01-ch09-mengyao-01",
+        "a01-ch09-mengyao-02",
+        "a01-ch09-mengyao-03",
+        "a01-ch10-mengyao-01",
+        "a01-ch10-mengyao-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-hesitant-v1.png",
+        "sha256": "b7428cb630ffe24e05f178aab7509d11886eaac6fdc60031b1dff396aa5e8792",
+        "bytes": 2022475
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-hesitant.webp",
+        "sha256": "042b7dcb5345be5bd3b572eac062df4af9646d269aabb6bb2b44408bb4731cde",
+        "bytes": 928786,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1957654,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 718760,
+          "partial": 53640,
+          "nearOpaque": 800464,
+          "visibleBBox": {
+            "left": 151,
+            "top": 5,
+            "right": 944,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4569753011067708
+        }
+      },
+      "promptKey": "mengyao-hesitant",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-smile",
+      "character": "mengyao",
+      "kind": "character",
+      "expression": "expression-smile",
+      "cueIds": [
+        "a01-ch01-common-05",
+        "a01-ch03-mengyao-01",
+        "a01-ch03-mengyao-02",
+        "a01-ch03-mengyao-03",
+        "a01-ch04-mengyao-01",
+        "a01-ch04-mengyao-02",
+        "a01-ch04-mengyao-03",
+        "a01-ch04-mengyao-04",
+        "a01-ch05-mengyao-02",
+        "a01-ch06-mengyao-01",
+        "a01-ch06-mengyao-02",
+        "a01-ch07-mengyao-01",
+        "a01-ch07-mengyao-02",
+        "a01-ch07-mengyao-03",
+        "a01-ch07-mengyao-04",
+        "a01-ch08-mengyao-01",
+        "a01-ch09-mengyao-01",
+        "a01-ch09-mengyao-02",
+        "a01-ch09-mengyao-03",
+        "a01-ch10-mengyao-01",
+        "a01-ch10-mengyao-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-smile-v1.png",
+        "sha256": "014a21f446eb727454a2b18a093775d0de4f11a6facbee3e6ed8af7ee66d3a95",
+        "bytes": 2065766
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-smile.webp",
+        "sha256": "35d98d99559cf3d30af1bd6934dec43f13585ec7d0de8ee271543a25f0a33bea",
+        "bytes": 947536,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1972908,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 718790,
+          "partial": 54186,
+          "nearOpaque": 799888,
+          "visibleBBox": {
+            "left": 151,
+            "top": 4,
+            "right": 944,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.45699437459309894
+        }
+      },
+      "promptKey": "mengyao-smile",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-serious",
+      "character": "mengyao",
+      "kind": "character",
+      "expression": "expression-serious",
+      "cueIds": [
+        "a01-ch03-mengyao-02",
+        "a01-ch03-mengyao-03",
+        "a01-ch04-mengyao-03",
+        "a01-ch05-mengyao-01",
+        "a01-ch05-mengyao-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-serious-v1.png",
+        "sha256": "84c1e937f119d89998fd45b02f5a578e9ec0ee7f6df61f490f3dfa6c090ad85b",
+        "bytes": 2042510
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-serious.webp",
+        "sha256": "a66dac9b95d95684eb313bb74ca754614915374e43d7bf542c30e8608f949831",
+        "bytes": 940614,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1967870,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 720153,
+          "partial": 50812,
+          "nearOpaque": 801899,
+          "visibleBBox": {
+            "left": 152,
+            "top": 4,
+            "right": 944,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.45786094665527344
+        }
+      },
+      "promptKey": "mengyao-serious",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-downcast",
+      "character": "mengyao",
+      "kind": "character",
+      "expression": "expression-downcast",
+      "cueIds": [
+        "a01-ch03-mengyao-03",
+        "a01-ch05-mengyao-01",
+        "a01-ch09-mengyao-03"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-downcast-v1.png",
+        "sha256": "0f4eef6d63ac73b48fe4cc800cd16c0fac4856edada7387aac5cb576cb916a50",
+        "bytes": 2048243
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-downcast.webp",
+        "sha256": "f90724da92be0e9f462f57d380aa43b89fbd3e84a3315bbb2dc10af7559f9ab3",
+        "bytes": 942286,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1972784,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 720668,
+          "partial": 51936,
+          "nearOpaque": 800260,
+          "visibleBBox": {
+            "left": 151,
+            "top": 5,
+            "right": 944,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.45818837483723956
+        }
+      },
+      "promptKey": "mengyao-downcast",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-tired",
+      "character": "mengyao",
+      "kind": "character",
+      "expression": "expression-tired",
+      "cueIds": [
+        "a01-ch08-mengyao-01"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-tired-v1.png",
+        "sha256": "d38217bfd0b836c9fcace35d275fc042c3518d5ce427ae5b5818d844202ebcd3",
+        "bytes": 2032360
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-tired.webp",
+        "sha256": "6dd6f02794767807804dc5d93894bf9176aa0a1aedc3afae86a70d51494bf137",
+        "bytes": 939628,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1971289,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 721923,
+          "partial": 47015,
+          "nearOpaque": 803926,
+          "visibleBBox": {
+            "left": 151,
+            "top": 4,
+            "right": 944,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4589862823486328
+        }
+      },
+      "promptKey": "mengyao-tired",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-mengyao-teacher-bag",
+      "character": "mengyao",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch03-mengyao-01",
+        "a01-ch05-mengyao-01",
+        "a01-ch05-mengyao-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-teacher-bag-base-v1.png",
+        "sha256": "2236b9ec55e91b5b05087b9ececc3b7e8df34e6c7d29267bd6fc62d9ef0869ec",
+        "bytes": 2170162
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/mengyao/char-mengyao-teacher-bag-base.webp",
+        "sha256": "d59a9b2f7cdc6b2e621640c696c37e921eb9f1476ddc6bce5de81852641d9b52",
+        "bytes": 1005040,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1902511,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 689745,
+          "partial": 50035,
+          "nearOpaque": 833084,
+          "visibleBBox": {
+            "left": 106,
+            "top": 4,
+            "right": 946,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.43852806091308594
+        }
+      },
+      "promptKey": "mengyao-teacher-bag",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-mengyao-casual-jacket",
+      "character": "mengyao",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch04-mengyao-01",
+        "a01-ch04-mengyao-02",
+        "a01-ch04-mengyao-03",
+        "a01-ch04-mengyao-04",
+        "a01-ch06-mengyao-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-casual-jacket-base-v1.png",
+        "sha256": "83c1518a52cb4646420e57df1657f5ab11ffd70bb725c7686274a96fb72ed2bc",
+        "bytes": 2183956
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/mengyao/char-mengyao-casual-jacket-base.webp",
+        "sha256": "e6383d2bf8bfde9c55365639be412935651ad724a5a40e11fe8d75b93e7844c1",
+        "bytes": 1039224,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1894421,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 697317,
+          "partial": 56109,
+          "nearOpaque": 819438,
+          "visibleBBox": {
+            "left": 169,
+            "top": 3,
+            "right": 976,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4433422088623047
+        }
+      },
+      "promptKey": "mengyao-casual-jacket",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    }
+  ],
+  "evidence": {
+    "fullFigureLightDark": [
+      {
+        "path": "assets/ten-chapter/characters/mengyao/qa/light-dark-1.png",
+        "resourceIds": [
+          "tc-char-mengyao-human-base",
+          "tc-char-mengyao-human-expression-hesitant",
+          "tc-char-mengyao-human-expression-smile",
+          "tc-char-mengyao-human-expression-serious"
+        ]
+      },
+      {
+        "path": "assets/ten-chapter/characters/mengyao/qa/light-dark-2.png",
+        "resourceIds": [
+          "tc-char-mengyao-human-expression-downcast",
+          "tc-char-mengyao-human-expression-tired",
+          "tc-look-mengyao-teacher-bag",
+          "tc-look-mengyao-casual-jacket"
+        ]
+      }
+    ],
+    "faceDetail": "assets/ten-chapter/characters/mengyao/qa/faces.png"
+  },
+  "status": "delivered-awaiting-A06"
+}

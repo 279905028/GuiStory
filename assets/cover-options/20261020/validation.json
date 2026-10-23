@@ -1,0 +1,126 @@
+{
+  "scope": "candidate art only; no game integration or deployment acceptance",
+  "images": [
+    {
+      "id": "A",
+      "name": "老街雨夜",
+      "file": "option-A-rainy-market.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2643045,
+      "sha256": "45ba7e741ffc4b942cc4812931301faba86f4d28f9a55c2b86fe79affc544f7a",
+      "visualChecks": {
+        "wenwenPrimary": true,
+        "maolangPresent": true,
+        "shijiangPresent": true,
+        "humanHeroineSilhouettes": 5,
+        "orbSilhouette": 1,
+        "chineseTitleCorrect": true
+      }
+    },
+    {
+      "id": "B",
+      "name": "河桥暮色",
+      "file": "option-B-river-dusk.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2627244,
+      "sha256": "2041710ae3b577e40e8664c5a9b452240d7ce0d095279155ac1875c5b6ab33d2",
+      "visualChecks": {
+        "wenwenPrimary": true,
+        "maolangPresent": true,
+        "shijiangPresent": true,
+        "humanHeroineSilhouettes": 5,
+        "orbSilhouette": 1,
+        "chineseTitleCorrect": true
+      }
+    },
+    {
+      "id": "C",
+      "name": "树荫旧院",
+      "file": "option-C-green-courtyard.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2671410,
+      "sha256": "94ecc0e4644f445d56614788e565ff15d14e330ffcd594c99329933c734e5384",
+      "visualChecks": {
+        "wenwenPrimary": true,
+        "maolangPresent": true,
+        "shijiangPresent": true,
+        "humanHeroineSilhouettes": 5,
+        "orbSilhouette": 1,
+        "chineseTitleCorrect": true
+      }
+    },
+    {
+      "id": "D",
+      "name": "木楼听雨",
+      "file": "option-D-timber-rain.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2788653,
+      "sha256": "8e875019c057ae357e191cfab45f0af1e319e7fe8b789cc3048d51a1b622b1bf",
+      "visualChecks": {
+        "wenwenPrimary": true,
+        "maolangPresent": true,
+        "shijiangPresent": true,
+        "humanHeroineSilhouettes": 5,
+        "orbSilhouette": 1,
+        "chineseTitleCorrect": true
+      }
+    },
+    {
+      "id": "E",
+      "name": "坡巷归途",
+      "file": "option-E-sloping-lane.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2672908,
+      "sha256": "00234d3a4553761a719b5eb43201c9f14a8b227924d9f1e2a7fad728b5dd34bc",
+      "visualChecks": {
+        "wenwenPrimary": true,
+        "maolangPresent": true,
+        "shijiangPresent": true,
+        "humanHeroineSilhouettes": 5,
+        "orbSilhouette": 1,
+        "chineseTitleCorrect": true
+      }
+    }
+  ],
+  "protectedFiles": [
+    {
+      "name": "index.html",
+      "unchanged": true
+    },
+    {
+      "name": "styles.css",
+      "unchanged": true
+    },
+    {
+      "name": "game.js",
+      "unchanged": true
+    },
+    {
+      "name": "story.js",
+      "unchanged": true
+    },
+    {
+      "name": "assets/char-wenwen.png",
+      "unchanged": true
+    },
+    {
+      "name": "assets/char-maolang.png",
+      "unchanged": true
+    },
+    {
+      "name": "assets/char-shijiang.png",
+      "unchanged": true
+    }
+  ],
+  "browserReview": {
+    "performed": false,
+    "reason": "Local HTTP preview server blocked by sandbox (EPERM); browser blocks file: URLs. No browser or game-integration acceptance is claimed."
+  },
+  "visualReview": "Main agent inspected each final generated image at displayed full cover size: correct title, dominant Wenwen, identifiable Maolang and Shijiang, 5 solid human female silhouettes plus 1 solid round orb silhouette.",
+  "reviewPageReferencesPresent": true
+}

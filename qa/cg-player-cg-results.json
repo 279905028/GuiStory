@@ -1,0 +1,423 @@
+{
+  "schemaVersion": 1,
+  "baselineGeneratedAt": "2026-10-20T01:37:32.285Z",
+  "supplementalRuns": [
+    {
+      "generatedAt": "2026-10-20T01:39:27.978Z",
+      "filter": "标题后新游戏",
+      "tests": [
+        {
+          "name": "标题后新游戏：旧CG08成功/失败晚到无效，清空画面和隐藏标记",
+          "status": "pass"
+        }
+      ],
+      "sameFiveFileFingerprints": false,
+      "differingBaselineFiles": [
+        "styles.css"
+      ],
+      "fingerprints": {
+        "story.js": {
+          "sha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+          "bytes": 126840,
+          "currentSha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+          "unchangedDuringRun": true
+        },
+        "engine.js": {
+          "sha256": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+          "bytes": 9734,
+          "currentSha256": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+          "unchangedDuringRun": true
+        },
+        "game.js": {
+          "sha256": "6bcd399cccb020e079061b8c08a4ff782dae8693a2de5189b8212080352b9cc4",
+          "bytes": 45283,
+          "currentSha256": "6bcd399cccb020e079061b8c08a4ff782dae8693a2de5189b8212080352b9cc4",
+          "unchangedDuringRun": true
+        },
+        "index.html": {
+          "sha256": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+          "bytes": 7049,
+          "currentSha256": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+          "unchangedDuringRun": true
+        },
+        "styles.css": {
+          "sha256": "48b6c1c4b106d9e89cf0ebcc744546203767f3b25616ac314731f6320be53bc3",
+          "bytes": 38815,
+          "currentSha256": "48b6c1c4b106d9e89cf0ebcc744546203767f3b25616ac314731f6320be53bc3",
+          "unchangedDuringRun": true
+        }
+      }
+    }
+  ],
+  "generatedAt": "2026-10-20T01:39:27.978Z",
+  "scope": "CG-E3夹具集成；正式HTML/CSS已有CG结构，story元数据为响应层夹具，非CG-D/E4/E5产品最终验收",
+  "storage": "独立127.0.0.1随机端口、新BrowserContext，无读取或写入玩家个人浏览器存储",
+  "fixture": {
+    "metadataOnly": true,
+    "holders": 39,
+    "dom": "正式HTML有CG容器时复用，否则仅响应层插入；缺DOM用例仅响应层移除；不修改项目HTML/CSS",
+    "standIns": {
+      "cg03": {
+        "image": "assets/bg-noodles.png",
+        "alt": "QA普通面馆背景代图，非CG03正式图"
+      },
+      "cg06": {
+        "image": "assets/bg-lobby.png",
+        "alt": "QA普通大厅背景代图，非CG06正式图"
+      }
+    },
+    "activation": "多数DOM按钮由HTMLElement.click激活；最后普通页面使用Playwright真实点击",
+    "controlledImage": "仅独立new Image替身；DOM img保持浏览器原生",
+    "engineState": "所有快照由正式Engine入口advance/choose自然回放并严格恢复；不赋值state、不调用enter跳转"
+  },
+  "fingerprints": {
+    "story.js": {
+      "sha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+      "bytes": 126840,
+      "currentSha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+      "unchangedDuringRun": true
+    },
+    "engine.js": {
+      "sha256": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+      "bytes": 9734,
+      "currentSha256": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+      "unchangedDuringRun": true
+    },
+    "game.js": {
+      "sha256": "6bcd399cccb020e079061b8c08a4ff782dae8693a2de5189b8212080352b9cc4",
+      "bytes": 45283,
+      "currentSha256": "6bcd399cccb020e079061b8c08a4ff782dae8693a2de5189b8212080352b9cc4",
+      "unchangedDuringRun": true
+    },
+    "index.html": {
+      "sha256": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+      "bytes": 7049,
+      "currentSha256": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+      "unchangedDuringRun": true
+    },
+    "styles.css": {
+      "sha256": "a3606356aee729087bed34aaad2c1ffdbbbece283a4a5066c5494425bc166390",
+      "bytes": 38773,
+      "currentSha256": "a3606356aee729087bed34aaad2c1ffdbbbece283a4a5066c5494425bc166390",
+      "unchangedDuringRun": true
+    }
+  },
+  "records": {
+    "cg01": {
+      "record": "assets/cg-variants/CG01/record.json",
+      "recordSha256": "c33fcb0453d47f5add96eb856bceccacafe654331620b5f2e81765da0e716f75",
+      "image": "assets/cg/cg-01-rain-return.png",
+      "imageSha256": "12309c94b8fa313074621f59e7b8d076d2f2277a8f0164cba4ff011aea192a33",
+      "adoptedVersion": "candidate-v1"
+    },
+    "cg02": {
+      "record": "assets/cg-variants/CG02/record.json",
+      "recordSha256": "1fc39cf5b21a15665563e1c1e26876af950dd78af67036a34aec5e90c6a53a74",
+      "image": "assets/cg/cg-02-xiaoman-mirror.png",
+      "imageSha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e",
+      "adoptedVersion": "candidate-v2"
+    },
+    "cg04": {
+      "record": "assets/cg-variants/CG04/record.json",
+      "recordSha256": "406dc04e061b097fc6a452c00bc546719e0d782b0fe547a227f5c2a6cc1d741f",
+      "image": "assets/cg/cg-04-mengyao-camera.png",
+      "imageSha256": "d29f637064098205d9c6e0f1e38729bb8231940738a31beb652bac60cfb18067",
+      "adoptedVersion": "candidate-v1"
+    },
+    "cg05": {
+      "record": "assets/cg-variants/CG05/record.json",
+      "recordSha256": "09df67df9624a3a493d74a1a4a26c62392c3624400e8e8320fb6bd0aeb256803",
+      "image": "assets/cg/cg-05-yelan-inventory.png",
+      "imageSha256": "463b708fbf32f7e95636167e4998f4e547d45a02e34612d2eaeaf4ad1e46055b",
+      "adoptedVersion": "candidate-v1"
+    },
+    "cg07": {
+      "record": "assets/cg-variants/CG07/record.json",
+      "recordSha256": "f6d2ed3df0d097d851d546cfde69a8f8cd656c457ad48df856111afc3fe5331a",
+      "image": "assets/cg/cg-07-yelan-off-duty.png",
+      "imageSha256": "0eaa0c4a418e20926dcbfc11fbc0c782a38b17651151b341c9a45438ce8b61e8",
+      "adoptedVersion": "candidate-v1"
+    },
+    "cg08": {
+      "record": "assets/cg-variants/CG08/record.json",
+      "recordSha256": "691084519e2aed861da66dc3d9a9734246991d3bb8b017cccb78576993bb38fa",
+      "image": "assets/cg/cg-08-huangqiuqiu-listening.png",
+      "imageSha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1",
+      "adoptedVersion": "candidate-v4"
+    }
+  },
+  "tests": [
+    {
+      "name": "39个白名单均由正式引擎自然回放、严格恢复，原state无CG字段",
+      "kind": "engine+fixture",
+      "status": "pass",
+      "durationMs": 13,
+      "evidence": {
+        "holders": 39,
+        "storyTextUnmodified": true
+      }
+    },
+    {
+      "name": "四态off/loading/ready/fallback及合法正文保持",
+      "kind": "controlled-browser",
+      "status": "pass",
+      "durationMs": 245,
+      "evidence": {
+        "states": [
+          "off",
+          "loading",
+          "ready",
+          "fallback"
+        ]
+      }
+    },
+    {
+      "name": "39个持有节点逐个合法恢复、缓存资源复用",
+      "kind": "controlled-browser",
+      "status": "pass",
+      "durationMs": 530,
+      "evidence": {
+        "holders": 39
+      }
+    },
+    {
+      "name": "非法cg值/缺资源/缺alt及choice,end误配置降级",
+      "kind": "controlled-browser",
+      "status": "pass",
+      "durationMs": 1150,
+      "evidence": {
+        "invalidLineConfigurations": 7,
+        "nonLineConfigurations": 2
+      }
+    },
+    {
+      "name": "缺CG DOM时仍可读、fallback、不发送图片请求",
+      "kind": "controlled-browser",
+      "status": "pass",
+      "durationMs": 158,
+      "evidence": {
+        "domFixture": false
+      }
+    },
+    {
+      "name": "缺图请求失败会话去重、提示通用、可推进",
+      "kind": "native-browser",
+      "status": "pass",
+      "durationMs": 505,
+      "evidence": {
+        "requests": 1,
+        "genericError": "部分画面暂时无法显示，已切回普通场景，可继续阅读。"
+      }
+    },
+    {
+      "name": "缓存同步complete成功及complete零尺寸降级",
+      "kind": "controlled-browser",
+      "status": "pass",
+      "durationMs": 302,
+      "evidence": {
+        "modes": [
+          "synchronous-complete",
+          "zero-natural-size"
+        ]
+      }
+    },
+    {
+      "name": "同节点重读：旧成功/旧失败都不能影响新请求",
+      "kind": "controlled-browser",
+      "status": "pass",
+      "durationMs": 309,
+      "evidence": null
+    },
+    {
+      "name": "离开到普通档/其他CG/标题后，旧成功与旧失败无效",
+      "kind": "controlled-browser",
+      "status": "pass",
+      "durationMs": 977,
+      "evidence": {
+        "races": 6
+      }
+    },
+    {
+      "name": "ready后普通角色/头像/背景晚load不重新露出",
+      "kind": "controlled-browser",
+      "status": "pass",
+      "durationMs": 148,
+      "evidence": {
+        "loadEvents": [
+          "character",
+          "speaker-avatar",
+          "scene-bg"
+        ]
+      }
+    },
+    {
+      "name": "退出CG恢复human/orb及头像外框、节点覆盖时地",
+      "kind": "controlled-browser",
+      "status": "pass",
+      "durationMs": 1602,
+      "evidence": {
+        "orb": "preview_qiu_22",
+        "human": "s6_plan_09",
+        "labels": {
+          "time": "夜间",
+          "location": "回声 · 已结束接待的空包厢"
+        }
+      }
+    },
+    {
+      "name": "CG成功回调不重置逐字计时，菜单暂停及恢复不切图",
+      "kind": "controlled-browser",
+      "status": "pass",
+      "durationMs": 652,
+      "evidence": {
+        "before": {
+          "text": "她接",
+          "timers": 3
+        },
+        "after": {
+          "text": "她接",
+          "timers": 3
+        },
+        "menuPreservesCG": true
+      }
+    },
+    {
+      "name": "CG失败回调不重置自动计时，图未完成仍自动推进",
+      "kind": "controlled-browser",
+      "status": "pass",
+      "durationMs": 2612,
+      "evidence": {
+        "timerId": 2,
+        "unchanged": true,
+        "nodeAfter": "s5_ride_walk_01"
+      }
+    },
+    {
+      "name": "CG02/CG08采用图原生加载、当前中段手动保存读取及刷新继续",
+      "kind": "native-browser",
+      "status": "pass",
+      "durationMs": 370,
+      "evidence": [
+        {
+          "node": "s5_ride_walk_02",
+          "image": "assets/cg/cg-02-xiaoman-mirror.png",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "node": "preview_qiu_16",
+          "image": "assets/cg/cg-08-huangqiuqiu-listening.png",
+          "width": 1672,
+          "height": 941
+        }
+      ]
+    },
+    {
+      "name": "隐藏图仅合法_12—19读取：H1/H2/C6和_01—11均无请求",
+      "kind": "native-browser",
+      "status": "pass",
+      "durationMs": 604,
+      "evidence": {
+        "hCombinations": 4,
+        "beforeBoundaryNodes": 23,
+        "firstRequestAt": "preview_qiu_12"
+      }
+    },
+    {
+      "name": "隐藏end重选C6后分别进入四常规首节点，不残留CG08、保留前7次选择",
+      "kind": "controlled-browser",
+      "status": "pass",
+      "durationMs": 1751,
+      "evidence": [
+        {
+          "route": "xiaoman",
+          "node": "preview_xiaoman_01",
+          "choices": 8
+        },
+        {
+          "route": "zhouzhi",
+          "node": "preview_zhouzhi_01",
+          "choices": 8
+        },
+        {
+          "route": "mengyao",
+          "node": "preview_mengyao_01",
+          "choices": 8
+        },
+        {
+          "route": "yelan",
+          "node": "preview_yelan_01",
+          "choices": 8
+        }
+      ]
+    },
+    {
+      "name": "无CG元数据正式页面兼容普通阅读、不创建额外DOM",
+      "kind": "formal-browser",
+      "status": "pass",
+      "durationMs": 206,
+      "evidence": {
+        "formalHTML": true,
+        "formalStory": true
+      }
+    },
+    {
+      "name": "标题后新游戏：旧CG08成功/失败晚到无效，清空画面和隐藏标记",
+      "kind": "controlled-browser",
+      "status": "pass",
+      "durationMs": 912,
+      "evidence": {
+        "races": 4,
+        "evidence": [
+          {
+            "viaOrdinary": false,
+            "late": "success",
+            "node": "s1_arrive_01",
+            "cgState": "off",
+            "cgSrc": null,
+            "cgAlt": "",
+            "flags": {}
+          },
+          {
+            "viaOrdinary": false,
+            "late": "error",
+            "node": "s1_arrive_01",
+            "cgState": "off",
+            "cgSrc": null,
+            "cgAlt": "",
+            "flags": {}
+          },
+          {
+            "viaOrdinary": true,
+            "late": "success",
+            "node": "s1_arrive_01",
+            "cgState": "off",
+            "cgSrc": null,
+            "cgAlt": "",
+            "flags": {}
+          },
+          {
+            "viaOrdinary": true,
+            "late": "error",
+            "node": "s1_arrive_01",
+            "cgState": "off",
+            "cgSrc": null,
+            "cgAlt": "",
+            "flags": {}
+          }
+        ]
+      }
+    }
+  ],
+  "pageErrors": [],
+  "summary": {
+    "passed": 18,
+    "failed": 0
+  },
+  "notTested": [
+    "E4最终CSS五视口布局、CG08下方手部无遮挡",
+    "CG-D正式story元数据/清单；本次CG03/06使用普通代图，新增正式图未验收",
+    "直接file双击",
+    "E5最终全路径产品验收；本次重选四常规只操作至首个节点"
+  ]
+}

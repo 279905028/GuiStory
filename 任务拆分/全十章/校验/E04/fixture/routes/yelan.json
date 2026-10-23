@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "routes/yelan",
+  "owner": "E05",
+  "scenes": {
+    "ts_c03_yelan_sample": {
+      "chapter": 3,
+      "title": "面已经吃过了",
+      "bg": "sample-bg",
+      "time": "18:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "18:20"
+      },
+      "location": "路口",
+      "day": 15,
+      "dayLabel": "第15天"
+    }
+  },
+  "nodes": {
+    "tc_c03_yelan_entry": {
+      "id": "tc_c03_yelan_entry",
+      "type": "line",
+      "scene": "ts_c03_yelan_sample",
+      "speaker": "narrator",
+      "character": null,
+      "text": "见面时，她站在路口，身上还穿着上班的衣服。低髻被风吹松一点，她伸手重新拢好，看见我过来，先说了一声你好。",
+      "next": null
+    }
+  },
+  "imports": [],
+  "exports": {
+    "tc_c03_yelan_entry": "tc_c03_yelan_entry"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 547,
+      "endLine": 547,
+      "nodeIds": [
+        "tc_c03_yelan_entry"
+      ],
+      "kind": "narration"
+    }
+  ],
+  "exclusions": [],
+  "assetRequests": [
+    "e01-art-ch03"
+  ]
+}

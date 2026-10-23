@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "scope": "E06交付文件及文档收尾检查；不重新解释其他窗口的验证",
+  "createdAt": "2026-10-23T02:16:23.948Z",
+  "protectedFiles": 121,
+  "protectedChanged": [],
+  "localLinksChecked": 51,
+  "brokenLinks": [],
+  "concurrentE07RecordPreserved": true,
+  "verificationSummary": {
+    "checks": 47,
+    "passed": 47,
+    "failed": 0,
+    "negativeChecks": 26,
+    "routePaths": 6,
+    "integratedPaths": 192,
+    "epilogueContexts": 13,
+    "nodes": 521,
+    "scenes": 99,
+    "paragraphs": 505
+  },
+  "isolatedOutput": "任务拆分/全十章/构建/sample-0288e01d681cae5b",
+  "formalIntegration": false,
+  "deliveryFiles": [
+    {
+      "file": "任务拆分/全十章/routes/piao.json",
+      "sha256": "b1ab806155124a8b2cf0e11e9c2947e33fe9a77a622ecdff69f314e50255202d"
+    },
+    {
+      "file": "任务拆分/全十章/routes/friends.json",
+      "sha256": "22c82f1aa56c6873f83df8eedd47309693ab56ef03b081095b93fce95bce4ed7"
+    },
+    {
+      "file": "任务拆分/全十章/交接/E06.md",
+      "sha256": "87b653f02b94ff500bb13c15a7dbd7d73dc90d669c7a35d1fa4ddfb7d75fb76a"
+    },
+    {
+      "file": "TODO与多窗口提示词-v0.4.md",
+      "sha256": "857e0b648430879ff8180e6e226b4b3cdee03e9d28fb5696c4e0b39935ed46e5"
+    }
+  ]
+}

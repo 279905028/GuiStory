@@ -1,0 +1,3827 @@
+{
+  "generatedAt": "2026-10-22T10:15:41.539Z",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "a01Version": "a01-20261022-v1-contract1",
+  "a01Sha256": "10cd396bf8de6e26e54ee60bc494fb512bb697ecc46a7f23b631b4e214a351b2",
+  "encoder": {
+    "sharp": "0.35.5",
+    "webp": "1.6.0",
+    "lossless": true,
+    "effort": 6
+  },
+  "expected": 53,
+  "delivered": 53,
+  "generated": 30,
+  "reused": 23,
+  "missing": [],
+  "pass": true,
+  "characters": [
+    {
+      "character": "wenwen",
+      "name": "文文",
+      "path": "assets/ten-chapter/characters/wenwen/manifest.json",
+      "fullFigureLightDark": [
+        {
+          "path": "assets/ten-chapter/characters/wenwen/qa/light-dark-1.png",
+          "resourceIds": [
+            "tc-char-wenwen-human-base",
+            "tc-char-wenwen-human-expression-hesitant",
+            "tc-char-wenwen-human-expression-smile",
+            "tc-char-wenwen-human-expression-tired"
+          ]
+        },
+        {
+          "path": "assets/ten-chapter/characters/wenwen/qa/light-dark-2.png",
+          "resourceIds": [
+            "tc-char-wenwen-human-expression-downcast",
+            "tc-char-wenwen-human-expression-surprised",
+            "tc-char-wenwen-human-expression-serious"
+          ]
+        }
+      ],
+      "faceDetail": "assets/ten-chapter/characters/wenwen/qa/faces.png"
+    },
+    {
+      "character": "xiaoman",
+      "name": "罗小满",
+      "path": "assets/ten-chapter/characters/xiaoman/manifest.json",
+      "fullFigureLightDark": [
+        {
+          "path": "assets/ten-chapter/characters/xiaoman/qa/light-dark-1.png",
+          "resourceIds": [
+            "tc-char-xiaoman-human-base",
+            "tc-char-xiaoman-human-expression-smile",
+            "tc-char-xiaoman-human-expression-hesitant",
+            "tc-char-xiaoman-human-expression-serious"
+          ]
+        },
+        {
+          "path": "assets/ten-chapter/characters/xiaoman/qa/light-dark-2.png",
+          "resourceIds": [
+            "tc-char-xiaoman-human-expression-downcast",
+            "tc-char-xiaoman-human-expression-tired",
+            "tc-look-xiaoman-work-apron",
+            "tc-look-xiaoman-new-coat"
+          ]
+        }
+      ],
+      "faceDetail": "assets/ten-chapter/characters/xiaoman/qa/faces.png"
+    },
+    {
+      "character": "zhouzhi",
+      "name": "周栀",
+      "path": "assets/ten-chapter/characters/zhouzhi/manifest.json",
+      "fullFigureLightDark": [
+        {
+          "path": "assets/ten-chapter/characters/zhouzhi/qa/light-dark-1.png",
+          "resourceIds": [
+            "tc-char-zhouzhi-human-base",
+            "tc-char-zhouzhi-human-expression-smile",
+            "tc-char-zhouzhi-human-expression-serious",
+            "tc-char-zhouzhi-human-expression-tired"
+          ]
+        },
+        {
+          "path": "assets/ten-chapter/characters/zhouzhi/qa/light-dark-2.png",
+          "resourceIds": [
+            "tc-char-zhouzhi-human-expression-hesitant",
+            "tc-char-zhouzhi-human-expression-downcast",
+            "tc-look-zhouzhi-light-blue-shirt",
+            "tc-look-zhouzhi-tied-hair"
+          ]
+        }
+      ],
+      "faceDetail": "assets/ten-chapter/characters/zhouzhi/qa/faces.png"
+    },
+    {
+      "character": "mengyao",
+      "name": "孟遥",
+      "path": "assets/ten-chapter/characters/mengyao/manifest.json",
+      "fullFigureLightDark": [
+        {
+          "path": "assets/ten-chapter/characters/mengyao/qa/light-dark-1.png",
+          "resourceIds": [
+            "tc-char-mengyao-human-base",
+            "tc-char-mengyao-human-expression-hesitant",
+            "tc-char-mengyao-human-expression-smile",
+            "tc-char-mengyao-human-expression-serious"
+          ]
+        },
+        {
+          "path": "assets/ten-chapter/characters/mengyao/qa/light-dark-2.png",
+          "resourceIds": [
+            "tc-char-mengyao-human-expression-downcast",
+            "tc-char-mengyao-human-expression-tired",
+            "tc-look-mengyao-teacher-bag",
+            "tc-look-mengyao-casual-jacket"
+          ]
+        }
+      ],
+      "faceDetail": "assets/ten-chapter/characters/mengyao/qa/faces.png"
+    },
+    {
+      "character": "yelan",
+      "name": "叶岚",
+      "path": "assets/ten-chapter/characters/yelan/manifest.json",
+      "fullFigureLightDark": [
+        {
+          "path": "assets/ten-chapter/characters/yelan/qa/light-dark-1.png",
+          "resourceIds": [
+            "tc-char-yelan-human-base",
+            "tc-char-yelan-human-expression-hesitant",
+            "tc-char-yelan-human-expression-smile",
+            "tc-char-yelan-human-expression-serious"
+          ]
+        },
+        {
+          "path": "assets/ten-chapter/characters/yelan/qa/light-dark-2.png",
+          "resourceIds": [
+            "tc-char-yelan-human-expression-tired",
+            "tc-char-yelan-human-expression-downcast",
+            "tc-look-yelan-casual"
+          ]
+        }
+      ],
+      "faceDetail": "assets/ten-chapter/characters/yelan/qa/faces.png"
+    },
+    {
+      "character": "maolang",
+      "name": "毛狼",
+      "path": "assets/ten-chapter/characters/maolang/manifest.json",
+      "fullFigureLightDark": [
+        {
+          "path": "assets/ten-chapter/characters/maolang/qa/light-dark-1.png",
+          "resourceIds": [
+            "tc-char-maolang-human-base",
+            "tc-char-maolang-human-expression-smile",
+            "tc-char-maolang-human-expression-hesitant",
+            "tc-char-maolang-human-expression-serious"
+          ]
+        },
+        {
+          "path": "assets/ten-chapter/characters/maolang/qa/light-dark-2.png",
+          "resourceIds": [
+            "tc-look-maolang-wedding"
+          ]
+        }
+      ],
+      "faceDetail": "assets/ten-chapter/characters/maolang/qa/faces.png"
+    },
+    {
+      "character": "shijiang",
+      "name": "师匠",
+      "path": "assets/ten-chapter/characters/shijiang/manifest.json",
+      "fullFigureLightDark": [
+        {
+          "path": "assets/ten-chapter/characters/shijiang/qa/light-dark-1.png",
+          "resourceIds": [
+            "tc-char-shijiang-human-base",
+            "tc-char-shijiang-human-expression-serious",
+            "tc-char-shijiang-human-expression-smile",
+            "tc-char-shijiang-human-expression-hesitant"
+          ]
+        }
+      ],
+      "faceDetail": "assets/ten-chapter/characters/shijiang/qa/faces.png"
+    },
+    {
+      "character": "piao",
+      "name": "飘",
+      "path": "assets/ten-chapter/characters/piao/manifest.json",
+      "fullFigureLightDark": [
+        {
+          "path": "assets/ten-chapter/characters/piao/qa/light-dark-1.png",
+          "resourceIds": [
+            "tc-char-piao-human-base",
+            "tc-char-piao-human-expression-smile",
+            "tc-char-piao-human-expression-serious",
+            "tc-char-piao-human-expression-hesitant"
+          ]
+        },
+        {
+          "path": "assets/ten-chapter/characters/piao/qa/light-dark-2.png",
+          "resourceIds": [
+            "tc-char-piao-human-expression-downcast",
+            "tc-look-piao-wedding"
+          ]
+        }
+      ],
+      "faceDetail": "assets/ten-chapter/characters/piao/qa/faces.png"
+    }
+  ],
+  "assets": [
+    {
+      "id": "tc-char-wenwen-human-base",
+      "character": "wenwen",
+      "kind": "character",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch01-common-01",
+        "a01-ch01-common-02",
+        "a01-ch01-common-03",
+        "a01-ch01-common-04",
+        "a01-ch01-common-05",
+        "a01-ch01-common-06",
+        "a01-ch01-common-07",
+        "a01-ch01-common-08",
+        "a01-ch02-common-01",
+        "a01-ch02-common-02",
+        "a01-ch02-common-03",
+        "a01-ch02-common-04",
+        "a01-ch02-common-05",
+        "a01-ch03-common-01",
+        "a01-ch03-xiaoman-01",
+        "a01-ch03-xiaoman-02",
+        "a01-ch03-xiaoman-03",
+        "a01-ch03-zhouzhi-01",
+        "a01-ch03-zhouzhi-02",
+        "a01-ch03-zhouzhi-03",
+        "a01-ch03-mengyao-01",
+        "a01-ch03-mengyao-02",
+        "a01-ch03-mengyao-03",
+        "a01-ch03-yelan-01",
+        "a01-ch03-yelan-02",
+        "a01-ch03-yelan-03",
+        "a01-ch03-piao-01",
+        "a01-ch03-piao-02",
+        "a01-ch03-piao-03",
+        "a01-ch03-piao-04",
+        "a01-ch03-piao-05",
+        "a01-ch03-friends-01",
+        "a01-ch03-friends-02",
+        "a01-ch03-friends-03",
+        "a01-ch03-huangqiuqiu-01",
+        "a01-ch03-huangqiuqiu-02",
+        "a01-ch03-huangqiuqiu-03",
+        "a01-ch04-common-01",
+        "a01-ch04-xiaoman-01",
+        "a01-ch04-xiaoman-02",
+        "a01-ch04-xiaoman-03",
+        "a01-ch04-xiaoman-04",
+        "a01-ch04-zhouzhi-01",
+        "a01-ch04-zhouzhi-02",
+        "a01-ch04-zhouzhi-03",
+        "a01-ch04-zhouzhi-04",
+        "a01-ch04-mengyao-01",
+        "a01-ch04-mengyao-02",
+        "a01-ch04-mengyao-03",
+        "a01-ch04-mengyao-04",
+        "a01-ch04-yelan-01",
+        "a01-ch04-yelan-02",
+        "a01-ch04-yelan-03",
+        "a01-ch04-yelan-04",
+        "a01-ch04-piao-01",
+        "a01-ch04-piao-02",
+        "a01-ch04-piao-03",
+        "a01-ch04-piao-04",
+        "a01-ch04-piao-05",
+        "a01-ch04-friends-01",
+        "a01-ch04-friends-02",
+        "a01-ch04-friends-03",
+        "a01-ch04-friends-04",
+        "a01-ch04-huangqiuqiu-01",
+        "a01-ch04-huangqiuqiu-02",
+        "a01-ch04-huangqiuqiu-03",
+        "a01-ch04-huangqiuqiu-04",
+        "a01-ch05-common-01",
+        "a01-ch05-xiaoman-01",
+        "a01-ch05-xiaoman-02",
+        "a01-ch05-zhouzhi-01",
+        "a01-ch05-zhouzhi-02",
+        "a01-ch05-mengyao-01",
+        "a01-ch05-mengyao-02",
+        "a01-ch05-yelan-01",
+        "a01-ch05-yelan-02",
+        "a01-ch05-piao-01",
+        "a01-ch05-piao-02",
+        "a01-ch05-piao-03",
+        "a01-ch05-friends-01",
+        "a01-ch05-friends-02",
+        "a01-ch05-huangqiuqiu-01",
+        "a01-ch05-huangqiuqiu-02",
+        "a01-ch06-common-01",
+        "a01-ch06-xiaoman-01",
+        "a01-ch06-zhouzhi-01",
+        "a01-ch06-mengyao-01",
+        "a01-ch06-mengyao-02",
+        "a01-ch06-yelan-01",
+        "a01-ch06-yelan-02",
+        "a01-ch06-piao-01",
+        "a01-ch06-piao-02",
+        "a01-ch06-piao-03",
+        "a01-ch06-friends-01",
+        "a01-ch06-friends-02",
+        "a01-ch06-friends-03",
+        "a01-ch06-huangqiuqiu-01",
+        "a01-ch06-huangqiuqiu-02",
+        "a01-ch07-common-01",
+        "a01-ch07-xiaoman-01",
+        "a01-ch07-xiaoman-02",
+        "a01-ch07-xiaoman-03",
+        "a01-ch07-xiaoman-04",
+        "a01-ch07-zhouzhi-01",
+        "a01-ch07-zhouzhi-02",
+        "a01-ch07-zhouzhi-03",
+        "a01-ch07-zhouzhi-04",
+        "a01-ch07-mengyao-01",
+        "a01-ch07-mengyao-02",
+        "a01-ch07-mengyao-03",
+        "a01-ch07-mengyao-04",
+        "a01-ch07-yelan-01",
+        "a01-ch07-yelan-02",
+        "a01-ch07-yelan-03",
+        "a01-ch07-yelan-04",
+        "a01-ch07-piao-01",
+        "a01-ch07-piao-02",
+        "a01-ch07-piao-03",
+        "a01-ch07-piao-04",
+        "a01-ch07-friends-01",
+        "a01-ch07-friends-02",
+        "a01-ch07-friends-03",
+        "a01-ch07-friends-04",
+        "a01-ch07-huangqiuqiu-01",
+        "a01-ch07-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-03",
+        "a01-ch08-common-01",
+        "a01-ch08-xiaoman-01",
+        "a01-ch08-xiaoman-02",
+        "a01-ch08-zhouzhi-01",
+        "a01-ch08-mengyao-01",
+        "a01-ch08-yelan-01",
+        "a01-ch08-piao-01",
+        "a01-ch08-piao-02",
+        "a01-ch08-piao-03",
+        "a01-ch08-friends-01",
+        "a01-ch08-friends-02",
+        "a01-ch08-friends-03",
+        "a01-ch08-huangqiuqiu-01",
+        "a01-ch08-huangqiuqiu-02",
+        "a01-ch09-common-01",
+        "a01-ch09-xiaoman-01",
+        "a01-ch09-xiaoman-02",
+        "a01-ch09-xiaoman-03",
+        "a01-ch09-zhouzhi-01",
+        "a01-ch09-zhouzhi-02",
+        "a01-ch09-zhouzhi-03",
+        "a01-ch09-mengyao-01",
+        "a01-ch09-mengyao-02",
+        "a01-ch09-mengyao-03",
+        "a01-ch09-yelan-01",
+        "a01-ch09-yelan-02",
+        "a01-ch09-yelan-03",
+        "a01-ch09-piao-01",
+        "a01-ch09-piao-02",
+        "a01-ch09-piao-03",
+        "a01-ch09-friends-01",
+        "a01-ch09-friends-02",
+        "a01-ch09-friends-03",
+        "a01-ch09-huangqiuqiu-01",
+        "a01-ch09-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-03",
+        "a01-ch10-common-01",
+        "a01-ch10-common-02",
+        "a01-ch10-common-03",
+        "a01-ch10-xiaoman-01",
+        "a01-ch10-xiaoman-02",
+        "a01-ch10-zhouzhi-01",
+        "a01-ch10-zhouzhi-02",
+        "a01-ch10-mengyao-01",
+        "a01-ch10-mengyao-02",
+        "a01-ch10-yelan-01",
+        "a01-ch10-yelan-02",
+        "a01-ch10-piao-01",
+        "a01-ch10-piao-02",
+        "a01-ch10-friends-01",
+        "a01-ch10-friends-02",
+        "a01-ch10-friends-03",
+        "a01-ch10-huangqiuqiu-01",
+        "a01-ch10-huangqiuqiu-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-base-v1.png",
+        "sha256": "a120f07ac0b4a9950d736d764d92e07db162c6c75e10409a83ceb9377466aa0e",
+        "bytes": 2129806
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+        "sha256": "94e76a03d5b7437cf986b459c1e02df56f3912259a2f32ad4a99d573673fbbb7",
+        "bytes": 1027910,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1701853,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 627917,
+          "partial": 23609,
+          "nearOpaque": 921338,
+          "visibleBBox": {
+            "left": 105,
+            "top": 20,
+            "right": 1004,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.3992188771565755
+        }
+      },
+      "promptKey": "wenwen-base",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-wenwen-human-expression-hesitant",
+      "character": "wenwen",
+      "kind": "character",
+      "expression": "expression-hesitant",
+      "cueIds": [
+        "a01-ch01-common-01",
+        "a01-ch01-common-02",
+        "a01-ch01-common-05",
+        "a01-ch02-common-01",
+        "a01-ch02-common-03",
+        "a01-ch03-xiaoman-01",
+        "a01-ch03-xiaoman-02",
+        "a01-ch03-zhouzhi-02",
+        "a01-ch03-zhouzhi-03",
+        "a01-ch03-mengyao-01",
+        "a01-ch03-mengyao-02",
+        "a01-ch03-mengyao-03",
+        "a01-ch03-yelan-01",
+        "a01-ch03-yelan-03",
+        "a01-ch03-piao-01",
+        "a01-ch03-piao-02",
+        "a01-ch03-piao-03",
+        "a01-ch03-piao-04",
+        "a01-ch03-huangqiuqiu-01",
+        "a01-ch03-huangqiuqiu-02",
+        "a01-ch03-huangqiuqiu-03",
+        "a01-ch04-xiaoman-01",
+        "a01-ch04-zhouzhi-04",
+        "a01-ch04-friends-01",
+        "a01-ch05-xiaoman-01",
+        "a01-ch05-zhouzhi-01",
+        "a01-ch05-mengyao-01",
+        "a01-ch05-yelan-01",
+        "a01-ch05-piao-02",
+        "a01-ch05-friends-01",
+        "a01-ch05-huangqiuqiu-01",
+        "a01-ch05-huangqiuqiu-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-hesitant-v1.png",
+        "sha256": "dbaf1163163da26562fca896b4853f8a923e970c2527a0e57c2d92d9147fc6f1",
+        "bytes": 2066164
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-hesitant.webp",
+        "sha256": "69999fd5cbde8ae0a96652a5ed99f935755a610c25b6401f25f1c4807913d131",
+        "bytes": 985144,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1694011,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 628447,
+          "partial": 21066,
+          "nearOpaque": 923351,
+          "visibleBBox": {
+            "left": 105,
+            "top": 19,
+            "right": 1005,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.39955584208170575
+        }
+      },
+      "promptKey": "wenwen-hesitant",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-wenwen-human-expression-smile",
+      "character": "wenwen",
+      "kind": "character",
+      "expression": "expression-smile",
+      "cueIds": [
+        "a01-ch01-common-01",
+        "a01-ch01-common-02",
+        "a01-ch01-common-03",
+        "a01-ch01-common-04",
+        "a01-ch01-common-05",
+        "a01-ch01-common-06",
+        "a01-ch01-common-07",
+        "a01-ch01-common-08",
+        "a01-ch02-common-01",
+        "a01-ch02-common-03",
+        "a01-ch02-common-04",
+        "a01-ch02-common-05",
+        "a01-ch03-xiaoman-01",
+        "a01-ch03-xiaoman-02",
+        "a01-ch03-xiaoman-03",
+        "a01-ch03-zhouzhi-01",
+        "a01-ch03-zhouzhi-02",
+        "a01-ch03-zhouzhi-03",
+        "a01-ch03-mengyao-01",
+        "a01-ch03-mengyao-02",
+        "a01-ch03-yelan-01",
+        "a01-ch03-yelan-02",
+        "a01-ch03-yelan-03",
+        "a01-ch03-piao-01",
+        "a01-ch03-piao-02",
+        "a01-ch03-piao-04",
+        "a01-ch03-piao-05",
+        "a01-ch03-friends-01",
+        "a01-ch03-friends-02",
+        "a01-ch03-friends-03",
+        "a01-ch03-huangqiuqiu-01",
+        "a01-ch03-huangqiuqiu-02",
+        "a01-ch04-xiaoman-02",
+        "a01-ch04-xiaoman-03",
+        "a01-ch04-xiaoman-04",
+        "a01-ch04-zhouzhi-01",
+        "a01-ch04-zhouzhi-02",
+        "a01-ch04-zhouzhi-03",
+        "a01-ch04-zhouzhi-04",
+        "a01-ch04-mengyao-01",
+        "a01-ch04-mengyao-02",
+        "a01-ch04-mengyao-03",
+        "a01-ch04-mengyao-04",
+        "a01-ch04-yelan-01",
+        "a01-ch04-yelan-02",
+        "a01-ch04-yelan-03",
+        "a01-ch04-yelan-04",
+        "a01-ch04-piao-01",
+        "a01-ch04-piao-02",
+        "a01-ch04-piao-03",
+        "a01-ch04-piao-04",
+        "a01-ch04-piao-05",
+        "a01-ch04-friends-02",
+        "a01-ch04-friends-03",
+        "a01-ch04-friends-04",
+        "a01-ch04-huangqiuqiu-01",
+        "a01-ch04-huangqiuqiu-02",
+        "a01-ch04-huangqiuqiu-03",
+        "a01-ch04-huangqiuqiu-04",
+        "a01-ch05-xiaoman-01",
+        "a01-ch05-xiaoman-02",
+        "a01-ch05-zhouzhi-01",
+        "a01-ch05-zhouzhi-02",
+        "a01-ch05-mengyao-02",
+        "a01-ch05-yelan-01",
+        "a01-ch05-yelan-02",
+        "a01-ch05-piao-01",
+        "a01-ch05-piao-02",
+        "a01-ch05-piao-03",
+        "a01-ch05-friends-01",
+        "a01-ch05-friends-02",
+        "a01-ch05-huangqiuqiu-01",
+        "a01-ch05-huangqiuqiu-02",
+        "a01-ch06-common-01",
+        "a01-ch06-xiaoman-01",
+        "a01-ch06-zhouzhi-01",
+        "a01-ch06-mengyao-01",
+        "a01-ch06-mengyao-02",
+        "a01-ch06-yelan-01",
+        "a01-ch06-yelan-02",
+        "a01-ch06-piao-01",
+        "a01-ch06-piao-02",
+        "a01-ch06-piao-03",
+        "a01-ch06-friends-01",
+        "a01-ch06-friends-02",
+        "a01-ch06-friends-03",
+        "a01-ch06-huangqiuqiu-01",
+        "a01-ch06-huangqiuqiu-02",
+        "a01-ch07-common-01",
+        "a01-ch07-xiaoman-01",
+        "a01-ch07-xiaoman-02",
+        "a01-ch07-xiaoman-03",
+        "a01-ch07-xiaoman-04",
+        "a01-ch07-zhouzhi-01",
+        "a01-ch07-zhouzhi-02",
+        "a01-ch07-zhouzhi-03",
+        "a01-ch07-zhouzhi-04",
+        "a01-ch07-mengyao-01",
+        "a01-ch07-mengyao-02",
+        "a01-ch07-mengyao-03",
+        "a01-ch07-mengyao-04",
+        "a01-ch07-yelan-01",
+        "a01-ch07-yelan-02",
+        "a01-ch07-yelan-03",
+        "a01-ch07-yelan-04",
+        "a01-ch07-piao-01",
+        "a01-ch07-piao-02",
+        "a01-ch07-piao-03",
+        "a01-ch07-piao-04",
+        "a01-ch07-friends-01",
+        "a01-ch07-friends-02",
+        "a01-ch07-friends-03",
+        "a01-ch07-friends-04",
+        "a01-ch07-huangqiuqiu-01",
+        "a01-ch07-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-03",
+        "a01-ch08-common-01",
+        "a01-ch08-xiaoman-01",
+        "a01-ch08-xiaoman-02",
+        "a01-ch08-zhouzhi-01",
+        "a01-ch08-mengyao-01",
+        "a01-ch08-yelan-01",
+        "a01-ch08-piao-01",
+        "a01-ch08-piao-02",
+        "a01-ch08-piao-03",
+        "a01-ch08-friends-01",
+        "a01-ch08-friends-02",
+        "a01-ch08-friends-03",
+        "a01-ch08-huangqiuqiu-01",
+        "a01-ch08-huangqiuqiu-02",
+        "a01-ch09-common-01",
+        "a01-ch09-xiaoman-01",
+        "a01-ch09-xiaoman-02",
+        "a01-ch09-xiaoman-03",
+        "a01-ch09-zhouzhi-01",
+        "a01-ch09-zhouzhi-02",
+        "a01-ch09-zhouzhi-03",
+        "a01-ch09-mengyao-01",
+        "a01-ch09-mengyao-02",
+        "a01-ch09-mengyao-03",
+        "a01-ch09-yelan-01",
+        "a01-ch09-yelan-02",
+        "a01-ch09-yelan-03",
+        "a01-ch09-piao-01",
+        "a01-ch09-piao-02",
+        "a01-ch09-piao-03",
+        "a01-ch09-friends-01",
+        "a01-ch09-friends-02",
+        "a01-ch09-friends-03",
+        "a01-ch09-huangqiuqiu-01",
+        "a01-ch09-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-03",
+        "a01-ch10-common-01",
+        "a01-ch10-common-02",
+        "a01-ch10-common-03",
+        "a01-ch10-xiaoman-01",
+        "a01-ch10-xiaoman-02",
+        "a01-ch10-zhouzhi-01",
+        "a01-ch10-zhouzhi-02",
+        "a01-ch10-mengyao-01",
+        "a01-ch10-mengyao-02",
+        "a01-ch10-yelan-01",
+        "a01-ch10-yelan-02",
+        "a01-ch10-piao-01",
+        "a01-ch10-piao-02",
+        "a01-ch10-friends-01",
+        "a01-ch10-friends-02",
+        "a01-ch10-friends-03",
+        "a01-ch10-huangqiuqiu-01",
+        "a01-ch10-huangqiuqiu-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-smile-v1.png",
+        "sha256": "55eb2bcd9de02d961bb1a4d79832a5da0cac8890fa017c60badd266ca55f08f2",
+        "bytes": 2086961
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-smile.webp",
+        "sha256": "d9273a8309bba3e8bd8d4a63d649625af3dd8a952ba8b0024430b433a3fa8e82",
+        "bytes": 1004290,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1699367,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 630689,
+          "partial": 21183,
+          "nearOpaque": 920992,
+          "visibleBBox": {
+            "left": 106,
+            "top": 22,
+            "right": 1004,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.40098126729329425
+        }
+      },
+      "promptKey": "wenwen-smile",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-maolang-human-base",
+      "character": "maolang",
+      "kind": "character",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch01-common-01",
+        "a01-ch01-common-03",
+        "a01-ch01-common-06",
+        "a01-ch01-common-07",
+        "a01-ch01-common-08",
+        "a01-ch02-common-01",
+        "a01-ch02-common-02",
+        "a01-ch02-common-03",
+        "a01-ch02-common-04",
+        "a01-ch03-yelan-02",
+        "a01-ch03-friends-01",
+        "a01-ch03-friends-02",
+        "a01-ch03-friends-03",
+        "a01-ch04-common-01",
+        "a01-ch04-piao-05",
+        "a01-ch04-friends-01",
+        "a01-ch04-friends-02",
+        "a01-ch04-friends-03",
+        "a01-ch04-friends-04",
+        "a01-ch05-common-01",
+        "a01-ch05-zhouzhi-01",
+        "a01-ch05-yelan-01",
+        "a01-ch05-piao-03",
+        "a01-ch05-friends-01",
+        "a01-ch06-common-01",
+        "a01-ch06-friends-01",
+        "a01-ch06-friends-02",
+        "a01-ch06-friends-03",
+        "a01-ch07-common-01",
+        "a01-ch07-piao-04",
+        "a01-ch07-friends-03",
+        "a01-ch07-friends-04",
+        "a01-ch08-friends-02",
+        "a01-ch08-friends-03",
+        "a01-ch09-piao-03",
+        "a01-ch09-friends-01",
+        "a01-ch09-friends-02",
+        "a01-ch10-common-02",
+        "a01-ch10-common-03",
+        "a01-ch10-piao-02",
+        "a01-ch10-friends-01",
+        "a01-ch10-friends-02",
+        "a01-ch10-friends-03"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/char-maolang.webp",
+        "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf",
+        "bytes": 730662
+      },
+      "delivery": {
+        "path": "assets/char-maolang.webp",
+        "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf",
+        "bytes": 730662,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 808927,
+          "partial": 44741,
+          "nearOpaque": 719196,
+          "visibleBBox": {
+            "left": 129,
+            "top": 51,
+            "right": 907,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5143019358317057
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-maolang-human-expression-smile",
+      "character": "maolang",
+      "kind": "character",
+      "expression": "expression-smile",
+      "cueIds": [
+        "a01-ch01-common-01",
+        "a01-ch01-common-03",
+        "a01-ch01-common-07",
+        "a01-ch01-common-08",
+        "a01-ch02-common-04",
+        "a01-ch03-friends-01",
+        "a01-ch03-friends-03",
+        "a01-ch04-friends-02",
+        "a01-ch04-friends-03",
+        "a01-ch04-friends-04",
+        "a01-ch05-zhouzhi-01",
+        "a01-ch06-common-01",
+        "a01-ch06-friends-01",
+        "a01-ch06-friends-02",
+        "a01-ch06-friends-03",
+        "a01-ch07-common-01",
+        "a01-ch07-piao-04",
+        "a01-ch07-friends-03",
+        "a01-ch07-friends-04",
+        "a01-ch08-friends-02",
+        "a01-ch08-friends-03",
+        "a01-ch09-piao-03",
+        "a01-ch09-friends-01",
+        "a01-ch09-friends-02",
+        "a01-ch10-common-02",
+        "a01-ch10-common-03",
+        "a01-ch10-piao-02",
+        "a01-ch10-friends-01",
+        "a01-ch10-friends-02",
+        "a01-ch10-friends-03"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+        "sha256": "5704ec0c670226e7c4ae80aa952994c3d100c088c7648c221156f08515923a92",
+        "bytes": 737200
+      },
+      "delivery": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+        "sha256": "5704ec0c670226e7c4ae80aa952994c3d100c088c7648c221156f08515923a92",
+        "bytes": 737200,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 809741,
+          "partial": 40596,
+          "nearOpaque": 722527,
+          "visibleBBox": {
+            "left": 129,
+            "top": 52,
+            "right": 914,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5148194630940756
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-shijiang-human-base",
+      "character": "shijiang",
+      "kind": "character",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch01-common-01",
+        "a01-ch01-common-02",
+        "a01-ch01-common-06",
+        "a01-ch02-common-01",
+        "a01-ch02-common-05",
+        "a01-ch03-mengyao-02",
+        "a01-ch03-yelan-02",
+        "a01-ch03-friends-02",
+        "a01-ch05-friends-02",
+        "a01-ch08-common-01",
+        "a01-ch08-friends-01",
+        "a01-ch08-friends-02",
+        "a01-ch09-common-01",
+        "a01-ch09-friends-01",
+        "a01-ch10-common-01",
+        "a01-ch10-friends-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/char-shijiang.webp",
+        "sha256": "286042deb9ae765c377f69285824c8ca4e2a7a23ba8af960cbaf413747fc207c",
+        "bytes": 932076
+      },
+      "delivery": {
+        "path": "assets/char-shijiang.webp",
+        "sha256": "286042deb9ae765c377f69285824c8ca4e2a7a23ba8af960cbaf413747fc207c",
+        "bytes": 932076,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 697507,
+          "partial": 38146,
+          "nearOpaque": 837211,
+          "visibleBBox": {
+            "left": 86,
+            "top": 6,
+            "right": 949,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4434630076090495
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-shijiang-human-expression-serious",
+      "character": "shijiang",
+      "kind": "character",
+      "expression": "expression-serious",
+      "cueIds": [
+        "a01-ch01-common-01"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.webp",
+        "sha256": "e4399ca942e6bc20bf5e2c6391de95a115bcb59c4320d0c10eea99d953c1352f",
+        "bytes": 900014
+      },
+      "delivery": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.webp",
+        "sha256": "e4399ca942e6bc20bf5e2c6391de95a115bcb59c4320d0c10eea99d953c1352f",
+        "bytes": 900014,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 700852,
+          "partial": 31614,
+          "nearOpaque": 840398,
+          "visibleBBox": {
+            "left": 86,
+            "top": 7,
+            "right": 949,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.44558970133463544
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-wenwen-human-expression-tired",
+      "character": "wenwen",
+      "kind": "character",
+      "expression": "expression-tired",
+      "cueIds": [
+        "a01-ch01-common-02",
+        "a01-ch01-common-03",
+        "a01-ch02-common-02",
+        "a01-ch05-mengyao-01",
+        "a01-ch05-huangqiuqiu-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-tired-v1.png",
+        "sha256": "94692628c30bf09c5c59b292f10e8d2bb31e179f574dd39f0e3303d504d85492",
+        "bytes": 2041906
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-tired.webp",
+        "sha256": "d598410f758d93a0af059cc90acf4fb61ea932aaa077722356d0d2c6ea64f919",
+        "bytes": 964224,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1700875,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 628185,
+          "partial": 23323,
+          "nearOpaque": 921356,
+          "visibleBBox": {
+            "left": 106,
+            "top": 21,
+            "right": 1004,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.39938926696777344
+        }
+      },
+      "promptKey": "wenwen-tired",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-shijiang-human-expression-smile",
+      "character": "shijiang",
+      "kind": "character",
+      "expression": "expression-smile",
+      "cueIds": [
+        "a01-ch01-common-02",
+        "a01-ch03-mengyao-02",
+        "a01-ch05-friends-02",
+        "a01-ch08-common-01",
+        "a01-ch08-friends-01",
+        "a01-ch08-friends-02",
+        "a01-ch09-common-01",
+        "a01-ch09-friends-01",
+        "a01-ch10-common-01",
+        "a01-ch10-friends-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp",
+        "sha256": "46d040efebffd1f356fed0773e317e9eb6654e9356c2e4800a42a388e9d6259f",
+        "bytes": 885086
+      },
+      "delivery": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp",
+        "sha256": "46d040efebffd1f356fed0773e317e9eb6654e9356c2e4800a42a388e9d6259f",
+        "bytes": 885086,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 698890,
+          "partial": 30918,
+          "nearOpaque": 843056,
+          "visibleBBox": {
+            "left": 86,
+            "top": 7,
+            "right": 952,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.44434229532877606
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-yelan-human-base",
+      "character": "yelan",
+      "kind": "character",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch01-common-03",
+        "a01-ch01-common-06",
+        "a01-ch02-common-01",
+        "a01-ch02-common-02",
+        "a01-ch02-common-03",
+        "a01-ch02-common-04",
+        "a01-ch03-yelan-01",
+        "a01-ch03-yelan-02",
+        "a01-ch03-yelan-03",
+        "a01-ch04-yelan-01",
+        "a01-ch04-yelan-02",
+        "a01-ch04-yelan-03",
+        "a01-ch04-yelan-04",
+        "a01-ch05-common-01",
+        "a01-ch05-yelan-01",
+        "a01-ch05-yelan-02",
+        "a01-ch06-yelan-01",
+        "a01-ch06-yelan-02",
+        "a01-ch07-yelan-01",
+        "a01-ch07-yelan-02",
+        "a01-ch07-yelan-03",
+        "a01-ch07-yelan-04",
+        "a01-ch08-yelan-01",
+        "a01-ch09-yelan-01",
+        "a01-ch09-yelan-02",
+        "a01-ch09-yelan-03",
+        "a01-ch10-yelan-01",
+        "a01-ch10-yelan-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-v1.png",
+        "sha256": "a034841b68615677f30a301a7dce6a223e9822035c2e16937e951af5442204ab",
+        "bytes": 1781961
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/yelan/char-yelan-human-base.webp",
+        "sha256": "802c5fe292b422fba7d4187fd063be9595eb390cded3b34ed69abf6feff8428f",
+        "bytes": 795132,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1694774,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 650747,
+          "partial": 43698,
+          "nearOpaque": 878419,
+          "visibleBBox": {
+            "left": 146,
+            "top": 8,
+            "right": 990,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4137338002522786
+        }
+      },
+      "promptKey": "yelan-base",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-xiaoman-human-base",
+      "character": "xiaoman",
+      "kind": "character",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch01-common-04",
+        "a01-ch02-common-04",
+        "a01-ch03-xiaoman-01",
+        "a01-ch03-xiaoman-02",
+        "a01-ch03-xiaoman-03",
+        "a01-ch04-xiaoman-01",
+        "a01-ch04-xiaoman-02",
+        "a01-ch04-xiaoman-03",
+        "a01-ch04-xiaoman-04",
+        "a01-ch05-common-01",
+        "a01-ch05-xiaoman-01",
+        "a01-ch05-xiaoman-02",
+        "a01-ch06-xiaoman-01",
+        "a01-ch07-xiaoman-01",
+        "a01-ch07-xiaoman-02",
+        "a01-ch07-xiaoman-03",
+        "a01-ch07-xiaoman-04",
+        "a01-ch08-xiaoman-01",
+        "a01-ch08-xiaoman-02",
+        "a01-ch09-xiaoman-01",
+        "a01-ch09-xiaoman-02",
+        "a01-ch09-xiaoman-03",
+        "a01-ch10-xiaoman-01",
+        "a01-ch10-xiaoman-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+        "sha256": "1be5cc691cd5948cebc281714b4b94ab2f9ba5b44794f6039e488c67fe5c491c",
+        "bytes": 1186548
+      },
+      "delivery": {
+        "path": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+        "sha256": "1be5cc691cd5948cebc281714b4b94ab2f9ba5b44794f6039e488c67fe5c491c",
+        "bytes": 1186548,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 570788,
+          "partial": 49171,
+          "nearOpaque": 952905,
+          "visibleBBox": {
+            "left": 45,
+            "top": 6,
+            "right": 981,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.36289723714192706
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-xiaoman-human-expression-smile",
+      "character": "xiaoman",
+      "kind": "character",
+      "expression": "expression-smile",
+      "cueIds": [
+        "a01-ch01-common-04",
+        "a01-ch02-common-04",
+        "a01-ch03-xiaoman-01",
+        "a01-ch03-xiaoman-02",
+        "a01-ch03-xiaoman-03",
+        "a01-ch04-xiaoman-01",
+        "a01-ch04-xiaoman-02",
+        "a01-ch04-xiaoman-03",
+        "a01-ch04-xiaoman-04",
+        "a01-ch05-xiaoman-02",
+        "a01-ch06-xiaoman-01",
+        "a01-ch07-xiaoman-01",
+        "a01-ch07-xiaoman-02",
+        "a01-ch07-xiaoman-03",
+        "a01-ch07-xiaoman-04",
+        "a01-ch08-xiaoman-01",
+        "a01-ch08-xiaoman-02",
+        "a01-ch09-xiaoman-01",
+        "a01-ch09-xiaoman-02",
+        "a01-ch09-xiaoman-03",
+        "a01-ch10-xiaoman-01",
+        "a01-ch10-xiaoman-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+        "sha256": "f7a76782c6cd6a8a3739d68d2e664afe0da3be2810241e8802c6e1bec7dae990",
+        "bytes": 1186586
+      },
+      "delivery": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+        "sha256": "f7a76782c6cd6a8a3739d68d2e664afe0da3be2810241e8802c6e1bec7dae990",
+        "bytes": 1186586,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 569105,
+          "partial": 42237,
+          "nearOpaque": 961522,
+          "visibleBBox": {
+            "left": 43,
+            "top": 7,
+            "right": 984,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.36182721455891925
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-xiaoman-human-expression-hesitant",
+      "character": "xiaoman",
+      "kind": "character",
+      "expression": "expression-hesitant",
+      "cueIds": [
+        "a01-ch01-common-04",
+        "a01-ch03-xiaoman-01",
+        "a01-ch03-xiaoman-03",
+        "a01-ch06-xiaoman-01",
+        "a01-ch07-xiaoman-01",
+        "a01-ch07-xiaoman-02",
+        "a01-ch07-xiaoman-03",
+        "a01-ch07-xiaoman-04",
+        "a01-ch08-xiaoman-02",
+        "a01-ch09-xiaoman-01",
+        "a01-ch09-xiaoman-02",
+        "a01-ch09-xiaoman-03",
+        "a01-ch10-xiaoman-01",
+        "a01-ch10-xiaoman-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.webp",
+        "sha256": "20300c95bf649054fb93e4fad1d1ccc7aa0fc34172bd0b88eef10a72bd1a9531",
+        "bytes": 1159176
+      },
+      "delivery": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.webp",
+        "sha256": "20300c95bf649054fb93e4fad1d1ccc7aa0fc34172bd0b88eef10a72bd1a9531",
+        "bytes": 1159176,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 572866,
+          "partial": 48536,
+          "nearOpaque": 951462,
+          "visibleBBox": {
+            "left": 45,
+            "top": 7,
+            "right": 981,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.36421839396158856
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-mengyao-human-base",
+      "character": "mengyao",
+      "kind": "character",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch01-common-05",
+        "a01-ch02-common-02",
+        "a01-ch02-common-04",
+        "a01-ch03-mengyao-01",
+        "a01-ch03-mengyao-02",
+        "a01-ch03-mengyao-03",
+        "a01-ch04-mengyao-01",
+        "a01-ch04-mengyao-02",
+        "a01-ch04-mengyao-03",
+        "a01-ch04-mengyao-04",
+        "a01-ch05-mengyao-01",
+        "a01-ch05-mengyao-02",
+        "a01-ch06-mengyao-01",
+        "a01-ch06-mengyao-02",
+        "a01-ch07-mengyao-01",
+        "a01-ch07-mengyao-02",
+        "a01-ch07-mengyao-03",
+        "a01-ch07-mengyao-04",
+        "a01-ch08-mengyao-01",
+        "a01-ch09-mengyao-01",
+        "a01-ch09-mengyao-02",
+        "a01-ch09-mengyao-03",
+        "a01-ch10-mengyao-01",
+        "a01-ch10-mengyao-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png",
+        "sha256": "ba75e220593d83baeffd455e85ea8099369283477d32151974da652d305638c7",
+        "bytes": 2072345
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-base.webp",
+        "sha256": "76ba11802c19739383fbd116aa82fa15856990ddd3ce9e83365ae8ec45c1b095",
+        "bytes": 942716,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1965361,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 717716,
+          "partial": 54049,
+          "nearOpaque": 801099,
+          "visibleBBox": {
+            "left": 151,
+            "top": 4,
+            "right": 943,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.45631154378255206
+        }
+      },
+      "promptKey": "mengyao-base",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-hesitant",
+      "character": "mengyao",
+      "kind": "character",
+      "expression": "expression-hesitant",
+      "cueIds": [
+        "a01-ch01-common-05",
+        "a01-ch03-mengyao-01",
+        "a01-ch03-mengyao-02",
+        "a01-ch04-mengyao-02",
+        "a01-ch04-mengyao-03",
+        "a01-ch06-mengyao-01",
+        "a01-ch06-mengyao-02",
+        "a01-ch07-mengyao-01",
+        "a01-ch07-mengyao-02",
+        "a01-ch07-mengyao-03",
+        "a01-ch07-mengyao-04",
+        "a01-ch08-mengyao-01",
+        "a01-ch09-mengyao-01",
+        "a01-ch09-mengyao-02",
+        "a01-ch09-mengyao-03",
+        "a01-ch10-mengyao-01",
+        "a01-ch10-mengyao-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-hesitant-v1.png",
+        "sha256": "b7428cb630ffe24e05f178aab7509d11886eaac6fdc60031b1dff396aa5e8792",
+        "bytes": 2022475
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-hesitant.webp",
+        "sha256": "042b7dcb5345be5bd3b572eac062df4af9646d269aabb6bb2b44408bb4731cde",
+        "bytes": 928786,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1957654,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 718760,
+          "partial": 53640,
+          "nearOpaque": 800464,
+          "visibleBBox": {
+            "left": 151,
+            "top": 5,
+            "right": 944,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4569753011067708
+        }
+      },
+      "promptKey": "mengyao-hesitant",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-smile",
+      "character": "mengyao",
+      "kind": "character",
+      "expression": "expression-smile",
+      "cueIds": [
+        "a01-ch01-common-05",
+        "a01-ch03-mengyao-01",
+        "a01-ch03-mengyao-02",
+        "a01-ch03-mengyao-03",
+        "a01-ch04-mengyao-01",
+        "a01-ch04-mengyao-02",
+        "a01-ch04-mengyao-03",
+        "a01-ch04-mengyao-04",
+        "a01-ch05-mengyao-02",
+        "a01-ch06-mengyao-01",
+        "a01-ch06-mengyao-02",
+        "a01-ch07-mengyao-01",
+        "a01-ch07-mengyao-02",
+        "a01-ch07-mengyao-03",
+        "a01-ch07-mengyao-04",
+        "a01-ch08-mengyao-01",
+        "a01-ch09-mengyao-01",
+        "a01-ch09-mengyao-02",
+        "a01-ch09-mengyao-03",
+        "a01-ch10-mengyao-01",
+        "a01-ch10-mengyao-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-smile-v1.png",
+        "sha256": "014a21f446eb727454a2b18a093775d0de4f11a6facbee3e6ed8af7ee66d3a95",
+        "bytes": 2065766
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-smile.webp",
+        "sha256": "35d98d99559cf3d30af1bd6934dec43f13585ec7d0de8ee271543a25f0a33bea",
+        "bytes": 947536,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1972908,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 718790,
+          "partial": 54186,
+          "nearOpaque": 799888,
+          "visibleBBox": {
+            "left": 151,
+            "top": 4,
+            "right": 944,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.45699437459309894
+        }
+      },
+      "promptKey": "mengyao-smile",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-zhouzhi-human-base",
+      "character": "zhouzhi",
+      "kind": "character",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch01-common-07",
+        "a01-ch02-common-04",
+        "a01-ch03-zhouzhi-01",
+        "a01-ch03-zhouzhi-02",
+        "a01-ch03-zhouzhi-03",
+        "a01-ch04-zhouzhi-01",
+        "a01-ch04-zhouzhi-02",
+        "a01-ch04-zhouzhi-03",
+        "a01-ch04-zhouzhi-04",
+        "a01-ch05-common-01",
+        "a01-ch05-zhouzhi-01",
+        "a01-ch05-zhouzhi-02",
+        "a01-ch06-common-01",
+        "a01-ch06-zhouzhi-01",
+        "a01-ch07-zhouzhi-01",
+        "a01-ch07-zhouzhi-02",
+        "a01-ch07-zhouzhi-03",
+        "a01-ch07-zhouzhi-04",
+        "a01-ch08-zhouzhi-01",
+        "a01-ch09-zhouzhi-01",
+        "a01-ch09-zhouzhi-02",
+        "a01-ch09-zhouzhi-03",
+        "a01-ch10-zhouzhi-01",
+        "a01-ch10-zhouzhi-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+        "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a",
+        "bytes": 839198
+      },
+      "delivery": {
+        "path": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+        "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a",
+        "bytes": 839198,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 690058,
+          "partial": 56274,
+          "nearOpaque": 826532,
+          "visibleBBox": {
+            "left": 158,
+            "top": 6,
+            "right": 930,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.43872706095377606
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-zhouzhi-human-expression-smile",
+      "character": "zhouzhi",
+      "kind": "character",
+      "expression": "expression-smile",
+      "cueIds": [
+        "a01-ch01-common-07",
+        "a01-ch03-zhouzhi-01",
+        "a01-ch03-zhouzhi-02",
+        "a01-ch03-zhouzhi-03",
+        "a01-ch04-zhouzhi-01",
+        "a01-ch04-zhouzhi-02",
+        "a01-ch04-zhouzhi-03",
+        "a01-ch04-zhouzhi-04",
+        "a01-ch05-zhouzhi-01",
+        "a01-ch05-zhouzhi-02",
+        "a01-ch06-common-01",
+        "a01-ch06-zhouzhi-01",
+        "a01-ch07-zhouzhi-01",
+        "a01-ch07-zhouzhi-02",
+        "a01-ch07-zhouzhi-03",
+        "a01-ch07-zhouzhi-04",
+        "a01-ch08-zhouzhi-01",
+        "a01-ch09-zhouzhi-01",
+        "a01-ch09-zhouzhi-02",
+        "a01-ch09-zhouzhi-03",
+        "a01-ch10-zhouzhi-01",
+        "a01-ch10-zhouzhi-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.webp",
+        "sha256": "21d6bef6495b7fcdca9a9369f59842bcf4e20743426b51a5493c117c2b50cf5a",
+        "bytes": 857994
+      },
+      "delivery": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.webp",
+        "sha256": "21d6bef6495b7fcdca9a9369f59842bcf4e20743426b51a5493c117c2b50cf5a",
+        "bytes": 857994,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 686666,
+          "partial": 58917,
+          "nearOpaque": 827281,
+          "visibleBBox": {
+            "left": 158,
+            "top": 6,
+            "right": 933,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4365704854329427
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-piao-human-base",
+      "character": "piao",
+      "kind": "character",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch01-common-08",
+        "a01-ch02-common-04",
+        "a01-ch03-piao-01",
+        "a01-ch03-piao-02",
+        "a01-ch03-piao-03",
+        "a01-ch03-piao-04",
+        "a01-ch03-piao-05",
+        "a01-ch04-piao-01",
+        "a01-ch04-piao-02",
+        "a01-ch04-piao-03",
+        "a01-ch04-piao-04",
+        "a01-ch04-piao-05",
+        "a01-ch05-common-01",
+        "a01-ch05-piao-01",
+        "a01-ch05-piao-02",
+        "a01-ch05-piao-03",
+        "a01-ch06-common-01",
+        "a01-ch06-piao-01",
+        "a01-ch06-piao-02",
+        "a01-ch06-piao-03",
+        "a01-ch06-friends-02",
+        "a01-ch07-piao-01",
+        "a01-ch07-piao-02",
+        "a01-ch07-piao-03",
+        "a01-ch07-piao-04",
+        "a01-ch08-piao-01",
+        "a01-ch08-piao-02",
+        "a01-ch08-piao-03",
+        "a01-ch09-piao-01",
+        "a01-ch09-piao-02",
+        "a01-ch09-piao-03",
+        "a01-ch10-common-02",
+        "a01-ch10-common-03",
+        "a01-ch10-piao-01",
+        "a01-ch10-piao-02",
+        "a01-ch10-friends-01",
+        "a01-ch10-friends-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/char-piao.webp",
+        "sha256": "b28422dabd0a4d3eb2ad7a34f832104bae4884ecb93bd45eb0d80e9c17a70331",
+        "bytes": 716636
+      },
+      "delivery": {
+        "path": "assets/char-piao.webp",
+        "sha256": "b28422dabd0a4d3eb2ad7a34f832104bae4884ecb93bd45eb0d80e9c17a70331",
+        "bytes": 716636,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 831549,
+          "partial": 52197,
+          "nearOpaque": 689118,
+          "visibleBBox": {
+            "left": 201,
+            "top": 12,
+            "right": 887,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5286846160888672
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-piao-human-expression-smile",
+      "character": "piao",
+      "kind": "character",
+      "expression": "expression-smile",
+      "cueIds": [
+        "a01-ch01-common-08",
+        "a01-ch02-common-04",
+        "a01-ch03-piao-01",
+        "a01-ch03-piao-02",
+        "a01-ch03-piao-04",
+        "a01-ch04-piao-01",
+        "a01-ch04-piao-02",
+        "a01-ch04-piao-03",
+        "a01-ch04-piao-04",
+        "a01-ch04-piao-05",
+        "a01-ch05-piao-01",
+        "a01-ch05-piao-02",
+        "a01-ch05-piao-03",
+        "a01-ch06-common-01",
+        "a01-ch06-piao-01",
+        "a01-ch06-piao-02",
+        "a01-ch06-piao-03",
+        "a01-ch06-friends-02",
+        "a01-ch07-piao-01",
+        "a01-ch07-piao-02",
+        "a01-ch07-piao-03",
+        "a01-ch07-piao-04",
+        "a01-ch08-piao-01",
+        "a01-ch08-piao-02",
+        "a01-ch08-piao-03",
+        "a01-ch09-piao-01",
+        "a01-ch09-piao-02",
+        "a01-ch09-piao-03",
+        "a01-ch10-common-02",
+        "a01-ch10-common-03",
+        "a01-ch10-piao-01",
+        "a01-ch10-piao-02",
+        "a01-ch10-friends-01",
+        "a01-ch10-friends-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+        "sha256": "6d2661f9fd7c8551cb1dace16519ffcc220c23e5c69693103538cfe57ba612b0",
+        "bytes": 705920
+      },
+      "delivery": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+        "sha256": "6d2661f9fd7c8551cb1dace16519ffcc220c23e5c69693103538cfe57ba612b0",
+        "bytes": 705920,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 832305,
+          "partial": 51472,
+          "nearOpaque": 689087,
+          "visibleBBox": {
+            "left": 201,
+            "top": 14,
+            "right": 888,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5291652679443359
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-wenwen-human-expression-downcast",
+      "character": "wenwen",
+      "kind": "character",
+      "expression": "expression-downcast",
+      "cueIds": [
+        "a01-ch02-common-02",
+        "a01-ch05-xiaoman-01",
+        "a01-ch05-zhouzhi-01",
+        "a01-ch05-mengyao-01",
+        "a01-ch05-yelan-01",
+        "a01-ch05-friends-01"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-downcast-v1.png",
+        "sha256": "c592a29819eb4fd9d1f6301c12779dc0253d53d574df1c79efdf46066a372631",
+        "bytes": 2025246
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-downcast.webp",
+        "sha256": "d84ce73e2324721e0fe5905767a4afc6095d03365a7fe1aa01bb224ff7bd6e99",
+        "bytes": 961124,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1706529,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 630899,
+          "partial": 21174,
+          "nearOpaque": 920791,
+          "visibleBBox": {
+            "left": 107,
+            "top": 21,
+            "right": 1004,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4011147816975911
+        }
+      },
+      "promptKey": "wenwen-downcast",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-yelan-human-expression-hesitant",
+      "character": "yelan",
+      "kind": "character",
+      "expression": "expression-hesitant",
+      "cueIds": [
+        "a01-ch02-common-03",
+        "a01-ch03-yelan-01",
+        "a01-ch03-yelan-03",
+        "a01-ch04-yelan-04",
+        "a01-ch05-yelan-02",
+        "a01-ch06-yelan-01",
+        "a01-ch06-yelan-02",
+        "a01-ch07-yelan-02",
+        "a01-ch07-yelan-03",
+        "a01-ch07-yelan-04",
+        "a01-ch08-yelan-01",
+        "a01-ch09-yelan-01",
+        "a01-ch09-yelan-02",
+        "a01-ch09-yelan-03",
+        "a01-ch10-yelan-01",
+        "a01-ch10-yelan-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-hesitant-v1.png",
+        "sha256": "2b5e514acafd8253eccd07e3bd176750056ba0693c39edaefb3d6d155cf122ba",
+        "bytes": 1788989
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-hesitant.webp",
+        "sha256": "a606f94cee4f3520c5056bf52370bb04d3d291c0078a129a3205ab97dcfc7c33",
+        "bytes": 794426,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1697584,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 650571,
+          "partial": 41306,
+          "nearOpaque": 880987,
+          "visibleBBox": {
+            "left": 146,
+            "top": 9,
+            "right": 993,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4136219024658203
+        }
+      },
+      "promptKey": "yelan-hesitant",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-yelan-human-expression-smile",
+      "character": "yelan",
+      "kind": "character",
+      "expression": "expression-smile",
+      "cueIds": [
+        "a01-ch02-common-03",
+        "a01-ch03-yelan-01",
+        "a01-ch03-yelan-03",
+        "a01-ch04-yelan-01",
+        "a01-ch04-yelan-02",
+        "a01-ch04-yelan-03",
+        "a01-ch04-yelan-04",
+        "a01-ch05-yelan-02",
+        "a01-ch06-yelan-01",
+        "a01-ch06-yelan-02",
+        "a01-ch07-yelan-01",
+        "a01-ch07-yelan-02",
+        "a01-ch07-yelan-03",
+        "a01-ch07-yelan-04",
+        "a01-ch08-yelan-01",
+        "a01-ch09-yelan-01",
+        "a01-ch09-yelan-02",
+        "a01-ch09-yelan-03",
+        "a01-ch10-yelan-01",
+        "a01-ch10-yelan-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-smile-v1.png",
+        "sha256": "c342eff4cdb24369e362c61d68c803b33a6c8c7974f224c92da6d28a05420b14",
+        "bytes": 1792560
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-smile.webp",
+        "sha256": "ad24c46a6da89de7450d382a70ca7081d361d22f4fd1c527fab70c8287d8e332",
+        "bytes": 801394,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1692173,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 649862,
+          "partial": 43447,
+          "nearOpaque": 879555,
+          "visibleBBox": {
+            "left": 146,
+            "top": 10,
+            "right": 993,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.41317113240559894
+        }
+      },
+      "promptKey": "yelan-smile",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-wenwen-human-expression-surprised",
+      "character": "wenwen",
+      "kind": "character",
+      "expression": "expression-surprised",
+      "cueIds": [
+        "a01-ch02-common-05"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-surprised-v1.png",
+        "sha256": "8fb46d22cd0efcba65df1932ba3c40b415d69bc031620c954c26ada5a6dd5bda",
+        "bytes": 2059658
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-surprised.webp",
+        "sha256": "b066f633e51a7a52f292901d147b81cc6120a3135a62396c149c88fe93bf8aa3",
+        "bytes": 977738,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1700768,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 630183,
+          "partial": 21168,
+          "nearOpaque": 921513,
+          "visibleBBox": {
+            "left": 106,
+            "top": 20,
+            "right": 1005,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.40065956115722656
+        }
+      },
+      "promptKey": "wenwen-surprised",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-xiaoman-human-expression-serious",
+      "character": "xiaoman",
+      "kind": "character",
+      "expression": "expression-serious",
+      "cueIds": [
+        "a01-ch03-xiaoman-02",
+        "a01-ch04-xiaoman-02",
+        "a01-ch05-xiaoman-01",
+        "a01-ch05-xiaoman-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.webp",
+        "sha256": "8fdaf41013fe8f7dc313a7cea6699cb37a54ed88e9dd8c6c41af92cbe03334dc",
+        "bytes": 1174552
+      },
+      "delivery": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.webp",
+        "sha256": "8fdaf41013fe8f7dc313a7cea6699cb37a54ed88e9dd8c6c41af92cbe03334dc",
+        "bytes": 1174552,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 572084,
+          "partial": 46525,
+          "nearOpaque": 954255,
+          "visibleBBox": {
+            "left": 43,
+            "top": 8,
+            "right": 983,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.36372121175130206
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-zhouzhi-human-expression-serious",
+      "character": "zhouzhi",
+      "kind": "character",
+      "expression": "expression-serious",
+      "cueIds": [
+        "a01-ch03-zhouzhi-03",
+        "a01-ch04-zhouzhi-04",
+        "a01-ch05-zhouzhi-01"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.webp",
+        "sha256": "47133aa81d4be43234874bb5e072195fa6c53040fab0456580806802e6a82e0e",
+        "bytes": 865546
+      },
+      "delivery": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.webp",
+        "sha256": "47133aa81d4be43234874bb5e072195fa6c53040fab0456580806802e6a82e0e",
+        "bytes": 865546,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 679552,
+          "partial": 64221,
+          "nearOpaque": 829091,
+          "visibleBBox": {
+            "left": 152,
+            "top": 7,
+            "right": 934,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4320475260416667
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-serious",
+      "character": "mengyao",
+      "kind": "character",
+      "expression": "expression-serious",
+      "cueIds": [
+        "a01-ch03-mengyao-02",
+        "a01-ch03-mengyao-03",
+        "a01-ch04-mengyao-03",
+        "a01-ch05-mengyao-01",
+        "a01-ch05-mengyao-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-serious-v1.png",
+        "sha256": "84c1e937f119d89998fd45b02f5a578e9ec0ee7f6df61f490f3dfa6c090ad85b",
+        "bytes": 2042510
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-serious.webp",
+        "sha256": "a66dac9b95d95684eb313bb74ca754614915374e43d7bf542c30e8608f949831",
+        "bytes": 940614,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1967870,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 720153,
+          "partial": 50812,
+          "nearOpaque": 801899,
+          "visibleBBox": {
+            "left": 152,
+            "top": 4,
+            "right": 944,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.45786094665527344
+        }
+      },
+      "promptKey": "mengyao-serious",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-wenwen-human-expression-serious",
+      "character": "wenwen",
+      "kind": "character",
+      "expression": "expression-serious",
+      "cueIds": [
+        "a01-ch03-mengyao-03",
+        "a01-ch03-piao-03",
+        "a01-ch03-piao-05",
+        "a01-ch03-huangqiuqiu-03",
+        "a01-ch04-huangqiuqiu-04",
+        "a01-ch05-xiaoman-02",
+        "a01-ch05-zhouzhi-02",
+        "a01-ch05-mengyao-02",
+        "a01-ch05-yelan-02",
+        "a01-ch05-piao-01",
+        "a01-ch06-common-01",
+        "a01-ch06-xiaoman-01",
+        "a01-ch06-zhouzhi-01",
+        "a01-ch06-mengyao-01",
+        "a01-ch06-mengyao-02",
+        "a01-ch06-yelan-01",
+        "a01-ch06-yelan-02",
+        "a01-ch06-piao-01",
+        "a01-ch06-piao-02",
+        "a01-ch06-piao-03",
+        "a01-ch06-friends-01",
+        "a01-ch06-friends-02",
+        "a01-ch06-friends-03",
+        "a01-ch06-huangqiuqiu-01",
+        "a01-ch06-huangqiuqiu-02",
+        "a01-ch07-common-01",
+        "a01-ch07-xiaoman-01",
+        "a01-ch07-xiaoman-02",
+        "a01-ch07-xiaoman-03",
+        "a01-ch07-xiaoman-04",
+        "a01-ch07-zhouzhi-01",
+        "a01-ch07-zhouzhi-02",
+        "a01-ch07-zhouzhi-03",
+        "a01-ch07-zhouzhi-04",
+        "a01-ch07-mengyao-01",
+        "a01-ch07-mengyao-02",
+        "a01-ch07-mengyao-03",
+        "a01-ch07-mengyao-04",
+        "a01-ch07-yelan-01",
+        "a01-ch07-yelan-02",
+        "a01-ch07-yelan-03",
+        "a01-ch07-yelan-04",
+        "a01-ch07-piao-01",
+        "a01-ch07-piao-02",
+        "a01-ch07-piao-03",
+        "a01-ch07-piao-04",
+        "a01-ch07-friends-01",
+        "a01-ch07-friends-02",
+        "a01-ch07-friends-03",
+        "a01-ch07-friends-04",
+        "a01-ch07-huangqiuqiu-01",
+        "a01-ch07-huangqiuqiu-02",
+        "a01-ch07-huangqiuqiu-03",
+        "a01-ch08-common-01",
+        "a01-ch08-xiaoman-01",
+        "a01-ch08-xiaoman-02",
+        "a01-ch08-zhouzhi-01",
+        "a01-ch08-mengyao-01",
+        "a01-ch08-yelan-01",
+        "a01-ch08-piao-01",
+        "a01-ch08-piao-02",
+        "a01-ch08-piao-03",
+        "a01-ch08-friends-01",
+        "a01-ch08-friends-02",
+        "a01-ch08-friends-03",
+        "a01-ch08-huangqiuqiu-01",
+        "a01-ch08-huangqiuqiu-02",
+        "a01-ch09-common-01",
+        "a01-ch09-xiaoman-01",
+        "a01-ch09-xiaoman-02",
+        "a01-ch09-xiaoman-03",
+        "a01-ch09-zhouzhi-01",
+        "a01-ch09-zhouzhi-02",
+        "a01-ch09-zhouzhi-03",
+        "a01-ch09-mengyao-01",
+        "a01-ch09-mengyao-02",
+        "a01-ch09-mengyao-03",
+        "a01-ch09-yelan-01",
+        "a01-ch09-yelan-02",
+        "a01-ch09-yelan-03",
+        "a01-ch09-piao-01",
+        "a01-ch09-piao-02",
+        "a01-ch09-piao-03",
+        "a01-ch09-friends-01",
+        "a01-ch09-friends-02",
+        "a01-ch09-friends-03",
+        "a01-ch09-huangqiuqiu-01",
+        "a01-ch09-huangqiuqiu-02",
+        "a01-ch09-huangqiuqiu-03",
+        "a01-ch10-common-01",
+        "a01-ch10-common-02",
+        "a01-ch10-common-03",
+        "a01-ch10-xiaoman-01",
+        "a01-ch10-xiaoman-02",
+        "a01-ch10-zhouzhi-01",
+        "a01-ch10-zhouzhi-02",
+        "a01-ch10-mengyao-01",
+        "a01-ch10-mengyao-02",
+        "a01-ch10-yelan-01",
+        "a01-ch10-yelan-02",
+        "a01-ch10-piao-01",
+        "a01-ch10-piao-02",
+        "a01-ch10-friends-01",
+        "a01-ch10-friends-02",
+        "a01-ch10-friends-03",
+        "a01-ch10-huangqiuqiu-01",
+        "a01-ch10-huangqiuqiu-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-serious-v1.png",
+        "sha256": "e15aed7af9cc5b99541a4c7fed3399ed227d1b549e2286c829b226329b0d23fd",
+        "bytes": 2064858
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-serious.webp",
+        "sha256": "113469964e1834afc282da344de0c84530238670c6765e22ceddd583462c9862",
+        "bytes": 984766,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1692294,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 629556,
+          "partial": 20890,
+          "nearOpaque": 922418,
+          "visibleBBox": {
+            "left": 105,
+            "top": 21,
+            "right": 1005,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.40026092529296875
+        }
+      },
+      "promptKey": "wenwen-serious",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-downcast",
+      "character": "mengyao",
+      "kind": "character",
+      "expression": "expression-downcast",
+      "cueIds": [
+        "a01-ch03-mengyao-03",
+        "a01-ch05-mengyao-01",
+        "a01-ch09-mengyao-03"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-downcast-v1.png",
+        "sha256": "0f4eef6d63ac73b48fe4cc800cd16c0fac4856edada7387aac5cb576cb916a50",
+        "bytes": 2048243
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-downcast.webp",
+        "sha256": "f90724da92be0e9f462f57d380aa43b89fbd3e84a3315bbb2dc10af7559f9ab3",
+        "bytes": 942286,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1972784,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 720668,
+          "partial": 51936,
+          "nearOpaque": 800260,
+          "visibleBBox": {
+            "left": 151,
+            "top": 5,
+            "right": 944,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.45818837483723956
+        }
+      },
+      "promptKey": "mengyao-downcast",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-piao-human-expression-serious",
+      "character": "piao",
+      "kind": "character",
+      "expression": "expression-serious",
+      "cueIds": [
+        "a01-ch03-piao-02",
+        "a01-ch03-piao-03",
+        "a01-ch03-piao-05",
+        "a01-ch05-piao-01",
+        "a01-ch05-piao-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.webp",
+        "sha256": "ea955ceb6b2301825e391ca636d343145753b7451e20d6229d5935b90139486f",
+        "bytes": 700748
+      },
+      "delivery": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.webp",
+        "sha256": "ea955ceb6b2301825e391ca636d343145753b7451e20d6229d5935b90139486f",
+        "bytes": 700748,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 833147,
+          "partial": 49721,
+          "nearOpaque": 689996,
+          "visibleBBox": {
+            "left": 201,
+            "top": 15,
+            "right": 889,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5297005971272787
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-piao-human-expression-hesitant",
+      "character": "piao",
+      "kind": "character",
+      "expression": "expression-hesitant",
+      "cueIds": [
+        "a01-ch03-piao-03",
+        "a01-ch03-piao-04",
+        "a01-ch04-piao-04",
+        "a01-ch06-common-01",
+        "a01-ch06-piao-01",
+        "a01-ch06-piao-02",
+        "a01-ch06-piao-03",
+        "a01-ch07-piao-01",
+        "a01-ch07-piao-02",
+        "a01-ch07-piao-03",
+        "a01-ch07-piao-04",
+        "a01-ch08-piao-01",
+        "a01-ch08-piao-02",
+        "a01-ch08-piao-03",
+        "a01-ch09-piao-01",
+        "a01-ch09-piao-02",
+        "a01-ch09-piao-03",
+        "a01-ch10-common-02",
+        "a01-ch10-common-03",
+        "a01-ch10-piao-01",
+        "a01-ch10-piao-02",
+        "a01-ch10-friends-01",
+        "a01-ch10-friends-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+        "sha256": "9bb08999a38861d259fa6fd29458fb1b58e03425a2fa50533634280e9e90e831",
+        "bytes": 701286
+      },
+      "delivery": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+        "sha256": "9bb08999a38861d259fa6fd29458fb1b58e03425a2fa50533634280e9e90e831",
+        "bytes": 701286,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 831087,
+          "partial": 49716,
+          "nearOpaque": 692061,
+          "visibleBBox": {
+            "left": 199,
+            "top": 15,
+            "right": 889,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5283908843994141
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-piao-human-expression-downcast",
+      "character": "piao",
+      "kind": "character",
+      "expression": "expression-downcast",
+      "cueIds": [
+        "a01-ch03-piao-05"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.webp",
+        "sha256": "4ba3d09a6f0d46c156b7ba278388b9228a8e2c00ba30e398de3f8b46872965e5",
+        "bytes": 704186
+      },
+      "delivery": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.webp",
+        "sha256": "4ba3d09a6f0d46c156b7ba278388b9228a8e2c00ba30e398de3f8b46872965e5",
+        "bytes": 704186,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 832235,
+          "partial": 51665,
+          "nearOpaque": 688964,
+          "visibleBBox": {
+            "left": 201,
+            "top": 15,
+            "right": 888,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5291207631429037
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-maolang-human-expression-hesitant",
+      "character": "maolang",
+      "kind": "character",
+      "expression": "expression-hesitant",
+      "cueIds": [
+        "a01-ch03-friends-01",
+        "a01-ch06-common-01",
+        "a01-ch06-friends-01",
+        "a01-ch07-piao-04",
+        "a01-ch09-piao-03",
+        "a01-ch09-friends-01",
+        "a01-ch10-common-02",
+        "a01-ch10-common-03",
+        "a01-ch10-piao-02",
+        "a01-ch10-friends-01",
+        "a01-ch10-friends-02",
+        "a01-ch10-friends-03"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+        "sha256": "e6b1d49e1a239ea99f95022cba84bd1ba44a452c838b18579d207fbccaffe54f",
+        "bytes": 764064
+      },
+      "delivery": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+        "sha256": "e6b1d49e1a239ea99f95022cba84bd1ba44a452c838b18579d207fbccaffe54f",
+        "bytes": 764064,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 809828,
+          "partial": 43030,
+          "nearOpaque": 720006,
+          "visibleBBox": {
+            "left": 129,
+            "top": 52,
+            "right": 912,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5148747762044271
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-xiaoman-human-expression-downcast",
+      "character": "xiaoman",
+      "kind": "character",
+      "expression": "expression-downcast",
+      "cueIds": [
+        "a01-ch05-xiaoman-01",
+        "a01-ch09-xiaoman-03"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.webp",
+        "sha256": "17431ee18497db77547c67bba1b294873d3c02fa0260075d16354b82bf510c39",
+        "bytes": 1174138
+      },
+      "delivery": {
+        "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.webp",
+        "sha256": "17431ee18497db77547c67bba1b294873d3c02fa0260075d16354b82bf510c39",
+        "bytes": 1174138,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 574195,
+          "partial": 41462,
+          "nearOpaque": 957207,
+          "visibleBBox": {
+            "left": 44,
+            "top": 12,
+            "right": 983,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.3650633494059245
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-zhouzhi-human-expression-tired",
+      "character": "zhouzhi",
+      "kind": "character",
+      "expression": "expression-tired",
+      "cueIds": [
+        "a01-ch05-zhouzhi-01"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/zhouzhi/originals/char-zhouzhi-human-expression-tired-v1.png",
+        "sha256": "d9e49dd2371dbb81ef7ae8138f027825e32cac9c09490e27548a081efd72ff82",
+        "bytes": 1809998
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/zhouzhi/char-zhouzhi-human-expression-tired.webp",
+        "sha256": "061227c7b9526195f47307a3e429090deb2cd8627e665ee197cc659cb6ea5712",
+        "bytes": 809684,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1892867,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 686792,
+          "partial": 55766,
+          "nearOpaque": 830306,
+          "visibleBBox": {
+            "left": 159,
+            "top": 5,
+            "right": 932,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4366505940755208
+        }
+      },
+      "promptKey": "zhouzhi-tired",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-yelan-human-expression-serious",
+      "character": "yelan",
+      "kind": "character",
+      "expression": "expression-serious",
+      "cueIds": [
+        "a01-ch05-yelan-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-serious-v1.png",
+        "sha256": "f6eb0fd92d3d38735e4737ebf273a3e38eb9824d7419affce218a7606cf21296",
+        "bytes": 1757786
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-serious.webp",
+        "sha256": "df8c9e4af8ff0655c7787f4b84bfda83ac79fac793860e6fab8a35eccc63f038",
+        "bytes": 773818,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1709804,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 651992,
+          "partial": 41962,
+          "nearOpaque": 878910,
+          "visibleBBox": {
+            "left": 145,
+            "top": 10,
+            "right": 991,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4145253499348958
+        }
+      },
+      "promptKey": "yelan-serious",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-maolang-human-expression-serious",
+      "character": "maolang",
+      "kind": "character",
+      "expression": "expression-serious",
+      "cueIds": [
+        "a01-ch05-friends-01"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.webp",
+        "sha256": "1bed64f2586cc3633098aeef862046dc6d7b970d71f872adb71c8060008cef44",
+        "bytes": 739990
+      },
+      "delivery": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.webp",
+        "sha256": "1bed64f2586cc3633098aeef862046dc6d7b970d71f872adb71c8060008cef44",
+        "bytes": 739990,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 807382,
+          "partial": 44405,
+          "nearOpaque": 721077,
+          "visibleBBox": {
+            "left": 129,
+            "top": 51,
+            "right": 912,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5133196512858073
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-zhouzhi-human-expression-hesitant",
+      "character": "zhouzhi",
+      "kind": "character",
+      "expression": "expression-hesitant",
+      "cueIds": [
+        "a01-ch06-common-01",
+        "a01-ch06-zhouzhi-01",
+        "a01-ch07-zhouzhi-01",
+        "a01-ch07-zhouzhi-02",
+        "a01-ch07-zhouzhi-03",
+        "a01-ch07-zhouzhi-04",
+        "a01-ch08-zhouzhi-01",
+        "a01-ch09-zhouzhi-01",
+        "a01-ch09-zhouzhi-02",
+        "a01-ch09-zhouzhi-03",
+        "a01-ch10-zhouzhi-01",
+        "a01-ch10-zhouzhi-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.webp",
+        "sha256": "c77e074b064afe4f9250f0e827b6ecfb742c1486d9aa9ba68e22700927f55a20",
+        "bytes": 852512
+      },
+      "delivery": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.webp",
+        "sha256": "c77e074b064afe4f9250f0e827b6ecfb742c1486d9aa9ba68e22700927f55a20",
+        "bytes": 852512,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 689163,
+          "partial": 52237,
+          "nearOpaque": 831464,
+          "visibleBBox": {
+            "left": 158,
+            "top": 6,
+            "right": 937,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4381580352783203
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-shijiang-human-expression-hesitant",
+      "character": "shijiang",
+      "kind": "character",
+      "expression": "expression-hesitant",
+      "cueIds": [
+        "a01-ch08-common-01",
+        "a01-ch08-friends-01",
+        "a01-ch09-common-01",
+        "a01-ch09-friends-01",
+        "a01-ch10-common-01",
+        "a01-ch10-friends-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-hesitant.webp",
+        "sha256": "86140f606a2c669fa62f4b62cf956e166c4b046e94502c8b425d3c9757f983ee",
+        "bytes": 871542
+      },
+      "delivery": {
+        "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-hesitant.webp",
+        "sha256": "86140f606a2c669fa62f4b62cf956e166c4b046e94502c8b425d3c9757f983ee",
+        "bytes": 871542,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 700034,
+          "partial": 30140,
+          "nearOpaque": 842690,
+          "visibleBBox": {
+            "left": 86,
+            "top": 7,
+            "right": 949,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4450696309407552
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-xiaoman-human-expression-tired",
+      "character": "xiaoman",
+      "kind": "character",
+      "expression": "expression-tired",
+      "cueIds": [
+        "a01-ch08-xiaoman-01",
+        "a01-ch08-xiaoman-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/xiaoman/originals/char-xiaoman-human-expression-tired-v1.png",
+        "sha256": "1095c93243297150c7e8226b5f65b1bbf5167515c96ab593efda6269bda3dc81",
+        "bytes": 2221670
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/xiaoman/char-xiaoman-human-expression-tired.webp",
+        "sha256": "29a50ca754c518c047c5c73cd9e373d80a49afa27a385b604b189baf20b7217c",
+        "bytes": 1129696,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1565855,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 566644,
+          "partial": 48708,
+          "nearOpaque": 957512,
+          "visibleBBox": {
+            "left": 40,
+            "top": 7,
+            "right": 983,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.36026255289713544
+        }
+      },
+      "promptKey": "xiaoman-tired",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-tired",
+      "character": "mengyao",
+      "kind": "character",
+      "expression": "expression-tired",
+      "cueIds": [
+        "a01-ch08-mengyao-01"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-tired-v1.png",
+        "sha256": "d38217bfd0b836c9fcace35d275fc042c3518d5ce427ae5b5818d844202ebcd3",
+        "bytes": 2032360
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-tired.webp",
+        "sha256": "6dd6f02794767807804dc5d93894bf9176aa0a1aedc3afae86a70d51494bf137",
+        "bytes": 939628,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1971289,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 721923,
+          "partial": 47015,
+          "nearOpaque": 803926,
+          "visibleBBox": {
+            "left": 151,
+            "top": 4,
+            "right": 944,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4589862823486328
+        }
+      },
+      "promptKey": "mengyao-tired",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-yelan-human-expression-tired",
+      "character": "yelan",
+      "kind": "character",
+      "expression": "expression-tired",
+      "cueIds": [
+        "a01-ch08-yelan-01"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-tired-v1.png",
+        "sha256": "612489ab9fb49f0a27c634cac45c2c111f85dcd5a4e3380da2ee880a13c33c0a",
+        "bytes": 1756032
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-tired.webp",
+        "sha256": "2a8eb5b2feacc530733cf2e3e894b537256a78fe8ab2338e1f133d432835804b",
+        "bytes": 773370,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1713798,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 654647,
+          "partial": 39953,
+          "nearOpaque": 878264,
+          "visibleBBox": {
+            "left": 146,
+            "top": 10,
+            "right": 991,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4162133534749349
+        }
+      },
+      "promptKey": "yelan-tired",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-zhouzhi-human-expression-downcast",
+      "character": "zhouzhi",
+      "kind": "character",
+      "expression": "expression-downcast",
+      "cueIds": [
+        "a01-ch09-zhouzhi-03"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.webp",
+        "sha256": "f33bd7d32161fd13d8597b88779fc2233921a1db3f60c10c63d5be296dd4e713",
+        "bytes": 841286
+      },
+      "delivery": {
+        "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.webp",
+        "sha256": "f33bd7d32161fd13d8597b88779fc2233921a1db3f60c10c63d5be296dd4e713",
+        "bytes": 841286,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 684785,
+          "partial": 49968,
+          "nearOpaque": 838111,
+          "visibleBBox": {
+            "left": 159,
+            "top": 9,
+            "right": 941,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.43537457784016925
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-yelan-human-expression-downcast",
+      "character": "yelan",
+      "kind": "character",
+      "expression": "expression-downcast",
+      "cueIds": [
+        "a01-ch09-yelan-03"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-downcast-v1.png",
+        "sha256": "bf65c3fdce1a0ec7beb3d470754c32779b1c398aa27add76589d1be1fce29493",
+        "bytes": 1763188
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-downcast.webp",
+        "sha256": "1f67ec4250e4ca753471c5c138f0bbc2ab5e57b1db33a313e3c3050b0a6b81f4",
+        "bytes": 782456,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1706764,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 648659,
+          "partial": 44647,
+          "nearOpaque": 879558,
+          "visibleBBox": {
+            "left": 146,
+            "top": 10,
+            "right": 992,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4124062856038411
+        }
+      },
+      "promptKey": "yelan-downcast",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-xiaoman-work-apron",
+      "character": "xiaoman",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch01-common-04",
+        "a01-ch03-xiaoman-01",
+        "a01-ch03-xiaoman-02",
+        "a01-ch03-xiaoman-03"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/xiaoman/originals/char-xiaoman-work-apron-base-v1.png",
+        "sha256": "f24925212a799b14a753b91853a27f84f790a4748aecdaeb77c1926b6a35e303",
+        "bytes": 2199261
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/xiaoman/char-xiaoman-work-apron-base.webp",
+        "sha256": "ce56195e2dd817d5ada6421ead65b6030d14ca0a1492e70e0d9f551271bb81fd",
+        "bytes": 1049844,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1945238,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 691557,
+          "partial": 61481,
+          "nearOpaque": 819826,
+          "visibleBBox": {
+            "left": 92,
+            "top": 4,
+            "right": 982,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4396800994873047
+        }
+      },
+      "promptKey": "xiaoman-work-apron",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-xiaoman-new-coat",
+      "character": "xiaoman",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch05-xiaoman-01",
+        "a01-ch05-xiaoman-02",
+        "a01-ch06-xiaoman-01"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/xiaoman/originals/char-xiaoman-new-coat-base-v2.png",
+        "sha256": "3e9dc71404cb2d6e6a44faf9b0f38217e1c2fb908e4c66f10bec2addcf6476cc",
+        "bytes": 2181112
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/xiaoman/char-xiaoman-new-coat-base-v2.webp",
+        "sha256": "d334b8d736328d91ab4e3aeb3c78248c797487849287bc89239273f15f809b1b",
+        "bytes": 1020276,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1900647,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 703623,
+          "partial": 56530,
+          "nearOpaque": 812711,
+          "visibleBBox": {
+            "left": 101,
+            "top": 11,
+            "right": 1020,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.44735145568847656
+        }
+      },
+      "promptKey": "xiaoman-new-coat",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-mengyao-teacher-bag",
+      "character": "mengyao",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch03-mengyao-01",
+        "a01-ch05-mengyao-01",
+        "a01-ch05-mengyao-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-teacher-bag-base-v1.png",
+        "sha256": "2236b9ec55e91b5b05087b9ececc3b7e8df34e6c7d29267bd6fc62d9ef0869ec",
+        "bytes": 2170162
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/mengyao/char-mengyao-teacher-bag-base.webp",
+        "sha256": "d59a9b2f7cdc6b2e621640c696c37e921eb9f1476ddc6bce5de81852641d9b52",
+        "bytes": 1005040,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1902511,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 689745,
+          "partial": 50035,
+          "nearOpaque": 833084,
+          "visibleBBox": {
+            "left": 106,
+            "top": 4,
+            "right": 946,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.43852806091308594
+        }
+      },
+      "promptKey": "mengyao-teacher-bag",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-mengyao-casual-jacket",
+      "character": "mengyao",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch04-mengyao-01",
+        "a01-ch04-mengyao-02",
+        "a01-ch04-mengyao-03",
+        "a01-ch04-mengyao-04",
+        "a01-ch06-mengyao-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-casual-jacket-base-v1.png",
+        "sha256": "83c1518a52cb4646420e57df1657f5ab11ffd70bb725c7686274a96fb72ed2bc",
+        "bytes": 2183956
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/mengyao/char-mengyao-casual-jacket-base.webp",
+        "sha256": "e6383d2bf8bfde9c55365639be412935651ad724a5a40e11fe8d75b93e7844c1",
+        "bytes": 1039224,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1894421,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 697317,
+          "partial": 56109,
+          "nearOpaque": 819438,
+          "visibleBBox": {
+            "left": 169,
+            "top": 3,
+            "right": 976,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4433422088623047
+        }
+      },
+      "promptKey": "mengyao-casual-jacket",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-yelan-casual",
+      "character": "yelan",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch04-yelan-01",
+        "a01-ch04-yelan-02",
+        "a01-ch04-yelan-03",
+        "a01-ch04-yelan-04",
+        "a01-ch06-yelan-02",
+        "a01-ch10-yelan-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-casual-base-v1.png",
+        "sha256": "47a923424a5979b3a8273e6d9cf03a06117f0366985a9478c3821b56b5887f08",
+        "bytes": 1857510
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/yelan/char-yelan-casual-base.webp",
+        "sha256": "2de61b8d8df57375802bd25924a377432b03baf89aa0656f9a77b7f0926399b7",
+        "bytes": 829548,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1853174,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 678880,
+          "partial": 54712,
+          "nearOpaque": 839272,
+          "visibleBBox": {
+            "left": 163,
+            "top": 9,
+            "right": 976,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4316202799479167
+        }
+      },
+      "promptKey": "yelan-casual",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-zhouzhi-light-blue-shirt",
+      "character": "zhouzhi",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch06-zhouzhi-01"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/zhouzhi/originals/char-zhouzhi-light-blue-shirt-base-v1.png",
+        "sha256": "219193208efe4cbc6c9a2cdaa5683ff9ee211bd8382b4b3d420d93bf415d056f",
+        "bytes": 1888073
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/zhouzhi/char-zhouzhi-light-blue-shirt-base.webp",
+        "sha256": "b77a71b1ec296d6067a150a47bcafe92ba2489e688eed36acdf1aa1c09332ea5",
+        "bytes": 846344,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1883435,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 681518,
+          "partial": 59910,
+          "nearOpaque": 831436,
+          "visibleBBox": {
+            "left": 148,
+            "top": 5,
+            "right": 935,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.43329747517903644
+        }
+      },
+      "promptKey": "zhouzhi-light-blue-shirt",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-zhouzhi-tied-hair",
+      "character": "zhouzhi",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch10-zhouzhi-01"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/zhouzhi/originals/char-zhouzhi-tied-hair-base-v1.png",
+        "sha256": "19e6696c23be0939ac9fd4fb5dbb4c3a6a3a60070faea34df59e04288acd1368",
+        "bytes": 1719833
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/zhouzhi/char-zhouzhi-tied-hair-base.webp",
+        "sha256": "c8f25f8ff8dd3492d418e6396269661023b9389fa66d463b48e38bb507bb6630",
+        "bytes": 753766,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1910011,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 729850,
+          "partial": 58185,
+          "nearOpaque": 784829,
+          "visibleBBox": {
+            "left": 156,
+            "top": 5,
+            "right": 931,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.46402613321940106
+        }
+      },
+      "promptKey": "zhouzhi-tied-hair",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-maolang-wedding",
+      "character": "maolang",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch10-common-03"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/maolang/originals/char-maolang-wedding-base-v1.png",
+        "sha256": "8052cce973006d4df899b3fcdff4185be253e09aa89b0f87750c37e95815ce6c",
+        "bytes": 1712287
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/maolang/char-maolang-wedding-base.webp",
+        "sha256": "ce6c4c4ea25e7e9ed48a6b4c5355d6de452a8cf7292d2823e46ed7cd5c1fc93b",
+        "bytes": 737494,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 2023900,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 789238,
+          "partial": 38294,
+          "nearOpaque": 745332,
+          "visibleBBox": {
+            "left": 154,
+            "top": 52,
+            "right": 925,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5017840067545573
+        }
+      },
+      "promptKey": "maolang-wedding",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-piao-wedding",
+      "character": "piao",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch10-common-03"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/piao/originals/char-piao-wedding-base-v1.png",
+        "sha256": "72ea6be9f9a7f0bb51ccb630122079c9232335494b8186ab11fe57143693b669",
+        "bytes": 1715114
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/piao/char-piao-wedding-base.webp",
+        "sha256": "49aaecd963e03ccf94ad9bfe0c03c2c1f2435acde305f1bbe8c0fd9c7afb6ad3",
+        "bytes": 733474,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 2073287,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 793484,
+          "partial": 55853,
+          "nearOpaque": 723527,
+          "visibleBBox": {
+            "left": 136,
+            "top": 14,
+            "right": 924,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5044835408528646
+        }
+      },
+      "promptKey": "piao-wedding",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    }
+  ],
+  "evidenceBoundary": "格式/透明/像素检查和静态审图；未登记A06正式采用，未接入/运行游戏。"
+}

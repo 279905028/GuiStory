@@ -1,0 +1,4167 @@
+{
+  "task": "E07",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "formalIntegration": false,
+  "route": "huangqiuqiu",
+  "readFlags": [
+    "route",
+    "huangqiuqiuOuting",
+    "huangqiuqiuRelationship",
+    "qiuSignal",
+    "qiuReply",
+    "qiuMet",
+    "qiuForm"
+  ],
+  "writeFlags": [
+    "huangqiuqiuOuting",
+    "huangqiuqiuRelationship",
+    "qiuForm"
+  ],
+  "chapters": [
+    {
+      "chapter": 3,
+      "entry": "tc_c03_huangqiuqiu_entry",
+      "returnTo": "tc_c03_common_exit",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "startLine": 968,
+        "endLine": 1115
+      },
+      "blocks": [
+        {
+          "name": "second_meeting",
+          "a01SectionId": "a01-ch03-huangqiuqiu-01",
+          "heading": "第15天·17:00｜第二次也要打招呼",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "startLine": 970,
+            "endLine": 1022
+          },
+          "nodeIds": [
+            "tc_c03_huangqiuqiu_entry",
+            "tc_c03_huangqiuqiu_second_meeting_002",
+            "tc_c03_huangqiuqiu_second_meeting_003",
+            "tc_c03_huangqiuqiu_second_meeting_004",
+            "tc_c03_huangqiuqiu_second_meeting_005",
+            "tc_c03_huangqiuqiu_second_meeting_006",
+            "tc_c03_huangqiuqiu_second_meeting_007",
+            "tc_c03_huangqiuqiu_second_meeting_008",
+            "tc_c03_huangqiuqiu_second_meeting_009",
+            "tc_c03_huangqiuqiu_second_meeting_010",
+            "tc_c03_huangqiuqiu_second_meeting_011",
+            "tc_c03_huangqiuqiu_second_meeting_012",
+            "tc_c03_huangqiuqiu_second_meeting_013",
+            "tc_c03_huangqiuqiu_second_meeting_014",
+            "tc_c03_huangqiuqiu_second_meeting_015",
+            "tc_c03_huangqiuqiu_second_meeting_016",
+            "tc_c03_huangqiuqiu_second_meeting_017",
+            "tc_c03_huangqiuqiu_second_meeting_018",
+            "tc_c03_huangqiuqiu_second_meeting_019",
+            "tc_c03_huangqiuqiu_second_meeting_020",
+            "tc_c03_huangqiuqiu_second_meeting_021",
+            "tc_c03_huangqiuqiu_second_meeting_022",
+            "tc_c03_huangqiuqiu_second_meeting_023",
+            "tc_c03_huangqiuqiu_second_meeting_024",
+            "tc_c03_huangqiuqiu_second_meeting_025",
+            "tc_c03_huangqiuqiu_second_meeting_026"
+          ],
+          "sceneIds": [
+            "ts_c03_huangqiuqiu_second_meeting",
+            "ts_c03_huangqiuqiu_second_meeting_side_door",
+            "ts_c03_huangqiuqiu_second_meeting_inside"
+          ]
+        },
+        {
+          "name": "not_all_knowing",
+          "a01SectionId": "a01-ch03-huangqiuqiu-02",
+          "heading": "第18天·17:30｜不是什么都知道",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "startLine": 1024,
+            "endLine": 1068
+          },
+          "nodeIds": [
+            "tc_c03_huangqiuqiu_not_all_knowing_001",
+            "tc_c03_huangqiuqiu_not_all_knowing_002",
+            "tc_c03_huangqiuqiu_not_all_knowing_003",
+            "tc_c03_huangqiuqiu_not_all_knowing_004",
+            "tc_c03_huangqiuqiu_not_all_knowing_005",
+            "tc_c03_huangqiuqiu_not_all_knowing_006",
+            "tc_c03_huangqiuqiu_not_all_knowing_007",
+            "tc_c03_huangqiuqiu_not_all_knowing_008",
+            "tc_c03_huangqiuqiu_not_all_knowing_009",
+            "tc_c03_huangqiuqiu_not_all_knowing_010",
+            "tc_c03_huangqiuqiu_not_all_knowing_011",
+            "tc_c03_huangqiuqiu_not_all_knowing_012",
+            "tc_c03_huangqiuqiu_not_all_knowing_013",
+            "tc_c03_huangqiuqiu_not_all_knowing_014",
+            "tc_c03_huangqiuqiu_not_all_knowing_015",
+            "tc_c03_huangqiuqiu_not_all_knowing_016",
+            "tc_c03_huangqiuqiu_not_all_knowing_017",
+            "tc_c03_huangqiuqiu_not_all_knowing_018",
+            "tc_c03_huangqiuqiu_not_all_knowing_019",
+            "tc_c03_huangqiuqiu_not_all_knowing_020",
+            "tc_c03_huangqiuqiu_not_all_knowing_021",
+            "tc_c03_huangqiuqiu_not_all_knowing_022"
+          ],
+          "sceneIds": [
+            "ts_c03_huangqiuqiu_not_all_knowing"
+          ]
+        },
+        {
+          "name": "ordinary_visit",
+          "a01SectionId": "a01-ch03-huangqiuqiu-03",
+          "heading": "第21天·16:30｜来这里没有正事",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+            "startLine": 1070,
+            "endLine": 1114
+          },
+          "nodeIds": [
+            "tc_c03_huangqiuqiu_ordinary_visit_001",
+            "tc_c03_huangqiuqiu_ordinary_visit_002",
+            "tc_c03_huangqiuqiu_ordinary_visit_003",
+            "tc_c03_huangqiuqiu_ordinary_visit_004",
+            "tc_c03_huangqiuqiu_ordinary_visit_005",
+            "tc_c03_huangqiuqiu_ordinary_visit_006",
+            "tc_c03_huangqiuqiu_ordinary_visit_007",
+            "tc_c03_huangqiuqiu_ordinary_visit_008",
+            "tc_c03_huangqiuqiu_ordinary_visit_009",
+            "tc_c03_huangqiuqiu_ordinary_visit_010",
+            "tc_c03_huangqiuqiu_ordinary_visit_011",
+            "tc_c03_huangqiuqiu_ordinary_visit_012",
+            "tc_c03_huangqiuqiu_ordinary_visit_013",
+            "tc_c03_huangqiuqiu_ordinary_visit_014",
+            "tc_c03_huangqiuqiu_ordinary_visit_015",
+            "tc_c03_huangqiuqiu_ordinary_visit_016",
+            "tc_c03_huangqiuqiu_ordinary_visit_017",
+            "tc_c03_huangqiuqiu_ordinary_visit_018",
+            "tc_c03_huangqiuqiu_ordinary_visit_019",
+            "tc_c03_huangqiuqiu_ordinary_visit_020",
+            "tc_c03_huangqiuqiu_ordinary_visit_021",
+            "tc_c03_huangqiuqiu_ordinary_visit_022"
+          ],
+          "sceneIds": [
+            "ts_c03_huangqiuqiu_ordinary_visit",
+            "ts_c03_huangqiuqiu_ordinary_visit_inside"
+          ]
+        }
+      ],
+      "controlIds": []
+    },
+    {
+      "chapter": 4,
+      "entry": "tc_c04_huangqiuqiu_entry",
+      "returnTo": "tc_c04_common_exit",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "startLine": 506,
+        "endLine": 582
+      },
+      "blocks": [
+        {
+          "name": "outing",
+          "a01SectionId": "a01-ch04-huangqiuqiu-01",
+          "heading": "第24天·16:30｜你可以选一个难题",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "startLine": 508,
+            "endLine": 525
+          },
+          "nodeIds": [
+            "tc_c04_huangqiuqiu_entry",
+            "tc_c04_huangqiuqiu_outing_002",
+            "tc_c04_huangqiuqiu_outing_003",
+            "tc_c04_huangqiuqiu_outing_004",
+            "tc_c04_huangqiuqiu_outing_005",
+            "tc_c04_huangqiuqiu_outing_006"
+          ],
+          "sceneIds": [
+            "ts_c04_huangqiuqiu_outing"
+          ]
+        },
+        {
+          "name": "portrait",
+          "a01SectionId": "a01-ch04-huangqiuqiu-02",
+          "heading": "选择A｜画上那个人挺精神",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "startLine": 527,
+            "endLine": 545
+          },
+          "nodeIds": [
+            "tc_c04_huangqiuqiu_portrait_001",
+            "tc_c04_huangqiuqiu_portrait_002",
+            "tc_c04_huangqiuqiu_portrait_003",
+            "tc_c04_huangqiuqiu_portrait_004",
+            "tc_c04_huangqiuqiu_portrait_005",
+            "tc_c04_huangqiuqiu_portrait_006",
+            "tc_c04_huangqiuqiu_portrait_007",
+            "tc_c04_huangqiuqiu_portrait_008",
+            "tc_c04_huangqiuqiu_portrait_009"
+          ],
+          "sceneIds": [
+            "ts_c04_huangqiuqiu_portrait"
+          ]
+        },
+        {
+          "name": "story",
+          "a01SectionId": "a01-ch04-huangqiuqiu-03",
+          "heading": "选择B｜没有赶到结尾的鸭子",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "startLine": 547,
+            "endLine": 557
+          },
+          "nodeIds": [
+            "tc_c04_huangqiuqiu_story_001",
+            "tc_c04_huangqiuqiu_story_002",
+            "tc_c04_huangqiuqiu_story_003",
+            "tc_c04_huangqiuqiu_story_004",
+            "tc_c04_huangqiuqiu_story_005"
+          ],
+          "sceneIds": [
+            "ts_c04_huangqiuqiu_story"
+          ]
+        },
+        {
+          "name": "higher_seat",
+          "a01SectionId": "a01-ch04-huangqiuqiu-04",
+          "heading": "第24天·17:30｜想坐高一点",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+            "startLine": 559,
+            "endLine": 581
+          },
+          "nodeIds": [
+            "tc_c04_huangqiuqiu_higher_seat_001",
+            "tc_c04_huangqiuqiu_higher_seat_002",
+            "tc_c04_huangqiuqiu_higher_seat_003",
+            "tc_c04_huangqiuqiu_higher_seat_004",
+            "tc_c04_huangqiuqiu_higher_seat_005",
+            "tc_c04_huangqiuqiu_higher_seat_006",
+            "tc_c04_huangqiuqiu_higher_seat_007",
+            "tc_c04_huangqiuqiu_higher_seat_008",
+            "tc_c04_huangqiuqiu_higher_seat_009",
+            "tc_c04_huangqiuqiu_higher_seat_010",
+            "tc_c04_huangqiuqiu_higher_seat_011"
+          ],
+          "sceneIds": [
+            "ts_c04_huangqiuqiu_higher_seat"
+          ]
+        }
+      ],
+      "controlIds": [
+        "tc_c04_huangqiuqiu_outing_choice"
+      ]
+    },
+    {
+      "chapter": 5,
+      "entry": "tc_c05_huangqiuqiu_entry",
+      "returnTo": "tc_c05_common_exit",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "startLine": 503,
+        "endLine": 572
+      },
+      "blocks": [
+        {
+          "name": "no_compensation",
+          "a01SectionId": "a01-ch05-huangqiuqiu-01",
+          "heading": "第27天·17:00｜别猜我正在生气",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+            "startLine": 505,
+            "endLine": 541
+          },
+          "nodeIds": [
+            "tc_c05_huangqiuqiu_entry",
+            "tc_c05_huangqiuqiu_no_compensation_002",
+            "tc_c05_huangqiuqiu_no_compensation_003",
+            "tc_c05_huangqiuqiu_no_compensation_004",
+            "tc_c05_huangqiuqiu_no_compensation_005",
+            "tc_c05_huangqiuqiu_no_compensation_006",
+            "tc_c05_huangqiuqiu_no_compensation_007",
+            "tc_c05_huangqiuqiu_no_compensation_008",
+            "tc_c05_huangqiuqiu_no_compensation_009",
+            "tc_c05_huangqiuqiu_no_compensation_010",
+            "tc_c05_huangqiuqiu_no_compensation_011",
+            "tc_c05_huangqiuqiu_no_compensation_012",
+            "tc_c05_huangqiuqiu_no_compensation_013",
+            "tc_c05_huangqiuqiu_no_compensation_014",
+            "tc_c05_huangqiuqiu_no_compensation_015",
+            "tc_c05_huangqiuqiu_no_compensation_016",
+            "tc_c05_huangqiuqiu_no_compensation_017",
+            "tc_c05_huangqiuqiu_no_compensation_018"
+          ],
+          "sceneIds": [
+            "ts_c05_huangqiuqiu_no_compensation"
+          ]
+        },
+        {
+          "name": "unfinished_yawn",
+          "a01SectionId": "a01-ch05-huangqiuqiu-02",
+          "heading": "第29天·16:30｜一个没说完的哈欠",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+            "startLine": 543,
+            "endLine": 571
+          },
+          "nodeIds": [
+            "tc_c05_huangqiuqiu_unfinished_yawn_001",
+            "tc_c05_huangqiuqiu_unfinished_yawn_002",
+            "tc_c05_huangqiuqiu_unfinished_yawn_003",
+            "tc_c05_huangqiuqiu_unfinished_yawn_004",
+            "tc_c05_huangqiuqiu_unfinished_yawn_005",
+            "tc_c05_huangqiuqiu_unfinished_yawn_006",
+            "tc_c05_huangqiuqiu_unfinished_yawn_007",
+            "tc_c05_huangqiuqiu_unfinished_yawn_008",
+            "tc_c05_huangqiuqiu_unfinished_yawn_009",
+            "tc_c05_huangqiuqiu_unfinished_yawn_010",
+            "tc_c05_huangqiuqiu_unfinished_yawn_011",
+            "tc_c05_huangqiuqiu_unfinished_yawn_012",
+            "tc_c05_huangqiuqiu_unfinished_yawn_013",
+            "tc_c05_huangqiuqiu_unfinished_yawn_014"
+          ],
+          "sceneIds": [
+            "ts_c05_huangqiuqiu_unfinished_yawn"
+          ]
+        }
+      ],
+      "controlIds": []
+    },
+    {
+      "chapter": 6,
+      "entry": "tc_c06_huangqiuqiu_entry",
+      "returnTo": "tc_c06_common_exit",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "startLine": 475,
+        "endLine": 544
+      },
+      "blocks": [
+        {
+          "name": "after_dinner",
+          "a01SectionId": "a01-ch06-huangqiuqiu-01",
+          "heading": "第32天·16:00｜门外换过一阵雨",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+            "startLine": 477,
+            "endLine": 502
+          },
+          "nodeIds": [
+            "tc_c06_huangqiuqiu_entry",
+            "tc_c06_huangqiuqiu_after_dinner_002",
+            "tc_c06_huangqiuqiu_after_dinner_003",
+            "tc_c06_huangqiuqiu_after_dinner_004",
+            "tc_c06_huangqiuqiu_after_dinner_005",
+            "tc_c06_huangqiuqiu_after_dinner_006",
+            "tc_c06_huangqiuqiu_after_dinner_007",
+            "tc_c06_huangqiuqiu_after_dinner_008",
+            "tc_c06_huangqiuqiu_after_dinner_009",
+            "tc_c06_huangqiuqiu_after_dinner_010",
+            "tc_c06_huangqiuqiu_after_dinner_011",
+            "tc_c06_huangqiuqiu_after_dinner_012"
+          ],
+          "sceneIds": [
+            "ts_c06_huangqiuqiu_after_dinner"
+          ]
+        },
+        {
+          "name": "slow_joke",
+          "a01SectionId": "a01-ch06-huangqiuqiu-02",
+          "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+            "startLine": 503,
+            "endLine": 544
+          },
+          "nodeIds": [
+            "tc_c06_huangqiuqiu_slow_joke_001",
+            "tc_c06_huangqiuqiu_slow_joke_002",
+            "tc_c06_huangqiuqiu_slow_joke_003",
+            "tc_c06_huangqiuqiu_slow_joke_004",
+            "tc_c06_huangqiuqiu_slow_joke_005",
+            "tc_c06_huangqiuqiu_slow_joke_006",
+            "tc_c06_huangqiuqiu_slow_joke_007",
+            "tc_c06_huangqiuqiu_slow_joke_008",
+            "tc_c06_huangqiuqiu_slow_joke_009",
+            "tc_c06_huangqiuqiu_slow_joke_010",
+            "tc_c06_huangqiuqiu_slow_joke_011",
+            "tc_c06_huangqiuqiu_slow_joke_012",
+            "tc_c06_huangqiuqiu_slow_joke_013",
+            "tc_c06_huangqiuqiu_slow_joke_014",
+            "tc_c06_huangqiuqiu_slow_joke_015",
+            "tc_c06_huangqiuqiu_slow_joke_016",
+            "tc_c06_huangqiuqiu_slow_joke_017",
+            "tc_c06_huangqiuqiu_slow_joke_018",
+            "tc_c06_huangqiuqiu_slow_joke_019",
+            "tc_c06_huangqiuqiu_slow_joke_020"
+          ],
+          "sceneIds": [
+            "ts_c06_huangqiuqiu_slow_joke"
+          ]
+        }
+      ],
+      "controlIds": []
+    },
+    {
+      "chapter": 7,
+      "entry": "tc_c07_huangqiuqiu_entry",
+      "returnTo": "tc_c07_common_exit",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "startLine": 497,
+        "endLine": 560
+      },
+      "blocks": [
+        {
+          "name": "quiet_company",
+          "a01SectionId": "a01-ch07-huangqiuqiu-01",
+          "heading": "第40天·17:00｜她今天想少说一点",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+            "startLine": 499,
+            "endLine": 516
+          },
+          "nodeIds": [
+            "tc_c07_huangqiuqiu_entry",
+            "tc_c07_huangqiuqiu_quiet_company_002",
+            "tc_c07_huangqiuqiu_quiet_company_003",
+            "tc_c07_huangqiuqiu_quiet_company_004",
+            "tc_c07_huangqiuqiu_quiet_company_005",
+            "tc_c07_huangqiuqiu_quiet_company_006",
+            "tc_c07_huangqiuqiu_quiet_company_007",
+            "tc_c07_huangqiuqiu_quiet_company_008"
+          ],
+          "sceneIds": [
+            "ts_c07_huangqiuqiu_quiet_company"
+          ]
+        },
+        {
+          "name": "outing_return",
+          "a01SectionId": "a01-ch07-huangqiuqiu-02",
+          "heading": "回收第24天的小选择",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+            "startLine": 517,
+            "endLine": 522
+          },
+          "nodeIds": [
+            "tc_c07_huangqiuqiu_outing_return_001",
+            "tc_c07_huangqiuqiu_outing_return_002"
+          ],
+          "sceneIds": [
+            "ts_c07_huangqiuqiu_outing_return"
+          ]
+        },
+        {
+          "name": "another_form",
+          "a01SectionId": "a01-ch07-huangqiuqiu-03",
+          "heading": "第42天·16:30｜一个不能随便代替的名字",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+            "startLine": 523,
+            "endLine": 560
+          },
+          "nodeIds": [
+            "tc_c07_huangqiuqiu_another_form_001",
+            "tc_c07_huangqiuqiu_another_form_002",
+            "tc_c07_huangqiuqiu_another_form_003",
+            "tc_c07_huangqiuqiu_another_form_004",
+            "tc_c07_huangqiuqiu_another_form_005",
+            "tc_c07_huangqiuqiu_another_form_006",
+            "tc_c07_huangqiuqiu_another_form_007",
+            "tc_c07_huangqiuqiu_another_form_008",
+            "tc_c07_huangqiuqiu_another_form_009",
+            "tc_c07_huangqiuqiu_another_form_010",
+            "tc_c07_huangqiuqiu_another_form_011",
+            "tc_c07_huangqiuqiu_another_form_012",
+            "tc_c07_huangqiuqiu_another_form_013",
+            "tc_c07_huangqiuqiu_another_form_014",
+            "tc_c07_huangqiuqiu_another_form_015",
+            "tc_c07_huangqiuqiu_another_form_016",
+            "tc_c07_huangqiuqiu_another_form_017",
+            "tc_c07_huangqiuqiu_another_form_018"
+          ],
+          "sceneIds": [
+            "ts_c07_huangqiuqiu_another_form"
+          ]
+        }
+      ],
+      "controlIds": [
+        "tc_c07_huangqiuqiu_outing_gate"
+      ]
+    },
+    {
+      "chapter": 8,
+      "entry": "tc_c08_huangqiuqiu_entry",
+      "returnTo": "tc_c08_common_exit",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "startLine": 455,
+        "endLine": 544
+      },
+      "blocks": [
+        {
+          "name": "trial_roster",
+          "a01SectionId": "a01-ch08-huangqiuqiu-01",
+          "heading": "第55天·16:00｜一张还会改的班表",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+            "startLine": 457,
+            "endLine": 484
+          },
+          "nodeIds": [
+            "tc_c08_huangqiuqiu_entry",
+            "tc_c08_huangqiuqiu_trial_roster_002",
+            "tc_c08_huangqiuqiu_trial_roster_003",
+            "tc_c08_huangqiuqiu_trial_roster_004",
+            "tc_c08_huangqiuqiu_trial_roster_005",
+            "tc_c08_huangqiuqiu_trial_roster_006",
+            "tc_c08_huangqiuqiu_trial_roster_007",
+            "tc_c08_huangqiuqiu_trial_roster_008",
+            "tc_c08_huangqiuqiu_trial_roster_009",
+            "tc_c08_huangqiuqiu_trial_roster_010",
+            "tc_c08_huangqiuqiu_trial_roster_011",
+            "tc_c08_huangqiuqiu_trial_roster_012",
+            "tc_c08_huangqiuqiu_trial_roster_013"
+          ],
+          "sceneIds": [
+            "ts_c08_huangqiuqiu_trial_roster"
+          ]
+        },
+        {
+          "name": "her_decision",
+          "a01SectionId": "a01-ch08-huangqiuqiu-02",
+          "heading": "第55天·17:00｜她想把手放一会儿",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+            "startLine": 485,
+            "endLine": 544
+          },
+          "nodeIds": [
+            "tc_c08_huangqiuqiu_her_decision_001",
+            "tc_c08_huangqiuqiu_her_decision_002",
+            "tc_c08_huangqiuqiu_her_decision_003",
+            "tc_c08_huangqiuqiu_her_decision_004",
+            "tc_c08_huangqiuqiu_her_decision_005",
+            "tc_c08_huangqiuqiu_her_decision_006",
+            "tc_c08_huangqiuqiu_her_decision_007",
+            "tc_c08_huangqiuqiu_her_decision_008",
+            "tc_c08_huangqiuqiu_her_decision_009",
+            "tc_c08_huangqiuqiu_her_decision_010",
+            "tc_c08_huangqiuqiu_her_decision_011",
+            "tc_c08_huangqiuqiu_her_decision_012",
+            "tc_c08_huangqiuqiu_her_decision_013",
+            "tc_c08_huangqiuqiu_her_decision_014",
+            "tc_c08_huangqiuqiu_her_decision_015",
+            "tc_c08_huangqiuqiu_her_decision_016",
+            "tc_c08_huangqiuqiu_her_decision_017",
+            "tc_c08_huangqiuqiu_her_decision_018",
+            "tc_c08_huangqiuqiu_her_decision_019",
+            "tc_c08_huangqiuqiu_her_decision_020",
+            "tc_c08_huangqiuqiu_human_reveal",
+            "tc_c08_huangqiuqiu_her_decision_022",
+            "tc_c08_huangqiuqiu_her_decision_023",
+            "tc_c08_huangqiuqiu_her_decision_024",
+            "tc_c08_huangqiuqiu_her_decision_025",
+            "tc_c08_huangqiuqiu_her_decision_026",
+            "tc_c08_huangqiuqiu_her_decision_027",
+            "tc_c08_huangqiuqiu_her_decision_028",
+            "tc_c08_huangqiuqiu_her_decision_029"
+          ],
+          "sceneIds": [
+            "ts_c08_huangqiuqiu_her_decision"
+          ]
+        }
+      ],
+      "controlIds": []
+    },
+    {
+      "chapter": 9,
+      "entry": "tc_c09_huangqiuqiu_entry",
+      "returnTo": "tc_c09_common_exit",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "startLine": 543,
+        "endLine": 617
+      },
+      "blocks": [
+        {
+          "name": "relationship",
+          "a01SectionId": "a01-ch09-huangqiuqiu-01",
+          "heading": "第76天·16:30｜不是替故事选结尾",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "startLine": 545,
+            "endLine": 569
+          },
+          "nodeIds": [
+            "tc_c09_huangqiuqiu_entry",
+            "tc_c09_huangqiuqiu_relationship_002",
+            "tc_c09_huangqiuqiu_relationship_003",
+            "tc_c09_huangqiuqiu_relationship_004",
+            "tc_c09_huangqiuqiu_relationship_005",
+            "tc_c09_huangqiuqiu_relationship_006",
+            "tc_c09_huangqiuqiu_relationship_007",
+            "tc_c09_huangqiuqiu_relationship_008",
+            "tc_c09_huangqiuqiu_relationship_009"
+          ],
+          "sceneIds": [
+            "ts_c09_huangqiuqiu_relationship",
+            "ts_c09_huangqiuqiu_relationship_inside"
+          ]
+        },
+        {
+          "name": "dating",
+          "a01SectionId": "a01-ch09-huangqiuqiu-02",
+          "heading": "仅交往｜我可以再近一点吗",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "startLine": 570,
+            "endLine": 595
+          },
+          "nodeIds": [
+            "tc_c09_huangqiuqiu_dating_001",
+            "tc_c09_huangqiuqiu_dating_002",
+            "tc_c09_huangqiuqiu_dating_003",
+            "tc_c09_huangqiuqiu_dating_004",
+            "tc_c09_huangqiuqiu_dating_005",
+            "tc_c09_huangqiuqiu_dating_006",
+            "tc_c09_huangqiuqiu_dating_007",
+            "tc_c09_huangqiuqiu_dating_008",
+            "tc_c09_huangqiuqiu_dating_009",
+            "tc_c09_huangqiuqiu_dating_010",
+            "tc_c09_huangqiuqiu_dating_011",
+            "tc_c09_huangqiuqiu_dating_012"
+          ],
+          "sceneIds": [
+            "ts_c09_huangqiuqiu_dating",
+            "ts_c09_huangqiuqiu_dating_outside"
+          ]
+        },
+        {
+          "name": "friends",
+          "a01SectionId": "a01-ch09-huangqiuqiu-03",
+          "heading": "仅朋友｜这句话也会留下来",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+            "startLine": 596,
+            "endLine": 617
+          },
+          "nodeIds": [
+            "tc_c09_huangqiuqiu_friends_001",
+            "tc_c09_huangqiuqiu_friends_002",
+            "tc_c09_huangqiuqiu_friends_003",
+            "tc_c09_huangqiuqiu_friends_004",
+            "tc_c09_huangqiuqiu_friends_005",
+            "tc_c09_huangqiuqiu_friends_006",
+            "tc_c09_huangqiuqiu_friends_007",
+            "tc_c09_huangqiuqiu_friends_008",
+            "tc_c09_huangqiuqiu_friends_009",
+            "tc_c09_huangqiuqiu_friends_010"
+          ],
+          "sceneIds": [
+            "ts_c09_huangqiuqiu_friends",
+            "ts_c09_huangqiuqiu_friends_days_later"
+          ]
+        }
+      ],
+      "controlIds": [
+        "tc_c09_huangqiuqiu_relationship_choice"
+      ]
+    },
+    {
+      "chapter": 10,
+      "entry": "tc_c10_huangqiuqiu_entry",
+      "returnTo": null,
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "startLine": 527,
+        "endLine": 604
+      },
+      "blocks": [
+        {
+          "name": "dating",
+          "a01SectionId": "a01-ch10-huangqiuqiu-01",
+          "heading": "仅交往｜还是她，还是这一声回答",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+            "startLine": 531,
+            "endLine": 568
+          },
+          "nodeIds": [
+            "tc_c10_huangqiuqiu_dating_001",
+            "tc_c10_huangqiuqiu_dating_002",
+            "tc_c10_huangqiuqiu_dating_003",
+            "tc_c10_huangqiuqiu_dating_004",
+            "tc_c10_huangqiuqiu_dating_005",
+            "tc_c10_huangqiuqiu_dating_006",
+            "tc_c10_huangqiuqiu_dating_007",
+            "tc_c10_huangqiuqiu_dating_008",
+            "tc_c10_huangqiuqiu_dating_009",
+            "tc_c10_huangqiuqiu_dating_010",
+            "tc_c10_huangqiuqiu_dating_011",
+            "tc_c10_huangqiuqiu_dating_012",
+            "tc_c10_huangqiuqiu_dating_013",
+            "tc_c10_huangqiuqiu_dating_014",
+            "tc_c10_huangqiuqiu_dating_015",
+            "tc_c10_huangqiuqiu_dating_016",
+            "tc_c10_huangqiuqiu_dating_017",
+            "tc_c10_huangqiuqiu_dating_018"
+          ],
+          "sceneIds": [
+            "ts_c10_huangqiuqiu_dating",
+            "ts_c10_huangqiuqiu_dating_inside",
+            "ts_c10_huangqiuqiu_dating_outside"
+          ]
+        },
+        {
+          "name": "friends",
+          "a01SectionId": "a01-ch10-huangqiuqiu-02",
+          "heading": "仅朋友｜留给朋友的位置",
+          "source": {
+            "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+            "startLine": 569,
+            "endLine": 604
+          },
+          "nodeIds": [
+            "tc_c10_huangqiuqiu_friends_001",
+            "tc_c10_huangqiuqiu_friends_002",
+            "tc_c10_huangqiuqiu_friends_003",
+            "tc_c10_huangqiuqiu_friends_004",
+            "tc_c10_huangqiuqiu_friends_005",
+            "tc_c10_huangqiuqiu_friends_006",
+            "tc_c10_huangqiuqiu_friends_007",
+            "tc_c10_huangqiuqiu_friends_008",
+            "tc_c10_huangqiuqiu_friends_009",
+            "tc_c10_huangqiuqiu_friends_010",
+            "tc_c10_huangqiuqiu_friends_011",
+            "tc_c10_huangqiuqiu_friends_012",
+            "tc_c10_huangqiuqiu_friends_013",
+            "tc_c10_huangqiuqiu_friends_014",
+            "tc_c10_huangqiuqiu_friends_015",
+            "tc_c10_huangqiuqiu_friends_016",
+            "tc_c10_huangqiuqiu_friends_017"
+          ],
+          "sceneIds": [
+            "ts_c10_huangqiuqiu_friends",
+            "ts_c10_huangqiuqiu_friends_inside",
+            "ts_c10_huangqiuqiu_friends_doorway",
+            "ts_c10_huangqiuqiu_friends_inside_again",
+            "ts_c10_huangqiuqiu_friends_outside"
+          ]
+        }
+      ],
+      "controlIds": [
+        "tc_c10_huangqiuqiu_entry",
+        "tc_c10_huangqiuqiu_end_dating",
+        "tc_c10_huangqiuqiu_end_friends"
+      ]
+    }
+  ],
+  "assetMappings": [
+    {
+      "a01SectionId": "a01-ch03-huangqiuqiu-01",
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 970,
+      "endLine": 1022,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeIds": [
+        "tc_c03_huangqiuqiu_entry",
+        "tc_c03_huangqiuqiu_second_meeting_002",
+        "tc_c03_huangqiuqiu_second_meeting_003",
+        "tc_c03_huangqiuqiu_second_meeting_004",
+        "tc_c03_huangqiuqiu_second_meeting_005",
+        "tc_c03_huangqiuqiu_second_meeting_006",
+        "tc_c03_huangqiuqiu_second_meeting_007",
+        "tc_c03_huangqiuqiu_second_meeting_008",
+        "tc_c03_huangqiuqiu_second_meeting_009",
+        "tc_c03_huangqiuqiu_second_meeting_010",
+        "tc_c03_huangqiuqiu_second_meeting_011",
+        "tc_c03_huangqiuqiu_second_meeting_012",
+        "tc_c03_huangqiuqiu_second_meeting_013",
+        "tc_c03_huangqiuqiu_second_meeting_014",
+        "tc_c03_huangqiuqiu_second_meeting_015",
+        "tc_c03_huangqiuqiu_second_meeting_016",
+        "tc_c03_huangqiuqiu_second_meeting_017",
+        "tc_c03_huangqiuqiu_second_meeting_018",
+        "tc_c03_huangqiuqiu_second_meeting_019",
+        "tc_c03_huangqiuqiu_second_meeting_020",
+        "tc_c03_huangqiuqiu_second_meeting_021",
+        "tc_c03_huangqiuqiu_second_meeting_022",
+        "tc_c03_huangqiuqiu_second_meeting_023",
+        "tc_c03_huangqiuqiu_second_meeting_024",
+        "tc_c03_huangqiuqiu_second_meeting_025",
+        "tc_c03_huangqiuqiu_second_meeting_026"
+      ],
+      "sceneIds": [
+        "ts_c03_huangqiuqiu_second_meeting",
+        "ts_c03_huangqiuqiu_second_meeting_side_door",
+        "ts_c03_huangqiuqiu_second_meeting_inside"
+      ],
+      "assetIds": [
+        "tc-bg-rental-day",
+        "tc-bg-netcafe-counter-day",
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-hesitant",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-huangqiuqiu-orb-base",
+        "tc-char-huangqiuqiu-orb-expression-smile"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch03-huangqiuqiu-02",
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 1024,
+      "endLine": 1068,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeIds": [
+        "tc_c03_huangqiuqiu_not_all_knowing_001",
+        "tc_c03_huangqiuqiu_not_all_knowing_002",
+        "tc_c03_huangqiuqiu_not_all_knowing_003",
+        "tc_c03_huangqiuqiu_not_all_knowing_004",
+        "tc_c03_huangqiuqiu_not_all_knowing_005",
+        "tc_c03_huangqiuqiu_not_all_knowing_006",
+        "tc_c03_huangqiuqiu_not_all_knowing_007",
+        "tc_c03_huangqiuqiu_not_all_knowing_008",
+        "tc_c03_huangqiuqiu_not_all_knowing_009",
+        "tc_c03_huangqiuqiu_not_all_knowing_010",
+        "tc_c03_huangqiuqiu_not_all_knowing_011",
+        "tc_c03_huangqiuqiu_not_all_knowing_012",
+        "tc_c03_huangqiuqiu_not_all_knowing_013",
+        "tc_c03_huangqiuqiu_not_all_knowing_014",
+        "tc_c03_huangqiuqiu_not_all_knowing_015",
+        "tc_c03_huangqiuqiu_not_all_knowing_016",
+        "tc_c03_huangqiuqiu_not_all_knowing_017",
+        "tc_c03_huangqiuqiu_not_all_knowing_018",
+        "tc_c03_huangqiuqiu_not_all_knowing_019",
+        "tc_c03_huangqiuqiu_not_all_knowing_020",
+        "tc_c03_huangqiuqiu_not_all_knowing_021",
+        "tc_c03_huangqiuqiu_not_all_knowing_022"
+      ],
+      "sceneIds": [
+        "ts_c03_huangqiuqiu_not_all_knowing"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-hesitant",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-huangqiuqiu-orb-base",
+        "tc-char-huangqiuqiu-orb-expression-serious",
+        "tc-char-huangqiuqiu-orb-expression-smile"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch03-huangqiuqiu-03",
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 1070,
+      "endLine": 1114,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeIds": [
+        "tc_c03_huangqiuqiu_ordinary_visit_001",
+        "tc_c03_huangqiuqiu_ordinary_visit_002",
+        "tc_c03_huangqiuqiu_ordinary_visit_003",
+        "tc_c03_huangqiuqiu_ordinary_visit_004",
+        "tc_c03_huangqiuqiu_ordinary_visit_005",
+        "tc_c03_huangqiuqiu_ordinary_visit_006",
+        "tc_c03_huangqiuqiu_ordinary_visit_007",
+        "tc_c03_huangqiuqiu_ordinary_visit_008",
+        "tc_c03_huangqiuqiu_ordinary_visit_009",
+        "tc_c03_huangqiuqiu_ordinary_visit_010",
+        "tc_c03_huangqiuqiu_ordinary_visit_011",
+        "tc_c03_huangqiuqiu_ordinary_visit_012",
+        "tc_c03_huangqiuqiu_ordinary_visit_013",
+        "tc_c03_huangqiuqiu_ordinary_visit_014",
+        "tc_c03_huangqiuqiu_ordinary_visit_015",
+        "tc_c03_huangqiuqiu_ordinary_visit_016",
+        "tc_c03_huangqiuqiu_ordinary_visit_017",
+        "tc_c03_huangqiuqiu_ordinary_visit_018",
+        "tc_c03_huangqiuqiu_ordinary_visit_019",
+        "tc_c03_huangqiuqiu_ordinary_visit_020",
+        "tc_c03_huangqiuqiu_ordinary_visit_021",
+        "tc_c03_huangqiuqiu_ordinary_visit_022"
+      ],
+      "sceneIds": [
+        "ts_c03_huangqiuqiu_ordinary_visit",
+        "ts_c03_huangqiuqiu_ordinary_visit_inside"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-hesitant",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-huangqiuqiu-orb-base",
+        "tc-char-huangqiuqiu-orb-expression-smile"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch04-huangqiuqiu-01",
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 508,
+      "endLine": 525,
+      "heading": "第24天·16:30｜你可以选一个难题",
+      "nodeIds": [
+        "tc_c04_huangqiuqiu_entry",
+        "tc_c04_huangqiuqiu_outing_002",
+        "tc_c04_huangqiuqiu_outing_003",
+        "tc_c04_huangqiuqiu_outing_004",
+        "tc_c04_huangqiuqiu_outing_005",
+        "tc_c04_huangqiuqiu_outing_006"
+      ],
+      "sceneIds": [
+        "ts_c04_huangqiuqiu_outing"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-huangqiuqiu-orb-base",
+        "tc-char-huangqiuqiu-orb-expression-smile",
+        "tc-look-huangqiuqiu-orb-hand"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch04-huangqiuqiu-02",
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 527,
+      "endLine": 545,
+      "heading": "选择A｜画上那个人挺精神",
+      "nodeIds": [
+        "tc_c04_huangqiuqiu_portrait_001",
+        "tc_c04_huangqiuqiu_portrait_002",
+        "tc_c04_huangqiuqiu_portrait_003",
+        "tc_c04_huangqiuqiu_portrait_004",
+        "tc_c04_huangqiuqiu_portrait_005",
+        "tc_c04_huangqiuqiu_portrait_006",
+        "tc_c04_huangqiuqiu_portrait_007",
+        "tc_c04_huangqiuqiu_portrait_008",
+        "tc_c04_huangqiuqiu_portrait_009"
+      ],
+      "sceneIds": [
+        "ts_c04_huangqiuqiu_portrait"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-huangqiuqiu-orb-base",
+        "tc-char-huangqiuqiu-orb-expression-smile",
+        "tc-look-huangqiuqiu-orb-hand"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch04-huangqiuqiu-03",
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 547,
+      "endLine": 557,
+      "heading": "选择B｜没有赶到结尾的鸭子",
+      "nodeIds": [
+        "tc_c04_huangqiuqiu_story_001",
+        "tc_c04_huangqiuqiu_story_002",
+        "tc_c04_huangqiuqiu_story_003",
+        "tc_c04_huangqiuqiu_story_004",
+        "tc_c04_huangqiuqiu_story_005"
+      ],
+      "sceneIds": [
+        "ts_c04_huangqiuqiu_story"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-huangqiuqiu-orb-base",
+        "tc-char-huangqiuqiu-orb-expression-smile",
+        "tc-look-huangqiuqiu-orb-hand"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch04-huangqiuqiu-04",
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 559,
+      "endLine": 581,
+      "heading": "第24天·17:30｜想坐高一点",
+      "nodeIds": [
+        "tc_c04_huangqiuqiu_higher_seat_001",
+        "tc_c04_huangqiuqiu_higher_seat_002",
+        "tc_c04_huangqiuqiu_higher_seat_003",
+        "tc_c04_huangqiuqiu_higher_seat_004",
+        "tc_c04_huangqiuqiu_higher_seat_005",
+        "tc_c04_huangqiuqiu_higher_seat_006",
+        "tc_c04_huangqiuqiu_higher_seat_007",
+        "tc_c04_huangqiuqiu_higher_seat_008",
+        "tc_c04_huangqiuqiu_higher_seat_009",
+        "tc_c04_huangqiuqiu_higher_seat_010",
+        "tc_c04_huangqiuqiu_higher_seat_011"
+      ],
+      "sceneIds": [
+        "ts_c04_huangqiuqiu_higher_seat"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-huangqiuqiu-orb-base",
+        "tc-char-huangqiuqiu-orb-expression-smile",
+        "tc-look-huangqiuqiu-orb-hand"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch05-huangqiuqiu-01",
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 505,
+      "endLine": 541,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeIds": [
+        "tc_c05_huangqiuqiu_entry",
+        "tc_c05_huangqiuqiu_no_compensation_002",
+        "tc_c05_huangqiuqiu_no_compensation_003",
+        "tc_c05_huangqiuqiu_no_compensation_004",
+        "tc_c05_huangqiuqiu_no_compensation_005",
+        "tc_c05_huangqiuqiu_no_compensation_006",
+        "tc_c05_huangqiuqiu_no_compensation_007",
+        "tc_c05_huangqiuqiu_no_compensation_008",
+        "tc_c05_huangqiuqiu_no_compensation_009",
+        "tc_c05_huangqiuqiu_no_compensation_010",
+        "tc_c05_huangqiuqiu_no_compensation_011",
+        "tc_c05_huangqiuqiu_no_compensation_012",
+        "tc_c05_huangqiuqiu_no_compensation_013",
+        "tc_c05_huangqiuqiu_no_compensation_014",
+        "tc_c05_huangqiuqiu_no_compensation_015",
+        "tc_c05_huangqiuqiu_no_compensation_016",
+        "tc_c05_huangqiuqiu_no_compensation_017",
+        "tc_c05_huangqiuqiu_no_compensation_018"
+      ],
+      "sceneIds": [
+        "ts_c05_huangqiuqiu_no_compensation"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-hesitant",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-huangqiuqiu-orb-base",
+        "tc-char-huangqiuqiu-orb-expression-serious",
+        "tc-char-huangqiuqiu-orb-expression-smile"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch05-huangqiuqiu-02",
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 543,
+      "endLine": 571,
+      "heading": "第29天·16:30｜一个没说完的哈欠",
+      "nodeIds": [
+        "tc_c05_huangqiuqiu_unfinished_yawn_001",
+        "tc_c05_huangqiuqiu_unfinished_yawn_002",
+        "tc_c05_huangqiuqiu_unfinished_yawn_003",
+        "tc_c05_huangqiuqiu_unfinished_yawn_004",
+        "tc_c05_huangqiuqiu_unfinished_yawn_005",
+        "tc_c05_huangqiuqiu_unfinished_yawn_006",
+        "tc_c05_huangqiuqiu_unfinished_yawn_007",
+        "tc_c05_huangqiuqiu_unfinished_yawn_008",
+        "tc_c05_huangqiuqiu_unfinished_yawn_009",
+        "tc_c05_huangqiuqiu_unfinished_yawn_010",
+        "tc_c05_huangqiuqiu_unfinished_yawn_011",
+        "tc_c05_huangqiuqiu_unfinished_yawn_012",
+        "tc_c05_huangqiuqiu_unfinished_yawn_013",
+        "tc_c05_huangqiuqiu_unfinished_yawn_014"
+      ],
+      "sceneIds": [
+        "ts_c05_huangqiuqiu_unfinished_yawn"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-tired",
+        "tc-char-wenwen-human-expression-hesitant",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-huangqiuqiu-orb-base",
+        "tc-char-huangqiuqiu-orb-expression-serious",
+        "tc-char-huangqiuqiu-orb-expression-smile",
+        "tc-look-huangqiuqiu-orb-hand"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch06-huangqiuqiu-01",
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 477,
+      "endLine": 502,
+      "heading": "第32天·16:00｜门外换过一阵雨",
+      "nodeIds": [
+        "tc_c06_huangqiuqiu_entry",
+        "tc_c06_huangqiuqiu_after_dinner_002",
+        "tc_c06_huangqiuqiu_after_dinner_003",
+        "tc_c06_huangqiuqiu_after_dinner_004",
+        "tc_c06_huangqiuqiu_after_dinner_005",
+        "tc_c06_huangqiuqiu_after_dinner_006",
+        "tc_c06_huangqiuqiu_after_dinner_007",
+        "tc_c06_huangqiuqiu_after_dinner_008",
+        "tc_c06_huangqiuqiu_after_dinner_009",
+        "tc_c06_huangqiuqiu_after_dinner_010",
+        "tc_c06_huangqiuqiu_after_dinner_011",
+        "tc_c06_huangqiuqiu_after_dinner_012"
+      ],
+      "sceneIds": [
+        "ts_c06_huangqiuqiu_after_dinner"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-huangqiuqiu-orb-base",
+        "tc-char-huangqiuqiu-orb-expression-smile",
+        "tc-char-huangqiuqiu-orb-expression-hesitant",
+        "tc-char-huangqiuqiu-orb-expression-serious"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch06-huangqiuqiu-02",
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 503,
+      "endLine": 544,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeIds": [
+        "tc_c06_huangqiuqiu_slow_joke_001",
+        "tc_c06_huangqiuqiu_slow_joke_002",
+        "tc_c06_huangqiuqiu_slow_joke_003",
+        "tc_c06_huangqiuqiu_slow_joke_004",
+        "tc_c06_huangqiuqiu_slow_joke_005",
+        "tc_c06_huangqiuqiu_slow_joke_006",
+        "tc_c06_huangqiuqiu_slow_joke_007",
+        "tc_c06_huangqiuqiu_slow_joke_008",
+        "tc_c06_huangqiuqiu_slow_joke_009",
+        "tc_c06_huangqiuqiu_slow_joke_010",
+        "tc_c06_huangqiuqiu_slow_joke_011",
+        "tc_c06_huangqiuqiu_slow_joke_012",
+        "tc_c06_huangqiuqiu_slow_joke_013",
+        "tc_c06_huangqiuqiu_slow_joke_014",
+        "tc_c06_huangqiuqiu_slow_joke_015",
+        "tc_c06_huangqiuqiu_slow_joke_016",
+        "tc_c06_huangqiuqiu_slow_joke_017",
+        "tc_c06_huangqiuqiu_slow_joke_018",
+        "tc_c06_huangqiuqiu_slow_joke_019",
+        "tc_c06_huangqiuqiu_slow_joke_020"
+      ],
+      "sceneIds": [
+        "ts_c06_huangqiuqiu_slow_joke"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-huangqiuqiu-orb-base",
+        "tc-char-huangqiuqiu-orb-expression-smile",
+        "tc-char-huangqiuqiu-orb-expression-hesitant",
+        "tc-char-huangqiuqiu-orb-expression-serious",
+        "tc-look-huangqiuqiu-orb-hand"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch07-huangqiuqiu-01",
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 499,
+      "endLine": 516,
+      "heading": "第40天·17:00｜她今天想少说一点",
+      "nodeIds": [
+        "tc_c07_huangqiuqiu_entry",
+        "tc_c07_huangqiuqiu_quiet_company_002",
+        "tc_c07_huangqiuqiu_quiet_company_003",
+        "tc_c07_huangqiuqiu_quiet_company_004",
+        "tc_c07_huangqiuqiu_quiet_company_005",
+        "tc_c07_huangqiuqiu_quiet_company_006",
+        "tc_c07_huangqiuqiu_quiet_company_007",
+        "tc_c07_huangqiuqiu_quiet_company_008"
+      ],
+      "sceneIds": [
+        "ts_c07_huangqiuqiu_quiet_company"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-huangqiuqiu-orb-base",
+        "tc-char-huangqiuqiu-orb-expression-smile",
+        "tc-char-huangqiuqiu-orb-expression-hesitant",
+        "tc-char-huangqiuqiu-orb-expression-serious"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch07-huangqiuqiu-02",
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 517,
+      "endLine": 522,
+      "heading": "回收第24天的小选择",
+      "nodeIds": [
+        "tc_c07_huangqiuqiu_outing_return_001",
+        "tc_c07_huangqiuqiu_outing_return_002"
+      ],
+      "sceneIds": [
+        "ts_c07_huangqiuqiu_outing_return"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-huangqiuqiu-orb-base",
+        "tc-char-huangqiuqiu-orb-expression-smile",
+        "tc-char-huangqiuqiu-orb-expression-hesitant",
+        "tc-char-huangqiuqiu-orb-expression-serious"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch07-huangqiuqiu-03",
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 523,
+      "endLine": 560,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeIds": [
+        "tc_c07_huangqiuqiu_another_form_001",
+        "tc_c07_huangqiuqiu_another_form_002",
+        "tc_c07_huangqiuqiu_another_form_003",
+        "tc_c07_huangqiuqiu_another_form_004",
+        "tc_c07_huangqiuqiu_another_form_005",
+        "tc_c07_huangqiuqiu_another_form_006",
+        "tc_c07_huangqiuqiu_another_form_007",
+        "tc_c07_huangqiuqiu_another_form_008",
+        "tc_c07_huangqiuqiu_another_form_009",
+        "tc_c07_huangqiuqiu_another_form_010",
+        "tc_c07_huangqiuqiu_another_form_011",
+        "tc_c07_huangqiuqiu_another_form_012",
+        "tc_c07_huangqiuqiu_another_form_013",
+        "tc_c07_huangqiuqiu_another_form_014",
+        "tc_c07_huangqiuqiu_another_form_015",
+        "tc_c07_huangqiuqiu_another_form_016",
+        "tc_c07_huangqiuqiu_another_form_017",
+        "tc_c07_huangqiuqiu_another_form_018"
+      ],
+      "sceneIds": [
+        "ts_c07_huangqiuqiu_another_form"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-huangqiuqiu-orb-base",
+        "tc-char-huangqiuqiu-orb-expression-smile",
+        "tc-char-huangqiuqiu-orb-expression-hesitant",
+        "tc-char-huangqiuqiu-orb-expression-serious"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch08-huangqiuqiu-01",
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 457,
+      "endLine": 484,
+      "heading": "第55天·16:00｜一张还会改的班表",
+      "nodeIds": [
+        "tc_c08_huangqiuqiu_entry",
+        "tc_c08_huangqiuqiu_trial_roster_002",
+        "tc_c08_huangqiuqiu_trial_roster_003",
+        "tc_c08_huangqiuqiu_trial_roster_004",
+        "tc_c08_huangqiuqiu_trial_roster_005",
+        "tc_c08_huangqiuqiu_trial_roster_006",
+        "tc_c08_huangqiuqiu_trial_roster_007",
+        "tc_c08_huangqiuqiu_trial_roster_008",
+        "tc_c08_huangqiuqiu_trial_roster_009",
+        "tc_c08_huangqiuqiu_trial_roster_010",
+        "tc_c08_huangqiuqiu_trial_roster_011",
+        "tc_c08_huangqiuqiu_trial_roster_012",
+        "tc_c08_huangqiuqiu_trial_roster_013"
+      ],
+      "sceneIds": [
+        "ts_c08_huangqiuqiu_trial_roster"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-huangqiuqiu-orb-base",
+        "tc-char-huangqiuqiu-orb-expression-smile",
+        "tc-char-huangqiuqiu-orb-expression-hesitant",
+        "tc-char-huangqiuqiu-orb-expression-serious",
+        "tc-look-huangqiuqiu-orb-hand"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch08-huangqiuqiu-02",
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 485,
+      "endLine": 544,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeIds": [
+        "tc_c08_huangqiuqiu_her_decision_001",
+        "tc_c08_huangqiuqiu_her_decision_002",
+        "tc_c08_huangqiuqiu_her_decision_003",
+        "tc_c08_huangqiuqiu_her_decision_004",
+        "tc_c08_huangqiuqiu_her_decision_005",
+        "tc_c08_huangqiuqiu_her_decision_006",
+        "tc_c08_huangqiuqiu_her_decision_007",
+        "tc_c08_huangqiuqiu_her_decision_008",
+        "tc_c08_huangqiuqiu_her_decision_009",
+        "tc_c08_huangqiuqiu_her_decision_010",
+        "tc_c08_huangqiuqiu_her_decision_011",
+        "tc_c08_huangqiuqiu_her_decision_012",
+        "tc_c08_huangqiuqiu_her_decision_013",
+        "tc_c08_huangqiuqiu_her_decision_014",
+        "tc_c08_huangqiuqiu_her_decision_015",
+        "tc_c08_huangqiuqiu_her_decision_016",
+        "tc_c08_huangqiuqiu_her_decision_017",
+        "tc_c08_huangqiuqiu_her_decision_018",
+        "tc_c08_huangqiuqiu_her_decision_019",
+        "tc_c08_huangqiuqiu_her_decision_020",
+        "tc_c08_huangqiuqiu_human_reveal",
+        "tc_c08_huangqiuqiu_her_decision_022",
+        "tc_c08_huangqiuqiu_her_decision_023",
+        "tc_c08_huangqiuqiu_her_decision_024",
+        "tc_c08_huangqiuqiu_her_decision_025",
+        "tc_c08_huangqiuqiu_her_decision_026",
+        "tc_c08_huangqiuqiu_her_decision_027",
+        "tc_c08_huangqiuqiu_her_decision_028",
+        "tc_c08_huangqiuqiu_her_decision_029"
+      ],
+      "sceneIds": [
+        "ts_c08_huangqiuqiu_her_decision"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-huangqiuqiu-orb-base",
+        "tc-char-huangqiuqiu-orb-expression-smile",
+        "tc-char-huangqiuqiu-orb-expression-hesitant",
+        "tc-char-huangqiuqiu-orb-expression-serious",
+        "tc-char-huangqiuqiu-human-base",
+        "tc-char-huangqiuqiu-human-expression-hesitant",
+        "tc-char-huangqiuqiu-human-expression-smile",
+        "tc-char-huangqiuqiu-human-action-wave",
+        "tc-char-huangqiuqiu-human-expression-serious",
+        "tc-look-huangqiuqiu-orb-hand",
+        "tc-look-huangqiuqiu-human-chin"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch09-huangqiuqiu-01",
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 545,
+      "endLine": 569,
+      "heading": "第76天·16:30｜不是替故事选结尾",
+      "nodeIds": [
+        "tc_c09_huangqiuqiu_entry",
+        "tc_c09_huangqiuqiu_relationship_002",
+        "tc_c09_huangqiuqiu_relationship_003",
+        "tc_c09_huangqiuqiu_relationship_004",
+        "tc_c09_huangqiuqiu_relationship_005",
+        "tc_c09_huangqiuqiu_relationship_006",
+        "tc_c09_huangqiuqiu_relationship_007",
+        "tc_c09_huangqiuqiu_relationship_008",
+        "tc_c09_huangqiuqiu_relationship_009"
+      ],
+      "sceneIds": [
+        "ts_c09_huangqiuqiu_relationship",
+        "ts_c09_huangqiuqiu_relationship_inside"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-huangqiuqiu-human-base",
+        "tc-char-huangqiuqiu-human-expression-smile",
+        "tc-char-huangqiuqiu-human-expression-hesitant",
+        "tc-char-huangqiuqiu-human-expression-serious",
+        "tc-look-huangqiuqiu-human-chin"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch09-huangqiuqiu-02",
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 570,
+      "endLine": 595,
+      "heading": "仅交往｜我可以再近一点吗",
+      "nodeIds": [
+        "tc_c09_huangqiuqiu_dating_001",
+        "tc_c09_huangqiuqiu_dating_002",
+        "tc_c09_huangqiuqiu_dating_003",
+        "tc_c09_huangqiuqiu_dating_004",
+        "tc_c09_huangqiuqiu_dating_005",
+        "tc_c09_huangqiuqiu_dating_006",
+        "tc_c09_huangqiuqiu_dating_007",
+        "tc_c09_huangqiuqiu_dating_008",
+        "tc_c09_huangqiuqiu_dating_009",
+        "tc_c09_huangqiuqiu_dating_010",
+        "tc_c09_huangqiuqiu_dating_011",
+        "tc_c09_huangqiuqiu_dating_012"
+      ],
+      "sceneIds": [
+        "ts_c09_huangqiuqiu_dating",
+        "ts_c09_huangqiuqiu_dating_outside"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-huangqiuqiu-human-base",
+        "tc-char-huangqiuqiu-human-expression-smile",
+        "tc-char-huangqiuqiu-human-expression-hesitant",
+        "tc-char-huangqiuqiu-human-expression-serious",
+        "tc-look-huangqiuqiu-human-chin",
+        "tc-char-huangqiuqiu-human-action-wave"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch09-huangqiuqiu-03",
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 596,
+      "endLine": 617,
+      "heading": "仅朋友｜这句话也会留下来",
+      "nodeIds": [
+        "tc_c09_huangqiuqiu_friends_001",
+        "tc_c09_huangqiuqiu_friends_002",
+        "tc_c09_huangqiuqiu_friends_003",
+        "tc_c09_huangqiuqiu_friends_004",
+        "tc_c09_huangqiuqiu_friends_005",
+        "tc_c09_huangqiuqiu_friends_006",
+        "tc_c09_huangqiuqiu_friends_007",
+        "tc_c09_huangqiuqiu_friends_008",
+        "tc_c09_huangqiuqiu_friends_009",
+        "tc_c09_huangqiuqiu_friends_010"
+      ],
+      "sceneIds": [
+        "ts_c09_huangqiuqiu_friends",
+        "ts_c09_huangqiuqiu_friends_days_later"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-huangqiuqiu-human-base",
+        "tc-char-huangqiuqiu-human-expression-smile",
+        "tc-char-huangqiuqiu-human-expression-hesitant",
+        "tc-char-huangqiuqiu-human-expression-downcast",
+        "tc-char-huangqiuqiu-human-expression-serious",
+        "tc-look-huangqiuqiu-human-chin",
+        "tc-char-huangqiuqiu-human-action-wave"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch10-huangqiuqiu-01",
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 531,
+      "endLine": 568,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeIds": [
+        "tc_c10_huangqiuqiu_dating_001",
+        "tc_c10_huangqiuqiu_dating_002",
+        "tc_c10_huangqiuqiu_dating_003",
+        "tc_c10_huangqiuqiu_dating_004",
+        "tc_c10_huangqiuqiu_dating_005",
+        "tc_c10_huangqiuqiu_dating_006",
+        "tc_c10_huangqiuqiu_dating_007",
+        "tc_c10_huangqiuqiu_dating_008",
+        "tc_c10_huangqiuqiu_dating_009",
+        "tc_c10_huangqiuqiu_dating_010",
+        "tc_c10_huangqiuqiu_dating_011",
+        "tc_c10_huangqiuqiu_dating_012",
+        "tc_c10_huangqiuqiu_dating_013",
+        "tc_c10_huangqiuqiu_dating_014",
+        "tc_c10_huangqiuqiu_dating_015",
+        "tc_c10_huangqiuqiu_dating_016",
+        "tc_c10_huangqiuqiu_dating_017",
+        "tc_c10_huangqiuqiu_dating_018"
+      ],
+      "sceneIds": [
+        "ts_c10_huangqiuqiu_dating",
+        "ts_c10_huangqiuqiu_dating_inside",
+        "ts_c10_huangqiuqiu_dating_outside"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-huangqiuqiu-human-base",
+        "tc-char-huangqiuqiu-human-expression-smile",
+        "tc-char-huangqiuqiu-human-expression-hesitant",
+        "tc-char-huangqiuqiu-human-expression-serious",
+        "tc-look-huangqiuqiu-human-chin",
+        "tc-char-huangqiuqiu-human-action-wave"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    },
+    {
+      "a01SectionId": "a01-ch10-huangqiuqiu-02",
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 569,
+      "endLine": 604,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeIds": [
+        "tc_c10_huangqiuqiu_friends_001",
+        "tc_c10_huangqiuqiu_friends_002",
+        "tc_c10_huangqiuqiu_friends_003",
+        "tc_c10_huangqiuqiu_friends_004",
+        "tc_c10_huangqiuqiu_friends_005",
+        "tc_c10_huangqiuqiu_friends_006",
+        "tc_c10_huangqiuqiu_friends_007",
+        "tc_c10_huangqiuqiu_friends_008",
+        "tc_c10_huangqiuqiu_friends_009",
+        "tc_c10_huangqiuqiu_friends_010",
+        "tc_c10_huangqiuqiu_friends_011",
+        "tc_c10_huangqiuqiu_friends_012",
+        "tc_c10_huangqiuqiu_friends_013",
+        "tc_c10_huangqiuqiu_friends_014",
+        "tc_c10_huangqiuqiu_friends_015",
+        "tc_c10_huangqiuqiu_friends_016",
+        "tc_c10_huangqiuqiu_friends_017"
+      ],
+      "sceneIds": [
+        "ts_c10_huangqiuqiu_friends",
+        "ts_c10_huangqiuqiu_friends_inside",
+        "ts_c10_huangqiuqiu_friends_doorway",
+        "ts_c10_huangqiuqiu_friends_inside_again",
+        "ts_c10_huangqiuqiu_friends_outside"
+      ],
+      "assetIds": [
+        "tc-bg-courtyard-day",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-huangqiuqiu-human-base",
+        "tc-char-huangqiuqiu-human-expression-smile",
+        "tc-char-huangqiuqiu-human-expression-hesitant",
+        "tc-char-huangqiuqiu-human-expression-serious",
+        "tc-look-huangqiuqiu-human-chin",
+        "tc-char-huangqiuqiu-human-action-wave"
+      ],
+      "bindingStatus": "requested-not-adopted"
+    }
+  ],
+  "paragraphs": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 972,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_entry",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 974,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_002",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 976,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_003",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 978,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_004",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_side_door",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 980,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_005",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 982,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_006",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 984,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_007",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 986,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_008",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 988,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_009",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 990,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_010",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 992,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_011",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 994,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_012",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 996,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_013",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 998,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_014",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1000,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_015",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1002,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_016",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1004,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_017",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1006,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_018",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1008,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_019",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1010,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_020",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1012,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_021",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1014,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_022",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1016,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_023",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1018,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_024",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1020,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_025",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1022,
+      "heading": "第15天·17:00｜第二次也要打招呼",
+      "nodeId": "tc_c03_huangqiuqiu_second_meeting_026",
+      "sceneId": "ts_c03_huangqiuqiu_second_meeting_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1026,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_001",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1028,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_002",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1030,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_003",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1032,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_004",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1034,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_005",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1036,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_006",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1038,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_007",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1040,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_008",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1042,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_009",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1044,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_010",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1046,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_011",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1048,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_012",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1050,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_013",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1052,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_014",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1054,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_015",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1056,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_016",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1058,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_017",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1060,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_018",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1062,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_019",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1064,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_020",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1066,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_021",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1068,
+      "heading": "第18天·17:30｜不是什么都知道",
+      "nodeId": "tc_c03_huangqiuqiu_not_all_knowing_022",
+      "sceneId": "ts_c03_huangqiuqiu_not_all_knowing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1072,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_001",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1074,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_002",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1076,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_003",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1078,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_004",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1080,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_005",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1082,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_006",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1084,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_007",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1086,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_008",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1088,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_009",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1090,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_010",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1092,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_011",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1094,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_012",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1096,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_013",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1098,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_014",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1100,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_015",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1102,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_016",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1104,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_017",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1106,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_018",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1108,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_019",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1110,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_020",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1112,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_021",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "line": 1114,
+      "heading": "第21天·16:30｜来这里没有正事",
+      "nodeId": "tc_c03_huangqiuqiu_ordinary_visit_022",
+      "sceneId": "ts_c03_huangqiuqiu_ordinary_visit_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 510,
+      "heading": "第24天·16:30｜你可以选一个难题",
+      "nodeId": "tc_c04_huangqiuqiu_entry",
+      "sceneId": "ts_c04_huangqiuqiu_outing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 512,
+      "heading": "第24天·16:30｜你可以选一个难题",
+      "nodeId": "tc_c04_huangqiuqiu_outing_002",
+      "sceneId": "ts_c04_huangqiuqiu_outing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 514,
+      "heading": "第24天·16:30｜你可以选一个难题",
+      "nodeId": "tc_c04_huangqiuqiu_outing_003",
+      "sceneId": "ts_c04_huangqiuqiu_outing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 516,
+      "heading": "第24天·16:30｜你可以选一个难题",
+      "nodeId": "tc_c04_huangqiuqiu_outing_004",
+      "sceneId": "ts_c04_huangqiuqiu_outing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 518,
+      "heading": "第24天·16:30｜你可以选一个难题",
+      "nodeId": "tc_c04_huangqiuqiu_outing_005",
+      "sceneId": "ts_c04_huangqiuqiu_outing",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 520,
+      "heading": "第24天·16:30｜你可以选一个难题",
+      "nodeId": "tc_c04_huangqiuqiu_outing_006",
+      "sceneId": "ts_c04_huangqiuqiu_outing",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 529,
+      "heading": "选择A｜画上那个人挺精神",
+      "nodeId": "tc_c04_huangqiuqiu_portrait_001",
+      "sceneId": "ts_c04_huangqiuqiu_portrait",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 531,
+      "heading": "选择A｜画上那个人挺精神",
+      "nodeId": "tc_c04_huangqiuqiu_portrait_002",
+      "sceneId": "ts_c04_huangqiuqiu_portrait",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 533,
+      "heading": "选择A｜画上那个人挺精神",
+      "nodeId": "tc_c04_huangqiuqiu_portrait_003",
+      "sceneId": "ts_c04_huangqiuqiu_portrait",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 535,
+      "heading": "选择A｜画上那个人挺精神",
+      "nodeId": "tc_c04_huangqiuqiu_portrait_004",
+      "sceneId": "ts_c04_huangqiuqiu_portrait",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 537,
+      "heading": "选择A｜画上那个人挺精神",
+      "nodeId": "tc_c04_huangqiuqiu_portrait_005",
+      "sceneId": "ts_c04_huangqiuqiu_portrait",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 539,
+      "heading": "选择A｜画上那个人挺精神",
+      "nodeId": "tc_c04_huangqiuqiu_portrait_006",
+      "sceneId": "ts_c04_huangqiuqiu_portrait",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 541,
+      "heading": "选择A｜画上那个人挺精神",
+      "nodeId": "tc_c04_huangqiuqiu_portrait_007",
+      "sceneId": "ts_c04_huangqiuqiu_portrait",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 543,
+      "heading": "选择A｜画上那个人挺精神",
+      "nodeId": "tc_c04_huangqiuqiu_portrait_008",
+      "sceneId": "ts_c04_huangqiuqiu_portrait",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 545,
+      "heading": "选择A｜画上那个人挺精神",
+      "nodeId": "tc_c04_huangqiuqiu_portrait_009",
+      "sceneId": "ts_c04_huangqiuqiu_portrait",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 549,
+      "heading": "选择B｜没有赶到结尾的鸭子",
+      "nodeId": "tc_c04_huangqiuqiu_story_001",
+      "sceneId": "ts_c04_huangqiuqiu_story",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 551,
+      "heading": "选择B｜没有赶到结尾的鸭子",
+      "nodeId": "tc_c04_huangqiuqiu_story_002",
+      "sceneId": "ts_c04_huangqiuqiu_story",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 553,
+      "heading": "选择B｜没有赶到结尾的鸭子",
+      "nodeId": "tc_c04_huangqiuqiu_story_003",
+      "sceneId": "ts_c04_huangqiuqiu_story",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 555,
+      "heading": "选择B｜没有赶到结尾的鸭子",
+      "nodeId": "tc_c04_huangqiuqiu_story_004",
+      "sceneId": "ts_c04_huangqiuqiu_story",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 557,
+      "heading": "选择B｜没有赶到结尾的鸭子",
+      "nodeId": "tc_c04_huangqiuqiu_story_005",
+      "sceneId": "ts_c04_huangqiuqiu_story",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 561,
+      "heading": "第24天·17:30｜想坐高一点",
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_001",
+      "sceneId": "ts_c04_huangqiuqiu_higher_seat",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 563,
+      "heading": "第24天·17:30｜想坐高一点",
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_002",
+      "sceneId": "ts_c04_huangqiuqiu_higher_seat",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 565,
+      "heading": "第24天·17:30｜想坐高一点",
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_003",
+      "sceneId": "ts_c04_huangqiuqiu_higher_seat",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 567,
+      "heading": "第24天·17:30｜想坐高一点",
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_004",
+      "sceneId": "ts_c04_huangqiuqiu_higher_seat",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 569,
+      "heading": "第24天·17:30｜想坐高一点",
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_005",
+      "sceneId": "ts_c04_huangqiuqiu_higher_seat",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 571,
+      "heading": "第24天·17:30｜想坐高一点",
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_006",
+      "sceneId": "ts_c04_huangqiuqiu_higher_seat",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 573,
+      "heading": "第24天·17:30｜想坐高一点",
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_007",
+      "sceneId": "ts_c04_huangqiuqiu_higher_seat",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 575,
+      "heading": "第24天·17:30｜想坐高一点",
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_008",
+      "sceneId": "ts_c04_huangqiuqiu_higher_seat",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 577,
+      "heading": "第24天·17:30｜想坐高一点",
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_009",
+      "sceneId": "ts_c04_huangqiuqiu_higher_seat",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 579,
+      "heading": "第24天·17:30｜想坐高一点",
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_010",
+      "sceneId": "ts_c04_huangqiuqiu_higher_seat",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "line": 581,
+      "heading": "第24天·17:30｜想坐高一点",
+      "nodeId": "tc_c04_huangqiuqiu_higher_seat_011",
+      "sceneId": "ts_c04_huangqiuqiu_higher_seat",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 507,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_entry",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 509,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_002",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 511,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_003",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 513,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_004",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 515,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_005",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 517,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_006",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 519,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_007",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 521,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_008",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 523,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_009",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 525,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_010",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 527,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_011",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 529,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_012",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 531,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_013",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 533,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_014",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 535,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_015",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 537,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_016",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 539,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_017",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 541,
+      "heading": "第27天·17:00｜别猜我正在生气",
+      "nodeId": "tc_c05_huangqiuqiu_no_compensation_018",
+      "sceneId": "ts_c05_huangqiuqiu_no_compensation",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 545,
+      "heading": "第29天·16:30｜一个没说完的哈欠",
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_001",
+      "sceneId": "ts_c05_huangqiuqiu_unfinished_yawn",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 547,
+      "heading": "第29天·16:30｜一个没说完的哈欠",
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_002",
+      "sceneId": "ts_c05_huangqiuqiu_unfinished_yawn",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 549,
+      "heading": "第29天·16:30｜一个没说完的哈欠",
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_003",
+      "sceneId": "ts_c05_huangqiuqiu_unfinished_yawn",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 551,
+      "heading": "第29天·16:30｜一个没说完的哈欠",
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_004",
+      "sceneId": "ts_c05_huangqiuqiu_unfinished_yawn",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 553,
+      "heading": "第29天·16:30｜一个没说完的哈欠",
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_005",
+      "sceneId": "ts_c05_huangqiuqiu_unfinished_yawn",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 555,
+      "heading": "第29天·16:30｜一个没说完的哈欠",
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_006",
+      "sceneId": "ts_c05_huangqiuqiu_unfinished_yawn",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 557,
+      "heading": "第29天·16:30｜一个没说完的哈欠",
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_007",
+      "sceneId": "ts_c05_huangqiuqiu_unfinished_yawn",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 559,
+      "heading": "第29天·16:30｜一个没说完的哈欠",
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_008",
+      "sceneId": "ts_c05_huangqiuqiu_unfinished_yawn",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 561,
+      "heading": "第29天·16:30｜一个没说完的哈欠",
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_009",
+      "sceneId": "ts_c05_huangqiuqiu_unfinished_yawn",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 563,
+      "heading": "第29天·16:30｜一个没说完的哈欠",
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_010",
+      "sceneId": "ts_c05_huangqiuqiu_unfinished_yawn",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 565,
+      "heading": "第29天·16:30｜一个没说完的哈欠",
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_011",
+      "sceneId": "ts_c05_huangqiuqiu_unfinished_yawn",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 567,
+      "heading": "第29天·16:30｜一个没说完的哈欠",
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_012",
+      "sceneId": "ts_c05_huangqiuqiu_unfinished_yawn",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 569,
+      "heading": "第29天·16:30｜一个没说完的哈欠",
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_013",
+      "sceneId": "ts_c05_huangqiuqiu_unfinished_yawn",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "line": 571,
+      "heading": "第29天·16:30｜一个没说完的哈欠",
+      "nodeId": "tc_c05_huangqiuqiu_unfinished_yawn_014",
+      "sceneId": "ts_c05_huangqiuqiu_unfinished_yawn",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 479,
+      "heading": "第32天·16:00｜门外换过一阵雨",
+      "nodeId": "tc_c06_huangqiuqiu_entry",
+      "sceneId": "ts_c06_huangqiuqiu_after_dinner",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 481,
+      "heading": "第32天·16:00｜门外换过一阵雨",
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_002",
+      "sceneId": "ts_c06_huangqiuqiu_after_dinner",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 483,
+      "heading": "第32天·16:00｜门外换过一阵雨",
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_003",
+      "sceneId": "ts_c06_huangqiuqiu_after_dinner",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 485,
+      "heading": "第32天·16:00｜门外换过一阵雨",
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_004",
+      "sceneId": "ts_c06_huangqiuqiu_after_dinner",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 487,
+      "heading": "第32天·16:00｜门外换过一阵雨",
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_005",
+      "sceneId": "ts_c06_huangqiuqiu_after_dinner",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 489,
+      "heading": "第32天·16:00｜门外换过一阵雨",
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_006",
+      "sceneId": "ts_c06_huangqiuqiu_after_dinner",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 491,
+      "heading": "第32天·16:00｜门外换过一阵雨",
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_007",
+      "sceneId": "ts_c06_huangqiuqiu_after_dinner",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 493,
+      "heading": "第32天·16:00｜门外换过一阵雨",
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_008",
+      "sceneId": "ts_c06_huangqiuqiu_after_dinner",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 495,
+      "heading": "第32天·16:00｜门外换过一阵雨",
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_009",
+      "sceneId": "ts_c06_huangqiuqiu_after_dinner",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 497,
+      "heading": "第32天·16:00｜门外换过一阵雨",
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_010",
+      "sceneId": "ts_c06_huangqiuqiu_after_dinner",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 499,
+      "heading": "第32天·16:00｜门外换过一阵雨",
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_011",
+      "sceneId": "ts_c06_huangqiuqiu_after_dinner",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 501,
+      "heading": "第32天·16:00｜门外换过一阵雨",
+      "nodeId": "tc_c06_huangqiuqiu_after_dinner_012",
+      "sceneId": "ts_c06_huangqiuqiu_after_dinner",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 505,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_001",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 507,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_002",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 509,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_003",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 511,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_004",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 513,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_005",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 515,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_006",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 517,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_007",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 519,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_008",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 521,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_009",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 523,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_010",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 525,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_011",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 527,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_012",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 529,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_013",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 531,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_014",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 533,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_015",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 535,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_016",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 537,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_017",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 539,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_018",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 541,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_019",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "line": 543,
+      "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+      "nodeId": "tc_c06_huangqiuqiu_slow_joke_020",
+      "sceneId": "ts_c06_huangqiuqiu_slow_joke",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 501,
+      "heading": "第40天·17:00｜她今天想少说一点",
+      "nodeId": "tc_c07_huangqiuqiu_entry",
+      "sceneId": "ts_c07_huangqiuqiu_quiet_company",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 503,
+      "heading": "第40天·17:00｜她今天想少说一点",
+      "nodeId": "tc_c07_huangqiuqiu_quiet_company_002",
+      "sceneId": "ts_c07_huangqiuqiu_quiet_company",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 505,
+      "heading": "第40天·17:00｜她今天想少说一点",
+      "nodeId": "tc_c07_huangqiuqiu_quiet_company_003",
+      "sceneId": "ts_c07_huangqiuqiu_quiet_company",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 507,
+      "heading": "第40天·17:00｜她今天想少说一点",
+      "nodeId": "tc_c07_huangqiuqiu_quiet_company_004",
+      "sceneId": "ts_c07_huangqiuqiu_quiet_company",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 509,
+      "heading": "第40天·17:00｜她今天想少说一点",
+      "nodeId": "tc_c07_huangqiuqiu_quiet_company_005",
+      "sceneId": "ts_c07_huangqiuqiu_quiet_company",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 511,
+      "heading": "第40天·17:00｜她今天想少说一点",
+      "nodeId": "tc_c07_huangqiuqiu_quiet_company_006",
+      "sceneId": "ts_c07_huangqiuqiu_quiet_company",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 513,
+      "heading": "第40天·17:00｜她今天想少说一点",
+      "nodeId": "tc_c07_huangqiuqiu_quiet_company_007",
+      "sceneId": "ts_c07_huangqiuqiu_quiet_company",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 515,
+      "heading": "第40天·17:00｜她今天想少说一点",
+      "nodeId": "tc_c07_huangqiuqiu_quiet_company_008",
+      "sceneId": "ts_c07_huangqiuqiu_quiet_company",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 519,
+      "heading": "回收第24天的小选择",
+      "nodeId": "tc_c07_huangqiuqiu_outing_return_001",
+      "sceneId": "ts_c07_huangqiuqiu_outing_return",
+      "kind": "narration",
+      "removedReadingPrefix": "**如果选过A：**"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 521,
+      "heading": "回收第24天的小选择",
+      "nodeId": "tc_c07_huangqiuqiu_outing_return_002",
+      "sceneId": "ts_c07_huangqiuqiu_outing_return",
+      "kind": "narration",
+      "removedReadingPrefix": "**如果选过B：**"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 525,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_001",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 527,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_002",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 529,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_003",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 531,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_004",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 533,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_005",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 535,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_006",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 537,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_007",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 539,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_008",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 541,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_009",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 543,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_010",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 545,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_011",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 547,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_012",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 549,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_013",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 551,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_014",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 553,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_015",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 555,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_016",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 557,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_017",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "line": 559,
+      "heading": "第42天·16:30｜一个不能随便代替的名字",
+      "nodeId": "tc_c07_huangqiuqiu_another_form_018",
+      "sceneId": "ts_c07_huangqiuqiu_another_form",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 459,
+      "heading": "第55天·16:00｜一张还会改的班表",
+      "nodeId": "tc_c08_huangqiuqiu_entry",
+      "sceneId": "ts_c08_huangqiuqiu_trial_roster",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 461,
+      "heading": "第55天·16:00｜一张还会改的班表",
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_002",
+      "sceneId": "ts_c08_huangqiuqiu_trial_roster",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 463,
+      "heading": "第55天·16:00｜一张还会改的班表",
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_003",
+      "sceneId": "ts_c08_huangqiuqiu_trial_roster",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 465,
+      "heading": "第55天·16:00｜一张还会改的班表",
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_004",
+      "sceneId": "ts_c08_huangqiuqiu_trial_roster",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 467,
+      "heading": "第55天·16:00｜一张还会改的班表",
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_005",
+      "sceneId": "ts_c08_huangqiuqiu_trial_roster",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 469,
+      "heading": "第55天·16:00｜一张还会改的班表",
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_006",
+      "sceneId": "ts_c08_huangqiuqiu_trial_roster",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 471,
+      "heading": "第55天·16:00｜一张还会改的班表",
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_007",
+      "sceneId": "ts_c08_huangqiuqiu_trial_roster",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 473,
+      "heading": "第55天·16:00｜一张还会改的班表",
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_008",
+      "sceneId": "ts_c08_huangqiuqiu_trial_roster",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 475,
+      "heading": "第55天·16:00｜一张还会改的班表",
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_009",
+      "sceneId": "ts_c08_huangqiuqiu_trial_roster",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 477,
+      "heading": "第55天·16:00｜一张还会改的班表",
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_010",
+      "sceneId": "ts_c08_huangqiuqiu_trial_roster",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 479,
+      "heading": "第55天·16:00｜一张还会改的班表",
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_011",
+      "sceneId": "ts_c08_huangqiuqiu_trial_roster",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 481,
+      "heading": "第55天·16:00｜一张还会改的班表",
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_012",
+      "sceneId": "ts_c08_huangqiuqiu_trial_roster",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 483,
+      "heading": "第55天·16:00｜一张还会改的班表",
+      "nodeId": "tc_c08_huangqiuqiu_trial_roster_013",
+      "sceneId": "ts_c08_huangqiuqiu_trial_roster",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 487,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_001",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 489,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_002",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 491,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_003",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 493,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_004",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 495,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_005",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 497,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_006",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 499,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_007",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 501,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_008",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 503,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_009",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 505,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_010",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 507,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_011",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 509,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_012",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 511,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_013",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 513,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_014",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 515,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_015",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 517,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_016",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 519,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_017",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 521,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_018",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 523,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_019",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 525,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_020",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 527,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_human_reveal",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 529,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_022",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 531,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_023",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 533,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_024",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 535,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_025",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 537,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_026",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 539,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_027",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 541,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_028",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 543,
+      "heading": "第55天·17:00｜她想把手放一会儿",
+      "nodeId": "tc_c08_huangqiuqiu_her_decision_029",
+      "sceneId": "ts_c08_huangqiuqiu_her_decision",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 547,
+      "heading": "第76天·16:30｜不是替故事选结尾",
+      "nodeId": "tc_c09_huangqiuqiu_entry",
+      "sceneId": "ts_c09_huangqiuqiu_relationship",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 549,
+      "heading": "第76天·16:30｜不是替故事选结尾",
+      "nodeId": "tc_c09_huangqiuqiu_relationship_002",
+      "sceneId": "ts_c09_huangqiuqiu_relationship_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 551,
+      "heading": "第76天·16:30｜不是替故事选结尾",
+      "nodeId": "tc_c09_huangqiuqiu_relationship_003",
+      "sceneId": "ts_c09_huangqiuqiu_relationship_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 553,
+      "heading": "第76天·16:30｜不是替故事选结尾",
+      "nodeId": "tc_c09_huangqiuqiu_relationship_004",
+      "sceneId": "ts_c09_huangqiuqiu_relationship_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 555,
+      "heading": "第76天·16:30｜不是替故事选结尾",
+      "nodeId": "tc_c09_huangqiuqiu_relationship_005",
+      "sceneId": "ts_c09_huangqiuqiu_relationship_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 557,
+      "heading": "第76天·16:30｜不是替故事选结尾",
+      "nodeId": "tc_c09_huangqiuqiu_relationship_006",
+      "sceneId": "ts_c09_huangqiuqiu_relationship_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 559,
+      "heading": "第76天·16:30｜不是替故事选结尾",
+      "nodeId": "tc_c09_huangqiuqiu_relationship_007",
+      "sceneId": "ts_c09_huangqiuqiu_relationship_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 561,
+      "heading": "第76天·16:30｜不是替故事选结尾",
+      "nodeId": "tc_c09_huangqiuqiu_relationship_008",
+      "sceneId": "ts_c09_huangqiuqiu_relationship_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 563,
+      "heading": "第76天·16:30｜不是替故事选结尾",
+      "nodeId": "tc_c09_huangqiuqiu_relationship_009",
+      "sceneId": "ts_c09_huangqiuqiu_relationship_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 572,
+      "heading": "仅交往｜我可以再近一点吗",
+      "nodeId": "tc_c09_huangqiuqiu_dating_001",
+      "sceneId": "ts_c09_huangqiuqiu_dating",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 574,
+      "heading": "仅交往｜我可以再近一点吗",
+      "nodeId": "tc_c09_huangqiuqiu_dating_002",
+      "sceneId": "ts_c09_huangqiuqiu_dating",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 576,
+      "heading": "仅交往｜我可以再近一点吗",
+      "nodeId": "tc_c09_huangqiuqiu_dating_003",
+      "sceneId": "ts_c09_huangqiuqiu_dating",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 578,
+      "heading": "仅交往｜我可以再近一点吗",
+      "nodeId": "tc_c09_huangqiuqiu_dating_004",
+      "sceneId": "ts_c09_huangqiuqiu_dating",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 580,
+      "heading": "仅交往｜我可以再近一点吗",
+      "nodeId": "tc_c09_huangqiuqiu_dating_005",
+      "sceneId": "ts_c09_huangqiuqiu_dating",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 582,
+      "heading": "仅交往｜我可以再近一点吗",
+      "nodeId": "tc_c09_huangqiuqiu_dating_006",
+      "sceneId": "ts_c09_huangqiuqiu_dating",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 584,
+      "heading": "仅交往｜我可以再近一点吗",
+      "nodeId": "tc_c09_huangqiuqiu_dating_007",
+      "sceneId": "ts_c09_huangqiuqiu_dating",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 586,
+      "heading": "仅交往｜我可以再近一点吗",
+      "nodeId": "tc_c09_huangqiuqiu_dating_008",
+      "sceneId": "ts_c09_huangqiuqiu_dating",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 588,
+      "heading": "仅交往｜我可以再近一点吗",
+      "nodeId": "tc_c09_huangqiuqiu_dating_009",
+      "sceneId": "ts_c09_huangqiuqiu_dating",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 590,
+      "heading": "仅交往｜我可以再近一点吗",
+      "nodeId": "tc_c09_huangqiuqiu_dating_010",
+      "sceneId": "ts_c09_huangqiuqiu_dating",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 592,
+      "heading": "仅交往｜我可以再近一点吗",
+      "nodeId": "tc_c09_huangqiuqiu_dating_011",
+      "sceneId": "ts_c09_huangqiuqiu_dating",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 594,
+      "heading": "仅交往｜我可以再近一点吗",
+      "nodeId": "tc_c09_huangqiuqiu_dating_012",
+      "sceneId": "ts_c09_huangqiuqiu_dating_outside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 598,
+      "heading": "仅朋友｜这句话也会留下来",
+      "nodeId": "tc_c09_huangqiuqiu_friends_001",
+      "sceneId": "ts_c09_huangqiuqiu_friends",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 600,
+      "heading": "仅朋友｜这句话也会留下来",
+      "nodeId": "tc_c09_huangqiuqiu_friends_002",
+      "sceneId": "ts_c09_huangqiuqiu_friends",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 602,
+      "heading": "仅朋友｜这句话也会留下来",
+      "nodeId": "tc_c09_huangqiuqiu_friends_003",
+      "sceneId": "ts_c09_huangqiuqiu_friends",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 604,
+      "heading": "仅朋友｜这句话也会留下来",
+      "nodeId": "tc_c09_huangqiuqiu_friends_004",
+      "sceneId": "ts_c09_huangqiuqiu_friends",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 606,
+      "heading": "仅朋友｜这句话也会留下来",
+      "nodeId": "tc_c09_huangqiuqiu_friends_005",
+      "sceneId": "ts_c09_huangqiuqiu_friends",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 608,
+      "heading": "仅朋友｜这句话也会留下来",
+      "nodeId": "tc_c09_huangqiuqiu_friends_006",
+      "sceneId": "ts_c09_huangqiuqiu_friends",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 610,
+      "heading": "仅朋友｜这句话也会留下来",
+      "nodeId": "tc_c09_huangqiuqiu_friends_007",
+      "sceneId": "ts_c09_huangqiuqiu_friends_days_later",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 612,
+      "heading": "仅朋友｜这句话也会留下来",
+      "nodeId": "tc_c09_huangqiuqiu_friends_008",
+      "sceneId": "ts_c09_huangqiuqiu_friends_days_later",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 614,
+      "heading": "仅朋友｜这句话也会留下来",
+      "nodeId": "tc_c09_huangqiuqiu_friends_009",
+      "sceneId": "ts_c09_huangqiuqiu_friends_days_later",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "line": 616,
+      "heading": "仅朋友｜这句话也会留下来",
+      "nodeId": "tc_c09_huangqiuqiu_friends_010",
+      "sceneId": "ts_c09_huangqiuqiu_friends_days_later",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 533,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_001",
+      "sceneId": "ts_c10_huangqiuqiu_dating",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 535,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_002",
+      "sceneId": "ts_c10_huangqiuqiu_dating",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 537,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_003",
+      "sceneId": "ts_c10_huangqiuqiu_dating",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 539,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_004",
+      "sceneId": "ts_c10_huangqiuqiu_dating",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 541,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_005",
+      "sceneId": "ts_c10_huangqiuqiu_dating_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 543,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_006",
+      "sceneId": "ts_c10_huangqiuqiu_dating_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 545,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_007",
+      "sceneId": "ts_c10_huangqiuqiu_dating_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 547,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_008",
+      "sceneId": "ts_c10_huangqiuqiu_dating_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 549,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_009",
+      "sceneId": "ts_c10_huangqiuqiu_dating_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 551,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_010",
+      "sceneId": "ts_c10_huangqiuqiu_dating_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 553,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_011",
+      "sceneId": "ts_c10_huangqiuqiu_dating_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 555,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_012",
+      "sceneId": "ts_c10_huangqiuqiu_dating_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 557,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_013",
+      "sceneId": "ts_c10_huangqiuqiu_dating_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 559,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_014",
+      "sceneId": "ts_c10_huangqiuqiu_dating_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 561,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_015",
+      "sceneId": "ts_c10_huangqiuqiu_dating_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 563,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_016",
+      "sceneId": "ts_c10_huangqiuqiu_dating_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 565,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_017",
+      "sceneId": "ts_c10_huangqiuqiu_dating_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 567,
+      "heading": "仅交往｜还是她，还是这一声回答",
+      "nodeId": "tc_c10_huangqiuqiu_dating_018",
+      "sceneId": "ts_c10_huangqiuqiu_dating_outside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 571,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeId": "tc_c10_huangqiuqiu_friends_001",
+      "sceneId": "ts_c10_huangqiuqiu_friends",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 573,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeId": "tc_c10_huangqiuqiu_friends_002",
+      "sceneId": "ts_c10_huangqiuqiu_friends",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 575,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeId": "tc_c10_huangqiuqiu_friends_003",
+      "sceneId": "ts_c10_huangqiuqiu_friends",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 577,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeId": "tc_c10_huangqiuqiu_friends_004",
+      "sceneId": "ts_c10_huangqiuqiu_friends_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 579,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeId": "tc_c10_huangqiuqiu_friends_005",
+      "sceneId": "ts_c10_huangqiuqiu_friends_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 581,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeId": "tc_c10_huangqiuqiu_friends_006",
+      "sceneId": "ts_c10_huangqiuqiu_friends_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 583,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeId": "tc_c10_huangqiuqiu_friends_007",
+      "sceneId": "ts_c10_huangqiuqiu_friends_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 585,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeId": "tc_c10_huangqiuqiu_friends_008",
+      "sceneId": "ts_c10_huangqiuqiu_friends_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 587,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeId": "tc_c10_huangqiuqiu_friends_009",
+      "sceneId": "ts_c10_huangqiuqiu_friends_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 589,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeId": "tc_c10_huangqiuqiu_friends_010",
+      "sceneId": "ts_c10_huangqiuqiu_friends_inside",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 591,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeId": "tc_c10_huangqiuqiu_friends_011",
+      "sceneId": "ts_c10_huangqiuqiu_friends_inside",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 593,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeId": "tc_c10_huangqiuqiu_friends_012",
+      "sceneId": "ts_c10_huangqiuqiu_friends_doorway",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 595,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeId": "tc_c10_huangqiuqiu_friends_013",
+      "sceneId": "ts_c10_huangqiuqiu_friends_doorway",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 597,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeId": "tc_c10_huangqiuqiu_friends_014",
+      "sceneId": "ts_c10_huangqiuqiu_friends_doorway",
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 599,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeId": "tc_c10_huangqiuqiu_friends_015",
+      "sceneId": "ts_c10_huangqiuqiu_friends_inside_again",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 601,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeId": "tc_c10_huangqiuqiu_friends_016",
+      "sceneId": "ts_c10_huangqiuqiu_friends_inside_again",
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "line": 603,
+      "heading": "仅朋友｜留给朋友的位置",
+      "nodeId": "tc_c10_huangqiuqiu_friends_017",
+      "sceneId": "ts_c10_huangqiuqiu_friends_outside",
+      "kind": "narration"
+    }
+  ],
+  "hiddenContract": {
+    "owner": "E03",
+    "initialFlags": {
+      "qiuMet": false,
+      "qiuForm": "sphere"
+    },
+    "entranceRequires": [
+      {
+        "flag": "qiuSignal",
+        "value": "record"
+      },
+      {
+        "flag": "qiuReply",
+        "value": "reply"
+      },
+      {
+        "flag": "qiuMet",
+        "value": true
+      }
+    ],
+    "meetEvent": {
+      "id": "qiu-met",
+      "nodeId": "tc_c02_common_qiu_met",
+      "type": "line",
+      "owner": "E03",
+      "chapter": 2,
+      "route": "common",
+      "day": 14,
+      "time": "20:30",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+        "line": 271,
+        "raw": "回到屋里，我把明天的闹钟调好。备忘录上那三个点还在，下面多了一行名字。"
+      },
+      "requires": [
+        {
+          "flag": "qiuSignal",
+          "value": "record"
+        },
+        {
+          "flag": "qiuReply",
+          "value": "reply"
+        }
+      ],
+      "setFlags": {
+        "qiuMet": true
+      }
+    },
+    "routeChoiceId": "tc_c03_common_route_choice",
+    "notes": [
+      "第8天回应始终可选，未记录时不获回应；只有记录加回应完成第14天相识。",
+      "相识前不显示姓名、立绘或头像；第三章选项还需qiuMet=true。",
+      "球球不参加公共婚宴；本模块从唯一适用后日谈之后接续。"
+    ]
+  },
+  "callbackRules": [
+    {
+      "choiceId": "tc_c04_huangqiuqiu_outing_choice",
+      "flag": "huangqiuqiuOuting",
+      "value": "portrait",
+      "owner": "E07",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 519,
+        "raw": "**如果选过A：**她让我把压在干处的自画像拿出来。我翻开纸，自己也被那扇小门似的鼻子逗笑了。她说前几天想起画上那个人，觉得他好像很会逞强，头发没画对也不承认。我说画的人比他好一点，已经认了。她看着纸，说今天不用补一张更好的，就让他继续精神着。我们把画像重新放好，她没有拿它代替我，也没要求我把自己所有糗相留下。"
+      },
+      "kind": "chapter4-to-7"
+    },
+    {
+      "choiceId": "tc_c04_huangqiuqiu_outing_choice",
+      "flag": "huangqiuqiuOuting",
+      "value": "story",
+      "owner": "E07",
+      "source": {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "line": 521,
+        "raw": "**如果选过B：**她问那只没有买到伞的鸭子后来是不是还在屋檐下。我说可以还在，也可以已经回家。她想了想，说今天不替它决定，让它多坐一会儿。我想接一句好笑的话，又停住。她看着我，眼睛弯了点，像是发现我这回终于没把每个空白都当成等着填的地方。鸭子的故事没有继续，我们也没有因此变得没话可说。"
+      },
+      "kind": "chapter4-to-7"
+    }
+  ],
+  "automaticEvent": {
+    "id": "qiu-human",
+    "nodeId": "tc_c08_huangqiuqiu_human_reveal",
+    "type": "line",
+    "owner": "E07",
+    "chapter": 8,
+    "route": "huangqiuqiu",
+    "day": 55,
+    "time": "17:00",
+    "source": {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "line": 527,
+      "raw": "坐在我面前的，已经是个棕色齐刘海、中长发垂到肩旁的年轻女人。浅米灰色的宽松拉链外套敞着，里面是白色印花上衣，颈间有一圈黑色颈饰，一只眼前覆着白色遮片。她手里握着一根浅色的玩偶棒，长柄顶端是张圆圆的脸。"
+    },
+    "requires": [
+      {
+        "flag": "route",
+        "value": "huangqiuqiu"
+      },
+      {
+        "flag": "qiuSignal",
+        "value": "record"
+      },
+      {
+        "flag": "qiuReply",
+        "value": "reply"
+      },
+      {
+        "flag": "qiuMet",
+        "value": true
+      }
+    ],
+    "setFlags": {
+      "qiuForm": "human"
+    }
+  },
+  "exclusions": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 968,
+      "endLine": 968,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 506,
+      "endLine": 506,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 503,
+      "endLine": 503,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 475,
+      "endLine": 475,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 497,
+      "endLine": 497,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 455,
+      "endLine": 455,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 543,
+      "endLine": 543,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 527,
+      "endLine": 527,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 529,
+      "endLine": 529,
+      "reason": "heading-only"
+    }
+  ],
+  "counts": {
+    "chapters": 8,
+    "nodes": 307,
+    "scenes": 33,
+    "paragraphs": 301,
+    "choices": 2,
+    "automaticEvents": 1,
+    "endings": 2,
+    "a01Sections": 21
+  }
+}

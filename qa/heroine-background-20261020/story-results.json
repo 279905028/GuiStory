@@ -1,0 +1,290 @@
+{
+  "startedAt": "2026-10-20T09:25:05.339Z",
+  "pass": true,
+  "initialHashes": {
+    "story.js": "1e88bf4fa7b0ff742166c5786a308dd3b4d740e6f939ab2b00c54c3db43e85b2",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "9fca5600452731df2351a353b001f38b702ccd4ad89f1fc7e8e5781e775ec655",
+    "index.html": "a073cf71f8232831f9f260a074b475dd82d750cbddf0bad32dbbde71c331695e",
+    "styles.css": "c498a9a63d759d231f63dca36fcccdabb85c5263ec9ff7dde4e9431a73342bf8",
+    "assets/runtime-v0.4-manifest.json": "3f13e1bb7136bac4c877fa536757cd357c29c777a54695aca8f85a33e3bfbd5f",
+    "assets/cover-b-desktop.png": "2041710ae3b577e40e8664c5a9b452240d7ce0d095279155ac1875c5b6ab33d2",
+    "assets/cover-b-mobile.png": "bfb2d5786fd9c074601ccfb7a1ee617eea51493317aaf7bc59c3c04f22830c81"
+  },
+  "checks": [
+    {
+      "name": "折叠新增普通对白后，原选择、旗标、条件、结局、CG 和节点连接契约保持一致",
+      "pass": true,
+      "details": {
+        "originalNodes": 1230,
+        "addedLines": 80,
+        "changedTextCount": 11,
+        "addedIds": [
+          "s5_bg_xiaoman_01",
+          "s5_bg_xiaoman_02",
+          "s5_bg_xiaoman_03",
+          "s5_bg_xiaoman_04",
+          "s5_bg_xiaoman_05",
+          "s6_bg_zhouzhi_01",
+          "s6_bg_zhouzhi_02",
+          "s6_bg_zhouzhi_03",
+          "s6_bg_zhouzhi_04",
+          "s6_bg_zhouzhi_05",
+          "s7_bg_mengyao_01",
+          "s7_bg_mengyao_02",
+          "s7_bg_mengyao_03",
+          "s7_bg_mengyao_04",
+          "s8_bg_yelan_01",
+          "s8_bg_yelan_02",
+          "s8_bg_yelan_03",
+          "s8_bg_yelan_04",
+          "s8_bg_yelan_05",
+          "ch2_bg_qiu_01",
+          "ch2_bg_qiu_02",
+          "ch2_bg_qiu_03",
+          "ch2_bg_qiu_04",
+          "ch3_bg_xiaoman_15_01",
+          "ch3_bg_xiaoman_15_02",
+          "ch3_bg_xiaoman_15_03",
+          "ch3_bg_xiaoman_18_01",
+          "ch3_bg_xiaoman_18_02",
+          "ch3_bg_xiaoman_18_03",
+          "ch3_bg_xiaoman_21_01",
+          "ch3_bg_xiaoman_21_02",
+          "ch3_bg_xiaoman_21_03",
+          "ch3_bg_zhouzhi_15_01",
+          "ch3_bg_zhouzhi_15_02",
+          "ch3_bg_zhouzhi_15_03",
+          "ch3_bg_zhouzhi_18_01",
+          "ch3_bg_zhouzhi_18_02",
+          "ch3_bg_zhouzhi_18_03",
+          "ch3_bg_zhouzhi_21_01",
+          "ch3_bg_zhouzhi_21_02",
+          "ch3_bg_zhouzhi_21_03",
+          "ch3_bg_mengyao_15_01",
+          "ch3_bg_mengyao_15_02",
+          "ch3_bg_mengyao_15_03",
+          "ch3_bg_mengyao_15_04",
+          "ch3_bg_mengyao_18_01",
+          "ch3_bg_mengyao_18_02",
+          "ch3_bg_mengyao_18_03",
+          "ch3_bg_mengyao_21_01",
+          "ch3_bg_mengyao_21_02",
+          "ch3_bg_mengyao_21_03",
+          "ch3_bg_yelan_15_01",
+          "ch3_bg_yelan_15_02",
+          "ch3_bg_yelan_15_03",
+          "ch3_bg_yelan_18_01",
+          "ch3_bg_yelan_18_02",
+          "ch3_bg_yelan_18_03",
+          "ch3_bg_yelan_21_01",
+          "ch3_bg_yelan_21_02",
+          "ch3_bg_yelan_21_03",
+          "ch3_bg_qiu_15_01",
+          "ch3_bg_qiu_15_02",
+          "ch3_bg_qiu_15_03",
+          "ch3_bg_qiu_18_01",
+          "ch3_bg_qiu_18_02",
+          "ch3_bg_qiu_18_03",
+          "ch3_bg_qiu_21_01",
+          "ch3_bg_qiu_21_02",
+          "ch2_piao_bg_return_01",
+          "ch2_piao_bg_return_02",
+          "ch2_piao_bg_return_03",
+          "ch3_piao_bg_past_01",
+          "ch3_piao_bg_past_02",
+          "ch3_piao_bg_past_03",
+          "ch3_piao_bg_past_04",
+          "ch3_piao_bg_past_05",
+          "ch3_piao_bg_next_01",
+          "ch3_piao_bg_next_02",
+          "ch3_piao_bg_next_03",
+          "ch3_piao_bg_next_04"
+        ],
+        "changedTextIds": [
+          "ch3_xiaoman_a_09",
+          "ch2_piao_meet_03",
+          "ch2_piao_meet_10",
+          "ch2_piao_meet_12",
+          "ch3_piao_a_01",
+          "ch3_piao_memory_i_02",
+          "ch3_piao_b_01",
+          "ch3_piao_b_04",
+          "ch3_piao_d_05",
+          "ch3_piao_d_07",
+          "epilogue_piao_m_03"
+        ],
+        "choiceCount": 20,
+        "gateCount": 45,
+        "cgCount": 10,
+        "cgBindings": 48
+      }
+    },
+    {
+      "name": "运行层仅改变独立存档前缀及中文说明；严格引擎不变，并行封面按独立冻结指纹验证",
+      "pass": true,
+      "details": {
+        "allowedStringChanges": [
+          {
+            "original": "'bijie-rain-demo:v0.4:'",
+            "current": "'bijie-rain-demo:v0.4-background:'"
+          },
+          {
+            "original": "'飘角色更新版（v0.4）使用独立存档，旧三章版（v0.3）与旧序章（v1）玩家需重新开始；旧存档仍保留在本浏览器中。'",
+            "current": "'背景补全版使用独立存档。新增人物对白后，原 v0.4、v0.3 与 v1 玩家需重新开始；旧存档仍保留在本浏览器中，恢复旧进度需对应旧版。'"
+          }
+        ],
+        "unchanged": [
+          "engine.js"
+        ],
+        "externalConcurrentCover": {
+          "attribution": "主任务确认由共享工作区另一项封面任务修改；保留并独立记录，不计入女主背景对白改动。",
+          "baseline": {
+            "index.html": "2e0682faf21a1ce91881e267c9ac741b1a2975b66927dca3e4ed2d25bb6efaa9",
+            "styles.css": "6ec050b339efac44a46a607766714a3d7677bcc82abe3181ed4d90a2dbb441a0"
+          },
+          "current": {
+            "index.html": "a073cf71f8232831f9f260a074b475dd82d750cbddf0bad32dbbde71c331695e",
+            "styles.css": "c498a9a63d759d231f63dca36fcccdabb85c5263ec9ff7dde4e9431a73342bf8",
+            "assets/cover-b-desktop.png": "2041710ae3b577e40e8664c5a9b452240d7ce0d095279155ac1875c5b6ab33d2",
+            "assets/cover-b-mobile.png": "bfb2d5786fd9c074601ccfb7a1ee617eea51493317aaf7bc59c3c04f22830c81"
+          },
+          "missingExternalAssets": [],
+          "baselineReadingStylesIntact": true,
+          "appendedStyleLines": 88,
+          "stability": {
+            "startedAt": "2026-10-20T09:23:27.291Z",
+            "endedAt": "2026-10-20T09:25:01.254Z",
+            "stableMs": 93963
+          }
+        }
+      }
+    },
+    {
+      "name": "正式资源清单、对白长度、场景日期和节点引用有效",
+      "pass": true,
+      "details": {
+        "assets": 84,
+        "nodeCount": 1310,
+        "maxLineLength": 66
+      }
+    },
+    {
+      "name": "全图可达无环，全部合法路径数量与结局分布等于基线，隐藏身份没有提前泄露",
+      "pass": true,
+      "details": {
+        "baseline": {
+          "paths": 246528,
+          "terminalCounts": {
+            "end_piao_maolang": 226944,
+            "end_piao_wenwen": 19584
+          },
+          "minLines": 456,
+          "maxLines": 504,
+          "minChars": 14122,
+          "maxChars": 16163,
+          "reachableNodes": 1230,
+          "equivalentStates": 56560,
+          "terminals": [
+            "end_piao_maolang",
+            "end_piao_wenwen"
+          ]
+        },
+        "current": {
+          "paths": 246528,
+          "terminalCounts": {
+            "end_piao_maolang": 226944,
+            "end_piao_wenwen": 19584
+          },
+          "minLines": 482,
+          "maxLines": 538,
+          "minChars": 14950,
+          "maxChars": 17077,
+          "reachableNodes": 1310,
+          "equivalentStates": 58077,
+          "terminals": [
+            "end_piao_maolang",
+            "end_piao_wenwen"
+          ]
+        }
+      }
+    },
+    {
+      "name": "所有可见节点从入口自然重放并严格恢复，新增对白与改写对白均已覆盖",
+      "pass": true,
+      "details": {
+        "restored": 1265,
+        "byChapter": {
+          "1": 405,
+          "2": 202,
+          "3": 629,
+          "epilogue": 29
+        },
+        "changedAndAddedCovered": 91
+      }
+    },
+    {
+      "name": "按基线生成的旧存档兼容性逐节点实测，拒绝恢复时原状态不变",
+      "pass": true,
+      "details": {
+        "accepted": 98,
+        "rejected": 1087,
+        "rejectedExamples": [
+          {
+            "nodeId": "s5_ride_walk_01",
+            "reason": "存档不兼容或已损坏：history 与剧情进度不一致"
+          },
+          {
+            "nodeId": "s5_ride_walk_02",
+            "reason": "存档不兼容或已损坏：history 与剧情进度不一致"
+          },
+          {
+            "nodeId": "s5_work_01",
+            "reason": "存档不兼容或已损坏：history 与剧情进度不一致"
+          },
+          {
+            "nodeId": "s5_work_02",
+            "reason": "存档不兼容或已损坏：history 与剧情进度不一致"
+          },
+          {
+            "nodeId": "s5_work_03",
+            "reason": "存档不兼容或已损坏：history 与剧情进度不一致"
+          },
+          {
+            "nodeId": "s5_work_04",
+            "reason": "存档不兼容或已损坏：history 与剧情进度不一致"
+          },
+          {
+            "nodeId": "c3",
+            "reason": "存档不兼容或已损坏：history 与剧情进度不一致"
+          },
+          {
+            "nodeId": "s5_portfolio_01",
+            "reason": "存档不兼容或已损坏：history 与剧情进度不一致"
+          }
+        ],
+        "note": "accepted 仅指此基线见证路径上的旧档；不能推论任意旧档均兼容。拒绝不是档案损坏证据。"
+      }
+    },
+    {
+      "name": "七线末端可回溯预告与正式路线，新历史与关系标记可清理",
+      "pass": true,
+      "details": {
+        "routeResets": 7,
+        "previewResets": 7
+      }
+    }
+  ],
+  "scope": "本轮正式剧情与任务开始前基线的结构、选择契约、全合法路径、自然回放及存档；浏览器结果另行记录。",
+  "finishedAt": "2026-10-20T09:25:19.001Z",
+  "finalHashes": {
+    "story.js": "1e88bf4fa7b0ff742166c5786a308dd3b4d740e6f939ab2b00c54c3db43e85b2",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "9fca5600452731df2351a353b001f38b702ccd4ad89f1fc7e8e5781e775ec655",
+    "index.html": "a073cf71f8232831f9f260a074b475dd82d750cbddf0bad32dbbde71c331695e",
+    "styles.css": "c498a9a63d759d231f63dca36fcccdabb85c5263ec9ff7dde4e9431a73342bf8",
+    "assets/runtime-v0.4-manifest.json": "3f13e1bb7136bac4c877fa536757cd357c29c777a54695aca8f85a33e3bfbd5f",
+    "assets/cover-b-desktop.png": "2041710ae3b577e40e8664c5a9b452240d7ce0d095279155ac1875c5b6ab33d2",
+    "assets/cover-b-mobile.png": "bfb2d5786fd9c074601ccfb7a1ee617eea51493317aaf7bc59c3c04f22830c81"
+  }
+}

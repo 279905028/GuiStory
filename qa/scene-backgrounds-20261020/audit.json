@@ -1,0 +1,1533 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-20",
+  "scope": "只读场景语义审计和建议；此文件本身不修改story、图、文字或游戏。",
+  "storySha256": "1e88bf4fa7b0ff742166c5786a308dd3b4d740e6f939ab2b00c54c3db43e85b2",
+  "engineSemantics": "game.js applyScene采用node.bg/location/time ?? scene对应字段；覆盖不从上一节点继承。",
+  "backgrounds": [
+    {
+      "key": "busstop_day",
+      "label": "老街坡口站牌·下午",
+      "purpose": "补足开场大巴与玻璃站牌，保留上坡可见回声的街区关系。",
+      "assetPath": "assets/backgrounds/bijie-20261020/bg-busstop-day.png",
+      "defaultSceneIds": [
+        "s1"
+      ],
+      "explicitNodeIds": [],
+      "suggestedLocation": "毕节 · 老街坡口",
+      "suggestedTime": "下午",
+      "referencePhotoSuffixes": [
+        "88",
+        "87"
+      ]
+    },
+    {
+      "key": "market_stall_night",
+      "label": "老街夜宵摊·夜间",
+      "purpose": "将第三天洋芋和蘸水的夜宵摊与坡口面馆区分。",
+      "assetPath": "assets/backgrounds/bijie-20261020/bg-market-stall-night.png",
+      "defaultSceneIds": [
+        "s3"
+      ],
+      "explicitNodeIds": [],
+      "suggestedLocation": "老街夜宵摊",
+      "suggestedTime": "夜间",
+      "referencePhotoSuffixes": [
+        "84"
+      ]
+    },
+    {
+      "key": "echo_entrance_night",
+      "label": "回声侧门屋檐·夜间",
+      "purpose": "建立回声门外及对街面馆的可识别位置；凌晨沿用深夜光线。",
+      "assetPath": "assets/backgrounds/bijie-20261020/bg-echo-entrance-night.png",
+      "defaultSceneIds": [
+        "s4",
+        "s10",
+        "ch2_account",
+        "ch2_night"
+      ],
+      "explicitNodeIds": [],
+      "suggestedLocation": "按各scene原location保留",
+      "suggestedTime": [
+        "凌晨",
+        "夜间"
+      ],
+      "referencePhotoSuffixes": [
+        "88",
+        "86"
+      ]
+    },
+    {
+      "key": "old_eaves_day",
+      "label": "老街旧屋檐·下午",
+      "purpose": "屋檐内有干处，檐外湿润台阶；阴天且不强调持续大雨，以兼容两年后雨刚停。",
+      "assetPath": "assets/backgrounds/bijie-20261020/bg-old-eaves-day.png",
+      "defaultSceneIds": [
+        "s7",
+        "ch3_mengyao15",
+        "ch3_mengyao21",
+        "ch3_piao15",
+        "ch3_piao21",
+        "epilogue_piao_wenwen"
+      ],
+      "explicitNodeIds": [
+        "ch3_yelan_f_08",
+        "ch3_yelan_f_09",
+        "ch3_yelan_f_10",
+        "ch3_yelan_f_11",
+        "ch3_bg_yelan_21_01",
+        "ch3_bg_yelan_21_02",
+        "ch3_bg_yelan_21_03",
+        "end_ch3_yelan"
+      ],
+      "suggestedLocation": "老街屋檐下",
+      "suggestedTime": "下午",
+      "referencePhotoSuffixes": [
+        "82",
+        "86"
+      ]
+    },
+    {
+      "key": "slope_junction_night",
+      "label": "住宅坡口岔路·夜间",
+      "purpose": "可通车的坡口与等待出租车位置；用于散步、路口告别及回家路上。",
+      "assetPath": "assets/backgrounds/bijie-20261020/bg-slope-junction-night.png",
+      "defaultSceneIds": [],
+      "explicitNodeIds": [
+        "s3_walk_01",
+        "s3_walk_02",
+        "s3_walk_03",
+        "s3_walk_04",
+        "s3_walk_05",
+        "s3_taxi_01",
+        "s3_taxi_02",
+        "s3_taxi_03",
+        "s3_taxi_04",
+        "s3_taxi_05",
+        "preview_yelan_10",
+        "preview_yelan_11",
+        "preview_yelan_private_01",
+        "preview_yelan_private_02",
+        "preview_yelan_private_03",
+        "end_yelan",
+        "ch2_leave_01",
+        "ch3_solo_f_10",
+        "end_ch3_solo"
+      ],
+      "suggestedLocation": "老街岔路口",
+      "suggestedTime": "夜间",
+      "referencePhotoSuffixes": [
+        "88"
+      ]
+    },
+    {
+      "key": "residential_slope_day",
+      "label": "住宅坡巷·下午",
+      "purpose": "沿旧住宅坡路散步，保留砖缝流水、路口与前方屋檐。",
+      "assetPath": "assets/backgrounds/bijie-20261020/bg-residential-slope-day.png",
+      "defaultSceneIds": [
+        "ch3_yelan21"
+      ],
+      "explicitNodeIds": [
+        "ch3_piao_b_06",
+        "ch3_piao_b_07",
+        "ch3_piao_b_08",
+        "ch3_piao_b_09",
+        "ch3_piao_b_10",
+        "ch3_piao_b_11",
+        "ch3_piao_b_12",
+        "ch3_piao_b_13",
+        "ch3_piao_b_14",
+        "ch3_piao_b_15",
+        "ch3_piao_b_16",
+        "epilogue_piao_w_13",
+        "end_piao_wenwen"
+      ],
+      "suggestedLocation": "老街坡巷",
+      "suggestedTime": "下午",
+      "referencePhotoSuffixes": [
+        "88",
+        "86",
+        "85"
+      ]
+    },
+    {
+      "key": "noodle_front_dusk",
+      "label": "坡口面馆门外·傍晚",
+      "purpose": "飘线三人在门外收伞与交谈，店内暖光但天仍亮。",
+      "assetPath": "assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.png",
+      "defaultSceneIds": [],
+      "explicitNodeIds": [
+        "ch3_piao_c_01",
+        "ch3_piao_c_02",
+        "ch3_piao_c_03",
+        "ch3_piao_c_04",
+        "ch3_piao_c_05",
+        "ch3_piao_c_06",
+        "ch3_piao_c_07",
+        "ch3_piao_c_08",
+        "ch3_piao_c_09",
+        "ch3_piao_c_10",
+        "ch3_piao_c_11",
+        "ch3_piao_c_12",
+        "ch3_piao_c_13",
+        "ch3_piao_c_14",
+        "ch3_piao_c_15"
+      ],
+      "suggestedLocation": "坡口面馆门口",
+      "suggestedTime": "傍晚",
+      "referencePhotoSuffixes": [
+        "84"
+      ]
+    },
+    {
+      "key": "noodles_dusk",
+      "label": "坡口面馆·傍晚",
+      "purpose": "同一朴素面馆的傍晚棚下/室内视角，修正营业前试菜及六点赴约仍使用深夜底图。",
+      "assetPath": "assets/backgrounds/bijie-20261020/bg-noodles-dusk.png",
+      "defaultSceneIds": [
+        "ch3_zhouzhi18",
+        "ch3_piao18"
+      ],
+      "explicitNodeIds": [],
+      "suggestedLocation": "按各scene原location保留",
+      "suggestedTime": "傍晚",
+      "referencePhotoSuffixes": [
+        "84"
+      ]
+    },
+    {
+      "key": "noodle_banquet_day",
+      "label": "坡口面馆家常席·下午",
+      "purpose": "同一面馆两年后的婚礼后家常席，简单红装饰和素喜帖，不能变成婚宴大厅。",
+      "assetPath": "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.png",
+      "defaultSceneIds": [
+        "epilogue_piao_maolang"
+      ],
+      "explicitNodeIds": [],
+      "suggestedLocation": "坡口面馆 · 婚礼后的家常席",
+      "suggestedTime": "下午",
+      "referencePhotoSuffixes": [
+        "84"
+      ]
+    }
+  ],
+  "sceneDefaults": [
+    {
+      "sceneId": "s1",
+      "title": "雨把归期写湿了",
+      "day": 1,
+      "time": "下午",
+      "location": "毕节 · 老街坡口",
+      "currentBackground": "street",
+      "recommendedBackground": "busstop_day",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "s2",
+      "title": "先查问题，再给承诺",
+      "day": 1,
+      "time": "晚上",
+      "location": "师匠的维修柜台",
+      "currentBackground": "repair",
+      "recommendedBackground": "repair",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "s3",
+      "title": "夜宵摊的末班车",
+      "day": 3,
+      "time": "夜间",
+      "location": "老街夜宵摊",
+      "currentBackground": "noodles",
+      "recommendedBackground": "market_stall_night",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "s4",
+      "title": "下班以后，名字归自己",
+      "day": 4,
+      "time": "凌晨",
+      "location": "回声门外",
+      "currentBackground": "street",
+      "recommendedBackground": "echo_entrance_night",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "s5",
+      "title": "镜子前也有正经事",
+      "day": 5,
+      "time": "下午",
+      "location": "罗小满工作的理发店",
+      "currentBackground": "salon",
+      "recommendedBackground": "salon",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "s6",
+      "title": "汤面可以分开调味",
+      "day": 6,
+      "time": "夜间",
+      "location": "坡口面馆",
+      "currentBackground": "noodles",
+      "recommendedBackground": "noodles",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "s7",
+      "title": "镜头没有替人道歉的功能",
+      "day": 7,
+      "time": "下午",
+      "location": "老街屋檐下",
+      "currentBackground": "street",
+      "recommendedBackground": "old_eaves_day",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "s8",
+      "title": "清单最后一格",
+      "day": 8,
+      "time": "晚上",
+      "location": "回声 · 空包厢",
+      "currentBackground": "room",
+      "recommendedBackground": "room",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "s9",
+      "title": "开拍以前",
+      "day": 10,
+      "time": "下午",
+      "location": "回声大厅",
+      "currentBackground": "lobby",
+      "recommendedBackground": "lobby",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "s10",
+      "title": "还没说完的晚安",
+      "day": 10,
+      "time": "夜间",
+      "location": "回声门外的屋檐",
+      "currentBackground": "street",
+      "recommendedBackground": "echo_entrance_night",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch2_take",
+      "title": "先拍一段会笑的",
+      "day": 11,
+      "time": "下午",
+      "location": "回声大厅",
+      "currentBackground": "lobby",
+      "recommendedBackground": "lobby",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch2_sample",
+      "title": "十二秒以外",
+      "day": 11,
+      "time": "晚上",
+      "location": "师匠的维修柜台",
+      "currentBackground": "repair",
+      "recommendedBackground": "repair",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch2_alarm",
+      "title": "已经发出去的画面",
+      "day": 12,
+      "time": "下午",
+      "location": "回声大厅",
+      "currentBackground": "lobby",
+      "recommendedBackground": "lobby",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch2_account",
+      "title": "把整句话发出去",
+      "day": 12,
+      "time": "夜间",
+      "location": "回声门外的屋檐",
+      "currentBackground": "street",
+      "recommendedBackground": "echo_entrance_night",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch2_after",
+      "title": "今晚先吃饭",
+      "day": 12,
+      "time": "夜间",
+      "location": "坡口面馆",
+      "currentBackground": "noodles",
+      "recommendedBackground": "noodles",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch2_edit",
+      "title": "谁留在片尾",
+      "day": 13,
+      "time": "晚上",
+      "location": "回声 · 暂未安排接待的包厢",
+      "currentBackground": "room",
+      "recommendedBackground": "room",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch2_show",
+      "title": "这一次，从头看完",
+      "day": 14,
+      "time": "下午",
+      "location": "回声大厅",
+      "currentBackground": "lobby",
+      "recommendedBackground": "lobby",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch2_night",
+      "title": "给明天留一点空",
+      "day": 14,
+      "time": "夜间",
+      "location": "回声门外的屋檐",
+      "currentBackground": "street",
+      "recommendedBackground": "echo_entrance_night",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch2_qiu",
+      "title": "先跟我打招呼",
+      "day": 14,
+      "time": "夜间",
+      "location": "回声 · 已结束接待的空包厢",
+      "currentBackground": "room",
+      "recommendedBackground": "room",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_open",
+      "title": "一段片子以后的日子",
+      "day": 15,
+      "time": "下午",
+      "location": "回声大厅",
+      "currentBackground": "lobby",
+      "recommendedBackground": "lobby",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_xiaoman15",
+      "title": "镜子前的两种准备",
+      "day": 15,
+      "time": "下午",
+      "location": "罗小满工作的理发店",
+      "currentBackground": "salon",
+      "recommendedBackground": "salon",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_xiaoman18",
+      "title": "还没剪顺的那一道",
+      "day": 18,
+      "time": "下午",
+      "location": "罗小满工作的理发店",
+      "currentBackground": "salon",
+      "recommendedBackground": "salon",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_xiaoman21",
+      "title": "今天不剪头发",
+      "day": 21,
+      "time": "下午",
+      "location": "罗小满工作的理发店",
+      "currentBackground": "salon",
+      "recommendedBackground": "salon",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_zhouzhi15",
+      "title": "开门前借一张桌",
+      "day": 15,
+      "time": "夜间",
+      "location": "坡口面馆",
+      "currentBackground": "noodles",
+      "recommendedBackground": "noodles",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_zhouzhi18",
+      "title": "没有全票通过的味道",
+      "day": 18,
+      "time": "傍晚",
+      "location": "坡口面馆 · 营业前",
+      "currentBackground": "noodles",
+      "recommendedBackground": "noodles_dusk",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_zhouzhi21",
+      "title": "今天由我来约",
+      "day": 21,
+      "time": "夜间",
+      "location": "坡口面馆",
+      "currentBackground": "noodles",
+      "recommendedBackground": "noodles",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_mengyao15",
+      "title": "镜头先放在包里",
+      "day": 15,
+      "time": "下午",
+      "location": "老街屋檐下",
+      "currentBackground": "street",
+      "recommendedBackground": "old_eaves_day",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_mengyao18",
+      "title": "两个人都留下的意见",
+      "day": 18,
+      "time": "下午",
+      "location": "回声大厅",
+      "currentBackground": "lobby",
+      "recommendedBackground": "lobby",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_mengyao21",
+      "title": "没有结果也发出去",
+      "day": 21,
+      "time": "下午",
+      "location": "老街坡口",
+      "currentBackground": "street",
+      "recommendedBackground": "old_eaves_day",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_yelan15",
+      "title": "把试单先搭出来",
+      "day": 15,
+      "time": "下午",
+      "location": "回声大厅",
+      "currentBackground": "lobby",
+      "recommendedBackground": "lobby",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_yelan18",
+      "title": "钥匙也能交到别人手里",
+      "day": 18,
+      "time": "下午",
+      "location": "回声大厅",
+      "currentBackground": "lobby",
+      "recommendedBackground": "lobby",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_yelan21",
+      "title": "下班以后没有流程表",
+      "day": 21,
+      "time": "下午",
+      "location": "回声门外的老街",
+      "currentBackground": "street",
+      "recommendedBackground": "residential_slope_day",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_solo15",
+      "title": "先把自己的名字写清",
+      "day": 15,
+      "time": "晚上",
+      "location": "师匠的维修柜台",
+      "currentBackground": "repair",
+      "recommendedBackground": "repair",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_solo18",
+      "title": "这次真的交到别人手里",
+      "day": 18,
+      "time": "晚上",
+      "location": "师匠的维修柜台",
+      "currentBackground": "repair",
+      "recommendedBackground": "repair",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_solo21",
+      "title": "各凭本事，也一起吃饭",
+      "day": 21,
+      "time": "夜间",
+      "location": "坡口面馆",
+      "currentBackground": "noodles",
+      "recommendedBackground": "noodles",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_qiu15",
+      "title": "今天先叫我的名字",
+      "day": 15,
+      "time": "夜间",
+      "location": "回声 · 已结束接待的空包厢",
+      "currentBackground": "room",
+      "recommendedBackground": "room",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_qiu18",
+      "title": "带来一件普通的小事",
+      "day": 18,
+      "time": "夜间",
+      "location": "回声 · 已结束接待的空包厢",
+      "currentBackground": "room",
+      "recommendedBackground": "room",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_qiu21",
+      "title": "这次由她先问",
+      "day": 21,
+      "time": "夜间",
+      "location": "回声 · 已结束接待的空包厢",
+      "currentBackground": "room",
+      "recommendedBackground": "room",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_piao15",
+      "title": "名字不必挤在一起",
+      "day": 15,
+      "time": "下午",
+      "location": "老街屋檐下",
+      "currentBackground": "street",
+      "recommendedBackground": "old_eaves_day",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_piao18",
+      "title": "各自赴的约",
+      "day": 18,
+      "time": "傍晚",
+      "location": "坡口面馆",
+      "currentBackground": "noodles",
+      "recommendedBackground": "noodles_dusk",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "ch3_piao21",
+      "title": "留白由谁来写",
+      "day": 21,
+      "time": "下午",
+      "location": "老街屋檐下",
+      "currentBackground": "street",
+      "recommendedBackground": "old_eaves_day",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "epilogue_piao_wenwen",
+      "title": "第二版的封底",
+      "day": 751,
+      "time": "下午",
+      "location": "老街屋檐下",
+      "currentBackground": "street",
+      "recommendedBackground": "old_eaves_day",
+      "preserveOriginalDayAndTime": true
+    },
+    {
+      "sceneId": "epilogue_piao_maolang",
+      "title": "这次写上两个人的名字",
+      "day": 751,
+      "time": "下午",
+      "location": "坡口面馆 · 婚礼后的家常席",
+      "currentBackground": "noodles",
+      "recommendedBackground": "noodle_banquet_day",
+      "preserveOriginalDayAndTime": true
+    }
+  ],
+  "nodeBindings": [
+    {
+      "nodeId": "ch3_yelan_f_08",
+      "sceneId": "ch3_yelan21",
+      "bg": "old_eaves_day",
+      "location": "老街屋檐下",
+      "time": "下午",
+      "textEvidence": "我自己也笑了。她这次没等我再问，主动指了指前面的屋檐，说就在那里停一会儿。",
+      "next": "ch3_bg_yelan_21_01"
+    },
+    {
+      "nodeId": "ch3_yelan_f_09",
+      "sceneId": "ch3_yelan21",
+      "bg": "old_eaves_day",
+      "location": "老街屋檐下",
+      "time": "下午",
+      "textEvidence": "你第二十八天走之前，我还想这样见你一次。等我把班换好，自己来约。",
+      "next": "ch3_yelan_f_10"
+    },
+    {
+      "nodeId": "ch3_yelan_f_10",
+      "sceneId": "ch3_yelan21",
+      "bg": "old_eaves_day",
+      "location": "老街屋檐下",
+      "time": "下午",
+      "textEvidence": "好。我等你约，也会把我的安排说清楚。",
+      "next": "ch3_yelan_f_11"
+    },
+    {
+      "nodeId": "ch3_yelan_f_11",
+      "sceneId": "ch3_yelan21",
+      "bg": "old_eaves_day",
+      "location": "老街屋檐下",
+      "time": "下午",
+      "textEvidence": "手机在她包里震了一次，她没有立即拿出来。我们并排站着，先把眼前那十分钟慢慢过完。",
+      "next": "end_ch3_yelan"
+    },
+    {
+      "nodeId": "ch3_bg_yelan_21_01",
+      "sceneId": "ch3_yelan21",
+      "bg": "old_eaves_day",
+      "location": "老街屋檐下",
+      "time": "下午",
+      "textEvidence": "这回地方是你挑的，待多久也听你的。",
+      "next": "ch3_bg_yelan_21_02"
+    },
+    {
+      "nodeId": "ch3_bg_yelan_21_02",
+      "sceneId": "ch3_yelan21",
+      "bg": "old_eaves_day",
+      "location": "老街屋檐下",
+      "time": "下午",
+      "textEvidence": "我在想那张旧清单。下次把“谁来接”写清，下面就能真的留一行休息。",
+      "next": "ch3_bg_yelan_21_03"
+    },
+    {
+      "nodeId": "ch3_bg_yelan_21_03",
+      "sceneId": "ch3_yelan21",
+      "bg": "old_eaves_day",
+      "location": "老街屋檐下",
+      "time": "下午",
+      "textEvidence": "眼前这十分钟先不用记，待完再算。",
+      "next": "ch3_yelan_f_09"
+    },
+    {
+      "nodeId": "end_ch3_yelan",
+      "sceneId": "ch3_yelan21",
+      "bg": "old_eaves_day",
+      "location": "老街屋檐下",
+      "time": "下午",
+      "textEvidence": "试单方案进入下一步，正式订单还没有落定。她让同事接走了工作，也主动留下与我散步的时间。谈起自己的愿望，她比安排一屋子人更笨拙一点；我想继续认识这样的叶岚，等她下一次主动来约。",
+      "next": "epilogue_piao_entry"
+    },
+    {
+      "nodeId": "s3_walk_01",
+      "sceneId": "s3",
+      "bg": "slope_junction_night",
+      "location": "老街岔路口",
+      "time": "夜间",
+      "textEvidence": "问过老板还能等多久，我才陪她上坡。她把练习图撑在伞下，一直折着的那一角终于展开了。",
+      "next": "s3_walk_02"
+    },
+    {
+      "nodeId": "s3_walk_02",
+      "sceneId": "s3",
+      "bg": "slope_junction_night",
+      "location": "老街岔路口",
+      "time": "夜间",
+      "textEvidence": "练习头不会突然问我“这边是不是歪了”。真人会。我一紧张，就老想再修一点。",
+      "next": "s3_walk_03"
+    },
+    {
+      "nodeId": "s3_walk_03",
+      "sceneId": "s3",
+      "bg": "slope_junction_night",
+      "location": "老街岔路口",
+      "time": "夜间",
+      "textEvidence": "那你先别给我剪。我问题可多。",
+      "next": "s3_walk_04"
+    },
+    {
+      "nodeId": "s3_walk_04",
+      "sceneId": "s3",
+      "bg": "slope_junction_night",
+      "location": "老街岔路口",
+      "time": "夜间",
+      "textEvidence": "知道，所以先拿你练习怎么让顾客闭嘴。",
+      "next": "s3_walk_05"
+    },
+    {
+      "nodeId": "s3_walk_05",
+      "sceneId": "s3",
+      "bg": "slope_junction_night",
+      "location": "老街岔路口",
+      "time": "夜间",
+      "textEvidence": "到岔路口，我把预留的缓冲用得差不多了。配件铺还没收摊，型号照常核完；小满也发来到家消息：“顾客练习结束。”",
+      "next": "s4_shift_01"
+    },
+    {
+      "nodeId": "s3_taxi_01",
+      "sceneId": "s3",
+      "bg": "slope_junction_night",
+      "location": "老街岔路口 · 上车处",
+      "time": "夜间",
+      "textEvidence": "小满自己填好目的地。我陪她核对车牌，她刚把练习图翻到背面，车就到了。",
+      "next": "s3_taxi_02"
+    },
+    {
+      "nodeId": "s3_taxi_02",
+      "sceneId": "s3",
+      "bg": "slope_junction_night",
+      "location": "老街岔路口 · 上车处",
+      "time": "夜间",
+      "textEvidence": "车费我付。你负责看车牌，别顺便给自己加一张好人证。",
+      "next": "s3_taxi_03"
+    },
+    {
+      "nodeId": "s3_taxi_03",
+      "sceneId": "s3",
+      "bg": "slope_junction_night",
+      "location": "老街岔路口 · 上车处",
+      "time": "夜间",
+      "textEvidence": "五星评价总能有吧？",
+      "next": "s3_taxi_04"
+    },
+    {
+      "nodeId": "s3_taxi_04",
+      "sceneId": "s3",
+      "bg": "slope_junction_night",
+      "location": "老街岔路口 · 上车处",
+      "time": "夜间",
+      "textEvidence": "四星。剩下一星，等你不催着收再说。",
+      "next": "s3_taxi_05"
+    },
+    {
+      "nodeId": "s3_taxi_05",
+      "sceneId": "s3",
+      "bg": "slope_junction_night",
+      "location": "老街岔路口 · 上车处",
+      "time": "夜间",
+      "textEvidence": "她收起图坐进车里，没来得及讲背面画了什么。我赶去核型号，后来收到她的消息：“到了，四星没变。”",
+      "next": "s4_shift_01"
+    },
+    {
+      "nodeId": "preview_yelan_10",
+      "sceneId": "s10",
+      "bg": "slope_junction_night",
+      "location": "老街岔路口",
+      "time": "夜间",
+      "textEvidence": "她撑开伞，走了两步，又回头等我收好工具包。到了路口，她看看两边，没有先去摸手机。",
+      "next": "preview_yelan_11"
+    },
+    {
+      "nodeId": "preview_yelan_11",
+      "sceneId": "s10",
+      "bg": "slope_junction_night",
+      "location": "老街岔路口",
+      "time": "夜间",
+      "textEvidence": "我再走一会儿。你到家也早点歇。",
+      "next": "preview_yelan_private_01"
+    },
+    {
+      "nodeId": "preview_yelan_private_01",
+      "sceneId": "s10",
+      "bg": "slope_junction_night",
+      "location": "老街岔路口",
+      "time": "夜间",
+      "textEvidence": "她说完还站了一会儿，像在找一句与钥匙、工时都无关的话。我也没急着替她找。",
+      "next": "preview_yelan_private_02"
+    },
+    {
+      "nodeId": "preview_yelan_private_02",
+      "sceneId": "s10",
+      "bg": "slope_junction_night",
+      "location": "老街岔路口",
+      "time": "夜间",
+      "textEvidence": "这条路白天是什么样，我好久没仔细看过了。",
+      "next": "preview_yelan_private_03"
+    },
+    {
+      "nodeId": "preview_yelan_private_03",
+      "sceneId": "s10",
+      "bg": "slope_junction_night",
+      "location": "老街岔路口",
+      "time": "夜间",
+      "textEvidence": "哪天你想看，叫我。我也想走一遍不用赶着送件的。",
+      "next": "end_yelan"
+    },
+    {
+      "nodeId": "end_yelan",
+      "sceneId": "s10",
+      "bg": "slope_junction_night",
+      "location": "老街岔路口",
+      "time": "夜间",
+      "textEvidence": "路口到了，租赁表还在包里。她把伞转向另一边，我没有追着把工作说完。今晚有一小段路，不用等谁叫她的名字，她也可以自己选着走。",
+      "next": "ch2_open_01"
+    },
+    {
+      "nodeId": "ch2_leave_01",
+      "sceneId": "ch2_night",
+      "bg": "slope_junction_night",
+      "location": "回家的坡路",
+      "time": "夜间",
+      "textEvidence": "回家的路上，雨短暂地小了。路灯下还有积水，我绕开最深的那一处，把明天的一段空闲认真留了下来。",
+      "next": "end_ch2"
+    },
+    {
+      "nodeId": "ch3_solo_f_10",
+      "sceneId": "ch3_solo21",
+      "bg": "slope_junction_night",
+      "location": "回家的坡路",
+      "time": "夜间",
+      "textEvidence": "我答应了。回去的坡路还湿着，车票还在手机里；这一周我没有急着开始恋爱，也没有因此少过一种值得期待的日子。",
+      "next": "end_ch3_solo"
+    },
+    {
+      "nodeId": "end_ch3_solo",
+      "sceneId": "ch3_solo21",
+      "bg": "slope_junction_night",
+      "location": "回家的坡路",
+      "time": "夜间",
+      "textEvidence": "申请材料已经提交，交付记录也被真正用上。毛狼仍想争同一个机会，我仍会怕输；我们约好结果来了照说，没结果时照样吃饭。这段时间没有被写成等待恋爱的空白，我开始能带着自己的名字往前走。",
+      "next": "epilogue_piao_entry"
+    },
+    {
+      "nodeId": "ch3_piao_b_06",
+      "sceneId": "ch3_piao15",
+      "bg": "residential_slope_day",
+      "location": "老街坡巷",
+      "time": "下午",
+      "textEvidence": "走到坡口，她停下来重新看那页纸。我没急着说好，只问将来翻开它的人，她最想让谁看见。",
+      "next": "ch3_piao_b_07"
+    },
+    {
+      "nodeId": "ch3_piao_b_07",
+      "sceneId": "ch3_piao15",
+      "bg": "residential_slope_day",
+      "location": "老街坡巷",
+      "time": "下午",
+      "textEvidence": "住在这儿的人。寄一份给搬走的人也好。不是把街道写成“从前”，这儿明天还有人开门。",
+      "next": "ch3_piao_b_08"
+    },
+    {
+      "nodeId": "ch3_piao_b_08",
+      "sceneId": "ch3_piao15",
+      "bg": "residential_slope_day",
+      "location": "老街坡巷",
+      "time": "下午",
+      "textEvidence": "那封底可以留个地方，下次有人回来时，再写一行。",
+      "next": "ch3_piao_b_09"
+    },
+    {
+      "nodeId": "ch3_piao_b_09",
+      "sceneId": "ch3_piao15",
+      "bg": "residential_slope_day",
+      "location": "老街坡巷",
+      "time": "下午",
+      "textEvidence": "这句我记。只记这个意思，不把你整段话印上去，太占纸了。",
+      "next": "ch3_piao_b_10"
+    },
+    {
+      "nodeId": "ch3_piao_b_10",
+      "sceneId": "ch3_piao15",
+      "bg": "residential_slope_day",
+      "location": "老街坡巷",
+      "time": "下午",
+      "textEvidence": "她笑起来，我也笑了。雨点从伞边滑下去，这次没有人急着找一件需要修的东西。",
+      "next": "ch3_piao_b_11"
+    },
+    {
+      "nodeId": "ch3_piao_b_11",
+      "sceneId": "ch3_piao15",
+      "bg": "residential_slope_day",
+      "location": "老街坡巷",
+      "time": "下午",
+      "textEvidence": "还有件事。毛狼约我的饭，我答应了。他的意思，我听明白了。",
+      "next": "ch3_piao_b_12"
+    },
+    {
+      "nodeId": "ch3_piao_b_12",
+      "sceneId": "ch3_piao15",
+      "bg": "residential_slope_day",
+      "location": "老街坡巷",
+      "time": "下午",
+      "textEvidence": "我听见的时候，有一点不自在。不是你的问题，我还在学怎么把这点话说出来。",
+      "next": "ch3_piao_b_13"
+    },
+    {
+      "nodeId": "ch3_piao_b_13",
+      "sceneId": "ch3_piao15",
+      "bg": "residential_slope_day",
+      "location": "老街坡巷",
+      "time": "下午",
+      "textEvidence": "你可以说。我现在还没和谁在一起，也想自己慢慢看清楚。",
+      "next": "ch3_piao_b_14"
+    },
+    {
+      "nodeId": "ch3_piao_b_14",
+      "sceneId": "ch3_piao15",
+      "bg": "residential_slope_day",
+      "location": "老街坡巷",
+      "time": "下午",
+      "textEvidence": "那我也说明白。我想继续约你，看看我们能不能不只做朋友。",
+      "next": "ch3_piao_b_15"
+    },
+    {
+      "nodeId": "ch3_piao_b_15",
+      "sceneId": "ch3_piao15",
+      "bg": "residential_slope_day",
+      "location": "老街坡巷",
+      "time": "下午",
+      "textEvidence": "好。我也想再见你。第十八天六点，面馆有空桌，我把改好的那几页带来。",
+      "next": "ch3_piao_b_16"
+    },
+    {
+      "nodeId": "ch3_piao_b_16",
+      "sceneId": "ch3_piao15",
+      "bg": "residential_slope_day",
+      "location": "老街坡巷",
+      "time": "下午",
+      "textEvidence": "她在样册边角写下时间，没加感叹号。我一路走到街口，还能想起那行很小、很确定的字。",
+      "next": "ch3_piao_c_01"
+    },
+    {
+      "nodeId": "epilogue_piao_w_13",
+      "sceneId": "epilogue_piao_wenwen",
+      "bg": "residential_slope_day",
+      "location": "老街坡巷",
+      "time": "下午",
+      "textEvidence": "我回完消息，接过她装样册的袋子。她把空出来的手递给我，我们仍然会为去哪儿走争一小会儿，然后一起下坡。",
+      "next": "end_piao_wenwen"
+    },
+    {
+      "nodeId": "end_piao_wenwen",
+      "sceneId": "epilogue_piao_wenwen",
+      "bg": "residential_slope_day",
+      "location": "老街坡巷",
+      "time": "下午",
+      "textEvidence": "我们把喜欢说出口，也在后来的日子里继续选择彼此。飘仍在做她的小册子，我仍有自己的路要走；今天，我们牵着手，把下一行留给共同经过的生活。",
+      "next": null
+    },
+    {
+      "nodeId": "ch3_piao_c_01",
+      "sceneId": "ch3_piao18",
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口",
+      "time": "傍晚",
+      "textEvidence": "第十八天傍晚，我提前到了面馆。毛狼正在门口扣伞，看到我手里那份样册，脚步顿了一下。",
+      "next": "ch3_piao_c_02"
+    },
+    {
+      "nodeId": "ch3_piao_c_02",
+      "sceneId": "ch3_piao18",
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口",
+      "time": "傍晚",
+      "textEvidence": "你也约了今天？",
+      "next": "ch3_piao_c_03"
+    },
+    {
+      "nodeId": "ch3_piao_c_03",
+      "sceneId": "ch3_piao18",
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口",
+      "time": "傍晚",
+      "textEvidence": "六点。你呢？",
+      "next": "ch3_piao_c_04"
+    },
+    {
+      "nodeId": "ch3_piao_c_04",
+      "sceneId": "ch3_piao18",
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口",
+      "time": "傍晚",
+      "textEvidence": "我来拿饭。和她吃饭是昨天，不是你这场的加座。",
+      "next": "ch3_piao_c_05"
+    },
+    {
+      "nodeId": "ch3_piao_c_05",
+      "sceneId": "ch3_piao18",
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口",
+      "time": "傍晚",
+      "textEvidence": "他往店里看了一眼，没立即进去。油烟从门边飘出来，我们忽然都不知道该把手放哪儿。",
+      "next": "ch3_piao_c_06"
+    },
+    {
+      "nodeId": "ch3_piao_c_06",
+      "sceneId": "ch3_piao18",
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口",
+      "time": "傍晚",
+      "textEvidence": "我喜欢她。这回先说清，省得咱俩像抢最后一只话筒。",
+      "next": "ch3_piao_c_07"
+    },
+    {
+      "nodeId": "ch3_piao_c_07",
+      "sceneId": "ch3_piao18",
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口",
+      "time": "傍晚",
+      "textEvidence": "我也喜欢。可我现在连她会不会嫌我聊天闷，都还没弄明白。",
+      "next": "ch3_piao_c_08"
+    },
+    {
+      "nodeId": "ch3_piao_c_08",
+      "sceneId": "ch3_piao18",
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口",
+      "time": "傍晚",
+      "textEvidence": "我讲了三个笑话，她只笑一个。我已经把另两个撤回了，虽然人没法撤回。",
+      "next": "ch3_piao_c_09"
+    },
+    {
+      "nodeId": "ch3_piao_c_09",
+      "sceneId": "ch3_piao18",
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口",
+      "time": "傍晚",
+      "textEvidence": "我没忍住笑，胸口那点紧却还在。毛狼也没装得毫不在意，只伸手拍了拍我的伞柄。",
+      "next": "ch3_piao_c_10"
+    },
+    {
+      "nodeId": "ch3_piao_c_10",
+      "sceneId": "ch3_piao18",
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口",
+      "time": "傍晚",
+      "textEvidence": "她跟谁走近，得听她自己说。你别替我问她，我也不去打听你们聊了什么。",
+      "next": "ch3_piao_c_11"
+    },
+    {
+      "nodeId": "ch3_piao_c_11",
+      "sceneId": "ch3_piao18",
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口",
+      "time": "傍晚",
+      "textEvidence": "好。朋友的饭照吃，难受了也别拿她开玩笑。",
+      "next": "ch3_piao_c_12"
+    },
+    {
+      "nodeId": "ch3_piao_c_12",
+      "sceneId": "ch3_piao18",
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口",
+      "time": "傍晚",
+      "textEvidence": "飘到时，毛狼提着打包的面出来。他对她说昨天很高兴，下回想见她会再问，然后把桌子留给我们。",
+      "next": "ch3_piao_c_13"
+    },
+    {
+      "nodeId": "ch3_piao_c_13",
+      "sceneId": "ch3_piao18",
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口",
+      "time": "傍晚",
+      "textEvidence": "你们刚才站门口，像在等谁来发号。",
+      "next": "ch3_piao_c_14"
+    },
+    {
+      "nodeId": "ch3_piao_c_14",
+      "sceneId": "ch3_piao18",
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口",
+      "time": "傍晚",
+      "textEvidence": "聊了会儿。主要发现，我们都没自己想的那么从容。",
+      "next": "ch3_piao_c_15"
+    },
+    {
+      "nodeId": "ch3_piao_c_15",
+      "sceneId": "ch3_piao18",
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口",
+      "time": "傍晚",
+      "textEvidence": "那坐下吃。面馆只按桌点单，不按谁先来的排。",
+      "next": "ch3_piao_c_16"
+    }
+  ],
+  "preserveExistingNodeBindings": [
+    {
+      "nodeId": "s2_trial_01",
+      "bg": "room",
+      "location": "回声 · 试音包厢",
+      "time": null
+    },
+    {
+      "nodeId": "s2_trial_02",
+      "bg": "room",
+      "location": "回声 · 试音包厢",
+      "time": null
+    },
+    {
+      "nodeId": "s2_trial_03",
+      "bg": "room",
+      "location": "回声 · 试音包厢",
+      "time": null
+    },
+    {
+      "nodeId": "s2_trial_04",
+      "bg": "room",
+      "location": "回声 · 试音包厢",
+      "time": null
+    },
+    {
+      "nodeId": "s2_trial_05",
+      "bg": "room",
+      "location": "回声 · 试音包厢",
+      "time": null
+    },
+    {
+      "nodeId": "s2_trial_06",
+      "bg": "room",
+      "location": "回声 · 试音包厢",
+      "time": null
+    },
+    {
+      "nodeId": "s2_trial_07",
+      "bg": "room",
+      "location": "回声 · 试音包厢",
+      "time": null
+    },
+    {
+      "nodeId": "s2_trial_08",
+      "bg": "room",
+      "location": "回声 · 试音包厢",
+      "time": null
+    },
+    {
+      "nodeId": "s2_trial_09",
+      "bg": "room",
+      "location": "回声 · 试音包厢",
+      "time": null
+    },
+    {
+      "nodeId": "s2_trial_10",
+      "bg": "room",
+      "location": "回声 · 试音包厢",
+      "time": null
+    },
+    {
+      "nodeId": "s2_trial_11",
+      "bg": "room",
+      "location": "回声 · 试音包厢",
+      "time": null
+    },
+    {
+      "nodeId": "s2_trial_12",
+      "bg": "room",
+      "location": "回声 · 试音包厢",
+      "time": null
+    },
+    {
+      "nodeId": "s4_invite_01",
+      "bg": "noodles",
+      "location": "坡口面馆",
+      "time": null
+    },
+    {
+      "nodeId": "s4_invite_02",
+      "bg": "noodles",
+      "location": "坡口面馆",
+      "time": null
+    },
+    {
+      "nodeId": "s4_invite_03",
+      "bg": "noodles",
+      "location": "坡口面馆",
+      "time": null
+    },
+    {
+      "nodeId": "s4_invite_04",
+      "bg": "noodles",
+      "location": "坡口面馆",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_01",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_02",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_03",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_04",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_05",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_06",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_07",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_08",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_09",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_10",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_11",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_12",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_13",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_14",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_15",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_16",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_17",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_18",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_19",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_20",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_21",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_22",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_23",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_24",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_25",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_26",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "preview_qiu_27",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    },
+    {
+      "nodeId": "end_huangqiuqiu",
+      "bg": "room",
+      "location": "回声 · 已结束接待的空包厢",
+      "time": null
+    }
+  ],
+  "specialChecks": [
+    {
+      "sceneId": "ch3_xiaoman21",
+      "defaultBg": "salon",
+      "defaultTime": "下午",
+      "lastLineId": "ch3_xiaoman_f_09",
+      "endNodeId": "end_ch3_xiaoman",
+      "endBg": "salon",
+      "decision": "不新增离店节点或背景转换；当前文字最后仍是理发店空椅子，第二十四天五点是未来约定。",
+      "explicitDepartureNodes": []
+    },
+    {
+      "sceneId": "ch3_zhouzhi21",
+      "defaultBg": "noodles",
+      "defaultTime": "夜间",
+      "lastLineId": "ch3_zhouzhi_e_10",
+      "endNodeId": "end_ch3_zhouzhi",
+      "endBg": "noodles",
+      "decision": "不新增离店节点或背景转换；e_10仍在吃面，第二十三天是未来见面。",
+      "explicitDepartureNodes": []
+    },
+    {
+      "sceneId": "epilogue_piao_wenwen",
+      "defaultBg": "old_eaves_day",
+      "defaultTime": "下午",
+      "explicitDepartureNodes": [
+        "epilogue_piao_w_13",
+        "end_piao_wenwen"
+      ],
+      "departureBg": "residential_slope_day",
+      "decision": "w_13开始下坡，end须显式相同背景，不能回到scene默认屋檐。"
+    },
+    {
+      "sceneId": "s10",
+      "route": "叶岚",
+      "explicitDepartureNodes": [
+        "preview_yelan_10",
+        "preview_yelan_11",
+        "preview_yelan_private_01",
+        "preview_yelan_private_02",
+        "preview_yelan_private_03",
+        "end_yelan"
+      ],
+      "decision": "按next追踪确认private三个插入节点发生在到路口之后，全部显式使用夜间坡口；纠正早期仅凭对象排列位置的判断。"
+    }
+  ],
+  "referenceUse": [
+    {
+      "suffix": "82",
+      "use": "木构飞檐、灰瓦和木窗细节；不要求完整复刻高层木楼。"
+    },
+    {
+      "suffix": "83",
+      "use": "不新增校园场景",
+      "reason": "当前正式故事没有学校实地段落，不能因参考存在就硬插校园或新剧情。"
+    },
+    {
+      "suffix": "84",
+      "use": "市井食街、密集住宅、红棚和朴素餐饮店的主要空间依据；不复制人物、商标、水印或可读招牌。"
+    },
+    {
+      "suffix": "85",
+      "use": "只参考居民区绿意",
+      "reason": "没有公园或长椅的实地剧情，不新增公园或坐长椅的动作。"
+    },
+    {
+      "suffix": "86",
+      "use": "灰红砖、铁窗、邻里院落、檐下材料；不复制照片中的人物。"
+    },
+    {
+      "suffix": "87",
+      "use": "可参考远处新旧城市建筑层次",
+      "reason": "没有河边或过桥的实地剧情，不将现有坡口替换成河岸。"
+    },
+    {
+      "suffix": "88",
+      "use": "坡度、密集电线、朴素住宅、防盗窗与通车路口为主要街道依据。"
+    }
+  ],
+  "montageNotes": [
+    {
+      "nodeIds": [
+        "s3_leave_03",
+        "s3_leave_04"
+      ],
+      "decision": "包含上车处到配件铺与收消息的压缩叙述；现批次不硬映射为师匠维修柜台，不宣称新生成独立配件铺。"
+    },
+    {
+      "nodeIds": [
+        "s4_space_04"
+      ],
+      "decision": "回家后的一句消息转述，不据此把KTV包厢当卧室。"
+    },
+    {
+      "nodeIds": [
+        "ch3_piao_together_05",
+        "ch3_piao_together_06",
+        "ch3_piao_friends_05",
+        "ch3_piao_friends_06"
+      ],
+      "decision": "包含当晚/后来的关系蒙太奇，保持当前scene叙事底图；不捏造地点，也不为共享end节点制造分支外的状态继承。"
+    }
+  ],
+  "implementation": {
+    "applyIn": "任务拆分/三章扩展/build-story.cjs",
+    "stage": "所有章节、飘路线及CG元数据组装完毕后，写出story.js前",
+    "preserve": [
+      "所有节点id",
+      "所有text/speaker/character",
+      "next/choice/gate及条件",
+      "既定日期与时间顺序",
+      "已有room/noodles节点覆盖",
+      "BG切换后end节点需显式覆盖，不能指望继承"
+    ],
+    "manifest": "assets/runtime-v0.4-manifest.json由Object.values(story.backgrounds)收集，可自动包含新增键"
+  },
+  "validation": {
+    "sceneCount": 43,
+    "backgroundCount": 9,
+    "explicitNodeCount": 55,
+    "duplicateNodeIds": []
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "character": "maolang",
+  "name": "毛狼",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "baseline": "assets/char-maolang.webp",
+  "assets": [
+    {
+      "id": "tc-char-maolang-human-base",
+      "character": "maolang",
+      "kind": "character",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch01-common-01",
+        "a01-ch01-common-03",
+        "a01-ch01-common-06",
+        "a01-ch01-common-07",
+        "a01-ch01-common-08",
+        "a01-ch02-common-01",
+        "a01-ch02-common-02",
+        "a01-ch02-common-03",
+        "a01-ch02-common-04",
+        "a01-ch03-yelan-02",
+        "a01-ch03-friends-01",
+        "a01-ch03-friends-02",
+        "a01-ch03-friends-03",
+        "a01-ch04-common-01",
+        "a01-ch04-piao-05",
+        "a01-ch04-friends-01",
+        "a01-ch04-friends-02",
+        "a01-ch04-friends-03",
+        "a01-ch04-friends-04",
+        "a01-ch05-common-01",
+        "a01-ch05-zhouzhi-01",
+        "a01-ch05-yelan-01",
+        "a01-ch05-piao-03",
+        "a01-ch05-friends-01",
+        "a01-ch06-common-01",
+        "a01-ch06-friends-01",
+        "a01-ch06-friends-02",
+        "a01-ch06-friends-03",
+        "a01-ch07-common-01",
+        "a01-ch07-piao-04",
+        "a01-ch07-friends-03",
+        "a01-ch07-friends-04",
+        "a01-ch08-friends-02",
+        "a01-ch08-friends-03",
+        "a01-ch09-piao-03",
+        "a01-ch09-friends-01",
+        "a01-ch09-friends-02",
+        "a01-ch10-common-02",
+        "a01-ch10-common-03",
+        "a01-ch10-piao-02",
+        "a01-ch10-friends-01",
+        "a01-ch10-friends-02",
+        "a01-ch10-friends-03"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/char-maolang.webp",
+        "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf",
+        "bytes": 730662
+      },
+      "delivery": {
+        "path": "assets/char-maolang.webp",
+        "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf",
+        "bytes": 730662,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 808927,
+          "partial": 44741,
+          "nearOpaque": 719196,
+          "visibleBBox": {
+            "left": 129,
+            "top": 51,
+            "right": 907,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5143019358317057
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-maolang-human-expression-smile",
+      "character": "maolang",
+      "kind": "character",
+      "expression": "expression-smile",
+      "cueIds": [
+        "a01-ch01-common-01",
+        "a01-ch01-common-03",
+        "a01-ch01-common-07",
+        "a01-ch01-common-08",
+        "a01-ch02-common-04",
+        "a01-ch03-friends-01",
+        "a01-ch03-friends-03",
+        "a01-ch04-friends-02",
+        "a01-ch04-friends-03",
+        "a01-ch04-friends-04",
+        "a01-ch05-zhouzhi-01",
+        "a01-ch06-common-01",
+        "a01-ch06-friends-01",
+        "a01-ch06-friends-02",
+        "a01-ch06-friends-03",
+        "a01-ch07-common-01",
+        "a01-ch07-piao-04",
+        "a01-ch07-friends-03",
+        "a01-ch07-friends-04",
+        "a01-ch08-friends-02",
+        "a01-ch08-friends-03",
+        "a01-ch09-piao-03",
+        "a01-ch09-friends-01",
+        "a01-ch09-friends-02",
+        "a01-ch10-common-02",
+        "a01-ch10-common-03",
+        "a01-ch10-piao-02",
+        "a01-ch10-friends-01",
+        "a01-ch10-friends-02",
+        "a01-ch10-friends-03"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+        "sha256": "5704ec0c670226e7c4ae80aa952994c3d100c088c7648c221156f08515923a92",
+        "bytes": 737200
+      },
+      "delivery": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+        "sha256": "5704ec0c670226e7c4ae80aa952994c3d100c088c7648c221156f08515923a92",
+        "bytes": 737200,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 809741,
+          "partial": 40596,
+          "nearOpaque": 722527,
+          "visibleBBox": {
+            "left": 129,
+            "top": 52,
+            "right": 914,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5148194630940756
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-maolang-human-expression-hesitant",
+      "character": "maolang",
+      "kind": "character",
+      "expression": "expression-hesitant",
+      "cueIds": [
+        "a01-ch03-friends-01",
+        "a01-ch06-common-01",
+        "a01-ch06-friends-01",
+        "a01-ch07-piao-04",
+        "a01-ch09-piao-03",
+        "a01-ch09-friends-01",
+        "a01-ch10-common-02",
+        "a01-ch10-common-03",
+        "a01-ch10-piao-02",
+        "a01-ch10-friends-01",
+        "a01-ch10-friends-02",
+        "a01-ch10-friends-03"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+        "sha256": "e6b1d49e1a239ea99f95022cba84bd1ba44a452c838b18579d207fbccaffe54f",
+        "bytes": 764064
+      },
+      "delivery": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+        "sha256": "e6b1d49e1a239ea99f95022cba84bd1ba44a452c838b18579d207fbccaffe54f",
+        "bytes": 764064,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 809828,
+          "partial": 43030,
+          "nearOpaque": 720006,
+          "visibleBBox": {
+            "left": 129,
+            "top": 52,
+            "right": 912,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5148747762044271
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-maolang-human-expression-serious",
+      "character": "maolang",
+      "kind": "character",
+      "expression": "expression-serious",
+      "cueIds": [
+        "a01-ch05-friends-01"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.webp",
+        "sha256": "1bed64f2586cc3633098aeef862046dc6d7b970d71f872adb71c8060008cef44",
+        "bytes": 739990
+      },
+      "delivery": {
+        "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.webp",
+        "sha256": "1bed64f2586cc3633098aeef862046dc6d7b970d71f872adb71c8060008cef44",
+        "bytes": 739990,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 807382,
+          "partial": 44405,
+          "nearOpaque": 721077,
+          "visibleBBox": {
+            "left": 129,
+            "top": 51,
+            "right": 912,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5133196512858073
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-maolang-wedding",
+      "character": "maolang",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch10-common-03"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/maolang/originals/char-maolang-wedding-base-v1.png",
+        "sha256": "8052cce973006d4df899b3fcdff4185be253e09aa89b0f87750c37e95815ce6c",
+        "bytes": 1712287
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/maolang/char-maolang-wedding-base.webp",
+        "sha256": "ce6c4c4ea25e7e9ed48a6b4c5355d6de452a8cf7292d2823e46ed7cd5c1fc93b",
+        "bytes": 737494,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 2023900,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 789238,
+          "partial": 38294,
+          "nearOpaque": 745332,
+          "visibleBBox": {
+            "left": 154,
+            "top": 52,
+            "right": 925,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5017840067545573
+        }
+      },
+      "promptKey": "maolang-wedding",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    }
+  ],
+  "evidence": {
+    "fullFigureLightDark": [
+      {
+        "path": "assets/ten-chapter/characters/maolang/qa/light-dark-1.png",
+        "resourceIds": [
+          "tc-char-maolang-human-base",
+          "tc-char-maolang-human-expression-smile",
+          "tc-char-maolang-human-expression-hesitant",
+          "tc-char-maolang-human-expression-serious"
+        ]
+      },
+      {
+        "path": "assets/ten-chapter/characters/maolang/qa/light-dark-2.png",
+        "resourceIds": [
+          "tc-look-maolang-wedding"
+        ]
+      }
+    ],
+    "faceDetail": "assets/ten-chapter/characters/maolang/qa/faces.png"
+  },
+  "status": "delivered-awaiting-A06"
+}

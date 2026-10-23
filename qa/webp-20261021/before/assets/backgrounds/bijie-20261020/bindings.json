@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-20",
+  "description": "参考毕节实拍，为现有剧情补充9张场景背景。只调整背景与节点地点标签。",
+  "backgrounds": {
+    "busstop_day": {
+      "path": "assets/backgrounds/bijie-20261020/bg-busstop-day.png",
+      "label": "老街坡口站牌·下午",
+      "defaultSceneIds": [
+        "s1"
+      ]
+    },
+    "market_stall_night": {
+      "path": "assets/backgrounds/bijie-20261020/bg-market-stall-night.png",
+      "label": "老街夜宵摊·夜间",
+      "defaultSceneIds": [
+        "s3"
+      ]
+    },
+    "echo_entrance_night": {
+      "path": "assets/backgrounds/bijie-20261020/bg-echo-entrance-night.png",
+      "label": "回声侧门屋檐·夜间",
+      "defaultSceneIds": [
+        "s4",
+        "s10",
+        "ch2_account",
+        "ch2_night"
+      ]
+    },
+    "old_eaves_day": {
+      "path": "assets/backgrounds/bijie-20261020/bg-old-eaves-day.png",
+      "label": "老街旧屋檐·下午",
+      "defaultSceneIds": [
+        "s7",
+        "ch3_mengyao15",
+        "ch3_mengyao21",
+        "ch3_piao15",
+        "ch3_piao21",
+        "epilogue_piao_wenwen"
+      ]
+    },
+    "slope_junction_night": {
+      "path": "assets/backgrounds/bijie-20261020/bg-slope-junction-night.png",
+      "label": "住宅坡口岔路·夜间",
+      "defaultSceneIds": []
+    },
+    "residential_slope_day": {
+      "path": "assets/backgrounds/bijie-20261020/bg-residential-slope-day.png",
+      "label": "住宅坡巷·下午",
+      "defaultSceneIds": [
+        "ch3_yelan21"
+      ]
+    },
+    "noodle_front_dusk": {
+      "path": "assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.png",
+      "label": "坡口面馆门外·傍晚",
+      "defaultSceneIds": []
+    },
+    "noodles_dusk": {
+      "path": "assets/backgrounds/bijie-20261020/bg-noodles-dusk.png",
+      "label": "坡口面馆·傍晚",
+      "defaultSceneIds": [
+        "ch3_zhouzhi18",
+        "ch3_piao18"
+      ]
+    },
+    "noodle_banquet_day": {
+      "path": "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.png",
+      "label": "坡口面馆家常席·下午",
+      "defaultSceneIds": [
+        "epilogue_piao_maolang"
+      ]
+    }
+  },
+  "sceneBindings": {
+    "s1": "busstop_day",
+    "s3": "market_stall_night",
+    "s4": "echo_entrance_night",
+    "s7": "old_eaves_day",
+    "s10": "echo_entrance_night",
+    "ch2_account": "echo_entrance_night",
+    "ch2_night": "echo_entrance_night",
+    "ch3_zhouzhi18": "noodles_dusk",
+    "ch3_mengyao15": "old_eaves_day",
+    "ch3_mengyao21": "old_eaves_day",
+    "ch3_yelan21": "residential_slope_day",
+    "ch3_piao15": "old_eaves_day",
+    "ch3_piao18": "noodles_dusk",
+    "ch3_piao21": "old_eaves_day",
+    "epilogue_piao_wenwen": "old_eaves_day",
+    "epilogue_piao_maolang": "noodle_banquet_day"
+  },
+  "nodeBindings": {
+    "ch3_yelan_f_08": {
+      "bg": "old_eaves_day",
+      "location": "老街屋檐下"
+    },
+    "ch3_yelan_f_09": {
+      "bg": "old_eaves_day",
+      "location": "老街屋檐下"
+    },
+    "ch3_yelan_f_10": {
+      "bg": "old_eaves_day",
+      "location": "老街屋檐下"
+    },
+    "ch3_yelan_f_11": {
+      "bg": "old_eaves_day",
+      "location": "老街屋檐下"
+    },
+    "ch3_bg_yelan_21_01": {
+      "bg": "old_eaves_day",
+      "location": "老街屋檐下"
+    },
+    "ch3_bg_yelan_21_02": {
+      "bg": "old_eaves_day",
+      "location": "老街屋檐下"
+    },
+    "ch3_bg_yelan_21_03": {
+      "bg": "old_eaves_day",
+      "location": "老街屋檐下"
+    },
+    "end_ch3_yelan": {
+      "bg": "old_eaves_day",
+      "location": "老街屋檐下"
+    },
+    "s3_walk_01": {
+      "bg": "slope_junction_night",
+      "location": "老街岔路口"
+    },
+    "s3_walk_02": {
+      "bg": "slope_junction_night",
+      "location": "老街岔路口"
+    },
+    "s3_walk_03": {
+      "bg": "slope_junction_night",
+      "location": "老街岔路口"
+    },
+    "s3_walk_04": {
+      "bg": "slope_junction_night",
+      "location": "老街岔路口"
+    },
+    "s3_walk_05": {
+      "bg": "slope_junction_night",
+      "location": "老街岔路口"
+    },
+    "s3_taxi_01": {
+      "bg": "slope_junction_night",
+      "location": "老街岔路口 · 上车处"
+    },
+    "s3_taxi_02": {
+      "bg": "slope_junction_night",
+      "location": "老街岔路口 · 上车处"
+    },
+    "s3_taxi_03": {
+      "bg": "slope_junction_night",
+      "location": "老街岔路口 · 上车处"
+    },
+    "s3_taxi_04": {
+      "bg": "slope_junction_night",
+      "location": "老街岔路口 · 上车处"
+    },
+    "s3_taxi_05": {
+      "bg": "slope_junction_night",
+      "location": "老街岔路口 · 上车处"
+    },
+    "preview_yelan_10": {
+      "bg": "slope_junction_night",
+      "location": "老街岔路口"
+    },
+    "preview_yelan_11": {
+      "bg": "slope_junction_night",
+      "location": "老街岔路口"
+    },
+    "preview_yelan_private_01": {
+      "bg": "slope_junction_night",
+      "location": "老街岔路口"
+    },
+    "preview_yelan_private_02": {
+      "bg": "slope_junction_night",
+      "location": "老街岔路口"
+    },
+    "preview_yelan_private_03": {
+      "bg": "slope_junction_night",
+      "location": "老街岔路口"
+    },
+    "end_yelan": {
+      "bg": "slope_junction_night",
+      "location": "老街岔路口"
+    },
+    "ch2_leave_01": {
+      "bg": "slope_junction_night",
+      "location": "回家的坡路"
+    },
+    "ch3_solo_f_10": {
+      "bg": "slope_junction_night",
+      "location": "回家的坡路"
+    },
+    "end_ch3_solo": {
+      "bg": "slope_junction_night",
+      "location": "回家的坡路"
+    },
+    "ch3_piao_b_06": {
+      "bg": "residential_slope_day",
+      "location": "老街坡巷"
+    },
+    "ch3_piao_b_07": {
+      "bg": "residential_slope_day",
+      "location": "老街坡巷"
+    },
+    "ch3_piao_b_08": {
+      "bg": "residential_slope_day",
+      "location": "老街坡巷"
+    },
+    "ch3_piao_b_09": {
+      "bg": "residential_slope_day",
+      "location": "老街坡巷"
+    },
+    "ch3_piao_b_10": {
+      "bg": "residential_slope_day",
+      "location": "老街坡巷"
+    },
+    "ch3_piao_b_11": {
+      "bg": "residential_slope_day",
+      "location": "老街坡巷"
+    },
+    "ch3_piao_b_12": {
+      "bg": "residential_slope_day",
+      "location": "老街坡巷"
+    },
+    "ch3_piao_b_13": {
+      "bg": "residential_slope_day",
+      "location": "老街坡巷"
+    },
+    "ch3_piao_b_14": {
+      "bg": "residential_slope_day",
+      "location": "老街坡巷"
+    },
+    "ch3_piao_b_15": {
+      "bg": "residential_slope_day",
+      "location": "老街坡巷"
+    },
+    "ch3_piao_b_16": {
+      "bg": "residential_slope_day",
+      "location": "老街坡巷"
+    },
+    "epilogue_piao_w_13": {
+      "bg": "residential_slope_day",
+      "location": "老街坡巷"
+    },
+    "end_piao_wenwen": {
+      "bg": "residential_slope_day",
+      "location": "老街坡巷"
+    },
+    "ch3_piao_c_01": {
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口"
+    },
+    "ch3_piao_c_02": {
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口"
+    },
+    "ch3_piao_c_03": {
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口"
+    },
+    "ch3_piao_c_04": {
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口"
+    },
+    "ch3_piao_c_05": {
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口"
+    },
+    "ch3_piao_c_06": {
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口"
+    },
+    "ch3_piao_c_07": {
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口"
+    },
+    "ch3_piao_c_08": {
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口"
+    },
+    "ch3_piao_c_09": {
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口"
+    },
+    "ch3_piao_c_10": {
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口"
+    },
+    "ch3_piao_c_11": {
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口"
+    },
+    "ch3_piao_c_12": {
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口"
+    },
+    "ch3_piao_c_13": {
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口"
+    },
+    "ch3_piao_c_14": {
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口"
+    },
+    "ch3_piao_c_15": {
+      "bg": "noodle_front_dusk",
+      "location": "坡口面馆门口"
+    },
+    "end_ch2": {
+      "bg": "slope_junction_night",
+      "location": "回家的坡路"
+    }
+  }
+}

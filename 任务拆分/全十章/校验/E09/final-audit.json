@@ -1,0 +1,91 @@
+{
+  "task": "E09",
+  "date": "2026-10-23",
+  "documentationFiles": 9,
+  "localLinks": 154,
+  "broken": [],
+  "syntax": [
+    {
+      "file": "story.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "game.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "engine.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "save-compat.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "player-runtime.js",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "任务拆分/三章扩展/build-story.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "任务拆分/全十章/build/formal.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "任务拆分/全十章/presentation/prepare-bindings.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "任务拆分/全十章/校验/E09/browser-test.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "任务拆分/全十章/校验/E09/verify-candidate.cjs",
+      "passed": true,
+      "error": null
+    },
+    {
+      "file": "任务拆分/全十章/校验/E09/build-test.cjs",
+      "passed": true,
+      "error": null
+    }
+  ],
+  "reportFingerprints": [
+    {
+      "file": "build-report.json",
+      "sha256": "c509214c38350608531138f427ea2eca14c34ca95b193d6155ab34b6482f44e6"
+    },
+    {
+      "file": "candidate-results.json",
+      "sha256": "9938504edb5792ad4f43fb096dc2b55128122518b9da90b713fddc222f17f5c9"
+    },
+    {
+      "file": "browser-results.json",
+      "sha256": "1340838fc39d65bbf79517f2e43b3ffc1cea6527cef8718a5e1f218d228a5c84"
+    },
+    {
+      "file": "protected-after.json",
+      "sha256": "e3c8aac4a36c699761a51eb92f59265e8ae5b634cfe2e73cad757604b3089c83"
+    },
+    {
+      "file": "build-tests.json",
+      "sha256": "e84e694fa97c045514a3b082647bebbdf2c9e4bf60eb0740101171659d02de22"
+    }
+  ],
+  "rebuild": {
+    "reused": true,
+    "contentHash": "db01e296857b57e787323644aeefdb30bfdbea53cb854d5812cf1935fb815139"
+  },
+  "passed": true
+}

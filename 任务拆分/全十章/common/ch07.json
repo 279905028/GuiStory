@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "common/ch07",
+  "owner": "E03",
+  "scenes": {
+    "ts_c07_common_short_game": {
+      "chapter": 7,
+      "title": "第35天·下午｜群里空下来的一会儿",
+      "bg": "tc-bg-rental-day",
+      "time": "下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "下午",
+        "day": 35
+      },
+      "location": "文文出租屋",
+      "day": 35,
+      "dayLabel": "第35天"
+    },
+    "ts_c07_common_chapter_end": {
+      "chapter": 7,
+      "title": "第七章 · 各自要过的日子",
+      "bg": "tc-bg-chapter-end",
+      "time": "章末",
+      "chronology": {
+        "domain": "chapter-range",
+        "mode": "present",
+        "label": "第35—45天"
+      },
+      "location": "",
+      "day": null,
+      "dayLabel": "第35—45天"
+    }
+  },
+  "nodes": {
+    "tc_c07_common_entry": {
+      "id": "tc_c07_common_entry",
+      "type": "line",
+      "scene": "ts_c07_common_short_game",
+      "speaker": "narrator",
+      "text": "毛狼在群里问下个休息日有没有人玩。",
+      "character": null,
+      "next": "tc_c07_common_short_game_02"
+    },
+    "tc_c07_common_short_game_02": {
+      "id": "tc_c07_common_short_game_02",
+      "type": "line",
+      "scene": "ts_c07_common_short_game",
+      "speaker": "narrator",
+      "text": "这回答得很不齐。有的人忙，有的人想出门，有的人就想一个人待着。我说先看看时间，半小时后把自己能玩的那一段发出去，没有让他替我猜。",
+      "character": null,
+      "next": "tc_c07_common_short_game_03"
+    },
+    "tc_c07_common_short_game_03": {
+      "id": "tc_c07_common_short_game_03",
+      "type": "line",
+      "scene": "ts_c07_common_short_game",
+      "speaker": "narrator",
+      "text": "他干脆把原来想约的长局改成一小局。有人问这样玩得过瘾吗，他说：“先玩上。下一次再说下一次。”",
+      "character": null,
+      "next": "tc_c07_common_short_game_04"
+    },
+    "tc_c07_common_short_game_04": {
+      "id": "tc_c07_common_short_game_04",
+      "type": "line",
+      "scene": "ts_c07_common_short_game",
+      "speaker": "narrator",
+      "text": "我看着那句话，想起刚回来时，自己总盼着谁给这段生活起一个好听的名字。暂时休整也好，重新开始也好，仿佛叫法妥当，别人就不会再问。",
+      "character": null,
+      "next": "tc_c07_common_short_game_05"
+    },
+    "tc_c07_common_short_game_05": {
+      "id": "tc_c07_common_short_game_05",
+      "type": "line",
+      "scene": "ts_c07_common_short_game",
+      "speaker": "narrator",
+      "text": "窗台上的衣服还没干，房租下个月照交，网吧今晚也照常开。我打了一局，输了，按约好的时间下线。没有为了证明这天没白过，再加一局。",
+      "character": null,
+      "next": "tc_c07_common_short_game_06"
+    },
+    "tc_c07_common_short_game_06": {
+      "id": "tc_c07_common_short_game_06",
+      "type": "line",
+      "scene": "ts_c07_common_short_game",
+      "speaker": "narrator",
+      "text": "关电脑以前，我想起下一次约好的见面。刚才游戏里那个笑话，可以留着当面再讲。",
+      "character": null,
+      "next": "tc_c07_common_route_gate"
+    },
+    "tc_c07_common_exit": {
+      "id": "tc_c07_common_exit",
+      "type": "end",
+      "scene": "ts_c07_common_chapter_end",
+      "title": "第七章 · 各自要过的日子",
+      "text": "",
+      "character": null,
+      "next": "tc_c08_common_entry",
+      "nextChapter": "第八章 · 不用每次都逞强"
+    },
+    "tc_c07_common_route_gate": {
+      "id": "tc_c07_common_route_gate",
+      "type": "gate",
+      "scene": "ts_c07_common_short_game",
+      "cases": [
+        {
+          "flag": "route",
+          "value": "xiaoman",
+          "next": "tc_c07_xiaoman_entry"
+        },
+        {
+          "flag": "route",
+          "value": "zhouzhi",
+          "next": "tc_c07_zhouzhi_entry"
+        },
+        {
+          "flag": "route",
+          "value": "mengyao",
+          "next": "tc_c07_mengyao_entry"
+        },
+        {
+          "flag": "route",
+          "value": "yelan",
+          "next": "tc_c07_yelan_entry"
+        },
+        {
+          "flag": "route",
+          "value": "piao",
+          "next": "tc_c07_piao_entry"
+        },
+        {
+          "flag": "route",
+          "value": "friends",
+          "next": "tc_c07_friends_entry"
+        },
+        {
+          "flag": "route",
+          "value": "huangqiuqiu",
+          "next": "tc_c07_huangqiuqiu_entry"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    }
+  },
+  "imports": [
+    "tc_c07_friends_entry",
+    "tc_c07_huangqiuqiu_entry",
+    "tc_c07_mengyao_entry",
+    "tc_c07_piao_entry",
+    "tc_c07_xiaoman_entry",
+    "tc_c07_yelan_entry",
+    "tc_c07_zhouzhi_entry",
+    "tc_c08_common_entry"
+  ],
+  "exports": {
+    "tc_c07_common_entry": "tc_c07_common_entry",
+    "tc_c07_common_exit": "tc_c07_common_exit",
+    "tc_c07_common_route_gate": "tc_c07_common_route_gate"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c07_common_exit"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c07_common_route_gate"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 11,
+      "endLine": 11,
+      "nodeIds": [
+        "tc_c07_common_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 13,
+      "endLine": 13,
+      "nodeIds": [
+        "tc_c07_common_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 15,
+      "endLine": 15,
+      "nodeIds": [
+        "tc_c07_common_short_game_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 17,
+      "endLine": 17,
+      "nodeIds": [
+        "tc_c07_common_short_game_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 19,
+      "endLine": 19,
+      "nodeIds": [
+        "tc_c07_common_short_game_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 21,
+      "endLine": 21,
+      "nodeIds": [
+        "tc_c07_common_short_game_05"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 23,
+      "endLine": 23,
+      "nodeIds": [
+        "tc_c07_common_short_game_06"
+      ],
+      "kind": "narration"
+    }
+  ],
+  "exclusions": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 1,
+      "endLine": 1,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 3,
+      "endLine": 3,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 5,
+      "endLine": 5,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 7,
+      "endLine": 7,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 561,
+      "endLine": 561,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 563,
+      "endLine": 563,
+      "reason": "navigation"
+    }
+  ],
+  "assetRequests": [
+    {
+      "id": "e01-art-ch07",
+      "a01Ids": [
+        "tc-bg-rental-day",
+        "tc-char-maolang-human-base",
+        "tc-char-maolang-human-expression-smile",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile"
+      ]
+    }
+  ]
+}

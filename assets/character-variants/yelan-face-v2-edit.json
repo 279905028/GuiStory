@@ -1,0 +1,32 @@
+{
+  "character_key": "yelan",
+  "character_name": "叶岚",
+  "age": 27,
+  "edit_type": "precise-object-edit",
+  "tool": "built-in image_gen__imagegen",
+  "transparent_background": true,
+  "input_path": "assets/char-yelan.png",
+  "candidate_path": "assets/character-variants/yelan-face-v2-candidate.png",
+  "cache_path": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1520d-4878-7840-b033-2f15e91edba0/exec-e0d7ec5a-6ed2-4339-95a9-7e7ed647bf96.png",
+  "prompt": "Use case: precise-object-edit.\nAsset type: transparent character portrait sprite for the visual novel 《毕节，雨停之前》.\nInput image 1 is the only edit target: existing Yelan / 叶岚. Make a localized FACE-ONLY redesign, preserving everything outside the face. Output one image at exactly 1024 × 1536 pixels with real transparent alpha.\n\nCharacter: Yelan, a Chinese adult woman aged 27, KTV floor supervisor who cares for other people and is planning her own business. She should look reliable, calm, restrained, competent and distinctly different from the generic pointed-chin, large almond-eyed face in the input.\nRequired new facial identity: a slightly long, subtly square-oval face; noticeably more jaw width and a softly rounded blunt chin instead of a pointed V chin. Natural, clearly defined cheekbones. Straighter, stronger brows. Mature narrower horizontal eyes with subtle inner double eyelids, calm steady gaze. Straight nose bridge and a more substantial natural nose tip. Thin-to-medium lips; relaxed mouth corners with a hint of warmth. Natural attractive adult femininity, understated face makeup, no exaggerated glamour. This is a 27-year-old woman, no middle-age wrinkles, no aging, no masculinization, no glasses.\nHer differences from the other heroines should read even at a small portrait scale: not a wide round playful face, not soft drooping eyes with full lips, and not a diamond-shaped face.\n\nStrict invariants: keep the exact current head angle and head position, same scale, same low bun with black hair, same loose hair strands and hairline, same ear and small round gold earring, same deep gray suit, taupe blouse, buttons and collar, belt and pants, clipboard and hand placement, pose, adult body proportions, canvas bounds and existing thigh-up composition. Do not zoom, crop, rotate or change body shape. Maintain the input's adult Japanese semi-realistic illustration rendering, colors, fabric textures and lighting. Modify only facial bone structure, brows, eyes, nose, lips and the natural expression.\nBackground: genuine transparent alpha, no painted background, no gray fill, no gradient backdrop, no halo or glow. Preserve fine hair and clean cutout edges. No text, watermark, new accessory, added object, extra person or sexualization.",
+  "date": "2026-10-19",
+  "generation_count": 1,
+  "scope": "Candidate only; original and final not overwritten",
+  "inspection": {
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "transparent_pixels": 641481,
+    "partial_alpha_pixels": 931383,
+    "visual_review": "Candidate only. Rendering and pose preserved; eyes slightly narrower and brows slightly straighter. Jaw/chin change too subtle to satisfy distinct facial identity target confidently. Not promoted to final.",
+    "invariants_review": "Low bun, hairline, gold earring, gray suit, taupe blouse, clipboard, hands, pose and adult body composition substantially preserved; minor natural re-rendering texture changes.",
+    "comparison_preview": "qa/art-characters-v2-yelan-face-compare.png",
+    "game_verification": "not performed"
+  }
+}

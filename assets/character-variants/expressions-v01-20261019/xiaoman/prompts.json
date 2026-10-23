@@ -1,0 +1,164 @@
+[
+  {
+    "character": "xiaoman",
+    "name": "罗小满",
+    "variant": "smile",
+    "label": "微笑",
+    "type": "expression",
+    "file": "char-xiaoman-expression-smile.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 罗小满。22岁成年女性，浅金短发、棕色眼睛，小耳钉，砖红运动外套和白色内搭、深色牛仔裤，右手插兜、左手自然垂下，以参考图为准。\nPrimary request: 仅改面部表情为温暖自然的微笑：嘴角明确上扬，眼神柔和，轻微眯眼；不要大笑。身体、手臂、双手、头部位置、服装姿态保留参考图。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。必须仅改脸部表情与视线；原身体姿态、手的位置不变。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/xiaoman-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-67faf16d-1e37-42b4-a8f4-9bf87683d837.png"
+  },
+  {
+    "character": "xiaoman",
+    "name": "罗小满",
+    "variant": "serious",
+    "label": "认真",
+    "type": "expression",
+    "file": "char-xiaoman-expression-serious.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 罗小满。22岁成年女性，浅金短发、棕色眼睛，小耳钉，砖红运动外套和白色内搭、深色牛仔裤，右手插兜、左手自然垂下，以参考图为准。\nPrimary request: 仅改面部表情为认真专注：双眉自然收紧，目光坚定看向交流对象，双唇闭合近水平，去掉原来的微笑，不能显凶。身体、手臂、双手、头部位置、服装姿态保留参考图。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。必须仅改脸部表情与视线；原身体姿态、手的位置不变。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/xiaoman-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-34acef81-4afc-4853-a56a-55d8fa4fa03a.png"
+  },
+  {
+    "character": "xiaoman",
+    "name": "罗小满",
+    "variant": "hesitant",
+    "label": "犹豫",
+    "type": "expression",
+    "file": "char-xiaoman-expression-hesitant.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 罗小满。22岁成年女性，浅金短发、棕色眼睛，小耳钉，砖红运动外套和白色内搭、深色牛仔裤，右手插兜、左手自然垂下，以参考图为准。\nPrimary request: 仅改面部表情为犹豫不确定：眉头内侧略抬并轻蹙，视线略移向侧下方，嘴唇微微抿住且无微笑，欲言又止；不流泪、不夸张。身体、手臂、双手、头部位置、服装姿态保留参考图。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。必须仅改脸部表情与视线；原身体姿态、手的位置不变。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/xiaoman-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-31bb49a2-be37-453f-9468-e8661da89eae.png"
+  },
+  {
+    "character": "xiaoman",
+    "name": "罗小满",
+    "variant": "surprised",
+    "label": "惊讶",
+    "type": "expression",
+    "file": "char-xiaoman-expression-surprised.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 罗小满。22岁成年女性，浅金短发、棕色眼睛，小耳钉，砖红运动外套和白色内搭、深色牛仔裤，右手插兜、左手自然垂下，以参考图为准。\nPrimary request: 仅改面部表情为自然惊讶：双眉明显上扬，双眼略睁大，嘴唇轻微张开呈小圆形；不能做恐惧惨叫、不能露出夸张漫画眼。身体、手臂、双手、头部位置、服装姿态保留参考图。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。必须仅改脸部表情与视线；原身体姿态、手的位置不变。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/xiaoman-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-053ee5c3-a7a5-4615-942c-e5a9283dd3f4.png"
+  },
+  {
+    "character": "xiaoman",
+    "name": "罗小满",
+    "variant": "displeased",
+    "label": "不悦",
+    "type": "expression",
+    "file": "char-xiaoman-expression-displeased.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 罗小满。22岁成年女性，浅金短发、棕色眼睛，小耳钉，砖红运动外套和白色内搭、深色牛仔裤，右手插兜、左手自然垂下，以参考图为准。\nPrimary request: 仅改面部表情为克制的不悦：眉头向下内收，目光略带质问，嘴角轻微下压，双唇闭合，明确没有微笑；不是愤怒咆哮。身体、手臂、双手、头部位置、服装姿态保留参考图。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。必须仅改脸部表情与视线；原身体姿态、手的位置不变。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/xiaoman-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-d3099d82-c22b-4b29-8961-5abc2249ed45.png"
+  },
+  {
+    "character": "xiaoman",
+    "name": "罗小满",
+    "variant": "downcast",
+    "label": "低落",
+    "type": "expression",
+    "file": "char-xiaoman-expression-downcast.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 罗小满。22岁成年女性，浅金短发、棕色眼睛，小耳钉，砖红运动外套和白色内搭、深色牛仔裤，右手插兜、左手自然垂下，以参考图为准。\nPrimary request: 仅改面部表情为安静低落：眉内侧上提、眼帘低垂、目光向下、嘴角小幅下落，无微笑、无泪滴；情绪克制。身体、手臂、双手、头部位置、服装姿态保留参考图。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。必须仅改脸部表情与视线；原身体姿态、手的位置不变。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/xiaoman-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-29a5dc9f-e5dc-41b8-8050-7603c8db2986.png"
+  },
+  {
+    "character": "xiaoman",
+    "name": "罗小满",
+    "variant": "wave",
+    "label": "招手",
+    "type": "action",
+    "file": "char-xiaoman-action-wave.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 罗小满。22岁成年女性，浅金短发、棕色眼睛，小耳钉，砖红运动外套和白色内搭、深色牛仔裤，右手插兜、左手自然垂下，以参考图为准。\nPrimary request: 保持身份衣服，改为自然招手动作：右手从兜中抬至肩旁，掌心朝前，五指自然张开、拇指结构正确，手腕自然；左手维持原参考姿态。轻微友好微笑，直立姿态。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。只调整所需手臂和手势，不改变人物体型。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/xiaoman-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-df677e9d-391c-4c1d-b146-d4f0cc0bf800.png"
+  },
+  {
+    "character": "xiaoman",
+    "name": "罗小满",
+    "variant": "thinking",
+    "label": "思考",
+    "type": "action",
+    "file": "char-xiaoman-action-thinking.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 罗小满。22岁成年女性，浅金短发、棕色眼睛，小耳钉，砖红运动外套和白色内搭、深色牛仔裤，右手插兜、左手自然垂下，以参考图为准。\nPrimary request: 保持身份衣服，改为思考动作：右手从兜中抬起，食指轻抵下巴侧面，其余手指自然弯曲；左手维持原参考姿态。眉头轻蹙，目光略向侧方，嘴唇闭合无微笑，认真思量。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。只调整所需手臂和手势，不改变人物体型。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/xiaoman-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-ee5227d8-d457-4cb5-bd96-fa7257a3663d.png"
+  },
+  {
+    "character": "xiaoman",
+    "name": "罗小满",
+    "variant": "explaining",
+    "label": "解释",
+    "type": "action",
+    "file": "char-xiaoman-action-explaining.png",
+    "tool": "image_gen.imagegen",
+    "arguments": {
+      "prompt": "Use case: identity-preserve\nAsset type: 《毕节，雨停之前》v0.1 视觉小说透明角色立绘，单个角色单张候选图。\nInput image: 唯一参考图同时是本次 edit target 与 identity reference，必须沿用同一张脸，不能生成相似但不同的人。\nSubject: 罗小满。22岁成年女性，浅金短发、棕色眼睛，小耳钉，砖红运动外套和白色内搭、深色牛仔裤，右手插兜、左手自然垂下，以参考图为准。\nPrimary request: 保持身份衣服，改为自然解释动作：右手从兜中抬到腰胸之间向前摊开，掌心朝上，手指自然放松并可辨五指，左手维持原参考姿态。神情认真但温和，嘴微张像正在说话，身体朝向保持不变。\nStyle/medium: 与参考图完全相同的成人日系半写实高质感插画，克制自然、精细五官和织物。\nComposition/framing: 竖版2:3，从完整头顶至大腿，保留相同比例、头肩腰位置与相近角色大小，所有手完整在画面内，头顶和两侧留少量透明空白。\nLighting: 保持参考图人物上的柔和暖光、肤色、轮廓光，去掉人物外部环境光晕和背景残留。\nConstraints: 保留面部身份、骨相、年龄、发型发色、眼睛、衣服款式颜色、耳饰及腕部配饰，不换装，不增加道具，不改变性别，不幼态化。只调整所需手臂和手势，不改变人物体型。 一张图只画一个人，不做表情表或拼贴。\nScene/backdrop: 真正透明的alpha背景，人物以外的每个区域都透明，无黑色/灰色背景、无棋盘格、无文字标签、无水印、无投影、无外发光。",
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/xiaoman-face-v2-candidate.png"
+      ],
+      "transparent_background": true
+    },
+    "status": "generated",
+    "generated_source": "/Users/yipin/.codex/generated_images/01a15380-c96c-7c90-b24b-92b7ff6f8f97/exec-9cae3a60-f4f7-4eb1-8600-61ad982047b4.png"
+  }
+]

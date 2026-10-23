@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "routes/mengyao",
+  "owner": "E05",
+  "scenes": {
+    "ts_c03_mengyao_interface_stub": {
+      "chapter": 3,
+      "title": "E03 外部路线接口桩",
+      "bg": "e03-interface-stub",
+      "time": "接口测试",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15
+      },
+      "location": "接口测试",
+      "day": 15,
+      "dayLabel": "第15天"
+    },
+    "ts_c04_mengyao_interface_stub": {
+      "chapter": 4,
+      "title": "E03 外部路线接口桩",
+      "bg": "e03-interface-stub",
+      "time": "接口测试",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 22
+      },
+      "location": "接口测试",
+      "day": 22,
+      "dayLabel": "第22天"
+    },
+    "ts_c05_mengyao_interface_stub": {
+      "chapter": 5,
+      "title": "E03 外部路线接口桩",
+      "bg": "e03-interface-stub",
+      "time": "接口测试",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 25
+      },
+      "location": "接口测试",
+      "day": 25,
+      "dayLabel": "第25天"
+    },
+    "ts_c06_mengyao_interface_stub": {
+      "chapter": 6,
+      "title": "E03 外部路线接口桩",
+      "bg": "e03-interface-stub",
+      "time": "接口测试",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 30
+      },
+      "location": "接口测试",
+      "day": 30,
+      "dayLabel": "第30天"
+    },
+    "ts_c07_mengyao_interface_stub": {
+      "chapter": 7,
+      "title": "E03 外部路线接口桩",
+      "bg": "e03-interface-stub",
+      "time": "接口测试",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 35
+      },
+      "location": "接口测试",
+      "day": 35,
+      "dayLabel": "第35天"
+    },
+    "ts_c08_mengyao_interface_stub": {
+      "chapter": 8,
+      "title": "E03 外部路线接口桩",
+      "bg": "e03-interface-stub",
+      "time": "接口测试",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 46
+      },
+      "location": "接口测试",
+      "day": 46,
+      "dayLabel": "第46天"
+    },
+    "ts_c09_mengyao_interface_stub": {
+      "chapter": 9,
+      "title": "E03 外部路线接口桩",
+      "bg": "e03-interface-stub",
+      "time": "接口测试",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 61
+      },
+      "location": "接口测试",
+      "day": 61,
+      "dayLabel": "第61天"
+    },
+    "ts_c10_mengyao_interface_stub": {
+      "chapter": 10,
+      "title": "E03 外部路线接口桩",
+      "bg": "e03-interface-stub",
+      "time": "接口测试",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present"
+      },
+      "location": "接口测试",
+      "day": null,
+      "dayLabel": "两年后"
+    }
+  },
+  "nodes": {
+    "tc_c03_mengyao_entry": {
+      "id": "tc_c03_mengyao_entry",
+      "type": "line",
+      "scene": "ts_c03_mengyao_interface_stub",
+      "speaker": "narrator",
+      "text": "【E03 测试接口桩，不是路线正文】",
+      "next": "tc_c03_common_exit"
+    },
+    "tc_c04_mengyao_entry": {
+      "id": "tc_c04_mengyao_entry",
+      "type": "line",
+      "scene": "ts_c04_mengyao_interface_stub",
+      "speaker": "narrator",
+      "text": "【E03 测试接口桩，不是路线正文】",
+      "next": "tc_c04_common_exit"
+    },
+    "tc_c05_mengyao_entry": {
+      "id": "tc_c05_mengyao_entry",
+      "type": "line",
+      "scene": "ts_c05_mengyao_interface_stub",
+      "speaker": "narrator",
+      "text": "【E03 测试接口桩，不是路线正文】",
+      "next": "tc_c05_common_exit"
+    },
+    "tc_c06_mengyao_entry": {
+      "id": "tc_c06_mengyao_entry",
+      "type": "line",
+      "scene": "ts_c06_mengyao_interface_stub",
+      "speaker": "narrator",
+      "text": "【E03 测试接口桩，不是路线正文】",
+      "next": "tc_c06_common_exit"
+    },
+    "tc_c07_mengyao_entry": {
+      "id": "tc_c07_mengyao_entry",
+      "type": "line",
+      "scene": "ts_c07_mengyao_interface_stub",
+      "speaker": "narrator",
+      "text": "【E03 测试接口桩，不是路线正文】",
+      "next": "tc_c07_common_exit"
+    },
+    "tc_c08_mengyao_entry": {
+      "id": "tc_c08_mengyao_entry",
+      "type": "line",
+      "scene": "ts_c08_mengyao_interface_stub",
+      "speaker": "narrator",
+      "text": "【E03 测试接口桩，不是路线正文】",
+      "next": "tc_c08_common_exit"
+    },
+    "tc_c09_mengyao_entry": {
+      "id": "tc_c09_mengyao_entry",
+      "type": "line",
+      "scene": "ts_c09_mengyao_interface_stub",
+      "speaker": "narrator",
+      "text": "【E03 测试接口桩，不是路线正文】",
+      "next": "tc_c09_common_exit"
+    },
+    "tc_c10_mengyao_entry": {
+      "id": "tc_c10_mengyao_entry",
+      "type": "line",
+      "scene": "ts_c10_mengyao_interface_stub",
+      "speaker": "narrator",
+      "text": "【E03 测试接口桩，不是路线正文】",
+      "next": null
+    }
+  },
+  "imports": [
+    "tc_c03_common_exit",
+    "tc_c04_common_exit",
+    "tc_c05_common_exit",
+    "tc_c06_common_exit",
+    "tc_c07_common_exit",
+    "tc_c08_common_exit",
+    "tc_c09_common_exit"
+  ],
+  "exports": {
+    "tc_c03_mengyao_entry": "tc_c03_mengyao_entry",
+    "tc_c04_mengyao_entry": "tc_c04_mengyao_entry",
+    "tc_c05_mengyao_entry": "tc_c05_mengyao_entry",
+    "tc_c06_mengyao_entry": "tc_c06_mengyao_entry",
+    "tc_c07_mengyao_entry": "tc_c07_mengyao_entry",
+    "tc_c08_mengyao_entry": "tc_c08_mengyao_entry",
+    "tc_c09_mengyao_entry": "tc_c09_mengyao_entry",
+    "tc_c10_mengyao_entry": "tc_c10_mengyao_entry"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 357,
+      "endLine": 357,
+      "nodeIds": [
+        "tc_c03_mengyao_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 211,
+      "endLine": 211,
+      "nodeIds": [
+        "tc_c04_mengyao_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 215,
+      "endLine": 215,
+      "nodeIds": [
+        "tc_c05_mengyao_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 191,
+      "endLine": 191,
+      "nodeIds": [
+        "tc_c06_mengyao_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 201,
+      "endLine": 201,
+      "nodeIds": [
+        "tc_c07_mengyao_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 185,
+      "endLine": 185,
+      "nodeIds": [
+        "tc_c08_mengyao_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 247,
+      "endLine": 247,
+      "nodeIds": [
+        "tc_c09_mengyao_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 233,
+      "endLine": 233,
+      "nodeIds": [
+        "tc_c10_mengyao_entry"
+      ],
+      "kind": "control"
+    }
+  ],
+  "exclusions": [],
+  "assetRequests": []
+}

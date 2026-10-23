@@ -1,0 +1,2499 @@
+{
+  "status": "PASS",
+  "rootUrl": "https://galagame.ambd.site/",
+  "startedAt": "2026-10-23T06:21:04.733Z",
+  "finishedAt": "2026-10-23T06:23:13.984Z",
+  "manifest": "runtime-manifest.json",
+  "concurrency": 3,
+  "timeoutMs": 30000,
+  "maxAttempts": 3,
+  "redirectsFollowed": false,
+  "fileCount": 146,
+  "passed": 146,
+  "failed": 0,
+  "requestCount": 146,
+  "results": [
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-street-day.webp",
+      "url": "https://galagame.ambd.site/assets/background-variants/m2-daynight-20261020/bg-street-day.webp",
+      "expectedBytes": 2137550,
+      "expectedSha256": "3841f1ae27040c2416b73466f22fbf7664145b9aa2617bce1fbf4b1d17b2a7d7",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2137550,
+          "sha256": "3841f1ae27040c2416b73466f22fbf7664145b9aa2617bce1fbf4b1d17b2a7d7",
+          "pass": true,
+          "elapsedMs": 7478
+        }
+      ]
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-busstop-day.webp",
+      "url": "https://galagame.ambd.site/assets/backgrounds/bijie-20261020/bg-busstop-day.webp",
+      "expectedBytes": 2301340,
+      "expectedSha256": "335b2bf31c5ec8828589bcd5551c708ec8a7f914408d8635ca7f53d38a700b16",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2301340,
+          "sha256": "335b2bf31c5ec8828589bcd5551c708ec8a7f914408d8635ca7f53d38a700b16",
+          "pass": true,
+          "elapsedMs": 4919
+        }
+      ]
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+      "url": "https://galagame.ambd.site/assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+      "expectedBytes": 2180932,
+      "expectedSha256": "ff721898479c352bdac7969a7b301b29fd196215d04cdd24290c77de8c94caa0",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2180932,
+          "sha256": "ff721898479c352bdac7969a7b301b29fd196215d04cdd24290c77de8c94caa0",
+          "pass": true,
+          "elapsedMs": 5060
+        }
+      ]
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.webp",
+      "url": "https://galagame.ambd.site/assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.webp",
+      "expectedBytes": 2285578,
+      "expectedSha256": "b0b100f1e82cdcfeb58aa02c782480399ca2787582a00368a9a2a3dc01c68809",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2285578,
+          "sha256": "b0b100f1e82cdcfeb58aa02c782480399ca2787582a00368a9a2a3dc01c68809",
+          "pass": true,
+          "elapsedMs": 3712
+        }
+      ]
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.webp",
+      "url": "https://galagame.ambd.site/assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.webp",
+      "expectedBytes": 2119482,
+      "expectedSha256": "188326b2cdb65dcb0a65f117ffd7c05d5cd9b60df5bf9536786fc7da84bde6f7",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2119482,
+          "sha256": "188326b2cdb65dcb0a65f117ffd7c05d5cd9b60df5bf9536786fc7da84bde6f7",
+          "pass": true,
+          "elapsedMs": 2095
+        }
+      ]
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-noodles-dusk.webp",
+      "url": "https://galagame.ambd.site/assets/backgrounds/bijie-20261020/bg-noodles-dusk.webp",
+      "expectedBytes": 2035924,
+      "expectedSha256": "e4a0e4aa5baaf996064f949b382b1dbec9e7c53b01bff708e3b2b9dd335e582f",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2035924,
+          "sha256": "e4a0e4aa5baaf996064f949b382b1dbec9e7c53b01bff708e3b2b9dd335e582f",
+          "pass": true,
+          "elapsedMs": 1772
+        }
+      ]
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-old-eaves-day.webp",
+      "url": "https://galagame.ambd.site/assets/backgrounds/bijie-20261020/bg-old-eaves-day.webp",
+      "expectedBytes": 2290852,
+      "expectedSha256": "18861e49214b039d1507ea98a7073ddc8876062b4ad8684bdad91ea3deee7445",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2290852,
+          "sha256": "18861e49214b039d1507ea98a7073ddc8876062b4ad8684bdad91ea3deee7445",
+          "pass": true,
+          "elapsedMs": 3485
+        }
+      ]
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-residential-slope-day.webp",
+      "url": "https://galagame.ambd.site/assets/backgrounds/bijie-20261020/bg-residential-slope-day.webp",
+      "expectedBytes": 2340464,
+      "expectedSha256": "d5920c93d6841fd26f71766ca7ea52d368464f680da573e0114f3913c0bb95f5",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2340464,
+          "sha256": "d5920c93d6841fd26f71766ca7ea52d368464f680da573e0114f3913c0bb95f5",
+          "pass": true,
+          "elapsedMs": 6414
+        }
+      ]
+    },
+    {
+      "path": "assets/bg-noodles.webp",
+      "url": "https://galagame.ambd.site/assets/bg-noodles.webp",
+      "expectedBytes": 1890104,
+      "expectedSha256": "83c5a1069d2d081997a9961988cbb71255df64c50a60d0f53ae1ab62bb566999",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1890104,
+          "sha256": "83c5a1069d2d081997a9961988cbb71255df64c50a60d0f53ae1ab62bb566999",
+          "pass": true,
+          "elapsedMs": 1695
+        }
+      ]
+    },
+    {
+      "path": "assets/bg-salon.webp",
+      "url": "https://galagame.ambd.site/assets/bg-salon.webp",
+      "expectedBytes": 1833416,
+      "expectedSha256": "ce234b655ad068db55435d251f11796b946e7b3a97cb2b20143f5717833ca4f9",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1833416,
+          "sha256": "ce234b655ad068db55435d251f11796b946e7b3a97cb2b20143f5717833ca4f9",
+          "pass": true,
+          "elapsedMs": 1907
+        }
+      ]
+    },
+    {
+      "path": "assets/char-huangqiuqiu.webp",
+      "url": "https://galagame.ambd.site/assets/char-huangqiuqiu.webp",
+      "expectedBytes": 768286,
+      "expectedSha256": "ce01862d4078b2b091980575bbf728f30d3ce2044ac9b6f41643fb11a843b2de",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 768286,
+          "sha256": "ce01862d4078b2b091980575bbf728f30d3ce2044ac9b6f41643fb11a843b2de",
+          "pass": true,
+          "elapsedMs": 1530
+        }
+      ]
+    },
+    {
+      "path": "assets/char-maolang.webp",
+      "url": "https://galagame.ambd.site/assets/char-maolang.webp",
+      "expectedBytes": 730662,
+      "expectedSha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 730662,
+          "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf",
+          "pass": true,
+          "elapsedMs": 1322
+        }
+      ]
+    },
+    {
+      "path": "assets/char-piao.webp",
+      "url": "https://galagame.ambd.site/assets/char-piao.webp",
+      "expectedBytes": 716636,
+      "expectedSha256": "b28422dabd0a4d3eb2ad7a34f832104bae4884ecb93bd45eb0d80e9c17a70331",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 716636,
+          "sha256": "b28422dabd0a4d3eb2ad7a34f832104bae4884ecb93bd45eb0d80e9c17a70331",
+          "pass": true,
+          "elapsedMs": 1164
+        }
+      ]
+    },
+    {
+      "path": "assets/char-shijiang.webp",
+      "url": "https://galagame.ambd.site/assets/char-shijiang.webp",
+      "expectedBytes": 932076,
+      "expectedSha256": "286042deb9ae765c377f69285824c8ca4e2a7a23ba8af960cbaf413747fc207c",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 932076,
+          "sha256": "286042deb9ae765c377f69285824c8ca4e2a7a23ba8af960cbaf413747fc207c",
+          "pass": true,
+          "elapsedMs": 1328
+        }
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.webp",
+      "url": "https://galagame.ambd.site/assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.webp",
+      "expectedBytes": 1174138,
+      "expectedSha256": "17431ee18497db77547c67bba1b294873d3c02fa0260075d16354b82bf510c39",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1174138,
+          "sha256": "17431ee18497db77547c67bba1b294873d3c02fa0260075d16354b82bf510c39",
+          "pass": true,
+          "elapsedMs": 2529
+        }
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.webp",
+      "url": "https://galagame.ambd.site/assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.webp",
+      "expectedBytes": 1159176,
+      "expectedSha256": "20300c95bf649054fb93e4fad1d1ccc7aa0fc34172bd0b88eef10a72bd1a9531",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1159176,
+          "sha256": "20300c95bf649054fb93e4fad1d1ccc7aa0fc34172bd0b88eef10a72bd1a9531",
+          "pass": true,
+          "elapsedMs": 1323
+        }
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.webp",
+      "url": "https://galagame.ambd.site/assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.webp",
+      "expectedBytes": 1174552,
+      "expectedSha256": "8fdaf41013fe8f7dc313a7cea6699cb37a54ed88e9dd8c6c41af92cbe03334dc",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1174552,
+          "sha256": "8fdaf41013fe8f7dc313a7cea6699cb37a54ed88e9dd8c6c41af92cbe03334dc",
+          "pass": true,
+          "elapsedMs": 1833
+        }
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+      "url": "https://galagame.ambd.site/assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+      "expectedBytes": 1186586,
+      "expectedSha256": "f7a76782c6cd6a8a3739d68d2e664afe0da3be2810241e8802c6e1bec7dae990",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1186586,
+          "sha256": "f7a76782c6cd6a8a3739d68d2e664afe0da3be2810241e8802c6e1bec7dae990",
+          "pass": true,
+          "elapsedMs": 3471
+        }
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.webp",
+      "url": "https://galagame.ambd.site/assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.webp",
+      "expectedBytes": 841286,
+      "expectedSha256": "f33bd7d32161fd13d8597b88779fc2233921a1db3f60c10c63d5be296dd4e713",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 841286,
+          "sha256": "f33bd7d32161fd13d8597b88779fc2233921a1db3f60c10c63d5be296dd4e713",
+          "pass": true,
+          "elapsedMs": 2475
+        }
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.webp",
+      "url": "https://galagame.ambd.site/assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.webp",
+      "expectedBytes": 852512,
+      "expectedSha256": "c77e074b064afe4f9250f0e827b6ecfb742c1486d9aa9ba68e22700927f55a20",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 852512,
+          "sha256": "c77e074b064afe4f9250f0e827b6ecfb742c1486d9aa9ba68e22700927f55a20",
+          "pass": true,
+          "elapsedMs": 1692
+        }
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.webp",
+      "url": "https://galagame.ambd.site/assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.webp",
+      "expectedBytes": 865546,
+      "expectedSha256": "47133aa81d4be43234874bb5e072195fa6c53040fab0456580806802e6a82e0e",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 865546,
+          "sha256": "47133aa81d4be43234874bb5e072195fa6c53040fab0456580806802e6a82e0e",
+          "pass": true,
+          "elapsedMs": 2113
+        }
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.webp",
+      "url": "https://galagame.ambd.site/assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.webp",
+      "expectedBytes": 857994,
+      "expectedSha256": "21d6bef6495b7fcdca9a9369f59842bcf4e20743426b51a5493c117c2b50cf5a",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 857994,
+          "sha256": "21d6bef6495b7fcdca9a9369f59842bcf4e20743426b51a5493c117c2b50cf5a",
+          "pass": true,
+          "elapsedMs": 2165
+        }
+      ]
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.webp",
+      "url": "https://galagame.ambd.site/assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.webp",
+      "expectedBytes": 704186,
+      "expectedSha256": "4ba3d09a6f0d46c156b7ba278388b9228a8e2c00ba30e398de3f8b46872965e5",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 704186,
+          "sha256": "4ba3d09a6f0d46c156b7ba278388b9228a8e2c00ba30e398de3f8b46872965e5",
+          "pass": true,
+          "elapsedMs": 2095
+        }
+      ]
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+      "url": "https://galagame.ambd.site/assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+      "expectedBytes": 701286,
+      "expectedSha256": "9bb08999a38861d259fa6fd29458fb1b58e03425a2fa50533634280e9e90e831",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 701286,
+          "sha256": "9bb08999a38861d259fa6fd29458fb1b58e03425a2fa50533634280e9e90e831",
+          "pass": true,
+          "elapsedMs": 2831
+        }
+      ]
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.webp",
+      "url": "https://galagame.ambd.site/assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.webp",
+      "expectedBytes": 700748,
+      "expectedSha256": "ea955ceb6b2301825e391ca636d343145753b7451e20d6229d5935b90139486f",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 700748,
+          "sha256": "ea955ceb6b2301825e391ca636d343145753b7451e20d6229d5935b90139486f",
+          "pass": true,
+          "elapsedMs": 2121
+        }
+      ]
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+      "url": "https://galagame.ambd.site/assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+      "expectedBytes": 705920,
+      "expectedSha256": "6d2661f9fd7c8551cb1dace16519ffcc220c23e5c69693103538cfe57ba612b0",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 705920,
+          "sha256": "6d2661f9fd7c8551cb1dace16519ffcc220c23e5c69693103538cfe57ba612b0",
+          "pass": true,
+          "elapsedMs": 1862
+        }
+      ]
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-hesitant.webp",
+      "url": "https://galagame.ambd.site/assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-hesitant.webp",
+      "expectedBytes": 871542,
+      "expectedSha256": "86140f606a2c669fa62f4b62cf956e166c4b046e94502c8b425d3c9757f983ee",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 871542,
+          "sha256": "86140f606a2c669fa62f4b62cf956e166c4b046e94502c8b425d3c9757f983ee",
+          "pass": true,
+          "elapsedMs": 1762
+        }
+      ]
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.webp",
+      "url": "https://galagame.ambd.site/assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.webp",
+      "expectedBytes": 900014,
+      "expectedSha256": "e4399ca942e6bc20bf5e2c6391de95a115bcb59c4320d0c10eea99d953c1352f",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 900014,
+          "sha256": "e4399ca942e6bc20bf5e2c6391de95a115bcb59c4320d0c10eea99d953c1352f",
+          "pass": true,
+          "elapsedMs": 1504
+        }
+      ]
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp",
+      "url": "https://galagame.ambd.site/assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp",
+      "expectedBytes": 885086,
+      "expectedSha256": "46d040efebffd1f356fed0773e317e9eb6654e9356c2e4800a42a388e9d6259f",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 885086,
+          "sha256": "46d040efebffd1f356fed0773e317e9eb6654e9356c2e4800a42a388e9d6259f",
+          "pass": true,
+          "elapsedMs": 3316
+        }
+      ]
+    },
+    {
+      "path": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+      "url": "https://galagame.ambd.site/assets/character-variants/xiaoman-face-v2-candidate.webp",
+      "expectedBytes": 1186548,
+      "expectedSha256": "1be5cc691cd5948cebc281714b4b94ab2f9ba5b44794f6039e488c67fe5c491c",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1186548,
+          "sha256": "1be5cc691cd5948cebc281714b4b94ab2f9ba5b44794f6039e488c67fe5c491c",
+          "pass": true,
+          "elapsedMs": 1823
+        }
+      ]
+    },
+    {
+      "path": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+      "url": "https://galagame.ambd.site/assets/character-variants/zhouzhi-face-v2-candidate.webp",
+      "expectedBytes": 839198,
+      "expectedSha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 839198,
+          "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a",
+          "pass": true,
+          "elapsedMs": 2055
+        }
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+      "url": "https://galagame.ambd.site/assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+      "expectedBytes": 808730,
+      "expectedSha256": "9664e4a971c4a8a08b7b47c49bc669a3d25632c3d5bb0c2ed324307e74fc7c9f",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 808730,
+          "sha256": "9664e4a971c4a8a08b7b47c49bc669a3d25632c3d5bb0c2ed324307e74fc7c9f",
+          "pass": true,
+          "elapsedMs": 1865
+        }
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+      "url": "https://galagame.ambd.site/assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+      "expectedBytes": 744520,
+      "expectedSha256": "08846f26ea6ee59dc8291f90497197c0bc8907386652c8903d9158b1a1bcac57",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 744520,
+          "sha256": "08846f26ea6ee59dc8291f90497197c0bc8907386652c8903d9158b1a1bcac57",
+          "pass": true,
+          "elapsedMs": 1638
+        }
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "url": "https://galagame.ambd.site/assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "expectedBytes": 758926,
+      "expectedSha256": "03c4cb0d38b786ba29d67ecf5a7940c14c7a06ed9596420c57980e3de4e8bf12",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 758926,
+          "sha256": "03c4cb0d38b786ba29d67ecf5a7940c14c7a06ed9596420c57980e3de4e8bf12",
+          "pass": true,
+          "elapsedMs": 3670
+        }
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+      "url": "https://galagame.ambd.site/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+      "expectedBytes": 764064,
+      "expectedSha256": "e6b1d49e1a239ea99f95022cba84bd1ba44a452c838b18579d207fbccaffe54f",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 764064,
+          "sha256": "e6b1d49e1a239ea99f95022cba84bd1ba44a452c838b18579d207fbccaffe54f",
+          "pass": true,
+          "elapsedMs": 2831
+        }
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.webp",
+      "url": "https://galagame.ambd.site/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.webp",
+      "expectedBytes": 739990,
+      "expectedSha256": "1bed64f2586cc3633098aeef862046dc6d7b970d71f872adb71c8060008cef44",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 739990,
+          "sha256": "1bed64f2586cc3633098aeef862046dc6d7b970d71f872adb71c8060008cef44",
+          "pass": true,
+          "elapsedMs": 2740
+        }
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+      "url": "https://galagame.ambd.site/assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+      "expectedBytes": 737200,
+      "expectedSha256": "5704ec0c670226e7c4ae80aa952994c3d100c088c7648c221156f08515923a92",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 737200,
+          "sha256": "5704ec0c670226e7c4ae80aa952994c3d100c088c7648c221156f08515923a92",
+          "pass": true,
+          "elapsedMs": 1578
+        }
+      ]
+    },
+    {
+      "path": "assets/runtime-ten-chapter-manifest.json",
+      "url": "https://galagame.ambd.site/assets/runtime-ten-chapter-manifest.json",
+      "expectedBytes": 59618,
+      "expectedSha256": "de3626a9f6691ee45b4eb76ceb60339bf4df1cde80d6367e7e8fcb73a74b8521",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 59618,
+          "sha256": "de3626a9f6691ee45b4eb76ceb60339bf4df1cde80d6367e7e8fcb73a74b8521",
+          "pass": true,
+          "elapsedMs": 721
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-alteration-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-alteration-day.webp",
+      "expectedBytes": 1786218,
+      "expectedSha256": "102956f33219a009cbc2c8d5bd1b549ab7a8b1524ca9e4de38d318f0d18d3901",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1786218,
+          "sha256": "102956f33219a009cbc2c8d5bd1b549ab7a8b1524ca9e4de38d318f0d18d3901",
+          "pass": true,
+          "elapsedMs": 3042
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-arcade-airhockey.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-arcade-airhockey.webp",
+      "expectedBytes": 1644276,
+      "expectedSha256": "79039a3f569bcd7c8e2eedf6e2c8adf6e429ff8d6b6a44171a253404f2587170",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1644276,
+          "sha256": "79039a3f569bcd7c8e2eedf6e2c8adf6e429ff8d6b6a44171a253404f2587170",
+          "pass": true,
+          "elapsedMs": 2141
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-arcade-basketball.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-arcade-basketball.webp",
+      "expectedBytes": 1792152,
+      "expectedSha256": "c5292c5f20ce1226e64eb5469ce34161254cd238e41f5e73da79c8d008e609ea",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1792152,
+          "sha256": "c5292c5f20ce1226e64eb5469ce34161254cd238e41f5e73da79c8d008e609ea",
+          "pass": true,
+          "elapsedMs": 4593
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-arcade-rowing.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-arcade-rowing.webp",
+      "expectedBytes": 1642626,
+      "expectedSha256": "b78dc0d77053e4c7f8d9bbac816269d7b5198b0e1d05cc3a7bf721c4561b12a3",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1642626,
+          "sha256": "b78dc0d77053e4c7f8d9bbac816269d7b5198b0e1d05cc3a7bf721c4561b12a3",
+          "pass": true,
+          "elapsedMs": 2667
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-backdoor-night.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-backdoor-night.webp",
+      "expectedBytes": 1827712,
+      "expectedSha256": "a474cf147f2c40281f8a030e2eb714fd5611469481f5f426567ba2d4b608448f",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1827712,
+          "sha256": "a474cf147f2c40281f8a030e2eb714fd5611469481f5f426567ba2d4b608448f",
+          "pass": true,
+          "elapsedMs": 2769
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-badminton-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-badminton-day.webp",
+      "expectedBytes": 1663654,
+      "expectedSha256": "4fca48aac4f30269d86257d1facc85f0ab3be2721fd9829d96d5a33730b5dd9d",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1663654,
+          "sha256": "4fca48aac4f30269d86257d1facc85f0ab3be2721fd9829d96d5a33730b5dd9d",
+          "pass": true,
+          "elapsedMs": 2304
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-bookstore-day-v2.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-bookstore-day-v2.webp",
+      "expectedBytes": 1655318,
+      "expectedSha256": "2f96483e947f099b93a9d96df5d5a194081c3fb2aa9c2630b95e08c47ed967fd",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1655318,
+          "sha256": "2f96483e947f099b93a9d96df5d5a194081c3fb2aa9c2630b95e08c47ed967fd",
+          "pass": true,
+          "elapsedMs": 5656
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-breakfast-dawn.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-breakfast-dawn.webp",
+      "expectedBytes": 1943600,
+      "expectedSha256": "35b4ed25926a9ade51ceca446f22b72caf8a257a38211bfdb066eb0b1823b523",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1943600,
+          "sha256": "35b4ed25926a9ade51ceca446f22b72caf8a257a38211bfdb066eb0b1823b523",
+          "pass": true,
+          "elapsedMs": 2522
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-bridge-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-bridge-day.webp",
+      "expectedBytes": 2339670,
+      "expectedSha256": "a2032d17921040040867e0eef835cac5fa3b07de3653d4d668fd11fc287dfaac",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2339670,
+          "sha256": "a2032d17921040040867e0eef835cac5fa3b07de3653d4d668fd11fc287dfaac",
+          "pass": true,
+          "elapsedMs": 3911
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-bridge-dusk.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-bridge-dusk.webp",
+      "expectedBytes": 2178900,
+      "expectedSha256": "01b07197887162f6fb66d2887253473c74ce1cf04efad982db4b2f3d5d3dc9bb",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2178900,
+          "sha256": "01b07197887162f6fb66d2887253473c74ce1cf04efad982db4b2f3d5d3dc9bb",
+          "pass": true,
+          "elapsedMs": 3231
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-busstop-dusk.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-busstop-dusk.webp",
+      "expectedBytes": 2218152,
+      "expectedSha256": "79cdc400602dd639725f3ca6f9629438f407fe086dd4688868a82a9b40a07a3f",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2218152,
+          "sha256": "79cdc400602dd639725f3ca6f9629438f407fe086dd4688868a82a9b40a07a3f",
+          "pass": true,
+          "elapsedMs": 2750
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-cinema-interior.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-cinema-interior.webp",
+      "expectedBytes": 1280022,
+      "expectedSha256": "c07c3df7619d68be3fb5ba9710eaca75e8ba60e6215c9da05db79ec7acd8421c",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1280022,
+          "sha256": "c07c3df7619d68be3fb5ba9710eaca75e8ba60e6215c9da05db79ec7acd8421c",
+          "pass": true,
+          "elapsedMs": 3823
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-clothing-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-clothing-day.webp",
+      "expectedBytes": 1677794,
+      "expectedSha256": "0c931272b2083bab9c68f0aba9f15728f1703ccd6f10469454e2437828556a43",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1677794,
+          "sha256": "0c931272b2083bab9c68f0aba9f15728f1703ccd6f10469454e2437828556a43",
+          "pass": true,
+          "elapsedMs": 2161
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-convenience-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-convenience-day.webp",
+      "expectedBytes": 1777486,
+      "expectedSha256": "aef1557845a9bc72edf4deb073df9a001f015ad3af77bce6bcab543ce3267c76",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1777486,
+          "sha256": "aef1557845a9bc72edf4deb073df9a001f015ad3af77bce6bcab543ce3267c76",
+          "pass": true,
+          "elapsedMs": 2753
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-courtyard-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-courtyard-day.webp",
+      "expectedBytes": 1947068,
+      "expectedSha256": "d20a905d8da1113440fa0f0a48811223e5e1505ad9bff5703e033746b59b9eee",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1947068,
+          "sha256": "d20a905d8da1113440fa0f0a48811223e5e1505ad9bff5703e033746b59b9eee",
+          "pass": true,
+          "elapsedMs": 2817
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-courtyard-night.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-courtyard-night.webp",
+      "expectedBytes": 1813800,
+      "expectedSha256": "89e6e29d4a6c2a0feae26f80a520e1e7d883c1c1049106d841b76b25771c7c29",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1813800,
+          "sha256": "89e6e29d4a6c2a0feae26f80a520e1e7d883c1c1049106d841b76b25771c7c29",
+          "pass": true,
+          "elapsedMs": 3323
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-echo-closed-dawn.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-echo-closed-dawn.webp",
+      "expectedBytes": 2059814,
+      "expectedSha256": "ad32df3c006abc309a0ce82596dc7e3ab7b1c4a4bf460c74df71496d7fbe8518",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2059814,
+          "sha256": "ad32df3c006abc309a0ce82596dc7e3ab7b1c4a4bf460c74df71496d7fbe8518",
+          "pass": true,
+          "elapsedMs": 6162
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-echo-closed-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-echo-closed-day.webp",
+      "expectedBytes": 2221730,
+      "expectedSha256": "81e547ddeb1b062048b13ca6bdc57bee1396dd8dd57cb5333118c8927d272231",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2221730,
+          "sha256": "81e547ddeb1b062048b13ca6bdc57bee1396dd8dd57cb5333118c8927d272231",
+          "pass": true,
+          "elapsedMs": 2686
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-echo-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-echo-day.webp",
+      "expectedBytes": 2286462,
+      "expectedSha256": "44c567c3ba7d3619b634c569808fa381ad77065f212632f1f5ebd9cb4ccfadb3",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2286462,
+          "sha256": "44c567c3ba7d3619b634c569808fa381ad77065f212632f1f5ebd9cb4ccfadb3",
+          "pass": true,
+          "elapsedMs": 2887
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-food-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-food-day.webp",
+      "expectedBytes": 2163404,
+      "expectedSha256": "5436c4770b21d57274d84e7345823b8b145561a4632845f97ea2acb1dbf67480",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2163404,
+          "sha256": "5436c4770b21d57274d84e7345823b8b145561a4632845f97ea2acb1dbf67480",
+          "pass": true,
+          "elapsedMs": 2720
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-game-store-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-game-store-day.webp",
+      "expectedBytes": 2031922,
+      "expectedSha256": "b38f4de12b3501063345085744f04d130e9ce751c4ffe0649d0e5216636597ed",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2031922,
+          "sha256": "b38f4de12b3501063345085744f04d130e9ce751c4ffe0649d0e5216636597ed",
+          "pass": true,
+          "elapsedMs": 2207
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-kiosk-eaves-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-kiosk-eaves-day.webp",
+      "expectedBytes": 2152038,
+      "expectedSha256": "4c3436e229439dd7f537d64a68c72a640ecf09fd6e326171fb3f77d34c44c64a",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2152038,
+          "sha256": "4c3436e229439dd7f537d64a68c72a640ecf09fd6e326171fb3f77d34c44c64a",
+          "pass": true,
+          "elapsedMs": 3414
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-mall-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-mall-day.webp",
+      "expectedBytes": 1691018,
+      "expectedSha256": "47e6e044a2ce92c2060d943510142442558d8f19aebb1082d7d5992564ca3984",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1691018,
+          "sha256": "47e6e044a2ce92c2060d943510142442558d8f19aebb1082d7d5992564ca3984",
+          "pass": true,
+          "elapsedMs": 2318
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-maolang-home-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-maolang-home-day.webp",
+      "expectedBytes": 1656254,
+      "expectedSha256": "f1493fdc6610c29c8d9ae8c73e1e22f20b6cb853022d7207f175dc75d516990f",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1656254,
+          "sha256": "f1493fdc6610c29c8d9ae8c73e1e22f20b6cb853022d7207f175dc75d516990f",
+          "pass": true,
+          "elapsedMs": 4669
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-netcafe-counter-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-netcafe-counter-day.webp",
+      "expectedBytes": 1744932,
+      "expectedSha256": "ad4441bd82897f63a57766890badb01a9ea981052b701906f62cc8f4ac97ba09",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1744932,
+          "sha256": "ad4441bd82897f63a57766890badb01a9ea981052b701906f62cc8f4ac97ba09",
+          "pass": true,
+          "elapsedMs": 2037
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-netcafe-counter-night.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-netcafe-counter-night.webp",
+      "expectedBytes": 1676142,
+      "expectedSha256": "60e72e85116772bdcdc958580e702e8f393384a77dafd560b166f0c56dd59354",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1676142,
+          "sha256": "60e72e85116772bdcdc958580e702e8f393384a77dafd560b166f0c56dd59354",
+          "pass": true,
+          "elapsedMs": 3260
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-netcafe-pc-day-v2.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-netcafe-pc-day-v2.webp",
+      "expectedBytes": 1557002,
+      "expectedSha256": "51ff1a9e3c17996078d2c3c01553e2145da54f26c1b39547ac0b740a57525446",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1557002,
+          "sha256": "51ff1a9e3c17996078d2c3c01553e2145da54f26c1b39547ac0b740a57525446",
+          "pass": true,
+          "elapsedMs": 2871
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-netcafe-pc-night.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-netcafe-pc-night.webp",
+      "expectedBytes": 1593316,
+      "expectedSha256": "312a7180bb2cbc8278f2066484ca8c441912fe6364eaf6ff80af150da915b170",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1593316,
+          "sha256": "312a7180bb2cbc8278f2066484ca8c441912fe6364eaf6ff80af150da915b170",
+          "pass": true,
+          "elapsedMs": 2074
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-parcel-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-parcel-day.webp",
+      "expectedBytes": 2047214,
+      "expectedSha256": "b3cd0770db6fb59e840bb22d810294bae29165046188bf2388679ff4e1d372c8",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2047214,
+          "sha256": "b3cd0770db6fb59e840bb22d810294bae29165046188bf2388679ff4e1d372c8",
+          "pass": true,
+          "elapsedMs": 5656
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-park-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-park-day.webp",
+      "expectedBytes": 2584168,
+      "expectedSha256": "84113b7128b0d5835f8dccefafaca7b41cdeb3a897ea5e619024332500f1e9cf",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2584168,
+          "sha256": "84113b7128b0d5835f8dccefafaca7b41cdeb3a897ea5e619024332500f1e9cf",
+          "pass": true,
+          "elapsedMs": 3968
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-performance-shop-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-performance-shop-day.webp",
+      "expectedBytes": 1892270,
+      "expectedSha256": "31ab98dccfcef41490e33debf67bd418eb5724f6e88613988690320c2cd042a7",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1892270,
+          "sha256": "31ab98dccfcef41490e33debf67bd418eb5724f6e88613988690320c2cd042a7",
+          "pass": true,
+          "elapsedMs": 2865
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-practice-room-blue.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-practice-room-blue.webp",
+      "expectedBytes": 1475174,
+      "expectedSha256": "9d1c689552224764531d25478421e5fc043918d348fd9f0ab718250a893185f5",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1475174,
+          "sha256": "9d1c689552224764531d25478421e5fc043918d348fd9f0ab718250a893185f5",
+          "pass": true,
+          "elapsedMs": 2132
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-rental-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-rental-day.webp",
+      "expectedBytes": 1499346,
+      "expectedSha256": "c999c0db4168e7133bc0bf5d9ae0c94fcc6acae88f4fb386389ac18fad7db626",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1499346,
+          "sha256": "c999c0db4168e7133bc0bf5d9ae0c94fcc6acae88f4fb386389ac18fad7db626",
+          "pass": true,
+          "elapsedMs": 3306
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-rental-night.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-rental-night.webp",
+      "expectedBytes": 1344462,
+      "expectedSha256": "6ac0a4e1ac9ef3b9a828fdb3eb13339853286e61f695c30897c5463c74fe107b",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1344462,
+          "sha256": "6ac0a4e1ac9ef3b9a828fdb3eb13339853286e61f695c30897c5463c74fe107b",
+          "pass": true,
+          "elapsedMs": 2529
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-river-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-river-day.webp",
+      "expectedBytes": 2290078,
+      "expectedSha256": "d5f4f1db52e385ec96b6b77f2820158e8fe83164abc265101a7c320a05512bd5",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2290078,
+          "sha256": "d5f4f1db52e385ec96b6b77f2820158e8fe83164abc265101a7c320a05512bd5",
+          "pass": true,
+          "elapsedMs": 6050
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-riverside-lawn-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-riverside-lawn-day.webp",
+      "expectedBytes": 2162696,
+      "expectedSha256": "64c797b7b2f7fb944c4de2082398ac4ac3e07f246b8cd10c80203e771227b608",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2162696,
+          "sha256": "64c797b7b2f7fb944c4de2082398ac4ac3e07f246b8cd10c80203e771227b608",
+          "pass": true,
+          "elapsedMs": 2620
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-secondhand-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-secondhand-day.webp",
+      "expectedBytes": 2016364,
+      "expectedSha256": "28ddc2085a0bb3172645efb1c3de362b8d5bdafb64d4a7945d0ee9dd79aa92e1",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2016364,
+          "sha256": "28ddc2085a0bb3172645efb1c3de362b8d5bdafb64d4a7945d0ee9dd79aa92e1",
+          "pass": true,
+          "elapsedMs": 2778
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-stall-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-stall-day.webp",
+      "expectedBytes": 2273034,
+      "expectedSha256": "fab8eb243e62bc953b02774ae985421ebbce1e66831b1959257768470f76e264",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2273034,
+          "sha256": "fab8eb243e62bc953b02774ae985421ebbce1e66831b1959257768470f76e264",
+          "pass": true,
+          "elapsedMs": 2729
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-street-dusk.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-street-dusk.webp",
+      "expectedBytes": 2213484,
+      "expectedSha256": "061fa2e8b432f55dfdfdacdae98be6f1b13e2b34d72b181c230c440daa9e6eed",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2213484,
+          "sha256": "061fa2e8b432f55dfdfdacdae98be6f1b13e2b34d72b181c230c440daa9e6eed",
+          "pass": true,
+          "elapsedMs": 2497
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-supermarket-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-supermarket-day.webp",
+      "expectedBytes": 1848512,
+      "expectedSha256": "5e1ac856f3e4a7c9d19a151845767df75a3e0facb04c9604a8622e01900f13e0",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1848512,
+          "sha256": "5e1ac856f3e4a7c9d19a151845767df75a3e0facb04c9604a8622e01900f13e0",
+          "pass": true,
+          "elapsedMs": 2690
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-tabletennis-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-tabletennis-day.webp",
+      "expectedBytes": 1629638,
+      "expectedSha256": "db550887a12be177cdb6d3d29841a4bcaf7a2a76361ef947d79014c026c046a5",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1629638,
+          "sha256": "db550887a12be177cdb6d3d29841a4bcaf7a2a76361ef947d79014c026c046a5",
+          "pass": true,
+          "elapsedMs": 4732
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-tea-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-tea-day.webp",
+      "expectedBytes": 1711962,
+      "expectedSha256": "77cc794b731d4141d11004095b19c1ba3682aafa803fc162dfaba850d9dd9748",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1711962,
+          "sha256": "77cc794b731d4141d11004095b19c1ba3682aafa803fc162dfaba850d9dd9748",
+          "pass": true,
+          "elapsedMs": 2655
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-used-books-closed-dusk.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-used-books-closed-dusk.webp",
+      "expectedBytes": 2174434,
+      "expectedSha256": "b0d0d6cd4dc0cd5dff47b2b6733486ed17e24fefa30cebd8f4477e3bd943b1f8",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2174434,
+          "sha256": "b0d0d6cd4dc0cd5dff47b2b6733486ed17e24fefa30cebd8f4477e3bd943b1f8",
+          "pass": true,
+          "elapsedMs": 2465
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-used-books-day.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-used-books-day.webp",
+      "expectedBytes": 2328050,
+      "expectedSha256": "7085d1455496f53933fe0fcdb7953118690376921e7d1a5e2d0d0cd1b2241c57",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2328050,
+          "sha256": "7085d1455496f53933fe0fcdb7953118690376921e7d1a5e2d0d0cd1b2241c57",
+          "pass": true,
+          "elapsedMs": 4107
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-xiaoman-home-day-v2.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/backgrounds/bg-xiaoman-home-day-v2.webp",
+      "expectedBytes": 1610250,
+      "expectedSha256": "112d225515fdeb4bd74a372a42474e8d5322059cfe98904be46a3f0c04c15094",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1610250,
+          "sha256": "112d225515fdeb4bd74a372a42474e8d5322059cfe98904be46a3f0c04c15094",
+          "pass": true,
+          "elapsedMs": 2394
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/cg/cg-last-echo-dinner.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/cg/cg-last-echo-dinner.webp",
+      "expectedBytes": 1682214,
+      "expectedSha256": "33d8c4d7905776bc0146f3c84c4bda953027b34e7ab0d8446ef56fc810079840",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1682214,
+          "sha256": "33d8c4d7905776bc0146f3c84c4bda953027b34e7ab0d8446ef56fc810079840",
+          "pass": true,
+          "elapsedMs": 2377
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/cg/cg-piao-choice.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/cg/cg-piao-choice.webp",
+      "expectedBytes": 2040426,
+      "expectedSha256": "8fb73d0507f30d661f291cd500ffa12839f4c54d493c7b4ead4e4d12448cc6d5",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 2040426,
+          "sha256": "8fb73d0507f30d661f291cd500ffa12839f4c54d493c7b4ead4e4d12448cc6d5",
+          "pass": true,
+          "elapsedMs": 6117
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/cg/cg-piao-wedding.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/cg/cg-piao-wedding.webp",
+      "expectedBytes": 1761642,
+      "expectedSha256": "d0f9cf5f68c62ee9e217cfc56937bc874af4217bfa3fe4d048271b70bf7840bc",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1761642,
+          "sha256": "d0f9cf5f68c62ee9e217cfc56937bc874af4217bfa3fe4d048271b70bf7840bc",
+          "pass": true,
+          "elapsedMs": 2432
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/cg/cg-qiuqiu-transform.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/cg/cg-qiuqiu-transform.webp",
+      "expectedBytes": 1657930,
+      "expectedSha256": "43fd7979c5f9bcd29f639d5525430310f63f9ae07fe87c09767a11f80dd63598",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1657930,
+          "sha256": "43fd7979c5f9bcd29f639d5525430310f63f9ae07fe87c09767a11f80dd63598",
+          "pass": true,
+          "elapsedMs": 2694
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/maolang/char-maolang-wedding-base.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/maolang/char-maolang-wedding-base.webp",
+      "expectedBytes": 737494,
+      "expectedSha256": "ce6c4c4ea25e7e9ed48a6b4c5355d6de452a8cf7292d2823e46ed7cd5c1fc93b",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 737494,
+          "sha256": "ce6c4c4ea25e7e9ed48a6b4c5355d6de452a8cf7292d2823e46ed7cd5c1fc93b",
+          "pass": true,
+          "elapsedMs": 1570
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-casual-jacket-base.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/mengyao/char-mengyao-casual-jacket-base.webp",
+      "expectedBytes": 1039224,
+      "expectedSha256": "e6383d2bf8bfde9c55365639be412935651ad724a5a40e11fe8d75b93e7844c1",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1039224,
+          "sha256": "e6383d2bf8bfde9c55365639be412935651ad724a5a40e11fe8d75b93e7844c1",
+          "pass": true,
+          "elapsedMs": 1743
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-base.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/mengyao/char-mengyao-human-base.webp",
+      "expectedBytes": 942716,
+      "expectedSha256": "76ba11802c19739383fbd116aa82fa15856990ddd3ce9e83365ae8ec45c1b095",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 942716,
+          "sha256": "76ba11802c19739383fbd116aa82fa15856990ddd3ce9e83365ae8ec45c1b095",
+          "pass": true,
+          "elapsedMs": 2163
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-downcast.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-downcast.webp",
+      "expectedBytes": 942286,
+      "expectedSha256": "f90724da92be0e9f462f57d380aa43b89fbd3e84a3315bbb2dc10af7559f9ab3",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 942286,
+          "sha256": "f90724da92be0e9f462f57d380aa43b89fbd3e84a3315bbb2dc10af7559f9ab3",
+          "pass": true,
+          "elapsedMs": 1617
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-hesitant.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-hesitant.webp",
+      "expectedBytes": 928786,
+      "expectedSha256": "042b7dcb5345be5bd3b572eac062df4af9646d269aabb6bb2b44408bb4731cde",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 928786,
+          "sha256": "042b7dcb5345be5bd3b572eac062df4af9646d269aabb6bb2b44408bb4731cde",
+          "pass": true,
+          "elapsedMs": 1837
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-serious.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-serious.webp",
+      "expectedBytes": 940614,
+      "expectedSha256": "a66dac9b95d95684eb313bb74ca754614915374e43d7bf542c30e8608f949831",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 940614,
+          "sha256": "a66dac9b95d95684eb313bb74ca754614915374e43d7bf542c30e8608f949831",
+          "pass": true,
+          "elapsedMs": 3264
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-smile.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-smile.webp",
+      "expectedBytes": 947536,
+      "expectedSha256": "35d98d99559cf3d30af1bd6934dec43f13585ec7d0de8ee271543a25f0a33bea",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 947536,
+          "sha256": "35d98d99559cf3d30af1bd6934dec43f13585ec7d0de8ee271543a25f0a33bea",
+          "pass": true,
+          "elapsedMs": 2438
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-tired.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-tired.webp",
+      "expectedBytes": 939628,
+      "expectedSha256": "6dd6f02794767807804dc5d93894bf9176aa0a1aedc3afae86a70d51494bf137",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 939628,
+          "sha256": "6dd6f02794767807804dc5d93894bf9176aa0a1aedc3afae86a70d51494bf137",
+          "pass": true,
+          "elapsedMs": 2365
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-teacher-bag-base.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/mengyao/char-mengyao-teacher-bag-base.webp",
+      "expectedBytes": 1005040,
+      "expectedSha256": "d59a9b2f7cdc6b2e621640c696c37e921eb9f1476ddc6bce5de81852641d9b52",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1005040,
+          "sha256": "d59a9b2f7cdc6b2e621640c696c37e921eb9f1476ddc6bce5de81852641d9b52",
+          "pass": true,
+          "elapsedMs": 2204
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/piao/char-piao-wedding-base.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/piao/char-piao-wedding-base.webp",
+      "expectedBytes": 733474,
+      "expectedSha256": "49aaecd963e03ccf94ad9bfe0c03c2c1f2435acde305f1bbe8c0fd9c7afb6ad3",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 733474,
+          "sha256": "49aaecd963e03ccf94ad9bfe0c03c2c1f2435acde305f1bbe8c0fd9c7afb6ad3",
+          "pass": true,
+          "elapsedMs": 2530
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+      "expectedBytes": 1027910,
+      "expectedSha256": "94e76a03d5b7437cf986b459c1e02df56f3912259a2f32ad4a99d573673fbbb7",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1027910,
+          "sha256": "94e76a03d5b7437cf986b459c1e02df56f3912259a2f32ad4a99d573673fbbb7",
+          "pass": true,
+          "elapsedMs": 3609
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-downcast.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-downcast.webp",
+      "expectedBytes": 961124,
+      "expectedSha256": "d84ce73e2324721e0fe5905767a4afc6095d03365a7fe1aa01bb224ff7bd6e99",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 961124,
+          "sha256": "d84ce73e2324721e0fe5905767a4afc6095d03365a7fe1aa01bb224ff7bd6e99",
+          "pass": true,
+          "elapsedMs": 1918
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-hesitant.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-hesitant.webp",
+      "expectedBytes": 985144,
+      "expectedSha256": "69999fd5cbde8ae0a96652a5ed99f935755a610c25b6401f25f1c4807913d131",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 985144,
+          "sha256": "69999fd5cbde8ae0a96652a5ed99f935755a610c25b6401f25f1c4807913d131",
+          "pass": true,
+          "elapsedMs": 1596
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-serious.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-serious.webp",
+      "expectedBytes": 984766,
+      "expectedSha256": "113469964e1834afc282da344de0c84530238670c6765e22ceddd583462c9862",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 984766,
+          "sha256": "113469964e1834afc282da344de0c84530238670c6765e22ceddd583462c9862",
+          "pass": true,
+          "elapsedMs": 2517
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-smile.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-smile.webp",
+      "expectedBytes": 1004290,
+      "expectedSha256": "d9273a8309bba3e8bd8d4a63d649625af3dd8a952ba8b0024430b433a3fa8e82",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1004290,
+          "sha256": "d9273a8309bba3e8bd8d4a63d649625af3dd8a952ba8b0024430b433a3fa8e82",
+          "pass": true,
+          "elapsedMs": 2033
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-surprised.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-surprised.webp",
+      "expectedBytes": 977738,
+      "expectedSha256": "b066f633e51a7a52f292901d147b81cc6120a3135a62396c149c88fe93bf8aa3",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 977738,
+          "sha256": "b066f633e51a7a52f292901d147b81cc6120a3135a62396c149c88fe93bf8aa3",
+          "pass": true,
+          "elapsedMs": 2304
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-tired.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-tired.webp",
+      "expectedBytes": 964224,
+      "expectedSha256": "d598410f758d93a0af059cc90acf4fb61ea932aaa077722356d0d2c6ea64f919",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 964224,
+          "sha256": "d598410f758d93a0af059cc90acf4fb61ea932aaa077722356d0d2c6ea64f919",
+          "pass": true,
+          "elapsedMs": 3430
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/char-xiaoman-human-expression-tired.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/xiaoman/char-xiaoman-human-expression-tired.webp",
+      "expectedBytes": 1129696,
+      "expectedSha256": "29a50ca754c518c047c5c73cd9e373d80a49afa27a385b604b189baf20b7217c",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1129696,
+          "sha256": "29a50ca754c518c047c5c73cd9e373d80a49afa27a385b604b189baf20b7217c",
+          "pass": true,
+          "elapsedMs": 2651
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/char-xiaoman-new-coat-base-v2.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/xiaoman/char-xiaoman-new-coat-base-v2.webp",
+      "expectedBytes": 1020276,
+      "expectedSha256": "d334b8d736328d91ab4e3aeb3c78248c797487849287bc89239273f15f809b1b",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1020276,
+          "sha256": "d334b8d736328d91ab4e3aeb3c78248c797487849287bc89239273f15f809b1b",
+          "pass": true,
+          "elapsedMs": 1968
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/char-xiaoman-work-apron-base.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/xiaoman/char-xiaoman-work-apron-base.webp",
+      "expectedBytes": 1049844,
+      "expectedSha256": "ce56195e2dd817d5ada6421ead65b6030d14ca0a1492e70e0d9f551271bb81fd",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1049844,
+          "sha256": "ce56195e2dd817d5ada6421ead65b6030d14ca0a1492e70e0d9f551271bb81fd",
+          "pass": true,
+          "elapsedMs": 1912
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-casual-base.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/yelan/char-yelan-casual-base.webp",
+      "expectedBytes": 829548,
+      "expectedSha256": "2de61b8d8df57375802bd25924a377432b03baf89aa0656f9a77b7f0926399b7",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 829548,
+          "sha256": "2de61b8d8df57375802bd25924a377432b03baf89aa0656f9a77b7f0926399b7",
+          "pass": true,
+          "elapsedMs": 1929
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-base.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/yelan/char-yelan-human-base.webp",
+      "expectedBytes": 795132,
+      "expectedSha256": "802c5fe292b422fba7d4187fd063be9595eb390cded3b34ed69abf6feff8428f",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 795132,
+          "sha256": "802c5fe292b422fba7d4187fd063be9595eb390cded3b34ed69abf6feff8428f",
+          "pass": true,
+          "elapsedMs": 2990
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-downcast.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/yelan/char-yelan-human-expression-downcast.webp",
+      "expectedBytes": 782456,
+      "expectedSha256": "1f67ec4250e4ca753471c5c138f0bbc2ab5e57b1db33a313e3c3050b0a6b81f4",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 782456,
+          "sha256": "1f67ec4250e4ca753471c5c138f0bbc2ab5e57b1db33a313e3c3050b0a6b81f4",
+          "pass": true,
+          "elapsedMs": 2537
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-hesitant.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/yelan/char-yelan-human-expression-hesitant.webp",
+      "expectedBytes": 794426,
+      "expectedSha256": "a606f94cee4f3520c5056bf52370bb04d3d291c0078a129a3205ab97dcfc7c33",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 794426,
+          "sha256": "a606f94cee4f3520c5056bf52370bb04d3d291c0078a129a3205ab97dcfc7c33",
+          "pass": true,
+          "elapsedMs": 1494
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-serious.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/yelan/char-yelan-human-expression-serious.webp",
+      "expectedBytes": 773818,
+      "expectedSha256": "df8c9e4af8ff0655c7787f4b84bfda83ac79fac793860e6fab8a35eccc63f038",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 773818,
+          "sha256": "df8c9e4af8ff0655c7787f4b84bfda83ac79fac793860e6fab8a35eccc63f038",
+          "pass": true,
+          "elapsedMs": 1954
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-smile.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/yelan/char-yelan-human-expression-smile.webp",
+      "expectedBytes": 801394,
+      "expectedSha256": "ad24c46a6da89de7450d382a70ca7081d361d22f4fd1c527fab70c8287d8e332",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 801394,
+          "sha256": "ad24c46a6da89de7450d382a70ca7081d361d22f4fd1c527fab70c8287d8e332",
+          "pass": true,
+          "elapsedMs": 2182
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-tired.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/yelan/char-yelan-human-expression-tired.webp",
+      "expectedBytes": 773370,
+      "expectedSha256": "2a8eb5b2feacc530733cf2e3e894b537256a78fe8ab2338e1f133d432835804b",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 773370,
+          "sha256": "2a8eb5b2feacc530733cf2e3e894b537256a78fe8ab2338e1f133d432835804b",
+          "pass": true,
+          "elapsedMs": 2166
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/char-zhouzhi-human-expression-tired.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/zhouzhi/char-zhouzhi-human-expression-tired.webp",
+      "expectedBytes": 809684,
+      "expectedSha256": "061227c7b9526195f47307a3e429090deb2cd8627e665ee197cc659cb6ea5712",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 809684,
+          "sha256": "061227c7b9526195f47307a3e429090deb2cd8627e665ee197cc659cb6ea5712",
+          "pass": true,
+          "elapsedMs": 2770
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/char-zhouzhi-light-blue-shirt-base.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/zhouzhi/char-zhouzhi-light-blue-shirt-base.webp",
+      "expectedBytes": 846344,
+      "expectedSha256": "b77a71b1ec296d6067a150a47bcafe92ba2489e688eed36acdf1aa1c09332ea5",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 846344,
+          "sha256": "b77a71b1ec296d6067a150a47bcafe92ba2489e688eed36acdf1aa1c09332ea5",
+          "pass": true,
+          "elapsedMs": 1952
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/char-zhouzhi-tied-hair-base.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/characters/zhouzhi/char-zhouzhi-tied-hair-base.webp",
+      "expectedBytes": 753766,
+      "expectedSha256": "c8f25f8ff8dd3492d418e6396269661023b9389fa66d463b48e38bb507bb6630",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 753766,
+          "sha256": "c8f25f8ff8dd3492d418e6396269661023b9389fa66d463b48e38bb507bb6630",
+          "pass": true,
+          "elapsedMs": 1950
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-thinking.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-thinking.webp",
+      "expectedBytes": 254246,
+      "expectedSha256": "fe712afe64036b8e75952dca74b1cc2ab8771f66998c6821ba1ff92eaf7a75ee",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 254246,
+          "sha256": "fe712afe64036b8e75952dca74b1cc2ab8771f66998c6821ba1ff92eaf7a75ee",
+          "pass": true,
+          "elapsedMs": 1813
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-wave.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-wave.webp",
+      "expectedBytes": 213288,
+      "expectedSha256": "ea311f9cdc6e91989618f2ee0153bca9f7b663b632d42487e9ef7a720b034a74",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 213288,
+          "sha256": "ea311f9cdc6e91989618f2ee0153bca9f7b663b632d42487e9ef7a720b034a74",
+          "pass": true,
+          "elapsedMs": 1764
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "expectedBytes": 233888,
+      "expectedSha256": "881d3f443f78e18ec595e221312757913b968d5f8e1cb68fb4f2616c8f6f2a1d",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 233888,
+          "sha256": "881d3f443f78e18ec595e221312757913b968d5f8e1cb68fb4f2616c8f6f2a1d",
+          "pass": true,
+          "elapsedMs": 1393
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-downcast.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-downcast.webp",
+      "expectedBytes": 225912,
+      "expectedSha256": "ed7d25534f242db1d288083499ed9e281dc64bdf19ed5a7236c1fc809cd87da3",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 225912,
+          "sha256": "ed7d25534f242db1d288083499ed9e281dc64bdf19ed5a7236c1fc809cd87da3",
+          "pass": true,
+          "elapsedMs": 1346
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-hesitant.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-hesitant.webp",
+      "expectedBytes": 237646,
+      "expectedSha256": "9c9b7701bcbcac5f2be4d7c5452c263f3fb33fa01f7abdd3a4e0a42bafda3328",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 237646,
+          "sha256": "9c9b7701bcbcac5f2be4d7c5452c263f3fb33fa01f7abdd3a4e0a42bafda3328",
+          "pass": true,
+          "elapsedMs": 1150
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-serious.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-serious.webp",
+      "expectedBytes": 243324,
+      "expectedSha256": "92da2ea71812a85e084c6a5b349d13b3ad6fc406c8996237e4c08a3ae0eb2497",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 243324,
+          "sha256": "92da2ea71812a85e084c6a5b349d13b3ad6fc406c8996237e4c08a3ae0eb2497",
+          "pass": true,
+          "elapsedMs": 1541
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-smile.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-smile.webp",
+      "expectedBytes": 233976,
+      "expectedSha256": "d01a049cdf15e39e240d0595e235ae94517b9b8ffaa2c77e1ff1978cbcf3766c",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 233976,
+          "sha256": "d01a049cdf15e39e240d0595e235ae94517b9b8ffaa2c77e1ff1978cbcf3766c",
+          "pass": true,
+          "elapsedMs": 1015
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-action-hand.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-action-hand.webp",
+      "expectedBytes": 132016,
+      "expectedSha256": "4ac7b6f622c51783f05b2c3fd1c83138b1d7f717a420ea2a46e0ed97df236b51",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 132016,
+          "sha256": "4ac7b6f622c51783f05b2c3fd1c83138b1d7f717a420ea2a46e0ed97df236b51",
+          "pass": true,
+          "elapsedMs": 1597
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "expectedBytes": 140258,
+      "expectedSha256": "6d3caefa7fd09ba5ea926a915fc1737689d796d2cad5ad40eef61893e5a39d5a",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 140258,
+          "sha256": "6d3caefa7fd09ba5ea926a915fc1737689d796d2cad5ad40eef61893e5a39d5a",
+          "pass": true,
+          "elapsedMs": 1682
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-hesitant.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-hesitant.webp",
+      "expectedBytes": 147816,
+      "expectedSha256": "9de0ac5f7a79885621986cd89407b9186365953859636d28b652691e86bd9042",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 147816,
+          "sha256": "9de0ac5f7a79885621986cd89407b9186365953859636d28b652691e86bd9042",
+          "pass": true,
+          "elapsedMs": 1118
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-serious.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-serious.webp",
+      "expectedBytes": 137860,
+      "expectedSha256": "5ef42616a862ee3e537936449226d72012e5233897403549dc4b5e187a1eb76e",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 137860,
+          "sha256": "5ef42616a862ee3e537936449226d72012e5233897403549dc4b5e187a1eb76e",
+          "pass": true,
+          "elapsedMs": 1025
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-smile.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-smile.webp",
+      "expectedBytes": 140388,
+      "expectedSha256": "a90b6f459453940ca296af8214bfc29ea7f4447710734435a3d3ba740eeca723",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 140388,
+          "sha256": "a90b6f459453940ca296af8214bfc29ea7f4447710734435a3d3ba740eeca723",
+          "pass": true,
+          "elapsedMs": 1211
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-action-wave.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-action-wave.webp",
+      "expectedBytes": 1001188,
+      "expectedSha256": "27cd16f1233463f800b7651e97ace261416436c5fd020ce5b547694ddc7639da",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1001188,
+          "sha256": "27cd16f1233463f800b7651e97ace261416436c5fd020ce5b547694ddc7639da",
+          "pass": true,
+          "elapsedMs": 3957
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "expectedBytes": 1126134,
+      "expectedSha256": "4e458e5fe38514e3eb4a0ae61fc2023166f078b2370e4836cb1557a6c56cd3d2",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1126134,
+          "sha256": "4e458e5fe38514e3eb4a0ae61fc2023166f078b2370e4836cb1557a6c56cd3d2",
+          "pass": true,
+          "elapsedMs": 2903
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-chin-base.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-chin-base.webp",
+      "expectedBytes": 1123108,
+      "expectedSha256": "68682fd771ad2cea823f7beb5e0a57ceec64678a9686d24a316817c16b45e466",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1123108,
+          "sha256": "68682fd771ad2cea823f7beb5e0a57ceec64678a9686d24a316817c16b45e466",
+          "pass": true,
+          "elapsedMs": 2780
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-downcast.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-downcast.webp",
+      "expectedBytes": 1066248,
+      "expectedSha256": "546a9b5c83ab694633cb7e323a3367136c04ed54bba8ae2351fd3866bdc73595",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1066248,
+          "sha256": "546a9b5c83ab694633cb7e323a3367136c04ed54bba8ae2351fd3866bdc73595",
+          "pass": true,
+          "elapsedMs": 3726
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-hesitant.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-hesitant.webp",
+      "expectedBytes": 1089200,
+      "expectedSha256": "0cfd679043a6ab6701aa32770a0ee87bbce4325b9df6fa17d93b44cd837a04ba",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1089200,
+          "sha256": "0cfd679043a6ab6701aa32770a0ee87bbce4325b9df6fa17d93b44cd837a04ba",
+          "pass": true,
+          "elapsedMs": 3665
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-serious.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-serious.webp",
+      "expectedBytes": 1148984,
+      "expectedSha256": "19ef244a325bfb04b03133d5bf0bf194cd9d70417dcc97ebc8e757c8058d071e",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1148984,
+          "sha256": "19ef244a325bfb04b03133d5bf0bf194cd9d70417dcc97ebc8e757c8058d071e",
+          "pass": true,
+          "elapsedMs": 2783
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-smile.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-smile.webp",
+      "expectedBytes": 1023166,
+      "expectedSha256": "bebfac9007c567c546a01c0d4739591866b8faeb5f02b67ef2755281780230cb",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1023166,
+          "sha256": "bebfac9007c567c546a01c0d4739591866b8faeb5f02b67ef2755281780230cb",
+          "pass": true,
+          "elapsedMs": 4692
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+      "expectedBytes": 739174,
+      "expectedSha256": "1a5e3269fd31f9e869edd6a4c14e72bd91fe0e1e7e85fa2d8bbd36244198a24c",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 739174,
+          "sha256": "1a5e3269fd31f9e869edd6a4c14e72bd91fe0e1e7e85fa2d8bbd36244198a24c",
+          "pass": true,
+          "elapsedMs": 2285
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/ui/cover-desktop.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/ui/cover-desktop.webp",
+      "expectedBytes": 1874752,
+      "expectedSha256": "a2754760ac8863b57fb1820f2d7769332effd1c06eb9a224d13da06ad5ffd665",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1874752,
+          "sha256": "a2754760ac8863b57fb1820f2d7769332effd1c06eb9a224d13da06ad5ffd665",
+          "pass": true,
+          "elapsedMs": 5518
+        }
+      ]
+    },
+    {
+      "path": "assets/ten-chapter/ui/cover-mobile.webp",
+      "url": "https://galagame.ambd.site/assets/ten-chapter/ui/cover-mobile.webp",
+      "expectedBytes": 1943458,
+      "expectedSha256": "66f3af124050fa455001108bf2369a9db22b028c96f1774858402d1fafebfe40",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1943458,
+          "sha256": "66f3af124050fa455001108bf2369a9db22b028c96f1774858402d1fafebfe40",
+          "pass": true,
+          "elapsedMs": 4528
+        }
+      ]
+    },
+    {
+      "path": "engine.js",
+      "url": "https://galagame.ambd.site/engine.js",
+      "expectedBytes": 15662,
+      "expectedSha256": "363e4a9b1ddd9d6e012b6623af04c54f9fc077a065e9d1ee3b61981e9be5e39a",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 15662,
+          "sha256": "363e4a9b1ddd9d6e012b6623af04c54f9fc077a065e9d1ee3b61981e9be5e39a",
+          "pass": true,
+          "elapsedMs": 302
+        }
+      ]
+    },
+    {
+      "path": "game.js",
+      "url": "https://galagame.ambd.site/game.js",
+      "expectedBytes": 61683,
+      "expectedSha256": "7021053d5491f6140ce28b9d3bc921e8d65a62921de3f16886fceac0b42848ff",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 61683,
+          "sha256": "7021053d5491f6140ce28b9d3bc921e8d65a62921de3f16886fceac0b42848ff",
+          "pass": true,
+          "elapsedMs": 1792
+        }
+      ]
+    },
+    {
+      "path": "index.html",
+      "url": "https://galagame.ambd.site/",
+      "expectedBytes": 7700,
+      "expectedSha256": "0266a5c542894ef8eaa42f36acdbdb1079a6c1ca94236cfe0a4645813ea09191",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 7700,
+          "sha256": "0266a5c542894ef8eaa42f36acdbdb1079a6c1ca94236cfe0a4645813ea09191",
+          "pass": true,
+          "elapsedMs": 1675
+        }
+      ]
+    },
+    {
+      "path": "player-runtime.js",
+      "url": "https://galagame.ambd.site/player-runtime.js",
+      "expectedBytes": 4046,
+      "expectedSha256": "f0c36ff43ac205be2878d84a057b2760d37f755de9a218b916a7e57c620affd0",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 4046,
+          "sha256": "f0c36ff43ac205be2878d84a057b2760d37f755de9a218b916a7e57c620affd0",
+          "pass": true,
+          "elapsedMs": 563
+        }
+      ]
+    },
+    {
+      "path": "save-compat.js",
+      "url": "https://galagame.ambd.site/save-compat.js",
+      "expectedBytes": 5586,
+      "expectedSha256": "11cc52079a67a2ee32244206b79bb11e1cfe71874227aefdd1e768594a0e816f",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 5586,
+          "sha256": "11cc52079a67a2ee32244206b79bb11e1cfe71874227aefdd1e768594a0e816f",
+          "pass": true,
+          "elapsedMs": 258
+        }
+      ]
+    },
+    {
+      "path": "story.js",
+      "url": "https://galagame.ambd.site/story.js",
+      "expectedBytes": 1178698,
+      "expectedSha256": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 1178698,
+          "sha256": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60",
+          "pass": true,
+          "elapsedMs": 3023
+        }
+      ]
+    },
+    {
+      "path": "styles.css",
+      "url": "https://galagame.ambd.site/styles.css",
+      "expectedBytes": 46395,
+      "expectedSha256": "8b7d93a3763959fe0a50188f1c0b6682354c2cde7c6bee439bd03851c4da870b",
+      "pass": true,
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": 200,
+          "bytes": 46395,
+          "sha256": "8b7d93a3763959fe0a50188f1c0b6682354c2cde7c6bee439bd03851c4da870b",
+          "pass": true,
+          "elapsedMs": 980
+        }
+      ]
+    }
+  ]
+}

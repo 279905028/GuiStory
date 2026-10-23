@@ -1,0 +1,2723 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "common/ch02",
+  "owner": "E03",
+  "scenes": {
+    "ts_c02_common_charger": {
+      "chapter": 2,
+      "title": "第8天·19:40｜还记得的三拍",
+      "bg": "tc-bg-netcafe-counter-night",
+      "time": "19:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "19:40",
+        "day": 8
+      },
+      "location": "网吧柜台",
+      "day": 8,
+      "dayLabel": "第8天"
+    },
+    "ts_c02_common_reply_at_door": {
+      "chapter": 2,
+      "title": "还记得的三拍",
+      "bg": "tc-bg-backdoor-night",
+      "time": "19:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "19:40",
+        "day": 8
+      },
+      "location": "网吧后院侧门外",
+      "day": 8,
+      "dayLabel": "第8天"
+    },
+    "ts_c02_common_same_sign": {
+      "chapter": 2,
+      "title": "同一块招牌",
+      "bg": "tc-bg-food-front-dusk",
+      "time": "19:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "19:40",
+        "day": 8
+      },
+      "location": "坡口面馆外街道",
+      "day": 8,
+      "dayLabel": "第8天"
+    },
+    "ts_c02_common_missed_game": {
+      "chapter": 2,
+      "title": "第10天·20:50｜没赶上开局",
+      "bg": "tc-bg-rental-night",
+      "time": "20:50",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "20:50",
+        "day": 10
+      },
+      "location": "文文出租屋",
+      "day": 10,
+      "dayLabel": "第10天"
+    },
+    "ts_c02_common_next_meeting": {
+      "chapter": 2,
+      "title": "下次见面的时间",
+      "bg": "tc-bg-rental-night",
+      "time": "21:00后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "21:00后",
+        "day": 10
+      },
+      "location": "文文出租屋",
+      "day": 10,
+      "dayLabel": "第10天"
+    },
+    "ts_c02_common_yelan_first": {
+      "chapter": 2,
+      "title": "第12天·16:30｜你在语音里不是这样",
+      "bg": "tc-bg-food-day",
+      "time": "16:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "16:30",
+        "day": 12
+      },
+      "location": "坡口面馆",
+      "day": 12,
+      "dayLabel": "第12天"
+    },
+    "ts_c02_common_yelan_walk": {
+      "chapter": 2,
+      "title": "下回不用等毛狼",
+      "bg": "tc-bg-food-day",
+      "time": "饭后",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "饭后",
+        "day": 12
+      },
+      "location": "面馆外沿街和岔路口",
+      "day": 12,
+      "dayLabel": "第12天"
+    },
+    "ts_c02_common_friends_meal": {
+      "chapter": 2,
+      "title": "第14天·18:00｜来的人就先吃",
+      "bg": "tc-bg-food-dusk",
+      "time": "18:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "18:00",
+        "day": 14
+      },
+      "location": "朋友约饭小店",
+      "day": 14,
+      "dayLabel": "第14天"
+    },
+    "ts_c02_common_qiu_arrival": {
+      "chapter": 2,
+      "title": "门后有人回答",
+      "bg": "tc-bg-netcafe-counter-night",
+      "time": "20:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "20:30",
+        "day": 14
+      },
+      "location": "网吧柜台过道",
+      "day": 14,
+      "dayLabel": "第14天"
+    },
+    "ts_c02_common_qiu_door": {
+      "chapter": 2,
+      "title": "门后有人回答",
+      "bg": "tc-bg-backdoor-night",
+      "time": "20:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "20:30",
+        "day": 14
+      },
+      "location": "网吧后院侧门外",
+      "day": 14,
+      "dayLabel": "第14天"
+    },
+    "ts_c02_common_qiu_meeting": {
+      "chapter": 2,
+      "title": "门后有人回答",
+      "bg": "tc-bg-courtyard-night",
+      "time": "20:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "20:30",
+        "day": 14
+      },
+      "location": "网吧后院",
+      "day": 14,
+      "dayLabel": "第14天"
+    },
+    "ts_c02_common_qiu_name_note": {
+      "chapter": 2,
+      "title": "备忘录上的名字",
+      "bg": "tc-bg-rental-night",
+      "time": "20:30",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "20:30",
+        "day": 14
+      },
+      "location": "文文出租屋",
+      "day": 14,
+      "dayLabel": "第14天"
+    },
+    "ts_c02_common_chapter_end": {
+      "chapter": 2,
+      "title": "第二章 · 语音里的那个人",
+      "bg": "tc-bg-chapter-end",
+      "time": "章末",
+      "chronology": {
+        "domain": "chapter-range",
+        "mode": "present",
+        "label": "第8—14天"
+      },
+      "location": "",
+      "day": null,
+      "dayLabel": "第8—14天"
+    }
+  },
+  "nodes": {
+    "tc_c02_common_entry": {
+      "id": "tc_c02_common_entry",
+      "type": "line",
+      "scene": "ts_c02_common_charger",
+      "speaker": "narrator",
+      "text": "休班日，我睡醒去网吧拿落下的充电线。师匠在柜台和客人说话，我取完东西，从侧门出去。",
+      "character": null,
+      "next": "tc_c02_common_rhythm_heard_01"
+    },
+    "tc_c02_common_rhythm_heard_01": {
+      "id": "tc_c02_common_rhythm_heard_01",
+      "type": "line",
+      "scene": "ts_c02_common_reply_at_door",
+      "speaker": "narrator",
+      "text": "后院里又响了三下。",
+      "character": null,
+      "next": "tc_c02_common_rhythm_heard_02"
+    },
+    "tc_c02_common_rhythm_heard_02": {
+      "id": "tc_c02_common_rhythm_heard_02",
+      "type": "line",
+      "scene": "ts_c02_common_reply_at_door",
+      "speaker": "narrator",
+      "text": "轻、轻，停一停，重。",
+      "character": null,
+      "next": "tc_c02_common_rhythm_reply_choice"
+    },
+    "tc_c02_common_rhythm_remembered_01": {
+      "id": "tc_c02_common_rhythm_remembered_01",
+      "type": "line",
+      "scene": "ts_c02_common_reply_at_door",
+      "speaker": "narrator",
+      "text": "我先翻出那一行点，再在木门上照着敲了一遍。里面安静片刻，传来一句：“记得还挺清楚。”",
+      "character": null,
+      "next": "tc_c02_common_rhythm_remembered_02"
+    },
+    "tc_c02_common_rhythm_remembered_02": {
+      "id": "tc_c02_common_rhythm_remembered_02",
+      "type": "line",
+      "scene": "ts_c02_common_reply_at_door",
+      "speaker": "narrator",
+      "text": "我伸手要开门，她却说：“今天先这样。”",
+      "character": null,
+      "next": "tc_c02_common_rhythm_remembered_03"
+    },
+    "tc_c02_common_rhythm_remembered_03": {
+      "id": "tc_c02_common_rhythm_remembered_03",
+      "type": "line",
+      "scene": "ts_c02_common_reply_at_door",
+      "speaker": "wenwen",
+      "text": "“那我什么时候再来？”",
+      "character": null,
+      "next": "tc_c02_common_rhythm_remembered_04"
+    },
+    "tc_c02_common_rhythm_remembered_04": {
+      "id": "tc_c02_common_rhythm_remembered_04",
+      "type": "line",
+      "scene": "ts_c02_common_reply_at_door",
+      "speaker": "narrator",
+      "text": "“你有空的时候。别在有人叫你的时候。”",
+      "character": null,
+      "next": "tc_c02_common_rhythm_remembered_05"
+    },
+    "tc_c02_common_rhythm_remembered_05": {
+      "id": "tc_c02_common_rhythm_remembered_05",
+      "type": "line",
+      "scene": "ts_c02_common_reply_at_door",
+      "speaker": "narrator",
+      "text": "我说第十四天晚上休息，可以过来。门后传来轻轻一下，像是答应。",
+      "character": null,
+      "next": "tc_c02_common_same_sign_01"
+    },
+    "tc_c02_common_rhythm_unremembered_01": {
+      "id": "tc_c02_common_rhythm_unremembered_01",
+      "type": "line",
+      "scene": "ts_c02_common_reply_at_door",
+      "speaker": "narrator",
+      "text": "我按刚才的印象敲了两下，又停住，不确定中间该隔多久。门里没有回应。我没有擅自推门，只在外面站了一会儿，便回到街上。",
+      "character": null,
+      "next": "tc_c02_common_same_sign_01"
+    },
+    "tc_c02_common_rhythm_leave_01": {
+      "id": "tc_c02_common_rhythm_leave_01",
+      "type": "line",
+      "scene": "ts_c02_common_reply_at_door",
+      "speaker": "narrator",
+      "text": "我把充电线收进袋里，朝门内说了句借过，没有再追问。街上有人搬货，手推车的声音经过，院里又安静下来。",
+      "character": null,
+      "next": "tc_c02_common_same_sign_01"
+    },
+    "tc_c02_common_rhythm_reply_gate": {
+      "id": "tc_c02_common_rhythm_reply_gate",
+      "type": "gate",
+      "scene": "ts_c02_common_reply_at_door",
+      "cases": [
+        {
+          "flag": "qiuSignal",
+          "value": "record",
+          "next": "tc_c02_common_rhythm_remembered_01"
+        },
+        {
+          "flag": "qiuSignal",
+          "value": "ignore",
+          "next": "tc_c02_common_rhythm_unremembered_01"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    },
+    "tc_c02_common_rhythm_reply_choice": {
+      "id": "tc_c02_common_rhythm_reply_choice",
+      "type": "choice",
+      "scene": "ts_c02_common_reply_at_door",
+      "flag": "qiuReply",
+      "text": "我是否回应？",
+      "choices": [
+        {
+          "label": "敲回刚才的节奏",
+          "value": "reply",
+          "next": "tc_c02_common_rhythm_reply_gate"
+        },
+        {
+          "label": "不敲门，先离开",
+          "value": "leave",
+          "next": "tc_c02_common_rhythm_leave_01"
+        }
+      ],
+      "character": null
+    },
+    "tc_c02_common_same_sign_01": {
+      "id": "tc_c02_common_same_sign_01",
+      "type": "line",
+      "scene": "ts_c02_common_same_sign",
+      "speaker": "narrator",
+      "text": "毛狼在群里发来一张拍糊的晚饭照，叶岚问他是不是在拍案发现场。他说因为太饿，手抖。",
+      "character": null,
+      "next": "tc_c02_common_same_sign_02"
+    },
+    "tc_c02_common_same_sign_02": {
+      "id": "tc_c02_common_same_sign_02",
+      "type": "line",
+      "scene": "ts_c02_common_same_sign",
+      "speaker": "narrator",
+      "text": "我发了路边刚开灯的面馆，说这家还有饭。叶岚停了好一会儿，问是不是坡口那家。",
+      "character": null,
+      "next": "tc_c02_common_same_sign_03"
+    },
+    "tc_c02_common_same_sign_03": {
+      "id": "tc_c02_common_same_sign_03",
+      "type": "line",
+      "scene": "ts_c02_common_same_sign",
+      "speaker": "wenwen",
+      "text": "我回她：“你也来过？”",
+      "character": null,
+      "next": "tc_c02_common_same_sign_04"
+    },
+    "tc_c02_common_same_sign_04": {
+      "id": "tc_c02_common_same_sign_04",
+      "type": "line",
+      "scene": "ts_c02_common_same_sign",
+      "speaker": "yelan",
+      "text": "“我午饭有时就在那边吃。你人到底在哪儿？”",
+      "character": null,
+      "next": "tc_c02_common_same_sign_05"
+    },
+    "tc_c02_common_same_sign_05": {
+      "id": "tc_c02_common_same_sign_05",
+      "type": "line",
+      "scene": "ts_c02_common_same_sign",
+      "speaker": "wenwen",
+      "text": "“毕节。”",
+      "character": null,
+      "next": "tc_c02_common_same_sign_06"
+    },
+    "tc_c02_common_same_sign_06": {
+      "id": "tc_c02_common_same_sign_06",
+      "type": "line",
+      "scene": "ts_c02_common_same_sign",
+      "speaker": "narrator",
+      "text": "她发来一个句号，然后说：“毛狼，这么重要的信息，你讲了没有？”",
+      "character": null,
+      "next": "tc_c02_common_same_sign_07"
+    },
+    "tc_c02_common_same_sign_07": {
+      "id": "tc_c02_common_same_sign_07",
+      "type": "line",
+      "scene": "ts_c02_common_same_sign",
+      "speaker": "narrator",
+      "text": "毛狼回复：“我以为你俩知道。”",
+      "character": null,
+      "next": "tc_c02_common_same_sign_08"
+    },
+    "tc_c02_common_same_sign_08": {
+      "id": "tc_c02_common_same_sign_08",
+      "type": "line",
+      "scene": "ts_c02_common_same_sign",
+      "speaker": "yelan",
+      "text": "“你以为的事情，可以单独建一个群。”",
+      "character": null,
+      "next": "tc_c02_common_same_sign_09"
+    },
+    "tc_c02_common_same_sign_09": {
+      "id": "tc_c02_common_same_sign_09",
+      "type": "line",
+      "scene": "ts_c02_common_same_sign",
+      "speaker": "narrator",
+      "text": "我走到面馆门口，拍了一张招牌。叶岚回的也是同一块招牌，只不过她那张是白天，旁边还摆着摊。",
+      "character": null,
+      "next": "tc_c02_common_same_sign_10"
+    },
+    "tc_c02_common_same_sign_10": {
+      "id": "tc_c02_common_same_sign_10",
+      "type": "line",
+      "scene": "ts_c02_common_same_sign",
+      "speaker": "narrator",
+      "text": "隔着耳机认识的人，忽然在一条我走得过去的路上。",
+      "character": null,
+      "next": "tc_c02_common_missed_game_01"
+    },
+    "tc_c02_common_missed_game_01": {
+      "id": "tc_c02_common_missed_game_01",
+      "type": "line",
+      "scene": "ts_c02_common_missed_game",
+      "speaker": "narrator",
+      "text": "我把今天排得过于漂亮。",
+      "character": null,
+      "next": "tc_c02_common_missed_game_02"
+    },
+    "tc_c02_common_missed_game_02": {
+      "id": "tc_c02_common_missed_game_02",
+      "type": "line",
+      "scene": "ts_c02_common_missed_game",
+      "speaker": "narrator",
+      "text": "早上六点下班，回去睡到下午；下午答应毛狼出去坐一会儿，傍晚回屋吃饭，晚上八点休班组队。纸上每段都刚刚好，没算入买饭、洗衣服，也没算我上一班其实睡得不够。",
+      "character": null,
+      "next": "tc_c02_common_missed_game_03"
+    },
+    "tc_c02_common_missed_game_03": {
+      "id": "tc_c02_common_missed_game_03",
+      "type": "line",
+      "scene": "ts_c02_common_missed_game",
+      "speaker": "narrator",
+      "text": "我下午醒得晚，还想把原来那段聚会塞进去。毛狼说不急，下次也行，我偏说都出门了。我们坐着说话时，我以为自己很清醒。",
+      "character": null,
+      "next": "tc_c02_common_missed_game_04"
+    },
+    "tc_c02_common_missed_game_04": {
+      "id": "tc_c02_common_missed_game_04",
+      "type": "line",
+      "scene": "ts_c02_common_missed_game",
+      "speaker": "narrator",
+      "text": "回来把衣服扔进洗衣机，我只打算在床沿坐五分钟。",
+      "character": null,
+      "next": "tc_c02_common_missed_game_05"
+    },
+    "tc_c02_common_missed_game_05": {
+      "id": "tc_c02_common_missed_game_05",
+      "type": "line",
+      "scene": "ts_c02_common_missed_game",
+      "speaker": "narrator",
+      "text": "再醒来，手机显示八点五十。",
+      "character": null,
+      "next": "tc_c02_common_missed_game_06"
+    },
+    "tc_c02_common_missed_game_06": {
+      "id": "tc_c02_common_missed_game_06",
+      "type": "line",
+      "scene": "ts_c02_common_missed_game",
+      "speaker": "narrator",
+      "text": "群里前面有人问我到了没有，后来变成“先开”，最后是一张结算画面。没有人骂我，反倒让我更不知道怎么接。",
+      "character": null,
+      "next": "tc_c02_common_missed_game_07"
+    },
+    "tc_c02_common_missed_game_07": {
+      "id": "tc_c02_common_missed_game_07",
+      "type": "line",
+      "scene": "ts_c02_common_missed_game",
+      "speaker": "narrator",
+      "text": "我打出“有点事”，停住。那四个字好像能遮住任何东西，也恰好什么都没说。",
+      "character": null,
+      "next": "tc_c02_common_missed_game_choice"
+    },
+    "tc_c02_common_missed_voice_01": {
+      "id": "tc_c02_common_missed_voice_01",
+      "type": "line",
+      "scene": "ts_c02_common_missed_game",
+      "speaker": "wenwen",
+      "text": "“我睡过了。白天排太满，明明困还觉得自己能撑住。下次如果来不了，我提前说。今天你们等那一会儿，是我的问题。”",
+      "character": null,
+      "next": "tc_c02_common_missed_voice_02"
+    },
+    "tc_c02_common_missed_voice_02": {
+      "id": "tc_c02_common_missed_voice_02",
+      "type": "line",
+      "scene": "ts_c02_common_missed_game",
+      "speaker": "narrator",
+      "text": "发完以后，我没拿起耳机等人夸坦诚。洗衣机里的衣服还没晾，饭也没吃。",
+      "character": null,
+      "next": "tc_c02_common_missed_voice_03"
+    },
+    "tc_c02_common_missed_voice_03": {
+      "id": "tc_c02_common_missed_voice_03",
+      "type": "line",
+      "scene": "ts_c02_common_missed_game",
+      "speaker": "narrator",
+      "text": "叶岚回：“知道了。我们已经打完，今晚不等你补一场。去吃饭。”",
+      "character": null,
+      "next": "tc_c02_common_laundry_01"
+    },
+    "tc_c02_common_missed_reschedule_01": {
+      "id": "tc_c02_common_missed_reschedule_01",
+      "type": "line",
+      "scene": "ts_c02_common_missed_game",
+      "speaker": "narrator",
+      "text": "我把“有点事”删掉，写清睡过头的经过，另问下一回能不能九点前结束。我需要提前留出吃饭和休息的时间，不能把所有空档都算成能玩。",
+      "character": null,
+      "next": "tc_c02_common_missed_reschedule_02"
+    },
+    "tc_c02_common_missed_reschedule_02": {
+      "id": "tc_c02_common_missed_reschedule_02",
+      "type": "line",
+      "scene": "ts_c02_common_missed_game",
+      "speaker": "narrator",
+      "text": "毛狼说可以约短一点。叶岚回：“我也只空那一段。到时候谁没来，就先开，不互相耗着。”",
+      "character": null,
+      "next": "tc_c02_common_laundry_01"
+    },
+    "tc_c02_common_missed_game_choice": {
+      "id": "tc_c02_common_missed_game_choice",
+      "type": "choice",
+      "scene": "ts_c02_common_missed_game",
+      "flag": "missedGame",
+      "text": "我怎样解释这次没到？",
+      "choices": [
+        {
+          "label": "发一条语音说明",
+          "value": "voice",
+          "next": "tc_c02_common_missed_voice_01"
+        },
+        {
+          "label": "发文字，并把下次时间改具体",
+          "value": "reschedule",
+          "next": "tc_c02_common_missed_reschedule_01"
+        }
+      ],
+      "character": null
+    },
+    "tc_c02_common_laundry_01": {
+      "id": "tc_c02_common_laundry_01",
+      "type": "line",
+      "scene": "ts_c02_common_missed_game",
+      "speaker": "narrator",
+      "text": "我回了“好”，去把衣服晾完。",
+      "character": null,
+      "next": "tc_c02_common_next_meeting_01"
+    },
+    "tc_c02_common_next_meeting_01": {
+      "id": "tc_c02_common_next_meeting_01",
+      "type": "line",
+      "scene": "ts_c02_common_next_meeting",
+      "speaker": "narrator",
+      "text": "九点多，孟遥给我发来她这周可吃饭的时间。我看着那几个空档，没有说哪天都行，只回了一个自己确实能空出来的下午。",
+      "character": null,
+      "next": "tc_c02_common_next_meeting_02"
+    },
+    "tc_c02_common_next_meeting_02": {
+      "id": "tc_c02_common_next_meeting_02",
+      "type": "line",
+      "scene": "ts_c02_common_next_meeting",
+      "speaker": "narrator",
+      "text": "过了一会儿，叶岚私聊问我第十二天下午有没有空。她调好了休息，想去那家面馆，毛狼也说要来。",
+      "character": null,
+      "next": "tc_c02_common_next_meeting_03"
+    },
+    "tc_c02_common_next_meeting_03": {
+      "id": "tc_c02_common_next_meeting_03",
+      "type": "line",
+      "scene": "ts_c02_common_next_meeting",
+      "speaker": "narrator",
+      "text": "我翻出排班，又看一次闹钟。",
+      "character": null,
+      "next": "tc_c02_common_next_meeting_04"
+    },
+    "tc_c02_common_next_meeting_04": {
+      "id": "tc_c02_common_next_meeting_04",
+      "type": "line",
+      "scene": "ts_c02_common_next_meeting",
+      "speaker": "wenwen",
+      "text": "“有。下午四点半。我会先睡够。”",
+      "character": null,
+      "next": "tc_c02_common_next_meeting_05"
+    },
+    "tc_c02_common_next_meeting_05": {
+      "id": "tc_c02_common_next_meeting_05",
+      "type": "line",
+      "scene": "ts_c02_common_next_meeting",
+      "speaker": "yelan",
+      "text": "“最后那句不用当见面口号。”",
+      "character": null,
+      "next": "tc_c02_common_next_meeting_06"
+    },
+    "tc_c02_common_next_meeting_06": {
+      "id": "tc_c02_common_next_meeting_06",
+      "type": "line",
+      "scene": "ts_c02_common_next_meeting",
+      "speaker": "wenwen",
+      "text": "“也是给自己说的。”",
+      "character": null,
+      "next": "tc_c02_common_next_meeting_07"
+    },
+    "tc_c02_common_next_meeting_07": {
+      "id": "tc_c02_common_next_meeting_07",
+      "type": "line",
+      "scene": "ts_c02_common_next_meeting",
+      "speaker": "narrator",
+      "text": "她发了一个笑的表情。那条消息没让我欠下一次证明自己的翻盘，只给了下次见面的时间。",
+      "character": null,
+      "next": "tc_c02_common_yelan_first_01"
+    },
+    "tc_c02_common_yelan_first_01": {
+      "id": "tc_c02_common_yelan_first_01",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "narrator",
+      "text": "面馆比照片里小。四点半还没到饭点，里面只坐了两桌人。",
+      "character": null,
+      "next": "tc_c02_common_yelan_first_02"
+    },
+    "tc_c02_common_yelan_first_02": {
+      "id": "tc_c02_common_yelan_first_02",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "narrator",
+      "text": "我一眼没有认出叶岚。靠窗的女人低着头，深灰外套搭在椅背上，手机放在手边，没有戴耳机。",
+      "character": null,
+      "next": "tc_c02_common_yelan_first_03"
+    },
+    "tc_c02_common_yelan_first_03": {
+      "id": "tc_c02_common_yelan_first_03",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "narrator",
+      "text": "她先抬头：“文文？”",
+      "character": null,
+      "next": "tc_c02_common_yelan_first_04"
+    },
+    "tc_c02_common_yelan_first_04": {
+      "id": "tc_c02_common_yelan_first_04",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "narrator",
+      "text": "声音一出来，我才笑了。",
+      "character": null,
+      "next": "tc_c02_common_yelan_first_05"
+    },
+    "tc_c02_common_yelan_first_05": {
+      "id": "tc_c02_common_yelan_first_05",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "wenwen",
+      "text": "“叶岚。”",
+      "character": null,
+      "next": "tc_c02_common_yelan_first_06"
+    },
+    "tc_c02_common_yelan_first_06": {
+      "id": "tc_c02_common_yelan_first_06",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "narrator",
+      "text": "她点点头。我拉椅子的时候碰到桌腿，水杯晃了一下，我们同时去扶，又同时把手收回去。",
+      "character": null,
+      "next": "tc_c02_common_yelan_first_07"
+    },
+    "tc_c02_common_yelan_first_07": {
+      "id": "tc_c02_common_yelan_first_07",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "narrator",
+      "text": "毛狼发来语音：演出那边临时喊他提前过去，今天到不了。他确实不是故意的，背景里还有人在催搬东西。",
+      "character": null,
+      "next": "tc_c02_common_yelan_first_08"
+    },
+    "tc_c02_common_yelan_first_08": {
+      "id": "tc_c02_common_yelan_first_08",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "narrator",
+      "text": "我问叶岚要不要改天人齐了再吃。她看了一眼桌上的两杯水。",
+      "character": null,
+      "next": "tc_c02_common_yelan_first_09"
+    },
+    "tc_c02_common_yelan_first_09": {
+      "id": "tc_c02_common_yelan_first_09",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "yelan",
+      "text": "“都到了。你不着急的话，可以先吃。”",
+      "character": null,
+      "next": "tc_c02_common_yelan_first_10"
+    },
+    "tc_c02_common_yelan_first_10": {
+      "id": "tc_c02_common_yelan_first_10",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "wenwen",
+      "text": "“我不着急。”",
+      "character": null,
+      "next": "tc_c02_common_yelan_first_11"
+    },
+    "tc_c02_common_yelan_first_11": {
+      "id": "tc_c02_common_yelan_first_11",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "narrator",
+      "text": "接下来安静得能听见厨房切菜。",
+      "character": null,
+      "next": "tc_c02_common_yelan_first_12"
+    },
+    "tc_c02_common_yelan_first_12": {
+      "id": "tc_c02_common_yelan_first_12",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "yelan",
+      "text": "“你在语音里不是挺能讲的吗？”她先笑了。",
+      "character": null,
+      "next": "tc_c02_common_yelan_first_13"
+    },
+    "tc_c02_common_yelan_first_13": {
+      "id": "tc_c02_common_yelan_first_13",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "wenwen",
+      "text": "“你也没有开局就给我报坐标。”",
+      "character": null,
+      "next": "tc_c02_common_yelan_first_14"
+    },
+    "tc_c02_common_yelan_first_14": {
+      "id": "tc_c02_common_yelan_first_14",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "yelan",
+      "text": "“右前方，菜单。”",
+      "character": null,
+      "next": "tc_c02_common_yelan_first_15"
+    },
+    "tc_c02_common_yelan_first_15": {
+      "id": "tc_c02_common_yelan_first_15",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "narrator",
+      "text": "我伸手拿过来，气氛终于松了一点。她也会笑，只是没有耳机里那么快，每次像要先看看这个玩笑落在现实里会不会太重。",
+      "character": null,
+      "next": "tc_c02_common_yelan_first_choice"
+    },
+    "tc_c02_common_yelan_game_01": {
+      "id": "tc_c02_common_yelan_game_01",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "narrator",
+      "text": "我提起毛狼笑完就出局的那次。叶岚立刻补上他后来是怎样假装耳机坏了。",
+      "character": null,
+      "next": "tc_c02_common_yelan_game_02"
+    },
+    "tc_c02_common_yelan_game_02": {
+      "id": "tc_c02_common_yelan_game_02",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "wenwen",
+      "text": "“那天你说了三次‘听不见’，我还真信了。”我说。",
+      "character": null,
+      "next": "tc_c02_common_yelan_game_03"
+    },
+    "tc_c02_common_yelan_game_03": {
+      "id": "tc_c02_common_yelan_game_03",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "yelan",
+      "text": "“我？是他。”",
+      "character": null,
+      "next": "tc_c02_common_yelan_game_04"
+    },
+    "tc_c02_common_yelan_game_04": {
+      "id": "tc_c02_common_yelan_game_04",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "wenwen",
+      "text": "“哦。语音一热闹，我就分不清。”",
+      "character": null,
+      "next": "tc_c02_common_yelan_game_05"
+    },
+    "tc_c02_common_yelan_game_05": {
+      "id": "tc_c02_common_yelan_game_05",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "narrator",
+      "text": "她挑起眉：“看来声音熟悉程度还得打折。”",
+      "character": null,
+      "next": "tc_c02_common_yelan_game_06"
+    },
+    "tc_c02_common_yelan_game_06": {
+      "id": "tc_c02_common_yelan_game_06",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "narrator",
+      "text": "我也笑，说这回可以慢慢认清。",
+      "character": null,
+      "next": "tc_c02_common_yelan_meal_01"
+    },
+    "tc_c02_common_yelan_food_01": {
+      "id": "tc_c02_common_yelan_food_01",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "wenwen",
+      "text": "“你那张照片里是哪一种面？”",
+      "character": null,
+      "next": "tc_c02_common_yelan_food_02"
+    },
+    "tc_c02_common_yelan_food_02": {
+      "id": "tc_c02_common_yelan_food_02",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "yelan",
+      "text": "“牛肉的。那天特别饿，照得像有三碗。”",
+      "character": null,
+      "next": "tc_c02_common_yelan_food_03"
+    },
+    "tc_c02_common_yelan_food_03": {
+      "id": "tc_c02_common_yelan_food_03",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "narrator",
+      "text": "我问辣不辣，她说自己加，又问我吃不吃葱。我们在菜单上找了半天，服务员过来提醒，有一半是晚上才做。",
+      "character": null,
+      "next": "tc_c02_common_yelan_food_04"
+    },
+    "tc_c02_common_yelan_food_04": {
+      "id": "tc_c02_common_yelan_food_04",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "narrator",
+      "text": "两个人对着被浪费的认真，一起笑了。没有精彩话题，也没有谁负责把沉默全部填满。",
+      "character": null,
+      "next": "tc_c02_common_yelan_meal_01"
+    },
+    "tc_c02_common_yelan_first_choice": {
+      "id": "tc_c02_common_yelan_first_choice",
+      "type": "choice",
+      "scene": "ts_c02_common_yelan_first",
+      "flag": "yelanFirst",
+      "text": "我怎样开始这顿饭？",
+      "choices": [
+        {
+          "label": "先聊一局两个人都记得的游戏",
+          "value": "game",
+          "next": "tc_c02_common_yelan_game_01"
+        },
+        {
+          "label": "先问她想吃什么",
+          "value": "food",
+          "next": "tc_c02_common_yelan_food_01"
+        }
+      ],
+      "character": null
+    },
+    "tc_c02_common_yelan_meal_01": {
+      "id": "tc_c02_common_yelan_meal_01",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "narrator",
+      "text": "她讲起工作里把两份名称只差一个字的表放错文件夹，找了很久才发现。我刚要说我也犯过，她已经摆摆手：“不用安慰，后来找到了。就是想说那个名字起得很气人。”",
+      "character": null,
+      "next": "tc_c02_common_yelan_meal_02"
+    },
+    "tc_c02_common_yelan_meal_02": {
+      "id": "tc_c02_common_yelan_meal_02",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "wenwen",
+      "text": "“那你今天骂过它了吗？”",
+      "character": null,
+      "next": "tc_c02_common_yelan_meal_03"
+    },
+    "tc_c02_common_yelan_meal_03": {
+      "id": "tc_c02_common_yelan_meal_03",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "yelan",
+      "text": "“心里骂过。”",
+      "character": null,
+      "next": "tc_c02_common_yelan_meal_04"
+    },
+    "tc_c02_common_yelan_meal_04": {
+      "id": "tc_c02_common_yelan_meal_04",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "wenwen",
+      "text": "“这还挺克制。”",
+      "character": null,
+      "next": "tc_c02_common_yelan_meal_05"
+    },
+    "tc_c02_common_yelan_meal_05": {
+      "id": "tc_c02_common_yelan_meal_05",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "yelan",
+      "text": "“公司电脑没有开语音。”",
+      "character": null,
+      "next": "tc_c02_common_yelan_meal_06"
+    },
+    "tc_c02_common_yelan_meal_06": {
+      "id": "tc_c02_common_yelan_meal_06",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_first",
+      "speaker": "narrator",
+      "text": "这回我笑得差点呛到。她递纸的时候也笑了，脸没耳机里那么模糊，喜欢不喜欢什么，开始能从她抬眼的样子看出来。",
+      "character": null,
+      "next": "tc_c02_common_yelan_walk_01"
+    },
+    "tc_c02_common_yelan_walk_01": {
+      "id": "tc_c02_common_yelan_walk_01",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_walk",
+      "speaker": "narrator",
+      "text": "饭后我们各自付款，沿街走了一小段。她没有把见面变成审查，也没问我为什么做网管。我主动说现在还在摸索，她听完，只问夜里最难挨的是几点。",
+      "character": null,
+      "next": "tc_c02_common_yelan_walk_02"
+    },
+    "tc_c02_common_yelan_walk_02": {
+      "id": "tc_c02_common_yelan_walk_02",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_walk",
+      "speaker": "wenwen",
+      "text": "“四点多。亮又没亮，困又快下班了。”",
+      "character": null,
+      "next": "tc_c02_common_yelan_walk_03"
+    },
+    "tc_c02_common_yelan_walk_03": {
+      "id": "tc_c02_common_yelan_walk_03",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_walk",
+      "speaker": "narrator",
+      "text": "她想了想：“我三点开会的时候也有点像。只是窗外很亮。”",
+      "character": null,
+      "next": "tc_c02_common_yelan_walk_04"
+    },
+    "tc_c02_common_yelan_walk_04": {
+      "id": "tc_c02_common_yelan_walk_04",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_walk",
+      "speaker": "narrator",
+      "text": "岔路口，她把头发别到耳后：“下回可以不用等毛狼。”",
+      "character": null,
+      "next": "tc_c02_common_yelan_walk_05"
+    },
+    "tc_c02_common_yelan_walk_05": {
+      "id": "tc_c02_common_yelan_walk_05",
+      "type": "line",
+      "scene": "ts_c02_common_yelan_walk",
+      "speaker": "narrator",
+      "text": "我说好。她走了两步，又回头补充：“我指吃饭。组队缺人还是得叫他。”",
+      "character": null,
+      "next": "tc_c02_common_friends_meal_01"
+    },
+    "tc_c02_common_friends_meal_01": {
+      "id": "tc_c02_common_friends_meal_01",
+      "type": "line",
+      "scene": "ts_c02_common_friends_meal",
+      "speaker": "narrator",
+      "text": "这次吃饭没等所有人都齐。",
+      "character": null,
+      "next": "tc_c02_common_friends_meal_02"
+    },
+    "tc_c02_common_friends_meal_02": {
+      "id": "tc_c02_common_friends_meal_02",
+      "type": "line",
+      "scene": "ts_c02_common_friends_meal",
+      "speaker": "narrator",
+      "text": "毛狼、小满、飘先到，我把自己那杯倒上水。周栀说上班前可以坐二十分钟，孟遥还在上课，叶岚有自己的安排，都提前说明了。",
+      "character": null,
+      "next": "tc_c02_common_friends_meal_03"
+    },
+    "tc_c02_common_friends_meal_03": {
+      "id": "tc_c02_common_friends_meal_03",
+      "type": "line",
+      "scene": "ts_c02_common_friends_meal",
+      "speaker": "narrator",
+      "text": "小满盯着桌上的碟子：“现在点菜，还是还要搞一个开饭投票？”",
+      "character": null,
+      "next": "tc_c02_common_friends_meal_04"
+    },
+    "tc_c02_common_friends_meal_04": {
+      "id": "tc_c02_common_friends_meal_04",
+      "type": "line",
+      "scene": "ts_c02_common_friends_meal",
+      "speaker": "narrator",
+      "text": "毛狼立刻把菜单推过去。她点了自己想吃的，又问飘有没有不吃的。飘说先别点那么多，四个人的胃不能按群人数算。",
+      "character": null,
+      "next": "tc_c02_common_friends_meal_05"
+    },
+    "tc_c02_common_friends_meal_05": {
+      "id": "tc_c02_common_friends_meal_05",
+      "type": "line",
+      "scene": "ts_c02_common_friends_meal",
+      "speaker": "narrator",
+      "text": "菜来以后，毛狼差点又讲自己上台的见闻，被小满打断：“昨天那个你语音讲过了。”",
+      "character": null,
+      "next": "tc_c02_common_friends_meal_06"
+    },
+    "tc_c02_common_friends_meal_06": {
+      "id": "tc_c02_common_friends_meal_06",
+      "type": "line",
+      "scene": "ts_c02_common_friends_meal",
+      "speaker": "maolang",
+      "text": "“她没听过。”他指飘。",
+      "character": null,
+      "next": "tc_c02_common_friends_meal_07"
+    },
+    "tc_c02_common_friends_meal_07": {
+      "id": "tc_c02_common_friends_meal_07",
+      "type": "line",
+      "scene": "ts_c02_common_friends_meal",
+      "speaker": "narrator",
+      "text": "飘笑着说：“那我听简短版。”",
+      "character": null,
+      "next": "tc_c02_common_friends_meal_08"
+    },
+    "tc_c02_common_friends_meal_08": {
+      "id": "tc_c02_common_friends_meal_08",
+      "type": "line",
+      "scene": "ts_c02_common_friends_meal",
+      "speaker": "narrator",
+      "text": "我看他认真删减废话，忽然觉得挺有意思。他不是每一次都只想把桌子弄热闹，有时候也会留意一个人有没有听下去。",
+      "character": null,
+      "next": "tc_c02_common_friends_meal_09"
+    },
+    "tc_c02_common_friends_meal_09": {
+      "id": "tc_c02_common_friends_meal_09",
+      "type": "line",
+      "scene": "ts_c02_common_friends_meal",
+      "speaker": "narrator",
+      "text": "周栀到得晚一点，只吃了小半碗。走前把自己那份钱转了，叫我们别为了凑热闹也立刻散。",
+      "character": null,
+      "next": "tc_c02_common_friends_meal_10"
+    },
+    "tc_c02_common_friends_meal_10": {
+      "id": "tc_c02_common_friends_meal_10",
+      "type": "line",
+      "scene": "ts_c02_common_friends_meal",
+      "speaker": "narrator",
+      "text": "我们确实没散。小满让我看一个剪坏的刘海笑话，不是她剪的；飘讲她问店主能不能收一句话，对方认真想了很久，最后说“明天白菜便宜”。大家笑完，她说那句话也留下了。",
+      "character": null,
+      "next": "tc_c02_common_friends_meal_11"
+    },
+    "tc_c02_common_friends_meal_11": {
+      "id": "tc_c02_common_friends_meal_11",
+      "type": "line",
+      "scene": "ts_c02_common_friends_meal",
+      "speaker": "maolang",
+      "text": "“有用。”毛狼说。",
+      "character": null,
+      "next": "tc_c02_common_friends_meal_12"
+    },
+    "tc_c02_common_friends_meal_12": {
+      "id": "tc_c02_common_friends_meal_12",
+      "type": "line",
+      "scene": "ts_c02_common_friends_meal",
+      "speaker": "narrator",
+      "text": "“不是有用才留。”飘说，“是他想留这句。”",
+      "character": null,
+      "next": "tc_c02_common_friends_meal_13"
+    },
+    "tc_c02_common_friends_meal_13": {
+      "id": "tc_c02_common_friends_meal_13",
+      "type": "line",
+      "scene": "ts_c02_common_friends_meal",
+      "speaker": "narrator",
+      "text": "饭后我收到两条消息。一条来自孟遥，说今天课上得很顺，终于不用把备课带到深夜；另一条是叶岚拍的一小盒点心，说现实里吃东西不用等复活。",
+      "character": null,
+      "next": "tc_c02_common_friends_meal_14"
+    },
+    "tc_c02_common_friends_meal_14": {
+      "id": "tc_c02_common_friends_meal_14",
+      "type": "line",
+      "scene": "ts_c02_common_friends_meal",
+      "speaker": "narrator",
+      "text": "我一条条回，没有把这顿饭拍成“返乡生活已完全安排好”的证明。明天有人上班，有人休息；想见谁，还是要自己去约。",
+      "character": null,
+      "next": "tc_c02_common_qiu_signal_gate"
+    },
+    "tc_c02_common_qiu_arrival_01": {
+      "id": "tc_c02_common_qiu_arrival_01",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_arrival",
+      "speaker": "narrator",
+      "text": "今晚我休班。路过网吧时，柜台里是当值同事，我打过招呼，绕到后院门边。",
+      "character": null,
+      "next": "tc_c02_common_qiu_door_01"
+    },
+    "tc_c02_common_qiu_door_01": {
+      "id": "tc_c02_common_qiu_door_01",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_door",
+      "speaker": "narrator",
+      "text": "我先敲三下，没有马上推。",
+      "character": null,
+      "next": "tc_c02_common_qiu_door_02"
+    },
+    "tc_c02_common_qiu_door_02": {
+      "id": "tc_c02_common_qiu_door_02",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_door",
+      "speaker": "wenwen",
+      "text": "“文文。”我说，“是上回那个。”",
+      "character": null,
+      "next": "tc_c02_common_qiu_door_03"
+    },
+    "tc_c02_common_qiu_door_03": {
+      "id": "tc_c02_common_qiu_door_03",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_door",
+      "speaker": "narrator",
+      "text": "“记得。你不用每次都介绍自己值什么班。”",
+      "character": null,
+      "next": "tc_c02_common_qiu_door_04"
+    },
+    "tc_c02_common_qiu_door_04": {
+      "id": "tc_c02_common_qiu_door_04",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_door",
+      "speaker": "narrator",
+      "text": "我笑了一下，问她叫什么。",
+      "character": null,
+      "next": "tc_c02_common_qiu_door_05"
+    },
+    "tc_c02_common_qiu_door_05": {
+      "id": "tc_c02_common_qiu_door_05",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_door",
+      "speaker": "narrator",
+      "text": "“黄球球。”",
+      "character": null,
+      "next": "tc_c02_common_qiu_door_06"
+    },
+    "tc_c02_common_qiu_door_06": {
+      "id": "tc_c02_common_qiu_door_06",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_door",
+      "speaker": "wenwen",
+      "text": "“我能进去吗？”",
+      "character": null,
+      "next": "tc_c02_common_qiu_door_07"
+    },
+    "tc_c02_common_qiu_door_07": {
+      "id": "tc_c02_common_qiu_door_07",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_door",
+      "speaker": "narrator",
+      "text": "“能。但先说一件事。我是成年女性，自称二十四岁。你可以先听完，别替我改成别的称呼。”",
+      "character": null,
+      "next": "tc_c02_common_qiu_door_08"
+    },
+    "tc_c02_common_qiu_door_08": {
+      "id": "tc_c02_common_qiu_door_08",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_door",
+      "speaker": "narrator",
+      "text": "我说好，才缓缓把门推开。",
+      "character": null,
+      "next": "tc_c02_common_qiu_meeting_01"
+    },
+    "tc_c02_common_qiu_meeting_01": {
+      "id": "tc_c02_common_qiu_meeting_01",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_meeting",
+      "speaker": "narrator",
+      "text": "塑料凳上坐着一个黄色圆球。深色的眉毛、大眼睛，短短的红嘴，一只小手托着脸。后院灯照着她，影子落在凳面，确实不是我熬夜以后眼前闪过去的东西。",
+      "character": null,
+      "next": "tc_c02_common_qiu_meeting_02"
+    },
+    "tc_c02_common_qiu_meeting_02": {
+      "id": "tc_c02_common_qiu_meeting_02",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_meeting",
+      "speaker": "narrator",
+      "text": "我扶着门，没说出话。",
+      "character": null,
+      "next": "tc_c02_common_qiu_meeting_03"
+    },
+    "tc_c02_common_qiu_meeting_03": {
+      "id": "tc_c02_common_qiu_meeting_03",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_meeting",
+      "speaker": "huangqiuqiu",
+      "text": "“现在可以意外了。”她说。",
+      "character": null,
+      "next": "tc_c02_common_qiu_meeting_04"
+    },
+    "tc_c02_common_qiu_meeting_04": {
+      "id": "tc_c02_common_qiu_meeting_04",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_meeting",
+      "speaker": "wenwen",
+      "text": "“……你刚才提前说那个，是怕我喊什么？”",
+      "character": null,
+      "next": "tc_c02_common_qiu_meeting_05"
+    },
+    "tc_c02_common_qiu_meeting_05": {
+      "id": "tc_c02_common_qiu_meeting_05",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_meeting",
+      "speaker": "huangqiuqiu",
+      "text": "“怕你把我拿去找失主。”",
+      "character": null,
+      "next": "tc_c02_common_qiu_meeting_06"
+    },
+    "tc_c02_common_qiu_meeting_06": {
+      "id": "tc_c02_common_qiu_meeting_06",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_meeting",
+      "speaker": "narrator",
+      "text": "我笑出来，又赶紧收住。她看着我，眉毛没有松下去：“笑也行。别只会笑。”",
+      "character": null,
+      "next": "tc_c02_common_qiu_meeting_07"
+    },
+    "tc_c02_common_qiu_meeting_07": {
+      "id": "tc_c02_common_qiu_meeting_07",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_meeting",
+      "speaker": "narrator",
+      "text": "我把另一张空凳子挪远一点，问这里能不能坐。她说可以。",
+      "character": null,
+      "next": "tc_c02_common_qiu_meeting_08"
+    },
+    "tc_c02_common_qiu_meeting_08": {
+      "id": "tc_c02_common_qiu_meeting_08",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_meeting",
+      "speaker": "narrator",
+      "text": "我们聊了很普通的事情。我说今天吃了什么，又讲了飘记下的那句“明天白菜便宜”，她问白菜最后便宜了没有；我问她是否常听见外面的声音，她说听见过许多“回头再说”，后半句总难等到。",
+      "character": null,
+      "next": "tc_c02_common_qiu_meeting_09"
+    },
+    "tc_c02_common_qiu_meeting_09": {
+      "id": "tc_c02_common_qiu_meeting_09",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_meeting",
+      "speaker": "wenwen",
+      "text": "“所以你那晚说，后面还有？”",
+      "character": null,
+      "next": "tc_c02_common_qiu_meeting_10"
+    },
+    "tc_c02_common_qiu_meeting_10": {
+      "id": "tc_c02_common_qiu_meeting_10",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_meeting",
+      "speaker": "huangqiuqiu",
+      "text": "“嗯。有的话可以讲完。没有也告诉我一声。”",
+      "character": null,
+      "next": "tc_c02_common_qiu_meeting_11"
+    },
+    "tc_c02_common_qiu_meeting_11": {
+      "id": "tc_c02_common_qiu_meeting_11",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_meeting",
+      "speaker": "narrator",
+      "text": "我没有追问她从哪来，也没有打开手机拍照。那疑问当然还在，但她正认真听我讲一个面馆里的笑话，我不想把她又变回一个问题。",
+      "character": null,
+      "next": "tc_c02_common_qiu_meeting_12"
+    },
+    "tc_c02_common_qiu_meeting_12": {
+      "id": "tc_c02_common_qiu_meeting_12",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_meeting",
+      "speaker": "narrator",
+      "text": "离开前，我问她想不想再见面。",
+      "character": null,
+      "next": "tc_c02_common_qiu_meeting_13"
+    },
+    "tc_c02_common_qiu_meeting_13": {
+      "id": "tc_c02_common_qiu_meeting_13",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_meeting",
+      "speaker": "huangqiuqiu",
+      "text": "“想。你先选自己真有空的时候。”",
+      "character": null,
+      "next": "tc_c02_common_qiu_leave_01"
+    },
+    "tc_c02_common_qiu_leave_01": {
+      "id": "tc_c02_common_qiu_leave_01",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_door",
+      "speaker": "narrator",
+      "text": "门外有人经过，我等脚步声远了才出去。师匠在另一头和人说话，没有看见后院里坐着谁。我也没有把这场相识发到群里。",
+      "character": null,
+      "next": "tc_c02_common_qiu_met"
+    },
+    "tc_c02_common_qiu_met": {
+      "id": "tc_c02_common_qiu_met",
+      "type": "line",
+      "scene": "ts_c02_common_qiu_name_note",
+      "speaker": "narrator",
+      "text": "回到屋里，我把明天的闹钟调好。备忘录上那三个点还在，下面多了一行名字。",
+      "character": null,
+      "next": "tc_c02_common_exit",
+      "onEnter": {
+        "requires": [
+          {
+            "flag": "qiuSignal",
+            "value": "record"
+          },
+          {
+            "flag": "qiuReply",
+            "value": "reply"
+          }
+        ],
+        "setFlags": {
+          "qiuMet": true
+        }
+      }
+    },
+    "tc_c02_common_exit": {
+      "id": "tc_c02_common_exit",
+      "type": "end",
+      "scene": "ts_c02_common_chapter_end",
+      "title": "第二章 · 语音里的那个人",
+      "text": "",
+      "character": null,
+      "next": "tc_c03_common_entry",
+      "nextChapter": "第三章 · 想见你不必有事"
+    },
+    "tc_c02_common_qiu_reply_gate": {
+      "id": "tc_c02_common_qiu_reply_gate",
+      "type": "gate",
+      "scene": "ts_c02_common_friends_meal",
+      "cases": [
+        {
+          "flag": "qiuReply",
+          "value": "reply",
+          "next": "tc_c02_common_qiu_arrival_01"
+        },
+        {
+          "flag": "qiuReply",
+          "value": "leave",
+          "next": "tc_c02_common_exit"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    },
+    "tc_c02_common_qiu_signal_gate": {
+      "id": "tc_c02_common_qiu_signal_gate",
+      "type": "gate",
+      "scene": "ts_c02_common_friends_meal",
+      "cases": [
+        {
+          "flag": "qiuSignal",
+          "value": "record",
+          "next": "tc_c02_common_qiu_reply_gate"
+        },
+        {
+          "flag": "qiuSignal",
+          "value": "ignore",
+          "next": "tc_c02_common_exit"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    }
+  },
+  "imports": [
+    "tc_c03_common_entry"
+  ],
+  "exports": {
+    "tc_c02_common_entry": "tc_c02_common_entry",
+    "tc_c02_common_exit": "tc_c02_common_exit"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 7,
+      "endLine": 7,
+      "nodeIds": [
+        "tc_c02_common_exit"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 7,
+      "endLine": 7,
+      "nodeIds": [
+        "tc_c02_common_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c02_common_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 11,
+      "endLine": 11,
+      "nodeIds": [
+        "tc_c02_common_rhythm_heard_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 11,
+      "endLine": 11,
+      "nodeIds": [
+        "tc_c02_common_rhythm_heard_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 13,
+      "endLine": 13,
+      "nodeIds": [
+        "tc_c02_common_rhythm_heard_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 15,
+      "endLine": 15,
+      "nodeIds": [
+        "tc_c02_common_rhythm_reply_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 17,
+      "endLine": 17,
+      "nodeIds": [
+        "tc_c02_common_rhythm_reply_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 19,
+      "endLine": 19,
+      "nodeIds": [
+        "tc_c02_common_rhythm_reply_gate"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 19,
+      "endLine": 19,
+      "nodeIds": [
+        "tc_c02_common_rhythm_remembered_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 21,
+      "endLine": 21,
+      "nodeIds": [
+        "tc_c02_common_rhythm_remembered_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 23,
+      "endLine": 23,
+      "nodeIds": [
+        "tc_c02_common_rhythm_remembered_03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 25,
+      "endLine": 25,
+      "nodeIds": [
+        "tc_c02_common_rhythm_remembered_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 27,
+      "endLine": 27,
+      "nodeIds": [
+        "tc_c02_common_rhythm_remembered_05"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 29,
+      "endLine": 29,
+      "nodeIds": [
+        "tc_c02_common_rhythm_unremembered_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 31,
+      "endLine": 31,
+      "nodeIds": [
+        "tc_c02_common_rhythm_reply_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 33,
+      "endLine": 33,
+      "nodeIds": [
+        "tc_c02_common_rhythm_leave_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 39,
+      "endLine": 39,
+      "nodeIds": [
+        "tc_c02_common_same_sign_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 39,
+      "endLine": 39,
+      "nodeIds": [
+        "tc_c02_common_same_sign_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 41,
+      "endLine": 41,
+      "nodeIds": [
+        "tc_c02_common_same_sign_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 43,
+      "endLine": 43,
+      "nodeIds": [
+        "tc_c02_common_same_sign_03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 45,
+      "endLine": 45,
+      "nodeIds": [
+        "tc_c02_common_same_sign_04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 47,
+      "endLine": 47,
+      "nodeIds": [
+        "tc_c02_common_same_sign_05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 49,
+      "endLine": 49,
+      "nodeIds": [
+        "tc_c02_common_same_sign_06"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 51,
+      "endLine": 51,
+      "nodeIds": [
+        "tc_c02_common_same_sign_07"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 53,
+      "endLine": 53,
+      "nodeIds": [
+        "tc_c02_common_same_sign_08"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 55,
+      "endLine": 55,
+      "nodeIds": [
+        "tc_c02_common_same_sign_09"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 57,
+      "endLine": 57,
+      "nodeIds": [
+        "tc_c02_common_same_sign_10"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 59,
+      "endLine": 59,
+      "nodeIds": [
+        "tc_c02_common_missed_game_01"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 61,
+      "endLine": 61,
+      "nodeIds": [
+        "tc_c02_common_missed_game_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 63,
+      "endLine": 63,
+      "nodeIds": [
+        "tc_c02_common_missed_game_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 65,
+      "endLine": 65,
+      "nodeIds": [
+        "tc_c02_common_missed_game_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 67,
+      "endLine": 67,
+      "nodeIds": [
+        "tc_c02_common_missed_game_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 69,
+      "endLine": 69,
+      "nodeIds": [
+        "tc_c02_common_missed_game_05"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 71,
+      "endLine": 71,
+      "nodeIds": [
+        "tc_c02_common_missed_game_06"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 73,
+      "endLine": 73,
+      "nodeIds": [
+        "tc_c02_common_missed_game_07"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 75,
+      "endLine": 75,
+      "nodeIds": [
+        "tc_c02_common_missed_game_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 77,
+      "endLine": 77,
+      "nodeIds": [
+        "tc_c02_common_missed_game_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 79,
+      "endLine": 79,
+      "nodeIds": [
+        "tc_c02_common_missed_voice_01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 81,
+      "endLine": 81,
+      "nodeIds": [
+        "tc_c02_common_missed_voice_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 83,
+      "endLine": 83,
+      "nodeIds": [
+        "tc_c02_common_missed_voice_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 85,
+      "endLine": 85,
+      "nodeIds": [
+        "tc_c02_common_missed_game_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 87,
+      "endLine": 87,
+      "nodeIds": [
+        "tc_c02_common_missed_reschedule_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 89,
+      "endLine": 89,
+      "nodeIds": [
+        "tc_c02_common_missed_reschedule_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 93,
+      "endLine": 93,
+      "nodeIds": [
+        "tc_c02_common_laundry_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 95,
+      "endLine": 95,
+      "nodeIds": [
+        "tc_c02_common_next_meeting_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 95,
+      "endLine": 95,
+      "nodeIds": [
+        "tc_c02_common_next_meeting_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 97,
+      "endLine": 97,
+      "nodeIds": [
+        "tc_c02_common_next_meeting_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 99,
+      "endLine": 99,
+      "nodeIds": [
+        "tc_c02_common_next_meeting_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 101,
+      "endLine": 101,
+      "nodeIds": [
+        "tc_c02_common_next_meeting_04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 103,
+      "endLine": 103,
+      "nodeIds": [
+        "tc_c02_common_next_meeting_05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 105,
+      "endLine": 105,
+      "nodeIds": [
+        "tc_c02_common_next_meeting_06"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 107,
+      "endLine": 107,
+      "nodeIds": [
+        "tc_c02_common_next_meeting_07"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 109,
+      "endLine": 109,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_01"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 111,
+      "endLine": 111,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 113,
+      "endLine": 113,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 115,
+      "endLine": 115,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 117,
+      "endLine": 117,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 119,
+      "endLine": 119,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 121,
+      "endLine": 121,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_06"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 123,
+      "endLine": 123,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_07"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 125,
+      "endLine": 125,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_08"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 127,
+      "endLine": 127,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_09"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 129,
+      "endLine": 129,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_10"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 131,
+      "endLine": 131,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_11"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 133,
+      "endLine": 133,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_12"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 135,
+      "endLine": 135,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_13"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 137,
+      "endLine": 137,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_14"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 139,
+      "endLine": 139,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_15"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 141,
+      "endLine": 141,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 143,
+      "endLine": 143,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 145,
+      "endLine": 145,
+      "nodeIds": [
+        "tc_c02_common_yelan_game_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 147,
+      "endLine": 147,
+      "nodeIds": [
+        "tc_c02_common_yelan_game_02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 149,
+      "endLine": 149,
+      "nodeIds": [
+        "tc_c02_common_yelan_game_03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 151,
+      "endLine": 151,
+      "nodeIds": [
+        "tc_c02_common_yelan_game_04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 153,
+      "endLine": 153,
+      "nodeIds": [
+        "tc_c02_common_yelan_game_05"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 155,
+      "endLine": 155,
+      "nodeIds": [
+        "tc_c02_common_yelan_game_06"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 157,
+      "endLine": 157,
+      "nodeIds": [
+        "tc_c02_common_yelan_first_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 159,
+      "endLine": 159,
+      "nodeIds": [
+        "tc_c02_common_yelan_food_01"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 161,
+      "endLine": 161,
+      "nodeIds": [
+        "tc_c02_common_yelan_food_02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 163,
+      "endLine": 163,
+      "nodeIds": [
+        "tc_c02_common_yelan_food_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 165,
+      "endLine": 165,
+      "nodeIds": [
+        "tc_c02_common_yelan_food_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 169,
+      "endLine": 169,
+      "nodeIds": [
+        "tc_c02_common_yelan_meal_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 171,
+      "endLine": 171,
+      "nodeIds": [
+        "tc_c02_common_yelan_meal_02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 173,
+      "endLine": 173,
+      "nodeIds": [
+        "tc_c02_common_yelan_meal_03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 175,
+      "endLine": 175,
+      "nodeIds": [
+        "tc_c02_common_yelan_meal_04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 177,
+      "endLine": 177,
+      "nodeIds": [
+        "tc_c02_common_yelan_meal_05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 179,
+      "endLine": 179,
+      "nodeIds": [
+        "tc_c02_common_yelan_meal_06"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 181,
+      "endLine": 181,
+      "nodeIds": [
+        "tc_c02_common_yelan_walk_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 181,
+      "endLine": 181,
+      "nodeIds": [
+        "tc_c02_common_yelan_walk_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 183,
+      "endLine": 183,
+      "nodeIds": [
+        "tc_c02_common_yelan_walk_02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 185,
+      "endLine": 185,
+      "nodeIds": [
+        "tc_c02_common_yelan_walk_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 187,
+      "endLine": 187,
+      "nodeIds": [
+        "tc_c02_common_yelan_walk_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 189,
+      "endLine": 189,
+      "nodeIds": [
+        "tc_c02_common_yelan_walk_05"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 191,
+      "endLine": 191,
+      "nodeIds": [
+        "tc_c02_common_friends_meal_01"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 193,
+      "endLine": 193,
+      "nodeIds": [
+        "tc_c02_common_friends_meal_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 195,
+      "endLine": 195,
+      "nodeIds": [
+        "tc_c02_common_friends_meal_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 197,
+      "endLine": 197,
+      "nodeIds": [
+        "tc_c02_common_friends_meal_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 199,
+      "endLine": 199,
+      "nodeIds": [
+        "tc_c02_common_friends_meal_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 201,
+      "endLine": 201,
+      "nodeIds": [
+        "tc_c02_common_friends_meal_05"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 203,
+      "endLine": 203,
+      "nodeIds": [
+        "tc_c02_common_friends_meal_06"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 205,
+      "endLine": 205,
+      "nodeIds": [
+        "tc_c02_common_friends_meal_07"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 207,
+      "endLine": 207,
+      "nodeIds": [
+        "tc_c02_common_friends_meal_08"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 209,
+      "endLine": 209,
+      "nodeIds": [
+        "tc_c02_common_friends_meal_09"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 211,
+      "endLine": 211,
+      "nodeIds": [
+        "tc_c02_common_friends_meal_10"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 213,
+      "endLine": 213,
+      "nodeIds": [
+        "tc_c02_common_friends_meal_11"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 215,
+      "endLine": 215,
+      "nodeIds": [
+        "tc_c02_common_friends_meal_12"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 217,
+      "endLine": 217,
+      "nodeIds": [
+        "tc_c02_common_friends_meal_13"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 219,
+      "endLine": 219,
+      "nodeIds": [
+        "tc_c02_common_friends_meal_14"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 221,
+      "endLine": 221,
+      "nodeIds": [
+        "tc_c02_common_qiu_door_01"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 223,
+      "endLine": 223,
+      "nodeIds": [
+        "tc_c02_common_qiu_reply_gate"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 223,
+      "endLine": 223,
+      "nodeIds": [
+        "tc_c02_common_qiu_signal_gate"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 225,
+      "endLine": 225,
+      "nodeIds": [
+        "tc_c02_common_qiu_arrival_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 225,
+      "endLine": 225,
+      "nodeIds": [
+        "tc_c02_common_qiu_arrival_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 227,
+      "endLine": 227,
+      "nodeIds": [
+        "tc_c02_common_qiu_door_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 229,
+      "endLine": 229,
+      "nodeIds": [
+        "tc_c02_common_qiu_door_02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 231,
+      "endLine": 231,
+      "nodeIds": [
+        "tc_c02_common_qiu_door_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 233,
+      "endLine": 233,
+      "nodeIds": [
+        "tc_c02_common_qiu_door_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 235,
+      "endLine": 235,
+      "nodeIds": [
+        "tc_c02_common_qiu_door_05"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 237,
+      "endLine": 237,
+      "nodeIds": [
+        "tc_c02_common_qiu_door_06"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 239,
+      "endLine": 239,
+      "nodeIds": [
+        "tc_c02_common_qiu_door_07"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 241,
+      "endLine": 241,
+      "nodeIds": [
+        "tc_c02_common_qiu_door_08"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 243,
+      "endLine": 243,
+      "nodeIds": [
+        "tc_c02_common_qiu_meeting_01"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 243,
+      "endLine": 243,
+      "nodeIds": [
+        "tc_c02_common_qiu_meeting_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 245,
+      "endLine": 245,
+      "nodeIds": [
+        "tc_c02_common_qiu_meeting_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 247,
+      "endLine": 247,
+      "nodeIds": [
+        "tc_c02_common_qiu_meeting_03"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 249,
+      "endLine": 249,
+      "nodeIds": [
+        "tc_c02_common_qiu_meeting_04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 251,
+      "endLine": 251,
+      "nodeIds": [
+        "tc_c02_common_qiu_meeting_05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 253,
+      "endLine": 253,
+      "nodeIds": [
+        "tc_c02_common_qiu_meeting_06"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 255,
+      "endLine": 255,
+      "nodeIds": [
+        "tc_c02_common_qiu_meeting_07"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 257,
+      "endLine": 257,
+      "nodeIds": [
+        "tc_c02_common_qiu_meeting_08"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 259,
+      "endLine": 259,
+      "nodeIds": [
+        "tc_c02_common_qiu_meeting_09"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 261,
+      "endLine": 261,
+      "nodeIds": [
+        "tc_c02_common_qiu_meeting_10"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 263,
+      "endLine": 263,
+      "nodeIds": [
+        "tc_c02_common_qiu_meeting_11"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 265,
+      "endLine": 265,
+      "nodeIds": [
+        "tc_c02_common_qiu_meeting_12"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 267,
+      "endLine": 267,
+      "nodeIds": [
+        "tc_c02_common_qiu_meeting_13"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 269,
+      "endLine": 269,
+      "nodeIds": [
+        "tc_c02_common_qiu_leave_01"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 271,
+      "endLine": 271,
+      "nodeIds": [
+        "tc_c02_common_qiu_met"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 271,
+      "endLine": 271,
+      "nodeIds": [
+        "tc_c02_common_qiu_met"
+      ],
+      "kind": "narration"
+    }
+  ],
+  "exclusions": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 1,
+      "endLine": 1,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 3,
+      "endLine": 3,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 5,
+      "endLine": 5,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 35,
+      "endLine": 35,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 37,
+      "endLine": 37,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 91,
+      "endLine": 91,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 167,
+      "endLine": 167,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 273,
+      "endLine": 273,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "startLine": 275,
+      "endLine": 275,
+      "reason": "navigation"
+    }
+  ],
+  "assetRequests": [
+    {
+      "id": "e01-art-ch02",
+      "a01Ids": [
+        "tc-bg-backdoor-night",
+        "tc-bg-courtyard-night",
+        "tc-bg-food-day",
+        "tc-bg-food-dusk",
+        "tc-bg-food-front-dusk",
+        "tc-bg-netcafe-counter-night",
+        "tc-bg-rental-night",
+        "tc-char-huangqiuqiu-orb-base",
+        "tc-char-huangqiuqiu-orb-expression-serious",
+        "tc-char-maolang-human-base",
+        "tc-char-maolang-human-expression-smile",
+        "tc-char-mengyao-human-base",
+        "tc-char-piao-human-base",
+        "tc-char-piao-human-expression-smile",
+        "tc-char-shijiang-human-base",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-downcast",
+        "tc-char-wenwen-human-expression-hesitant",
+        "tc-char-wenwen-human-expression-smile",
+        "tc-char-wenwen-human-expression-surprised",
+        "tc-char-wenwen-human-expression-tired",
+        "tc-char-xiaoman-human-base",
+        "tc-char-xiaoman-human-expression-smile",
+        "tc-char-yelan-human-base",
+        "tc-char-yelan-human-expression-hesitant",
+        "tc-char-yelan-human-expression-smile",
+        "tc-char-zhouzhi-human-base"
+      ]
+    }
+  ]
+}

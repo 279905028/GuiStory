@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-21T06:04:28.109Z",
+  "pass": true,
+  "fingerprints": {
+    "story.js": "c3304aa3fcad0710c17f2ee2c4d17877e0043d49fbf956dbd0e650dcb9c3a8de",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "57dad05e59da482af72bd423fbb1980a4c7d4edb0f065e330ca4bc0782c6e90c",
+    "save-compat.js": "4ab32d0447c98650719bd61e29615f07d9ebfdc67596e3774a94953c4f98e742",
+    "index.html": "0dee50bc2a5f6815c8b54baf2b7caba1e7fd000d0a79628bf6520d788718f78e",
+    "styles.css": "94ec4ed3f46d61a80c31b14891106b0a39ab6e75985a0bac0553aa632d057717",
+    "assets/runtime-v0.4-manifest.json": "9c8cd7bb1646684b1e8135ce5ba24a178527ae06fb66cb078182447535965be6"
+  },
+  "checks": [
+    "4个运行脚本语法通过",
+    "加载顺序：story → engine → save-compat → game",
+    "3个打包脚本包含全部运行脚本，语法通过；未执行打包或发布",
+    "严格引擎与任务开始前逐字一致",
+    "最终代码指纹与状态及浏览器专项一致",
+    "剧情、引擎、资源清单与13:54基线一致",
+    "受影响文档131处本地链接存在"
+  ],
+  "finalVerifiedAt": "2026-10-21T06:09:37.883Z",
+  "finalFingerprints": {
+    "game.js": "57dad05e59da482af72bd423fbb1980a4c7d4edb0f065e330ca4bc0782c6e90c",
+    "save-compat.js": "4ab32d0447c98650719bd61e29615f07d9ebfdc67596e3774a94953c4f98e742",
+    "story.js": "c3304aa3fcad0710c17f2ee2c4d17877e0043d49fbf956dbd0e650dcb9c3a8de",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "index.html": "0dee50bc2a5f6815c8b54baf2b7caba1e7fd000d0a79628bf6520d788718f78e",
+    "styles.css": "94ec4ed3f46d61a80c31b14891106b0a39ab6e75985a0bac0553aa632d057717"
+  },
+  "packageScriptFingerprints": {
+    "deployment/cloudflare/prepare.cjs": "ff16e489a1166bf1890d50da50f8c5e9780ef63444c3d7adca29843370cf9b6a",
+    "deployment/cloudflare-ambd/prepare.cjs": "ff16e489a1166bf1890d50da50f8c5e9780ef63444c3d7adca29843370cf9b6a",
+    "deployment/edgeone/prepare.cjs": "9be5f54594b6c71021e79f4246b7aca15ea25cc692b336eafc9196b69122db3d"
+  }
+}

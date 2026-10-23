@@ -1,0 +1,1289 @@
+{
+  "created": "2026-10-20T01:37:56.441Z",
+  "timezone": "Asia/Shanghai",
+  "type": "partial-current-browser-layout",
+  "method": "正式story.js + engine.js合法回放snapshot；独立Chrome context内注入auto并真实点击继续。压力夹具仅修改测试页DOM。",
+  "limitations": [
+    "这是当前文件版本的桌面Chrome布局回归，不等同于手机真机触摸验收。",
+    "未运行全剧情1224路径回归、声音体验或CG运行时接入验收。",
+    "截图是否可作为正式素材终验，应由E4交接核对素材采用状态；本报告仅标识实际读取的文件版本。",
+    "几何断言不代替人工检查表情、画面细节和关键物件。"
+  ],
+  "filesBefore": {
+    "index.html": {
+      "sha256": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+      "bytes": 7049,
+      "mtime": "2026-10-20T01:31:26.251Z"
+    },
+    "styles.css": {
+      "sha256": "a3606356aee729087bed34aaad2c1ffdbbbece283a4a5066c5494425bc166390",
+      "bytes": 38773,
+      "mtime": "2026-10-20T01:32:51.119Z"
+    },
+    "game.js": {
+      "sha256": "6bcd399cccb020e079061b8c08a4ff782dae8693a2de5189b8212080352b9cc4",
+      "bytes": 45283,
+      "mtime": "2026-10-20T01:35:56.210Z"
+    },
+    "story.js": {
+      "sha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+      "bytes": 126840,
+      "mtime": "2026-10-19T09:28:16.144Z"
+    },
+    "engine.js": {
+      "sha256": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+      "bytes": 9734,
+      "mtime": "2026-10-19T02:36:54.394Z"
+    },
+    "assets/characters-manifest.json": {
+      "sha256": "40078c78ae9e49199d8a4d46e3f84f7ba115fe0389481d6c89769be44c841271",
+      "bytes": 19622,
+      "mtime": "2026-10-19T02:41:14.489Z"
+    },
+    "assets/new-characters-manifest.json": {
+      "sha256": "68c5ecd046214c8393911b86485bff0aaa26c4449d5503e058504d5fa2053be3",
+      "bytes": 9755,
+      "mtime": "2026-10-19T03:18:15.245Z"
+    },
+    "assets/backgrounds-manifest.json": {
+      "sha256": "a7c8c29a6427009f69ca3059443162bc7bfa009854e4ca3a491dadc6f55718ae",
+      "bytes": 34956,
+      "mtime": "2026-10-19T07:06:15.903Z"
+    },
+    "assets/bg-street.png": {
+      "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "bytes": 3010764,
+      "mtime": "2026-10-16T09:59:52.277Z"
+    },
+    "assets/bg-repair.png": {
+      "sha256": "3b918a88c0d486575fa18d09afb70a37f9e1743257dd49ce1a44f72416e098aa",
+      "bytes": 2576047,
+      "mtime": "2026-10-16T09:59:52.319Z"
+    },
+    "assets/bg-lobby.png": {
+      "sha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871",
+      "bytes": 2260911,
+      "mtime": "2026-10-16T09:59:52.363Z"
+    },
+    "assets/bg-room.png": {
+      "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+      "bytes": 1968927,
+      "mtime": "2026-10-16T09:59:52.407Z"
+    },
+    "assets/bg-noodles.png": {
+      "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+      "bytes": 2528115,
+      "mtime": "2026-10-19T02:45:43.975Z"
+    },
+    "assets/bg-salon.png": {
+      "sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+      "bytes": 2571679,
+      "mtime": "2026-10-16T09:59:52.496Z"
+    },
+    "assets/char-wenwen.png": {
+      "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "bytes": 2267104,
+      "mtime": "2026-10-16T09:56:04.107Z"
+    },
+    "assets/char-xiaoman.png": {
+      "sha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+      "bytes": 2323438,
+      "mtime": "2026-10-16T09:57:32.636Z"
+    },
+    "assets/char-zhouzhi.png": {
+      "sha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+      "bytes": 1902928,
+      "mtime": "2026-10-16T09:58:19.341Z"
+    },
+    "assets/char-mengyao.png": {
+      "sha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+      "bytes": 2209681,
+      "mtime": "2026-10-16T09:58:58.007Z"
+    },
+    "assets/char-yelan.png": {
+      "sha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+      "bytes": 1835417,
+      "mtime": "2026-10-16T09:59:44.461Z"
+    },
+    "assets/char-maolang.png": {
+      "sha256": "d554134d8bf022572c0c26b9d0db80bbf59ec227c3b5aab4ce61089ba2133a1c",
+      "bytes": 2038141,
+      "mtime": "2026-10-19T03:10:41.643Z"
+    },
+    "assets/char-shijiang.png": {
+      "sha256": "a8e1bceb9dad767e2ec11c94f3977a9b8337a2abcbd6b47c4f6996e72e004b1c",
+      "bytes": 1825205,
+      "mtime": "2026-10-19T03:15:13.824Z"
+    },
+    "assets/char-huangqiuqiu.png": {
+      "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9",
+      "bytes": 1305412,
+      "mtime": "2026-10-19T02:47:37.819Z"
+    }
+  },
+  "longestDialogue": {
+    "nodeId": "preview_qiu_03",
+    "codePointLength": 66,
+    "text": "调音台旁，一个黄色圆球缓缓转过来。深色眉毛向下垂着，大圆眼看着我，短红嘴抿成一小道，两只小手托着腮。我的手下意识摸向口袋里的螺丝刀。"
+  },
+  "pressureFixture": {
+    "length": 95,
+    "text": "这是一段只用于检查界面容量的文字，雨声落在窗边，人物仍在等待回应。这是一段只用于检查界面容量的文字，雨声落在窗边，人物仍在等待回应。这是一段只用于检查界面容量的文字，雨声落在窗边，人物仍在等"
+  },
+  "cases": [
+    {
+      "id": "title",
+      "kind": "title",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "nodeId": null,
+      "source": "正式剧情及产品界面",
+      "fixture": null,
+      "checks": [
+        {
+          "name": "舞台在视口内",
+          "pass": true,
+          "detail": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "right": 844,
+            "bottom": 390
+          }
+        },
+        {
+          "name": "页面无横向溢出",
+          "pass": true,
+          "detail": {
+            "scrollX": 0,
+            "scrollY": 0,
+            "documentWidth": 844,
+            "documentHeight": 390,
+            "bodyWidth": 844,
+            "bodyHeight": 390,
+            "appScrollLeft": 0,
+            "appScrollTop": 0
+          }
+        },
+        {
+          "name": "页面无纵向溢出",
+          "pass": true,
+          "detail": {
+            "scrollX": 0,
+            "scrollY": 0,
+            "documentWidth": 844,
+            "documentHeight": 390,
+            "bodyWidth": 844,
+            "bodyHeight": 390,
+            "appScrollLeft": 0,
+            "appScrollTop": 0
+          }
+        },
+        {
+          "name": "页面与舞台无滚动偏移",
+          "pass": true,
+          "detail": {
+            "scrollX": 0,
+            "scrollY": 0,
+            "documentWidth": 844,
+            "documentHeight": 390,
+            "bodyWidth": 844,
+            "bodyHeight": 390,
+            "appScrollLeft": 0,
+            "appScrollTop": 0
+          }
+        },
+        {
+          "name": "可操作控件至少44像素",
+          "pass": true,
+          "detail": []
+        },
+        {
+          "name": "视口内控件四角未被其他图层拦截",
+          "pass": false,
+          "detail": [
+            {
+              "action": "load",
+              "label": "读取存档",
+              "fullyVisible": true,
+              "points": [
+                {
+                  "x": 73.203125,
+                  "y": 301.25,
+                  "pass": true,
+                  "hit": "BUTTON"
+                },
+                {
+                  "x": 114.484375,
+                  "y": 301.25,
+                  "pass": true,
+                  "hit": "BUTTON"
+                },
+                {
+                  "x": 73.203125,
+                  "y": 337.25,
+                  "pass": false,
+                  "hit": "title-footer"
+                },
+                {
+                  "x": 114.484375,
+                  "y": 337.25,
+                  "pass": false,
+                  "hit": "title-footer"
+                }
+              ]
+            },
+            {
+              "action": "settings",
+              "label": "游戏设置",
+              "fullyVisible": true,
+              "points": [
+                {
+                  "x": 258.921875,
+                  "y": 301.25,
+                  "pass": true,
+                  "hit": "BUTTON"
+                },
+                {
+                  "x": 300.203125,
+                  "y": 301.25,
+                  "pass": true,
+                  "hit": "BUTTON"
+                },
+                {
+                  "x": 258.921875,
+                  "y": 337.25,
+                  "pass": false,
+                  "hit": "title-footer"
+                },
+                {
+                  "x": 300.203125,
+                  "y": 337.25,
+                  "pass": false,
+                  "hit": "title-footer"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "#game-title在舞台内",
+          "pass": true,
+          "detail": {
+            "x": 69.203125,
+            "y": 81.5,
+            "width": 405.109375,
+            "height": 77.75,
+            "right": 474.3125,
+            "bottom": 159.25
+          }
+        },
+        {
+          "name": ".title-menu在舞台内",
+          "pass": true,
+          "detail": {
+            "x": 69.203125,
+            "y": 206.25,
+            "width": 235,
+            "height": 135,
+            "right": 304.203125,
+            "bottom": 341.25
+          }
+        },
+        {
+          "name": ".title-footer在舞台内",
+          "pass": true,
+          "detail": {
+            "x": 48.09375,
+            "y": 334.3125,
+            "width": 747.8125,
+            "height": 44,
+            "right": 795.90625,
+            "bottom": 378.3125
+          }
+        },
+        {
+          "name": "标题菜单不覆盖标题",
+          "pass": true
+        },
+        {
+          "name": "标题菜单不覆盖可见页脚内容",
+          "pass": true
+        },
+        {
+          "name": "Tab前后舞台及页面始终不滚动",
+          "pass": true
+        },
+        {
+          "name": "键盘焦点具有可见轮廓",
+          "pass": true,
+          "detail": []
+        },
+        {
+          "name": "无浏览器页面异常",
+          "pass": true,
+          "detail": []
+        },
+        {
+          "name": "未请求外网",
+          "pass": true,
+          "detail": []
+        },
+        {
+          "name": "资源请求无失败",
+          "pass": true,
+          "detail": []
+        }
+      ],
+      "pageErrors": [],
+      "externalRequests": [],
+      "failedRequests": [],
+      "geometry": {
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "screen": "title",
+        "page": {
+          "scrollX": 0,
+          "scrollY": 0,
+          "documentWidth": 844,
+          "documentHeight": 390,
+          "bodyWidth": 844,
+          "bodyHeight": 390,
+          "appScrollLeft": 0,
+          "appScrollTop": 0
+        },
+        "elements": {
+          "#app": {
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 844,
+              "height": 390,
+              "right": 844,
+              "bottom": 390
+            },
+            "clientWidth": 844,
+            "clientHeight": 390,
+            "scrollWidth": 1013,
+            "scrollHeight": 468,
+            "scrollLeft": 0,
+            "scrollTop": 0,
+            "overflowX": "clip",
+            "overflowY": "clip",
+            "objectFit": "fill",
+            "objectPosition": "50% 50%",
+            "outlineStyle": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(239, 238, 230)",
+            "text": "回声 / ECHO贵州 · 毕节\n      \n         一场雨，一座城，四次相遇\n        毕节，雨停之前。\n        \n        一个关于重逢与告别的故事\n        \n          开始故事↗\n          继续旅程CONTINUE\n          \n            读取存档/游戏设置\n          \n        \n      \n      \n      文文23 岁 · 回来的人\n      序章试玩/约 20 分钟所有人物及经历均为虚构 · 恋爱角色均已成年♪环境音关\n    \n\n    \n      \n        DAY 01回来的人\n        傍晚毕节 · 老街\n        \n      \n      \n      \n        \n      \n      \n      \n        这一刻，你决定——\n        你会怎么回答？\n        \n        每一次选择，都会留下一点回声。\n      \n      \n      \n        \n          \n          文文\n          点击继续\n        \n        \n          雨停之前\n          回顾自动存档读档声音关设置\n        \n      \n    \n\n    \n      回声 / ECHO故事，才刚刚开始\n      \n       序章试玩结束雨还没有停NEXT CHAPTER / 下一章重选今晚的消息 ↗读取存档返回标题\n      本段为序章收束预告，尚未锁定正式恋爱路线。\n    \n\n    \n      毕节，雨停之前游戏设置×让故事，按你的节奏继续。ESC 关闭",
+            "src": null,
+            "naturalWidth": null,
+            "naturalHeight": null,
+            "presentation": null
+          },
+          "#title-screen": {
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 844,
+              "height": 390,
+              "right": 844,
+              "bottom": 390
+            },
+            "clientWidth": 844,
+            "clientHeight": 390,
+            "scrollWidth": 844,
+            "scrollHeight": 395,
+            "scrollLeft": 0,
+            "scrollTop": 0,
+            "overflowX": "clip",
+            "overflowY": "clip",
+            "objectFit": "fill",
+            "objectPosition": "50% 50%",
+            "outlineStyle": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(239, 238, 230)",
+            "text": "回声 / ECHO贵州 · 毕节\n      \n         一场雨，一座城，四次相遇\n        毕节，雨停之前。\n        \n        一个关于重逢与告别的故事\n        \n          开始故事↗\n          继续旅程CONTINUE\n          \n            读取存档/游戏设置\n          \n        \n      \n      \n      文文23 岁 · 回来的人\n      序章试玩/约 20 分钟所有人物及经历均为虚构 · 恋爱角色均已成年♪环境音关",
+            "src": null,
+            "naturalWidth": null,
+            "naturalHeight": null,
+            "presentation": null
+          },
+          "#game-screen": null,
+          "#end-screen": null,
+          ".title-copy": {
+            "rect": {
+              "x": 69.203125,
+              "y": 58.5,
+              "width": 405.109375,
+              "height": 282.75,
+              "right": 474.3125,
+              "bottom": 341.25
+            },
+            "clientWidth": 405,
+            "clientHeight": 283,
+            "scrollWidth": 405,
+            "scrollHeight": 283,
+            "scrollLeft": 0,
+            "scrollTop": 0,
+            "overflowX": "visible",
+            "overflowY": "visible",
+            "objectFit": "fill",
+            "objectPosition": "50% 50%",
+            "outlineStyle": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(239, 238, 230)",
+            "text": "一场雨，一座城，四次相遇\n        毕节，雨停之前。\n        \n        一个关于重逢与告别的故事\n        \n          开始故事↗\n          继续旅程CONTINUE\n          \n            读取存档/游戏设置",
+            "src": null,
+            "naturalWidth": null,
+            "naturalHeight": null,
+            "presentation": null
+          },
+          ".title-menu": {
+            "rect": {
+              "x": 69.203125,
+              "y": 206.25,
+              "width": 235,
+              "height": 135,
+              "right": 304.203125,
+              "bottom": 341.25
+            },
+            "clientWidth": 235,
+            "clientHeight": 135,
+            "scrollWidth": 235,
+            "scrollHeight": 135,
+            "scrollLeft": 0,
+            "scrollTop": 0,
+            "overflowX": "visible",
+            "overflowY": "visible",
+            "objectFit": "fill",
+            "objectPosition": "50% 50%",
+            "outlineStyle": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(239, 238, 230)",
+            "text": "开始故事↗\n          继续旅程CONTINUE\n          \n            读取存档/游戏设置",
+            "src": null,
+            "naturalWidth": null,
+            "naturalHeight": null,
+            "presentation": null
+          },
+          ".title-footer": {
+            "rect": {
+              "x": 48.09375,
+              "y": 334.3125,
+              "width": 747.8125,
+              "height": 44,
+              "right": 795.90625,
+              "bottom": 378.3125
+            },
+            "clientWidth": 748,
+            "clientHeight": 44,
+            "scrollWidth": 748,
+            "scrollHeight": 44,
+            "scrollLeft": 0,
+            "scrollTop": 0,
+            "overflowX": "visible",
+            "overflowY": "visible",
+            "objectFit": "fill",
+            "objectPosition": "50% 50%",
+            "outlineStyle": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(185, 194, 186)",
+            "text": "序章试玩/约 20 分钟所有人物及经历均为虚构 · 恋爱角色均已成年♪环境音关",
+            "src": null,
+            "naturalWidth": null,
+            "naturalHeight": null,
+            "presentation": null
+          },
+          ".title-footer > div": null,
+          ".title-footer > p": null,
+          ".title-footer > button": {
+            "rect": {
+              "x": 711.84375,
+              "y": 334.3125,
+              "width": 84.0625,
+              "height": 44,
+              "right": 795.90625,
+              "bottom": 378.3125
+            },
+            "clientWidth": 84,
+            "clientHeight": 44,
+            "scrollWidth": 84,
+            "scrollHeight": 44,
+            "scrollLeft": 0,
+            "scrollTop": 0,
+            "overflowX": "visible",
+            "overflowY": "visible",
+            "objectFit": "fill",
+            "objectPosition": "50% 50%",
+            "outlineStyle": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(185, 194, 186)",
+            "text": "♪环境音关",
+            "src": null,
+            "naturalWidth": null,
+            "naturalHeight": null,
+            "presentation": null
+          },
+          "#game-title": {
+            "rect": {
+              "x": 69.203125,
+              "y": 81.5,
+              "width": 405.109375,
+              "height": 77.75,
+              "right": 474.3125,
+              "bottom": 159.25
+            },
+            "clientWidth": 405,
+            "clientHeight": 78,
+            "scrollWidth": 405,
+            "scrollHeight": 83,
+            "scrollLeft": 0,
+            "scrollTop": 0,
+            "overflowX": "visible",
+            "overflowY": "visible",
+            "objectFit": "fill",
+            "objectPosition": "50% 50%",
+            "outlineStyle": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(239, 238, 230)",
+            "text": "毕节，雨停之前。",
+            "src": null,
+            "naturalWidth": null,
+            "naturalHeight": null,
+            "presentation": null
+          },
+          ".scene-header": null,
+          ".dialogue-shell": null,
+          "#dialogue-box": null,
+          "#dialogue-text": null,
+          ".speaker-portrait": null,
+          "#speaker-avatar": null,
+          "#character": null,
+          "#choice-panel": null,
+          "#choice-question": null,
+          "#choice-list": null,
+          ".game-toolbar": null,
+          ".end-content": null,
+          "#end-character": null,
+          "#end-title": null,
+          "#end-copy": null,
+          "#end-next": null,
+          ".end-actions": null,
+          ".end-footnote": null,
+          "#scene-bg": {
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 844,
+              "height": 390,
+              "right": 844,
+              "bottom": 390
+            },
+            "clientWidth": 844,
+            "clientHeight": 390,
+            "scrollWidth": 844,
+            "scrollHeight": 390,
+            "scrollLeft": 0,
+            "scrollTop": 0,
+            "overflowX": "clip",
+            "overflowY": "clip",
+            "objectFit": "cover",
+            "objectPosition": "50% 50%",
+            "outlineStyle": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(239, 238, 230)",
+            "text": "",
+            "src": "assets/bg-street.png",
+            "naturalWidth": 1672,
+            "naturalHeight": 941,
+            "presentation": null
+          },
+          "#modal": null,
+          ".modal-card": null,
+          ".modal-header": null,
+          "#modal-body": null,
+          "#modal-close": null
+        },
+        "controls": [
+          {
+            "selector": "title-start",
+            "action": "start",
+            "choice": null,
+            "rect": {
+              "x": 69.203125,
+              "y": 206.25,
+              "width": 235,
+              "height": 44,
+              "right": 304.203125,
+              "bottom": 250.25
+            },
+            "clientWidth": 233,
+            "clientHeight": 42,
+            "scrollWidth": 233,
+            "scrollHeight": 42,
+            "scrollLeft": 0,
+            "scrollTop": 0,
+            "overflowX": "visible",
+            "overflowY": "visible",
+            "objectFit": "fill",
+            "objectPosition": "50% 50%",
+            "outlineStyle": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(24, 35, 38)",
+            "text": "开始故事↗",
+            "src": null,
+            "naturalWidth": null,
+            "naturalHeight": null,
+            "presentation": null
+          },
+          {
+            "selector": "BUTTON",
+            "action": "load",
+            "choice": null,
+            "rect": {
+              "x": 69.203125,
+              "y": 297.25,
+              "width": 49.28125,
+              "height": 44,
+              "right": 118.484375,
+              "bottom": 341.25
+            },
+            "clientWidth": 49,
+            "clientHeight": 44,
+            "scrollWidth": 49,
+            "scrollHeight": 44,
+            "scrollLeft": 0,
+            "scrollTop": 0,
+            "overflowX": "visible",
+            "overflowY": "visible",
+            "objectFit": "fill",
+            "objectPosition": "50% 50%",
+            "outlineStyle": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(198, 201, 189)",
+            "text": "读取存档",
+            "src": null,
+            "naturalWidth": null,
+            "naturalHeight": null,
+            "presentation": null
+          },
+          {
+            "selector": "BUTTON",
+            "action": "settings",
+            "choice": null,
+            "rect": {
+              "x": 254.921875,
+              "y": 297.25,
+              "width": 49.28125,
+              "height": 44,
+              "right": 304.203125,
+              "bottom": 341.25
+            },
+            "clientWidth": 49,
+            "clientHeight": 44,
+            "scrollWidth": 49,
+            "scrollHeight": 44,
+            "scrollLeft": 0,
+            "scrollTop": 0,
+            "overflowX": "visible",
+            "overflowY": "visible",
+            "objectFit": "fill",
+            "objectPosition": "50% 50%",
+            "outlineStyle": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(198, 201, 189)",
+            "text": "游戏设置",
+            "src": null,
+            "naturalWidth": null,
+            "naturalHeight": null,
+            "presentation": null
+          },
+          {
+            "selector": "ambient-button",
+            "action": "sound",
+            "choice": null,
+            "rect": {
+              "x": 711.84375,
+              "y": 334.3125,
+              "width": 84.0625,
+              "height": 44,
+              "right": 795.90625,
+              "bottom": 378.3125
+            },
+            "clientWidth": 84,
+            "clientHeight": 44,
+            "scrollWidth": 84,
+            "scrollHeight": 44,
+            "scrollLeft": 0,
+            "scrollTop": 0,
+            "overflowX": "visible",
+            "overflowY": "visible",
+            "objectFit": "fill",
+            "objectPosition": "50% 50%",
+            "outlineStyle": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(185, 194, 186)",
+            "text": "♪环境音关",
+            "src": null,
+            "naturalWidth": null,
+            "naturalHeight": null,
+            "presentation": null
+          }
+        ],
+        "hitTests": [
+          {
+            "action": "start",
+            "label": "开始故事↗",
+            "fullyVisible": true,
+            "points": [
+              {
+                "x": 73.203125,
+                "y": 210.25,
+                "pass": true,
+                "hit": "title-start"
+              },
+              {
+                "x": 300.203125,
+                "y": 210.25,
+                "pass": true,
+                "hit": "title-start"
+              },
+              {
+                "x": 73.203125,
+                "y": 246.25,
+                "pass": true,
+                "hit": "title-start"
+              },
+              {
+                "x": 300.203125,
+                "y": 246.25,
+                "pass": true,
+                "hit": "title-start"
+              }
+            ]
+          },
+          {
+            "action": "load",
+            "label": "读取存档",
+            "fullyVisible": true,
+            "points": [
+              {
+                "x": 73.203125,
+                "y": 301.25,
+                "pass": true,
+                "hit": "BUTTON"
+              },
+              {
+                "x": 114.484375,
+                "y": 301.25,
+                "pass": true,
+                "hit": "BUTTON"
+              },
+              {
+                "x": 73.203125,
+                "y": 337.25,
+                "pass": false,
+                "hit": "title-footer"
+              },
+              {
+                "x": 114.484375,
+                "y": 337.25,
+                "pass": false,
+                "hit": "title-footer"
+              }
+            ]
+          },
+          {
+            "action": "settings",
+            "label": "游戏设置",
+            "fullyVisible": true,
+            "points": [
+              {
+                "x": 258.921875,
+                "y": 301.25,
+                "pass": true,
+                "hit": "BUTTON"
+              },
+              {
+                "x": 300.203125,
+                "y": 301.25,
+                "pass": true,
+                "hit": "BUTTON"
+              },
+              {
+                "x": 258.921875,
+                "y": 337.25,
+                "pass": false,
+                "hit": "title-footer"
+              },
+              {
+                "x": 300.203125,
+                "y": 337.25,
+                "pass": false,
+                "hit": "title-footer"
+              }
+            ]
+          },
+          {
+            "action": "sound",
+            "label": "♪环境音关",
+            "fullyVisible": true,
+            "points": [
+              {
+                "x": 715.84375,
+                "y": 338.3125,
+                "pass": true,
+                "hit": "ambient-button"
+              },
+              {
+                "x": 791.90625,
+                "y": 338.3125,
+                "pass": true,
+                "hit": "ambient-button"
+              },
+              {
+                "x": 715.84375,
+                "y": 374.3125,
+                "pass": true,
+                "hit": "ambient-button"
+              },
+              {
+                "x": 791.90625,
+                "y": 374.3125,
+                "pass": true,
+                "hit": "ambient-button"
+              }
+            ]
+          }
+        ],
+        "choices": [],
+        "active": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "right": 844,
+            "bottom": 390
+          },
+          "clientWidth": 844,
+          "clientHeight": 390,
+          "scrollWidth": 844,
+          "scrollHeight": 390,
+          "scrollLeft": 0,
+          "scrollTop": 0,
+          "overflowX": "clip",
+          "overflowY": "clip",
+          "objectFit": "fill",
+          "objectPosition": "50% 50%",
+          "outlineStyle": "none",
+          "outlineWidth": "3px",
+          "outlineColor": "rgb(239, 238, 230)",
+          "text": "回声 / ECHO贵州 · 毕节\n      \n         一场雨，一座城，四次相遇\n        毕节，雨停之前。\n        \n        一个关于重逢与告别的故事\n        \n          开始故事↗\n          继续旅程CONTINUE\n          \n            读取存档/游戏设置\n          \n        \n      \n      \n      文文23 岁 · 回来的人\n      序章试玩/约 20 分钟所有人物及经历均为虚构 · 恋爱角色均已成年♪环境音关\n    \n\n    \n      \n        DAY 01回来的人\n        傍晚毕节 · 老街\n        \n      \n      \n      \n        \n      \n      \n      \n        这一刻，你决定——\n        你会怎么回答？\n        \n        每一次选择，都会留下一点回声。\n      \n      \n      \n        \n          \n          文文\n          点击继续\n        \n        \n          雨停之前\n          回顾自动存档读档声音关设置\n        \n      \n    \n\n    \n      回声 / ECHO故事，才刚刚开始\n      \n       序章试玩结束雨还没有停NEXT CHAPTER / 下一章重选今晚的消息 ↗读取存档返回标题\n      本段为序章收束预告，尚未锁定正式恋爱路线。\n    \n\n    \n      毕节，雨停之前游戏设置×让故事，按你的节奏继续。ESC 关闭",
+          "src": null,
+          "naturalWidth": null,
+          "naturalHeight": null,
+          "presentation": null
+        },
+        "activeTag": "BODY",
+        "activeInModal": false,
+        "reducedMotion": false,
+        "animations": [
+          {
+            "selector": "rain",
+            "name": "rainfall",
+            "duration": "7s",
+            "transition": "0s"
+          },
+          {
+            "selector": "title-hero",
+            "name": "portrait-enter",
+            "duration": "1.5s",
+            "transition": "0s"
+          },
+          {
+            "selector": "choice-panel",
+            "name": "none",
+            "duration": "0s",
+            "transition": "0s"
+          },
+          {
+            "selector": "",
+            "name": "hint-pulse",
+            "duration": "2s",
+            "transition": "0s"
+          }
+        ]
+      },
+      "focusSamples": [
+        {
+          "active": "title-start",
+          "inModal": false,
+          "page": {
+            "scrollX": 0,
+            "scrollY": 0,
+            "documentWidth": 844,
+            "documentHeight": 390,
+            "bodyWidth": 844,
+            "bodyHeight": 390,
+            "appScrollLeft": 0,
+            "appScrollTop": 0
+          },
+          "app": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "right": 844,
+            "bottom": 390
+          },
+          "outline": {
+            "style": "solid",
+            "width": "2px"
+          }
+        },
+        {
+          "active": "BUTTON",
+          "inModal": false,
+          "page": {
+            "scrollX": 0,
+            "scrollY": 0,
+            "documentWidth": 844,
+            "documentHeight": 390,
+            "bodyWidth": 844,
+            "bodyHeight": 390,
+            "appScrollLeft": 0,
+            "appScrollTop": 0
+          },
+          "app": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "right": 844,
+            "bottom": 390
+          },
+          "outline": {
+            "style": "solid",
+            "width": "2px"
+          }
+        },
+        {
+          "active": "BUTTON",
+          "inModal": false,
+          "page": {
+            "scrollX": 0,
+            "scrollY": 0,
+            "documentWidth": 844,
+            "documentHeight": 390,
+            "bodyWidth": 844,
+            "bodyHeight": 390,
+            "appScrollLeft": 0,
+            "appScrollTop": 0
+          },
+          "app": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "right": 844,
+            "bottom": 390
+          },
+          "outline": {
+            "style": "solid",
+            "width": "2px"
+          }
+        },
+        {
+          "active": "ambient-button",
+          "inModal": false,
+          "page": {
+            "scrollX": 0,
+            "scrollY": 0,
+            "documentWidth": 844,
+            "documentHeight": 390,
+            "bodyWidth": 844,
+            "bodyHeight": 390,
+            "appScrollLeft": 0,
+            "appScrollTop": 0
+          },
+          "app": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "right": 844,
+            "bottom": 390
+          },
+          "outline": {
+            "style": "solid",
+            "width": "2px"
+          }
+        },
+        {
+          "active": "BODY",
+          "inModal": false,
+          "page": {
+            "scrollX": 0,
+            "scrollY": 0,
+            "documentWidth": 844,
+            "documentHeight": 390,
+            "bodyWidth": 844,
+            "bodyHeight": 390,
+            "appScrollLeft": 0,
+            "appScrollTop": 0
+          },
+          "app": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "right": 844,
+            "bottom": 390
+          },
+          "outline": {
+            "style": "none",
+            "width": "3px"
+          }
+        },
+        {
+          "active": "title-start",
+          "inModal": false,
+          "page": {
+            "scrollX": 0,
+            "scrollY": 0,
+            "documentWidth": 844,
+            "documentHeight": 390,
+            "bodyWidth": 844,
+            "bodyHeight": 390,
+            "appScrollLeft": 0,
+            "appScrollTop": 0
+          },
+          "app": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "right": 844,
+            "bottom": 390
+          },
+          "outline": {
+            "style": "solid",
+            "width": "2px"
+          }
+        },
+        {
+          "active": "BUTTON",
+          "inModal": false,
+          "page": {
+            "scrollX": 0,
+            "scrollY": 0,
+            "documentWidth": 844,
+            "documentHeight": 390,
+            "bodyWidth": 844,
+            "bodyHeight": 390,
+            "appScrollLeft": 0,
+            "appScrollTop": 0
+          },
+          "app": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "right": 844,
+            "bottom": 390
+          },
+          "outline": {
+            "style": "solid",
+            "width": "2px"
+          }
+        },
+        {
+          "active": "BUTTON",
+          "inModal": false,
+          "page": {
+            "scrollX": 0,
+            "scrollY": 0,
+            "documentWidth": 844,
+            "documentHeight": 390,
+            "bodyWidth": 844,
+            "bodyHeight": 390,
+            "appScrollLeft": 0,
+            "appScrollTop": 0
+          },
+          "app": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "right": 844,
+            "bottom": 390
+          },
+          "outline": {
+            "style": "solid",
+            "width": "2px"
+          }
+        },
+        {
+          "active": "ambient-button",
+          "inModal": false,
+          "page": {
+            "scrollX": 0,
+            "scrollY": 0,
+            "documentWidth": 844,
+            "documentHeight": 390,
+            "bodyWidth": 844,
+            "bodyHeight": 390,
+            "appScrollLeft": 0,
+            "appScrollTop": 0
+          },
+          "app": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "right": 844,
+            "bottom": 390
+          },
+          "outline": {
+            "style": "solid",
+            "width": "2px"
+          }
+        }
+      ],
+      "screenshot": "qa/ui-844x390-title.png",
+      "pass": false
+    }
+  ],
+  "browser": "155.0.8059.84",
+  "filesAfter": {
+    "index.html": {
+      "sha256": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+      "bytes": 7049,
+      "mtime": "2026-10-20T01:31:26.251Z"
+    },
+    "styles.css": {
+      "sha256": "a3606356aee729087bed34aaad2c1ffdbbbece283a4a5066c5494425bc166390",
+      "bytes": 38773,
+      "mtime": "2026-10-20T01:32:51.119Z"
+    },
+    "game.js": {
+      "sha256": "6bcd399cccb020e079061b8c08a4ff782dae8693a2de5189b8212080352b9cc4",
+      "bytes": 45283,
+      "mtime": "2026-10-20T01:35:56.210Z"
+    },
+    "story.js": {
+      "sha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+      "bytes": 126840,
+      "mtime": "2026-10-19T09:28:16.144Z"
+    },
+    "engine.js": {
+      "sha256": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+      "bytes": 9734,
+      "mtime": "2026-10-19T02:36:54.394Z"
+    },
+    "assets/characters-manifest.json": {
+      "sha256": "40078c78ae9e49199d8a4d46e3f84f7ba115fe0389481d6c89769be44c841271",
+      "bytes": 19622,
+      "mtime": "2026-10-19T02:41:14.489Z"
+    },
+    "assets/new-characters-manifest.json": {
+      "sha256": "68c5ecd046214c8393911b86485bff0aaa26c4449d5503e058504d5fa2053be3",
+      "bytes": 9755,
+      "mtime": "2026-10-19T03:18:15.245Z"
+    },
+    "assets/backgrounds-manifest.json": {
+      "sha256": "a7c8c29a6427009f69ca3059443162bc7bfa009854e4ca3a491dadc6f55718ae",
+      "bytes": 34956,
+      "mtime": "2026-10-19T07:06:15.903Z"
+    },
+    "assets/bg-street.png": {
+      "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "bytes": 3010764,
+      "mtime": "2026-10-16T09:59:52.277Z"
+    },
+    "assets/bg-repair.png": {
+      "sha256": "3b918a88c0d486575fa18d09afb70a37f9e1743257dd49ce1a44f72416e098aa",
+      "bytes": 2576047,
+      "mtime": "2026-10-16T09:59:52.319Z"
+    },
+    "assets/bg-lobby.png": {
+      "sha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871",
+      "bytes": 2260911,
+      "mtime": "2026-10-16T09:59:52.363Z"
+    },
+    "assets/bg-room.png": {
+      "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+      "bytes": 1968927,
+      "mtime": "2026-10-16T09:59:52.407Z"
+    },
+    "assets/bg-noodles.png": {
+      "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+      "bytes": 2528115,
+      "mtime": "2026-10-19T02:45:43.975Z"
+    },
+    "assets/bg-salon.png": {
+      "sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+      "bytes": 2571679,
+      "mtime": "2026-10-16T09:59:52.496Z"
+    },
+    "assets/char-wenwen.png": {
+      "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "bytes": 2267104,
+      "mtime": "2026-10-16T09:56:04.107Z"
+    },
+    "assets/char-xiaoman.png": {
+      "sha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+      "bytes": 2323438,
+      "mtime": "2026-10-16T09:57:32.636Z"
+    },
+    "assets/char-zhouzhi.png": {
+      "sha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+      "bytes": 1902928,
+      "mtime": "2026-10-16T09:58:19.341Z"
+    },
+    "assets/char-mengyao.png": {
+      "sha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+      "bytes": 2209681,
+      "mtime": "2026-10-16T09:58:58.007Z"
+    },
+    "assets/char-yelan.png": {
+      "sha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+      "bytes": 1835417,
+      "mtime": "2026-10-16T09:59:44.461Z"
+    },
+    "assets/char-maolang.png": {
+      "sha256": "d554134d8bf022572c0c26b9d0db80bbf59ec227c3b5aab4ce61089ba2133a1c",
+      "bytes": 2038141,
+      "mtime": "2026-10-19T03:10:41.643Z"
+    },
+    "assets/char-shijiang.png": {
+      "sha256": "a8e1bceb9dad767e2ec11c94f3977a9b8337a2abcbd6b47c4f6996e72e004b1c",
+      "bytes": 1825205,
+      "mtime": "2026-10-19T03:15:13.824Z"
+    },
+    "assets/char-huangqiuqiu.png": {
+      "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9",
+      "bytes": 1305412,
+      "mtime": "2026-10-19T02:47:37.819Z"
+    }
+  },
+  "changedDuringRun": [],
+  "finished": "2026-10-20T01:37:58.790Z",
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "assertions": 16,
+    "failedAssertions": 1,
+    "screenshots": 1,
+    "versionStable": true
+  },
+  "pass": false
+}

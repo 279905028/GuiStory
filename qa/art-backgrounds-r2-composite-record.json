@@ -1,0 +1,152 @@
+{
+  "contract": "R2",
+  "date": "2026-10-19",
+  "count": 8,
+  "scope": "仅检查在维修亮底与包厢暗底上的显示可读性；角色资源只读；黄球球首次现身仍为room，repair只作QA明底测试，不建议在H1提前显示。",
+  "composites": [
+    {
+      "role": "huangqiuqiu",
+      "background": "repair",
+      "viewport": [
+        1280,
+        720
+      ],
+      "evidence": "qa/art-backgrounds-r2-huangqiuqiu-repair-1280x720-alpha.png",
+      "background_object_position": "50% 50%",
+      "sprite_box_xywh": [
+        806,
+        158,
+        256,
+        256
+      ],
+      "method": "Pillow alpha composite; equal-aspect contain; simplified dialogue mask. Not an actual browser or game screenshot.",
+      "character_sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9"
+    },
+    {
+      "role": "huangqiuqiu",
+      "background": "room",
+      "viewport": [
+        1280,
+        720
+      ],
+      "evidence": "qa/art-backgrounds-r2-huangqiuqiu-room-1280x720-alpha.png",
+      "background_object_position": "50% 50%",
+      "sprite_box_xywh": [
+        806,
+        158,
+        256,
+        256
+      ],
+      "method": "Pillow alpha composite; equal-aspect contain; simplified dialogue mask. Not an actual browser or game screenshot.",
+      "character_sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9"
+    },
+    {
+      "role": "huangqiuqiu",
+      "background": "repair",
+      "viewport": [
+        390,
+        844
+      ],
+      "evidence": "qa/art-backgrounds-r2-huangqiuqiu-repair-390x844-alpha.png",
+      "background_object_position": "18% 50%",
+      "sprite_box_xywh": [
+        172,
+        211,
+        187,
+        187
+      ],
+      "method": "Pillow alpha composite; equal-aspect contain; simplified dialogue mask. Not an actual browser or game screenshot.",
+      "character_sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9"
+    },
+    {
+      "role": "huangqiuqiu",
+      "background": "room",
+      "viewport": [
+        390,
+        844
+      ],
+      "evidence": "qa/art-backgrounds-r2-huangqiuqiu-room-390x844-alpha.png",
+      "background_object_position": "38% 50%",
+      "sprite_box_xywh": [
+        172,
+        211,
+        187,
+        187
+      ],
+      "method": "Pillow alpha composite; equal-aspect contain; simplified dialogue mask. Not an actual browser or game screenshot.",
+      "character_sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9"
+    },
+    {
+      "role": "maolang",
+      "background": "repair",
+      "viewport": [
+        1280,
+        720
+      ],
+      "evidence": "qa/art-backgrounds-r2-maolang-repair-1280x720-alpha.png",
+      "background_object_position": "50% 50%",
+      "sprite_box_xywh": [
+        614,
+        50,
+        576,
+        598
+      ],
+      "method": "Pillow alpha composite; equal-aspect contain; simplified dialogue mask. Not an actual browser or game screenshot.",
+      "character_sha256": "d554134d8bf022572c0c26b9d0db80bbf59ec227c3b5aab4ce61089ba2133a1c"
+    },
+    {
+      "role": "maolang",
+      "background": "room",
+      "viewport": [
+        1280,
+        720
+      ],
+      "evidence": "qa/art-backgrounds-r2-maolang-room-1280x720-alpha.png",
+      "background_object_position": "50% 50%",
+      "sprite_box_xywh": [
+        614,
+        50,
+        576,
+        598
+      ],
+      "method": "Pillow alpha composite; equal-aspect contain; simplified dialogue mask. Not an actual browser or game screenshot.",
+      "character_sha256": "d554134d8bf022572c0c26b9d0db80bbf59ec227c3b5aab4ce61089ba2133a1c"
+    },
+    {
+      "role": "shijiang",
+      "background": "repair",
+      "viewport": [
+        1280,
+        720
+      ],
+      "evidence": "qa/art-backgrounds-r2-shijiang-repair-1280x720-alpha.png",
+      "background_object_position": "50% 50%",
+      "sprite_box_xywh": [
+        614,
+        50,
+        576,
+        598
+      ],
+      "method": "Pillow alpha composite; equal-aspect contain; simplified dialogue mask. Not an actual browser or game screenshot.",
+      "character_sha256": "a8e1bceb9dad767e2ec11c94f3977a9b8337a2abcbd6b47c4f6996e72e004b1c"
+    },
+    {
+      "role": "shijiang",
+      "background": "room",
+      "viewport": [
+        1280,
+        720
+      ],
+      "evidence": "qa/art-backgrounds-r2-shijiang-room-1280x720-alpha.png",
+      "background_object_position": "50% 50%",
+      "sprite_box_xywh": [
+        614,
+        50,
+        576,
+        598
+      ],
+      "method": "Pillow alpha composite; equal-aspect contain; simplified dialogue mask. Not an actual browser or game screenshot.",
+      "character_sha256": "a8e1bceb9dad767e2ec11c94f3977a9b8337a2abcbd6b47c4f6996e72e004b1c"
+    }
+  ]
+}

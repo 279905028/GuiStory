@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "id": "CG07",
+  "date": "2026-10-20",
+  "status": "美术自审采用；待用户审阅、工程接入及正式游戏验收",
+  "tool": "内置image_gen",
+  "storySha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+  "references": [
+    {
+      "path": "assets/char-yelan.png",
+      "sha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+      "role": "正式角色身份参考"
+    },
+    {
+      "path": "assets/char-wenwen.png",
+      "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "role": "正式角色身份参考"
+    },
+    {
+      "path": "assets/bg-street.png",
+      "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "role": "正式空间材质参考"
+    },
+    {
+      "path": "assets/cg/cg-02-xiaoman-mirror.png",
+      "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e",
+      "role": "已采用CG的统一画法参考"
+    },
+    {
+      "path": "assets/cg/cg-08-huangqiuqiu-listening.png",
+      "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1",
+      "role": "已采用CG的统一画法参考"
+    }
+  ],
+  "attempts": [
+    {
+      "version": "candidate-v1",
+      "prompt": "用途：illustration-story；《毕节，雨停之前》第1—10天序章的完整剧情CG，不是立绘拼贴。统一画法：日系半写实视觉小说插画，成年中国人物，面部严格匹配正式角色参考，自然真实比例，细腻克制的绘画质感，旧物与衣料有生活纹理，灰青环境与实用暖光相融，不改成夸张动漫脸、3D玩偶或照片风格。横向16:9，目标1920×1080不透明PNG。所有重要脸、手和道具放在画面上方15%至62%范围，底部35%以非关键衣物、地面等自然场景延伸容纳将来的对白；不画任何文字、标注、对白框、界面、标题、边框、水印。人物与环境统一重绘，自然遮挡、透视和接触影，禁止把参考立绘直接贴入背景。\n本张CG07：第10天雨夜，叶岚收工后的那段路，对应preview_yelan_10前半句。图1为叶岚27岁正式低髻、深灰西装灰衬衫与成人面孔，图2作文文深灰夹克和工具包主人参考，图3为毕节雨夜坡路、普通店门檐下、暖光湿地参考。画面从仍在回声门口檐边收工具包的文文第一人称眼高看去：叶岚已撑开深色伞，走出两步，位于右中部，转回肩头看向文文，神情轻松而克制，在等待而不是甜蜜摆拍。她脸在65%宽30%高，伞沿在画面15%至30%高，握伞的一只手和伞柄在约50%高，另一只手清楚空着、自然放松在身侧，钥匙和工作夹板全部在已拉好拉链的普通肩包里，不外露。前景左侧文文只露旧夹克袖和正在合拢独立工具包的双手，工具包在约30%宽55%高。将回头的脸、伞柄、空手和收包手都尽量安排在纵向62%以内；底部是自然湿路、雨痕和非关键衣摆。叶岚两步外的距离清楚，身后坡路向路口延伸，但还没有与文文并肩走远；文文仍在檐下，不必画第二把撑开的伞，不能画共撑一把伞或牵手。没有工作表、夹板、钥匙拿在手中，没有其他同事或黄球球，没有约会告白或一整段路已经结束。\n最后两张额外参考仅用于统一本批已采用CG02与CG08的绘画细腻程度、真实比例、旧环境质感和暖冷光融合。不能把这两张参考的小满、黄球球、理发店或包厢场景额外带入本张。以本张各自规定的人物和场景为准。镜头尽量用有环境纵深的中景，不要裁掉关键的手、道具或伞，所有比例自然，不用加黑条制作底部空间。",
+      "source": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a15384-7737-7423-837c-ceee66e56f7e/exec-8ec2e337-9bae-433f-ae2a-14826bcab3ce.png",
+      "archive": "assets/cg-variants/CG07/candidate-v1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2735921,
+      "sha256": "0eaa0c4a418e20926dcbfc11fbc0c782a38b17651151b341c9a45438ce8b61e8",
+      "review": "夜间撑伞回头等收包，夹板钥匙未外露，另一手空着，未共伞或牵手；成立。空手及工具包偏下，须独立完整显示。",
+      "inputReferences": [
+        {
+          "path": "assets/char-yelan.png",
+          "sha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496"
+        },
+        {
+          "path": "assets/char-wenwen.png",
+          "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44"
+        },
+        {
+          "path": "assets/bg-street.png",
+          "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e"
+        },
+        {
+          "path": "assets/cg/cg-02-xiaoman-mirror.png",
+          "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e"
+        },
+        {
+          "path": "assets/cg/cg-08-huangqiuqiu-listening.png",
+          "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1"
+        }
+      ],
+      "toolArguments": {
+        "prompt": "用途：illustration-story；《毕节，雨停之前》第1—10天序章的完整剧情CG，不是立绘拼贴。统一画法：日系半写实视觉小说插画，成年中国人物，面部严格匹配正式角色参考，自然真实比例，细腻克制的绘画质感，旧物与衣料有生活纹理，灰青环境与实用暖光相融，不改成夸张动漫脸、3D玩偶或照片风格。横向16:9，目标1920×1080不透明PNG。所有重要脸、手和道具放在画面上方15%至62%范围，底部35%以非关键衣物、地面等自然场景延伸容纳将来的对白；不画任何文字、标注、对白框、界面、标题、边框、水印。人物与环境统一重绘，自然遮挡、透视和接触影，禁止把参考立绘直接贴入背景。\n本张CG07：第10天雨夜，叶岚收工后的那段路，对应preview_yelan_10前半句。图1为叶岚27岁正式低髻、深灰西装灰衬衫与成人面孔，图2作文文深灰夹克和工具包主人参考，图3为毕节雨夜坡路、普通店门檐下、暖光湿地参考。画面从仍在回声门口檐边收工具包的文文第一人称眼高看去：叶岚已撑开深色伞，走出两步，位于右中部，转回肩头看向文文，神情轻松而克制，在等待而不是甜蜜摆拍。她脸在65%宽30%高，伞沿在画面15%至30%高，握伞的一只手和伞柄在约50%高，另一只手清楚空着、自然放松在身侧，钥匙和工作夹板全部在已拉好拉链的普通肩包里，不外露。前景左侧文文只露旧夹克袖和正在合拢独立工具包的双手，工具包在约30%宽55%高。将回头的脸、伞柄、空手和收包手都尽量安排在纵向62%以内；底部是自然湿路、雨痕和非关键衣摆。叶岚两步外的距离清楚，身后坡路向路口延伸，但还没有与文文并肩走远；文文仍在檐下，不必画第二把撑开的伞，不能画共撑一把伞或牵手。没有工作表、夹板、钥匙拿在手中，没有其他同事或黄球球，没有约会告白或一整段路已经结束。\n最后两张额外参考仅用于统一本批已采用CG02与CG08的绘画细腻程度、真实比例、旧环境质感和暖冷光融合。不能把这两张参考的小满、黄球球、理发店或包厢场景额外带入本张。以本张各自规定的人物和场景为准。镜头尽量用有环境纵深的中景，不要裁掉关键的手、道具或伞，所有比例自然，不用加黑条制作底部空间。",
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-yelan.png",
+          "/Users/yipin/Desktop/cjb/assets/char-wenwen.png",
+          "/Users/yipin/Desktop/cjb/assets/bg-street.png",
+          "/Users/yipin/Desktop/cjb/assets/cg/cg-02-xiaoman-mirror.png",
+          "/Users/yipin/Desktop/cjb/assets/cg/cg-08-huangqiuqiu-listening.png"
+        ],
+        "transparent_background": false
+      }
+    }
+  ],
+  "adopted": {
+    "version": "candidate-v1",
+    "path": "assets/cg/cg-07-yelan-off-duty.png",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2735921,
+    "sha256": "0eaa0c4a418e20926dcbfc11fbc0c782a38b17651151b341c9a45438ce8b61e8",
+    "postprocessing": "无；原生PNG逐字节复制，未放大、裁切或拉伸",
+    "selectionAuthority": "本窗口依据已确认分镜与正式参考作美术自审采用；非用户逐图终审",
+    "dimensionNote": "保留原生输出，非1920×1080；不拉伸、不放大或伪称高分辨率母版"
+  },
+  "gameAcceptance": "未接入、未验收",
+  "criticalRegions": {
+    "coordinateSystem": "整张原图百分比[x,y,w,h]，左上原点",
+    "method": "人工观察估计，非像素级分割；只作布局避让说明，不能直接当裁切参数",
+    "items": [
+      {
+        "label": "叶岚回头的脸",
+        "rect": [
+          62,
+          9,
+          14,
+          23
+        ]
+      },
+      {
+        "label": "伞与伞柄",
+        "rect": [
+          49,
+          0,
+          38,
+          54
+        ]
+      },
+      {
+        "label": "空下来的手",
+        "rect": [
+          56,
+          68,
+          5,
+          20
+        ]
+      },
+      {
+        "label": "收工具包的双手",
+        "rect": [
+          2,
+          47,
+          33,
+          39
+        ]
+      }
+    ]
+  },
+  "display": {
+    "approvedCrop": null,
+    "fit": "contain",
+    "desktop": "独立完整画面区，与对白区分开；不可直接沿用底部35%覆盖式对白",
+    "mobile": "完整横图、留边、独立对白；无竖版、无拉伸",
+    "reason": "实际多张图的关键道具或手位于原图下部，已按分镜约定的超出目标时改布局方案交接",
+    "staticChecks": [
+      {
+        "viewport": [
+          1440,
+          900
+        ],
+        "screenshot": "qa/cg-m2-CG07-static-1440x900.png"
+      },
+      {
+        "viewport": [
+          1280,
+          720
+        ],
+        "screenshot": "qa/cg-m2-CG07-static-1280x720.png"
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "screenshot": "qa/cg-m2-CG07-static-390x844.png"
+      },
+      {
+        "viewport": [
+          375,
+          667
+        ],
+        "screenshot": "qa/cg-m2-CG07-static-375x667.png"
+      },
+      {
+        "viewport": [
+          844,
+          390
+        ],
+        "screenshot": "qa/cg-m2-CG07-static-844x390.png"
+      }
+    ],
+    "rawChecks": "qa/cg-m2-static-checks.json",
+    "staticReviewPage": "qa/cg-m2-art-review.html",
+    "manualSmallScreenReview": "已逐张查看375×667截图；脸、动作及主要道具可辨；纸张细字不作识别要求",
+    "gameAcceptance": "未执行"
+  },
+  "integration": {
+    "cgKey": "cg07",
+    "nodeIds": [
+      "preview_yelan_10"
+    ],
+    "restoreAt": "preview_yelan_11",
+    "status": "待CG-D统一接入，story.js未修改",
+    "hidden": false,
+    "hiddenLoadBoundary": null
+  }
+}

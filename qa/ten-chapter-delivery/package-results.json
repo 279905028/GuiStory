@@ -1,0 +1,101 @@
+{
+  "task": "E11",
+  "scope": "实际ZIP独立解压、资源闭包、来源重建、离线服务、回退基线与损坏拒绝；不覆盖E10设备结果",
+  "checks": [
+    {
+      "name": "ZIP CRC、路径与独立中文空格目录解压",
+      "passed": true,
+      "details": {
+        "entries": 229,
+        "extracted": "/var/folders/m5/q0b_ssrn1zb_g7fzs17nsj1h0000gn/T/bijie-e11-打包检查 空格-ybblnF/bi-jie-ten-chapter-nightshift-20261022-r1-e11"
+      }
+    },
+    {
+      "name": "229份文件完整性与正式工程逐字一致",
+      "passed": true,
+      "details": {
+        "passed": true,
+        "files": 228,
+        "registeredAssets": 138,
+        "contentSha256": "e939e36af90848b25e6c2a2db6c897d329074ae79a78ed688a2785351d9f8571",
+        "storySha256": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60",
+        "entriesIncludingManifest": 229,
+        "formalFilesMatched": 146
+      }
+    },
+    {
+      "name": "138张真实WebP与剧情和首页资源闭包",
+      "passed": true,
+      "details": {
+        "assetCount": 138,
+        "inheritedPathsOutsideTenChapter": 37,
+        "audio": "Web Audio程序生成，无外部音频文件"
+      }
+    },
+    {
+      "name": "包内源独立重建四份正式产物逐字一致",
+      "passed": true,
+      "details": {
+        "passed": true,
+        "outputs": [
+          "story.js",
+          "assets/runtime-ten-chapter-manifest.json",
+          "任务拆分/全十章/校验/E09/source-map.json",
+          "任务拆分/全十章/校验/E09/build-report.json"
+        ],
+        "buildSha256": "db01e296857b57e787323644aeefdb30bfdbea53cb854d5812cf1935fb815139",
+        "formalWriteExecuted": false
+      }
+    },
+    {
+      "name": "缺文件、内容篡改、未登记文件与软链接拒绝",
+      "passed": true,
+      "details": {
+        "rejectedCases": 4,
+        "restoredOriginalBytes": true
+      }
+    },
+    {
+      "name": "相同源第二次打包得到完全相同ZIP",
+      "passed": true,
+      "details": {
+        "sha256": "c53545a3a47f7c42e49716038b3bb699f29fc47bd5ef0b6b65a80dab9feee0bb",
+        "reproducedBytes": 179972124
+      }
+    },
+    {
+      "name": "本机服务146份文件内容、类型与禁缓存",
+      "passed": true,
+      "details": {
+        "served": 146,
+        "localhostOnly": true,
+        "head": "passed"
+      }
+    },
+    {
+      "name": "服务拒绝资料目录、未登记资源、越界和写入",
+      "passed": true,
+      "details": {
+        "refusedCases": 7
+      }
+    },
+    {
+      "name": "回退材料与设备待验保持真实状态",
+      "passed": true,
+      "details": {
+        "baseline": "bi-jie-ten-chapter-nightshift-20261022-r1-e11.zip",
+        "unchangedHistoricalFiles": 90,
+        "oldGameNotRuntimeTested": true,
+        "playerStorageAccessed": false
+      }
+    }
+  ],
+  "startedAt": "2026-10-23T06:02:43.606Z",
+  "zip": "/Users/yipin/Desktop/cjb/交付/全十章-E11/dist/bi-jie-ten-chapter-nightshift-20261022-r1-e11.zip",
+  "zipSha256": "c53545a3a47f7c42e49716038b3bb699f29fc47bd5ef0b6b65a80dab9feee0bb",
+  "playerStorageAccessed": false,
+  "deployed": false,
+  "status": "passed",
+  "completedAt": "2026-10-23T06:02:50.518Z",
+  "passed": 9
+}

@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-23",
+  "jobs": [
+    {
+      "id": "cover-desktop",
+      "dir": "ui",
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied existing game cover. Make only two tiny local corrections: remove all red/black screwdriver and metal tool objects protruding from the foreground short-haired man's chest pocket, leaving a natural empty dark jacket pocket with its seam intact; remove the hanging camera, lens and dangling camera strap from the central ponytail woman's small black silhouette on the bridge, giving her empty relaxed hands. Preserve every character identity, face, body, clothing, pose, all other silhouettes, the skyline, river, sunset, lighting, typography, exact title 毕节，雨停之前 and subtitle 贵州 · 毕节, and original composition. Do not redesign anything. Preserve original aspect ratio and dimensions where supported. No additional text or logos. Opaque image.",
+      "references": [
+        "assets/cover-b-desktop.webp"
+      ],
+      "source": "assets/ten-chapter/ui/originals/cover-desktop-v1.png",
+      "output": "assets/ten-chapter/ui/cover-desktop.webp",
+      "selected": true,
+      "tool": "built-in image_gen",
+      "outputHint": "Generated images are saved to /Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1668e-3ad9-72b0-b5cb-db505957dcff as /Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1668e-3ad9-72b0-b5cb-db505957dcff/exec-ed1c946b-c0d4-4904-84c6-64ef2e3e16b0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "id": "cover-mobile",
+      "dir": "ui",
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied existing game cover. Make only two tiny local corrections: remove all red/black screwdriver and metal tool objects protruding from the foreground short-haired man's chest pocket, leaving a natural empty dark jacket pocket with its seam intact; remove the hanging camera, lens and dangling camera strap from the central ponytail woman's small black silhouette on the bridge, giving her empty relaxed hands. Preserve every character identity, face, body, clothing, pose, all other silhouettes, the skyline, river, sunset, lighting, typography, exact title 毕节，雨停之前 and subtitle 贵州 · 毕节, and original composition. Do not redesign anything. Preserve original aspect ratio and dimensions where supported. No additional text or logos. Opaque image.",
+      "references": [
+        "assets/cover-b-mobile.webp"
+      ],
+      "source": "assets/ten-chapter/ui/originals/cover-mobile-v1.png",
+      "output": "assets/ten-chapter/ui/cover-mobile.webp",
+      "selected": true,
+      "tool": "built-in image_gen",
+      "outputHint": "Generated images are saved to /Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1668e-3ad9-72b0-b5cb-db505957dcff as /Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1668e-3ad9-72b0-b5cb-db505957dcff/exec-0bfd2dd5-c798-412a-a359-1e4db4f429ac.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "id": "cg-piao-choice",
+      "dir": "cg",
+      "prompt": "Use case: illustration-story / identity-preserve. Create one finished 1920x1080 landscape visual-novel CG, not a collage. Reference 1 is Piao's exact adult face, black low ponytail, wispy bangs, faint cheek dimple, white short sleeve blouse with thin black piping, red wrist cord. Reference 2 is the riverside location: Bijie modest old buildings, grey overcast daylight, stone path, bench, stream, green hills, wooden shelter; use a closer camera from the bench while preserving this environment. A quiet 4pm conversation before a relationship choice, first-person seated viewpoint from beside her. Piao sits at the center, turns her face attentively toward the viewer with a composed serious but gentle expression, shoulders relaxed. Both her hands stay naturally in her own lap, no reaching out. A small paper bag with sweet biscuits and two plain capped water bottles on the bench beside her, no labels. Camera waist-up, face around center 50% width and upper 35% height, important hands inside middle 60% width. Sophisticated semi-realistic Japanese visual novel painted illustration, natural anatomy, subtle brush detail, cinematic realistic background, soft overcast light. No other person in shot, no foreground male hand, no holding hands, no camera, no work equipment, no sparkles, no dramatic romance framing, no text, no watermark. Opaque. This neutral picture serves both friendship and dating branches before the choice.",
+      "references": [
+        "assets/char-piao.webp",
+        "assets/ten-chapter/backgrounds/bg-river-day.webp"
+      ],
+      "source": "assets/ten-chapter/cg/originals/cg-piao-choice-v1.png",
+      "output": "assets/ten-chapter/cg/cg-piao-choice.webp",
+      "selected": true,
+      "tool": "built-in image_gen",
+      "outputHint": "Generated images are saved to /Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1668e-3ad9-72b0-b5cb-db505957dcff as /Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1668e-3ad9-72b0-b5cb-db505957dcff/exec-06cdd9e3-2e04-482d-9527-859e4a5fe502.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "id": "cg-last-echo-dinner",
+      "dir": "cg",
+      "prompt": "Use case: illustration-story / identity-preserve. Single finished landscape 1920x1080 CG for a visual novel. Reference 1 is Zhouzhi's exact adult face, long dark hair and dark teal blouse. Reference 2 is Maolang's exact adult male face, messy short hair and black colorful graphic T-shirt. Reference 3 is the modest Bijie noodle shop at dusk, wooden tables and bowls, warm practical lamps, open frontage and cool street light; preserve this environment. A close-medium table shot from Wenwen's seated first-person viewpoint in the aisle, during the ordinary shared dinner on day 30 at 18:00 before Zhouzhi's last shift at Echo. Frame Zhouzhi center-right, Maolang center-left; ONLY these two are visible, rest of the long shared table extends outside the crop so other attendees remain off-screen, not absent from the story. Zhouzhi smiles naturally while talking, with one hand beside her bowl. Maolang listening with a slightly amused smile. Her plain dark outer jacket folded over the back of her chair. Plain bowls, chopsticks laid on table, everyday shared dishes, small glass of water. Upper bodies and faces in middle 60% width, face line upper third, viewer-height camera. Natural hands, no touching each other. Semi-realistic Japanese hand-painted visual novel look, cinematic realistic environment, intimate ordinary evening light, restrained emotion. NOT a farewell ceremony, no stage, no microphone, no speeches, no closure signs, no raised toast, no work tools, no camera, no clipboard, no implied romance, no Huangqiuqiu, no new guest faces. No readable text, no watermark.",
+      "references": [
+        "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+        "assets/char-maolang.webp",
+        "assets/backgrounds/bijie-20261020/bg-noodles-dusk.webp"
+      ],
+      "source": "assets/ten-chapter/cg/originals/cg-last-echo-dinner-v1.png",
+      "output": "assets/ten-chapter/cg/cg-last-echo-dinner.webp",
+      "selected": true,
+      "tool": "built-in image_gen",
+      "outputHint": "Generated images are saved to /Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1668e-3ad9-72b0-b5cb-db505957dcff as /Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1668e-3ad9-72b0-b5cb-db505957dcff/exec-4aa00805-23b8-4717-a128-2ff717b4d83c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "id": "cg-qiuqiu-transform",
+      "dir": "cg",
+      "prompt": "Use case: illustration-story / identity-preserve. Create one finished 1920x1080 landscape visual novel CG, not a panel collage. Reference 1 is Huangqiuqiu's approved adult human identity: medium length light brown hair and bangs, white rectangular eye dressing over HER LEFT eye (viewer-right), dark grey visible right eye, black ring choker, small silver necklace, oversized beige hoodie, white graphic shirt, cream plush toy with blue cap on a white stick. Lock face, dressing side, accessories, clothing and toy shape. Reference 2 is the exact small old netcafe courtyard: open wooden door on left, grey weathered wall and potted plants, blue plastic stools, wall sink at right, sheltered dry interior floor. Late afternoon 17:00 diffuse natural daylight, match reference orientation. This is ONLY the third beat AFTER she independently transformed, after the hands have separated and the unseen narrator moved his stool back. Medium waist-up view of her seated in the middle, relaxed shoulders, looking calmly at the viewer and gently straightening the plush stick with one naturally drawn hand. Frame strictly at the hoodie waist, NO legs, skirt, pants, lower-body design or exposed midriff. Keep face and toy inside center 60% width and upper-middle 65% height. An empty blue stool partly at left foreground suggests space between them; no other person, male hand, embrace, handshake, ball form, magic wand effects or glowing particles. Everyday calm self-determined change, not romantic reward. Sophisticated semi-realistic Japanese visual novel painted style and cinematic realistic background. No text, no watermark. Opaque.",
+      "references": [
+        "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+        "assets/ten-chapter/backgrounds/bg-courtyard-day.webp"
+      ],
+      "source": "assets/ten-chapter/cg/originals/cg-qiuqiu-transform-v1.png",
+      "output": "assets/ten-chapter/cg/cg-qiuqiu-transform.webp",
+      "selected": false,
+      "tool": "built-in image_gen",
+      "outputHint": "Generated images are saved to /Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1668e-3ad9-72b0-b5cb-db505957dcff as /Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1668e-3ad9-72b0-b5cb-db505957dcff/exec-8a33b3c1-9bd8-4be4-8cc6-76950c20d549.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "id": "cg-piao-wedding",
+      "dir": "cg",
+      "prompt": "Use case: illustration-story / identity-preserve. A single finished 1920x1080 landscape visual novel CG. Reference 1 is Maolang's exact adult male face and approved wedding outfit, navy casual suit and open collar white shirt, no necktie. Reference 2 is Piao's exact adult face with faint cheek dimples, low ponytail, gold studs, red wrist cord, and simple dusty pink short sleeve square-neck dress. Reference 3 is the modest Bijie street-side restaurant setting: awning, old sloping street, plain wooden tables, bowls, a few modest red paper decorations, daytime. Reframe a medium waist-up two-person candid scene at the doorway of that same small restaurant, characters grouped centrally within middle 60% width. Maolang on left nervously uses one hand to straighten his own shirt collar while looking toward the arriving unseen viewer; Piao stands near him on right, looking at his collar with a small affectionate amused smile, her hands relaxed at her waist, not touching him. On the near table sits one slim closed cream booklet with blank cover (the second edition is identified by dialogue, not printed text), cups and simple dishes. Small family scale, no crowd or invented guests in frame, no princess gown, veil, bouquet, rings closeup, stage or luxury hotel. No Huangqiuqiu in any form. Faces and hands natural and consistent with references. Semi-realistic Japanese visual novel hand-painted illustration with cinematic realistic surroundings, warm daylight, restrained emotional tone. No text or watermark.",
+      "references": [
+        "assets/ten-chapter/characters/maolang/char-maolang-wedding-base.webp",
+        "assets/ten-chapter/characters/piao/char-piao-wedding-base.webp",
+        "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.webp"
+      ],
+      "source": "assets/ten-chapter/cg/originals/cg-piao-wedding-v1.png",
+      "output": "assets/ten-chapter/cg/cg-piao-wedding.webp",
+      "selected": false,
+      "tool": "built-in image_gen",
+      "outputHint": "Generated images are saved to /Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1668e-3ad9-72b0-b5cb-db505957dcff as /Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1668e-3ad9-72b0-b5cb-db505957dcff/exec-ad665cf3-a5a8-486b-86e1-d3223ce5ae45.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "id": "cg-qiuqiu-transform",
+      "dir": "cg",
+      "prompt": "Use case: precise-object-edit. Edit only the bottom center edge of this supplied CG: the tiny dark lower-body trouser/lap wedge at the bottom must be removed and replaced by the natural continuation of the beige hoodie fabric so the image reads strictly as a waist-up portrait with NO visible lower body garment. Preserve the entire rest of the picture exactly, including face, left eye patch on viewer-right, hair, hands, plush stick, courtyard architecture, lighting, blue stool, framing and dimensions. No new accessories or text.",
+      "references": [
+        "assets/ten-chapter/cg/originals/cg-qiuqiu-transform-v1.png"
+      ],
+      "source": "assets/ten-chapter/cg/originals/cg-qiuqiu-transform-v2.png",
+      "output": "assets/ten-chapter/cg/cg-qiuqiu-transform.webp",
+      "selected": true,
+      "tool": "built-in image_gen",
+      "outputHint": "Generated images are saved to /Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1668e-3ad9-72b0-b5cb-db505957dcff as /Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1668e-3ad9-72b0-b5cb-db505957dcff/exec-7e2796c0-ccfb-4a26-b259-0045b69639d4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "id": "cg-piao-wedding",
+      "dir": "cg",
+      "prompt": "Use case: identity-preserve / precise-object-edit. Correct ONLY the staging of this wedding CG to match a standing doorway greeting. Keep the same two adults, exact faces, navy open-collar casual suit, pink dress, red wrist cord, collar-adjusting hand, amused expression, lighting, and modest street-side restaurant. Both people must unmistakably be STANDING upright in the doorway, not seated behind a dining table. Change the camera to a medium waist-up standing view; keep both faces within center 60% width. Move the small table holding the cream blank booklet, cups and dishes off to the lower right beside the doorway, visibly lower than their waists; remove the wide foreground dining tabletop spanning the picture, leave open doorway space in front of them. The man is greeting an arriving off-screen guest while lightly checking his own collar, the woman stands next to him checking the collar. No seated posture, no chairs behind them, no other people, no new props, no text. Preserve landscape dimensions.",
+      "references": [
+        "assets/ten-chapter/cg/originals/cg-piao-wedding-v1.png"
+      ],
+      "source": "assets/ten-chapter/cg/originals/cg-piao-wedding-v2.png",
+      "output": "assets/ten-chapter/cg/cg-piao-wedding.webp",
+      "selected": true,
+      "tool": "built-in image_gen",
+      "outputHint": "Generated images are saved to /Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1668e-3ad9-72b0-b5cb-db505957dcff as /Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1668e-3ad9-72b0-b5cb-db505957dcff/exec-24b195e2-5159-4a2a-b8c8-fa144bac12b8.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  ]
+}

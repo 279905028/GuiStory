@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-10-22T09:42:35.533Z",
+  "pass": true,
+  "protectedFiles": 30,
+  "protectedChanged": [],
+  "localDocumentLinks": 55,
+  "missingLinks": [],
+  "isolatedOutput": "/Users/yipin/Desktop/cjb/任务拆分/全十章/构建/sample-a83e7e56184eb5db",
+  "isolatedOutputContainsUnchangedRouteModules": true,
+  "buildInputsMatch": true,
+  "files": [
+    {
+      "file": "任务拆分/全十章/routes/xiaoman.json",
+      "sha256": "b982784014d95fe44cb620e6b0ccd2252b3b86ccea5e519c09501277abec0fb0"
+    },
+    {
+      "file": "任务拆分/全十章/routes/zhouzhi.json",
+      "sha256": "7da9e066d79aaa299ad2ab5fff911be7060f5db4e4ef11bda3e4a901880a8eff"
+    },
+    {
+      "file": "任务拆分/全十章/交接/E04.md",
+      "sha256": "ae050755e6f004741d3e0cc92f85dd0ce34e96aa66e8d96a0cabc7c904169dc3"
+    },
+    {
+      "file": "TODO与多窗口提示词-v0.4.md",
+      "sha256": "763b61187887d2b81202c37c562e5b9158a22eeee00908f2b858a760e1520c34"
+    },
+    {
+      "file": "任务拆分/全十章开发计划.md",
+      "sha256": "f22717e4297a7b4c4fcae342f8640a3637872ec069835adcaf256c6e8c7f6372"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/build-routes.cjs",
+      "sha256": "30537a09a72bf63a0baa70f0bda9e2eceb79cad7806c9c33706c3e867ad7cb9c"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/verify.cjs",
+      "sha256": "1824eb0da138501cfbb057cb60d26eba1a7aaf96c17ddd5592d9ef2a738d95b4"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/verification.json",
+      "sha256": "867a221d678a77202389faa41be0e763d89bd1fd0505bfa107d8896d0f21b08f"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/delivery.json",
+      "sha256": "31254b828d1e02956bd4a8d73574e578eb8f1c7dcb9fe930f8efcce3f5ce3ccb"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E04/build-result.json",
+      "sha256": "9ebb123bb0f9e79d934ed8c334f5a19fef222a7d17cc0a08daf3b4b3bf81ccaa"
+    }
+  ]
+}

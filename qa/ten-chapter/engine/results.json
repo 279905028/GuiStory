@@ -1,0 +1,1337 @@
+{
+  "runAt": "2026-10-23T05:24:31.809Z",
+  "scope": "E09 formal root story; independent graph, real engine every-visible-state restoration and display resolver",
+  "fingerprints": [
+    {
+      "file": "story.js",
+      "sha256": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60",
+      "bytes": 1178698
+    },
+    {
+      "file": "engine.js",
+      "sha256": "363e4a9b1ddd9d6e012b6623af04c54f9fc077a065e9d1ee3b61981e9be5e39a",
+      "bytes": 15662
+    },
+    {
+      "file": "player-runtime.js",
+      "sha256": "f0c36ff43ac205be2878d84a057b2760d37f755de9a218b916a7e57c620affd0",
+      "bytes": 4046
+    },
+    {
+      "file": "save-compat.js",
+      "sha256": "11cc52079a67a2ee32244206b79bb11e1cfe71874227aefdd1e768594a0e816f",
+      "bytes": 5586
+    },
+    {
+      "file": "game.js",
+      "sha256": "7021053d5491f6140ce28b9d3bc921e8d65a62921de3f16886fceac0b42848ff",
+      "bytes": 61683
+    },
+    {
+      "file": "qa/ten-chapter/engine/regression.cjs",
+      "sha256": "151b9c137f3fd76e7ae0c9a4b09db33b7e7f8d4adc672485081e274a38b68bda",
+      "bytes": 31135
+    },
+    {
+      "file": "任务拆分/全十章/contract.json",
+      "sha256": "4086571ab65e54271ec70e5a0a0712e00d0b2a1f6dae739b1df05a328ada1876",
+      "bytes": 172958
+    },
+    {
+      "file": "任务拆分/全十章/校验/E09/source-map.json",
+      "sha256": "216c40e0c3c00213ff6070ad67c38d05a358279581359d5d7ccc9b94f875f6bd",
+      "bytes": 869491
+    }
+  ],
+  "algorithm": {
+    "key": "nodeId plus every flag, sorted by name; no reduced relevant-flag projection",
+    "traversal": "one real-engine depth-first traversal, branch references only from genuine engine results; memoized states; independent first-match gate oracle",
+    "restoration": "every unique visible state calls unmodified snapshot() then restore(); restore internally fully replays; parallel workers use ordinal modulo partition",
+    "complexity": "graph O(S+E); restoration necessarily sum of full history replay/validation costs, not asserted O(S); avoids replaying whole game once per full-path prefix",
+    "excluded": "browser storage failure handling is separate browser suite; real devices, hearing and human reading are not proved here"
+  },
+  "structure": {
+    "nodes": 2612,
+    "visibleNodes": 2577,
+    "gates": 35,
+    "edges": 2698,
+    "choices": 19,
+    "options": 43,
+    "cycles": 0,
+    "danglingEdges": 0
+  },
+  "graph": {
+    "uniqueVisibleStates": 149715,
+    "mergedRevisits": 0,
+    "totalNodeFlagStates": 156415,
+    "visibleNodes": 2577,
+    "nodeFormCombinations": 2602,
+    "paths": 736,
+    "endings": {
+      "tc_c10_xiaoman_end_dating": {
+        "count": 64,
+        "witness": {
+          "nodeId": "tc_c10_xiaoman_end_dating",
+          "flags": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game",
+            "route": "xiaoman",
+            "xiaomanOuting": "basketball",
+            "xiaomanRelationship": "dating"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "value": "nervous",
+              "label": "直接承认自己紧张"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "value": "voice",
+              "label": "发一条语音说明"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "value": "game",
+              "label": "先聊一局两个人都记得的游戏"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "value": "xiaoman",
+              "label": "去找小满，听她讲最近的事，也让她看看如今的我。"
+            },
+            {
+              "nodeId": "tc_c04_xiaoman_outing_choice",
+              "value": "basketball",
+              "label": "去投篮机，输的人买水"
+            },
+            {
+              "nodeId": "tc_c09_xiaoman_relationship_choice",
+              "value": "dating",
+              "label": "我想和你交往，不只是约着出去玩"
+            }
+          ]
+        }
+      },
+      "tc_c10_xiaoman_end_friends": {
+        "count": 64,
+        "witness": {
+          "nodeId": "tc_c10_xiaoman_end_friends",
+          "flags": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game",
+            "route": "xiaoman",
+            "xiaomanOuting": "basketball",
+            "xiaomanRelationship": "friends"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "value": "nervous",
+              "label": "直接承认自己紧张"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "value": "voice",
+              "label": "发一条语音说明"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "value": "game",
+              "label": "先聊一局两个人都记得的游戏"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "value": "xiaoman",
+              "label": "去找小满，听她讲最近的事，也让她看看如今的我。"
+            },
+            {
+              "nodeId": "tc_c04_xiaoman_outing_choice",
+              "value": "basketball",
+              "label": "去投篮机，输的人买水"
+            },
+            {
+              "nodeId": "tc_c09_xiaoman_relationship_choice",
+              "value": "friends",
+              "label": "我很珍惜你，但现在想把我们放在朋友的位置"
+            }
+          ]
+        }
+      },
+      "tc_c10_zhouzhi_end_dating": {
+        "count": 64,
+        "witness": {
+          "nodeId": "tc_c10_zhouzhi_end_dating",
+          "flags": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game",
+            "route": "zhouzhi",
+            "zhouzhiOuting": "river",
+            "zhouzhiRelationship": "dating"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "value": "nervous",
+              "label": "直接承认自己紧张"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "value": "voice",
+              "label": "发一条语音说明"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "value": "game",
+              "label": "先聊一局两个人都记得的游戏"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "value": "zhouzhi",
+              "label": "约周栀吃一顿不赶着上班的饭，继续认识彼此的日常。"
+            },
+            {
+              "nodeId": "tc_c04_zhouzhi_outing_choice",
+              "value": "river",
+              "label": "沿河走走，轮流放一首想听的歌"
+            },
+            {
+              "nodeId": "tc_c09_zhouzhi_relationship_choice",
+              "value": "dating",
+              "label": "愿意。我也想把你放进以后的安排里"
+            }
+          ]
+        }
+      },
+      "tc_c10_zhouzhi_end_friends": {
+        "count": 64,
+        "witness": {
+          "nodeId": "tc_c10_zhouzhi_end_friends",
+          "flags": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game",
+            "route": "zhouzhi",
+            "zhouzhiOuting": "river",
+            "zhouzhiRelationship": "friends"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "value": "nervous",
+              "label": "直接承认自己紧张"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "value": "voice",
+              "label": "发一条语音说明"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "value": "game",
+              "label": "先聊一局两个人都记得的游戏"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "value": "zhouzhi",
+              "label": "约周栀吃一顿不赶着上班的饭，继续认识彼此的日常。"
+            },
+            {
+              "nodeId": "tc_c04_zhouzhi_outing_choice",
+              "value": "river",
+              "label": "沿河走走，轮流放一首想听的歌"
+            },
+            {
+              "nodeId": "tc_c09_zhouzhi_relationship_choice",
+              "value": "friends",
+              "label": "谢谢你告诉我，但我想继续做朋友"
+            }
+          ]
+        }
+      },
+      "tc_c10_mengyao_end_dating": {
+        "count": 64,
+        "witness": {
+          "nodeId": "tc_c10_mengyao_end_dating",
+          "flags": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game",
+            "route": "mengyao",
+            "mengyaoOuting": "books",
+            "mengyaoRelationship": "dating"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "value": "nervous",
+              "label": "直接承认自己紧张"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "value": "voice",
+              "label": "发一条语音说明"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "value": "game",
+              "label": "先聊一局两个人都记得的游戏"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "value": "mengyao",
+              "label": "把和孟遥没说完的话接下去，看看我们现在还能怎样相处。"
+            },
+            {
+              "nodeId": "tc_c04_mengyao_outing_choice",
+              "value": "books",
+              "label": "去旧书摊，各挑一本没看过的书"
+            },
+            {
+              "nodeId": "tc_c09_mengyao_relationship_choice",
+              "value": "dating",
+              "label": "我想跟你重新交往。"
+            }
+          ]
+        }
+      },
+      "tc_c10_mengyao_end_friends": {
+        "count": 64,
+        "witness": {
+          "nodeId": "tc_c10_mengyao_end_friends",
+          "flags": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game",
+            "route": "mengyao",
+            "mengyaoOuting": "books",
+            "mengyaoRelationship": "friends"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "value": "nervous",
+              "label": "直接承认自己紧张"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "value": "voice",
+              "label": "发一条语音说明"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "value": "game",
+              "label": "先聊一局两个人都记得的游戏"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "value": "mengyao",
+              "label": "把和孟遥没说完的话接下去，看看我们现在还能怎样相处。"
+            },
+            {
+              "nodeId": "tc_c04_mengyao_outing_choice",
+              "value": "books",
+              "label": "去旧书摊，各挑一本没看过的书"
+            },
+            {
+              "nodeId": "tc_c09_mengyao_relationship_choice",
+              "value": "friends",
+              "label": "我不想用这个答应你。现在，我更想做朋友。"
+            }
+          ]
+        }
+      },
+      "tc_c10_yelan_end_dating": {
+        "count": 64,
+        "witness": {
+          "nodeId": "tc_c10_yelan_end_dating",
+          "flags": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game",
+            "route": "yelan",
+            "yelanOuting": "kite",
+            "yelanRelationship": "dating"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "value": "nervous",
+              "label": "直接承认自己紧张"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "value": "voice",
+              "label": "发一条语音说明"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "value": "game",
+              "label": "先聊一局两个人都记得的游戏"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "value": "yelan",
+              "label": "再约叶岚一次，让见面不只是游戏队的线下活动。"
+            },
+            {
+              "nodeId": "tc_c04_yelan_outing_choice",
+              "value": "kite",
+              "label": "去河边空地放风筝"
+            },
+            {
+              "nodeId": "tc_c09_yelan_relationship_choice",
+              "value": "dating",
+              "label": "我喜欢你。想跟你交往。"
+            }
+          ]
+        }
+      },
+      "tc_c10_yelan_end_friends": {
+        "count": 64,
+        "witness": {
+          "nodeId": "tc_c10_yelan_end_friends",
+          "flags": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game",
+            "route": "yelan",
+            "yelanOuting": "kite",
+            "yelanRelationship": "friends"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "value": "nervous",
+              "label": "直接承认自己紧张"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "value": "voice",
+              "label": "发一条语音说明"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "value": "game",
+              "label": "先聊一局两个人都记得的游戏"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "value": "yelan",
+              "label": "再约叶岚一次，让见面不只是游戏队的线下活动。"
+            },
+            {
+              "nodeId": "tc_c04_yelan_outing_choice",
+              "value": "kite",
+              "label": "去河边空地放风筝"
+            },
+            {
+              "nodeId": "tc_c09_yelan_relationship_choice",
+              "value": "friends",
+              "label": "但想到交往，我还没有那种确定的心情。不能因为你问了，就顺着答应。"
+            }
+          ]
+        }
+      },
+      "tc_c10_piao_end_dating": {
+        "count": 64,
+        "witness": {
+          "nodeId": "tc_c10_piao_end_dating",
+          "flags": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game",
+            "route": "piao",
+            "piaoRelationship": "dating",
+            "piaoOuting": "paperboat"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "value": "nervous",
+              "label": "直接承认自己紧张"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "value": "voice",
+              "label": "发一条语音说明"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "value": "game",
+              "label": "先聊一局两个人都记得的游戏"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "value": "piao",
+              "label": "认真回应飘的邀约，也说清自己的心意。"
+            },
+            {
+              "nodeId": "tc_c03_piao_relationship_choice",
+              "value": "dating",
+              "label": "我想跟你交往。以后约你，不再拿菜场当借口。"
+            },
+            {
+              "nodeId": "tc_c04_piao_outing_choice",
+              "value": "paperboat",
+              "label": "留下等雨"
+            }
+          ]
+        }
+      },
+      "tc_c10_piao_end_friends": {
+        "count": 64,
+        "witness": {
+          "nodeId": "tc_c10_piao_end_friends",
+          "flags": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game",
+            "route": "piao",
+            "piaoRelationship": "friends",
+            "piaoOuting": "paperboat"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "value": "nervous",
+              "label": "直接承认自己紧张"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "value": "voice",
+              "label": "发一条语音说明"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "value": "game",
+              "label": "先聊一局两个人都记得的游戏"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "value": "piao",
+              "label": "认真回应飘的邀约，也说清自己的心意。"
+            },
+            {
+              "nodeId": "tc_c03_piao_relationship_choice",
+              "value": "friends",
+              "label": "我很喜欢跟你待着，但现在想要的是朋友关系。我不拿含糊的话留住你。"
+            },
+            {
+              "nodeId": "tc_c04_piao_outing_choice",
+              "value": "paperboat",
+              "label": "留下等雨"
+            }
+          ]
+        }
+      },
+      "tc_c10_friends_end": {
+        "count": 64,
+        "witness": {
+          "nodeId": "tc_c10_friends_end",
+          "flags": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game",
+            "route": "friends",
+            "friendsOuting": "show"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "value": "nervous",
+              "label": "直接承认自己紧张"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "value": "voice",
+              "label": "发一条语音说明"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "value": "game",
+              "label": "先聊一局两个人都记得的游戏"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "value": "friends",
+              "label": "先安排自己的生活，和毛狼、师匠继续做会见面的朋友。"
+            },
+            {
+              "nodeId": "tc_c04_friends_outing_choice",
+              "value": "show",
+              "label": "去看毛狼说过的小演出"
+            }
+          ]
+        }
+      },
+      "tc_c10_huangqiuqiu_end_dating": {
+        "count": 16,
+        "witness": {
+          "nodeId": "tc_c10_huangqiuqiu_end_dating",
+          "flags": {
+            "qiuMet": true,
+            "qiuForm": "human",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game",
+            "route": "huangqiuqiu",
+            "huangqiuqiuOuting": "portrait",
+            "huangqiuqiuRelationship": "dating"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "value": "nervous",
+              "label": "直接承认自己紧张"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "value": "voice",
+              "label": "发一条语音说明"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "value": "game",
+              "label": "先聊一局两个人都记得的游戏"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "value": "huangqiuqiu",
+              "label": "兑现与黄球球的约定。"
+            },
+            {
+              "nodeId": "tc_c04_huangqiuqiu_outing_choice",
+              "value": "portrait",
+              "label": "画自画像"
+            },
+            {
+              "nodeId": "tc_c09_huangqiuqiu_relationship_choice",
+              "value": "dating",
+              "label": "我喜欢你。我想和你交往，想见的就是现在的你。"
+            }
+          ]
+        }
+      },
+      "tc_c10_huangqiuqiu_end_friends": {
+        "count": 16,
+        "witness": {
+          "nodeId": "tc_c10_huangqiuqiu_end_friends",
+          "flags": {
+            "qiuMet": true,
+            "qiuForm": "human",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game",
+            "route": "huangqiuqiu",
+            "huangqiuqiuOuting": "portrait",
+            "huangqiuqiuRelationship": "friends"
+          },
+          "choices": [
+            {
+              "nodeId": "tc_c01_common_rhythm_record_choice",
+              "value": "record",
+              "label": "再听一遍，把三拍记下来"
+            },
+            {
+              "nodeId": "tc_c01_common_reunion_choice",
+              "value": "nervous",
+              "label": "直接承认自己紧张"
+            },
+            {
+              "nodeId": "tc_c02_common_rhythm_reply_choice",
+              "value": "reply",
+              "label": "敲回刚才的节奏"
+            },
+            {
+              "nodeId": "tc_c02_common_missed_game_choice",
+              "value": "voice",
+              "label": "发一条语音说明"
+            },
+            {
+              "nodeId": "tc_c02_common_yelan_first_choice",
+              "value": "game",
+              "label": "先聊一局两个人都记得的游戏"
+            },
+            {
+              "nodeId": "tc_c03_common_route_choice",
+              "value": "huangqiuqiu",
+              "label": "兑现与黄球球的约定。"
+            },
+            {
+              "nodeId": "tc_c04_huangqiuqiu_outing_choice",
+              "value": "portrait",
+              "label": "画自画像"
+            },
+            {
+              "nodeId": "tc_c09_huangqiuqiu_relationship_choice",
+              "value": "friends",
+              "label": "我珍惜你，但我想要的是朋友关系。我不把说不清当作答应。"
+            }
+          ]
+        }
+      }
+    },
+    "options": 43,
+    "gateBranches": 110,
+    "unreachableBranches": [],
+    "chapterEnds": 9,
+    "callbacks": {
+      "reunion=nervous": {
+        "count": 16,
+        "nodes": [
+          "tc_c03_mengyao_flatbread_018"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 397,
+          "raw": "**若第一章坦言紧张：**孟遥问我今天还紧不紧张。我说比第一次好一点，她往我手里的咖啡杯看了一眼：“看出来了，今天没有把配料表翻来覆去地读。”我也笑，告诉她这杯没有那么多字可看。她说那可难为我了。"
+        }
+      },
+      "reunion=availability": {
+        "count": 16,
+        "nodes": [
+          "tc_c03_mengyao_flatbread_019"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 399,
+          "raw": "**若第一章先问哪天有空：**孟遥问我这回是不是先看过排班。我把手机里记下的时间给她看，她看完只问：“那你是特意来吃烧饼，还是特意来见我？”我说两个都有。她把纸袋往我面前一递：“行，至少烧饼这个部分没让你失望。”"
+        }
+      },
+      "missedGame=voice": {
+        "count": 232,
+        "nodes": [
+          "tc_c05_common_missed_voice_callback_01"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 33,
+          "raw": "**若当时发了说明语音：**晚些时候，毛狼问第30日吃完饭能不能顺便玩。我这次直接发语音，说那晚要值班，玩不了。他回了声知道，没有再把我列进去。我想起上次那段迟了五十分钟的解释，庆幸这回可以在事情发生前说清。"
+        }
+      },
+      "missedGame=reschedule": {
+        "count": 232,
+        "nodes": [
+          "tc_c05_common_missed_reschedule_callback_01"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+          "line": 35,
+          "raw": "**若当时用文字重约时间：**晚些时候，毛狼把新约局时间发出来，仍按上次说好的，只留一个大家都能参加的短时段。我把第30日值班那格划掉，另回一个能参加的休班晚上。叶岚说她到时也只空一会儿，我们没有把谁的短暂出现当成扫兴。"
+        }
+      },
+      "yelanFirst=game": {
+        "count": 16,
+        "nodes": [
+          "tc_c03_yelan_second_meeting_010"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 557,
+          "raw": "**若上次从游戏开聊：**我问今天还要不要拿毛狼那局当开场。叶岚说他要是知道自己这么有用，可能会收费。我说那今天让他歇着，她点头，问我有没有吃晚饭。这一句在耳机里听过很多次，走在路上听见，又有一点不一样。"
+        }
+      },
+      "yelanFirst=food": {
+        "count": 16,
+        "nodes": [
+          "tc_c03_yelan_second_meeting_011"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+          "line": 559,
+          "raw": "**若上次从菜单开聊：**叶岚问我有没有研究今天这条路上的菜单。我说没有，上次研究半天，能点的还不到一半。她笑了，说这次先看看，饿了再挑。“那也不用急着研究话题。”我说。她看了我一眼，嗯了一声。"
+        }
+      },
+      "xiaomanOuting=basketball": {
+        "count": 32,
+        "nodes": [
+          "tc_c07_xiaoman_basketball_return_001"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 63,
+          "raw": "#### 若第24天选择投篮机｜不欠的第三局"
+        }
+      },
+      "xiaomanOuting=books": {
+        "count": 32,
+        "nodes": [
+          "tc_c07_xiaoman_books_return_001"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 83,
+          "raw": "#### 若第24天选择旧书摊｜第二只纸鹤"
+        }
+      },
+      "zhouzhiOuting=river": {
+        "count": 32,
+        "nodes": [
+          "tc_c07_zhouzhi_river_return_001"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 145,
+          "raw": "#### 若第23天选择沿河听歌｜今天的歌很吵"
+        }
+      },
+      "zhouzhiOuting=cinema": {
+        "count": 32,
+        "nodes": [
+          "tc_c07_zhouzhi_cinema_return_001"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 163,
+          "raw": "#### 若第23天选择影院｜这回我挑片"
+        }
+      },
+      "mengyaoOuting=books": {
+        "count": 32,
+        "nodes": [
+          "tc_c07_mengyao_books_return_001"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 233,
+          "raw": "#### 若第四章选择 A｜旧书摊"
+        }
+      },
+      "mengyaoOuting=arcade": {
+        "count": 32,
+        "nodes": [
+          "tc_c07_mengyao_arcade_return_001"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 257,
+          "raw": "#### 若第四章选择 B｜街机厅"
+        }
+      },
+      "yelanOuting=kite": {
+        "count": 32,
+        "nodes": [
+          "tc_c07_yelan_kite_return_001"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 317,
+          "raw": "#### 若第四章选择 A｜河边风筝"
+        }
+      },
+      "yelanOuting=market": {
+        "count": 32,
+        "nodes": [
+          "tc_c07_yelan_market_return_001"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 343,
+          "raw": "#### 若第四章选择 B｜旧货市场"
+        }
+      },
+      "piaoOuting=paperboat": {
+        "count": 64,
+        "nodes": [
+          "tc_c07_piao_paperboat_return_001"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 389,
+          "raw": "**如果选过A：**我从她挪开的废纸里认出那只歪纸船，惊讶她真留到了现在。她说放在袋子夹层忘了扔，刚才翻出来，还能看见我声称的船头。我提议重折一次，她立刻把纸收远：“不行。这只是你当时的水平，不能修改历史。”我问那她自己的那只呢。她面不改色地说压平了，用过了。我们相互指责了一会儿，谁也没把船放进水里。"
+        }
+      },
+      "piaoOuting=signs": {
+        "count": 64,
+        "nodes": [
+          "tc_c07_piao_signs_return_001"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 391,
+          "raw": "**如果选过B：**纸袋上印着一家店的名字，她看着忽然想起“东西都在”。我接“先坐一会儿”，两个人都笑得像听见一个只有彼此才知道的笑话。她说那天后来才发现，卖沙发的旧招牌后面还有一层。我问是什么，她说没看清，留到下回再猜。我们没有为那家不存在的店设计菜单，光用它起的怪名字把半小时浪费掉一点，就已经够了。"
+        }
+      },
+      "friendsOuting=show": {
+        "count": 32,
+        "nodes": [
+          "tc_c07_friends_show_return_001"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 447,
+          "raw": "### 若第四章去看了小演出"
+        }
+      },
+      "friendsOuting=walk": {
+        "count": 32,
+        "nodes": [
+          "tc_c07_friends_walk_return_001"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 461,
+          "raw": "### 若第四章沿街散步"
+        }
+      },
+      "huangqiuqiuOuting=portrait": {
+        "count": 8,
+        "nodes": [
+          "tc_c07_huangqiuqiu_outing_return_001"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 519,
+          "raw": "**如果选过A：**她让我把压在干处的自画像拿出来。我翻开纸，自己也被那扇小门似的鼻子逗笑了。她说前几天想起画上那个人，觉得他好像很会逞强，头发没画对也不承认。我说画的人比他好一点，已经认了。她看着纸，说今天不用补一张更好的，就让他继续精神着。我们把画像重新放好，她没有拿它代替我，也没要求我把自己所有糗相留下。"
+        }
+      },
+      "huangqiuqiuOuting=story": {
+        "count": 8,
+        "nodes": [
+          "tc_c07_huangqiuqiu_outing_return_002"
+        ],
+        "source": {
+          "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+          "line": 521,
+          "raw": "**如果选过B：**她问那只没有买到伞的鸭子后来是不是还在屋檐下。我说可以还在，也可以已经回家。她想了想，说今天不替它决定，让它多坐一会儿。我想接一句好笑的话，又停住。她看着我，眼睛弯了点，像是发现我这回终于没把每个空白都当成等着填的地方。鸭子的故事没有继续，我们也没有因此变得没话可说。"
+        }
+      }
+    },
+    "hiddenCombinations": {
+      "record+reply": {
+        "count": 8,
+        "witness": {
+          "eligible": true,
+          "nodeId": "tc_c03_common_route_choice",
+          "flags": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game"
+          }
+        }
+      },
+      "record+leave": {
+        "count": 8,
+        "witness": {
+          "eligible": false,
+          "nodeId": "tc_c03_common_route_choice",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "leave",
+            "missedGame": "voice",
+            "yelanFirst": "game"
+          }
+        }
+      },
+      "ignore+reply": {
+        "count": 8,
+        "witness": {
+          "eligible": false,
+          "nodeId": "tc_c03_common_route_choice",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game"
+          }
+        }
+      },
+      "ignore+leave": {
+        "count": 8,
+        "witness": {
+          "eligible": false,
+          "nodeId": "tc_c03_common_route_choice",
+          "flags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "ignore",
+            "reunion": "nervous",
+            "qiuReply": "leave",
+            "missedGame": "voice",
+            "yelanFirst": "game"
+          }
+        }
+      }
+    },
+    "resources": {
+      "uniqueFiles": 99,
+      "portraitResolutions": 113995,
+      "avatarResolutions": 145655,
+      "boundCGStates": 2864,
+      "cgNodes": 17,
+      "byKind": {
+        "background": 55,
+        "portrait": 33,
+        "avatar": 22,
+        "cg": 4
+      }
+    },
+    "longestHistory": 678,
+    "longestSaveBytes": 143148,
+    "longestEnding": "tc_c10_xiaoman_end_dating"
+  },
+  "focused": [
+    {
+      "name": "四种隐藏条件；第八天回应始终可选",
+      "status": "passed",
+      "detail": {
+        "combinations": 4
+      }
+    },
+    {
+      "name": "两处自动事件精确时刻、重入幂等与非法进入原子拒绝",
+      "status": "passed",
+      "detail": [
+        {
+          "before": "tc_c02_common_qiu_leave_01",
+          "event": "tc_c02_common_qiu_met",
+          "beforeFlags": {
+            "qiuMet": false,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game"
+          },
+          "afterFlags": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game"
+          }
+        },
+        {
+          "before": "tc_c08_huangqiuqiu_her_decision_020",
+          "event": "tc_c08_huangqiuqiu_human_reveal",
+          "beforeFlags": {
+            "qiuMet": true,
+            "qiuForm": "sphere",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game",
+            "route": "huangqiuqiu",
+            "huangqiuqiuOuting": "portrait"
+          },
+          "afterFlags": {
+            "qiuMet": true,
+            "qiuForm": "human",
+            "qiuSignal": "record",
+            "reunion": "nervous",
+            "qiuReply": "reply",
+            "missedGame": "voice",
+            "yelanFirst": "game",
+            "route": "huangqiuqiu",
+            "huangqiuqiuOuting": "portrait"
+          }
+        }
+      ]
+    },
+    {
+      "name": "13种结局逐个回到每个已选选择，正确前情保留／后续状态清除",
+      "status": "passed",
+      "detail": {
+        "endings": 13,
+        "resets": 103
+      }
+    },
+    {
+      "name": "异常快照、隐藏资格与历史篡改拒绝，当前状态与输入均保留",
+      "status": "passed",
+      "detail": {
+        "rejected": [
+          "state-version",
+          "missing-node",
+          "flags-injection",
+          "forged-form",
+          "forged-met",
+          "history-text",
+          "history-drop",
+          "choice-drop",
+          "choice-label",
+          "extra-field",
+          "history-object",
+          "flags-nested",
+          "checkpoint-forgery",
+          "event-history-drop"
+        ]
+      }
+    },
+    {
+      "name": "十章版本空间隔离、元数据逐项拒绝与原始输入不变",
+      "status": "passed",
+      "detail": {
+        "namespace": "bijie-rain-demo:ten-chapter:nightshift-20261022-r1:",
+        "rejected": 16,
+        "storageAccess": "none; no localStorage supplied or touched"
+      }
+    },
+    {
+      "name": "CG节点白名单、提前人形、缺变身历史、飘交往婚宴均拒绝",
+      "status": "passed",
+      "detail": {
+        "rejected": 7
+      }
+    }
+  ],
+  "restoration": [
+    {
+      "index": 0,
+      "count": 4,
+      "uniqueVisibleStates": 149715,
+      "mergedRevisits": 0,
+      "restored": 37429,
+      "historyEntries": 16607866,
+      "longestHistory": 678,
+      "coveredStateDigest": "66c470c3b3b2905de55e14d30f4975a160ae0e1e7842568027d52b6f1d63e9f8",
+      "elapsedSeconds": 87.786408167,
+      "restoreMilliseconds": {
+        "min": 0.7625840000000608,
+        "median": 1.839749999999185,
+        "p95": 3.3253750000003492,
+        "max": 63.73958300000231
+      }
+    },
+    {
+      "index": 1,
+      "count": 4,
+      "uniqueVisibleStates": 149715,
+      "mergedRevisits": 0,
+      "restored": 37429,
+      "historyEntries": 16607647,
+      "longestHistory": 678,
+      "coveredStateDigest": "4423376b7eeb8ad256330c5f85507a10c070f9a0e04174917d6050861fb9ae62",
+      "elapsedSeconds": 87.297964625,
+      "restoreMilliseconds": {
+        "min": 0.7730830000000424,
+        "median": 1.8345419999968726,
+        "p95": 3.275375000001077,
+        "max": 64.86704199999804
+      }
+    },
+    {
+      "index": 2,
+      "count": 4,
+      "uniqueVisibleStates": 149715,
+      "mergedRevisits": 0,
+      "restored": 37429,
+      "historyEntries": 16607881,
+      "longestHistory": 677,
+      "coveredStateDigest": "075a5f8a85d9771ba4ec202c93c741672327edeb0d1af800e44254d7434135fd",
+      "elapsedSeconds": 87.81385358299998,
+      "restoreMilliseconds": {
+        "min": 0.7145000000000437,
+        "median": 1.8389999999999418,
+        "p95": 3.2822499999965657,
+        "max": 60.74729100000695
+      }
+    },
+    {
+      "index": 3,
+      "count": 4,
+      "uniqueVisibleStates": 149715,
+      "mergedRevisits": 0,
+      "restored": 37428,
+      "historyEntries": 16607633,
+      "longestHistory": 677,
+      "coveredStateDigest": "ecf3843b901d0eebdcc23aeb1a623dd21e584d4a555a66b44f4da6094a8d9fa1",
+      "elapsedSeconds": 89.65115987499999,
+      "restoreMilliseconds": {
+        "min": 0.7314590000000862,
+        "median": 1.8945000000021537,
+        "p95": 3.282959000000119,
+        "max": 64.07900000001246
+      }
+    }
+  ],
+  "restoredStates": 149715,
+  "status": "passed",
+  "elapsedSeconds": 91.91170625000001
+}

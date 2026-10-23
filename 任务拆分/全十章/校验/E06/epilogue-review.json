@@ -1,0 +1,139 @@
+{
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "reviewer": "E06",
+  "status": "passed",
+  "commonModuleSha256": "5c179e95f3b1fc6ce28a47ffa70df2b41aa36dbd11ad440878c4fc23809d9b3c",
+  "witnesses": [
+    {
+      "ending": "tc_c10_xiaoman_end_dating",
+      "flags": {
+        "route": "xiaoman",
+        "xiaomanRelationship": "dating"
+      },
+      "epilogue": "tc_c10_common_piao_wedding",
+      "stop": "tc_c10_xiaoman_entry",
+      "paragraphs": 13
+    },
+    {
+      "ending": "tc_c10_xiaoman_end_friends",
+      "flags": {
+        "route": "xiaoman",
+        "xiaomanRelationship": "friends"
+      },
+      "epilogue": "tc_c10_common_piao_wedding",
+      "stop": "tc_c10_xiaoman_entry",
+      "paragraphs": 13
+    },
+    {
+      "ending": "tc_c10_zhouzhi_end_dating",
+      "flags": {
+        "route": "zhouzhi",
+        "zhouzhiRelationship": "dating"
+      },
+      "epilogue": "tc_c10_common_piao_wedding",
+      "stop": "tc_c10_zhouzhi_entry",
+      "paragraphs": 13
+    },
+    {
+      "ending": "tc_c10_zhouzhi_end_friends",
+      "flags": {
+        "route": "zhouzhi",
+        "zhouzhiRelationship": "friends"
+      },
+      "epilogue": "tc_c10_common_piao_wedding",
+      "stop": "tc_c10_zhouzhi_entry",
+      "paragraphs": 13
+    },
+    {
+      "ending": "tc_c10_mengyao_end_dating",
+      "flags": {
+        "route": "mengyao",
+        "mengyaoRelationship": "dating"
+      },
+      "epilogue": "tc_c10_common_piao_wedding",
+      "stop": "tc_c10_mengyao_entry",
+      "paragraphs": 13
+    },
+    {
+      "ending": "tc_c10_mengyao_end_friends",
+      "flags": {
+        "route": "mengyao",
+        "mengyaoRelationship": "friends"
+      },
+      "epilogue": "tc_c10_common_piao_wedding",
+      "stop": "tc_c10_mengyao_entry",
+      "paragraphs": 13
+    },
+    {
+      "ending": "tc_c10_yelan_end_dating",
+      "flags": {
+        "route": "yelan",
+        "yelanRelationship": "dating"
+      },
+      "epilogue": "tc_c10_common_piao_wedding",
+      "stop": "tc_c10_yelan_entry",
+      "paragraphs": 13
+    },
+    {
+      "ending": "tc_c10_yelan_end_friends",
+      "flags": {
+        "route": "yelan",
+        "yelanRelationship": "friends"
+      },
+      "epilogue": "tc_c10_common_piao_wedding",
+      "stop": "tc_c10_yelan_entry",
+      "paragraphs": 13
+    },
+    {
+      "ending": "tc_c10_piao_end_dating",
+      "flags": {
+        "route": "piao",
+        "piaoRelationship": "dating"
+      },
+      "epilogue": "tc_c10_common_piao_dating",
+      "stop": "tc_c10_piao_entry",
+      "paragraphs": 12
+    },
+    {
+      "ending": "tc_c10_piao_end_friends",
+      "flags": {
+        "route": "piao",
+        "piaoRelationship": "friends"
+      },
+      "epilogue": "tc_c10_common_piao_wedding",
+      "stop": "tc_c10_piao_entry",
+      "paragraphs": 13
+    },
+    {
+      "ending": "tc_c10_friends_end",
+      "flags": {
+        "route": "friends"
+      },
+      "epilogue": "tc_c10_common_piao_wedding",
+      "stop": "tc_c10_friends_entry",
+      "paragraphs": 13
+    },
+    {
+      "ending": "tc_c10_huangqiuqiu_end_dating",
+      "flags": {
+        "route": "huangqiuqiu",
+        "huangqiuqiuRelationship": "dating"
+      },
+      "epilogue": "tc_c10_common_piao_wedding",
+      "stop": "tc_c10_huangqiuqiu_entry",
+      "paragraphs": 13
+    },
+    {
+      "ending": "tc_c10_huangqiuqiu_end_friends",
+      "flags": {
+        "route": "huangqiuqiu",
+        "huangqiuqiuRelationship": "friends"
+      },
+      "epilogue": "tc_c10_common_piao_wedding",
+      "stop": "tc_c10_huangqiuqiu_entry",
+      "paragraphs": 13
+    }
+  ],
+  "scope": "只读交叉核对E03公共后日谈；未修改E03文件"
+}

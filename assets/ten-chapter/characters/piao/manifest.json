@@ -1,0 +1,426 @@
+{
+  "character": "piao",
+  "name": "飘",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "baseline": "assets/char-piao.webp",
+  "assets": [
+    {
+      "id": "tc-char-piao-human-base",
+      "character": "piao",
+      "kind": "character",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch01-common-08",
+        "a01-ch02-common-04",
+        "a01-ch03-piao-01",
+        "a01-ch03-piao-02",
+        "a01-ch03-piao-03",
+        "a01-ch03-piao-04",
+        "a01-ch03-piao-05",
+        "a01-ch04-piao-01",
+        "a01-ch04-piao-02",
+        "a01-ch04-piao-03",
+        "a01-ch04-piao-04",
+        "a01-ch04-piao-05",
+        "a01-ch05-common-01",
+        "a01-ch05-piao-01",
+        "a01-ch05-piao-02",
+        "a01-ch05-piao-03",
+        "a01-ch06-common-01",
+        "a01-ch06-piao-01",
+        "a01-ch06-piao-02",
+        "a01-ch06-piao-03",
+        "a01-ch06-friends-02",
+        "a01-ch07-piao-01",
+        "a01-ch07-piao-02",
+        "a01-ch07-piao-03",
+        "a01-ch07-piao-04",
+        "a01-ch08-piao-01",
+        "a01-ch08-piao-02",
+        "a01-ch08-piao-03",
+        "a01-ch09-piao-01",
+        "a01-ch09-piao-02",
+        "a01-ch09-piao-03",
+        "a01-ch10-common-02",
+        "a01-ch10-common-03",
+        "a01-ch10-piao-01",
+        "a01-ch10-piao-02",
+        "a01-ch10-friends-01",
+        "a01-ch10-friends-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/char-piao.webp",
+        "sha256": "b28422dabd0a4d3eb2ad7a34f832104bae4884ecb93bd45eb0d80e9c17a70331",
+        "bytes": 716636
+      },
+      "delivery": {
+        "path": "assets/char-piao.webp",
+        "sha256": "b28422dabd0a4d3eb2ad7a34f832104bae4884ecb93bd45eb0d80e9c17a70331",
+        "bytes": 716636,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 831549,
+          "partial": 52197,
+          "nearOpaque": 689118,
+          "visibleBBox": {
+            "left": 201,
+            "top": 12,
+            "right": 887,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5286846160888672
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-piao-human-expression-smile",
+      "character": "piao",
+      "kind": "character",
+      "expression": "expression-smile",
+      "cueIds": [
+        "a01-ch01-common-08",
+        "a01-ch02-common-04",
+        "a01-ch03-piao-01",
+        "a01-ch03-piao-02",
+        "a01-ch03-piao-04",
+        "a01-ch04-piao-01",
+        "a01-ch04-piao-02",
+        "a01-ch04-piao-03",
+        "a01-ch04-piao-04",
+        "a01-ch04-piao-05",
+        "a01-ch05-piao-01",
+        "a01-ch05-piao-02",
+        "a01-ch05-piao-03",
+        "a01-ch06-common-01",
+        "a01-ch06-piao-01",
+        "a01-ch06-piao-02",
+        "a01-ch06-piao-03",
+        "a01-ch06-friends-02",
+        "a01-ch07-piao-01",
+        "a01-ch07-piao-02",
+        "a01-ch07-piao-03",
+        "a01-ch07-piao-04",
+        "a01-ch08-piao-01",
+        "a01-ch08-piao-02",
+        "a01-ch08-piao-03",
+        "a01-ch09-piao-01",
+        "a01-ch09-piao-02",
+        "a01-ch09-piao-03",
+        "a01-ch10-common-02",
+        "a01-ch10-common-03",
+        "a01-ch10-piao-01",
+        "a01-ch10-piao-02",
+        "a01-ch10-friends-01",
+        "a01-ch10-friends-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+        "sha256": "6d2661f9fd7c8551cb1dace16519ffcc220c23e5c69693103538cfe57ba612b0",
+        "bytes": 705920
+      },
+      "delivery": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+        "sha256": "6d2661f9fd7c8551cb1dace16519ffcc220c23e5c69693103538cfe57ba612b0",
+        "bytes": 705920,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 832305,
+          "partial": 51472,
+          "nearOpaque": 689087,
+          "visibleBBox": {
+            "left": 201,
+            "top": 14,
+            "right": 888,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5291652679443359
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-piao-human-expression-serious",
+      "character": "piao",
+      "kind": "character",
+      "expression": "expression-serious",
+      "cueIds": [
+        "a01-ch03-piao-02",
+        "a01-ch03-piao-03",
+        "a01-ch03-piao-05",
+        "a01-ch05-piao-01",
+        "a01-ch05-piao-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.webp",
+        "sha256": "ea955ceb6b2301825e391ca636d343145753b7451e20d6229d5935b90139486f",
+        "bytes": 700748
+      },
+      "delivery": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.webp",
+        "sha256": "ea955ceb6b2301825e391ca636d343145753b7451e20d6229d5935b90139486f",
+        "bytes": 700748,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 833147,
+          "partial": 49721,
+          "nearOpaque": 689996,
+          "visibleBBox": {
+            "left": 201,
+            "top": 15,
+            "right": 889,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5297005971272787
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-piao-human-expression-hesitant",
+      "character": "piao",
+      "kind": "character",
+      "expression": "expression-hesitant",
+      "cueIds": [
+        "a01-ch03-piao-03",
+        "a01-ch03-piao-04",
+        "a01-ch04-piao-04",
+        "a01-ch06-common-01",
+        "a01-ch06-piao-01",
+        "a01-ch06-piao-02",
+        "a01-ch06-piao-03",
+        "a01-ch07-piao-01",
+        "a01-ch07-piao-02",
+        "a01-ch07-piao-03",
+        "a01-ch07-piao-04",
+        "a01-ch08-piao-01",
+        "a01-ch08-piao-02",
+        "a01-ch08-piao-03",
+        "a01-ch09-piao-01",
+        "a01-ch09-piao-02",
+        "a01-ch09-piao-03",
+        "a01-ch10-common-02",
+        "a01-ch10-common-03",
+        "a01-ch10-piao-01",
+        "a01-ch10-piao-02",
+        "a01-ch10-friends-01",
+        "a01-ch10-friends-02"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+        "sha256": "9bb08999a38861d259fa6fd29458fb1b58e03425a2fa50533634280e9e90e831",
+        "bytes": 701286
+      },
+      "delivery": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+        "sha256": "9bb08999a38861d259fa6fd29458fb1b58e03425a2fa50533634280e9e90e831",
+        "bytes": 701286,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 831087,
+          "partial": 49716,
+          "nearOpaque": 692061,
+          "visibleBBox": {
+            "left": 199,
+            "top": 15,
+            "right": 889,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5283908843994141
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-piao-human-expression-downcast",
+      "character": "piao",
+      "kind": "character",
+      "expression": "expression-downcast",
+      "cueIds": [
+        "a01-ch03-piao-05"
+      ],
+      "method": "reuse",
+      "source": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.webp",
+        "sha256": "4ba3d09a6f0d46c156b7ba278388b9228a8e2c00ba30e398de3f8b46872965e5",
+        "bytes": 704186
+      },
+      "delivery": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.webp",
+        "sha256": "4ba3d09a6f0d46c156b7ba278388b9228a8e2c00ba30e398de3f8b46872965e5",
+        "bytes": 704186,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0,
+        "comparison": "既有WebP原样复用",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 832235,
+          "partial": 51665,
+          "nearOpaque": 688964,
+          "visibleBBox": {
+            "left": 201,
+            "top": 15,
+            "right": 888,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5291207631429037
+        }
+      },
+      "promptKey": null,
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-piao-wedding",
+      "character": "piao",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch10-common-03"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/piao/originals/char-piao-wedding-base-v1.png",
+        "sha256": "72ea6be9f9a7f0bb51ccb630122079c9232335494b8186ab11fe57143693b669",
+        "bytes": 1715114
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/piao/char-piao-wedding-base.webp",
+        "sha256": "49aaecd963e03ccf94ad9bfe0c03c2c1f2435acde305f1bbe8c0fd9c7afb6ad3",
+        "bytes": 733474,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 2073287,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 793484,
+          "partial": 55853,
+          "nearOpaque": 723527,
+          "visibleBBox": {
+            "left": 136,
+            "top": 14,
+            "right": 924,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.5044835408528646
+        }
+      },
+      "promptKey": "piao-wedding",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    }
+  ],
+  "evidence": {
+    "fullFigureLightDark": [
+      {
+        "path": "assets/ten-chapter/characters/piao/qa/light-dark-1.png",
+        "resourceIds": [
+          "tc-char-piao-human-base",
+          "tc-char-piao-human-expression-smile",
+          "tc-char-piao-human-expression-serious",
+          "tc-char-piao-human-expression-hesitant"
+        ]
+      },
+      {
+        "path": "assets/ten-chapter/characters/piao/qa/light-dark-2.png",
+        "resourceIds": [
+          "tc-char-piao-human-expression-downcast",
+          "tc-look-piao-wedding"
+        ]
+      }
+    ],
+    "faceDetail": "assets/ten-chapter/characters/piao/qa/faces.png"
+  },
+  "status": "delivered-awaiting-A06"
+}

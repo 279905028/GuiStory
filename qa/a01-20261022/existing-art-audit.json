@@ -1,0 +1,2173 @@
+{
+  "date": "2026-10-22",
+  "scope": "A01旧采用资源语义审计；包含运行清单93项、横竖封面2项、人形待审基础1项，共96个不同路径",
+  "entries": [
+    {
+      "path": "assets/char-wenwen.webp",
+      "currentKey": "wenwen",
+      "characterId": "wenwen",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及9张差分胸袋均有红黑维修工具；保持短寸圆脸与夹克，移除工具。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "53acbc2180f64f81aae3aa3d33f4cf2039fa16de07aea74248809e45f8dda96b",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/bases.webp",
+        "cell": 1,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+      "currentKey": "xiaoman",
+      "characterId": "xiaoman",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "基础及5差分无过时职业道具；现砖红外套不能代替工作围裙及第29天浅灰蓝边新外套。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "1be5cc691cd5948cebc281714b4b94ab2f9ba5b44794f6039e488c67fe5c491c",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/bases.webp",
+        "cell": 2,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+      "currentKey": "zhouzhi",
+      "characterId": "zhouzhi",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "基础及5差分无强制麦克风或旧设备；深青衬衫可作基准，第32天浅蓝衬衫等文本差异另列衣装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/bases.webp",
+        "cell": 3,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/mengyao-face-v2-candidate.webp",
+      "currentKey": "mengyao",
+      "characterId": "mengyao",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及7张差分均挂相机；保留face-v2脸型与米白衬衫，去相机/肩带，资料袋与休闲装按场段分开。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "19740a8e75758a332bf7ee2de0744174493c6610735b175ade5bc0fb84afb0ab",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/bases.webp",
+        "cell": 4,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/yelan-face-v2-candidate.webp",
+      "currentKey": "yelan",
+      "characterId": "yelan",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及4张差分持夹板，未见可读旧领班文字；不把背面夹板猜成新工作文件。日常版去夹板，保留低髻、深灰西装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "9672425d2f9fac472a9bf881459a681078419eab4b80a9618ada5f3a08ac57b9",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/bases.webp",
+        "cell": 5,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/char-maolang.webp",
+      "currentKey": "maolang",
+      "characterId": "maolang",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option D基础及9差分匹配演出主持/场务与熟人日常；婚宴与试裤场段另列，不能把旧竞聘CG视作新剧情。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/bases.webp",
+        "cell": 6,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/char-shijiang.webp",
+      "currentKey": "shijiang",
+      "characterId": "shijiang",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option A基础及5差分无维修道具，可复用；保持帽子眼镜和脸型，不另穿维修制服。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "286042deb9ae765c377f69285824c8ca4e2a7a23ba8af960cbaf413747fc207c",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/bases.webp",
+        "cell": 7,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/char-huangqiuqiu.webp",
+      "currentKey": "huangqiuqiu",
+      "characterId": "huangqiuqiu",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "球形基础及5差分可复用，仅用于变身前且满足隐藏条件；不套作人形头像。",
+      "width": 1254,
+      "height": 1254,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "ce01862d4078b2b091980575bbf728f30d3ce2044ac9b6f41643fb11a843b2de",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/bases.webp",
+        "cell": 8,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/char-piao.webp",
+      "currentKey": "piao",
+      "characterId": "piao",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option B浅酒窝基础及9差分可复用；小册子与婚宴另列道具/衣装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "b28422dabd0a4d3eb2ad7a34f832104bae4884ecb93bd45eb0d80e9c17a70331",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/bases.webp",
+        "cell": 9,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/huangqiuqiu-human-20261022/char-huangqiuqiu-human-base.webp",
+      "currentKey": "huangqiuqiu-human (unregistered)",
+      "characterId": "huangqiuqiu-human",
+      "kind": "character",
+      "decision": "pending",
+      "reason": "人形1024×1536腰部截幅，照片可见外观已制作，外观待用户审阅；差分/头像未制作。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "4e458e5fe38514e3eb4a0ae61fc2023166f078b2370e4836cb1557a6c56cd3d2",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/bases.webp",
+        "cell": 10,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.webp",
+      "currentKey": "wenwen:expression-determined",
+      "characterId": "wenwen",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及9张差分胸袋均有红黑维修工具；保持短寸圆脸与夹克，移除工具。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "b9d203ba40f9542a09a1c586ce9b774f39aefe5819c9812440bb8c689a06ae4e",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-wenwen.webp",
+        "cell": 1,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.webp",
+      "currentKey": "wenwen:expression-embarrassed",
+      "characterId": "wenwen",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及9张差分胸袋均有红黑维修工具；保持短寸圆脸与夹克，移除工具。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "1ff2b4561b8de7ac6330dc333f0dd3c2eac40542ebe4ed5852a9920f1a601bbe",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-wenwen.webp",
+        "cell": 2,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.webp",
+      "currentKey": "wenwen:expression-guilty",
+      "characterId": "wenwen",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及9张差分胸袋均有红黑维修工具；保持短寸圆脸与夹克，移除工具。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "0059b2db23d7f26bdb24bb0023a761436be46805aa60f4f08bf4d3f068289718",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-wenwen.webp",
+        "cell": 3,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.webp",
+      "currentKey": "wenwen:expression-hesitant",
+      "characterId": "wenwen",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及9张差分胸袋均有红黑维修工具；保持短寸圆脸与夹克，移除工具。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "a538b1aa917c55588148d63dc59946f20eb6cc656d68211a50de6a494585d85e",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-wenwen.webp",
+        "cell": 4,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.webp",
+      "currentKey": "wenwen:expression-serious",
+      "characterId": "wenwen",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及9张差分胸袋均有红黑维修工具；保持短寸圆脸与夹克，移除工具。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "af37016a61f89086b9d4bdd8b788e87c7463564af72bc5c33425e5415f3afd38",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-wenwen.webp",
+        "cell": 5,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.webp",
+      "currentKey": "wenwen:expression-smile",
+      "characterId": "wenwen",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及9张差分胸袋均有红黑维修工具；保持短寸圆脸与夹克，移除工具。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "eeddf86e50eda45fd0ed74b0e278ffea59f6121c48d5b6582e8f848bb5e15e8a",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-wenwen.webp",
+        "cell": 6,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.webp",
+      "currentKey": "wenwen:expression-surprised",
+      "characterId": "wenwen",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及9张差分胸袋均有红黑维修工具；保持短寸圆脸与夹克，移除工具。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "1ddbc410065c975d378a8242a5717abf398a0bb3eccb39a325a6d01ec675da38",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-wenwen.webp",
+        "cell": 7,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.webp",
+      "currentKey": "wenwen:expression-tired",
+      "characterId": "wenwen",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及9张差分胸袋均有红黑维修工具；保持短寸圆脸与夹克，移除工具。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "e5df6c2008d4e729619aa0105dcdc29aa7aed7a5bd25f688a6d255ab9eadf8e3",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-wenwen.webp",
+        "cell": 8,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.webp",
+      "currentKey": "wenwen:expression-wry",
+      "characterId": "wenwen",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及9张差分胸袋均有红黑维修工具；保持短寸圆脸与夹克，移除工具。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "885c35ad33235c20211fc1587a7f0c202bd8775c165c8b80224ed3b23965c0c9",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-wenwen.webp",
+        "cell": 9,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.webp",
+      "currentKey": "xiaoman:expression-downcast",
+      "characterId": "xiaoman",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "基础及5差分无过时职业道具；现砖红外套不能代替工作围裙及第29天浅灰蓝边新外套。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "17431ee18497db77547c67bba1b294873d3c02fa0260075d16354b82bf510c39",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-xiaoman.webp",
+        "cell": 1,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.webp",
+      "currentKey": "xiaoman:expression-hesitant",
+      "characterId": "xiaoman",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "基础及5差分无过时职业道具；现砖红外套不能代替工作围裙及第29天浅灰蓝边新外套。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "20300c95bf649054fb93e4fad1d1ccc7aa0fc34172bd0b88eef10a72bd1a9531",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-xiaoman.webp",
+        "cell": 2,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.webp",
+      "currentKey": "xiaoman:expression-serious",
+      "characterId": "xiaoman",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "基础及5差分无过时职业道具；现砖红外套不能代替工作围裙及第29天浅灰蓝边新外套。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "8fdaf41013fe8f7dc313a7cea6699cb37a54ed88e9dd8c6c41af92cbe03334dc",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-xiaoman.webp",
+        "cell": 3,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+      "currentKey": "xiaoman:expression-smile",
+      "characterId": "xiaoman",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "基础及5差分无过时职业道具；现砖红外套不能代替工作围裙及第29天浅灰蓝边新外套。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "f7a76782c6cd6a8a3739d68d2e664afe0da3be2810241e8802c6e1bec7dae990",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-xiaoman.webp",
+        "cell": 4,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-surprised.webp",
+      "currentKey": "xiaoman:expression-surprised",
+      "characterId": "xiaoman",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "基础及5差分无过时职业道具；现砖红外套不能代替工作围裙及第29天浅灰蓝边新外套。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "2a31e6f1e15c80a4ce41c24241e5971228fd44b909eed293fe7413b43a6d7093",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-xiaoman.webp",
+        "cell": 5,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-explaining.webp",
+      "currentKey": "zhouzhi:action-explaining",
+      "characterId": "zhouzhi",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "基础及5差分无强制麦克风或旧设备；深青衬衫可作基准，第32天浅蓝衬衫等文本差异另列衣装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "133b599712c9bc47953891c8cccc78af8117b8ef339333e6040912315f44e93f",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-zhouzhi.webp",
+        "cell": 1,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.webp",
+      "currentKey": "zhouzhi:expression-downcast",
+      "characterId": "zhouzhi",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "基础及5差分无强制麦克风或旧设备；深青衬衫可作基准，第32天浅蓝衬衫等文本差异另列衣装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "f33bd7d32161fd13d8597b88779fc2233921a1db3f60c10c63d5be296dd4e713",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-zhouzhi.webp",
+        "cell": 2,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.webp",
+      "currentKey": "zhouzhi:expression-hesitant",
+      "characterId": "zhouzhi",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "基础及5差分无强制麦克风或旧设备；深青衬衫可作基准，第32天浅蓝衬衫等文本差异另列衣装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "c77e074b064afe4f9250f0e827b6ecfb742c1486d9aa9ba68e22700927f55a20",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-zhouzhi.webp",
+        "cell": 3,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.webp",
+      "currentKey": "zhouzhi:expression-serious",
+      "characterId": "zhouzhi",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "基础及5差分无强制麦克风或旧设备；深青衬衫可作基准，第32天浅蓝衬衫等文本差异另列衣装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "47133aa81d4be43234874bb5e072195fa6c53040fab0456580806802e6a82e0e",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-zhouzhi.webp",
+        "cell": 4,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.webp",
+      "currentKey": "zhouzhi:expression-smile",
+      "characterId": "zhouzhi",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "基础及5差分无强制麦克风或旧设备；深青衬衫可作基准，第32天浅蓝衬衫等文本差异另列衣装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "21d6bef6495b7fcdca9a9369f59842bcf4e20743426b51a5493c117c2b50cf5a",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-zhouzhi.webp",
+        "cell": 5,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-explaining.webp",
+      "currentKey": "mengyao:action-explaining",
+      "characterId": "mengyao",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及7张差分均挂相机；保留face-v2脸型与米白衬衫，去相机/肩带，资料袋与休闲装按场段分开。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "59134850e7886d3fabc4f7ef2739ced6f0ba8b56fe217a5b51f4d55bbafd4a7a",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-mengyao.webp",
+        "cell": 1,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-displeased.webp",
+      "currentKey": "mengyao:expression-displeased",
+      "characterId": "mengyao",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及7张差分均挂相机；保留face-v2脸型与米白衬衫，去相机/肩带，资料袋与休闲装按场段分开。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "ef85c279075bd08a33c801813a6293cec327f0c5e243e505c7dde0bcd000f9c2",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-mengyao.webp",
+        "cell": 2,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-downcast.webp",
+      "currentKey": "mengyao:expression-downcast",
+      "characterId": "mengyao",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及7张差分均挂相机；保留face-v2脸型与米白衬衫，去相机/肩带，资料袋与休闲装按场段分开。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "f19e70633b7bc52f4559af3e348f4acd0fa4e4f73c7fc6f7bb8e43937a225572",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-mengyao.webp",
+        "cell": 3,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-hesitant.webp",
+      "currentKey": "mengyao:expression-hesitant",
+      "characterId": "mengyao",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及7张差分均挂相机；保留face-v2脸型与米白衬衫，去相机/肩带，资料袋与休闲装按场段分开。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "7e76af061b6263eb9eb04f4ad25b09265f1d6a4783f9ffce0239e317aaf74ac1",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-mengyao.webp",
+        "cell": 4,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-serious.webp",
+      "currentKey": "mengyao:expression-serious",
+      "characterId": "mengyao",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及7张差分均挂相机；保留face-v2脸型与米白衬衫，去相机/肩带，资料袋与休闲装按场段分开。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "0c9a4b316dc9d455869a590ce12565621298a91f25abec4482895f92a4c1464d",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-mengyao.webp",
+        "cell": 5,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-smile.webp",
+      "currentKey": "mengyao:expression-smile",
+      "characterId": "mengyao",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及7张差分均挂相机；保留face-v2脸型与米白衬衫，去相机/肩带，资料袋与休闲装按场段分开。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "a5ae89b9d02aaa2e040167ebb1e5cd2110c85cda3494de82ae839ab195133ef5",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-mengyao.webp",
+        "cell": 6,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-surprised.webp",
+      "currentKey": "mengyao:expression-surprised",
+      "characterId": "mengyao",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及7张差分均挂相机；保留face-v2脸型与米白衬衫，去相机/肩带，资料袋与休闲装按场段分开。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "e9bb081bc6aa921fa26e4cc7abdd188ab0abd66afcb8c26597b1509057ec3ca5",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-mengyao.webp",
+        "cell": 7,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-hesitant.webp",
+      "currentKey": "yelan:expression-hesitant",
+      "characterId": "yelan",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及4张差分持夹板，未见可读旧领班文字；不把背面夹板猜成新工作文件。日常版去夹板，保留低髻、深灰西装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "b4ae21beb7d23777511f3f29259a888bd1819fd87c275d6be3944e24feb069f3",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-yelan.webp",
+        "cell": 1,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-serious.webp",
+      "currentKey": "yelan:expression-serious",
+      "characterId": "yelan",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及4张差分持夹板，未见可读旧领班文字；不把背面夹板猜成新工作文件。日常版去夹板，保留低髻、深灰西装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "aa4731fd8f4237d9a38adb09dbe53fc71f0767e0251a4dadb5241be313ac445c",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-yelan.webp",
+        "cell": 2,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-smile.webp",
+      "currentKey": "yelan:expression-smile",
+      "characterId": "yelan",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及4张差分持夹板，未见可读旧领班文字；不把背面夹板猜成新工作文件。日常版去夹板，保留低髻、深灰西装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "1a15b9785e79602a2394d848203604f2d98abdb87d1a8ff5af7bcb5d503fb158",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-yelan.webp",
+        "cell": 3,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-surprised.webp",
+      "currentKey": "yelan:expression-surprised",
+      "characterId": "yelan",
+      "kind": "character",
+      "decision": "revise",
+      "reason": "基础及4张差分持夹板，未见可读旧领班文字；不把背面夹板猜成新工作文件。日常版去夹板，保留低髻、深灰西装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "d88b8693db7c2fabcd22ead1569adcbec3fb3fa4bc4665b5ec6c7c21c40e905c",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-yelan.webp",
+        "cell": 4,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.webp",
+      "currentKey": "maolang:action-explaining",
+      "characterId": "maolang",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option D基础及9差分匹配演出主持/场务与熟人日常；婚宴与试裤场段另列，不能把旧竞聘CG视作新剧情。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "9985035944f927cd0f4a2fd386d6c40809b3012464955b59e6a9d2073cd3084a",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-maolang.webp",
+        "cell": 1,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.webp",
+      "currentKey": "maolang:action-thinking",
+      "characterId": "maolang",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option D基础及9差分匹配演出主持/场务与熟人日常；婚宴与试裤场段另列，不能把旧竞聘CG视作新剧情。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "051db72e7417b59930dad4ed1e7f2b6f74b8c740de1ce9c2153cca6549801734",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-maolang.webp",
+        "cell": 2,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.webp",
+      "currentKey": "maolang:action-wave",
+      "characterId": "maolang",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option D基础及9差分匹配演出主持/场务与熟人日常；婚宴与试裤场段另列，不能把旧竞聘CG视作新剧情。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "e6ce4fef0da70fee1d353a19d4c7fe9dd242ca5d2b8705b8c761d35406b35d66",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-maolang.webp",
+        "cell": 3,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.webp",
+      "currentKey": "maolang:expression-displeased",
+      "characterId": "maolang",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option D基础及9差分匹配演出主持/场务与熟人日常；婚宴与试裤场段另列，不能把旧竞聘CG视作新剧情。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "8f528f4d50ee28862387623961ff35bb6efc9ae4a6810c57e7506e8149b830d1",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-maolang.webp",
+        "cell": 4,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.webp",
+      "currentKey": "maolang:expression-downcast",
+      "characterId": "maolang",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option D基础及9差分匹配演出主持/场务与熟人日常；婚宴与试裤场段另列，不能把旧竞聘CG视作新剧情。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "678ffd7c22082caa2ee736ba1e37020ee3b28f16272ada5a91cf23592f809612",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-maolang.webp",
+        "cell": 5,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+      "currentKey": "maolang:expression-hesitant",
+      "characterId": "maolang",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option D基础及9差分匹配演出主持/场务与熟人日常；婚宴与试裤场段另列，不能把旧竞聘CG视作新剧情。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "e6b1d49e1a239ea99f95022cba84bd1ba44a452c838b18579d207fbccaffe54f",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-maolang.webp",
+        "cell": 6,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.webp",
+      "currentKey": "maolang:expression-serious",
+      "characterId": "maolang",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option D基础及9差分匹配演出主持/场务与熟人日常；婚宴与试裤场段另列，不能把旧竞聘CG视作新剧情。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "1bed64f2586cc3633098aeef862046dc6d7b970d71f872adb71c8060008cef44",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-maolang.webp",
+        "cell": 7,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+      "currentKey": "maolang:expression-smile",
+      "characterId": "maolang",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option D基础及9差分匹配演出主持/场务与熟人日常；婚宴与试裤场段另列，不能把旧竞聘CG视作新剧情。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "5704ec0c670226e7c4ae80aa952994c3d100c088c7648c221156f08515923a92",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-maolang.webp",
+        "cell": 8,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.webp",
+      "currentKey": "maolang:expression-surprised",
+      "characterId": "maolang",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option D基础及9差分匹配演出主持/场务与熟人日常；婚宴与试裤场段另列，不能把旧竞聘CG视作新剧情。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "6fde30da9c295969b490e685cc3130dac9aa5054ae0e459bd79189228f968bae",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-maolang.webp",
+        "cell": 9,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.webp",
+      "currentKey": "shijiang:action-explaining",
+      "characterId": "shijiang",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option A基础及5差分无维修道具，可复用；保持帽子眼镜和脸型，不另穿维修制服。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "15fc44f1743fc0ed2bdaa22b7cce7a56cdbcd27c1ceb55b11bce3ce322281deb",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-shijiang.webp",
+        "cell": 1,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-phone.webp",
+      "currentKey": "shijiang:action-phone",
+      "characterId": "shijiang",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option A基础及5差分无维修道具，可复用；保持帽子眼镜和脸型，不另穿维修制服。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "b8329f02e41974d283676fd629dc23acb6b7eae2dc51621e6d12025bd4eb73f7",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-shijiang.webp",
+        "cell": 2,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.webp",
+      "currentKey": "shijiang:action-thinking",
+      "characterId": "shijiang",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option A基础及5差分无维修道具，可复用；保持帽子眼镜和脸型，不另穿维修制服。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "22ab051c12a15850ff3611598104e6c411001afdfaa18708a0aa257c763a458c",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-shijiang.webp",
+        "cell": 3,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.webp",
+      "currentKey": "shijiang:expression-serious",
+      "characterId": "shijiang",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option A基础及5差分无维修道具，可复用；保持帽子眼镜和脸型，不另穿维修制服。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "e4399ca942e6bc20bf5e2c6391de95a115bcb59c4320d0c10eea99d953c1352f",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-shijiang.webp",
+        "cell": 4,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp",
+      "currentKey": "shijiang:expression-smile",
+      "characterId": "shijiang",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option A基础及5差分无维修道具，可复用；保持帽子眼镜和脸型，不另穿维修制服。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "46d040efebffd1f356fed0773e317e9eb6654e9356c2e4800a42a388e9d6259f",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-shijiang.webp",
+        "cell": 5,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-displeased.webp",
+      "currentKey": "huangqiuqiu:expression-displeased",
+      "characterId": "huangqiuqiu",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "球形基础及5差分可复用，仅用于变身前且满足隐藏条件；不套作人形头像。",
+      "width": 1254,
+      "height": 1254,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "27c6e9d00f36eb3ef00028b34932b69bffff4169a82098a8cddca0453593a5fe",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-huangqiuqiu.webp",
+        "cell": 1,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-downcast.webp",
+      "currentKey": "huangqiuqiu:expression-downcast",
+      "characterId": "huangqiuqiu",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "球形基础及5差分可复用，仅用于变身前且满足隐藏条件；不套作人形头像。",
+      "width": 1254,
+      "height": 1254,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "fbf7ddf3cbe77f2532bb06ee68d695c0313b93b3426b0195269ad4ba7a351930",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-huangqiuqiu.webp",
+        "cell": 2,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+      "currentKey": "huangqiuqiu:expression-hesitant",
+      "characterId": "huangqiuqiu",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "球形基础及5差分可复用，仅用于变身前且满足隐藏条件；不套作人形头像。",
+      "width": 1254,
+      "height": 1254,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "9664e4a971c4a8a08b7b47c49bc669a3d25632c3d5bb0c2ed324307e74fc7c9f",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-huangqiuqiu.webp",
+        "cell": 3,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+      "currentKey": "huangqiuqiu:expression-serious",
+      "characterId": "huangqiuqiu",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "球形基础及5差分可复用，仅用于变身前且满足隐藏条件；不套作人形头像。",
+      "width": 1254,
+      "height": 1254,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "08846f26ea6ee59dc8291f90497197c0bc8907386652c8903d9158b1a1bcac57",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-huangqiuqiu.webp",
+        "cell": 4,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp",
+      "currentKey": "huangqiuqiu:expression-smile",
+      "characterId": "huangqiuqiu",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "球形基础及5差分可复用，仅用于变身前且满足隐藏条件；不套作人形头像。",
+      "width": 1254,
+      "height": 1254,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "03c4cb0d38b786ba29d67ecf5a7940c14c7a06ed9596420c57980e3de4e8bf12",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-huangqiuqiu.webp",
+        "cell": 5,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-explaining.webp",
+      "currentKey": "piao:action-explaining",
+      "characterId": "piao",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option B浅酒窝基础及9差分可复用；小册子与婚宴另列道具/衣装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "2cf905d8a48d2ca8e0b4a876c22a72789ee506ab2c66f08de801077ffb159238",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-piao.webp",
+        "cell": 1,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-thinking.webp",
+      "currentKey": "piao:action-thinking",
+      "characterId": "piao",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option B浅酒窝基础及9差分可复用；小册子与婚宴另列道具/衣装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "71abe11bb98fb387e3cec1fc756f02d080d0b6f120c969f3425841d89e6fbc7d",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-piao.webp",
+        "cell": 2,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-wave.webp",
+      "currentKey": "piao:action-wave",
+      "characterId": "piao",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option B浅酒窝基础及9差分可复用；小册子与婚宴另列道具/衣装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "1384bb3e03126e7f0ad435dd7dc82fce638ac5ef4d3cfa2bcbd5f26c5ea0e05c",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-piao.webp",
+        "cell": 3,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-displeased.webp",
+      "currentKey": "piao:expression-displeased",
+      "characterId": "piao",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option B浅酒窝基础及9差分可复用；小册子与婚宴另列道具/衣装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "22106363272c16bac15ab480e1d5d7404e4a2dbacb6c9d87a37f4adf3fe679b1",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-piao.webp",
+        "cell": 4,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.webp",
+      "currentKey": "piao:expression-downcast",
+      "characterId": "piao",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option B浅酒窝基础及9差分可复用；小册子与婚宴另列道具/衣装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "4ba3d09a6f0d46c156b7ba278388b9228a8e2c00ba30e398de3f8b46872965e5",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-piao.webp",
+        "cell": 5,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+      "currentKey": "piao:expression-hesitant",
+      "characterId": "piao",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option B浅酒窝基础及9差分可复用；小册子与婚宴另列道具/衣装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "9bb08999a38861d259fa6fd29458fb1b58e03425a2fa50533634280e9e90e831",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-piao.webp",
+        "cell": 6,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.webp",
+      "currentKey": "piao:expression-serious",
+      "characterId": "piao",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option B浅酒窝基础及9差分可复用；小册子与婚宴另列道具/衣装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "ea955ceb6b2301825e391ca636d343145753b7451e20d6229d5935b90139486f",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-piao.webp",
+        "cell": 7,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+      "currentKey": "piao:expression-smile",
+      "characterId": "piao",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option B浅酒窝基础及9差分可复用；小册子与婚宴另列道具/衣装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "6d2661f9fd7c8551cb1dace16519ffcc220c23e5c69693103538cfe57ba612b0",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-piao.webp",
+        "cell": 8,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-surprised.webp",
+      "currentKey": "piao:expression-surprised",
+      "characterId": "piao",
+      "kind": "character",
+      "decision": "reuse",
+      "reason": "Option B浅酒窝基础及9差分可复用；小册子与婚宴另列道具/衣装。",
+      "width": 1024,
+      "height": 1536,
+      "format": "webp",
+      "hasAlpha": true,
+      "sha256": "fa89fa31ccf2e075209da840012fe044142876ce8ed6d21f6c0d408a2c6cd851",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/expressions-piao.webp",
+        "cell": 9,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/characters-manifest.json",
+        "assets/new-characters-manifest.json",
+        "assets/piao-character-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/bg-street.webp",
+      "currentKey": "street",
+      "characterId": null,
+      "kind": "background",
+      "decision": "reuse",
+      "reason": "可复用到相同地点与时段，不能仅按旧key绑定。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "0c2596024811638b9b135abcce0ca7d8e204644ec71f7831838f70a889b6a3c8",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/backgrounds-1.webp",
+        "cell": 1,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/backgrounds-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/bg-repair.webp",
+      "currentKey": "repair",
+      "characterId": null,
+      "kind": "background",
+      "decision": "exclude",
+      "reason": "维修工作间，不能代替网吧柜台。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "3a5bedfc3cee00a301139f2bb74c3f98f7541ef852181c90f262397a6789e3b1",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/backgrounds-1.webp",
+        "cell": 2,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/backgrounds-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/bg-lobby.webp",
+      "currentKey": "lobby",
+      "characterId": null,
+      "kind": "background",
+      "decision": "exclude",
+      "reason": "旧KTV前厅，没有网吧机位/收银语义，不能代替网吧。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "1fe139b2bf5a80d9591f437a7c6d7663a9c22958608a8d61cb46255452d1329c",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/backgrounds-1.webp",
+        "cell": 3,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/backgrounds-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/bg-room.webp",
+      "currentKey": "room",
+      "characterId": null,
+      "kind": "background",
+      "decision": "reuse",
+      "reason": "实际为KTV包厢，仅可候选第六章孟遥小练歌房；不是出租屋或球球后院。A04复核空间尺度/灯光。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "82740dc9ac4dd0499f7658dd7a0f4d33fe8cf29c4eb6fe646ec39f63c3ef9f6c",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/backgrounds-1.webp",
+        "cell": 4,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/backgrounds-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/bg-noodles.webp",
+      "currentKey": "noodles",
+      "characterId": null,
+      "kind": "background",
+      "decision": "reuse",
+      "reason": "可复用到相同地点与时段，不能仅按旧key绑定。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "83c5a1069d2d081997a9961988cbb71255df64c50a60d0f53ae1ab62bb566999",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/backgrounds-1.webp",
+        "cell": 5,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/backgrounds-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/bg-salon.webp",
+      "currentKey": "salon",
+      "characterId": null,
+      "kind": "background",
+      "decision": "reuse",
+      "reason": "可复用到相同地点与时段，不能仅按旧key绑定。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "ce234b655ad068db55435d251f11796b946e7b3a97cb2b20143f5717833ca4f9",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/backgrounds-1.webp",
+        "cell": 6,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/backgrounds-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-busstop-day.webp",
+      "currentKey": "busstop_day",
+      "characterId": null,
+      "kind": "background",
+      "decision": "reuse",
+      "reason": "可复用到相同地点与时段，不能仅按旧key绑定。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "335b2bf31c5ec8828589bcd5551c708ec8a7f914408d8635ca7f53d38a700b16",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/backgrounds-2.webp",
+        "cell": 1,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/backgrounds-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+      "currentKey": "market_stall_night",
+      "characterId": null,
+      "kind": "background",
+      "decision": "reuse",
+      "reason": "可复用到相同地点与时段，不能仅按旧key绑定。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "ff721898479c352bdac7969a7b301b29fd196215d04cdd24290c77de8c94caa0",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/backgrounds-2.webp",
+        "cell": 2,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/backgrounds-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-echo-entrance-night.webp",
+      "currentKey": "echo_entrance_night",
+      "characterId": null,
+      "kind": "background",
+      "decision": "reuse",
+      "reason": "回声雨夜门外；白天、停业和清晨需要独立变体。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "f93d6425e7869ed919b4d71511ac8d80f576c915fcb440669ab839f37f053c20",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/backgrounds-2.webp",
+        "cell": 3,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/backgrounds-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-old-eaves-day.webp",
+      "currentKey": "old_eaves_day",
+      "characterId": null,
+      "kind": "background",
+      "decision": "reuse",
+      "reason": "可复用到相同地点与时段，不能仅按旧key绑定。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "18861e49214b039d1507ea98a7073ddc8876062b4ad8684bdad91ea3deee7445",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/backgrounds-2.webp",
+        "cell": 4,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/backgrounds-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-slope-junction-night.webp",
+      "currentKey": "slope_junction_night",
+      "characterId": null,
+      "kind": "background",
+      "decision": "reuse",
+      "reason": "可复用到相同地点与时段，不能仅按旧key绑定。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "f81e14760a5950f40fbc223e6bc5fe8fde5ed261014c02dd1b0181b7f97cffa1",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/backgrounds-2.webp",
+        "cell": 5,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/backgrounds-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-residential-slope-day.webp",
+      "currentKey": "residential_slope_day",
+      "characterId": null,
+      "kind": "background",
+      "decision": "reuse",
+      "reason": "可复用到相同地点与时段，不能仅按旧key绑定。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "d5920c93d6841fd26f71766ca7ea52d368464f680da573e0114f3913c0bb95f5",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/backgrounds-2.webp",
+        "cell": 6,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/backgrounds-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.webp",
+      "currentKey": "noodle_front_dusk",
+      "characterId": null,
+      "kind": "background",
+      "decision": "reuse",
+      "reason": "可复用到相同地点与时段，不能仅按旧key绑定。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "188326b2cdb65dcb0a65f117ffd7c05d5cd9b60df5bf9536786fc7da84bde6f7",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/backgrounds-3.webp",
+        "cell": 1,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/backgrounds-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-noodles-dusk.webp",
+      "currentKey": "noodles_dusk",
+      "characterId": null,
+      "kind": "background",
+      "decision": "reuse",
+      "reason": "可复用到相同地点与时段，不能仅按旧key绑定。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "e4a0e4aa5baaf996064f949b382b1dbec9e7c53b01bff708e3b2b9dd335e582f",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/backgrounds-3.webp",
+        "cell": 2,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/backgrounds-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.webp",
+      "currentKey": "noodle_banquet_day",
+      "characterId": null,
+      "kind": "background",
+      "decision": "reuse",
+      "reason": "小店宴席/红色装饰可候选普通婚宴；正文未指定具体面馆，属演出建议待E01确认。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "b0b100f1e82cdcfeb58aa02c782480399ca2787582a00368a9a2a3dc01c68809",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/backgrounds-3.webp",
+        "cell": 3,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/backgrounds-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-street-day.webp",
+      "currentKey": "street:day override",
+      "characterId": null,
+      "kind": "background",
+      "decision": "reuse",
+      "reason": "可复用到相同地点与时段，不能仅按旧key绑定。",
+      "width": 1671,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "3841f1ae27040c2416b73466f22fbf7664145b9aa2617bce1fbf4b1d17b2a7d7",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/backgrounds-3.webp",
+        "cell": 4,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/backgrounds-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/cg/cg-01-rain-return.webp",
+      "currentKey": "cg01",
+      "characterId": null,
+      "kind": "cg",
+      "decision": "revise",
+      "reason": "开篇雨天返乡氛围可参考，但可见工具包/工具与新网管身份不符。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "cf73bf80ff3651254affc1d04fc9932d3030982350a4be7d47a195c9fdffede2",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/cg-1.webp",
+        "cell": 1,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/cg-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/cg/cg-02-xiaoman-mirror.webp",
+      "currentKey": "cg02",
+      "characterId": null,
+      "kind": "cg",
+      "decision": "revise",
+      "reason": "镜前相处可参考；第3天工作围裙/扫帚、第21天歪画纸等具体节点需重新选取，不自动沿用旧作品夹事件。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "6530cf270f0b8046545812ade8d8e5c8521d529170e76592fb091290c4d5014e",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/cg-1.webp",
+        "cell": 2,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/cg-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/cg/cg-03-zhouzhi-noodles.webp",
+      "currentKey": "cg03",
+      "characterId": null,
+      "kind": "cg",
+      "decision": "exclude",
+      "reason": "报价单/照明一栏为旧工作协作情节，新版相处没有此事件。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "8a48cebbb1fb36e0d16e769b125243bfca331a1840f068a985bc76ff9f0b1da8",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/cg-1.webp",
+        "cell": 3,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/cg-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/cg/cg-04-mengyao-camera.webp",
+      "currentKey": "cg04",
+      "characterId": null,
+      "kind": "cg",
+      "decision": "exclude",
+      "reason": "孟遥持相机是旧职业主叙事，不用于英语老师前女友重逢。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "772507fb8fb0e56dc399595d4f2ed8310213ad96e86812a8501866a262fa7344",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/cg-1.webp",
+        "cell": 4,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/cg-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/cg/cg-05-yelan-inventory.webp",
+      "currentKey": "cg05",
+      "characterId": null,
+      "kind": "cg",
+      "decision": "exclude",
+      "reason": "叶岚在KTV清点设备与内勤网友身份、场景不符。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "b048be9913c0f1f3fed4e811f5a60520b1fa0392479c4dc9de01a0233f835fdb",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/cg-2.webp",
+        "cell": 1,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/cg-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/cg/cg-06-maolang-confession.webp",
+      "currentKey": "cg06",
+      "characterId": null,
+      "kind": "cg",
+      "decision": "exclude",
+      "reason": "旧大厅尺寸纸/线箱与同岗竞争情境不适用于新版朋友线。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "a11a0faa3ddfba3fb6f73f5a57c502bf88bb2143d74f9664f903c9297655f3a2",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/cg-2.webp",
+        "cell": 2,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/cg-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/cg/cg-07-yelan-off-duty.webp",
+      "currentKey": "cg07",
+      "characterId": null,
+      "kind": "cg",
+      "decision": "revise",
+      "reason": "雨夜撑伞构图可参考，但文文工具包及夜间时段不适合第72天下午告白。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "986343ec2c184e269aa0738f2122877432259337fd97b5593c293f774453d388",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/cg-2.webp",
+        "cell": 3,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/cg-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/cg/cg-08-huangqiuqiu-listening.webp",
+      "currentKey": "cg08",
+      "characterId": null,
+      "kind": "cg",
+      "decision": "exclude",
+      "reason": "调音台上的球球与网吧后院相识地点不符；不能挪作变身CG。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "c415560dca1cbeb97275bab588d51042d30a15b7e002213d81fbc9a6b058907a",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/cg-2.webp",
+        "cell": 4,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/cg-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/cg/cg-09-repair-handoff.webp",
+      "currentKey": "cg09",
+      "characterId": null,
+      "kind": "cg",
+      "decision": "exclude",
+      "reason": "维修柜台故障单、拆机设备与新版网吧工作不符。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "cbe9fd54d1244e0517311fa91c775cb44f592c3e9994142c85c16cfa3081fac6",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/cg-3.webp",
+        "cell": 1,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/cg-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/cg/cg-13-xiaoman-night-stall.webp",
+      "currentKey": "cg13",
+      "characterId": null,
+      "kind": "cg",
+      "decision": "revise",
+      "reason": "小满夜摊+练习图为旧场面；新版对应时段、服装和纸张内容不同，不能直接作为结局CG。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "70e6becb0467a565fbe66cf786ef2717591d1a375f62cf25e0e448a9278a8ed0",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/cg-3.webp",
+        "cell": 2,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/cg-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/cover-b-desktop.webp",
+      "currentKey": "desktop",
+      "characterId": null,
+      "kind": "cover",
+      "decision": "revise",
+      "reason": "横竖封面保持标题/河岸构图与人物；文文胸袋可见维修工具，需同步移除；桥上相机轮廓需A05确认/调整，避免旧职业暗示。不是重做封面请求。",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "c36cac65c8f0c26ac8d3fbf2b8e7c7df614c68cfddecb26e4e21ac2905f64a4b",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/covers.webp",
+        "cell": 1,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/cover-b-manifest.json"
+      ]
+    },
+    {
+      "path": "assets/cover-b-mobile.webp",
+      "currentKey": "mobile",
+      "characterId": null,
+      "kind": "cover",
+      "decision": "revise",
+      "reason": "横竖封面保持标题/河岸构图与人物；文文胸袋可见维修工具，需同步移除；桥上相机轮廓需A05确认/调整，避免旧职业暗示。不是重做封面请求。",
+      "width": 941,
+      "height": 1672,
+      "format": "webp",
+      "hasAlpha": false,
+      "sha256": "8cdc091c775ed40ece56227ddbdd9a48a5bf2332f7c4b866c21e7f60c1c0d13f",
+      "visualEvidence": {
+        "sheet": "qa/a01-20261022/covers.webp",
+        "cell": 2,
+        "review": "实际查看QA联系表中的每一格；用于整体语义/职业道具审查，未逐张全尺寸alpha或像素比较"
+      },
+      "sourceRecords": [
+        "assets/cover-b-manifest.json"
+      ]
+    }
+  ],
+  "counts": {
+    "all": 96,
+    "byDecision": {
+      "reuse": 58,
+      "revise": 29,
+      "exclude": 8,
+      "pending": 1
+    }
+  },
+  "notPerformed": [
+    "全尺寸逐张透明边缘验收",
+    "WebP与PNG逐像素重新对比",
+    "新剧情浏览器呈现",
+    "未采用历史备选图逐张审查"
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "characters": {
+    "wenwen": {
+      "name": "文文",
+      "age": 23,
+      "image": "assets/char-wenwen.webp",
+      "color": "#99b7cb",
+      "presentation": "human",
+      "expressions": {
+        "expression-determined": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.webp",
+        "expression-embarrassed": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.webp",
+        "expression-guilty": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.webp",
+        "expression-hesitant": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.webp",
+        "expression-serious": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.webp",
+        "expression-smile": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.webp",
+        "expression-surprised": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.webp",
+        "expression-tired": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.webp",
+        "expression-wry": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.webp"
+      }
+    },
+    "xiaoman": {
+      "name": "罗小满",
+      "age": 22,
+      "image": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+      "color": "#d48768",
+      "presentation": "human",
+      "expressions": {
+        "expression-downcast": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.webp",
+        "expression-hesitant": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.webp",
+        "expression-serious": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.webp",
+        "expression-smile": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.webp",
+        "expression-surprised": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-surprised.webp"
+      }
+    },
+    "zhouzhi": {
+      "name": "周栀",
+      "age": 25,
+      "image": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+      "color": "#69b9b1",
+      "presentation": "human",
+      "expressions": {
+        "action-explaining": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-explaining.webp",
+        "expression-downcast": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.webp",
+        "expression-hesitant": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.webp",
+        "expression-serious": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.webp",
+        "expression-smile": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.webp"
+      }
+    },
+    "mengyao": {
+      "name": "孟遥",
+      "age": 23,
+      "image": "assets/character-variants/mengyao-face-v2-candidate.webp",
+      "color": "#d2b693",
+      "presentation": "human",
+      "expressions": {
+        "action-explaining": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-explaining.webp",
+        "expression-displeased": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-displeased.webp",
+        "expression-downcast": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-downcast.webp",
+        "expression-hesitant": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-hesitant.webp",
+        "expression-serious": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-serious.webp",
+        "expression-smile": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-smile.webp",
+        "expression-surprised": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-surprised.webp"
+      }
+    },
+    "yelan": {
+      "name": "叶岚",
+      "age": 27,
+      "image": "assets/character-variants/yelan-face-v2-candidate.webp",
+      "color": "#9ba7bc",
+      "presentation": "human",
+      "expressions": {
+        "expression-hesitant": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-hesitant.webp",
+        "expression-serious": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-serious.webp",
+        "expression-smile": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-smile.webp",
+        "expression-surprised": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-surprised.webp"
+      }
+    },
+    "maolang": {
+      "name": "毛狼",
+      "age": 24,
+      "image": "assets/char-maolang.webp",
+      "color": "#9ba471",
+      "presentation": "human",
+      "expressions": {
+        "action-explaining": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.webp",
+        "action-thinking": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.webp",
+        "action-wave": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.webp",
+        "expression-displeased": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.webp",
+        "expression-downcast": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.webp",
+        "expression-hesitant": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.webp",
+        "expression-serious": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.webp",
+        "expression-smile": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.webp",
+        "expression-surprised": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.webp"
+      }
+    },
+    "shijiang": {
+      "name": "师匠",
+      "age": 32,
+      "image": "assets/char-shijiang.webp",
+      "color": "#7391b4",
+      "presentation": "human",
+      "expressions": {
+        "action-explaining": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.webp",
+        "action-phone": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-phone.webp",
+        "action-thinking": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.webp",
+        "expression-serious": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.webp",
+        "expression-smile": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp"
+      }
+    },
+    "huangqiuqiu": {
+      "name": "黄球球",
+      "age": 24,
+      "image": "assets/char-huangqiuqiu.webp",
+      "color": "#e5bf45",
+      "presentation": "orb",
+      "expressions": {
+        "expression-displeased": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-displeased.webp",
+        "expression-downcast": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-downcast.webp",
+        "expression-hesitant": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.webp",
+        "expression-serious": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.webp",
+        "expression-smile": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.webp"
+      }
+    },
+    "piao": {
+      "name": "飘",
+      "age": 20,
+      "adult": true,
+      "image": "assets/char-piao.webp",
+      "color": "#c69c91",
+      "presentation": "human",
+      "expressions": {
+        "action-explaining": "assets/character-variants/piao-optionB-20261020/char-piao-action-explaining.webp",
+        "action-thinking": "assets/character-variants/piao-optionB-20261020/char-piao-action-thinking.webp",
+        "action-wave": "assets/character-variants/piao-optionB-20261020/char-piao-action-wave.webp",
+        "expression-displeased": "assets/character-variants/piao-optionB-20261020/char-piao-expression-displeased.webp",
+        "expression-downcast": "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.webp",
+        "expression-hesitant": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+        "expression-serious": "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.webp",
+        "expression-smile": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+        "expression-surprised": "assets/character-variants/piao-optionB-20261020/char-piao-expression-surprised.webp"
+      }
+    }
+  },
+  "backgrounds": {
+    "street": "assets/bg-street.webp",
+    "repair": "assets/bg-repair.webp",
+    "lobby": "assets/bg-lobby.webp",
+    "room": "assets/bg-room.webp",
+    "noodles": "assets/bg-noodles.webp",
+    "salon": "assets/bg-salon.webp",
+    "busstop_day": "assets/backgrounds/bijie-20261020/bg-busstop-day.webp",
+    "market_stall_night": "assets/backgrounds/bijie-20261020/bg-market-stall-night.webp",
+    "echo_entrance_night": "assets/backgrounds/bijie-20261020/bg-echo-entrance-night.webp",
+    "old_eaves_day": "assets/backgrounds/bijie-20261020/bg-old-eaves-day.webp",
+    "slope_junction_night": "assets/backgrounds/bijie-20261020/bg-slope-junction-night.webp",
+    "residential_slope_day": "assets/backgrounds/bijie-20261020/bg-residential-slope-day.webp",
+    "noodle_front_dusk": "assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.webp",
+    "noodles_dusk": "assets/backgrounds/bijie-20261020/bg-noodles-dusk.webp",
+    "noodle_banquet_day": "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.webp"
+  },
+  "cgs": {
+    "cg01": {
+      "image": "assets/cg/cg-01-rain-return.webp",
+      "alt": "阴雨下午，文文的倒影映在站牌玻璃上，箱子和工具包在旁。"
+    },
+    "cg02": {
+      "image": "assets/cg/cg-02-xiaoman-mirror.webp",
+      "alt": "理发镜旁，小满站在作品夹和空练习椅边。"
+    },
+    "cg03": {
+      "image": "assets/cg/cg-03-zhouzhi-noodles.webp",
+      "alt": "雨夜桌边，周栀用汤碗压住报价单，指向照明一栏。"
+    },
+    "cg04": {
+      "image": "assets/cg/cg-04-mengyao-camera.webp",
+      "alt": "阴雨下午，屋檐下的孟遥放低相机，看向文文。"
+    },
+    "cg05": {
+      "image": "assets/cg/cg-05-yelan-inventory.webp",
+      "alt": "夜间包厢里，叶岚在倒扣纸箱上铺开清单，设备分开摆放。"
+    },
+    "cg06": {
+      "image": "assets/cg/cg-06-maolang-confession.webp",
+      "alt": "下午的大厅，文文与毛狼在尺寸纸、笔和线箱旁停住。"
+    },
+    "cg07": {
+      "image": "assets/cg/cg-07-yelan-off-duty.webp",
+      "alt": "雨夜，叶岚撑伞回头，等文文收好工具包。"
+    },
+    "cg08": {
+      "image": "assets/cg/cg-08-huangqiuqiu-listening.webp",
+      "alt": "空包厢调音台旁，黄球球托腮，文文坐下倾听。"
+    },
+    "cg09": {
+      "image": "assets/cg/cg-09-repair-handoff.webp",
+      "alt": "雨夜维修柜台前，师匠用笔压住故障单，毛狼与文文一起听交接要求。"
+    },
+    "cg13": {
+      "image": "assets/cg/cg-13-xiaoman-night-stall.webp",
+      "alt": "雨夜摊桌边，小满将练习图从洋芋盘与蘸水旁挪开，砖红外套搭在椅背上。"
+    }
+  }
+}

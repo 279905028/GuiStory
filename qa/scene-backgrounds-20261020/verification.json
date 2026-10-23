@@ -1,0 +1,120 @@
+{
+  "pass": true,
+  "date": "2026-10-20",
+  "checks": [
+    {
+      "name": "剧情、日期、选项、条件、CG与人物完全一致",
+      "pass": true,
+      "detail": {
+        "nodes": 1310,
+        "scenes": 43
+      }
+    },
+    {
+      "name": "参考原图、六张原背景及播放器引擎保持原样",
+      "pass": true
+    },
+    {
+      "name": "九张新图尺寸、完整运行资源与指纹有效",
+      "pass": true,
+      "detail": {
+        "newImages": [
+          {
+            "key": "busstop_day",
+            "path": "assets/backgrounds/bijie-20261020/bg-busstop-day.png",
+            "width": 1672,
+            "height": 941,
+            "bytes": 3338135,
+            "sha256": "35192db09b8229a75d540131b4a5ca674c52127e6e04b28665eae21b824d2448"
+          },
+          {
+            "key": "market_stall_night",
+            "path": "assets/backgrounds/bijie-20261020/bg-market-stall-night.png",
+            "width": 1672,
+            "height": 941,
+            "bytes": 2929670,
+            "sha256": "dc4c42075dcbe686eeece9fb9579a0097f3283ed2036441881318d0e3c0d205c"
+          },
+          {
+            "key": "echo_entrance_night",
+            "path": "assets/backgrounds/bijie-20261020/bg-echo-entrance-night.png",
+            "width": 1672,
+            "height": 941,
+            "bytes": 2960387,
+            "sha256": "c421717c9a4e6616edb5321b1f5cf550f70df537508664426c3af488cda5719f"
+          },
+          {
+            "key": "old_eaves_day",
+            "path": "assets/backgrounds/bijie-20261020/bg-old-eaves-day.png",
+            "width": 1672,
+            "height": 941,
+            "bytes": 3269368,
+            "sha256": "2236e61707ab498fded0114f578349425918bdca924982f99ab8e061d4e6b2b4"
+          },
+          {
+            "key": "slope_junction_night",
+            "path": "assets/backgrounds/bijie-20261020/bg-slope-junction-night.png",
+            "width": 1672,
+            "height": 941,
+            "bytes": 3196144,
+            "sha256": "88fef397279f14d58e63ae3babd630b9497291e58c0ca318e56570a5060d6cb1"
+          },
+          {
+            "key": "residential_slope_day",
+            "path": "assets/backgrounds/bijie-20261020/bg-residential-slope-day.png",
+            "width": 1672,
+            "height": 941,
+            "bytes": 3400316,
+            "sha256": "5d6bcc1d8d3e49879f9662f313498bba3a4cbcd04bcceb8f61cd5845c451e9de"
+          },
+          {
+            "key": "noodle_front_dusk",
+            "path": "assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.png",
+            "width": 1672,
+            "height": 941,
+            "bytes": 2800492,
+            "sha256": "604c5c3251ee32c47008a5028968035f1f0cc2f84620ba6bc923b9b06e226232"
+          },
+          {
+            "key": "noodles_dusk",
+            "path": "assets/backgrounds/bijie-20261020/bg-noodles-dusk.png",
+            "width": 1672,
+            "height": 941,
+            "bytes": 2723269,
+            "sha256": "788d11bce8fe478df0c4e2b52d6ab9f6f066aa475c32d35986829e198d61b1ee"
+          },
+          {
+            "key": "noodle_banquet_day",
+            "path": "assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.png",
+            "width": 1672,
+            "height": 941,
+            "bytes": 3121572,
+            "sha256": "e11e0d3b869faf362df516bf02a2101d522f7865500b6cb484360699db46f195"
+          }
+        ],
+        "runtimeAssets": 93
+      }
+    },
+    {
+      "name": "全剧情显示节点都有有效背景",
+      "pass": true,
+      "detail": {
+        "defaultScenes": 16,
+        "explicitNodes": 56,
+        "backgroundKeys": 15
+      }
+    },
+    {
+      "name": "更新前真实剧情存档可恢复且重放一致",
+      "pass": true,
+      "detail": {
+        "targets": 72
+      }
+    },
+    {
+      "name": "重新构建精确保留背景绑定和运行清单",
+      "pass": true
+    }
+  ],
+  "storySha256": "43d0f9f6823ef583c27b386a2627025361d389a0b76af46f7e84a1bf736ccfc4"
+}

@@ -1,0 +1,97 @@
+{
+  "version": "a05-20261023-v1",
+  "items": [
+    {
+      "id": "tc-ui-cover-desktop",
+      "label": "横版封面修订",
+      "suggestedNodeIds": [],
+      "rules": [
+        "保持既有封面与标题布局，仅修订胸袋工具与桥上相机剪影；不新增UI图。"
+      ],
+      "review": "工具与相机轮廓已去除；标题“毕节，雨停之前”及副题“贵州 · 毕节”、三名前景人物、其余剪影及河桥暮色保留。生成编辑带来细微纹理变化，不宣称修改区外像素完全相同。",
+      "kind": "ui",
+      "source": {
+        "path": "assets/ten-chapter/ui/originals/cover-desktop-v1.png",
+        "sha256": "305b26ed13489b46333432ccdade916996518fcd34e7888f7a60c645b18d56ad"
+      },
+      "file": "assets/ten-chapter/ui/cover-desktop.webp",
+      "sha256": "a2754760ac8863b57fb1820f2d7769332effd1c06eb9a224d13da06ad5ffd665",
+      "bytes": 1874752,
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "hasAlpha": false,
+      "encoding": {
+        "lossless": true,
+        "effort": 6
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "rgbaPixelsEqual": true
+      },
+      "references": [
+        {
+          "path": "assets/cover-b-desktop.webp",
+          "sha256": "c36cac65c8f0c26ac8d3fbf2b8e7c7df614c68cfddecb26e4e21ac2905f64a4b"
+        }
+      ],
+      "cueIds": [],
+      "nodeEvidence": [],
+      "adoptionStatus": "awaiting-A06",
+      "bindingStatus": "awaiting-E09",
+      "runtimeNodeIds": [],
+      "display": {
+        "fit": "contain",
+        "cropAllowed": false,
+        "dialogue": "关键手部或册子位于下部时，将文本置于图外或提供隐藏文本框查看。"
+      }
+    },
+    {
+      "id": "tc-ui-cover-mobile",
+      "label": "竖版封面修订",
+      "suggestedNodeIds": [],
+      "rules": [
+        "独立竖构图，与横图同样去工具及相机，不由横版裁切。"
+      ],
+      "review": "工具、镜头及挂带已去除；原有竖版标题、人物与河桥构图保留。生成编辑带来细微纹理变化。",
+      "kind": "ui",
+      "source": {
+        "path": "assets/ten-chapter/ui/originals/cover-mobile-v1.png",
+        "sha256": "a7edfea6ac37c0dea739ca1f0b429a2414d56f99edf7883b4afbfc756880703d"
+      },
+      "file": "assets/ten-chapter/ui/cover-mobile.webp",
+      "sha256": "66f3af124050fa455001108bf2369a9db22b028c96f1774858402d1fafebfe40",
+      "bytes": 1943458,
+      "width": 941,
+      "height": 1672,
+      "format": "webp",
+      "hasAlpha": false,
+      "encoding": {
+        "lossless": true,
+        "effort": 6
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "rgbaPixelsEqual": true
+      },
+      "references": [
+        {
+          "path": "assets/cover-b-mobile.webp",
+          "sha256": "8cdc091c775ed40ece56227ddbdd9a48a5bf2332f7c4b866c21e7f60c1c0d13f"
+        }
+      ],
+      "cueIds": [],
+      "nodeEvidence": [],
+      "adoptionStatus": "awaiting-A06",
+      "bindingStatus": "awaiting-E09",
+      "runtimeNodeIds": [],
+      "display": {
+        "fit": "contain",
+        "cropAllowed": false,
+        "dialogue": "关键手部或册子位于下部时，将文本置于图外或提供隐藏文本框查看。"
+      }
+    }
+  ]
+}

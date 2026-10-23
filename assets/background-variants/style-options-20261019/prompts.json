@@ -1,0 +1,74 @@
+{
+  "created": "2026-10-19",
+  "purpose": "五种场景风格预览，待用户选定；未替换游戏背景",
+  "tool": "built-in image_gen",
+  "reference": "../../bg-street.png",
+  "characterPreview": "../../char-wenwen.png",
+  "options": [
+    {
+      "id": "A",
+      "name": "电影写实",
+      "file": "A-cinematic-realism.png",
+      "description": "自然光、真实材质与克制反光，城市生活感最强。",
+      "prompt": "Use case: style-transfer.\nAsset type: background art direction option for a Chinese visual novel titled 毕节，雨停之前.\nInput image: the provided local image bg-street.png is the SCENE/COMPOSITION REFERENCE and edit target.\nPrimary request: reinterpret this EXACT rainy street composition in the specified visual medium. This is a background-only art-style test, not a new environment.\nKeep invariant: the eye-level camera, gently rising curved street, left near awning and warm storefront with umbrellas, right noodle-shop window and small exterior stairs, modest concrete shop-houses, overhead wires, hillside housing and mountain silhouettes, wet pavement and rainy evening. Contemporary fictional neighborhood in Bijie, Guizhou, China. Credible everyday Chinese urban environment. Keep approximate object positions and perspective so options are comparable.\nLandscape 16:9. Foreground lower 25% has quiet detail for dialogue, center-right has room for a character sprite. Cool gray-blue air and warm practical shop lights, with medium-specific restrained variation. No humans or characters, no vehicles added, no real brands, no watermark, no captions or typography, no UI. Do not add Japanese architecture, lanterns or lettering, cyberpunk cityscape, fantasy architecture, extreme poverty or ruin. Preserve believable scale and lived-in human warmth.\nStyle/medium for this option: Naturalistic cinematic environment photography, sophisticated location still from a contemporary Chinese slice-of-life film. Physical wet asphalt, unpolished painted concrete, delicate practical light, broad natural dynamic range, restrained depth of field. Tactile and plausible rather than glossy game render. No visible outlines, no painterly brushstrokes, no exaggerated bloom. Slight neutral-gray shadows rather than aggressive teal grading; amber lighting stays grounded. It must be convincingly photographic and clearly different from animation or watercolor.",
+      "transparent_background": false,
+      "width": 1672,
+      "height": 941,
+      "bytes": 3081181,
+      "source": "/Users/yipin/.codex/generated_images/01a143f3-8824-7882-ad4d-c1574bbb0e22/exec-172c7128-f101-4dc4-90ec-71008de6377b.png",
+      "sha256": "73f5dc2e0d5f24acfc920ab95ecaa94bd9821f7863a796723ed98e914eed7fb0"
+    },
+    {
+      "id": "B",
+      "name": "日系动画背景",
+      "file": "B-anime-background.png",
+      "description": "清晰结构、柔和光晕和手绘色块，恋爱轻小说氛围更明显。",
+      "prompt": "Use case: style-transfer.\nAsset type: background art direction option for a Chinese visual novel titled 毕节，雨停之前.\nInput image: the provided local image bg-street.png is the SCENE/COMPOSITION REFERENCE and edit target.\nPrimary request: reinterpret this EXACT rainy street composition in the specified visual medium. This is a background-only art-style test, not a new environment.\nKeep invariant: the eye-level camera, gently rising curved street, left near awning and warm storefront with umbrellas, right noodle-shop window and small exterior stairs, modest concrete shop-houses, overhead wires, hillside housing and mountain silhouettes, wet pavement and rainy evening. Contemporary fictional neighborhood in Bijie, Guizhou, China. Credible everyday Chinese urban environment. Keep approximate object positions and perspective so options are comparable.\nLandscape 16:9. Foreground lower 25% has quiet detail for dialogue, center-right has room for a character sprite. Cool gray-blue air and warm practical shop lights, with medium-specific restrained variation. No humans or characters, no vehicles added, no real brands, no watermark, no captions or typography, no UI. Do not add Japanese architecture, lanterns or lettering, cyberpunk cityscape, fantasy architecture, extreme poverty or ruin. Preserve believable scale and lived-in human warmth.\nStyle/medium for this option: Hand-painted background from a contemporary Japanese theatrical 2D animation, adapted to this Chinese location. Crisp designed silhouettes, selectively simplified architecture, fine economical drawn edges, luminous painted sky, controlled flat-to-soft color transitions and airy atmospheric perspective. Wet reflections are designed elegant shapes rather than photographic microdetail. Warmer inviting windows with cool blue rain. Distinctly illustrated but mature, not cartoon, not a photo with filter. Preserve realistic perspective. Do not imitate a named artist.",
+      "transparent_background": false,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2956030,
+      "source": "/Users/yipin/.codex/generated_images/01a143f3-8824-7882-ad4d-c1574bbb0e22/exec-e3638097-6811-48e6-95d5-09b41a3785f0.png",
+      "sha256": "d89f2b88967cc9098ab7a198ecb6675a61c62155aef1a0373774d5e5b704a300"
+    },
+    {
+      "id": "C",
+      "name": "水彩纸感",
+      "file": "C-watercolor-paper.png",
+      "description": "水色晕染、纸张颗粒和轻线稿，柔软、安静、有回忆感。",
+      "prompt": "Use case: style-transfer.\nAsset type: background art direction option for a Chinese visual novel titled 毕节，雨停之前.\nInput image: the provided local image bg-street.png is the SCENE/COMPOSITION REFERENCE and edit target.\nPrimary request: reinterpret this EXACT rainy street composition in the specified visual medium. This is a background-only art-style test, not a new environment.\nKeep invariant: the eye-level camera, gently rising curved street, left near awning and warm storefront with umbrellas, right noodle-shop window and small exterior stairs, modest concrete shop-houses, overhead wires, hillside housing and mountain silhouettes, wet pavement and rainy evening. Contemporary fictional neighborhood in Bijie, Guizhou, China. Credible everyday Chinese urban environment. Keep approximate object positions and perspective so options are comparable.\nLandscape 16:9. Foreground lower 25% has quiet detail for dialogue, center-right has room for a character sprite. Cool gray-blue air and warm practical shop lights, with medium-specific restrained variation. No humans or characters, no vehicles added, no real brands, no watermark, no captions or typography, no UI. Do not add Japanese architecture, lanterns or lettering, cyberpunk cityscape, fantasy architecture, extreme poverty or ruin. Preserve believable scale and lived-in human warmth.\nStyle/medium for this option: A refined architectural watercolor illustration on cold-pressed paper. Transparent layered washes, visible paper tooth, wet-on-wet rainy sky, granulation, soft bleeding reflected light, sparse confident pencil-and-ink structure. Deliberately reduced small details with precise major architecture, muted dusty slate blue and honey ochre. Some subtle paper highlights along windows and puddles but full-bleed composition, no border. Maintain enough midtones and depth to support semi-realistic game sprites. Clearly actual watercolor medium, not a photographic filter.",
+      "transparent_background": false,
+      "width": 1672,
+      "height": 941,
+      "bytes": 3582775,
+      "source": "/Users/yipin/.codex/generated_images/01a143f3-8824-7882-ad4d-c1574bbb0e22/exec-60184131-dd84-415b-8737-38332bfd4c25.png",
+      "sha256": "331a95eae7300156d929018eb679220b860c864c0b0a9528a467f3abd44bf8d3"
+    },
+    {
+      "id": "D",
+      "name": "复古胶片",
+      "file": "D-retro-film.png",
+      "description": "柔焦灯光、胶片颗粒和褪色色彩，强调重逢与旧日记忆。",
+      "prompt": "Use case: style-transfer.\nAsset type: background art direction option for a Chinese visual novel titled 毕节，雨停之前.\nInput image: the provided local image bg-street.png is the SCENE/COMPOSITION REFERENCE and edit target.\nPrimary request: reinterpret this EXACT rainy street composition in the specified visual medium. This is a background-only art-style test, not a new environment.\nKeep invariant: the eye-level camera, gently rising curved street, left near awning and warm storefront with umbrellas, right noodle-shop window and small exterior stairs, modest concrete shop-houses, overhead wires, hillside housing and mountain silhouettes, wet pavement and rainy evening. Contemporary fictional neighborhood in Bijie, Guizhou, China. Credible everyday Chinese urban environment. Keep approximate object positions and perspective so options are comparable.\nLandscape 16:9. Foreground lower 25% has quiet detail for dialogue, center-right has room for a character sprite. Cool gray-blue air and warm practical shop lights, with medium-specific restrained variation. No humans or characters, no vehicles added, no real brands, no watermark, no captions or typography, no UI. Do not add Japanese architecture, lanterns or lettering, cyberpunk cityscape, fantasy architecture, extreme poverty or ruin. Preserve believable scale and lived-in human warmth.\nStyle/medium for this option: Analog 35mm color film location still with a pronounced nostalgic photochemical character. Fine-to-moderate organic film grain across the entire frame, subtly lifted blacks, gentle warm halation around shop bulbs, mild soft-focus diffusion, faded olive-teal shadows and aged amber highlights. Lower contrast and slightly underexposed mood; imperfect intimate documentary texture. Current-day scene and same architecture, not a historical time period. Clearly more tactile, hazy and nostalgic than a clean modern cinematic photo. No frame, sprockets, date stamps, light leaks, scratches or artificial vignette.",
+      "transparent_background": false,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2961748,
+      "source": "/Users/yipin/.codex/generated_images/01a143f3-8824-7882-ad4d-c1574bbb0e22/exec-39d26251-cc35-4ba1-9c06-9a05071e7907.png",
+      "sha256": "24cf648fe77dc7f99752fd2241ce40b1c0365894b90131f0b15b10a6c75fa432"
+    },
+    {
+      "id": "E",
+      "name": "厚涂概念美术",
+      "file": "E-painterly-concept.png",
+      "description": "可见笔触、概括色块和更强光影，戏剧感与游戏感更强。",
+      "prompt": "Use case: style-transfer.\nAsset type: background art direction option for a Chinese visual novel titled 毕节，雨停之前.\nInput image: the provided local image bg-street.png is the SCENE/COMPOSITION REFERENCE and edit target.\nPrimary request: reinterpret this EXACT rainy street composition in the specified visual medium. This is a background-only art-style test, not a new environment.\nKeep invariant: the eye-level camera, gently rising curved street, left near awning and warm storefront with umbrellas, right noodle-shop window and small exterior stairs, modest concrete shop-houses, overhead wires, hillside housing and mountain silhouettes, wet pavement and rainy evening. Contemporary fictional neighborhood in Bijie, Guizhou, China. Credible everyday Chinese urban environment. Keep approximate object positions and perspective so options are comparable.\nLandscape 16:9. Foreground lower 25% has quiet detail for dialogue, center-right has room for a character sprite. Cool gray-blue air and warm practical shop lights, with medium-specific restrained variation. No humans or characters, no vehicles added, no real brands, no watermark, no captions or typography, no UI. Do not add Japanese architecture, lanterns or lettering, cyberpunk cityscape, fantasy architecture, extreme poverty or ruin. Preserve believable scale and lived-in human warmth.\nStyle/medium for this option: High-quality painterly game environment concept art using opaque gouache and digital oil-brush technique. Clearly visible broad expressive brush marks, confident sculpted architectural planes, broken-color pavement reflections, lost-and-found edges in the rain, selectively sharp focal windows against simplified broad surroundings. Deep desaturated blue-green and rich muted ochre, bold but readable value grouping. Believable perspective and materials despite obvious hand painting. Avoid photoreal microdetail, watercolor paper and anime fine outlines. No fantasy or horror imagery.",
+      "transparent_background": false,
+      "width": 1672,
+      "height": 941,
+      "bytes": 3194590,
+      "source": "/Users/yipin/.codex/generated_images/01a143f3-8824-7882-ad4d-c1574bbb0e22/exec-9a51a613-b0dd-4615-869f-48e7cf1871f0.png",
+      "sha256": "4cdc901a7f33af3b41cce98fd9d7167422393d1e52fbd893c1b48da1db8149f7"
+    }
+  ]
+}

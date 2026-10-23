@@ -1,0 +1,321 @@
+{
+  "tool": "image_gen built-in",
+  "jobs": [
+    {
+      "key": "wenwen-base",
+      "character": "wenwen",
+      "file": "char-wenwen-human-base",
+      "ref": "assets/char-wenwen.webp",
+      "change": "仅移除胸前口袋露出的全部红黑维修工具和笔状物，补齐口袋布料。绝不能保留螺丝刀、笔、工具、绑带。其他一切保持原图，尤其短寸圆脸、微笑、头部落点、双手插袋、灰色T恤和炭灰夹克。",
+      "prompt": "Use case: precise-object-edit\n这是本地视觉小说已采用立绘的局部编辑。输入图片是唯一编辑对象。\n修改要求：仅移除胸前口袋露出的全部红黑维修工具和笔状物，补齐口袋布料。绝不能保留螺丝刀、笔、工具、绑带。其他一切保持原图，尤其短寸圆脸、微笑、头部落点、双手插袋、灰色T恤和炭灰夹克。\n保持原画1024×1536的画布与人物比例/裁切，保持角色成年、同一个人、同样半写实手绘风格与照明，不全身重画、不改成另一张脸。背景是真实全透明alpha，无底色、无阴影地面、无棋盘格、无文字水印。输出一张独立立绘。",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/char-wenwen.webp"
+      ]
+    },
+    {
+      "key": "mengyao-base",
+      "character": "mengyao",
+      "file": "char-mengyao-human-base",
+      "ref": "assets/character-variants/mengyao-face-v2-candidate.webp",
+      "change": "仅移除胸前相机与整个绕颈相机肩带（包含颈部两侧至腰部全部棕色带、金属环），自然补齐灰色T恤与米白衬衫。手腕细皮带腕饰保留。禁止相机、挂颈绳和摄影器材。其他一切保持：face-v2五官、棕色低马尾、微笑、双手插袋、头部落点、衬衫牛仔裤与画风。",
+      "prompt": "Use case: precise-object-edit\n这是本地视觉小说已采用立绘的局部编辑。输入图片是唯一编辑对象。\n修改要求：仅移除胸前相机与整个绕颈相机肩带（包含颈部两侧至腰部全部棕色带、金属环），自然补齐灰色T恤与米白衬衫。手腕细皮带腕饰保留。禁止相机、挂颈绳和摄影器材。其他一切保持：face-v2五官、棕色低马尾、微笑、双手插袋、头部落点、衬衫牛仔裤与画风。\n保持原画1024×1536的画布与人物比例/裁切，保持角色成年、同一个人、同样半写实手绘风格与照明，不全身重画、不改成另一张脸。背景是真实全透明alpha，无底色、无阴影地面、无棋盘格、无文字水印。输出一张独立立绘。",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/mengyao-face-v2-candidate.webp"
+      ]
+    },
+    {
+      "key": "yelan-base",
+      "character": "yelan",
+      "file": "char-yelan-human-base",
+      "ref": "assets/character-variants/yelan-face-v2-candidate.webp",
+      "change": "仅移除右侧手持的整个黑色夹板文件夹及金属夹。让原来握夹板的手在相同位置自然放松垂下，补齐被夹板遮住的外套布料。禁止夹板、文件、职业道具。其他一切保持：face-v2五官、黑色低发髻、微笑、深灰西装、灰衬衫、裤装、另一手插袋、头部落点。",
+      "prompt": "Use case: precise-object-edit\n这是本地视觉小说已采用立绘的局部编辑。输入图片是唯一编辑对象。\n修改要求：仅移除右侧手持的整个黑色夹板文件夹及金属夹。让原来握夹板的手在相同位置自然放松垂下，补齐被夹板遮住的外套布料。禁止夹板、文件、职业道具。其他一切保持：face-v2五官、黑色低发髻、微笑、深灰西装、灰衬衫、裤装、另一手插袋、头部落点。\n保持原画1024×1536的画布与人物比例/裁切，保持角色成年、同一个人、同样半写实手绘风格与照明，不全身重画、不改成另一张脸。背景是真实全透明alpha，无底色、无阴影地面、无棋盘格、无文字水印。输出一张独立立绘。",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/yelan-face-v2-candidate.webp"
+      ]
+    },
+    {
+      "key": "wenwen-hesitant",
+      "character": "wenwen",
+      "file": "char-wenwen-human-expression-hesitant",
+      "ref": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为犹豫：轻微抿唇、眉峰稍收、目光略微移开；不是生气。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "wenwen-smile",
+      "character": "wenwen",
+      "file": "char-wenwen-human-expression-smile",
+      "ref": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为微笑：嘴角比基础图明显上扬，眼神柔和，克制自然的开心，不咧嘴大笑。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "wenwen-tired",
+      "character": "wenwen",
+      "file": "char-wenwen-human-expression-tired",
+      "ref": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为疲倦：上眼睑略沉，视线放松，嘴角自然放平；保持清醒，不闭眼、不哭、不增黑眼圈。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "wenwen-downcast",
+      "character": "wenwen",
+      "file": "char-wenwen-human-expression-downcast",
+      "ref": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为低落：视线略向下、嘴角轻垂、内眉略收，失落但克制；不流泪、不崩溃。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "wenwen-surprised",
+      "character": "wenwen",
+      "file": "char-wenwen-human-expression-surprised",
+      "ref": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为惊讶：眉毛稍抬，眼睛微微睁大，嘴唇轻启；不夸张漫画化。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "wenwen-serious",
+      "character": "wenwen",
+      "file": "char-wenwen-human-expression-serious",
+      "ref": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为认真：嘴角放平、双唇自然闭合、眉头微收，视线专注坚定；不愤怒。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "mengyao-hesitant",
+      "character": "mengyao",
+      "file": "char-mengyao-human-expression-hesitant",
+      "ref": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为犹豫：轻微抿唇、眉峰稍收、目光略微移开；不是生气。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "mengyao-smile",
+      "character": "mengyao",
+      "file": "char-mengyao-human-expression-smile",
+      "ref": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为微笑：嘴角比基础图明显上扬，眼神柔和，克制自然的开心，不咧嘴大笑。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "mengyao-serious",
+      "character": "mengyao",
+      "file": "char-mengyao-human-expression-serious",
+      "ref": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为认真：嘴角放平、双唇自然闭合、眉头微收，视线专注坚定；不愤怒。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "mengyao-downcast",
+      "character": "mengyao",
+      "file": "char-mengyao-human-expression-downcast",
+      "ref": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为低落：视线略向下、嘴角轻垂、内眉略收，失落但克制；不流泪、不崩溃。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "mengyao-tired",
+      "character": "mengyao",
+      "file": "char-mengyao-human-expression-tired",
+      "ref": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为疲倦：上眼睑略沉，视线放松，嘴角自然放平；保持清醒，不闭眼、不哭、不增黑眼圈。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "yelan-hesitant",
+      "character": "yelan",
+      "file": "char-yelan-human-expression-hesitant",
+      "ref": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为犹豫：轻微抿唇、眉峰稍收、目光略微移开；不是生气。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "yelan-smile",
+      "character": "yelan",
+      "file": "char-yelan-human-expression-smile",
+      "ref": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为微笑：嘴角比基础图明显上扬，眼神柔和，克制自然的开心，不咧嘴大笑。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "yelan-serious",
+      "character": "yelan",
+      "file": "char-yelan-human-expression-serious",
+      "ref": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为认真：嘴角放平、双唇自然闭合、眉头微收，视线专注坚定；不愤怒。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "yelan-tired",
+      "character": "yelan",
+      "file": "char-yelan-human-expression-tired",
+      "ref": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为疲倦：上眼睑略沉，视线放松，嘴角自然放平；保持清醒，不闭眼、不哭、不增黑眼圈。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "yelan-downcast",
+      "character": "yelan",
+      "file": "char-yelan-human-expression-downcast",
+      "ref": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为低落：视线略向下、嘴角轻垂、内眉略收，失落但克制；不流泪、不崩溃。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "xiaoman-tired",
+      "character": "xiaoman",
+      "file": "char-xiaoman-human-expression-tired",
+      "ref": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/xiaoman-face-v2-candidate.webp"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为疲倦：上眼睑略沉，视线放松，嘴角自然放平；保持清醒，不闭眼、不哭、不增黑眼圈。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "zhouzhi-tired",
+      "character": "zhouzhi",
+      "file": "char-zhouzhi-human-expression-tired",
+      "ref": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/zhouzhi-face-v2-candidate.webp"
+      ],
+      "prompt": "Use case: identity-preserve\n编辑输入立绘，仅调整眼、眉、嘴的表情为疲倦：上眼睑略沉，视线放松，嘴角自然放平；保持清醒，不闭眼、不哭、不增黑眼圈。\n必须保留完全同一个人的五官比例、发型、皮肤、服装、手势、身体姿态、全部轮廓和头部在画布上的位置。以原图为编辑目标，不重新构图，不增减人物。衣装与全部道具状态保持输入图；文文无维修工具，孟遥无相机及挂颈带，叶岚无夹板或文件，不重新添回任何旧职业道具。\n保持1024×1536透明画布，成年日系半写实细腻手绘质感，原照明和颜色。真实透明alpha，背景无颜色/光晕/棋盘格，单张独立立绘，无文字。"
+    },
+    {
+      "key": "xiaoman-work-apron",
+      "character": "xiaoman",
+      "file": "char-xiaoman-work-apron-base",
+      "ref": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/xiaoman-face-v2-candidate.webp"
+      ],
+      "prompt": "Use case: identity-preserve\n单张视觉小说角色衣装/发型差分，输入图为编辑对象。修改：保留米金短发、耳钉和face-v2脸型。换为白T恤外穿干净朴素的深灰工作围裙，移除砖红外套；一手自然握普通扫帚竖杆，扫帚下部可以延伸出画布；另一手自然放松。无剪刀套、胸牌或文字，成年理发店日常工作，保持微笑。\n严格锁定输入人物的脸型、五官、皮肤、成年身份、同一画风与光线，除上述服装/发型/必要手势外不改其他内容。保持1024×1536画布、原头顶落点、头身比例和大腿截幅，不扩画脚或完整全身。日系半写实细腻手绘立绘，背景为真实透明alpha，无底色、无地面、无光晕、无棋盘格、无文字、水印和边框。"
+    },
+    {
+      "key": "xiaoman-new-coat",
+      "character": "xiaoman",
+      "file": "char-xiaoman-new-coat-base",
+      "ref": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/xiaoman-face-v2-candidate.webp"
+      ],
+      "prompt": "Use case: identity-preserve\n单张视觉小说角色衣装/发型差分，输入图为编辑对象。修改：保留米金短发、耳钉和face-v2脸型。保留白T恤和深色牛仔裤，移除砖红外套；一件浅灰色带清晰细蓝色包边的新外套自然折搭在一条前臂上，没有穿在身上；其余动作尽量保持输入。不要两件外套叠穿，微笑。\n严格锁定输入人物的脸型、五官、皮肤、成年身份、同一画风与光线，除上述服装/发型/必要手势外不改其他内容。保持1024×1536画布、原头顶落点、头身比例和大腿截幅，不扩画脚或完整全身。日系半写实细腻手绘立绘，背景为真实透明alpha，无底色、无地面、无光晕、无棋盘格、无文字、水印和边框。",
+      "selectedAttempt": 2,
+      "revisionRecord": "assets/ten-chapter/characters/xiaoman/originals/char-xiaoman-new-coat-base-generation-v2.json",
+      "rejectedAttempts": [
+        {
+          "attempt": 1,
+          "reason": "外套袖口套住手腕，未符合搭在前臂的正文"
+        }
+      ]
+    },
+    {
+      "key": "mengyao-teacher-bag",
+      "character": "mengyao",
+      "file": "char-mengyao-teacher-bag-base",
+      "ref": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n单张视觉小说角色衣装/发型差分，输入图为编辑对象。修改：保留无相机基础图的face-v2脸型、棕色低马尾、米白衬衫/灰T恤/牛仔裤。仅让一只手自然提朴素灰布资料袋，袋口露出少量白色打印纸上缘，不画任何可读文字。无相机、无相机肩带；微笑。\n严格锁定输入人物的脸型、五官、皮肤、成年身份、同一画风与光线，除上述服装/发型/必要手势外不改其他内容。保持1024×1536画布、原头顶落点、头身比例和大腿截幅，不扩画脚或完整全身。日系半写实细腻手绘立绘，背景为真实透明alpha，无底色、无地面、无光晕、无棋盘格、无文字、水印和边框。"
+    },
+    {
+      "key": "mengyao-casual-jacket",
+      "character": "mengyao",
+      "file": "char-mengyao-casual-jacket-base",
+      "ref": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n单张视觉小说角色衣装/发型差分，输入图为编辑对象。修改：保留face-v2脸型和棕色低马尾，灰色T恤与深色牛仔裤不变。米白衬衫换成浅米色休闲薄外套；一个小巧普通棕色包单肩携带到身侧（不挂在脖子上）；无相机、镜头、摄影肩带、资料纸。自然微笑。\n严格锁定输入人物的脸型、五官、皮肤、成年身份、同一画风与光线，除上述服装/发型/必要手势外不改其他内容。保持1024×1536画布、原头顶落点、头身比例和大腿截幅，不扩画脚或完整全身。日系半写实细腻手绘立绘，背景为真实透明alpha，无底色、无地面、无光晕、无棋盘格、无文字、水印和边框。"
+    },
+    {
+      "key": "yelan-casual",
+      "character": "yelan",
+      "file": "char-yelan-casual-base",
+      "ref": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-v1.png",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-v1.png"
+      ],
+      "prompt": "Use case: identity-preserve\n单张视觉小说角色衣装/发型差分，输入图为编辑对象。修改：保留face-v2脸型、金色小耳钉和黑发，头发扎紧成整洁低马尾。深灰西装与灰衬衫换成简洁浅灰蓝休闲长袖上衣，深色休闲裤；双手自然放松，不拿任何物品。无夹板、文件或职业设备，供普通逛公园/球馆使用。延续原大腿截幅，不扩画全身或脚。自然微笑。\n严格锁定输入人物的脸型、五官、皮肤、成年身份、同一画风与光线，除上述服装/发型/必要手势外不改其他内容。保持1024×1536画布、原头顶落点、头身比例和大腿截幅，不扩画脚或完整全身。日系半写实细腻手绘立绘，背景为真实透明alpha，无底色、无地面、无光晕、无棋盘格、无文字、水印和边框。"
+    },
+    {
+      "key": "zhouzhi-light-blue-shirt",
+      "character": "zhouzhi",
+      "file": "char-zhouzhi-light-blue-shirt-base",
+      "ref": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/zhouzhi-face-v2-candidate.webp"
+      ],
+      "prompt": "Use case: identity-preserve\n单张视觉小说角色衣装/发型差分，输入图为编辑对象。修改：保留face-v2脸型、黑色长卷发、耳环、腕表、双手插袋和深色裤子；只把深青衬衫改成浅蓝衬衫，布料自然柔软、不发亮，所有头身位置和衣服剪裁保持原样。自然微笑。\n严格锁定输入人物的脸型、五官、皮肤、成年身份、同一画风与光线，除上述服装/发型/必要手势外不改其他内容。保持1024×1536画布、原头顶落点、头身比例和大腿截幅，不扩画脚或完整全身。日系半写实细腻手绘立绘，背景为真实透明alpha，无底色、无地面、无光晕、无棋盘格、无文字、水印和边框。"
+    },
+    {
+      "key": "zhouzhi-tied-hair",
+      "character": "zhouzhi",
+      "file": "char-zhouzhi-tied-hair-base",
+      "ref": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/character-variants/zhouzhi-face-v2-candidate.webp"
+      ],
+      "prompt": "Use case: identity-preserve\n单张视觉小说角色衣装/发型差分，输入图为编辑对象。修改：保留face-v2脸型和成年外观，不改变年龄；只把披肩长卷发随手扎成低马尾，一些碎发自然留在脸侧。深青衬衫、耳环、腕表和深色裤子以及手势保持，身上不穿外套；不要画椅子或环境。自然柔和微笑。\n严格锁定输入人物的脸型、五官、皮肤、成年身份、同一画风与光线，除上述服装/发型/必要手势外不改其他内容。保持1024×1536画布、原头顶落点、头身比例和大腿截幅，不扩画脚或完整全身。日系半写实细腻手绘立绘，背景为真实透明alpha，无底色、无地面、无光晕、无棋盘格、无文字、水印和边框。"
+    },
+    {
+      "key": "maolang-wedding",
+      "character": "maolang",
+      "file": "char-maolang-wedding-base",
+      "ref": "assets/char-maolang.webp",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/char-maolang.webp"
+      ],
+      "prompt": "Use case: identity-preserve\n单张视觉小说角色衣装/发型差分，输入图为编辑对象。修改：用户已确认婚宴穿稍正式的便西装。保留Option D男子本人脸型、凌乱短卷发、身形、皮肤和自然笑容；换为质朴深蓝便西装和白色敞领衬衫、深色西裤，无领带；移除黑T恤花纹和黑色露指护腕。保持原站姿，清晰自然的衬衫领口，普通小店婚宴的亲切感觉，无捧花/胸花/豪华配饰。\n严格锁定输入人物的脸型、五官、皮肤、成年身份、同一画风与光线，除上述服装/发型/必要手势外不改其他内容。保持1024×1536画布、原头顶落点、头身比例和大腿截幅，不扩画脚或完整全身。日系半写实细腻手绘立绘，背景为真实透明alpha，无底色、无地面、无光晕、无棋盘格、无文字、水印和边框。"
+    },
+    {
+      "key": "piao-wedding",
+      "character": "piao",
+      "file": "char-piao-wedding-base",
+      "ref": "assets/char-piao.webp",
+      "references": [
+        "/Users/yipin/Desktop/cjb/assets/char-piao.webp"
+      ],
+      "prompt": "Use case: identity-preserve\n单张视觉小说角色衣装/发型差分，输入图为编辑对象。修改：用户已确认婚宴穿简洁礼裙。保持Option B同一张脸、浅酒窝、黑色低马尾/刘海、自然笑容与双手轻叠姿态。白衬衫与黑裤换成简洁柔和豆沙粉礼裙，上身有短袖、端正领口、自然收腰、哑光轻柔布料，无繁复花纹或珠饰，不是蓬蓬婚纱；保留细红手绳与小耳饰，无头纱、冠冕、捧花或豪华配饰。\n严格锁定输入人物的脸型、五官、皮肤、成年身份、同一画风与光线，除上述服装/发型/必要手势外不改其他内容。保持1024×1536画布、原头顶落点、头身比例和大腿截幅，不扩画脚或完整全身。日系半写实细腻手绘立绘，背景为真实透明alpha，无底色、无地面、无光晕、无棋盘格、无文字、水印和边框。"
+    }
+  ],
+  "weddingDecision": {
+    "date": "2026-10-22",
+    "source": "用户本对话回复",
+    "choice": "稍正式：毛狼便西装，飘简洁礼裙"
+  }
+}

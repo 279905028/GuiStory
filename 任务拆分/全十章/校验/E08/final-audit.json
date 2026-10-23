@@ -1,0 +1,97 @@
+{
+  "task": "E08",
+  "completed": true,
+  "date": "2026-10-23",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "formalIntegration": false,
+  "formalIntegratedChapters": 0,
+  "runtimeHashes": {
+    "engine.js": "363e4a9b1ddd9d6e012b6623af04c54f9fc077a065e9d1ee3b61981e9be5e39a",
+    "game.js": "a3cfb8a51d89e2bce23c7f3b2254818c80f43646f785b4e5bced089ce4c9f50b",
+    "save-compat.js": "11cc52079a67a2ee32244206b79bb11e1cfe71874227aefdd1e768594a0e816f",
+    "player-runtime.js": "911385f9e9d3e608b859648c48b8ca832abd22de677e5d65d0b1fd83c8d39772",
+    "styles.css": "1aa6e6c501f2d1198d812e849cf07f90d3f21024f0ad5c79602bebdde773374c",
+    "index.html": "d69ad01b4181d77ac990162c2e5a38d65839fe5208680ef2cd9972af3f2db197"
+  },
+  "evidence": [
+    {
+      "file": "任务拆分/全十章/校验/E08/engine-report.json",
+      "sha256": "92b7360f60143bba2704f01339d357d131c53c64a1845557bbeb1661698bd607"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E08/integration-results.json",
+      "sha256": "cd43e1909322e69d1997ad02e65050e7a5e6e4935bc172bc8a0e815ca152dcda"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E08/save-results.json",
+      "sha256": "827b54654cb44b2761a1a51c99824e634c10656bbff8c28255acb5d796c295c4"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E08/presentation-results.json",
+      "sha256": "42422372c6f84ab81dd179553dca07f415f2ea19f07b24f8db52765eb38e7c46"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E08/browser-results.json",
+      "sha256": "d1b338cf0f1530d5ed5bf230f102668709ba47bb567ab832fd72a6c23c5b7714"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E08/legacy/browser-results.json",
+      "sha256": "046110bc85ca783b796493dd4e271f4d37dca2142e890391c458e84efa28bdd9"
+    }
+  ],
+  "validation": {
+    "engine": 102,
+    "legacyEngine": 120,
+    "legacyChapterPlayer": 28,
+    "integrationGroups": 10,
+    "completePaths": 736,
+    "endings": 13,
+    "choices": 19,
+    "options": 43,
+    "saveGroups": 7,
+    "presentation": 31,
+    "tenChapterBrowserGroups": 20,
+    "viewports": 5,
+    "legacyBrowserGroups": 25,
+    "legacyBrowserAssertions": 179,
+    "browserPageErrors": 0,
+    "screenshots": 10,
+    "manualVisualReview": [
+      "人形桌面/手机/横屏",
+      "球形手机",
+      "相对日序小屏",
+      "七项路线小屏滚动",
+      "第十章结局"
+    ]
+  },
+  "protection": {
+    "files": 375,
+    "changed": [],
+    "playerStorageAccessed": false,
+    "method": "只读文件SHA-256；浏览器为随机localhost与全新非持久context，旧空间哨兵不读取且逐字节保持"
+  },
+  "documentation": [
+    {
+      "file": "TODO与多窗口提示词-v0.4.md",
+      "sha256": "c3426eb6f7b48cf404da382a641693c7d32ffb84a8e9b5885c201c527ee333b1"
+    },
+    {
+      "file": "任务拆分/全十章开发计划.md",
+      "sha256": "a3a72877b74f42ae7e95ad5fbffedc7c356bfed8f5968348e8c4d9cecbdf6557"
+    },
+    {
+      "file": "任务拆分/全十章/交接/E08.md",
+      "sha256": "10ecba7b6a74d14e374b20c210465e70a2fdaa752bc035c9924bf84d607b812b"
+    }
+  ],
+  "notExecuted": [
+    "A06美术正式采用",
+    "E09正式故事/美术绑定及生成story.js",
+    "E10正式候选验收/实体手机/声音/真人阅读",
+    "E11打包/部署/发布"
+  ],
+  "environmentLimitations": [
+    "系统git/python因Xcode许可退出，本轮使用Node与SHA-256验证，未变更系统设置"
+  ]
+}

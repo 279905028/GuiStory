@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "routes/zhouzhi",
+  "owner": "E04",
+  "scenes": {
+    "ts_c03_zhouzhi_sample": {
+      "chapter": 3,
+      "title": "还没到上班时间",
+      "bg": "sample-bg",
+      "time": "17:20",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15,
+        "clock": "17:20"
+      },
+      "location": "回声KTV前的街边",
+      "day": 15,
+      "dayLabel": "第15天"
+    }
+  },
+  "nodes": {
+    "tc_c03_zhouzhi_entry": {
+      "id": "tc_c03_zhouzhi_entry",
+      "type": "line",
+      "scene": "ts_c03_zhouzhi_sample",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我回了有空，出门才发现雨已经停了。她站在街边，把一把折断一根伞骨的伞举给我看，像举着某种失败的战利品。",
+      "next": "tc_c03_common_exit"
+    }
+  },
+  "imports": [
+    "tc_c03_common_exit"
+  ],
+  "exports": {
+    "tc_c03_zhouzhi_entry": "tc_c03_zhouzhi_entry"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 225,
+      "endLine": 225,
+      "nodeIds": [
+        "tc_c03_zhouzhi_entry"
+      ],
+      "kind": "narration"
+    }
+  ],
+  "exclusions": [],
+  "assetRequests": [
+    "e01-art-ch03"
+  ]
+}

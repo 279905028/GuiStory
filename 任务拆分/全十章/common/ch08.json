@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "common/ch08",
+  "owner": "E03",
+  "scenes": {
+    "ts_c08_common_trial_roster": {
+      "chapter": 8,
+      "title": "第52天·17:00｜一张椅子坐得下两个人的意见",
+      "bg": "tc-bg-netcafe-counter-day",
+      "time": "17:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "17:00",
+        "day": 52
+      },
+      "location": "网吧柜台",
+      "day": 52,
+      "dayLabel": "第52天"
+    },
+    "ts_c08_common_chapter_end": {
+      "chapter": 8,
+      "title": "第八章 · 不用每次都逞强",
+      "bg": "tc-bg-chapter-end",
+      "time": "章末",
+      "chronology": {
+        "domain": "chapter-range",
+        "mode": "present",
+        "label": "第46—60天"
+      },
+      "location": "",
+      "day": null,
+      "dayLabel": "第46—60天"
+    }
+  },
+  "nodes": {
+    "tc_c08_common_entry": {
+      "id": "tc_c08_common_entry",
+      "type": "line",
+      "scene": "ts_c08_common_trial_roster",
+      "speaker": "narrator",
+      "text": "师匠在店里吃饭，我坐在柜台外面的椅子上，等他把嘴里的东西咽下去。",
+      "character": null,
+      "next": "tc_c08_common_trial_roster_02"
+    },
+    "tc_c08_common_trial_roster_02": {
+      "id": "tc_c08_common_trial_roster_02",
+      "type": "line",
+      "scene": "ts_c08_common_trial_roster",
+      "speaker": "wenwen",
+      "text": "“想商量一下以后能不能轮班。”我说。",
+      "character": null,
+      "next": "tc_c08_common_trial_roster_03"
+    },
+    "tc_c08_common_trial_roster_03": {
+      "id": "tc_c08_common_trial_roster_03",
+      "type": "line",
+      "scene": "ts_c08_common_trial_roster",
+      "speaker": "narrator",
+      "text": "他抬头：“今天哪一班不想上？”",
+      "character": null,
+      "next": "tc_c08_common_trial_roster_04"
+    },
+    "tc_c08_common_trial_roster_04": {
+      "id": "tc_c08_common_trial_roster_04",
+      "type": "line",
+      "scene": "ts_c08_common_trial_roster",
+      "speaker": "wenwen",
+      "text": "“不是今天。以后。”",
+      "character": null,
+      "next": "tc_c08_common_trial_roster_05"
+    },
+    "tc_c08_common_trial_roster_05": {
+      "id": "tc_c08_common_trial_roster_05",
+      "type": "line",
+      "scene": "ts_c08_common_trial_roster",
+      "speaker": "narrator",
+      "text": "我把自己的情况讲了：夜班能做，钱也需要，但一直和所有人的时间错开，休息日又容易什么都往里塞。我想试着跟现有同事轮换，保留能预先安排的空档。",
+      "character": null,
+      "next": "tc_c08_common_trial_roster_06"
+    },
+    "tc_c08_common_trial_roster_06": {
+      "id": "tc_c08_common_trial_roster_06",
+      "type": "line",
+      "scene": "ts_c08_common_trial_roster",
+      "speaker": "narrator",
+      "text": "师匠没有马上答应。他说白班也不是凭空多出来的，得问其他人，不会把我的难处直接丢给别人。我说知道，所以想先谈，而不是改天临时请假。",
+      "character": null,
+      "next": "tc_c08_common_trial_roster_07"
+    },
+    "tc_c08_common_trial_roster_07": {
+      "id": "tc_c08_common_trial_roster_07",
+      "type": "line",
+      "scene": "ts_c08_common_trial_roster",
+      "speaker": "shijiang",
+      "text": "“你确定想换？”",
+      "character": null,
+      "next": "tc_c08_common_trial_roster_08"
+    },
+    "tc_c08_common_trial_roster_08": {
+      "id": "tc_c08_common_trial_roster_08",
+      "type": "line",
+      "scene": "ts_c08_common_trial_roster",
+      "speaker": "wenwen",
+      "text": "“想试。试完如果不合适，再说。我不是这班干腻了，随口讲讲。”",
+      "character": null,
+      "next": "tc_c08_common_trial_roster_09"
+    },
+    "tc_c08_common_trial_roster_09": {
+      "id": "tc_c08_common_trial_roster_09",
+      "type": "line",
+      "scene": "ts_c08_common_trial_roster",
+      "speaker": "narrator",
+      "text": "他把饭盒盖上，拿手机去问其他同事。等了几分钟，有人愿意试换一部分，具体还得各自看安排。",
+      "character": null,
+      "next": "tc_c08_common_trial_roster_10"
+    },
+    "tc_c08_common_trial_roster_10": {
+      "id": "tc_c08_common_trial_roster_10",
+      "type": "line",
+      "scene": "ts_c08_common_trial_roster",
+      "speaker": "narrator",
+      "text": "师匠回来，说先试排，不保证每次都能如愿；谁临时不行要提前说。我也没把这句话听成暗示自己不够努力。",
+      "character": null,
+      "next": "tc_c08_common_trial_roster_11"
+    },
+    "tc_c08_common_trial_roster_11": {
+      "id": "tc_c08_common_trial_roster_11",
+      "type": "line",
+      "scene": "ts_c08_common_trial_roster",
+      "speaker": "narrator",
+      "text": "出门时，他叫住我：“以后商量这种事，别一直盯着我饭盒。我总觉得你还没吃。”",
+      "character": null,
+      "next": "tc_c08_common_trial_roster_12"
+    },
+    "tc_c08_common_trial_roster_12": {
+      "id": "tc_c08_common_trial_roster_12",
+      "type": "line",
+      "scene": "ts_c08_common_trial_roster",
+      "speaker": "wenwen",
+      "text": "“确实还没吃。”",
+      "character": null,
+      "next": "tc_c08_common_trial_roster_13"
+    },
+    "tc_c08_common_trial_roster_13": {
+      "id": "tc_c08_common_trial_roster_13",
+      "type": "line",
+      "scene": "ts_c08_common_trial_roster",
+      "speaker": "shijiang",
+      "text": "“那先去吃。钱的事照原来约定，该多少是多少。”",
+      "character": null,
+      "next": "tc_c08_common_trial_roster_14"
+    },
+    "tc_c08_common_trial_roster_14": {
+      "id": "tc_c08_common_trial_roster_14",
+      "type": "line",
+      "scene": "ts_c08_common_trial_roster",
+      "speaker": "narrator",
+      "text": "我站在门外，心里松了一点。没有人宣布我从此过上理想生活。我只是第一次把想怎样生活，讲成了一个可以和别人商量的具体请求。",
+      "character": null,
+      "next": "tc_c08_common_route_gate"
+    },
+    "tc_c08_common_exit": {
+      "id": "tc_c08_common_exit",
+      "type": "end",
+      "scene": "ts_c08_common_chapter_end",
+      "title": "第八章 · 不用每次都逞强",
+      "text": "",
+      "character": null,
+      "next": "tc_c09_common_entry",
+      "nextChapter": "第九章 · 把明天说具体"
+    },
+    "tc_c08_common_route_gate": {
+      "id": "tc_c08_common_route_gate",
+      "type": "gate",
+      "scene": "ts_c08_common_trial_roster",
+      "cases": [
+        {
+          "flag": "route",
+          "value": "xiaoman",
+          "next": "tc_c08_xiaoman_entry"
+        },
+        {
+          "flag": "route",
+          "value": "zhouzhi",
+          "next": "tc_c08_zhouzhi_entry"
+        },
+        {
+          "flag": "route",
+          "value": "mengyao",
+          "next": "tc_c08_mengyao_entry"
+        },
+        {
+          "flag": "route",
+          "value": "yelan",
+          "next": "tc_c08_yelan_entry"
+        },
+        {
+          "flag": "route",
+          "value": "piao",
+          "next": "tc_c08_piao_entry"
+        },
+        {
+          "flag": "route",
+          "value": "friends",
+          "next": "tc_c08_friends_entry"
+        },
+        {
+          "flag": "route",
+          "value": "huangqiuqiu",
+          "next": "tc_c08_huangqiuqiu_entry"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    }
+  },
+  "imports": [
+    "tc_c08_friends_entry",
+    "tc_c08_huangqiuqiu_entry",
+    "tc_c08_mengyao_entry",
+    "tc_c08_piao_entry",
+    "tc_c08_xiaoman_entry",
+    "tc_c08_yelan_entry",
+    "tc_c08_zhouzhi_entry",
+    "tc_c09_common_entry"
+  ],
+  "exports": {
+    "tc_c08_common_entry": "tc_c08_common_entry",
+    "tc_c08_common_exit": "tc_c08_common_exit",
+    "tc_c08_common_route_gate": "tc_c08_common_route_gate"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c08_common_exit"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c08_common_route_gate"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 11,
+      "endLine": 11,
+      "nodeIds": [
+        "tc_c08_common_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 13,
+      "endLine": 13,
+      "nodeIds": [
+        "tc_c08_common_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 15,
+      "endLine": 15,
+      "nodeIds": [
+        "tc_c08_common_trial_roster_02"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 17,
+      "endLine": 17,
+      "nodeIds": [
+        "tc_c08_common_trial_roster_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 19,
+      "endLine": 19,
+      "nodeIds": [
+        "tc_c08_common_trial_roster_04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 21,
+      "endLine": 21,
+      "nodeIds": [
+        "tc_c08_common_trial_roster_05"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 23,
+      "endLine": 23,
+      "nodeIds": [
+        "tc_c08_common_trial_roster_06"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 25,
+      "endLine": 25,
+      "nodeIds": [
+        "tc_c08_common_trial_roster_07"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 27,
+      "endLine": 27,
+      "nodeIds": [
+        "tc_c08_common_trial_roster_08"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 29,
+      "endLine": 29,
+      "nodeIds": [
+        "tc_c08_common_trial_roster_09"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 31,
+      "endLine": 31,
+      "nodeIds": [
+        "tc_c08_common_trial_roster_10"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 33,
+      "endLine": 33,
+      "nodeIds": [
+        "tc_c08_common_trial_roster_11"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 35,
+      "endLine": 35,
+      "nodeIds": [
+        "tc_c08_common_trial_roster_12"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 37,
+      "endLine": 37,
+      "nodeIds": [
+        "tc_c08_common_trial_roster_13"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 39,
+      "endLine": 39,
+      "nodeIds": [
+        "tc_c08_common_trial_roster_14"
+      ],
+      "kind": "narration"
+    }
+  ],
+  "exclusions": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 1,
+      "endLine": 1,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 3,
+      "endLine": 3,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 5,
+      "endLine": 5,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 7,
+      "endLine": 7,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 41,
+      "endLine": 41,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 545,
+      "endLine": 545,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 547,
+      "endLine": 547,
+      "reason": "navigation"
+    }
+  ],
+  "assetRequests": [
+    {
+      "id": "e01-art-ch08",
+      "a01Ids": [
+        "tc-bg-netcafe-counter-day",
+        "tc-char-shijiang-human-base",
+        "tc-char-shijiang-human-expression-hesitant",
+        "tc-char-shijiang-human-expression-smile",
+        "tc-char-wenwen-human-base",
+        "tc-char-wenwen-human-expression-serious",
+        "tc-char-wenwen-human-expression-smile"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111a1d">
+  <meta name="description" content="《毕节，雨停之前》三章＋后日谈，飘已加入。文文与毛狼都可以向她表达心意，走过第1—21天，在两年后的约定中看见选择的回声。">
+  <title>毕节，雨停之前 · 三章＋后日谈</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="story.js" defer></script>
+  <script src="engine.js" defer></script>
+  <script src="game.js" defer></script>
+</head>
+<body data-screen="title">
+  <main id="app" aria-label="毕节，雨停之前">
+    <img id="scene-bg" class="scene-background" src="assets/bg-street.png" alt="雨中的毕节老街">
+    <div class="scene-shade" aria-hidden="true"></div>
+    <div class="rain" aria-hidden="true"></div>
+    <div class="stage-grain" aria-hidden="true"></div>
+
+    <section id="title-screen" class="screen" aria-labelledby="game-title">
+      <div class="title-topline"><span class="small-brand">回声 / ECHO</span><span>贵州 · 毕节</span></div>
+      <div class="title-copy">
+        <p class="eyebrow"><span></span> 一场雨，一座城，未说完的约定</p>
+        <h1 id="game-title">毕节，<br><span>雨停之前</span><i>。</i></h1>
+        <div class="title-rule"></div>
+        <p class="title-subtitle">一个关于重逢与选择的故事 · 飘已加入</p>
+        <nav class="title-menu" aria-label="主菜单">
+          <button type="button" class="title-start" data-action="start"><span>开始故事</span><span class="button-arrow" aria-hidden="true">↗</span></button>
+          <button type="button" id="continue-btn" class="title-menu-item" data-action="continue" disabled><span>继续旅程</span><span class="menu-en">CONTINUE</span></button>
+          <div class="title-menu-bottom">
+            <button type="button" data-action="load">读取存档</button><span aria-hidden="true">/</span><button type="button" data-action="settings">游戏设置</button>
+          </div>
+        </nav>
+      </div>
+      <div class="title-portrait-wrap"><img id="title-hero" src="assets/char-wenwen.png" alt="文文，23岁，短寸头，身穿日常夹克"><div class="portrait-fade" aria-hidden="true"></div></div>
+      <div class="title-person"><span class="person-line"></span><div><span>文文</span><small>23 岁 · 回来的人</small></div></div>
+      <footer class="title-footer"><div><span class="status-dot"></span>三章＋后日谈<span class="footer-separator">/</span>第 1—21 天 · 两年后</div><p>所有人物及经历均为虚构 · 恋爱角色均已成年</p><button type="button" class="ambient-button" data-action="sound" aria-label="切换环境音"><span aria-hidden="true">♪</span><span class="title-sound-label">环境音</span></button></footer>
+    </section>
+
+    <section id="game-screen" class="screen" aria-label="故事">
+      <header class="scene-header">
+        <div class="scene-chapter"><span class="chapter-mark" aria-hidden="true"></span><div><div class="scene-meta"><span id="scene-chapter-name">第1章</span><span id="scene-day" class="scene-day">DAY 01</span></div><p id="scene-title">回来的人</p></div></div>
+        <div class="scene-position"><span id="scene-time">傍晚</span><span class="location-divider" aria-hidden="true"></span><span id="scene-location">毕节 · 老街</span></div>
+        <button class="menu-button" type="button" data-action="menu" aria-label="打开游戏菜单"><span></span><span></span><span></span></button>
+      </header>
+      <div class="scene-visual">
+      <div id="cg-layer" class="cg-layer" hidden>
+        <img id="cg-image" class="cg-image" alt="">
+      </div>
+      <img id="character" class="character" alt="" hidden>
+      <div id="choice-panel" class="choice-panel" hidden aria-label="选择下一步">
+        <p class="choice-kicker">这一刻，你决定——</p>
+        <h2 id="choice-question">你会怎么回答？</h2>
+        <div id="choice-list" class="choice-list"></div>
+        <p class="choice-note">每一次选择，都会留下一点回声。</p>
+      </div>
+      </div>
+      <section class="dialogue-shell" aria-label="人物对话">
+        <div id="dialogue-box" class="dialogue-box" tabindex="0" role="button" aria-label="推进对话">
+          <div class="speaker-portrait"><img id="speaker-avatar" alt=""></div>
+          <div class="dialogue-content"><div class="speaker-line"><span id="speaker-name">文文</span><span class="speaker-rule" aria-hidden="true"></span></div><p id="dialogue-text" aria-live="polite"></p></div>
+          <span id="advance-hint" class="advance-hint" aria-hidden="true"><span>点击继续</span><i></i></span>
+        </div>
+        <nav class="game-toolbar" aria-label="游戏操作">
+          <span class="toolbar-brand">雨停之前</span>
+          <div class="toolbar-controls"><button type="button" data-action="history">回顾</button><button type="button" data-action="auto" id="auto-label">自动</button><button type="button" data-action="save">存档</button><button type="button" data-action="load">读档</button><span class="toolbar-divider" aria-hidden="true"></span><button type="button" data-action="sound" id="sound-label">声音关</button><button type="button" data-action="settings">设置</button></div>
+        </nav>
+      </section>
+    </section>
+
+    <section id="end-screen" class="screen" aria-label="章节结束">
+      <div class="end-topline"><span class="small-brand">回声 / ECHO</span><span id="end-status">带着这些约定，走进下一章</span></div>
+      <div class="end-portrait-wrap"><img id="end-character" alt=""><div class="portrait-fade" aria-hidden="true"></div></div>
+      <div class="end-content">
+        <p class="eyebrow"><span></span><span id="end-kicker">章节结束</span></p>
+        <h2 id="end-title">雨还没有停</h2><div class="title-rule"></div><p id="end-copy"></p>
+        <div id="end-next-block" class="next-chapter"><span id="end-next-label">NEXT CHAPTER / 下一章</span><p id="end-next"></p></div>
+        <div class="end-actions">
+          <button type="button" id="end-continue" class="primary-button" data-action="continue-chapter" hidden>继续下一章 ↗</button>
+          <button type="button" id="end-replay-route" class="primary-button" data-action="replay-route" hidden>重选第三章路线 ↗</button>
+          <div><button type="button" id="end-replay-preview" class="text-button" data-action="replay-preview">回到第一章消息</button><button type="button" class="text-button" data-action="save">保存旅程</button><button type="button" class="text-button" data-action="load">读取存档</button><button type="button" class="text-button" data-action="title">返回标题</button></div>
+        </div>
+      </div>
+      <p id="end-footnote" class="end-footnote">前面的选择将随你进入下一章。</p>
+    </section>
+
+    <div id="modal" class="modal-overlay" hidden role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+      <section class="modal-card"><header class="modal-header"><div><p class="modal-eyebrow">毕节，雨停之前</p><h2 id="modal-title">游戏设置</h2></div><button type="button" id="modal-close" class="close-button" data-action="close-modal" aria-label="关闭窗口">×</button></header><div id="modal-body" class="modal-body"></div><div class="modal-footer"><span>让故事，按你的节奏继续。</span><span>ESC 关闭</span></div></section>
+    </div>
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  </main>
+</body>
+</html>

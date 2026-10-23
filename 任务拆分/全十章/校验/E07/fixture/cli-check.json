@@ -1,0 +1,5 @@
+{
+  "command": "node 任务拆分/三章扩展/build-story.cjs --ten-chapter --manifest 任务拆分/全十章/校验/E07/fixture/manifest.json --check",
+  "stdout": "{\n  \"status\": \"passed\",\n  \"mode\": \"sample\",\n  \"formalIntegration\": false,\n  \"moduleCount\": 17,\n  \"nodeCount\": 1446,\n  \"sceneCount\": 196,\n  \"output\": null,\n  \"graph\": {\n    \"nodes\": 1446,\n    \"edges\": 1513,\n    \"choices\": 13,\n    \"options\": 31,\n    \"countsByType\": {\n      \"line\": 1399,\n      \"end\": 15,\n      \"choice\": 13,\n      \"gate\": 19\n    },\n    \"exploredNodeStates\": 75295,\n    \"distinctFlagStates\": 783,\n    \"mergedNodeStates\": 0,\n    \"transitions\": 75294,\n    \"maximumFrontier\": 12,\n    \"terminalStates\": 288,\n    \"stoppedStates\": 160\n  }\n}",
+  "formalIntegration": false
+}

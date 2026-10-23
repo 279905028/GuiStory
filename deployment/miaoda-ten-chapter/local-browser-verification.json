@@ -1,0 +1,1385 @@
+{
+  "evidenceLayer": "妙搭最终构建产物的本地浏览器回归（本地资源映射）",
+  "target": "http://127.0.0.1:59356/app/app_17gm4z6t27j/",
+  "platformNetworkAccepted": false,
+  "localAdaptations": {
+    "resourceMapping": "按 uploaded-assets.json 将 /spark/app/.../storage/... 请求映射回源项目相同 SHA256 的正式原图；没有向妙搭存储网络发起请求",
+    "templateSubstitutions": {
+      "appId": "app_17gm4z6t27j",
+      "userId": "local-verification-user",
+      "tenantId": "local-verification-tenant",
+      "userName": "本地验证",
+      "csrfToken": "",
+      "environment": "local-verification",
+      "basename": "/app/app_17gm4z6t27j",
+      "appName": "毕节，雨停之前 · 全十章",
+      "appAvatar": "/app/app_17gm4z6t27j/favicon.svg",
+      "appDescription": "本地构建产物验证；正式平台模板值未验证"
+    },
+    "platformScriptsReplacedWithLocalEmptyJS": [
+      "https://lf3-short.ibytedapm.com/slardar/fe/sdk-web/browser.cn.js?bid=apaas_miaoda&globalName=KSlardarWeb",
+      "https://sf3-scmcdn-cn.feishucdn.com/obj/unpkg/byted/performance/0.2.3/dist/performance.iife.js",
+      "https://lf3-cdn-tos.bytescm.com/obj/static/log-sdk/collect/5.1/collect.js"
+    ],
+    "buildFilesModified": false
+  },
+  "startedAt": "2026-10-23T06:51:56.118Z",
+  "scope": "Chrome headless；1440×900、390×844 桌面模拟；每个视口使用全新临时 context，关闭即丢弃；只通过正式 UI 创建和读取本轮存档。",
+  "notTested": [
+    "妙搭真实线上页面",
+    "妙搭真实资源网络及存储权限",
+    "妙搭真实模板身份值与监测 SDK",
+    "全十章逐句阅读",
+    "全部路线与结局",
+    "全部资源遍历",
+    "Safari",
+    "实体手机",
+    "人耳试听"
+  ],
+  "environment": {
+    "node": "v24.18.1",
+    "playwright": "1.62.1",
+    "browser": "155.0.8059.85"
+  },
+  "checks": [
+    {
+      "name": "全十章首页与可见图片、横向布局",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "passed": true,
+      "milliseconds": 830,
+      "story": {
+        "release": "ten-chapter",
+        "contentRevision": "nightshift-20261022-r1",
+        "chapters": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "profile": {
+          "namespace": "bijie-rain-demo:ten-chapter:nightshift-20261022-r1:",
+          "tenChapter": true,
+          "metadata": {
+            "contentVersion": 1,
+            "engineStateVersion": 1,
+            "contractVersion": "1.0.0",
+            "contentRevision": "nightshift-20261022-r1"
+          }
+        }
+      },
+      "screen": "title",
+      "images": [
+        {
+          "id": "title-cover",
+          "src": "http://127.0.0.1:59356/spark/app/app_17gm4z6t27j/runtime/api/v1/storage/object/bucket_aadk3maq6euds/1879821599156391.webp",
+          "width": 1672,
+          "height": 941
+        }
+      ],
+      "widths": [
+        {
+          "selector": "html",
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "left": 0,
+          "right": 1440,
+          "overflowX": "clip"
+        },
+        {
+          "selector": "body",
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "left": 0,
+          "right": 1440,
+          "overflowX": "clip"
+        },
+        {
+          "selector": "#app",
+          "clientWidth": 1440,
+          "scrollWidth": 1728,
+          "left": 0,
+          "right": 1440,
+          "overflowX": "clip"
+        },
+        {
+          "selector": "#title-screen",
+          "clientWidth": 1440,
+          "scrollWidth": 1440,
+          "left": 0,
+          "right": 1440,
+          "overflowX": "clip"
+        },
+        {
+          "selector": "#game-title",
+          "clientWidth": 1,
+          "scrollWidth": 649,
+          "left": 81.078125,
+          "right": 82.078125,
+          "overflowX": "hidden"
+        },
+        {
+          "selector": ".title-menu",
+          "clientWidth": 318,
+          "scrollWidth": 318,
+          "left": 82.078125,
+          "right": 402.078125,
+          "overflowX": "visible"
+        },
+        {
+          "selector": ".title-footer",
+          "clientWidth": 1276,
+          "scrollWidth": 1276,
+          "left": 82.078125,
+          "right": 1357.921875,
+          "overflowX": "visible"
+        }
+      ],
+      "documentWidth": {
+        "viewport": 1440,
+        "html": 1440,
+        "body": 1440,
+        "scrollingElement": 1440
+      },
+      "controls": [
+        {
+          "selector": "button.title-start",
+          "label": "开始故事↗",
+          "left": 99.078125,
+          "right": 385.078125,
+          "clippedBy": []
+        },
+        {
+          "selector": "#continue-btn",
+          "label": "继续旅程CONTINUE",
+          "left": 99.078125,
+          "right": 385.078125,
+          "clippedBy": []
+        },
+        {
+          "selector": "button",
+          "label": "读取存档",
+          "left": 99.078125,
+          "right": 152.84375,
+          "clippedBy": []
+        },
+        {
+          "selector": "button",
+          "label": "游戏设置",
+          "left": 331.3125,
+          "right": 385.078125,
+          "clippedBy": []
+        },
+        {
+          "selector": "button.ambient-button",
+          "label": "开启环境音",
+          "left": 1273.859375,
+          "right": 1357.921875,
+          "clippedBy": []
+        }
+      ],
+      "layoutExclusions": [
+        {
+          "selector": "#app",
+          "clientWidth": 1440,
+          "scrollWidth": 1728,
+          "left": 0,
+          "right": 1440,
+          "overflowX": "clip",
+          "reason": "裁切容器内 .rain 装饰层的负 inset 扩张；未形成文档横向滚动",
+          "sourceRule": "styles.css: #app overflow:clip; .rain position:absolute; inset:-20%; pointer-events:none",
+          "decorativeBounds": {
+            "left": -288,
+            "right": 1728
+          },
+          "expectedScrollWidth": 1728
+        },
+        {
+          "selector": "#game-title",
+          "clientWidth": 1,
+          "scrollWidth": 649,
+          "left": 81.078125,
+          "right": 82.078125,
+          "overflowX": "hidden",
+          "reason": "仅供无障碍读取的 1px 裁切标题，不是可见文字",
+          "sourceRule": "styles.css: #title-screen #game-title",
+          "clipPath": "inset(50%)",
+          "height": 1
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "name": "真实开始并逐句推进至首个选择",
+      "viewport": "desktop-1440x900",
+      "passed": true,
+      "milliseconds": 11685,
+      "start": "tc_c01_common_entry",
+      "firstChoice": "tc_c01_common_rhythm_record_choice",
+      "advances": 28,
+      "visited": [
+        "tc_c01_common_entry",
+        "tc_c01_common_arrival_02",
+        "tc_c01_common_arrival_03",
+        "tc_c01_common_arrival_04",
+        "tc_c01_common_arrival_05",
+        "tc_c01_common_slope_01",
+        "tc_c01_common_slope_02",
+        "tc_c01_common_slope_03",
+        "tc_c01_common_slope_04",
+        "tc_c01_common_job_talk_01",
+        "tc_c01_common_job_talk_02",
+        "tc_c01_common_job_talk_03",
+        "tc_c01_common_job_talk_04",
+        "tc_c01_common_job_talk_05",
+        "tc_c01_common_job_talk_06",
+        "tc_c01_common_job_talk_07",
+        "tc_c01_common_job_talk_08",
+        "tc_c01_common_job_talk_09",
+        "tc_c01_common_job_talk_10",
+        "tc_c01_common_job_talk_11",
+        "tc_c01_common_job_talk_12",
+        "tc_c01_common_job_talk_13",
+        "tc_c01_common_three_taps_01",
+        "tc_c01_common_three_taps_02",
+        "tc_c01_common_three_taps_03",
+        "tc_c01_common_three_taps_04",
+        "tc_c01_common_three_taps_05",
+        "tc_c01_common_three_taps_06",
+        "tc_c01_common_rhythm_record_choice"
+      ],
+      "opening": {
+        "screen": "game",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "images": [
+          {
+            "id": "scene-bg",
+            "src": "http://127.0.0.1:59356/spark/app/app_17gm4z6t27j/runtime/api/v1/storage/object/bucket_aadk3maq6euds/1879821839584343.webp",
+            "width": 1672,
+            "height": 941
+          },
+          {
+            "id": "speaker-avatar",
+            "src": "http://127.0.0.1:59356/spark/app/app_17gm4z6t27j/runtime/api/v1/storage/object/bucket_aadk3maq6euds/1879821670985735.webp",
+            "width": 1024,
+            "height": 1536
+          }
+        ],
+        "widths": [
+          {
+            "selector": "html",
+            "clientWidth": 1440,
+            "scrollWidth": 1440,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "body",
+            "clientWidth": 1440,
+            "scrollWidth": 1440,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "#app",
+            "clientWidth": 1440,
+            "scrollWidth": 1728,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "#game-screen",
+            "clientWidth": 1440,
+            "scrollWidth": 1440,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip"
+          },
+          {
+            "selector": ".scene-header",
+            "clientWidth": 1319,
+            "scrollWidth": 1319,
+            "left": 60.46875,
+            "right": 1379.53125,
+            "overflowX": "visible"
+          },
+          {
+            "selector": ".dialogue-shell",
+            "clientWidth": 1317,
+            "scrollWidth": 1317,
+            "left": 60.46875,
+            "right": 1379.53125,
+            "overflowX": "visible"
+          },
+          {
+            "selector": "#dialogue-box",
+            "clientWidth": 1317,
+            "scrollWidth": 1317,
+            "left": 61.46875,
+            "right": 1378.53125,
+            "overflowX": "auto"
+          },
+          {
+            "selector": ".game-toolbar",
+            "clientWidth": 1317,
+            "scrollWidth": 1317,
+            "left": 61.46875,
+            "right": 1378.53125,
+            "overflowX": "visible"
+          }
+        ],
+        "documentWidth": {
+          "viewport": 1440,
+          "html": 1440,
+          "body": 1440,
+          "scrollingElement": 1440
+        },
+        "controls": [
+          {
+            "selector": "button.menu-button",
+            "label": "打开游戏菜单",
+            "left": 1335.53125,
+            "right": 1379.53125,
+            "clippedBy": []
+          },
+          {
+            "selector": "#dialogue-box",
+            "label": "推进对话，空格或回车",
+            "left": 61.46875,
+            "right": 1378.53125,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "回顾",
+            "left": 990.53125,
+            "right": 1034.53125,
+            "clippedBy": []
+          },
+          {
+            "selector": "#auto-label",
+            "label": "自动",
+            "left": 1050.359375,
+            "right": 1094.359375,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "存档",
+            "left": 1110.1875,
+            "right": 1154.1875,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "读档",
+            "left": 1170.015625,
+            "right": 1214.015625,
+            "clippedBy": []
+          },
+          {
+            "selector": "#sound-label",
+            "label": "开启环境音",
+            "left": 1254.671875,
+            "right": 1306.703125,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "设置",
+            "left": 1322.53125,
+            "right": 1366.53125,
+            "clippedBy": []
+          }
+        ],
+        "layoutExclusions": [
+          {
+            "selector": "#app",
+            "clientWidth": 1440,
+            "scrollWidth": 1728,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip",
+            "reason": "裁切容器内 .rain 装饰层的负 inset 扩张；未形成文档横向滚动",
+            "sourceRule": "styles.css: #app overflow:clip; .rain position:absolute; inset:-20%; pointer-events:none",
+            "decorativeBounds": {
+              "left": -288,
+              "right": 1728
+            },
+            "expectedScrollWidth": 1728
+          }
+        ],
+        "overflow": []
+      },
+      "choiceView": {
+        "screen": "game",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "images": [
+          {
+            "id": "scene-bg",
+            "src": "http://127.0.0.1:59356/spark/app/app_17gm4z6t27j/runtime/api/v1/storage/object/bucket_aadk3maq6euds/1879821863229448.webp",
+            "width": 1672,
+            "height": 941
+          }
+        ],
+        "widths": [
+          {
+            "selector": "html",
+            "clientWidth": 1440,
+            "scrollWidth": 1440,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "body",
+            "clientWidth": 1440,
+            "scrollWidth": 1440,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "#app",
+            "clientWidth": 1440,
+            "scrollWidth": 1728,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "#game-screen",
+            "clientWidth": 1440,
+            "scrollWidth": 1440,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip"
+          },
+          {
+            "selector": ".scene-header",
+            "clientWidth": 1319,
+            "scrollWidth": 1319,
+            "left": 60.46875,
+            "right": 1379.53125,
+            "overflowX": "visible"
+          },
+          {
+            "selector": ".dialogue-shell",
+            "clientWidth": 1317,
+            "scrollWidth": 1317,
+            "left": 60.46875,
+            "right": 1379.53125,
+            "overflowX": "visible"
+          },
+          {
+            "selector": ".game-toolbar",
+            "clientWidth": 1317,
+            "scrollWidth": 1317,
+            "left": 61.46875,
+            "right": 1378.53125,
+            "overflowX": "visible"
+          },
+          {
+            "selector": "#choice-panel",
+            "clientWidth": 699,
+            "scrollWidth": 699,
+            "left": 73.65625,
+            "right": 772.75,
+            "overflowX": "auto"
+          }
+        ],
+        "documentWidth": {
+          "viewport": 1440,
+          "html": 1440,
+          "body": 1440,
+          "scrollingElement": 1440
+        },
+        "controls": [
+          {
+            "selector": "button.menu-button",
+            "label": "打开游戏菜单",
+            "left": 1335.53125,
+            "right": 1379.53125,
+            "clippedBy": []
+          },
+          {
+            "selector": "button.choice-button",
+            "label": "01再听一遍，把三拍记下来",
+            "left": 81.65625,
+            "right": 764.75,
+            "clippedBy": []
+          },
+          {
+            "selector": "button.choice-button",
+            "label": "02先回柜台，暂时不记",
+            "left": 81.65625,
+            "right": 764.75,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "回顾",
+            "left": 990.53125,
+            "right": 1034.53125,
+            "clippedBy": []
+          },
+          {
+            "selector": "#auto-label",
+            "label": "自动",
+            "left": 1050.359375,
+            "right": 1094.359375,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "存档",
+            "left": 1110.1875,
+            "right": 1154.1875,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "读档",
+            "left": 1170.015625,
+            "right": 1214.015625,
+            "clippedBy": []
+          },
+          {
+            "selector": "#sound-label",
+            "label": "开启环境音",
+            "left": 1254.671875,
+            "right": 1306.703125,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "设置",
+            "left": 1322.53125,
+            "right": 1366.53125,
+            "clippedBy": []
+          }
+        ],
+        "layoutExclusions": [
+          {
+            "selector": "#app",
+            "clientWidth": 1440,
+            "scrollWidth": 1728,
+            "left": 0,
+            "right": 1440,
+            "overflowX": "clip",
+            "reason": "裁切容器内 .rain 装饰层的负 inset 扩张；未形成文档横向滚动",
+            "sourceRule": "styles.css: #app overflow:clip; .rain position:absolute; inset:-20%; pointer-events:none",
+            "decorativeBounds": {
+              "left": -288,
+              "right": 1728
+            },
+            "expectedScrollWidth": 1728
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "name": "手动 slot3 保存、刷新后读取及自动继续",
+      "viewport": "desktop-1440x900",
+      "passed": true,
+      "milliseconds": 2462,
+      "manualSlot": "slot3",
+      "manualNode": "tc_c01_common_rhythm_record_choice",
+      "selection": {
+        "nodeId": "tc_c01_common_rhythm_record_choice",
+        "index": "0",
+        "label": "01\n再听一遍，把三拍记下来",
+        "reached": "tc_c01_common_rhythm_record_01"
+      },
+      "automaticNode": "tc_c01_common_rhythm_record_01",
+      "historyEntries": 30,
+      "directStorageWrites": false
+    },
+    {
+      "name": "全十章首页与可见图片、横向布局",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "passed": true,
+      "milliseconds": 646,
+      "story": {
+        "release": "ten-chapter",
+        "contentRevision": "nightshift-20261022-r1",
+        "chapters": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "profile": {
+          "namespace": "bijie-rain-demo:ten-chapter:nightshift-20261022-r1:",
+          "tenChapter": true,
+          "metadata": {
+            "contentVersion": 1,
+            "engineStateVersion": 1,
+            "contractVersion": "1.0.0",
+            "contentRevision": "nightshift-20261022-r1"
+          }
+        }
+      },
+      "screen": "title",
+      "images": [
+        {
+          "id": "title-cover",
+          "src": "http://127.0.0.1:59356/spark/app/app_17gm4z6t27j/runtime/api/v1/storage/object/bucket_aadk3maq6euds/1879821942242339.webp",
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "widths": [
+        {
+          "selector": "html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "left": 0,
+          "right": 390,
+          "overflowX": "clip"
+        },
+        {
+          "selector": "body",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "left": 0,
+          "right": 390,
+          "overflowX": "clip"
+        },
+        {
+          "selector": "#app",
+          "clientWidth": 390,
+          "scrollWidth": 468,
+          "left": 0,
+          "right": 390,
+          "overflowX": "clip"
+        },
+        {
+          "selector": "#title-screen",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "left": 0,
+          "right": 390,
+          "overflowX": "clip"
+        },
+        {
+          "selector": "#game-title",
+          "clientWidth": 1,
+          "scrollWidth": 323,
+          "left": 26.296875,
+          "right": 27.296875,
+          "overflowX": "hidden"
+        },
+        {
+          "selector": ".title-menu",
+          "clientWidth": 335,
+          "scrollWidth": 335,
+          "left": 27.296875,
+          "right": 362.703125,
+          "overflowX": "visible"
+        },
+        {
+          "selector": ".title-footer",
+          "clientWidth": 335,
+          "scrollWidth": 335,
+          "left": 27.296875,
+          "right": 362.703125,
+          "overflowX": "visible"
+        }
+      ],
+      "documentWidth": {
+        "viewport": 390,
+        "html": 390,
+        "body": 390,
+        "scrollingElement": 390
+      },
+      "controls": [
+        {
+          "selector": "button.title-start",
+          "label": "开始故事↗",
+          "left": 27.296875,
+          "right": 190,
+          "clippedBy": []
+        },
+        {
+          "selector": "#continue-btn",
+          "label": "继续旅程CONTINUE",
+          "left": 200,
+          "right": 362.703125,
+          "clippedBy": []
+        },
+        {
+          "selector": "button",
+          "label": "读取存档",
+          "left": 44.859375,
+          "right": 144.859375,
+          "clippedBy": []
+        },
+        {
+          "selector": "button",
+          "label": "游戏设置",
+          "left": 245.125,
+          "right": 345.125,
+          "clippedBy": []
+        },
+        {
+          "selector": "button.ambient-button",
+          "label": "开启环境音",
+          "left": 318.703125,
+          "right": 362.703125,
+          "clippedBy": []
+        }
+      ],
+      "layoutExclusions": [
+        {
+          "selector": "#app",
+          "clientWidth": 390,
+          "scrollWidth": 468,
+          "left": 0,
+          "right": 390,
+          "overflowX": "clip",
+          "reason": "裁切容器内 .rain 装饰层的负 inset 扩张；未形成文档横向滚动",
+          "sourceRule": "styles.css: #app overflow:clip; .rain position:absolute; inset:-20%; pointer-events:none",
+          "decorativeBounds": {
+            "left": -78,
+            "right": 468
+          },
+          "expectedScrollWidth": 468
+        },
+        {
+          "selector": "#game-title",
+          "clientWidth": 1,
+          "scrollWidth": 323,
+          "left": 26.296875,
+          "right": 27.296875,
+          "overflowX": "hidden",
+          "reason": "仅供无障碍读取的 1px 裁切标题，不是可见文字",
+          "sourceRule": "styles.css: #title-screen #game-title",
+          "clipPath": "inset(50%)",
+          "height": 1
+        }
+      ],
+      "overflow": []
+    },
+    {
+      "name": "真实开始并逐句推进至首个选择",
+      "viewport": "mobile-390x844",
+      "passed": true,
+      "milliseconds": 11554,
+      "start": "tc_c01_common_entry",
+      "firstChoice": "tc_c01_common_rhythm_record_choice",
+      "advances": 28,
+      "visited": [
+        "tc_c01_common_entry",
+        "tc_c01_common_arrival_02",
+        "tc_c01_common_arrival_03",
+        "tc_c01_common_arrival_04",
+        "tc_c01_common_arrival_05",
+        "tc_c01_common_slope_01",
+        "tc_c01_common_slope_02",
+        "tc_c01_common_slope_03",
+        "tc_c01_common_slope_04",
+        "tc_c01_common_job_talk_01",
+        "tc_c01_common_job_talk_02",
+        "tc_c01_common_job_talk_03",
+        "tc_c01_common_job_talk_04",
+        "tc_c01_common_job_talk_05",
+        "tc_c01_common_job_talk_06",
+        "tc_c01_common_job_talk_07",
+        "tc_c01_common_job_talk_08",
+        "tc_c01_common_job_talk_09",
+        "tc_c01_common_job_talk_10",
+        "tc_c01_common_job_talk_11",
+        "tc_c01_common_job_talk_12",
+        "tc_c01_common_job_talk_13",
+        "tc_c01_common_three_taps_01",
+        "tc_c01_common_three_taps_02",
+        "tc_c01_common_three_taps_03",
+        "tc_c01_common_three_taps_04",
+        "tc_c01_common_three_taps_05",
+        "tc_c01_common_three_taps_06",
+        "tc_c01_common_rhythm_record_choice"
+      ],
+      "opening": {
+        "screen": "game",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "images": [
+          {
+            "id": "scene-bg",
+            "src": "http://127.0.0.1:59356/spark/app/app_17gm4z6t27j/runtime/api/v1/storage/object/bucket_aadk3maq6euds/1879821839584343.webp",
+            "width": 1672,
+            "height": 941
+          },
+          {
+            "id": "speaker-avatar",
+            "src": "http://127.0.0.1:59356/spark/app/app_17gm4z6t27j/runtime/api/v1/storage/object/bucket_aadk3maq6euds/1879821670985735.webp",
+            "width": 1024,
+            "height": 1536
+          }
+        ],
+        "widths": [
+          {
+            "selector": "html",
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "body",
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "#app",
+            "clientWidth": 390,
+            "scrollWidth": 468,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "#game-screen",
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip"
+          },
+          {
+            "selector": ".scene-header",
+            "clientWidth": 362,
+            "scrollWidth": 362,
+            "left": 14,
+            "right": 376,
+            "overflowX": "visible"
+          },
+          {
+            "selector": ".dialogue-shell",
+            "clientWidth": 360,
+            "scrollWidth": 360,
+            "left": 14,
+            "right": 376,
+            "overflowX": "visible"
+          },
+          {
+            "selector": "#dialogue-box",
+            "clientWidth": 360,
+            "scrollWidth": 360,
+            "left": 15,
+            "right": 375,
+            "overflowX": "auto"
+          },
+          {
+            "selector": ".game-toolbar",
+            "clientWidth": 360,
+            "scrollWidth": 360,
+            "left": 15,
+            "right": 375,
+            "overflowX": "visible"
+          }
+        ],
+        "documentWidth": {
+          "viewport": 390,
+          "html": 390,
+          "body": 390,
+          "scrollingElement": 390
+        },
+        "controls": [
+          {
+            "selector": "button.menu-button",
+            "label": "打开游戏菜单",
+            "left": 332,
+            "right": 376,
+            "clippedBy": []
+          },
+          {
+            "selector": "#dialogue-box",
+            "label": "推进对话，空格或回车",
+            "left": 15,
+            "right": 375,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "回顾",
+            "left": 19,
+            "right": 63,
+            "clippedBy": []
+          },
+          {
+            "selector": "#auto-label",
+            "label": "自动",
+            "left": 77.5,
+            "right": 121.5,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "存档",
+            "left": 136,
+            "right": 180,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "读档",
+            "left": 194.5,
+            "right": 238.5,
+            "clippedBy": []
+          },
+          {
+            "selector": "#sound-label",
+            "label": "开启环境音",
+            "left": 268.5,
+            "right": 312.5,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "设置",
+            "left": 327,
+            "right": 371,
+            "clippedBy": []
+          }
+        ],
+        "layoutExclusions": [
+          {
+            "selector": "#app",
+            "clientWidth": 390,
+            "scrollWidth": 468,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip",
+            "reason": "裁切容器内 .rain 装饰层的负 inset 扩张；未形成文档横向滚动",
+            "sourceRule": "styles.css: #app overflow:clip; .rain position:absolute; inset:-20%; pointer-events:none",
+            "decorativeBounds": {
+              "left": -78,
+              "right": 468
+            },
+            "expectedScrollWidth": 468
+          }
+        ],
+        "overflow": []
+      },
+      "choiceView": {
+        "screen": "game",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "images": [
+          {
+            "id": "scene-bg",
+            "src": "http://127.0.0.1:59356/spark/app/app_17gm4z6t27j/runtime/api/v1/storage/object/bucket_aadk3maq6euds/1879821863229448.webp",
+            "width": 1672,
+            "height": 941
+          }
+        ],
+        "widths": [
+          {
+            "selector": "html",
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "body",
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "#app",
+            "clientWidth": 390,
+            "scrollWidth": 468,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip"
+          },
+          {
+            "selector": "#game-screen",
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip"
+          },
+          {
+            "selector": ".scene-header",
+            "clientWidth": 362,
+            "scrollWidth": 362,
+            "left": 14,
+            "right": 376,
+            "overflowX": "visible"
+          },
+          {
+            "selector": ".dialogue-shell",
+            "clientWidth": 360,
+            "scrollWidth": 360,
+            "left": 14,
+            "right": 376,
+            "overflowX": "visible"
+          },
+          {
+            "selector": ".game-toolbar",
+            "clientWidth": 360,
+            "scrollWidth": 360,
+            "left": 15,
+            "right": 375,
+            "overflowX": "visible"
+          },
+          {
+            "selector": "#choice-panel",
+            "clientWidth": 362,
+            "scrollWidth": 362,
+            "left": 14,
+            "right": 376,
+            "overflowX": "auto"
+          }
+        ],
+        "documentWidth": {
+          "viewport": 390,
+          "html": 390,
+          "body": 390,
+          "scrollingElement": 390
+        },
+        "controls": [
+          {
+            "selector": "button.menu-button",
+            "label": "打开游戏菜单",
+            "left": 332,
+            "right": 376,
+            "clippedBy": []
+          },
+          {
+            "selector": "button.choice-button",
+            "label": "01再听一遍，把三拍记下来",
+            "left": 20,
+            "right": 370,
+            "clippedBy": []
+          },
+          {
+            "selector": "button.choice-button",
+            "label": "02先回柜台，暂时不记",
+            "left": 20,
+            "right": 370,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "回顾",
+            "left": 19,
+            "right": 63,
+            "clippedBy": []
+          },
+          {
+            "selector": "#auto-label",
+            "label": "自动",
+            "left": 77.5,
+            "right": 121.5,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "存档",
+            "left": 136,
+            "right": 180,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "读档",
+            "left": 194.5,
+            "right": 238.5,
+            "clippedBy": []
+          },
+          {
+            "selector": "#sound-label",
+            "label": "开启环境音",
+            "left": 268.5,
+            "right": 312.5,
+            "clippedBy": []
+          },
+          {
+            "selector": "button",
+            "label": "设置",
+            "left": 327,
+            "right": 371,
+            "clippedBy": []
+          }
+        ],
+        "layoutExclusions": [
+          {
+            "selector": "#app",
+            "clientWidth": 390,
+            "scrollWidth": 468,
+            "left": 0,
+            "right": 390,
+            "overflowX": "clip",
+            "reason": "裁切容器内 .rain 装饰层的负 inset 扩张；未形成文档横向滚动",
+            "sourceRule": "styles.css: #app overflow:clip; .rain position:absolute; inset:-20%; pointer-events:none",
+            "decorativeBounds": {
+              "left": -78,
+              "right": 468
+            },
+            "expectedScrollWidth": 468
+          }
+        ],
+        "overflow": []
+      }
+    },
+    {
+      "name": "无页面脚本错误或异常 HTTP／网络失败",
+      "passed": true,
+      "pageErrors": 0,
+      "httpErrors": 0,
+      "requestFailures": 0
+    }
+  ],
+  "screenshots": [
+    "local-screenshots/desktop-1440x900-title.png",
+    "local-screenshots/desktop-1440x900-game-start.png",
+    "local-screenshots/desktop-1440x900-first-choice.png",
+    "local-screenshots/desktop-1440x900-manual-load-after-refresh.png",
+    "local-screenshots/desktop-1440x900-auto-continue-after-refresh.png",
+    "local-screenshots/mobile-390x844-title.png",
+    "local-screenshots/mobile-390x844-game-start.png",
+    "local-screenshots/mobile-390x844-first-choice.png"
+  ],
+  "pageErrors": [],
+  "httpErrors": [],
+  "requestFailures": [],
+  "ignoredRequests": [
+    {
+      "viewport": "desktop-1440x900",
+      "url": "https://sf3-scmcdn-cn.feishucdn.com/obj/unpkg/byted/performance/0.2.3/dist/performance.iife.js",
+      "reason": "明确列出的平台监测脚本由本地空 JS 替代；未进行平台 SDK 网络验收"
+    },
+    {
+      "viewport": "desktop-1440x900",
+      "url": "https://lf3-short.ibytedapm.com/slardar/fe/sdk-web/browser.cn.js?bid=apaas_miaoda&globalName=KSlardarWeb",
+      "reason": "明确列出的平台监测脚本由本地空 JS 替代；未进行平台 SDK 网络验收"
+    },
+    {
+      "viewport": "desktop-1440x900",
+      "url": "https://lf3-cdn-tos.bytescm.com/obj/static/log-sdk/collect/5.1/collect.js",
+      "reason": "明确列出的平台监测脚本由本地空 JS 替代；未进行平台 SDK 网络验收"
+    },
+    {
+      "viewport": "desktop-1440x900",
+      "url": "https://sf3-scmcdn-cn.feishucdn.com/obj/unpkg/byted/performance/0.2.3/dist/performance.iife.js",
+      "reason": "明确列出的平台监测脚本由本地空 JS 替代；未进行平台 SDK 网络验收"
+    },
+    {
+      "viewport": "desktop-1440x900",
+      "url": "https://lf3-short.ibytedapm.com/slardar/fe/sdk-web/browser.cn.js?bid=apaas_miaoda&globalName=KSlardarWeb",
+      "reason": "明确列出的平台监测脚本由本地空 JS 替代；未进行平台 SDK 网络验收"
+    },
+    {
+      "viewport": "desktop-1440x900",
+      "url": "https://lf3-cdn-tos.bytescm.com/obj/static/log-sdk/collect/5.1/collect.js",
+      "reason": "明确列出的平台监测脚本由本地空 JS 替代；未进行平台 SDK 网络验收"
+    },
+    {
+      "viewport": "desktop-1440x900",
+      "url": "https://sf3-scmcdn-cn.feishucdn.com/obj/unpkg/byted/performance/0.2.3/dist/performance.iife.js",
+      "reason": "明确列出的平台监测脚本由本地空 JS 替代；未进行平台 SDK 网络验收"
+    },
+    {
+      "viewport": "desktop-1440x900",
+      "url": "https://lf3-short.ibytedapm.com/slardar/fe/sdk-web/browser.cn.js?bid=apaas_miaoda&globalName=KSlardarWeb",
+      "reason": "明确列出的平台监测脚本由本地空 JS 替代；未进行平台 SDK 网络验收"
+    },
+    {
+      "viewport": "desktop-1440x900",
+      "url": "https://lf3-cdn-tos.bytescm.com/obj/static/log-sdk/collect/5.1/collect.js",
+      "reason": "明确列出的平台监测脚本由本地空 JS 替代；未进行平台 SDK 网络验收"
+    },
+    {
+      "viewport": "mobile-390x844",
+      "url": "https://sf3-scmcdn-cn.feishucdn.com/obj/unpkg/byted/performance/0.2.3/dist/performance.iife.js",
+      "reason": "明确列出的平台监测脚本由本地空 JS 替代；未进行平台 SDK 网络验收"
+    },
+    {
+      "viewport": "mobile-390x844",
+      "url": "https://lf3-short.ibytedapm.com/slardar/fe/sdk-web/browser.cn.js?bid=apaas_miaoda&globalName=KSlardarWeb",
+      "reason": "明确列出的平台监测脚本由本地空 JS 替代；未进行平台 SDK 网络验收"
+    },
+    {
+      "viewport": "mobile-390x844",
+      "url": "https://lf3-cdn-tos.bytescm.com/obj/static/log-sdk/collect/5.1/collect.js",
+      "reason": "明确列出的平台监测脚本由本地空 JS 替代；未进行平台 SDK 网络验收"
+    }
+  ],
+  "buildManifest": [
+    {
+      "file": "dist/output/asset-map.js",
+      "bytes": 24559,
+      "sha256": "cc2cd4bc3a404561823b85a9673838eb8eff33623250bf3e5bd3f7783b6c3967"
+    },
+    {
+      "file": "dist/output/engine.js",
+      "bytes": 15662,
+      "sha256": "363e4a9b1ddd9d6e012b6623af04c54f9fc077a065e9d1ee3b61981e9be5e39a"
+    },
+    {
+      "file": "dist/output/favicon.svg",
+      "bytes": 9522,
+      "sha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66"
+    },
+    {
+      "file": "dist/output/game.js",
+      "bytes": 61683,
+      "sha256": "7021053d5491f6140ce28b9d3bc921e8d65a62921de3f16886fceac0b42848ff"
+    },
+    {
+      "file": "dist/output/icons.svg",
+      "bytes": 5031,
+      "sha256": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a"
+    },
+    {
+      "file": "dist/output/index.html",
+      "bytes": 12072,
+      "sha256": "6a09ed21f3c41127f24fb310c25f0c9aa7e3bd97628ec2ec45055a93e995e1f6"
+    },
+    {
+      "file": "dist/output/player-runtime.js",
+      "bytes": 4046,
+      "sha256": "f0c36ff43ac205be2878d84a057b2760d37f755de9a218b916a7e57c620affd0"
+    },
+    {
+      "file": "dist/output/routes.json",
+      "bytes": 47,
+      "sha256": "343abbef248ef7c706eaafe89b5dcf1e1a70015ce014dd9a69eb58a5d1e3341c"
+    },
+    {
+      "file": "dist/output/save-compat.js",
+      "bytes": 5586,
+      "sha256": "11cc52079a67a2ee32244206b79bb11e1cfe71874227aefdd1e768594a0e816f"
+    },
+    {
+      "file": "dist/output/story.js",
+      "bytes": 1178698,
+      "sha256": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60"
+    },
+    {
+      "file": "dist/output_resource/assets/index-kh9z4pGC.css",
+      "bytes": 44078,
+      "sha256": "5d9e4af0caf857205980667a45895096ead8b07754b8fe45edf6172b2e62ae29"
+    },
+    {
+      "file": "dist/output_resource/assets/polyfills.js",
+      "bytes": 54501,
+      "sha256": "39a241924e597613e644f240ce3e95b09c5020d669382f3278bd722ce4134b9f"
+    }
+  ],
+  "resourceMapEntries": 138,
+  "resourceMapSHA256": "8cd730235f686ed9ccfd49fed7a9daddfd43c91a4a66e8fdf457b16be0d3127d",
+  "mappedAssetsServed": [
+    {
+      "url": "/spark/app/app_17gm4z6t27j/runtime/api/v1/storage/object/bucket_aadk3maq6euds/1879821599156391.webp",
+      "source": "assets/ten-chapter/ui/cover-desktop.webp",
+      "sha256": "a2754760ac8863b57fb1820f2d7769332effd1c06eb9a224d13da06ad5ffd665",
+      "bytes": 1874752,
+      "requests": 3
+    },
+    {
+      "url": "/spark/app/app_17gm4z6t27j/runtime/api/v1/storage/object/bucket_aadk3maq6euds/1879821670985735.webp",
+      "source": "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+      "sha256": "94e76a03d5b7437cf986b459c1e02df56f3912259a2f32ad4a99d573673fbbb7",
+      "bytes": 1027910,
+      "requests": 4
+    },
+    {
+      "url": "/spark/app/app_17gm4z6t27j/runtime/api/v1/storage/object/bucket_aadk3maq6euds/1879821839584343.webp",
+      "source": "assets/backgrounds/bijie-20261020/bg-busstop-day.webp",
+      "sha256": "335b2bf31c5ec8828589bcd5551c708ec8a7f914408d8635ca7f53d38a700b16",
+      "bytes": 2301340,
+      "requests": 2
+    },
+    {
+      "url": "/spark/app/app_17gm4z6t27j/runtime/api/v1/storage/object/bucket_aadk3maq6euds/1879821849528359.webp",
+      "source": "assets/backgrounds/bijie-20261020/bg-residential-slope-day.webp",
+      "sha256": "d5920c93d6841fd26f71766ca7ea52d368464f680da573e0114f3913c0bb95f5",
+      "bytes": 2340464,
+      "requests": 2
+    },
+    {
+      "url": "/spark/app/app_17gm4z6t27j/runtime/api/v1/storage/object/bucket_aadk3maq6euds/1879821691712740.webp",
+      "source": "assets/char-maolang.webp",
+      "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf",
+      "bytes": 730662,
+      "requests": 10
+    },
+    {
+      "url": "/spark/app/app_17gm4z6t27j/runtime/api/v1/storage/object/bucket_aadk3maq6euds/1879821845951731.webp",
+      "source": "assets/ten-chapter/backgrounds/bg-netcafe-counter-day.webp",
+      "sha256": "ad4441bd82897f63a57766890badb01a9ea981052b701906f62cc8f4ac97ba09",
+      "bytes": 1744932,
+      "requests": 2
+    },
+    {
+      "url": "/spark/app/app_17gm4z6t27j/runtime/api/v1/storage/object/bucket_aadk3maq6euds/1879821702555655.webp",
+      "source": "assets/char-shijiang.webp",
+      "sha256": "286042deb9ae765c377f69285824c8ca4e2a7a23ba8af960cbaf413747fc207c",
+      "bytes": 932076,
+      "requests": 8
+    },
+    {
+      "url": "/spark/app/app_17gm4z6t27j/runtime/api/v1/storage/object/bucket_aadk3maq6euds/1879821863229448.webp",
+      "source": "assets/ten-chapter/backgrounds/bg-backdoor-night.webp",
+      "sha256": "a474cf147f2c40281f8a030e2eb714fd5611469481f5f426567ba2d4b608448f",
+      "bytes": 1827712,
+      "requests": 4
+    },
+    {
+      "url": "/spark/app/app_17gm4z6t27j/runtime/api/v1/storage/object/bucket_aadk3maq6euds/1879821942242339.webp",
+      "source": "assets/ten-chapter/ui/cover-mobile.webp",
+      "sha256": "66f3af124050fa455001108bf2369a9db22b028c96f1774858402d1fafebfe40",
+      "bytes": 1943458,
+      "requests": 1
+    }
+  ],
+  "completedAt": "2026-10-23T06:52:24.645Z",
+  "pass": true,
+  "environmentNote": "首次沙箱运行因 listen EPERM 无法监听 127.0.0.1；之后在获准的执行环境重跑。首次失败不计作游戏功能失败。"
+}

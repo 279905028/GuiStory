@@ -1,0 +1,1481 @@
+{
+  "date": "2026-10-20T06:12:56.881Z",
+  "maolangStoryUnchanged": true,
+  "concurrentStoryChangePreserved": "s2_counter_06: 细框眼镜→黑框眼镜；本任务未写story.js",
+  "concurrentFilesPreserved": [
+    "assets/char-shijiang.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-serious.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-downcast.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-smile.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-surprised.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/prompts.json",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/manifest.json",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-wave.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-displeased.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/review.md",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-thinking.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-explaining.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-hesitant.png"
+  ],
+  "storySha256": "e0b48374db5e9204829062113dd500519ca56e42d767ef829519fba6ba7167ca",
+  "engineUnchanged": true,
+  "baseMatchesOptionD": true,
+  "changed": [
+    "assets/char-shijiang.png",
+    "assets/char-maolang.png",
+    "assets/cg-manifest.json",
+    "assets/new-characters-manifest.json",
+    "assets/new-character-prompts.json",
+    "assets/cg/cg-06-maolang-confession.png",
+    "assets/cg/cg-09-repair-handoff.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-serious.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-downcast.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-smile.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-surprised.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/prompts.json",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/manifest.json",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-wave.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-displeased.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/review.md",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-thinking.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-action-explaining.png",
+    "assets/new-character-variants/expressions-v01-20261019/shijiang/char-shijiang-expression-hesitant.png",
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.png",
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.png",
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.png",
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.png",
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.png",
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.png",
+    "assets/new-character-variants/expressions-v01-20261019/maolang/prompts.json",
+    "assets/new-character-variants/expressions-v01-20261019/maolang/manifest.json",
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.png",
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+    "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.png",
+    "assets/cg-variants/CG06/record.json",
+    "assets/cg-variants/CG09/record.json",
+    "story.js",
+    "game.js",
+    "任务拆分/共享契约.md"
+  ],
+  "cases": [
+    {
+      "id": "s2_counter_02",
+      "width": 375,
+      "height": 667,
+      "pass": true,
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/s2_counter_02-375x667.png",
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.png",
+        "variant": "action-wave",
+        "fit": "contain",
+        "rect": {
+          "x": 14,
+          "y": 80,
+          "right": 361,
+          "bottom": 410
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          375,
+          667
+        ],
+        "viewport": [
+          375,
+          667
+        ]
+      }
+    },
+    {
+      "id": "s2_counter_02",
+      "width": 390,
+      "height": 844,
+      "pass": true,
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/s2_counter_02-390x844.png",
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.png",
+        "variant": "action-wave",
+        "fit": "contain",
+        "rect": {
+          "x": 14,
+          "y": 80,
+          "right": 376,
+          "bottom": 535.046875
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          390,
+          844
+        ],
+        "viewport": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "id": "s2_counter_02",
+      "width": 844,
+      "height": 390,
+      "pass": true,
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/s2_counter_02-844x390.png",
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.png",
+        "variant": "action-wave",
+        "fit": "contain",
+        "rect": {
+          "x": 20,
+          "y": 72,
+          "right": 404.375,
+          "bottom": 378
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          844,
+          390
+        ],
+        "viewport": [
+          844,
+          390
+        ]
+      }
+    },
+    {
+      "id": "s2_counter_02",
+      "width": 1440,
+      "height": 900,
+      "pass": true,
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/s2_counter_02-1440x900.png",
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.png",
+        "variant": "action-wave",
+        "fit": "contain",
+        "rect": {
+          "x": 785.953125,
+          "y": 141,
+          "right": 1379.53125,
+          "bottom": 578
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          1440,
+          900
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "id": "s2_counter_02",
+      "width": 1280,
+      "height": 720,
+      "pass": true,
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/s2_counter_02-1280x720.png",
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.png",
+        "variant": "action-wave",
+        "fit": "contain",
+        "rect": {
+          "x": 698.625,
+          "y": 93,
+          "right": 1226.25,
+          "bottom": 470
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          1280,
+          720
+        ],
+        "viewport": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "s2_counter_04",
+      "width": 1280,
+      "height": 720,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.png",
+        "variant": "action-explaining",
+        "fit": "contain",
+        "rect": {
+          "x": 698.625,
+          "y": 93,
+          "right": 1226.25,
+          "bottom": 470
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          1280,
+          720
+        ],
+        "viewport": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "s2_counter_04",
+      "width": 844,
+      "height": 390,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.png",
+        "variant": "action-explaining",
+        "fit": "contain",
+        "rect": {
+          "x": 20,
+          "y": 72,
+          "right": 404.375,
+          "bottom": 378
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          844,
+          390
+        ],
+        "viewport": [
+          844,
+          390
+        ]
+      }
+    },
+    {
+      "id": "s2_counter_04",
+      "width": 390,
+      "height": 844,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.png",
+        "variant": "action-explaining",
+        "fit": "contain",
+        "rect": {
+          "x": 14,
+          "y": 80,
+          "right": 376,
+          "bottom": 535.046875
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          390,
+          844
+        ],
+        "viewport": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "id": "s2_counter_04",
+      "width": 375,
+      "height": 667,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.png",
+        "variant": "action-explaining",
+        "fit": "contain",
+        "rect": {
+          "x": 14,
+          "y": 80,
+          "right": 361,
+          "bottom": 410
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          375,
+          667
+        ],
+        "viewport": [
+          375,
+          667
+        ]
+      }
+    },
+    {
+      "id": "s2_counter_04",
+      "width": 1440,
+      "height": 900,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.png",
+        "variant": "action-explaining",
+        "fit": "contain",
+        "rect": {
+          "x": 785.953125,
+          "y": 141,
+          "right": 1379.53125,
+          "bottom": 578
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          1440,
+          900
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "id": "s2_counter_13",
+      "width": 1280,
+      "height": 720,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.png",
+        "variant": "expression-surprised",
+        "fit": "contain",
+        "rect": {
+          "x": 698.625,
+          "y": 93,
+          "right": 1226.25,
+          "bottom": 470
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          1280,
+          720
+        ],
+        "viewport": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "s2_counter_13",
+      "width": 844,
+      "height": 390,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.png",
+        "variant": "expression-surprised",
+        "fit": "contain",
+        "rect": {
+          "x": 20,
+          "y": 72,
+          "right": 404.375,
+          "bottom": 378
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          844,
+          390
+        ],
+        "viewport": [
+          844,
+          390
+        ]
+      }
+    },
+    {
+      "id": "s2_counter_13",
+      "width": 390,
+      "height": 844,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.png",
+        "variant": "expression-surprised",
+        "fit": "contain",
+        "rect": {
+          "x": 14,
+          "y": 80,
+          "right": 376,
+          "bottom": 535.046875
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          390,
+          844
+        ],
+        "viewport": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "id": "s2_counter_13",
+      "width": 1440,
+      "height": 900,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.png",
+        "variant": "expression-surprised",
+        "fit": "contain",
+        "rect": {
+          "x": 785.953125,
+          "y": 141,
+          "right": 1379.53125,
+          "bottom": 578
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          1440,
+          900
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "id": "s2_counter_13",
+      "width": 375,
+      "height": 667,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.png",
+        "variant": "expression-surprised",
+        "fit": "contain",
+        "rect": {
+          "x": 14,
+          "y": 80,
+          "right": 361,
+          "bottom": 410
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          375,
+          667
+        ],
+        "viewport": [
+          375,
+          667
+        ]
+      }
+    },
+    {
+      "id": "s2_recruit_02",
+      "width": 1280,
+      "height": 720,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.png",
+        "variant": "action-thinking",
+        "fit": "contain",
+        "rect": {
+          "x": 698.625,
+          "y": 93,
+          "right": 1226.25,
+          "bottom": 470
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          1280,
+          720
+        ],
+        "viewport": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "s2_recruit_02",
+      "width": 844,
+      "height": 390,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.png",
+        "variant": "action-thinking",
+        "fit": "contain",
+        "rect": {
+          "x": 20,
+          "y": 72,
+          "right": 404.375,
+          "bottom": 378
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          844,
+          390
+        ],
+        "viewport": [
+          844,
+          390
+        ]
+      }
+    },
+    {
+      "id": "s2_recruit_02",
+      "width": 390,
+      "height": 844,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.png",
+        "variant": "action-thinking",
+        "fit": "contain",
+        "rect": {
+          "x": 14,
+          "y": 80,
+          "right": 376,
+          "bottom": 535.046875
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          390,
+          844
+        ],
+        "viewport": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "id": "s2_recruit_02",
+      "width": 1440,
+      "height": 900,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.png",
+        "variant": "action-thinking",
+        "fit": "contain",
+        "rect": {
+          "x": 785.953125,
+          "y": 141,
+          "right": 1379.53125,
+          "bottom": 578
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          1440,
+          900
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "id": "s2_recruit_02",
+      "width": 375,
+      "height": 667,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.png",
+        "variant": "action-thinking",
+        "fit": "contain",
+        "rect": {
+          "x": 14,
+          "y": 80,
+          "right": 361,
+          "bottom": 410
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          375,
+          667
+        ],
+        "viewport": [
+          375,
+          667
+        ]
+      }
+    },
+    {
+      "id": "s9_compete_02",
+      "width": 375,
+      "height": 667,
+      "pass": true,
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/s9_compete_02-375x667.png",
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+        "variant": "expression-serious",
+        "fit": "contain",
+        "rect": {
+          "x": 14,
+          "y": 80,
+          "right": 361,
+          "bottom": 410
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          375,
+          667
+        ],
+        "viewport": [
+          375,
+          667
+        ]
+      }
+    },
+    {
+      "id": "s9_compete_02",
+      "width": 844,
+      "height": 390,
+      "pass": true,
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/s9_compete_02-844x390.png",
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+        "variant": "expression-serious",
+        "fit": "contain",
+        "rect": {
+          "x": 20,
+          "y": 72,
+          "right": 404.375,
+          "bottom": 378
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          844,
+          390
+        ],
+        "viewport": [
+          844,
+          390
+        ]
+      }
+    },
+    {
+      "id": "s9_compete_02",
+      "width": 1280,
+      "height": 720,
+      "pass": true,
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/s9_compete_02-1280x720.png",
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+        "variant": "expression-serious",
+        "fit": "contain",
+        "rect": {
+          "x": 698.625,
+          "y": 93,
+          "right": 1226.25,
+          "bottom": 470
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          1280,
+          720
+        ],
+        "viewport": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "s9_compete_02",
+      "width": 390,
+      "height": 844,
+      "pass": true,
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/s9_compete_02-390x844.png",
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+        "variant": "expression-serious",
+        "fit": "contain",
+        "rect": {
+          "x": 14,
+          "y": 80,
+          "right": 376,
+          "bottom": 535.046875
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          390,
+          844
+        ],
+        "viewport": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "id": "s9_compete_02",
+      "width": 1440,
+      "height": 900,
+      "pass": true,
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/s9_compete_02-1440x900.png",
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+        "variant": "expression-serious",
+        "fit": "contain",
+        "rect": {
+          "x": 785.953125,
+          "y": 141,
+          "right": 1379.53125,
+          "bottom": 578
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          1440,
+          900
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "id": "s9_compete_04",
+      "width": 1440,
+      "height": 900,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.png",
+        "variant": "expression-hesitant",
+        "fit": "contain",
+        "rect": {
+          "x": 785.953125,
+          "y": 141,
+          "right": 1379.53125,
+          "bottom": 578
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          1440,
+          900
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "id": "s9_compete_04",
+      "width": 375,
+      "height": 667,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.png",
+        "variant": "expression-hesitant",
+        "fit": "contain",
+        "rect": {
+          "x": 14,
+          "y": 80,
+          "right": 361,
+          "bottom": 410
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          375,
+          667
+        ],
+        "viewport": [
+          375,
+          667
+        ]
+      }
+    },
+    {
+      "id": "s9_compete_04",
+      "width": 1280,
+      "height": 720,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.png",
+        "variant": "expression-hesitant",
+        "fit": "contain",
+        "rect": {
+          "x": 698.625,
+          "y": 93,
+          "right": 1226.25,
+          "bottom": 470
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          1280,
+          720
+        ],
+        "viewport": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "s9_compete_04",
+      "width": 844,
+      "height": 390,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.png",
+        "variant": "expression-hesitant",
+        "fit": "contain",
+        "rect": {
+          "x": 20,
+          "y": 72,
+          "right": 404.375,
+          "bottom": 378
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          844,
+          390
+        ],
+        "viewport": [
+          844,
+          390
+        ]
+      }
+    },
+    {
+      "id": "s9_compete_04",
+      "width": 390,
+      "height": 844,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.png",
+        "variant": "expression-hesitant",
+        "fit": "contain",
+        "rect": {
+          "x": 14,
+          "y": 80,
+          "right": 376,
+          "bottom": 535.046875
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          390,
+          844
+        ],
+        "viewport": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "id": "s9_compete_07",
+      "width": 1280,
+      "height": 720,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.png",
+        "variant": "expression-smile",
+        "fit": "contain",
+        "rect": {
+          "x": 698.625,
+          "y": 93,
+          "right": 1226.25,
+          "bottom": 470
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          1280,
+          720
+        ],
+        "viewport": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "s9_compete_07",
+      "width": 844,
+      "height": 390,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.png",
+        "variant": "expression-smile",
+        "fit": "contain",
+        "rect": {
+          "x": 20,
+          "y": 72,
+          "right": 404.375,
+          "bottom": 378
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          844,
+          390
+        ],
+        "viewport": [
+          844,
+          390
+        ]
+      }
+    },
+    {
+      "id": "s9_compete_07",
+      "width": 375,
+      "height": 667,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.png",
+        "variant": "expression-smile",
+        "fit": "contain",
+        "rect": {
+          "x": 14,
+          "y": 80,
+          "right": 361,
+          "bottom": 410
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          375,
+          667
+        ],
+        "viewport": [
+          375,
+          667
+        ]
+      }
+    },
+    {
+      "id": "s9_compete_07",
+      "width": 1440,
+      "height": 900,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.png",
+        "variant": "expression-smile",
+        "fit": "contain",
+        "rect": {
+          "x": 785.953125,
+          "y": 141,
+          "right": 1379.53125,
+          "bottom": 578
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          1440,
+          900
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "id": "s9_compete_07",
+      "width": 390,
+      "height": 844,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.png",
+        "variant": "expression-smile",
+        "fit": "contain",
+        "rect": {
+          "x": 14,
+          "y": 80,
+          "right": 376,
+          "bottom": 535.046875
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          390,
+          844
+        ],
+        "viewport": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "id": "s9_measure_02",
+      "width": 1280,
+      "height": 720,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+        "variant": "expression-serious",
+        "fit": "contain",
+        "rect": {
+          "x": 698.625,
+          "y": 93,
+          "right": 1226.25,
+          "bottom": 470
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          1280,
+          720
+        ],
+        "viewport": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "s9_measure_02",
+      "width": 844,
+      "height": 390,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+        "variant": "expression-serious",
+        "fit": "contain",
+        "rect": {
+          "x": 20,
+          "y": 72,
+          "right": 404.375,
+          "bottom": 378
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          844,
+          390
+        ],
+        "viewport": [
+          844,
+          390
+        ]
+      }
+    },
+    {
+      "id": "s9_measure_02",
+      "width": 375,
+      "height": 667,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+        "variant": "expression-serious",
+        "fit": "contain",
+        "rect": {
+          "x": 14,
+          "y": 80,
+          "right": 361,
+          "bottom": 410
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          375,
+          667
+        ],
+        "viewport": [
+          375,
+          667
+        ]
+      }
+    },
+    {
+      "id": "s9_measure_02",
+      "width": 1440,
+      "height": 900,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+        "variant": "expression-serious",
+        "fit": "contain",
+        "rect": {
+          "x": 785.953125,
+          "y": 141,
+          "right": 1379.53125,
+          "bottom": 578
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          1440,
+          900
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "id": "s9_measure_02",
+      "width": 390,
+      "height": 844,
+      "pass": true,
+      "screenshot": null,
+      "geometry": {
+        "src": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+        "variant": "expression-serious",
+        "fit": "contain",
+        "rect": {
+          "x": 14,
+          "y": 80,
+          "right": 376,
+          "bottom": 535.046875
+        },
+        "size": [
+          1024,
+          1536
+        ],
+        "avatar": "assets/char-maolang.png",
+        "avatarLoaded": true,
+        "scroll": [
+          390,
+          844
+        ],
+        "viewport": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "id": "s2_counter_06",
+      "key": "cg09",
+      "width": 375,
+      "height": 667,
+      "pass": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/cg09-375x667.png"
+    },
+    {
+      "id": "s2_counter_06",
+      "key": "cg09",
+      "width": 844,
+      "height": 390,
+      "pass": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/cg09-844x390.png"
+    },
+    {
+      "id": "s2_counter_06",
+      "key": "cg09",
+      "width": 1280,
+      "height": 720,
+      "pass": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/cg09-1280x720.png"
+    },
+    {
+      "id": "s2_counter_06",
+      "key": "cg09",
+      "width": 1440,
+      "height": 900,
+      "pass": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/cg09-1440x900.png"
+    },
+    {
+      "id": "s2_counter_06",
+      "key": "cg09",
+      "width": 390,
+      "height": 844,
+      "pass": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/cg09-390x844.png"
+    },
+    {
+      "id": "s9_compete_08",
+      "key": "cg06",
+      "width": 1440,
+      "height": 900,
+      "pass": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/cg06-1440x900.png"
+    },
+    {
+      "id": "s9_compete_08",
+      "key": "cg06",
+      "width": 1280,
+      "height": 720,
+      "pass": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/cg06-1280x720.png"
+    },
+    {
+      "id": "s9_compete_08",
+      "key": "cg06",
+      "width": 390,
+      "height": 844,
+      "pass": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/cg06-390x844.png"
+    },
+    {
+      "id": "s9_compete_08",
+      "key": "cg06",
+      "width": 844,
+      "height": 390,
+      "pass": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/cg06-844x390.png"
+    },
+    {
+      "id": "s9_compete_08",
+      "key": "cg06",
+      "width": 375,
+      "height": 667,
+      "pass": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "screenshot": "/Users/yipin/Desktop/cjb/qa/maolang-optionD-20261020/cg06-375x667.png"
+    }
+  ],
+  "errors": [],
+  "fallback": {
+    "pass": true,
+    "blockedRequests": 1,
+    "textAndProgressPreserved": true
+  },
+  "refresh": {
+    "pass": true,
+    "node": "s9_compete_04",
+    "unchangedSaveFormat": true
+  },
+  "status": "passed",
+  "summary": {
+    "spriteScenes": 40,
+    "cgScenes": 10,
+    "viewports": 5,
+    "refresh": true,
+    "fallback": true
+  }
+}

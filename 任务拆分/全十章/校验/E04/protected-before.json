@@ -1,0 +1,125 @@
+{
+  "scope": "E04 protected files before work",
+  "files": [
+    {
+      "file": "AGENTS.md",
+      "sha256": "9888d310d6f27d9d417b2912bb5ea140df31d0f8407bbefe90f4f7843c1b608a"
+    },
+    {
+      "file": "story.js",
+      "sha256": "5d9b3dad53fa7de88269f7e605db4cf2e7b80a92587dedffda0e425bb1878e7a"
+    },
+    {
+      "file": "engine.js",
+      "sha256": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072"
+    },
+    {
+      "file": "game.js",
+      "sha256": "87a8d773c3f51ae930663d8edec927c19a7a0f61076e79d6c6a915848fdc9c6c"
+    },
+    {
+      "file": "save-compat.js",
+      "sha256": "4ab32d0447c98650719bd61e29615f07d9ebfdc67596e3774a94953c4f98e742"
+    },
+    {
+      "file": "styles.css",
+      "sha256": "71a08eb8e30a8f3a8186ec6bd6fb897a9fdf837d46045558cf5cfd337b3f8dd5"
+    },
+    {
+      "file": "index.html",
+      "sha256": "2ae59b07bff371230049395148dc83bde549443889775d9679a405dc932f4ffa"
+    },
+    {
+      "file": "任务拆分/三章扩展/build-story.cjs",
+      "sha256": "068ca2f80fa29dd0b2405de726daae2568d1971878f48979e9be89ecf3b2ebd3"
+    },
+    {
+      "file": "任务拆分/全十章/contract.json",
+      "sha256": "4086571ab65e54271ec70e5a0a0712e00d0b2a1f6dae739b1df05a328ada1876"
+    },
+    {
+      "file": "任务拆分/全十章/契约.md",
+      "sha256": "ecc03aad47821bed6c4978caa3730aa59495e9543d5493c4ec6b8e27bfe61244"
+    },
+    {
+      "file": "任务拆分/全十章/构建接口.md",
+      "sha256": "87edc390111a3924e5f0231fea26b9e1593c2967625d8385b274763721b491a9"
+    },
+    {
+      "file": "任务拆分/全十章/美术清单.json",
+      "sha256": "10cd396bf8de6e26e54ee60bc494fb512bb697ecc46a7f23b631b4e214a351b2"
+    },
+    {
+      "file": "任务拆分/全十章/美术清单.md",
+      "sha256": "1d1c991a9e75f239dcc50468ecb14911d9966ff021906cd47a0da7843bbac5c7"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "sha256": "766f2462d3695244aeb5d40a416c7610b05eeea15b397b8a0c232d351399e0c6"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "sha256": "dac8ac7db39fb2d16732629cb694cb34816bfdb7cc8de0064d52e1e16fc0bf06"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "sha256": "21ed8a4949d383f982625bcf473d75ced20aa02eeca5fb4fe4a099283749dc60"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "sha256": "456533e8485bffdaafc31a13d6c8c77e9f8266480707887e792a5ceaddaec0c2"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "sha256": "237c81a388bc42db960729d600a88d2705ef6106ade18f4414e919a33acab082"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sha256": "8238a41e2b8e4102e7509e711662fa28bbdd83c7ef89e03f9af1e7798ff7c9e4"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sha256": "112623a8a21f59991e3a5717838c0558244293dc709b906815c8c83497ebc8f0"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sha256": "2903d54c7d22f9e7fcfe3a4d4ead3c16dc103a67b675c12a636eb7bfb463279b"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sha256": "d2aeb09d621edb3522b2dc63dcc5b49fa6949891e2c7d17520ffe14d39996549"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sha256": "94b9a7c273d7a6ba9d0c2f9572ec54a3874f57a8ea0663d4db455ec868d903b2"
+    },
+    {
+      "file": "任务拆分/全十章/build/cli.cjs",
+      "sha256": "deeb03969de594f1296000c79d6e626bc7b3eeb02f5a67d901fa6037bb6bd47e"
+    },
+    {
+      "file": "任务拆分/全十章/build/compiler.cjs",
+      "sha256": "fac93168157fe54f7723f589163caee2a9f9f1a4d0ee52ec19bd5c8f45eaccf1"
+    },
+    {
+      "file": "任务拆分/全十章/build/graph-test.cjs",
+      "sha256": "22555e142e2ec4f81c54e26fbacff203a41726c2eeef39f17b53cd42d06fc7dc"
+    },
+    {
+      "file": "任务拆分/全十章/build/graph.cjs",
+      "sha256": "9217ff94f9825c575614b138adf6b27c1d3e1237e73a4874964030ebee7637b5"
+    },
+    {
+      "file": "任务拆分/全十章/build/integration-test.cjs",
+      "sha256": "bb102eb1e4d654793139a95c9a5186fdcf5c0b38a4c9ac86173c4da0b90ca5f0"
+    },
+    {
+      "file": "任务拆分/全十章/build/json.cjs",
+      "sha256": "f3ee337407c67c66138d681759e00950af02a8bd141c5556cfc7941338d6a970"
+    },
+    {
+      "file": "任务拆分/全十章/build/test.cjs",
+      "sha256": "1b91261c6cfb22ab64e120a24947d17936b996beb05b3f467524adae770133a1"
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "common/ch04",
+  "owner": "E03",
+  "scenes": {
+    "ts_c04_common_payday": {
+      "chapter": 4,
+      "title": "第22天·15:40｜发薪以后",
+      "bg": "tc-bg-rental-day",
+      "time": "15:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "15:40",
+        "day": 22
+      },
+      "location": "文文出租屋",
+      "day": 22,
+      "dayLabel": "第22天"
+    },
+    "ts_c04_common_chapter_end": {
+      "chapter": 4,
+      "title": "第四章 · 约好的那一天",
+      "bg": "tc-bg-chapter-end",
+      "time": "章末",
+      "chronology": {
+        "domain": "chapter-range",
+        "mode": "present",
+        "label": "第22—24天"
+      },
+      "location": "",
+      "day": null,
+      "dayLabel": "第22—24天"
+    }
+  },
+  "nodes": {
+    "tc_c04_common_entry": {
+      "id": "tc_c04_common_entry",
+      "type": "line",
+      "scene": "ts_c04_common_payday",
+      "speaker": "narrator",
+      "text": "这天下午，我醒来看到到账消息，在床上坐了一会儿。",
+      "character": null,
+      "next": "tc_c04_common_payday_02"
+    },
+    "tc_c04_common_payday_02": {
+      "id": "tc_c04_common_payday_02",
+      "type": "line",
+      "scene": "ts_c04_common_payday",
+      "speaker": "narrator",
+      "text": "没有特别多，也不是突然发现自己前途无量。先交房租，再把前几天欠毛狼的早餐钱转回去，剩下的确实是我这几班挣来的钱。",
+      "character": null,
+      "next": "tc_c04_common_payday_03"
+    },
+    "tc_c04_common_payday_03": {
+      "id": "tc_c04_common_payday_03",
+      "type": "line",
+      "scene": "ts_c04_common_payday",
+      "speaker": "narrator",
+      "text": "毛狼发来语音：“你是不是多转两块？”",
+      "character": null,
+      "next": "tc_c04_common_payday_04"
+    },
+    "tc_c04_common_payday_04": {
+      "id": "tc_c04_common_payday_04",
+      "type": "line",
+      "scene": "ts_c04_common_payday",
+      "speaker": "wenwen",
+      "text": "“上次你加的蛋。”",
+      "character": null,
+      "next": "tc_c04_common_payday_05"
+    },
+    "tc_c04_common_payday_05": {
+      "id": "tc_c04_common_payday_05",
+      "type": "line",
+      "scene": "ts_c04_common_payday",
+      "speaker": "maolang",
+      "text": "“那个蛋是我请你。”",
+      "character": null,
+      "next": "tc_c04_common_payday_06"
+    },
+    "tc_c04_common_payday_06": {
+      "id": "tc_c04_common_payday_06",
+      "type": "line",
+      "scene": "ts_c04_common_payday",
+      "speaker": "wenwen",
+      "text": "“那下次再请。”",
+      "character": null,
+      "next": "tc_c04_common_payday_07"
+    },
+    "tc_c04_common_payday_07": {
+      "id": "tc_c04_common_payday_07",
+      "type": "line",
+      "scene": "ts_c04_common_payday",
+      "speaker": "narrator",
+      "text": "他退回来两块，坚持不能把人情搞成一个账目错误。我收了，给自己买了个新的衣架。原来那只断了一边，衣服老往下滑，我一直想着还能将就。",
+      "character": null,
+      "next": "tc_c04_common_payday_08"
+    },
+    "tc_c04_common_payday_08": {
+      "id": "tc_c04_common_payday_08",
+      "type": "line",
+      "scene": "ts_c04_common_payday",
+      "speaker": "narrator",
+      "text": "出门前，我把洗好的衣服重新挂好。今天约好的事情就在今天，不需要拿到一份更体面的工作才能开始。",
+      "character": null,
+      "next": "tc_c04_common_route_gate"
+    },
+    "tc_c04_common_exit": {
+      "id": "tc_c04_common_exit",
+      "type": "end",
+      "scene": "ts_c04_common_chapter_end",
+      "title": "第四章 · 约好的那一天",
+      "text": "",
+      "character": null,
+      "next": "tc_c05_common_entry",
+      "nextChapter": "第五章 · 没说出口的困意"
+    },
+    "tc_c04_common_route_gate": {
+      "id": "tc_c04_common_route_gate",
+      "type": "gate",
+      "scene": "ts_c04_common_payday",
+      "cases": [
+        {
+          "flag": "route",
+          "value": "xiaoman",
+          "next": "tc_c04_xiaoman_entry"
+        },
+        {
+          "flag": "route",
+          "value": "zhouzhi",
+          "next": "tc_c04_zhouzhi_entry"
+        },
+        {
+          "flag": "route",
+          "value": "mengyao",
+          "next": "tc_c04_mengyao_entry"
+        },
+        {
+          "flag": "route",
+          "value": "yelan",
+          "next": "tc_c04_yelan_entry"
+        },
+        {
+          "flag": "route",
+          "value": "piao",
+          "next": "tc_c04_piao_entry"
+        },
+        {
+          "flag": "route",
+          "value": "friends",
+          "next": "tc_c04_friends_entry"
+        },
+        {
+          "flag": "route",
+          "value": "huangqiuqiu",
+          "next": "tc_c04_huangqiuqiu_entry"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    }
+  },
+  "imports": [
+    "tc_c04_friends_entry",
+    "tc_c04_huangqiuqiu_entry",
+    "tc_c04_mengyao_entry",
+    "tc_c04_piao_entry",
+    "tc_c04_xiaoman_entry",
+    "tc_c04_yelan_entry",
+    "tc_c04_zhouzhi_entry",
+    "tc_c05_common_entry"
+  ],
+  "exports": {
+    "tc_c04_common_entry": "tc_c04_common_entry",
+    "tc_c04_common_exit": "tc_c04_common_exit",
+    "tc_c04_common_route_gate": "tc_c04_common_route_gate"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c04_common_exit"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c04_common_route_gate"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 11,
+      "endLine": 11,
+      "nodeIds": [
+        "tc_c04_common_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 13,
+      "endLine": 13,
+      "nodeIds": [
+        "tc_c04_common_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 15,
+      "endLine": 15,
+      "nodeIds": [
+        "tc_c04_common_payday_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 17,
+      "endLine": 17,
+      "nodeIds": [
+        "tc_c04_common_payday_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 19,
+      "endLine": 19,
+      "nodeIds": [
+        "tc_c04_common_payday_04"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 21,
+      "endLine": 21,
+      "nodeIds": [
+        "tc_c04_common_payday_05"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 23,
+      "endLine": 23,
+      "nodeIds": [
+        "tc_c04_common_payday_06"
+      ],
+      "kind": "dialogue"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 25,
+      "endLine": 25,
+      "nodeIds": [
+        "tc_c04_common_payday_07"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 27,
+      "endLine": 27,
+      "nodeIds": [
+        "tc_c04_common_payday_08"
+      ],
+      "kind": "narration"
+    }
+  ],
+  "exclusions": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 1,
+      "endLine": 1,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 3,
+      "endLine": 3,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 5,
+      "endLine": 5,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 7,
+      "endLine": 7,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 29,
+      "endLine": 29,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 583,
+      "endLine": 583,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 585,
+      "endLine": 585,
+      "reason": "navigation"
+    }
+  ],
+  "assetRequests": [
+    {
+      "id": "e01-art-ch04",
+      "a01Ids": [
+        "tc-bg-rental-day",
+        "tc-char-maolang-human-base",
+        "tc-char-wenwen-human-base"
+      ]
+    }
+  ]
+}

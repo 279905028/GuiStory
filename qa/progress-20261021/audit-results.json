@@ -1,0 +1,56 @@
+{
+  "startedAt": "2026-10-21T05:53:57.676Z",
+  "initialHashes": {
+    "story.js": "c3304aa3fcad0710c17f2ee2c4d17877e0043d49fbf956dbd0e650dcb9c3a8de",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "9fca5600452731df2351a353b001f38b702ccd4ad89f1fc7e8e5781e775ec655",
+    "index.html": "a073cf71f8232831f9f260a074b475dd82d750cbddf0bad32dbbde71c331695e",
+    "styles.css": "27dbb0d73b125114935617966a316ecffa10f70bb51ee55c5e2a71ab18071cfb",
+    "assets/runtime-v0.4-manifest.json": "9c8cd7bb1646684b1e8135ce5ba24a178527ae06fb66cb078182447535965be6"
+  },
+  "checks": [
+    {
+      "name": "syntax:story.js",
+      "pass": true,
+      "output": ""
+    },
+    {
+      "name": "syntax:engine.js",
+      "pass": true,
+      "output": ""
+    },
+    {
+      "name": "syntax:game.js",
+      "pass": true,
+      "output": ""
+    },
+    {
+      "name": "qa/engine-test.cjs",
+      "pass": true,
+      "evidence": "engine-test.txt",
+      "scope": "微型剧情用例，不替代正式剧情验收"
+    },
+    {
+      "name": "qa/chapter3-player-test.cjs",
+      "pass": true,
+      "evidence": "chapter3-player-test.txt",
+      "scope": "微型剧情用例，不替代正式剧情验收"
+    },
+    {
+      "name": "20261021最新正式剧情回归",
+      "pass": true,
+      "evidence": "story-results.json",
+      "scope": "原脚本断言不变，仅重定向报告输出以保留历史证据"
+    }
+  ],
+  "finalHashes": {
+    "story.js": "c3304aa3fcad0710c17f2ee2c4d17877e0043d49fbf956dbd0e650dcb9c3a8de",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "9fca5600452731df2351a353b001f38b702ccd4ad89f1fc7e8e5781e775ec655",
+    "index.html": "a073cf71f8232831f9f260a074b475dd82d750cbddf0bad32dbbde71c331695e",
+    "styles.css": "27dbb0d73b125114935617966a316ecffa10f70bb51ee55c5e2a71ab18071cfb",
+    "assets/runtime-v0.4-manifest.json": "9c8cd7bb1646684b1e8135ce5ba24a178527ae06fb66cb078182447535965be6"
+  },
+  "filesUnchanged": true,
+  "finishedAt": "2026-10-21T05:54:12.966Z"
+}

@@ -1,0 +1,71 @@
+{
+  "version": "R2-M3-v2",
+  "status": "reviewed",
+  "tool": "image_gen.imagegen",
+  "mode": "built-in",
+  "designSkill": "game-character-gen",
+  "skillPath": "/Users/yipin/.cc-switch/skills/openclaw-skills-game-character-gen-1/SKILL.md",
+  "reason": "用户要求根据特征修改雷同的脸部造型",
+  "plannedCalls": [
+    {
+      "key": "maolang",
+      "prompt": "Use case: precise-object-edit. Asset type: transparent visual-novel character sprite, face-design revision R2-M3-v2.\nEdit the supplied Mao Lang 毛狼 sprite. The user's request is to fix the generic look-alike male faces by giving this character a distinctive facial structure appropriate to his personality. Change only the head/face design and very local hair design; keep the existing body pose, olive jacket, warm gray T-shirt, charcoal trousers, hand pose, cropping, head location and overall proportions visually unchanged. Retain the soft semi-realistic Japanese visual-novel painting and existing gray-teal ambient / warm amber lighting.\nSpecies: human; ethnicity: Chinese; gender: adult man; age: 24; role: witty friend and fair competitor who works temporary stage/production jobs.\nNEW facial design: an agile lean youthful face with subtly pronounced cheekbone-to-cheek transitions, a softly squared narrow chin rather than a long sharp V-shape; nose slightly shorter with a softly rounded tip and natural moderate bridge, not a high narrow fashion-model nose. Bright attentive slightly upturned eyes, one eyebrow raised just a little, subtly unequal brow heights; a small natural asymmetric smile at ONE corner with a shallow smile crease, as though about to make a friendly joke. Natural thin-to-medium lips, not a pout. Expression must be approachable and quick-witted, never scheming, sneering, villainous or exaggerated. Keep adult anatomy.\nHair: retain short subtly wavy black hair, but make the wave pattern natural irregular small loose locks rather than big sculpted idol bangs. Keep the messy-but-everyday youthfulness.\nMake this facial structure recognizably different from a broad-square-faced, straight-browed 32-year-old repair technician; this difference must remain apparent in a face-only crop without relying on clothing or glasses. Keep it grounded and consistent with the project, no caricature.\nPreferred original 1024×1536 portrait canvas, head-to-upper-thigh framing. Preserve genuine transparent background and clean hair edges. No added scenery, gradient, matte, glow or shadow outside the figure. Keep face, clothing and tools opaque. No text, logo, watermark, accessories, additional people or extra fingers. Do not change the outfit, body or stance.",
+      "transparent_background": true,
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-maolang.png"
+      ],
+      "status": "succeeded",
+      "output": {
+        "path": "assets/new-character-variants/maolang-v2.png",
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a1520b-39c5-7621-a516-c276a358dd29/exec-5f4e0271-3a3c-4900-9b07-d08aca398059.png",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "alphaMin": 0,
+        "alphaMax": 254,
+        "fullyTransparentPixelPercent": 43.90176137288411,
+        "partiallyTransparentPixelPercent": 56.09823862711588,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          109,
+          28,
+          949,
+          1536
+        ],
+        "sha256": "d554134d8bf022572c0c26b9d0db80bbf59ec227c3b5aab4ce61089ba2133a1c"
+      }
+    },
+    {
+      "key": "shijiang",
+      "prompt": "Use case: precise-object-edit. Asset type: transparent visual-novel character sprite, face-design revision R2-M3-v2.\nEdit the supplied Shi Jiang 师匠 sprite. The user wants a distinctive facial design based on character traits because the two men currently have very similar generic narrow faces. Substantially redesign the head/face structure as specified; preserve the existing body pose, deep navy rolled-sleeve repair work shirt, dark trousers, chest-pocket precision screwdriver, thin rectangular eyeglasses, hand poses, framing, head location and overall body proportions visually unchanged. Retain the same detailed semi-realistic Japanese visual-novel painting, restrained fine contours and soft gray-teal ambient / amber highlights.\nSpecies: human; ethnicity: Chinese; gender: adult man; age: 32; profession: ordinary audio/electronics repair counter owner and experienced colleague; expression: calm, observant, matter-of-fact.\nNEW facial architecture: visibly wider rectangular face and clear gently squared jaw angles, a broader blunt chin rather than pointed V chin; solid cheek and jaw structure with a naturally fuller midface, NOT round like a buzz-cut young protagonist. Nose has a broader natural bridge and rounded, non-pointed tip. Eyebrows straighter and flatter, ordinary-sized deep-set eyes with slightly heavier upper lids, both eyes fully visible through clear glasses. Lips straighter and less pouty, neutral relaxed mouth corners. Subtle natural adult under-eye texture only, not deep wrinkles. Clean-shaven, black hair. He should read as a real settled 32-year-old technician, not an elderly mentor or an idol in cosplay.\nHair: practical neat short side part, noticeably shorter at the temples and sides, low volume on top, more forehead exposed; remove the original long fluffy swept fringe. Not a buzz cut, not Wenwen's rounded face.\nThe face must clearly differ from Mao Lang's lean cheekbones, shorter nose, small wavy locks, lifted brow and asymmetric joking smile, even without clothes or glasses. Prioritize distinct facial bone structure over merely changing the expression.\nKeep preferred 1024×1536 canvas, head-to-upper-thigh composition. Transparent alpha outside figure, clean glasses/hair silhouette, no outside glow, no background, no matte or floor shadow. Keep skin/clothing opaque. No old-age treatment, beard, white hair, martial arts robe, monk, fantasy sage, text, logo, new accessories, extra fingers or extra people. Do not alter the outfit, tools, hands or stance.",
+      "transparent_background": true,
+      "referenced_image_paths": [
+        "/Users/yipin/Desktop/cjb/assets/char-shijiang.png"
+      ],
+      "status": "succeeded",
+      "output": {
+        "path": "assets/new-character-variants/shijiang-v2.png",
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a1520b-39c5-7621-a516-c276a358dd29/exec-f965b6fa-0283-4706-ae5f-56c1d46cf0b0.png",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "alphaMin": 0,
+        "alphaMax": 254,
+        "fullyTransparentPixelPercent": 44.216855367024735,
+        "partiallyTransparentPixelPercent": 55.78314463297526,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          101,
+          38,
+          981,
+          1536
+        ],
+        "sha256": "569dcc1e72d70d63f6c3d72d812ea9047a9ff18c76e8c0a0e87e4dd519dcf419"
+      }
+    }
+  ],
+  "selection": {
+    "maolang-v2": "selected",
+    "shijiang-v2": "not_selected_face_difference_insufficient"
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "common/ch03",
+  "owner": "E03",
+  "scenes": {
+    "ts_c03_common_invitation": {
+      "chapter": 3,
+      "title": "第15天·下午｜这回自己开口",
+      "bg": "tc-bg-rental-day",
+      "time": "下午",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "clock": "下午",
+        "day": 15
+      },
+      "location": "文文出租屋",
+      "day": 15,
+      "dayLabel": "第15天"
+    },
+    "ts_c03_common_chapter_end": {
+      "chapter": 3,
+      "title": "第三章 · 想见你不必有事",
+      "bg": "tc-bg-chapter-end",
+      "time": "章末",
+      "chronology": {
+        "domain": "chapter-range",
+        "mode": "present",
+        "label": "第15—21天"
+      },
+      "location": "",
+      "day": null,
+      "dayLabel": "第15—21天"
+    }
+  },
+  "nodes": {
+    "tc_c03_common_entry": {
+      "id": "tc_c03_common_entry",
+      "type": "line",
+      "scene": "ts_c03_common_invitation",
+      "speaker": "narrator",
+      "text": "睡醒时，雨已经下过一阵。我把窗户推开，屋檐上的水滴在防盗网上，滴得不太均匀。",
+      "character": null,
+      "next": "tc_c03_common_invitation_02"
+    },
+    "tc_c03_common_invitation_02": {
+      "id": "tc_c03_common_invitation_02",
+      "type": "line",
+      "scene": "ts_c03_common_invitation",
+      "speaker": "narrator",
+      "text": "手机里有约好的游戏，也有没接完的话。以前我总爱等别人喊。这样有人喊，就显得我有事可做；没人喊，也不算我被拒绝。",
+      "character": null,
+      "next": "tc_c03_common_invitation_03"
+    },
+    "tc_c03_common_invitation_03": {
+      "id": "tc_c03_common_invitation_03",
+      "type": "line",
+      "scene": "ts_c03_common_invitation",
+      "speaker": "narrator",
+      "text": "我把下一周的班看了一遍。接下来有班要上，也有能留出来的休息。我没有把所有人都写进同一张满满的日程里。",
+      "character": null,
+      "next": "tc_c03_common_invitation_04"
+    },
+    "tc_c03_common_invitation_04": {
+      "id": "tc_c03_common_invitation_04",
+      "type": "line",
+      "scene": "ts_c03_common_invitation",
+      "speaker": "narrator",
+      "text": "先约一个真正想见的人，或者先陪朋友把普通日子过好。",
+      "character": null,
+      "next": "tc_c03_common_route_choice"
+    },
+    "tc_c03_common_exit": {
+      "id": "tc_c03_common_exit",
+      "type": "end",
+      "scene": "ts_c03_common_chapter_end",
+      "title": "第三章 · 想见你不必有事",
+      "text": "",
+      "character": null,
+      "next": "tc_c04_common_entry",
+      "nextChapter": "第四章 · 约好的那一天"
+    },
+    "tc_c03_common_route_choice": {
+      "id": "tc_c03_common_route_choice",
+      "type": "choice",
+      "scene": "ts_c03_common_invitation",
+      "flag": "route",
+      "text": "接下来的时间，我想怎样度过？",
+      "choices": [
+        {
+          "label": "去找小满，听她讲最近的事，也让她看看如今的我。",
+          "value": "xiaoman",
+          "next": "tc_c03_xiaoman_entry"
+        },
+        {
+          "label": "约周栀吃一顿不赶着上班的饭，继续认识彼此的日常。",
+          "value": "zhouzhi",
+          "next": "tc_c03_zhouzhi_entry"
+        },
+        {
+          "label": "把和孟遥没说完的话接下去，看看我们现在还能怎样相处。",
+          "value": "mengyao",
+          "next": "tc_c03_mengyao_entry"
+        },
+        {
+          "label": "再约叶岚一次，让见面不只是游戏队的线下活动。",
+          "value": "yelan",
+          "next": "tc_c03_yelan_entry"
+        },
+        {
+          "label": "认真回应飘的邀约，也说清自己的心意。",
+          "value": "piao",
+          "next": "tc_c03_piao_entry"
+        },
+        {
+          "label": "先安排自己的生活，和毛狼、师匠继续做会见面的朋友。",
+          "value": "friends",
+          "next": "tc_c03_friends_entry"
+        },
+        {
+          "label": "兑现与黄球球的约定。",
+          "value": "huangqiuqiu",
+          "next": "tc_c03_huangqiuqiu_entry",
+          "requires": [
+            {
+              "flag": "qiuSignal",
+              "value": "record"
+            },
+            {
+              "flag": "qiuReply",
+              "value": "reply"
+            },
+            {
+              "flag": "qiuMet",
+              "value": true
+            }
+          ]
+        }
+      ],
+      "character": null
+    }
+  },
+  "imports": [
+    "tc_c03_friends_entry",
+    "tc_c03_huangqiuqiu_entry",
+    "tc_c03_mengyao_entry",
+    "tc_c03_piao_entry",
+    "tc_c03_xiaoman_entry",
+    "tc_c03_yelan_entry",
+    "tc_c03_zhouzhi_entry",
+    "tc_c04_common_entry"
+  ],
+  "exports": {
+    "tc_c03_common_entry": "tc_c03_common_entry",
+    "tc_c03_common_exit": "tc_c03_common_exit",
+    "tc_c03_common_route_choice": "tc_c03_common_route_choice"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c03_common_exit"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 11,
+      "endLine": 11,
+      "nodeIds": [
+        "tc_c03_common_entry"
+      ],
+      "kind": "scene-title"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 13,
+      "endLine": 13,
+      "nodeIds": [
+        "tc_c03_common_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 15,
+      "endLine": 15,
+      "nodeIds": [
+        "tc_c03_common_invitation_02"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 17,
+      "endLine": 17,
+      "nodeIds": [
+        "tc_c03_common_invitation_03"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 19,
+      "endLine": 19,
+      "nodeIds": [
+        "tc_c03_common_invitation_04"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 21,
+      "endLine": 21,
+      "nodeIds": [
+        "tc_c03_common_route_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 23,
+      "endLine": 23,
+      "nodeIds": [
+        "tc_c03_common_route_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 24,
+      "endLine": 24,
+      "nodeIds": [
+        "tc_c03_common_route_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 25,
+      "endLine": 25,
+      "nodeIds": [
+        "tc_c03_common_route_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 26,
+      "endLine": 26,
+      "nodeIds": [
+        "tc_c03_common_route_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 27,
+      "endLine": 27,
+      "nodeIds": [
+        "tc_c03_common_route_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 28,
+      "endLine": 28,
+      "nodeIds": [
+        "tc_c03_common_route_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 29,
+      "endLine": 29,
+      "nodeIds": [
+        "tc_c03_common_route_choice"
+      ],
+      "kind": "choice"
+    }
+  ],
+  "exclusions": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 1,
+      "endLine": 1,
+      "reason": "heading-only"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 3,
+      "endLine": 3,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 5,
+      "endLine": 5,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 7,
+      "endLine": 7,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 31,
+      "endLine": 31,
+      "reason": "reading-rule"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 1116,
+      "endLine": 1116,
+      "reason": "navigation"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 1118,
+      "endLine": 1118,
+      "reason": "navigation"
+    }
+  ],
+  "assetRequests": [
+    {
+      "id": "e01-art-ch03",
+      "a01Ids": [
+        "tc-bg-rental-day",
+        "tc-char-wenwen-human-base"
+      ]
+    }
+  ]
+}

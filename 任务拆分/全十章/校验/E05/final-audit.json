@@ -1,0 +1,69 @@
+{
+  "createdAt": "2026-10-23T02:19:04.006Z",
+  "pass": true,
+  "scope": "E05交付指纹、隔离构建输入输出及交接链接复核；不是新增运行时验收",
+  "validationSummary": {
+    "checks": 63,
+    "passed": 63,
+    "failed": 0,
+    "negativeChecks": 30,
+    "routePaths": 16,
+    "integrationPaths": 256,
+    "routeNodes": 678,
+    "routeScenes": 97
+  },
+  "formalIntegration": false,
+  "protectedFiles": 51,
+  "protectedChanges": [],
+  "checkedBuildInputs": 20,
+  "checkedOutputFiles": 4,
+  "documentLinks": 79,
+  "preservedConcurrentTasks": [
+    "E06",
+    "E07"
+  ],
+  "files": [
+    {
+      "file": "任务拆分/全十章/routes/mengyao.json",
+      "sha256": "8c7c8082bcc216107886bafc33e516aa349e596435a926b7adc9a17eaac90d0d"
+    },
+    {
+      "file": "任务拆分/全十章/routes/yelan.json",
+      "sha256": "7dcaae511ed9e7bfeb644816ef5821ad66e032783e62ef107e9e775af1472aee"
+    },
+    {
+      "file": "任务拆分/全十章/交接/E05.md",
+      "sha256": "8e652b049469c99445f0da124fac70d98d6222623f4709f183208ee751cbd28d"
+    },
+    {
+      "file": "TODO与多窗口提示词-v0.4.md",
+      "sha256": "1af82e52b085bcc25ced79390ccea5ca1024b98dd0d9886442b23242af5c505e"
+    },
+    {
+      "file": "任务拆分/全十章开发计划.md",
+      "sha256": "55adee248f197e43218a56bd178f1fdccfd5637d3f5fe114fa8b6e743ae2c44b"
+    }
+  ],
+  "evidenceFiles": [
+    {
+      "file": "任务拆分/全十章/校验/E05/verification.json",
+      "sha256": "53f4386851e3c5815a748afedde8d9c0cc8ce212652c787035e8af1a20557516"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E05/build-result.json",
+      "sha256": "57013c88729d8c3a283f2f921dc0e6d5bca9617367393b5f64abc0b999615d7d"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E05/combined-build-report.json",
+      "sha256": "c5859c3cc5428f43093a433815e7d79bd6519e1b6031750809abcc208c6a538c"
+    }
+  ],
+  "notValidated": [
+    "E06/E07真实路线正文及全部13个终结",
+    "E08真实引擎、存读档与重选",
+    "A06采用美术及E09演出绑定",
+    "正式story.js集成",
+    "E10浏览器、实体手机、声音及真人阅读",
+    "打包与发布"
+  ]
+}

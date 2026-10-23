@@ -1,0 +1,108 @@
+{
+  "task": "E07",
+  "date": "2026-10-23",
+  "status": "passed",
+  "formalIntegration": false,
+  "checks": {
+    "specializedPassed": 38,
+    "negativeCases": 14,
+    "protectedFiles": 68,
+    "protectedChanged": [],
+    "documentLinksChecked": 86,
+    "brokenLinks": [],
+    "verifiedInputsCurrent": true
+  },
+  "independentReadOnlyReview": "本轮通过，未发现E07阻塞项：隐藏资格、变身边界、路线组合、人形结局与资产请求一致；相对日期显示仍待E08/E09/E10。未测试播放器或浏览器。",
+  "files": [
+    {
+      "file": "任务拆分/全十章/routes/huangqiuqiu.json",
+      "sha256": "c785e3d2dda7d967f4bec0ba73382d03f297796e1dcf532f52592e564fb78e19"
+    },
+    {
+      "file": "任务拆分/全十章/交接/E07.md",
+      "sha256": "e991b69fa407d850c3ec96a77f2a641ddf14f2dfec4fd8f2ee86d2874137c4cf"
+    },
+    {
+      "file": "TODO与多窗口提示词-v0.4.md",
+      "sha256": "e7f7153b85c45dfe1dae37c9ed0e6c2b42da61e819f5485c5b75317507b552af"
+    },
+    {
+      "file": "任务拆分/全十章开发计划.md",
+      "sha256": "55adee248f197e43218a56bd178f1fdccfd5637d3f5fe114fa8b6e743ae2c44b"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/build-route.cjs",
+      "sha256": "05637de740657f86f797eb82c75467492dcbb22376020c9e87c0e799b435df21"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/verify.cjs",
+      "sha256": "e7b802a1449af610c9a6814c0604f233dcdc265a641259e9b3be9c21a1637891"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/verify-delivery.cjs",
+      "sha256": "11b0aa574004c1dd60d3a4e80ab6a5cfbc7a8c9e9eda9c878a5b6f0ea70c1fe1"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/delivery.json",
+      "sha256": "e406212897dfbea71bca96a21a03343d5388525e738dab8f7d510df8705ab0c6"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/presentation.json",
+      "sha256": "018e66333fabae7be1442084cb1be74dd01ef4dbe46df766729d4f9920e45e21"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/verification.json",
+      "sha256": "181fdc76bf64149080a3fe7c63f63720e5fba566218d452f5513646717c4e785"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/delivery-verification.json",
+      "sha256": "600c6589201e0898f0cabf6c09cad97f1e6e5f999e19a48d82eb74aa4b579330"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/path-witnesses.json",
+      "sha256": "1b3ae7093cd415e933c44ee1f2ebd8fb2038bde43b10540f910ebb4e183a0f0b"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/build-result.json",
+      "sha256": "2cfe50b17c91cf59662b3985a94f9c942532cb87fd942590f3172741c4601636"
+    },
+    {
+      "file": "任务拆分/全十章/校验/E07/completion-recheck.json",
+      "sha256": "0ffec1feb0d32eec64df48045e2742e6c017e38ce064eff5a48ba8e6342f465f"
+    }
+  ],
+  "isolatedOutput": {
+    "directory": "/Users/yipin/Desktop/cjb/任务拆分/全十章/构建/sample-bbf363525828da2e",
+    "contentHash": "bbf363525828da2e9fbfef778fa6ff9ef0eff76d98f959f0b58f7e10b0f3d5b8",
+    "reused": true,
+    "files": [
+      {
+        "file": "任务拆分/全十章/构建/sample-bbf363525828da2e/story.js",
+        "sha256": "d056927e1957bde222735b330180dfd58421bd43f4d1a24c3f19a777a94e8b27"
+      },
+      {
+        "file": "任务拆分/全十章/构建/sample-bbf363525828da2e/story.json",
+        "sha256": "ea1279583a7a3683d2d6dc38c00952aeb9389024fb68f09de98e55dc79894ff3"
+      },
+      {
+        "file": "任务拆分/全十章/构建/sample-bbf363525828da2e/source-map.json",
+        "sha256": "1bd88b24a8b6ef3752f95d1a1ae03e834d4525cd0b6c11a50d123a1dec055da6"
+      },
+      {
+        "file": "任务拆分/全十章/构建/sample-bbf363525828da2e/build-report.json",
+        "sha256": "003ba178b8978a6c9d6312c80da0970af82555bac8b56f72ddebb498148ab0e8"
+      }
+    ]
+  },
+  "notExecuted": [
+    "E05/E06真实路线全文及全部13个结局",
+    "E08真实播放器/重选/存读档/形态恢复",
+    "A06真实美术及E09演出绑定",
+    "正式story.js替换与完整十章候选",
+    "浏览器/设备/声音/真人阅读",
+    "打包/部署/发布"
+  ],
+  "gitStatus": "未执行成功：系统Git受Xcode许可阻止；以保护文件与输入输出SHA256记录边界。",
+  "refreshedAt": "2026-10-23T02:23:53.982Z",
+  "currentRecheck": "completion-recheck.json"
+}

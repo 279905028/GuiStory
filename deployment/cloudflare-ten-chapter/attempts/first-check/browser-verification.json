@@ -1,0 +1,52 @@
+{
+  "evidenceLayer": "本次部署地址真实浏览器冒烟",
+  "target": "https://galagame.ambd.site/",
+  "startedAt": "2026-10-23T06:21:33.974Z",
+  "scope": "Chrome headless；1440×900、390×844 桌面模拟；每个视口使用全新临时 context，关闭即丢弃；只通过正式 UI 创建和读取本轮存档。",
+  "notTested": [
+    "全十章逐句阅读",
+    "全部路线与结局",
+    "全部资源遍历",
+    "Safari",
+    "实体手机",
+    "人耳试听"
+  ],
+  "environment": {
+    "node": "v24.18.1",
+    "playwright": "1.62.1",
+    "browser": "155.0.8059.85"
+  },
+  "checks": [
+    {
+      "name": "全十章首页与可见图片、横向布局",
+      "viewport": "desktop-1440x900",
+      "passed": false,
+      "milliseconds": 4448,
+      "error": "AssertionError [ERR_ASSERTION]: 出现横向溢出：[{\"selector\":\"#app\",\"clientWidth\":1440,\"scrollWidth\":1728,\"left\":0,\"right\":1440},{\"selector\":\"#game-title\",\"clientWidth\":1,\"scrollWidth\":649,\"left\":81.078125,\"right\":82.078125}]\n+ actual - expected\n\n+ [\n+   {\n+     clientWidth: 1440,\n+     left: 0,\n+     right: 1440,\n+     scrollWidth: 1728,\n+     selector: '#app'\n+   },\n+   {\n+     clientWidth: 1,\n+     left: 81.078125,\n+     right: 82.078125,\n+     scrollWidth: 649,\n+     selector: '#game-title'\n+   }\n+ ]\n- []\n\n    at inspectAndCapture (/Users/yipin/Desktop/cjb/deployment/cloudflare-ten-chapter/verify-browser.cjs:146:10)\n    at async /Users/yipin/Desktop/cjb/deployment/cloudflare-ten-chapter/verify-browser.cjs:177:26\n    at async runCheck (/Users/yipin/Desktop/cjb/deployment/cloudflare-ten-chapter/verify-browser.cjs:29:21)\n    at async runViewport (/Users/yipin/Desktop/cjb/deployment/cloudflare-ten-chapter/verify-browser.cjs:167:5)\n    at async /Users/yipin/Desktop/cjb/deployment/cloudflare-ten-chapter/verify-browser.cjs:239:5"
+    },
+    {
+      "name": "全十章首页与可见图片、横向布局",
+      "viewport": "mobile-390x844",
+      "passed": false,
+      "milliseconds": 1001,
+      "error": "AssertionError [ERR_ASSERTION]: 出现横向溢出：[{\"selector\":\"#app\",\"clientWidth\":390,\"scrollWidth\":468,\"left\":0,\"right\":390},{\"selector\":\"#game-title\",\"clientWidth\":1,\"scrollWidth\":323,\"left\":26.296875,\"right\":27.296875}]\n+ actual - expected\n\n+ [\n+   {\n+     clientWidth: 390,\n+     left: 0,\n+     right: 390,\n+     scrollWidth: 468,\n+     selector: '#app'\n+   },\n+   {\n+     clientWidth: 1,\n+     left: 26.296875,\n+     right: 27.296875,\n+     scrollWidth: 323,\n+     selector: '#game-title'\n+   }\n+ ]\n- []\n\n    at inspectAndCapture (/Users/yipin/Desktop/cjb/deployment/cloudflare-ten-chapter/verify-browser.cjs:146:10)\n    at async /Users/yipin/Desktop/cjb/deployment/cloudflare-ten-chapter/verify-browser.cjs:177:26\n    at async runCheck (/Users/yipin/Desktop/cjb/deployment/cloudflare-ten-chapter/verify-browser.cjs:29:21)\n    at async runViewport (/Users/yipin/Desktop/cjb/deployment/cloudflare-ten-chapter/verify-browser.cjs:167:5)\n    at async /Users/yipin/Desktop/cjb/deployment/cloudflare-ten-chapter/verify-browser.cjs:240:5"
+    },
+    {
+      "name": "无页面脚本错误或异常 HTTP／网络失败",
+      "passed": true,
+      "pageErrors": 0,
+      "httpErrors": 0,
+      "requestFailures": 0
+    }
+  ],
+  "screenshots": [
+    "screenshots/desktop-1440x900-FAILED.png",
+    "screenshots/mobile-390x844-FAILED.png"
+  ],
+  "pageErrors": [],
+  "httpErrors": [],
+  "requestFailures": [],
+  "ignoredRequests": [],
+  "completedAt": "2026-10-23T06:21:41.911Z",
+  "pass": false
+}

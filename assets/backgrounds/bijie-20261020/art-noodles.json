@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-20",
+  "generator": "built-in image_gen",
+  "skill": "/Users/yipin/.codex/skills/.system/imagegen/SKILL.md",
+  "scope": "面馆3张新背景的生成与图片验收；游戏绑定和浏览器验收由主任务负责。",
+  "imageManipulation": "无Python或其他二次图像编辑；只复制内置工具原始PNG至项目，不覆盖原图。",
+  "targetAspectRatio": "16:9",
+  "actualSizeNote": "内置工具沿用了参考图原生1672×941尺寸，约16:9；未声称精确2048×1152，也未拉伸或裁切。",
+  "outputs": [
+    {
+      "key": "noodle_front_dusk",
+      "path": "/Users/yipin/Desktop/cjb/assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.png",
+      "originalOutputPath": "/Users/yipin/.codex/generated_images/01a15892-44f9-7fb2-ac89-f3d265a9a126/exec-83c3a5fa-0e82-4b8c-a86b-dc587cac04a9.png",
+      "prompt": "Use case: stylized-concept.\nAsset type: one finished 16:9 landscape location background for a cinematic semi-realistic Chinese visual novel, target 2048x1152.\nPrimary request: show the ENTRANCE EXTERIOR of the SAME modest Bijie neighborhood noodle shop in reference images 1 and 2, at blue-gray early evening with the sky still light. This is an adjacent camera view of the same place, not a different restaurant. Camera now stands several steps OUTSIDE on the damp pavement, looking diagonally into the open humble shop entrance. The threshold and the empty space immediately OUTSIDE the doorway are the main setting where three characters will talk, but render NO characters.\nInput images: image 1 establishes the exact original shop identity and cinematic game-art style. Image 2 establishes the approved early-evening light for this shop. Image 3 is only a reference for everyday Bijie food-street architecture and red practical awnings; do not copy its people or words.\nContinuity details visible through the entrance: large steaming stainless stockpot and hood on the left, blue-pattern ceramic bowls stacked on a practical metal counter, chili jars, worn wooden tables, teal and red plastic stools, a faded red canvas awning, simple warm hanging bulb. Exterior door jamb is worn wood with gray old wall; do not add ornate architecture. A plain practical umbrella stand or drip tray with a few closed umbrellas sits beside the doorway so arriving visitors can close umbrellas. A few water drops and wet paving convey recent rain.\nComposition: open shop and defining details occupy left and middle, with a realistic near foreground patch of dry-ish threshold and wet sidewalk. Right third is calm empty street/pavement depth suitable for a standing character overlay. Do not put a major obstruction or eye-catching object in the right third. Modest view of sloped residential street, close-set old facades and practical overhead wires. Eye level, natural perspective, wide single scene, no split panel.\nLighting: overcast 6 pm dusk, blue-gray natural sky clearly visible, outside walls and pavement still readable by daylight, soft warm light from inside; must not be night-black or sunset-orange. Respect understated filmic warmth of the original.\nConstraints: no humans, no faces, no silhouettes, no text, no numbers, no logos, no brands, no watermark, no UI. Any fascia is plain and unlettered. Cinematic semi-realistic environment illustration matching the original bg-street style, believable worn textures, not glossy CGI, not anime outlines, not a luxurious restaurant.",
+      "references": [
+        {
+          "path": "/Users/yipin/Desktop/cjb/assets/bg-noodles.png",
+          "role": "原面馆空间、器具布局与视觉风格"
+        },
+        {
+          "path": "/Users/yipin/Desktop/cjb/assets/backgrounds/bijie-20261020/bg-noodles-dusk.png",
+          "role": "同店傍晚光线与空间连续性"
+        },
+        {
+          "path": "/Users/yipin/Desktop/cjb/毕节场景参考/微信图片_20261020154221_84_64.jpg",
+          "role": "毕节食街建筑材料；不复制人物、招牌、商标或水印"
+        }
+      ],
+      "qa": {
+        "status": "passed_visual_review",
+        "method": "逐张 view_image 读取项目内PNG并查看完整图",
+        "observations": [
+          "门口与阈限外近景明确，设有闭合雨伞与收伞桶。",
+          "左侧可识别同店汤锅、碗架、红棚和红/青塑料凳。",
+          "蓝灰暮光尚可见，与温暖室内区分；右侧街路可承载立绘。",
+          "未见人物、可读文字、品牌标识、水印或UI。"
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "aspectRatio": 1.7768331562167907,
+      "bytes": 2800492,
+      "sha256": "604c5c3251ee32c47008a5028968035f1f0cc2f84620ba6bc923b9b06e226232",
+      "sameAsOriginalOutput": true
+    },
+    {
+      "key": "noodles_dusk",
+      "path": "/Users/yipin/Desktop/cjb/assets/backgrounds/bijie-20261020/bg-noodles-dusk.png",
+      "originalOutputPath": "/Users/yipin/.codex/generated_images/01a15892-44f9-7fb2-ac89-f3d265a9a126/exec-00758a33-c9be-4d49-8a58-8d4cc60a6f84.png",
+      "prompt": "Use case: lighting-weather.\nAsset type: full-screen background for a Chinese cinematic semi-realistic visual novel, a single finished 16:9 landscape image, target 2048x1152.\nPrimary request: create the early-evening variant of the SAME modest Bijie noodle shop shown in reference image 1. Preserve its recognizable camera angle, shop layout and everyday objects: the large steaming steel stockpot and hood at left, stacked blue-pattern bowls and chili jars on the left-middle counter, red canvas awning above, simple worn wooden tables, red and teal plastic stools, and the damp sloping neighborhood road beyond.\nInput images: image 1 is the exact location/style continuity reference and primary edit target. Image 2 is only Bijie urban material reference: close-set old residential buildings, wires, practical red awnings, neighborhood food stalls. Do not copy its people, brands, signs, readable lettering or watermark.\nRequired change: it is around 6 pm before opening, early evening with clearly visible blue-gray sky and ample soft natural daylight outside. The existing hanging bulb can remain softly warm inside, but the street MUST NOT be dark night. Outside facades, hill and wet road are lit by overcast daylight with restrained warm interior glow. Keep the intimate rain-cooled atmosphere; no hard sunset beams.\nComposition: eye-level, wide 16:9, no border. Keep location-defining pot/counter/table details in left and middle, leave the right third visually quiet enough for a standing game character, with uncluttered damp road depth and a subtle table edge. Empty environment, no people, no faces, no silhouettes. Lower quarter remains simple enough under dialogue overlay, but do not draw an overlay.\nStyle: match image 1 and the game's existing bg-street style: polished cinematic semi-realism, plausible perspective, detailed worn metal/wood, filmic restrained contrast, charcoal blue-gray and warm amber. No anime line art, no cartoon, no plastic CGI, no heavy painterly brushwork.\nConstraints: one complete scene only, no collage, no UI, no lettering, no logos, no watermark, no recognizable branded signs. Do not turn the humble street-side noodle shop into a restaurant dining hall. Preserve its core spatial identity.",
+      "references": [
+        {
+          "path": "/Users/yipin/Desktop/cjb/assets/bg-noodles.png",
+          "role": "原面馆空间、器具布局与视觉风格"
+        },
+        {
+          "path": "/Users/yipin/Desktop/cjb/毕节场景参考/微信图片_20261020154221_84_64.jpg",
+          "role": "毕节食街建筑材料；不复制人物、招牌、商标或水印"
+        }
+      ],
+      "qa": {
+        "status": "passed_visual_review",
+        "method": "逐张 view_image 读取项目内PNG并查看完整图",
+        "observations": [
+          "沿用原图机位、左汤锅/中碗架/红棚/塑料凳与街路布局。",
+          "户外蓝灰天空和建筑有自然天光，明显较原夜景明亮。",
+          "主要识别物位于左中，右侧空间较清静。",
+          "未见人物、可读文字、品牌标识、水印或UI。"
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "aspectRatio": 1.7768331562167907,
+      "bytes": 2723269,
+      "sha256": "788d11bce8fe478df0c4e2b52d6ab9f6f066aa475c32d35986829e198d61b1ee",
+      "sameAsOriginalOutput": true
+    },
+    {
+      "key": "noodle_banquet_day",
+      "path": "/Users/yipin/Desktop/cjb/assets/backgrounds/bijie-20261020/bg-noodle-banquet-day.png",
+      "originalOutputPath": "/Users/yipin/.codex/generated_images/01a15892-44f9-7fb2-ac89-f3d265a9a126/exec-1ab2d97e-48ca-45ed-a71b-420dd2609af6.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: a single 16:9 landscape cinematic semi-realistic visual-novel background, target 2048x1152.\nPrimary request: create an AFTERNOON family wedding-meal variant of the SAME humble Bijie noodle shop in the references. This is a simple meal after a friend's wedding, held at their familiar neighborhood noodle shop, NOT a wedding ceremony and NOT a fancy wedding venue. The shop remains physically recognizable.\nInput images: image 1 is the original night noodle shop and primary location/style reference; image 2 is its approved dusk version; image 3 is its entrance exterior for architectural continuity; image 4 is only local Bijie food-street material reference. Do not copy any people, readable lettering, brand marks or watermarks.\nPreserve these invariants: small old street-side noodle shop with the steaming stainless stockpot and metal hood at left, stacks of blue-pattern bowls, chili jars, simple worn wooden tables, red/teal plastic stools, faded red canvas awning, practical exposed details, and a narrow view to the wet neighborhood slope. Keep it modest and lived-in. It is two years later but do not invent a renovation.\nRequired changes: natural AFTERNOON daylight fills the shop and illuminates outside walls and gray sky; weather is after rain and pavement remains slightly damp. No active heavy rain. Outdoor scene must read daylight, not dusk/night. The warm hanging bulb may be off or very subdued.\nSet up 2-3 small simple dining tables left and middle with everyday home-style dishes: soup bowls, a few shared plates, cups and chopsticks. Add restrained red celebratory details: a small plain red paper garland or ribbon near the awning frame, a few short red ribbons, and one unlettered folded red invitation card on a left-middle table corner. No written glyphs or symbols. Do not use gold balloons, rose walls, satin-covered chairs, a stage, chandelier, arches, giant floral arrangements, luxury tableware or wedding dresses.\nComposition: eye-level wide full scene; recognizable pot/counter/tables in left and center; leave the right third calm and visually quiet for a standing game character, with gentle street depth or a plain warm wall section. Table setting must not become a giant close-up foreground obstacle. Lower quarter simple for later dialogue overlay, do not render UI.\nStyle: match the original game's bg-street/background cinematic semi-realism, detailed authentic old metal/wood, light filmic texture, realistic perspective, subdued blue-gray daylight with small warm-red accents. Not anime outline, not glossy CGI, not a photograph copied from image 4.\nStrict constraints: completely empty of people, faces, human silhouettes and mannequins. No text, no logos, no watermark, no UI, no borders, no collage. One fully finished location background.",
+      "references": [
+        {
+          "path": "/Users/yipin/Desktop/cjb/assets/bg-noodles.png",
+          "role": "原面馆空间、器具布局与视觉风格"
+        },
+        {
+          "path": "/Users/yipin/Desktop/cjb/assets/backgrounds/bijie-20261020/bg-noodles-dusk.png",
+          "role": "同店傍晚机位和器具位置"
+        },
+        {
+          "path": "/Users/yipin/Desktop/cjb/assets/backgrounds/bijie-20261020/bg-noodle-front-dusk.png",
+          "role": "同店门口空间连续性"
+        },
+        {
+          "path": "/Users/yipin/Desktop/cjb/毕节场景参考/微信图片_20261020154221_84_64.jpg",
+          "role": "毕节食街建筑材料；不复制人物、招牌、商标或水印"
+        }
+      ],
+      "qa": {
+        "status": "passed_visual_review",
+        "method": "逐张 view_image 读取项目内PNG并查看完整图",
+        "observations": [
+          "下午自然光清楚，与两张傍晚图区别明显。",
+          "原锅炉/碗架/红棚/桌凳保留，未变为婚礼大厅。",
+          "简单家常菜、少量红彩带、红色喜帖；喜帖无可读正文。",
+          "识别物位于左中，右侧街路仍可承载立绘。",
+          "未见人物、品牌标识、水印或UI。"
+        ]
+      },
+      "width": 1672,
+      "height": 941,
+      "aspectRatio": 1.7768331562167907,
+      "bytes": 3121572,
+      "sha256": "e11e0d3b869faf362df516bf02a2101d522f7865500b6cb484360699db46f195",
+      "sameAsOriginalOutput": true
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "common/ch08",
+  "owner": "E03",
+  "scenes": {
+    "ts_c08_common_e04_boundary": {
+      "chapter": 8,
+      "title": "第八章 · 不用每次都逞强",
+      "bg": "sample-bg",
+      "time": "边界测试",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 46
+      },
+      "location": "",
+      "day": 46,
+      "dayLabel": "第46天"
+    },
+    "ts_c08_common_e04_end": {
+      "chapter": 8,
+      "title": "第八章 · 不用每次都逞强",
+      "bg": "sample-bg",
+      "time": "章末",
+      "chronology": {
+        "domain": "chapter-range",
+        "mode": "present",
+        "label": "第46—60天"
+      },
+      "location": "",
+      "day": null,
+      "dayLabel": "第46—60天"
+    }
+  },
+  "nodes": {
+    "tc_c08_common_entry": {
+      "id": "tc_c08_common_entry",
+      "type": "gate",
+      "scene": "ts_c08_common_e04_boundary",
+      "cases": [
+        {
+          "flag": "route",
+          "value": "xiaoman",
+          "next": "tc_c08_xiaoman_entry"
+        },
+        {
+          "flag": "route",
+          "value": "zhouzhi",
+          "next": "tc_c08_zhouzhi_entry"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    },
+    "tc_c08_common_exit": {
+      "id": "tc_c08_common_exit",
+      "type": "end",
+      "scene": "ts_c08_common_e04_end",
+      "title": "第八章 · 不用每次都逞强",
+      "text": "",
+      "next": "tc_c09_common_entry",
+      "nextChapter": "第九章 · 把明天说具体"
+    }
+  },
+  "imports": [
+    "tc_c08_xiaoman_entry",
+    "tc_c08_zhouzhi_entry",
+    "tc_c09_common_entry"
+  ],
+  "exports": {
+    "tc_c08_common_entry": "tc_c08_common_entry",
+    "tc_c08_common_exit": "tc_c08_common_exit"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c08_common_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c08_common_exit"
+      ],
+      "kind": "control"
+    }
+  ],
+  "exclusions": [],
+  "assetRequests": []
+}

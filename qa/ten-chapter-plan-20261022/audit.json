@@ -1,0 +1,335 @@
+{
+  "date": "2026-10-22",
+  "scope": "当前文件与源代码核查、开发计划与文档验证；非游戏验收",
+  "currentRuntime": {
+    "release": "0.4",
+    "contentRevision": "background-20261020",
+    "chapters": {
+      "1": {
+        "title": "第一章 · 回来的人",
+        "days": "第1—10天"
+      },
+      "2": {
+        "title": "第二章 · 镜头没有拍到的",
+        "days": "第11—14天"
+      },
+      "3": {
+        "title": "第三章 · 想见你，不必有事",
+        "days": "第15—21天"
+      },
+      "epilogue": {
+        "title": "后日谈 · 雨后的约定",
+        "days": "两年后"
+      }
+    },
+    "counts": {
+      "characters": 9,
+      "scenes": 43,
+      "nodes": 1310,
+      "choices": 20,
+      "choiceOptions": 50,
+      "backgroundKeys": 15,
+      "cgs": 10,
+      "expressions": 58,
+      "registeredAssets": 93
+    }
+  },
+  "newStory": {
+    "draftChapterCount": 10,
+    "routeSectionCount": 56,
+    "hanCharactersIncludingHeadingsAndNavigation": 76498,
+    "formalIntegratedChapterCount": 0,
+    "formalStatusBasis": "当前story.js章节及构建源仍为旧三章与后日谈；新版十章目录明确标注未接入",
+    "chapters": [
+      {
+        "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+        "title": "第一章 · 凌晨六点的早餐",
+        "routeSections": 0,
+        "hanCharacters": 4088
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "title": "第七章 · 各自要过的日子",
+        "routeSections": 7,
+        "hanCharacters": 8214
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "title": "第三章 · 想见你不必有事",
+        "routeSections": 7,
+        "hanCharacters": 12954
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "title": "第九章 · 把明天说具体",
+        "routeSections": 7,
+        "hanCharacters": 8548
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+        "title": "第二章 · 语音里的那个人",
+        "routeSections": 0,
+        "hanCharacters": 3128
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "title": "第五章 · 没说出口的困意",
+        "routeSections": 7,
+        "hanCharacters": 7588
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "title": "第八章 · 不用每次都逞强",
+        "routeSections": 7,
+        "hanCharacters": 7523
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "title": "第六章 · 空出来的一个晚上",
+        "routeSections": 7,
+        "hanCharacters": 7081
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "title": "第十章 · 雨停之前也往前走",
+        "routeSections": 7,
+        "hanCharacters": 9906
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "title": "第四章 · 约好的那一天",
+        "routeSections": 7,
+        "hanCharacters": 7468
+      }
+    ]
+  },
+  "plan": {
+    "path": "任务拆分/全十章开发计划.md",
+    "engineeringTaskCount": 11,
+    "artTaskCount": 6,
+    "taskIds": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E11",
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06"
+    ],
+    "independentReviews": [
+      "工程依赖与文件所有权复核完成，无阻塞问题",
+      "剧情边界与跨章回收复核完成，已补源段落映射及前情验收"
+    ]
+  },
+  "currentAssetAudit": {
+    "method": "文件存在、SHA256匹配、RIFF/WEBP文件头检查，不重复宣称视觉验收",
+    "count": 93,
+    "allPass": true,
+    "failures": []
+  },
+  "documentation": {
+    "updated": [
+      "任务拆分/全十章开发计划.md",
+      "TODO与多窗口提示词-v0.4.md",
+      "总览.md",
+      "项目文档/README.md",
+      "任务拆分/总览.md",
+      "项目文档/故事/全十章审阅稿/审校说明.md"
+    ],
+    "localLinks": 73,
+    "headingAnchors": 2,
+    "errors": [],
+    "allPass": true
+  },
+  "protectedFiles": {
+    "count": 26,
+    "unchanged": true,
+    "files": [
+      {
+        "file": "story.js",
+        "before": "5d9b3dad53fa7de88269f7e605db4cf2e7b80a92587dedffda0e425bb1878e7a",
+        "after": "5d9b3dad53fa7de88269f7e605db4cf2e7b80a92587dedffda0e425bb1878e7a",
+        "unchanged": true
+      },
+      {
+        "file": "engine.js",
+        "before": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+        "after": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+        "unchanged": true
+      },
+      {
+        "file": "save-compat.js",
+        "before": "4ab32d0447c98650719bd61e29615f07d9ebfdc67596e3774a94953c4f98e742",
+        "after": "4ab32d0447c98650719bd61e29615f07d9ebfdc67596e3774a94953c4f98e742",
+        "unchanged": true
+      },
+      {
+        "file": "game.js",
+        "before": "87a8d773c3f51ae930663d8edec927c19a7a0f61076e79d6c6a915848fdc9c6c",
+        "after": "87a8d773c3f51ae930663d8edec927c19a7a0f61076e79d6c6a915848fdc9c6c",
+        "unchanged": true
+      },
+      {
+        "file": "styles.css",
+        "before": "71a08eb8e30a8f3a8186ec6bd6fb897a9fdf837d46045558cf5cfd337b3f8dd5",
+        "after": "71a08eb8e30a8f3a8186ec6bd6fb897a9fdf837d46045558cf5cfd337b3f8dd5",
+        "unchanged": true
+      },
+      {
+        "file": "index.html",
+        "before": "2ae59b07bff371230049395148dc83bde549443889775d9679a405dc932f4ffa",
+        "after": "2ae59b07bff371230049395148dc83bde549443889775d9679a405dc932f4ffa",
+        "unchanged": true
+      },
+      {
+        "file": "assets/backgrounds-manifest.json",
+        "before": "52d7484bff00e9278ed436908567b61fc5186cc03357149dc93065426c7b45de",
+        "after": "52d7484bff00e9278ed436908567b61fc5186cc03357149dc93065426c7b45de",
+        "unchanged": true
+      },
+      {
+        "file": "assets/runtime-v0.4-manifest.json",
+        "before": "64f1313a791f48aa0a879eca8d77ee70a0933c167063e3e2ebaac51465bd06d5",
+        "after": "64f1313a791f48aa0a879eca8d77ee70a0933c167063e3e2ebaac51465bd06d5",
+        "unchanged": true
+      },
+      {
+        "file": "assets/webp-manifest.json",
+        "before": "cede257dd2a2d4d57fc89b6f783bdd93ff57e154fea22f9c2ba1e57812715996",
+        "after": "cede257dd2a2d4d57fc89b6f783bdd93ff57e154fea22f9c2ba1e57812715996",
+        "unchanged": true
+      },
+      {
+        "file": "任务拆分/三章扩展/build-story.cjs",
+        "before": "8f7471139e982ba3b985dbd9325398593dc5a41600b98983f7eb6d8533e7b06d",
+        "after": "8f7471139e982ba3b985dbd9325398593dc5a41600b98983f7eb6d8533e7b06d",
+        "unchanged": true
+      },
+      {
+        "file": "任务拆分/三章扩展/ch2_build.py",
+        "before": "c23abf1a0e481568a536bc0a110c9c770ebf54a5fca742b1dd68a210f7295de1",
+        "after": "c23abf1a0e481568a536bc0a110c9c770ebf54a5fca742b1dd68a210f7295de1",
+        "unchanged": true
+      },
+      {
+        "file": "任务拆分/三章扩展/ch3_build.py",
+        "before": "0d29732e565c50af7d42b818e23573c10805f98e71d5cde9965a217527a11632",
+        "after": "0d29732e565c50af7d42b818e23573c10805f98e71d5cde9965a217527a11632",
+        "unchanged": true
+      },
+      {
+        "file": "任务拆分/三章扩展/chapter2.json",
+        "before": "e80ed9a1069342aeee85347f18ee3373dda638be73b0802dbac81096920729a1",
+        "after": "e80ed9a1069342aeee85347f18ee3373dda638be73b0802dbac81096920729a1",
+        "unchanged": true
+      },
+      {
+        "file": "任务拆分/三章扩展/chapter3.json",
+        "before": "8b8dc585c7cecdb0d2dcfb609568e029243929e42754a193aebd22e1d95dade3",
+        "after": "8b8dc585c7cecdb0d2dcfb609568e029243929e42754a193aebd22e1d95dade3",
+        "unchanged": true
+      },
+      {
+        "file": "任务拆分/三章扩展/piao-route.cjs",
+        "before": "e2cfbb2e2cbdb9c5f98255e6e46078aa962b14c61dfdc4fc1162fd6e8e7ccb50",
+        "after": "e2cfbb2e2cbdb9c5f98255e6e46078aa962b14c61dfdc4fc1162fd6e8e7ccb50",
+        "unchanged": true
+      },
+      {
+        "file": "任务拆分/三章扩展/scene-backgrounds.cjs",
+        "before": "35adbdcd1e583588316905cfb06851024b463448fb0c8e61fdcccc7196acafd9",
+        "after": "35adbdcd1e583588316905cfb06851024b463448fb0c8e61fdcccc7196acafd9",
+        "unchanged": true
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+        "before": "766f2462d3695244aeb5d40a416c7610b05eeea15b397b8a0c232d351399e0c6",
+        "after": "766f2462d3695244aeb5d40a416c7610b05eeea15b397b8a0c232d351399e0c6",
+        "unchanged": true
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+        "before": "112623a8a21f59991e3a5717838c0558244293dc709b906815c8c83497ebc8f0",
+        "after": "112623a8a21f59991e3a5717838c0558244293dc709b906815c8c83497ebc8f0",
+        "unchanged": true
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+        "before": "21ed8a4949d383f982625bcf473d75ced20aa02eeca5fb4fe4a099283749dc60",
+        "after": "21ed8a4949d383f982625bcf473d75ced20aa02eeca5fb4fe4a099283749dc60",
+        "unchanged": true
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+        "before": "d2aeb09d621edb3522b2dc63dcc5b49fa6949891e2c7d17520ffe14d39996549",
+        "after": "d2aeb09d621edb3522b2dc63dcc5b49fa6949891e2c7d17520ffe14d39996549",
+        "unchanged": true
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+        "before": "dac8ac7db39fb2d16732629cb694cb34816bfdb7cc8de0064d52e1e16fc0bf06",
+        "after": "dac8ac7db39fb2d16732629cb694cb34816bfdb7cc8de0064d52e1e16fc0bf06",
+        "unchanged": true
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+        "before": "237c81a388bc42db960729d600a88d2705ef6106ade18f4414e919a33acab082",
+        "after": "237c81a388bc42db960729d600a88d2705ef6106ade18f4414e919a33acab082",
+        "unchanged": true
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+        "before": "2903d54c7d22f9e7fcfe3a4d4ead3c16dc103a67b675c12a636eb7bfb463279b",
+        "after": "2903d54c7d22f9e7fcfe3a4d4ead3c16dc103a67b675c12a636eb7bfb463279b",
+        "unchanged": true
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+        "before": "8238a41e2b8e4102e7509e711662fa28bbdd83c7ef89e03f9af1e7798ff7c9e4",
+        "after": "8238a41e2b8e4102e7509e711662fa28bbdd83c7ef89e03f9af1e7798ff7c9e4",
+        "unchanged": true
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+        "before": "94b9a7c273d7a6ba9d0c2f9572ec54a3874f57a8ea0663d4db455ec868d903b2",
+        "after": "94b9a7c273d7a6ba9d0c2f9572ec54a3874f57a8ea0663d4db455ec868d903b2",
+        "unchanged": true
+      },
+      {
+        "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+        "before": "456533e8485bffdaafc31a13d6c8c77e9f8266480707887e792a5ceaddaec0c2",
+        "after": "456533e8485bffdaafc31a13d6c8c77e9f8266480707887e792a5ceaddaec0c2",
+        "unchanged": true
+      }
+    ]
+  },
+  "sourceFingerprints": {
+    "story.js": "5d9b3dad53fa7de88269f7e605db4cf2e7b80a92587dedffda0e425bb1878e7a",
+    "engine.js": "7cdea1fa0b22eabffa8b2fb3b6537bac81eb754ccc44c649a4e5f9b1870bc072",
+    "game.js": "87a8d773c3f51ae930663d8edec927c19a7a0f61076e79d6c6a915848fdc9c6c",
+    "save-compat.js": "4ab32d0447c98650719bd61e29615f07d9ebfdc67596e3774a94953c4f98e742",
+    "任务拆分/三章扩展/build-story.cjs": "8f7471139e982ba3b985dbd9325398593dc5a41600b98983f7eb6d8533e7b06d",
+    "assets/runtime-v0.4-manifest.json": "64f1313a791f48aa0a879eca8d77ee70a0933c167063e3e2ebaac51465bd06d5",
+    "assets/character-variants/huangqiuqiu-human-20261022/manifest.json": "b62de34681fd795f619400ab1fc3e3f1b11d84ea89eb2516bc29949e007de677"
+  },
+  "notExecuted": [
+    "正式游戏构建",
+    "引擎／正式剧情／播放器测试",
+    "浏览器与设备验收",
+    "图片重新生成或视觉复验",
+    "玩家存档读取或改写",
+    "部署与公网发布"
+  ],
+  "environmentNote": "系统Git与Python入口因Xcode许可未确认而不可用；未改系统配置，改用可用Node读取及SHA256核对，不提供Git差异结论",
+  "pass": true
+}

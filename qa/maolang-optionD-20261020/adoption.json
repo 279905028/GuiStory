@@ -1,0 +1,273 @@
+{
+  "date": "2026-10-20",
+  "selected": "Option D",
+  "base": {
+    "path": "assets/char-maolang.png",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 1700282,
+    "sha256": "1b6302e8c1fb95eb104cd645ab7fdc638ff0c30ed83b43779acdb61b1cc3006c",
+    "mode": "RGBA",
+    "alpha": {
+      "present": true,
+      "min": 0,
+      "max": 254,
+      "fullyTransparentPixelPercent": 51.4302,
+      "partiallyTransparentPixelPercent": 48.5698,
+      "fullyOpaquePixelPercent": 0.0,
+      "visibleBBoxAlpha128": [
+        129,
+        54,
+        907,
+        1536
+      ],
+      "note": "保留内置imagegen原始alpha；明暗底已实看"
+    }
+  },
+  "variants": [
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1727276,
+      "sha256": "69f0292995c00bc675ecd5875dc44106dfa26db27045dcf1ff0cec9ff58cf7c9",
+      "mode": "RGBA",
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 51.4819,
+        "partiallyTransparentPixelPercent": 48.5181,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          129,
+          54,
+          914,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      }
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1729742,
+      "sha256": "ac71699d27dc76d7c0a2bcfeed61bd56d30c033043150e7081b6562d56f50aa5",
+      "mode": "RGBA",
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 51.332,
+        "partiallyTransparentPixelPercent": 48.668,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          129,
+          53,
+          912,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      }
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1770943,
+      "sha256": "1e3ff8b41dca7b48b059c4530aee2b57c3e6ea5124e5036a9b9769e346f69859",
+      "mode": "RGBA",
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 51.4875,
+        "partiallyTransparentPixelPercent": 48.5125,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          130,
+          53,
+          912,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      }
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1746601,
+      "sha256": "b6b6d04604afec6f5f648008969bc8880a91ecf5817daf14aa461c18c1841876",
+      "mode": "RGBA",
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 51.4194,
+        "partiallyTransparentPixelPercent": 48.5806,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          127,
+          54,
+          911,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      }
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1704641,
+      "sha256": "e0cf03cec9c50dae430978ca17cb9ab6c1dabe93542332244ba35eaf125cb624",
+      "mode": "RGBA",
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 51.4051,
+        "partiallyTransparentPixelPercent": 48.5949,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          129,
+          54,
+          912,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      }
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1758518,
+      "sha256": "1e791d5a7b566633b97fe7c87be86105f11774bde8b7160c97ca5eec4d1c5274",
+      "mode": "RGBA",
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 51.0391,
+        "partiallyTransparentPixelPercent": 48.9609,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          130,
+          52,
+          912,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      }
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1720094,
+      "sha256": "cf2643dd3affe296beff6289d3a2f824d9ace8ac5c8b8faf824aad5e6dd0c6e5",
+      "mode": "RGBA",
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 53.0177,
+        "partiallyTransparentPixelPercent": 46.9823,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          96,
+          51,
+          924,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      }
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1689258,
+      "sha256": "19a7d81992b831b9d63199271cf7e3438be0c2e1c802d4fdc5a46fa426ab8a6c",
+      "mode": "RGBA",
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 55.0702,
+        "partiallyTransparentPixelPercent": 44.9298,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          181,
+          57,
+          917,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      }
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1694695,
+      "sha256": "a0e342fc91735cb4fa1b3caf36932b3147dcc0aa884869de9d64f11763238d65",
+      "mode": "RGBA",
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 54.1283,
+        "partiallyTransparentPixelPercent": 45.8717,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          117,
+          54,
+          912,
+          1536
+        ],
+        "note": "保留内置imagegen原始alpha；明暗底已实看"
+      }
+    }
+  ],
+  "runtimeNodeMap": {
+    "s2_counter_02": "action-wave",
+    "s2_counter_04": "action-explaining",
+    "s2_counter_13": "expression-surprised",
+    "s2_recruit_02": "action-thinking",
+    "s9_compete_02": "expression-serious",
+    "s9_compete_04": "expression-hesitant",
+    "s9_compete_07": "expression-smile",
+    "s9_measure_02": "expression-serious"
+  },
+  "runtimeVariants": 7,
+  "reservedVariants": [
+    "expression-displeased",
+    "expression-downcast"
+  ],
+  "cgs": [
+    {
+      "path": "assets/cg/cg-06-maolang-confession.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2085757,
+      "sha256": "466975350fb8a6ed64786087d3162d46ef2b0a1ed4ad23bd945ed59989aa8568",
+      "mode": "RGB"
+    },
+    {
+      "path": "assets/cg/cg-09-repair-handoff.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2273328,
+      "sha256": "a0984f00a9fa9f74923c95afbf1fb165fdc5435d08d568fc7b30dcaab04ef92a",
+      "mode": "RGB",
+      "concurrentRevision": "师匠窗口从本轮Option D版CG09继续编辑师匠；最终图保留毛狼D，已实看核实"
+    }
+  ],
+  "tool": "image_gen.imagegen (built-in)",
+  "newGenerationCalls": 11,
+  "oldResourceBackup": "qa/maolang-optionD-20261020/before/"
+}

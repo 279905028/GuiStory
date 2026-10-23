@@ -1,0 +1,109 @@
+{
+  "status": "passed",
+  "runAt": "2026-10-22T08:26:47.577Z",
+  "scope": "E02框架与隔离样例交付核验",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "testSuites": [
+    {
+      "report": "任务拆分/全十章/校验/E02/tests.json",
+      "passed": 89,
+      "sha256": "f1b040eccdc56c2a8bd9916e7bdbac8c8c870b0f3b470e96f014f63a454126d3"
+    },
+    {
+      "report": "任务拆分/全十章/校验/E02/graph-tests.json",
+      "passed": 38,
+      "sha256": "9017806aaa490a7b8502bd91b5238bfbcc03e5cf11003e96e7e5c70f537a3d09"
+    },
+    {
+      "report": "任务拆分/全十章/校验/E02/integration-tests.json",
+      "passed": 21,
+      "sha256": "683b855b4a2544efdf51abb7b04cf602b92fee958473dd3dcacf052d307286d4"
+    }
+  ],
+  "totalPassed": 148,
+  "localLinksChecked": 64,
+  "protectedFilesChecked": 25,
+  "protectedFilesChanged": [],
+  "sampleOutput": "任务拆分/全十章/构建/sample-3d0fadf921f23ee7",
+  "sampleFiles": [
+    {
+      "file": "任务拆分/全十章/构建/sample-3d0fadf921f23ee7/build-report.json",
+      "sha256": "5e596f66f58c4e57874f90098bb0b00c0e274cd2d4783a0c1f5d6c0891e452ac"
+    },
+    {
+      "file": "任务拆分/全十章/构建/sample-3d0fadf921f23ee7/source-map.json",
+      "sha256": "864435c1244070f5d77ab8034c53d22b0a6db47c41527de70c9ae806103f8300"
+    },
+    {
+      "file": "任务拆分/全十章/构建/sample-3d0fadf921f23ee7/story.js",
+      "sha256": "116a6e33de9c88a8e72aeb93b0869e15bc9e423cf026c6cf351576e0cdacad65"
+    },
+    {
+      "file": "任务拆分/全十章/构建/sample-3d0fadf921f23ee7/story.json",
+      "sha256": "e951663d9c95354b8ff50f3df51596f7aa84ca3fa88fcb5769b0795c660eda73"
+    }
+  ],
+  "implementationFiles": [
+    {
+      "file": "任务拆分/三章扩展/build-story.cjs",
+      "sha256": "068ca2f80fa29dd0b2405de726daae2568d1971878f48979e9be89ecf3b2ebd3"
+    },
+    {
+      "file": "任务拆分/全十章/build/cli.cjs",
+      "sha256": "deeb03969de594f1296000c79d6e626bc7b3eeb02f5a67d901fa6037bb6bd47e"
+    },
+    {
+      "file": "任务拆分/全十章/build/compiler.cjs",
+      "sha256": "fac93168157fe54f7723f589163caee2a9f9f1a4d0ee52ec19bd5c8f45eaccf1"
+    },
+    {
+      "file": "任务拆分/全十章/build/graph-test.cjs",
+      "sha256": "22555e142e2ec4f81c54e26fbacff203a41726c2eeef39f17b53cd42d06fc7dc"
+    },
+    {
+      "file": "任务拆分/全十章/build/graph.cjs",
+      "sha256": "9217ff94f9825c575614b138adf6b27c1d3e1237e73a4874964030ebee7637b5"
+    },
+    {
+      "file": "任务拆分/全十章/build/integration-test.cjs",
+      "sha256": "bb102eb1e4d654793139a95c9a5186fdcf5c0b38a4c9ac86173c4da0b90ca5f0"
+    },
+    {
+      "file": "任务拆分/全十章/build/json.cjs",
+      "sha256": "f3ee337407c67c66138d681759e00950af02a8bd141c5556cfc7941338d6a970"
+    },
+    {
+      "file": "任务拆分/全十章/build/test.cjs",
+      "sha256": "1b91261c6cfb22ab64e120a24947d17936b996beb05b3f467524adae770133a1"
+    },
+    {
+      "file": "任务拆分/全十章/构建接口.md",
+      "sha256": "87edc390111a3924e5f0231fea26b9e1593c2967625d8385b274763721b491a9"
+    },
+    {
+      "file": "任务拆分/全十章/交接/E02.md",
+      "sha256": "e427a18cd02a17cd0d1c0880122c25cde27ae2cb1cbee45e3a59f5de691262fa"
+    },
+    {
+      "file": "任务拆分/全十章开发计划.md",
+      "sha256": "20471f5a683bcadea6415d0d7b18852343065b97e49f74c1616dd7d99e782dec"
+    },
+    {
+      "file": "TODO与多窗口提示词-v0.4.md",
+      "sha256": "b787d17619b77f8b4ae1cec52a463116b9de2bbe5bb851ccfba346fd1ed009d8"
+    },
+    {
+      "file": "任务拆分/全十章/build-manifest.example.json",
+      "sha256": "2a71e3a12eefb165d3cf1d8c46315e3c2887de4f8ac63c60468b50721678caf0"
+    }
+  ],
+  "formalIntegratedChapters": 0,
+  "notExecuted": [
+    "正式十章数据/全文验收",
+    "真实播放器和存档验收",
+    "美术采用与接入",
+    "浏览器/实体手机/声音/真人阅读",
+    "部署发布"
+  ]
+}

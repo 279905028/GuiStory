@@ -1,0 +1,230 @@
+{
+  "version": "R2-M3-1.0",
+  "date": "2026-10-19",
+  "contract": "任务拆分/共享契约.md + 角色与隐藏线-R2.md",
+  "scope": "仅新增三角色美术",
+  "styleReferences": [
+    "assets/char-wenwen.png",
+    "assets/char-xiaoman.png",
+    "assets/char-zhouzhi.png",
+    "assets/bg-repair.png",
+    "assets/bg-room.png"
+  ],
+  "characters": {
+    "maolang": {
+      "key": "maolang",
+      "name": "毛狼",
+      "age": 24,
+      "ageLabel": "24岁",
+      "adult": true,
+      "genderIdentity": "成年男性",
+      "presentation": "human",
+      "source": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "operation": "original fictional generation",
+        "reference": null,
+        "realPersonReference": false,
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a1520b-39c5-7621-a516-c276a358dd29/exec-ee43f63a-5b9a-4fe4-ad81-797604ecdc0d.png"
+      },
+      "path": "assets/char-maolang.png",
+      "absolutePath": "/Users/yipin/Desktop/cjb/assets/char-maolang.png",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "colorMode": "RGBA",
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 43.9426,
+        "partiallyTransparentPixelPercent": 56.0574,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          110,
+          26,
+          948,
+          1536
+        ],
+        "note": "保留 imagegen 原始 alpha，未手工抠图或阈值化。部分主体 alpha 约为 252–254；验收以明暗背景的真实合成为准。"
+      },
+      "version": "R2-M3-v1",
+      "selectedVariant": "assets/new-character-variants/maolang-v1.png",
+      "sha256": "52ddf5092e88a768a7103eb0e4b2527efaf4ce5c8dfd6b086aa17540278b8ce6",
+      "qa": {
+        "status": "passed_for_reviewed_display_scales",
+        "date": "2026-10-19",
+        "sourceDimensionsMeasured": true,
+        "face": "pass",
+        "handsOrProps": "pass",
+        "transparentEdges": "pass_in_light_dark_composites",
+        "shape": "natural_head_to_upper_thigh",
+        "lightBackground": "assets/bg-repair.png",
+        "darkBackground": "assets/bg-room.png",
+        "evidence": [
+          "qa/art-new-characters-composite-maolang.png",
+          "qa/art-new-characters-edges-maolang.png",
+          "qa/art-new-characters-details-maolang.png"
+        ],
+        "reviewers": 2,
+        "limitations": "仅素材及给定合成尺度验收；未验证游戏接入、隐藏剧情、所有浏览器或任意放大倍率。"
+      }
+    },
+    "shijiang": {
+      "key": "shijiang",
+      "name": "师匠",
+      "age": 32,
+      "ageLabel": "32岁",
+      "adult": true,
+      "genderIdentity": "成年男性",
+      "presentation": "human",
+      "source": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "operation": "original fictional generation",
+        "reference": null,
+        "realPersonReference": false,
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a1520b-39c5-7621-a516-c276a358dd29/exec-5bbc7ec1-3760-49f6-ab15-72bb6018b42d.png"
+      },
+      "path": "assets/char-shijiang.png",
+      "absolutePath": "/Users/yipin/Desktop/cjb/assets/char-shijiang.png",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "colorMode": "RGBA",
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 254,
+        "fullyTransparentPixelPercent": 44.6041,
+        "partiallyTransparentPixelPercent": 55.3959,
+        "fullyOpaquePixelPercent": 0.0,
+        "visibleBBoxAlpha128": [
+          101,
+          39,
+          977,
+          1536
+        ],
+        "note": "保留 imagegen 原始 alpha，未手工抠图或阈值化。部分主体 alpha 约为 252–254；验收以明暗背景的真实合成为准。"
+      },
+      "version": "R2-M3-v1",
+      "selectedVariant": "assets/new-character-variants/shijiang-v1.png",
+      "sha256": "e7129efb6a41002a32a5092c51ef11f6d2357ff37b5e0641ea6327b143c399bc",
+      "qa": {
+        "status": "passed_for_reviewed_display_scales",
+        "date": "2026-10-19",
+        "sourceDimensionsMeasured": true,
+        "face": "pass",
+        "handsOrProps": "pass",
+        "transparentEdges": "pass_in_light_dark_composites",
+        "shape": "natural_head_to_upper_thigh",
+        "lightBackground": "assets/bg-repair.png",
+        "darkBackground": "assets/bg-room.png",
+        "evidence": [
+          "qa/art-new-characters-composite-shijiang.png",
+          "qa/art-new-characters-edges-shijiang.png",
+          "qa/art-new-characters-details-shijiang.png"
+        ],
+        "reviewers": 2,
+        "limitations": "仅素材及给定合成尺度验收；未验证游戏接入、隐藏剧情、所有浏览器或任意放大倍率。"
+      }
+    },
+    "huangqiuqiu": {
+      "key": "huangqiuqiu",
+      "name": "黄球球",
+      "age": 24,
+      "ageLabel": "自称24岁",
+      "adult": true,
+      "genderIdentity": "成年女性",
+      "presentation": "orb",
+      "source": {
+        "tool": "image_gen.imagegen",
+        "mode": "built-in",
+        "operation": "reference edit / background-extraction",
+        "reference": "assets/references/huangqiuqiu-reference.jpg",
+        "realPersonReference": false,
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a1520b-39c5-7621-a516-c276a358dd29/exec-bf2e1e51-59fc-431c-ae7d-40dc13aaa638.png"
+      },
+      "path": "assets/char-huangqiuqiu.png",
+      "absolutePath": "/Users/yipin/Desktop/cjb/assets/char-huangqiuqiu.png",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "colorMode": "RGBA",
+      "alpha": {
+        "present": true,
+        "min": 0,
+        "max": 255,
+        "fullyTransparentPixelPercent": 38.5591,
+        "partiallyTransparentPixelPercent": 61.3684,
+        "fullyOpaquePixelPercent": 0.0725,
+        "visibleBBoxAlpha128": [
+          72,
+          87,
+          1177,
+          1192
+        ],
+        "note": "保留 imagegen 原始 alpha，未手工抠图或阈值化。部分主体 alpha 约为 252–254；验收以明暗背景的真实合成为准。"
+      },
+      "version": "R2-M3-v1",
+      "selectedVariant": "assets/new-character-variants/huangqiuqiu-v1.png",
+      "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9",
+      "qa": {
+        "status": "passed_for_reviewed_display_scales",
+        "date": "2026-10-19",
+        "sourceDimensionsMeasured": true,
+        "face": "pass",
+        "handsOrProps": "pass",
+        "transparentEdges": "pass_in_light_dark_composites",
+        "shape": "complete_near_circular_orb",
+        "lightBackground": "assets/bg-repair.png",
+        "darkBackground": "assets/bg-room.png",
+        "evidence": [
+          "qa/art-new-characters-composite-huangqiuqiu.png",
+          "qa/art-new-characters-edges-huangqiuqiu.png",
+          "qa/art-new-characters-details-huangqiuqiu.png"
+        ],
+        "reviewers": 2,
+        "limitations": "仅素材及给定合成尺度验收；未验证游戏接入、隐藏剧情、所有浏览器或任意放大倍率。"
+      }
+    }
+  },
+  "displayRecommendations": {
+    "huangqiuqiu": {
+      "presentation": "orb",
+      "targets": [
+        "#character",
+        "#speaker-avatar",
+        "#end-character"
+      ],
+      "containerAspectRatio": "1 / 1",
+      "objectFit": "contain",
+      "objectPosition": "center",
+      "preserveSourceAspectRatio": true,
+      "avoid": [
+        "拉伸为人类长立绘",
+        "胸像裁切",
+        "object-fit:cover",
+        "放大上移人脸裁切",
+        "以外形改变表达女性身份"
+      ],
+      "avatar": {
+        "preferredPixels": 64,
+        "reviewedPixels": [
+          48,
+          64,
+          96,
+          160
+        ],
+        "containerPaddingRatio": 0.08,
+        "useWholeSprite": true
+      },
+      "stage": "独立正方形容器；建议球直径约为对白框上方可用舞台高度的45%–55%，再按实际设备调整，嘴和托腮手不得被对白框遮挡。此为接入建议，不是游戏实测。",
+      "spoilerBoundary": "H1/H2不显示完整立绘或姓名；解锁前不出现角色图鉴；匿名黄色头像仅按R2合法条件展示。"
+    }
+  },
+  "integrationStatus": "not_performed_by_M3",
+  "prompts": "assets/new-character-prompts.json",
+  "report": "qa/art-new-characters-report.md",
+  "handoff": "任务拆分/交接/M3.md"
+}

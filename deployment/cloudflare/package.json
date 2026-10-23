@@ -1,0 +1,16 @@
+{
+  "name": "cjb-rain",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:site": "node prepare.cjs",
+    "build": "node prepare.cjs && cf build",
+    "deploy:check": "node prepare.cjs && cf deploy --dry-run",
+    "deploy": "node prepare.cjs && cf deploy"
+  },
+  "devDependencies": {
+    "cf": "1.0.0-beta.18",
+    "wrangler": "^4.151.2"
+  }
+}

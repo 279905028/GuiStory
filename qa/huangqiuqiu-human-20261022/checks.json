@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-22",
+  "scope": "十章故事文本与参考图，非游戏验收",
+  "protectedFiles": {
+    "count": 17,
+    "unchanged": 17,
+    "changed": []
+  },
+  "changedDocuments": [
+    "项目文档/人物/README.md",
+    "项目文档/人物/黄球球.md",
+    "项目文档/分支/README.md",
+    "项目文档/分支/游戏流程图.md",
+    "项目文档/分支/选择与解锁规则.md",
+    "项目文档/分支/黄球球隐藏线.md",
+    "项目文档/故事/世界观与主线.md",
+    "项目文档/故事/全十章审阅稿/README.md",
+    "项目文档/故事/全十章审阅稿/审校说明.md",
+    "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+    "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+    "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+    "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+    "项目文档/故事/待续情节.md",
+    "总览.md",
+    "TODO与多窗口提示词-v0.4.md"
+  ],
+  "changedStoryChapters": [
+    "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+    "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+    "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+    "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md"
+  ],
+  "otherRoutesAndCommonSections": [
+    {
+      "path": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "unchanged": true
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "unchanged": true
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "unchanged": true
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "unchanged": true
+    }
+  ],
+  "chapterStructure": {
+    "files": 10,
+    "routeSections": 56,
+    "allHeadingsUnchanged": true
+  },
+  "hanCharactersInTenChapterFiles": 76498,
+  "links": {
+    "documents": 17,
+    "localReferences": 267,
+    "headingAnchors": 44,
+    "broken": []
+  },
+  "reference": {
+    "originalByteIdentical": true,
+    "width": 1158,
+    "height": 1545,
+    "webpDecodedPixelsEqual": true
+  },
+  "notRun": [
+    "游戏构建",
+    "引擎与剧情测试",
+    "浏览器验收",
+    "发布"
+  ]
+}

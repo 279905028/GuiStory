@@ -1,0 +1,242 @@
+{
+  "version": "a04-20261022-v1",
+  "tool": "built-in image_gen",
+  "specs": [
+    {
+      "id": "courtyard-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. A tiny private back courtyard behind an internet cafe. Camera just inside a dry roofed threshold, looking across two sturdy low blue plastic stools under the eaves toward a narrow pale daylight sky strip over a damp gray plaster/brick wall. An aged wooden side door is slightly open onto a wet narrow alley, simple wall lamp off. Two stools near center, one a little higher, free dry walking space, intimate human scale, rain runoff outside only. Wooden door, stools and narrow sky in central half. No magic, drawings, ducks, ball or human.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "breakfast-dawn",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Small local noodle breakfast shop at 06:20, sky already pale white, cool morning daylight entering open front. Low wooden square table center-left with TWO plain bowls of steaming noodles and chopsticks, low plastic chairs, stainless soup pot and cooking steam at rear. Wet alley outside, one restrained warm bulb. Essential two-seat table and open door in central crop. No banquet, no crowd or event decor.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "netcafe-counter-night",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Change only time of day to rainy night: glass doorway and windows show very dark blue night with distant street lamps, ceiling fluorescent lights stay ON for ordinary business, warm kettle shelf light, soft computer screen glow. Cashier and PCs visible, not abandoned or shut.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/backgrounds/sources/bg-netcafe-counter-day.png"
+      ],
+      "mode": "edit"
+    },
+    {
+      "id": "rental-night",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Change only time of day to night: barred window shows dark blue sky and a few distant residential lights; desktop screen and warm desk lamp illuminate the modest room. Bed, single chair, wardrobe, suitcase and washing machine stay unchanged. No food, people or new furnishings.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/backgrounds/sources/bg-rental-day.png"
+      ],
+      "mode": "edit"
+    },
+    {
+      "id": "netcafe-pc-day",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Use the supplied internet cafe as an exact environment continuity reference. Move camera to the PC aisle beside the cashier, showing two adjacent ordinary desktop PC stations and keyboards together at center, blue chairs and headphones, water bottles. Same off-white/gray walls, ceiling fan, glass street entrance and wood cashier desk visible behind. Overcast daylight. Clear two-player station, no e-sports palace or repair tools. No people, legible screen content or logos.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/backgrounds/sources/bg-netcafe-counter-day.png"
+      ],
+      "mode": "edit"
+    },
+    {
+      "id": "convenience-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Small neighborhood convenience store, daylight. View from near inside entrance: compact cashier counter center with straw carton, modest refrigerated yogurt drinks and snack shelves behind, through open glass door center-left see two plastic seats under an awning. Off-white walls, normal tidy store, unbranded generic packaging, cloudy street light. Center crop reads as a small convenience shop, no luxury supermarket.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "bookstore-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. A modest shopping-mall bookstore reading corner in late afternoon daylight. Tall shelves with books of varied muted spines to left and rear, two comfortable simple reading chairs and shared low table center, broad window towards a mall atrium on right. Ordinary clean contemporary space, warm wood with slate blue accents, no readable book titles or brands, no coffee brand. Window has cool diffuse daylight.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "mall-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Modest contemporary Chinese shopping mall rest zone, neutral elevator doors center-left, simple upholstered bench center beneath soft skylight, adjacent corridor leading to bookstore, neutral shopfronts no readable signage. Plausible proportions, subdued stone and warm wood, daytime indoor light. No luxury cathedral scale, no crowd.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "bridge-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Bijie neighborhood low concrete pedestrian bridge beside a small river in daylight. Center-left bridgehead small shaobing flatbread stall with simple stainless counter under faded awning, no text; shallow broad stone steps at center descend toward river, handrail and tree shadow, modest hillside houses in distance. Steps suitable for two adults seated. Sunlit stone with patchy clouds, low water visible, not a grand scenic ancient bridge.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "park-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Ordinary small Bijie neighborhood park in daytime, tree-shaded footpath and simple wooden bench center-left, low entrance wall and open gate behind, wet patches and a dry detour around a puddle, everyday trees and open space in background. Soft afternoon daylight, no fantasy blossoms or monumental architecture.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "river-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Bijie small urban riverside footpath in daylight. Simple bench center-left beside low railing, shallow river and ordinary hillside buildings beyond, width alternates naturally along path, broad sheltered stone steps under simple rain eave at center. Quiet overcast afternoon with soft natural light. Leave no permanent caution tape, food, earbuds or story props.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "riverside-lawn-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Ordinary open grassy riverside area in Bijie for flying a kite, broad unobstructed flat lawn center, low river embankment and familiar modest city buildings/hills behind. Pale bright cloudy sky occupies upper half, tree at side, adequate kite distance, no kite or people baked into the background, no dense poles overhead. Soft daytime.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "alteration-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Tiny neighborhood clothing alterations shop in daytime. Sewing machine and folded neutral fabrics left, full-length mirror center-left with a simple waiting chair, normal curtain for changing at back, clothes rack edge right. Clear modest lived-in craft shop, no repair electronics, no people or reflection people. Center crop includes mirror and sewing station.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "arcade-basketball",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Ordinary indoor neighborhood arcade, realistic modest machines, two adjacent basketball arcade lanes center-left with metal side cages, real hoops, basketball return ramps and a few basketballs. Blank dark scoreboard areas for later UI, muted red and blue machine trim, restrained indoor lighting. Other machines at far sides. Room layout consistent with a normal mall arcade, no neon sci-fi. Right side walking space. No numbers or branding.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "arcade-airhockey",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Same type of modest contemporary mall arcade, full air hockey table centered diagonally, two opposite goals, one puck and two paddles on table, scoreboard unlit neutral area. Muted blue red trims, warm-gray floor, arcade cabinets far rear, dim practical room lighting not neon fantasy. Both ends and side aisle recognizable, no people or hands.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "arcade-rowing",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Modest contemporary mall arcade: one TWO-PLAYER rowing arcade machine at center, clearly TWO side-by-side molded seats each with separate functional rowing handles, wide shared screen showing an abstract river with no text or IP. Low stable base, ordinary muted blue/red casing, adjacent cabinets in rear, practical indoor light, clear floor right. NOT air hockey, NOT a gym rowing ergometer, no people.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "used-books-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Small outdoor secondhand book stall on a Bijie old street, daytime. Faded fabric awning over low tables of worn books with sun-bleached spines, shallow broad stone steps behind/alongside in center suitable for two people sitting and folding paper, folded metal stall structure, old brick wall, daylight. No readable book titles, no paper cranes already made. Center crop retains books and steps.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "cinema-interior",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Small ordinary cinema auditorium during end-of-film lights-up transition. Rows of dark muted red seats, clear aisle center-left, blank softly illuminated screen front upper center no movie content, wall sconces and low aisle guide lights; medium small theater scale, no luxury recliners. View from middle/rear side, enough seat/aisle cues survive center crop, no people or readable text.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "tea-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Unbranded modest neighborhood tea shop reading/board-game corner in daylight. A plain wooden two-person table and two simple chairs center-left, blank ceramic cups, window diffused daylight, shelves behind with plain closed board-game boxes and a few books, quiet neutral interior, room for a paper/book overlay on tabletop. No fixed paper slips, cards or game scores, no luxury cafe.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "secondhand-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Ordinary secondhand market toy stall under simple street canopy in afternoon. Low display table center-left with a few worn tin boxes, small generic wind-up toys and miscellaneous used household things, cardboard cartons, ordinary sloping Bijie lane behind. Leave story-specific duck toys absent so branch props can be added independently, no logos, no readable labels.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "performance-shop-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Small street-side casual live-music shop in daylight. Tiny raised wooden stage center-left with simple microphone stand and one stool, practical small speakers, loose rows of ordinary chairs/table seats foreground and clear rear standing area. Window daylight, warm restrained bulbs, no nightclub neon, no large concert hall, no performers baked into background. Center crop must retain stage.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "game-store-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Small older neighborhood video-game shop in daytime, seen diagonally through open doorway: shelves of unbranded game cases, secondhand consoles/controllers, a tiny counter center-left, a low plastic stool outside doorway near center, humble shop front and damp sloping street. All cover art abstract, no game IP, no neon cyberpunk, no people.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "parcel-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Ordinary neighborhood parcel pickup station daylight. Open storefront, metal shelves with anonymous brown parcels, no readable shipping labels or personal data; a waist-high collection counter center-left, narrow hand trolley parked toward side of entrance, ordinary wet sidewalk beyond. Center crop has shelves/counter, no courier brand.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "supermarket-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Ordinary small Chinese neighborhood supermarket daylight interior. Aisle center with shelves of toilet tissue, laundry liquid, batteries, rice sacks lower shelf and plain snacks, neutral unbranded packaging, shopping basket at side, ceiling fluorescent light and soft window light. Modest realistic size, clean ordinary interior, no oversized warehouse. No readable prices.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "clothing-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Ordinary inexpensive neighborhood clothing and accessories shop daytime. Simple rails of casual shirts and jackets in muted colors, small accessory display and mirror center-left, daylight from glass storefront. Unbranded, no mannequin heads, no luxury boutique or wedding dress, calm everyday scale.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "tabletennis-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Modest indoor neighborhood table-tennis hall daylight. One standard blue table centered left with correctly placed middle net, side bench and water bottle area, further table in rear, white-gray painted walls with high windows and fluorescent lights, nonslip muted green floor, no competition banners, no text or people. Table identity stays visible center crop.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "badminton-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Modest neighborhood badminton hall daylight. One clearly proportioned badminton court with thin white boundary lines on matte green floor, standard low net across center, clear side bench and racket bag rest at near left, high frosted windows and simple ceiling trusses. Ordinary community venue, no tournament banners, crowd or people. Center crop includes net and court.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "xiaoman-home-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Xiaoman's modest rented room two years later, daytime: small lived-in tidy room, simple dresser with mirror and a pair of small hair scissors resting safely, compact bed partly at side, small table near center with TWO grocery bags containing tomatoes, a normal chair, soft window daylight, casual jacket on hook. Adult everyday warmth, no wedding photos, crib, luxury renovation or additional people. Center crop includes mirror/table.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "maolang-home-day",
+      "prompt": "Use case: illustration-story. Asset: finished environment background for the adult Chinese visual novel 毕节，雨停之前. ONE full-bleed landscape image, target 1920x1080, 16:9, no panels. Contemporary modest Bijie Guizhou. Cinematic realistic hand-painted background, fine textures, muted gray teal and restrained warm practical lights, natural perspective and calm ordinary life. No people, faces, silhouettes, creatures, logos, legible text or watermark. Key spatial identity visible in central 32 percent vertical crop. Right third relatively uncluttered for character overlay; no essential information in bottom third covered by dialogue. Never fantasy, glossy luxury, ruined dystopia or anime cel outlines. Maolang and Piao's modest shared home two years later, daytime: simple dining table center-left with ordinary bowls and chairs for a small friend meal, modest kitchenette behind, doorway visible, fruit plate and a closed paper bag with plain thin booklet edge partly visible beneath it. Soft daylight, settled ordinary apartment, no luxury, no child furniture or wedding portraits, no people. Booklet contains no readable text.",
+      "refs": [],
+      "mode": "new"
+    },
+    {
+      "id": "street-dusk",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Rainy LATE AFTERNOON / still-bright early evening, softer warmer cloudy sky, natural daylight remains clearly visible, practical lamps just starting, NOT dark night. Preserve buildings and street exactly.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/background-variants/m2-daynight-20261020/bg-street-day.webp"
+      ],
+      "mode": "edit"
+    },
+    {
+      "id": "busstop-dusk",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Still-bright early evening, warm-gray sunset cloud light remains, subtle shelter lamps, wet street. Preserve bus shelter, road and buildings. No bus or people.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/backgrounds/bijie-20261020/bg-busstop-day.webp"
+      ],
+      "mode": "edit"
+    },
+    {
+      "id": "food-day",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Change to clear overcast DAYTIME, pale bright sky and naturally bright street; preserve same awning, table, pots and chairs. Neutral table for several ordinary snack shops, no banquet decor or added food.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/backgrounds/bijie-20261020/bg-noodles-dusk.webp"
+      ],
+      "mode": "edit"
+    },
+    {
+      "id": "stall-day",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Change only to bright overcast DAYTIME with pale sky; preserve stall, awning, street and table locations. Enough natural light to distinguish from night, no people.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/backgrounds/bijie-20261020/bg-market-stall-night.webp"
+      ],
+      "mode": "edit"
+    },
+    {
+      "id": "echo-day",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Change to daylight late afternoon while this business is still operating: pale cloudy sky, front door remains accessible/open, modest interior light. Keep same entrance and street; no new signage, no people.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/backgrounds/bijie-20261020/bg-echo-entrance-night.webp"
+      ],
+      "mode": "edit"
+    },
+    {
+      "id": "echo-closed-day",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Change to bright overcast AFTERNOON after permanent business closure. The exact business doorway closest at left is fully CLOSED by plain shut double wooden/glass doors and interior lamps are OFF. The doorway must visibly read as closed, but no ruin, demolition, vacancy sign, text or padlocks invented. Preserve building/street/layout.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/backgrounds/bijie-20261020/bg-echo-entrance-night.webp"
+      ],
+      "mode": "edit"
+    },
+    {
+      "id": "kiosk-eaves-day",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Carefully adapt the nearest right-side frontage under this same eave into a modest little kiosk: snack shelf just inside, small counter and dry surface center-right for paper props, two overlapping weathered sign boards with BLANK unreadable surfaces. Keep opposite old street, roof and gray rainy daylight. No legible characters, paper boats, cats or people.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/backgrounds/bijie-20261020/bg-old-eaves-day.webp"
+      ],
+      "mode": "edit"
+    }
+  ]
+}

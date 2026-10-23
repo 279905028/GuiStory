@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "CG13",
+  "title": "夜宵摊的练习图",
+  "date": "2026-10-20",
+  "status": "用户授权执行增补计划；美术自审采用，非用户逐图终审",
+  "tool": "内置image_gen",
+  "storySha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+  "references": [
+    {
+      "path": "assets/char-wenwen.png",
+      "role": "正式角色身份参考",
+      "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44"
+    },
+    {
+      "path": "assets/char-xiaoman.png",
+      "role": "正式角色身份参考",
+      "sha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3"
+    },
+    {
+      "path": "assets/bg-noodles.png",
+      "role": "正式空间及光线参考",
+      "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500"
+    },
+    {
+      "path": "assets/cg/cg-02-xiaoman-mirror.png",
+      "role": "已采用CG画风参考",
+      "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e"
+    }
+  ],
+  "attempts": [
+    {
+      "version": "candidate-v1",
+      "prompt": "Use case: illustration-story.\nAsset type: 《毕节，雨停之前》视觉小说完整剧情CG「夜宵摊的练习图」，横向16:9不透明PNG，目标1920×1080，保留实际原生像素，不是拼贴立绘。\nInput images: 图1 assets/char-wenwen.png 是23岁文文的正式短寸、圆脸、灰色内搭和旧深灰维修夹克参考；图2 assets/char-xiaoman.png 是22岁成年女性罗小满的正式脸型、浅金色短发、小耳钉、砖红带白条外套、白内搭和黑腕圈参考；图3 assets/bg-noodles.png 是毕节雨夜坡街夜宵摊的普通桌凳、雨棚、暖灯、锅气和冷蓝街道空间参考；图4 assets/cg/cg-02-xiaoman-mirror.png 是同一小满正式CG的绘画风格与成年脸部身份参考，不能照搬其中白天理发店、理发椅和镜子。\nPrimary request: 第3天夜里文文与罗小满吃夜宵，共同剧情、C1选择之前的一小段轻松拌嘴。老板刚把一盘炒/炸洋芋端到桌上，老板已离开不入镜；小满将压在碗边的理发分区练习图挪远一点，避免小蘸水溅到纸上，向文文抬眼露出自然开朗带一点好胜的笑意。这不是约会承诺或恋爱确定。图中的笨拙练习头圆圆的、两耳略不齐，仅作模糊铅笔分区草图，不写文字、不画照片或可怕人头。\nComposition: 文文坐姿眼高的轻肩侧/第一人称视角。小满坐在对桌中间，砖红条纹外套已经脱下搭在她旁边椅背上，身上只穿正式白内搭，保留耳钉与黑腕圈，成年自然比例。她一只手从碗边把练习纸移向桌面较干的一侧，另一只手自然停在桌沿，手指完整合理，纸不浮空。文文仅在左前景露一点深灰夹克肩与自然搁在桌边的手，不能画第二个文文，也不要从正面完整拍到文文脸。画面重心是小满的脸、挪纸的动作、练习图与热洋芋盘，人与人之间有正常桌宽。\nScene: 普通毕节坡街夜宵摊，暖灯、塑料挡雨帘、油旧木桌、蓝绿塑料凳、两个普通碗和小蘸水碟、热洋芋盘。屋檐外冷蓝雨夜与湿坡街有生活气，不用豪华日料店或网红餐厅。不画正在下班的周栀、叶岚、孟遥、毛狼或任何背景人脸；纸上图像不用于解谜。\nStyle: 与第4张正式CG一致的日系半写实视觉小说绘画，细腻自然的成年五官、真实透视、衣服和食物质感、暖琥珀与灰青冷蓝雨夜。自然亲近而克制，避免动漫大眼、Q版、幼儿感、照片风格或塑料3D。\nFraming: 横向中景，小满的脸、完整手势、练习纸和洋芋盘同时可辨，尽量位于中上部，不裁断关键动作；独立完整画面区，图外对白，不预画界面或字幕条。不要把CG02的镜子、练习椅或白天天色带入。\nAvoid: 可读文字、名字、字母、数字、对白、水印、招牌乱码；夹菜喂食、牵手、拥抱、撑伞送行、上车或任何C1选项已经发生；剪发围布或文文坐在理发椅；神秘角色、黄色头像、超自然光；额外人物、多手多指、手穿纸、未脱外套仍穿同一件第二外套。",
+      "source": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a15705-8e28-7690-8d6e-f3aba23f81e6/exec-1b7c256f-59d1-45cd-8ab1-938b6f7f8be1.png",
+      "archive": "assets/cg-variants/CG13/candidate-v1.png",
+      "toolParameters": {
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/char-wenwen.png",
+          "/Users/yipin/Desktop/cjb/assets/char-xiaoman.png",
+          "/Users/yipin/Desktop/cjb/assets/bg-noodles.png",
+          "/Users/yipin/Desktop/cjb/assets/cg/cg-02-xiaoman-mirror.png"
+        ],
+        "transparent_background": false
+      },
+      "review": "已目视原生工具输出：成年外观、服装与正式参考对应；手部及道具接触自然，无额外人物或提前发生的分支事件。纸张不可读线条不承担玩法信息。；后续发现纸上草图过熟练，与正文圆头/不齐耳朵不完全吻合，保留v1但不采用。",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2372867,
+      "sha256": "66ac8cf597e301bb2c5998a1e545553f299da9c8faa8fc05ef9dd212930e9532"
+    },
+    {
+      "source": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a15705-8e28-7690-8d6e-f3aba23f81e6/exec-546ac82b-d29a-4dc7-a14a-c80212c5b763.png",
+      "prompt": "Use case: precise-object-edit / illustration-story. Edit only the pencil drawings on the practice paper at the lower right of this existing game CG. Preserve every pixel and composition as closely as possible outside that paper: the adult blonde woman's exact face, pose, white shirt, red jacket on chair, all hands, plates of potatoes, warm light, rain street, camera framing, 16:9 landscape, and detailed semi-realistic visual novel illustration style must remain unchanged.\nThe current paper's profile hair drawings look too skilled. Replace the visible drawing with ONE plainly amateur hairdressing partition practice diagram: a large clumsily drawn ROUND front-facing generic blank head, two small lopsided ears deliberately at slightly different heights, only a few simple curved partition lines across the scalp. Keep it a harmless ordinary flat pencil sketch on the same physical sheet with the same perspective and shadows, below the woman's unchanged fingertips. This is an inaccurate student practice drawing, not an actual extra character, not a professional portrait, not a severed head. A faint small second partition construction sketch may be omitted. No words, letters, numbers, names, signatures, symbols, text or UI anywhere. Do not change the woman's identity or the food; do not add or remove any limbs, people or major objects. Preserve all source native resolution, no crop, no zoom, no borders, no transparency.",
+      "version": "candidate-v2",
+      "archive": "assets/cg-variants/CG13/candidate-v2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2233982,
+      "sha256": "155cd137c4e1c0355944e4bbf89bf806909d18efe43dc0fddda3f175a68f8249",
+      "toolParameters": {
+        "referenced_image_paths": [
+          "/Users/yipin/Desktop/cjb/assets/cg/cg-13-xiaoman-night-stall.png"
+        ],
+        "transparent_background": false
+      },
+      "inputSha256": "66ac8cf597e301bb2c5998a1e545553f299da9c8faa8fc05ef9dd212930e9532",
+      "review": "已目视生成原图：纸上改为笨拙圆头、耳朵不齐的分区草图，与正文相符；人物、外套、手、餐食与雨夜构图保留。"
+    }
+  ],
+  "adopted": {
+    "version": "candidate-v2",
+    "path": "assets/cg/cg-13-xiaoman-night-stall.png",
+    "postprocessing": "无；原生PNG逐字节复制，未放大、裁切或拉伸",
+    "selectionAuthority": "按用户已授权的增补方案作美术自审采用，非用户逐图终审",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2233982,
+    "sha256": "155cd137c4e1c0355944e4bbf89bf806909d18efe43dc0fddda3f175a68f8249"
+  },
+  "criticalRegions": {
+    "coordinateSystem": "source_percent_xywh",
+    "regions": [
+      {
+        "label": "小满脸与短发",
+        "rect": [
+          32,
+          7,
+          23,
+          32
+        ]
+      },
+      {
+        "label": "挪纸的手与练习图",
+        "rect": [
+          72,
+          61,
+          28,
+          29
+        ]
+      },
+      {
+        "label": "洋芋盘与蘸水",
+        "rect": [
+          40,
+          68,
+          36,
+          18
+        ]
+      }
+    ],
+    "method": "目视估计，用于完整画面检查；不作为裁切许可"
+  },
+  "display": {
+    "mode": "contain",
+    "dialogue": "图外独立区域",
+    "cropApproved": false
+  },
+  "integration": {
+    "cgKey": "cg13",
+    "nodeIds": [
+      "s3_stall_05",
+      "s3_stall_06",
+      "s3_stall_07",
+      "s3_stall_08"
+    ],
+    "restoreAt": "s3_stall_09",
+    "status": "integrated",
+    "hidden": false,
+    "hiddenLoadBoundary": null
+  },
+  "gameAcceptance": {
+    "evidence": "qa/cg-integration-results.json",
+    "scope": "最终正式PNG、48节点、五视口、存读档及隐藏边界；逐项结果以报告为准",
+    "userFinalReview": "not_claimed"
+  },
+  "alt": "雨夜摊桌边，小满将练习图从洋芋盘与蘸水旁挪开，砖红外套搭在椅背上。"
+}

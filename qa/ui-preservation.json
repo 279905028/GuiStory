@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-20T01:48:47.641Z",
+  "files": {
+    "index.html": {
+      "sha256": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+      "unchanged": false
+    },
+    "styles.css": {
+      "sha256": "48b6c1c4b106d9e89cf0ebcc744546203767f3b25616ac314731f6320be53bc3",
+      "unchanged": false
+    },
+    "game.js": {
+      "sha256": "6bcd399cccb020e079061b8c08a4ff782dae8693a2de5189b8212080352b9cc4",
+      "unchanged": false
+    },
+    "story.js": {
+      "sha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+      "unchanged": true
+    },
+    "engine.js": {
+      "sha256": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+      "unchanged": true
+    },
+    "assets/bg-lobby.png": {
+      "sha256": "2bc2954dd90394bdd0261f87b5372bdcf61b7cc41fdb7939d490dcf49f08a39f",
+      "unchanged": false
+    },
+    "assets/bg-noodles.png": {
+      "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+      "unchanged": true
+    },
+    "assets/bg-repair.png": {
+      "sha256": "14b00ead5390e93803ef16f82b38949dd464e901a9cf5b208bc1140cda0c3675",
+      "unchanged": false
+    },
+    "assets/bg-room.png": {
+      "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+      "unchanged": true
+    },
+    "assets/bg-salon.png": {
+      "sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+      "unchanged": true
+    },
+    "assets/bg-street.png": {
+      "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "unchanged": true
+    },
+    "assets/char-huangqiuqiu.png": {
+      "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9",
+      "unchanged": true
+    },
+    "assets/char-maolang.png": {
+      "sha256": "d554134d8bf022572c0c26b9d0db80bbf59ec227c3b5aab4ce61089ba2133a1c",
+      "unchanged": true
+    },
+    "assets/char-mengyao.png": {
+      "sha256": "e56f4ca2b9fef582af0de6a563a76737170882a465d57d842c569a0f42bb34e6",
+      "unchanged": true
+    },
+    "assets/char-shijiang.png": {
+      "sha256": "a8e1bceb9dad767e2ec11c94f3977a9b8337a2abcbd6b47c4f6996e72e004b1c",
+      "unchanged": true
+    },
+    "assets/char-wenwen.png": {
+      "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44",
+      "unchanged": true
+    },
+    "assets/char-xiaoman.png": {
+      "sha256": "b26edb15c11d3619815de5bd58194ec10d824bd98c13d7758e7c55f67fe1edb3",
+      "unchanged": true
+    },
+    "assets/char-yelan.png": {
+      "sha256": "10b51e45a51a79a26ee34d24680aca34afa3b4fd9f6de1d929669131d8063496",
+      "unchanged": true
+    },
+    "assets/char-zhouzhi.png": {
+      "sha256": "767c698b23719845307f4c4fb334f8db34d3d1a5131be48823843d677d24585f",
+      "unchanged": true
+    },
+    "assets/cg-variants/CG02/record.json": {
+      "sha256": "1fc39cf5b21a15665563e1c1e26876af950dd78af67036a34aec5e90c6a53a74",
+      "unchanged": false
+    },
+    "assets/cg-variants/CG08/record.json": {
+      "sha256": "691084519e2aed861da66dc3d9a9734246991d3bb8b017cccb78576993bb38fa",
+      "unchanged": false
+    }
+  },
+  "externalChanges": [
+    "game.js",
+    "assets/bg-lobby.png",
+    "assets/bg-repair.png",
+    "assets/cg-variants/CG02/record.json",
+    "assets/cg-variants/CG08/record.json"
+  ],
+  "testedCoreVersions": [
+    {
+      "file": "index.html",
+      "sha256": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+      "matchesCg": true,
+      "matchesUi": true
+    },
+    {
+      "file": "styles.css",
+      "sha256": "48b6c1c4b106d9e89cf0ebcc744546203767f3b25616ac314731f6320be53bc3",
+      "matchesCg": true,
+      "matchesUi": true
+    },
+    {
+      "file": "game.js",
+      "sha256": "6bcd399cccb020e079061b8c08a4ff782dae8693a2de5189b8212080352b9cc4",
+      "matchesCg": true,
+      "matchesUi": true
+    },
+    {
+      "file": "story.js",
+      "sha256": "61e30ba4acaf464561b671311e90ba65f3e1dd99ee3ff8023c4de949d87a1888",
+      "matchesCg": true,
+      "matchesUi": true
+    },
+    {
+      "file": "engine.js",
+      "sha256": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+      "matchesCg": true,
+      "matchesUi": true
+    }
+  ],
+  "documentationMissingLinks": [],
+  "note": "本窗口只写HTML/CSS、ui/cg-ui QA及E4/CG-E4交接。game.js、维修/大厅背景与CG记录由并行窗口更新，未改写或回滚。最新UI补验和40例CG测试的核心版本与收尾文件一致。"
+}

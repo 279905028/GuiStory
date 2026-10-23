@@ -1,0 +1,436 @@
+{
+  "release": "0.4",
+  "scope": "三章剧情、飘的关系后日谈与实际注册资源",
+  "chapterCount": 3,
+  "epilogueCount": 1,
+  "characterCount": 9,
+  "sceneCount": 43,
+  "nodeCount": 1230,
+  "choiceCount": 20,
+  "terminalCount": 2,
+  "chapterStopCount": 13,
+  "cgBindings": 48,
+  "expressionBindings": 284,
+  "assets": [
+    {
+      "path": "assets/background-variants/m2-daynight-20261020/bg-street-day.png",
+      "bytes": 3220000,
+      "sha256": "3cd546cd5eb5addd38e14b0d36c4176134b819cd2fb7503710ea1f87f29443ab"
+    },
+    {
+      "path": "assets/bg-lobby.png",
+      "bytes": 2158979,
+      "sha256": "2bc2954dd90394bdd0261f87b5372bdcf61b7cc41fdb7939d490dcf49f08a39f"
+    },
+    {
+      "path": "assets/bg-noodles.png",
+      "bytes": 2528115,
+      "sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500"
+    },
+    {
+      "path": "assets/bg-repair.png",
+      "bytes": 2370266,
+      "sha256": "14b00ead5390e93803ef16f82b38949dd464e901a9cf5b208bc1140cda0c3675"
+    },
+    {
+      "path": "assets/bg-room.png",
+      "bytes": 1968927,
+      "sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac"
+    },
+    {
+      "path": "assets/bg-salon.png",
+      "bytes": 2571679,
+      "sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7"
+    },
+    {
+      "path": "assets/bg-street.png",
+      "bytes": 3010764,
+      "sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e"
+    },
+    {
+      "path": "assets/cg/cg-01-rain-return.png",
+      "bytes": 2640053,
+      "sha256": "12309c94b8fa313074621f59e7b8d076d2f2277a8f0164cba4ff011aea192a33"
+    },
+    {
+      "path": "assets/cg/cg-02-xiaoman-mirror.png",
+      "bytes": 2483983,
+      "sha256": "7b133367b3647d3efc0a031ad46182d2ebe6e852aaf44b57f1d7c50e1802e36e"
+    },
+    {
+      "path": "assets/cg/cg-03-zhouzhi-noodles.png",
+      "bytes": 2322046,
+      "sha256": "e50499d21beaaf3002c477771fe8b8be02065c992c85428b12234cdd835916ed"
+    },
+    {
+      "path": "assets/cg/cg-04-mengyao-camera.png",
+      "bytes": 2500027,
+      "sha256": "d29f637064098205d9c6e0f1e38729bb8231940738a31beb652bac60cfb18067"
+    },
+    {
+      "path": "assets/cg/cg-05-yelan-inventory.png",
+      "bytes": 2001240,
+      "sha256": "463b708fbf32f7e95636167e4998f4e547d45a02e34612d2eaeaf4ad1e46055b"
+    },
+    {
+      "path": "assets/cg/cg-06-maolang-confession.png",
+      "bytes": 2085757,
+      "sha256": "466975350fb8a6ed64786087d3162d46ef2b0a1ed4ad23bd945ed59989aa8568"
+    },
+    {
+      "path": "assets/cg/cg-07-yelan-off-duty.png",
+      "bytes": 2735921,
+      "sha256": "0eaa0c4a418e20926dcbfc11fbc0c782a38b17651151b341c9a45438ce8b61e8"
+    },
+    {
+      "path": "assets/cg/cg-08-huangqiuqiu-listening.png",
+      "bytes": 1854736,
+      "sha256": "e9504428bf65482f55ec103d2a85c497851395be8a3e3b9fa2abb5c540ead0e1"
+    },
+    {
+      "path": "assets/cg/cg-09-repair-handoff.png",
+      "bytes": 2273328,
+      "sha256": "a0984f00a9fa9f74923c95afbf1fb165fdc5435d08d568fc7b30dcaab04ef92a"
+    },
+    {
+      "path": "assets/cg/cg-13-xiaoman-night-stall.png",
+      "bytes": 2233982,
+      "sha256": "155cd137c4e1c0355944e4bbf89bf806909d18efe43dc0fddda3f175a68f8249"
+    },
+    {
+      "path": "assets/char-huangqiuqiu.png",
+      "bytes": 1305412,
+      "sha256": "7b7f8c9bdc52945a9bf0e0d78d4eeb5f82a992f6c1844b8f1275e5bd4c8bfdd9"
+    },
+    {
+      "path": "assets/char-maolang.png",
+      "bytes": 1700282,
+      "sha256": "1b6302e8c1fb95eb104cd645ab7fdc638ff0c30ed83b43779acdb61b1cc3006c"
+    },
+    {
+      "path": "assets/char-piao.png",
+      "bytes": 1743396,
+      "sha256": "8fd8b8c0f59e0321dca419d22c18525893ccd74fc8f4deabe6a5c38f851e3f9b"
+    },
+    {
+      "path": "assets/char-shijiang.png",
+      "bytes": 2033251,
+      "sha256": "391b5acd4b59bd93fcefc8c22c367d60be3faec8eb946a3635db38ee821eeed0"
+    },
+    {
+      "path": "assets/char-wenwen.png",
+      "bytes": 2267104,
+      "sha256": "e2c7388936e64a3502207fe07d70a8d4047db267cb53e2dd8f15dc08cd907d44"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-action-explaining.png",
+      "bytes": 2267080,
+      "sha256": "b2cfccc37f54d1b90bc102f573bbc96d069d013ad7bfe434ccfe732b1e270292"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-displeased.png",
+      "bytes": 2132157,
+      "sha256": "3864083e3ea1d0b9bb37fdbb7d5541ad8f03b6374bfa691fa15ea9a1754a8250"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-downcast.png",
+      "bytes": 2111128,
+      "sha256": "11e2bde1e0dcdaa2d81e5f5e58b4a07cb50d2573bab6de68aaa063d280ad3f11"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-hesitant.png",
+      "bytes": 2145977,
+      "sha256": "960440d06a40b6c9a2751c007caf733d8aeb413e9ca24d1707015e08e4104430"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-serious.png",
+      "bytes": 2156220,
+      "sha256": "988fbf94a15bfefda5ee0389f3f8c87f43522fb281dbce0ea35311445091ac20"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-smile.png",
+      "bytes": 2177226,
+      "sha256": "085ab477388ecc9867ccc4aa1bc4eded913ff1c651b94cdfa71136e2637fa4bc"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/mengyao/char-mengyao-expression-surprised.png",
+      "bytes": 2151059,
+      "sha256": "6859d7e0c323276b32398650736e92371743504405dc7310c66fec036e43c035"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.png",
+      "bytes": 2182419,
+      "sha256": "ce4e43b188589e1a199e972dd4fab1ea632d25d44fefb63a417a70b40522cdcc"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.png",
+      "bytes": 2186411,
+      "sha256": "b76af0b747f88e0b7e4750f5eae60e2b1de1d72eb237fc60dd43f258934f1744"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.png",
+      "bytes": 2206129,
+      "sha256": "a3169d9e2391ef67ac577a5ebc7543e28e5d042ff61620bbfa755ce720bf3951"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.png",
+      "bytes": 2145513,
+      "sha256": "2e74049a392cf793f6072b45a39cb4c8cd24d12f0c52b2023ba1e101fce6d213"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.png",
+      "bytes": 2205624,
+      "sha256": "3e60054129fd00bdb0a048b70f8aa6f5c3d840128f464dde1926feb41d0f0c91"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.png",
+      "bytes": 2219084,
+      "sha256": "e6b925e52feded4b555a13dc32041abd261fdd0830816f1e510c3e89c7c567c0"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.png",
+      "bytes": 2234688,
+      "sha256": "521d889a40b086d6784c7ad852c733a737a62f04d591200eb080f5ad7006c98b"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.png",
+      "bytes": 2168938,
+      "sha256": "a9a4dc44999ba3559e8d4ac7f9114e6b832919d7fc1a9427205eabad93c564cf"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.png",
+      "bytes": 2231700,
+      "sha256": "9fd01f9690d7d56702ae78116955fd8d4b2cede26271c545503b376eb5e16b01"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-downcast.png",
+      "bytes": 2288619,
+      "sha256": "1205c9c786b743baae41fcd12c297b73e065027336a7f1ac0f9b14de5a8ed8f0"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-hesitant.png",
+      "bytes": 2262581,
+      "sha256": "e74f9978d1fcde67d371d565d8eb8ebbebdad8b8ec0464eab6d7cd0bc6bcb28e"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-serious.png",
+      "bytes": 2301368,
+      "sha256": "7a9884c822c8f8acf8e07cff1c9f071bb2d76c5f2b4104b9b37f0bd5ec4778bb"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-smile.png",
+      "bytes": 2302290,
+      "sha256": "b23be783b2b3c510d8912c5f0516593904a4f329bc09e5383b41bed64ff86073"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/xiaoman/char-xiaoman-expression-surprised.png",
+      "bytes": 2286101,
+      "sha256": "0b266cbaf0395d590f2362bb4e5d7f121396622923157fc065434ae1fbfb697d"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-hesitant.png",
+      "bytes": 1821919,
+      "sha256": "d7d2b79d4ba4f66fd420c669acafabf8350c4bedc0932bea25e64532d964e90f"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-serious.png",
+      "bytes": 1838964,
+      "sha256": "650cb051df5211666c16ebdab93be2ca4088a19399a2d65468ea12242bd63327"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-smile.png",
+      "bytes": 1856444,
+      "sha256": "e133205561287fcb1ffa6763222a460f12ff9d624b86a0d5b6fd54d00e87d598"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/yelan/char-yelan-expression-surprised.png",
+      "bytes": 1828510,
+      "sha256": "e2ea6959c337f30631323f3f248788d03fbf8304a529e6f00238c2df054f0702"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-action-explaining.png",
+      "bytes": 1943860,
+      "sha256": "503bb67015ef463243baf35d04c98c0af968492586b70471d8843bae3c6ffd70"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-downcast.png",
+      "bytes": 1857776,
+      "sha256": "a08e55e0f7a7466d68694b5107a29c90ba7d5f8256ea42ff128c56e01de762b5"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-hesitant.png",
+      "bytes": 1881068,
+      "sha256": "91d6c8efc60732b5a6c184301983b0050d8c08eb9e25ae7d1f6cfd8b028920a0"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-serious.png",
+      "bytes": 1900576,
+      "sha256": "5cfcf2196f698044e753d62ddbb480d3cb0c90a785b52f83bd9e185b80de3172"
+    },
+    {
+      "path": "assets/character-variants/expressions-v01-20261019/zhouzhi/char-zhouzhi-expression-smile.png",
+      "bytes": 1887634,
+      "sha256": "bd0747a9715ea539f8329ea7bd3bee42aa6acf6cbd01593d38073e536d6b3803"
+    },
+    {
+      "path": "assets/character-variants/mengyao-face-v2-candidate.png",
+      "bytes": 2140620,
+      "sha256": "2dd0f78048ed0a8f67438838c27174df94c5d275ed54a4a050ae5c4fdfc98ee9"
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-explaining.png",
+      "bytes": 1737209,
+      "sha256": "3119053c176305cd377581298eaee1770e59d8d49ca19ff6ba036cbd3e6d9536"
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-thinking.png",
+      "bytes": 1701347,
+      "sha256": "cc21a362d7e3d603569eefabd61fafe15cecea56d88ac306c8124649c1d22d20"
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-wave.png",
+      "bytes": 1783463,
+      "sha256": "b5daee1f1d2276abacf1162c374c5af3ed7afd29100a41509d07ad14a2279a27"
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-displeased.png",
+      "bytes": 1733929,
+      "sha256": "8a6c4f152a6f24022c0c096f34f44aa088e4929cad56ce9ff50df55166375113"
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.png",
+      "bytes": 1714700,
+      "sha256": "53a3c303f5bf797f3d5e9a6da7feed1a68e314057c5d71edb44602d93b2a2cb3"
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.png",
+      "bytes": 1713205,
+      "sha256": "8b8b1ebc9fb997c9a367c216375f502fc5f87dd8965e42c0228ca5e4c8c8df6b"
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.png",
+      "bytes": 1728340,
+      "sha256": "bc5ebcf28f7dee480141be2acca34821b575e2e31533d977437cd825af3170cf"
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.png",
+      "bytes": 1723413,
+      "sha256": "fba298b4c572bb6d9293f0fef2f5dbc865ae44a9156eefcd86db0e03ec5c4b6b"
+    },
+    {
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-surprised.png",
+      "bytes": 1731259,
+      "sha256": "c49627dfb66433258082197dfb18aeeabf068021e65b2eb779de7a91034a81ba"
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.png",
+      "bytes": 1974302,
+      "sha256": "5eb68e45445e161189ab5bf1e74afc63e9104ef986da89c3bc89526e2d854177"
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-phone.png",
+      "bytes": 2001907,
+      "sha256": "aa878ad187fefaacd4e6d3181fde8916f93f80948580a795b723daecf5a6b292"
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.png",
+      "bytes": 1979683,
+      "sha256": "f9372732973ae4d755bff0503462ea4e394d211002918cf73017b51e6cb05a34"
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.png",
+      "bytes": 1996202,
+      "sha256": "8888ac0dd387444cded362eea27a3ef22a361f6327e48eb47b3f8168201c26af"
+    },
+    {
+      "path": "assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.png",
+      "bytes": 1982798,
+      "sha256": "e43b52d5a2ed63ed4c2afb31bff13f006c809922329f7c353a09c5511aa074b4"
+    },
+    {
+      "path": "assets/character-variants/xiaoman-face-v2-candidate.png",
+      "bytes": 2317566,
+      "sha256": "a576591f1b2a93c0c20eae946085ff3b1f404f143055a49dee6871f995d76a70"
+    },
+    {
+      "path": "assets/character-variants/yelan-face-v2-candidate.png",
+      "bytes": 1834827,
+      "sha256": "d7ffa93d04c7bf990d93c3e5f04b8e8bb30ff006b4afe6207e2c21205827e209"
+    },
+    {
+      "path": "assets/character-variants/zhouzhi-face-v2-candidate.png",
+      "bytes": 1853389,
+      "sha256": "788536cfc207f37002818a3dcd973bbbb2d57a0b8dec701931dea237c8a790d8"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-displeased.png",
+      "bytes": 1330721,
+      "sha256": "7714f024bc313eb12521de9c2e3b057768cf5936bf59f4da4235f8756e30685a"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-downcast.png",
+      "bytes": 1329711,
+      "sha256": "4f8add603a99bc94cf2c773297eab7b3e59a4b7728a83f287c566a537773052f"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-hesitant.png",
+      "bytes": 1364321,
+      "sha256": "84e93a43e63e816d8b942991d0b02026492d2245d54de1d9de15e4dd8cabbb4f"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-serious.png",
+      "bytes": 1281021,
+      "sha256": "40bba14a54428b8a6772793a46f45803877912465600c1f8096b95bc3e562a90"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/huangqiuqiu/char-huangqiuqiu-expression-smile.png",
+      "bytes": 1296320,
+      "sha256": "d1303d347f0842ffe594d4b02d07490bc130a6073af872c54d9f7daf3a5fd063"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.png",
+      "bytes": 1694695,
+      "sha256": "a0e342fc91735cb4fa1b3caf36932b3147dcc0aa884869de9d64f11763238d65"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.png",
+      "bytes": 1689258,
+      "sha256": "19a7d81992b831b9d63199271cf7e3438be0c2e1c802d4fdc5a46fa426ab8a6c"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.png",
+      "bytes": 1720094,
+      "sha256": "cf2643dd3affe296beff6289d3a2f824d9ace8ac5c8b8faf824aad5e6dd0c6e5"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-displeased.png",
+      "bytes": 1704641,
+      "sha256": "e0cf03cec9c50dae430978ca17cb9ab6c1dabe93542332244ba35eaf125cb624"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-downcast.png",
+      "bytes": 1758518,
+      "sha256": "1e791d5a7b566633b97fe7c87be86105f11774bde8b7160c97ca5eec4d1c5274"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-hesitant.png",
+      "bytes": 1770943,
+      "sha256": "1e3ff8b41dca7b48b059c4530aee2b57c3e6ea5124e5036a9b9769e346f69859"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-serious.png",
+      "bytes": 1729742,
+      "sha256": "ac71699d27dc76d7c0a2bcfeed61bd56d30c033043150e7081b6562d56f50aa5"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-smile.png",
+      "bytes": 1727276,
+      "sha256": "69f0292995c00bc675ecd5875dc44106dfa26db27045dcf1ff0cec9ff58cf7c9"
+    },
+    {
+      "path": "assets/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.png",
+      "bytes": 1746601,
+      "sha256": "b6b6d04604afec6f5f648008969bc8880a91ecf5817daf14aa461c18c1841876"
+    }
+  ]
+}

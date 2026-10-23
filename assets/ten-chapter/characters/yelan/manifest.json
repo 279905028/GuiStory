@@ -1,0 +1,448 @@
+{
+  "character": "yelan",
+  "name": "叶岚",
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "baseline": "assets/ten-chapter/characters/yelan/char-yelan-human-base.webp",
+  "assets": [
+    {
+      "id": "tc-char-yelan-human-base",
+      "character": "yelan",
+      "kind": "character",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch01-common-03",
+        "a01-ch01-common-06",
+        "a01-ch02-common-01",
+        "a01-ch02-common-02",
+        "a01-ch02-common-03",
+        "a01-ch02-common-04",
+        "a01-ch03-yelan-01",
+        "a01-ch03-yelan-02",
+        "a01-ch03-yelan-03",
+        "a01-ch04-yelan-01",
+        "a01-ch04-yelan-02",
+        "a01-ch04-yelan-03",
+        "a01-ch04-yelan-04",
+        "a01-ch05-common-01",
+        "a01-ch05-yelan-01",
+        "a01-ch05-yelan-02",
+        "a01-ch06-yelan-01",
+        "a01-ch06-yelan-02",
+        "a01-ch07-yelan-01",
+        "a01-ch07-yelan-02",
+        "a01-ch07-yelan-03",
+        "a01-ch07-yelan-04",
+        "a01-ch08-yelan-01",
+        "a01-ch09-yelan-01",
+        "a01-ch09-yelan-02",
+        "a01-ch09-yelan-03",
+        "a01-ch10-yelan-01",
+        "a01-ch10-yelan-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-v1.png",
+        "sha256": "a034841b68615677f30a301a7dce6a223e9822035c2e16937e951af5442204ab",
+        "bytes": 1781961
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/yelan/char-yelan-human-base.webp",
+        "sha256": "802c5fe292b422fba7d4187fd063be9595eb390cded3b34ed69abf6feff8428f",
+        "bytes": 795132,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1694774,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 650747,
+          "partial": 43698,
+          "nearOpaque": 878419,
+          "visibleBBox": {
+            "left": 146,
+            "top": 8,
+            "right": 990,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4137338002522786
+        }
+      },
+      "promptKey": "yelan-base",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-yelan-human-expression-hesitant",
+      "character": "yelan",
+      "kind": "character",
+      "expression": "expression-hesitant",
+      "cueIds": [
+        "a01-ch02-common-03",
+        "a01-ch03-yelan-01",
+        "a01-ch03-yelan-03",
+        "a01-ch04-yelan-04",
+        "a01-ch05-yelan-02",
+        "a01-ch06-yelan-01",
+        "a01-ch06-yelan-02",
+        "a01-ch07-yelan-02",
+        "a01-ch07-yelan-03",
+        "a01-ch07-yelan-04",
+        "a01-ch08-yelan-01",
+        "a01-ch09-yelan-01",
+        "a01-ch09-yelan-02",
+        "a01-ch09-yelan-03",
+        "a01-ch10-yelan-01",
+        "a01-ch10-yelan-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-hesitant-v1.png",
+        "sha256": "2b5e514acafd8253eccd07e3bd176750056ba0693c39edaefb3d6d155cf122ba",
+        "bytes": 1788989
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-hesitant.webp",
+        "sha256": "a606f94cee4f3520c5056bf52370bb04d3d291c0078a129a3205ab97dcfc7c33",
+        "bytes": 794426,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1697584,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 650571,
+          "partial": 41306,
+          "nearOpaque": 880987,
+          "visibleBBox": {
+            "left": 146,
+            "top": 9,
+            "right": 993,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4136219024658203
+        }
+      },
+      "promptKey": "yelan-hesitant",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-yelan-human-expression-smile",
+      "character": "yelan",
+      "kind": "character",
+      "expression": "expression-smile",
+      "cueIds": [
+        "a01-ch02-common-03",
+        "a01-ch03-yelan-01",
+        "a01-ch03-yelan-03",
+        "a01-ch04-yelan-01",
+        "a01-ch04-yelan-02",
+        "a01-ch04-yelan-03",
+        "a01-ch04-yelan-04",
+        "a01-ch05-yelan-02",
+        "a01-ch06-yelan-01",
+        "a01-ch06-yelan-02",
+        "a01-ch07-yelan-01",
+        "a01-ch07-yelan-02",
+        "a01-ch07-yelan-03",
+        "a01-ch07-yelan-04",
+        "a01-ch08-yelan-01",
+        "a01-ch09-yelan-01",
+        "a01-ch09-yelan-02",
+        "a01-ch09-yelan-03",
+        "a01-ch10-yelan-01",
+        "a01-ch10-yelan-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-smile-v1.png",
+        "sha256": "c342eff4cdb24369e362c61d68c803b33a6c8c7974f224c92da6d28a05420b14",
+        "bytes": 1792560
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-smile.webp",
+        "sha256": "ad24c46a6da89de7450d382a70ca7081d361d22f4fd1c527fab70c8287d8e332",
+        "bytes": 801394,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1692173,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 649862,
+          "partial": 43447,
+          "nearOpaque": 879555,
+          "visibleBBox": {
+            "left": 146,
+            "top": 10,
+            "right": 993,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.41317113240559894
+        }
+      },
+      "promptKey": "yelan-smile",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-yelan-human-expression-serious",
+      "character": "yelan",
+      "kind": "character",
+      "expression": "expression-serious",
+      "cueIds": [
+        "a01-ch05-yelan-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-serious-v1.png",
+        "sha256": "f6eb0fd92d3d38735e4737ebf273a3e38eb9824d7419affce218a7606cf21296",
+        "bytes": 1757786
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-serious.webp",
+        "sha256": "df8c9e4af8ff0655c7787f4b84bfda83ac79fac793860e6fab8a35eccc63f038",
+        "bytes": 773818,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1709804,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 651992,
+          "partial": 41962,
+          "nearOpaque": 878910,
+          "visibleBBox": {
+            "left": 145,
+            "top": 10,
+            "right": 991,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4145253499348958
+        }
+      },
+      "promptKey": "yelan-serious",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-yelan-human-expression-tired",
+      "character": "yelan",
+      "kind": "character",
+      "expression": "expression-tired",
+      "cueIds": [
+        "a01-ch08-yelan-01"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-tired-v1.png",
+        "sha256": "612489ab9fb49f0a27c634cac45c2c111f85dcd5a4e3380da2ee880a13c33c0a",
+        "bytes": 1756032
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-tired.webp",
+        "sha256": "2a8eb5b2feacc530733cf2e3e894b537256a78fe8ab2338e1f133d432835804b",
+        "bytes": 773370,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1713798,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 654647,
+          "partial": 39953,
+          "nearOpaque": 878264,
+          "visibleBBox": {
+            "left": 146,
+            "top": 10,
+            "right": 991,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4162133534749349
+        }
+      },
+      "promptKey": "yelan-tired",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-char-yelan-human-expression-downcast",
+      "character": "yelan",
+      "kind": "character",
+      "expression": "expression-downcast",
+      "cueIds": [
+        "a01-ch09-yelan-03"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-downcast-v1.png",
+        "sha256": "bf65c3fdce1a0ec7beb3d470754c32779b1c398aa27add76589d1be1fce29493",
+        "bytes": 1763188
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-downcast.webp",
+        "sha256": "1f67ec4250e4ca753471c5c138f0bbc2ab5e57b1db33a313e3c3050b0a6b81f4",
+        "bytes": 782456,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1706764,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 648659,
+          "partial": 44647,
+          "nearOpaque": 879558,
+          "visibleBBox": {
+            "left": 146,
+            "top": 10,
+            "right": 992,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4124062856038411
+        }
+      },
+      "promptKey": "yelan-downcast",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    },
+    {
+      "id": "tc-look-yelan-casual",
+      "character": "yelan",
+      "kind": "look",
+      "expression": "base",
+      "cueIds": [
+        "a01-ch04-yelan-01",
+        "a01-ch04-yelan-02",
+        "a01-ch04-yelan-03",
+        "a01-ch04-yelan-04",
+        "a01-ch06-yelan-02",
+        "a01-ch10-yelan-02"
+      ],
+      "method": "imagegen-edit",
+      "source": {
+        "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-casual-base-v1.png",
+        "sha256": "47a923424a5979b3a8273e6d9cf03a06117f0366985a9478c3821b56b5887f08",
+        "bytes": 1857510
+      },
+      "delivery": {
+        "path": "assets/ten-chapter/characters/yelan/char-yelan-casual-base.webp",
+        "sha256": "2de61b8d8df57375802bd25924a377432b03baf89aa0656f9a77b7f0926399b7",
+        "bytes": 829548,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1853174,
+        "comparison": "PNG→无损WebP逐像素",
+        "alpha": {
+          "min": 0,
+          "max": 254,
+          "fullyTransparent": 678880,
+          "partial": 54712,
+          "nearOpaque": 839272,
+          "visibleBBox": {
+            "left": 163,
+            "top": 9,
+            "right": 976,
+            "bottom": 1535
+          },
+          "transparentRatio": 0.4316202799479167
+        }
+      },
+      "promptKey": "yelan-casual",
+      "adoptionStatus": "awaiting-A06",
+      "runtimeNodeIds": [],
+      "bindingStatus": "awaiting-E09"
+    }
+  ],
+  "evidence": {
+    "fullFigureLightDark": [
+      {
+        "path": "assets/ten-chapter/characters/yelan/qa/light-dark-1.png",
+        "resourceIds": [
+          "tc-char-yelan-human-base",
+          "tc-char-yelan-human-expression-hesitant",
+          "tc-char-yelan-human-expression-smile",
+          "tc-char-yelan-human-expression-serious"
+        ]
+      },
+      {
+        "path": "assets/ten-chapter/characters/yelan/qa/light-dark-2.png",
+        "resourceIds": [
+          "tc-char-yelan-human-expression-tired",
+          "tc-char-yelan-human-expression-downcast",
+          "tc-look-yelan-casual"
+        ]
+      }
+    ],
+    "faceDetail": "assets/ten-chapter/characters/yelan/qa/faces.png"
+  },
+  "status": "delivered-awaiting-A06"
+}

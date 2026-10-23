@@ -1,0 +1,179 @@
+{
+  "reference": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-photo2-options-20261020/option-D-dialogue-stance.png",
+  "tool": "built-in image_gen.imagegen",
+  "transparent_background": true,
+  "items": [
+    {
+      "slug": "smile",
+      "prompt": "Use case: identity-preserve.\nAsset type: production character expression sprite for a Chinese visual novel.\nInput image 1 is the ONLY identity, body, clothing, pose, proportions, framing, painting-style and color reference, called Option D. Make a 1024 x 1536 portrait PNG with a genuinely transparent background.\nPrimary request: Edit ONLY this same adult man's facial expression into a friendly, gentle CLOSED-MOUTH smile: relaxed brows, warm eyes with a very slight happy narrowing, mouth corners softly raised, lips fully closed, no teeth visible. It is a sincere everyday smile, not a smirk. Preserve his specific irregular natural East Asian facial structure exactly: narrow gently oblong face, natural slightly asymmetrical almond eyes, flat natural eyebrows, rounded natural nose, relaxed relatively full lips, slim jaw and very subtle chin stubble. He must remain visibly the identical specific man. Keep the exact same black tousled short hair and hair silhouette, face angle/head tilt, head size and pixel position, neck, anatomy, warm realistic semi-painted visual-novel rendering and soft neutral-warm skin lighting.\nInvariants: preserve the entire body from the neck downward unchanged. Exact same black oversized crew-neck T-shirt with muted colorful outlined four-petal flower shapes concentrated at the lower hem; exact same black pants, black wrap on the wrist of the arm hanging down, one hand in the trouser pocket and the other hand hanging naturally down with five plausible fingers. Preserve the complete existing head-to-upper-thigh framing, pose, character scale and placement. Do not move shoulders, arms, clothing, hands, flowers or body. No hat, no mask, no jacket, no props, no accessories added.\nBackground: remove the dark/brown backdrop and any glow around the body completely; background must be real alpha transparency, including between hair strands and fingers, with no matte shadow, haze, dark halo, floor or vignette. Keep all opaque portions of the character fully opaque. No fake checkerboard background, no text, no watermark.\nAvoid: beautifying into an idealized idol face, new man, eye enlargement, anime face, changing hair, changing clothes or print, changing pose, changing crop, changing face lighting or turning the head.",
+      "source": "/Users/yipin/.codex/generated_images/01a157e2-58e3-7f22-b266-01312f6895ab/exec-47efbf44-1cf1-4906-a04d-1d099c9a3acd.png",
+      "destination": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-smile.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "69f0292995c00bc675ecd5875dc44106dfa26db27045dcf1ff0cec9ff58cf7c9",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        9,
+        47,
+        940,
+        1536
+      ],
+      "alpha_zero_pixels": 809741,
+      "alpha_opaque_pixels": 0,
+      "alpha_semitransparent_pixels": 763123,
+      "alpha_ge_250_pixels": 722527,
+      "alpha_gt_128_bbox": [
+        129,
+        54,
+        914,
+        1536
+      ],
+      "qa": "已实看明、暗背景全身预览及脸部、垂手放大：闭口友善微笑明确；同一毛狼身份、发型、花纹T恤、黑裤、护腕和姿态一致；五指结构自然；无明显背景残留或切边。",
+      "alpha_note": "保留内置生成器原始alpha，最大254，未做后处理；主体近乎不透明，真实透明背景。"
+    },
+    {
+      "slug": "serious",
+      "prompt": "Use case: identity-preserve.\nAsset type: production character expression sprite for a Chinese visual novel.\nInput image 1 is the ONLY identity, body, clothing, pose, proportions, framing, painting-style and color reference, called Option D. Make a 1024 x 1536 portrait PNG with a genuinely transparent background.\nPrimary request: Edit ONLY this same adult man's facial expression into a focused, attentive serious CLOSED-MOUTH expression: eyebrows naturally level with a very small inward focus, eyes looking at the viewer, lips resting softly closed, no smile and no anger, calm adult concentration. Preserve his specific irregular natural East Asian facial structure exactly: narrow gently oblong face, natural slightly asymmetrical almond eyes, flat natural eyebrows, rounded natural nose, relaxed relatively full lips, slim jaw and very subtle chin stubble. He must remain visibly the identical specific man. Keep the exact same black tousled short hair and hair silhouette, face angle/head tilt, head size and pixel position, neck, anatomy, warm realistic semi-painted visual-novel rendering and soft neutral-warm skin lighting.\nInvariants: preserve the entire body from the neck downward unchanged. Exact same black oversized crew-neck T-shirt with muted colorful outlined four-petal flower shapes concentrated at the lower hem; exact same black pants, black wrap on the wrist of the arm hanging down, one hand in the trouser pocket and the other hand hanging naturally down with five plausible fingers. Preserve the complete existing head-to-upper-thigh framing, pose, character scale and placement. Do not move shoulders, arms, clothing, hands, flowers or body. No hat, no mask, no jacket, no props, no accessories added.\nBackground: remove the dark/brown backdrop and any glow around the body completely; background must be real alpha transparency, including between hair strands and fingers, with no matte shadow, haze, dark halo, floor or vignette. Keep all opaque portions of the character fully opaque. No fake checkerboard background, no text, no watermark.\nAvoid: beautifying into an idealized idol face, new man, eye enlargement, anime face, changing hair, changing clothes or print, changing pose, changing crop, changing face lighting or turning the head.",
+      "source": "/Users/yipin/.codex/generated_images/01a157e2-58e3-7f22-b266-01312f6895ab/exec-b5996090-9e01-4fe8-9716-0931f801a3e6.png",
+      "destination": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-serious.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "ac71699d27dc76d7c0a2bcfeed61bd56d30c033043150e7081b6562d56f50aa5",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        35,
+        1010,
+        1536
+      ],
+      "alpha_zero_pixels": 807382,
+      "alpha_opaque_pixels": 0,
+      "alpha_semitransparent_pixels": 765482,
+      "alpha_ge_250_pixels": 721077,
+      "alpha_gt_128_bbox": [
+        129,
+        53,
+        912,
+        1536
+      ],
+      "qa": "已实看明、暗背景全身预览及脸部、垂手放大：闭口认真、眉眼克制；身份及服饰姿态与Option D一致；五指结构自然；无明显背景残留或切边。",
+      "alpha_note": "保留内置生成器原始alpha，最大254，未做后处理；主体近乎不透明，真实透明背景。"
+    },
+    {
+      "slug": "hesitant",
+      "prompt": "Use case: identity-preserve.\nAsset type: production character expression sprite for a Chinese visual novel.\nInput image 1 is the ONLY identity, body, clothing, pose, proportions, framing, painting-style and color reference, called Option D. Make a 1024 x 1536 portrait PNG with a genuinely transparent background.\nPrimary request: Edit ONLY this same adult man's facial expression into a restrained hesitant expression: eyes glance slightly toward screen-left while the head angle stays identical, brows subtly draw together with one inner brow a little raised, lips softly pressed closed as if unsure what to say; quiet uncertainty, not sadness or fear. Preserve his specific irregular natural East Asian facial structure exactly: narrow gently oblong face, natural slightly asymmetrical almond eyes, flat natural eyebrows, rounded natural nose, relaxed relatively full lips, slim jaw and very subtle chin stubble. He must remain visibly the identical specific man. Keep the exact same black tousled short hair and hair silhouette, face angle/head tilt, head size and pixel position, neck, anatomy, warm realistic semi-painted visual-novel rendering and soft neutral-warm skin lighting.\nInvariants: preserve the entire body from the neck downward unchanged. Exact same black oversized crew-neck T-shirt with muted colorful outlined four-petal flower shapes concentrated at the lower hem; exact same black pants, black wrap on the wrist of the arm hanging down, one hand in the trouser pocket and the other hand hanging naturally down with five plausible fingers. Preserve the complete existing head-to-upper-thigh framing, pose, character scale and placement. Do not move shoulders, arms, clothing, hands, flowers or body. No hat, no mask, no jacket, no props, no accessories added.\nBackground: remove the dark/brown backdrop and any glow around the body completely; background must be real alpha transparency, including between hair strands and fingers, with no matte shadow, haze, dark halo, floor or vignette. Keep all opaque portions of the character fully opaque. No fake checkerboard background, no text, no watermark.\nAvoid: beautifying into an idealized idol face, new man, eye enlargement, anime face, changing hair, changing clothes or print, changing pose, changing crop, changing face lighting or turning the head.",
+      "source": "/Users/yipin/.codex/generated_images/01a157e2-58e3-7f22-b266-01312f6895ab/exec-2c606c6d-56e0-44af-8a30-6cb8270476b6.png",
+      "destination": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-hesitant.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "1e3ff8b41dca7b48b059c4530aee2b57c3e6ea5124e5036a9b9769e346f69859",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        21,
+        1010,
+        1536
+      ],
+      "alpha_zero_pixels": 809828,
+      "alpha_opaque_pixels": 0,
+      "alpha_semitransparent_pixels": 763036,
+      "alpha_ge_250_pixels": 720006,
+      "alpha_gt_128_bbox": [
+        130,
+        53,
+        912,
+        1536
+      ],
+      "qa": "已实看明、暗背景全身预览及脸部、垂手放大：目光轻微游移、眉心犹豫，差异细腻；身份及服饰姿态与Option D一致；五指结构自然；无明显背景残留或切边。",
+      "alpha_note": "保留内置生成器原始alpha，最大254，未做后处理；主体近乎不透明，真实透明背景。"
+    },
+    {
+      "slug": "surprised",
+      "prompt": "Use case: identity-preserve.\nAsset type: production character expression sprite for a Chinese visual novel.\nInput image 1 is the ONLY identity, body, clothing, pose, proportions, framing, painting-style and color reference, called Option D. Make a 1024 x 1536 portrait PNG with a genuinely transparent background.\nPrimary request: Edit ONLY this same adult man's facial expression into a restrained surprised expression: upper eyelids and brows lift slightly, eyes a little wider but still natural, lips part very slightly with a small gap and no visible teeth, no huge open mouth, no cartoon shock. Preserve his specific irregular natural East Asian facial structure exactly: narrow gently oblong face, natural slightly asymmetrical almond eyes, flat natural eyebrows, rounded natural nose, relaxed relatively full lips, slim jaw and very subtle chin stubble. He must remain visibly the identical specific man. Keep the exact same black tousled short hair and hair silhouette, face angle/head tilt, head size and pixel position, neck, anatomy, warm realistic semi-painted visual-novel rendering and soft neutral-warm skin lighting.\nInvariants: preserve the entire body from the neck downward unchanged. Exact same black oversized crew-neck T-shirt with muted colorful outlined four-petal flower shapes concentrated at the lower hem; exact same black pants, black wrap on the wrist of the arm hanging down, one hand in the trouser pocket and the other hand hanging naturally down with five plausible fingers. Preserve the complete existing head-to-upper-thigh framing, pose, character scale and placement. Do not move shoulders, arms, clothing, hands, flowers or body. No hat, no mask, no jacket, no props, no accessories added.\nBackground: remove the dark/brown backdrop and any glow around the body completely; background must be real alpha transparency, including between hair strands and fingers, with no matte shadow, haze, dark halo, floor or vignette. Keep all opaque portions of the character fully opaque. No fake checkerboard background, no text, no watermark.\nAvoid: beautifying into an idealized idol face, new man, eye enlargement, anime face, changing hair, changing clothes or print, changing pose, changing crop, changing face lighting or turning the head.",
+      "source": "/Users/yipin/.codex/generated_images/01a157e2-58e3-7f22-b266-01312f6895ab/exec-6231d568-a2f7-4bad-a5c7-06fbc3675281.png",
+      "destination": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-surprised.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "b6b6d04604afec6f5f648008969bc8880a91ecf5817daf14aa461c18c1841876",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        25,
+        1000,
+        1536
+      ],
+      "alpha_zero_pixels": 808757,
+      "alpha_opaque_pixels": 0,
+      "alpha_semitransparent_pixels": 764107,
+      "alpha_ge_250_pixels": 723750,
+      "alpha_gt_128_bbox": [
+        127,
+        54,
+        911,
+        1536
+      ],
+      "qa": "已实看明、暗背景全身预览及脸部、垂手放大：微张口和抬眉的克制惊讶明确；身份及服饰姿态与Option D一致；五指结构自然；无明显背景残留或切边。",
+      "alpha_note": "保留内置生成器原始alpha，最大254，未做后处理；主体近乎不透明，真实透明背景。"
+    },
+    {
+      "slug": "displeased",
+      "prompt": "Use case: identity-preserve.\nAsset type: production character expression sprite for a Chinese visual novel.\nInput image 1 is the ONLY identity, body, clothing, pose, proportions, framing, painting-style and color reference, called Option D. Make a 1024 x 1536 portrait PNG with a genuinely transparent background.\nPrimary request: Edit ONLY this same adult man's facial expression into a mildly displeased but human, non-villainous expression: brows lower just a little, eyes focused with slight dissatisfaction, lips closed and gently pressed together, mouth corners barely downturned. Not rage, not contempt, not an evil smirk. Preserve his specific irregular natural East Asian facial structure exactly: narrow gently oblong face, natural slightly asymmetrical almond eyes, flat natural eyebrows, rounded natural nose, relaxed relatively full lips, slim jaw and very subtle chin stubble. He must remain visibly the identical specific man. Keep the exact same black tousled short hair and hair silhouette, face angle/head tilt, head size and pixel position, neck, anatomy, warm realistic semi-painted visual-novel rendering and soft neutral-warm skin lighting.\nInvariants: preserve the entire body from the neck downward unchanged. Exact same black oversized crew-neck T-shirt with muted colorful outlined four-petal flower shapes concentrated at the lower hem; exact same black pants, black wrap on the wrist of the arm hanging down, one hand in the trouser pocket and the other hand hanging naturally down with five plausible fingers. Preserve the complete existing head-to-upper-thigh framing, pose, character scale and placement. Do not move shoulders, arms, clothing, hands, flowers or body. No hat, no mask, no jacket, no props, no accessories added.\nBackground: remove the dark/brown backdrop and any glow around the body completely; background must be real alpha transparency, including between hair strands and fingers, with no matte shadow, haze, dark halo, floor or vignette. Keep all opaque portions of the character fully opaque. No fake checkerboard background, no text, no watermark.\nAvoid: beautifying into an idealized idol face, new man, eye enlargement, anime face, changing hair, changing clothes or print, changing pose, changing crop, changing face lighting or turning the head.",
+      "source": "/Users/yipin/.codex/generated_images/01a157e2-58e3-7f22-b266-01312f6895ab/exec-56295682-dea6-48c5-83b8-5c2b3732435b.png",
+      "destination": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-optionD-production-20261020/char-maolang-expression-displeased.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "e0cf03cec9c50dae430978ca17cb9ab6c1dabe93542332244ba35eaf125cb624",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_nonzero_bbox": [
+        0,
+        21,
+        1004,
+        1536
+      ],
+      "alpha_zero_pixels": 808533,
+      "alpha_opaque_pixels": 0,
+      "alpha_semitransparent_pixels": 764331,
+      "alpha_ge_250_pixels": 722184,
+      "alpha_gt_128_bbox": [
+        129,
+        54,
+        912,
+        1536
+      ],
+      "qa": "已实看明、暗背景全身预览及脸部、垂手放大：轻压唇与轻蹙眉表达轻微不悦，未变成反派；身份及服饰姿态与Option D一致；五指结构自然；无明显背景残留或切边。",
+      "alpha_note": "保留内置生成器原始alpha，最大254，未做后处理；主体近乎不透明，真实透明背景。"
+    }
+  ],
+  "qa_sheet": "/Users/yipin/Desktop/cjb/assets/character-variants/maolang-optionD-production-20261020/qa-expressions-1.jpg",
+  "qa_method": "Pillow仅读取元数据、SHA及制作检查拼图；实际由view_image检查明暗背景、面部和手部。五张交付PNG均保持生成器原始字节。"
+}

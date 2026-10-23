@@ -1,0 +1,29 @@
+{
+  "checkedOn": "2026-10-23",
+  "baseline": "assets/ten-chapter/characters/a02-before.json",
+  "snapshotFiles": 1696,
+  "unchanged": 1694,
+  "changes": [
+    {
+      "path": "TODO与多窗口提示词-v0.4.md",
+      "before": "b787d17619b77f8b4ae1cec52a463116b9de2bbe5bb851ccfba346fd1ed009d8",
+      "after": "833b4df1d7222a10e33f700a8686d42b05db39a50df68cd6c5458f7a93e8f85c",
+      "status": "changed",
+      "explanation": "保留其他任务更新，本轮局部登记A02完成"
+    },
+    {
+      "path": "任务拆分/全十章开发计划.md",
+      "before": "20471f5a683bcadea6415d0d7b18852343065b97e49f74c1616dd7d99e782dec",
+      "after": "f2fea0585059ff2264720fd9d9fea6416748aa791c20bbe8daa424c2166f9d30",
+      "status": "changed",
+      "explanation": "本轮编辑前已存在的其他任务变化；A02未写入"
+    }
+  ],
+  "ownWriteScope": [
+    "assets/ten-chapter/characters/**",
+    "任务拆分/全十章/交接/A02.md",
+    "TODO与多窗口提示词-v0.4.md"
+  ],
+  "limitations": "文件指纹检查覆盖开工前快照中的既有文件；不把其他任务新建文件算作A02产物。未访问玩家存档。",
+  "pass": true
+}

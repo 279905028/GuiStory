@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "common/ch01",
+  "owner": "E03",
+  "scenes": {
+    "ts_c01_common_rhythm": {
+      "chapter": 1,
+      "title": "三下轻响",
+      "bg": "sample-bg",
+      "time": "21:40",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 1,
+        "clock": "21:40"
+      },
+      "location": "网吧后院侧门",
+      "day": 1,
+      "dayLabel": "第1天"
+    },
+    "ts_c01_common_end": {
+      "chapter": 1,
+      "title": "第一章 · 凌晨六点的早餐",
+      "bg": "sample-bg",
+      "time": "章末",
+      "chronology": {
+        "domain": "chapter-range",
+        "mode": "present",
+        "label": "第1—7天"
+      },
+      "location": "",
+      "day": null,
+      "dayLabel": "第1—7天"
+    }
+  },
+  "nodes": {
+    "tc_c01_common_entry": {
+      "id": "tc_c01_common_entry",
+      "type": "line",
+      "scene": "ts_c01_common_rhythm",
+      "speaker": "narrator",
+      "character": null,
+      "text": "正式上班还差二十分钟。我把晚饭盒丢进外面的垃圾桶，顺着网吧侧边的小路走回来。\n\n后院门虚掩着。里面响了三下：轻、轻，隔了一点，再重一些。\n\n我以为有人叫，停住。隔着门缝，只有一截潮湿的墙，和塑料凳露出来的蓝腿。\n\n“……后面还有。”\n\n声音很轻，像有人正把一句被打断的话接回来。\n\n我没有推门。柜台里传来找零钱的声音，时间也还够我站一会儿。",
+      "next": "tc_c01_common_rhythm_record_choice"
+    },
+    "tc_c01_common_rhythm_record_choice": {
+      "id": "tc_c01_common_rhythm_record_choice",
+      "type": "choice",
+      "scene": "ts_c01_common_rhythm",
+      "flag": "qiuSignal",
+      "choices": [
+        {
+          "label": "再听一遍，把三拍记下来",
+          "value": "record",
+          "next": "tc_c01_common_rhythm_record",
+          "requires": []
+        },
+        {
+          "label": "先回柜台，暂时不记",
+          "value": "ignore",
+          "next": "tc_c01_common_rhythm_ignore",
+          "requires": []
+        }
+      ],
+      "text": "我怎样对待刚才听到的声音？"
+    },
+    "tc_c01_common_rhythm_record": {
+      "id": "tc_c01_common_rhythm_record",
+      "type": "line",
+      "scene": "ts_c01_common_rhythm",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我拿出手机，在备忘录里打了三个点，又把第二个和第三个之间拉开一点。\n\n“是这样吗？”我压低声音问。\n\n门内没有回答。我又站了一小会儿，记下“网吧后院，三下轻响”，把手机收好。\n\n那不是一个答案，但至少下次再听见，我不会把它当成另一件事。",
+      "next": "tc_c01_common_exit"
+    },
+    "tc_c01_common_rhythm_ignore": {
+      "id": "tc_c01_common_rhythm_ignore",
+      "type": "line",
+      "scene": "ts_c01_common_rhythm",
+      "speaker": "narrator",
+      "character": null,
+      "text": "我朝门里问了一句有没有人。没有回应，便退回亮着灯的门厅。\n\n师匠正把零钱数给客人。我接过空饮料箱，放回柜台下面。三下响声被别的声音盖住，没再响起。",
+      "next": "tc_c01_common_exit"
+    },
+    "tc_c01_common_exit": {
+      "id": "tc_c01_common_exit",
+      "type": "end",
+      "scene": "ts_c01_common_end",
+      "title": "第一章 · 凌晨六点的早餐",
+      "text": "",
+      "next": "tc_c02_common_entry",
+      "nextChapter": "第二章 · 语音里的那个人"
+    }
+  },
+  "imports": [
+    "tc_c02_common_entry"
+  ],
+  "exports": {
+    "tc_c01_common_entry": "tc_c01_common_entry",
+    "tc_c01_common_rhythm_record_choice": "tc_c01_common_rhythm_record_choice",
+    "tc_c01_common_rhythm_record": "tc_c01_common_rhythm_record",
+    "tc_c01_common_rhythm_ignore": "tc_c01_common_rhythm_ignore",
+    "tc_c01_common_exit": "tc_c01_common_exit"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 55,
+      "endLine": 65,
+      "nodeIds": [
+        "tc_c01_common_entry"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 67,
+      "endLine": 67,
+      "nodeIds": [
+        "tc_c01_common_rhythm_record_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 69,
+      "endLine": 69,
+      "nodeIds": [
+        "tc_c01_common_rhythm_record_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 81,
+      "endLine": 81,
+      "nodeIds": [
+        "tc_c01_common_rhythm_record_choice"
+      ],
+      "kind": "choice"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 71,
+      "endLine": 77,
+      "nodeIds": [
+        "tc_c01_common_rhythm_record"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 83,
+      "endLine": 85,
+      "nodeIds": [
+        "tc_c01_common_rhythm_ignore"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "startLine": 357,
+      "endLine": 357,
+      "nodeIds": [
+        "tc_c01_common_exit"
+      ],
+      "kind": "control"
+    }
+  ],
+  "exclusions": [],
+  "assetRequests": [
+    "e01-art-ch01"
+  ]
+}

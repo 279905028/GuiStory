@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "common/ch09",
+  "owner": "E03",
+  "scenes": {
+    "ts_c09_common_e04_boundary": {
+      "chapter": 9,
+      "title": "第九章 · 把明天说具体",
+      "bg": "sample-bg",
+      "time": "边界测试",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 61
+      },
+      "location": "",
+      "day": 61,
+      "dayLabel": "第61天"
+    },
+    "ts_c09_common_e04_end": {
+      "chapter": 9,
+      "title": "第九章 · 把明天说具体",
+      "bg": "sample-bg",
+      "time": "章末",
+      "chronology": {
+        "domain": "chapter-range",
+        "mode": "present",
+        "label": "第61—90天"
+      },
+      "location": "",
+      "day": null,
+      "dayLabel": "第61—90天"
+    }
+  },
+  "nodes": {
+    "tc_c09_common_entry": {
+      "id": "tc_c09_common_entry",
+      "type": "gate",
+      "scene": "ts_c09_common_e04_boundary",
+      "cases": [
+        {
+          "flag": "route",
+          "value": "xiaoman",
+          "next": "tc_c09_xiaoman_entry"
+        },
+        {
+          "flag": "route",
+          "value": "zhouzhi",
+          "next": "tc_c09_zhouzhi_entry"
+        }
+      ],
+      "default": null,
+      "exhaustive": true
+    },
+    "tc_c09_common_exit": {
+      "id": "tc_c09_common_exit",
+      "type": "end",
+      "scene": "ts_c09_common_e04_end",
+      "title": "第九章 · 把明天说具体",
+      "text": "",
+      "next": "tc_c10_common_entry",
+      "nextChapter": "第十章 · 雨停之前也往前走"
+    }
+  },
+  "imports": [
+    "tc_c09_xiaoman_entry",
+    "tc_c09_zhouzhi_entry",
+    "tc_c10_common_entry"
+  ],
+  "exports": {
+    "tc_c09_common_entry": "tc_c09_common_entry",
+    "tc_c09_common_exit": "tc_c09_common_exit"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c09_common_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 9,
+      "endLine": 9,
+      "nodeIds": [
+        "tc_c09_common_exit"
+      ],
+      "kind": "control"
+    }
+  ],
+  "exclusions": [],
+  "assetRequests": []
+}

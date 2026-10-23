@@ -1,0 +1,63 @@
+{
+  "contract": "R2",
+  "date": "2026-10-19",
+  "background_keys": [
+    "street",
+    "repair",
+    "lobby",
+    "room",
+    "noodles",
+    "salon"
+  ],
+  "fixed_count": 6,
+  "prompt_record_unchanged": true,
+  "original_hash_comparison": [
+    {
+      "key": "street",
+      "original_sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "final_sha256": "7053ebb19222fa188eabb11e3a548f9175b1ce122806cae3c59318d23f28f68e",
+      "unchanged": true
+    },
+    {
+      "key": "repair",
+      "original_sha256": "3b918a88c0d486575fa18d09afb70a37f9e1743257dd49ce1a44f72416e098aa",
+      "final_sha256": "3b918a88c0d486575fa18d09afb70a37f9e1743257dd49ce1a44f72416e098aa",
+      "unchanged": true
+    },
+    {
+      "key": "lobby",
+      "original_sha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871",
+      "final_sha256": "6ac2d02188a59c5fefd34a39cb1b5427ad13226e2cc3f6e5d67f9d0cf28fc871",
+      "unchanged": true
+    },
+    {
+      "key": "room",
+      "original_sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+      "final_sha256": "0728d0f8b8f4e9bc90fe3b08e4f2fe5b8ee08aef2cb25a8952bd1cf8262431ac",
+      "unchanged": true
+    },
+    {
+      "key": "noodles",
+      "original_sha256": "b3b2bd4aa1421b504417a1d37900add3ed69202f7d0f680c2da1be698a3dc984",
+      "final_sha256": "e68fb205c84ec95f4d8d434c6b12754c36e4b84c6707022235d6afa29f1a0500",
+      "unchanged": false
+    },
+    {
+      "key": "salon",
+      "original_sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+      "final_sha256": "884d393ec95f43480143eb7ad826b1a53839be171d8ea20607d50556a06b14f7",
+      "unchanged": true
+    }
+  ],
+  "static_capture_count": 32,
+  "screenshot_files_exist": true,
+  "audited_styles_sha256": "805fc2525186292f469c816cebcb95da09dfb876feecb0e45623cd3aaeed552e",
+  "current_styles_sha256": "805fc2525186292f469c816cebcb95da09dfb876feecb0e45623cd3aaeed552e",
+  "game_js_exists_at_final_audit": true,
+  "real_game_started": false,
+  "real_phone_playtest": false,
+  "r2_actual_sprite_composite_count": 8,
+  "r2_actual_sprite_files_exist": true,
+  "r2_character_hashes_still_match": true,
+  "report_and_handoff_exist": true
+}

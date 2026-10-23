@@ -1,0 +1,71 @@
+{
+  "task": "E10",
+  "generatedAt": "2026-10-23T05:28:32.841Z",
+  "browser": "Safari",
+  "driverVersion": "Included with Safari 27.0 (21625.1.29.18.28)",
+  "status": "blocked",
+  "policy": {
+    "onlyIsolatedWebDriverWindow": true,
+    "globalSettingsChanged": false,
+    "enableFlagUsed": false,
+    "userBrowserStorageAccessed": false
+  },
+  "fingerprints": {
+    "story.js": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60",
+    "engine.js": "363e4a9b1ddd9d6e012b6623af04c54f9fc077a065e9d1ee3b61981e9be5e39a",
+    "game.js": "7021053d5491f6140ce28b9d3bc921e8d65a62921de3f16886fceac0b42848ff",
+    "player-runtime.js": "f0c36ff43ac205be2878d84a057b2760d37f755de9a218b916a7e57c620affd0",
+    "save-compat.js": "11cc52079a67a2ee32244206b79bb11e1cfe71874227aefdd1e768594a0e816f",
+    "styles.css": "8b7d93a3763959fe0a50188f1c0b6682354c2cde7c6bee439bd03851c4da870b",
+    "index.html": "0266a5c542894ef8eaa42f36acdbdb1079a6c1ca94236cfe0a4645813ea09191",
+    "assets/runtime-ten-chapter-manifest.json": "de3626a9f6691ee45b4eb76ceb60339bf4df1cde80d6367e7e8fcb73a74b8521"
+  },
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/status",
+      "status": 200,
+      "elapsedMs": 25,
+      "response": {
+        "value": {
+          "message": "",
+          "ready": true
+        }
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/session",
+      "status": 500,
+      "elapsedMs": 5,
+      "response": {
+        "value": {
+          "error": "session not created",
+          "message": "Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.",
+          "stacktrace": ""
+        }
+      }
+    }
+  ],
+  "cleanup": {
+    "httpServerClosed": false,
+    "driverExitCode": 0,
+    "driverSignalCode": null
+  },
+  "driverPort": 61930,
+  "blocker": {
+    "httpStatus": 500,
+    "error": "session not created",
+    "message": "Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.",
+    "rawResponse": {
+      "value": {
+        "error": "session not created",
+        "message": "Could not create a session: You must enable 'Allow remote automation' in the Developer section of Safari Settings to control Safari via WebDriver.",
+        "stacktrace": ""
+      }
+    }
+  },
+  "driverStdout": "",
+  "driverStderr": "",
+  "inputsUnchanged": true
+}

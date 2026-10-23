@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-23",
+  "mode": "built-in image_gen",
+  "reference": "assets/ten-chapter/ui/cover-mobile.webp",
+  "referenceSha256": "66f3af124050fa455001108bf2369a9db22b028c96f1774858402d1fafebfe40",
+  "noResizeOrCrop": true,
+  "items": [
+    {
+      "id": "A-cinematic",
+      "source": "assets/release-posters-v1.0-20261023/originals/poster-A-cinematic.png",
+      "file": "assets/release-posters-v1.0-20261023/poster-A-cinematic.webp",
+      "width": 941,
+      "height": 1672,
+      "format": "webp",
+      "hasAlpha": false,
+      "encoding": {
+        "lossless": true,
+        "effort": 6
+      },
+      "bytes": 2022254,
+      "sourceSha256": "1c32eaf49e0e0db64528beb3a9548bdcff28f0e654de34593ab6e51a3fcdc1df",
+      "sha256": "6f619ea6808772e0be66e726bf4a0aebda57d452fe3914017474962bb1023610",
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "rgbaPixelsEqual": true
+      }
+    },
+    {
+      "id": "B-nightshift",
+      "source": "assets/release-posters-v1.0-20261023/originals/poster-B-nightshift.png",
+      "file": "assets/release-posters-v1.0-20261023/poster-B-nightshift.webp",
+      "width": 941,
+      "height": 1672,
+      "format": "webp",
+      "hasAlpha": false,
+      "encoding": {
+        "lossless": true,
+        "effort": 6
+      },
+      "bytes": 1749226,
+      "sourceSha256": "6768e9d52ba3094950b115a80b1bbb74c554f2463540547f7d0deb4c603f002c",
+      "sha256": "86eb33943a5b8a51711300219f5ccc118f2e633b2da96dd36ef083db7ca3f7ff",
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "rgbaPixelsEqual": true
+      }
+    },
+    {
+      "id": "C-literary",
+      "source": "assets/release-posters-v1.0-20261023/originals/poster-C-literary.png",
+      "file": "assets/release-posters-v1.0-20261023/poster-C-literary.webp",
+      "width": 941,
+      "height": 1672,
+      "format": "webp",
+      "hasAlpha": false,
+      "encoding": {
+        "lossless": true,
+        "effort": 6
+      },
+      "bytes": 2195518,
+      "sourceSha256": "d9dba55a4fa9daf713689d1de3b03482ba5d32ed19fa741356aad91ed22ce0b5",
+      "sha256": "be200450c5e2b14cfaab2d9798112ce9be305695eb2f7d0fce97b3a2fd4a18f4",
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "rgbaPixelsEqual": true
+      }
+    }
+  ]
+}

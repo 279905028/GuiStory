@@ -1,0 +1,246 @@
+{
+  "generatedAt": "2026-10-20T02:30:41.631Z",
+  "status": "PASS",
+  "isolation": {
+    "browser": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "context": "browser.newContext；无 userDataDir；127.0.0.1 随机监听端口；每场景新 context",
+    "storage": "只在隔离 context 中写测试夹具与故障注入；未访问玩家浏览器资料",
+    "storyFixtures": "正式 story.js + engine.js 自然推进构造合法快照；旧文本仅修改内存副本",
+    "origin": "http://127.0.0.1:55145"
+  },
+  "initialHashes": {
+    "game.js": "4499419098a69d7cae26e6b2b2efd509c497c9536d9208cc6046fd2fc471fad0",
+    "story.js": "a832d87e54e2334bae9648c6d412104b6d1ca9f266ec10c0c2b912360235a455",
+    "engine.js": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+    "index.html": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+    "styles.css": "ec83d0f6ef633f15707ca8e8e0426fb39b899dbf5ff7511a5bd1cf05f99cd78a"
+  },
+  "finalHashes": {
+    "game.js": "4499419098a69d7cae26e6b2b2efd509c497c9536d9208cc6046fd2fc471fad0",
+    "story.js": "a832d87e54e2334bae9648c6d412104b6d1ca9f266ec10c0c2b912360235a455",
+    "engine.js": "ce63bd722acdb5f3de265b5f0e73439eac8c073b4c31e2d7562857659c8b1441",
+    "index.html": "9d9560de225cc5f19346656e742eb2577ab8353c8f5a2957625a42f52d6fb38f",
+    "styles.css": "ec83d0f6ef633f15707ca8e8e0426fb39b899dbf5ff7511a5bd1cf05f99cd78a"
+  },
+  "assertions": [
+    "旧文本继续按钮禁用",
+    "旧文本开始前仍标题",
+    "旧文本确认默认焦点取消",
+    "旧文本取消保留原档",
+    "旧文本取消保留原档：无成功自动覆盖",
+    "旧文本取消不建备份",
+    "旧文本确认进入故事",
+    "旧文本备份精确等于原字符串",
+    "旧文本新档回到故事入口",
+    "旧文本新档不继承标记",
+    "旧文本保留slot1",
+    "旧文本保留slot2",
+    "旧文本保留slot3",
+    "坏JSON继续按钮禁用",
+    "坏JSON开始前仍标题",
+    "坏JSON确认默认焦点取消",
+    "坏JSON取消保留原档",
+    "坏JSON取消保留原档：无成功自动覆盖",
+    "坏JSON取消不建备份",
+    "坏JSON确认进入故事",
+    "坏JSON备份精确等于原字符串",
+    "坏JSON新档回到故事入口",
+    "坏JSON新档不继承标记",
+    "坏JSON保留slot1",
+    "坏JSON保留slot2",
+    "坏JSON保留slot3",
+    "null state继续按钮禁用",
+    "null state开始前仍标题",
+    "null state确认默认焦点取消",
+    "null state取消保留原档",
+    "null state取消保留原档：无成功自动覆盖",
+    "null state取消不建备份",
+    "null state确认进入故事",
+    "null state备份精确等于原字符串",
+    "null state新档回到故事入口",
+    "null state新档不继承标记",
+    "null state保留slot1",
+    "null state保留slot2",
+    "null state保留slot3",
+    "载入合法手动槽进入故事",
+    "载入不会覆盖不兼容auto",
+    "载入不会覆盖不兼容auto：无成功自动覆盖",
+    "设置不会覆盖不兼容auto",
+    "设置不会覆盖不兼容auto：无成功自动覆盖",
+    "旧档保护不阻碍故事推进",
+    "推进不会覆盖不兼容auto",
+    "推进不会覆盖不兼容auto：无成功自动覆盖",
+    "保护模式菜单顶部明确自动保存暂停",
+    "保护模式自动槽状态为已暂停",
+    "手动覆盖取消保留原槽",
+    "手动槽1保存当前节点",
+    "手动槽2保存当前节点",
+    "手动槽3保存当前节点",
+    "pagehide不会覆盖不兼容auto",
+    "pagehide不会覆盖不兼容auto：无成功自动覆盖",
+    "返回标题不会覆盖不兼容auto",
+    "返回标题不会覆盖不兼容auto：无成功自动覆盖",
+    "刷新后原旧档仍保留",
+    "刷新后旧auto仍不可继续",
+    "恢复入口取消保留原auto",
+    "恢复入口取消保留原auto：无成功自动覆盖",
+    "恢复入口精确备份",
+    "恢复入口保存当前节点",
+    "恢复后刷新可继续",
+    "继续恢复保存节点",
+    "writeBackup失败后仍标题",
+    "writeBackup失败保留auto",
+    "writeBackup失败保留auto：无成功自动覆盖",
+    "readBackup失败后仍标题",
+    "readBackup失败保留auto",
+    "readBackup失败保留auto：无成功自动覆盖",
+    "恢复备份失败保留auto",
+    "恢复备份失败保留auto：无成功自动覆盖",
+    "恢复备份失败保留当前故事",
+    "原档变化后第一确认不开始",
+    "原档变化后第一确认不覆盖",
+    "原档变化后第一确认不覆盖：无成功自动覆盖",
+    "原档变化后第一确认不备份旧内容",
+    "原档变化后确认框仍在",
+    "二次确认进入故事",
+    "备份最新原始内容",
+    "备份后竞态保留后到坏档",
+    "备份后竞态保留后到坏档：无成功自动覆盖",
+    "备份仍精确保留原授权版本",
+    "备份后竞态不声称恢复自动保存成功",
+    "备份后竞态后续退出仍保护",
+    "备份后竞态后续退出仍保护：无成功自动覆盖",
+    "合法auto取消后字节不变",
+    "合法auto确认后新故事清空标记",
+    "合法auto新故事保留手动档",
+    "读取禁用仍可进入故事",
+    "读取禁用开始不覆盖auto",
+    "读取禁用开始不覆盖auto：无成功自动覆盖",
+    "读取禁用设置及退出不覆盖auto",
+    "读取禁用设置及退出不覆盖auto：无成功自动覆盖",
+    "空间不足仍能推进",
+    "空间不足auto原值不变",
+    "手动保存失败不产生伪存档",
+    "合法结尾槽1载入结束页",
+    "槽1重选数量5",
+    "槽1保留七次前置选择",
+    "槽1历史恢复至唯一C6",
+    "槽1不残留上一预告标记",
+    "合法结尾槽2载入结束页",
+    "槽2重选数量4",
+    "槽2保留七次前置选择",
+    "槽2历史恢复至唯一C6",
+    "槽2不残留上一预告标记",
+    "未解锁无第五项或占位",
+    "合法结尾槽1载入结束页",
+    "槽1重选数量5",
+    "槽1保留七次前置选择",
+    "槽1历史恢复至唯一C6",
+    "槽1不残留上一预告标记",
+    "合法结尾槽2载入结束页",
+    "槽2重选数量4",
+    "槽2保留七次前置选择",
+    "槽2历史恢复至唯一C6",
+    "槽2不残留上一预告标记",
+    "未解锁无第五项或占位",
+    "坏手动档不改变当前auto",
+    "历史面板确实显示前置选择",
+    "自动停在选择节点",
+    "自动到选择后关闭",
+    "自动没有替玩家选择",
+    "菜单打开时自动不推进",
+    "菜单关闭后自动恢复",
+    "真实浏览器无未捕获异常",
+    "测试期间运行文件保持同版本"
+  ],
+  "cases": [
+    {
+      "name": "旧文本自动档：提示、取消、确认精确备份",
+      "status": "PASS",
+      "assertions": 13
+    },
+    {
+      "name": "坏JSON自动档：提示、取消、确认精确备份",
+      "status": "PASS",
+      "assertions": 13
+    },
+    {
+      "name": "null state自动档：提示、取消、确认精确备份",
+      "status": "PASS",
+      "assertions": 13
+    },
+    {
+      "name": "载入合法槽、设置、推进、手动三槽、退出保护与恢复入口",
+      "status": "PASS",
+      "assertions": 26
+    },
+    {
+      "name": "备份失败阻止开始：writeBackup",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "备份失败阻止开始：readBackup",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "恢复自动保存时备份失败保留当前进度和旧auto",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "确认期间auto变化必须重确认并备份最新原文",
+      "status": "PASS",
+      "assertions": 7
+    },
+    {
+      "name": "备份完成后另一坏档换入：拒绝替换且不虚报恢复成功",
+      "status": "PASS",
+      "assertions": 6
+    },
+    {
+      "name": "合法auto开始新故事也确认，取消保留原档",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "存储读取禁用时不覆盖未知auto，允许未保存游玩",
+      "status": "PASS",
+      "assertions": 5
+    },
+    {
+      "name": "写入空间不足：原auto不变、手动保存报告失败",
+      "status": "PASS",
+      "assertions": 3
+    },
+    {
+      "name": "正式合法档资格5/4切换与重选清理历史",
+      "status": "PASS",
+      "assertions": 24
+    },
+    {
+      "name": "自动播放到选择暂停，菜单暂停不推进",
+      "status": "PASS",
+      "assertions": 5
+    }
+  ],
+  "pageErrors": [],
+  "screenshots": [
+    {
+      "file": "qa/cg-player-storage-confirm.png",
+      "scenario": "真实浏览器：不兼容旧文本auto开始新故事的确认框",
+      "viewport": "1440×900"
+    },
+    {
+      "file": "qa/cg-player-storage-protected.png",
+      "scenario": "真实浏览器：读取合法手动档后原auto仍保留，保存菜单显示暂停及恢复入口",
+      "viewport": "1440×900"
+    }
+  ],
+  "limitations": [
+    "不是玩家现存旧档迁移测试；不关闭严格历史校验。",
+    "存储错误由隔离 context 内 Storage 方法故障注入模拟，非系统级浏览器隐私设置。",
+    "不包括手机/Safari/Firefox、音频听感、完整剧情逐句人工游玩或正式CG接入验收。"
+  ]
+}

@@ -1,0 +1,5619 @@
+{
+  "chapters": [
+    {
+      "chapter": 6,
+      "source": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "sourceSha256": "8238a41e2b8e4102e7509e711662fa28bbdd83c7ef89e03f9af1e7798ff7c9e4",
+      "sections": [
+        {
+          "id": "a01-ch06-common-01",
+          "route": "common",
+          "heading": "第30天·18:00｜吃完还要上班",
+          "sourceLineStart": 11,
+          "sourceLineEnd": 44,
+          "time": "第30天·18:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "同一饭局；其他朋友未点名，不为全员各造立绘。第31天06:00回声已关门。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "同一饭局；其他朋友未点名，不为全员各造立绘。第31天06:00回声已关门。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "同一饭局；其他朋友未点名，不为全员各造立绘。第31天06:00回声已关门。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "food-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "同一饭局；其他朋友未点名，不为全员各造立绘。第31天06:00回声已关门。"
+              ]
+            },
+            {
+              "label": "netcafe-counter-night",
+              "time": "夜间",
+              "requirements": [
+                "同一饭局；其他朋友未点名，不为全员各造立绘。第31天06:00回声已关门。"
+              ]
+            },
+            {
+              "label": "echo-closed-day",
+              "time": "第30天·18:00",
+              "requirements": [
+                "同一饭局；其他朋友未点名，不为全员各造立绘。第31天06:00回声已关门。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [],
+          "notes": [
+            "同一饭局；其他朋友未点名，不为全员各造立绘。第31天06:00回声已关门。"
+          ]
+        },
+        {
+          "id": "a01-ch06-xiaoman-01",
+          "route": "xiaoman",
+          "heading": "第32天·15:50｜没有事也可以坐着",
+          "sourceLineStart": 47,
+          "sourceLineEnd": 124,
+          "time": "第32天·15:50",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "新外套搭手臂，橘子、空盒、刷漆警示带与避雨台阶。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "street-day",
+              "time": "第32天·15:50",
+              "requirements": [
+                "新外套搭手臂，橘子、空盒、刷漆警示带与避雨台阶。"
+              ]
+            },
+            {
+              "label": "river-day",
+              "time": "第32天·15:50",
+              "requirements": [
+                "新外套搭手臂，橘子、空盒、刷漆警示带与避雨台阶。"
+              ]
+            },
+            {
+              "label": "food-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "新外套搭手臂，橘子、空盒、刷漆警示带与避雨台阶。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 xiaoman"
+          ],
+          "notes": [
+            "新外套搭手臂，橘子、空盒、刷漆警示带与避雨台阶。"
+          ]
+        },
+        {
+          "id": "a01-ch06-zhouzhi-01",
+          "route": "zhouzhi",
+          "heading": "第32天·17:10｜绕过那个门口",
+          "sourceLineStart": 127,
+          "sourceLineEnd": 190,
+          "time": "第32天·17:10",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "第30天饭后/第31天为补叙；主场第32天下午。浅蓝衬衫、白杯蓝沿、两只各自的杯子。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "street-day",
+              "time": "第32天·17:10",
+              "requirements": [
+                "第30天饭后/第31天为补叙；主场第32天下午。浅蓝衬衫、白杯蓝沿、两只各自的杯子。"
+              ]
+            },
+            {
+              "label": "echo-closed-day",
+              "time": "第32天·17:10",
+              "requirements": [
+                "第30天饭后/第31天为补叙；主场第32天下午。浅蓝衬衫、白杯蓝沿、两只各自的杯子。"
+              ]
+            },
+            {
+              "label": "supermarket-day",
+              "time": "第32天·17:10",
+              "requirements": [
+                "第30天饭后/第31天为补叙；主场第32天下午。浅蓝衬衫、白杯蓝沿、两只各自的杯子。"
+              ]
+            },
+            {
+              "label": "clothing-day",
+              "time": "第32天·17:10",
+              "requirements": [
+                "第30天饭后/第31天为补叙；主场第32天下午。浅蓝衬衫、白杯蓝沿、两只各自的杯子。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 zhouzhi"
+          ],
+          "notes": [
+            "第30天饭后/第31天为补叙；主场第32天下午。浅蓝衬衫、白杯蓝沿、两只各自的杯子。"
+          ]
+        },
+        {
+          "id": "a01-ch06-mengyao-01",
+          "route": "mengyao",
+          "heading": "第30天·19:20｜饭后各有一段路",
+          "sourceLineStart": 193,
+          "sourceLineEnd": 212,
+          "time": "第30天·19:20",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "补叙共通第30天同顿饭；第31天清晨照片只在手机，不新增饭局。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "busstop-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "补叙共通第30天同顿饭；第31天清晨照片只在手机，不新增饭局。"
+              ]
+            },
+            {
+              "label": "netcafe-counter-night",
+              "time": "夜间",
+              "requirements": [
+                "补叙共通第30天同顿饭；第31天清晨照片只在手机，不新增饭局。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 mengyao"
+          ],
+          "notes": [
+            "补叙共通第30天同顿饭；第31天清晨照片只在手机，不新增饭局。"
+          ]
+        },
+        {
+          "id": "a01-ch06-mengyao-02",
+          "route": "mengyao",
+          "heading": "第32天·16:10｜她也不是每首都会唱",
+          "sourceLineStart": 213,
+          "sourceLineEnd": 264,
+          "time": "第32天·16:10",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "浅色外套、双话筒、冰杯；陌生小练歌房，不是回声重新营业。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "practice-room",
+              "time": "第32天·16:10",
+              "requirements": [
+                "浅色外套、双话筒、冰杯；陌生小练歌房，不是回声重新营业。"
+              ]
+            },
+            {
+              "label": "street-day",
+              "time": "第32天·16:10",
+              "requirements": [
+                "浅色外套、双话筒、冰杯；陌生小练歌房，不是回声重新营业。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 mengyao"
+          ],
+          "notes": [
+            "浅色外套、双话筒、冰杯；陌生小练歌房，不是回声重新营业。"
+          ]
+        },
+        {
+          "id": "a01-ch06-yelan-01",
+          "route": "yelan",
+          "heading": "第30天·19:15｜散席以后",
+          "sourceLineStart": 267,
+          "sourceLineEnd": 282,
+          "time": "第30天·19:15",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "补叙同顿饭，付款/递纸巾后乘车，不做设备交接。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "food-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "补叙同顿饭，付款/递纸巾后乘车，不做设备交接。"
+              ]
+            },
+            {
+              "label": "street-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "补叙同顿饭，付款/递纸巾后乘车，不做设备交接。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 yelan"
+          ],
+          "notes": [
+            "补叙同顿饭，付款/递纸巾后乘车，不做设备交接。"
+          ]
+        },
+        {
+          "id": "a01-ch06-yelan-02",
+          "route": "yelan",
+          "heading": "第32天·16:30｜她打飞的那一球",
+          "sourceLineStart": 283,
+          "sourceLineEnd": 338,
+          "time": "第32天·16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "头发重新扎紧，球拍、水瓶；不穿高跟工作装打球。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "tabletennis-day",
+              "time": "第32天·16:30",
+              "requirements": [
+                "头发重新扎紧，球拍、水瓶；不穿高跟工作装打球。"
+              ]
+            },
+            {
+              "label": "convenience-day",
+              "time": "第32天·16:30",
+              "requirements": [
+                "头发重新扎紧，球拍、水瓶；不穿高跟工作装打球。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 yelan"
+          ],
+          "notes": [
+            "头发重新扎紧，球拍、水瓶；不穿高跟工作装打球。"
+          ]
+        },
+        {
+          "id": "a01-ch06-piao-01",
+          "route": "piao",
+          "heading": "第32天·15:30｜少了一个顺路的地方",
+          "sourceLineStart": 341,
+          "sourceLineEnd": 364,
+          "time": "第32天·15:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "经过关闭门口，不入内；酸橘子、饼。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "echo-closed-day",
+              "time": "第32天·15:30",
+              "requirements": [
+                "经过关闭门口，不入内；酸橘子、饼。"
+              ]
+            },
+            {
+              "label": "park-day",
+              "time": "第32天·15:30",
+              "requirements": [
+                "经过关闭门口，不入内；酸橘子、饼。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 piao"
+          ],
+          "notes": [
+            "经过关闭门口，不入内；酸橘子、饼。"
+          ]
+        },
+        {
+          "id": "a01-ch06-piao-02",
+          "route": "piao",
+          "heading": "仅交往",
+          "sourceLineStart": 367,
+          "sourceLineEnd": 398,
+          "time": "第32天·16:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "承接第21天交往；牵手与额角吻仅此分支。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "park-day",
+              "time": "第32天·16:00",
+              "requirements": [
+                "承接第21天交往；牵手与额角吻仅此分支。"
+              ]
+            },
+            {
+              "label": "food-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "承接第21天交往；牵手与额角吻仅此分支。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择交往"
+          ],
+          "notes": [
+            "承接第21天交往；牵手与额角吻仅此分支。"
+          ]
+        },
+        {
+          "id": "a01-ch06-piao-03",
+          "route": "piao",
+          "heading": "仅朋友",
+          "sourceLineStart": 399,
+          "sourceLineEnd": 420,
+          "time": "第32天·16:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "承接朋友；毛狼只发照片，不实体入场。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "park-day",
+              "time": "第32天·16:00",
+              "requirements": [
+                "承接朋友；毛狼只发照片，不实体入场。"
+              ]
+            },
+            {
+              "label": "rental-night",
+              "time": "夜间",
+              "requirements": [
+                "承接朋友；毛狼只发照片，不实体入场。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择朋友"
+          ],
+          "notes": [
+            "承接朋友；毛狼只发照片，不实体入场。"
+          ]
+        },
+        {
+          "id": "a01-ch06-friends-01",
+          "route": "friends",
+          "heading": "第32天·16:30｜不开麦也能坐着",
+          "sourceLineStart": 423,
+          "sourceLineEnd": 448,
+          "time": "第32天·16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "烤土豆分辣度。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "netcafe-counter-day",
+              "time": "第32天·16:30",
+              "requirements": [
+                "烤土豆分辣度。"
+              ]
+            },
+            {
+              "label": "stall-day",
+              "time": "第32天·16:30",
+              "requirements": [
+                "烤土豆分辣度。"
+              ]
+            },
+            {
+              "label": "eaves-day",
+              "time": "第32天·16:30",
+              "requirements": [
+                "烤土豆分辣度。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "notes": [
+            "烤土豆分辣度。"
+          ]
+        },
+        {
+          "id": "a01-ch06-friends-02",
+          "route": "friends",
+          "heading": "第33天·18:20｜不替别人做主",
+          "sourceLineStart": 449,
+          "sourceLineEnd": 466,
+          "time": "第33天·18:20",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "remote-voice-or-message",
+              "requirements": [
+                "仅语音/手机消息/头像，不在当前背景中显示实体立绘。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "remote-voice-or-message",
+              "requirements": [
+                "仅语音/手机消息/头像，不在当前背景中显示实体立绘。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "rental-night",
+              "time": "夜间",
+              "requirements": [
+                "群消息；飘与毛狼去打印为计划/转述，不画打印店到访。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "notes": [
+            "群消息；飘与毛狼去打印为计划/转述，不画打印店到访。"
+          ]
+        },
+        {
+          "id": "a01-ch06-friends-03",
+          "route": "friends",
+          "heading": "第34天·上午｜不赶着醒",
+          "sourceLineStart": 467,
+          "sourceLineEnd": 474,
+          "time": "第34天·上午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "remote-voice-or-message",
+              "requirements": [
+                "仅语音/手机消息/头像，不在当前背景中显示实体立绘。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "rental-day",
+              "time": "第34天·上午",
+              "requirements": [
+                "上午睡前至下午醒来；毛狼只消息。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "notes": [
+            "上午睡前至下午醒来；毛狼只消息。"
+          ]
+        },
+        {
+          "id": "a01-ch06-huangqiuqiu-01",
+          "route": "huangqiuqiu",
+          "heading": "第32天·16:00｜门外换过一阵雨",
+          "sourceLineStart": 477,
+          "sourceLineEnd": 502,
+          "time": "第32天·16:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "球形，私密门内。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "courtyard-day",
+              "time": "第32天·16:00",
+              "requirements": [
+                "球形，私密门内。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 huangqiuqiu",
+            "已取得隐藏资格并完成第14天相识"
+          ],
+          "notes": [
+            "球形，私密门内。"
+          ]
+        },
+        {
+          "id": "a01-ch06-huangqiuqiu-02",
+          "route": "huangqiuqiu",
+          "heading": "第32天·17:00｜她也会讲一个很糟的笑话",
+          "sourceLineStart": 503,
+          "sourceLineEnd": 544,
+          "time": "第32天·17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "球形笑话，不把故事中人物画进现场。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "courtyard-day",
+              "time": "第32天·17:00",
+              "requirements": [
+                "球形笑话，不把故事中人物画进现场。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 huangqiuqiu",
+            "已取得隐藏资格并完成第14天相识"
+          ],
+          "notes": [
+            "球形笑话，不把故事中人物画进现场。"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "source": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "sourceSha256": "112623a8a21f59991e3a5717838c0558244293dc709b906815c8c83497ebc8f0",
+      "sections": [
+        {
+          "id": "a01-ch07-common-01",
+          "route": "common",
+          "heading": "第35天·下午｜群里空下来的一会儿",
+          "sourceLineStart": 11,
+          "sourceLineEnd": 24,
+          "time": "第35天·下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "remote-voice-or-message",
+              "requirements": [
+                "仅语音/手机消息/头像，不在当前背景中显示实体立绘。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "rental-day",
+              "time": "第35天·下午",
+              "requirements": [
+                "群聊/游戏，仅头像。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [],
+          "notes": [
+            "群聊/游戏，仅头像。"
+          ]
+        },
+        {
+          "id": "a01-ch07-xiaoman-01",
+          "route": "xiaoman",
+          "heading": "第39天·17:00｜她的周末",
+          "sourceLineStart": 27,
+          "sourceLineEnd": 62,
+          "time": "第39天·17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "先通话，约七点前街口见；不同事短课CG。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "rental-day",
+              "time": "第39天·17:00",
+              "requirements": [
+                "先通话，约七点前街口见；不同事短课CG。"
+              ]
+            },
+            {
+              "label": "street-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "先通话，约七点前街口见；不同事短课CG。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 xiaoman"
+          ],
+          "notes": [
+            "先通话，约七点前街口见；不同事短课CG。"
+          ]
+        },
+        {
+          "id": "a01-ch07-xiaoman-02",
+          "route": "xiaoman",
+          "heading": "若第24天选择投篮机｜不欠的第三局",
+          "sourceLineStart": 63,
+          "sourceLineEnd": 82,
+          "time": "第39天·17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "第四章投篮机分支回收；三局不补机械恋爱分数。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "arcade-basketball",
+              "time": "第39天·17:00",
+              "requirements": [
+                "第四章投篮机分支回收；三局不补机械恋爱分数。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 xiaoman",
+            "第四章相应选项已发生；两分支互斥"
+          ],
+          "notes": [
+            "第四章投篮机分支回收；三局不补机械恋爱分数。"
+          ]
+        },
+        {
+          "id": "a01-ch07-xiaoman-03",
+          "route": "xiaoman",
+          "heading": "若第24天选择旧书摊｜第二只纸鹤",
+          "sourceLineStart": 83,
+          "sourceLineEnd": 106,
+          "time": "第39天·17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "第四章旧书摊分支；本次摊未开，石阶折彩纸鹤，不能仍摆满书。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "used-books-closed-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "第四章旧书摊分支；本次摊未开，石阶折彩纸鹤，不能仍摆满书。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 xiaoman",
+            "第四章相应选项已发生；两分支互斥"
+          ],
+          "notes": [
+            "第四章旧书摊分支；本次摊未开，石阶折彩纸鹤，不能仍摆满书。"
+          ]
+        },
+        {
+          "id": "a01-ch07-xiaoman-04",
+          "route": "xiaoman",
+          "heading": "共同段｜七点半的路口",
+          "sourceLineStart": 107,
+          "sourceLineEnd": 122,
+          "time": "第39天·17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "19:30路口，光线待A04按季节连续安排。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "street-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "19:30路口，光线待A04按季节连续安排。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 xiaoman"
+          ],
+          "notes": [
+            "19:30路口，光线待A04按季节连续安排。"
+          ]
+        },
+        {
+          "id": "a01-ch07-zhouzhi-01",
+          "route": "zhouzhi",
+          "heading": "第43天·16:40｜她也有别的约",
+          "sourceLineStart": 125,
+          "sourceLineEnd": 144,
+          "time": "第43天·16:40",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "试卖经历只消息概述；当前休息日，不画经营失败事件CG。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "street-day",
+              "time": "第43天·16:40",
+              "requirements": [
+                "试卖经历只消息概述；当前休息日，不画经营失败事件CG。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 zhouzhi"
+          ],
+          "notes": [
+            "试卖经历只消息概述；当前休息日，不画经营失败事件CG。"
+          ]
+        },
+        {
+          "id": "a01-ch07-zhouzhi-02",
+          "route": "zhouzhi",
+          "heading": "若第23天选择沿河听歌｜今天的歌很吵",
+          "sourceLineStart": 145,
+          "sourceLineEnd": 162,
+          "time": "第43天·16:40",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "第四章沿河听歌回收；一人一只耳机，河边座位。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "river-day",
+              "time": "第43天·16:40",
+              "requirements": [
+                "第四章沿河听歌回收；一人一只耳机，河边座位。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 zhouzhi",
+            "第四章相应选项已发生；两分支互斥"
+          ],
+          "notes": [
+            "第四章沿河听歌回收；一人一只耳机，河边座位。"
+          ]
+        },
+        {
+          "id": "a01-ch07-zhouzhi-03",
+          "route": "zhouzhi",
+          "heading": "若第23天选择影院｜这回我挑片",
+          "sourceLineStart": 163,
+          "sourceLineEnd": 184,
+          "time": "第43天·16:40",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "第四章影院回收；不同电影/票根，具体影片不画。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "cinema-interior",
+              "time": "第43天·16:40",
+              "requirements": [
+                "第四章影院回收；不同电影/票根，具体影片不画。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 zhouzhi",
+            "第四章相应选项已发生；两分支互斥"
+          ],
+          "notes": [
+            "第四章影院回收；不同电影/票根，具体影片不画。"
+          ]
+        },
+        {
+          "id": "a01-ch07-zhouzhi-04",
+          "route": "zhouzhi",
+          "heading": "共同段｜不是接送任务",
+          "sourceLineStart": 185,
+          "sourceLineEnd": 200,
+          "time": "第43天·16:40",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "分别各自购物，不画强行送行。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "street-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "分别各自购物，不画强行送行。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 zhouzhi"
+          ],
+          "notes": [
+            "分别各自购物，不画强行送行。"
+          ]
+        },
+        {
+          "id": "a01-ch07-mengyao-01",
+          "route": "mengyao",
+          "heading": "第39天·17:10｜没有我的那一桌",
+          "sourceLineStart": 203,
+          "sourceLineEnd": 230,
+          "time": "第39天·17:10",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "饭店门口与两位朋友；朋友为无专用立绘环境人物。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "food-day",
+              "time": "第39天·17:10",
+              "requirements": [
+                "饭店门口与两位朋友；朋友为无专用立绘环境人物。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 mengyao"
+          ],
+          "notes": [
+            "饭店门口与两位朋友；朋友为无专用立绘环境人物。"
+          ]
+        },
+        {
+          "id": "a01-ch07-mengyao-02",
+          "route": "mengyao",
+          "heading": "若第四章选择 A｜旧书摊",
+          "sourceLineStart": 233,
+          "sourceLineEnd": 256,
+          "time": "第43天·16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "旧书分支回收；收据、厨房随笔、纸条。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "tea-day",
+              "time": "第43天·16:30",
+              "requirements": [
+                "旧书分支回收；收据、厨房随笔、纸条。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 mengyao",
+            "第四章相应选项已发生；两分支互斥"
+          ],
+          "notes": [
+            "旧书分支回收；收据、厨房随笔、纸条。"
+          ]
+        },
+        {
+          "id": "a01-ch07-mengyao-03",
+          "route": "mengyao",
+          "heading": "若第四章选择 B｜街机厅",
+          "sourceLineStart": 257,
+          "sourceLineEnd": 278,
+          "time": "第43天·16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "街机分支回收；本次双人划船，不继续画气垫球。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "arcade-rowing",
+              "time": "第43天·16:30",
+              "requirements": [
+                "街机分支回收；本次双人划船，不继续画气垫球。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 mengyao",
+            "第四章相应选项已发生；两分支互斥"
+          ],
+          "notes": [
+            "街机分支回收；本次双人划船，不继续画气垫球。"
+          ]
+        },
+        {
+          "id": "a01-ch07-mengyao-04",
+          "route": "mengyao",
+          "heading": "本章汇合",
+          "sourceLineStart": 279,
+          "sourceLineEnd": 290,
+          "time": "第43天·16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "共同汇合。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "street-day",
+              "time": "第43天·16:30",
+              "requirements": [
+                "共同汇合。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 mengyao"
+          ],
+          "notes": [
+            "共同汇合。"
+          ]
+        },
+        {
+          "id": "a01-ch07-yelan-01",
+          "route": "yelan",
+          "heading": "第39天·18:10｜她并不只在那个队伍里",
+          "sourceLineStart": 293,
+          "sourceLineEnd": 314,
+          "time": "第39天·18:10",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "remote-voice-or-message",
+              "requirements": [
+                "仅语音/手机消息/头像，不在当前背景中显示实体立绘。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "rental-day",
+              "time": "第39天·18:10",
+              "requirements": [
+                "叶岚仅消息/无脸甜汤照，不实体出场，不增公司背景。"
+              ]
+            },
+            {
+              "label": "netcafe-counter-night",
+              "time": "夜间",
+              "requirements": [
+                "叶岚仅消息/无脸甜汤照，不实体出场，不增公司背景。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 yelan"
+          ],
+          "notes": [
+            "叶岚仅消息/无脸甜汤照，不实体出场，不增公司背景。"
+          ]
+        },
+        {
+          "id": "a01-ch07-yelan-02",
+          "route": "yelan",
+          "heading": "若第四章选择 A｜河边风筝",
+          "sourceLineStart": 317,
+          "sourceLineEnd": 342,
+          "time": "第43天·17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "第四章风筝回收；边缘透明胶补丁，不画崭新风筝。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "riverside-lawn-day",
+              "time": "第43天·17:00",
+              "requirements": [
+                "第四章风筝回收；边缘透明胶补丁，不画崭新风筝。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 yelan",
+            "第四章相应选项已发生；两分支互斥"
+          ],
+          "notes": [
+            "第四章风筝回收；边缘透明胶补丁，不画崭新风筝。"
+          ]
+        },
+        {
+          "id": "a01-ch07-yelan-03",
+          "route": "yelan",
+          "heading": "若第四章选择 B｜旧货市场",
+          "sourceLineStart": 343,
+          "sourceLineEnd": 366,
+          "time": "第43天·17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "第四章旧货回收；公司桌角鸭照只手机；新送小鸭底座颜色不同。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "secondhand-day",
+              "time": "第43天·17:00",
+              "requirements": [
+                "第四章旧货回收；公司桌角鸭照只手机；新送小鸭底座颜色不同。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 yelan",
+            "第四章相应选项已发生；两分支互斥"
+          ],
+          "notes": [
+            "第四章旧货回收；公司桌角鸭照只手机；新送小鸭底座颜色不同。"
+          ]
+        },
+        {
+          "id": "a01-ch07-yelan-04",
+          "route": "yelan",
+          "heading": "本章汇合",
+          "sourceLineStart": 367,
+          "sourceLineEnd": 376,
+          "time": "第43天·17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "本章汇合，不把朋友都列为实体。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "food-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "本章汇合，不把朋友都列为实体。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 yelan"
+          ],
+          "notes": [
+            "本章汇合，不把朋友都列为实体。"
+          ]
+        },
+        {
+          "id": "a01-ch07-piao-01",
+          "route": "piao",
+          "heading": "第39天·16:30｜她今天不围着我转",
+          "sourceLineStart": 379,
+          "sourceLineEnd": 386,
+          "time": "第39天·16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "半小时路口；纸袋破提手、废纸。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "street-day",
+              "time": "第39天·16:30",
+              "requirements": [
+                "半小时路口；纸袋破提手、废纸。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 piao"
+          ],
+          "notes": [
+            "半小时路口；纸袋破提手、废纸。"
+          ]
+        },
+        {
+          "id": "a01-ch07-piao-02",
+          "route": "piao",
+          "heading": "回收第24天的小选择",
+          "sourceLineStart": 387,
+          "sourceLineEnd": 394,
+          "time": "第39天·16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "第四章A旧歪纸船与B招牌笑话互斥；不重折抹掉旧船。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "street-day",
+              "time": "第39天·16:30",
+              "requirements": [
+                "第四章A旧歪纸船与B招牌笑话互斥；不重折抹掉旧船。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 piao",
+            "第四章相应选项已发生；两分支互斥"
+          ],
+          "notes": [
+            "第四章A旧歪纸船与B招牌笑话互斥；不重折抹掉旧船。"
+          ]
+        },
+        {
+          "id": "a01-ch07-piao-03",
+          "route": "piao",
+          "heading": "仅交往",
+          "sourceLineStart": 397,
+          "sourceLineEnd": 420,
+          "time": "第39天·17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "恋人分支；朋友约会不强行跟去。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "street-day",
+              "time": "第39天·17:00",
+              "requirements": [
+                "恋人分支；朋友约会不强行跟去。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择交往"
+          ],
+          "notes": [
+            "恋人分支；朋友约会不强行跟去。"
+          ]
+        },
+        {
+          "id": "a01-ch07-piao-04",
+          "route": "piao",
+          "heading": "仅朋友",
+          "sourceLineStart": 421,
+          "sourceLineEnd": 440,
+          "time": "第39天·17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "朋友分支后叙朋友饭局；其他朋友不新增身份。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "朋友分支后叙朋友饭局；其他朋友不新增身份。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "street-day",
+              "time": "第39天·17:00",
+              "requirements": [
+                "朋友分支后叙朋友饭局；其他朋友不新增身份。"
+              ]
+            },
+            {
+              "label": "food-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "朋友分支后叙朋友饭局；其他朋友不新增身份。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择朋友"
+          ],
+          "notes": [
+            "朋友分支后叙朋友饭局；其他朋友不新增身份。"
+          ]
+        },
+        {
+          "id": "a01-ch07-friends-01",
+          "route": "friends",
+          "heading": "若第四章去看了小演出",
+          "sourceLineStart": 447,
+          "sourceLineEnd": 460,
+          "time": "第40天·休班下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "performance-shop-day",
+              "time": "第40天·休班下午",
+              "requirements": [
+                "一个人看演出，毛狼在工作不入场。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 friends",
+            "第四章相应选项已发生；两分支互斥"
+          ],
+          "notes": [
+            "一个人看演出，毛狼在工作不入场。"
+          ]
+        },
+        {
+          "id": "a01-ch07-friends-02",
+          "route": "friends",
+          "heading": "若第四章沿街散步",
+          "sourceLineStart": 461,
+          "sourceLineEnd": 472,
+          "time": "第40天·休班下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "game-store-day",
+              "time": "第40天·休班下午",
+              "requirements": [
+                "独自逛店，店主无专用立绘。"
+              ]
+            },
+            {
+              "label": "street-day",
+              "time": "第40天·休班下午",
+              "requirements": [
+                "独自逛店，店主无专用立绘。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 friends",
+            "第四章相应选项已发生；两分支互斥"
+          ],
+          "notes": [
+            "独自逛店，店主无专用立绘。"
+          ]
+        },
+        {
+          "id": "a01-ch07-friends-03",
+          "route": "friends",
+          "heading": "共同段｜晚上那一小局",
+          "sourceLineStart": 473,
+          "sourceLineEnd": 480,
+          "time": "第40天·休班下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "remote-voice-or-message",
+              "requirements": [
+                "仅语音/手机消息/头像，不在当前背景中显示实体立绘。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "rental-night",
+              "time": "夜间",
+              "requirements": [
+                "在线小局；师匠、叶岚均缺席，不渲染其头像。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "notes": [
+            "在线小局；师匠、叶岚均缺席，不渲染其头像。"
+          ]
+        },
+        {
+          "id": "a01-ch07-friends-04",
+          "route": "friends",
+          "heading": "第43天·16:00｜他也有自己的事",
+          "sourceLineStart": 481,
+          "sourceLineEnd": 496,
+          "time": "第43天·16:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "remote-voice-or-message",
+              "requirements": [
+                "仅语音/手机消息/头像，不在当前背景中显示实体立绘。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "rental-day",
+              "time": "第43天·16:00",
+              "requirements": [
+                "毛狼消息谈与飘约会，不画两人约会现场。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "notes": [
+            "毛狼消息谈与飘约会，不画两人约会现场。"
+          ]
+        },
+        {
+          "id": "a01-ch07-huangqiuqiu-01",
+          "route": "huangqiuqiu",
+          "heading": "第40天·17:00｜她今天想少说一点",
+          "sourceLineStart": 499,
+          "sourceLineEnd": 516,
+          "time": "第40天·17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "球形，少说话也可并坐。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "courtyard-day",
+              "time": "第40天·17:00",
+              "requirements": [
+                "球形，少说话也可并坐。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 huangqiuqiu",
+            "已取得隐藏资格并完成第14天相识"
+          ],
+          "notes": [
+            "球形，少说话也可并坐。"
+          ]
+        },
+        {
+          "id": "a01-ch07-huangqiuqiu-02",
+          "route": "huangqiuqiu",
+          "heading": "回收第24天的小选择",
+          "sourceLineStart": 517,
+          "sourceLineEnd": 522,
+          "time": "第40天·17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "第四章自画像/鸭故事互斥；鸭不是实体宠物。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "courtyard-day",
+              "time": "第40天·17:00",
+              "requirements": [
+                "第四章自画像/鸭故事互斥；鸭不是实体宠物。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 huangqiuqiu",
+            "已取得隐藏资格并完成第14天相识",
+            "第四章相应选项已发生；两分支互斥"
+          ],
+          "notes": [
+            "第四章自画像/鸭故事互斥；鸭不是实体宠物。"
+          ]
+        },
+        {
+          "id": "a01-ch07-huangqiuqiu-03",
+          "route": "huangqiuqiu",
+          "heading": "第42天·16:30｜一个不能随便代替的名字",
+          "sourceLineStart": 523,
+          "sourceLineEnd": 560,
+          "time": "第42天·16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "第42天铺垫仍球形，不提前显示人形或形态按钮。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "courtyard-day",
+              "time": "第42天·16:30",
+              "requirements": [
+                "第42天铺垫仍球形，不提前显示人形或形态按钮。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 huangqiuqiu",
+            "已取得隐藏资格并完成第14天相识"
+          ],
+          "notes": [
+            "第42天铺垫仍球形，不提前显示人形或形态按钮。"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "source": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "sourceSha256": "2903d54c7d22f9e7fcfe3a4d4ead3c16dc103a67b675c12a636eb7bfb463279b",
+      "sections": [
+        {
+          "id": "a01-ch08-common-01",
+          "route": "common",
+          "heading": "第52天·17:00｜一张椅子坐得下两个人的意见",
+          "sourceLineStart": 11,
+          "sourceLineEnd": 42,
+          "time": "第52天·17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "shijiang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "饭盒、手机试排，其他同事仅电话；未获得固定白班。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "netcafe-counter-day",
+              "time": "第52天·17:00",
+              "requirements": [
+                "饭盒、手机试排，其他同事仅电话；未获得固定白班。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [],
+          "notes": [
+            "饭盒、手机试排，其他同事仅电话；未获得固定白班。"
+          ]
+        },
+        {
+          "id": "a01-ch08-xiaoman-01",
+          "route": "xiaoman",
+          "heading": "第55天·16:20｜今天换我不太行",
+          "sourceLineStart": 45,
+          "sourceLineEnd": 84,
+          "time": "第55天·16:20",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-tired"
+              ],
+              "appearanceMode": "remote-voice-or-message",
+              "requirements": [
+                "仅语音/手机消息/头像，不在当前背景中显示实体立绘。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "rental-day",
+              "time": "第55天·16:20",
+              "requirements": [
+                "小满语音联系，不展示她住处与湿袖场面。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 xiaoman"
+          ],
+          "notes": [
+            "小满语音联系，不展示她住处与湿袖场面。"
+          ]
+        },
+        {
+          "id": "a01-ch08-xiaoman-02",
+          "route": "xiaoman",
+          "heading": "第59天·17:40｜错过一球",
+          "sourceLineStart": 85,
+          "sourceLineEnd": 122,
+          "time": "第59天·17:40",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-tired"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "熟人球馆非赛事；借拍与保护套，小腿疲倦。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "badminton-day",
+              "time": "第59天·17:40",
+              "requirements": [
+                "熟人球馆非赛事；借拍与保护套，小腿疲倦。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 xiaoman"
+          ],
+          "notes": [
+            "熟人球馆非赛事；借拍与保护套，小腿疲倦。"
+          ]
+        },
+        {
+          "id": "a01-ch08-zhouzhi-01",
+          "route": "zhouzhi",
+          "heading": "第57天·17:20｜够不够，不用藏着算",
+          "sourceLineStart": 125,
+          "sourceLineEnd": 184,
+          "time": "第57天·17:20",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "漂亮饭店门外发现价格，转去小锅饭；两杯热豆浆；不得把两店画成同一家。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "food-day",
+              "time": "第57天·17:20",
+              "requirements": [
+                "漂亮饭店门外发现价格，转去小锅饭；两杯热豆浆；不得把两店画成同一家。"
+              ]
+            },
+            {
+              "label": "food-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "漂亮饭店门外发现价格，转去小锅饭；两杯热豆浆；不得把两店画成同一家。"
+              ]
+            },
+            {
+              "label": "street-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "漂亮饭店门外发现价格，转去小锅饭；两杯热豆浆；不得把两店画成同一家。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 zhouzhi"
+          ],
+          "notes": [
+            "漂亮饭店门外发现价格，转去小锅饭；两杯热豆浆；不得把两店画成同一家。"
+          ]
+        },
+        {
+          "id": "a01-ch08-mengyao-01",
+          "route": "mengyao",
+          "heading": "第54天·16:00｜今天不当能干的人",
+          "sourceLineStart": 187,
+          "sourceLineEnd": 266,
+          "time": "第54天·16:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-tired"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "桌游茶店、包带挂错椅背；疲倦但不改职业。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "tea-day",
+              "time": "第54天·16:00",
+              "requirements": [
+                "桌游茶店、包带挂错椅背；疲倦但不改职业。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 mengyao"
+          ],
+          "notes": [
+            "桌游茶店、包带挂错椅背；疲倦但不改职业。"
+          ]
+        },
+        {
+          "id": "a01-ch08-yelan-01",
+          "route": "yelan",
+          "heading": "第54天·17:20｜不想赢的时候，也想见你",
+          "sourceLineStart": 269,
+          "sourceLineEnd": 334,
+          "time": "第54天·17:20",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-tired"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "饭店/超市/街边长椅，饼干水；不画游戏胜利。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "food-day",
+              "time": "第54天·17:20",
+              "requirements": [
+                "饭店/超市/街边长椅，饼干水；不画游戏胜利。"
+              ]
+            },
+            {
+              "label": "supermarket-day",
+              "time": "第54天·17:20",
+              "requirements": [
+                "饭店/超市/街边长椅，饼干水；不画游戏胜利。"
+              ]
+            },
+            {
+              "label": "park-day",
+              "time": "第54天·17:20",
+              "requirements": [
+                "饭店/超市/街边长椅，饼干水；不画游戏胜利。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 yelan"
+          ],
+          "notes": [
+            "饭店/超市/街边长椅，饼干水；不画游戏胜利。"
+          ]
+        },
+        {
+          "id": "a01-ch08-piao-01",
+          "route": "piao",
+          "heading": "第54天·16:00｜不是空出所有时间",
+          "sourceLineStart": 337,
+          "sourceLineEnd": 356,
+          "time": "第54天·16:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "没带册子，润喉糖、门口猫可环境细节，不新增宠物角色。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "food-day",
+              "time": "第54天·16:00",
+              "requirements": [
+                "没带册子，润喉糖、门口猫可环境细节，不新增宠物角色。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 piao"
+          ],
+          "notes": [
+            "没带册子，润喉糖、门口猫可环境细节，不新增宠物角色。"
+          ]
+        },
+        {
+          "id": "a01-ch08-piao-02",
+          "route": "piao",
+          "heading": "仅交往",
+          "sourceLineStart": 359,
+          "sourceLineEnd": 382,
+          "time": "第54天·17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "恋人：衣店拒绝逛，街角靠肩及拥抱仅此分支。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "clothing-day",
+              "time": "第54天·17:00",
+              "requirements": [
+                "恋人：衣店拒绝逛，街角靠肩及拥抱仅此分支。"
+              ]
+            },
+            {
+              "label": "street-day",
+              "time": "第54天·17:00",
+              "requirements": [
+                "恋人：衣店拒绝逛，街角靠肩及拥抱仅此分支。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择交往"
+          ],
+          "notes": [
+            "恋人：衣店拒绝逛，街角靠肩及拥抱仅此分支。"
+          ]
+        },
+        {
+          "id": "a01-ch08-piao-03",
+          "route": "piao",
+          "heading": "仅朋友",
+          "sourceLineStart": 383,
+          "sourceLineEnd": 402,
+          "time": "第54天·17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "朋友：告知与毛狼正式交往；毛狼仅消息。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "food-day",
+              "time": "第54天·17:00",
+              "requirements": [
+                "朋友：告知与毛狼正式交往；毛狼仅消息。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择朋友"
+          ],
+          "notes": [
+            "朋友：告知与毛狼正式交往；毛狼仅消息。"
+          ]
+        },
+        {
+          "id": "a01-ch08-friends-01",
+          "route": "friends",
+          "heading": "第54天·17:30｜别把空出来的时间又填满",
+          "sourceLineStart": 405,
+          "sourceLineEnd": 428,
+          "time": "第54天·17:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "shijiang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "拒绝活动现场帮工仅消息；晚间师匠找眼镜盒，不新增演出工作场。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "rental-day",
+              "time": "第54天·17:30",
+              "requirements": [
+                "拒绝活动现场帮工仅消息；晚间师匠找眼镜盒，不新增演出工作场。"
+              ]
+            },
+            {
+              "label": "netcafe-counter-night",
+              "time": "夜间",
+              "requirements": [
+                "拒绝活动现场帮工仅消息；晚间师匠找眼镜盒，不新增演出工作场。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "notes": [
+            "拒绝活动现场帮工仅消息；晚间师匠找眼镜盒，不新增演出工作场。"
+          ]
+        },
+        {
+          "id": "a01-ch08-friends-02",
+          "route": "friends",
+          "heading": "第56天·20:00｜一次不太成功的组局",
+          "sourceLineStart": 429,
+          "sourceLineEnd": 442,
+          "time": "第56天·20:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "remote-voice-or-message",
+              "requirements": [
+                "仅语音/手机消息/头像，不在当前背景中显示实体立绘。"
+              ]
+            },
+            {
+              "id": "shijiang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "remote-voice-or-message",
+              "requirements": [
+                "仅语音/手机消息/头像，不在当前背景中显示实体立绘。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "rental-night",
+              "time": "夜间",
+              "requirements": [
+                "休班在线组局，毛狼/师匠仅语音。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "notes": [
+            "休班在线组局，毛狼/师匠仅语音。"
+          ]
+        },
+        {
+          "id": "a01-ch08-friends-03",
+          "route": "friends",
+          "heading": "第59天·下午｜剩下的半天",
+          "sourceLineStart": 443,
+          "sourceLineEnd": 454,
+          "time": "第59天·下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "remote-voice-or-message",
+              "requirements": [
+                "仅语音/手机消息/头像，不在当前背景中显示实体立绘。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "rental-day",
+              "time": "第59天·下午",
+              "requirements": [
+                "买菜、路边看棋、洗床单/择菜；陌生棋手无专用立绘。"
+              ]
+            },
+            {
+              "label": "street-day",
+              "time": "第59天·下午",
+              "requirements": [
+                "买菜、路边看棋、洗床单/择菜；陌生棋手无专用立绘。"
+              ]
+            },
+            {
+              "label": "supermarket-day",
+              "time": "第59天·下午",
+              "requirements": [
+                "买菜、路边看棋、洗床单/择菜；陌生棋手无专用立绘。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "notes": [
+            "买菜、路边看棋、洗床单/择菜；陌生棋手无专用立绘。"
+          ]
+        },
+        {
+          "id": "a01-ch08-huangqiuqiu-01",
+          "route": "huangqiuqiu",
+          "heading": "第55天·16:00｜一张还会改的班表",
+          "sourceLineStart": 457,
+          "sourceLineEnd": 484,
+          "time": "第55天·16:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "球形，班表不画成升职通知；移凳看天。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "courtyard-day",
+              "time": "第55天·16:00",
+              "requirements": [
+                "球形，班表不画成升职通知；移凳看天。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 huangqiuqiu",
+            "已取得隐藏资格并完成第14天相识"
+          ],
+          "notes": [
+            "球形，班表不画成升职通知；移凳看天。"
+          ]
+        },
+        {
+          "id": "a01-ch08-huangqiuqiu-02",
+          "route": "huangqiuqiu",
+          "heading": "第55天·17:00｜她想把手放一会儿",
+          "sourceLineStart": 485,
+          "sourceLineEnd": 544,
+          "time": "第55天·17:00",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "orb",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "17:00先球形触手并松开；主动提出变身，文文退后；变身后人形。人形只腰部镜头，照片下装不可补设。"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-hesitant",
+                "expression-smile",
+                "action-wave",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical-after-transformation",
+              "requirements": [
+                "松手、文文退后后才自主变身；同一段按精确节点切形态。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "courtyard-day",
+              "time": "第55天·17:00",
+              "requirements": [
+                "17:00先球形触手并松开；主动提出变身，文文退后；变身后人形。人形只腰部镜头，照片下装不可补设。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 huangqiuqiu",
+            "已取得隐藏资格并完成第14天相识"
+          ],
+          "notes": [
+            "17:00先球形触手并松开；主动提出变身，文文退后；变身后人形。人形只腰部镜头，照片下装不可补设。"
+          ],
+          "presentationSegments": [
+            {
+              "sourceLineStart": 485,
+              "sourceLineEnd": 524,
+              "form": "orb",
+              "note": "轻搭手后自行松开；文文收手退凳，不要求恋爱条件。"
+            },
+            {
+              "sourceLineStart": 525,
+              "sourceLineEnd": 526,
+              "form": "orb-to-human",
+              "note": "她主动开始改变；过渡镜头，不补脚部服装。"
+            },
+            {
+              "sourceLineStart": 527,
+              "sourceLineEnd": 544,
+              "form": "human",
+              "note": "新外观出现后保持人形，挥手告别。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "source": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "sourceSha256": "d2aeb09d621edb3522b2dc63dcc5b49fa6949891e2c7d17520ffe14d39996549",
+      "sections": [
+        {
+          "id": "a01-ch09-common-01",
+          "route": "common",
+          "heading": "第61天·下午｜留下来的空格",
+          "sourceLineStart": 11,
+          "sourceLineEnd": 32,
+          "time": "第61天·下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "shijiang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "第61天轮班确认，仍有夜班；班表文字交程序。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "netcafe-counter-day",
+              "time": "第61天·下午",
+              "requirements": [
+                "第61天轮班确认，仍有夜班；班表文字交程序。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [],
+          "notes": [
+            "第61天轮班确认，仍有夜班；班表文字交程序。"
+          ]
+        },
+        {
+          "id": "a01-ch09-xiaoman-01",
+          "route": "xiaoman",
+          "heading": "第68天·16:30｜先把话说好",
+          "sourceLineStart": 35,
+          "sourceLineEnd": 70,
+          "time": "第68天·16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "矮墙、橘子、碎发。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "slope-day",
+              "time": "第68天·16:30",
+              "requirements": [
+                "矮墙、橘子、碎发。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 xiaoman"
+          ],
+          "notes": [
+            "矮墙、橘子、碎发。"
+          ]
+        },
+        {
+          "id": "a01-ch09-xiaoman-02",
+          "route": "xiaoman",
+          "heading": "选择A｜我想和你交往，不只是约着出去玩",
+          "sourceLineStart": 71,
+          "sourceLineEnd": 110,
+          "time": "第68天·16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "交往：征得同意，牵手下坡。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "slope-day",
+              "time": "第68天·16:30",
+              "requirements": [
+                "交往：征得同意，牵手下坡。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 xiaoman",
+            "当前路线第九章选择交往"
+          ],
+          "notes": [
+            "交往：征得同意，牵手下坡。"
+          ]
+        },
+        {
+          "id": "a01-ch09-xiaoman-03",
+          "route": "xiaoman",
+          "heading": "选择B｜我很珍惜你，但现在想把我们放在朋友的位置",
+          "sourceLineStart": 111,
+          "sourceLineEnd": 144,
+          "time": "第68天·16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-downcast"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "朋友：不拥抱；第82天群约看球为后续，勿并入第68天。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "slope-day",
+              "time": "第68天·16:30",
+              "requirements": [
+                "朋友：不拥抱；第82天群约看球为后续，勿并入第68天。"
+              ]
+            },
+            {
+              "label": "busstop-day",
+              "time": "第68天·16:30",
+              "requirements": [
+                "朋友：不拥抱；第82天群约看球为后续，勿并入第68天。"
+              ]
+            },
+            {
+              "label": "badminton-day",
+              "time": "第68天·16:30",
+              "requirements": [
+                "朋友：不拥抱；第82天群约看球为后续，勿并入第68天。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 xiaoman",
+            "当前路线第九章选择朋友"
+          ],
+          "notes": [
+            "朋友：不拥抱；第82天群约看球为后续，勿并入第68天。"
+          ]
+        },
+        {
+          "id": "a01-ch09-zhouzhi-01",
+          "route": "zhouzhi",
+          "heading": "第75天·18:10｜吃完饭，话还没说完",
+          "sourceLineStart": 147,
+          "sourceLineEnd": 170,
+          "time": "第75天·18:10",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "河边小馆晚饭；关系选择前。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "food-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "河边小馆晚饭；关系选择前。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 zhouzhi"
+          ],
+          "notes": [
+            "河边小馆晚饭；关系选择前。"
+          ]
+        },
+        {
+          "id": "a01-ch09-zhouzhi-02",
+          "route": "zhouzhi",
+          "heading": "选择A｜愿意。我也想把你放进以后的安排里",
+          "sourceLineStart": 171,
+          "sourceLineEnd": 212,
+          "time": "第75天·18:10",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "交往：牵手/伞下亲吻。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "food-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "交往：牵手/伞下亲吻。"
+              ]
+            },
+            {
+              "label": "eaves-day",
+              "time": "第75天·18:10",
+              "requirements": [
+                "交往：牵手/伞下亲吻。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 zhouzhi",
+            "当前路线第九章选择交往"
+          ],
+          "notes": [
+            "交往：牵手/伞下亲吻。"
+          ]
+        },
+        {
+          "id": "a01-ch09-zhouzhi-03",
+          "route": "zhouzhi",
+          "heading": "选择B｜谢谢你告诉我，但我想继续做朋友",
+          "sourceLineStart": 213,
+          "sourceLineEnd": 246,
+          "time": "第75天·18:10",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-downcast"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "朋友：先留距离；第88天群饭局再见，不密集催回复。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "food-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "朋友：先留距离；第88天群饭局再见，不密集催回复。"
+              ]
+            },
+            {
+              "label": "street-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "朋友：先留距离；第88天群饭局再见，不密集催回复。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 zhouzhi",
+            "当前路线第九章选择朋友"
+          ],
+          "notes": [
+            "朋友：先留距离；第88天群饭局再见，不密集催回复。"
+          ]
+        },
+        {
+          "id": "a01-ch09-mengyao-01",
+          "route": "mengyao",
+          "heading": "第68天·17:30｜从现在开始答",
+          "sourceLineStart": 249,
+          "sourceLineEnd": 268,
+          "time": "第68天·17:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "烧饼、较低水位、晒热台阶。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "bridge-day",
+              "time": "第68天·17:30",
+              "requirements": [
+                "烧饼、较低水位、晒热台阶。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 mengyao"
+          ],
+          "notes": [
+            "烧饼、较低水位、晒热台阶。"
+          ]
+        },
+        {
+          "id": "a01-ch09-mengyao-02",
+          "route": "mengyao",
+          "heading": "仅交往｜这一次，也请认识我",
+          "sourceLineStart": 269,
+          "sourceLineEnd": 304,
+          "time": "第68天·17:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "交往：牵手，不能把前任视作默认复合。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "bridge-day",
+              "time": "第68天·17:30",
+              "requirements": [
+                "交往：牵手，不能把前任视作默认复合。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 mengyao",
+            "当前路线第九章选择交往"
+          ],
+          "notes": [
+            "交往：牵手，不能把前任视作默认复合。"
+          ]
+        },
+        {
+          "id": "a01-ch09-mengyao-03",
+          "route": "mengyao",
+          "heading": "仅朋友｜把熟悉放到别处",
+          "sourceLineStart": 305,
+          "sourceLineEnd": 332,
+          "time": "第68天·17:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-downcast"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "朋友：第81天群聊和私信单独时间，非桥边延续。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "bridge-day",
+              "time": "第68天·17:30",
+              "requirements": [
+                "朋友：第81天群聊和私信单独时间，非桥边延续。"
+              ]
+            },
+            {
+              "label": "rental-day",
+              "time": "第68天·17:30",
+              "requirements": [
+                "朋友：第81天群聊和私信单独时间，非桥边延续。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 mengyao",
+            "当前路线第九章选择朋友"
+          ],
+          "notes": [
+            "朋友：第81天群聊和私信单独时间，非桥边延续。"
+          ]
+        },
+        {
+          "id": "a01-ch09-yelan-01",
+          "route": "yelan",
+          "heading": "第72天·17:40｜这次没有自动匹配",
+          "sourceLineStart": 335,
+          "sourceLineEnd": 352,
+          "time": "第72天·17:40",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "新街道小店门外看雨，颜色不同的伞。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "eaves-day",
+              "time": "第72天·17:40",
+              "requirements": [
+                "新街道小店门外看雨，颜色不同的伞。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 yelan"
+          ],
+          "notes": [
+            "新街道小店门外看雨，颜色不同的伞。"
+          ]
+        },
+        {
+          "id": "a01-ch09-yelan-02",
+          "route": "yelan",
+          "heading": "仅交往｜一起走出语音房间",
+          "sourceLineStart": 353,
+          "sourceLineEnd": 390,
+          "time": "第72天·17:40",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "交往：水瓶换手、牵手。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "eaves-day",
+              "time": "第72天·17:40",
+              "requirements": [
+                "交往：水瓶换手、牵手。"
+              ]
+            },
+            {
+              "label": "busstop-day",
+              "time": "第72天·17:40",
+              "requirements": [
+                "交往：水瓶换手、牵手。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 yelan",
+            "当前路线第九章选择交往"
+          ],
+          "notes": [
+            "交往：水瓶换手、牵手。"
+          ]
+        },
+        {
+          "id": "a01-ch09-yelan-03",
+          "route": "yelan",
+          "heading": "仅朋友｜留在队伍里的人",
+          "sourceLineStart": 391,
+          "sourceLineEnd": 420,
+          "time": "第72天·17:40",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-downcast"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "朋友：保持队友关系，后续语音不实体登场。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "eaves-day",
+              "time": "第72天·17:40",
+              "requirements": [
+                "朋友：保持队友关系，后续语音不实体登场。"
+              ]
+            },
+            {
+              "label": "rental-night",
+              "time": "夜间",
+              "requirements": [
+                "朋友：保持队友关系，后续语音不实体登场。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 yelan",
+            "当前路线第九章选择朋友"
+          ],
+          "notes": [
+            "朋友：保持队友关系，后续语音不实体登场。"
+          ]
+        },
+        {
+          "id": "a01-ch09-piao-01",
+          "route": "piao",
+          "heading": "第74天·15:30｜说的是下一次",
+          "sourceLineStart": 423,
+          "sourceLineEnd": 442,
+          "time": "第74天·15:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "原文只说桌边落座；茶店是可复用演出建议，地点未定，不强定她住处。第一批册子/日期空框。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "tea-day",
+              "time": "第74天·15:30",
+              "requirements": [
+                "原文只说桌边落座；茶店是可复用演出建议，地点未定，不强定她住处。第一批册子/日期空框。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 piao"
+          ],
+          "notes": [
+            "原文只说桌边落座；茶店是可复用演出建议，地点未定，不强定她住处。第一批册子/日期空框。"
+          ]
+        },
+        {
+          "id": "a01-ch09-piao-02",
+          "route": "piao",
+          "heading": "仅交往",
+          "sourceLineStart": 445,
+          "sourceLineEnd": 474,
+          "time": "第74天·16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "沿用第三章交往，不能再选；书签/亲吻/预留日期。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "tea-day",
+              "time": "第74天·16:30",
+              "requirements": [
+                "沿用第三章交往，不能再选；书签/亲吻/预留日期。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择交往"
+          ],
+          "notes": [
+            "沿用第三章交往，不能再选；书签/亲吻/预留日期。"
+          ]
+        },
+        {
+          "id": "a01-ch09-piao-03",
+          "route": "piao",
+          "heading": "仅朋友",
+          "sourceLineStart": 475,
+          "sourceLineEnd": 498,
+          "time": "第74天·16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "沿用第三章朋友，毛狼先电话后到场。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "沿用第三章朋友，毛狼先电话后到场。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "tea-day",
+              "time": "第74天·16:30",
+              "requirements": [
+                "沿用第三章朋友，毛狼先电话后到场。"
+              ]
+            },
+            {
+              "label": "street-day",
+              "time": "第74天·16:30",
+              "requirements": [
+                "沿用第三章朋友，毛狼先电话后到场。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择朋友"
+          ],
+          "notes": [
+            "沿用第三章朋友，毛狼先电话后到场。"
+          ]
+        },
+        {
+          "id": "a01-ch09-friends-01",
+          "route": "friends",
+          "heading": "第72天·休班晚上｜谁都不是替补",
+          "sourceLineStart": 501,
+          "sourceLineEnd": 518,
+          "time": "第72天·休班晚上",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "生日第二顿，蛋糕/水果；地点未指定，普通小店为演出建议，不改文稿。"
+              ]
+            },
+            {
+              "id": "shijiang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "生日第二顿，蛋糕/水果；地点未指定，普通小店为演出建议，不改文稿。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "food-night",
+              "time": "夜间",
+              "requirements": [
+                "生日第二顿，蛋糕/水果；地点未指定，普通小店为演出建议，不改文稿。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "notes": [
+            "生日第二顿，蛋糕/水果；地点未指定，普通小店为演出建议，不改文稿。"
+          ]
+        },
+        {
+          "id": "a01-ch09-friends-02",
+          "route": "friends",
+          "heading": "第80天·15:30｜我自己的下一步",
+          "sourceLineStart": 519,
+          "sourceLineEnd": 530,
+          "time": "第80天·15:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile"
+              ],
+              "appearanceMode": "remote-voice-or-message",
+              "requirements": [
+                "仅语音/手机消息/头像，不在当前背景中显示实体立绘。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "bookstore-day",
+              "time": "第80天·15:30",
+              "requirements": [
+                "自己的书非技能资料，晚间毛狼仅消息。"
+              ]
+            },
+            {
+              "label": "rental-night",
+              "time": "夜间",
+              "requirements": [
+                "自己的书非技能资料，晚间毛狼仅消息。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "notes": [
+            "自己的书非技能资料，晚间毛狼仅消息。"
+          ]
+        },
+        {
+          "id": "a01-ch09-friends-03",
+          "route": "friends",
+          "heading": "第90天·傍晚｜回消息的人",
+          "sourceLineStart": 531,
+          "sourceLineEnd": 542,
+          "time": "第90天·傍晚",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "rental-day",
+              "time": "第90天·傍晚",
+              "requirements": [
+                "母亲电话，地理位置未指定，沿用住处为演出建议。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "notes": [
+            "母亲电话，地理位置未指定，沿用住处为演出建议。"
+          ]
+        },
+        {
+          "id": "a01-ch09-huangqiuqiu-01",
+          "route": "huangqiuqiu",
+          "heading": "第76天·16:30｜不是替故事选结尾",
+          "sourceLineStart": 545,
+          "sourceLineEnd": 569,
+          "time": "第76天·16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "人形，玩偶棒靠凳，袖口折起。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "courtyard-day",
+              "time": "第76天·16:30",
+              "requirements": [
+                "人形，玩偶棒靠凳，袖口折起。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 huangqiuqiu",
+            "已取得隐藏资格并完成第14天相识"
+          ],
+          "notes": [
+            "人形，玩偶棒靠凳，袖口折起。"
+          ]
+        },
+        {
+          "id": "a01-ch09-huangqiuqiu-02",
+          "route": "huangqiuqiu",
+          "heading": "仅交往｜我可以再近一点吗",
+          "sourceLineStart": 570,
+          "sourceLineEnd": 595,
+          "time": "第76天·16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "人形恋人：同意后轻拥抱；不由拥抱触发变身。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "courtyard-day",
+              "time": "第76天·16:30",
+              "requirements": [
+                "人形恋人：同意后轻拥抱；不由拥抱触发变身。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 huangqiuqiu",
+            "已取得隐藏资格并完成第14天相识",
+            "当前路线第九章选择交往"
+          ],
+          "notes": [
+            "人形恋人：同意后轻拥抱；不由拥抱触发变身。"
+          ]
+        },
+        {
+          "id": "a01-ch09-huangqiuqiu-03",
+          "route": "huangqiuqiu",
+          "heading": "仅朋友｜这句话也会留下来",
+          "sourceLineStart": 596,
+          "sourceLineEnd": 617,
+          "time": "第76天·16:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-downcast",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "人形朋友：不再敲门催她好起来。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "courtyard-day",
+              "time": "第76天·16:30",
+              "requirements": [
+                "人形朋友：不再敲门催她好起来。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 huangqiuqiu",
+            "已取得隐藏资格并完成第14天相识",
+            "当前路线第九章选择朋友"
+          ],
+          "notes": [
+            "人形朋友：不再敲门催她好起来。"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "source": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "sourceSha256": "94b9a7c273d7a6ba9d0c2f9572ec54a3874f57a8ea0663d4db455ec868d903b2",
+      "sections": [
+        {
+          "id": "a01-ch10-common-01",
+          "route": "common",
+          "heading": "两年后｜仍然要去上班的人",
+          "sourceLineStart": 11,
+          "sourceLineEnd": 20,
+          "time": "两年后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "shijiang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "两年后仍在网吧；只改日用品位置，不擅自装修升级。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "netcafe-counter-day",
+              "time": "两年后",
+              "requirements": [
+                "两年后仍在网吧；只改日用品位置，不擅自装修升级。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [],
+          "notes": [
+            "两年后仍在网吧；只改日用品位置，不擅自装修升级。"
+          ]
+        },
+        {
+          "id": "a01-ch10-common-02",
+          "route": "common",
+          "heading": "关系后日谈｜仅文文与飘交往时",
+          "sourceLineStart": 21,
+          "sourceLineEnd": 40,
+          "time": "两年后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "仅第三章飘交往；普通饭局无婚礼。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "仅第三章飘交往；普通饭局无婚礼。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "food-day",
+              "time": "两年后",
+              "requirements": [
+                "仅第三章飘交往；普通饭局无婚礼。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "route=piao 且第21天交往"
+          ],
+          "notes": [
+            "仅第三章飘交往；普通饭局无婚礼。"
+          ]
+        },
+        {
+          "id": "a01-ch10-common-03",
+          "route": "common",
+          "heading": "关系后日谈｜其余路径：飘与毛狼的婚宴",
+          "sourceLineStart": 41,
+          "sourceLineEnd": 64,
+          "time": "两年后",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "仅其他路线或飘朋友；普通婚宴，球球不出席。文稿未列全员，其他人不硬加。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "仅其他路线或飘朋友；普通婚宴，球球不出席。文稿未列全员，其他人不硬加。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "banquet-day",
+              "time": "两年后",
+              "requirements": [
+                "仅其他路线或飘朋友；普通婚宴，球球不出席。文稿未列全员，其他人不硬加。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "非飘交往路径；黄球球不得入场"
+          ],
+          "notes": [
+            "仅其他路线或飘朋友；普通婚宴，球球不出席。文稿未列全员，其他人不硬加。"
+          ]
+        },
+        {
+          "id": "a01-ch10-xiaoman-01",
+          "route": "xiaoman",
+          "heading": "仅承接第九章选择A｜恋人结局：先问你有没有空",
+          "sourceLineStart": 69,
+          "sourceLineEnd": 112,
+          "time": "两年后·一个有雨的休息日",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "小满租住房间、刘海剪刀玩笑、两袋番茄；恋人亲吻。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "xiaoman-home-day",
+              "time": "两年后·一个有雨的休息日",
+              "requirements": [
+                "小满租住房间、刘海剪刀玩笑、两袋番茄；恋人亲吻。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 xiaoman",
+            "当前路线第九章选择交往"
+          ],
+          "notes": [
+            "小满租住房间、刘海剪刀玩笑、两袋番茄；恋人亲吻。"
+          ]
+        },
+        {
+          "id": "a01-ch10-xiaoman-02",
+          "route": "xiaoman",
+          "heading": "仅承接第九章选择B｜朋友结局：叫我名字就行",
+          "sourceLineStart": 113,
+          "sourceLineEnd": 152,
+          "time": "两年后·一个有雨的休息日",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "xiaoman",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "朋友：纸袋新上衣，面馆叙旧；不套恋人房间CG。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "street-day",
+              "time": "两年后·一个有雨的休息日",
+              "requirements": [
+                "朋友：纸袋新上衣，面馆叙旧；不套恋人房间CG。"
+              ]
+            },
+            {
+              "label": "food-day",
+              "time": "两年后·一个有雨的休息日",
+              "requirements": [
+                "朋友：纸袋新上衣，面馆叙旧；不套恋人房间CG。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 xiaoman",
+            "当前路线第九章选择朋友"
+          ],
+          "notes": [
+            "朋友：纸袋新上衣，面馆叙旧；不套恋人房间CG。"
+          ]
+        },
+        {
+          "id": "a01-ch10-zhouzhi-01",
+          "route": "zhouzhi",
+          "heading": "仅承接第九章选择A｜恋人结局：你先吃，我一会儿到",
+          "sourceLineStart": 157,
+          "sourceLineEnd": 198,
+          "time": "两年后·傍晚",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "恋人：外面小店吃饭，头发随手扎；住处外屋檐亲吻，不虚构共同住所。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "food-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "恋人：外面小店吃饭，头发随手扎；住处外屋檐亲吻，不虚构共同住所。"
+              ]
+            },
+            {
+              "label": "eaves-day",
+              "time": "两年后·傍晚",
+              "requirements": [
+                "恋人：外面小店吃饭，头发随手扎；住处外屋檐亲吻，不虚构共同住所。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 zhouzhi",
+            "当前路线第九章选择交往"
+          ],
+          "notes": [
+            "恋人：外面小店吃饭，头发随手扎；住处外屋檐亲吻，不虚构共同住所。"
+          ]
+        },
+        {
+          "id": "a01-ch10-zhouzhi-02",
+          "route": "zhouzhi",
+          "heading": "仅承接第九章选择B｜朋友结局：还有一张椅子",
+          "sourceLineStart": 199,
+          "sourceLineEnd": 232,
+          "time": "两年后·傍晚",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "zhouzhi",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "朋友：夜宵摊折叠椅；毛狼是照片消息中将来吃，不必实体。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "stall-night",
+              "time": "夜间",
+              "requirements": [
+                "朋友：夜宵摊折叠椅；毛狼是照片消息中将来吃，不必实体。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 zhouzhi",
+            "当前路线第九章选择朋友"
+          ],
+          "notes": [
+            "朋友：夜宵摊折叠椅；毛狼是照片消息中将来吃，不必实体。"
+          ]
+        },
+        {
+          "id": "a01-ch10-mengyao-01",
+          "route": "mengyao",
+          "heading": "两年后·16:20｜仅交往：一份新的错误记录",
+          "sourceLineStart": 235,
+          "sourceLineEnd": 284,
+          "time": "两年后·16:20",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "恋人：茶店门外后换新桌游小店；可共享中性桌景但需转场，不认成同店；第四章票据回收两版本。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "tea-day",
+              "time": "两年后·16:20",
+              "requirements": [
+                "恋人：茶店门外后换新桌游小店；可共享中性桌景但需转场，不认成同店；第四章票据回收两版本。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 mengyao",
+            "当前路线第九章选择交往"
+          ],
+          "notes": [
+            "恋人：茶店门外后换新桌游小店；可共享中性桌景但需转场，不认成同店；第四章票据回收两版本。"
+          ]
+        },
+        {
+          "id": "a01-ch10-mengyao-02",
+          "route": "mengyao",
+          "heading": "两年后·17:40｜仅朋友：不用重考的一门课",
+          "sourceLineStart": 285,
+          "sourceLineEnd": 322,
+          "time": "两年后·17:40",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "mengyao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "朋友：朋友约饭后烧饼店，时间傍晚保留暖光变体需求。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "food-dusk",
+              "time": "傍晚",
+              "requirements": [
+                "朋友：朋友约饭后烧饼店，时间傍晚保留暖光变体需求。"
+              ]
+            },
+            {
+              "label": "bridge-day",
+              "time": "两年后·17:40",
+              "requirements": [
+                "朋友：朋友约饭后烧饼店，时间傍晚保留暖光变体需求。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 mengyao",
+            "当前路线第九章选择朋友"
+          ],
+          "notes": [
+            "朋友：朋友约饭后烧饼店，时间傍晚保留暖光变体需求。"
+          ]
+        },
+        {
+          "id": "a01-ch10-yelan-01",
+          "route": "yelan",
+          "heading": "两年后·15:30｜仅交往：一起买完这袋米",
+          "sourceLineStart": 325,
+          "sourceLineEnd": 366,
+          "time": "两年后·15:30",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "恋人：两张小票、共同托米袋，不擅加家庭婚姻。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "supermarket-day",
+              "time": "两年后·15:30",
+              "requirements": [
+                "恋人：两张小票、共同托米袋，不擅加家庭婚姻。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 yelan",
+            "当前路线第九章选择交往"
+          ],
+          "notes": [
+            "恋人：两张小票、共同托米袋，不擅加家庭婚姻。"
+          ]
+        },
+        {
+          "id": "a01-ch10-yelan-02",
+          "route": "yelan",
+          "heading": "两年后·19:20｜仅朋友：今晚少一个位置",
+          "sourceLineStart": 367,
+          "sourceLineEnd": 396,
+          "time": "两年后·19:20",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "yelan",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "先群聊叶岚无实体，后另一天打球实体；不能当班去球馆。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "netcafe-counter-night",
+              "time": "夜间",
+              "requirements": [
+                "先群聊叶岚无实体，后另一天打球实体；不能当班去球馆。"
+              ]
+            },
+            {
+              "label": "tabletennis-day",
+              "time": "两年后·19:20",
+              "requirements": [
+                "先群聊叶岚无实体，后另一天打球实体；不能当班去球馆。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 yelan",
+            "当前路线第九章选择朋友"
+          ],
+          "notes": [
+            "先群聊叶岚无实体，后另一天打球实体；不能当班去球馆。"
+          ],
+          "presentationSegments": [
+            {
+              "sourceLineStart": 367,
+              "sourceLineEnd": 382,
+              "mode": "netcafe-plus-remote",
+              "note": "当班补货，叶岚与毛狼仅群聊；中段两年往来为概述。"
+            },
+            {
+              "sourceLineStart": 383,
+              "sourceLineEnd": 396,
+              "mode": "another-day-physical",
+              "note": "后来朋友约球才显示叶岚实体；不把当班与球馆切成同一时刻。"
+            }
+          ]
+        },
+        {
+          "id": "a01-ch10-piao-01",
+          "route": "piao",
+          "heading": "仅交往｜仍然在一起的两个人",
+          "sourceLineStart": 401,
+          "sourceLineEnd": 444,
+          "time": "两年后·一个休息日的下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "恋人：第二版册子/瓶盖，地点未点名，普通桌边演出建议；不婚礼化。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "tea-day",
+              "time": "两年后·一个休息日的下午",
+              "requirements": [
+                "恋人：第二版册子/瓶盖，地点未点名，普通桌边演出建议；不婚礼化。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择交往"
+          ],
+          "notes": [
+            "恋人：第二版册子/瓶盖，地点未点名，普通桌边演出建议；不婚礼化。"
+          ]
+        },
+        {
+          "id": "a01-ch10-piao-02",
+          "route": "piao",
+          "heading": "仅朋友｜婚礼以后的普通来往",
+          "sourceLineStart": 445,
+          "sourceLineEnd": 470,
+          "time": "两年后·一个休息日的下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "朋友：婚后普通小店，飘明确普通衣服；非再办婚礼。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "朋友：婚后普通小店，飘明确普通衣服；非再办婚礼。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "food-day",
+              "time": "两年后·一个休息日的下午",
+              "requirements": [
+                "朋友：婚后普通小店，飘明确普通衣服；非再办婚礼。"
+              ]
+            },
+            {
+              "label": "street-day",
+              "time": "两年后·一个休息日的下午",
+              "requirements": [
+                "朋友：婚后普通小店，飘明确普通衣服；非再办婚礼。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 piao",
+            "第三章第21天选择朋友"
+          ],
+          "notes": [
+            "朋友：婚后普通小店，飘明确普通衣服；非再办婚礼。"
+          ]
+        },
+        {
+          "id": "a01-ch10-friends-01",
+          "route": "friends",
+          "heading": "两年后·休班下午｜迟到十分钟的人",
+          "sourceLineStart": 473,
+          "sourceLineEnd": 490,
+          "time": "两年后·休班下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "飘开门、毛狼买酱油迟到；第二版册子纸袋下。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "飘开门、毛狼买酱油迟到；第二版册子纸袋下。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "maolang-home-day",
+              "time": "两年后·休班下午",
+              "requirements": [
+                "飘开门、毛狼买酱油迟到；第二版册子纸袋下。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "notes": [
+            "飘开门、毛狼买酱油迟到；第二版册子纸袋下。"
+          ]
+        },
+        {
+          "id": "a01-ch10-friends-02",
+          "route": "friends",
+          "heading": "朋友坐在另一边",
+          "sourceLineStart": 491,
+          "sourceLineEnd": 508,
+          "time": "两年后·休班下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "piao",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "师匠带水果，其他同事当班，不全员离岗。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "师匠带水果，其他同事当班，不全员离岗。"
+              ]
+            },
+            {
+              "id": "shijiang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "师匠带水果，其他同事当班，不全员离岗。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "maolang-home-day",
+              "time": "两年后·休班下午",
+              "requirements": [
+                "师匠带水果，其他同事当班，不全员离岗。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "notes": [
+            "师匠带水果，其他同事当班，不全员离岗。"
+          ]
+        },
+        {
+          "id": "a01-ch10-friends-03",
+          "route": "friends",
+          "heading": "雨还在下",
+          "sourceLineStart": 509,
+          "sourceLineEnd": 526,
+          "time": "两年后·休班下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "maolang",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "毛狼递落伞，文文路过网吧继续走；不是回去值班。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "street-day",
+              "time": "两年后·休班下午",
+              "requirements": [
+                "毛狼递落伞，文文路过网吧继续走；不是回去值班。"
+              ]
+            },
+            {
+              "label": "netcafe-counter-day",
+              "time": "两年后·休班下午",
+              "requirements": [
+                "毛狼递落伞，文文路过网吧继续走；不是回去值班。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 friends"
+          ],
+          "notes": [
+            "毛狼递落伞，文文路过网吧继续走；不是回去值班。"
+          ]
+        },
+        {
+          "id": "a01-ch10-huangqiuqiu-01",
+          "route": "huangqiuqiu",
+          "heading": "仅交往｜还是她，还是这一声回答",
+          "sourceLineStart": 531,
+          "sourceLineEnd": 568,
+          "time": "两年后·休息日的下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "人形恋人，先敲门、同意后轻抱；照片可见外观不改。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "courtyard-day",
+              "time": "两年后·休息日的下午",
+              "requirements": [
+                "人形恋人，先敲门、同意后轻抱；照片可见外观不改。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 huangqiuqiu",
+            "已取得隐藏资格并完成第14天相识",
+            "当前路线第九章选择交往"
+          ],
+          "notes": [
+            "人形恋人，先敲门、同意后轻抱；照片可见外观不改。"
+          ]
+        },
+        {
+          "id": "a01-ch10-huangqiuqiu-02",
+          "route": "huangqiuqiu",
+          "heading": "仅朋友｜留给朋友的位置",
+          "sourceLineStart": 569,
+          "sourceLineEnd": 604,
+          "time": "两年后·休息日的下午",
+          "characters": [
+            {
+              "id": "wenwen",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-serious"
+              ],
+              "appearanceMode": "first-person",
+              "requirements": [
+                "第一人称对白通常只显示头像；不常驻文文全身立绘。"
+              ]
+            },
+            {
+              "id": "huangqiuqiu",
+              "form": "human",
+              "expressions": [
+                "base",
+                "expression-smile",
+                "expression-hesitant",
+                "expression-serious"
+              ],
+              "appearanceMode": "physical",
+              "requirements": [
+                "人形朋友，托腮/站在门边看云；不补下装特写。"
+              ]
+            }
+          ],
+          "scenes": [
+            {
+              "label": "courtyard-day",
+              "time": "两年后·休息日的下午",
+              "requirements": [
+                "人形朋友，托腮/站在门边看云；不补下装特写。"
+              ]
+            }
+          ],
+          "cgCandidates": [],
+          "conditions": [
+            "仅当前路线 huangqiuqiu",
+            "已取得隐藏资格并完成第14天相识",
+            "当前路线第九章选择朋友"
+          ],
+          "notes": [
+            "人形朋友，托腮/站在门边看云；不补下装特写。"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "来源标题/原文逐段核对，未定地点以可复用演出建议标注。"
+  ]
+}

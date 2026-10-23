@@ -1,0 +1,20 @@
+{
+  "specs": [
+    {
+      "id": "courtyard-night",
+      "mode": "edit",
+      "prompt": "Use case: lighting-weather. Asset: visual novel background variant. Edit the supplied target image only as specified. Preserve exact composition, camera, building geometry, furniture, all object positions, fine details and realistic painted style. Full-bleed single landscape, no crop, borders, text or people. Change only to night: narrow sky dark blue, the simple wall lamp on right now casts warm local light onto TWO blue stools and dry sheltered threshold. Same wooden door, wall, potted plants and stools in exact positions. Intimate ordinary courtyard, no creatures, characters or magical glow.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/backgrounds/sources/bg-courtyard-day.png"
+      ]
+    },
+    {
+      "id": "backdoor-night",
+      "mode": "edit",
+      "prompt": "Use case: illustration-story. Edit the reference courtyard into its reverse exterior camera view: now on the narrow wet side alley immediately OUTSIDE this exact aged wooden side door, rainy night. The wooden door is only slightly ajar and the narrow gap reveals ONLY part of a blue plastic stool leg and warm ground, no person/creature/ball or identity clue. Keep matching rough gray brick and plaster, frame details, small practical lamp, human-scale narrow side alley. Door at center-left so vertical crop shows it. Cinematic realistic background, one landscape image 16:9, no text.",
+      "refs": [
+        "/Users/yipin/Desktop/cjb/assets/ten-chapter/backgrounds/sources/bg-courtyard-day.png"
+      ]
+    }
+  ]
+}

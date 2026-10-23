@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "task": "E09",
+  "date": "2026-10-23",
+  "unspecifiedLocations": {
+    "status": "confirmed-by-user",
+    "scope": "A06 backgroundRules.holds 中18个未点名场景",
+    "userDecision": "按上下文采用现有候选背景（桌边用茶店；其余按饭局、独处、网吧等场景选图）",
+    "implementation": "采用候选背景；飘第七章后续概述中的饭桌与饭后街道按实际节点分别显示。正文、日序、location不改写，不补店名、地址或人物职业。"
+  },
+  "chapterEnds": {
+    "backgroundId": "tc-bg-chapter-end",
+    "resource": "none",
+    "implementation": "九个章末使用播放器中性程序底色，清除人物；不注册虚构位图。"
+  },
+  "artAuthority": "assets/ten-chapter/a06-adoption.json",
+  "sourceAuthority": "assets/ten-chapter/a06-scene-node-map.json",
+  "coverageBoundary": "本目录负责可复跑的正式绑定源与来源校验；浏览器、实体手机、声音和真人阅读以E09/E10独立记录为准。"
+}

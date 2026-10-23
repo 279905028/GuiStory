@@ -1,0 +1,113 @@
+{
+  "method": "相同画布alpha>=16轮廓交并比；配合脸部审阅，不代替实际游戏切图测试。",
+  "entries": [
+    {
+      "id": "tc-char-wenwen-human-expression-hesitant",
+      "reference": "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-hesitant.webp",
+      "silhouetteIoU": 0.9964532489265708
+    },
+    {
+      "id": "tc-char-wenwen-human-expression-smile",
+      "reference": "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-smile.webp",
+      "silhouetteIoU": 0.9969454308826142
+    },
+    {
+      "id": "tc-char-wenwen-human-expression-tired",
+      "reference": "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-tired.webp",
+      "silhouetteIoU": 0.9972409528608398
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-hesitant",
+      "reference": "assets/ten-chapter/characters/mengyao/char-mengyao-human-base.webp",
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-hesitant.webp",
+      "silhouetteIoU": 0.9932649426584035
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-smile",
+      "reference": "assets/ten-chapter/characters/mengyao/char-mengyao-human-base.webp",
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-smile.webp",
+      "silhouetteIoU": 0.9933207102351421
+    },
+    {
+      "id": "tc-char-wenwen-human-expression-downcast",
+      "reference": "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-downcast.webp",
+      "silhouetteIoU": 0.9966352415637565
+    },
+    {
+      "id": "tc-char-yelan-human-expression-hesitant",
+      "reference": "assets/ten-chapter/characters/yelan/char-yelan-human-base.webp",
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-hesitant.webp",
+      "silhouetteIoU": 0.9906107418658152
+    },
+    {
+      "id": "tc-char-yelan-human-expression-smile",
+      "reference": "assets/ten-chapter/characters/yelan/char-yelan-human-base.webp",
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-smile.webp",
+      "silhouetteIoU": 0.9896706679113679
+    },
+    {
+      "id": "tc-char-wenwen-human-expression-surprised",
+      "reference": "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-surprised.webp",
+      "silhouetteIoU": 0.9960562771812648
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-serious",
+      "reference": "assets/ten-chapter/characters/mengyao/char-mengyao-human-base.webp",
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-serious.webp",
+      "silhouetteIoU": 0.9909436366532414
+    },
+    {
+      "id": "tc-char-wenwen-human-expression-serious",
+      "reference": "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-serious.webp",
+      "silhouetteIoU": 0.9961136046290336
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-downcast",
+      "reference": "assets/ten-chapter/characters/mengyao/char-mengyao-human-base.webp",
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-downcast.webp",
+      "silhouetteIoU": 0.9897723669647932
+    },
+    {
+      "id": "tc-char-zhouzhi-human-expression-tired",
+      "reference": "assets/character-variants/zhouzhi-face-v2-candidate.webp",
+      "path": "assets/ten-chapter/characters/zhouzhi/char-zhouzhi-human-expression-tired.webp",
+      "silhouetteIoU": 0.9860944722644679
+    },
+    {
+      "id": "tc-char-yelan-human-expression-serious",
+      "reference": "assets/ten-chapter/characters/yelan/char-yelan-human-base.webp",
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-serious.webp",
+      "silhouetteIoU": 0.9919612109129043
+    },
+    {
+      "id": "tc-char-xiaoman-human-expression-tired",
+      "reference": "assets/character-variants/xiaoman-face-v2-candidate.webp",
+      "path": "assets/ten-chapter/characters/xiaoman/char-xiaoman-human-expression-tired.webp",
+      "silhouetteIoU": 0.9881188399229637
+    },
+    {
+      "id": "tc-char-mengyao-human-expression-tired",
+      "reference": "assets/ten-chapter/characters/mengyao/char-mengyao-human-base.webp",
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-tired.webp",
+      "silhouetteIoU": 0.9915727240483517
+    },
+    {
+      "id": "tc-char-yelan-human-expression-tired",
+      "reference": "assets/ten-chapter/characters/yelan/char-yelan-human-base.webp",
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-tired.webp",
+      "silhouetteIoU": 0.9914284894588516
+    },
+    {
+      "id": "tc-char-yelan-human-expression-downcast",
+      "reference": "assets/ten-chapter/characters/yelan/char-yelan-human-base.webp",
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-downcast.webp",
+      "silhouetteIoU": 0.9916814190468641
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-20T07:13:47.367Z",
+  "release": "0.3",
+  "checks": [
+    {
+      "name": "三章结构、日期、资源、十张CG与原绑定完整",
+      "pass": true,
+      "detail": {
+        "scenes": 38,
+        "nodes": 1063,
+        "assets": 74
+      }
+    },
+    {
+      "name": "穷尽合法分支：全节点可达、无循环、隐藏身份受前置条件保护",
+      "pass": true,
+      "detail": {
+        "paths": 103680,
+        "minLines": 412,
+        "maxLines": 459,
+        "minChars": 12859,
+        "maxChars": 14822,
+        "reachableNodes": 1063,
+        "equivalentStates": 46307,
+        "terminals": [
+          "end_ch3_xiaoman",
+          "end_ch3_zhouzhi",
+          "end_ch3_mengyao",
+          "end_ch3_yelan",
+          "end_ch3_solo",
+          "end_ch3_huangqiuqiu"
+        ]
+      }
+    },
+    {
+      "name": "每个可见节点均由自然回放到达并通过严格存档恢复",
+      "pass": true,
+      "detail": {
+        "restored": 1027
+      }
+    },
+    {
+      "name": "四种隐藏条件、第一章消息与第三章路线相互独立、两次章末可继续",
+      "pass": true,
+      "detail": {
+        "hiddenConditionCombinations": 4,
+        "previewCombinations": 17
+      }
+    },
+    {
+      "name": "六线两种内部选择均回收；损坏存档不可改变当前状态",
+      "pass": true,
+      "detail": {
+        "routeVariants": 12
+      }
+    }
+  ],
+  "routes": [
+    {
+      "route": "xiaoman",
+      "support": 0,
+      "lines": 80,
+      "chars": 2341
+    },
+    {
+      "route": "xiaoman",
+      "support": 1,
+      "lines": 80,
+      "chars": 2320
+    },
+    {
+      "route": "zhouzhi",
+      "support": 0,
+      "lines": 79,
+      "chars": 2439
+    },
+    {
+      "route": "zhouzhi",
+      "support": 1,
+      "lines": 79,
+      "chars": 2454
+    },
+    {
+      "route": "mengyao",
+      "support": 0,
+      "lines": 83,
+      "chars": 2670
+    },
+    {
+      "route": "mengyao",
+      "support": 1,
+      "lines": 83,
+      "chars": 2703
+    },
+    {
+      "route": "yelan",
+      "support": 0,
+      "lines": 81,
+      "chars": 2675
+    },
+    {
+      "route": "yelan",
+      "support": 1,
+      "lines": 81,
+      "chars": 2675
+    },
+    {
+      "route": "solo",
+      "support": 0,
+      "lines": 82,
+      "chars": 2608
+    },
+    {
+      "route": "solo",
+      "support": 1,
+      "lines": 82,
+      "chars": 2625
+    },
+    {
+      "route": "huangqiuqiu",
+      "support": 0,
+      "lines": 88,
+      "chars": 2786
+    },
+    {
+      "route": "huangqiuqiu",
+      "support": 1,
+      "lines": 88,
+      "chars": 2772
+    }
+  ]
+}

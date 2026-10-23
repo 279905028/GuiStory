@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-20",
+  "status": "preview_candidates_only",
+  "tool": "image_gen.imagegen",
+  "mode": "built-in",
+  "referenceRoles": [
+    {
+      "path": "/var/folders/m5/q0b_ssrn1zb_g7fzs17nsj1h0000gn/T/codex-clipboard-c47c197d-c799-40ab-b7a7-73cbdd530e8a.jpg",
+      "role": "照片人物外观和服饰参考"
+    },
+    {
+      "path": "/Users/yipin/Desktop/cjb/assets/char-maolang.png",
+      "role": "现有游戏画风和立绘比例参考"
+    }
+  ],
+  "transparent_background": true,
+  "options": [
+    {
+      "id": "A",
+      "filename": "option-A-photo-faithful.png",
+      "label": "贴近原照",
+      "prompt": "Use case: identity-preserve and style-transfer.\nAsset type: one transparent character sprite candidate for Mao Lang 毛狼 in the Chinese visual novel 《毕节，雨停之前》.\nInput image 1 is the USER'S REAL-PERSON PHOTO, the sole identity/likeness reference. Input image 2 is the EXISTING GAME SPRITE, used ONLY for painterly rendering, body scale, lighting and portrait framing; do NOT inherit image 2's facial identity, wavy hairstyle or olive jacket.\nPrimary request: replace the old fictional Mao Lang's visual appearance with the man shown in image 1. Preserve the recognizable visible facial proportions of image 1: natural dark alert eyes and upper lids, straight dark eyebrows, exposed forehead and temple/ear shapes, normal unidealized skin. He must look like a painted version of the photo subject, not a generic handsome anime man.\nPreserve image 1's black low-profile bucket hat with the small white embroidered mark, pale blue pleated medical mask correctly covering nose and mouth, black oversized short-sleeved T-shirt with its fine pale abstract line pattern, black crossbody strap, slim forearms, dark trousers. The mask stays ON; do not invent or reveal the lower face. Hair mostly covered by the hat. No added jacket.\nStyle: match image 2's detailed semi-realistic Japanese visual novel illustration, natural adult anatomy, softly painted skin and fabric, restrained fine contours, muted gray-teal ambient lighting plus subtle warm amber highlights. Maintain the likeness while making a finished painted game sprite. No glossy idol beautification, no giant anime eyes.\nComposition: ONE adult male figure, preferred 1024x1536 portrait canvas, head to upper thighs, complete hat and hands, clean side margins and space above the hat.\nBackground: genuinely transparent alpha outside the figure; skin and clothing opaque. No scenery, train, furniture, backdrop, floor shadow, gradient, halo or glow, no baked-in checkerboard. No captions, text labels or watermarks. No extra people, duplicated limbs, fused fingers or unrelated props.\nOption A — PHOTO-FAITHFUL, QUIET CASUAL POSE. Preserve the photograph's slight three-quarter face orientation looking a little toward viewer's right, calm attentive eyebrows and eyes, natural casual demeanor. Translate the seated reference into a relaxed upright waist/upper-thigh portrait without a chair: shoulders gently angled, elbows relaxed; both hands loosely hold the single plain white smartphone at waist height, phone screen turned inward and no visible screen content. T-shirt hangs naturally and the crossbody strap follows the photographed direction. Keep the mask and photo identity especially faithful. Refined small details, understated expression."
+    },
+    {
+      "id": "B",
+      "filename": "option-B-vn-expressive.png",
+      "label": "游戏立绘",
+      "prompt": "Use case: identity-preserve and style-transfer.\nAsset type: one transparent character sprite candidate for Mao Lang 毛狼 in the Chinese visual novel 《毕节，雨停之前》.\nInput image 1 is the USER'S REAL-PERSON PHOTO, the sole identity/likeness reference. Input image 2 is the EXISTING GAME SPRITE, used ONLY for painterly rendering, body scale, lighting and portrait framing; do NOT inherit image 2's facial identity, wavy hairstyle or olive jacket.\nPrimary request: replace the old fictional Mao Lang's visual appearance with the man shown in image 1. Preserve the recognizable visible facial proportions of image 1: natural dark alert eyes and upper lids, straight dark eyebrows, exposed forehead and temple/ear shapes, normal unidealized skin. He must look like a painted version of the photo subject, not a generic handsome anime man.\nPreserve image 1's black low-profile bucket hat with the small white embroidered mark, pale blue pleated medical mask correctly covering nose and mouth, black oversized short-sleeved T-shirt with its fine pale abstract line pattern, black crossbody strap, slim forearms, dark trousers. The mask stays ON; do not invent or reveal the lower face. Hair mostly covered by the hat. No added jacket.\nStyle: match image 2's detailed semi-realistic Japanese visual novel illustration, natural adult anatomy, softly painted skin and fabric, restrained fine contours, muted gray-teal ambient lighting plus subtle warm amber highlights. Maintain the likeness while making a finished painted game sprite. No glossy idol beautification, no giant anime eyes.\nComposition: ONE adult male figure, preferred 1024x1536 portrait canvas, head to upper thighs, complete hat and hands, clean side margins and space above the hat.\nBackground: genuinely transparent alpha outside the figure; skin and clothing opaque. No scenery, train, furniture, backdrop, floor shadow, gradient, halo or glow, no baked-in checkerboard. No captions, text labels or watermarks. No extra people, duplicated limbs, fused fingers or unrelated props.\nOption B — EXPRESSIVE VISUAL-NOVEL STANDING POSE. Retain exactly the same photo person's identity, black bucket hat, pale blue mask, black graphic T-shirt and crossbody strap. Upright relaxed stance, body slightly angled, head almost front-on looking at the viewer. Show Mao Lang's quick-witted, friendly demeanor entirely through alert eyes, a gently lifted eyebrow and a slight head tilt, not a visible mouth or exaggerated expression. One hand lightly hooks the crossbody strap near the lower chest; the other arm rests loosely at his side with natural relaxed fingers fully visible. No smartphone in this version. A clear readable silhouette suitable for dialogue scenes, natural proportions and fine painted rendering consistent with image 2."
+    }
+  ]
+}

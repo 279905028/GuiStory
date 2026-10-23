@@ -1,0 +1,3016 @@
+{
+  "date": "2026-10-23",
+  "scope": "开工时已有批次美术、正文、构建、运行文件；不包括新增A06文件与待办",
+  "files": [
+    {
+      "path": "assets/runtime-v0.4-manifest.json",
+      "bytes": 20018,
+      "sha256": "64f1313a791f48aa0a879eca8d77ee70a0933c167063e3e2ebaac51465bd06d5"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/README.md",
+      "bytes": 1981,
+      "sha256": "9523273f2b746bc8c6b043a5405caf75bb9a7e40eb82a342d7742e97c44bf7e3"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/a04-manifest.json",
+      "bytes": 79379,
+      "sha256": "fb915c78aaa54a51825e1fc032c62e7ee45904b307e5b5067398d209bfba5426"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-alteration-day.webp",
+      "bytes": 1786218,
+      "sha256": "102956f33219a009cbc2c8d5bd1b549ab7a8b1524ca9e4de38d318f0d18d3901"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-arcade-airhockey.webp",
+      "bytes": 1644276,
+      "sha256": "79039a3f569bcd7c8e2eedf6e2c8adf6e429ff8d6b6a44171a253404f2587170"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-arcade-basketball.webp",
+      "bytes": 1792152,
+      "sha256": "c5292c5f20ce1226e64eb5469ce34161254cd238e41f5e73da79c8d008e609ea"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-arcade-rowing.webp",
+      "bytes": 1642626,
+      "sha256": "b78dc0d77053e4c7f8d9bbac816269d7b5198b0e1d05cc3a7bf721c4561b12a3"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-backdoor-night.webp",
+      "bytes": 1827712,
+      "sha256": "a474cf147f2c40281f8a030e2eb714fd5611469481f5f426567ba2d4b608448f"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-badminton-day.webp",
+      "bytes": 1663654,
+      "sha256": "4fca48aac4f30269d86257d1facc85f0ab3be2721fd9829d96d5a33730b5dd9d"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-bookstore-day-v2.webp",
+      "bytes": 1655318,
+      "sha256": "2f96483e947f099b93a9d96df5d5a194081c3fb2aa9c2630b95e08c47ed967fd"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-bookstore-day.webp",
+      "bytes": 1700864,
+      "sha256": "ca600824f06a270fc268b993bf8353881cca2a63df4b753c3c3eacf9e4b625db"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-breakfast-dawn.webp",
+      "bytes": 1943600,
+      "sha256": "35b4ed25926a9ade51ceca446f22b72caf8a257a38211bfdb066eb0b1823b523"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-bridge-day.webp",
+      "bytes": 2339670,
+      "sha256": "a2032d17921040040867e0eef835cac5fa3b07de3653d4d668fd11fc287dfaac"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-bridge-dusk.webp",
+      "bytes": 2178900,
+      "sha256": "01b07197887162f6fb66d2887253473c74ce1cf04efad982db4b2f3d5d3dc9bb"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-busstop-dusk.webp",
+      "bytes": 2218152,
+      "sha256": "79cdc400602dd639725f3ca6f9629438f407fe086dd4688868a82a9b40a07a3f"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-cinema-interior.webp",
+      "bytes": 1280022,
+      "sha256": "c07c3df7619d68be3fb5ba9710eaca75e8ba60e6215c9da05db79ec7acd8421c"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-clothing-day.webp",
+      "bytes": 1677794,
+      "sha256": "0c931272b2083bab9c68f0aba9f15728f1703ccd6f10469454e2437828556a43"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-convenience-day.webp",
+      "bytes": 1777486,
+      "sha256": "aef1557845a9bc72edf4deb073df9a001f015ad3af77bce6bcab543ce3267c76"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-courtyard-day.webp",
+      "bytes": 1947068,
+      "sha256": "d20a905d8da1113440fa0f0a48811223e5e1505ad9bff5703e033746b59b9eee"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-courtyard-night.webp",
+      "bytes": 1813800,
+      "sha256": "89e6e29d4a6c2a0feae26f80a520e1e7d883c1c1049106d841b76b25771c7c29"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-echo-closed-dawn.webp",
+      "bytes": 2059814,
+      "sha256": "ad32df3c006abc309a0ce82596dc7e3ab7b1c4a4bf460c74df71496d7fbe8518"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-echo-closed-day.webp",
+      "bytes": 2221730,
+      "sha256": "81e547ddeb1b062048b13ca6bdc57bee1396dd8dd57cb5333118c8927d272231"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-echo-day.webp",
+      "bytes": 2286462,
+      "sha256": "44c567c3ba7d3619b634c569808fa381ad77065f212632f1f5ebd9cb4ccfadb3"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-food-day.webp",
+      "bytes": 2163404,
+      "sha256": "5436c4770b21d57274d84e7345823b8b145561a4632845f97ea2acb1dbf67480"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-game-store-day.webp",
+      "bytes": 2031922,
+      "sha256": "b38f4de12b3501063345085744f04d130e9ce751c4ffe0649d0e5216636597ed"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-kiosk-eaves-day.webp",
+      "bytes": 2152038,
+      "sha256": "4c3436e229439dd7f537d64a68c72a640ecf09fd6e326171fb3f77d34c44c64a"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-mall-day.webp",
+      "bytes": 1691018,
+      "sha256": "47e6e044a2ce92c2060d943510142442558d8f19aebb1082d7d5992564ca3984"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-maolang-home-day.webp",
+      "bytes": 1656254,
+      "sha256": "f1493fdc6610c29c8d9ae8c73e1e22f20b6cb853022d7207f175dc75d516990f"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-netcafe-counter-day.webp",
+      "bytes": 1744932,
+      "sha256": "ad4441bd82897f63a57766890badb01a9ea981052b701906f62cc8f4ac97ba09"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-netcafe-counter-night.webp",
+      "bytes": 1676142,
+      "sha256": "60e72e85116772bdcdc958580e702e8f393384a77dafd560b166f0c56dd59354"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-netcafe-pc-day-v2.webp",
+      "bytes": 1557002,
+      "sha256": "51ff1a9e3c17996078d2c3c01553e2145da54f26c1b39547ac0b740a57525446"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-netcafe-pc-day.webp",
+      "bytes": 1604118,
+      "sha256": "cc1fea70e946d8ff479160546fb373726a73f50af9d568bb3c8afaa4ea981972"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-netcafe-pc-night.webp",
+      "bytes": 1593316,
+      "sha256": "312a7180bb2cbc8278f2066484ca8c441912fe6364eaf6ff80af150da915b170"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-parcel-day.webp",
+      "bytes": 2047214,
+      "sha256": "b3cd0770db6fb59e840bb22d810294bae29165046188bf2388679ff4e1d372c8"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-park-day.webp",
+      "bytes": 2584168,
+      "sha256": "84113b7128b0d5835f8dccefafaca7b41cdeb3a897ea5e619024332500f1e9cf"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-performance-shop-day.webp",
+      "bytes": 1892270,
+      "sha256": "31ab98dccfcef41490e33debf67bd418eb5724f6e88613988690320c2cd042a7"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-practice-room-blue.webp",
+      "bytes": 1475174,
+      "sha256": "9d1c689552224764531d25478421e5fc043918d348fd9f0ab718250a893185f5"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-rental-day.webp",
+      "bytes": 1499346,
+      "sha256": "c999c0db4168e7133bc0bf5d9ae0c94fcc6acae88f4fb386389ac18fad7db626"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-rental-night.webp",
+      "bytes": 1344462,
+      "sha256": "6ac0a4e1ac9ef3b9a828fdb3eb13339853286e61f695c30897c5463c74fe107b"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-river-day.webp",
+      "bytes": 2290078,
+      "sha256": "d5f4f1db52e385ec96b6b77f2820158e8fe83164abc265101a7c320a05512bd5"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-riverside-lawn-day.webp",
+      "bytes": 2162696,
+      "sha256": "64c797b7b2f7fb944c4de2082398ac4ac3e07f246b8cd10c80203e771227b608"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-secondhand-day.webp",
+      "bytes": 2016364,
+      "sha256": "28ddc2085a0bb3172645efb1c3de362b8d5bdafb64d4a7945d0ee9dd79aa92e1"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-stall-day.webp",
+      "bytes": 2273034,
+      "sha256": "fab8eb243e62bc953b02774ae985421ebbce1e66831b1959257768470f76e264"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-street-dusk.webp",
+      "bytes": 2213484,
+      "sha256": "061fa2e8b432f55dfdfdacdae98be6f1b13e2b34d72b181c230c440daa9e6eed"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-supermarket-day.webp",
+      "bytes": 1848512,
+      "sha256": "5e1ac856f3e4a7c9d19a151845767df75a3e0facb04c9604a8622e01900f13e0"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-tabletennis-day.webp",
+      "bytes": 1629638,
+      "sha256": "db550887a12be177cdb6d3d29841a4bcaf7a2a76361ef947d79014c026c046a5"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-tea-day.webp",
+      "bytes": 1711962,
+      "sha256": "77cc794b731d4141d11004095b19c1ba3682aafa803fc162dfaba850d9dd9748"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-used-books-closed-dusk.webp",
+      "bytes": 2174434,
+      "sha256": "b0d0d6cd4dc0cd5dff47b2b6733486ed17e24fefa30cebd8f4477e3bd943b1f8"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-used-books-day.webp",
+      "bytes": 2328050,
+      "sha256": "7085d1455496f53933fe0fcdb7953118690376921e7d1a5e2d0d0cd1b2241c57"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-xiaoman-home-day-v2.webp",
+      "bytes": 1610250,
+      "sha256": "112d225515fdeb4bd74a372a42474e8d5322059cfe98904be46a3f0c04c15094"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/bg-xiaoman-home-day.webp",
+      "bytes": 1749972,
+      "sha256": "2f9a7a6a1a07a3e74b55bbe95f52bf987eee2ed5042732253465e5f54b6898ed"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/generation-record.json",
+      "bytes": 88283,
+      "sha256": "6815fbb4e0289ac16c05463aa5d1c5755e17fa0536e77ae9ef09ac840dd7a9e6"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/index.html",
+      "bytes": 63654,
+      "sha256": "944a3c0ce8f0a95fd47009403c7b8e5fc17d8dc94b738f4abacec612a94d2828"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/prompts-dependent-1.json",
+      "bytes": 1615,
+      "sha256": "8c4a4c13d9bb6d633f1f537bac7c975ea272dcfe916d0fc480abb7ffd833dea9"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/prompts-dependent-2.json",
+      "bytes": 2606,
+      "sha256": "d427113e249af49ee5db857cb97109e7b116bf7720b1a71843e9e03ac0f5fa08"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/prompts-dependent-3.json",
+      "bytes": 4415,
+      "sha256": "811d7ef41650ae297aeba229ae5839db04fe33d08f47459e94331dbf6a554ffd"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/prompts.json",
+      "bytes": 39155,
+      "sha256": "3a5cbf03f0bad047582dd376bd86943d5241bcd6849230b4708455d6d1e8b75a"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/source-map.json",
+      "bytes": 184638,
+      "sha256": "8b9e152724a62ad1563180335267a15b361c24a0e161381520fee543b1ac8e21"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-alteration-day.png",
+      "bytes": 2558532,
+      "sha256": "c099eb085b615cd088b5171722e7078ae9b76947895f0c910ab112508bcf849e"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-arcade-airhockey.png",
+      "bytes": 2311307,
+      "sha256": "0bcefb0d23f417af07b2e5fe3f7b9a1351ee5799185742a204eee1d2925bcb13"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-arcade-basketball.png",
+      "bytes": 2459268,
+      "sha256": "4449e0547d42d4107a7d2b61761bf8395fcaad06b03bdf9ba50b14108263802b"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-arcade-rowing.png",
+      "bytes": 2205273,
+      "sha256": "30e8049fe7e6412a86be289bb168bbcaf254516917772e32a8720b057f834026"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-backdoor-night.png",
+      "bytes": 2542862,
+      "sha256": "eb3a12cd817c441dcb5e8652fa0689aafa5eb1e7a5022493ce0a954976af4fec"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-badminton-day.png",
+      "bytes": 2439984,
+      "sha256": "89f0e756485270664d6d01d920b2b686bb96fa7272d668b375e4fecb44e3e28b"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-bookstore-day-v2.png",
+      "bytes": 2338475,
+      "sha256": "51f938947d52037ccac4b8a81ee5a27952892b9ec0c5994651805dec696b9d46"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-bookstore-day.png",
+      "bytes": 2387590,
+      "sha256": "95f4736e331dfdc8d85746af8a6d165aaf96e575319a9bb6ac5eeb28cd63bf47"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-breakfast-dawn.png",
+      "bytes": 2779677,
+      "sha256": "2401df2ab6ce9f698128e6c2204d395fa879accb5a7e6a6a7ae411c23179bd83"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-bridge-day.png",
+      "bytes": 3343627,
+      "sha256": "d5062b520c5f256f25b2d2509f5efb610cc6a8d55240c6baa90e2938098d65d6"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-bridge-dusk.png",
+      "bytes": 3070026,
+      "sha256": "5ed4ed1e470ca653407ff5d0b9b25960075fce6e698d92958bb7e0568911238e"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-busstop-dusk.png",
+      "bytes": 3079647,
+      "sha256": "5f0ecf1ff1fca7cd4ae1da163a9c5813c52e194cf0566850122d2941a1d3dcb3"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-cinema-interior.png",
+      "bytes": 1835772,
+      "sha256": "bfd235f383a88890a3b55b7c8d831bf924d76e1d021a3daea16d7101368a366c"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-clothing-day.png",
+      "bytes": 2361337,
+      "sha256": "82baa3eebf02e71ce113837be23df6e20fd956a923c3ba4f99c5c92b1380b9c2"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-convenience-day.png",
+      "bytes": 2498887,
+      "sha256": "490258e5009b25dea001d475dedc954289cbe7fa947d84c97cfc33acf790cdb8"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-courtyard-day.png",
+      "bytes": 2858521,
+      "sha256": "38ca6418ba737091f28924cb49b97ccabd35f9c10528697eb2b1263897732c9f"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-courtyard-night.png",
+      "bytes": 2547694,
+      "sha256": "299a45085084bf034a37bdec309af9b7d75175787822029d85d500aad3646e36"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-echo-closed-dawn.png",
+      "bytes": 3028158,
+      "sha256": "f7a834a3813bd126304f6667542c597d4ae22ac61f80b0e9fe4500208aa722bb"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-echo-closed-day.png",
+      "bytes": 3361101,
+      "sha256": "2d6c9deabfbbec5c74486397c30bf21ab798f7fae83656949ca0f45e311b2a7e"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-echo-day.png",
+      "bytes": 3193221,
+      "sha256": "9fcaf8f494ba7f201dfce50ca674ffcfed1002c334c25551a28e9c4f87a19d88"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-food-day.png",
+      "bytes": 3017302,
+      "sha256": "9a808e19499b8ad0e8a0cb9f1af42ba2acb950b00faefd82963072720239f54a"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-game-store-day.png",
+      "bytes": 2889374,
+      "sha256": "453add8e3437cb776f386e7c9504f446667ffd7e6687ce101ffa6f4278493300"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-kiosk-eaves-day.png",
+      "bytes": 3014160,
+      "sha256": "f8e32b630068f568d592f05de54623c98ec2c495c8a579a417604cae98433aa7"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-mall-day.png",
+      "bytes": 2403791,
+      "sha256": "baf04e39f35b72fc66cd6807beea897813fda0b552a9f81078ace13a650fe70f"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-maolang-home-day.png",
+      "bytes": 2388552,
+      "sha256": "fd8a8a1d3e428e8217c14d5a3fdfab7045cdebc24dc727a7d230a59affa1c202"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-netcafe-counter-day.png",
+      "bytes": 2548260,
+      "sha256": "eb7d20f28ddb26dda95f97f38b01d88d88747aee527f070b7fd2077dd07437ea"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-netcafe-counter-night.png",
+      "bytes": 2334189,
+      "sha256": "3214ebbc9a45ee0777820e033634560680d1cb06950330d8ca7cbc75ae592d85"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-netcafe-pc-day-v2.png",
+      "bytes": 2209361,
+      "sha256": "11b82798cec3c1a582ae3e793ef01c30e2de9c10e45f83cd3153b100609f6cb4"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-netcafe-pc-day.png",
+      "bytes": 2276685,
+      "sha256": "dab55512b8bb3f594a0715477bf61e4bb8626540b4e41e18fc3ed51bb30ee306"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-netcafe-pc-night.png",
+      "bytes": 2184174,
+      "sha256": "012ba1cc3ca1764a7db6d450011497620aac73b66ff20191f1cedd430a09e344"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-parcel-day.png",
+      "bytes": 2970290,
+      "sha256": "0dfa663be79c0058fae9b35d6c43f53816a75f28077e48ed9ca35c73e6731e4c"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-park-day.png",
+      "bytes": 3743024,
+      "sha256": "146c4455006315873902e582aa012391254fd8f25edc12f142ae13b84192cfc5"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-performance-shop-day.png",
+      "bytes": 2668091,
+      "sha256": "f29294c053f8e7b23a19a1c7b86baa2c2d81a3f6b890157178652ab90ceb36c4"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-practice-room-blue.png",
+      "bytes": 1992095,
+      "sha256": "55a992480b4581c926683a620b87181fb9c2f3061121226169fd37d30b037195"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-rental-day.png",
+      "bytes": 2211794,
+      "sha256": "8c9b5e431759462225a20bd3bf44ab8d833988cbd324e54d8487642493ba51ba"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-rental-night.png",
+      "bytes": 1931969,
+      "sha256": "40d9b4bd0bf104b9174904a75bb0f1496b7fadf198c7eb327cb81bdba5d993e4"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-river-day.png",
+      "bytes": 3431402,
+      "sha256": "19eeffb41246c1c98e01a1355468aeff200ac96467963244a536c50b169a801c"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-riverside-lawn-day.png",
+      "bytes": 3025474,
+      "sha256": "4591ff4afd7935ff0f2df756d588bd36e68d4fc04b65b9d3880efce72eb8fbdb"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-secondhand-day.png",
+      "bytes": 2852236,
+      "sha256": "76244e996b2e3a760e718d2c0a67b6efd12accf76c9650d529980f6b4d4172c5"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-stall-day.png",
+      "bytes": 3287680,
+      "sha256": "24165773d1bd35b5da5e7bf50d42e950cc1c070ae9c9c79a4cd8ed94fd0fcc4e"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-street-dusk.png",
+      "bytes": 3170155,
+      "sha256": "cb1525aeff80f47a4d6a34b44d33277204e4899f49c3532ec5073a2afafa82a2"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-supermarket-day.png",
+      "bytes": 2585791,
+      "sha256": "997ab1f8d2d3cfe29c2c4c52721ad5fee198eda14f5d323010e3573969759ebb"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-tabletennis-day.png",
+      "bytes": 2413855,
+      "sha256": "d4105839e4500822dd6f9e451133ec953749edbd3fbf20185834bcb9097014eb"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-tea-day.png",
+      "bytes": 2412135,
+      "sha256": "b63b09c0cf61a05c209ae847dd6d365388526757fe21414f00070cdcc829ad18"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-used-books-closed-dusk.png",
+      "bytes": 3074270,
+      "sha256": "b9cd432846034cbf07d1f39667b32e616a0e42eb19bca6a4eb75e61009d18e2a"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-used-books-day.png",
+      "bytes": 3384445,
+      "sha256": "4357db30b62c12fb23619778696783f04b501d75c03aefd07d0596f9607099e7"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-xiaoman-home-day-v2.png",
+      "bytes": 2341572,
+      "sha256": "5d88ff284ddea24f6ddd5493c7559ec997a9cb54649491991140646ce9ea194d"
+    },
+    {
+      "path": "assets/ten-chapter/backgrounds/sources/bg-xiaoman-home-day.png",
+      "bytes": 2569824,
+      "sha256": "b83f7a99e6f5848ec6f945d7e0767a42613c746a23d1c0a8b1871d421dc442ac"
+    },
+    {
+      "path": "assets/ten-chapter/cg/README.md",
+      "bytes": 3042,
+      "sha256": "412815ea1ca6c96316081521013f3e9a9eab0f921afec73d66753f0f4bfaaff3"
+    },
+    {
+      "path": "assets/ten-chapter/cg/a05-manifest.json",
+      "bytes": 26152,
+      "sha256": "e6c988b2b17d068fced867da2977dc3ab20a03497f3c3a036991d50a5996c614"
+    },
+    {
+      "path": "assets/ten-chapter/cg/cg-last-echo-dinner.webp",
+      "bytes": 1682214,
+      "sha256": "33d8c4d7905776bc0146f3c84c4bda953027b34e7ab0d8446ef56fc810079840"
+    },
+    {
+      "path": "assets/ten-chapter/cg/cg-piao-choice.webp",
+      "bytes": 2040426,
+      "sha256": "8fb73d0507f30d661f291cd500ffa12839f4c54d493c7b4ead4e4d12448cc6d5"
+    },
+    {
+      "path": "assets/ten-chapter/cg/cg-piao-wedding.webp",
+      "bytes": 1761642,
+      "sha256": "d0f9cf5f68c62ee9e217cfc56937bc874af4217bfa3fe4d048271b70bf7840bc"
+    },
+    {
+      "path": "assets/ten-chapter/cg/cg-qiuqiu-transform.webp",
+      "bytes": 1657930,
+      "sha256": "43fd7979c5f9bcd29f639d5525430310f63f9ae07fe87c09767a11f80dd63598"
+    },
+    {
+      "path": "assets/ten-chapter/cg/generation-index.json",
+      "bytes": 18797,
+      "sha256": "54c902488b904f9583339e999284bc748b3f14d76a7e294f9950f64ce8ab9769"
+    },
+    {
+      "path": "assets/ten-chapter/cg/index.html",
+      "bytes": 6305,
+      "sha256": "d3c805293453471060499847ebf7ee4b6355125166b8dc83434bb36ea10bd5d1"
+    },
+    {
+      "path": "assets/ten-chapter/cg/originals/cg-last-echo-dinner-v1.png",
+      "bytes": 2363672,
+      "sha256": "23fc8be324a386ce28f19d6e6d4d7f1c203031bd0a2bb6798414105629bf4b3d"
+    },
+    {
+      "path": "assets/ten-chapter/cg/originals/cg-piao-choice-v1.png",
+      "bytes": 3037111,
+      "sha256": "7d04b27f164e0ec040c42c51b501a0d2e0204461bd0b30a1db9c96f6bb0f9471"
+    },
+    {
+      "path": "assets/ten-chapter/cg/originals/cg-piao-wedding-v1.png",
+      "bytes": 2497222,
+      "sha256": "656534d280dd4b4f859f3bb8707c6f7cc05d9fdc69c1ffb285792f4086cc02ac"
+    },
+    {
+      "path": "assets/ten-chapter/cg/originals/cg-piao-wedding-v2.png",
+      "bytes": 2443324,
+      "sha256": "c4d11482b36b050a083de61f58f2a08b29446f350c5780e407f874e0de83e3c1"
+    },
+    {
+      "path": "assets/ten-chapter/cg/originals/cg-qiuqiu-transform-v1.png",
+      "bytes": 2540072,
+      "sha256": "4b6abe8593b6c47915b70392d176829faa6cf3ede3f89604909a50b4b4f3fde0"
+    },
+    {
+      "path": "assets/ten-chapter/cg/originals/cg-qiuqiu-transform-v2.png",
+      "bytes": 2428866,
+      "sha256": "a1c661c4dbc6a7d19f6cac4b1a17c3fe5bda8e67088d4953b5136d4557a6172c"
+    },
+    {
+      "path": "assets/ten-chapter/cg/visual-review.json",
+      "bytes": 2196,
+      "sha256": "679122e0cd044e43071604bb7ec5cd62792b0bfd2b3f308d7366c16d0447b5d8"
+    },
+    {
+      "path": "assets/ten-chapter/characters/README.md",
+      "bytes": 3963,
+      "sha256": "3135d8a8fae8acf91a82ed63888ffb3b5fd1aec8d0fc06de69548506d52e7d6e"
+    },
+    {
+      "path": "assets/ten-chapter/characters/a02-before.json",
+      "bytes": 288731,
+      "sha256": "ffecaf63e6dc7fdb438dacb6e69b2652e1fd49936a13060825997f0bcbbcf3e4"
+    },
+    {
+      "path": "assets/ten-chapter/characters/a02-delivery.json",
+      "bytes": 119112,
+      "sha256": "8168eee3e4fefb8cf8c779d0b0e80c06fa52245ee7d38f8989a3a944de561024"
+    },
+    {
+      "path": "assets/ten-chapter/characters/a02-gallery-check.cjs",
+      "bytes": 2345,
+      "sha256": "699a126e55e3ff37582e300daa57e8ec99688ddf5e0f6ba2c21554e2a78ebfe6"
+    },
+    {
+      "path": "assets/ten-chapter/characters/a02-gallery.cjs",
+      "bytes": 5724,
+      "sha256": "4c224a281e33d330bbfb942ac63788781d9137afce7e9252676b7af38472e674"
+    },
+    {
+      "path": "assets/ten-chapter/characters/a02-validate.cjs",
+      "bytes": 9822,
+      "sha256": "e0ae119087c1aa6670abd5d0911033342028525ec982da4a7bc633e9866260c5"
+    },
+    {
+      "path": "assets/ten-chapter/characters/alignment-check.json",
+      "bytes": 5382,
+      "sha256": "d11020b22ffb86a105e881f116084abb6f2a883a68ccbb9a9bbfcd49c08f2eb9"
+    },
+    {
+      "path": "assets/ten-chapter/characters/gallery-check.json",
+      "bytes": 323,
+      "sha256": "3ddf7001eb4f623956058db08c64fb30fc6d0ff3865acfa210f041a1aa772712"
+    },
+    {
+      "path": "assets/ten-chapter/characters/generation-index.json",
+      "bytes": 23769,
+      "sha256": "7a8a86bad40cd4818de77c116fe7b196d7996b21339895480bca63cd59eb7dc6"
+    },
+    {
+      "path": "assets/ten-chapter/characters/generation-jobs.json",
+      "bytes": 35131,
+      "sha256": "b0c591e2927f8aeeb3a8c2ac64a50bc9d4bb6c3c4269ea3fa42b15e4c1a1adcd"
+    },
+    {
+      "path": "assets/ten-chapter/characters/generation-results.json",
+      "bytes": 705,
+      "sha256": "ae26656458c84b890aeabadd751b751d198be1ab2fddf630d30ec3213620e52e"
+    },
+    {
+      "path": "assets/ten-chapter/characters/handoff-check.json",
+      "bytes": 280,
+      "sha256": "2431402301e4258e29d65eaddbdab587a16a1a0c24aafa23cd03128a437f64cc"
+    },
+    {
+      "path": "assets/ten-chapter/characters/index.html",
+      "bytes": 34185,
+      "sha256": "130c43aa02f2600f75c424f8d599c422126800c0bef1e7b3cfa6675060be76ff"
+    },
+    {
+      "path": "assets/ten-chapter/characters/maolang/char-maolang-wedding-base.webp",
+      "bytes": 737494,
+      "sha256": "ce6c4c4ea25e7e9ed48a6b4c5355d6de452a8cf7292d2823e46ed7cd5c1fc93b"
+    },
+    {
+      "path": "assets/ten-chapter/characters/maolang/manifest.json",
+      "bytes": 11045,
+      "sha256": "ee9518763dc5bab20609e87d55eee1b869e2fccc07ec1288301ba389952577b7"
+    },
+    {
+      "path": "assets/ten-chapter/characters/maolang/originals/char-maolang-wedding-base-generation.json",
+      "bytes": 1303,
+      "sha256": "df9cf02e8b9ab1c1461c74c63ef6cd595942b804034204ead82bd815b8929072"
+    },
+    {
+      "path": "assets/ten-chapter/characters/maolang/originals/char-maolang-wedding-base-v1.png",
+      "bytes": 1712287,
+      "sha256": "8052cce973006d4df899b3fcdff4185be253e09aa89b0f87750c37e95815ce6c"
+    },
+    {
+      "path": "assets/ten-chapter/characters/maolang/qa-reuse.png",
+      "bytes": 382556,
+      "sha256": "451a9c616c5c6512057ab893494a0b4ecd3173a5939641f6f372a6b5b0f90b7a"
+    },
+    {
+      "path": "assets/ten-chapter/characters/maolang/qa/faces.png",
+      "bytes": 501458,
+      "sha256": "f361f990760a5d3ce2e5aaa2c21e835da6f51a91a3211c6e8d949c95cddacf4f"
+    },
+    {
+      "path": "assets/ten-chapter/characters/maolang/qa/light-dark-1.png",
+      "bytes": 857864,
+      "sha256": "c9309bcb2d6e884f237714dd665373fb73565eb1e4cf19582c15a33fa6ce4452"
+    },
+    {
+      "path": "assets/ten-chapter/characters/maolang/qa/light-dark-2.png",
+      "bytes": 210681,
+      "sha256": "45f1d2559deb590c523e7556c91c4547c31ae6768b71e864da784a124f8a68a1"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-casual-jacket-base.webp",
+      "bytes": 1039224,
+      "sha256": "e6383d2bf8bfde9c55365639be412935651ad724a5a40e11fe8d75b93e7844c1"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-base.webp",
+      "bytes": 942716,
+      "sha256": "76ba11802c19739383fbd116aa82fa15856990ddd3ce9e83365ae8ec45c1b095"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-downcast.webp",
+      "bytes": 942286,
+      "sha256": "f90724da92be0e9f462f57d380aa43b89fbd3e84a3315bbb2dc10af7559f9ab3"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-hesitant.webp",
+      "bytes": 928786,
+      "sha256": "042b7dcb5345be5bd3b572eac062df4af9646d269aabb6bb2b44408bb4731cde"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-serious.webp",
+      "bytes": 940614,
+      "sha256": "a66dac9b95d95684eb313bb74ca754614915374e43d7bf542c30e8608f949831"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-smile.webp",
+      "bytes": 947536,
+      "sha256": "35d98d99559cf3d30af1bd6934dec43f13585ec7d0de8ee271543a25f0a33bea"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-human-expression-tired.webp",
+      "bytes": 939628,
+      "sha256": "6dd6f02794767807804dc5d93894bf9176aa0a1aedc3afae86a70d51494bf137"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/char-mengyao-teacher-bag-base.webp",
+      "bytes": 1005040,
+      "sha256": "d59a9b2f7cdc6b2e621640c696c37e921eb9f1476ddc6bce5de81852641d9b52"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/manifest.json",
+      "bytes": 15863,
+      "sha256": "ac074a4b6f78b5c34db9dada2bf0d049821c6a0ff235dafe338c6171e0c29bc7"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-casual-jacket-base-generation.json",
+      "bytes": 1312,
+      "sha256": "52ab0149ffd96a514b87eb11ae7fd0645ac1b5c9f9154c076ce123f5f9474d5c"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-casual-jacket-base-v1.png",
+      "bytes": 2183956,
+      "sha256": "83c1518a52cb4646420e57df1657f5ab11ffd70bb725c7686274a96fb72ed2bc"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-generation.json",
+      "bytes": 1619,
+      "sha256": "ea883b6f10d05edcc1cb241f6fc6bdd202bab20f799298f01409158131d95092"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png",
+      "bytes": 2072345,
+      "sha256": "ba75e220593d83baeffd455e85ea8099369283477d32151974da652d305638c7"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-downcast-generation.json",
+      "bytes": 1283,
+      "sha256": "ac64ecd1481538d36c128d980a763e97e576fea0a5ae5ec3ac0fdfb5b4aa0e41"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-downcast-v1.png",
+      "bytes": 2048243,
+      "sha256": "0f4eef6d63ac73b48fe4cc800cd16c0fac4856edada7387aac5cb576cb916a50"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-hesitant-generation.json",
+      "bytes": 1259,
+      "sha256": "0b5ad9b2f9495e623b7c3f2568a480853032c0b50a79bcdf3a1c02912e26f00b"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-hesitant-v1.png",
+      "bytes": 2022475,
+      "sha256": "b7428cb630ffe24e05f178aab7509d11886eaac6fdc60031b1dff396aa5e8792"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-serious-generation.json",
+      "bytes": 1275,
+      "sha256": "242bc95d374cfce556de7743144468487fea90f4b7d894d8976354a7dc6787b1"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-serious-v1.png",
+      "bytes": 2042510,
+      "sha256": "84c1e937f119d89998fd45b02f5a578e9ec0ee7f6df61f490f3dfa6c090ad85b"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-smile-generation.json",
+      "bytes": 1277,
+      "sha256": "ff95284a400533f03be96742c1413954c58d9402423f055ab52722d44e6cf24f"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-smile-v1.png",
+      "bytes": 2065766,
+      "sha256": "014a21f446eb727454a2b18a093775d0de4f11a6facbee3e6ed8af7ee66d3a95"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-tired-generation.json",
+      "bytes": 1295,
+      "sha256": "85bace70e3605b7c7a56d22088d374edf7944dbec8b2df2423a4eb46cc30f148"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-expression-tired-v1.png",
+      "bytes": 2032360,
+      "sha256": "d38217bfd0b836c9fcace35d275fc042c3518d5ce427ae5b5818d844202ebcd3"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-teacher-bag-base-generation.json",
+      "bytes": 1298,
+      "sha256": "cc131416786340137f6c88efa1088d068b827642e56afbc72bd5f83ee2850c39"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-teacher-bag-base-v1.png",
+      "bytes": 2170162,
+      "sha256": "2236b9ec55e91b5b05087b9ececc3b7e8df34e6c7d29267bd6fc62d9ef0869ec"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/qa-base-light-dark.png",
+      "bytes": 373298,
+      "sha256": "4a43d57fcd89d6f6a0268579b41b102ec400579dbdb7e8c21e0afa518e890c26"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/qa/faces.png",
+      "bytes": 1092453,
+      "sha256": "93dbded66887fd0614543943c372f53ed20a22914548a4c8c4a166f38265d177"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/qa/light-dark-1.png",
+      "bytes": 1061663,
+      "sha256": "c3278aa1e309c8a03b421c880fe5494ee817fe3d2c19be886e636195ffaa6abb"
+    },
+    {
+      "path": "assets/ten-chapter/characters/mengyao/qa/light-dark-2.png",
+      "bytes": 1134391,
+      "sha256": "af94698d779d04fc1da1569bbd58da8c0b248c34cd1cd659439abfd7aa254a97"
+    },
+    {
+      "path": "assets/ten-chapter/characters/piao/char-piao-wedding-base.webp",
+      "bytes": 733474,
+      "sha256": "49aaecd963e03ccf94ad9bfe0c03c2c1f2435acde305f1bbe8c0fd9c7afb6ad3"
+    },
+    {
+      "path": "assets/ten-chapter/characters/piao/manifest.json",
+      "bytes": 12678,
+      "sha256": "0d569d4cd165e3fe11b3d3e61e56d302240b4174804634de6ce0c69d3621a0c1"
+    },
+    {
+      "path": "assets/ten-chapter/characters/piao/originals/char-piao-wedding-base-generation.json",
+      "bytes": 1307,
+      "sha256": "a11fc1fc304df4c9ecd4cf0cc310ef10c8f6c3c99dc08ef607c0a413882aa787"
+    },
+    {
+      "path": "assets/ten-chapter/characters/piao/originals/char-piao-wedding-base-v1.png",
+      "bytes": 1715114,
+      "sha256": "72ea6be9f9a7f0bb51ccb630122079c9232335494b8186ab11fe57143693b669"
+    },
+    {
+      "path": "assets/ten-chapter/characters/piao/qa-reuse.png",
+      "bytes": 470428,
+      "sha256": "5bce6f5dee85389da224600dcde970f47cb4289135c1dab51d5bd64dd73ff082"
+    },
+    {
+      "path": "assets/ten-chapter/characters/piao/qa/faces.png",
+      "bytes": 741159,
+      "sha256": "2340e5d5880e21dbb3809b9987b8371f4515d036619a4047dc7398b8aac468c3"
+    },
+    {
+      "path": "assets/ten-chapter/characters/piao/qa/light-dark-1.png",
+      "bytes": 843852,
+      "sha256": "da6cefe99720e5806c6846721adaea2e987ce870e1c669498605ae1da2526e5d"
+    },
+    {
+      "path": "assets/ten-chapter/characters/piao/qa/light-dark-2.png",
+      "bytes": 455049,
+      "sha256": "062a98a108fdddfd582e839bf3ce7fab5bd1c5958b7a861cd81561a6a40f0848"
+    },
+    {
+      "path": "assets/ten-chapter/characters/qa-gallery-desktop.png",
+      "bytes": 1433303,
+      "sha256": "46f56a3e8d9af38ce30156e1b55c20d8d60d97e23c271f4bc74045443735996e"
+    },
+    {
+      "path": "assets/ten-chapter/characters/qa-gallery-mobile.png",
+      "bytes": 533587,
+      "sha256": "82e1381e344fed116bc422c5a3cd7a149b4d2b8fa4e1cb551753de775ba8df03"
+    },
+    {
+      "path": "assets/ten-chapter/characters/reuse-map.json",
+      "bytes": 24561,
+      "sha256": "98834e87c60afc7a1c9463fe685174171ba3873660c92b039d92b64e0847756e"
+    },
+    {
+      "path": "assets/ten-chapter/characters/scope-check.json",
+      "bytes": 1161,
+      "sha256": "dd8dbcda533237fbeb7ab8cca5a7ce7de52662343f8c47e1ef86061a0e43559c"
+    },
+    {
+      "path": "assets/ten-chapter/characters/shijiang/manifest.json",
+      "bytes": 7699,
+      "sha256": "bcca38d5bc98763140852320b6996e26f85b86dc1021a2c22b90830e45207022"
+    },
+    {
+      "path": "assets/ten-chapter/characters/shijiang/qa-reuse.png",
+      "bytes": 466071,
+      "sha256": "960f2428998839e9f2b0ac34c7f06418691995c461a3e9f2303666cf680a32c9"
+    },
+    {
+      "path": "assets/ten-chapter/characters/shijiang/qa/faces.png",
+      "bytes": 467221,
+      "sha256": "d0cdf7042b0595714106a56c4f027b9ab87571e6bbf9fe3d9db707fbd792bc0b"
+    },
+    {
+      "path": "assets/ten-chapter/characters/shijiang/qa/light-dark-1.png",
+      "bytes": 1045233,
+      "sha256": "269979cbc2ff97b77109b66029b9f64a0532f7c7defde41439eca8cc500612af"
+    },
+    {
+      "path": "assets/ten-chapter/characters/visual-review.json",
+      "bytes": 4292,
+      "sha256": "50ed0b933f37dde68f5b9b46902d27b2e8454ec709215ca9352c2ee53dc4bbef"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+      "bytes": 1027910,
+      "sha256": "94e76a03d5b7437cf986b459c1e02df56f3912259a2f32ad4a99d573673fbbb7"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-downcast.webp",
+      "bytes": 961124,
+      "sha256": "d84ce73e2324721e0fe5905767a4afc6095d03365a7fe1aa01bb224ff7bd6e99"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-hesitant.webp",
+      "bytes": 985144,
+      "sha256": "69999fd5cbde8ae0a96652a5ed99f935755a610c25b6401f25f1c4807913d131"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-serious.webp",
+      "bytes": 984766,
+      "sha256": "113469964e1834afc282da344de0c84530238670c6765e22ceddd583462c9862"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-smile.webp",
+      "bytes": 1004290,
+      "sha256": "d9273a8309bba3e8bd8d4a63d649625af3dd8a952ba8b0024430b433a3fa8e82"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-surprised.webp",
+      "bytes": 977738,
+      "sha256": "b066f633e51a7a52f292901d147b81cc6120a3135a62396c149c88fe93bf8aa3"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-tired.webp",
+      "bytes": 964224,
+      "sha256": "d598410f758d93a0af059cc90acf4fb61ea932aaa077722356d0d2c6ea64f919"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/manifest.json",
+      "bytes": 27232,
+      "sha256": "3508dbb38065b15e997ce95d8eedfe8318b031791b5e9d27e72d6e45546b086f"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-base-generation.json",
+      "bytes": 1374,
+      "sha256": "e31ce9bdffafd4fe8f36dcacdaebc63fa3c2e6618417f22180ad2b238b1535b1"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-base-v1.png",
+      "bytes": 2129806,
+      "sha256": "a120f07ac0b4a9950d736d764d92e07db162c6c75e10409a83ceb9377466aa0e"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-downcast-generation.json",
+      "bytes": 1276,
+      "sha256": "debc18efd6096332dbba1644a0e754e49804770a25d4a4387c67f15ee8d09c35"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-downcast-v1.png",
+      "bytes": 2025246,
+      "sha256": "c592a29819eb4fd9d1f6301c12779dc0253d53d574df1c79efdf46066a372631"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-hesitant-generation.json",
+      "bytes": 1252,
+      "sha256": "499de68069cec8d2a1e02ea382ab1f7d96f2268dd807773eb76fbbc315b947a2"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-hesitant-v1.png",
+      "bytes": 2066164,
+      "sha256": "dbaf1163163da26562fca896b4853f8a923e970c2527a0e57c2d92d9147fc6f1"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-serious-generation.json",
+      "bytes": 1268,
+      "sha256": "69b4eecd1df2bdbcc4ec2a39b681b5e5b31550a912f8e25a5c3e8fddc3cd0f52"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-serious-v1.png",
+      "bytes": 2064858,
+      "sha256": "e15aed7af9cc5b99541a4c7fed3399ed227d1b549e2286c829b226329b0d23fd"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-smile-generation.json",
+      "bytes": 1270,
+      "sha256": "603b9381ca0b3f45581e5bdd7590dc0bf9beea24c9d030d47ae8591fa585f188"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-smile-v1.png",
+      "bytes": 2086961,
+      "sha256": "55eb2bcd9de02d961bb1a4d79832a5da0cac8890fa017c60badd266ca55f08f2"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-surprised-generation.json",
+      "bytes": 1260,
+      "sha256": "31ff1758a212c31a878422a16ce198966cace9243dcf225829d70d2b28e5c9ef"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-surprised-v1.png",
+      "bytes": 2059658,
+      "sha256": "8fb46d22cd0efcba65df1932ba3c40b415d69bc031620c954c26ada5a6dd5bda"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-tired-generation.json",
+      "bytes": 1288,
+      "sha256": "714a30cce8cec7cbeb9e198cc2b7a2af0e9f2845948ba0a4e49cf79ff1203a98"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/originals/char-wenwen-human-expression-tired-v1.png",
+      "bytes": 2041906,
+      "sha256": "94692628c30bf09c5c59b292f10e8d2bb31e179f574dd39f0e3303d504d85492"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/qa-base-light-dark.png",
+      "bytes": 397276,
+      "sha256": "8a18d21c0e146953c1f6f3dcd8c3b53ca91834f5794316f93c0447de1cf6caed"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/qa/faces.png",
+      "bytes": 846693,
+      "sha256": "076afd73449dd15e222bda39fbe390fa88e62f8ff2b9655371c8abb934cd6940"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/qa/light-dark-1.png",
+      "bytes": 1149313,
+      "sha256": "efcf203f05d7b3d94b818a4ebb5ba42e520476b3d74c4be32f4a73935195d08e"
+    },
+    {
+      "path": "assets/ten-chapter/characters/wenwen/qa/light-dark-2.png",
+      "bytes": 860512,
+      "sha256": "9986e4ed13695f471515e2410d3cb019e05d903828809039297ab6f1881e9818"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/char-xiaoman-human-expression-tired.webp",
+      "bytes": 1129696,
+      "sha256": "29a50ca754c518c047c5c73cd9e373d80a49afa27a385b604b189baf20b7217c"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/char-xiaoman-new-coat-base-v2.webp",
+      "bytes": 1020276,
+      "sha256": "d334b8d736328d91ab4e3aeb3c78248c797487849287bc89239273f15f809b1b"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/char-xiaoman-work-apron-base.webp",
+      "bytes": 1049844,
+      "sha256": "ce56195e2dd817d5ada6421ead65b6030d14ca0a1492e70e0d9f551271bb81fd"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/manifest.json",
+      "bytes": 15599,
+      "sha256": "35d6f8592f29a685cfd287acd5240879de616a05498f12709b388cefe9423f0c"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/originals/char-xiaoman-human-expression-tired-generation.json",
+      "bytes": 1251,
+      "sha256": "146909e4c1c9ed42f15dcf2f65ec5574d9bc2fbd5333353ead5981d919be3270"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/originals/char-xiaoman-human-expression-tired-v1.png",
+      "bytes": 2221670,
+      "sha256": "1095c93243297150c7e8226b5f65b1bbf5167515c96ab593efda6269bda3dc81"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/originals/char-xiaoman-new-coat-base-generation-v2.json",
+      "bytes": 1310,
+      "sha256": "1f3ac3ffe788d465fcdfe9afae32a26b77106df001b6627cc507f034efe05f8f"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/originals/char-xiaoman-new-coat-base-generation.json",
+      "bytes": 1273,
+      "sha256": "5a73190f71fd15fe40a9d345ac881b8f31d11b19633273709b7a8493d6139159"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/originals/char-xiaoman-new-coat-base-revision-request.json",
+      "bytes": 1136,
+      "sha256": "d26820011987fd1b47b772c8a7dbdee658f5bfc9d10c00a38a8f2ca171e71bc7"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/originals/char-xiaoman-new-coat-base-v1.png",
+      "bytes": 2186571,
+      "sha256": "ff5b5e64ba6c82d6af4791bccba13d2152ec73fa3eb3113b4074137dc80fedee"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/originals/char-xiaoman-new-coat-base-v2.png",
+      "bytes": 2181112,
+      "sha256": "3e9dc71404cb2d6e6a44faf9b0f38217e1c2fb908e4c66f10bec2addcf6476cc"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/originals/char-xiaoman-work-apron-base-generation.json",
+      "bytes": 1298,
+      "sha256": "9622933a66352478317885e8cdd6ad49389f66ab1a1b6d764c38e9a6b074fc95"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/originals/char-xiaoman-work-apron-base-v1.png",
+      "bytes": 2199261,
+      "sha256": "f24925212a799b14a753b91853a27f84f790a4748aecdaeb77c1926b6a35e303"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/qa-reuse.png",
+      "bytes": 724600,
+      "sha256": "954d0a0f475e9455fc1eb0df9be7f7e9e5f155a5f5bb0c5fd675cf9efabd19a1"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/qa/faces.png",
+      "bytes": 1237087,
+      "sha256": "587e5b0e445bf12097de7bc03564ba5e6270cc422ab18ed487fa87696db85a10"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/qa/light-dark-1.png",
+      "bytes": 1301302,
+      "sha256": "bd7435067e943b4f8bb870aca31405d42a52458460d60ef6fe341f25d40db6d5"
+    },
+    {
+      "path": "assets/ten-chapter/characters/xiaoman/qa/light-dark-2.png",
+      "bytes": 1232396,
+      "sha256": "b73bab9f528fcc44af05aed8c94da518ac6994f9559aeab417df86f215d69a71"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-casual-base.webp",
+      "bytes": 829548,
+      "sha256": "2de61b8d8df57375802bd25924a377432b03baf89aa0656f9a77b7f0926399b7"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-base.webp",
+      "bytes": 795132,
+      "sha256": "802c5fe292b422fba7d4187fd063be9595eb390cded3b34ed69abf6feff8428f"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-downcast.webp",
+      "bytes": 782456,
+      "sha256": "1f67ec4250e4ca753471c5c138f0bbc2ab5e57b1db33a313e3c3050b0a6b81f4"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-hesitant.webp",
+      "bytes": 794426,
+      "sha256": "a606f94cee4f3520c5056bf52370bb04d3d291c0078a129a3205ab97dcfc7c33"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-serious.webp",
+      "bytes": 773818,
+      "sha256": "df8c9e4af8ff0655c7787f4b84bfda83ac79fac793860e6fab8a35eccc63f038"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-smile.webp",
+      "bytes": 801394,
+      "sha256": "ad24c46a6da89de7450d382a70ca7081d361d22f4fd1c527fab70c8287d8e332"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/char-yelan-human-expression-tired.webp",
+      "bytes": 773370,
+      "sha256": "2a8eb5b2feacc530733cf2e3e894b537256a78fe8ab2338e1f133d432835804b"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/manifest.json",
+      "bytes": 13822,
+      "sha256": "c007f18bdc2169ef8fd09e0c3760a172b9d616638e204813ac4c5d42f3b08b73"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-casual-base-generation.json",
+      "bytes": 1365,
+      "sha256": "25be4ab0d8cc91951b10ff85f7ba80da3e67bff0d64e3c02a285ed2afe52cb58"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-casual-base-v1.png",
+      "bytes": 1857510,
+      "sha256": "47a923424a5979b3a8273e6d9cf03a06117f0366985a9478c3821b56b5887f08"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-generation.json",
+      "bytes": 1595,
+      "sha256": "f0909ebae5170457bcef96b03e5d8d934afa382f0e156b5df4edf1f49c9a53b4"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-base-v1.png",
+      "bytes": 1781961,
+      "sha256": "a034841b68615677f30a301a7dce6a223e9822035c2e16937e951af5442204ab"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-downcast-generation.json",
+      "bytes": 1269,
+      "sha256": "0874c457447afcca7835eff0171fd7c25238a19b35b2091f405b7b4bd1a5fe03"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-downcast-v1.png",
+      "bytes": 1763188,
+      "sha256": "bf65c3fdce1a0ec7beb3d470754c32779b1c398aa27add76589d1be1fce29493"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-hesitant-generation.json",
+      "bytes": 1245,
+      "sha256": "1f1a84278d35df1e109a327982b64acd58039cfb3c765c9b42ba0e42191fcf10"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-hesitant-v1.png",
+      "bytes": 1788989,
+      "sha256": "2b5e514acafd8253eccd07e3bd176750056ba0693c39edaefb3d6d155cf122ba"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-serious-generation.json",
+      "bytes": 1261,
+      "sha256": "1998477bbcdc44dbd46e6f1f27cbbcb1471b125c364192f967fa68574e732923"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-serious-v1.png",
+      "bytes": 1757786,
+      "sha256": "f6eb0fd92d3d38735e4737ebf273a3e38eb9824d7419affce218a7606cf21296"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-smile-generation.json",
+      "bytes": 1263,
+      "sha256": "2482c6dff00d7cb30bef1e7e41ba146cd01d63dd92afd6eb033e2e62098b38f4"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-smile-v1.png",
+      "bytes": 1792560,
+      "sha256": "c342eff4cdb24369e362c61d68c803b33a6c8c7974f224c92da6d28a05420b14"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-tired-generation.json",
+      "bytes": 1281,
+      "sha256": "e16c3d7d1f514329e233a3a4c59bde5d1dc305f2bc1ed35b7c78bee683c7074f"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/originals/char-yelan-human-expression-tired-v1.png",
+      "bytes": 1756032,
+      "sha256": "612489ab9fb49f0a27c634cac45c2c111f85dcd5a4e3380da2ee880a13c33c0a"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/qa-base-light-dark.png",
+      "bytes": 333294,
+      "sha256": "04015436683fc04f823abfe5ccc992891c9d8342ad31afe543d9b006404a706b"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/qa/faces.png",
+      "bytes": 842659,
+      "sha256": "27db6f16d6e60da74022a1a0920777686c969a54ae354960a8433b4312fa5636"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/qa/light-dark-1.png",
+      "bytes": 953178,
+      "sha256": "9c1d54162e74a3b489a9148721ec2395c60a79b6931ea0078b81f96463e01dcc"
+    },
+    {
+      "path": "assets/ten-chapter/characters/yelan/qa/light-dark-2.png",
+      "bytes": 726943,
+      "sha256": "7590c6c196fc24d51d1e6545b44e19551356001bf270f3d82141241564d2ba9c"
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/char-zhouzhi-human-expression-tired.webp",
+      "bytes": 809684,
+      "sha256": "061227c7b9526195f47307a3e429090deb2cd8627e665ee197cc659cb6ea5712"
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/char-zhouzhi-light-blue-shirt-base.webp",
+      "bytes": 846344,
+      "sha256": "b77a71b1ec296d6067a150a47bcafe92ba2489e688eed36acdf1aa1c09332ea5"
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/char-zhouzhi-tied-hair-base.webp",
+      "bytes": 753766,
+      "sha256": "c8f25f8ff8dd3492d418e6396269661023b9389fa66d463b48e38bb507bb6630"
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/manifest.json",
+      "bytes": 15307,
+      "sha256": "fc9370206cc9f9abb9b8e13a457a216c37c35281ae58d05479cb6eff4bd10aea"
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/originals/char-zhouzhi-human-expression-tired-generation.json",
+      "bytes": 1251,
+      "sha256": "2ee2dc2a336084fe6e602c535012c990bc6c74b1144cd53302b6e4957654ab97"
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/originals/char-zhouzhi-human-expression-tired-v1.png",
+      "bytes": 1809998,
+      "sha256": "d9e49dd2371dbb81ef7ae8138f027825e32cac9c09490e27548a081efd72ff82"
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/originals/char-zhouzhi-light-blue-shirt-base-generation.json",
+      "bytes": 1237,
+      "sha256": "d0ca6c43277b3a6e0f33bb40bfdc540ee0b0650417fff014cbb1784b52e8452c"
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/originals/char-zhouzhi-light-blue-shirt-base-v1.png",
+      "bytes": 1888073,
+      "sha256": "219193208efe4cbc6c9a2cdaa5683ff9ee211bd8382b4b3d420d93bf415d056f"
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/originals/char-zhouzhi-tied-hair-base-generation.json",
+      "bytes": 1268,
+      "sha256": "870539184071ffafe6c645c6f41f7af7bf9de5a9f44a747a30e7fd926883d815"
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/originals/char-zhouzhi-tied-hair-base-v1.png",
+      "bytes": 1719833,
+      "sha256": "19e6696c23be0939ac9fd4fb5dbb4c3a6a3a60070faea34df59e04288acd1368"
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/qa-reuse.png",
+      "bytes": 576642,
+      "sha256": "284067b6f76a1279874eb2ba9b28697e96a6cff2bbbbfca148e19fe752323e39"
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/qa/faces.png",
+      "bytes": 1194847,
+      "sha256": "8f7efc5d1e7c99d1e57602ca2a8b09039368cbb7edfc8657792801c3db6151f1"
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/qa/light-dark-1.png",
+      "bytes": 1012305,
+      "sha256": "bf06f317636dad596f96a40be7d92bef58fab964a07eb750119e1f03fb3ebc64"
+    },
+    {
+      "path": "assets/ten-chapter/characters/zhouzhi/qa/light-dark-2.png",
+      "bytes": 1024298,
+      "sha256": "685e0b021a61b348ef450ca49e14dfbddc1c98fda3f4ce4179a68d17c69562e8"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/README.md",
+      "bytes": 3413,
+      "sha256": "dd59b438e06a9747c2e739de38877a5eed2816084fd5f9f7e5bf00e4d0e9733d"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-thinking.webp",
+      "bytes": 254246,
+      "sha256": "fe712afe64036b8e75952dca74b1cc2ab8771f66998c6821ba1ff92eaf7a75ee"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-action-wave.webp",
+      "bytes": 213288,
+      "sha256": "ea311f9cdc6e91989618f2ee0153bca9f7b663b632d42487e9ef7a720b034a74"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-base.webp",
+      "bytes": 233888,
+      "sha256": "881d3f443f78e18ec595e221312757913b968d5f8e1cb68fb4f2616c8f6f2a1d"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-downcast.webp",
+      "bytes": 225912,
+      "sha256": "ed7d25534f242db1d288083499ed9e281dc64bdf19ed5a7236c1fc809cd87da3"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-hesitant.webp",
+      "bytes": 237646,
+      "sha256": "9c9b7701bcbcac5f2be4d7c5452c263f3fb33fa01f7abdd3a4e0a42bafda3328"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-serious.webp",
+      "bytes": 243324,
+      "sha256": "92da2ea71812a85e084c6a5b349d13b3ad6fc406c8996237e4c08a3ae0eb2497"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-human-expression-smile.webp",
+      "bytes": 233976,
+      "sha256": "d01a049cdf15e39e240d0595e235ae94517b9b8ffaa2c77e1ff1978cbcf3766c"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-action-hand.webp",
+      "bytes": 132016,
+      "sha256": "4ac7b6f622c51783f05b2c3fd1c83138b1d7f717a420ea2a46e0ed97df236b51"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-base.webp",
+      "bytes": 140258,
+      "sha256": "6d3caefa7fd09ba5ea926a915fc1737689d796d2cad5ad40eef61893e5a39d5a"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-hesitant.webp",
+      "bytes": 147816,
+      "sha256": "9de0ac5f7a79885621986cd89407b9186365953859636d28b652691e86bd9042"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-serious.webp",
+      "bytes": 137860,
+      "sha256": "5ef42616a862ee3e537936449226d72012e5233897403549dc4b5e187a1eb76e"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/avatars/avatar-sphere-expression-smile.webp",
+      "bytes": 140388,
+      "sha256": "a90b6f459453940ca296af8214bfc29ea7f4447710734435a3d3ba740eeca723"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/baseline-approval.json",
+      "bytes": 656,
+      "sha256": "e6aae8f3bde6da6844ac6213e5b5d9ba60adfeb565d9f51db7e9139b539381dd"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-action-wave.webp",
+      "bytes": 1001188,
+      "sha256": "27cd16f1233463f800b7651e97ace261416436c5fd020ce5b547694ddc7639da"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+      "bytes": 1126134,
+      "sha256": "4e458e5fe38514e3eb4a0ae61fc2023166f078b2370e4836cb1557a6c56cd3d2"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-chin-base.webp",
+      "bytes": 1123108,
+      "sha256": "68682fd771ad2cea823f7beb5e0a57ceec64678a9686d24a316817c16b45e466"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-downcast.webp",
+      "bytes": 1066248,
+      "sha256": "546a9b5c83ab694633cb7e323a3367136c04ed54bba8ae2351fd3866bdc73595"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-hesitant.webp",
+      "bytes": 1089200,
+      "sha256": "0cfd679043a6ab6701aa32770a0ee87bbce4325b9df6fa17d93b44cd837a04ba"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-serious.webp",
+      "bytes": 1148984,
+      "sha256": "19ef244a325bfb04b03133d5bf0bf194cd9d70417dcc97ebc8e757c8058d071e"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-expression-smile.webp",
+      "bytes": 1023166,
+      "sha256": "bebfac9007c567c546a01c0d4739591866b8faeb5f02b67ef2755281780230cb"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+      "bytes": 739174,
+      "sha256": "1a5e3269fd31f9e869edd6a4c14e72bd91fe0e1e7e85fa2d8bbd36244198a24c"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/forms-index.json",
+      "bytes": 10912,
+      "sha256": "b9685a8c6bcc062b43c16f22276cbd822d772e4f6cbba587eaa5e45a51dd7cf6"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/index.html",
+      "bytes": 8215,
+      "sha256": "4bf5281413fd8528cfd41fa24f7ee8c3c45c93bca4c72d4c77f34adf14ca03df"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/manifest.json",
+      "bytes": 33388,
+      "sha256": "4826058faa132066c70c985bc9bcc0e77f4b270099bca477d776a7e8f3e21700"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/avatar-human-action-thinking.png",
+      "bytes": 516530,
+      "sha256": "ccabb5703400888bbf50f4219ac7cb66728b2239672294414b847df29640dc1e"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/avatar-human-action-wave.png",
+      "bytes": 424628,
+      "sha256": "cb953518e47640e920b17ce0a3e306802b6dd268e3a9751203f241a8aae75702"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/avatar-human-base.png",
+      "bytes": 488825,
+      "sha256": "39e2d1bea5626957753010ea127d51d730e2fa46ff63362f2836d86499bf3b0f"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/avatar-human-expression-downcast.png",
+      "bytes": 476564,
+      "sha256": "239b0feb48c1fd5ec3fcd9e07ef51024abee976d77f98a00a81407abc479531c"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/avatar-human-expression-hesitant.png",
+      "bytes": 496467,
+      "sha256": "83158489423b1b02040ce93aa5411dc3cba63d9433989e9111552869f5468dfa"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/avatar-human-expression-serious.png",
+      "bytes": 517272,
+      "sha256": "9e0a8d4a101dba5da9251b0203cf51a650d84fbf2163c50aed1e9b7521b59dea"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/avatar-human-expression-smile.png",
+      "bytes": 472986,
+      "sha256": "c2736332be46b1c2e063b50b3cdf67712ffe983ec9431e11ee6e9f85b42629d5"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/avatar-sphere-action-hand.png",
+      "bytes": 292650,
+      "sha256": "229ac3e17b3bd08a6966c89452a0e2931c61632a37fb47c42304c773ddf554fd"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/avatar-sphere-base.png",
+      "bytes": 311128,
+      "sha256": "6913b409bfd62e65c3cde3a44637ef087925cabcd86bc0c410794d5c8939cb98"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/avatar-sphere-expression-hesitant.png",
+      "bytes": 321670,
+      "sha256": "b9c70bf77edc28b0b4d5860f67b35de87c853cd6b81a5cde2eb68df4b242cfcd"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/avatar-sphere-expression-serious.png",
+      "bytes": 310334,
+      "sha256": "ef0502dd84bd10a94146242b935d28c52055c5e1b15409f86be61c1a859d35b0"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/avatar-sphere-expression-smile.png",
+      "bytes": 311954,
+      "sha256": "e0a956108039d4a3c05610834c649022d66ad63d933b0d94381d75c98ad39a4e"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-action-wave-v2.png",
+      "bytes": 2119316,
+      "sha256": "9d34a7eb2b704a89052c177fdd4c557be5c4b33535580d6361ffd816b41f2319"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-action-wave.png",
+      "bytes": 2326092,
+      "sha256": "ef63ce8f68849525703a1db5b3907a799e928dd77957652ef0a38da1395f23af"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-chin-base-v2.png",
+      "bytes": 2259113,
+      "sha256": "5a151d27dd56516b4f429212a264094ef526f4583b788452dbe90fe19529d4e5"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-chin-base.png",
+      "bytes": 2408858,
+      "sha256": "5ebbfb972525e1fbea1bff033c105d57cd714413d12bd4adefe3ea7fc4208231"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-expression-downcast-v2.png",
+      "bytes": 2199811,
+      "sha256": "eedc821169197384a35dd5a70f48f634c07c6f3057c9def2f5efddd688c13025"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-expression-downcast.png",
+      "bytes": 2325368,
+      "sha256": "dfd0fcc7d802f846baa4f397ad563aab302aa987b53811edae573ae1b4c516a9"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-expression-hesitant.png",
+      "bytes": 2214049,
+      "sha256": "60ff9aad224eaf93889a465d0a39516243ceedf8c8cf711e0989901d92ac3a1b"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-expression-serious.png",
+      "bytes": 2279021,
+      "sha256": "85b4c1d81d256e8f597bb1d73b3127b0f0d01f93cba7f8c649e80e9a47963bf5"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-expression-smile-v2.png",
+      "bytes": 2176202,
+      "sha256": "dcf4b864cec42afd2e75c91e1666383e3d0101a0e5340fef569fac3859d66d57"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-human-expression-smile.png",
+      "bytes": 2320954,
+      "sha256": "99a8099f808196bc3c3c88b8d609b1f7da7e3249c11a658fe55d0c5f09a5f1af"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/originals/char-huangqiuqiu-orb-hand-base.png",
+      "bytes": 1254302,
+      "sha256": "b56ff997e4b8753d345eb6b685b40f019d5bdfea97059efc31440691d68b51da"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/production-inputs.json",
+      "bytes": 6968,
+      "sha256": "7f9b36d2750a54e83acd55812cf33d130d9951abecbcf86d75c968b5d46cc280"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/prompts.json",
+      "bytes": 14357,
+      "sha256": "fcafcf02842c9546f59a95232615149faf2e7c2a639fcae08ba0c732d0359e6e"
+    },
+    {
+      "path": "assets/ten-chapter/huangqiuqiu/reframe-prompts.json",
+      "bytes": 5508,
+      "sha256": "eebe6674fca7d69c9bdb5b4affc1b7aad89698ba69d02a6e0ca70ad287a61c62"
+    },
+    {
+      "path": "assets/ten-chapter/ui/README.md",
+      "bytes": 621,
+      "sha256": "956c12ec75d940d25838cf7d23d2c356f0dd5d8f2ef3289e2908acfe245cf7ba"
+    },
+    {
+      "path": "assets/ten-chapter/ui/a05-covers.json",
+      "bytes": 3321,
+      "sha256": "8f929c33bd066c5be7dfaad3956358cd497388f5a66e4b10b5d790cc41d4f51e"
+    },
+    {
+      "path": "assets/ten-chapter/ui/cover-desktop.webp",
+      "bytes": 1874752,
+      "sha256": "a2754760ac8863b57fb1820f2d7769332effd1c06eb9a224d13da06ad5ffd665"
+    },
+    {
+      "path": "assets/ten-chapter/ui/cover-mobile.webp",
+      "bytes": 1943458,
+      "sha256": "66f3af124050fa455001108bf2369a9db22b028c96f1774858402d1fafebfe40"
+    },
+    {
+      "path": "assets/ten-chapter/ui/originals/cover-desktop-v1.png",
+      "bytes": 2610824,
+      "sha256": "305b26ed13489b46333432ccdade916996518fcd34e7888f7a60c645b18d56ad"
+    },
+    {
+      "path": "assets/ten-chapter/ui/originals/cover-mobile-v1.png",
+      "bytes": 2597298,
+      "sha256": "a7edfea6ac37c0dea739ca1f0b429a2414d56f99edf7883b4afbfc756880703d"
+    },
+    {
+      "path": "engine.js",
+      "bytes": 15662,
+      "sha256": "363e4a9b1ddd9d6e012b6623af04c54f9fc077a065e9d1ee3b61981e9be5e39a"
+    },
+    {
+      "path": "game.js",
+      "bytes": 61046,
+      "sha256": "a3cfb8a51d89e2bce23c7f3b2254818c80f43646f785b4e5bced089ce4c9f50b"
+    },
+    {
+      "path": "index.html",
+      "bytes": 7884,
+      "sha256": "d69ad01b4181d77ac990162c2e5a38d65839fe5208680ef2cd9972af3f2db197"
+    },
+    {
+      "path": "player-runtime.js",
+      "bytes": 3139,
+      "sha256": "911385f9e9d3e608b859648c48b8ca832abd22de677e5d65d0b1fd83c8d39772"
+    },
+    {
+      "path": "save-compat.js",
+      "bytes": 5586,
+      "sha256": "11cc52079a67a2ee32244206b79bb11e1cfe71874227aefdd1e768594a0e816f"
+    },
+    {
+      "path": "story.js",
+      "bytes": 461146,
+      "sha256": "5d9b3dad53fa7de88269f7e605db4cf2e7b80a92587dedffda0e425bb1878e7a"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 45631,
+      "sha256": "1aa6e6c501f2d1198d812e849cf07f90d3f21024f0ad5c79602bebdde773374c"
+    },
+    {
+      "path": "任务拆分/三章扩展/build-story.cjs",
+      "bytes": 17257,
+      "sha256": "068ca2f80fa29dd0b2405de726daae2568d1971878f48979e9be89ecf3b2ebd3"
+    },
+    {
+      "path": "任务拆分/三章扩展/ch2_build.py",
+      "bytes": 30972,
+      "sha256": "c23abf1a0e481568a536bc0a110c9c770ebf54a5fca742b1dd68a210f7295de1"
+    },
+    {
+      "path": "任务拆分/三章扩展/ch3_build.py",
+      "bytes": 69789,
+      "sha256": "0d29732e565c50af7d42b818e23573c10805f98e71d5cde9965a217527a11632"
+    },
+    {
+      "path": "任务拆分/三章扩展/chapter2.json",
+      "bytes": 65135,
+      "sha256": "e80ed9a1069342aeee85347f18ee3373dda638be73b0802dbac81096920729a1"
+    },
+    {
+      "path": "任务拆分/三章扩展/chapter3.json",
+      "bytes": 181597,
+      "sha256": "8b8dc585c7cecdb0d2dcfb609568e029243929e42754a193aebd22e1d95dade3"
+    },
+    {
+      "path": "任务拆分/三章扩展/piao-route.cjs",
+      "bytes": 26189,
+      "sha256": "e2cfbb2e2cbdb9c5f98255e6e46078aa962b14c61dfdc4fc1162fd6e8e7ccb50"
+    },
+    {
+      "path": "任务拆分/三章扩展/scene-backgrounds.cjs",
+      "bytes": 800,
+      "sha256": "35adbdcd1e583588316905cfb06851024b463448fb0c8e61fdcccc7196acafd9"
+    },
+    {
+      "path": "任务拆分/全十章/build-manifest.example.json",
+      "bytes": 618,
+      "sha256": "2a71e3a12eefb165d3cf1d8c46315e3c2887de4f8ac63c60468b50721678caf0"
+    },
+    {
+      "path": "任务拆分/全十章/build/cli.cjs",
+      "bytes": 5366,
+      "sha256": "deeb03969de594f1296000c79d6e626bc7b3eeb02f5a67d901fa6037bb6bd47e"
+    },
+    {
+      "path": "任务拆分/全十章/build/compiler.cjs",
+      "bytes": 25143,
+      "sha256": "fac93168157fe54f7723f589163caee2a9f9f1a4d0ee52ec19bd5c8f45eaccf1"
+    },
+    {
+      "path": "任务拆分/全十章/build/graph-test.cjs",
+      "bytes": 17008,
+      "sha256": "22555e142e2ec4f81c54e26fbacff203a41726c2eeef39f17b53cd42d06fc7dc"
+    },
+    {
+      "path": "任务拆分/全十章/build/graph.cjs",
+      "bytes": 15324,
+      "sha256": "9217ff94f9825c575614b138adf6b27c1d3e1237e73a4874964030ebee7637b5"
+    },
+    {
+      "path": "任务拆分/全十章/build/integration-test.cjs",
+      "bytes": 6087,
+      "sha256": "bb102eb1e4d654793139a95c9a5186fdcf5c0b38a4c9ac86173c4da0b90ca5f0"
+    },
+    {
+      "path": "任务拆分/全十章/build/json.cjs",
+      "bytes": 2166,
+      "sha256": "f3ee337407c67c66138d681759e00950af02a8bd141c5556cfc7941338d6a970"
+    },
+    {
+      "path": "任务拆分/全十章/build/test.cjs",
+      "bytes": 18277,
+      "sha256": "1b91261c6cfb22ab64e120a24947d17936b996beb05b3f467524adae770133a1"
+    },
+    {
+      "path": "任务拆分/全十章/common/README.md",
+      "bytes": 4858,
+      "sha256": "874d6390189c1c98e218f2ba515d530413bacabf1514295637bb4b9177b251a1"
+    },
+    {
+      "path": "任务拆分/全十章/common/assemble.cjs",
+      "bytes": 18402,
+      "sha256": "a3017b9f5027a2d1a77249eed28bca8c2669c99632fc0b2a052aba1f9ce3ed09"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch01.json",
+      "bytes": 110930,
+      "sha256": "e67fd830b2a90b5b1ebc581dd0453a1d8feee5c3be0b91ce894cae6f1776b48f"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch02.json",
+      "bytes": 86427,
+      "sha256": "f9e89a31e445bd52655334f124c1e0f9c8bc9368bce0220742eed9f3561032b2"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch03.json",
+      "bytes": 9843,
+      "sha256": "88bb55edd4315f4a6c06500687a99134bdebaba1233b21ef03fd2660c75fba5b"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch04.json",
+      "bytes": 9425,
+      "sha256": "645ddb96d804533a226a8c14e5cb0fff18e557bfb9a2c994ee9eea915b24ac04"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch05.json",
+      "bytes": 13731,
+      "sha256": "2e19cd57cfafa07edd7c1880dc727f6aae386a62bad806f86c1d5a9f2d2fbfb8"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch06.json",
+      "bytes": 17430,
+      "sha256": "f95eabdfd886fdc72f1856872d21919b9adba833b501a303cc7219fe4c04e62f"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch07.json",
+      "bytes": 8780,
+      "sha256": "5b45f35bd675c3db4060f9e7ae8bf4d076cae60c9dd438cb8bead49e6fbd31c7"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch08.json",
+      "bytes": 13747,
+      "sha256": "4b98abcf1ef72c6ac5985cd70e1640bebfdf390fd2b67f6cfe9497ec80278ec9"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch09.json",
+      "bytes": 11242,
+      "sha256": "e437f863161b79661513d53c55e27529270918766114434eed3646b6bb710002"
+    },
+    {
+      "path": "任务拆分/全十章/common/ch10.json",
+      "bytes": 21025,
+      "sha256": "5c179e95f3b1fc6ce28a47ffa70df2b41aa36dbd11ad440878c4fc23809d9b3c"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/cli-check.json",
+      "bytes": 880,
+      "sha256": "2a9a9bd9c6723bcfd4f53e769c0179f438a4b33136cb874276fd2fbe7c4934bd"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/e04-common-integration.json",
+      "bytes": 39594,
+      "sha256": "f34a811cb6c1ef7072072f11ff6370323bcea53b686d840fabd126c843e9ef5e"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/fixtures/bindings.json",
+      "bytes": 1987,
+      "sha256": "ca5ecffc6e5f268403d05a0e846204d20f64a59f8f331d8b2701950198af968f"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/fixtures/manifest.json",
+      "bytes": 877,
+      "sha256": "3f6eef0d5f8c10f2ba787e34f8b0a95e901480f105a8883f4b20e081d5d88afb"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/fixtures/route-friends.json",
+      "bytes": 7782,
+      "sha256": "3287480bce332727d58e78005c8700f9c0fc80d5b2eac5d5c649cbc79a96fa22"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/fixtures/route-huangqiuqiu.json",
+      "bytes": 9661,
+      "sha256": "60fe12c20a65ea872d9ec5b17d01f5ddc8526345a386c2e1ccccdd97de72e034"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/fixtures/route-mengyao.json",
+      "bytes": 7782,
+      "sha256": "3c75e4633f090a98043da2a7d914d4895d3ff6d6e3d1261ab17a3186759e3cf9"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/fixtures/route-piao.json",
+      "bytes": 8494,
+      "sha256": "c7690b331236e69db97e915665af5232019e3d1652622d1a0a4e1a95f64408c1"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/fixtures/route-xiaoman.json",
+      "bytes": 7766,
+      "sha256": "17fbc15dfdcb825177de3d5221a6825f50f1756c4a6dad1b1116996d78f6597b"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/fixtures/route-yelan.json",
+      "bytes": 7668,
+      "sha256": "6970dc1da5321baa366e879d2f9c43bfbae9fc3ce9d6ed2a3f686a8f6908990b"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/fixtures/route-zhouzhi.json",
+      "bytes": 7782,
+      "sha256": "6d79cd2c3e9bba1d860aef1a59f3ff3a0338463fe504e0462b2ee4704a152f22"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/handoff-check.json",
+      "bytes": 367,
+      "sha256": "d725ca5ddb5b3c989705c04be68bb95d29def22197ad09c9effd171c9f31423b"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/integration-map.json",
+      "bytes": 23889,
+      "sha256": "091ab477264ac126744ede186c8dd6d955e3fcf37f50f5b39e23ff8fe8f33758"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/interface-build-report.json",
+      "bytes": 36345,
+      "sha256": "8baf2f8d88840a4206313bea5e42023357e65c7993c5339040445be9fc7f7084"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/interface-fixture.cjs",
+      "bytes": 4551,
+      "sha256": "6257a2dceab110397c2c7c8f21b7d7c7edd43397947ddff1d905c9f4a532fa5d"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/path-witnesses.json",
+      "bytes": 301522,
+      "sha256": "29ea3745856c0a0431f862bfd86b1a0560d5ab084ed5ffa2d3dc8116c92d76ee"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/protected-before.json",
+      "bytes": 5986,
+      "sha256": "7c7f2a41edb029d6ae6b94d46177a1758e699cd2f4a1ee5f55589b4f5d971e4f"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/source-index.json",
+      "bytes": 267801,
+      "sha256": "d7f113e836d82c3648c5ba76efb698049ac467950797a1d9050fe62a55fc5f1a"
+    },
+    {
+      "path": "任务拆分/全十章/common/qa/verification.json",
+      "bytes": 8819,
+      "sha256": "cf45b2e94bab07c47000d1b4886e8b50bd58770246fcb3fd41c7a978fcb1d83c"
+    },
+    {
+      "path": "任务拆分/全十章/common/verify.cjs",
+      "bytes": 25481,
+      "sha256": "5e4cbaa964caf543adb4e01e9c9ab741b675ea81e3d244915975b78da0958e90"
+    },
+    {
+      "path": "任务拆分/全十章/contract.json",
+      "bytes": 172958,
+      "sha256": "4086571ab65e54271ec70e5a0a0712e00d0b2a1f6dae739b1df05a328ada1876"
+    },
+    {
+      "path": "任务拆分/全十章/routes/friends.json",
+      "bytes": 155027,
+      "sha256": "22c82f1aa56c6873f83df8eedd47309693ab56ef03b081095b93fce95bce4ed7"
+    },
+    {
+      "path": "任务拆分/全十章/routes/huangqiuqiu.json",
+      "bytes": 231354,
+      "sha256": "c785e3d2dda7d967f4bec0ba73382d03f297796e1dcf532f52592e564fb78e19"
+    },
+    {
+      "path": "任务拆分/全十章/routes/mengyao.json",
+      "bytes": 256135,
+      "sha256": "8c7c8082bcc216107886bafc33e516aa349e596435a926b7adc9a17eaac90d0d"
+    },
+    {
+      "path": "任务拆分/全十章/routes/piao.json",
+      "bytes": 233010,
+      "sha256": "b1ab806155124a8b2cf0e11e9c2947e33fe9a77a622ecdff69f314e50255202d"
+    },
+    {
+      "path": "任务拆分/全十章/routes/xiaoman.json",
+      "bytes": 266813,
+      "sha256": "b982784014d95fe44cb620e6b0ccd2252b3b86ccea5e519c09501277abec0fb0"
+    },
+    {
+      "path": "任务拆分/全十章/routes/yelan.json",
+      "bytes": 230624,
+      "sha256": "7dcaae511ed9e7bfeb644816ef5821ad66e032783e62ef107e9e775af1472aee"
+    },
+    {
+      "path": "任务拆分/全十章/routes/zhouzhi.json",
+      "bytes": 229346,
+      "sha256": "7da9e066d79aaa299ad2ab5fff911be7060f5db4e4ef11bda3e4a901880a8eff"
+    },
+    {
+      "path": "任务拆分/全十章/samples/e02/bindings.json",
+      "bytes": 291,
+      "sha256": "3d52bf9294353946b24acd8c9e36d7051b3fdc4fcc3c5248fe396ebd0e00b8fe"
+    },
+    {
+      "path": "任务拆分/全十章/samples/e02/common/ch01.json",
+      "bytes": 5775,
+      "sha256": "a15ceac50cc84e0357333a8a3c15e1ac66ff26af5316b50ac571182070f68982"
+    },
+    {
+      "path": "任务拆分/全十章/samples/e02/common/ch02.json",
+      "bytes": 14892,
+      "sha256": "7b1efc161f962743c69b3a501f79de7ad4c959f7aed86724fb181aabf3d9de67"
+    },
+    {
+      "path": "任务拆分/全十章/samples/e02/common/ch03.json",
+      "bytes": 6749,
+      "sha256": "9e74695c37e8d6542bc089f19a01d2981be0d08f92dae4b7bec1f5eb83ed77cb"
+    },
+    {
+      "path": "任务拆分/全十章/samples/e02/common/ch04.json",
+      "bytes": 1233,
+      "sha256": "f0f5a46373e566d1be383c3787d8e65d079cccaf0b7f4c3cc4c72367d8285149"
+    },
+    {
+      "path": "任务拆分/全十章/samples/e02/manifest.json",
+      "bytes": 570,
+      "sha256": "e351e5fc9a8e68d83461bc4d558e63209fad33e9c7e0b2211c22848ef8bdb0be"
+    },
+    {
+      "path": "任务拆分/全十章/samples/e02/routes/friends.json",
+      "bytes": 1348,
+      "sha256": "a77b79245b7a17735eefb31283cdbb66a21a2500e6c0f6c6be2d5deef6cbbb64"
+    },
+    {
+      "path": "任务拆分/全十章/samples/e02/routes/huangqiuqiu.json",
+      "bytes": 1419,
+      "sha256": "15cb150485463802859bef6b5c54c27702d0521c72e6b6cf1b1762709c07c446"
+    },
+    {
+      "path": "任务拆分/全十章/samples/e02/routes/mengyao.json",
+      "bytes": 1513,
+      "sha256": "ccad55340fe8f1865b1bab48bca3eab39542123238c22fc71e28fec6fd36d468"
+    },
+    {
+      "path": "任务拆分/全十章/samples/e02/routes/piao.json",
+      "bytes": 1327,
+      "sha256": "b6afe8a7393455da8aadb63f8adfaddd35cbf97b257f5777fb4c5de6a8c92ae5"
+    },
+    {
+      "path": "任务拆分/全十章/samples/e02/routes/xiaoman.json",
+      "bytes": 1307,
+      "sha256": "a31ccf880009ff55935e4c0745bda9bf1b7163cb79ae80f3e76fe1f985fa4b25"
+    },
+    {
+      "path": "任务拆分/全十章/samples/e02/routes/yelan.json",
+      "bytes": 1356,
+      "sha256": "22ad8195ebdbfa18bd87fd89d442af653c5019336f5acb9c10338bed9f0d2bb1"
+    },
+    {
+      "path": "任务拆分/全十章/samples/e02/routes/zhouzhi.json",
+      "bytes": 1387,
+      "sha256": "ec356a6d950b7e0239e124628046ad0490828a536c69d4dbf1118af106a31146"
+    },
+    {
+      "path": "任务拆分/全十章/verify-contract.cjs",
+      "bytes": 13630,
+      "sha256": "60e4a6b5295b174211da011bcb7c4478c987a83c1cb24889fb32c4b8b8a9800a"
+    },
+    {
+      "path": "任务拆分/全十章/交接/A01.md",
+      "bytes": 2843,
+      "sha256": "195a1a14e0f6173b29cda21c4b107a1f972e017b115bbf2b548a41c33aaf43b2"
+    },
+    {
+      "path": "任务拆分/全十章/交接/A02.md",
+      "bytes": 4190,
+      "sha256": "39b5b66d8845ffe65893a07c6e52ff89b095c3ebb965e81fbcab6ec0c2017f55"
+    },
+    {
+      "path": "任务拆分/全十章/交接/A03.md",
+      "bytes": 2415,
+      "sha256": "6de30bb13ac402c3e1de31d1c45ae9d2545a77f7ca394b658cbdf1e7ae36c924"
+    },
+    {
+      "path": "任务拆分/全十章/交接/A04.md",
+      "bytes": 4177,
+      "sha256": "641187210d3d19054f2bbcf601e5100661841ebb43f50506063b008d9965df4b"
+    },
+    {
+      "path": "任务拆分/全十章/交接/A05.md",
+      "bytes": 2969,
+      "sha256": "f7d0cda174c2f77ac83b66c3a03998084419c7b0bc9e36257415b4fee136fc46"
+    },
+    {
+      "path": "任务拆分/全十章/交接/E01.md",
+      "bytes": 3659,
+      "sha256": "e098bbfd20962958d7324d3c35e1cab8a75343f5582d52914f6033d00f72e7ce"
+    },
+    {
+      "path": "任务拆分/全十章/交接/E02.md",
+      "bytes": 3874,
+      "sha256": "e427a18cd02a17cd0d1c0880122c25cde27ae2cb1cbee45e3a59f5de691262fa"
+    },
+    {
+      "path": "任务拆分/全十章/交接/E03.md",
+      "bytes": 3926,
+      "sha256": "0eea1d23745c9b2f8b44696fc5703e7509c9e606235cf49184a8230e98a99b52"
+    },
+    {
+      "path": "任务拆分/全十章/交接/E04.md",
+      "bytes": 6808,
+      "sha256": "ae050755e6f004741d3e0cc92f85dd0ce34e96aa66e8d96a0cabc7c904169dc3"
+    },
+    {
+      "path": "任务拆分/全十章/交接/E05.md",
+      "bytes": 7198,
+      "sha256": "8e652b049469c99445f0da124fac70d98d6222623f4709f183208ee751cbd28d"
+    },
+    {
+      "path": "任务拆分/全十章/交接/E06.md",
+      "bytes": 7192,
+      "sha256": "87b653f02b94ff500bb13c15a7dbd7d73dc90d669c7a35d1fa4ddfb7d75fb76a"
+    },
+    {
+      "path": "任务拆分/全十章/交接/E07.md",
+      "bytes": 7416,
+      "sha256": "e991b69fa407d850c3ec96a77f2a641ddf14f2dfec4fd8f2ee86d2874137c4cf"
+    },
+    {
+      "path": "任务拆分/全十章/交接/E08.md",
+      "bytes": 4954,
+      "sha256": "10ecba7b6a74d14e374b20c210465e70a2fdaa752bc035c9924bf84d607b812b"
+    },
+    {
+      "path": "任务拆分/全十章/契约.md",
+      "bytes": 13983,
+      "sha256": "ecc03aad47821bed6c4978caa3730aa59495e9543d5493c4ec6b8e27bfe61244"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-0288e01d681cae5b/build-report.json",
+      "bytes": 48075,
+      "sha256": "f95593bb0a4bc67fd71fdf1dd1db7dbca19d9a5e6d041044312d7b977048dc47"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-0288e01d681cae5b/source-map.json",
+      "bytes": 554836,
+      "sha256": "c516f651e6b100a68597abe3d98ccdd0780ee1f735eb70dab25da8e811b1ad53"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-0288e01d681cae5b/story.js",
+      "bytes": 720909,
+      "sha256": "d3a5450d156c011a89f3dfa6c04d1bf65c8c17bc118c17cf98a30de684eba81e"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-0288e01d681cae5b/story.json",
+      "bytes": 720808,
+      "sha256": "3026e999f6c5297d96215b68d499a1c929236d9d76dd2f70beb4b9dc29029854"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-120fb09bd720ab4e/build-report.json",
+      "bytes": 51706,
+      "sha256": "c5859c3cc5428f43093a433815e7d79bd6519e1b6031750809abcc208c6a538c"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-120fb09bd720ab4e/source-map.json",
+      "bytes": 596398,
+      "sha256": "7f4a3fab450459286b0078ae2b8ab87addb6d338b8bf289e744c18a0c2c0b749"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-120fb09bd720ab4e/story.js",
+      "bytes": 784571,
+      "sha256": "a40c88665f1fd6a4e5d08456115112b63e055e2f303bc862e49a4db96eaea8f3"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-120fb09bd720ab4e/story.json",
+      "bytes": 784470,
+      "sha256": "a24995686db2bea5af617f5e9ee6c051980331789865c07bab8ec9dea21d0c3a"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-3d0fadf921f23ee7/build-report.json",
+      "bytes": 11111,
+      "sha256": "5e596f66f58c4e57874f90098bb0b00c0e274cd2d4783a0c1f5d6c0891e452ac"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-3d0fadf921f23ee7/source-map.json",
+      "bytes": 12467,
+      "sha256": "864435c1244070f5d77ab8034c53d22b0a6db47c41527de70c9ae806103f8300"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-3d0fadf921f23ee7/story.js",
+      "bytes": 23627,
+      "sha256": "116a6e33de9c88a8e72aeb93b0869e15bc9e423cf026c6cf351576e0cdacad65"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-3d0fadf921f23ee7/story.json",
+      "bytes": 23526,
+      "sha256": "e951663d9c95354b8ff50f3df51596f7aa84ca3fa88fcb5769b0795c660eda73"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-8ce7a85dad5ed701/build-report.json",
+      "bytes": 10058,
+      "sha256": "aafadf9d598fa3edc81de9e9a3476c96bb262f72f7f110f9a63045b059de6f5f"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-8ce7a85dad5ed701/source-map.json",
+      "bytes": 12467,
+      "sha256": "864435c1244070f5d77ab8034c53d22b0a6db47c41527de70c9ae806103f8300"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-8ce7a85dad5ed701/story.js",
+      "bytes": 23627,
+      "sha256": "116a6e33de9c88a8e72aeb93b0869e15bc9e423cf026c6cf351576e0cdacad65"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-8ce7a85dad5ed701/story.json",
+      "bytes": 23526,
+      "sha256": "e951663d9c95354b8ff50f3df51596f7aa84ca3fa88fcb5769b0795c660eda73"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-9ea151a6237c1147/build-report.json",
+      "bytes": 48075,
+      "sha256": "d29481f1173b6c85e5776ce0f389452c5576675c70a186b01bea071fee0a5c8f"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-9ea151a6237c1147/source-map.json",
+      "bytes": 554771,
+      "sha256": "48b28d251be353b408a9f21321e134198c2079c12dae7f3ec368b390fef05b57"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-9ea151a6237c1147/story.js",
+      "bytes": 720909,
+      "sha256": "d3a5450d156c011a89f3dfa6c04d1bf65c8c17bc118c17cf98a30de684eba81e"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-9ea151a6237c1147/story.json",
+      "bytes": 720808,
+      "sha256": "3026e999f6c5297d96215b68d499a1c929236d9d76dd2f70beb4b9dc29029854"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-a83e7e56184eb5db/build-report.json",
+      "bytes": 26164,
+      "sha256": "e035b6fff04f53ca0186ac5f641e7316221785b4533103583d6205cfb8c7a770"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-a83e7e56184eb5db/source-map.json",
+      "bytes": 241143,
+      "sha256": "6ae9651ba260903d15addd3a11f90216442b7c6dc07c50abc3ab8e1a0fcffe62"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-a83e7e56184eb5db/story.js",
+      "bytes": 330954,
+      "sha256": "919d1c150b8f87ba82d2291994880484e80572b8e88b8c458e1b1dbce3f5cfaf"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-a83e7e56184eb5db/story.json",
+      "bytes": 330853,
+      "sha256": "046079f6d0546be4a6e2df2ee33442e78af15005d0cdbbf1666d0b1abd4d7ff5"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-bbf363525828da2e/build-report.json",
+      "bytes": 48015,
+      "sha256": "003ba178b8978a6c9d6312c80da0970af82555bac8b56f72ddebb498148ab0e8"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-bbf363525828da2e/source-map.json",
+      "bytes": 482823,
+      "sha256": "1bd88b24a8b6ef3752f95d1a1ae03e834d4525cd0b6c11a50d123a1dec055da6"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-bbf363525828da2e/story.js",
+      "bytes": 635580,
+      "sha256": "d056927e1957bde222735b330180dfd58421bd43f4d1a24c3f19a777a94e8b27"
+    },
+    {
+      "path": "任务拆分/全十章/构建/sample-bbf363525828da2e/story.json",
+      "bytes": 635479,
+      "sha256": "ea1279583a7a3683d2d6dc38c00952aeb9389024fb68f09de98e55dc79894ff3"
+    },
+    {
+      "path": "任务拆分/全十章/构建接口.md",
+      "bytes": 9060,
+      "sha256": "87edc390111a3924e5f0231fea26b9e1593c2967625d8385b274763721b491a9"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E01/protected-before.json",
+      "bytes": 3497,
+      "sha256": "53de469297b6b7e6e930c5f979b65aed1657c9b2d55e2a6e56d5820493f744f4"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E01/verification.json",
+      "bytes": 15295,
+      "sha256": "511c163f10d3d071c4b5568f48136cc0e8455be904d3344c689a58a5c0f90f80"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E02/graph-tests.json",
+      "bytes": 30633,
+      "sha256": "9017806aaa490a7b8502bd91b5238bfbcc03e5cf11003e96e7e5c70f537a3d09"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E02/integration-tests.json",
+      "bytes": 2492,
+      "sha256": "683b855b4a2544efdf51abb7b04cf602b92fee958473dd3dcacf052d307286d4"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E02/legacy-build-before.cjs",
+      "bytes": 16979,
+      "sha256": "8f7471139e982ba3b985dbd9325398593dc5a41600b98983f7eb6d8533e7b06d"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E02/protected-before.json",
+      "bytes": 3808,
+      "sha256": "e23b0a9ab2c23e7ae1c73ec455bd8a95eb9aa495d7d1ee8a0d0873932ed10dab"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E02/tests.json",
+      "bytes": 26138,
+      "sha256": "f1b040eccdc56c2a8bd9916e7bdbac8c8c870b0f3b470e96f014f63a454126d3"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E02/verification.json",
+      "bytes": 3964,
+      "sha256": "d31dfea6796b4b8c3fbd560d09f16470625d49479eafb64c06f5a011b0933fc4"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/build-result.json",
+      "bytes": 1966,
+      "sha256": "9ebb123bb0f9e79d934ed8c334f5a19fef222a7d17cc0a08daf3b4b3bf81ccaa"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/build-routes.cjs",
+      "bytes": 14326,
+      "sha256": "30537a09a72bf63a0baa70f0bda9e2eceb79cad7806c9c33706c3e867ad7cb9c"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/delivery.json",
+      "bytes": 132756,
+      "sha256": "31254b828d1e02956bd4a8d73574e578eb8f1c7dcb9fe930f8efcce3f5ce3ccb"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/final-audit.json",
+      "bytes": 1937,
+      "sha256": "7f79084d99ef6488df911727ff4da98d8179761b42f1a6b12316ee566144ed7b"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/README.md",
+      "bytes": 276,
+      "sha256": "eb5ab4d52d658a53cd07b1e0c5e255d8935e218339de980900df0607d126e6ac"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/bindings.json",
+      "bytes": 2186,
+      "sha256": "d8a10426d65cb401baaa3e79543ca15d49fb44d69ee4e183c86fc8da55ed79cd"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/common/ch01.json",
+      "bytes": 5775,
+      "sha256": "a15ceac50cc84e0357333a8a3c15e1ac66ff26af5316b50ac571182070f68982"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/common/ch02.json",
+      "bytes": 14892,
+      "sha256": "7b1efc161f962743c69b3a501f79de7ad4c959f7aed86724fb181aabf3d9de67"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/common/ch03.json",
+      "bytes": 6749,
+      "sha256": "9e74695c37e8d6542bc089f19a01d2981be0d08f92dae4b7bec1f5eb83ed77cb"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/common/ch04.json",
+      "bytes": 2359,
+      "sha256": "c443fe49c53a247ef1644c0c2a7031db5b35c0b5648e225b7d40c8d79e109b55"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/common/ch05.json",
+      "bytes": 2377,
+      "sha256": "6eda19f3814ddd57573df88e2c4f23398a02da32bde92f9ab269dcd381a786ae"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/common/ch06.json",
+      "bytes": 2389,
+      "sha256": "fd9cf3de3950a62897a7f0c717fb0fc59066a5a0b0852efd6a36126b0b26fa35"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/common/ch07.json",
+      "bytes": 2374,
+      "sha256": "101f4158de70e96095228454b4b0e07d64abe0c5d90a408f8f5921ca5f8664ed"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/common/ch08.json",
+      "bytes": 2371,
+      "sha256": "f028d27960a94fbfc1d5f31528f579f615ed66493317daf768ec2f7ea32ee0a5"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/common/ch09.json",
+      "bytes": 2362,
+      "sha256": "12934ca76f85a7b93b258490aeb52ff84ec06101ea67cab484d340c332d1ec13"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/common/ch10.json",
+      "bytes": 1409,
+      "sha256": "1c4f93d694d87f59333bf498c3ed12e9c43e3f6bdc512afa59006167a26fef8f"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/manifest.json",
+      "bytes": 852,
+      "sha256": "7757283545884fc9ec57666c21baad9cf99cba5f5a846b92e83dd42be5a1c366"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/routes/friends.json",
+      "bytes": 1304,
+      "sha256": "25f66748b870446052cc80c27ebbc0cb4607f4af398bfa83258c7059f16c52b8"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/routes/huangqiuqiu.json",
+      "bytes": 1375,
+      "sha256": "cb140797e8862b449fbf1b886c9122a2c8840d36a998a8750988dbf98a56959c"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/routes/mengyao.json",
+      "bytes": 1469,
+      "sha256": "f938025d9a3453b62408d9ea6426f8587b3770a1bfa64647b487fe4a69e32b94"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/routes/piao.json",
+      "bytes": 1283,
+      "sha256": "553a4c8237fb3e0508c0e9ca37e442c6c24fd81c11bda5239620148684041baf"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/fixture/routes/yelan.json",
+      "bytes": 1312,
+      "sha256": "64a511424e9e432929b7102784a5f5fb04b548864e99da739c71fc43633b9fe0"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/protected-before.json",
+      "bytes": 4789,
+      "sha256": "542ef5bf681b8a942c0241de0dc7bb1d279a5f24dbf21901a89514529039423a"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/verification.json",
+      "bytes": 148975,
+      "sha256": "867a221d678a77202389faa41be0e763d89bd1fd0505bfa107d8896d0f21b08f"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E04/verify.cjs",
+      "bytes": 18149,
+      "sha256": "1824eb0da138501cfbb057cb60d26eba1a7aaf96c17ddd5592d9ef2a738d95b4"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E05/build-result.json",
+      "bytes": 1985,
+      "sha256": "57013c88729d8c3a283f2f921dc0e6d5bca9617367393b5f64abc0b999615d7d"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E05/build-routes.cjs",
+      "bytes": 19217,
+      "sha256": "a9e2b4f03601b17e6508a3a39778803a3580664a62f7ae01a5694ea72e52fd2d"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E05/combined-build-report.json",
+      "bytes": 51706,
+      "sha256": "c5859c3cc5428f43093a433815e7d79bd6519e1b6031750809abcc208c6a538c"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E05/delivery.json",
+      "bytes": 401481,
+      "sha256": "4f324f9527a7a6551645e813299237c5ec8c04b117ca1884c17828a7b7f2a108"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E05/final-audit.json",
+      "bytes": 2167,
+      "sha256": "bb3daa8ee72310fe7527cf69b7ceb53bf8516f29d560b8fbce94076786929aad"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E05/fixture/README.md",
+      "bytes": 420,
+      "sha256": "a2225c49f401ab02e5579f53cc5e4daa33bc1ad57e733ac6043a0eccd59d747e"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E05/fixture/bindings.json",
+      "bytes": 4088,
+      "sha256": "f5bdd7913a514469771f340985afe292428cf0af7ed26459f4fb3b799e291426"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E05/fixture/manifest.json",
+      "bytes": 896,
+      "sha256": "029bd1eacf0c55cefe7d4706394169c26c0a5030eb75dbf39b7a5ae670050eea"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E05/fixture/stub-friends.json",
+      "bytes": 7782,
+      "sha256": "3287480bce332727d58e78005c8700f9c0fc80d5b2eac5d5c649cbc79a96fa22"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E05/fixture/stub-huangqiuqiu.json",
+      "bytes": 9661,
+      "sha256": "60fe12c20a65ea872d9ec5b17d01f5ddc8526345a386c2e1ccccdd97de72e034"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E05/fixture/stub-piao.json",
+      "bytes": 8494,
+      "sha256": "c7690b331236e69db97e915665af5232019e3d1652622d1a0a4e1a95f64408c1"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E05/protected-before.json",
+      "bytes": 8139,
+      "sha256": "241c9fddb5dea2e05d33b2cfbbc949385564949c7cb10a7111ee536ed8c3e5c3"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E05/verification.json",
+      "bytes": 775319,
+      "sha256": "53f4386851e3c5815a748afedde8d9c0cc8ce212652c787035e8af1a20557516"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E05/verify.cjs",
+      "bytes": 25893,
+      "sha256": "414008f448be745e29bcde51917b9deb2de21f336f253fda58bc29434a1ae610"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E06/build-result.json",
+      "bytes": 1966,
+      "sha256": "e15cbebfbd3249251cfff2f73c56241787bf08e7bc8d4d7e378d460a90517b23"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E06/build-routes.cjs",
+      "bytes": 19108,
+      "sha256": "1ec6ab9102286d9d86c0c7fecc933eabb2fd021e981f4b0b4b704e7b2043e16d"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E06/delivery.json",
+      "bytes": 130950,
+      "sha256": "14aeeb954e10e9a639b2d1950f5fcbe90df103de68889f3c11f2c780b85f729b"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E06/epilogue-review.json",
+      "bytes": 3656,
+      "sha256": "9b27fff33c2e911ca7187beda7ba7778d4a108a4f477fc4f29f552e3b57763cd"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E06/final-audit.json",
+      "bytes": 1281,
+      "sha256": "c0d7af08067a761496881570e430fe88fd6061daaf8108c8e9df39c4202712ef"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E06/fixture/README.md",
+      "bytes": 297,
+      "sha256": "e073e1d6d7ce1af6692b461cec33d2051b00c4589e3310729607580a50c6980b"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E06/fixture/bindings.json",
+      "bytes": 3957,
+      "sha256": "697f795b10f7e4ae506a08b2e9e0ef276af4d9d4b2134251c657b28353329cfa"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E06/fixture/manifest.json",
+      "bytes": 984,
+      "sha256": "b33950d3ae937397e8439663565cdb2a1a31b7a9f6680b1cbf04e89ea7c7f269"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E06/integrated-paths.json",
+      "bytes": 334541,
+      "sha256": "1633f4dd159be2f0b9125148e4687c3da6a2f83018ee6cdea1cd199d4274085e"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E06/integration-report.json",
+      "bytes": 46611,
+      "sha256": "c177a60725044d88eb4e8d9330c7ad5da82cd09708ad5efb556bb7cce056a618"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E06/protected-before.json",
+      "bytes": 19857,
+      "sha256": "34fbcf1453df3841da6b68697ad951221724767fa811e9a7eff4eb3dd79abfca"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E06/verification.json",
+      "bytes": 87823,
+      "sha256": "7ae7321a9e53d961e28c52267d17be83a08dbf07f41b2d72f3f3400d08c50725"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E06/verify.cjs",
+      "bytes": 25605,
+      "sha256": "e9b1df6afd9e626c31bfa014aef919af5a61cfc272887eb879e4aa46e43890d6"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/build-result.json",
+      "bytes": 900,
+      "sha256": "2cfe50b17c91cf59662b3985a94f9c942532cb87fd942590f3172741c4601636"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/build-route.cjs",
+      "bytes": 17146,
+      "sha256": "05637de740657f86f797eb82c75467492dcbb22376020c9e87c0e799b435df21"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/completion-recheck.json",
+      "bytes": 4052,
+      "sha256": "0ffec1feb0d32eec64df48045e2742e6c017e38ce064eff5a48ba8e6342f465f"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/delivery-verification.json",
+      "bytes": 2402,
+      "sha256": "600c6589201e0898f0cabf6c09cad97f1e6e5f999e19a48d82eb74aa4b579330"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/delivery.json",
+      "bytes": 162294,
+      "sha256": "e406212897dfbea71bca96a21a03343d5388525e738dab8f7d510df8705ab0c6"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/final-audit.json",
+      "bytes": 4332,
+      "sha256": "97165c2d8e57eea2004e1faa47ae8cf2af75762283dccf4a38b41db2db495899"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/fixture/README.md",
+      "bytes": 395,
+      "sha256": "7be534f6f424cb15cdebaf3d52f182df3c9909221200f2e95945adf433b5c329"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/fixture/bindings.json",
+      "bytes": 3356,
+      "sha256": "35cd22d2420d179074b5e7a2effa97060336b2e4912b403aa857db39b3a7dd42"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/fixture/build-report.json",
+      "bytes": 48056,
+      "sha256": "f45c0eb42e9d40253c6c99eca5c8dda1e33c42ab75a52d3e7ae1366b5ac57ed8"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/fixture/cli-check.json",
+      "bytes": 828,
+      "sha256": "1be5a6f3d4953d40da5425e5e578cca37e913aa044b716f85b89c9d6415753fb"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/fixture/manifest.json",
+      "bytes": 913,
+      "sha256": "c61da40bcf60b217dd1b1930cc3d37daa024d0016996fe087e9e717a12a23db2"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/fixture/route-friends.json",
+      "bytes": 8046,
+      "sha256": "7a01c66c273925a45d323d8cfa1f5d151618b431868b6ac8fb0446e556409d57"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/fixture/route-mengyao.json",
+      "bytes": 8046,
+      "sha256": "3f79919fdb69a5dfdcad8a860152602999311c39259a6ac2a118a1b4b8c3a43f"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/fixture/route-piao.json",
+      "bytes": 8762,
+      "sha256": "49674f0b92257ddfb56fc1081f511b425ebecd5d23ec01f2a5a6ab2a27a79a99"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/fixture/route-yelan.json",
+      "bytes": 7932,
+      "sha256": "7418b6d17592e21c64fefe11f088b694969c7b919febaeeb6d239e66b2b8eda9"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/path-witnesses.json",
+      "bytes": 892050,
+      "sha256": "1b3ae7093cd415e933c44ee1f2ebd8fb2038bde43b10540f910ebb4e183a0f0b"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/presentation.json",
+      "bytes": 203096,
+      "sha256": "018e66333fabae7be1442084cb1be74dd01ef4dbe46df766729d4f9920e45e21"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/protected-before.json",
+      "bytes": 10983,
+      "sha256": "f53d1939b3b361f6d909ec5545ffac5ef7f4e29192ece75b9ebe36b19046d78b"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/verification.json",
+      "bytes": 12594,
+      "sha256": "181fdc76bf64149080a3fe7c63f63720e5fba566218d452f5513646717c4e785"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/verify-delivery.cjs",
+      "bytes": 7630,
+      "sha256": "11b0aa574004c1dd60d3a4e80ab6a5cfbc7a8c9e9eda9c878a5b6f0ea70c1fe1"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E07/verify.cjs",
+      "bytes": 27062,
+      "sha256": "e7b802a1449af610c9a6814c0604f233dcdc265a641259e9b3be9c21a1637891"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/before/game.js",
+      "bytes": 55668,
+      "sha256": "87a8d773c3f51ae930663d8edec927c19a7a0f61076e79d6c6a915848fdc9c6c"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/before/index.html",
+      "bytes": 7645,
+      "sha256": "2ae59b07bff371230049395148dc83bde549443889775d9679a405dc932f4ffa"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/before/styles.css",
+      "bytes": 45262,
+      "sha256": "71a08eb8e30a8f3a8186ec6bd6fb897a9fdf837d46045558cf5cfd337b3f8dd5"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/browser-results.json",
+      "bytes": 4030,
+      "sha256": "d1b338cf0f1530d5ed5bf230f102668709ba47bb567ab832fd72a6c23c5b7714"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/browser-test.cjs",
+      "bytes": 14881,
+      "sha256": "6c714077cd37bf142535ceba94c5757fb1dd887bc8631401d44c02fb06672f92"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/ending-desktop.png",
+      "bytes": 1537065,
+      "sha256": "50e3201a152c631224d543b8199b3ae3ba959edb16bfc949d7f667f6609c8f07"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/engine-report.json",
+      "bytes": 9767,
+      "sha256": "92b7360f60143bba2704f01339d357d131c53c64a1845557bbeb1661698bd607"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/engine-test.cjs",
+      "bytes": 17386,
+      "sha256": "267da44a6cbb2ced7a8304deacda636908e23e6d61c6cbcf53d40496f1fa5a12"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/final-audit.json",
+      "bytes": 3438,
+      "sha256": "35746c673b6d4658277259174b42c538a5948479dbe29e5f37463d6605daf3ca"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/fixture.cjs",
+      "bytes": 4329,
+      "sha256": "fbc4086a8a7726f9be8a421f5767b5f7e190699f982139c6a602428b4a53633c"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/human-desktop.png",
+      "bytes": 1487987,
+      "sha256": "1a59c549e869b1a02fb2586d2f507c363026f5fdf5c934aa4484078e8c996fdb"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/human-landscape.png",
+      "bytes": 454569,
+      "sha256": "bc11c2dc7e31dbd595da34cad4131935819104c54a05f5dfd7e6eb5b0c440404"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/human-laptop.png",
+      "bytes": 1204397,
+      "sha256": "10296555577216e1d5b2f54b22f622477898f9498b3f28570d50bb7a9cd337f9"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/human-phone.png",
+      "bytes": 411095,
+      "sha256": "bae0f389b1a6d9e128c8e1d9de31853ad8093afc662c6f76bc98f4f69fd235b2"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/human-small-phone.png",
+      "bytes": 303049,
+      "sha256": "03dc216bcd4df9d5ad6e0c324219e6358cff74914c90880cd0e38c0b12a0e5e5"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/human-transition-desktop.png",
+      "bytes": 1487961,
+      "sha256": "3be874e0d03c1815b56deb3ab377fdcb857175c67b3cbaae462e56129be9b875"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/integration-audit.md",
+      "bytes": 2999,
+      "sha256": "1d71d7077a56d289a36f0e0a8aa7a0ca90fbedc9ac87a6a3176da9e5c346d234"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/integration-results.json",
+      "bytes": 8975,
+      "sha256": "cd43e1909322e69d1997ad02e65050e7a5e6e4935bc172bc8a0e815ca152dcda"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/integration-test.cjs",
+      "bytes": 16327,
+      "sha256": "d63aa28c3fcbc993d7a4d8c9a7ed4727ce0db123dbd181376209bc45c9fc49a4"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/legacy-browser-output.txt",
+      "bytes": 1783,
+      "sha256": "87584a259dc3a55c1d8806f1beed8280f170f6e77c3b7917e6b789d9bd5ef5b7"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/legacy-browser-test.cjs",
+      "bytes": 26665,
+      "sha256": "f6e62ae5f73e7fb1d176081ef0f68ed1c3649b1e72ff6e91c2c86596d49ed4b9"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/legacy/browser-results.json",
+      "bytes": 16908,
+      "sha256": "046110bc85ca783b796493dd4e271f4d37dca2142e890391c458e84efa28bdd9"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/legacy/migrated-history.png",
+      "bytes": 287935,
+      "sha256": "ace0e0009c46b5d584c1d1fa67a34f8d82a0e07b8f6e5035d5b14f367844ff03"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/legacy/protected-auto.png",
+      "bytes": 289069,
+      "sha256": "c1b1023168d0697060ee53346b5feec8404fa4a8c3c5ab7bbbf1cfe6507115eb"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/presentation-results.json",
+      "bytes": 1276,
+      "sha256": "42422372c6f84ab81dd179553dca07f415f2ea19f07b24f8db52765eb38e7c46"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/presentation-test.cjs",
+      "bytes": 2769,
+      "sha256": "85e081c282721d665bef0441542a59f436a1867cef09d8fd655a5b88791b8106"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/protected-before.json",
+      "bytes": 51420,
+      "sha256": "b6b0e95a7dce4451c18957896c36d162ab010f9866d61e5a3a7b063e30e96f1e"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/relative-small-phone.png",
+      "bytes": 320938,
+      "sha256": "5385801f06e6d8c7d79e3b49c0fb1558a6ced60652ebf20add0f6aaa0e67f7f7"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/route-choice-small-phone.png",
+      "bytes": 269247,
+      "sha256": "2a02d2db6be6c1fe097203d7fec1bf0c819d972c95f63b0c3cde147e7a5443ed"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/save-results.json",
+      "bytes": 3612,
+      "sha256": "827b54654cb44b2761a1a51c99824e634c10656bbff8c28255acb5d796c295c4"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/save-test.cjs",
+      "bytes": 10780,
+      "sha256": "6fabcad65d5428767e1992933cc583e2138ac6b7e5d304319e88337035034f3d"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/sphere-phone.png",
+      "bytes": 398957,
+      "sha256": "53e0a13868d31bccba35d3b2559449e0f42b516175af01d09d4b7de9e0821e88"
+    },
+    {
+      "path": "任务拆分/全十章/校验/E08/validation-syntax.json",
+      "bytes": 159,
+      "sha256": "837217ce8016f3d11d74f82a741bf638b2c508be82da60cd527c334c89fcbd9c"
+    },
+    {
+      "path": "任务拆分/全十章/美术清单.json",
+      "bytes": 678260,
+      "sha256": "10cd396bf8de6e26e54ee60bc494fb512bb697ecc46a7f23b631b4e214a351b2"
+    },
+    {
+      "path": "任务拆分/全十章/美术清单.md",
+      "bytes": 27155,
+      "sha256": "1d1c991a9e75f239dcc50468ecb14911d9966ff021906cd47a0da7843bbac5c7"
+    },
+    {
+      "path": "项目文档/README.md",
+      "bytes": 1935,
+      "sha256": "9ae8db93d52cfcf7704d1de881de0c96aa9ed5442d029278be131c2687168e21"
+    },
+    {
+      "path": "项目文档/人物/README.md",
+      "bytes": 3610,
+      "sha256": "a26083dd609f9bf891baa7298f9dbc1c621bb54244d6707e729d4492241cbfd4"
+    },
+    {
+      "path": "项目文档/人物/叶岚.md",
+      "bytes": 3765,
+      "sha256": "73d20c576782d49e043b4a3d873e32ff5ab3319374d3fb37a8f4aa041d97e41f"
+    },
+    {
+      "path": "项目文档/人物/周栀.md",
+      "bytes": 2546,
+      "sha256": "15c2b2f4316fb029e5b767c30b99a3ac7b1405762806f21bfb1e4f103d71f4d0"
+    },
+    {
+      "path": "项目文档/人物/孟遥.md",
+      "bytes": 3173,
+      "sha256": "886a4e990add6e3030934d79d1b62170a49270e09736b2a985a3d0308079899c"
+    },
+    {
+      "path": "项目文档/人物/师匠.md",
+      "bytes": 2155,
+      "sha256": "e76e7fb07a79f3669eadcc32d0be6f5c2262bb4accddca448c0223cdb7ef2179"
+    },
+    {
+      "path": "项目文档/人物/文文.md",
+      "bytes": 4169,
+      "sha256": "020b043510b5f4b39277ff5234797c225a833027adf61613ed0a8794ae7fb778"
+    },
+    {
+      "path": "项目文档/人物/毛狼.md",
+      "bytes": 2429,
+      "sha256": "26b43b6e15fabbf95bed8ecd21a040448c2265aded18d8021f44dd3f682e754f"
+    },
+    {
+      "path": "项目文档/人物/罗小满.md",
+      "bytes": 2326,
+      "sha256": "b1b8bf4cc81786f0064980e383e00fc6e76d9044163b99bf0e3f586a0289eeb3"
+    },
+    {
+      "path": "项目文档/人物/飘.md",
+      "bytes": 3934,
+      "sha256": "99308a53d0acc475db1cbeb37d3a47c2cf1af5794513beaf82cc34549ca3523b"
+    },
+    {
+      "path": "项目文档/人物/黄球球.md",
+      "bytes": 4771,
+      "sha256": "76aa8d6cfb48a41279345273a7db1bb665619cbd66b9f63b618fd653047d7f28"
+    },
+    {
+      "path": "项目文档/分支/README.md",
+      "bytes": 2405,
+      "sha256": "e1fc9a724b4e0fe1ee6f5ce6980fa904b65b03733774e3f49f1fdde51f38b07e"
+    },
+    {
+      "path": "项目文档/分支/关系后日谈.md",
+      "bytes": 994,
+      "sha256": "8cb7b20bb641c331e592e93fa07f283815ed4465015d3c9225649c78d965aff7"
+    },
+    {
+      "path": "项目文档/分支/叶岚线.md",
+      "bytes": 1321,
+      "sha256": "fa1b9dcc1e42ddb1bd5afb28ccf80f3ee5ca17d217a9a7b9e5fbadec58a1c2b0"
+    },
+    {
+      "path": "项目文档/分支/周栀线.md",
+      "bytes": 797,
+      "sha256": "ae315432b5271f03666736336d11b84bd12f72babfbcb0d4b21ef26cf949b17c"
+    },
+    {
+      "path": "项目文档/分支/孟遥线.md",
+      "bytes": 1224,
+      "sha256": "78e692fb1063e89e311b11f15abe8f85cd1f23544597344e2d5c0639e106f332"
+    },
+    {
+      "path": "项目文档/分支/朋友与职业线.md",
+      "bytes": 1372,
+      "sha256": "a60dad755a4deca7ed4ca26d7d352e6bc512a2c23c68b87b19219469cd37100c"
+    },
+    {
+      "path": "项目文档/分支/游戏流程图.md",
+      "bytes": 9047,
+      "sha256": "dbdcb8e7d433fec8ea6382d077edfff0b3c16a3df61e096941310a8d2f7bdeb3"
+    },
+    {
+      "path": "项目文档/分支/罗小满线.md",
+      "bytes": 682,
+      "sha256": "c5a01b88047a627eb9d8174a9a9eb84f4ed09a1c93f1fc9675687a58d56918da"
+    },
+    {
+      "path": "项目文档/分支/选择与解锁规则.md",
+      "bytes": 1564,
+      "sha256": "9e60096d7c9d0b405032a4931d5c0b93f9a8d6db79f7b3330e826346de510c07"
+    },
+    {
+      "path": "项目文档/分支/飘线.md",
+      "bytes": 972,
+      "sha256": "aa48abe6dd03ebc1345356221a84cecab27f67a609e4854d38816e4761175c5f"
+    },
+    {
+      "path": "项目文档/分支/黄球球隐藏线.md",
+      "bytes": 1987,
+      "sha256": "1b25ee0c7d3d43169604b49fc3489e68997fc3ef9209518e77602aa539ce85b4"
+    },
+    {
+      "path": "项目文档/故事/.DS_Store",
+      "bytes": 6148,
+      "sha256": "a6f105b32a39b258656b15605bdf001dcac409689fc59a138dd5504119593c16"
+    },
+    {
+      "path": "项目文档/故事/README.md",
+      "bytes": 913,
+      "sha256": "927d11b57f4378a2f7e97e9dadf2856711382232ad6c9b8e3494b59467c7bad1"
+    },
+    {
+      "path": "项目文档/故事/世界观与主线.md",
+      "bytes": 5250,
+      "sha256": "6c3650a9b8a0d5e9e687d2915bc8f5a6bdad2878296ee83b9d137a1cce052aa8"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/README.md",
+      "bytes": 4641,
+      "sha256": "e2cd0c06a7022a45a8736d2490c95ea54d78ca0a67f971908b3b3c019ab82445"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/审校说明.md",
+      "bytes": 3867,
+      "sha256": "51f5fc7a78aa6e45081a64e1170e8c2277fdce96ae15d9cd809f100e809c2190"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第一章-凌晨六点的早餐.md",
+      "bytes": 15138,
+      "sha256": "766f2462d3695244aeb5d40a416c7610b05eeea15b397b8a0c232d351399e0c6"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "bytes": 29458,
+      "sha256": "112623a8a21f59991e3a5717838c0558244293dc709b906815c8c83497ebc8f0"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "bytes": 47796,
+      "sha256": "21ed8a4949d383f982625bcf473d75ced20aa02eeca5fb4fe4a099283749dc60"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "bytes": 30764,
+      "sha256": "d2aeb09d621edb3522b2dc63dcc5b49fa6949891e2c7d17520ffe14d39996549"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第二章-语音里的那个人.md",
+      "bytes": 11561,
+      "sha256": "dac8ac7db39fb2d16732629cb694cb34816bfdb7cc8de0064d52e1e16fc0bf06"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "bytes": 27427,
+      "sha256": "237c81a388bc42db960729d600a88d2705ef6106ade18f4414e919a33acab082"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "bytes": 27170,
+      "sha256": "2903d54c7d22f9e7fcfe3a4d4ead3c16dc103a67b675c12a636eb7bfb463279b"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "bytes": 25651,
+      "sha256": "8238a41e2b8e4102e7509e711662fa28bbdd83c7ef89e03f9af1e7798ff7c9e4"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "bytes": 34986,
+      "sha256": "94b9a7c273d7a6ba9d0c2f9572ec54a3874f57a8ea0663d4db455ec868d903b2"
+    },
+    {
+      "path": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "bytes": 27094,
+      "sha256": "456533e8485bffdaafc31a13d6c8c77e9f8266480707887e792a5ceaddaec0c2"
+    },
+    {
+      "path": "项目文档/故事/待续情节.md",
+      "bytes": 1952,
+      "sha256": "3147d0559ebc073cd8c6a863f0e9f2b83f9a4f30f12893ee06cb15430ca566f6"
+    },
+    {
+      "path": "项目文档/美术资源规范.md",
+      "bytes": 3833,
+      "sha256": "fbd38ec2eb694d6fd01ec7e93314711f9c9554f08e4ff1379925c4acf5841e93"
+    }
+  ]
+}

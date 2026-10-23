@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-20T03:26:09.148Z",
+  "url": "https://cjb-rain.279905028qq.workers.dev/",
+  "browser": "Codex in-app browser",
+  "checks": {
+    "homeRendered": true,
+    "startStory": true,
+    "manualSaveSlot3": true,
+    "reloadAndLoadSlot3": true,
+    "secondReloadAndContinue": true
+  },
+  "visibleImages": [
+    {
+      "complete": true,
+      "id": "scene-bg",
+      "naturalHeight": 941,
+      "naturalWidth": 1671,
+      "src": "https://cjb-rain.279905028qq.workers.dev/assets/background-variants/m2-daynight-20261020/bg-street-day.png"
+    },
+    {
+      "complete": true,
+      "id": "speaker-avatar",
+      "naturalHeight": 1536,
+      "naturalWidth": 1024,
+      "src": "https://cjb-rain.279905028qq.workers.dev/assets/char-wenwen.png"
+    }
+  ],
+  "warningAndErrorLogs": [],
+  "scope": "线上首页、开场剧情与存读档基础检查；未进行整篇浏览器通关、全部CG视觉或实体手机验收",
+  "screenshots": [
+    "live-home.png",
+    "live-story.png"
+  ]
+}

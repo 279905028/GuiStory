@@ -1,0 +1,13 @@
+{
+  "key": "mengyao-casual-jacket",
+  "character": "mengyao",
+  "file": "char-mengyao-casual-jacket-base",
+  "ref": "assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png",
+  "references": [
+    "/Users/yipin/Desktop/cjb/assets/ten-chapter/characters/mengyao/originals/char-mengyao-human-base-v1.png"
+  ],
+  "prompt": "Use case: identity-preserve\n单张视觉小说角色衣装/发型差分，输入图为编辑对象。修改：保留face-v2脸型和棕色低马尾，灰色T恤与深色牛仔裤不变。米白衬衫换成浅米色休闲薄外套；一个小巧普通棕色包单肩携带到身侧（不挂在脖子上）；无相机、镜头、摄影肩带、资料纸。自然微笑。\n严格锁定输入人物的脸型、五官、皮肤、成年身份、同一画风与光线，除上述服装/发型/必要手势外不改其他内容。保持1024×1536画布、原头顶落点、头身比例和大腿截幅，不扩画脚或完整全身。日系半写实细腻手绘立绘，背景为真实透明alpha，无底色、无地面、无光晕、无棋盘格、无文字、水印和边框。",
+  "generatedPath": "/Users/yipin/.codex/generated_images/01a162af-0842-7a61-a6ca-7846101abfe6/exec-1c8fa5ee-590d-4d83-b640-9c642497045a.png",
+  "tool": "image_gen built-in",
+  "attempt": 1
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "18eba9d145699c5a0b5f091a97929d37",
+    "name": "works.ambd.site",
+    "type": "CNAME",
+    "content": "public.r2.dev",
+    "proxiable": true,
+    "proxied": true,
+    "ttl": 1,
+    "settings": {
+      "flatten_cname": false
+    },
+    "meta": {
+      "r2_bucket": "portfolio-assets",
+      "read_only": true
+    },
+    "comment": null,
+    "tags": [],
+    "created_on": "2026-05-15T11:21:32.07878Z",
+    "modified_on": "2026-05-15T11:21:32.07878Z"
+  }
+]

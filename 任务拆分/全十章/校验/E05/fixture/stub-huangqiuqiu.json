@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "contractVersion": "1.0.0",
+  "contentRevision": "nightshift-20261022-r1",
+  "moduleId": "routes/huangqiuqiu",
+  "owner": "E07",
+  "scenes": {
+    "ts_c03_huangqiuqiu_interface_stub": {
+      "chapter": 3,
+      "title": "E03 外部路线接口桩",
+      "bg": "e03-interface-stub",
+      "time": "接口测试",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 15
+      },
+      "location": "接口测试",
+      "day": 15,
+      "dayLabel": "第15天"
+    },
+    "ts_c04_huangqiuqiu_interface_stub": {
+      "chapter": 4,
+      "title": "E03 外部路线接口桩",
+      "bg": "e03-interface-stub",
+      "time": "接口测试",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 22
+      },
+      "location": "接口测试",
+      "day": 22,
+      "dayLabel": "第22天"
+    },
+    "ts_c05_huangqiuqiu_interface_stub": {
+      "chapter": 5,
+      "title": "E03 外部路线接口桩",
+      "bg": "e03-interface-stub",
+      "time": "接口测试",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 25
+      },
+      "location": "接口测试",
+      "day": 25,
+      "dayLabel": "第25天"
+    },
+    "ts_c06_huangqiuqiu_interface_stub": {
+      "chapter": 6,
+      "title": "E03 外部路线接口桩",
+      "bg": "e03-interface-stub",
+      "time": "接口测试",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 30
+      },
+      "location": "接口测试",
+      "day": 30,
+      "dayLabel": "第30天"
+    },
+    "ts_c07_huangqiuqiu_interface_stub": {
+      "chapter": 7,
+      "title": "E03 外部路线接口桩",
+      "bg": "e03-interface-stub",
+      "time": "接口测试",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 35
+      },
+      "location": "接口测试",
+      "day": 35,
+      "dayLabel": "第35天"
+    },
+    "ts_c08_huangqiuqiu_interface_stub": {
+      "chapter": 8,
+      "title": "E03 外部路线接口桩",
+      "bg": "e03-interface-stub",
+      "time": "接口测试",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 46
+      },
+      "location": "接口测试",
+      "day": 46,
+      "dayLabel": "第46天"
+    },
+    "ts_c08_huangqiuqiu_event_stub": {
+      "chapter": 8,
+      "title": "E03 外部路线接口桩",
+      "bg": "e03-interface-stub",
+      "time": "17:00",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 55,
+        "clock": "17:00"
+      },
+      "location": "接口测试",
+      "day": 55,
+      "dayLabel": "第55天"
+    },
+    "ts_c09_huangqiuqiu_interface_stub": {
+      "chapter": 9,
+      "title": "E03 外部路线接口桩",
+      "bg": "e03-interface-stub",
+      "time": "接口测试",
+      "chronology": {
+        "domain": "story-day",
+        "mode": "present",
+        "day": 61
+      },
+      "location": "接口测试",
+      "day": 61,
+      "dayLabel": "第61天"
+    },
+    "ts_c10_huangqiuqiu_interface_stub": {
+      "chapter": 10,
+      "title": "E03 外部路线接口桩",
+      "bg": "e03-interface-stub",
+      "time": "接口测试",
+      "chronology": {
+        "domain": "two-years-later",
+        "mode": "present"
+      },
+      "location": "接口测试",
+      "day": null,
+      "dayLabel": "两年后"
+    }
+  },
+  "nodes": {
+    "tc_c03_huangqiuqiu_entry": {
+      "id": "tc_c03_huangqiuqiu_entry",
+      "type": "line",
+      "scene": "ts_c03_huangqiuqiu_interface_stub",
+      "speaker": "narrator",
+      "text": "【E03 测试接口桩，不是路线正文】",
+      "next": "tc_c03_common_exit"
+    },
+    "tc_c04_huangqiuqiu_entry": {
+      "id": "tc_c04_huangqiuqiu_entry",
+      "type": "line",
+      "scene": "ts_c04_huangqiuqiu_interface_stub",
+      "speaker": "narrator",
+      "text": "【E03 测试接口桩，不是路线正文】",
+      "next": "tc_c04_common_exit"
+    },
+    "tc_c05_huangqiuqiu_entry": {
+      "id": "tc_c05_huangqiuqiu_entry",
+      "type": "line",
+      "scene": "ts_c05_huangqiuqiu_interface_stub",
+      "speaker": "narrator",
+      "text": "【E03 测试接口桩，不是路线正文】",
+      "next": "tc_c05_common_exit"
+    },
+    "tc_c06_huangqiuqiu_entry": {
+      "id": "tc_c06_huangqiuqiu_entry",
+      "type": "line",
+      "scene": "ts_c06_huangqiuqiu_interface_stub",
+      "speaker": "narrator",
+      "text": "【E03 测试接口桩，不是路线正文】",
+      "next": "tc_c06_common_exit"
+    },
+    "tc_c07_huangqiuqiu_entry": {
+      "id": "tc_c07_huangqiuqiu_entry",
+      "type": "line",
+      "scene": "ts_c07_huangqiuqiu_interface_stub",
+      "speaker": "narrator",
+      "text": "【E03 测试接口桩，不是路线正文】",
+      "next": "tc_c07_common_exit"
+    },
+    "tc_c08_huangqiuqiu_entry": {
+      "id": "tc_c08_huangqiuqiu_entry",
+      "type": "line",
+      "scene": "ts_c08_huangqiuqiu_interface_stub",
+      "speaker": "narrator",
+      "text": "【E03 测试接口桩，不是路线正文】",
+      "next": "tc_c08_huangqiuqiu_human_reveal"
+    },
+    "tc_c08_huangqiuqiu_human_reveal": {
+      "id": "tc_c08_huangqiuqiu_human_reveal",
+      "type": "line",
+      "scene": "ts_c08_huangqiuqiu_event_stub",
+      "speaker": "narrator",
+      "text": "坐在我面前的，已经是个棕色齐刘海、中长发垂到肩旁的年轻女人。浅米灰色的宽松拉链外套敞着，里面是白色印花上衣，颈间有一圈黑色颈饰，一只眼前覆着白色遮片。她手里握着一根浅色的玩偶棒，长柄顶端是张圆圆的脸。",
+      "next": "tc_c08_common_exit",
+      "onEnter": {
+        "requires": [
+          {
+            "flag": "route",
+            "value": "huangqiuqiu"
+          },
+          {
+            "flag": "qiuSignal",
+            "value": "record"
+          },
+          {
+            "flag": "qiuReply",
+            "value": "reply"
+          },
+          {
+            "flag": "qiuMet",
+            "value": true
+          }
+        ],
+        "setFlags": {
+          "qiuForm": "human"
+        }
+      }
+    },
+    "tc_c09_huangqiuqiu_entry": {
+      "id": "tc_c09_huangqiuqiu_entry",
+      "type": "line",
+      "scene": "ts_c09_huangqiuqiu_interface_stub",
+      "speaker": "narrator",
+      "text": "【E03 测试接口桩，不是路线正文】",
+      "next": "tc_c09_common_exit"
+    },
+    "tc_c10_huangqiuqiu_entry": {
+      "id": "tc_c10_huangqiuqiu_entry",
+      "type": "line",
+      "scene": "ts_c10_huangqiuqiu_interface_stub",
+      "speaker": "narrator",
+      "text": "【E03 测试接口桩，不是路线正文】",
+      "next": null
+    }
+  },
+  "imports": [
+    "tc_c03_common_exit",
+    "tc_c04_common_exit",
+    "tc_c05_common_exit",
+    "tc_c06_common_exit",
+    "tc_c07_common_exit",
+    "tc_c08_common_exit",
+    "tc_c09_common_exit"
+  ],
+  "exports": {
+    "tc_c03_huangqiuqiu_entry": "tc_c03_huangqiuqiu_entry",
+    "tc_c04_huangqiuqiu_entry": "tc_c04_huangqiuqiu_entry",
+    "tc_c05_huangqiuqiu_entry": "tc_c05_huangqiuqiu_entry",
+    "tc_c06_huangqiuqiu_entry": "tc_c06_huangqiuqiu_entry",
+    "tc_c07_huangqiuqiu_entry": "tc_c07_huangqiuqiu_entry",
+    "tc_c08_huangqiuqiu_entry": "tc_c08_huangqiuqiu_entry",
+    "tc_c09_huangqiuqiu_entry": "tc_c09_huangqiuqiu_entry",
+    "tc_c10_huangqiuqiu_entry": "tc_c10_huangqiuqiu_entry"
+  },
+  "sourceMap": [
+    {
+      "file": "项目文档/故事/全十章审阅稿/第三章-想见你不必有事.md",
+      "startLine": 968,
+      "endLine": 968,
+      "nodeIds": [
+        "tc_c03_huangqiuqiu_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第四章-约好的那一天.md",
+      "startLine": 506,
+      "endLine": 506,
+      "nodeIds": [
+        "tc_c04_huangqiuqiu_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第五章-没说出口的困意.md",
+      "startLine": 503,
+      "endLine": 503,
+      "nodeIds": [
+        "tc_c05_huangqiuqiu_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第六章-空出来的一个晚上.md",
+      "startLine": 475,
+      "endLine": 475,
+      "nodeIds": [
+        "tc_c06_huangqiuqiu_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第七章-各自要过的日子.md",
+      "startLine": 497,
+      "endLine": 497,
+      "nodeIds": [
+        "tc_c07_huangqiuqiu_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 455,
+      "endLine": 455,
+      "nodeIds": [
+        "tc_c08_huangqiuqiu_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第八章-不用每次都逞强.md",
+      "startLine": 527,
+      "endLine": 527,
+      "nodeIds": [
+        "tc_c08_huangqiuqiu_human_reveal"
+      ],
+      "kind": "narration"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第九章-把明天说具体.md",
+      "startLine": 543,
+      "endLine": 543,
+      "nodeIds": [
+        "tc_c09_huangqiuqiu_entry"
+      ],
+      "kind": "control"
+    },
+    {
+      "file": "项目文档/故事/全十章审阅稿/第十章-雨停之前也往前走.md",
+      "startLine": 527,
+      "endLine": 527,
+      "nodeIds": [
+        "tc_c10_huangqiuqiu_entry"
+      ],
+      "kind": "control"
+    }
+  ],
+  "exclusions": [],
+  "assetRequests": []
+}

@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-20T03:47:09Z",
+  "domain": "ambd.site",
+  "requestedHostname": "galagame.ambd.site",
+  "worker": "cjb-rain",
+  "currentCloudflareAccountId": "461ba8ee70c50e430a62dfaf8d9f887e",
+  "registrar": {
+    "console": "Tencent Cloud",
+    "status": "normal",
+    "expiresAtLocal": "2027-05-07 20:20:32",
+    "timezone": "Asia/Shanghai",
+    "nameservers": [
+      "dan.ns.cloudflare.com",
+      "lily.ns.cloudflare.com"
+    ]
+  },
+  "publicDns": {
+    "nameserversMatchRegistrar": true,
+    "requestedHostnameAStatus": "NXDOMAIN",
+    "requestedHostnameCnameStatus": "NXDOMAIN"
+  },
+  "status": "resolved_and_bound",
+  "remoteChangesApplied": true,
+  "bindingApplied": true,
+  "httpsVerified": true,
+  "resolvedAt": "2026-10-20T05:06:57.339Z",
+  "resolution": {
+    "accountId": "461ba8ee70c50e430a62dfaf8d9f887e",
+    "deploymentRecord": "../cloudflare-ambd/deployment.json",
+    "url": "https://galagame.ambd.site/"
+  },
+  "initialCheck": {
+    "checkedAt": "2026-10-20T03:47:09Z",
+    "cloudflareAccountId": "f795b8a5df414f7f42b5a8e33303ad7d",
+    "cloudflareAccess": {
+      "matchingZonesInCurrentLogin": 0,
+      "visibleAccountsInBrowser": 1,
+      "owningAccountConfirmed": false
+    },
+    "remoteChangesApplied": false,
+    "bindingApplied": false,
+    "httpsVerified": false
+  },
+  "updatedAt": "2026-10-20T05:06:57.339Z"
+}
