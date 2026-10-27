@@ -5,9 +5,9 @@ const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');
 const assert = require('node:assert/strict');
-const root = path.resolve(__dirname, '../../..');
-const read = file => JSON.parse(fs.readFileSync(path.join(root, file), 'utf8'));
-const hash = file => crypto.createHash('sha256').update(fs.readFileSync(path.join(root, file))).digest('hex');
+const artPaths = require('../../../scripts/art-paths.cjs');
+const read = artPaths.readJSON;
+const hash = file => crypto.createHash('sha256').update(fs.readFileSync(artPaths.resolvePath(file))).digest('hex');
 const checkOnly = process.argv.slice(2).includes('--check');
 assert(process.argv.slice(2).every(x => x === '--check'), '仅支持 --check 参数');
 const write = (name, value) => {
@@ -15,8 +15,10 @@ const write = (name, value) => {
   if (checkOnly) assert.equal(fs.readFileSync(target, 'utf8'), text, name + ' 与准备器结果不一致，请重新生成');
   else fs.writeFileSync(target, text);
 };
-const adoption = read('assets/ten-chapter/a06-adoption.json');
-const map = read('assets/ten-chapter/a06-scene-node-map.json');
+const artRevision = require('../build/art-revision.cjs').loadArtRevision();
+const adoption = artRevision.adopt(read('assets/ten-chapter/a06-adoption.json'));
+const map = artPaths.rewritePaths(read('assets/ten-chapter/a06-scene-node-map.json'));
+map.cgRules = artRevision.replacePaths(map.cgRules);
 const contract = read('任务拆分/全十章/contract.json');
 const qiu = read('任务拆分/全十章/校验/E07/presentation.json');
 const decisions = read('任务拆分/全十章/presentation/decisions.json');
@@ -25,7 +27,7 @@ for (const item of map.sourceFingerprints) assert.equal(hash(item.path), item.sh
 for (const item of adoption.assets) {
   assert.equal(item.adoptionStatus, 'adopted-static', '资源未通过A06：' + item.id);
   assert.equal(hash(item.file), item.sha256, '采用图指纹已变：' + item.file);
-  const bytes = fs.readFileSync(path.join(root, item.file));
+  const bytes = fs.readFileSync(artPaths.resolvePath(item.file));
   assert.equal(bytes.toString('ascii', 0, 4), 'RIFF');
   assert.equal(bytes.toString('ascii', 8, 12), 'WEBP');
 }
@@ -225,7 +227,7 @@ assert.equal(registeredFiles.size,136);
 write('bindings.json',bindings);
 write('integration-metadata.json', {
   schemaVersion:1,task:'E09',contractVersion:contract.contractVersion,contentRevision:contract.contentRevision,
-  inputFingerprints:[...map.sourceFingerprints,{path:'assets/ten-chapter/a06-adoption.json',sha256:hash('assets/ten-chapter/a06-adoption.json')},{path:'assets/ten-chapter/a06-scene-node-map.json',sha256:hash('assets/ten-chapter/a06-scene-node-map.json')},{path:'任务拆分/全十章/presentation/decisions.json',sha256:hash('任务拆分/全十章/presentation/decisions.json')},{path:'任务拆分/全十章/presentation/prepare-bindings.cjs',sha256:hash('任务拆分/全十章/presentation/prepare-bindings.cjs')}],
+  inputFingerprints:artPaths.rewritePaths([...map.sourceFingerprints,artRevision.fingerprint,{path:'assets/ten-chapter/a06-adoption.json',sha256:hash('assets/ten-chapter/a06-adoption.json')},{path:'assets/ten-chapter/a06-scene-node-map.json',sha256:hash('assets/ten-chapter/a06-scene-node-map.json')},{path:artPaths.manifestPath,sha256:hash(artPaths.manifestPath)},{path:'scripts/art-paths.cjs',sha256:hash('scripts/art-paths.cjs')},{path:'任务拆分/全十章/presentation/decisions.json',sha256:hash('任务拆分/全十章/presentation/decisions.json')},{path:'任务拆分/全十章/presentation/prepare-bindings.cjs',sha256:hash('任务拆分/全十章/presentation/prepare-bindings.cjs')},{path:'任务拆分/全十章/build/art-revision.cjs',sha256:hash('任务拆分/全十章/build/art-revision.cjs')}]),
   counts:{characters:9,regularCharacterImages:53,qiuqiuMainAndAvatarImages:24,backgroundImages:55,programmaticBackgrounds:1,cgs:4,covers:2,registeredStoryImages:registeredFiles.size,scenes:Object.keys(bindings.scenes).length,nodeBindings:Object.keys(bindings.nodes).length,sourceFingerprintChecks:map.sourceFingerprints.length,assetFingerprintChecks:adoption.assets.length},
   covers,unspecifiedLocations:decisionsApplied,
   conditionalCgRules:map.cgRules.items.filter(x=>x.kind!=='cover'),

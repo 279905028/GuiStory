@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>五种雨夜 · 《毕节，雨停之前》场景风格对比</title>
+  <style>
+    :root{--paper:#f4f0e8;--ink:#282c29;--muted:#77796f;--line:#d8d6ca;--accent:#826047;--wash:#eae6dc;--white:#fffdf7}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.65}
+    button,input{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible{outline:3px solid #a77e4d;outline-offset:4px}
+    .page{max-width:1360px;padding:42px 40px 24px;margin:auto}
+    .masthead{display:flex;justify-content:space-between;gap:32px;align-items:end;margin-bottom:28px}
+    .eyebrow{font-size:11px;font-weight:600;letter-spacing:.2em;color:var(--accent);margin:0 0 12px}
+    h1{font-family:"Songti SC","STSong","SimSun",serif;font-size:clamp(30px,4vw,48px);line-height:1.2;font-weight:500;margin:0;letter-spacing:.05em}
+    .intro{font-size:13px;color:var(--muted);max-width:350px;margin:0}
+    .intro strong{color:var(--ink);font-weight:500}
+    .options{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px;margin-bottom:14px}
+    .option{border:1px solid var(--line);background:transparent;text-align:left;padding:12px 15px;color:var(--ink);border-radius:4px;display:flex;gap:12px;align-items:center;transition:background .15s,border-color .15s,color .15s;min-height:58px}
+    .option:hover{background:#e8e4d9}.option[aria-pressed="true"]{background:var(--ink);color:var(--white);border-color:var(--ink)}
+    .letter{font-family:Georgia,serif;font-size:22px;font-weight:400;opacity:.75}.option-title{font-size:13px;font-weight:500;display:block}.option-sub{font-size:10px;display:block;opacity:.6;letter-spacing:.08em}
+    .frame{border:1px solid #c9c7bb;border-radius:5px;overflow:hidden;background:#202824}
+    .stage{aspect-ratio:16/9;position:relative;isolation:isolate;overflow:hidden;display:grid;place-items:center}
+    #scene{display:block;width:100%;height:100%;object-fit:contain;position:absolute;inset:0;z-index:1}
+    .empty{max-width:400px;margin:24px;text-align:center;font-size:14px;color:#d9ded3}.empty small{display:block;font-size:12px;color:#969e92;margin-top:8px}
+    #character{position:absolute;z-index:2;right:5%;bottom:0;width:45%;height:94%;object-fit:contain;object-position:center bottom;pointer-events:none;filter:drop-shadow(0 12px 14px #0003)}
+    #character[hidden],#scene[hidden]{display:none}
+    .scene-tag{position:absolute;z-index:3;left:18px;top:16px;display:flex;gap:9px;align-items:center;font-size:11px;letter-spacing:.06em;color:#f5f2e9;padding:5px 10px;border:1px solid #fff3;border-radius:3px;background:#1d24286b;backdrop-filter:blur(10px)}
+    .scene-tag .dot{height:5px;width:5px;background:#d7b687;border-radius:50%}
+    .toolbar{padding:11px 17px;display:flex;justify-content:space-between;gap:16px;align-items:center;color:#ebede4;font-size:12px;background:#282e29}
+    .toggle{display:flex;gap:8px;align-items:center;cursor:pointer;min-height:28px}.toggle input{width:16px;height:16px;margin:0;accent-color:#ba9568}
+    .paging{display:flex;align-items:center;gap:14px}.counter{font-variant-numeric:tabular-nums;font-size:11px;letter-spacing:.08em;color:#bdc4b6;min-width:32px;text-align:center}
+    .arrow{background:transparent;border:1px solid #ffffff30;color:#eceee6;width:32px;height:28px;border-radius:3px;line-height:1}.arrow:hover{background:#ffffff12}
+    .caption{display:grid;grid-template-columns:1fr 1.55fr;gap:40px;padding:27px 0 28px;border-bottom:1px solid var(--line)}
+    .caption-heading{display:flex;gap:16px;align-items:start}.big-letter{font-family:Georgia,serif;font-size:44px;line-height:1.1;color:var(--accent)}
+    h2{font-family:"Songti SC","STSong","SimSun",serif;font-size:25px;font-weight:500;line-height:1.3;margin:0 0 7px}.keywords{font-size:11px;letter-spacing:.07em;color:var(--muted);margin:0}
+    .description{font-size:14px;margin:0 0 8px}.fit{font-size:12px;color:var(--accent);margin:0}
+    .recommendation{display:flex;gap:20px;align-items:baseline;padding:22px 0}.small-label{font-size:11px;letter-spacing:.12em;white-space:nowrap;color:var(--muted)}.recommendation p{font-size:13px;margin:0}.recommendation strong{font-weight:600}
+    details{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 0}summary{cursor:pointer;font-size:12px;color:var(--muted);width:fit-content}summary:hover{color:var(--ink)}
+    .notes{display:grid;grid-template-columns:repeat(5,1fr);gap:24px;margin:22px 0 7px}.note h3{font-size:12px;margin:0 0 7px}.note p{font-size:12px;color:var(--muted);margin:0}
+    footer{display:flex;justify-content:space-between;gap:20px;font-size:10px;color:var(--muted);padding-top:18px;letter-spacing:.02em}#character-status{color:#d8b187;font-size:11px}#character-status:empty{display:none}
+    @media(max-width:850px){.page{padding:26px 22px 20px}.masthead{align-items:start;gap:20px}.intro{max-width:275px;font-size:12px}.option{padding:10px;gap:7px}.option-title{font-size:12px}.option-sub{display:none}.letter{font-size:19px}.caption{gap:24px;grid-template-columns:1fr 1.35fr}.notes{grid-template-columns:repeat(3,1fr)}}
+    @media(max-width:580px){.page{padding:24px 14px 18px}.masthead{display:block;margin-bottom:22px}h1{font-size:34px}.intro{max-width:none;margin-top:14px;font-size:12px}.eyebrow{font-size:10px;margin-bottom:9px}.options{grid-template-columns:repeat(5,minmax(0,1fr));gap:5px;margin-bottom:10px}.option{min-height:62px;padding:8px 3px;display:flex;flex-direction:column;gap:2px;text-align:center;justify-content:center}.letter{font-size:18px;line-height:1.1}.option-title{font-size:10px;white-space:nowrap}.scene-tag{left:8px;top:8px;font-size:9px;padding:3px 7px}.toolbar{padding:9px 10px;gap:7px;font-size:11px}.paging{gap:7px}.arrow{width:30px;height:30px}.toggle{gap:6px;line-height:1.4}.caption{display:block;padding:20px 0}.caption-heading{margin-bottom:15px;gap:11px}.big-letter{font-size:36px}h2{font-size:22px}.description{font-size:13px}.fit{font-size:12px}.recommendation{align-items:start;gap:14px;padding:18px 0}.recommendation p{font-size:12px}.small-label{font-size:10px;line-height:2}.notes{grid-template-columns:1fr 1fr;gap:18px}footer{display:block;font-size:10px}footer span{display:block;margin-bottom:5px}.empty{font-size:12px;margin:10px}.empty small{font-size:10px}#character-status{font-size:10px}}
+    @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div><p class="eyebrow">毕节，雨停之前 · SCENE STUDIES</p><h1>同一场雨，五种画法。</h1></div>
+      <p class="intro">人物风格已确定，这次只比较场景。<br><strong>以下样张仅供美术方向选择</strong>，尚未替换游戏素材。</p>
+    </header>
+    <nav class="options" aria-label="选择场景风格">
+      <button type="button" class="option" data-style="0" aria-pressed="true"><span class="letter">A</span><span><span class="option-title">电影写实</span><span class="option-sub">CINEMATIC</span></span></button>
+      <button type="button" class="option" data-style="1" aria-pressed="false"><span class="letter">B</span><span><span class="option-title">动画背景</span><span class="option-sub">ANIME</span></span></button>
+      <button type="button" class="option" data-style="2" aria-pressed="false"><span class="letter">C</span><span><span class="option-title">水彩纸感</span><span class="option-sub">WATERCOLOR</span></span></button>
+      <button type="button" class="option" data-style="3" aria-pressed="false"><span class="letter">D</span><span><span class="option-title">复古胶片</span><span class="option-sub">FILM</span></span></button>
+      <button type="button" class="option" data-style="4" aria-pressed="false"><span class="letter">E</span><span><span class="option-title">厚涂美术</span><span class="option-sub">PAINTERLY</span></span></button>
+    </nav>
+    <section class="frame" aria-label="场景与人物预览">
+      <div class="stage">
+        <div class="empty" id="image-status" role="status">正在加载场景样张……<small>预览为 16:9，画面不会因屏幕比例被裁切。</small></div>
+        <img id="scene" alt="A · 电影写实雨夜场景样张" hidden>
+        <img id="character" src="../../../current/characters/wenwen/tc-char-wenwen-human-base.webp" alt="叠加现有文文立绘，用于比较人物与背景融合程度" hidden>
+        <div class="scene-tag"><span class="dot"></span><span id="stage-label">A / 电影写实</span></div>
+      </div>
+      <div class="toolbar">
+        <label class="toggle"><input type="checkbox" id="show-character">叠加文文立绘</label>
+        <span id="character-status" role="status"></span>
+        <div class="paging"><button type="button" class="arrow" id="prev" aria-label="上一个场景风格">←</button><span class="counter" id="counter">01 / 05</span><button type="button" class="arrow" id="next" aria-label="下一个场景风格">→</button></div>
+      </div>
+    </section>
+    <section class="caption" aria-live="polite" aria-atomic="true">
+      <div class="caption-heading"><span class="big-letter" id="caption-letter">A</span><div><h2 id="caption-title">电影写实雨夜</h2><p class="keywords" id="keywords">真实材质 · 镜头景深 · 细密反射</p></div></div>
+      <div><p class="description" id="description">准确呈现墙面、湿地与灯光，借助镜头景深和自然反射建立空间。日常街景具有电影感，人物的表情与细节仍是视觉重点。</p><p class="fit" id="fit">与现有文文立绘衔接最稳，适合现实生活和情感拉扯。</p></div>
+    </section>
+    <aside class="recommendation"><span class="small-label">方向建议</span><p>优先看 <strong>E 厚涂美术</strong> 与 <strong>A 电影写实</strong>：前者更有统一的游戏绘画质感，后者与现有角色衔接最直接。偏爱经典 Galgame 氛围，可选择 <strong>B 动画背景</strong>。</p></aside>
+    <details>
+      <summary>展开查看五种画法的区别</summary>
+      <div class="notes">
+        <div class="note"><h3>A · 电影写实</h3><p>以真实材质、透视和镜头语言组织画面。细节密度高，光线有明确来源。</p></div>
+        <div class="note"><h3>B · 日系动画背景</h3><p>手绘边缘、适度简化的杂物与大色块，空气透视通透，保留生活感。</p></div>
+        <div class="note"><h3>C · 水彩纸感</h3><p>纸纹、透明叠色与湿画晕染，局部轮廓融入纸面，更抒情、轻盈。</p></div>
+        <div class="note"><h3>D · 复古胶片</h3><p>日常取景、细颗粒、灯光晕染和柔和锐度，像一段故乡生活的旧记忆。</p></div>
+        <div class="note"><h3>E · 厚涂概念美术</h3><p>用块面、可见笔触和选择性细节刻画体积，前中后景更有绘画层次。</p></div>
+      </div>
+    </details>
+    <footer><span>五组样张 · 独立离线对比页 · 保留普通西南城市的生活环境</span><span>电脑可用 ← → 切换 · 人物叠加仅作构图与融合参考</span></footer>
+  </main>
+  <script>
+    'use strict';
+    const styles = [
+      {letter:'A', short:'电影写实', title:'电影写实雨夜', file:'A-cinematic-realism.webp', keywords:'真实材质 · 镜头景深 · 细密反射', description:'准确呈现墙面、湿地与灯光，借助镜头景深和自然反射建立空间。日常街景具有电影感，人物的表情与细节仍是视觉重点。', fit:'与现有文文立绘衔接最稳，适合现实生活和情感拉扯。'},
+      {letter:'B', short:'动画背景', title:'日系动画背景', file:'B-anime-background.webp', keywords:'手绘边缘 · 通透色块 · 柔和光感', description:'保留真实街道透视，以细致手绘的边缘和大色块概括建筑、树叶与杂物。画面通透温柔，像轻小说里可以停留很久的一页。', fit:'更有经典 Galgame 氛围；保持细致手绘质感，让场景承接现有半写实角色。'},
+      {letter:'C', short:'水彩纸感', title:'水彩纸感', file:'C-watercolor-paper.webp', keywords:'纸面肌理 · 透明叠色 · 晕染留白', description:'雨、灯光和远处的楼房融入透明色层，局部轮廓在纸纹中轻轻散开。画面的抒情感来自颜料与纸面的关系，适合安静的暧昧和回忆。', fit:'风格最轻盈柔和；可叠加文文，观察写实人物与纸面画法的反差是否符合偏好。'},
+      {letter:'D', short:'复古胶片', title:'复古胶片纪实', file:'D-retro-film.webp', keywords:'生活取景 · 细颗粒 · 灯光晕染', description:'用普通视高捕捉街道，保留细颗粒、灯光边缘的晕染和柔和细节。像从日常生活里截取的一帧，怀旧感来自镜头质感与取景。', fit:'适合重逢、遗憾与返乡情绪；场景仍然属于当代生活。'},
+      {letter:'E', short:'厚涂美术', title:'厚涂游戏概念美术', file:'E-painterly-concept.webp', keywords:'可见笔触 · 块面塑造 · 选择性细节', description:'用克制的厚涂笔触组织街道和建筑，近景重点刻画，远景逐渐概括。真实空间仍然成立，光影与形状共同形成鲜明的游戏美术面貌。', fit:'推荐方向：保留现有角色的体积感，同时让人物与环境拥有更统一的绘画语言。'}
+    ];
+    const scene = document.getElementById('scene');
+    const status = document.getElementById('image-status');
+    const character = document.getElementById('character');
+    const checkbox = document.getElementById('show-character');
+    const characterStatus = document.getElementById('character-status');
+    const buttons = [...document.querySelectorAll('[data-style]')];
+    let selected = 0;
+    let request = 0;
+    let characterFailed = false;
+    function setText(id, value) { document.getElementById(id).textContent = value; }
+    function showStyle(index) {
+      selected = (index + styles.length) % styles.length;
+      const style = styles[selected];
+      const token = ++request;
+      buttons.forEach((button, i) => button.setAttribute('aria-pressed', String(i === selected)));
+      setText('caption-letter', style.letter);
+      setText('caption-title', style.title);
+      setText('keywords', style.keywords);
+      setText('description', style.description);
+      setText('fit', style.fit);
+      setText('counter', `${String(selected + 1).padStart(2, '0')} / 05`);
+      setText('stage-label', `${style.letter} / ${style.short}`);
+      scene.hidden = true;
+      scene.alt = `${style.letter} · ${style.title}场景样张`;
+      status.hidden = false;
+      status.textContent = '正在加载场景样张……';
+      const preload = new Image();
+      preload.onload = () => {
+        if (token !== request) return;
+        scene.src = style.file;
+        scene.hidden = false;
+        status.hidden = true;
+      };
+      preload.onerror = () => {
+        if (token !== request) return;
+        status.textContent = '这张样张尚未就绪。图片归档后，请重新选择此风格。';
+      };
+      preload.src = style.file;
+    }
+    buttons.forEach(button => button.addEventListener('click', () => showStyle(Number(button.dataset.style))));
+    document.getElementById('prev').addEventListener('click', () => showStyle(selected - 1));
+    document.getElementById('next').addEventListener('click', () => showStyle(selected + 1));
+    checkbox.addEventListener('change', () => {
+      character.hidden = !checkbox.checked || characterFailed;
+      characterStatus.textContent = checkbox.checked && characterFailed ? '文文立绘暂未加载' : '';
+    });
+    character.addEventListener('error', () => {
+      characterFailed = true;
+      character.hidden = true;
+      characterStatus.textContent = checkbox.checked ? '文文立绘暂未加载' : '';
+    });
+    document.addEventListener('keydown', event => {
+      if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+      if (event.target instanceof HTMLInputElement) return;
+      if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+        event.preventDefault();
+        showStyle(selected + (event.key === 'ArrowRight' ? 1 : -1));
+      }
+    });
+    showStyle(0);
+  </script>
+</body>
+</html>

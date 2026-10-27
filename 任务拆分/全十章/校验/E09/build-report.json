@@ -1642,44 +1642,54 @@
   },
   "inputFiles": [
     {
-      "path": "assets/ten-chapter/a06-adoption.json",
+      "path": "assets/archive/manifests/webp-manifest.json",
+      "bytes": 179008,
+      "sha256": "cede257dd2a2d4d57fc89b6f783bdd93ff57e154fea22f9c2ba1e57812715996"
+    },
+    {
+      "path": "assets/manifests/baselines/a06-adoption.json",
       "bytes": 288155,
       "sha256": "8dd547dc110af7c8a36d8d0b6fe71a294594f59fb95dfa2816c797b8280c5292"
     },
     {
-      "path": "assets/ten-chapter/a06-scene-node-map.json",
+      "path": "assets/manifests/baselines/a06-scene-node-map.json",
       "bytes": 2130300,
       "sha256": "32ec9e1c9db2d9bb69ac5ae13ec3ba472239156eaa9bcca73c3a4502a58d9544"
     },
     {
-      "path": "assets/ten-chapter/backgrounds/a04-manifest.json",
+      "path": "assets/manifests/path-migration.json",
+      "bytes": 611574,
+      "sha256": "cca97491d71ea71e1ed4550785e3abd6bd761391f7c1e61c4c9394ce431c2278"
+    },
+    {
+      "path": "assets/manifests/wenwen-option-b-adoption.json",
+      "bytes": 37143,
+      "sha256": "304b09c7850de2e62da9bc1d2657ddf082e730717f3932391edde0c6110d4e5e"
+    },
+    {
+      "path": "assets/sources/ten-chapter/backgrounds/a04-manifest.json",
       "bytes": 79379,
       "sha256": "fb915c78aaa54a51825e1fc032c62e7ee45904b307e5b5067398d209bfba5426"
     },
     {
-      "path": "assets/ten-chapter/cg/a05-manifest.json",
+      "path": "assets/sources/ten-chapter/cg/a05-manifest.json",
       "bytes": 26152,
       "sha256": "e6c988b2b17d068fced867da2977dc3ab20a03497f3c3a036991d50a5996c614"
     },
     {
-      "path": "assets/ten-chapter/characters/a02-delivery.json",
+      "path": "assets/sources/ten-chapter/characters/a02-delivery.json",
       "bytes": 119112,
       "sha256": "8168eee3e4fefb8cf8c779d0b0e80c06fa52245ee7d38f8989a3a944de561024"
     },
     {
-      "path": "assets/ten-chapter/huangqiuqiu/forms-index.json",
+      "path": "assets/sources/ten-chapter/huangqiuqiu/forms-index.json",
       "bytes": 10912,
       "sha256": "b9685a8c6bcc062b43c16f22276cbd822d772e4f6cbba587eaa5e45a51dd7cf6"
     },
     {
-      "path": "assets/ten-chapter/huangqiuqiu/manifest.json",
+      "path": "assets/sources/ten-chapter/huangqiuqiu/manifest.json",
       "bytes": 33388,
       "sha256": "4826058faa132066c70c985bc9bcc0e77f4b270099bca477d776a7e8f3e21700"
-    },
-    {
-      "path": "assets/webp-manifest.json",
-      "bytes": 179008,
-      "sha256": "cede257dd2a2d4d57fc89b6f783bdd93ff57e154fea22f9c2ba1e57812715996"
     },
     {
       "path": "qa/a06-20261023/backgrounds/audit.json",
@@ -1773,8 +1783,8 @@
     },
     {
       "path": "任务拆分/全十章/presentation/bindings.json",
-      "bytes": 255825,
-      "sha256": "45aebc84575fa86e3d15526ea1f2a1b3ba81d54507d8e4729c64be711aa16356"
+      "bytes": 255766,
+      "sha256": "e5080a65fcb94b95b3c03782ff6c739f9d9ecfa7c2d2a37b5121a7569c317e9a"
     },
     {
       "path": "任务拆分/全十章/presentation/decisions.json",
@@ -1783,8 +1793,8 @@
     },
     {
       "path": "任务拆分/全十章/presentation/integration-metadata.json",
-      "bytes": 17358,
-      "sha256": "7c5c825a6a2072744834ec9a95f82c13fdab0ae8507dcbcde3db7c684ec01bdf"
+      "bytes": 18131,
+      "sha256": "359418a386860393c739a67b92ab9c3dadb7c491e78a04a4df6f396cd4749bdb"
     },
     {
       "path": "任务拆分/全十章/routes/friends.json",
@@ -1904,9 +1914,19 @@
   ],
   "builderFiles": [
     {
+      "path": "scripts/art-paths.cjs",
+      "bytes": 2104,
+      "sha256": "22d4b7ca92d120d19070689aae67e470b18d9e4cd01585909eb971c4b2e1179e"
+    },
+    {
       "path": "任务拆分/三章扩展/build-story.cjs",
-      "bytes": 17605,
-      "sha256": "49a2c6cfb82fe4cdff5f8ad2f6687e239ce71ac6581a225ba92b4357b8173afe"
+      "bytes": 17902,
+      "sha256": "7264645e65ba516d0ad6278bde43e1d8b3e651512530e046858e0072ac480440"
+    },
+    {
+      "path": "任务拆分/全十章/build/art-revision.cjs",
+      "bytes": 3336,
+      "sha256": "f7f12ae5817ce6e44b85b5366924d530c91a03b9ecadf60eb57010e3277014b6"
     },
     {
       "path": "任务拆分/全十章/build/cli.cjs",
@@ -1920,8 +1940,8 @@
     },
     {
       "path": "任务拆分/全十章/build/formal.cjs",
-      "bytes": 19180,
-      "sha256": "deca75c509cf09cd62b956213ee3038020e0577bc04e26eaf71b07fb21a4e834"
+      "bytes": 19510,
+      "sha256": "e0e836e2691ae9fe0397baa294357bf95b66ac26f593aab478c464925812ea5f"
     },
     {
       "path": "任务拆分/全十章/build/graph.cjs",
@@ -1935,8 +1955,8 @@
     },
     {
       "path": "任务拆分/全十章/presentation/prepare-bindings.cjs",
-      "bytes": 16706,
-      "sha256": "83cd09fd93c8396e390bc243aaa2430f4e6a8d6de5c252d3f49f4e8e8b47da1c"
+      "bytes": 17143,
+      "sha256": "53f0345c0a4d0b7e70f1b3be4c4bc2a8793d9429b3c929af3a3b900432950a37"
     },
     {
       "path": "任务拆分/全十章/verify-contract.cjs",
@@ -1969,18 +1989,18 @@
     },
     {
       "path": "game.js",
-      "bytes": 61683,
-      "sha256": "7021053d5491f6140ce28b9d3bc921e8d65a62921de3f16886fceac0b42848ff"
+      "bytes": 62505,
+      "sha256": "e600dec15321637126aa3b342c5c054f2055d877bc8b31bb84da69cd932a4e1c"
     },
     {
       "path": "index.html",
-      "bytes": 7700,
-      "sha256": "0266a5c542894ef8eaa42f36acdbdb1079a6c1ca94236cfe0a4645813ea09191"
+      "bytes": 7725,
+      "sha256": "55508a0d3e004eda77740ba2a5b221d1325b37738b1e4703bc5940e34992975c"
     },
     {
       "path": "styles.css",
-      "bytes": 46395,
-      "sha256": "8b7d93a3763959fe0a50188f1c0b6682354c2cde7c6bee439bd03851c4da870b"
+      "bytes": 46470,
+      "sha256": "a12d24c253e6024c6f0d56d7f3a1b9770189cce35c8e62c7f10fedf7b1dadb62"
     }
   ],
   "validation": {
@@ -2010,8 +2030,8 @@
     {
       "field": "covers",
       "value": {
-        "desktop": "assets/ten-chapter/ui/cover-desktop.webp",
-        "mobile": "assets/ten-chapter/ui/cover-mobile.webp"
+        "desktop": "assets/current/ui/tc-ui-cover-desktop.webp",
+        "mobile": "assets/current/ui/tc-ui-cover-mobile.webp"
       },
       "reason": "A06采用的横竖封面；index.html引用同步检查"
     },
@@ -2033,11 +2053,11 @@
   "outputs": [
     {
       "path": "story.js",
-      "sha256": "28dd958534a727dd06dae3e3a44f493e557a239a7a056111591e23d29e097d60"
+      "sha256": "490530975486d32710efae331c968968e9c97030acfe6df8cbf16eab0f6af133"
     },
     {
-      "path": "assets/runtime-ten-chapter-manifest.json",
-      "sha256": "de3626a9f6691ee45b4eb76ceb60339bf4df1cde80d6367e7e8fcb73a74b8521"
+      "path": "assets/manifests/runtime-ten-chapter-manifest.json",
+      "sha256": "470a269b42372134b4732477ac658c628a49bc99c7e4f6530b58bfe121577835"
     },
     {
       "path": "任务拆分/全十章/校验/E09/source-map.json",

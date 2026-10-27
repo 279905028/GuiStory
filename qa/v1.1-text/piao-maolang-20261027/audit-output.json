@@ -1,0 +1,241 @@
+{
+  "scope": "v1.1毛狼与飘支线：文稿结构、后日谈接续、逐路径实读篇幅与文件保护；不代表游戏或浏览器验收",
+  "choices": 69,
+  "options": 143,
+  "endings": 14,
+  "majorCombinations": 28,
+  "validatedReadingPaths": 3407872,
+  "epilogueEndingCount": 13,
+  "excludedEnding": "PI-E1",
+  "protectedFiles": 3133,
+  "unchangedProtectedFiles": 3126,
+  "observedConcurrentChanges": [
+    "项目文档/README.md",
+    "总览.md",
+    "项目文档/故事/v1.1前三章审读建议.md",
+    "项目文档/美术资源规范.md",
+    "项目文档/故事/README.md",
+    "README.md",
+    "任务拆分/总览.md"
+  ],
+  "checkedLinks": 200,
+  "ranges": [
+    {
+      "prefix": "XM",
+      "endings": {
+        "XM-E1": {
+          "readingPaths": 131072,
+          "currentHanMin": 20831,
+          "currentHanMax": 21764,
+          "mainAddedHanMin": 741,
+          "mainAddedHanMax": 741,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2104,
+          "totalAddedHanMax": 2104,
+          "growthFromOriginalMinPct": 71.57,
+          "growthFromOriginalMaxPct": 78.02
+        },
+        "XM-E2": {
+          "readingPaths": 393216,
+          "currentHanMin": 20374,
+          "currentHanMax": 21429,
+          "mainAddedHanMin": 741,
+          "mainAddedHanMax": 741,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2104,
+          "totalAddedHanMax": 2104,
+          "growthFromOriginalMinPct": 68.01,
+          "growthFromOriginalMaxPct": 75.08
+        }
+      }
+    },
+    {
+      "prefix": "ZZ",
+      "endings": {
+        "ZZ-E1": {
+          "readingPaths": 131072,
+          "currentHanMin": 24048,
+          "currentHanMax": 24940,
+          "mainAddedHanMin": 749,
+          "mainAddedHanMax": 749,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2112,
+          "totalAddedHanMax": 2112,
+          "growthFromOriginalMinPct": 65.49,
+          "growthFromOriginalMaxPct": 69.82
+        },
+        "ZZ-E2": {
+          "readingPaths": 393216,
+          "currentHanMin": 23346,
+          "currentHanMax": 24304,
+          "mainAddedHanMin": 749,
+          "mainAddedHanMax": 749,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2112,
+          "totalAddedHanMax": 2112,
+          "growthFromOriginalMinPct": 60.86,
+          "growthFromOriginalMaxPct": 65.87
+        }
+      }
+    },
+    {
+      "prefix": "MY",
+      "endings": {
+        "MY-E1": {
+          "readingPaths": 131072,
+          "currentHanMin": 20871,
+          "currentHanMax": 21769,
+          "mainAddedHanMin": 749,
+          "mainAddedHanMax": 749,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2112,
+          "totalAddedHanMax": 2112,
+          "growthFromOriginalMinPct": 69.34,
+          "growthFromOriginalMaxPct": 76.24
+        },
+        "MY-E2": {
+          "readingPaths": 393216,
+          "currentHanMin": 20477,
+          "currentHanMax": 21663,
+          "mainAddedHanMin": 749,
+          "mainAddedHanMax": 749,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2112,
+          "totalAddedHanMax": 2112,
+          "growthFromOriginalMinPct": 66.35,
+          "growthFromOriginalMaxPct": 75.42
+        }
+      }
+    },
+    {
+      "prefix": "YL",
+      "endings": {
+        "YL-E1": {
+          "readingPaths": 131072,
+          "currentHanMin": 20479,
+          "currentHanMax": 21368,
+          "mainAddedHanMin": 751,
+          "mainAddedHanMax": 751,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2114,
+          "totalAddedHanMax": 2114,
+          "growthFromOriginalMinPct": 71.9,
+          "growthFromOriginalMaxPct": 78.78
+        },
+        "YL-E2": {
+          "readingPaths": 393216,
+          "currentHanMin": 19787,
+          "currentHanMax": 21368,
+          "mainAddedHanMin": 751,
+          "mainAddedHanMax": 751,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2114,
+          "totalAddedHanMax": 2114,
+          "growthFromOriginalMinPct": 66.21,
+          "growthFromOriginalMaxPct": 78.58
+        }
+      }
+    },
+    {
+      "prefix": "PI",
+      "endings": {
+        "PI-E1": {
+          "readingPaths": 131072,
+          "currentHanMin": 19376,
+          "currentHanMax": 20264,
+          "mainAddedHanMin": 1410,
+          "mainAddedHanMax": 1410,
+          "epilogueHanMin": 0,
+          "epilogueHanMax": 0,
+          "totalAddedHanMin": 1410,
+          "totalAddedHanMax": 1410,
+          "growthFromOriginalMinPct": 62.47,
+          "growthFromOriginalMaxPct": 67.84
+        },
+        "PI-E2": {
+          "readingPaths": 393216,
+          "currentHanMin": 20272,
+          "currentHanMax": 21316,
+          "mainAddedHanMin": 1410,
+          "mainAddedHanMax": 1410,
+          "epilogueHanMin": 1533,
+          "epilogueHanMax": 1539,
+          "totalAddedHanMin": 2943,
+          "totalAddedHanMax": 2949,
+          "growthFromOriginalMinPct": 69.66,
+          "growthFromOriginalMaxPct": 76.85
+        }
+      }
+    },
+    {
+      "prefix": "FR",
+      "endings": {
+        "FR-E1": {
+          "readingPaths": 131072,
+          "currentHanMin": 18024,
+          "currentHanMax": 18944,
+          "mainAddedHanMin": 911,
+          "mainAddedHanMax": 911,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2274,
+          "totalAddedHanMax": 2274,
+          "growthFromOriginalMinPct": 70.77,
+          "growthFromOriginalMaxPct": 77.65
+        },
+        "FR-E2": {
+          "readingPaths": 393216,
+          "currentHanMin": 16954,
+          "currentHanMax": 18103,
+          "mainAddedHanMin": 911,
+          "mainAddedHanMax": 911,
+          "epilogueHanMin": 641,
+          "epilogueHanMax": 641,
+          "totalAddedHanMin": 1552,
+          "totalAddedHanMax": 1552,
+          "growthFromOriginalMinPct": 61.03,
+          "growthFromOriginalMaxPct": 69.58
+        }
+      }
+    },
+    {
+      "prefix": "HQ",
+      "endings": {
+        "HQ-E1": {
+          "readingPaths": 65536,
+          "currentHanMin": 19070,
+          "currentHanMax": 19189,
+          "mainAddedHanMin": 736,
+          "mainAddedHanMax": 736,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2099,
+          "totalAddedHanMax": 2099,
+          "growthFromOriginalMinPct": 69.04,
+          "growthFromOriginalMaxPct": 69.89
+        },
+        "HQ-E2": {
+          "readingPaths": 196608,
+          "currentHanMin": 18920,
+          "currentHanMax": 19107,
+          "mainAddedHanMin": 736,
+          "mainAddedHanMax": 736,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2099,
+          "totalAddedHanMax": 2099,
+          "growthFromOriginalMinPct": 67.2,
+          "growthFromOriginalMaxPct": 69.34
+        }
+      }
+    }
+  ]
+}

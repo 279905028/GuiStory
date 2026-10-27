@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-27",
+  "passed": true,
+  "scope": "整理后的路径、字节保护、批准删除集合及正式构建；不访问浏览器存储",
+  "checks": [
+    {
+      "name": "删除范围等于批准A–D，E保留",
+      "passed": true,
+      "detail": {
+        "deleted": 827,
+        "bytes": 538635909,
+        "retainedE": 257
+      }
+    },
+    {
+      "name": "原始图片、保留WebP与历史JSON原字节",
+      "passed": true,
+      "detail": {
+        "movedFiles": 880,
+        "rasters": 651,
+        "originalImages": 439,
+        "historicalJson": 198
+      }
+    },
+    {
+      "name": "剧情仅发生资源路径变更",
+      "passed": true,
+      "detail": {
+        "nodes": 2612,
+        "sourceTextAndChoicesUnchanged": true
+      }
+    },
+    {
+      "name": "兼容代码直接引用无断链",
+      "passed": true,
+      "detail": {
+        "paths": 18
+      }
+    },
+    {
+      "name": "任务拆分/全十章/presentation/prepare-bindings.cjs --check",
+      "passed": true,
+      "detail": {
+        "ok": true,
+        "mode": "check",
+        "output": "任务拆分/全十章/presentation/bindings.json",
+        "assets": 136,
+        "scenes": 360,
+        "nodes": 2577,
+        "pendingLocations": 0
+      }
+    },
+    {
+      "name": "任务拆分/三章扩展/build-story.cjs --check",
+      "passed": true,
+      "detail": {
+        "status": "passed",
+        "mode": "candidate",
+        "formalIntegration": false,
+        "finalAcceptance": false,
+        "moduleCount": 17,
+        "nodeCount": 2612,
+        "sceneCount": 360,
+        "registeredAssets": 138,
+        "contentHash": "2f59f197a24b1bc4d0e764f24f091967f9de3f15c2a6807c6d954f016177c9f7",
+        "output": null,
+        "graph": {
+          "nodes": 2612,
+          "edges": 2698,
+          "choices": 19,
+          "options": 43,
+          "countsByType": {
+            "line": 2536,
+            "end": 22,
+            "choice": 19,
+            "gate": 35
+          },
+          "exploredNodeStates": 156415,
+          "distinctFlagStates": 1359,
+          "mergedNodeStates": 0,
+          "transitions": 156414,
+          "maximumFrontier": 12,
+          "terminalStates": 736,
+          "stoppedStates": 0
+        }
+      }
+    },
+    {
+      "name": "deployment/cloudflare-ten-chapter/prepare.cjs --check",
+      "passed": true,
+      "detail": {
+        "status": "PASS",
+        "readOnly": true,
+        "fileCount": 146,
+        "imageCount": 138,
+        "totalBytes": 182160810,
+        "entryReferences": [
+          "assets/current/ui/tc-ui-cover-desktop.webp",
+          "assets/current/ui/tc-ui-cover-mobile.webp",
+          "engine.js",
+          "game.js",
+          "player-runtime.js",
+          "save-compat.js",
+          "story.js",
+          "styles.css"
+        ]
+      }
+    },
+    {
+      "name": "scripts/build-art-index.cjs --check",
+      "passed": true,
+      "detail": {
+        "status": "passed",
+        "readOnly": true,
+        "adoptedImages": 162,
+        "registeredImages": 138,
+        "outputs": [
+          "assets/manifests/current-art.json",
+          "assets/index.html"
+        ]
+      }
+    },
+    {
+      "name": "assets/sources/character-variants/wenwen-option-b-production-20261026/process-results.cjs --check",
+      "passed": true,
+      "detail": {
+        "status": "passed-read-only",
+        "adoption": "assets/manifests/wenwen-option-b-adoption.json",
+        "checkedAssets": 33,
+        "checkedFiles": 66,
+        "sourceBytes": 80752936,
+        "deliveryBytes": 47919372,
+        "filesWritten": 0,
+        "pixelDecodePerformed": false,
+        "boundary": "校验文件存在、字节数及 SHA-256；没有重新解码像素、转换图片或进行浏览器验收。"
+      }
+    },
+    {
+      "name": "assets/sources/character-variants/wenwen-option-b-production-20261026/gallery.cjs --check",
+      "passed": true,
+      "detail": {
+        "status": "passed-read-only",
+        "checkedAssets": 33,
+        "checkedFiles": 66,
+        "filesWritten": 0,
+        "preview": "/Users/yipin/Desktop/cjb-v1.1/assets/index.html",
+        "previewExists": true,
+        "index": "/Users/yipin/Desktop/cjb-v1.1/assets/manifests/current-art.json",
+        "indexExists": true,
+        "rebuildCommand": "node scripts/build-art-index.cjs",
+        "boundary": "校验文件存在、字节数及 SHA-256；没有重新解码像素、转换图片或进行浏览器验收。历史图库与 QA 拼图未改动。"
+      }
+    },
+    {
+      "name": "退役图片不能被转换工具重新生成",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "noOutputCreated": true
+      }
+    }
+  ]
+}

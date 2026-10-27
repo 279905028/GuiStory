@@ -1,0 +1,114 @@
+{
+  "createdOn": "2026-10-26",
+  "tool": "image_gen built-in",
+  "status": "candidate-awaiting-user-selection",
+  "reference": "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+  "referenceSha256": "94e76a03d5b7437cf986b459c1e02df56f3912259a2f32ad4a99d573673fbbb7",
+  "prompts": "prompts.json",
+  "encoder": {
+    "sharp": "0.35.5",
+    "webp": "1.6.0",
+    "lossless": true,
+    "effort": 6
+  },
+  "assets": [
+    {
+      "id": "A",
+      "slug": "a-sport",
+      "generatedPath": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a176c9-54d4-7892-b8ed-97b11d68e4d4/exec-a11f5ef4-101e-4b57-954a-c2806b972006.png",
+      "source": {
+        "path": "assets/character-variants/wenwen-town-youth-options-20261026/originals/a-sport.png",
+        "bytes": 1558958,
+        "sha256": "28b8837d3c248935c172bb0220ca5a9305d737da5bac566d7dc5d4628da0eb0c"
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-town-youth-options-20261026/a-sport.webp",
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true,
+        "bytes": 527366,
+        "sha256": "9a9116d7c0090273e7d9f52d08c344f1a1978f34228a2f8fc99bceb7c716dd80"
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 2694130,
+        "alphaMin": 0,
+        "alphaMax": 254,
+        "fullyTransparent": 1096991,
+        "nearOpaque": 447511
+      }
+    },
+    {
+      "id": "B",
+      "slug": "b-denim",
+      "generatedPath": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a176c9-54d4-7892-b8ed-97b11d68e4d4/exec-190fbd12-e159-4538-9c55-e72c4ba1d1c0.png",
+      "source": {
+        "path": "assets/character-variants/wenwen-town-youth-options-20261026/originals/b-denim.png",
+        "bytes": 1891445,
+        "sha256": "801e67e5014e9c9bc203ed0935651bd2f2e76f3f41c10671c25099b6bc8ad0c8"
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-town-youth-options-20261026/b-denim.webp",
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true,
+        "bytes": 695992,
+        "sha256": "e1e12269f32733e7e2eee467bd7bd3f772d7b76bda5829122e330a20987c4f75"
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 3026358,
+        "alphaMin": 0,
+        "alphaMax": 254,
+        "fullyTransparent": 1104071,
+        "nearOpaque": 437282
+      }
+    },
+    {
+      "id": "C",
+      "slug": "c-plaid",
+      "generatedPath": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a176c9-54d4-7892-b8ed-97b11d68e4d4/exec-b1357808-73fc-4f25-85ad-b43cf7167bb2.png",
+      "source": {
+        "path": "assets/character-variants/wenwen-town-youth-options-20261026/originals/c-plaid.png",
+        "bytes": 1705049,
+        "sha256": "c8428a84b9ff2b2a3933933105c2e5af481faf635901d8df14438b869831309c"
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-town-youth-options-20261026/c-plaid.webp",
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true,
+        "bytes": 601790,
+        "sha256": "8bd2821c9c5a5d44bf3268f3190ca4956476037c50aaa8104acd40bbfd611166"
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 2697967,
+        "alphaMin": 0,
+        "alphaMax": 254,
+        "fullyTransparent": 1097760,
+        "nearOpaque": 447212
+      }
+    }
+  ],
+  "review": {
+    "concepts": "已目视检查三套身份、全身构图、脸部与衣装细节，无明显异常。",
+    "transparency": "已目视复核三套浅底与深底呈现，透明边缘无明显背景残留或白边；全身与鞋底完整。",
+    "comparison": "comparison.webp",
+    "lightDark": "qa-light-dark.webp",
+    "runtimeIntegration": "未执行；本批仅为候选",
+    "runtimeReplacement": false
+  }
+}

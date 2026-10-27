@@ -1,0 +1,1030 @@
+{
+  "date": "2026-10-27",
+  "scope": "目录迁移后Chrome桌面与手机尺寸专项；实际正式story，独立临时浏览器存储",
+  "checks": [
+    {
+      "name": "响应式封面 desktop",
+      "passed": true,
+      "source": "assets/current/ui/tc-ui-cover-desktop.webp"
+    },
+    {
+      "name": "162张采用图HTTP加载与浏览器解码",
+      "passed": true,
+      "count": 162
+    },
+    {
+      "name": "avatar desktop",
+      "passed": true,
+      "node": "tc_c01_common_slope_03",
+      "images": [
+        {
+          "id": "scene-bg",
+          "src": "assets/current/backgrounds/tc-bg-slope-day.webp",
+          "width": 1672,
+          "height": 941
+        },
+        {
+          "id": "character",
+          "src": "assets/current/characters/maolang/tc-char-maolang-human-base.webp",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "id": "speaker-avatar",
+          "src": "assets/current/characters/wenwen/tc-char-wenwen-human-base.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    "screenshots/cover-desktop.png",
+    "screenshots/avatar-desktop.png"
+  ],
+  "pageErrors": [],
+  "httpErrors": [],
+  "notTested": [
+    "Safari",
+    "实体手机",
+    "公网发布",
+    "v1.1新剧情接入"
+  ],
+  "browser": "156.0.8078.48",
+  "imageDecode": [
+    {
+      "path": "assets/current/characters/wenwen/tc-char-wenwen-human-base.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/tc-char-wenwen-human-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/tc-char-wenwen-human-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/maolang/tc-char-maolang-human-base.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/maolang/tc-char-maolang-human-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/shijiang/tc-char-shijiang-human-base.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/shijiang/tc-char-shijiang-human-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/tc-char-wenwen-human-expression-tired.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/shijiang/tc-char-shijiang-human-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/yelan/tc-char-yelan-human-base.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/xiaoman/tc-char-xiaoman-human-base.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/xiaoman/tc-char-xiaoman-human-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/xiaoman/tc-char-xiaoman-human-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/mengyao/tc-char-mengyao-human-base.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/mengyao/tc-char-mengyao-human-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/mengyao/tc-char-mengyao-human-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/zhouzhi/tc-char-zhouzhi-human-base.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/zhouzhi/tc-char-zhouzhi-human-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/piao/tc-char-piao-human-base.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/piao/tc-char-piao-human-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/tc-char-wenwen-human-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/yelan/tc-char-yelan-human-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/yelan/tc-char-yelan-human-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/tc-char-wenwen-human-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/xiaoman/tc-char-xiaoman-human-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/zhouzhi/tc-char-zhouzhi-human-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/mengyao/tc-char-mengyao-human-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/tc-char-wenwen-human-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/mengyao/tc-char-mengyao-human-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/piao/tc-char-piao-human-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/piao/tc-char-piao-human-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/piao/tc-char-piao-human-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/maolang/tc-char-maolang-human-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/xiaoman/tc-char-xiaoman-human-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/zhouzhi/tc-char-zhouzhi-human-expression-tired.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/yelan/tc-char-yelan-human-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/maolang/tc-char-maolang-human-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/zhouzhi/tc-char-zhouzhi-human-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/shijiang/tc-char-shijiang-human-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/xiaoman/tc-char-xiaoman-human-expression-tired.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/mengyao/tc-char-mengyao-human-expression-tired.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/yelan/tc-char-yelan-human-expression-tired.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/zhouzhi/tc-char-zhouzhi-human-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/yelan/tc-char-yelan-human-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/xiaoman/tc-look-xiaoman-work-apron.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/xiaoman/tc-look-xiaoman-new-coat.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/mengyao/tc-look-mengyao-teacher-bag.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/mengyao/tc-look-mengyao-casual-jacket.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/yelan/tc-look-yelan-casual.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/zhouzhi/tc-look-zhouzhi-light-blue-shirt.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/zhouzhi/tc-look-zhouzhi-tied-hair.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/maolang/tc-look-maolang-wedding.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/piao/tc-look-piao-wedding.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-orb-base.webp",
+      "width": 1254,
+      "height": 1254,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-avatar-huangqiuqiu-sphere-base.webp",
+      "width": 512,
+      "height": 512,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-orb-expression-serious.webp",
+      "width": 1254,
+      "height": 1254,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-avatar-huangqiuqiu-sphere-expression-serious.webp",
+      "width": 512,
+      "height": 512,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-orb-expression-smile.webp",
+      "width": 1254,
+      "height": 1254,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-avatar-huangqiuqiu-sphere-expression-smile.webp",
+      "width": 512,
+      "height": 512,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-orb-expression-hesitant.webp",
+      "width": 1254,
+      "height": 1254,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-avatar-huangqiuqiu-sphere-expression-hesitant.webp",
+      "width": 512,
+      "height": 512,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-look-huangqiuqiu-orb-hand.webp",
+      "width": 1254,
+      "height": 1254,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-avatar-huangqiuqiu-sphere-action-hand.webp",
+      "width": 512,
+      "height": 512,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-human-base.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-avatar-huangqiuqiu-human-base.webp",
+      "width": 512,
+      "height": 512,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-human-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-avatar-huangqiuqiu-human-expression-smile.webp",
+      "width": 512,
+      "height": 512,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-human-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-avatar-huangqiuqiu-human-expression-hesitant.webp",
+      "width": 512,
+      "height": 512,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-human-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-avatar-huangqiuqiu-human-expression-serious.webp",
+      "width": 512,
+      "height": 512,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-human-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-avatar-huangqiuqiu-human-expression-downcast.webp",
+      "width": 512,
+      "height": 512,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-human-action-wave.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-avatar-huangqiuqiu-human-action-wave.webp",
+      "width": 512,
+      "height": 512,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-look-huangqiuqiu-human-chin.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/huangqiuqiu/tc-avatar-huangqiuqiu-human-action-thinking.webp",
+      "width": 512,
+      "height": 512,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-street-day.webp",
+      "width": 1671,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-street-dusk.webp",
+      "width": 1670,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-slope-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-busstop-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-busstop-dusk.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-netcafe-counter-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-netcafe-pc-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-courtyard-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-rental-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-netcafe-counter-night.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-netcafe-pc-night.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-backdoor-night.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-courtyard-night.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-rental-night.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-breakfast-dawn.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-salon-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-convenience-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-food-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-food-dusk.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-food-night.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-food-front-dusk.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-stall-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-stall-night.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-eaves-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-echo-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-echo-closed-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-bookstore-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-mall-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-bridge-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-park-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-river-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-riverside-lawn-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-alteration-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-arcade-basketball.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-arcade-airhockey.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-arcade-rowing.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-used-books-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-used-books-closed-dusk.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-cinema-interior.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-tea-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-secondhand-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-kiosk-eaves-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-performance-shop-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-game-store-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-parcel-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-supermarket-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-clothing-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-practice-room.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-tabletennis-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-badminton-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-xiaoman-home-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-maolang-home-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-banquet-day.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-echo-closed-dawn.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/backgrounds/tc-bg-bridge-dusk.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/ui/tc-ui-cover-desktop.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/ui/tc-ui-cover-mobile.webp",
+      "width": 941,
+      "height": 1672,
+      "passed": true
+    },
+    {
+      "path": "assets/current/cg/tc-cg-piao-choice.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/cg/tc-cg-last-echo-dinner.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/cg/tc-cg-qiuqiu-transform.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/cg/tc-cg-piao-wedding.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/posters/wenwen-poster-A.webp",
+      "width": 941,
+      "height": 1672,
+      "passed": true
+    },
+    {
+      "path": "assets/current/posters/wenwen-poster-B.webp",
+      "width": 941,
+      "height": 1672,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/wenwen-expression-displeased.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/wenwen-expression-embarrassed.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/wenwen-expression-relieved.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/wenwen-expression-guilty.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/wenwen-expression-determined.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/wenwen-expression-wry.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/wenwen-action-wave.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/wenwen-action-thinking.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/wenwen-action-explaining.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/wenwen-action-repairing.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/wenwen-action-phone.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/characters/wenwen/wenwen-action-listening.webp",
+      "width": 1024,
+      "height": 1536,
+      "passed": true
+    },
+    {
+      "path": "assets/current/cg/wenwen-cg-01-rain-return.webp",
+      "width": 1670,
+      "height": 942,
+      "passed": true
+    },
+    {
+      "path": "assets/current/cg/wenwen-cg-02-xiaoman-mirror.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/cg/wenwen-cg-03-zhouzhi-noodles.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/cg/wenwen-cg-04-mengyao-camera.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/cg/wenwen-cg-05-yelan-inventory.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/cg/wenwen-cg-06-maolang-confession.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/cg/wenwen-cg-07-yelan-off-duty.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/cg/wenwen-cg-08-huangqiuqiu-listening.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/cg/wenwen-cg-09-repair-handoff.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    },
+    {
+      "path": "assets/current/cg/wenwen-cg-13-xiaoman-night-stall.webp",
+      "width": 1672,
+      "height": 941,
+      "passed": true
+    }
+  ],
+  "passed": false,
+  "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(images.some(i => i.id === 'character' && i.src.includes('xiaoman')))\n\n    at main (/Users/yipin/Desktop/cjb-v1.1/qa/folder-organization-20261027/browser-check.cjs:73:36)"
+}

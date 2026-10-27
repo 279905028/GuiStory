@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-26",
+  "tool": "image_gen built-in",
+  "adoptedReference": "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp",
+  "jobs": [
+    {
+      "id": "base",
+      "kind": "sprite",
+      "slug": "char-wenwen-base",
+      "refs": [
+        "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp",
+        "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp"
+      ],
+      "transparent": true,
+      "prompt": "Use case: identity-preserve\n输入图1是当前游戏立绘的构图定位参考；输入图2是用户最终采用的文文黄发牛仔B方案，脸和衣装以图2为准。\n制作同一角色的游戏用基础立绘：金黄色短寸（黑色眉毛）、原有圆脸与五官，浅靛蓝洗旧牛仔夹克敞开，袖口翻折，内搭米白纯色圆领T恤，炭灰直筒裤。必须看起来是参考图2同一个23岁中国男性，不换脸、不美型，不保留深灰维修夹克、工具或笔。\n构图与姿势沿图1：1024×1536透明竖画布，从完整头顶到上大腿的近景截幅，头顶距画布顶部约20像素，头部约330像素宽，人物身形填满画面下部，双手自然插裤袋，脸部轻微笑。不要做全身远景，不需要鞋，不缩小人物。短寸长度保持B方案。半写实细腻手绘、皮肤与牛仔质感自然。\n真实透明alpha，无底色、无光晕、无地面阴影、无棋盘格、无文字。忽略参考图完全透明像素下的杂色残留。保留23岁、圆脸与原有五官。"
+    },
+    {
+      "id": "cover-desktop",
+      "kind": "ui",
+      "slug": "cover-desktop",
+      "refs": [
+        "assets/ten-chapter/ui/cover-desktop.webp",
+        "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp"
+      ],
+      "transparent": false,
+      "prompt": "Use case: identity-preserve\n输入图1是唯一编辑目标；输入图2是用户确认的文文B方案黄发牛仔造型参考。只修改图1中前景原来短寸圆脸、深灰夹克的文文，使他的头发与服装符合图2：金黄色短寸（黑色眉毛）、原有圆脸与五官，浅靛蓝洗旧牛仔夹克敞开，袖口翻折，内搭米白纯色圆领T恤，炭灰直筒裤。必须看起来是参考图2同一个23岁中国男性，不换脸、不美型，不保留深灰维修夹克、工具或笔。\n必须严格保持文文原来的位置、画面占比、头部朝向、表情、视线、动作、手和手指；画面其他人物、脸、发型、衣装、人物数量、背景、道具、建筑、光影、构图、所有文字和原有排版均保持图1。不要把其他黑发角色染黄，不增删人物，不把图2独立立绘直接贴入场景，不重构整张画。原图画风与环境光保持。\n保持原图横向1672×941比例和所有文字“毕节，雨停之前”“贵州·毕节”。"
+    },
+    {
+      "id": "cover-mobile",
+      "kind": "ui",
+      "slug": "cover-mobile",
+      "refs": [
+        "assets/ten-chapter/ui/cover-mobile.webp",
+        "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp"
+      ],
+      "transparent": false,
+      "prompt": "Use case: identity-preserve\n输入图1是唯一编辑目标；输入图2是用户确认的文文B方案黄发牛仔造型参考。只修改图1中前景原来短寸圆脸、深灰夹克的文文，使他的头发与服装符合图2：金黄色短寸（黑色眉毛）、原有圆脸与五官，浅靛蓝洗旧牛仔夹克敞开，袖口翻折，内搭米白纯色圆领T恤，炭灰直筒裤。必须看起来是参考图2同一个23岁中国男性，不换脸、不美型，不保留深灰维修夹克、工具或笔。\n必须严格保持文文原来的位置、画面占比、头部朝向、表情、视线、动作、手和手指；画面其他人物、脸、发型、衣装、人物数量、背景、道具、建筑、光影、构图、所有文字和原有排版均保持图1。不要把其他黑发角色染黄，不增删人物，不把图2独立立绘直接贴入场景，不重构整张画。原图画风与环境光保持。\n保持原图竖向941×1672比例和所有文字“毕节，雨停之前”“贵州·毕节”。"
+    },
+    {
+      "id": "poster-A",
+      "kind": "poster",
+      "slug": "poster-A",
+      "refs": [
+        "assets/release-posters-v1.0-20261023/poster-A-cinematic.webp",
+        "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp"
+      ],
+      "transparent": false,
+      "prompt": "Use case: identity-preserve\n输入图1是唯一编辑目标；输入图2是用户确认的文文B方案黄发牛仔造型参考。只修改图1中前景原来短寸圆脸、深灰夹克的文文，使他的头发与服装符合图2：金黄色短寸（黑色眉毛）、原有圆脸与五官，浅靛蓝洗旧牛仔夹克敞开，袖口翻折，内搭米白纯色圆领T恤，炭灰直筒裤。必须看起来是参考图2同一个23岁中国男性，不换脸、不美型，不保留深灰维修夹克、工具或笔。\n必须严格保持文文原来的位置、画面占比、头部朝向、表情、视线、动作、手和手指；画面其他人物、脸、发型、衣装、人物数量、背景、道具、建筑、光影、构图、所有文字和原有排版均保持图1。不要把其他黑发角色染黄，不增删人物，不把图2独立立绘直接贴入场景，不重构整张画。原图画风与环境光保持。\n保持原图竖向941×1672、全部标题、v1.0正式版发布、副标题及底部文字、细线和排版。"
+    },
+    {
+      "id": "poster-B",
+      "kind": "poster",
+      "slug": "poster-B",
+      "refs": [
+        "assets/release-posters-v1.0-20261023/poster-B-nightshift.webp",
+        "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp"
+      ],
+      "transparent": false,
+      "prompt": "Use case: identity-preserve\n输入图1是唯一编辑目标；输入图2是用户确认的文文B方案黄发牛仔造型参考。只修改图1中前景原来短寸圆脸、深灰夹克的文文，使他的头发与服装符合图2：金黄色短寸（黑色眉毛）、原有圆脸与五官，浅靛蓝洗旧牛仔夹克敞开，袖口翻折，内搭米白纯色圆领T恤，炭灰直筒裤。必须看起来是参考图2同一个23岁中国男性，不换脸、不美型，不保留深灰维修夹克、工具或笔。\n必须严格保持文文原来的位置、画面占比、头部朝向、表情、视线、动作、手和手指；画面其他人物、脸、发型、衣装、人物数量、背景、道具、建筑、光影、构图、所有文字和原有排版均保持图1。不要把其他黑发角色染黄，不增删人物，不把图2独立立绘直接贴入场景，不重构整张画。原图画风与环境光保持。\n保持原图竖向941×1672、全部标题、副标题“夜班结束，故事还在继续。”、v1.0正式版发布和底部文字、细线、排版。"
+    }
+  ]
+}

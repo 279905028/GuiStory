@@ -9,7 +9,7 @@ const assert = require('node:assert/strict');
 const root = fs.realpathSync(path.resolve(__dirname, '../..'));
 const output = path.join(__dirname, 'public');
 const outputManifest = path.join(__dirname, 'runtime-manifest.json');
-const sourceManifest = 'assets/runtime-ten-chapter-manifest.json';
+const sourceManifest = 'assets/manifests/runtime-ten-chapter-manifest.json';
 const expectedCode = ['engine.js', 'game.js', 'index.html', 'player-runtime.js', 'save-compat.js', 'styles.css'];
 const maxFileBytes = 25 * 1024 * 1024;
 const hash = content => crypto.createHash('sha256').update(content).digest('hex');

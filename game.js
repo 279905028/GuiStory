@@ -5,7 +5,15 @@
   const DEFAULTS = { textSpeed: 'normal', sound: false, volume: 0.35 };
   // 美术映射独立于剧情和存档；只在这些既有对白中切换毛狼的舞台立绘。
   const MAOLANG_ART = {
-    root: 'assets/new-character-variants/expressions-v01-20261019/maolang/',
+    assets: {
+      "action-explaining": "assets/archive/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-explaining.webp",
+      "action-thinking": "assets/archive/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-thinking.webp",
+      "action-wave": "assets/archive/new-character-variants/expressions-v01-20261019/maolang/char-maolang-action-wave.webp",
+      "expression-hesitant": "assets/current/characters/maolang/tc-char-maolang-human-expression-hesitant.webp",
+      "expression-serious": "assets/current/characters/maolang/tc-char-maolang-human-expression-serious.webp",
+      "expression-smile": "assets/current/characters/maolang/tc-char-maolang-human-expression-smile.webp",
+      "expression-surprised": "assets/archive/new-character-variants/expressions-v01-20261019/maolang/char-maolang-expression-surprised.webp"
+},
     nodes: {
       s2_counter_02: 'action-wave',
       s2_counter_04: 'action-explaining',
@@ -19,16 +27,16 @@
   };
   const SHIJIANG_ART = {
     assets: {
-      'expression-smile': 'assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-smile.webp',
-      'expression-serious': 'assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-serious.webp',
-      'expression-hesitant': 'assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-hesitant.webp',
-      'expression-surprised': 'assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-surprised.webp',
-      'expression-displeased': 'assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-displeased.webp',
-      'expression-downcast': 'assets/character-variants/shijiang-optionA-20261020/char-shijiang-expression-downcast.webp',
-      'action-wave': 'assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-wave.webp',
-      'action-thinking': 'assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.webp',
-      'action-explaining': 'assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.webp',
-      'action-phone': 'assets/character-variants/shijiang-optionA-20261020/char-shijiang-action-phone.webp'
+      'expression-smile': 'assets/current/characters/shijiang/tc-char-shijiang-human-expression-smile.webp',
+      'expression-serious': 'assets/current/characters/shijiang/tc-char-shijiang-human-expression-serious.webp',
+      'expression-hesitant': 'assets/current/characters/shijiang/tc-char-shijiang-human-expression-hesitant.webp',
+      'expression-surprised': 'assets/archive/character-variants/shijiang-optionA-20261020/char-shijiang-expression-surprised.webp',
+      'expression-displeased': 'assets/archive/character-variants/shijiang-optionA-20261020/char-shijiang-expression-displeased.webp',
+      'expression-downcast': 'assets/archive/character-variants/shijiang-optionA-20261020/char-shijiang-expression-downcast.webp',
+      'action-wave': 'assets/archive/character-variants/shijiang-optionA-20261020/char-shijiang-action-wave.webp',
+      'action-thinking': 'assets/archive/character-variants/shijiang-optionA-20261020/char-shijiang-action-thinking.webp',
+      'action-explaining': 'assets/archive/character-variants/shijiang-optionA-20261020/char-shijiang-action-explaining.webp',
+      'action-phone': 'assets/archive/character-variants/shijiang-optionA-20261020/char-shijiang-action-phone.webp'
     },
     nodes: {
       s2_counter_07: 'action-explaining',
@@ -315,7 +323,7 @@
       dom['scene-time'].textContent = time + (scene.chronology?.mode === 'flashback' ? ' · 回叙' : '');
       dom['scene-location'].textContent = node.location ?? scene.location;
       const background = !profile.tenChapter && backgroundKey === 'street' && time === '下午' ?
-        'assets/background-variants/m2-daynight-20261020/bg-street-day.webp' : story.backgrounds[backgroundKey];
+        'assets/current/backgrounds/tc-bg-street-day.webp' : story.backgrounds[backgroundKey];
       dom.app.dataset.backgroundMode = background === 'none' ? 'neutral' : 'image';
       setImage(dom['scene-bg'], background === 'none' ? null : background, (node.location ?? scene.location) + '场景');
       dom.character.dataset.transition = story.presentation?.fadeOutNodes?.includes(node.id) ? 'fade-out' : '';

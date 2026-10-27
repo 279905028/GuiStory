@@ -1,0 +1,18 @@
+{
+  "currentSolutionId": "feelfish-professional",
+  "builtInOverrides": {
+    "feelfish-professional": {
+      "skills": [
+        "natural-fiction-creator"
+      ]
+    }
+  },
+  "agentModels": {
+    "feelfish-professional": {
+      "modelId": "feelfish",
+      "modelName": "feelfish/deepseek-flash",
+      "enableThinkingMode": true,
+      "reasoningEffort": "max"
+    }
+  }
+}

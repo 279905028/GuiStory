@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-27",
+  "scope": "A-D删除后的独立文件保护与指纹复核；不代替游戏或浏览器验收",
+  "baseline": "E257及原图439来自本子任务迁移前内存缓存；历史JSON与采用图核对迁移前路径映射指纹",
+  "deleted_A_D": {
+    "total": 827,
+    "absent": 827,
+    "remaining": [],
+    "receiptSetMatchesApprovedCandidates": true,
+    "approvedBytes": 538635909,
+    "receiptBytes": 538635909,
+    "groups": {
+      "A": 2,
+      "B": 155,
+      "C": 642,
+      "D": 28
+    }
+  },
+  "E_original_paths": {
+    "total": 257,
+    "passed": 257,
+    "errors": []
+  },
+  "original_png_jpeg_mapped": {
+    "total": 439,
+    "passed": 439,
+    "errors": []
+  },
+  "historical_json_mapped": {
+    "total": 198,
+    "passed": 198,
+    "errors": []
+  },
+  "current_adopted_images": {
+    "total": 162,
+    "passed": 162,
+    "errors": []
+  },
+  "registered_runtime_images": {
+    "total": 138,
+    "passed": 138,
+    "errors": []
+  },
+  "passed": true
+}

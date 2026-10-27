@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "dateKey": "2026-10-26",
+  "brief": {
+    "version": 1,
+    "title": "今日创作建议",
+    "welcomeLine": "小鱼在这儿。这个项目还是空的，正好从零开始。",
+    "status": "ready",
+    "localStats": {
+      "chapterCount": 0,
+      "wordCount": 0
+    },
+    "resumeContext": "你打开了一个还没有章节和正文的项目，暂时没有需要恢复的创作状态。",
+    "nextAction": {
+      "id": "continue-writing",
+      "type": "action",
+      "title": "继续今天的写作",
+      "body": "还没有章节，可以先通过智能开篇确定故事方向。",
+      "actionLabel": "智能开篇",
+      "command": {
+        "type": "start_smart_opening"
+      }
+    },
+    "secretarySuggestion": {
+      "id": "memory-guided-suggestion",
+      "type": "suggestion",
+      "title": "小鱼建议",
+      "body": "这个项目还没有任何章节和文字，今天不必急着写正文。想个开头或先写下故事的关键词，都可以作为第一步。",
+      "action": {
+        "target": "secretary",
+        "label": "让小鱼处理",
+        "autoSend": true,
+        "message": "请处理这条今日建议：小鱼建议。\n建议内容：这个项目还没有任何章节和文字，今天不必急着写正文。想个开头或先写下故事的关键词，都可以作为第一步。\n请先核对项目现状，再给出可执行结果；如需修改文件，走待确认修改流程。"
+      }
+    },
+    "emotionalSupport": "空项目也是一种自由，慢慢来就好。",
+    "statusCapsule": {
+      "text": "小鱼：发现 1 个后续动作",
+      "badgeCount": 1
+    },
+    "pendingCards": [
+      {
+        "id": "start-first-chapter",
+        "type": "action",
+        "title": "让编辑部帮你起草第一章的开头",
+        "body": "项目目前还没有章节，你可以先给出题材、主角或一句想法，让编辑部帮你起个头。",
+        "evidenceRefs": [
+          "project_open:1792992311511"
+        ],
+        "action": {
+          "target": "editorial",
+          "label": "交给编辑部起草开头",
+          "autoSend": true,
+          "message": "当前项目为空，没有章节和正文。请基于用户后续提供的题材、主角或一句想法，起草第一章开头；用户尚未提供题材或设定前不要凭空编造剧情。"
+        }
+      }
+    ],
+    "updatedAt": 1792992311511
+  },
+  "updatedAt": 1792992314283
+}

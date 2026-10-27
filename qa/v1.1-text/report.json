@@ -1,0 +1,1746 @@
+{
+  "scope": "独立文稿结构、条件路径、实读正文增长与文件保护；不代表游戏或浏览器验收",
+  "baseline": "rewrite-20261027/baseline",
+  "baselineFiles": 17,
+  "manuscriptHashes": {
+    "第一章-回到毕节.md": "2e39148290710f0914a515f108685dd9c3cb0d08f73d032755df6addab34e86b",
+    "第二章-十四天.md": "a49d0318432a5d90cf0fb7d7622c768a336c65f59b5233ca1890a273e80b692d",
+    "第三章-选一条路.md": "905da70353c7563e68c7f210db47fd84dd37f785e4eb765e716f86c9674fc0c2",
+    "罗小满-练习本.md": "0fe777b22755b19dad22b6855b0efab05a693a8328de2811c7f5fa20b4524cd6",
+    "周栀-十一点四十七分.md": "170964d313c43dedb2af7edbfbd82c30950df6b07a35b6bb74f712ca17b34c8f",
+    "孟遥-旧题.md": "6c389da0e065ab1aa7cdf1d48395595e7f99acb2d724cc738054ee4d5fc01a70",
+    "叶岚-下线.md": "04d89f8faf1cfaff4b6db1aad4a6e6febff242957a4fa3d34b8c3cf757d91265",
+    "飘-空白页.md": "0b37d5e41f7be6e23d87b2b8b48264a0a865b3f59f9b8012a377b7f2bbfbdb43",
+    "朋友与职业-夜班.md": "dcc925457b5ee0620311bbe42d62266c6da4460ec1f37f0671fb29b5327d23e0",
+    "黄球球-门后.md": "12e8f63adc86860263e1e3a4ce372f75ba2e1111c5d0067a6f0e9b6875f41f88"
+  },
+  "counting": "只计所选路径叙述与对白的汉字；排除简介、标题、选项标签、编辑说明和未选结局；新旧对应普通选择与共通入口逐路径比较",
+  "manuscriptUnits": 59,
+  "totalChoices": 69,
+  "totalOptions": 143,
+  "keyChoices": 14,
+  "totalEndings": 14,
+  "majorCombinations": 28,
+  "ordinaryCommonPaths": 2048,
+  "hiddenCommonPaths": 1024,
+  "validatedReadingPaths": 3407872,
+  "protectedFiles": 2015,
+  "changedProtectedFiles": [],
+  "checkedLinks": 50,
+  "growthPassed": true,
+  "routes": [
+    {
+      "prefix": "XM",
+      "file": "罗小满-练习本.md",
+      "baselineRouteHanMean": 5866,
+      "routeHanMin": 8892,
+      "routeHanMax": 9436,
+      "keys": [
+        "XM07-01",
+        "XM08-01"
+      ],
+      "sourceEndings": [
+        {
+          "id": "XM-E1",
+          "title": "出了这个圈，也来找我"
+        },
+        {
+          "id": "XM-E2",
+          "title": "认过，也能分开"
+        }
+      ],
+      "endings": {
+        "XM-E1": {
+          "pathCount": 131072,
+          "growthMeanPct": 55.85,
+          "growthMinPct": 53.62,
+          "growthMaxPct": 58.62,
+          "fullReadHanMin": 18556,
+          "fullReadHanMax": 19491
+        },
+        "XM-E2": {
+          "pathCount": 393216,
+          "growthMeanPct": 52.62,
+          "growthMinPct": 50.06,
+          "growthMaxPct": 55.68,
+          "fullReadHanMin": 18099,
+          "fullReadHanMax": 19156
+        }
+      },
+      "keyCombinations": {
+        "AA": {
+          "pathCount": 131072,
+          "growthMeanPct": 55.85,
+          "growthMinPct": 53.62,
+          "growthMaxPct": 58.62,
+          "fullReadHanMin": 18556,
+          "fullReadHanMax": 19491
+        },
+        "AB": {
+          "pathCount": 131072,
+          "growthMeanPct": 53.04,
+          "growthMinPct": 50.9,
+          "growthMaxPct": 55.68,
+          "fullReadHanMin": 18221,
+          "fullReadHanMax": 19156
+        },
+        "BA": {
+          "pathCount": 131072,
+          "growthMeanPct": 52.65,
+          "growthMinPct": 50.52,
+          "growthMaxPct": 55.28,
+          "fullReadHanMin": 18149,
+          "fullReadHanMax": 19084
+        },
+        "BB": {
+          "pathCount": 131072,
+          "growthMeanPct": 52.17,
+          "growthMinPct": 50.06,
+          "growthMaxPct": 54.77,
+          "fullReadHanMin": 18099,
+          "fullReadHanMax": 19034
+        }
+      },
+      "rangePass": true
+    },
+    {
+      "prefix": "ZZ",
+      "file": "周栀-十一点四十七分.md",
+      "baselineRouteHanMean": 8261.5,
+      "routeHanMin": 11926,
+      "routeHanMax": 12674,
+      "keys": [
+        "ZZ06-01",
+        "ZZ08-01"
+      ],
+      "sourceEndings": [
+        {
+          "id": "ZZ-E1",
+          "title": "不用哄我，也别骗我"
+        },
+        {
+          "id": "ZZ-E2",
+          "title": "这句是真的，可惜晚了"
+        }
+      ],
+      "endings": {
+        "ZZ-E1": {
+          "pathCount": 131072,
+          "growthMeanPct": 52.39,
+          "growthMinPct": 50.89,
+          "growthMaxPct": 54.27,
+          "fullReadHanMin": 21846,
+          "fullReadHanMax": 22740
+        },
+        "ZZ-E2": {
+          "pathCount": 393216,
+          "growthMeanPct": 48.06,
+          "growthMinPct": 46.26,
+          "growthMaxPct": 50.27,
+          "fullReadHanMin": 21144,
+          "fullReadHanMax": 22104
+        }
+      },
+      "keyCombinations": {
+        "AA": {
+          "pathCount": 131072,
+          "growthMeanPct": 52.39,
+          "growthMinPct": 50.89,
+          "growthMaxPct": 54.27,
+          "fullReadHanMin": 21846,
+          "fullReadHanMax": 22740
+        },
+        "AB": {
+          "pathCount": 131072,
+          "growthMeanPct": 47.63,
+          "growthMinPct": 46.26,
+          "growthMaxPct": 49.34,
+          "fullReadHanMin": 21154,
+          "fullReadHanMax": 22048
+        },
+        "BA": {
+          "pathCount": 131072,
+          "growthMeanPct": 48.52,
+          "growthMinPct": 47.12,
+          "growthMaxPct": 50.27,
+          "fullReadHanMin": 21210,
+          "fullReadHanMax": 22104
+        },
+        "BB": {
+          "pathCount": 131072,
+          "growthMeanPct": 48.03,
+          "growthMinPct": 46.64,
+          "growthMaxPct": 49.76,
+          "fullReadHanMin": 21144,
+          "fullReadHanMax": 22038
+        }
+      },
+      "rangePass": true
+    },
+    {
+      "prefix": "MY",
+      "file": "孟遥-旧题.md",
+      "baselineRouteHanMean": 6009.5,
+      "routeHanMin": 9071,
+      "routeHanMax": 9517,
+      "keys": [
+        "MY07-01",
+        "MY09-01"
+      ],
+      "sourceEndings": [
+        {
+          "id": "MY-E1",
+          "title": "没有房子的以后"
+        },
+        {
+          "id": "MY-E2",
+          "title": "她选择的生活"
+        }
+      ],
+      "endings": {
+        "MY-E1": {
+          "pathCount": 131072,
+          "growthMeanPct": 54.78,
+          "growthMinPct": 52.32,
+          "growthMaxPct": 57.79,
+          "fullReadHanMin": 18683,
+          "fullReadHanMax": 19583
+        },
+        "MY-E2": {
+          "pathCount": 393216,
+          "growthMeanPct": 52.53,
+          "growthMinPct": 49.32,
+          "growthMaxPct": 56.96,
+          "fullReadHanMin": 18289,
+          "fullReadHanMax": 19477
+        }
+      },
+      "keyCombinations": {
+        "AA": {
+          "pathCount": 131072,
+          "growthMeanPct": 54.78,
+          "growthMinPct": 52.32,
+          "growthMaxPct": 57.79,
+          "fullReadHanMin": 18683,
+          "fullReadHanMax": 19583
+        },
+        "AB": {
+          "pathCount": 131072,
+          "growthMeanPct": 53.99,
+          "growthMinPct": 51.55,
+          "growthMaxPct": 56.96,
+          "fullReadHanMin": 18577,
+          "fullReadHanMax": 19477
+        },
+        "BA": {
+          "pathCount": 131072,
+          "growthMeanPct": 51.94,
+          "growthMinPct": 49.57,
+          "growthMaxPct": 54.81,
+          "fullReadHanMin": 18329,
+          "fullReadHanMax": 19229
+        },
+        "BB": {
+          "pathCount": 131072,
+          "growthMeanPct": 51.67,
+          "growthMinPct": 49.32,
+          "growthMaxPct": 54.54,
+          "fullReadHanMin": 18289,
+          "fullReadHanMax": 19189
+        }
+      },
+      "rangePass": true
+    },
+    {
+      "prefix": "YL",
+      "file": "叶岚-下线.md",
+      "baselineRouteHanMean": 5609.5,
+      "routeHanMin": 8371,
+      "routeHanMax": 9106,
+      "keys": [
+        "YL06-01",
+        "YL09-01"
+      ],
+      "sourceEndings": [
+        {
+          "id": "YL-E1",
+          "title": "还会见面"
+        },
+        {
+          "id": "YL-E2",
+          "title": "不再等上线"
+        }
+      ],
+      "endings": {
+        "YL-E1": {
+          "pathCount": 131072,
+          "growthMeanPct": 56.67,
+          "growthMinPct": 54.23,
+          "growthMaxPct": 59.65,
+          "fullReadHanMin": 18284,
+          "fullReadHanMax": 19175
+        },
+        "YL-E2": {
+          "pathCount": 393216,
+          "growthMeanPct": 52.73,
+          "growthMinPct": 48.56,
+          "growthMaxPct": 59.47,
+          "fullReadHanMin": 17592,
+          "fullReadHanMax": 19175
+        }
+      },
+      "keyCombinations": {
+        "AA": {
+          "pathCount": 131072,
+          "growthMeanPct": 56.67,
+          "growthMinPct": 54.23,
+          "growthMaxPct": 59.65,
+          "fullReadHanMin": 18284,
+          "fullReadHanMax": 19175
+        },
+        "AB": {
+          "pathCount": 131072,
+          "growthMeanPct": 56.5,
+          "growthMinPct": 54.07,
+          "growthMaxPct": 59.47,
+          "fullReadHanMin": 18284,
+          "fullReadHanMax": 19175
+        },
+        "BA": {
+          "pathCount": 131072,
+          "growthMeanPct": 50.91,
+          "growthMinPct": 48.68,
+          "growthMaxPct": 53.65,
+          "fullReadHanMin": 17592,
+          "fullReadHanMax": 18483
+        },
+        "BB": {
+          "pathCount": 131072,
+          "growthMeanPct": 50.78,
+          "growthMinPct": 48.56,
+          "growthMaxPct": 53.51,
+          "fullReadHanMin": 17596,
+          "fullReadHanMax": 18487
+        }
+      },
+      "rangePass": true
+    },
+    {
+      "prefix": "PI",
+      "file": "飘-空白页.md",
+      "baselineRouteHanMean": 5686,
+      "routeHanMin": 8078,
+      "routeHanMax": 8757,
+      "keys": [
+        "PI06-01",
+        "PI08-01"
+      ],
+      "sourceEndings": [
+        {
+          "id": "PI-E1",
+          "title": "这句不改"
+        },
+        {
+          "id": "PI-E2",
+          "title": "空白页归还"
+        }
+      ],
+      "endings": {
+        "PI-E1": {
+          "pathCount": 131072,
+          "growthMeanPct": 52.56,
+          "growthMinPct": 50.58,
+          "growthMaxPct": 55.02,
+          "fullReadHanMin": 17893,
+          "fullReadHanMax": 18783
+        },
+        "PI-E2": {
+          "pathCount": 393216,
+          "growthMeanPct": 48.03,
+          "growthMinPct": 45.46,
+          "growthMaxPct": 50.73,
+          "fullReadHanMin": 17256,
+          "fullReadHanMax": 18296
+        }
+      },
+      "keyCombinations": {
+        "AA": {
+          "pathCount": 131072,
+          "growthMeanPct": 52.56,
+          "growthMinPct": 50.58,
+          "growthMaxPct": 55.02,
+          "fullReadHanMin": 17893,
+          "fullReadHanMax": 18783
+        },
+        "AB": {
+          "pathCount": 131072,
+          "growthMeanPct": 48.4,
+          "growthMinPct": 46.55,
+          "growthMaxPct": 50.68,
+          "fullReadHanMin": 17383,
+          "fullReadHanMax": 18273
+        },
+        "BA": {
+          "pathCount": 131072,
+          "growthMeanPct": 48.44,
+          "growthMinPct": 46.6,
+          "growthMaxPct": 50.73,
+          "fullReadHanMin": 17406,
+          "fullReadHanMax": 18296
+        },
+        "BB": {
+          "pathCount": 131072,
+          "growthMeanPct": 47.27,
+          "growthMinPct": 45.46,
+          "growthMaxPct": 49.51,
+          "fullReadHanMin": 17256,
+          "fullReadHanMax": 18146
+        }
+      },
+      "rangePass": true
+    },
+    {
+      "prefix": "FR",
+      "file": "朋友与职业-夜班.md",
+      "baselineRouteHanMean": 4281.5,
+      "routeHanMin": 5914,
+      "routeHanMax": 6336,
+      "keys": [
+        "FR06-01",
+        "FR08-01"
+      ],
+      "sourceEndings": [
+        {
+          "id": "FR-E1",
+          "title": "换个地方，照样吃饭"
+        },
+        {
+          "id": "FR-E2",
+          "title": "清账以后"
+        }
+      ],
+      "endings": {
+        "FR-E1": {
+          "pathCount": 131072,
+          "growthMeanPct": 49.75,
+          "growthMinPct": 47.66,
+          "growthMaxPct": 52.37,
+          "fullReadHanMin": 15459,
+          "fullReadHanMax": 16381
+        },
+        "FR-E2": {
+          "pathCount": 393216,
+          "growthMeanPct": 47.47,
+          "growthMinPct": 44.44,
+          "growthMaxPct": 51.4,
+          "fullReadHanMin": 15111,
+          "fullReadHanMax": 16262
+        }
+      },
+      "keyCombinations": {
+        "AA": {
+          "pathCount": 131072,
+          "growthMeanPct": 49.75,
+          "growthMinPct": 47.66,
+          "growthMaxPct": 52.37,
+          "fullReadHanMin": 15459,
+          "fullReadHanMax": 16381
+        },
+        "AB": {
+          "pathCount": 131072,
+          "growthMeanPct": 48.81,
+          "growthMinPct": 46.76,
+          "growthMaxPct": 51.4,
+          "fullReadHanMin": 15340,
+          "fullReadHanMax": 16262
+        },
+        "BA": {
+          "pathCount": 131072,
+          "growthMeanPct": 47.21,
+          "growthMinPct": 45.22,
+          "growthMaxPct": 49.7,
+          "fullReadHanMin": 15216,
+          "fullReadHanMax": 16138
+        },
+        "BB": {
+          "pathCount": 131072,
+          "growthMeanPct": 46.4,
+          "growthMinPct": 44.44,
+          "growthMaxPct": 48.86,
+          "fullReadHanMin": 15111,
+          "fullReadHanMax": 16033
+        }
+      },
+      "rangePass": true
+    },
+    {
+      "prefix": "HQ",
+      "file": "黄球球-门后.md",
+      "baselineRouteHanMean": 4607,
+      "routeHanMin": 6737,
+      "routeHanMax": 6916,
+      "keys": [
+        "HQ07-01",
+        "HQ08-01"
+      ],
+      "sourceEndings": [
+        {
+          "id": "HQ-E1",
+          "title": "门里也有明天"
+        },
+        {
+          "id": "HQ-E2",
+          "title": "最后一次三下"
+        }
+      ],
+      "endings": {
+        "HQ-E1": {
+          "pathCount": 65536,
+          "growthMeanPct": 49.48,
+          "growthMinPct": 49.17,
+          "growthMaxPct": 49.8,
+          "fullReadHanMin": 16815,
+          "fullReadHanMax": 16934
+        },
+        "HQ-E2": {
+          "pathCount": 196608,
+          "growthMeanPct": 48.2,
+          "growthMinPct": 47.39,
+          "growthMaxPct": 49.23,
+          "fullReadHanMin": 16665,
+          "fullReadHanMax": 16852
+        }
+      },
+      "keyCombinations": {
+        "AA": {
+          "pathCount": 65536,
+          "growthMeanPct": 49.48,
+          "growthMinPct": 49.17,
+          "growthMaxPct": 49.8,
+          "fullReadHanMin": 16815,
+          "fullReadHanMax": 16934
+        },
+        "AB": {
+          "pathCount": 65536,
+          "growthMeanPct": 47.7,
+          "growthMinPct": 47.39,
+          "growthMaxPct": 48.01,
+          "fullReadHanMin": 16665,
+          "fullReadHanMax": 16784
+        },
+        "BA": {
+          "pathCount": 65536,
+          "growthMeanPct": 48.92,
+          "growthMinPct": 48.6,
+          "growthMaxPct": 49.23,
+          "fullReadHanMin": 16733,
+          "fullReadHanMax": 16852
+        },
+        "BB": {
+          "pathCount": 65536,
+          "growthMeanPct": 47.99,
+          "growthMinPct": 47.68,
+          "growthMaxPct": 48.3,
+          "fullReadHanMin": 16680,
+          "fullReadHanMax": 16799
+        }
+      },
+      "rangePass": true
+    }
+  ],
+  "choices": [
+    {
+      "id": "C01-01",
+      "file": "第一章-回到毕节.md",
+      "question": "接下这份夜班前，我先问哪一件事？",
+      "options": [
+        {
+          "label": "A",
+          "text": "问第一晚要怎么交班"
+        },
+        {
+          "label": "B",
+          "text": "先核对上班和休息的时间"
+        }
+      ],
+      "line": 69,
+      "type": "普通选择"
+    },
+    {
+      "id": "C01-02",
+      "file": "第一章-回到毕节.md",
+      "question": "怎样对待门里的声音？",
+      "options": [
+        {
+          "label": "A",
+          "text": "再听一遍，把三拍记下来"
+        },
+        {
+          "label": "B",
+          "text": "先回柜台，暂时不记"
+        }
+      ],
+      "line": 127,
+      "type": "入口条件"
+    },
+    {
+      "id": "C01-03",
+      "file": "第一章-回到毕节.md",
+      "question": "看着她的练习本，我想先问什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "问她准备怎么练"
+        },
+        {
+          "label": "B",
+          "text": "问她为什么选这门课"
+        }
+      ],
+      "line": 213,
+      "type": "普通选择"
+    },
+    {
+      "id": "C01-04",
+      "file": "第一章-回到毕节.md",
+      "question": "怎样把这次重逢继续下去？",
+      "options": [
+        {
+          "label": "A",
+          "text": "把欠了很久的道歉说出来"
+        },
+        {
+          "label": "B",
+          "text": "约一顿具体时间的饭"
+        }
+      ],
+      "line": 329,
+      "type": "普通选择"
+    },
+    {
+      "id": "C01-05",
+      "file": "第一章-回到毕节.md",
+      "question": "那一页空白，让我想起一个问题。",
+      "options": [
+        {
+          "label": "A",
+          "text": "问她想留下什么话"
+        },
+        {
+          "label": "B",
+          "text": "问她没问到的话怎么办"
+        }
+      ],
+      "line": 455,
+      "type": "普通选择"
+    },
+    {
+      "id": "C02-01",
+      "file": "第二章-十四天.md",
+      "question": "要不要敲回那三下？",
+      "options": [
+        {
+          "label": "A",
+          "text": "敲回去，约好再来"
+        },
+        {
+          "label": "B",
+          "text": "先不敲，回去接班"
+        }
+      ],
+      "line": 29,
+      "type": "入口条件"
+    },
+    {
+      "id": "C02-02",
+      "file": "第二章-十四天.md",
+      "question": "把班表看清以后，我还想问哪件事？",
+      "options": [
+        {
+          "label": "A",
+          "text": "先把最近的班次核对好"
+        },
+        {
+          "label": "B",
+          "text": "问店面的事有消息后怎么通知"
+        }
+      ],
+      "line": 85,
+      "type": "普通选择"
+    },
+    {
+      "id": "C02-03",
+      "file": "第二章-十四天.md",
+      "question": "她只剩二十来分钟，我怎么把这顿饭继续下去？",
+      "options": [
+        {
+          "label": "A",
+          "text": "先把“马上”那句说清楚"
+        },
+        {
+          "label": "B",
+          "text": "问她今天什么时候必须走"
+        }
+      ],
+      "line": 149,
+      "type": "普通选择"
+    },
+    {
+      "id": "C02-04",
+      "file": "第二章-十四天.md",
+      "question": "怎样处理已经约好的游戏？",
+      "options": [
+        {
+          "label": "A",
+          "text": "开口说明今晚退出"
+        },
+        {
+          "label": "B",
+          "text": "把下一次约到确实有空的时候"
+        }
+      ],
+      "line": 219,
+      "type": "普通选择"
+    },
+    {
+      "id": "C02-05",
+      "file": "第二章-十四天.md",
+      "question": "这顿饭从哪里聊起？",
+      "options": [
+        {
+          "label": "A",
+          "text": "聊她发过来的游戏截图"
+        },
+        {
+          "label": "B",
+          "text": "坦白自己也不会找话"
+        }
+      ],
+      "line": 283,
+      "type": "普通选择"
+    },
+    {
+      "id": "C02-06",
+      "file": "第二章-十四天.md",
+      "question": "大家听完以后，我还想说哪一句？",
+      "options": [
+        {
+          "label": "A",
+          "text": "把现在能说清的事补完整"
+        },
+        {
+          "label": "B",
+          "text": "先告诉他们，今晚想把饭吃完"
+        }
+      ],
+      "line": 449,
+      "type": "普通选择"
+    },
+    {
+      "id": "C02-07",
+      "file": "第二章-十四天.md",
+      "question": "第一次见面快结束了，我怎样问下一次？",
+      "options": [
+        {
+          "label": "A",
+          "text": "先问来之前要注意什么"
+        },
+        {
+          "label": "B",
+          "text": "告诉她，我还想再来坐一会儿"
+        }
+      ],
+      "line": 539,
+      "type": "普通选择"
+    },
+    {
+      "id": "ROUTE-01",
+      "file": "第三章-选一条路.md",
+      "question": "今天先去找谁？",
+      "options": [
+        {
+          "label": "罗小满",
+          "text": "去理发店"
+        },
+        {
+          "label": "周栀",
+          "text": "去回声"
+        },
+        {
+          "label": "孟遥",
+          "text": "去培训机构"
+        },
+        {
+          "label": "叶岚",
+          "text": "去面馆"
+        },
+        {
+          "label": "飘",
+          "text": "去老街"
+        },
+        {
+          "label": "朋友与职业",
+          "text": "去网吧"
+        },
+        {
+          "label": "黄球球",
+          "text": "去后院"
+        }
+      ],
+      "line": 27,
+      "type": "路线选择"
+    },
+    {
+      "id": "XM03-01",
+      "file": "罗小满-练习本.md",
+      "question": "这次预约，先问清什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "问她希望我怎样配合"
+        },
+        {
+          "label": "B",
+          "text": "先把能到的时间说准"
+        }
+      ],
+      "line": 53,
+      "type": "普通选择"
+    },
+    {
+      "id": "XM04-01",
+      "file": "罗小满-练习本.md",
+      "question": "这一刀以后，我怎样回答？",
+      "options": [
+        {
+          "label": "A",
+          "text": "把我真正想要的样子告诉她"
+        },
+        {
+          "label": "B",
+          "text": "请她把补救的办法讲给我听"
+        }
+      ],
+      "line": 145,
+      "type": "普通选择"
+    },
+    {
+      "id": "XM05-01",
+      "file": "罗小满-练习本.md",
+      "question": "当众那句话之后，我先做什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "当着朋友把自己的话补上"
+        },
+        {
+          "label": "B",
+          "text": "先和她离桌，把没问过的话说清"
+        }
+      ],
+      "line": 277,
+      "type": "普通选择"
+    },
+    {
+      "id": "XM06-01",
+      "file": "罗小满-练习本.md",
+      "question": "这二十分钟怎么过？",
+      "options": [
+        {
+          "label": "A",
+          "text": "陪她把最后一张合影拍好"
+        },
+        {
+          "label": "B",
+          "text": "陪她先走一段街"
+        }
+      ],
+      "line": 395,
+      "type": "普通选择"
+    },
+    {
+      "id": "XM07-01",
+      "file": "罗小满-练习本.md",
+      "question": "她要我替那笔钱换个说法，我怎样做？",
+      "options": [
+        {
+          "label": "A",
+          "text": "陪她当面收回“先算我的”，不再编理由"
+        },
+        {
+          "label": "B",
+          "text": "替她编出临时补钱的理由，先护住面子"
+        }
+      ],
+      "line": 543,
+      "type": "关键选择"
+    },
+    {
+      "id": "XM08-01",
+      "file": "罗小满-练习本.md",
+      "question": "她不能保证回到原地，我怎样回答？",
+      "options": [
+        {
+          "label": "A",
+          "text": "愿意继续，但不拿“回来”当交换"
+        },
+        {
+          "label": "B",
+          "text": "承认自己现在维持不了这段关系"
+        }
+      ],
+      "line": 753,
+      "type": "关键选择"
+    },
+    {
+      "id": "XM09-01",
+      "file": "罗小满-练习本.md",
+      "question": "面对她发来的失败作品，我先回什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "问她那一刀为什么没剪好"
+        },
+        {
+          "label": "B",
+          "text": "先讲自己刚改过的清单"
+        }
+      ],
+      "line": 865,
+      "type": "普通选择"
+    },
+    {
+      "id": "XM10-01",
+      "file": "罗小满-练习本.md",
+      "question": "剪之前，我把哪件事说清？",
+      "options": [
+        {
+          "label": "A",
+          "text": "直接说想修成什么样"
+        },
+        {
+          "label": "B",
+          "text": "先问清今天能怎样修"
+        }
+      ],
+      "line": 967,
+      "type": "普通选择"
+    },
+    {
+      "id": "ZZ03-01",
+      "file": "周栀-十一点四十七分.md",
+      "question": "接过麦克风，先说什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "先坦白自己可能唱不好"
+        },
+        {
+          "label": "B",
+          "text": "请她带着起个头"
+        }
+      ],
+      "line": 67,
+      "type": "普通选择"
+    },
+    {
+      "id": "ZZ04-01",
+      "file": "周栀-十一点四十七分.md",
+      "question": "这张单子之后，我怎样把话说清？",
+      "options": [
+        {
+          "label": "A",
+          "text": "承认自己想用消费换一个位置"
+        },
+        {
+          "label": "B",
+          "text": "撤掉安排，坦白自己把亲近认错了"
+        }
+      ],
+      "line": 199,
+      "type": "普通选择"
+    },
+    {
+      "id": "ZZ05-01",
+      "file": "周栀-十一点四十七分.md",
+      "question": "这一次，接着问她什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "问她现在最担心哪件事"
+        },
+        {
+          "label": "B",
+          "text": "承认自己连备菜也不懂"
+        }
+      ],
+      "line": 337,
+      "type": "普通选择"
+    },
+    {
+      "id": "ZZ06-01",
+      "file": "周栀-十一点四十七分.md",
+      "question": "我不能接受“朋友”这个位置，接下来怎样做？",
+      "options": [
+        {
+          "label": "A",
+          "text": "离开客人的竞争，下班后当面谈"
+        },
+        {
+          "label": "B",
+          "text": "当众点单，把她叫到自己这边"
+        }
+      ],
+      "line": 453,
+      "type": "关键选择"
+    },
+    {
+      "id": "ZZ07-01",
+      "file": "周栀-十一点四十七分.md",
+      "question": "空房间里，我先说哪件真事？",
+      "options": [
+        {
+          "label": "A",
+          "text": "说起最初在门口等她看见"
+        },
+        {
+          "label": "B",
+          "text": "说起现在也还想找她讲的小事"
+        }
+      ],
+      "line": 623,
+      "type": "普通选择"
+    },
+    {
+      "id": "ZZ08-01",
+      "file": "周栀-十一点四十七分.md",
+      "question": "她以后仍可能接陪酒工作，我怎样回答？",
+      "options": [
+        {
+          "label": "A",
+          "text": "愿意继续，不把她退出行业当条件"
+        },
+        {
+          "label": "B",
+          "text": "承认自己接受不了，不再等她退出"
+        }
+      ],
+      "line": 849,
+      "type": "关键选择"
+    },
+    {
+      "id": "ZZ09-01",
+      "file": "周栀-十一点四十七分.md",
+      "question": "走出楼道以后，我先处理哪件事？",
+      "options": [
+        {
+          "label": "A",
+          "text": "把返程与接班时间再核准"
+        },
+        {
+          "label": "B",
+          "text": "把还没办完的事项重新列清"
+        }
+      ],
+      "line": 987,
+      "type": "普通选择"
+    },
+    {
+      "id": "ZZ10-01",
+      "file": "周栀-十一点四十七分.md",
+      "question": "在这一级旧台阶前，我先怎样开口？",
+      "options": [
+        {
+          "label": "A",
+          "text": "先笑自己终于记住了开头"
+        },
+        {
+          "label": "B",
+          "text": "承认自己还怕唱到原来断掉的地方"
+        }
+      ],
+      "line": 1121,
+      "type": "普通选择"
+    },
+    {
+      "id": "MY03-01",
+      "file": "孟遥-旧题.md",
+      "question": "翻到旧约定，我先说什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "承认我还是会把旧东西想得太多"
+        },
+        {
+          "label": "B",
+          "text": "问她为什么愿意把它交还给我"
+        }
+      ],
+      "line": 83,
+      "type": "普通选择"
+    },
+    {
+      "id": "MY04-01",
+      "file": "孟遥-旧题.md",
+      "question": "这顿饭谈到了现实，我怎样接下去？",
+      "options": [
+        {
+          "label": "A",
+          "text": "说出自己对贵阳的真实犹豫"
+        },
+        {
+          "label": "B",
+          "text": "直接问她现在最在意什么"
+        }
+      ],
+      "line": 167,
+      "type": "普通选择"
+    },
+    {
+      "id": "MY05-01",
+      "file": "孟遥-旧题.md",
+      "question": "她仍要去赴约，我先把哪句话说出口？",
+      "options": [
+        {
+          "label": "A",
+          "text": "追问那个吻是不是只够换来这一刻"
+        },
+        {
+          "label": "B",
+          "text": "直接问是不是他的条件更好"
+        }
+      ],
+      "line": 295,
+      "type": "普通选择"
+    },
+    {
+      "id": "MY06-01",
+      "file": "孟遥-旧题.md",
+      "question": "回声最后一夜，我怎样把难听的话说清楚？",
+      "options": [
+        {
+          "label": "A",
+          "text": "承认我在嫉妒一个没有做错事的人"
+        },
+        {
+          "label": "B",
+          "text": "承认我想让她用选择证明以前没白过"
+        }
+      ],
+      "line": 369,
+      "type": "普通选择"
+    },
+    {
+      "id": "MY07-01",
+      "file": "孟遥-旧题.md",
+      "question": "要不要让她依据真实处境考虑我们？",
+      "options": [
+        {
+          "label": "A",
+          "text": "摊开已知和未知，把自己的生活留在自己手里"
+        },
+        {
+          "label": "B",
+          "text": "收起账目，不愿把旧情放进现实比较里"
+        }
+      ],
+      "line": 463,
+      "type": "关键选择"
+    },
+    {
+      "id": "MY08-01",
+      "file": "孟遥-旧题.md",
+      "question": "看着已经写好的贵阳地址，我怎样回应离开？",
+      "options": [
+        {
+          "label": "A",
+          "text": "说出我仍然舍不得"
+        },
+        {
+          "label": "B",
+          "text": "问她还需要我做什么具体的事"
+        }
+      ],
+      "line": 557,
+      "type": "普通选择"
+    },
+    {
+      "id": "MY09-01",
+      "file": "孟遥-旧题.md",
+      "question": "房子已经失去，我给出怎样的真实决定？",
+      "options": [
+        {
+          "label": "A",
+          "text": "提出在各自承担生活的前提下认真交往"
+        },
+        {
+          "label": "B",
+          "text": "承认自己现在无法承担异地关系，不要求她继续等"
+        }
+      ],
+      "line": 705,
+      "type": "关键选择"
+    },
+    {
+      "id": "MY10-01",
+      "file": "孟遥-旧题.md",
+      "question": "把昨天的决定接到今天，我先说什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "承认我还没有觉得轻松"
+        },
+        {
+          "label": "B",
+          "text": "先讲一件还得继续做的事"
+        }
+      ],
+      "line": 783,
+      "type": "普通选择"
+    },
+    {
+      "id": "YL03-01",
+      "file": "叶岚-下线.md",
+      "question": "她说只叫了我一个，我怎样接住？",
+      "options": [
+        {
+          "label": "A",
+          "text": "认真确认这一次只见彼此"
+        },
+        {
+          "label": "B",
+          "text": "沿着熟悉的玩笑往前走"
+        }
+      ],
+      "line": 83,
+      "type": "普通选择"
+    },
+    {
+      "id": "YL04-01",
+      "file": "叶岚-下线.md",
+      "question": "她留在这里，我把哪一层难堪说出来？",
+      "options": [
+        {
+          "label": "A",
+          "text": "说出拍卖和没有算完的债"
+        },
+        {
+          "label": "B",
+          "text": "承认我怕她看见自己只剩这些"
+        }
+      ],
+      "line": 169,
+      "type": "普通选择"
+    },
+    {
+      "id": "YL05-01",
+      "file": "叶岚-下线.md",
+      "question": "她说应该早点告诉我，我追问什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "问她有没有打算主动说出真相"
+        },
+        {
+          "label": "B",
+          "text": "问她到底把我放在哪里"
+        }
+      ],
+      "line": 323,
+      "type": "普通选择"
+    },
+    {
+      "id": "YL06-01",
+      "file": "叶岚-下线.md",
+      "question": "知道她仍维持婚姻以后，我怎样行动？",
+      "options": [
+        {
+          "label": "A",
+          "text": "继续私下见面，承担自己也参与的事实"
+        },
+        {
+          "label": "B",
+          "text": "取消单独约会，停止把亲密藏在队友身份里"
+        }
+      ],
+      "line": 429,
+      "type": "关键选择"
+    },
+    {
+      "id": "YL07-01",
+      "file": "叶岚-下线.md",
+      "question": "赵衡把我当普通朋友交谈，我怎样回应？",
+      "options": [
+        {
+          "label": "A",
+          "text": "只回答手边机器的问题"
+        },
+        {
+          "label": "B",
+          "text": "把话题转回他们自己的打算"
+        }
+      ],
+      "line": 523,
+      "type": "普通选择"
+    },
+    {
+      "id": "YL08-01",
+      "file": "叶岚-下线.md",
+      "question": "她把修好的耳机留下，我说什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "承认这份心意让我舍不得"
+        },
+        {
+          "label": "B",
+          "text": "问她为什么偏偏留下这一副"
+        }
+      ],
+      "line": 677,
+      "type": "普通选择"
+    },
+    {
+      "id": "YL09-01",
+      "file": "叶岚-下线.md",
+      "question": "她仍想见我，却不提供公开关系，我怎样回答？",
+      "options": [
+        {
+          "label": "A",
+          "text": "承认仍想靠近，并面对这句话的实际分量"
+        },
+        {
+          "label": "B",
+          "text": "结束私下联系，不再把停止推到下一次"
+        }
+      ],
+      "line": 853,
+      "type": "关键选择"
+    },
+    {
+      "id": "YL10-01",
+      "file": "叶岚-下线.md",
+      "question": "这次通话，我先说什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "承认昨夜其实一直很难熬"
+        },
+        {
+          "label": "B",
+          "text": "先把房子的事说成已经发生的事实"
+        }
+      ],
+      "line": 935,
+      "type": "普通选择"
+    },
+    {
+      "id": "PI03-01",
+      "file": "飘-空白页.md",
+      "question": "这会儿先说哪一句？",
+      "options": [
+        {
+          "label": "A",
+          "text": "问她最舍不得删的是哪句"
+        },
+        {
+          "label": "B",
+          "text": "先陪她把页码理顺"
+        }
+      ],
+      "line": 47,
+      "type": "普通选择"
+    },
+    {
+      "id": "PI04-01",
+      "file": "飘-空白页.md",
+      "question": "这句话之后，我怎样接下去？",
+      "options": [
+        {
+          "label": "A",
+          "text": "问一个她愿意讲的旧日片段"
+        },
+        {
+          "label": "B",
+          "text": "问她今天想留下什么"
+        }
+      ],
+      "line": 155,
+      "type": "普通选择"
+    },
+    {
+      "id": "PI05-01",
+      "file": "飘-空白页.md",
+      "question": "先检查哪一部分？",
+      "options": [
+        {
+          "label": "A",
+          "text": "从擅加的作者介绍开始"
+        },
+        {
+          "label": "B",
+          "text": "从我改过的受访者原话开始"
+        }
+      ],
+      "line": 319,
+      "type": "普通选择"
+    },
+    {
+      "id": "PI06-01",
+      "file": "飘-空白页.md",
+      "question": "这次由谁把改稿的责任讲清楚？",
+      "options": [
+        {
+          "label": "A",
+          "text": "我亲自澄清，把难堪和后续核对一起接过来"
+        },
+        {
+          "label": "B",
+          "text": "我向她认错，但请她先替我处理外面的误会"
+        }
+      ],
+      "line": 393,
+      "type": "关键选择"
+    },
+    {
+      "id": "PI07-01",
+      "file": "飘-空白页.md",
+      "question": "她没有给自己写介绍，我怎样接话？",
+      "options": [
+        {
+          "label": "A",
+          "text": "问她做这件事到底高不高兴"
+        },
+        {
+          "label": "B",
+          "text": "问她准备把第一本送给谁"
+        }
+      ],
+      "line": 543,
+      "type": "普通选择"
+    },
+    {
+      "id": "PI08-01",
+      "file": "飘-空白页.md",
+      "question": "她照常出发，我们接下来怎样相处？",
+      "options": [
+        {
+          "label": "A",
+          "text": "说出挽留的私心，仍请求一起安排异地生活"
+        },
+        {
+          "label": "B",
+          "text": "承认自己无法继续，结束恋爱里的等待"
+        }
+      ],
+      "line": 720,
+      "type": "关键选择"
+    },
+    {
+      "id": "PI09-01",
+      "file": "飘-空白页.md",
+      "question": "那页仍然空着，我先写哪件事？",
+      "options": [
+        {
+          "label": "A",
+          "text": "写交钥匙那天没来得及说的话"
+        },
+        {
+          "label": "B",
+          "text": "先把下一班和眼前的支出写下来"
+        }
+      ],
+      "line": 904,
+      "type": "普通选择"
+    },
+    {
+      "id": "PI10-01",
+      "file": "飘-空白页.md",
+      "question": "这次怎样把自己的话写完整？",
+      "options": [
+        {
+          "label": "A",
+          "text": "先把失去的东西写清楚"
+        },
+        {
+          "label": "B",
+          "text": "先写一个不愿忘记的瞬间"
+        }
+      ],
+      "line": 948,
+      "type": "普通选择"
+    },
+    {
+      "id": "FR03-01",
+      "file": "朋友与职业-夜班.md",
+      "question": "客人走后，我想把哪句话说清？",
+      "options": [
+        {
+          "label": "A",
+          "text": "问下回遇见这种事怎样叫人"
+        },
+        {
+          "label": "B",
+          "text": "承认刚才没说出口的害怕"
+        }
+      ],
+      "line": 53,
+      "type": "普通选择"
+    },
+    {
+      "id": "FR04-01",
+      "file": "朋友与职业-夜班.md",
+      "question": "这晚把时间留给谁？",
+      "options": [
+        {
+          "label": "A",
+          "text": "去看毛狼，先跟师匠改约盘点"
+        },
+        {
+          "label": "B",
+          "text": "留下盘点，提前告诉毛狼不能到场"
+        }
+      ],
+      "line": 125,
+      "type": "普通选择"
+    },
+    {
+      "id": "FR05-01",
+      "file": "朋友与职业-夜班.md",
+      "question": "这句话以后，我还想说什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "把伤人的那句单独认下来"
+        },
+        {
+          "label": "B",
+          "text": "问他现在还需不需要我搭手"
+        }
+      ],
+      "line": 251,
+      "type": "普通选择"
+    },
+    {
+      "id": "FR06-01",
+      "file": "朋友与职业-夜班.md",
+      "question": "钱必须说清，钱以外呢？",
+      "options": [
+        {
+          "label": "A",
+          "text": "留下核账，也把伤人的话当面讲完"
+        },
+        {
+          "label": "B",
+          "text": "把结薪写清，工资以外暂时到这里"
+        }
+      ],
+      "line": 323,
+      "type": "关键选择"
+    },
+    {
+      "id": "FR07-01",
+      "file": "朋友与职业-夜班.md",
+      "question": "面对这两件旧东西，先接哪句话？",
+      "options": [
+        {
+          "label": "A",
+          "text": "问他旧钟也舍得给我吗"
+        },
+        {
+          "label": "B",
+          "text": "接下饭盒，问清盖子放在哪里"
+        }
+      ],
+      "line": 453,
+      "type": "普通选择"
+    },
+    {
+      "id": "FR08-01",
+      "file": "朋友与职业-夜班.md",
+      "question": "旧柜台拆掉以后，还要不要约下一次？",
+      "options": [
+        {
+          "label": "A",
+          "text": "先办好自己的工作，再主动约他们见面"
+        },
+        {
+          "label": "B",
+          "text": "办完交接，把私人关系也停在这里"
+        }
+      ],
+      "line": 545,
+      "type": "关键选择"
+    },
+    {
+      "id": "FR09-01",
+      "file": "朋友与职业-夜班.md",
+      "question": "这次争议，先从哪里说起？",
+      "options": [
+        {
+          "label": "A",
+          "text": "把能查到的时间给他看"
+        },
+        {
+          "label": "B",
+          "text": "先听完他从哪一局开始卡"
+        }
+      ],
+      "line": 617,
+      "type": "普通选择"
+    },
+    {
+      "id": "FR10-01",
+      "file": "朋友与职业-夜班.md",
+      "question": "把照片递给他时，先说哪句话？",
+      "options": [
+        {
+          "label": "A",
+          "text": "告诉他，这次没把墙边裁掉"
+        },
+        {
+          "label": "B",
+          "text": "问他，准备把照片放在哪里"
+        }
+      ],
+      "line": 681,
+      "type": "普通选择"
+    },
+    {
+      "id": "HQ03-01",
+      "file": "黄球球-门后.md",
+      "question": "拿起杯子以后，还想跟她说什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "承认我刚才也慌了"
+        },
+        {
+          "label": "B",
+          "text": "问她下回有人来时怎样回答"
+        }
+      ],
+      "line": 45,
+      "type": "普通选择"
+    },
+    {
+      "id": "HQ04-01",
+      "file": "黄球球-门后.md",
+      "question": "这次怎样陪她看外面？",
+      "options": [
+        {
+          "label": "A",
+          "text": "陪她到没人的后院，由她决定走多远"
+        },
+        {
+          "label": "B",
+          "text": "留在房里，把今天录下的街声放给她听"
+        }
+      ],
+      "line": 121,
+      "type": "普通选择"
+    },
+    {
+      "id": "HQ05-01",
+      "file": "黄球球-门后.md",
+      "question": "这次把话从哪里讲起？",
+      "options": [
+        {
+          "label": "A",
+          "text": "从我一直躲着的日期讲起"
+        },
+        {
+          "label": "B",
+          "text": "先说我为什么不敢在这里接电话"
+        }
+      ],
+      "line": 213,
+      "type": "普通选择"
+    },
+    {
+      "id": "HQ06-01",
+      "file": "黄球球-门后.md",
+      "question": "怎样向毛狼说明今晚的约定？",
+      "options": [
+        {
+          "label": "A",
+          "text": "告诉他，她叫黄球球，是我在意的人"
+        },
+        {
+          "label": "B",
+          "text": "先不介绍，但把约定当成真的安排"
+        }
+      ],
+      "line": 287,
+      "type": "普通选择"
+    },
+    {
+      "id": "HQ07-01",
+      "file": "黄球球-门后.md",
+      "question": "临时工钱和已经约好的五点，我怎样安排？",
+      "options": [
+        {
+          "label": "A",
+          "text": "放弃这次临时工钱，按约出现"
+        },
+        {
+          "label": "B",
+          "text": "先接下临时工作，打算做完再解释"
+        }
+      ],
+      "line": 427,
+      "type": "关键选择"
+    },
+    {
+      "id": "HQ08-01",
+      "file": "黄球球-门后.md",
+      "question": "如果限制不会很快改变，我怎样回答她？",
+      "options": [
+        {
+          "label": "A",
+          "text": "愿意继续，但只承诺实际能做的相处"
+        },
+        {
+          "label": "B",
+          "text": "承认我无法接受，停止许下恋人的以后"
+        }
+      ],
+      "line": 595,
+      "type": "关键选择"
+    },
+    {
+      "id": "HQ09-01",
+      "file": "黄球球-门后.md",
+      "question": "这十分钟，我先讲什么？",
+      "options": [
+        {
+          "label": "A",
+          "text": "讲那扇已经不需要我开门的房子"
+        },
+        {
+          "label": "B",
+          "text": "承认我现在不想回自己的住处"
+        }
+      ],
+      "line": 738,
+      "type": "普通选择"
+    },
+    {
+      "id": "HQ10-01",
+      "file": "黄球球-门后.md",
+      "question": "这张纸上，先写哪一句？",
+      "options": [
+        {
+          "label": "A",
+          "text": "把自己能做到的时间写清楚"
+        },
+        {
+          "label": "B",
+          "text": "承认今天的真实状态"
+        }
+      ],
+      "line": 824,
+      "type": "普通选择"
+    }
+  ]
+}

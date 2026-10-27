@@ -1,4 +1,6 @@
 'use strict';
+// v1.1 项目隔离：下方旧应用代码仅供历史参考。
+throw new Error('v1.1 尚未配置独立妙搭应用，旧上传入口已停用。请参阅 deployment/README.md。');
 const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');

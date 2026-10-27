@@ -1,0 +1,2194 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-27",
+  "purpose": "v1.1剧情CG候选池，用户从100项选60张；不是生产或运行绑定清单",
+  "totalCandidates": 100,
+  "targetSelected": 60,
+  "selectedCount": 0,
+  "counts": {
+    "共通": 12,
+    "罗小满": 12,
+    "周栀": 12,
+    "孟遥": 12,
+    "叶岚": 12,
+    "飘": 12,
+    "黄球球": 12,
+    "朋友与职业": 10,
+    "毛狼与飘后日谈": 6
+  },
+  "conditionNote": "condition为计划阅读条件，sourceConditions为源稿嵌套IF证据；routeKey非已实施引擎接口。所有路线镜头均须先选该路线；HQ需共通相识前置；后日谈全局排除PI-E1。",
+  "sourceManifest": [
+    {
+      "path": "项目文档/故事/v1.1润色稿/叶岚-下线.md",
+      "sha256": "a49f36e5484a6daa9a2263f0bb30a8bcca5ed34bc685e2fe40de424e468ae1fd"
+    },
+    {
+      "path": "项目文档/故事/v1.1润色稿/后日谈-他们的日子.md",
+      "sha256": "e393db9ec9ca2b0546eb5778cf52709dc66ead07873fe2a80374f412d7b04951"
+    },
+    {
+      "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+      "sha256": "db02c362cec86169a608e765c1a57370f8f61c73704c8b78d625372a5cc60f4d"
+    },
+    {
+      "path": "项目文档/故事/v1.1润色稿/孟遥-旧题.md",
+      "sha256": "591cc31cf8d21f1569b2e5fa079ce91cc0b764ad1dffd5531b6b875efd01b584"
+    },
+    {
+      "path": "项目文档/故事/v1.1润色稿/朋友与职业-夜班.md",
+      "sha256": "acd214b7e9b9baf2d1a3e5be8656fb2ec991f21bd9a40052945dcb3eb1bb376b"
+    },
+    {
+      "path": "项目文档/故事/v1.1润色稿/第一章-回到毕节.md",
+      "sha256": "44854facfc2a9d0fd91913ebfd6b6dc5477ec07d99fe8f2c9299edf1a3f6afc2"
+    },
+    {
+      "path": "项目文档/故事/v1.1润色稿/第二章-十四天.md",
+      "sha256": "8e66ec672920b1a1870bdbcdd2c40f361ef811a7087b08f07a543ba102599619"
+    },
+    {
+      "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+      "sha256": "fe8b4a6e31cd39674879e161fb9edb1a996cf435501d8007c416b44790b43778"
+    },
+    {
+      "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+      "sha256": "7e9d3ca6ceb48096963075d646d6a26c407c74131bd7828143908921a30aadd7"
+    },
+    {
+      "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+      "sha256": "e3ce0584dc41d42c1817ff2360b917b4dc9fc7ad86e2f464a985a1037c5df31a"
+    }
+  ],
+  "currentCgInventory": [
+    {
+      "id": "tc-cg-piao-choice",
+      "path": "assets/current/cg/tc-cg-piao-choice.webp",
+      "registered": true
+    },
+    {
+      "id": "tc-cg-last-echo-dinner",
+      "path": "assets/current/cg/tc-cg-last-echo-dinner.webp",
+      "registered": true
+    },
+    {
+      "id": "tc-cg-qiuqiu-transform",
+      "path": "assets/current/cg/tc-cg-qiuqiu-transform.webp",
+      "registered": true
+    },
+    {
+      "id": "tc-cg-piao-wedding",
+      "path": "assets/current/cg/tc-cg-piao-wedding.webp",
+      "registered": true
+    },
+    {
+      "id": "wenwen-cg-01-rain-return",
+      "path": "assets/current/cg/wenwen-cg-01-rain-return.webp",
+      "registered": false
+    },
+    {
+      "id": "wenwen-cg-02-xiaoman-mirror",
+      "path": "assets/current/cg/wenwen-cg-02-xiaoman-mirror.webp",
+      "registered": false
+    },
+    {
+      "id": "wenwen-cg-03-zhouzhi-noodles",
+      "path": "assets/current/cg/wenwen-cg-03-zhouzhi-noodles.webp",
+      "registered": false
+    },
+    {
+      "id": "wenwen-cg-04-mengyao-camera",
+      "path": "assets/current/cg/wenwen-cg-04-mengyao-camera.webp",
+      "registered": false
+    },
+    {
+      "id": "wenwen-cg-05-yelan-inventory",
+      "path": "assets/current/cg/wenwen-cg-05-yelan-inventory.webp",
+      "registered": false
+    },
+    {
+      "id": "wenwen-cg-06-maolang-confession",
+      "path": "assets/current/cg/wenwen-cg-06-maolang-confession.webp",
+      "registered": false
+    },
+    {
+      "id": "wenwen-cg-07-yelan-off-duty",
+      "path": "assets/current/cg/wenwen-cg-07-yelan-off-duty.webp",
+      "registered": false
+    },
+    {
+      "id": "wenwen-cg-08-huangqiuqiu-listening",
+      "path": "assets/current/cg/wenwen-cg-08-huangqiuqiu-listening.webp",
+      "registered": false
+    },
+    {
+      "id": "wenwen-cg-09-repair-handoff",
+      "path": "assets/current/cg/wenwen-cg-09-repair-handoff.webp",
+      "registered": false
+    },
+    {
+      "id": "wenwen-cg-13-xiaoman-night-stall",
+      "path": "assets/current/cg/wenwen-cg-13-xiaoman-night-stall.webp",
+      "registered": false
+    }
+  ],
+  "candidates": [
+    {
+      "id": "CG001",
+      "route": "共通",
+      "routeKey": "COMMON",
+      "chapter": "第一章·第1天",
+      "title": "坏轮子的返乡",
+      "shot": "雨棚下双人中景；毛狼把箱轮交到文文掌心，斜立箱子和未收起的手机同框，冷雨与尴尬的重逢。",
+      "condition": "共通必经。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/第一章-回到毕节.md",
+          "line": 21,
+          "anchor": "挂电话以后，毛狼把轮子放进我掌心。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG002",
+      "route": "共通",
+      "routeKey": "COMMON",
+      "chapter": "第一章·第1天",
+      "title": "名字写进夜班表",
+      "shot": "柜台俯视近景；文文握笔签名，师匠的班表和缺轮箱子分处前后景，表现接下现实工作。",
+      "condition": "共通必经；C01-01任意。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/第一章-回到毕节.md",
+          "line": 95,
+          "anchor": "我在名字那一栏写了文文。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG003",
+      "route": "共通",
+      "routeKey": "COMMON",
+      "chapter": "第一章·第2天清晨",
+      "title": "修回来的轮子",
+      "shot": "清晨店外低机位；毛狼蹲着拿轮子，文文刚下夜班，早餐热汽从门内漫出，修理的照顾代替说教。",
+      "condition": "共通必经。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/第一章-回到毕节.md",
+          "line": 149,
+          "anchor": "六点交班，毛狼在早餐店门口蹲着，手上是我那只轮子。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG004",
+      "route": "共通",
+      "routeKey": "COMMON",
+      "chapter": "第一章·第3—4天",
+      "title": "她自己的练习本",
+      "shot": "理发台上双人过肩；小满展开失败与进步并存的剪发练习，报名表夹在页角，文文收起随口评价。",
+      "condition": "共通必经；置于C01-03前。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/第一章-回到毕节.md",
+          "line": 201,
+          "anchor": "里面画了好几个后脑勺，下面写着哪里剪短了、哪边层次不对。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG005",
+      "route": "共通",
+      "routeKey": "COMMON",
+      "chapter": "第一章·第3—4天",
+      "title": "便利店里的前任",
+      "shot": "便利店出口纵深构图；孟遥提布袋抬起门帘，文文自己付款，冷柜光与湿街区分过去和当下。",
+      "condition": "共通必经；C01-04前。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/第一章-回到毕节.md",
+          "line": 317,
+          "anchor": "孟遥在出口等，没替我付那瓶水。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG006",
+      "route": "共通",
+      "routeKey": "COMMON",
+      "chapter": "第一章·第5天",
+      "title": "屏幕上只剩她的角色",
+      "shot": "文文侧脸与游戏屏幕同框；暂停的双人角色、静音状态、戴耳机的手形成等候。此时不画未见面的叶岚实体。",
+      "condition": "共通必经；游戏画面需用原创通用界面。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/第一章-回到毕节.md",
+          "line": 385,
+          "anchor": "她笑到一半忽然静了音，画面里的角色还站在我旁边，几秒后才动。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG007",
+      "route": "共通",
+      "routeKey": "COMMON",
+      "chapter": "第一章·第6天",
+      "title": "一碗面和一通工作电话",
+      "shot": "面馆双人桌；周栀接熟客电话，一手折摊位图，文文端着汤看她，营业笑与筹备生活的动作并置。",
+      "condition": "共通必经。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/第一章-回到毕节.md",
+          "line": 415,
+          "anchor": "我抬头。她靠在椅背上，声音比刚才软，手却把摊位图折得方方正正。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG008",
+      "route": "共通",
+      "routeKey": "COMMON",
+      "chapter": "第一章·第7天",
+      "title": "册子里留白的地方",
+      "shot": "饭桌斜俯视；飘将有空页的小册子推给文文，手仍落在页边，纸张与普通餐具为焦点。",
+      "condition": "共通必经；C01-05前。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/第一章-回到毕节.md",
+          "line": 449,
+          "anchor": "她推过来，说可以，但上面没写完的话别猜。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG009",
+      "route": "共通",
+      "routeKey": "COMMON",
+      "chapter": "第一章·第7天深夜",
+      "title": "掉落的房屋照片",
+      "shot": "夜班柜台低光特写；照片、受潮通知与文文僵住的手，师匠弯腰入画；照片要保留一长一短的窗帘。",
+      "condition": "共通必经；不得把逾期额画成全部房贷。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/第一章-回到毕节.md",
+          "line": 519,
+          "anchor": "我急着收信，夹在里面的房屋照片掉下来，正面朝上。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG010",
+      "route": "共通",
+      "routeKey": "COMMON",
+      "chapter": "第二章·第11天",
+      "title": "她还没有开口",
+      "shot": "网吧门口三人中景；飘看向文文和毛狼，卷出白边的演出海报在两人之间，表现她自行决定赴约。",
+      "condition": "共通必经；不能画成三人恋爱关系已经成立。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/第二章-十四天.md",
+          "line": 285,
+          "anchor": "“我还一句都没讲。”她看看我们，“就给我算完了？”"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG011",
+      "route": "共通",
+      "routeKey": "COMMON",
+      "chapter": "第二章·第14天",
+      "title": "饭桌上说出拍卖",
+      "shot": "多人饭桌横构图；文文放齐筷子，毛狼停筷，小满握头盔，飘合册子，周栀放下汤勺；此时孟遥尚未到、叶岚缺席。",
+      "condition": "共通必经；画面锁定孟遥到场前的第一轮坦白。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/第二章-十四天.md",
+          "line": 437,
+          "anchor": "“房子要拍卖。日子已经定了。”"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG012",
+      "route": "共通",
+      "routeKey": "COMMON",
+      "chapter": "第二章·第14天20:30",
+      "title": "门后的第一次见面",
+      "shot": "从文文肩后看半开的门；黄色球形黄球球坐蓝凳托脸，文文扶门框，另一凳留有间距，惊讶中保持平视。",
+      "condition": "C01-02=A且C02-01=A；正式相识。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/第二章-十四天.md",
+          "line": 555,
+          "anchor": "蓝色凳子上坐着一个黄色圆球，有眼睛、有眉毛，一只小手托着脸。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG013",
+      "route": "罗小满",
+      "routeKey": "XM",
+      "chapter": "第三章·第15天",
+      "title": "请找罗师傅",
+      "shot": "镜子与柜台构图；小满把名片递给完成补剪的阿姨，文文在旁拉门，职业成果从她自己的手里完成。",
+      "condition": "小满线必经。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+          "line": 29,
+          "anchor": "她把收款码摆到柜台边，等到账的声音响了，才把找出来的名片递过去。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG014",
+      "route": "罗小满",
+      "routeKey": "XM",
+      "chapter": "第四章·第22天",
+      "title": "镜子里掉下的发夹",
+      "shot": "镜面双人近景；小满卷袖、剪刀暂停，发夹落在文文围布上，两人镜中对视；剪短的耳侧保留连续性。",
+      "condition": "小满线必经；XM04-01任意。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+          "line": 183,
+          "anchor": "夹子从她嘴边掉下来，落在围布上。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG015",
+      "route": "罗小满",
+      "routeKey": "XM",
+      "chapter": "第四章·第22天",
+      "title": "洗头池上的几秒",
+      "shot": "仰视近景；文文靠洗头池，小满俯身捻碎发，睫毛水珠、颈后毛巾与花洒入画，紧张而非已经接吻。",
+      "condition": "小满线必经；与上一张是补剪完成后的独立亲近节拍。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+          "line": 205,
+          "anchor": "我看见她左边睫毛上沾了一点水。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG016",
+      "route": "罗小满",
+      "routeKey": "XM",
+      "chapter": "第五章·第27天",
+      "title": "当众说我对象",
+      "shot": "烧烤桌近景带局部围观；小满抓衣襟主动吻文文，汽水和车钥匙在前景，热烈中保留文文的意外。",
+      "condition": "小满线必经；XM05-01前，不画成贵阳时期已交往。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+          "line": 265,
+          "anchor": "她抓住我的外套前襟，吻了过来。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG017",
+      "route": "罗小满",
+      "routeKey": "XM",
+      "chapter": "第七章·第40天",
+      "title": "发夹掉在账单旁",
+      "shot": "地面双人中景；打开的行李箱、散落发夹与酒账，小满坐地上说明生活费缺口，文文蹲着听。",
+      "condition": "小满线必经；XM07-01前，学费已经缴清。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+          "line": 533,
+          "anchor": "她坐到地上，将那晚的账单一张张翻给我看。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG018",
+      "route": "罗小满",
+      "routeKey": "XM",
+      "chapter": "第七章·第40天",
+      "title": "把大话收回来",
+      "shot": "摊前横构图；站着的小满按停阿俊手机语音，账单铺桌，文文站在侧后支持，朋友不再替她圆场。",
+      "condition": "仅XM07-01=A；B为继续编材料钱，不能复用本图。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+          "line": 571,
+          "anchor": "“那句话我收回。想装大方，装过头了。”"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG019",
+      "route": "罗小满",
+      "routeKey": "XM",
+      "chapter": "第七章·第46天清晨",
+      "title": "她自己催回那笔钱",
+      "shot": "清晨室内中景；小满坐起接电话，头发凌乱，文文在旁递水；日常衣着和被褥完整遮挡，重心是亲密之后仍需自己追账。",
+      "condition": "仅XM07-01=A；第45天休班留宿后的次日。",
+      "sourceConditions": [
+        "XM07-01=A"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+          "line": 643,
+          "anchor": "“今天说好的那一笔，下午给。你别又喊我算了。”"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG020",
+      "route": "罗小满",
+      "routeKey": "XM",
+      "chapter": "第八章·第53天",
+      "title": "两顶头盔，没有车",
+      "shot": "公交站旁低机位；小满抱两顶头盔坐台阶，安全带刚被提起，文文望站牌，旧电动车已售出不再在身边。",
+      "condition": "小满线必经；在卖车交钥匙之后。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+          "line": 705,
+          "anchor": "她嗯了一声，没往站台去，先找了个台阶坐下。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG021",
+      "route": "罗小满",
+      "routeKey": "XM",
+      "chapter": "第八章·第60天",
+      "title": "赶上车的练习本",
+      "shot": "车站外便利店中景；行李箱旁小满接本子、翻照片，文文刚送达，缺席的电动车成为画面空位。",
+      "condition": "小满线必经；XM08-01前。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+          "line": 747,
+          "anchor": "她接过本子，先检查里面夹的报名材料，然后翻到第一次剪我头发的那张照片。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG022",
+      "route": "罗小满",
+      "routeKey": "XM",
+      "chapter": "第八章·第60天",
+      "title": "这次没观众",
+      "shot": "检票口前双人近景；小满拉衣领、文文主动抱住她，吻别旁保留行李与广播空间，无朋友起哄。",
+      "condition": "仅XM07-01=A且XM08-01=A，即通向XM-E1。",
+      "sourceConditions": [
+        "XM07-01=A & XM08-01=A"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+          "line": 797,
+          "anchor": "“这次没观众。”她说，“还认不认？”"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG023",
+      "route": "罗小满",
+      "routeKey": "XM",
+      "chapter": "第十章·XM-E1",
+      "title": "隔着练习本的吻",
+      "shot": "电话视频为主要构图；小满在成都宿舍拿练习本挡半脸，文文在毕节理发店外笑；明确异地，不能画两人在同一房间。",
+      "condition": "仅XM-E1；XM07-01=A且XM08-01=A。",
+      "sourceConditions": [
+        "XM07-01=A & XM08-01=A"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+          "line": 1037,
+          "anchor": "她看了我一眼，突然拿练习本挡住半张脸。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG024",
+      "route": "罗小满",
+      "routeKey": "XM",
+      "chapter": "第十章·XM-E2",
+      "title": "认过，也能分开",
+      "shot": "黑屏倒影近景；文文刚修齐的鬓角映在手机上，旧剪发照作为相册小图，远处相似电动车经过但骑车人不是小满。",
+      "condition": "仅XM-E2；XM07-01=B或XM08-01=B，三种组合共有。",
+      "sourceConditions": [
+        "XM07-01=B | XM08-01=B"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+          "line": 1091,
+          "anchor": "手机暗下去，我看见屏幕里的头发已经修齐。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG025",
+      "route": "周栀",
+      "routeKey": "ZZ",
+      "chapter": "第三章·第15—21天",
+      "title": "两支麦克风",
+      "shot": "306沙发双人中景；周栀笑弯肩膀、文文刚唱破音，旧歌单与停在11:47的钟可辨，暂时卸下招待姿态。",
+      "condition": "周栀线必经；ZZ03-01任意。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+          "line": 93,
+          "anchor": "她把麦克风扣在腿上，笑得肩膀发颤"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG026",
+      "route": "周栀",
+      "routeKey": "ZZ",
+      "chapter": "第四章·第22天",
+      "title": "同样的一下袖口",
+      "shot": "走廊纵深镜头；周栀替乔哥压平袖口，文文握伞站在另一侧，前景伞柄被换手，表现私人误认。",
+      "condition": "周栀线必经；不额外添加亲吻或性交易。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+          "line": 157,
+          "anchor": "她随后出来递手机套，看见便替他压下去，也捏了那一下。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG027",
+      "route": "周栀",
+      "routeKey": "ZZ",
+      "chapter": "第四章·第24天",
+      "title": "隔在两人之间的单子",
+      "shot": "前台三角构图；未付款单据横在文文与周栀之间，周栀停止营业笑，前台拿夹板等待。",
+      "condition": "周栀线必经；ZZ04-01前，不能画成已经付钱。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+          "line": 189,
+          "anchor": "那张单子挡在我们中间，前台还在等我确认。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG028",
+      "route": "周栀",
+      "routeKey": "ZZ",
+      "chapter": "第四章·第24天",
+      "title": "这次是想碰你",
+      "shot": "关闭的铺面旁双人近景；周栀正面抓住袖口，墙边靠折伞，两人停在吻前确认，路边日常光。",
+      "condition": "周栀线必经；ZZ04-01任意后的共同段。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+          "line": 255,
+          "anchor": "“现在这个，是想碰你。”"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG029",
+      "route": "周栀",
+      "routeKey": "ZZ",
+      "chapter": "第六章·第30天",
+      "title": "男朋友不是客人",
+      "shot": "回声桌边中景；周栀把点单退还前台，文文伸出的手停住，熟客笑声中断；突出拒接订单。",
+      "condition": "仅ZZ06-01=B；A已离开现场，不显示。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+          "line": 491,
+          "anchor": "“这张单我不接。你要找的是我，就别这样叫。”"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG030",
+      "route": "周栀",
+      "routeKey": "ZZ",
+      "chapter": "第六章·第31天清晨",
+      "title": "卷帘门落下时",
+      "shot": "停业回声台阶双人远近结合；周栀握半块烧饼，哭笑未停，另一手压住被风吹起的小费；文文安静坐旁。",
+      "condition": "周栀线必经；ZZ06-01两支汇合后，A/B均可，不加牵手。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+          "line": 573,
+          "anchor": "她哭了一会儿，骂那几个熟客最后同一首歌点了三遍"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG031",
+      "route": "周栀",
+      "routeKey": "ZZ",
+      "chapter": "第七章·第35—45天",
+      "title": "把不走的钟留在原处",
+      "shot": "搬空的306宽景；周栀抬头看11:47旧钟，文文在箱旁，茶几水印与残镜仍在，拒把旧钟带去新生活。",
+      "condition": "周栀线必经；ZZ07-01后的共同段，未进入A/B亲密差异。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+          "line": 659,
+          "anchor": "她说老板叫大家能用的拿走，我问她要不要。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG032",
+      "route": "周栀",
+      "routeKey": "ZZ",
+      "chapter": "第八章·第46天",
+      "title": "回声关了，她还上班",
+      "shot": "新场子门口夜色中景；周栀递还折伞，身后新招牌与摆酒动线，文文尚未接话，职业选择直面镜头。",
+      "condition": "周栀线必经；服装应区别回声同日造型。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+          "line": 733,
+          "anchor": "她换了裙子，头发重新弄过，耳饰是306里找回来的那只。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG033",
+      "route": "周栀",
+      "routeKey": "ZZ",
+      "chapter": "第八章·第49天清晨",
+      "title": "没插下去的吸管",
+      "shot": "黎明网吧外两人坐台阶；未开封豆浆与手机上未发送的辞职信息为道具，两人承认对赴贵阳的含糊期待。",
+      "condition": "周栀线必经；ZZ06-01任意，画面不表达已经和好。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+          "line": 825,
+          "anchor": "早饭摊还没忙起来，她拿着没开封的豆浆，吸管一直没插进去。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG034",
+      "route": "周栀",
+      "routeKey": "ZZ",
+      "chapter": "第八章·第60天",
+      "title": "留住人，交出杯子",
+      "shot": "候车处两人中景；蓝沿白杯的包纸从周栀手中转到文文手中，拥吻后的亲近保留，阿英在远处等。",
+      "condition": "仅ZZ06-01=A且ZZ08-01=A，通向ZZ-E1。",
+      "sourceConditions": [
+        "ZZ06-01=A & ZZ08-01=A"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+          "line": 899,
+          "anchor": "她把杯子交给我，让我别放柜台边上，随后自己拖起箱子去检票。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG035",
+      "route": "周栀",
+      "routeKey": "ZZ",
+      "chapter": "第十章·ZZ-E1",
+      "title": "清晨电话里的人",
+      "shot": "两个地点的插画式对照；文文在毕节租屋吃热饼、周栀在贵阳住处困倦通话，普通衣着，生活各自继续。",
+      "condition": "仅ZZ-E1；ZZ06-01=A且ZZ08-01=A。异地并置不可假装同处。",
+      "sourceConditions": [
+        "ZZ06-01=A & ZZ08-01=A"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+          "line": 1199,
+          "anchor": "我咬下一口饼，她在那头打了个哈欠。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG036",
+      "route": "周栀",
+      "routeKey": "ZZ",
+      "chapter": "第十章·ZZ-E2",
+      "title": "自己捋平袖口",
+      "shot": "回声玻璃倒影中景；文文独自捋平袖口，纸袋已收好，浅色招牌痕留在墙上，清晨没有周栀实体。",
+      "condition": "仅ZZ-E2；ZZ06-01=B或ZZ08-01=B，三种组合共有。",
+      "sourceConditions": [
+        "ZZ06-01=B | ZZ08-01=B"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+          "line": 1247,
+          "anchor": "没有她伸手帮我压平，我便自己往下捋了一下。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG037",
+      "route": "孟遥",
+      "routeKey": "MY",
+      "chapter": "第三章·第15天",
+      "title": "她没有认下没说过的话",
+      "shot": "培训机构走廊；孟遥抱考勤表面对负责人和家长，纸边压出折痕，文文在楼梯拐角，教师的职业压力先于旧情。",
+      "condition": "孟遥线必经。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/孟遥-旧题.md",
+          "line": 25,
+          "anchor": "“没说过的话，我认了，下次退别的班还来问我吗？”"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG038",
+      "route": "孟遥",
+      "routeKey": "MY",
+      "chapter": "第三章·第21天",
+      "title": "四十八和六十",
+      "shot": "整理书箱的桌面双人过肩；孟遥翻开旧练习册，文文指腹压折角，两个成绩与红叉按原文后期排字。",
+      "condition": "孟遥线必经；MY03-01前。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/孟遥-旧题.md",
+          "line": 69,
+          "anchor": "封面有我的名字。四十八分，旁边还写着六十。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG039",
+      "route": "孟遥",
+      "routeKey": "MY",
+      "chapter": "第四章·第23天",
+      "title": "一起把伞撑正",
+      "shot": "雨檐下半身双人；孟遥从文文臂下帮扶伞骨，湿肩与未收住的笑，停在贴近而未接吻的瞬间。",
+      "condition": "孟遥线必经；MY04-01任意。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/孟遥-旧题.md",
+          "line": 193,
+          "anchor": "伞撑开时，她整个人几乎贴进我怀里。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG040",
+      "route": "孟遥",
+      "routeKey": "MY",
+      "chapter": "第五章·第27天",
+      "title": "试讲播完以后",
+      "shot": "空教室两张贴近的椅子；孟遥与文文吻后额头相抵，讲台手机架和播放结束界面清楚，保留尚未复合的语境。",
+      "condition": "孟遥线必经；MY05-01前。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/孟遥-旧题.md",
+          "line": 255,
+          "anchor": "我们分开时，试讲的视频已经播完。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG041",
+      "route": "孟遥",
+      "routeKey": "MY",
+      "chapter": "第五章·第27天",
+      "title": "楼下另一个约定",
+      "shot": "机构门口三人中景；陈晟手持标过的路线图让门，孟遥接文件袋，文文插兜站旁，三人都保有普通人的分寸。",
+      "condition": "孟遥线必经；陈晟有正式配角设计后制作，不妖魔化。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/孟遥-旧题.md",
+          "line": 321,
+          "anchor": "他穿着一件洗得有点发白的深色外套，鞋上沾了水，手里拿一只文件袋。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG042",
+      "route": "孟遥",
+      "routeKey": "MY",
+      "chapter": "第六章·第34天",
+      "title": "她自己的那箱书",
+      "shot": "旧书店门口三人构图；孟遥从书箱取回书，陈晟提另一袋，文文在旁扶箱，价格与选择落到具体物品。",
+      "condition": "孟遥线必经。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/孟遥-旧题.md",
+          "line": 403,
+          "anchor": "老板给的价太低，孟遥拿回几本，说这几本先不卖。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG043",
+      "route": "孟遥",
+      "routeKey": "MY",
+      "chapter": "第七章·第38天",
+      "title": "把账目转向她",
+      "shot": "楼下长凳双人平视；文文把真实收支与问号给孟遥看，她认真阅读但不接管手机，租房资料放在她身边。",
+      "condition": "仅MY07-01=A；不能把维修店画成已录用。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/孟遥-旧题.md",
+          "line": 471,
+          "anchor": "我把手机转给她，承认维修店只是留了电话，没有新工作。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG044",
+      "route": "孟遥",
+      "routeKey": "MY",
+      "chapter": "第七章·第44天后",
+      "title": "也让她烦一会儿",
+      "shot": "河边半小时的黄昏；孟遥靠肩、手持烧饼，文文静坐听取消课程与柜子的烦恼，彼此都有未解决生活。",
+      "condition": "仅MY07-01=A。",
+      "sourceConditions": [
+        "MY07-01=A"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/孟遥-旧题.md",
+          "line": 506,
+          "anchor": "她说到最后，忽然靠过来，把头搁在我肩上。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG045",
+      "route": "孟遥",
+      "routeKey": "MY",
+      "chapter": "第八章·第56天",
+      "title": "只有一把凳子的房间",
+      "shot": "手机住处照片和现实装书同框；窄屋仅一桌一凳，孟遥持面单，文文手上缠胶带，不画他已搬入。",
+      "condition": "孟遥线必经；MY08-01前。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/孟遥-旧题.md",
+          "line": 541,
+          "anchor": "床和桌子之间有一条窄过道，书只能先码在地上。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG046",
+      "route": "孟遥",
+      "routeKey": "MY",
+      "chapter": "第九章·第75天",
+      "title": "不必证明曾经住过",
+      "shot": "贵阳机构楼下矮椅双人；孟遥短暂抱住带材料袋的文文，烧饼在手边，半小时后的课仍要上。",
+      "condition": "仅MY07-01=A；此时MY09-01尚未选择，不能提前标成复合。",
+      "sourceConditions": [
+        "MY07-01=A"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/孟遥-旧题.md",
+          "line": 684,
+          "anchor": "你不需要再带我进去，证明你以前能过日子。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG047",
+      "route": "孟遥",
+      "routeKey": "MY",
+      "chapter": "第十章·MY-E1",
+      "title": "只确认第九十八天下午",
+      "shot": "文文租屋桌面近景；通话仍在，日历记下第98天与返程时间，练习册和待核材料并排进抽屉。",
+      "condition": "仅MY-E1；MY07-01=A且MY09-01=A。画约定，不画尚未发生的第98天相见。",
+      "sourceConditions": [
+        "MY07-01=A & MY09-01=A"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/孟遥-旧题.md",
+          "line": 840,
+          "anchor": "我答应，把返程时间写到日历里。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG048",
+      "route": "孟遥",
+      "routeKey": "MY",
+      "chapter": "第十章·MY-E2",
+      "title": "没有发出去的天空",
+      "shot": "窗边过肩近景；文文手机停在那一小块天的照片，桌上合起旧练习册与凉水杯，孟遥不在场。",
+      "condition": "仅MY-E2；MY07-01=B或MY09-01=B，三种组合共有。",
+      "sourceConditions": [
+        "MY07-01=B | MY09-01=B"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/孟遥-旧题.md",
+          "line": 896,
+          "anchor": "相机打开，手指停在发送上，最后只把照片存进相册。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG049",
+      "route": "叶岚",
+      "routeKey": "YL",
+      "chapter": "第三章·第15天",
+      "title": "没有声音的耳罩",
+      "shot": "公司玻璃门前近景；叶岚翻过工牌、把未开启耳罩贴到文文耳边，指尖停在颈边，线上身份与现实靠近。",
+      "condition": "叶岚线必经。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/叶岚-下线.md",
+          "line": 63,
+          "anchor": "她说完，伸手摘掉耳机，把右边耳罩贴到我耳边。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG050",
+      "route": "叶岚",
+      "routeKey": "YL",
+      "chapter": "第四章·第22天",
+      "title": "忘了按键的人",
+      "shot": "并排电脑侧景；叶岚按住文文的手背和鼠标，两人半摘耳机，通用原创游戏中的失败画面只作背景。",
+      "condition": "叶岚线必经；不直接复制商业游戏画面。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/叶岚-下线.md",
+          "line": 137,
+          "anchor": "她却按住鼠标，不让我掩饰。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG051",
+      "route": "叶岚",
+      "routeKey": "YL",
+      "chapter": "第四章·第24天",
+      "title": "酸汤打断了玩笑",
+      "shot": "桌边近景；房贷来电亮着，倾倒的酸萝卜碗、文文抹布与叶岚湿袖同时入画，热闹骤然停住。",
+      "condition": "叶岚线必经；YL04-01前。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/叶岚-下线.md",
+          "line": 157,
+          "anchor": "酸汤顺着桌沿往下流。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG052",
+      "route": "叶岚",
+      "routeKey": "YL",
+      "chapter": "第五章·第27天",
+      "title": "桥下的第一个吻",
+      "shot": "雨后桥下双人近景；叶岚抓修好的衣领、文文掌心隔开冰冷栏杆，夹子略歪，灯外短暂亲密。",
+      "condition": "叶岚线必经；此时文文尚不知道她已婚。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/叶岚-下线.md",
+          "line": 257,
+          "anchor": "我抱住她，把手垫在她腰后冰冷的护栏上。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG053",
+      "route": "叶岚",
+      "routeKey": "YL",
+      "chapter": "第五章·第27天",
+      "title": "队友和丈夫",
+      "shot": "蛋糕店外三人构图；叶岚握折伞，赵衡在普通车边，文文手里的半块蛋糕盒被压凹，揭露事实。",
+      "condition": "叶岚线必经；赵衡不是反派姿态，丈夫配角设计须先确认。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/叶岚-下线.md",
+          "line": 277,
+          "anchor": "然后她说：“赵衡，我丈夫。”"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG054",
+      "route": "叶岚",
+      "routeKey": "YL",
+      "chapter": "第六章·第30天",
+      "title": "楼梯上的两种决定",
+      "shot": "回声楼梯暗处双手近景；叶岚与文文手指相触，饮料袋压在台阶上，楼上朋友的亮光与此处沉默分离。",
+      "condition": "仅YL06-01=A；B取消约会，不能显示牵手。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/叶岚-下线.md",
+          "line": 443,
+          "anchor": "她的手碰到我的，停了一会儿。我没有再收回去。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG055",
+      "route": "叶岚",
+      "routeKey": "YL",
+      "chapter": "第七章·第39天",
+      "title": "他手里的那瓶水",
+      "shot": "电子市场柜台三人中景；叶岚从赵衡手中拿水，袋中葱、修好的耳机和文文抱着的键盘构成日常婚姻事实。",
+      "condition": "叶岚线必经；不画夫妻已经决裂。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/叶岚-下线.md",
+          "line": 517,
+          "anchor": "她又从他手里把水拿走，喝了一口。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG056",
+      "route": "叶岚",
+      "routeKey": "YL",
+      "chapter": "第八章·第59天",
+      "title": "柜台挡住的牵手",
+      "shot": "柜台内侧低机位；凹角铁盒、修好的耳机与被遮住的手同框，温暖而不公开，不改变婚姻状态。",
+      "condition": "仅YL06-01=A；B退回耳机。",
+      "sourceConditions": [
+        "YL06-01=A"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/叶岚-下线.md",
+          "line": 708,
+          "anchor": "离开前，她握了一下我的手，柜台挡着，门外的人看不见。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG057",
+      "route": "叶岚",
+      "routeKey": "YL",
+      "chapter": "第八章·第60天",
+      "title": "隔着一条马路",
+      "shot": "清晨路口远景；文文拎包子站对街，叶岚准备上车、赵衡帮放行李，双方没有挥手或公开道别。",
+      "condition": "叶岚线必经；YL06-01任意。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/叶岚-下线.md",
+          "line": 725,
+          "anchor": "她看到我，没有招手，只在车门关上前看了一眼。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG058",
+      "route": "叶岚",
+      "routeKey": "YL",
+      "chapter": "第九章·第75天",
+      "title": "必须收干净的东西",
+      "shot": "贵阳窄租屋中景；文文急收湿衬衫、备用牙刷和材料袋，叶岚站灶旁，未吃成的面留在画外边缘。",
+      "condition": "仅YL06-01=A；B只在公共饮食店会面，无牙刷和入屋情节。",
+      "sourceConditions": [
+        "YL06-01=A"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/叶岚-下线.md",
+          "line": 798,
+          "anchor": "湿布挤着房屋材料，纸角很快受潮"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG059",
+      "route": "叶岚",
+      "routeKey": "YL",
+      "chapter": "第十章·YL-E1",
+      "title": "还有下一次秘密电话",
+      "shot": "清晨路边矮凳；文文独坐回私密表情，旧耳机或洗漱袋只在后续道具核对后采用；画面保留等待，不能当公开圆满结局。",
+      "condition": "仅YL-E1；YL06-01=A且YL09-01=A。",
+      "sourceConditions": [
+        "YL06-01=A & YL09-01=A"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/叶岚-下线.md",
+          "line": 986,
+          "anchor": "我坐着把剩下的包子吃完，给她发了一个只有我们明白的小表情。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG060",
+      "route": "叶岚",
+      "routeKey": "YL",
+      "chapter": "第十章·YL-E2",
+      "title": "没有再打开灰色头像",
+      "shot": "上坡街道背影；文文收起已取消单独提醒的手机，网吧靠窗电脑在身后，菜市场人流继续向前。",
+      "condition": "仅YL-E2；YL06-01=B或YL09-01=B，三种组合共有。",
+      "sourceConditions": [
+        "YL06-01=B | YL09-01=B"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/叶岚-下线.md",
+          "line": 1038,
+          "anchor": "这一次，没有回头去开那个灰色头像。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG061",
+      "route": "飘",
+      "routeKey": "PI",
+      "chapter": "第三章·第15天",
+      "title": "划掉半页",
+      "shot": "杂货店门口桌面近景；飘用尺划掉受访者撤回的话，大姐沾豆汁的手在旁，保留纸毛边和停住的笔。",
+      "condition": "飘线必经；不将撤稿画成她擅自删稿。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+          "line": 25,
+          "anchor": "她拿尺子压住纸，划掉最后半页。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG062",
+      "route": "飘",
+      "routeKey": "PI",
+      "chapter": "第三章·第21天",
+      "title": "不要求朋友立刻高兴",
+      "shot": "网吧柜台三人中景；飘说清更想与文文相处，毛狼放下剪刀看裁歪海报，文文手停在包旁，无胜利者姿态。",
+      "condition": "飘线必经；毛狼自此停止追求，不画竞争纠缠。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+          "line": 127,
+          "anchor": "海报却裁歪了一截。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG063",
+      "route": "飘",
+      "routeKey": "PI",
+      "chapter": "第四章·第23天",
+      "title": "她自己说明过去",
+      "shot": "凉糕店双人平视；飘放下勺子直视文文，红糖水与门帘雨光相伴，日常衣着，不添加受害或拯救意象。",
+      "condition": "飘线必经；PI04-01前。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+          "line": 171,
+          "anchor": "“我以前在大城市做KTV陪酒。”"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG064",
+      "route": "飘",
+      "routeKey": "PI",
+      "chapter": "第五章·第27天",
+      "title": "抽掉作者介绍",
+      "shot": "柜台近景；飘用尺取开订钉，文文手停在键盘旁，原稿与擅改样稿并排，冲突落实到纸页。",
+      "condition": "飘线必经；错误介绍不可作为正式角色设定。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+          "line": 305,
+          "anchor": "她翻到封二，用指甲抠开订书钉，抽出那张作者介绍。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG065",
+      "route": "飘",
+      "routeKey": "PI",
+      "chapter": "第六章·第31天",
+      "title": "在修鞋摊亲口认错",
+      "shot": "修鞋店中景；文文持新旧两稿站在不挡客处，师傅边补鞋边核字，飘不代为出面，午后现实光。",
+      "condition": "仅PI06-01=A；B由飘独自跑店，本图不能共用。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+          "line": 471,
+          "anchor": "顾客来时我就停，等他忙完再读下一句。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG066",
+      "route": "飘",
+      "routeKey": "PI",
+      "chapter": "第七章·第39天",
+      "title": "纸页落了一地",
+      "shot": "小房间近景；飘与文文主动接吻，两摞纸散落，订书机与小钳子在旁，所有裸露处理以成年日常亲吻为限。",
+      "condition": "飘线必经；PI06-01任意，亲近不抹去先前行动。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+          "line": 637,
+          "anchor": "纸从两人中间滑下去，落了一地。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG067",
+      "route": "飘",
+      "routeKey": "PI",
+      "chapter": "第七章·第40天清晨",
+      "title": "晨光里的车票",
+      "shot": "窗前双人中景；飘靠近文文，墙上第60天车票信息清楚，册子仍在桌边；亲密之后出发计划继续。",
+      "condition": "飘线必经；不得把车票改成恋爱后取消。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+          "line": 671,
+          "anchor": "第60天，字被晨光照得很清楚。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG068",
+      "route": "飘",
+      "routeKey": "PI",
+      "chapter": "第八章·第54天",
+      "title": "落脚处突然变动",
+      "shot": "散着衣服和住处备选纸的地面双人构图；文文与飘分坐两端，膝盖没有相碰，手机待拨，争执尚未修复。",
+      "condition": "飘线必经；PI08-01前。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+          "line": 742,
+          "anchor": "我蹲在地上，手里那张纸被捏出了折。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG069",
+      "route": "飘",
+      "routeKey": "PI",
+      "chapter": "第八章·第60天",
+      "title": "我想继续，但仍要出发",
+      "shot": "车站屋檐下双人近景；飘先接回自己的包再抱文文，检票口留在她视线方向，原稿由她自己带走。",
+      "condition": "仅PI06-01=A且PI08-01=A，通向PI-E1。",
+      "sourceConditions": [
+        "PI06-01=A"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+          "line": 795,
+          "anchor": "她把包从我手里接过去，放在脚边，腾出两只手抱住我。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG070",
+      "route": "飘",
+      "routeKey": "PI",
+      "chapter": "第九章·第75天",
+      "title": "电话陪等下一班车",
+      "shot": "贵阳公交站中景；文文提房屋材料握手机，拥挤人群与车窗雨光，飘只由通话存在，不画实际到场。",
+      "condition": "仅PI06-01=A且PI08-01=A；两人当天未见面。",
+      "sourceConditions": [
+        "PI06-01=A & PI08-01=A"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+          "line": 919,
+          "anchor": "她说那就先别急着挂，她陪我等下一辆车。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG071",
+      "route": "飘",
+      "routeKey": "PI",
+      "chapter": "第十章·PI-E1",
+      "title": "不用把话写漂亮",
+      "shot": "老街小凳俯视；垫稳凳脚的硬纸、留黑痕的册子和通话中的手机，文文刚哭过，最后两句以后期排字呈现。",
+      "condition": "仅PI-E1；PI06-01=A且PI08-01=A。不接毛狼婚姻后日谈。",
+      "sourceConditions": [
+        "PI06-01=A & PI08-01=A"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+          "line": 1047,
+          "anchor": "我在那页最后添了两句：我想你。我还想同你过下去。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG072",
+      "route": "飘",
+      "routeKey": "PI",
+      "chapter": "第十章·PI-E2",
+      "title": "收进抽屉的最后一页",
+      "shot": "租屋／柜台收纳近景按实施选定；文文把属于自己的成品册子合上收好，黑痕未删，手机没有再次发出求见消息。",
+      "condition": "仅PI-E2；PI06-01=B或PI08-01=B。原文未明确此句所在房间，制作前锁定地点。",
+      "sourceConditions": [
+        "PI06-01=B | PI08-01=B"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+          "line": 1109,
+          "anchor": "下午，我睡醒后把册子收进抽屉。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG073",
+      "route": "黄球球",
+      "routeKey": "HQ",
+      "chapter": "第三章·第18天",
+      "title": "杯底写两个文",
+      "shot": "矮桌近景；球形黄球球递铅笔，文文在杯底写名，两只杯子并排，保持球形小手的尺度。",
+      "condition": "黄球球线必经；须满足共通相识前置。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+          "line": 93,
+          "anchor": "我握着杯把，写下两个文，吹了吹笔迹才放稳。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG074",
+      "route": "黄球球",
+      "routeKey": "HQ",
+      "chapter": "第四章·第22—24天",
+      "title": "门外的两步",
+      "shot": "无人后院低视角宽景；球形黄球球自己跨门槛，文文退在台阶边，墙角小白花与不平地面可见。",
+      "condition": "仅HQ04-01=A；B留室内听街声。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+          "line": 131,
+          "anchor": "她出来时，院墙上的光已经薄了。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG075",
+      "route": "黄球球",
+      "routeKey": "HQ",
+      "chapter": "第四章·第24天",
+      "title": "糊掉一半的小白花",
+      "shot": "小桌双人过肩；球形黄球球和文文一起放大糊花照，小手与手机比例真实，笑意来自手忙脚乱。",
+      "condition": "黄球球线必经；HQ04-01任意后的共同段。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+          "line": 161,
+          "anchor": "照片糊了一半，她拿着我的手机看，想放大，又被自己的小手挡住。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG076",
+      "route": "黄球球",
+      "routeKey": "HQ",
+      "chapter": "第六章·第30天",
+      "title": "热饭进不了那扇门",
+      "shot": "封闭木门的外侧中景；文文提两份热饭站在门前，窗内只留室内光，不展示门后未见动作，九点多的夜色。",
+      "condition": "黄球球线必经；HQ06-01任意，失约固定发生。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+          "line": 363,
+          "anchor": "“我在。不等于我没事。”"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG077",
+      "route": "黄球球",
+      "routeKey": "HQ",
+      "chapter": "第七章·第45天",
+      "title": "五点的那只手",
+      "shot": "饭桌手部近景；球形黄球球的小手搭上文文手背，分别装好的饭与五点钟面呼应守约。",
+      "condition": "仅HQ07-01=A；B工作结束后到门外且未获开门。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+          "line": 449,
+          "anchor": "我把手挪过去，她的小手搭上来，停了一会儿。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG078",
+      "route": "黄球球",
+      "routeKey": "HQ",
+      "chapter": "第八章·第55天17:00",
+      "title": "她自己的另一种样子",
+      "shot": "从文文视角看开门的人形黄球球；右眼白色遮片、黑颈饰、浅色圆脸玩偶棒，成人比例，下午五点光。",
+      "condition": "黄球球线必经；HQ07-01任意。该形态不是好感奖励，外观以最终确认角色稿为准。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+          "line": 503,
+          "anchor": "棕色齐刘海中长发，浅米灰的拉链外套，白色印花上衣。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG079",
+      "route": "黄球球",
+      "routeKey": "HQ",
+      "chapter": "第八章·第57天",
+      "title": "第二次由她靠近",
+      "shot": "沙发双人近景；黄球球牵文文的手到肩侧，放下的湿纸巾与沾饭外套在旁，主动亲吻，避免把遮片当治疗剧情。",
+      "condition": "黄球球线必经；HQ07-01任意。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+          "line": 537,
+          "anchor": "第二次是她靠过来。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG080",
+      "route": "黄球球",
+      "routeKey": "HQ",
+      "chapter": "第八章·第60天",
+      "title": "早餐留在门外",
+      "shot": "门内外分景；人形黄球球扶门框退回，文文先稳住热碗，低凳上的两只杯子留在院内，限制由动作呈现。",
+      "condition": "黄球球线必经；HQ08-01前。此后仍人形，不加病变、流血或消失。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+          "line": 563,
+          "anchor": "她扶住门框，退回阴影里。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG081",
+      "route": "黄球球",
+      "routeKey": "HQ",
+      "chapter": "第八章·第60天",
+      "title": "把承诺放在掌心",
+      "shot": "室内双人近景；人形黄球球让文文掌心贴脸，门外碗未收，神情仍有害怕，承认限制后缓慢靠近。",
+      "condition": "仅HQ07-01=A且HQ08-01=A，通向HQ-E1。",
+      "sourceConditions": [
+        "HQ07-01=A"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+          "line": 622,
+          "anchor": "她把手放过来，让我贴在她脸边。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG082",
+      "route": "黄球球",
+      "routeKey": "HQ",
+      "chapter": "第九章·第75天",
+      "title": "那把租屋钥匙仍能用",
+      "shot": "小桌与行李中景；黄球球指钥匙圈，文文旧包露出换洗衣服，沙发在后方；她愿意听，不默认提供同居。",
+      "condition": "黄球球线必经；HQ09-01任意；A/B共有，画面不加专属拥抱。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+          "line": 766,
+          "anchor": "她指了指还挂在钥匙圈上的出租屋钥匙"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG083",
+      "route": "黄球球",
+      "routeKey": "HQ",
+      "chapter": "第十章·HQ-E1",
+      "title": "圈到六点半的约定",
+      "shot": "小桌两人并肩俯视；杯底名字重写、铅笔圈第93天17:00—18:30，人形黄球球与文文一同选饭，收音机在她伸手处。",
+      "condition": "仅HQ-E1；HQ07-01=A且HQ08-01=A。",
+      "sourceConditions": [
+        "HQ07-01=A & HQ08-01=A"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+          "line": 861,
+          "anchor": "她又添了到六点半，说那天后面想自己待着。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG084",
+      "route": "黄球球",
+      "routeKey": "HQ",
+      "chapter": "第十章·HQ-E2",
+      "title": "五点提醒取消了",
+      "shot": "网吧前门过肩；文文取消旧五点提醒，杯子放进柜子，后院普通广播声音可留演出；不画黄球球消失或回球形。",
+      "condition": "仅HQ-E2；HQ07-01=B或HQ08-01=B，三种组合共有。",
+      "sourceConditions": [
+        "HQ07-01=B | HQ08-01=B"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+          "line": 911,
+          "anchor": "我看了一会儿，把它取消，留下今晚真正要用的那一个。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG085",
+      "route": "朋友与职业",
+      "routeKey": "FR",
+      "chapter": "第三章·第15天夜里",
+      "title": "冷水瓶压住夹痛的手",
+      "shot": "凌晨柜台双人中景；师匠递冰水瓶，文文护指甲边，监控停在二十元收款证据，照顾与劳动风险同框。",
+      "condition": "朋友线必经；不画伤口出血，原文未破皮。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/朋友与职业-夜班.md",
+          "line": 45,
+          "anchor": "他把冰柜里的水递过来，叫我隔着衣服捂一会儿。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG086",
+      "route": "朋友与职业",
+      "routeKey": "FR",
+      "chapter": "第三章·第21天",
+      "title": "至少让我自己答应",
+      "shot": "旧网吧柜台三人加买家；文文抱饮料箱拒绝默认安排，毛狼握演出单，师匠停筷、卷尺留桌面。",
+      "condition": "朋友线必经。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/朋友与职业-夜班.md",
+          "line": 105,
+          "anchor": "“至少让我自己答应。”"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG087",
+      "route": "朋友与职业",
+      "routeKey": "FR",
+      "chapter": "第四章·第22—24天",
+      "title": "音箱后的尾款",
+      "shot": "商场舞台侧后宽景；毛狼西装袖长、与负责人争结算，文文立在观众椅旁，活动灯光已经收场。",
+      "condition": "仅FR04-01=A；B留网吧盘点，仅收到视频，不能画文文到场。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/朋友与职业-夜班.md",
+          "line": 143,
+          "anchor": "两人在音箱后说了很久。我站在那张空椅子旁，第一次不知道该不该过去。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG088",
+      "route": "朋友与职业",
+      "routeKey": "FR",
+      "chapter": "第五章·第28天",
+      "title": "没有碰杯，只把线卷好",
+      "shot": "排练室外地面双人；文文蹲解死结，毛狼按住线端，湿鞋、音箱与水泥地，不用笑脸宣告和好。",
+      "condition": "朋友线必经；FR05-01任意。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/朋友与职业-夜班.md",
+          "line": 285,
+          "anchor": "解到最后，他过来按住另一端，让我好卷。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG089",
+      "route": "朋友与职业",
+      "routeKey": "FR",
+      "chapter": "第六章·第34天",
+      "title": "工资是确定的一天",
+      "shot": "墙前双人中景；师匠写交接和结薪两行第60天，文文扶纸，旧班表仍在，情分与工资有明确边界。",
+      "condition": "朋友线必经；FR06-01两支均到此，不能把讨薪权换成友情奖励。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/朋友与职业-夜班.md",
+          "line": 397,
+          "anchor": "他用笔尖点了点结薪那一行。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG090",
+      "route": "朋友与职业",
+      "routeKey": "FR",
+      "chapter": "第七章·第36天",
+      "title": "卖掉旧游戏机",
+      "shot": "柜台近景；师匠反复擦灰印，已卖出的电源线离开画面，文文拿结薪纸站旁，不把延期工资画成解决办法。",
+      "condition": "朋友线必经。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/朋友与职业-夜班.md",
+          "line": 439,
+          "anchor": "他把游戏机留下的灰印擦了两遍。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG091",
+      "route": "朋友与职业",
+      "routeKey": "FR",
+      "chapter": "第七章·第52天",
+      "title": "删掉朋友的笑料",
+      "shot": "电脑侧景；毛狼删掉失房笑料、接通要求重写的电话，文文手离鼠标，两人并排面对空页。",
+      "condition": "朋友线必经；不提前画成获得掌声。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/朋友与职业-夜班.md",
+          "line": 519,
+          "anchor": "毛狼把那页选中，按了删除。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG092",
+      "route": "朋友与职业",
+      "routeKey": "FR",
+      "chapter": "第八章·第60天",
+      "title": "墙上的半只猫",
+      "shot": "拆柜台横构图；师匠存好原图后亲手拆线，文文扶旧板，墙上儿子旧画被新柜台挡住，无离别合照。",
+      "condition": "朋友线必经；两种结局都已结清工资。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/朋友与职业-夜班.md",
+          "line": 559,
+          "anchor": "对方把新柜台靠过去，正好压住猫的半张脸。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG093",
+      "route": "朋友与职业",
+      "routeKey": "FR",
+      "chapter": "第十章·FR-E1",
+      "title": "旧店之外的早餐",
+      "shot": "新奶茶店外双人平视；师匠与文文各一份早饭，猫画照片收好，毛狼在外地不画第三份早餐。",
+      "condition": "仅FR-E1；FR06-01=A且FR08-01=A。",
+      "sourceConditions": [
+        "FR06-01=A & FR08-01=A"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/朋友与职业-夜班.md",
+          "line": 734,
+          "anchor": "面前没有柜台，也没有需要谁替谁接的一班。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG094",
+      "route": "朋友与职业",
+      "routeKey": "FR",
+      "chapter": "第十章·FR-E2",
+      "title": "挺好过",
+      "shot": "新网吧柜台中景；文文拿交班笔对同事回答，旧饭盒仍使用，手机没有新消息，告别后继续工作。",
+      "condition": "仅FR-E2；FR06-01=B或FR08-01=B，三种组合共有。",
+      "sourceConditions": [
+        "FR06-01=B | FR08-01=B"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/朋友与职业-夜班.md",
+          "line": 792,
+          "anchor": "我拿着笔，过了一会儿才说：“嗯，挺好过。”"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG095",
+      "route": "毛狼与飘后日谈",
+      "routeKey": "PM",
+      "chapter": "第一年·后半程前",
+      "title": "先把饭吃完再骂",
+      "shot": "文文后来碰面的饭桌三人构图；飘把毛狼饭碗推回，毛狼讲取消演出只拿回部分钱，普通晚饭光。",
+      "condition": "ENDING不为PI-E1且不为FR-E2；PI-E2须过约半年后私人往来入口。",
+      "sourceConditions": [
+        "ENDING!=FR-E2"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/后日谈-他们的日子.md",
+          "line": 77,
+          "anchor": "她把他推远的饭碗推回来，说先吃，钱的事吃完再骂。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG096",
+      "route": "毛狼与飘后日谈",
+      "routeKey": "PM",
+      "chapter": "第一年·后半程",
+      "title": "两个人都看过的合照",
+      "shot": "以文文手机中的合照为主体，群聊姓名及确认恋爱文字后期排入；照片的具体姿势属于待确认构图，不推导为婚礼。",
+      "condition": "ENDING不为PI-E1且不为FR-E2；仅共同经历中的合照段。",
+      "sourceConditions": [
+        "ENDING!=FR-E2"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/后日谈-他们的日子.md",
+          "line": 81,
+          "anchor": "毛狼才敢发一张两个人都看过的合照。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG097",
+      "route": "毛狼与飘后日谈",
+      "routeKey": "PM",
+      "chapter": "第二年",
+      "title": "撤掉擅自报上的名字",
+      "shot": "群聊和人数表道具特写；先报的两人格被更正、飘拒绝的信息保留，文文手在屏幕外侧，不画他在争执现场。",
+      "condition": "所有接后日谈的13个结局；PI-E1排除，FR-E2可看群消息。",
+      "sourceConditions": [],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/后日谈-他们的日子.md",
+          "line": 94,
+          "anchor": "后来毛狼自己发了一条，说她没同意，是他先报的，把她那格撤掉。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG098",
+      "route": "毛狼与飘后日谈",
+      "routeKey": "PM",
+      "chapter": "第二年·几周后",
+      "title": "先问她，再填名字",
+      "shot": "后一次活动名单与两人分别回复的手机画面；毛狼先问，飘自选时间，突出与上次撤名不同的实际改变。",
+      "condition": "ENDING不为PI-E1且不为FR-E2；FR-E2有同义独立文本，若跨入口共用须另绑其源锚点。",
+      "sourceConditions": [
+        "ENDING!=FR-E2"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/后日谈-他们的日子.md",
+          "line": 105,
+          "anchor": "直到她自己答应，人数表才填上名字。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG099",
+      "route": "毛狼与飘后日谈",
+      "routeKey": "PM",
+      "chapter": "两年后",
+      "title": "婚后的饭还热着",
+      "shot": "小店三人饭桌宽景；飘穿日常衣服带新册子，毛狼挪杯后翻另一本，文文伸筷，茶壶与热饭承接真实日常。",
+      "condition": "所有后日谈入口中排除PI-E1、FR-E2；PI-E2先保留原分手原因及半年空档。没有婚礼仪式、礼裙或庆典。",
+      "sourceConditions": [
+        "ENDING!=FR-E2"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/后日谈-他们的日子.md",
+          "line": 121,
+          "anchor": "毛狼把婚后的第一顿朋友饭约在小店。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    },
+    {
+      "id": "CG100",
+      "route": "毛狼与飘后日谈",
+      "routeKey": "PM",
+      "chapter": "两年后·FR-E2",
+      "title": "只在群里收到婚讯",
+      "shot": "文文独处时看手机婚讯与双方合照，祝福、谢谢、收到由后期排字；不画文文赴婚宴或友情已恢复。",
+      "condition": "仅FR-E2；FR06-01=B或FR08-01=B。",
+      "sourceConditions": [
+        "ENDING=FR-E2"
+      ],
+      "sources": [
+        {
+          "path": "项目文档/故事/v1.1润色稿/后日谈-他们的日子.md",
+          "line": 147,
+          "anchor": "两年后，群里收到了毛狼与飘的婚讯，配文写着“我们结婚了”。"
+        }
+      ],
+      "selected": false,
+      "status": "待用户选择；未生成",
+      "runtimeBinding": null
+    }
+  ]
+}

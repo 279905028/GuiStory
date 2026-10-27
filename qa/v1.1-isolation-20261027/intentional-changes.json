@@ -1,0 +1,26 @@
+{
+  "modifiedInheritedFiles": [
+    "AGENTS.md",
+    "README.md",
+    "TODO与多窗口提示词-v0.4.md",
+    "deployment/cloudflare-ambd/cloudflare.config.ts",
+    "deployment/cloudflare-ten-chapter/cloudflare.config.ts",
+    "deployment/cloudflare/cloudflare.config.ts",
+    "deployment/miaoda-ten-chapter/upload-assets.cjs",
+    "qa/README.md",
+    "qa/art-new-characters-capture.cjs",
+    "任务拆分/总览.md",
+    "总览.md",
+    "项目文档/README.md",
+    "项目文档/故事/v1.1润色稿/README.md"
+  ],
+  "omittedBindingFiles": [
+    "deployment/miaoda-ten-chapter/app/.spark/meta.json"
+  ],
+  "newFiles": [
+    "TODO-v1.1.md",
+    "版本说明-v1.1.md",
+    "deployment/README.md"
+  ],
+  "scope": "目录隔离与开发导航，不接入剧情、不改存档、不发布"
+}

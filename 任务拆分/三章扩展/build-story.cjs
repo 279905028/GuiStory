@@ -235,6 +235,10 @@ for (const character of Object.values(story.characters)) {
   for (const key of Object.keys(character.expressions)) character.expressions[key] = webpAsset(character.expressions[key]);
 }
 
+// 显式重建旧三章时也使用当前采用形象，历史源和快照仍保留原样。
+const currentArt = require('../全十章/build/art-revision.cjs').loadArtRevision();
+for (const key of ['characters', 'cgs', 'covers']) if (story[key]) story[key] = currentArt.replacePaths(story[key]);
+
 const source = '// v0.4 背景补全版：由 任务拆分/三章扩展/build-story.cjs 构建。\nwindow.RAIN_STORY = ' +
   JSON.stringify(story, null, 2) + ';\n';
 fs.writeFileSync(path.join(root, 'story.js'), source);

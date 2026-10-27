@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-26",
+  "scope": "文文B方案本地形象接入专项；独立临时Chrome，不访问玩家浏览器或存储",
+  "checks": [
+    {
+      "name": "十章正文、节点、状态与其余人物不变",
+      "passed": true,
+      "detail": {
+        "nodes": 2612
+      }
+    },
+    {
+      "name": "原采用图与来源保护",
+      "passed": true,
+      "detail": {
+        "files": 186
+      }
+    },
+    {
+      "name": "33项新资源与旧路径替代无断链",
+      "passed": true,
+      "detail": {
+        "assets": 33,
+        "replacedPaths": 76
+      }
+    },
+    {
+      "name": "正式138项注册与文文整组",
+      "passed": true,
+      "detail": {
+        "registered": 138,
+        "replaced": 9,
+        "expressions": 6
+      }
+    },
+    {
+      "name": "旧三章来源可应用同一形象覆盖",
+      "passed": true,
+      "detail": {
+        "legacySourceUnchanged": true
+      }
+    },
+    {
+      "name": "正式构建可复现",
+      "passed": true,
+      "detail": {
+        "readOnly": true
+      }
+    },
+    {
+      "name": "真实游戏封面 desktop",
+      "passed": true
+    },
+    {
+      "name": "真实节点文文头像 desktop",
+      "passed": true,
+      "source": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-base.webp"
+    },
+    {
+      "name": "33图加载、筛选、明暗底与无横向溢出 desktop",
+      "passed": true
+    },
+    {
+      "name": "真实游戏封面 phone",
+      "passed": true
+    },
+    {
+      "name": "真实节点文文头像 phone",
+      "passed": true,
+      "source": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-base.webp"
+    },
+    {
+      "name": "33图加载、筛选、明暗底与无横向溢出 phone",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "qa/wenwen-option-b-20261026/screenshots/title-desktop.png",
+    "qa/wenwen-option-b-20261026/screenshots/avatar-desktop.png",
+    "qa/wenwen-option-b-20261026/screenshots/avatar-crop-desktop.png",
+    "qa/wenwen-option-b-20261026/screenshots/gallery-dark-desktop.png",
+    "qa/wenwen-option-b-20261026/screenshots/gallery-light-desktop.png",
+    "qa/wenwen-option-b-20261026/screenshots/title-phone.png",
+    "qa/wenwen-option-b-20261026/screenshots/avatar-phone.png",
+    "qa/wenwen-option-b-20261026/screenshots/avatar-crop-phone.png",
+    "qa/wenwen-option-b-20261026/screenshots/gallery-dark-phone.png",
+    "qa/wenwen-option-b-20261026/screenshots/gallery-light-phone.png"
+  ],
+  "pageErrors": [],
+  "httpErrors": [],
+  "notTested": [
+    "Safari与实体手机",
+    "公网部署",
+    "全部旧CG重新纳入十章剧情（本次不执行）"
+  ],
+  "browser": "155.0.8059.85",
+  "passed": true,
+  "deployed": false
+}

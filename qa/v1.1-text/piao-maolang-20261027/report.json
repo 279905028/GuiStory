@@ -1,0 +1,772 @@
+{
+  "scope": "v1.1毛狼与飘支线：文稿结构、后日谈接续、逐路径实读篇幅与文件保护；不代表游戏或浏览器验收",
+  "baseline": "piao-maolang-20261027/baseline",
+  "historicalGrowthPolicy": "历史40%—60%结论保留；用户允许本轮总增长超过60%；本轮分列十章增量与后日谈增量",
+  "mainManuscriptUnits": 59,
+  "epilogueUnits": 1,
+  "totalChoices": 69,
+  "totalOptions": 143,
+  "totalEndings": 14,
+  "majorCombinations": 28,
+  "ordinaryCommonPaths": 2048,
+  "hiddenCommonPaths": 1024,
+  "routeAssignments": 1792,
+  "validatedReadingPaths": 3407872,
+  "epilogueEndingCount": 13,
+  "excludedEnding": "PI-E1",
+  "endingMap": {
+    "XM-E1": "full",
+    "XM-E2": "full",
+    "ZZ-E1": "full",
+    "ZZ-E2": "full",
+    "MY-E1": "full",
+    "MY-E2": "full",
+    "YL-E1": "full",
+    "YL-E2": "full",
+    "PI-E1": "none",
+    "PI-E2": "full",
+    "FR-E1": "full",
+    "FR-E2": "distant",
+    "HQ-E1": "full",
+    "HQ-E2": "full"
+  },
+  "baselineFiles": 20,
+  "protectedFiles": 3133,
+  "unchangedProtectedFiles": 3126,
+  "observedConcurrentChanges": [
+    "项目文档/README.md",
+    "总览.md",
+    "项目文档/故事/v1.1前三章审读建议.md",
+    "项目文档/美术资源规范.md",
+    "项目文档/故事/README.md",
+    "README.md",
+    "任务拆分/总览.md"
+  ],
+  "unexpectedProtectedChanges": [],
+  "checkedLinks": 200,
+  "manuscriptHashes": {
+    "项目文档/故事/v1.1润色稿/第一章-回到毕节.md": "44854facfc2a9d0fd91913ebfd6b6dc5477ec07d99fe8f2c9299edf1a3f6afc2",
+    "项目文档/故事/v1.1润色稿/第二章-十四天.md": "8e66ec672920b1a1870bdbcdd2c40f361ef811a7087b08f07a543ba102599619",
+    "项目文档/故事/v1.1润色稿/第三章-选一条路.md": "14b0ce79e701b2ad5996a3d9cd5c6a8ffaaa7111ddbe4b3765a2037edbd5151e",
+    "项目文档/故事/v1.1润色稿/罗小满-练习本.md": "fe8b4a6e31cd39674879e161fb9edb1a996cf435501d8007c416b44790b43778",
+    "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md": "db02c362cec86169a608e765c1a57370f8f61c73704c8b78d625372a5cc60f4d",
+    "项目文档/故事/v1.1润色稿/孟遥-旧题.md": "591cc31cf8d21f1569b2e5fa079ce91cc0b764ad1dffd5531b6b875efd01b584",
+    "项目文档/故事/v1.1润色稿/叶岚-下线.md": "a49f36e5484a6daa9a2263f0bb30a8bcca5ed34bc685e2fe40de424e468ae1fd",
+    "项目文档/故事/v1.1润色稿/飘-空白页.md": "7e9d3ca6ceb48096963075d646d6a26c407c74131bd7828143908921a30aadd7",
+    "项目文档/故事/v1.1润色稿/朋友与职业-夜班.md": "acd214b7e9b9baf2d1a3e5be8656fb2ec991f21bd9a40052945dcb3eb1bb376b",
+    "项目文档/故事/v1.1润色稿/黄球球-门后.md": "e3ce0584dc41d42c1817ff2360b917b4dc9fc7ad86e2f464a985a1037c5df31a",
+    "项目文档/故事/v1.1润色稿/后日谈-他们的日子.md": "e393db9ec9ca2b0546eb5778cf52709dc66ead07873fe2a80374f412d7b04951",
+    "项目文档/故事/v1.1润色稿/README.md": "b4fbd0253450aa8267f8f33e063b66a9f1bbccfe6ce14a94b976df4df6280a4c",
+    "项目文档/故事/v1.1润色稿/选择设计.md": "17bebc2ee7b63adf990ca4b624d2c652827baf89cfc1aa959972369d5f94b6fb",
+    "项目文档/故事/v1.1润色稿/审校记录.md": "7b9a40d6335e2e7a6a7aced194fb879959a9a46f535b2bf0a705c99660079506"
+  },
+  "routes": [
+    {
+      "prefix": "XM",
+      "file": "罗小满-练习本.md",
+      "keys": [
+        "XM07-01",
+        "XM08-01"
+      ],
+      "routeAssignments": 256,
+      "sourceEndings": [
+        [
+          "XM-E1",
+          "出了这个圈，也来找我"
+        ],
+        [
+          "XM-E2",
+          "认过，也能分开"
+        ]
+      ],
+      "combinations": {
+        "AA": {
+          "readingPaths": 131072,
+          "currentHanMin": 20831,
+          "currentHanMax": 21764,
+          "mainAddedHanMin": 741,
+          "mainAddedHanMax": 741,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2104,
+          "totalAddedHanMax": 2104,
+          "growthFromOriginalMinPct": 71.57,
+          "growthFromOriginalMaxPct": 78.02
+        },
+        "AB": {
+          "readingPaths": 131072,
+          "currentHanMin": 20496,
+          "currentHanMax": 21429,
+          "mainAddedHanMin": 741,
+          "mainAddedHanMax": 741,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2104,
+          "totalAddedHanMax": 2104,
+          "growthFromOriginalMinPct": 68.84,
+          "growthFromOriginalMaxPct": 75.08
+        },
+        "BA": {
+          "readingPaths": 131072,
+          "currentHanMin": 20424,
+          "currentHanMax": 21357,
+          "mainAddedHanMin": 741,
+          "mainAddedHanMax": 741,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2104,
+          "totalAddedHanMax": 2104,
+          "growthFromOriginalMinPct": 68.48,
+          "growthFromOriginalMaxPct": 74.7
+        },
+        "BB": {
+          "readingPaths": 131072,
+          "currentHanMin": 20374,
+          "currentHanMax": 21307,
+          "mainAddedHanMin": 741,
+          "mainAddedHanMax": 741,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2104,
+          "totalAddedHanMax": 2104,
+          "growthFromOriginalMinPct": 68.01,
+          "growthFromOriginalMaxPct": 74.19
+        }
+      },
+      "endings": {
+        "XM-E1": {
+          "readingPaths": 131072,
+          "currentHanMin": 20831,
+          "currentHanMax": 21764,
+          "mainAddedHanMin": 741,
+          "mainAddedHanMax": 741,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2104,
+          "totalAddedHanMax": 2104,
+          "growthFromOriginalMinPct": 71.57,
+          "growthFromOriginalMaxPct": 78.02
+        },
+        "XM-E2": {
+          "readingPaths": 393216,
+          "currentHanMin": 20374,
+          "currentHanMax": 21429,
+          "mainAddedHanMin": 741,
+          "mainAddedHanMax": 741,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2104,
+          "totalAddedHanMax": 2104,
+          "growthFromOriginalMinPct": 68.01,
+          "growthFromOriginalMaxPct": 75.08
+        }
+      }
+    },
+    {
+      "prefix": "ZZ",
+      "file": "周栀-十一点四十七分.md",
+      "keys": [
+        "ZZ06-01",
+        "ZZ08-01"
+      ],
+      "routeAssignments": 256,
+      "sourceEndings": [
+        [
+          "ZZ-E1",
+          "不用哄我，也别骗我"
+        ],
+        [
+          "ZZ-E2",
+          "这句是真的，可惜晚了"
+        ]
+      ],
+      "combinations": {
+        "AA": {
+          "readingPaths": 131072,
+          "currentHanMin": 24048,
+          "currentHanMax": 24940,
+          "mainAddedHanMin": 749,
+          "mainAddedHanMax": 749,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2112,
+          "totalAddedHanMax": 2112,
+          "growthFromOriginalMinPct": 65.49,
+          "growthFromOriginalMaxPct": 69.82
+        },
+        "AB": {
+          "readingPaths": 131072,
+          "currentHanMin": 23356,
+          "currentHanMax": 24248,
+          "mainAddedHanMin": 749,
+          "mainAddedHanMax": 749,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2112,
+          "totalAddedHanMax": 2112,
+          "growthFromOriginalMinPct": 60.86,
+          "growthFromOriginalMaxPct": 64.89
+        },
+        "BA": {
+          "readingPaths": 131072,
+          "currentHanMin": 23412,
+          "currentHanMax": 24304,
+          "mainAddedHanMin": 749,
+          "mainAddedHanMax": 749,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2112,
+          "totalAddedHanMax": 2112,
+          "growthFromOriginalMinPct": 61.77,
+          "growthFromOriginalMaxPct": 65.87
+        },
+        "BB": {
+          "readingPaths": 131072,
+          "currentHanMin": 23346,
+          "currentHanMax": 24238,
+          "mainAddedHanMin": 749,
+          "mainAddedHanMax": 749,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2112,
+          "totalAddedHanMax": 2112,
+          "growthFromOriginalMinPct": 61.28,
+          "growthFromOriginalMaxPct": 65.35
+        }
+      },
+      "endings": {
+        "ZZ-E1": {
+          "readingPaths": 131072,
+          "currentHanMin": 24048,
+          "currentHanMax": 24940,
+          "mainAddedHanMin": 749,
+          "mainAddedHanMax": 749,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2112,
+          "totalAddedHanMax": 2112,
+          "growthFromOriginalMinPct": 65.49,
+          "growthFromOriginalMaxPct": 69.82
+        },
+        "ZZ-E2": {
+          "readingPaths": 393216,
+          "currentHanMin": 23346,
+          "currentHanMax": 24304,
+          "mainAddedHanMin": 749,
+          "mainAddedHanMax": 749,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2112,
+          "totalAddedHanMax": 2112,
+          "growthFromOriginalMinPct": 60.86,
+          "growthFromOriginalMaxPct": 65.87
+        }
+      }
+    },
+    {
+      "prefix": "MY",
+      "file": "孟遥-旧题.md",
+      "keys": [
+        "MY07-01",
+        "MY09-01"
+      ],
+      "routeAssignments": 256,
+      "sourceEndings": [
+        [
+          "MY-E1",
+          "没有房子的以后"
+        ],
+        [
+          "MY-E2",
+          "她选择的生活"
+        ]
+      ],
+      "combinations": {
+        "AA": {
+          "readingPaths": 131072,
+          "currentHanMin": 20871,
+          "currentHanMax": 21769,
+          "mainAddedHanMin": 749,
+          "mainAddedHanMax": 749,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2112,
+          "totalAddedHanMax": 2112,
+          "growthFromOriginalMinPct": 69.34,
+          "growthFromOriginalMaxPct": 76.24
+        },
+        "AB": {
+          "readingPaths": 131072,
+          "currentHanMin": 20765,
+          "currentHanMax": 21663,
+          "mainAddedHanMin": 749,
+          "mainAddedHanMax": 749,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2112,
+          "totalAddedHanMax": 2112,
+          "growthFromOriginalMinPct": 68.58,
+          "growthFromOriginalMaxPct": 75.42
+        },
+        "BA": {
+          "readingPaths": 131072,
+          "currentHanMin": 20517,
+          "currentHanMax": 21415,
+          "mainAddedHanMin": 749,
+          "mainAddedHanMax": 749,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2112,
+          "totalAddedHanMax": 2112,
+          "growthFromOriginalMinPct": 66.59,
+          "growthFromOriginalMaxPct": 73.27
+        },
+        "BB": {
+          "readingPaths": 131072,
+          "currentHanMin": 20477,
+          "currentHanMax": 21375,
+          "mainAddedHanMin": 749,
+          "mainAddedHanMax": 749,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2112,
+          "totalAddedHanMax": 2112,
+          "growthFromOriginalMinPct": 66.35,
+          "growthFromOriginalMaxPct": 73.01
+        }
+      },
+      "endings": {
+        "MY-E1": {
+          "readingPaths": 131072,
+          "currentHanMin": 20871,
+          "currentHanMax": 21769,
+          "mainAddedHanMin": 749,
+          "mainAddedHanMax": 749,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2112,
+          "totalAddedHanMax": 2112,
+          "growthFromOriginalMinPct": 69.34,
+          "growthFromOriginalMaxPct": 76.24
+        },
+        "MY-E2": {
+          "readingPaths": 393216,
+          "currentHanMin": 20477,
+          "currentHanMax": 21663,
+          "mainAddedHanMin": 749,
+          "mainAddedHanMax": 749,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2112,
+          "totalAddedHanMax": 2112,
+          "growthFromOriginalMinPct": 66.35,
+          "growthFromOriginalMaxPct": 75.42
+        }
+      }
+    },
+    {
+      "prefix": "YL",
+      "file": "叶岚-下线.md",
+      "keys": [
+        "YL06-01",
+        "YL09-01"
+      ],
+      "routeAssignments": 256,
+      "sourceEndings": [
+        [
+          "YL-E1",
+          "还会见面"
+        ],
+        [
+          "YL-E2",
+          "不再等上线"
+        ]
+      ],
+      "combinations": {
+        "AA": {
+          "readingPaths": 131072,
+          "currentHanMin": 20479,
+          "currentHanMax": 21368,
+          "mainAddedHanMin": 751,
+          "mainAddedHanMax": 751,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2114,
+          "totalAddedHanMax": 2114,
+          "growthFromOriginalMinPct": 71.9,
+          "growthFromOriginalMaxPct": 78.78
+        },
+        "AB": {
+          "readingPaths": 131072,
+          "currentHanMin": 20479,
+          "currentHanMax": 21368,
+          "mainAddedHanMin": 751,
+          "mainAddedHanMax": 751,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2114,
+          "totalAddedHanMax": 2114,
+          "growthFromOriginalMinPct": 71.72,
+          "growthFromOriginalMaxPct": 78.58
+        },
+        "BA": {
+          "readingPaths": 131072,
+          "currentHanMin": 19787,
+          "currentHanMax": 20676,
+          "mainAddedHanMin": 751,
+          "mainAddedHanMax": 751,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2114,
+          "totalAddedHanMax": 2114,
+          "growthFromOriginalMinPct": 66.36,
+          "growthFromOriginalMaxPct": 72.78
+        },
+        "BB": {
+          "readingPaths": 131072,
+          "currentHanMin": 19791,
+          "currentHanMax": 20680,
+          "mainAddedHanMin": 751,
+          "mainAddedHanMax": 751,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2114,
+          "totalAddedHanMax": 2114,
+          "growthFromOriginalMinPct": 66.21,
+          "growthFromOriginalMaxPct": 72.62
+        }
+      },
+      "endings": {
+        "YL-E1": {
+          "readingPaths": 131072,
+          "currentHanMin": 20479,
+          "currentHanMax": 21368,
+          "mainAddedHanMin": 751,
+          "mainAddedHanMax": 751,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2114,
+          "totalAddedHanMax": 2114,
+          "growthFromOriginalMinPct": 71.9,
+          "growthFromOriginalMaxPct": 78.78
+        },
+        "YL-E2": {
+          "readingPaths": 393216,
+          "currentHanMin": 19787,
+          "currentHanMax": 21368,
+          "mainAddedHanMin": 751,
+          "mainAddedHanMax": 751,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2114,
+          "totalAddedHanMax": 2114,
+          "growthFromOriginalMinPct": 66.21,
+          "growthFromOriginalMaxPct": 78.58
+        }
+      }
+    },
+    {
+      "prefix": "PI",
+      "file": "飘-空白页.md",
+      "keys": [
+        "PI06-01",
+        "PI08-01"
+      ],
+      "routeAssignments": 256,
+      "sourceEndings": [
+        [
+          "PI-E1",
+          "这句不改"
+        ],
+        [
+          "PI-E2",
+          "空白页归还"
+        ]
+      ],
+      "combinations": {
+        "AA": {
+          "readingPaths": 131072,
+          "currentHanMin": 19376,
+          "currentHanMax": 20264,
+          "mainAddedHanMin": 1410,
+          "mainAddedHanMax": 1410,
+          "epilogueHanMin": 0,
+          "epilogueHanMax": 0,
+          "totalAddedHanMin": 1410,
+          "totalAddedHanMax": 1410,
+          "growthFromOriginalMinPct": 62.47,
+          "growthFromOriginalMaxPct": 67.84
+        },
+        "AB": {
+          "readingPaths": 131072,
+          "currentHanMin": 20404,
+          "currentHanMax": 21292,
+          "mainAddedHanMin": 1410,
+          "mainAddedHanMax": 1410,
+          "epilogueHanMin": 1538,
+          "epilogueHanMax": 1538,
+          "totalAddedHanMin": 2948,
+          "totalAddedHanMax": 2948,
+          "growthFromOriginalMinPct": 70.81,
+          "growthFromOriginalMaxPct": 76.83
+        },
+        "BA": {
+          "readingPaths": 131072,
+          "currentHanMin": 20428,
+          "currentHanMax": 21316,
+          "mainAddedHanMin": 1410,
+          "mainAddedHanMax": 1410,
+          "epilogueHanMin": 1539,
+          "epilogueHanMax": 1539,
+          "totalAddedHanMin": 2949,
+          "totalAddedHanMax": 2949,
+          "growthFromOriginalMinPct": 70.83,
+          "growthFromOriginalMaxPct": 76.85
+        },
+        "BB": {
+          "readingPaths": 131072,
+          "currentHanMin": 20272,
+          "currentHanMax": 21160,
+          "mainAddedHanMin": 1410,
+          "mainAddedHanMax": 1410,
+          "epilogueHanMin": 1533,
+          "epilogueHanMax": 1533,
+          "totalAddedHanMin": 2943,
+          "totalAddedHanMax": 2943,
+          "growthFromOriginalMinPct": 69.66,
+          "growthFromOriginalMaxPct": 75.59
+        }
+      },
+      "endings": {
+        "PI-E1": {
+          "readingPaths": 131072,
+          "currentHanMin": 19376,
+          "currentHanMax": 20264,
+          "mainAddedHanMin": 1410,
+          "mainAddedHanMax": 1410,
+          "epilogueHanMin": 0,
+          "epilogueHanMax": 0,
+          "totalAddedHanMin": 1410,
+          "totalAddedHanMax": 1410,
+          "growthFromOriginalMinPct": 62.47,
+          "growthFromOriginalMaxPct": 67.84
+        },
+        "PI-E2": {
+          "readingPaths": 393216,
+          "currentHanMin": 20272,
+          "currentHanMax": 21316,
+          "mainAddedHanMin": 1410,
+          "mainAddedHanMax": 1410,
+          "epilogueHanMin": 1533,
+          "epilogueHanMax": 1539,
+          "totalAddedHanMin": 2943,
+          "totalAddedHanMax": 2949,
+          "growthFromOriginalMinPct": 69.66,
+          "growthFromOriginalMaxPct": 76.85
+        }
+      }
+    },
+    {
+      "prefix": "FR",
+      "file": "朋友与职业-夜班.md",
+      "keys": [
+        "FR06-01",
+        "FR08-01"
+      ],
+      "routeAssignments": 256,
+      "sourceEndings": [
+        [
+          "FR-E1",
+          "换个地方，照样吃饭"
+        ],
+        [
+          "FR-E2",
+          "清账以后"
+        ]
+      ],
+      "combinations": {
+        "AA": {
+          "readingPaths": 131072,
+          "currentHanMin": 18024,
+          "currentHanMax": 18944,
+          "mainAddedHanMin": 911,
+          "mainAddedHanMax": 911,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2274,
+          "totalAddedHanMax": 2274,
+          "growthFromOriginalMinPct": 70.77,
+          "growthFromOriginalMaxPct": 77.65
+        },
+        "AB": {
+          "readingPaths": 131072,
+          "currentHanMin": 17183,
+          "currentHanMax": 18103,
+          "mainAddedHanMin": 911,
+          "mainAddedHanMax": 911,
+          "epilogueHanMin": 641,
+          "epilogueHanMax": 641,
+          "totalAddedHanMin": 1552,
+          "totalAddedHanMax": 1552,
+          "growthFromOriginalMinPct": 63.38,
+          "growthFromOriginalMaxPct": 69.58
+        },
+        "BA": {
+          "readingPaths": 131072,
+          "currentHanMin": 17059,
+          "currentHanMax": 17979,
+          "mainAddedHanMin": 911,
+          "mainAddedHanMax": 911,
+          "epilogueHanMin": 641,
+          "epilogueHanMax": 641,
+          "totalAddedHanMin": 1552,
+          "totalAddedHanMax": 1552,
+          "growthFromOriginalMinPct": 61.79,
+          "growthFromOriginalMaxPct": 67.83
+        },
+        "BB": {
+          "readingPaths": 131072,
+          "currentHanMin": 16954,
+          "currentHanMax": 17874,
+          "mainAddedHanMin": 911,
+          "mainAddedHanMax": 911,
+          "epilogueHanMin": 641,
+          "epilogueHanMax": 641,
+          "totalAddedHanMin": 1552,
+          "totalAddedHanMax": 1552,
+          "growthFromOriginalMinPct": 61.03,
+          "growthFromOriginalMaxPct": 67.01
+        }
+      },
+      "endings": {
+        "FR-E1": {
+          "readingPaths": 131072,
+          "currentHanMin": 18024,
+          "currentHanMax": 18944,
+          "mainAddedHanMin": 911,
+          "mainAddedHanMax": 911,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2274,
+          "totalAddedHanMax": 2274,
+          "growthFromOriginalMinPct": 70.77,
+          "growthFromOriginalMaxPct": 77.65
+        },
+        "FR-E2": {
+          "readingPaths": 393216,
+          "currentHanMin": 16954,
+          "currentHanMax": 18103,
+          "mainAddedHanMin": 911,
+          "mainAddedHanMax": 911,
+          "epilogueHanMin": 641,
+          "epilogueHanMax": 641,
+          "totalAddedHanMin": 1552,
+          "totalAddedHanMax": 1552,
+          "growthFromOriginalMinPct": 61.03,
+          "growthFromOriginalMaxPct": 69.58
+        }
+      }
+    },
+    {
+      "prefix": "HQ",
+      "file": "黄球球-门后.md",
+      "keys": [
+        "HQ07-01",
+        "HQ08-01"
+      ],
+      "routeAssignments": 256,
+      "sourceEndings": [
+        [
+          "HQ-E1",
+          "门里也有明天"
+        ],
+        [
+          "HQ-E2",
+          "最后一次三下"
+        ]
+      ],
+      "combinations": {
+        "AA": {
+          "readingPaths": 65536,
+          "currentHanMin": 19070,
+          "currentHanMax": 19189,
+          "mainAddedHanMin": 736,
+          "mainAddedHanMax": 736,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2099,
+          "totalAddedHanMax": 2099,
+          "growthFromOriginalMinPct": 69.04,
+          "growthFromOriginalMaxPct": 69.89
+        },
+        "AB": {
+          "readingPaths": 65536,
+          "currentHanMin": 18920,
+          "currentHanMax": 19039,
+          "mainAddedHanMin": 736,
+          "mainAddedHanMax": 736,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2099,
+          "totalAddedHanMax": 2099,
+          "growthFromOriginalMinPct": 67.2,
+          "growthFromOriginalMaxPct": 68.03
+        },
+        "BA": {
+          "readingPaths": 65536,
+          "currentHanMin": 18988,
+          "currentHanMax": 19107,
+          "mainAddedHanMin": 736,
+          "mainAddedHanMax": 736,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2099,
+          "totalAddedHanMax": 2099,
+          "growthFromOriginalMinPct": 68.49,
+          "growthFromOriginalMaxPct": 69.34
+        },
+        "BB": {
+          "readingPaths": 65536,
+          "currentHanMin": 18935,
+          "currentHanMax": 19054,
+          "mainAddedHanMin": 736,
+          "mainAddedHanMax": 736,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2099,
+          "totalAddedHanMax": 2099,
+          "growthFromOriginalMinPct": 67.51,
+          "growthFromOriginalMaxPct": 68.34
+        }
+      },
+      "endings": {
+        "HQ-E1": {
+          "readingPaths": 65536,
+          "currentHanMin": 19070,
+          "currentHanMax": 19189,
+          "mainAddedHanMin": 736,
+          "mainAddedHanMax": 736,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2099,
+          "totalAddedHanMax": 2099,
+          "growthFromOriginalMinPct": 69.04,
+          "growthFromOriginalMaxPct": 69.89
+        },
+        "HQ-E2": {
+          "readingPaths": 196608,
+          "currentHanMin": 18920,
+          "currentHanMax": 19107,
+          "mainAddedHanMin": 736,
+          "mainAddedHanMax": 736,
+          "epilogueHanMin": 1363,
+          "epilogueHanMax": 1363,
+          "totalAddedHanMin": 2099,
+          "totalAddedHanMax": 2099,
+          "growthFromOriginalMinPct": 67.2,
+          "growthFromOriginalMaxPct": 69.34
+        }
+      }
+    }
+  ]
+}

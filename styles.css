@@ -71,7 +71,7 @@ body[data-screen="game"] #game-screen {
   width:170.6667%; height:213.3333%; left:var(--avatar-left,-31.6667%); top:0;
   object-position:0 0;
 }
-#speaker-avatar[src$="char-wenwen.webp"], #speaker-avatar[src$="char-mengyao.webp"] { --avatar-left:-30%; }
+#speaker-avatar[src$="char-wenwen.webp"], #speaker-avatar[src*="/wenwen-option-b-production-20261026/char-wenwen-"], #speaker-avatar[src$="char-mengyao.webp"] { --avatar-left:-30%; }
 #speaker-avatar[src$="char-xiaoman.webp"] { --avatar-left:-36.6667%; }
 #speaker-avatar[src$="char-zhouzhi.webp"], #speaker-avatar[src$="char-yelan.webp"] { --avatar-left:-31.6667%; }
 #speaker-avatar[src$="char-maolang.webp"], #speaker-avatar[src$="char-shijiang.webp"] { --avatar-left:-35.3333%; }

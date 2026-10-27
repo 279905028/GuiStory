@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-26",
+  "tool": "image_gen built-in",
+  "jobs": [
+    {
+      "id": "cg-01-rain-return",
+      "kind": "cg",
+      "slug": "cg-01-rain-return",
+      "refs": [
+        "assets/cg/cg-01-rain-return.webp",
+        "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp"
+      ],
+      "transparent": false,
+      "prompt": "Use case: identity-preserve\n输入图1是唯一编辑目标（旧剧情CG）；输入图2是已确认的文文新造型参考。\n只将图1中的文文统一为：金黄色短寸、黑色眉毛、保留原有圆脸和23岁成年五官，浅靛蓝洗旧牛仔夹克敞开，袖口翻折，米白圆领T恤、炭灰直筒裤。衣料受图1现有环境光照影响，不能像贴图。\n精确人物定位：画面左侧近景男子及玻璃上的同一个男子倒影都属于文文，两处头发与夹克同步修改。\n严格保持图1的镜头、构图、像素尺寸与宽高比、文文原来动作姿势和朝向、手与手指、表情、其余人物的脸/头发/衣装/人数、全部背景、道具、建筑、反光、光照和画风。不加文字，不添加B立绘的人物进场，不把其他人改成文文，不扩大可见身体区域。只修改文文的头发与衣装，凡画面中露出的同一人物与倒影都同步。"
+    },
+    {
+      "id": "cg-02-xiaoman-mirror",
+      "kind": "cg",
+      "slug": "cg-02-xiaoman-mirror",
+      "refs": [
+        "assets/cg/cg-02-xiaoman-mirror.webp",
+        "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp"
+      ],
+      "transparent": false,
+      "prompt": "Use case: identity-preserve\n输入图1是唯一编辑目标（旧剧情CG）；输入图2是已确认的文文新造型参考。\n只将图1中的文文统一为：金黄色短寸、黑色眉毛、保留原有圆脸和23岁成年五官，浅靛蓝洗旧牛仔夹克敞开，袖口翻折，米白圆领T恤、炭灰直筒裤。衣料受图1现有环境光照影响，不能像贴图。\n精确人物定位：左侧近景背对镜头的短寸男子是文文；若镜中出现同一男子倒影也同步。理发店女主及其他人保持不变。\n严格保持图1的镜头、构图、像素尺寸与宽高比、文文原来动作姿势和朝向、手与手指、表情、其余人物的脸/头发/衣装/人数、全部背景、道具、建筑、反光、光照和画风。不加文字，不添加B立绘的人物进场，不把其他人改成文文，不扩大可见身体区域。只修改文文的头发与衣装，凡画面中露出的同一人物与倒影都同步。"
+    },
+    {
+      "id": "cg-03-zhouzhi-noodles",
+      "kind": "cg",
+      "slug": "cg-03-zhouzhi-noodles",
+      "refs": [
+        "assets/cg/cg-03-zhouzhi-noodles.webp",
+        "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp"
+      ],
+      "transparent": false,
+      "prompt": "Use case: identity-preserve\n输入图1是唯一编辑目标（旧剧情CG）；输入图2是已确认的文文新造型参考。\n只将图1中的文文统一为：金黄色短寸、黑色眉毛、保留原有圆脸和23岁成年五官，浅靛蓝洗旧牛仔夹克敞开，袖口翻折，米白圆领T恤、炭灰直筒裤。衣料受图1现有环境光照影响，不能像贴图。\n精确人物定位：文文只在左下前景露出胳膊、手和深色衣袖，把这条袖子改为对应的浅蓝洗旧牛仔翻折袖口，保持写字的手与姿势。\n严格保持图1的镜头、构图、像素尺寸与宽高比、文文原来动作姿势和朝向、手与手指、表情、其余人物的脸/头发/衣装/人数、全部背景、道具、建筑、反光、光照和画风。不加文字，不添加B立绘的人物进场，不把其他人改成文文，不扩大可见身体区域。只修改文文的头发与衣装，凡画面中露出的同一人物与倒影都同步。"
+    },
+    {
+      "id": "cg-04-mengyao-camera",
+      "kind": "cg",
+      "slug": "cg-04-mengyao-camera",
+      "refs": [
+        "assets/cg/cg-04-mengyao-camera.webp",
+        "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp"
+      ],
+      "transparent": false,
+      "prompt": "Use case: identity-preserve\n输入图1是唯一编辑目标（旧剧情CG）；输入图2是已确认的文文新造型参考。\n只将图1中的文文统一为：金黄色短寸、黑色眉毛、保留原有圆脸和23岁成年五官，浅靛蓝洗旧牛仔夹克敞开，袖口翻折，米白圆领T恤、炭灰直筒裤。衣料受图1现有环境光照影响，不能像贴图。\n精确人物定位：左侧近景背向镜头的短寸男子是文文；对面的女主及她手中的相机保持原样。\n严格保持图1的镜头、构图、像素尺寸与宽高比、文文原来动作姿势和朝向、手与手指、表情、其余人物的脸/头发/衣装/人数、全部背景、道具、建筑、反光、光照和画风。不加文字，不添加B立绘的人物进场，不把其他人改成文文，不扩大可见身体区域。只修改文文的头发与衣装，凡画面中露出的同一人物与倒影都同步。"
+    },
+    {
+      "id": "cg-05-yelan-inventory",
+      "kind": "cg",
+      "slug": "cg-05-yelan-inventory",
+      "refs": [
+        "assets/cg/cg-05-yelan-inventory.webp",
+        "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp"
+      ],
+      "transparent": false,
+      "prompt": "Use case: identity-preserve\n输入图1是唯一编辑目标（旧剧情CG）；输入图2是已确认的文文新造型参考。\n只将图1中的文文统一为：金黄色短寸、黑色眉毛、保留原有圆脸和23岁成年五官，浅靛蓝洗旧牛仔夹克敞开，袖口翻折，米白圆领T恤、炭灰直筒裤。衣料受图1现有环境光照影响，不能像贴图。\n精确人物定位：文文只在左下前景露出胳膊、手和深色袖子，把该袖子改为浅蓝洗旧牛仔翻折袖口；保持指着纸张的手。\n严格保持图1的镜头、构图、像素尺寸与宽高比、文文原来动作姿势和朝向、手与手指、表情、其余人物的脸/头发/衣装/人数、全部背景、道具、建筑、反光、光照和画风。不加文字，不添加B立绘的人物进场，不把其他人改成文文，不扩大可见身体区域。只修改文文的头发与衣装，凡画面中露出的同一人物与倒影都同步。"
+    },
+    {
+      "id": "cg-06-maolang-confession",
+      "kind": "cg",
+      "slug": "cg-06-maolang-confession",
+      "refs": [
+        "assets/cg/cg-06-maolang-confession.webp",
+        "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp"
+      ],
+      "transparent": false,
+      "prompt": "Use case: identity-preserve\n输入图1是唯一编辑目标（旧剧情CG）；输入图2是已确认的文文新造型参考。\n只将图1中的文文统一为：金黄色短寸、黑色眉毛、保留原有圆脸和23岁成年五官，浅靛蓝洗旧牛仔夹克敞开，袖口翻折，米白圆领T恤、炭灰直筒裤。衣料受图1现有环境光照影响，不能像贴图。\n精确人物定位：左侧前景背向镜头的短寸男子是文文；右侧桌边黑发黑T恤男子是毛狼，绝不能给毛狼染发或换衣。\n严格保持图1的镜头、构图、像素尺寸与宽高比、文文原来动作姿势和朝向、手与手指、表情、其余人物的脸/头发/衣装/人数、全部背景、道具、建筑、反光、光照和画风。不加文字，不添加B立绘的人物进场，不把其他人改成文文，不扩大可见身体区域。只修改文文的头发与衣装，凡画面中露出的同一人物与倒影都同步。"
+    },
+    {
+      "id": "cg-07-yelan-off-duty",
+      "kind": "cg",
+      "slug": "cg-07-yelan-off-duty",
+      "refs": [
+        "assets/cg/cg-07-yelan-off-duty.webp",
+        "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp"
+      ],
+      "transparent": false,
+      "prompt": "Use case: identity-preserve\n输入图1是唯一编辑目标（旧剧情CG）；输入图2是已确认的文文新造型参考。\n只将图1中的文文统一为：金黄色短寸、黑色眉毛、保留原有圆脸和23岁成年五官，浅靛蓝洗旧牛仔夹克敞开，袖口翻折，米白圆领T恤、炭灰直筒裤。衣料受图1现有环境光照影响，不能像贴图。\n精确人物定位：文文只在画面左下露出双手与深色衣袖，把这些衣袖改为浅蓝洗旧牛仔翻折袖口。保持工具包和雨伞等环境道具原样，右侧女主不变。\n严格保持图1的镜头、构图、像素尺寸与宽高比、文文原来动作姿势和朝向、手与手指、表情、其余人物的脸/头发/衣装/人数、全部背景、道具、建筑、反光、光照和画风。不加文字，不添加B立绘的人物进场，不把其他人改成文文，不扩大可见身体区域。只修改文文的头发与衣装，凡画面中露出的同一人物与倒影都同步。"
+    },
+    {
+      "id": "cg-08-huangqiuqiu-listening",
+      "kind": "cg",
+      "slug": "cg-08-huangqiuqiu-listening",
+      "refs": [
+        "assets/cg/cg-08-huangqiuqiu-listening.webp",
+        "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp"
+      ],
+      "transparent": false,
+      "prompt": "Use case: identity-preserve\n输入图1是唯一编辑目标（旧剧情CG）；输入图2是已确认的文文新造型参考。\n只将图1中的文文统一为：金黄色短寸、黑色眉毛、保留原有圆脸和23岁成年五官，浅靛蓝洗旧牛仔夹克敞开，袖口翻折，米白圆领T恤、炭灰直筒裤。衣料受图1现有环境光照影响，不能像贴图。\n精确人物定位：文文只在画面左下露出胳膊、手和深色衣袖，把对应衣袖改为浅蓝洗旧牛仔翻折袖口。黄球球仍是原图黄色球形角色，完全保持原样。\n严格保持图1的镜头、构图、像素尺寸与宽高比、文文原来动作姿势和朝向、手与手指、表情、其余人物的脸/头发/衣装/人数、全部背景、道具、建筑、反光、光照和画风。不加文字，不添加B立绘的人物进场，不把其他人改成文文，不扩大可见身体区域。只修改文文的头发与衣装，凡画面中露出的同一人物与倒影都同步。"
+    },
+    {
+      "id": "cg-09-repair-handoff",
+      "kind": "cg",
+      "slug": "cg-09-repair-handoff",
+      "refs": [
+        "assets/cg/cg-09-repair-handoff.webp",
+        "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp"
+      ],
+      "transparent": false,
+      "prompt": "Use case: identity-preserve\n输入图1是唯一编辑目标（旧剧情CG）；输入图2是已确认的文文新造型参考。\n只将图1中的文文统一为：金黄色短寸、黑色眉毛、保留原有圆脸和23岁成年五官，浅靛蓝洗旧牛仔夹克敞开，袖口翻折，米白圆领T恤、炭灰直筒裤。衣料受图1现有环境光照影响，不能像贴图。\n精确人物定位：画面右侧前景背对镜头、坐在桌边的短寸男子是文文，改他的头发与衣服。画面左侧戴帽眼镜男子是师匠、中间黑T恤男子是毛狼，两人完全不变。\n严格保持图1的镜头、构图、像素尺寸与宽高比、文文原来动作姿势和朝向、手与手指、表情、其余人物的脸/头发/衣装/人数、全部背景、道具、建筑、反光、光照和画风。不加文字，不添加B立绘的人物进场，不把其他人改成文文，不扩大可见身体区域。只修改文文的头发与衣装，凡画面中露出的同一人物与倒影都同步。"
+    },
+    {
+      "id": "cg-13-xiaoman-night-stall",
+      "kind": "cg",
+      "slug": "cg-13-xiaoman-night-stall",
+      "refs": [
+        "assets/cg/cg-13-xiaoman-night-stall.webp",
+        "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp"
+      ],
+      "transparent": false,
+      "prompt": "Use case: identity-preserve\n输入图1是唯一编辑目标（旧剧情CG）；输入图2是已确认的文文新造型参考。\n只将图1中的文文统一为：金黄色短寸、黑色眉毛、保留原有圆脸和23岁成年五官，浅靛蓝洗旧牛仔夹克敞开，袖口翻折，米白圆领T恤、炭灰直筒裤。衣料受图1现有环境光照影响，不能像贴图。\n精确人物定位：画面左侧前景背向镜头的短寸男子是文文，改他的头发与衣服。女主、饭菜、桌上纸张和手的动作原样保留。\n严格保持图1的镜头、构图、像素尺寸与宽高比、文文原来动作姿势和朝向、手与手指、表情、其余人物的脸/头发/衣装/人数、全部背景、道具、建筑、反光、光照和画风。不加文字，不添加B立绘的人物进场，不把其他人改成文文，不扩大可见身体区域。只修改文文的头发与衣装，凡画面中露出的同一人物与倒影都同步。"
+    }
+  ]
+}

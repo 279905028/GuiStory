@@ -145,12 +145,24 @@
       "sha256": "018e66333fabae7be1442084cb1be74dd01ef4dbe46df766729d4f9920e45e21"
     },
     {
-      "path": "assets/ten-chapter/a06-adoption.json",
+      "path": "assets/manifests/wenwen-option-b-adoption.json",
+      "sha256": "304b09c7850de2e62da9bc1d2657ddf082e730717f3932391edde0c6110d4e5e"
+    },
+    {
+      "path": "assets/manifests/baselines/a06-adoption.json",
       "sha256": "8dd547dc110af7c8a36d8d0b6fe71a294594f59fb95dfa2816c797b8280c5292"
     },
     {
-      "path": "assets/ten-chapter/a06-scene-node-map.json",
+      "path": "assets/manifests/baselines/a06-scene-node-map.json",
       "sha256": "32ec9e1c9db2d9bb69ac5ae13ec3ba472239156eaa9bcca73c3a4502a58d9544"
+    },
+    {
+      "path": "assets/manifests/path-migration.json",
+      "sha256": "cca97491d71ea71e1ed4550785e3abd6bd761391f7c1e61c4c9394ce431c2278"
+    },
+    {
+      "path": "scripts/art-paths.cjs",
+      "sha256": "22d4b7ca92d120d19070689aae67e470b18d9e4cd01585909eb971c4b2e1179e"
     },
     {
       "path": "任务拆分/全十章/presentation/decisions.json",
@@ -158,7 +170,11 @@
     },
     {
       "path": "任务拆分/全十章/presentation/prepare-bindings.cjs",
-      "sha256": "83cd09fd93c8396e390bc243aaa2430f4e6a8d6de5c252d3f49f4e8e8b47da1c"
+      "sha256": "53f0345c0a4d0b7e70f1b3be4c4bc2a8793d9429b3c929af3a3b900432950a37"
+    },
+    {
+      "path": "任务拆分/全十章/build/art-revision.cjs",
+      "sha256": "f7f12ae5817ce6e44b85b5366924d530c91a03b9ecadf60eb57010e3277014b6"
     }
   ],
   "counts": {
@@ -178,12 +194,12 @@
   "covers": [
     {
       "id": "tc-ui-cover-desktop",
-      "file": "assets/ten-chapter/ui/cover-desktop.webp",
+      "file": "assets/current/ui/tc-ui-cover-desktop.webp",
       "orientation": "landscape"
     },
     {
       "id": "tc-ui-cover-mobile",
-      "file": "assets/ten-chapter/ui/cover-mobile.webp",
+      "file": "assets/current/ui/tc-ui-cover-mobile.webp",
       "orientation": "portrait"
     }
   ],
@@ -282,7 +298,7 @@
   "conditionalCgRules": [
     {
       "id": "tc-cg-piao-choice",
-      "file": "assets/ten-chapter/cg/cg-piao-choice.webp",
+      "file": "assets/current/cg/tc-cg-piao-choice.webp",
       "enterAt": "tc_c03_piao_say_clearly_002",
       "allowedNodeIds": [
         "tc_c03_piao_say_clearly_002",
@@ -317,7 +333,7 @@
     },
     {
       "id": "tc-cg-last-echo-dinner",
-      "file": "assets/ten-chapter/cg/cg-last-echo-dinner.webp",
+      "file": "assets/current/cg/tc-cg-last-echo-dinner.webp",
       "enterAt": "tc_c06_common_last_night_meal_07",
       "allowedNodeIds": [
         "tc_c06_common_last_night_meal_07",
@@ -337,7 +353,7 @@
     },
     {
       "id": "tc-cg-qiuqiu-transform",
-      "file": "assets/ten-chapter/cg/cg-qiuqiu-transform.webp",
+      "file": "assets/current/cg/tc-cg-qiuqiu-transform.webp",
       "enterAt": "tc_c08_huangqiuqiu_her_decision_025",
       "allowedNodeIds": [
         "tc_c08_huangqiuqiu_her_decision_025",
@@ -386,52 +402,52 @@
           "beat": "轻搭手",
           "node": "tc_c08_huangqiuqiu_her_decision_001",
           "form": "sphere",
-          "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-orb-hand-base.webp",
+          "file": "assets/current/characters/huangqiuqiu/tc-look-huangqiuqiu-orb-hand.webp",
           "note": "A03姿态＋正文表达接触；不新增紧握或告白。"
         },
         {
           "beat": "她自主松开",
           "node": "tc_c08_huangqiuqiu_her_decision_010",
           "form": "sphere",
-          "file": "assets/char-huangqiuqiu.webp"
+          "file": "assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-orb-base.webp"
         },
         {
           "beat": "文文收手、退凳",
           "node": "tc_c08_huangqiuqiu_her_decision_019",
           "form": "sphere",
-          "file": "assets/char-huangqiuqiu.webp"
+          "file": "assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-orb-base.webp"
         },
         {
           "beat": "轮廓变化",
           "node": "tc_c08_huangqiuqiu_her_decision_020",
           "form": "sphere",
-          "file": "assets/char-huangqiuqiu.webp",
+          "file": "assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-orb-base.webp",
           "note": "由E08／E09淡出球形；不提前切人形，不加恋爱条件。"
         },
         {
           "beat": "揭示人形并执行形态事件",
           "node": "tc_c08_huangqiuqiu_human_reveal",
           "form": "human",
-          "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp",
+          "file": "assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-human-base.webp",
           "note": "先执行原有onEnter，再解析人形立绘和头像。"
         },
         {
           "beat": "扶正玩偶棒的近景",
           "node": "tc_c08_huangqiuqiu_her_decision_025",
           "form": "human",
-          "file": "assets/ten-chapter/cg/cg-qiuqiu-transform.webp"
+          "file": "assets/current/cg/tc-cg-qiuqiu-transform.webp"
         },
         {
           "beat": "退出CG继续聊天",
           "node": "tc_c08_huangqiuqiu_her_decision_028",
           "form": "human",
-          "file": "assets/ten-chapter/huangqiuqiu/char-huangqiuqiu-human-base.webp"
+          "file": "assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-human-base.webp"
         }
       ]
     },
     {
       "id": "tc-cg-piao-wedding",
-      "file": "assets/ten-chapter/cg/cg-piao-wedding.webp",
+      "file": "assets/current/cg/tc-cg-piao-wedding.webp",
       "enterAt": "tc_c10_common_piao_wedding_04",
       "allowedNodeIds": [
         "tc_c10_common_piao_wedding_04"

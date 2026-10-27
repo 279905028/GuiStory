@@ -1,0 +1,51 @@
+{
+  "scope": "v1.1前三章文稿修订；仅复核共通篇、选线入口和七线第三章，不覆盖并行支线和后日谈验收",
+  "reviewedPrefixHashes": {
+    "第一章-回到毕节.md": "44854facfc2a9d0fd91913ebfd6b6dc5477ec07d99fe8f2c9299edf1a3f6afc2",
+    "第二章-十四天.md": "8e66ec672920b1a1870bdbcdd2c40f361ef811a7087b08f07a543ba102599619",
+    "第三章-选一条路.md": "14b0ce79e701b2ad5996a3d9cd5c6a8ffaaa7111ddbe4b3765a2037edbd5151e",
+    "罗小满-练习本.md": "f28e770b4041a68346211ff3885112dec97880566c03eabcbd7adf46e83965f0",
+    "周栀-十一点四十七分.md": "5af9f2891e12c4827a715b6f51573ae36547667ab9eaf295fb13428236b57c54",
+    "孟遥-旧题.md": "73bd8bacb9506c78421bc0b5494f83d96d666738779e69f7f89239da0ac05303",
+    "叶岚-下线.md": "3f4242fb8e7626606b967c7fab1459e56cb6f7d04dcc98fda0cc30680119acc4",
+    "飘-空白页.md": "9c2f2896cb6a450407bca0be28fd4cafbb671d1c739fd421b5df55ce9fb056e5",
+    "朋友与职业-夜班.md": "64eb40dd9c099e357d1b105accaf11070f9acac0b7b9d33c93dcfefb358653fc",
+    "黄球球-门后.md": "5c8c133f1bfca11ea46503f79a53cdcea67690d8f4996c17a13464e71e47475d"
+  },
+  "sourceFileHashes": {
+    "第一章-回到毕节.md": "44854facfc2a9d0fd91913ebfd6b6dc5477ec07d99fe8f2c9299edf1a3f6afc2",
+    "第二章-十四天.md": "8e66ec672920b1a1870bdbcdd2c40f361ef811a7087b08f07a543ba102599619",
+    "第三章-选一条路.md": "14b0ce79e701b2ad5996a3d9cd5c6a8ffaaa7111ddbe4b3765a2037edbd5151e",
+    "罗小满-练习本.md": "fe8b4a6e31cd39674879e161fb9edb1a996cf435501d8007c416b44790b43778",
+    "周栀-十一点四十七分.md": "db02c362cec86169a608e765c1a57370f8f61c73704c8b78d625372a5cc60f4d",
+    "孟遥-旧题.md": "591cc31cf8d21f1569b2e5fa079ce91cc0b764ad1dffd5531b6b875efd01b584",
+    "叶岚-下线.md": "a49f36e5484a6daa9a2263f0bb30a8bcca5ed34bc685e2fe40de424e468ae1fd",
+    "飘-空白页.md": "bc2a16d34276c5d5147bcc923b6cab3f21c8304731a3a1b9e2f4e56386d57460",
+    "朋友与职业-夜班.md": "acd214b7e9b9baf2d1a3e5be8656fb2ec991f21bd9a40052945dcb3eb1bb376b",
+    "黄球球-门后.md": "e3ce0584dc41d42c1817ff2360b917b4dc9fc7ad86e2f464a985a1037c5df31a"
+  },
+  "reviewedFiles": 10,
+  "reviewedChoices": 20,
+  "reviewedOptions": 45,
+  "fullManuscriptChoiceIds": 69,
+  "fullManuscriptOptions": 143,
+  "ordinaryCommonPaths": 2048,
+  "hiddenCommonPaths": 1024,
+  "nominalCommonAssignments": 4096,
+  "routeChapterVariants": 14,
+  "semanticBranchRegressionPassed": true,
+  "baselineFiles": 16,
+  "protectedFiles": 8,
+  "outsideReviewedScopeChanges": [
+    "罗小满-练习本.md",
+    "周栀-十一点四十七分.md",
+    "孟遥-旧题.md",
+    "叶岚-下线.md",
+    "飘-空白页.md",
+    "朋友与职业-夜班.md",
+    "黄球球-门后.md"
+  ],
+  "checkedLinks": 60,
+  "parallelWork": "毛狼与飘感情线与公共后日谈另有聊天并行实施；已保留其新增内容。本结果绑定reviewed快照，不代表新增整线验收。",
+  "growthAudit": "原40%—60%篇幅结果为历史；并行新增支线经用户允许超过60%，完整篇幅由该任务另行核算。"
+}

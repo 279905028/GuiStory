@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-27",
+  "status": "PASS",
+  "source": "/Users/yipin/Desktop/cjb",
+  "target": "/Users/yipin/Desktop/cjb-v1.1",
+  "sourceBaselineFiles": 3286,
+  "inheritedFiles": 3285,
+  "byteIdenticalInheritedFiles": 3272,
+  "intentionallyModifiedInheritedFiles": [
+    "AGENTS.md",
+    "README.md",
+    "TODO与多窗口提示词-v0.4.md",
+    "deployment/cloudflare-ambd/cloudflare.config.ts",
+    "deployment/cloudflare-ten-chapter/cloudflare.config.ts",
+    "deployment/cloudflare/cloudflare.config.ts",
+    "deployment/miaoda-ten-chapter/upload-assets.cjs",
+    "qa/README.md",
+    "qa/art-new-characters-capture.cjs",
+    "任务拆分/总览.md",
+    "总览.md",
+    "项目文档/README.md",
+    "项目文档/故事/v1.1润色稿/README.md"
+  ],
+  "omittedBindingFiles": [
+    "deployment/miaoda-ten-chapter/app/.spark/meta.json"
+  ],
+  "sharedFileInodes": 0,
+  "symlinks": 0,
+  "unchangedRuntimeFiles": [
+    "index.html",
+    "styles.css",
+    "story.js",
+    "engine.js",
+    "game.js",
+    "player-runtime.js",
+    "save-compat.js",
+    "assets/runtime-ten-chapter-manifest.json"
+  ],
+  "oldProjectChangedFiles": [
+    "README.md",
+    "TODO与多窗口提示词-v0.4.md"
+  ],
+  "otherOldProjectProtectedFiles": 3284,
+  "git": {
+    "root": "/Users/yipin/Desktop/cjb-v1.1",
+    "branch": "codex/v1.1-development",
+    "remotes": [],
+    "committed": false,
+    "pushed": false
+  },
+  "checks": [
+    {
+      "name": "formal-build-check",
+      "command": [
+        "node",
+        "任务拆分/三章扩展/build-story.cjs",
+        "--check"
+      ],
+      "exitCode": 0,
+      "log": "formal-build-check.log"
+    },
+    {
+      "name": "runtime-assets-check",
+      "command": [
+        "node",
+        "deployment/cloudflare-ten-chapter/prepare.cjs",
+        "--check"
+      ],
+      "exitCode": 0,
+      "log": "runtime-assets-check.log"
+    },
+    {
+      "name": "capture-script-syntax",
+      "command": [
+        "node",
+        "--check",
+        "qa/art-new-characters-capture.cjs"
+      ],
+      "exitCode": 0,
+      "log": "capture-script-syntax.log"
+    },
+    {
+      "name": "isolation-guards",
+      "command": [
+        "node",
+        "-e",
+        "\nconst fs = require('node:fs');\nconst vm = require('node:vm');\nconst assert = require('node:assert/strict');\nconst configs = ['deployment/cloudflare/cloudflare.config.ts', 'deployment/cloudflare-ambd/cloudflare.config.ts', 'deployment/cloudflare-ten-chapter/cloudflare.config.ts'];\nfor (const file of configs) {\n  const source = fs.readFileSync(file, 'utf8').replace(/^import .*;\\r?\\n/m, '').replace('export default defineConfig(', 'defineConfig(');\n  let reachedConfig = false;\n  assert.throws(() => vm.runInNewContext(source, {defineConfig: () => {reachedConfig = true;}}), /v1\\.1.*尚未配置/);\n  assert.equal(reachedConfig, false);\n}\nlet required = false;\nassert.throws(() => vm.runInNewContext(fs.readFileSync('deployment/miaoda-ten-chapter/upload-assets.cjs', 'utf8'), {require: () => {required = true; throw new Error('unexpected require');}}), /v1\\.1.*尚未配置/);\nassert.equal(required, false);\nassert.equal(fs.existsSync('deployment/miaoda-ten-chapter/app/.spark/meta.json'), false);\nconst capture = fs.readFileSync('qa/art-new-characters-capture.cjs', 'utf8');\nassert(capture.includes(\"const root=__dirname+'/';\"));\nassert(!capture.includes('/Users/yipin/Desktop/cjb/'));\nconsole.log('PASS: 3 Cloudflare guards, 1 Miaoda guard, binding removed, screenshot path local; no network or upload performed.');\n"
+      ],
+      "exitCode": 0,
+      "log": "isolation-guards.log"
+    }
+  ],
+  "runtime": {
+    "status": "PASS",
+    "readOnly": true,
+    "fileCount": 146,
+    "imageCount": 138,
+    "totalBytes": 182160244,
+    "entryReferences": [
+      "assets/character-variants/wenwen-option-b-production-20261026/ui/cover-desktop.webp",
+      "assets/character-variants/wenwen-option-b-production-20261026/ui/cover-mobile.webp",
+      "engine.js",
+      "game.js",
+      "player-runtime.js",
+      "save-compat.js",
+      "story.js",
+      "styles.css"
+    ]
+  },
+  "notPerformed": [
+    "v1.1 剧情接入",
+    "存档版本变更",
+    "写入式构建",
+    "浏览器与设备验收",
+    "上传或部署"
+  ],
+  "localDocumentLinksChecked": 285
+}

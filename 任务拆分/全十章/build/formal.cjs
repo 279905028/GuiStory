@@ -5,12 +5,14 @@ const path = require('node:path');
 const { spawnSync } = require('node:child_process');
 const { loadProject, compileProject, hash, base, root } = require('./compiler.cjs');
 const { readJSON } = require('./json.cjs');
+const { loadArtRevision } = require('./art-revision.cjs');
+const artPaths = require('../../../scripts/art-paths.cjs');
 const json = value => JSON.stringify(value, null, 2) + '\n';
 const check = (ok, message) => { if (!ok) throw new Error(message); };
 const relative = file => path.relative(root, file).split(path.sep).join('/');
 const outputPaths = {
   story: 'story.js',
-  runtime: 'assets/runtime-ten-chapter-manifest.json',
+  runtime: 'assets/manifests/runtime-ten-chapter-manifest.json',
   sourceMap: '任务拆分/全十章/校验/E09/source-map.json',
   report: '任务拆分/全十章/校验/E09/build-report.json'
 };
@@ -21,7 +23,7 @@ const fadeOutNode = 'tc_c08_huangqiuqiu_her_decision_020';
 
 function localFile(file) {
   check(typeof file === 'string' && !path.isAbsolute(file), '必须使用项目内相对文件路径');
-  const full = path.resolve(root, file);
+  const full = artPaths.resolvePath(file);
   check(full.startsWith(root + path.sep), '文件路径越出项目：' + file);
   check(fs.realpathSync(full).startsWith(fs.realpathSync(root) + path.sep), '文件指向项目外：' + file);
   check(fs.statSync(full).isFile(), '路径不是文件：' + file);
@@ -30,7 +32,7 @@ function localFile(file) {
 
 function fingerprint(file) {
   const bytes = fs.readFileSync(localFile(file));
-  return { path: file, bytes: bytes.length, sha256: hash(bytes) };
+  return { path: artPaths.relativePath(file), bytes: bytes.length, sha256: hash(bytes) };
 }
 
 function sameFingerprint(row, context) {
@@ -128,7 +130,7 @@ function prepareFormal(options = {}) {
   const project = loadProject(manifestPath);
   check(project.manifest.mode === 'candidate', '正式构建只接受完整 candidate 清单');
   const result = compileProject(project);
-  const adoption = readJSON(localFile(adoptionPath));
+  const adoption = loadArtRevision().adopt(readJSON(localFile(adoptionPath)));
   const mapping = readJSON(localFile(sceneMapPath));
   check(mapping.contractVersion === result.story.contractVersion && mapping.contentRevision === result.story.contentRevision, 'A06 场景映射版本不一致');
   const evidenceInputs = [...(adoption.inputFingerprints || []), ...(mapping.sourceFingerprints || [])].map(row => sameFingerprint(row, 'A06 来源'));
@@ -140,9 +142,9 @@ function prepareFormal(options = {}) {
   const presentationDirectory = path.join(base, 'presentation');
   const presentationFiles = fs.readdirSync(presentationDirectory).filter(name => /\.(?:json|cjs)$/.test(name)).map(name => relative(path.join(presentationDirectory, name)));
   check(presentationFiles.includes('任务拆分/全十章/presentation/prepare-bindings.cjs'), '正式演出缺少可复现绑定生成器');
-  const inputPaths = [...new Set([...project.inputFiles.map(row => row.file), adoptionPath, sceneMapPath, ...evidenceInputs.map(row => row.path), ...presentationFiles.filter(file => file.endsWith('.json'))])].sort();
+  const inputPaths = [...new Set([...project.inputFiles.map(row => row.file), adoptionPath, sceneMapPath, artPaths.manifestPath, ...evidenceInputs.map(row => row.path), ...presentationFiles.filter(file => file.endsWith('.json'))].map(artPaths.relativePath))].sort();
   const inputs = inputPaths.map(fingerprint);
-  const builderPaths = [...new Set([...result.report.builderFiles.map(row => row.file), relative(__filename), ...presentationFiles.filter(file => file.endsWith('.cjs'))])].sort();
+  const builderPaths = [...new Set([...result.report.builderFiles.map(row => row.file), relative(__filename), '任务拆分/全十章/build/art-revision.cjs', 'scripts/art-paths.cjs', ...presentationFiles.filter(file => file.endsWith('.cjs'))].map(artPaths.relativePath))].sort();
   const builders = builderPaths.map(fingerprint), runtimeFiles = runtimePaths.map(fingerprint);
   const storyText = '// E09 正式十章构建；请修改章节源或演出绑定后重新构建，勿手改。\nwindow.RAIN_STORY = ' + JSON.stringify(result.story, null, 2) + ';\n';
   const sourceMapText = json(result.sourceMap);

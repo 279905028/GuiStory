@@ -38,7 +38,7 @@ function verify(root = path.resolve(__dirname, '..')) {
   assert.deepEqual(actual, names.slice().sort(), '包内有缺失或未登记文件');
   const contentHash = hash(JSON.stringify(manifest.files));
   assert.equal(contentHash, manifest.contentSha256, '总清单指纹不符');
-  const runtime = JSON.parse(fs.readFileSync(path.join(root, 'game/assets/runtime-ten-chapter-manifest.json')));
+  const runtime = JSON.parse(fs.readFileSync(path.join(root, 'game/assets/manifests/runtime-ten-chapter-manifest.json')));
   for (const row of [runtime.story, ...runtime.runtimeFiles, ...runtime.assets]) {
     const item = manifest.files.find(f => f.path === 'game/' + row.path);
     assert(item && item.sha256 === row.sha256 && item.bytes === row.bytes, '正式运行清单不一致：' + row.path);

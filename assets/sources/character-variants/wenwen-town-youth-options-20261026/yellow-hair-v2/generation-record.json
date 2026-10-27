@@ -1,0 +1,119 @@
+{
+  "createdOn": "2026-10-26",
+  "tool": "image_gen built-in",
+  "status": "candidate-awaiting-user-selection",
+  "requestedChange": "三套头发均染成金黄色；保留原有短寸、黑色眉毛、脸、衣装与姿势",
+  "prompts": "prompts.json",
+  "encoder": {
+    "sharp": "0.35.5",
+    "webp": "1.6.0",
+    "lossless": true,
+    "effort": 6
+  },
+  "assets": [
+    {
+      "id": "A",
+      "slug": "a-sport",
+      "reference": {
+        "path": "assets/character-variants/wenwen-town-youth-options-20261026/a-sport.webp",
+        "sha256": "9a9116d7c0090273e7d9f52d08c344f1a1978f34228a2f8fc99bceb7c716dd80"
+      },
+      "generatedPath": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a176c9-54d4-7892-b8ed-97b11d68e4d4/exec-4f6cdb33-8130-4367-8123-5760410b14b5.png",
+      "source": {
+        "path": "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/originals/a-sport.png",
+        "sha256": "3b786636ad8a7daa23fd3a942458ec5b7756b781d012ef2ef872172768e9c44c",
+        "bytes": 1517168
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/a-sport.webp",
+        "sha256": "3024c8e801bf9aa024bdb7b217a4d34865115ca37e8046388919455910a922a6",
+        "bytes": 502120,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 2717040,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "fullyTransparent": 1096321
+      }
+    },
+    {
+      "id": "B",
+      "slug": "b-denim",
+      "reference": {
+        "path": "assets/character-variants/wenwen-town-youth-options-20261026/b-denim.webp",
+        "sha256": "e1e12269f32733e7e2eee467bd7bd3f772d7b76bda5829122e330a20987c4f75"
+      },
+      "generatedPath": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a176c9-54d4-7892-b8ed-97b11d68e4d4/exec-e70cbcdc-5891-4158-b501-b78974b63639.png",
+      "source": {
+        "path": "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/originals/b-denim.png",
+        "sha256": "74e88cc8efdbf3b6d7e90f8598896febb4509cdec35b00b3b65c3b32f7999893",
+        "bytes": 1830967
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp",
+        "sha256": "6dd0229f18602e1d6914d942e0a766e24203cb4e9b314894f9fba18c8597c38c",
+        "bytes": 663292,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 2733180,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "fullyTransparent": 1102394
+      }
+    },
+    {
+      "id": "C",
+      "slug": "c-plaid",
+      "reference": {
+        "path": "assets/character-variants/wenwen-town-youth-options-20261026/c-plaid.webp",
+        "sha256": "8bd2821c9c5a5d44bf3268f3190ca4956476037c50aaa8104acd40bbfd611166"
+      },
+      "generatedPath": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a176c9-54d4-7892-b8ed-97b11d68e4d4/exec-c100700b-c8c1-4d36-9639-dbfde7b75ed8.png",
+      "source": {
+        "path": "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/originals/c-plaid.png",
+        "sha256": "985b6f55cc7dea006e72d94b4dcbaa4ac9d079cfa9f0f1b4ea4a05fe966f2a7e",
+        "bytes": 1681355
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/c-plaid.webp",
+        "sha256": "100066466bb21f5e4005fcab57835ee398b1db7b8f310559b04769ac5e717405",
+        "bytes": 577470,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 2736839,
+        "minAlpha": 0,
+        "maxAlpha": 254,
+        "fullyTransparent": 1096862
+      }
+    }
+  ],
+  "review": {
+    "visual": "已目视核对三套金黄色短发、黑色眉毛、脸部与原衣装姿势延续；全身完整，明暗底透明边缘无明显异常。",
+    "runtimeIntegration": "未执行，候选未选用",
+    "runtimeReplacement": false
+  }
+}

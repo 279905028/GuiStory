@@ -1,0 +1,1017 @@
+{
+  "schemaVersion": 1,
+  "revision": "wenwen-option-b-yellow-20261026",
+  "date": "2026-10-26",
+  "status": "adopted",
+  "tool": "image_gen built-in",
+  "adoptedReference": "assets/character-variants/wenwen-town-youth-options-20261026/yellow-hair-v2/b-denim.webp",
+  "encoder": {
+    "sharp": "0.35.5",
+    "webp": "1.6.0",
+    "lossless": true,
+    "effort": 6
+  },
+  "assets": [
+    {
+      "id": "base",
+      "kind": "sprite",
+      "label": "base",
+      "replaces": [
+        "assets/char-wenwen.webp",
+        "assets/char-wenwen.png",
+        "assets/ten-chapter/characters/wenwen/char-wenwen-human-base.webp"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-base.png",
+        "sha256": "09b320ffa8334fdab197fbba1e7ef3be2dd1aa2f48115195d0ff815a8be4f5c3",
+        "bytes": 2603020
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-base.webp",
+        "sha256": "4594966f89e7304b040592d0d5684a654fbeb25ad19c97e7deecf945e736a507",
+        "bytes": 1351162,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1732557
+      }
+    },
+    {
+      "id": "cover-desktop",
+      "kind": "ui",
+      "label": "cover-desktop",
+      "replaces": [
+        "assets/ten-chapter/ui/cover-desktop.webp",
+        "assets/cover-b-desktop.webp",
+        "assets/cover-b-desktop.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/cover-desktop.png",
+        "sha256": "3f3ee423a65892c52b3b49674ddb2298ef539cd09a863809e9c978726f56f83d",
+        "bytes": 2738826
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/ui/cover-desktop.webp",
+        "sha256": "9b45e453b099b95fb92d77f300ac7863027c7c0aa7bd7f5e41b0deaf55afe820",
+        "bytes": 1956680,
+        "format": "webp",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0
+      }
+    },
+    {
+      "id": "cover-mobile",
+      "kind": "ui",
+      "label": "cover-mobile",
+      "replaces": [
+        "assets/ten-chapter/ui/cover-mobile.webp",
+        "assets/cover-b-mobile.webp",
+        "assets/cover-b-mobile.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/cover-mobile.png",
+        "sha256": "904d543a6d862804ee6c1fdcd57e832d3a32622d1bc7af6852dfdec8cbc97f09",
+        "bytes": 2705645
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/ui/cover-mobile.webp",
+        "sha256": "fe05287a3e553e063ddf17388da6a419ba6ab7e4bcf91be44feac542a5afc8e7",
+        "bytes": 2006698,
+        "format": "webp",
+        "width": 941,
+        "height": 1672,
+        "hasAlpha": false
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0
+      }
+    },
+    {
+      "id": "poster-A",
+      "kind": "poster",
+      "label": "poster-A",
+      "replaces": [
+        "assets/release-posters-v1.0-20261023/poster-A-cinematic.webp"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/poster-A.png",
+        "sha256": "a9518f21cb7d439644bcd7bfd51f7909d7abe6c39fe45848d542365788334b20",
+        "bytes": 2593470
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/posters/poster-A.webp",
+        "sha256": "9196de8548895001ce6d384fb46db022fd24ec9c27ca0c051bc839e137b8df2a",
+        "bytes": 1990168,
+        "format": "webp",
+        "width": 941,
+        "height": 1672,
+        "hasAlpha": false
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0
+      }
+    },
+    {
+      "id": "poster-B",
+      "kind": "poster",
+      "label": "poster-B",
+      "replaces": [
+        "assets/release-posters-v1.0-20261023/poster-B-nightshift.webp"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/poster-B.png",
+        "sha256": "c89b8458acba5c246ecf8c4658bd99e2de40d47dbc6efb4acd4a679e625b69a2",
+        "bytes": 2314946
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/posters/poster-B.webp",
+        "sha256": "312c5842bddaa2bc4a27792114b4951f0924c2b944cb543b82f656f56f6103a6",
+        "bytes": 1759398,
+        "format": "webp",
+        "width": 941,
+        "height": 1672,
+        "hasAlpha": false
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0
+      }
+    },
+    {
+      "id": "expression-smile",
+      "kind": "sprite",
+      "label": "微笑",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-smile.png",
+        "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-smile.webp"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-expression-smile.png",
+        "sha256": "afe386c0776e1c7be9b96653ed9df83b928062f5f44a9a11869200c51e73c72d",
+        "bytes": 2478284
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-expression-smile.webp",
+        "sha256": "0bc5699d798c369bebe860b5a8ef7a2fc543332ced9582a1ed86393b7d3394a4",
+        "bytes": 1279638,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1631278
+      }
+    },
+    {
+      "id": "expression-serious",
+      "kind": "sprite",
+      "label": "认真",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-serious.png",
+        "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-serious.webp"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-expression-serious.png",
+        "sha256": "59896c24243c79c8ec1b4c1406af3d9922686831c2d095b8a87d88b9cff87fb3",
+        "bytes": 2464930
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-expression-serious.webp",
+        "sha256": "b0f10925da8305802dc0c00ea012d2be72283ad324325bf857aeed510988e635",
+        "bytes": 1242130,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1629615
+      }
+    },
+    {
+      "id": "expression-hesitant",
+      "kind": "sprite",
+      "label": "犹豫",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-hesitant.png",
+        "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-hesitant.webp"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-expression-hesitant.png",
+        "sha256": "36e49fd2873c8113dcfeaed9c5630e4c0c0735b73006a5640d65c3e2e22b7960",
+        "bytes": 2452634
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-expression-hesitant.webp",
+        "sha256": "2db409409c7fb699cf4303675b27967c1eb646174873fdecdb03821622a859e6",
+        "bytes": 1239320,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1627040
+      }
+    },
+    {
+      "id": "expression-surprised",
+      "kind": "sprite",
+      "label": "惊讶",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-surprised.png",
+        "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-surprised.webp"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-expression-surprised.png",
+        "sha256": "cfd83ea32d994e2b30067513a8a4b9052f27dd59ee44d491b15fc27f312ab9e5",
+        "bytes": 2489663
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-expression-surprised.webp",
+        "sha256": "5dfd02fa823b295ffc59c5a9f4998d38ee4f1f8055051053d0b14aaaab1adaa8",
+        "bytes": 1243826,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1758568
+      }
+    },
+    {
+      "id": "expression-displeased",
+      "kind": "sprite",
+      "label": "不悦",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-displeased.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-displeased.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-expression-displeased.png",
+        "sha256": "d52e02541865fc07358e3498e89745e871a3e28cdf86c3cad3f2f3f086e48b99",
+        "bytes": 2476603
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-expression-displeased.webp",
+        "sha256": "b8d4576d7c6b0e715f70643b21e188398c1ab7654b76961e87144efef38149b5",
+        "bytes": 1266688,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1741470
+      }
+    },
+    {
+      "id": "expression-downcast",
+      "kind": "sprite",
+      "label": "低落",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-downcast.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-downcast.png",
+        "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-downcast.webp"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-expression-downcast.png",
+        "sha256": "e9cf66a7626a8731146628fbda1de914ac8ae1b5340e892ddc1d22e94c8bc08e",
+        "bytes": 2465033
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-expression-downcast.webp",
+        "sha256": "3064f7ee4d4ef9c0bf6bd1853e879c55ce25f6f80f742d347f38cd57e56f12f6",
+        "bytes": 1252352,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1752115
+      }
+    },
+    {
+      "id": "expression-embarrassed",
+      "kind": "sprite",
+      "label": "尴尬",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-embarrassed.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-expression-embarrassed.png",
+        "sha256": "b082d679a6b6ea5df7b20cc36194e7b1ad07929cab87bfd75ab8a19adbc0a6f2",
+        "bytes": 2447862
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-expression-embarrassed.webp",
+        "sha256": "1330767b3c955e929244fa622904363b511c36b5c5e0b277b3da8e01e8175a7e",
+        "bytes": 1240788,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1755249
+      }
+    },
+    {
+      "id": "expression-relieved",
+      "kind": "sprite",
+      "label": "释然",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-relieved.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-relieved.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-expression-relieved.png",
+        "sha256": "fe53d20e5c62ff2264657b425405b5103ea3da0799564bbdd281fa158b98c07f",
+        "bytes": 2472086
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-expression-relieved.webp",
+        "sha256": "61d7b1acecc9db9de6094553d6aff4ce0d3e19cb33ae1e8e779f7d109ff4c6c5",
+        "bytes": 1264074,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1749314
+      }
+    },
+    {
+      "id": "expression-guilty",
+      "kind": "sprite",
+      "label": "愧疚",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-guilty.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-expression-guilty.png",
+        "sha256": "4c8eff0116b40e97ecea63b3148ef60b9d91f1a8c52c32cae387b3ebfe7b5b65",
+        "bytes": 2478084
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-expression-guilty.webp",
+        "sha256": "9fea4a7d32e92e3afbd108c0befd68e298cf0737945758f7f21148f365a02bf0",
+        "bytes": 1251660,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1754367
+      }
+    },
+    {
+      "id": "expression-determined",
+      "kind": "sprite",
+      "label": "坚定",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-determined.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-expression-determined.png",
+        "sha256": "eb1a0bacd8b8df32be6974a8a839368c3d697516576aa28643319a913eea5e11",
+        "bytes": 2470817
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-expression-determined.webp",
+        "sha256": "a52718f0c350a1a7d51632102481e2fe9390b55d705491d9c6cca56421ee1b13",
+        "bytes": 1245586,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1758659
+      }
+    },
+    {
+      "id": "expression-tired",
+      "kind": "sprite",
+      "label": "疲惫",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-tired.png",
+        "assets/ten-chapter/characters/wenwen/char-wenwen-human-expression-tired.webp"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-expression-tired.png",
+        "sha256": "bad7776800e705e151de468a5bc3acaaf015f49e17e63f11f2d9366483cd0dde",
+        "bytes": 2464886
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-expression-tired.webp",
+        "sha256": "08a99cc834e2e11d8aeccec261f79e3f9d6b7cd74aa275bc9d59fd095181adb7",
+        "bytes": 1244782,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1737897
+      }
+    },
+    {
+      "id": "expression-wry",
+      "kind": "sprite",
+      "label": "苦笑",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-expression-wry.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-expression-wry.png",
+        "sha256": "aec5d96567857c91457cfda7b16aa2fcfdfcfc56d01ccdc901d4a80ee867add7",
+        "bytes": 2469757
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-expression-wry.webp",
+        "sha256": "8b660bb996793f3e2e4a5937ea4ceccfac37b5e9b8374b474286358faf169853",
+        "bytes": 1245276,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1748354
+      }
+    },
+    {
+      "id": "action-wave",
+      "kind": "sprite",
+      "label": "招手",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-wave.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-wave.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-action-wave.png",
+        "sha256": "2972b67bcd518b60312143f478aa2f39e5831b429f7aa8f8750cf9e152087f31",
+        "bytes": 2582160
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-action-wave.webp",
+        "sha256": "2b3cd5119b46446fe6c533dbf66fa6f09d6c255a86702d6044bec36569945a17",
+        "bytes": 1324734,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1655836
+      }
+    },
+    {
+      "id": "action-thinking",
+      "kind": "sprite",
+      "label": "思考",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-thinking.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-thinking.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-action-thinking.png",
+        "sha256": "a64b05aee1918f6996a705fb4d41a0e600ca182910760266c12585909f6dac8e",
+        "bytes": 2496971
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-action-thinking.webp",
+        "sha256": "2209e9731ad528f24721251df5e36b5e1ba8dbcb7dcf760db6b9ce56d3bf3914",
+        "bytes": 1241872,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1780085
+      }
+    },
+    {
+      "id": "action-explaining",
+      "kind": "sprite",
+      "label": "解释",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-explaining.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-explaining.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-action-explaining.png",
+        "sha256": "018bf152b1032d0cb1cfaef852e4a4a36cf7232a0c7afee8f7a30e07fe2033e3",
+        "bytes": 2452667
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-action-explaining.webp",
+        "sha256": "4fae44c01cb1b80fc71bccee247fe37ee3aae9a8c99f17b7924638d2212a983d",
+        "bytes": 1232396,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1780408
+      }
+    },
+    {
+      "id": "action-repairing",
+      "kind": "sprite",
+      "label": "低头检查",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-repairing.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-repairing.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-action-repairing.png",
+        "sha256": "e22332abf626a3b62620d4e632a47fc7160c18f1991f54a5c47b83cfdd0e2a02",
+        "bytes": 2481959
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-action-repairing.webp",
+        "sha256": "b805499e4a7726fc36995d2b141b57e7bc17624ae6acbc8ef36a0399f57cacc7",
+        "bytes": 1221194,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1880381
+      }
+    },
+    {
+      "id": "action-phone",
+      "kind": "sprite",
+      "label": "查看手机",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-phone.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-phone.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-action-phone.png",
+        "sha256": "32ae06a1cf36dc4f2c822b77d68c6531f402ac6df8e647aaaa6214cc893ff697",
+        "bytes": 2495441
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-action-phone.webp",
+        "sha256": "4438192a4159d61d6d7f48e194e5a998d53f76634c6878788cbcb121e182b733",
+        "bytes": 1243176,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1785582
+      }
+    },
+    {
+      "id": "action-listening",
+      "kind": "sprite",
+      "label": "抱臂倾听",
+      "replaces": [
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-listening.webp",
+        "assets/character-variants/expressions-v01-20261019/wenwen/char-wenwen-action-listening.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/char-wenwen-action-listening.png",
+        "sha256": "592c9009f6f08593ab2d1fdf9536c1665380702b166346b2242340213f28d1d6",
+        "bytes": 2526982
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/char-wenwen-action-listening.webp",
+        "sha256": "42a8cddf5a028d285fc8fed49d1254852295952f6c1f2aa9ca7057f5030487b7",
+        "bytes": 1228214,
+        "format": "webp",
+        "width": 1024,
+        "height": 1536,
+        "hasAlpha": true
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 1835730
+      }
+    },
+    {
+      "id": "cg-01-rain-return",
+      "kind": "cg",
+      "label": "cg-01-rain-return",
+      "replaces": [
+        "assets/cg/cg-01-rain-return.webp",
+        "assets/cg/cg-01-rain-return.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/cg-01-rain-return-v3.png",
+        "sha256": "96f6b4c2fe075f287a534f00c09e45aac521e1430eb9e616b2b0930d4579d494",
+        "bytes": 2544149
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/cg/cg-01-rain-return-v3.webp",
+        "sha256": "44c7e87a1cf7aa342c3b823baee2b42a88671bdabbb5ef1756bad19f16357f58",
+        "bytes": 1755888,
+        "format": "webp",
+        "width": 1670,
+        "height": 942,
+        "hasAlpha": false
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0
+      }
+    },
+    {
+      "id": "cg-02-xiaoman-mirror",
+      "kind": "cg",
+      "label": "cg-02-xiaoman-mirror",
+      "replaces": [
+        "assets/cg/cg-02-xiaoman-mirror.webp",
+        "assets/cg/cg-02-xiaoman-mirror.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/cg-02-xiaoman-mirror.png",
+        "sha256": "5f43efe612bf9dd3a382e0b3176d9da819ea67272b8a6fc2068bd0b65ab7327d",
+        "bytes": 2473730
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/cg/cg-02-xiaoman-mirror.webp",
+        "sha256": "052ba3704d4a787844e092e443a36faa3c761ad9b0e735ca32a98f0b78a10cb1",
+        "bytes": 1745286,
+        "format": "webp",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0
+      }
+    },
+    {
+      "id": "cg-03-zhouzhi-noodles",
+      "kind": "cg",
+      "label": "cg-03-zhouzhi-noodles",
+      "replaces": [
+        "assets/cg/cg-03-zhouzhi-noodles.webp",
+        "assets/cg/cg-03-zhouzhi-noodles.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/cg-03-zhouzhi-noodles.png",
+        "sha256": "c030ae521bd5e13f8b000da4180888c81b12794bb7fa8618966e0f9fbd267aa2",
+        "bytes": 2343037
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/cg/cg-03-zhouzhi-noodles.webp",
+        "sha256": "bfff45ee76b3e0530829706e32da6c62fe41a54377e12c5cb4c18308751ae382",
+        "bytes": 1669962,
+        "format": "webp",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0
+      }
+    },
+    {
+      "id": "cg-04-mengyao-camera",
+      "kind": "cg",
+      "label": "cg-04-mengyao-camera",
+      "replaces": [
+        "assets/cg/cg-04-mengyao-camera.webp",
+        "assets/cg/cg-04-mengyao-camera.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/cg-04-mengyao-camera.png",
+        "sha256": "34f7b49eddba9be4bc2bf8094af56fa794a7579a6006920d1c0c83a97e6ddfba",
+        "bytes": 2513525
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/cg/cg-04-mengyao-camera.webp",
+        "sha256": "af1ab347181cc3012cbe48c7c10f7763bf025599be1ea8b7addf57babfc8bac4",
+        "bytes": 1715710,
+        "format": "webp",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0
+      }
+    },
+    {
+      "id": "cg-05-yelan-inventory",
+      "kind": "cg",
+      "label": "cg-05-yelan-inventory",
+      "replaces": [
+        "assets/cg/cg-05-yelan-inventory.webp",
+        "assets/cg/cg-05-yelan-inventory.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/cg-05-yelan-inventory.png",
+        "sha256": "4c4939570d14b373f409b2aaa346800ad484432f5fb8b26e815a6f4a4d6b8b87",
+        "bytes": 1967024
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/cg/cg-05-yelan-inventory.webp",
+        "sha256": "9257b3390d85b366423bad5291bee3bebcb2689f84e2b7585901d8306d72dc6b",
+        "bytes": 1350754,
+        "format": "webp",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0
+      }
+    },
+    {
+      "id": "cg-06-maolang-confession",
+      "kind": "cg",
+      "label": "cg-06-maolang-confession",
+      "replaces": [
+        "assets/cg/cg-06-maolang-confession.webp",
+        "assets/cg/cg-06-maolang-confession.png",
+        "assets/character-variants/maolang-optionD-production-20261020/cg06-optionD.webp"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/cg-06-maolang-confession.png",
+        "sha256": "bb125731ad1566671452a4dd2a755e63b10c0edde271b980fac3e68d92f92b91",
+        "bytes": 2165202
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/cg/cg-06-maolang-confession.webp",
+        "sha256": "623a412f4e57a57178323cd25365d2f60918f64e9feae1cbb104966eb0b21ea4",
+        "bytes": 1542604,
+        "format": "webp",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0
+      }
+    },
+    {
+      "id": "cg-07-yelan-off-duty",
+      "kind": "cg",
+      "label": "cg-07-yelan-off-duty",
+      "replaces": [
+        "assets/cg/cg-07-yelan-off-duty.webp",
+        "assets/cg/cg-07-yelan-off-duty.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/cg-07-yelan-off-duty.png",
+        "sha256": "f09640e261649ef912602b6f6de533368e3f8995b842934e2de5a8d362050d00",
+        "bytes": 2648768
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/cg/cg-07-yelan-off-duty.webp",
+        "sha256": "0927392d22d69b082ee39adb782c30ee768d1fa64c4c21800be95cd2dd195046",
+        "bytes": 1905054,
+        "format": "webp",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0
+      }
+    },
+    {
+      "id": "cg-08-huangqiuqiu-listening",
+      "kind": "cg",
+      "label": "cg-08-huangqiuqiu-listening",
+      "replaces": [
+        "assets/cg/cg-08-huangqiuqiu-listening.webp",
+        "assets/cg/cg-08-huangqiuqiu-listening.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/cg-08-huangqiuqiu-listening.png",
+        "sha256": "c54b79bd77ed2b1fac4d2398240bfe1629fbce3e9859408995b5807d4da334d5",
+        "bytes": 1876403
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/cg/cg-08-huangqiuqiu-listening.webp",
+        "sha256": "95b28c0f9f2704fda7cded0b1bc37152484b2f0c1976b3d4d9edd09c73af72f3",
+        "bytes": 1325556,
+        "format": "webp",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0
+      }
+    },
+    {
+      "id": "cg-09-repair-handoff",
+      "kind": "cg",
+      "label": "cg-09-repair-handoff",
+      "replaces": [
+        "assets/cg/cg-09-repair-handoff.webp",
+        "assets/cg/cg-09-repair-handoff.png",
+        "assets/character-variants/maolang-optionD-production-20261020/cg09-optionD.webp",
+        "assets/character-variants/shijiang-optionA-20261020/cg09-shijiang-optionA.webp"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/cg-09-repair-handoff.png",
+        "sha256": "e0f92fed483a252c4ba405fe51aa25b634edcbe23522ad3cc0e5e316590782a0",
+        "bytes": 2317292
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/cg/cg-09-repair-handoff.webp",
+        "sha256": "17b0c92814e37ba7aa12079c70ad54fc934a1b571f2e73e028ad37f89d507d83",
+        "bytes": 1662002,
+        "format": "webp",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0
+      }
+    },
+    {
+      "id": "cg-13-xiaoman-night-stall",
+      "kind": "cg",
+      "label": "cg-13-xiaoman-night-stall",
+      "replaces": [
+        "assets/cg/cg-13-xiaoman-night-stall.webp",
+        "assets/cg/cg-13-xiaoman-night-stall.png"
+      ],
+      "source": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/originals/cg-13-xiaoman-night-stall.png",
+        "sha256": "952625e31585b8c7aab3aebe585a635199a6b7eb47498419949f5b9cfc0a512b",
+        "bytes": 2281080
+      },
+      "delivery": {
+        "path": "assets/character-variants/wenwen-option-b-production-20261026/cg/cg-13-xiaoman-night-stall.webp",
+        "sha256": "5421ff2c0d8b9e76b378c40d1e2468f0631d08e9ef497133abcb04a3c8b30d69",
+        "bytes": 1674744,
+        "format": "webp",
+        "width": 1672,
+        "height": 941,
+        "hasAlpha": false
+      },
+      "validation": {
+        "decodes": true,
+        "dimensionsEqual": true,
+        "alphaEqual": true,
+        "visiblePixelsEqual": true,
+        "invisibleRgbDifferences": 0
+      }
+    }
+  ],
+  "pending": []
+}

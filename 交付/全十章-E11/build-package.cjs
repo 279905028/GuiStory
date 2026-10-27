@@ -45,7 +45,7 @@ function inspectLegacy() {
   });
 }
 
-const runtime = readJSON('assets/runtime-ten-chapter-manifest.json');
+const runtime = readJSON('assets/manifests/runtime-ten-chapter-manifest.json');
 const e10 = readJSON('qa/ten-chapter/report.json');
 assert.equal(runtime.contentRevision, 'nightshift-20261022-r1');
 assert.equal(e10.status, 'local-engineering-passed-device-acceptance-pending');
@@ -60,12 +60,12 @@ for (const file of ['browser-results.json', 'firefox-results.json']) {
 const formal = require(path.join(root, '任务拆分/全十章/build/formal.cjs')).prepareFormal();
 for (const [file, content] of Object.entries(formal.files)) assert.equal(read(file).toString(), content, '正式产物不是当前源构建：' + file);
 const legacy = inspectLegacy();
-const runtimeFiles = [runtime.story.path, ...runtime.runtimeFiles.map(r => r.path), 'assets/runtime-ten-chapter-manifest.json', ...runtime.assets.map(r => r.path)].sort();
+const runtimeFiles = [runtime.story.path, ...runtime.runtimeFiles.map(r => r.path), 'assets/manifests/runtime-ten-chapter-manifest.json', ...runtime.assets.map(r => r.path)].sort();
 assert.equal(runtimeFiles.length, 146);
 assert.equal(new Set(runtimeFiles).size, runtimeFiles.length);
 const sources = [...new Set([...runtime.inputFiles, ...runtime.builderFiles].map(r => r.path).concat(Object.keys(formal.files).filter(f => !runtimeFiles.includes(f))))].sort();
 const evidence = ['qa/ten-chapter/report.json', ...e10.evidenceFingerprints.map(r => r.file)].sort();
-const frozen = new Map([runtime.story, ...runtime.runtimeFiles, ...runtime.assets, ...runtime.inputFiles, ...runtime.builderFiles, ...e10.evidenceFingerprints, fingerprint('assets/runtime-ten-chapter-manifest.json'), fingerprint('qa/ten-chapter/report.json')].map(row => [row.path || row.file, row.sha256]));
+const frozen = new Map([runtime.story, ...runtime.runtimeFiles, ...runtime.assets, ...runtime.inputFiles, ...runtime.builderFiles, ...e10.evidenceFingerprints, fingerprint('assets/manifests/runtime-ten-chapter-manifest.json'), fingerprint('qa/ten-chapter/report.json')].map(row => [row.path || row.file, row.sha256]));
 for (const [file, content] of Object.entries(formal.files)) frozen.set(file, hash(content));
 const stage = fs.mkdtempSync(path.join(os.tmpdir(), 'bijie-e11-package-'));
 const packageRoot = path.join(stage, packageName);

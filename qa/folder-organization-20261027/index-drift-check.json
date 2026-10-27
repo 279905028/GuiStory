@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "readOnlyFixture": true,
+  "results": [
+    {
+      "scenario": "runtime",
+      "driftRejected": true
+    },
+    {
+      "scenario": "source",
+      "driftRejected": true
+    }
+  ]
+}

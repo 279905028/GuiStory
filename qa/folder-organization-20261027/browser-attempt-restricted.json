@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-27",
+  "scope": "目录迁移后Chrome桌面与手机尺寸专项；实际正式story，独立临时浏览器存储",
+  "checks": [],
+  "screenshots": [],
+  "pageErrors": [],
+  "httpErrors": [],
+  "notTested": [
+    "Safari",
+    "实体手机",
+    "公网发布",
+    "v1.1新剧情接入"
+  ],
+  "passed": false,
+  "error": "Error: listen EPERM: operation not permitted 127.0.0.1\n    at Server.setupListenHandle [as _listen2] (node:net:1987:21)\n    at listenInCluster (node:net:2066:12)\n    at node:net:2275:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"
+}
